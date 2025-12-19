@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(xargs ls:*)",
+      "Bash(python extract_trial_terms.py:*)",
+      "Bash(/usr/bin/python3:*)",
+      "WebFetch(domain:witchcraft.history.ox.ac.uk)",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(wc -l echo \"\" echo \"Comparison with original Archive:\" ls /Users/sarahbonanno/Desktop/Witchcraft/Archive/*.pdf)"
+    ]
+  }
+}

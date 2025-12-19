@@ -1,0 +1,581 @@
+{
+  "trial_id": "w121",
+  "archive_ref": "B 7309 no 2",
+  "location": "Einville",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1593-09-13",
+    "end": "1593-09-18",
+    "duration_days": 5
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Nicolas Fontaine",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": false,
+      "occupation": ["shepherd", "herder"],
+      "origin": "Neufmaisons near Badonviller",
+      "residence": "Einville",
+      "marital_status": "married",
+      "spouse_name": "wife (name not recorded)",
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": true,
+        "retraction_renewed": false,
+        "devil_name": "Mre Jean",
+        "devil_appearance": "not described",
+        "seduction_date": "20 years earlier (circa 1573)",
+        "seduction_context": "When he was a shepherd at Moyen; devil offered him a purse full of écus and promised he would never want",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder", "white powder (for healing)"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["location not specified"],
+        "sabbat_activities": ["making hail to damage crops"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [],
+  "timeline": [
+    {
+      "date": "1593-07-18",
+      "event": "other",
+      "subject": "Nicolas Fontaine",
+      "details": "Made prisoner at Einville (8 weeks before September 13 interrogation)"
+    },
+    {
+      "date": "1593-09-13",
+      "event": "interrogation",
+      "subject": "Nicolas Fontaine",
+      "details": "Interrogation at Change de Nancy after appeal by Claude des Fours. Admitted to being witch, confessing malefices, but questioned about false accusations"
+    },
+    {
+      "date": "1593-09-15",
+      "event": "interrogation",
+      "subject": "Nicolas Fontaine",
+      "details": "Second interrogation; retracted all accusations against des Fours and others, claiming devil urged him to make false accusations out of hatred"
+    },
+    {
+      "date": "1593-09-15",
+      "event": "sentence",
+      "subject": "Claude des Fours and all others accused",
+      "details": "Rémy orders that des Fours and all others charged be renvoyés (released); Nicolas to publicly declare their innocence at stake before execution"
+    },
+    {
+      "date": "1593-09-17",
+      "event": "interrogation",
+      "subject": "Nicolas Fontaine",
+      "details": "Third interrogation; detailed confession of life history and malefices over 20 years"
+    },
+    {
+      "date": "1593-09-18",
+      "event": "death_requested",
+      "subject": "Nicolas Fontaine",
+      "details": "Rémy asks for death sentence"
+    },
+    {
+      "date": "1593-09-18",
+      "event": "death_approved",
+      "subject": "Nicolas Fontaine",
+      "details": "Change de Nancy approves death sentence"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "restrictions": "No torture mentioned; confessions appear voluntary"
+  },
+  "accomplices_named": [
+    {
+      "name": "Claude des Fours",
+      "location": "Einville",
+      "context": "Initially accused of being accomplice at sabbats; accusation retracted as false, made out of hatred over unpaid wheat debt",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Claude des Fours",
+      "location": "Einville",
+      "context": "Initially accused of being accomplice at sabbats; accusation retracted as false",
+      "already_executed": false
+    },
+    {
+      "name": "aunt of Claude des Fours (in religion)",
+      "location": "Einville",
+      "context": "Accused because she raised rent on a house he occupied; accusation retracted as false",
+      "already_executed": false
+    },
+    {
+      "name": "Nicolas Toussainct",
+      "location": "Einville",
+      "context": "Accused by Nicolas Fontaine; accusation retracted, made because witness called him witch",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Nicolas Toussainct",
+      "location": "Einville",
+      "context": "Accused by Nicolas Fontaine; accusation retracted",
+      "already_executed": false
+    },
+    {
+      "name": "le gros Colas",
+      "location": "Einville",
+      "context": "Accused by Nicolas Fontaine; accusation retracted, made because witness called him witch",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Didier Marlier",
+      "location": "Einville",
+      "context": "Accused by Nicolas Fontaine; accusation retracted",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Houart, pastre of Maixe",
+      "location": "Maixe",
+      "context": "Accused by Nicolas Fontaine; accusation retracted",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Jean Hacquart",
+      "location": "Einville",
+      "context": "Accused by Nicolas Fontaine; accusation retracted, made because witness called him witch",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Nicolas Fontaine",
+      "french": "d'accuser des gens de moyens, opulentz, et riches",
+      "english": "to accuse people of means, opulent, and rich",
+      "context": "Asked if he was encouraged to accuse wealthy people during interrogations at Einville"
+    },
+    {
+      "speaker": "Court note",
+      "french": "abus en l'exercice de la justice",
+      "english": "abuse in the exercise of justice",
+      "context": "Marginal note regarding the questioning practices at Einville, where Nicolas was specifically asked if wealthy people had been at sabbats"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Nicolas Fontaine",
+      "person2": "wife of Nicolas Fontaine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "prévôt had promised to return these to his wife as charity",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Fontaine",
+      "person2": "Jean Hacquart",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jean Hacquart dismissed him from his service",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Fontaine",
+      "person2": "Claude des Fours",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "des Fours had promised him 2 resaulx of wheat if he did not accuse him; devil knew he hated des Fours, who had not given him some wheat he had promised for feeding his animals",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Fontaine",
+      "person2": "aunt of des Fours",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "accused aunt of des Fours, who was in religion, because she raised rent of a house he occupied",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Nicolas was a shepherd/herder who moved frequently. Multiple disputes arose from: (1) unpaid wheat debt from Claude des Fours for feeding animals; (2) increased rent from des Fours' aunt; (3) dismissal from service by Jean Hacquart; (4) being blamed for not keeping animals properly; (5) being prevented from becoming bourgeois at Dieuze; (6) refused wine on credit by Philbert le Boulengier. Economic grievances directly motivated his malefice confessions and false accusations."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean of Moyen",
+      "victim_relationship_to_witness": "enemy",
+      "harm_category": "animal_death",
+      "harm_description": "horse killed",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Fontaine",
+      "method_alleged": "powder (first powder given by devil)",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "two men at Chambrey",
+      "victim_relationship_to_witness": "those who beat him",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses killed",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "men beat him",
+      "method_alleged": "powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "miller near Château-Salins",
+      "victim_relationship_to_witness": "employer who blamed him",
+      "harm_category": "animal_death",
+      "harm_description": "cow killed",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "miller blamed him for not keeping animals better",
+      "method_alleged": "powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "daughter of Joannes Messager",
+      "victim_relationship_to_witness": "daughter of man who prevented him becoming bourgeois",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "Joannes prevented him becoming bourgeois at Dieuze",
+      "method_alleged": "powder (via stick); would have liked to heal her with white powder but could not find master",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "son of Jean (Tarquimpol)",
+      "victim_relationship_to_witness": "son of man who fined his animals",
+      "harm_category": "human_illness",
+      "harm_description": "made ill, then cured",
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "Jean fined his animals",
+      "method_alleged": "powder to harm, white powder to cure",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Jean Hacquart",
+      "victim_relationship_to_witness": "former employer",
+      "harm_category": "animal_death",
+      "harm_description": "2 cows killed (intended to kill all)",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "Hacquart dismissed him from service",
+      "time_between_quarrel_and_harm": "after 9-year period when master did not appear",
+      "method_alleged": "powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "child of Philbert le Boulengier",
+      "victim_relationship_to_witness": "child of creditor",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "Philbert refused to give him wine on credit",
+      "time_between_quarrel_and_harm": "2 years earlier",
+      "method_alleged": "stick greased by master",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Agnes Petit, wife of prévôt of Einville",
+      "victim_relationship_to_witness": "prévôt's wife (also called Marie in first interrogation)",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "she accused him of not looking after the herd properly",
+      "method_alleged": "stick poisoned/greased by master",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "wife of maire des Cailles of Einville",
+      "victim_relationship_to_witness": "wife of mayor",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Nicolas Fontaine",
+      "precipitating_quarrel": "she would not let him stop for a moment outside her house when he had animals with him",
+      "method_alleged": "stick greased by master",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "crops (general)",
+      "harm_category": "crop_damage",
+      "harm_description": "hail made to damage crops",
+      "attributed_to": "Nicolas Fontaine (at sabbat)",
+      "method_alleged": "sabbat ritual - making hail",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "stick (greased/poisoned)",
+      "context": "Weapon used to kill multiple victims; master greased it to give it power",
+      "category": "magical"
+    },
+    {
+      "object": "black powder",
+      "context": "Given by devil to kill animals",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "Used for healing; tried to obtain to heal daughter of Joannes Messager but could not find master; used to cure son at Tarquimpol",
+      "category": "magical"
+    },
+    {
+      "object": "purse full of écus",
+      "context": "Devil's initial offering during seduction",
+      "category": "money"
+    },
+    {
+      "object": "2 resaulx of wheat",
+      "context": "Claude des Fours promised this if Nicolas would not accuse him; later wheat debt was promised for feeding animals",
+      "category": "food"
+    },
+    {
+      "object": "cow and other personal property",
+      "context": "Confiscated when imprisoned; promised to be returned to wife as charity",
+      "category": "agricultural"
+    },
+    {
+      "object": "wine",
+      "context": "Philbert le Boulengier refused to give him wine on credit, leading to murder of child",
+      "category": "food"
+    },
+    {
+      "object": "hat (wolf-skin)",
+      "context": "Master put hat on his head at sabbats which seemed to be made of wolf-skin; prevented him recognizing others",
+      "category": "clothing"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Einville",
+      "place_type": "village",
+      "context": "Location of original trial; residence for 6 years; site of multiple malefices"
+    },
+    {
+      "place_name": "Nancy (Change de Nancy)",
+      "place_type": "other",
+      "context": "Higher court where case was appealed"
+    },
+    {
+      "place_name": "Neufmaisons near Badonviller",
+      "place_type": "village",
+      "context": "Nicolas Fontaine's place of origin/birth"
+    },
+    {
+      "place_name": "Moyen",
+      "place_type": "village",
+      "context": "Where Nicolas worked as shepherd 20 years earlier; site of devil's seduction and first malefice"
+    },
+    {
+      "place_name": "Chambrey",
+      "place_type": "village",
+      "context": "Location where he lived and killed 2 horses"
+    },
+    {
+      "place_name": "Château-Salins",
+      "place_type": "village",
+      "context": "Location where he killed miller's cow"
+    },
+    {
+      "place_name": "Dieuze",
+      "place_type": "village",
+      "context": "Where he killed daughter of Joannes Messager; prevented from becoming bourgeois there"
+    },
+    {
+      "place_name": "Tarquimpol",
+      "place_type": "village",
+      "context": "Lived there for 2 years; made son ill then cured him"
+    },
+    {
+      "place_name": "St Nicolas",
+      "place_type": "village",
+      "context": "Place he passed through where he allegedly said publicly he would maintain charge against des Fours"
+    },
+    {
+      "place_name": "Maixe",
+      "place_type": "village",
+      "context": "Location of Jean Houart, pastre, whom he accused"
+    },
+    {
+      "place_name": "sabbat locations (unspecified)",
+      "place_type": "sabbat_location",
+      "context": "Claimed to attend sabbats where hail was made; wore wolf-skin hat that prevented recognition of others"
+    },
+    {
+      "place_name": "clouds",
+      "place_type": "other",
+      "context": "Claimed to recognize accomplices in clouds; judges rejected this as impossible due to obscurity"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail (made at sabbats to damage crops)"],
+    "animal_predation": ["wolf-skin (hat at sabbat)"],
+    "economic_hardship_indicators": [
+      "Nicolas worked as itinerant shepherd, moving frequently",
+      "Refused wine on credit",
+      "Disputes over unpaid wheat debt",
+      "Property confiscated when imprisoned",
+      "Rent increases caused resentment"
+    ],
+    "religious_calendar_references": ["Easter duty (did Easter duty during 9-year period when master did not appear)"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "prévôt of Einville",
+        "role": "prevot",
+        "location": "Einville"
+      },
+      {
+        "name": "Nicolas Rémy",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      },
+      {
+        "name": "judges at Einville",
+        "role": "judge",
+        "location": "Einville"
+      },
+      {
+        "name": "judges at Change de Nancy",
+        "role": "judge",
+        "location": "Nancy"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Imprisoned for 8 weeks at Einville before appeal; personal property including cow confiscated",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 0,
+    "hearsay_testimony_count": 0,
+    "oldest_accusation_years": 20,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "changed colour when asked about denouncing des Fours despite claiming no accomplices"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Claude des Fours",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "creditor (owed wheat), victim of false accusation",
+      "context": "Commercant of Einville who appealed to duke to bring case before Change de Nancy"
+    },
+    {
+      "name": "Jean Hacquart",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "former employer",
+      "context": "Dismissed Nicolas from service; suspected of requesting his imprisonment; animals killed by Nicolas; wife falsely accused"
+    },
+    {
+      "name": "Demenge Vieulxbois",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "employer or client",
+      "context": "Owner of animals killed by Nicolas with black powder"
+    },
+    {
+      "name": "Joannes de Dieuze / Joannes Messager",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "adversary",
+      "context": "Prevented Nicolas from being admitted as bourgeois at Dieuze; daughter killed in revenge"
+    },
+    {
+      "name": "Marie / Agnes Petit",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "wife of prévôt",
+      "context": "Wife of prévôt of Einville; killed because she accused him of not looking after herd properly"
+    },
+    {
+      "name": "Philbert le Boulengier",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "creditor",
+      "context": "Refused to give Nicolas wine on credit; child killed in revenge 2 years earlier"
+    },
+    {
+      "name": "maire des Cailles of Einville",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "official",
+      "context": "Wife killed because she would not let Nicolas stop outside her house with animals"
+    },
+    {
+      "name": "Nicolas Toussainct",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "community member who called him witch",
+      "context": "Falsely accused; accusation retracted"
+    },
+    {
+      "name": "le gros Colas",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "community member who called him witch",
+      "context": "Falsely accused; accusation retracted"
+    },
+    {
+      "name": "Didier Marlier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "unknown",
+      "context": "Wife falsely accused; accusation retracted"
+    },
+    {
+      "name": "Jean Houart",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "pastor at Maixe",
+      "context": "Pastre of Maixe; falsely accused; accusation retracted"
+    },
+    {
+      "name": "Jean of Moyen",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "enemy",
+      "context": "Horse killed with first powder given by devil"
+    },
+    {
+      "name": "miller near Château-Salins",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "employer who blamed him",
+      "context": "Cow killed after miller blamed Nicolas for not keeping animals better"
+    },
+    {
+      "name": "Jean of Tarquimpol",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "official who fined animals",
+      "context": "Fined Nicolas's animals; son made ill then cured with white powder"
+    },
+    {
+      "name": "the duke",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "sovereign",
+      "context": "Claude des Fours made request to duke to bring case before Change de Nancy"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (via Claude Code)",
+    "confidence": "high",
+    "notes": "This trial is exceptional for revealing judicial corruption and false accusations. Nicolas Fontaine was pressured by local officials at Einville to accuse wealthy people ('gens de moyens, opulentz, et riches'). The marginal note 'abus en l'exercice de la justice' (abuse in the exercise of justice) is a rare acknowledgment of procedural misconduct. Rémy intervened to release all falsely accused and required Nicolas to publicly declare their innocence before execution. The case provides detailed geographic mobility of an itinerant shepherd over 20 years and economic grievances (unpaid debts, refusal of credit, dismissal from service) as motives for both malefice confessions and false accusations. No witness testimony recorded - case based entirely on confession. Victim names sometimes inconsistent (Marie vs Agnes Petit for prévôt's wife; Joannes de Dieuze vs Joannes Messager).",
+    "pdf_pages": 2
+  }
+}

@@ -1,0 +1,1326 @@
+{
+  "trial_id": "w053",
+  "archive_ref": "B 3365 no 3",
+  "location": "Reillon",
+  "court": "Court at Blamont",
+  "dates": {
+    "start": "1624-05-12",
+    "end": "1624-06-01",
+    "duration_days": 21
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Febuay",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": ["laboureur"],
+      "origin": "Gondrexon",
+      "residence": "Reillon",
+      "marital_status": "married",
+      "spouse_name": "wife mentioned in testimony",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": false,
+        "devil_name": "Poison",
+        "devil_appearance": "not specified",
+        "seduction_date": "10 years earlier",
+        "seduction_context": "Poison offered to make him rich, but money turned out to be coal or dust",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["powder offered by master but never used"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["not specified"],
+        "sabbat_activities": [
+          "plotted to make hail (which he always opposed)",
+          "poor food (nothing worth eating)",
+          "described as 'all abuse'"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Olry",
+      "gender": "male",
+      "age": 43,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 19,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Febuay's horses had attacked one of his in fields",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "his horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "during quarrel"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Zabey femme Dieudenon",
+      "gender": "female",
+      "age": 40,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jeannon veuve Grand Bastien",
+      "gender": "female",
+      "age": 54,
+      "location": "Reillon",
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Crousier's son had been courting Febuay's daughter against his father's will",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon Crousier (her brother)",
+            "target_relationship": "brother of witness",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "previous year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jeanne veuve Claudon Crousier",
+      "gender": "female",
+      "age": 60,
+      "location": "Reillon",
+      "relationship_to_accused": "widow of victim",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Son courting Febuay's daughter - opposed because of Febuay's reputation",
+        "threat_received": true,
+        "threat_quote": "Jean had wished husband buried",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon Crousier (her husband)",
+            "target_relationship": "husband of witness",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "fell ill at church and died in 24 hours after quarrel"
+          },
+          {
+            "type": "human_death",
+            "target": "grand-daughter",
+            "target_relationship": "grand-daughter of witness",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "soon after husband's death"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Margueritte veuve Aubertin Lehel",
+      "gender": "female",
+      "age": 43,
+      "location": "Reillon",
+      "relationship_to_accused": "widow in community",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband had refused to mend Febuay's shoes",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "two sheep",
+            "target_relationship": "owned by witness's husband",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "sheep",
+            "animal_count": 2,
+            "time_after_quarrel": "same day",
+            "harm_description": "strangled"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudotte femme au grand Aulbry",
+      "gender": "female",
+      "age": 40,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Nicolas François",
+      "gender": "male",
+      "age": 33,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to take his lambs when keeping flock",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "a calf",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "calf",
+            "animal_count": 1,
+            "time_after_quarrel": "after quarrel (6 years earlier)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Marchal le viel",
+      "gender": "male",
+      "age": 60,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Marchal le jeune",
+      "gender": "male",
+      "age": 27,
+      "location": "Reillon",
+      "relationship_to_accused": "son of Jean Marchal le viel",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "father bought a foal Jean Febuay wanted at fair of Bruyeres",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "owned by witness's late father",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "foal/horse",
+            "animal_count": 1,
+            "time_after_quarrel": "a year later",
+            "harm_description": "suddenly died"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Nicolas Mariotte",
+      "gender": "male",
+      "age": 70,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to sell another horse to Jean despite several requests",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "within 3 days",
+            "harm_description": "sickened and died after the brothers had looked it over and taken it for a walk"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claude Crousée, jeune fils",
+      "gender": "male",
+      "age": 25,
+      "location": "Reillon",
+      "relationship_to_accused": "son of victim (was courting Febuay's daughter)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "frequenting Febuay's daughter, quarrel between fathers",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his own father",
+            "target_relationship": "father of witness",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "during/after quarrel over courtship"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claudon Bastien, jeune fils",
+      "gender": "male",
+      "age": 27,
+      "location": "Reillon",
+      "relationship_to_accused": "son of le grand Bastien",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "late father threatened to have him burned if he did not cure a sick horse",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Humbert Charier",
+      "gender": "male",
+      "age": 36,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to help cart grain from Domepvre because his horses were sick",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "horse",
+            "animal_count": 2,
+            "time_after_quarrel": "10 years earlier after refusal to help"
+          },
+          {
+            "type": "animal_illness",
+            "target": "horse in stable",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "attacked by cat which scratched at its eyes, then disappeared without trace"
+          },
+          {
+            "type": "human_illness",
+            "target": "Humbert Charier (witness himself)",
+            "target_relationship": "self",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "previous year when as bannard he had him fined",
+            "harm_description": "ill in bed for 12 weeks; recovered after Jean touched his head"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claudon Marchal",
+      "gender": "male",
+      "age": 30,
+      "location": "Reillon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jean Waultrin",
+      "gender": "male",
+      "age": 60,
+      "occupation": "maire",
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "angry when son of witness took horses on his field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness's son",
+            "attributed_to": "Jean Febuay",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "a few days later",
+            "harm_description": "Jean touched one of them, and it died a few days later",
+            "method_alleged": "touch"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Nicolas Crousier",
+      "gender": "male",
+      "age": 48,
+      "location": "Reillon",
+      "relationship_to_accused": "brother-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "their wives had quarrelled",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "his wife (near miss)",
+            "target_relationship": "wife of witness",
+            "attributed_to": "Jean Febuay",
+            "time_after_quarrel": "next morning",
+            "harm_description": "piece of stone fell off chimney and would have injured his wife but for a plank which got in the way"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "George Curien",
+      "gender": "male",
+      "age": 40,
+      "location": "Reillon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "found Febuay had encroached on field of witness",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1624-05-12",
+      "event": "informations_preparatoires",
+      "subject": "Jean Febuay",
+      "details": "Jean Dediot, Jean Hachon, and Jean Olry, all of Reillon, complain to procureur fiscal about Jean Vaultrin le vieux and Jean Febuay. Order for witnesses to be heard."
+    },
+    {
+      "date": "1624-05-13",
+      "event": "informations_preparatoires",
+      "subject": "Jean Febuay",
+      "details": "Testimony of witnesses 1-4"
+    },
+    {
+      "date": "1624-05-14",
+      "event": "informations_preparatoires",
+      "subject": "Jean Febuay",
+      "details": "Testimony of witnesses 5-17"
+    },
+    {
+      "date": "1624-05-15",
+      "event": "interrogation",
+      "subject": "Jean Febuay",
+      "details": "First interrogation - denied most charges, made reasonable responses"
+    },
+    {
+      "date": "1624-05-17",
+      "event": "confrontation",
+      "subject": "Jean Febuay",
+      "details": "Confrontations with witnesses - no serious reproaches, no admissions"
+    },
+    {
+      "date": "1624-05-18",
+      "event": "torture_requested",
+      "subject": "Jean Febuay",
+      "details": "Procureur fiscal asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1624-05-20",
+      "event": "torture_approved",
+      "subject": "Jean Febuay",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1624-05-29",
+      "event": "torture",
+      "subject": "Jean Febuay",
+      "details": "Interrogation under torture - withstood thumbscrews, rack, and tortillons, but confessed on strappado with 50 pound weight"
+    },
+    {
+      "date": "1624-05-30",
+      "event": "other",
+      "subject": "Jean Febuay",
+      "details": "Confirmed confessions, but retracted accusations against accomplices, saying he named them out of hatred"
+    },
+    {
+      "date": "1624-05-30",
+      "event": "death_requested",
+      "subject": "Jean Febuay",
+      "details": "Procureur fiscal asks for death sentence"
+    },
+    {
+      "date": "1624-05-31",
+      "event": "death_approved",
+      "subject": "Jean Febuay",
+      "details": "Change de Nancy approves, subject to reiteration of confessions"
+    },
+    {
+      "date": "1624-06-01",
+      "event": "sentence",
+      "subject": "Jean Febuay",
+      "details": "Formal death sentence from court at Blamont"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews",
+      "rack",
+      "tortillons",
+      "strappado with 50 pound weight on feet"
+    ],
+    "requesting_official": "procureur fiscal",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "widow of Claudon Crouvesier",
+      "location": "Reillon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Hellenix femme Colas Mariotte",
+      "location": "Reillon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Meline femme Humbert Charier",
+      "location": "Reillon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Vaultrin",
+      "location": "Reillon",
+      "context": "Seen at sabbat; also complained about in initial complaint with Febuay",
+      "already_executed": false
+    },
+    {
+      "name": "Hellenix femme Jean Babillon",
+      "location": "Blesmerey",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Anthoine Colas Claudey",
+      "accuser_location": "Gondrexon",
+      "context": "Told Jean Marchal le viel that Febuay was already suspected in his youth in Gondrexon",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "some witches from Reillon",
+      "accuser_location": "Reillon",
+      "context": "About 20 years earlier some witches from Reillon were executed, and Febuay's wife asked Grand Bastien in tears if her husband had been accused",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Nicolas Olry",
+      "english": "Febuay made out he had not heard, and asked wife what he said, then said he was a sot and did not know what he said",
+      "context": "When Nicolas Olry called him a witch after quarrel over horses"
+    },
+    {
+      "speaker": "Jeanne veuve Claudon Crousier",
+      "english": "Jean had wished husband buried",
+      "context": "Threat during quarrel over son courting daughter"
+    },
+    {
+      "speaker": "le grand Bastien (deceased)",
+      "english": "threatened to have him burned if he did not cure a sick horse, at which he merely laughed",
+      "context": "Confrontation over sick horse, as reported by son Claudon Bastien"
+    },
+    {
+      "speaker": "Jean Febuay",
+      "english": "it was all abuse, and there was nothing worth eating",
+      "context": "Description of sabbats during torture confession"
+    },
+    {
+      "speaker": "Jean Febuay",
+      "english": "he had done so out of hatred",
+      "context": "Retracting accusations against accomplices on May 30, 1624"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Febuay",
+      "person2": "wife mentioned in testimony",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Febuay made out he had not heard, and asked wife what he said",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Febuay",
+      "person2": "daughter",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Crousier's son had been courting his daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Febuay",
+      "person2": "Jacques Febuay",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "late brother of accused, Jacques Febuay of Gondrexon",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Febuay",
+      "person2": "Nicolas Crousier",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Nicolas Crouvesier (witness 16) was his brother-in-law",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannon veuve Grand Bastien",
+      "person2": "Grand Bastien (husband, deceased)",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jeannon veuve Grand Bastien",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannon veuve Grand Bastien",
+      "person2": "Claudon Crousier",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Suspected him over sudden death of her brother Claudon Crousier",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne veuve Claudon Crousier",
+      "person2": "Claudon Crousier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jeanne veuve Claudon Crousier",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne veuve Claudon Crousier",
+      "person2": "son (Claude Crousée)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "story about son courting daughter",
+      "inferred": true
+    },
+    {
+      "person1": "Jeanne veuve Claudon Crousier",
+      "person2": "grand-daughter",
+      "relationship_type": "grandparent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "suspected him over death of grand-daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne veuve Claudon Crousier",
+      "person2": "son-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "because son-in-law also discouraged the marriage",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte veuve Aubertin Lehel",
+      "person2": "Aubertin Lehel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Margueritte veuve Aubertin Lehel",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte",
+      "person2": "grand Aulbry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudotte femme au grand Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Marchal le jeune",
+      "person2": "Jean Marchal le viel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "His late father had told him",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Bastien, jeune fils",
+      "person2": "le grand Bastien",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Had heard his late father threaten",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Crousée, jeune fils",
+      "person2": "Claudon Crousier",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "death of his own father",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Crousée, jeune fils",
+      "person2": "Jean Febuay's daughter",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Story about frequenting his daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Waultrin (maire)",
+      "person2": "son of Jean Waultrin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "angry when son of witness took horses on his field",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Crousier",
+      "person2": "wife of Nicolas Crousier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "their wives had quarrelled",
+      "inferred": false
+    },
+    {
+      "person1": "wife of Nicolas Crousier",
+      "person2": "wife of Jean Febuay",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "their wives had quarrelled",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Marchal",
+      "person2": "Jean Febuay",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "had built a house next to his, but had not dared to live there",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Nicolas Olry's horse",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "horse injured in attack by Febuay's horses",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "Febuay's horses had attacked one of his in fields",
+      "time_between_quarrel_and_harm": "during quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Claudon Crousier",
+      "victim_relationship_to_witness": "brother of witness (Jeannon veuve Grand Bastien)",
+      "harm_category": "human_death",
+      "harm_description": "sudden death",
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "angry because Crousier's son had been courting his daughter against his father's will",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Claudon Crousier (husband)",
+      "victim_relationship_to_witness": "husband of witness (Jeanne veuve Claudon Crousier)",
+      "harm_category": "human_death",
+      "harm_description": "fell ill at church and died in 24 hours",
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "quarrel over son courting daughter - opposed because of reputation",
+      "time_between_quarrel_and_harm": "fell ill during quarrel when Jean wished husband buried",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "grand-daughter of Jeanne veuve Claudon Crousier",
+      "victim_relationship_to_witness": "grand-daughter of witness",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "son-in-law also discouraged the marriage",
+      "time_between_quarrel_and_harm": "soon after husband's death",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "two sheep",
+      "victim_relationship_to_witness": "owned by witness's husband (Aubertin Lehel)",
+      "harm_category": "animal_death",
+      "harm_description": "strangled",
+      "animal_type": "sheep",
+      "animal_count": 2,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "husband had refused to mend his shoes",
+      "time_between_quarrel_and_harm": "same day",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "calf of Nicolas François",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "refused to take his lambs when keeping flock",
+      "time_between_quarrel_and_harm": "after quarrel (6 years earlier)",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "foal",
+      "victim_relationship_to_witness": "owned by late father of witness (Jean Marchal le jeune)",
+      "harm_category": "animal_death",
+      "harm_description": "suddenly died",
+      "animal_type": "foal/horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "father bought a foal Jean wanted at fair of Bruyeres",
+      "time_between_quarrel_and_harm": "a year later",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "horse of Nicolas Mariotte",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "refused to sell another horse to Jean despite several requests",
+      "time_between_quarrel_and_harm": "within 3 days after the brothers had looked it over and taken it for a walk",
+      "method_alleged": "proximity (looking over and taking for walk)",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "father of Claude Crousée",
+      "victim_relationship_to_witness": "father of witness",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "frequenting Febuay's daughter, quarrel between fathers",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "two horses of Humbert Charier",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "died while Febuay's horses recovered",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "refused to help cart grain from Domepvre on grounds that his horses were sick; Jean said his were too and it was nothing",
+      "time_between_quarrel_and_harm": "10 years earlier after refusal",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "horse of Humbert Charier",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "found horse in stable being attacked by cat which was scratching at its eyes, then disappeared without trace",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Febuay",
+      "method_alleged": "cat attack (shapeshifting or familiar)",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Humbert Charier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "ill in bed for 12 weeks; recovered when Jean touched his head",
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "angry when as bannard he had him fined",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "touch (to inflict and to cure)",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "horse of Jean Waultrin's son",
+      "victim_relationship_to_witness": "owned by son of witness",
+      "harm_category": "animal_death",
+      "harm_description": "died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "angry when son of witness took horses on his field",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "touch (Jean touched one of them)",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "wife of Nicolas Crousier",
+      "victim_relationship_to_witness": "wife of witness",
+      "harm_category": "property_damage",
+      "harm_description": "piece of stone fell off chimney and would have injured his wife but for a plank which got in the way",
+      "attributed_to": "Jean Febuay",
+      "precipitating_quarrel": "their wives had quarrelled",
+      "time_between_quarrel_and_harm": "next morning",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "land around Reillon",
+      "victim_relationship_to_witness": "community property",
+      "harm_category": "weather_event",
+      "harm_description": "hail devastated much of land around Reillon",
+      "attributed_to": "Jean Febuay",
+      "time_between_quarrel_and_harm": "3 years earlier",
+      "method_alleged": "making hail at sabbat",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "shoes",
+      "context": "husband had refused to mend his shoes",
+      "category": "clothing"
+    },
+    {
+      "object": "horses",
+      "context": "frequent mention of horses as economic assets - guarding, buying, selling, trading",
+      "category": "agricultural"
+    },
+    {
+      "object": "sheep",
+      "context": "two sheep in flock being guarded",
+      "category": "agricultural"
+    },
+    {
+      "object": "lambs",
+      "context": "refused to take his lambs when keeping flock",
+      "category": "agricultural"
+    },
+    {
+      "object": "calf",
+      "context": "lost a calf",
+      "category": "agricultural"
+    },
+    {
+      "object": "foal",
+      "context": "bought a foal at fair of Bruyeres",
+      "category": "agricultural"
+    },
+    {
+      "object": "grain",
+      "context": "asked witness to help him cart some grain from Domepvre",
+      "category": "agricultural"
+    },
+    {
+      "object": "powder",
+      "context": "master had offered him powder, but he had never wanted to use it",
+      "category": "magical"
+    },
+    {
+      "object": "money (turned to coal or dust)",
+      "context": "offered to make him rich, but money turned out to be coal or dust",
+      "category": "money"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "torture instrument",
+      "category": "tools"
+    },
+    {
+      "object": "rack",
+      "context": "torture instrument",
+      "category": "tools"
+    },
+    {
+      "object": "tortillons",
+      "context": "torture instrument",
+      "category": "tools"
+    },
+    {
+      "object": "strappado with 50 pound weight",
+      "context": "torture instrument",
+      "category": "tools"
+    },
+    {
+      "object": "plank",
+      "context": "plank which got in the way and protected wife from falling stone",
+      "category": "household"
+    },
+    {
+      "object": "chimney",
+      "context": "piece of stone fell off chimney",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Reillon",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Gondrexon",
+      "place_type": "village",
+      "context": "Native village of Jean Febuay; where he was suspected in his youth"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Court that issued final judgment"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appeals court)"
+    },
+    {
+      "place_name": "Domepvre",
+      "place_type": "village",
+      "context": "Where grain was to be carted from"
+    },
+    {
+      "place_name": "Bruyeres",
+      "place_type": "market",
+      "context": "Fair where foal was purchased"
+    },
+    {
+      "place_name": "Blesmerey",
+      "place_type": "village",
+      "context": "Home of Hellenix femme Jean Babillon (named accomplice)"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where horses were guarded and where quarrels occurred"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "Where Claudon Crousier fell ill"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "other",
+      "context": "Where horse was found being attacked by cat"
+    },
+    {
+      "place_name": "sabbat location (unspecified)",
+      "place_type": "sabbat_location",
+      "context": "Where witches allegedly met every month or 6 weeks"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "hail 3 years earlier which devastated much of land around Reillon (confessed to making it)"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "multiple disputes over livestock indicating economic importance of animals",
+      "disputes over shoes not being mended",
+      "refusal of loans or help with carting grain"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur fiscal",
+        "role": "prosecutor_pg",
+        "location": "Blamont"
+      },
+      {
+        "name": "Jean Waultrin",
+        "role": "mayor",
+        "location": "Reillon"
+      },
+      {
+        "name": "Humbert Charier",
+        "role": "other",
+        "location": "Reillon"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "George Curien found Febuay had encroached on his field but did not dare take action for fear of him",
+        "outcome": "no action taken"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Humbert Charier as bannard had him fined",
+        "outcome": "fine imposed"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "Nicolas François testified Febuay had not sought reparation when called witch",
+    "imprisonment_conditions": "not specified",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 11,
+    "hearsay_testimony_count": 6,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Marchal le viel",
+        "source": "Anthoine Colas Claudey of Gondrexon",
+        "content": "in his youth there he was already suspected"
+      },
+      {
+        "reporter": "Jean Marchal le jeune",
+        "source": "late father",
+        "content": "bought a foal Jean wanted at fair of Bruyeres, and that a year later it suddenly died"
+      },
+      {
+        "reporter": "Jeannon veuve Grand Bastien",
+        "source": "husband (Grand Bastien)",
+        "content": "Febuay's wife asked him in tears if her husband had been accused"
+      },
+      {
+        "reporter": "Claudon Bastien, jeune fils",
+        "source": "late father (le grand Bastien)",
+        "content": "threaten to have him burned if he did not cure a sick horse"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [3, 4, 11],
+      [5, 10, 13, 15]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "made reasonable responses to most questions during initial interrogation",
+      "withstood multiple torture methods before confessing",
+      "retracted accusations saying he named accomplices out of hatred"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jean Dediot",
+      "role_in_narrative": "community_member",
+      "context": "One of three men who complained to procureur fiscal about Febuay"
+    },
+    {
+      "name": "Jean Hachon",
+      "role_in_narrative": "community_member",
+      "context": "One of three men who complained to procureur fiscal about Febuay"
+    },
+    {
+      "name": "Jean Olry",
+      "role_in_narrative": "community_member",
+      "context": "One of three men who complained to procureur fiscal about Febuay"
+    },
+    {
+      "name": "Jean Vaultrin le vieux",
+      "role_in_narrative": "prior_accused",
+      "context": "Also complained about with Febuay in initial complaint; later named by Febuay at sabbat"
+    },
+    {
+      "name": "Jacques Febuay",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "late brother",
+      "context": "of Gondrexon; bought horses from Nicolas Mariotte"
+    },
+    {
+      "name": "Anthoine Colas Claudey",
+      "role_in_narrative": "hearsay_source",
+      "context": "of Gondrexon; told Jean Marchal that Febuay was already suspected in his youth there"
+    },
+    {
+      "name": "wife of Jean Febuay",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife",
+      "context": "Asked Grand Bastien in tears if her husband had been accused during earlier witch trials"
+    },
+    {
+      "name": "daughter of Jean Febuay",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Being courted by Crousier's son; marriage opposed by fathers"
+    },
+    {
+      "name": "le grand Bastien (deceased)",
+      "role_in_narrative": "community_member",
+      "context": "Threatened to have Febuay burned if he did not cure sick horse"
+    },
+    {
+      "name": "Aubertin Lehel (deceased)",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "husband of witness 5",
+      "context": "Refused to mend Febuay's shoes; lost two sheep"
+    },
+    {
+      "name": "son of Jean Waultrin",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "son of witness 15",
+      "context": "Owned horse that died after being touched by Febuay"
+    },
+    {
+      "name": "son-in-law of Jeanne veuve Claudon Crousier",
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "son-in-law of witness 4",
+      "context": "Also discouraged marriage between his daughter and Crousier's son"
+    },
+    {
+      "name": "Poison",
+      "role_in_narrative": "other",
+      "context": "Name of devil/master who seduced Febuay 10 years earlier"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Comprehensive trial with detailed witness testimonies. Trial shows classic pattern: long-standing reputation (up to 20 years), multiple quarrels over economic disputes (animals, shoes, grain carting), alleged harms following quarrels, torture leading to confession, naming of accomplices later retracted. Notably, Febuay retracted his accusations of accomplices, saying he named them 'out of hatred.' The trial involved extensive animal-related harms (horses, sheep, calf, foal) indicating the economic importance of livestock. Touch and proximity were alleged methods. One witness (Humbert Charier) claimed Febuay both caused and cured his illness through touch. Brother-in-law testified against him (Nicolas Crousier, witness 16). Febuay was originally from Gondrexon where he was already suspected in his youth.",
+    "pdf_pages": 4
+  }
+}

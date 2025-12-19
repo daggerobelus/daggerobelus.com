@@ -1,0 +1,1496 @@
+{
+  "trial_id": "w123",
+  "archive_ref": "B 7326",
+  "location": "la Neufville-devant-Nancy",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1599-04-22",
+    "end": "1599-06-23",
+    "duration_days": 62
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Isabillon femme Jean Parmentier",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["healer/folk medicine"],
+      "residence": "la Neufville-devant-Nancy",
+      "marital_status": "married",
+      "spouse_name": "Jean Parmentier",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Persin",
+        "devil_appearance": "appeared as black dog in her garden",
+        "seduction_date": "around previous Christmas (Christmas 1598)",
+        "seduction_context": "Was angry that her husband called her witch, so took her distaff to go to 'escraignes'; he appeared when she was on way, remarked she was very angry, then threw her against 'fumier' and wanted to have intercourse. Initially said she was unwilling and saw another woman coming with a lantern, but under pressure admitted intercourse took place, and he disappeared when woman with lantern approached",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["powder to avenge herself", "powder given by devil"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["unspecified"],
+        "sabbat_activities": ["claimed to have been only once, and only other person there with her master was a woman she did not know"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Braconnier",
+      "gender": "male",
+      "age": 46,
+      "occupation": "paistre (shepherd)",
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Catherine femme Jean Braconnier",
+      "gender": "female",
+      "age": 37,
+      "occupation": "laboureur (farmer's wife)",
+      "relationship_to_accused": "father of witness called her witch",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Anne femme Mre George Bertrand",
+      "gender": "female",
+      "age": 60,
+      "occupation": "tailleur d'habitz (tailor's wife)",
+      "relationship_to_accused": "Ysabillon frequented their house",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "her husband",
+            "target_relationship": "husband",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "2 years before testimony"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claudin Richard femme Girard Epurard",
+      "gender": "female",
+      "age": 39,
+      "occupation": "manouvrier (laborer's wife)",
+      "relationship_to_accused": "neighbour",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jannotte veuve Demenge Bagard",
+      "gender": "female",
+      "age": 60,
+      "relationship_to_accused": "witnessed quarrels with victim",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrels with Jeanne femme Bastien Parmentier",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jeanne femme Bastien Parmentier",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudin Eulmont",
+      "gender": "male",
+      "age": 34,
+      "occupation": "manouvrier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jean Braconnier",
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Parisat",
+      "gender": "male",
+      "age": 30,
+      "occupation": "laboureur",
+      "relationship_to_accused": "refused to hire her stepdaughter as servant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to hire her stepdaughter as servant",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his daughter aged 4",
+            "target_relationship": "daughter",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "immediately after giving bread"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "after he had forbidden her his house"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Georgin Masson",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Demenge le Clerc",
+      "gender": "male",
+      "age": 27,
+      "occupation": "manouvrier",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "4 days after mysterious encounter"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Didier Languille",
+      "gender": "male",
+      "age": 49,
+      "occupation": "manouvrier",
+      "relationship_to_accused": "forbade her to pass through his garden, refused to renew lease",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "forbidding her to pass through his garden",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "the next day"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "after refusing to renew lease of garden"
+          },
+          {
+            "type": "animal_death",
+            "target": "another 2 horses",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "after he beat her husband"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Mre George Bertrand",
+      "gender": "male",
+      "age": 65,
+      "occupation": "tailleur d'habitz",
+      "relationship_to_accused": "she frequented their house",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Magdellaine femme Didier Languille",
+      "gender": "female",
+      "age": 40,
+      "relationship_to_accused": "husband refused to renew garden lease",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refusal to renew lease of garden",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "7 family members",
+            "target_relationship": "family",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "after refusal to renew lease"
+          },
+          {
+            "type": "animal_death",
+            "target": "5 horses",
+            "target_relationship": "owned by family",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Bastien des Preys",
+      "gender": "male",
+      "age": 33,
+      "occupation": "cousturier",
+      "relationship_to_accused": "plaindant (plaintiff)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "various quarrels with second wife Jeanne",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Catherine (first wife)",
+            "target_relationship": "first wife",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "4 years earlier"
+          },
+          {
+            "type": "human_death",
+            "target": "Jeanne (second wife)",
+            "target_relationship": "second wife",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "2 weeks after quarrels"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Mengeatte femme Jean Parisat",
+      "gender": "female",
+      "age": 26,
+      "occupation": "laboureur (farmer's wife)",
+      "relationship_to_accused": "refused to hire stepdaughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          },
+          {
+            "type": "animal_death",
+            "target": "9 horses and cattle",
+            "target_relationship": "owned by family",
+            "attributed_to": "Isabillon femme Jean Parmentier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Martin le Duc",
+      "gender": "male",
+      "age": 40,
+      "occupation": "tisserand (weaver)",
+      "relationship_to_accused": "neighbour for 2 years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Gergonne Perlet",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "relationship_to_accused": "beat her daughter who was servant in his house",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "beat her daughter",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "after he beat her daughter"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Nicolle Hazart veuve Anthoine Hardier",
+      "gender": "female",
+      "age": 44,
+      "relationship_to_accused": "neighbour for 4 years",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Claude Pays",
+      "gender": "male",
+      "age": 36,
+      "occupation": "maire à la Neufville",
+      "relationship_to_accused": "had been in service of his grandfather",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 20,
+      "name": "Libaire femme Noel Ferry",
+      "gender": "female",
+      "age": 22,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Marie femme Jean Bagard",
+      "gender": "female",
+      "age": 22,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "3 or 4 days after going into her stable"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Catherine femme Vaultrin Vaultrin",
+      "gender": "female",
+      "age": 26,
+      "occupation": "manouvrier (laborer's wife)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 23,
+      "name": "Catherine servante à Mre George Bertrand",
+      "gender": "female",
+      "age": 24,
+      "occupation": "servant",
+      "relationship_to_accused": "servant in house frequented by accused",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "Claudin des Pomottes had informed her mistress that she gave her some soup, and he would repent",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 24,
+      "name": "Barbe Symon femme Laurent François",
+      "gender": "female",
+      "age": 25,
+      "occupation": "manouvrier (laborer's wife)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unable to sell peas for sowing",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "same week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Claude Borinet",
+      "gender": "male",
+      "age": 40,
+      "occupation": "tisserand",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 26,
+      "name": "Laurent François",
+      "gender": "male",
+      "age": 40,
+      "occupation": "manouvrier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unable to sell peas for sowing",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "same week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 27,
+      "name": "Jean Thomassin",
+      "gender": "male",
+      "age": 60,
+      "occupation": "tisserand",
+      "relationship_to_accused": "took caution against her for payment",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "took caution against her for payment of what was due",
+        "threat_received": true,
+        "threat_quote": "il s'en donneroit de garde",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter who was guarding animals",
+            "target_relationship": "daughter",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "same day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "Mengin Millecy",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 29,
+      "name": "Jean Bagard",
+      "gender": "male",
+      "age": 22,
+      "occupation": "laboureur",
+      "relationship_to_accused": "dispute over money for straw",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "she owed him money for some straw",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Isabillon femme Jean Parmentier",
+            "time_after_quarrel": "6 weeks later"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1599-04-22",
+      "event": "informations_preparatoires",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Preliminary investigations began. Had been accused by Bastien Cousturier of la Neufville, who had applied to PG"
+    },
+    {
+      "date": "1599-05-09",
+      "event": "other",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Rémy asks for arrest and interrogation"
+    },
+    {
+      "date": "1599-05-19",
+      "event": "informations_preparatoires",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Additional witnesses heard (witnesses 21-29)"
+    },
+    {
+      "date": "1599-05-24",
+      "event": "interrogation",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "First interrogation - denied all charges"
+    },
+    {
+      "date": "1599-06-02",
+      "event": "interrogation",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Said she had been seduced by Mre Persin around previous Christmas"
+    },
+    {
+      "date": "1599-06-02",
+      "event": "torture_requested",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Rémy asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1599-06-05",
+      "event": "torture",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Interrogation under torture - given thumbscrews, rack, tortillons, and strappado with weights attached to feet, but continued denials"
+    },
+    {
+      "date": "1599-06-15",
+      "event": "interrogation",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Confessed to causing illness of Languillon, deaths of horses, death of second wife of Bastien des Preys, and death of Parisot's daughter. Said attended sabbat once"
+    },
+    {
+      "date": "1599-06-16",
+      "event": "interrogation",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Confirmed earlier confessions"
+    },
+    {
+      "date": "1599-06-18",
+      "event": "death_requested",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Rémy asks for death sentence"
+    },
+    {
+      "date": "1599-06-22",
+      "event": "interrogation",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Further confirmation of confessions"
+    },
+    {
+      "date": "1599-06-23",
+      "event": "sentence",
+      "subject": "Isabillon femme Jean Parmentier",
+      "details": "Death sentence from Change de Nancy"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack", "tortillons", "strappado with weights attached to feet"],
+    "requesting_official": "Rémy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "unknown woman",
+      "context": "claimed to have been at sabbat once, and only other person there with her master was a woman she did not know",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "la Grosse Janotte",
+      "context": "Remembered that she had hidden her goods when information was taken against la Grosse Janotte from house of George Masson, who was not convicted",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Catherine femme Jean Braconnier (witness 2)",
+      "french": "je croy que cest sorciere me veult faire mourir",
+      "english": "I believe that this witch wants to make me die",
+      "context": "Her husband (father of witness) found a spider in his plate"
+    },
+    {
+      "speaker": "Jannotte veuve Demenge Bagard (witness 5)",
+      "french": "ladite Ysabilon se mesle ordinairement de penser, visiter, et guerir les malades et quand elle en scait quelqu'un elle y va pour estre appellée",
+      "english": "The said Ysabillon ordinarily meddles with caring for, visiting, and healing the sick, and when she knows of someone ill she goes there to be called",
+      "context": "Describing Isabillon's role as folk healer"
+    },
+    {
+      "speaker": "Magdellaine femme Didier Languille (witness 13)",
+      "french": "de telle sorte qu'elle a procuré leur ruine totalle",
+      "english": "in such a way that she procured their total ruin",
+      "context": "After refusal to renew lease of garden"
+    },
+    {
+      "speaker": "Jean Thomassin (witness 27) reporting Isabillon's words to his daughter",
+      "french": "il s'en donneroit de garde",
+      "english": "he would take care of it/he would beware",
+      "context": "Threat after he took caution against her for payment"
+    },
+    {
+      "speaker": "Mengin Millecy (witness 28) reporting Isabillon",
+      "french": "le respect qu'il porte a ses enfants",
+      "english": "the respect that he bears for his children",
+      "context": "Said that but for this she would have killed herself"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Isabillon femme Jean Parmentier",
+      "person2": "Jean Parmentier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Isabillon femme Jean Parmentier, husband was manouvrier",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Jean Braconnier",
+      "person2": "Jean Braconnier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme Jean Braconnier (witness 2) and Jean Braconnier (witness 7)",
+      "inferred": false
+    },
+    {
+      "person1": "Anne",
+      "person2": "Mre George Bertrand",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Anne femme Mre George Bertrand (witness 3) and Mre George Bertrand (witness 12)",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Richard",
+      "person2": "Girard Epurard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudin Richard, femme Girard Epurard",
+      "inferred": false
+    },
+    {
+      "person1": "Jannotte",
+      "person2": "Demenge Bagard",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jannotte veuve Demenge Bagard",
+      "inferred": false
+    },
+    {
+      "person1": "Magdellaine",
+      "person2": "Didier Languille",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Magdellaine femme Didier Languille (witness 13) and Didier Languille (witness 11)",
+      "inferred": false
+    },
+    {
+      "person1": "Bastien des Preys",
+      "person2": "Catherine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "4 years earlier had married his first wife Catherine",
+      "inferred": false
+    },
+    {
+      "person1": "Bastien des Preys",
+      "person2": "Jeanne",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Suspected her of causing death of his second wife Jeanne",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeatte",
+      "person2": "Jean Parisat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mengeatte femme Jean Parisat (witness 15) and Jean Parisat (witness 8)",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle Hazart",
+      "person2": "Anthoine Hardier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Nicolle Hazart, veuve Anthoine Hardier",
+      "inferred": false
+    },
+    {
+      "person1": "Libaire",
+      "person2": "Noel Ferry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Libaire femme Noel Ferry",
+      "inferred": false
+    },
+    {
+      "person1": "Marie",
+      "person2": "Jean Bagard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marie femme Jean Bagard (witness 21) and Jean Bagard (witness 29)",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Vaultrin Vaultrin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Vaultrin Vaultrin",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe Symon",
+      "person2": "Laurent François",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbe Symon femme Laurent François (witness 24) and Laurent François (witness 26)",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine (servant)",
+      "person2": "Mre George Bertrand",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine servante à Mre George Bertrand",
+      "inferred": false
+    },
+    {
+      "person1": "Isabillon's daughter",
+      "person2": "Jean Parisat",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "He had not wanted to hire her stepdaughter as servant again",
+      "inferred": false
+    },
+    {
+      "person1": "Isabillon's daughter",
+      "person2": "Gergonne Perlet",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Suspected her of causing deaths of various animals after he beat her daughter, who was servant in his house",
+      "inferred": false
+    },
+    {
+      "person1": "Isabillon femme Jean Parmentier",
+      "person2": "Claude Pays grandfather",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "She had been in service of his grandfather",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Richard",
+      "person2": "Isabillon femme Jean Parmentier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Was neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Martin le Duc",
+      "person2": "Isabillon femme Jean Parmentier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Had been neighbour for 2 years",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle Hazart",
+      "person2": "Isabillon femme Jean Parmentier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Had been neighbour for 4 years",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "husband of Anne femme Mre George Bertrand (Mre George Bertrand)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "suddenly lost use of limbs and needed crutches, was in bed for 17 days",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "2 years before testimony",
+      "method_alleged": "presence and prediction - she said he would recover, and he did so in a few days",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "cow of Claudin Richard femme Girard Epurard",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly in their stable",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "unknown",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jeanne femme Bastien Parmentier",
+      "victim_relationship_to_witness": "known to witness",
+      "harm_category": "human_death",
+      "harm_description": "recent death",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "quarrels between Jeanne and Isabillon",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "cow of Claudin Eulmont",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "death of cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "she passed before his house saying nothing",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "daughter of Jean Parisat, aged 4",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "fell ill immediately after eating bread, died a week later with great pain in limbs",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "he had not wanted to hire her stepdaughter as servant again",
+      "time_between_quarrel_and_harm": "immediately after quarrel",
+      "method_alleged": "offered piece of bread to his daughter; when she was in house the victim felt great pain in her limbs, which decreased once she left",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "ox of Jean Parisat",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "death of ox",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "he had forbidden her his house",
+      "time_between_quarrel_and_harm": "after he had forbidden her his house",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Demenge le Clerc",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "had thigh broken in accident when digging a cellar",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "mysterious encounter where he met her twice going in same direction",
+      "time_between_quarrel_and_harm": "4 days later",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Didier Languille",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "found his limbs paralysed; lasted 6 weeks, during which time he smelled strangely of sulphur and felt as if he was burning",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "forbidding her to pass through his garden",
+      "time_between_quarrel_and_harm": "the next day",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "2 horses of Didier Languille",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses dead",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "refusing to renew lease of garden to her",
+      "time_between_quarrel_and_harm": "after refusal",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "another 2 horses of Didier Languille",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "another 2 horses dead",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "after he beat her husband",
+      "time_between_quarrel_and_harm": "after beating",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "son of Didier Languille, aged 20",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "was ill and in danger of death; recovered in 2 days after she said he would recover",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "method_alleged": "asked after him, then said he would recover",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Mre George Bertrand",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "had been in bed for 17 days, started to recover 4 days after she said he would get better",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "7 family members of Languille household",
+      "victim_relationship_to_witness": "family",
+      "harm_category": "human_illness",
+      "harm_description": "7 of them became ill, husband had to go on pilgrimage to seek healing; took a year to recover",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "refusal to renew lease of garden",
+      "time_between_quarrel_and_harm": "after refusal",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "5 horses of Languille household",
+      "victim_relationship_to_witness": "owned by family",
+      "harm_category": "animal_death",
+      "harm_description": "loss of 5 horses in year; were unable to continue ploughing",
+      "animal_type": "horse",
+      "animal_count": 5,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "refusal to renew lease of garden",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Catherine, first wife of Bastien des Preys",
+      "victim_relationship_to_witness": "first wife",
+      "harm_category": "human_death",
+      "harm_description": "fell ill with 'ung poinct'; during treatment by Isabillon, pain ceased when she said prayer, only to resume once she left",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "method_alleged": "treated her during illness, saying a prayer; pain ceased during treatment, resumed once she left",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "small brother-in-law of Bastien des Preys",
+      "victim_relationship_to_witness": "brother-in-law",
+      "harm_category": "human_illness",
+      "harm_description": "recovered from illness after she said he would",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "method_alleged": "said he would recover from illness, which he did",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Jeanne, second wife of Bastien des Preys",
+      "victim_relationship_to_witness": "second wife",
+      "harm_category": "human_death",
+      "harm_description": "taken with severe illness 2 weeks after quarrels; thought possessed; said devil was preventing her saying paternoster; died in 2 weeks",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "various quarrels known to many",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "method_alleged": "During illness Ysabillon asked him how she did, and said she would recover, added that he should not suspect anyone",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "daughter of Mengeatte femme Jean Parisat",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "death after eating bread given by Isabillon",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "9 horses and cattle of Parisat household",
+      "victim_relationship_to_witness": "owned by family",
+      "harm_category": "animal_death",
+      "harm_description": "deaths of 9 horses and cattle",
+      "animal_type": "horses and cattle",
+      "animal_count": 9,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "although they had not quarrelled with her",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "various animals of Gergonne Perlet",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "deaths of various animals",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "after he beat her daughter, who was servant in his house",
+      "time_between_quarrel_and_harm": "after he beat her daughter",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "calf of Marie femme Jean Bagard",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "died 3 or 4 days after going into her stable",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "time_between_quarrel_and_harm": "3 or 4 days after going into her stable",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "ox of Barbe Symon and Laurent François",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "unable to sell peas for sowing because she had none",
+      "time_between_quarrel_and_harm": "same week",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "daughter of Jean Thomassin who was guarding animals",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "killed by lightning",
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "4 years before was herdsman, and took caution against her for payment of what was due",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "she told one of his daughters that 'il s'en donneroit de garde'",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "sow of Jean Bagard",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "sow died",
+      "animal_type": "sow",
+      "animal_count": 1,
+      "attributed_to": "Isabillon femme Jean Parmentier",
+      "precipitating_quarrel": "dispute when she owed him money for some straw",
+      "time_between_quarrel_and_harm": "6 weeks later",
+      "witness_number": 29
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread and tart",
+      "context": "she had given pieces of bread and tart given her by wife of Claude Henry to her own daughter",
+      "category": "food"
+    },
+    {
+      "object": "distaff",
+      "context": "took her distaff to go to 'escraignes'",
+      "category": "household"
+    },
+    {
+      "object": "lantern",
+      "context": "saw another woman coming with a lantern",
+      "category": "household"
+    },
+    {
+      "object": "crutches",
+      "context": "her husband suddenly lost use of limbs and needed crutches",
+      "category": "household"
+    },
+    {
+      "object": "spider",
+      "context": "husband (father of witness) once found a spider in his plate",
+      "category": "other"
+    },
+    {
+      "object": "powder",
+      "context": "devil gave her powder to avenge herself; used powder to cause fatal illness",
+      "category": "magical"
+    },
+    {
+      "object": "fumier (manure pile)",
+      "context": "he threw her against 'fumier' and wanted to have intercourse",
+      "category": "agricultural"
+    },
+    {
+      "object": "peas for sowing",
+      "context": "was unable to sell her peas for sowing, because she had none",
+      "category": "agricultural"
+    },
+    {
+      "object": "straw",
+      "context": "had dispute when she owed him money for some straw",
+      "category": "agricultural"
+    },
+    {
+      "object": "packet of goods",
+      "context": "Had recently brought her a packet of goods to keep for her, which she had taken back previous day",
+      "category": "household"
+    },
+    {
+      "object": "soup",
+      "context": "Claudin des Pomottes had informed her mistress that she gave her some soup",
+      "category": "food"
+    },
+    {
+      "object": "garden lease",
+      "context": "After refusing to renew lease of garden",
+      "category": "property"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neufville-devant-Nancy",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Jarville",
+      "place_type": "village",
+      "context": "met her going towards Jarville; Catherine first wife of Bastien des Preys injured her stomach in a fall on way to mill at Jarville"
+    },
+    {
+      "place_name": "escraignes",
+      "place_type": "other",
+      "context": "took her distaff to go to 'escraignes' when seduced by devil"
+    },
+    {
+      "place_name": "house of George Masson",
+      "place_type": "house",
+      "context": "she had hidden her goods when information was taken against la Grosse Janotte from house of George Masson"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Change de Nancy issued death sentence"
+    },
+    {
+      "place_name": "garden of Didier Languille",
+      "place_type": "field",
+      "context": "forbidding her to pass through his garden; refusing to renew lease of garden"
+    },
+    {
+      "place_name": "her garden",
+      "place_type": "field",
+      "context": "only other time Persin appeared to her it was as black dog in her garden"
+    },
+    {
+      "place_name": "stable of Isabillon",
+      "place_type": "other",
+      "context": "thought she heard a voice complaining in Ysabillon's stable"
+    },
+    {
+      "place_name": "sabbat location",
+      "place_type": "sabbat_location",
+      "context": "claimed to have been to sabbat only once"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["lightning"],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["poverty implied by Languille family unable to continue ploughing after loss of horses", "debt disputes over straw and peas"],
+    "religious_calendar_references": ["Christmas"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      },
+      {
+        "name": "Claude Pays",
+        "role": "maire",
+        "location": "la Neufville"
+      },
+      {
+        "name": "Claude Thouvenin",
+        "role": "other",
+        "location": "la Neufville"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "debt",
+        "description": "4 years before was herdsman, and took caution against her for payment of what was due",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "had dispute when she owed him money for some straw",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "not specified",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 7,
+    "hearsay_chains": [
+      {
+        "reporter": "Jannotte veuve Demenge Bagard",
+        "source": "Jeanne femme Bastien Parmentier (deceased)",
+        "content": "she had told neighbours that Isabillon was cause of her illness"
+      },
+      {
+        "reporter": "Bastien des Preys",
+        "source": "neighbours",
+        "content": "Did recover her senses before death, but said nothing to him about accused being cause; she had however told neighbours this"
+      },
+      {
+        "reporter": "Catherine femme Jean Braconnier",
+        "source": "her husband (father)",
+        "content": "had often heard her called witch, notably by her husband (father of witness)"
+      }
+    ],
+    "oldest_accusation_years": 7,
+    "corroboration_groups": [
+      [3, 12],
+      [8, 15],
+      [11, 13],
+      [24, 26]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "angry that her husband called her witch"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 8,
+        "objection": "Denied causing death of Jean Parisot's daughter, saying the girl was already sick"
+      },
+      {
+        "witness_number": 11,
+        "objection": "Had never spoken to Didier Languille, who was 'un gueux et un meschant homme', about his son, who was 'l'un des plus meschant guerson' of la Neufville. As for his dead horses, he had small horses which he worked too hard"
+      },
+      {
+        "witness_number": 14,
+        "objection": "Said that she had visited Catherine, first wife of Bastien des Preys, during her illness. She had injured her stomach in a fall on way to mill at Jarville; if she were alive would not accuse her as others did. Agreed she had quarrelled with his second wife Jeanne, but it had not been serious, she did not hate her, and had neither caused nor wished her any harm"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Bastien Cousturier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "accuser who applied to PG",
+      "context": "Had been accused by Bastien Cousturier of la Neufville, who had applied to PG"
+    },
+    {
+      "name": "la Grosse Janotte",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "another accused witch",
+      "context": "she had hidden her goods when information was taken against la Grosse Janotte from house of George Masson, who was not convicted"
+    },
+    {
+      "name": "George Masson",
+      "role_in_narrative": "community_member",
+      "context": "house from which information was taken against la Grosse Janotte"
+    },
+    {
+      "name": "Colin, servant of Claude Daulphin",
+      "role_in_narrative": "community_member",
+      "context": "Had heard her called witch by Colin, servant of Claude Daulphin, without seeking any reparation"
+    },
+    {
+      "name": "Claude Daulphin",
+      "role_in_narrative": "community_member",
+      "context": "employer of Colin who called accused witch"
+    },
+    {
+      "name": "wife of Claude Henry",
+      "role_in_narrative": "community_member",
+      "context": "had given pieces of bread and tart given her by wife of Claude Henry to her own daughter"
+    },
+    {
+      "name": "Claudin des Pomottes",
+      "role_in_narrative": "community_member",
+      "context": "Claudin des Pomottes had informed her mistress that she gave her some soup, and he would repent"
+    },
+    {
+      "name": "Claude Pays grandfather",
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "grandfather of witness 19",
+      "context": "She had been in service of his grandfather"
+    },
+    {
+      "name": "Claude Pays father",
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "father of witness 19",
+      "context": "had long frequented his father's house, without any suspicion of witchcraft"
+    },
+    {
+      "name": "Isabillon's stepdaughter",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "stepdaughter",
+      "context": "He had not wanted to hire her stepdaughter as servant again"
+    },
+    {
+      "name": "Isabillon's daughter",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "she had given pieces of bread and tart to her own daughter, who was also ill; beat her daughter, who was servant in his house"
+    },
+    {
+      "name": "first husband of Isabillon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "former husband",
+      "context": "first husband sometimes called her witch; she had been told that devil gave her powder with which she had killed her first husband"
+    },
+    {
+      "name": "Jean Parmentier (husband)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "context": "husband was manouvrier; Was angry that her husband called her witch"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Very detailed trial record with 29 witnesses. Isabillon was clearly a folk healer who was called to treat the sick. Pattern of quarrels over economic matters (garden lease, servant employment, debts for straw and peas) followed by harms. Resisted torture initially (thumbscrews, rack, tortillons, strappado with weights) but eventually confessed after subsequent interrogation with threats. Notable that she provided natural explanations for alleged harms (girl already sick, Catherine injured in fall, Languille worked his horses too hard). Case shows healing activities being reinterpreted as witchcraft. Multiple witnesses testified to long-standing reputation (7+ years). Death sentence from Change de Nancy on June 23, 1599.",
+    "pdf_pages": 5
+  }
+}

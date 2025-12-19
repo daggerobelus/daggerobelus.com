@@ -1,0 +1,1703 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "trial_id": "w002",
+  "archive_ref": "B 2192 no 1",
+  "location": "Mazerulles",
+  "court": "Amance",
+  "dates": {
+    "start": "1612-07-02",
+    "end": "1612-07-25",
+    "duration_days": 23
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Mengin Mathiotte",
+      "gender": "male",
+      "age": 70,
+      "age_approximate": true,
+      "occupation": ["herdsman", "paistre"],
+      "origin": "Bey",
+      "residence": "Mazerulles",
+      "marital_status": "married",
+      "spouse_name": "Unknown (second wife, married 18-20 years)",
+      "parents": {
+        "father": "Nicolas Estienne"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persy",
+        "devil_appearance": "Appeared as a merchant",
+        "seduction_date": "1606 (6 years before trial, later changed to 10 years = 1602)",
+        "seduction_context": "Was guarding cattle in the wood, lamenting his poverty. Persy said he was a merchant and would give him money if he believed in him. The money turned out to be pieces of glass.",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "Pricked his forehead, but was not very painful"
+        },
+        "powder_types": [
+          "black powder (to kill)",
+          "yellow powder (to cause languishing/illness)",
+          "grey powder (lost it after putting in pocket)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": ["woods (unspecified location)"],
+        "sabbat_activities": [
+          "Everyone wore black masks",
+          "Others danced holding hands and singing, with Persy leading them",
+          "He did not dance himself",
+          "Food and drink had no taste",
+          "Attempted to make hail (unsuccessfully) previous year"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Thoussainct Bournery",
+      "gender": "male",
+      "age": 60,
+      "occupation": "manoeuvrier",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 13,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Returned joyeux from Amance and quarrelled with Mengin",
+        "threat_received": true,
+        "threat_quote": "told him to watch out",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "next day before dawn"
+          },
+          {
+            "type": "animal_illness",
+            "target": "another horse",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "next day before dawn (bitten by wolves)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolas Berger, dit Tixerand",
+      "gender": "male",
+      "age": 27,
+      "occupation": "manoeuvrier",
+      "location": "Brin",
+      "relationship_to_accused": "fought with accused's son over a girl",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Fought with son of Mengin because they were courting same girl",
+        "threat_received": true,
+        "threat_quote": "was told to watch out",
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "Nicolas Berger himself",
+            "target_relationship": "self",
+            "attributed_to": "Mengin Mathiotte (transformed as black cat)",
+            "time_after_quarrel": "a few days later at night"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Didier Florentin",
+      "gender": "male",
+      "age": 36,
+      "occupation": "manoeuvrier",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Crestaille Thieriet",
+      "gender": "male",
+      "age": 34,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Bastien Arracourt",
+      "gender": "male",
+      "age": 55,
+      "occupation": "manoeuvrier",
+      "location": "Mazerulles",
+      "relationship_to_accused": "replaced him as herdsman",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Mengin had charge of cattle of village but refused to pay 'les vins'; job was taken away and given to witness",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "a few days later (lost in the woods)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Izabel femme Demange Rougier",
+      "gender": "female",
+      "age": 32,
+      "occupation": "laboureur (wife)",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor/employer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Whether husband had paid Mengin enough at Christmas when he was guarding cattle; later dispute over payment for carting",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "young ox",
+            "target_relationship": "family livestock",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "shortly after Christmas payment question (6-7 years before)"
+          },
+          {
+            "type": "animal_death",
+            "target": "heifer",
+            "target_relationship": "family livestock",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "after dispute over carting payment (a year after ox death)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Demange Rougier",
+      "gender": "male",
+      "age": 38,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor/employer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Multiple: dog threatened Mengin's daughter; horses put to pasture in disputed garden; payment disputes",
+        "threat_received": true,
+        "threat_quote": "que dedans trois jours, il luy donneroit un tel torchon. qu'il s'en donneroit de guarde (within three days would give him such a rag that he would beware)",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "dog",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "within three days (dog ran about as if rabid, was shut up, and died)"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse (one of his best)",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "soon after putting horses in disputed garden (12 years before)"
+          },
+          {
+            "type": "animal_death",
+            "target": "heifer",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "soon after payment quarrel when Mengin said 'if he was not paid on one way he would be in another'"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Anthoine Rougier (le maire)",
+      "gender": "male",
+      "age": 43,
+      "occupation": "laboureur, maire",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor/village official",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "As herdsman, Mengin let animals damage his sown field; was condemned to give grain as compensation",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 9,
+      "name": "Mengin Dourche",
+      "gender": "male",
+      "age": 30,
+      "occupation": "paistre des bestes blanches",
+      "location": "Mazerulles",
+      "relationship_to_accused": "rival herdsman",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Had outbid Mengin for herd, but witness was persuaded to match price and keep it",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "shortly after Mengin visited his house in his absence (18 months before)"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 calves",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "died suddenly (18 months before)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Mengeotte femme Mengin Dourche",
+      "gender": "female",
+      "age": 24,
+      "occupation": "wife of herdsman",
+      "location": "Mazerulles",
+      "relationship_to_accused": "rival herdsman's wife",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "Repeated husband's evidence",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Nicolas Saffrois",
+      "gender": "male",
+      "age": 28,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "employer/neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Said herdsman charge should be at certain price in grain; animals strayed on his land multiple times; Mengin admired his horse",
+        "threat_received": true,
+        "threat_quote": "il luy en arriveroit grand accident (great accident would happen to him) if two more bewitched horses died",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "6 horses (lost at intervals)",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "within month of herdsman appointment dispute in 1610, then 5 others at fortnightly intervals"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "his own (servant was leading it)",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "died in 2 days after Mengin admired it (5 weeks before trial)"
+          },
+          {
+            "type": "animal_illness",
+            "target": "2 horses",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "bewitched but recovered in 3 days after witness confronted Mengin"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Barbe femme Nicolas Saffrois",
+      "gender": "female",
+      "age": 25,
+      "occupation": "laboureur (wife)",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor/employer's wife",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Payment dispute - 10 gros remained due for work; his wife took 15-16 bundles of straw, asked for more; witness said already well paid but could take 3 more",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Barbe herself",
+            "target_relationship": "self",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "a few days later became very ill"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jean Symonin",
+      "gender": "male",
+      "age": 64,
+      "occupation": "maire pour le sondrier",
+      "location": "Mazerulles",
+      "relationship_to_accused": "village official",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Barbellon femme Demange Malgrais",
+      "gender": "female",
+      "age": 30,
+      "occupation": "laboureur (wife)",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "cows (loss of milk production)",
+            "target_relationship": "family livestock",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "ongoing - cows gave milk when he was herdsman, none when he was not"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Catherine femme Nicolas Villaume",
+      "gender": "female",
+      "age": 28,
+      "occupation": "unknown",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor (lived in same house at Christmas)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Made remark to his wife about how they were no longer keeping herd",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "family livestock",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "some time after Christmas remark"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Mengeotte, veuve François Jean Maire",
+      "gender": "female",
+      "age": 30,
+      "occupation": "widow",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "One of her cows returned limping; quarrel about this; he said didn't want it in herd any longer",
+        "threat_received": true,
+        "threat_quote": "qu'il la retrouveroit bien en un aultre lieu (he would find her in another place)",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "her own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "a few days after he tried to attack her and made threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Odille femme Jean Hangney",
+      "gender": "female",
+      "age": 50,
+      "occupation": "laboureur (wife)",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "He blamed them for helping to deprive him of position as herdsman",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 heifers and a cow",
+            "target_relationship": "family livestock",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "after loss of herdsman position"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mathis Florentin",
+      "gender": "male",
+      "age": 40,
+      "occupation": "lieutenant du prévôt",
+      "location": "Mazerulles",
+      "relationship_to_accused": "village official/echevin of church",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Promised Mengin could have herdsman position; community chose him on condition he pay woodland fines; refused to pay his franc share for supper/drink; lost position to another who paid",
+        "threat_received": true,
+        "threat_quote": "he would see what he gained by it",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "a week after threat - became ill with unknown malady"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean Hangney",
+      "gender": "male",
+      "age": 55,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over payment for keeping herd 10 years before; blamed him and maire for loss of herd previous year",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "10 years before after payment dispute"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 heifers",
+            "target_relationship": "his own",
+            "attributed_to": "Mengin Mathiotte",
+            "time_after_quarrel": "previous year after being blamed for herd loss - died suddenly"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Demange Malgrais",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1612-07-02",
+      "event": "informations_preparatoires",
+      "subject": "Witnesses 1-6",
+      "details": "First day of witness testimony gathering"
+    },
+    {
+      "date": "1612-07-02",
+      "event": "other",
+      "subject": "Arrest context",
+      "details": "Mengin had sought damages from Barthelemin Humblot (paistre) after he called him witch, but Humblot chose to make himself partie formelle, and Mengin was arrested"
+    },
+    {
+      "date": "1612-07-03",
+      "event": "informations_preparatoires",
+      "subject": "Witnesses 7-19",
+      "details": "Second day of witness testimony gathering"
+    },
+    {
+      "date": "1612-07-07",
+      "event": "other",
+      "subject": "PG order",
+      "details": "PG (C.M. Rémy) orders interrogation and confrontations"
+    },
+    {
+      "date": "1612-07-11",
+      "event": "interrogation",
+      "subject": "Mengin Mathiotte",
+      "details": "First interrogation - denied charges firmly, admitted some minor disputes"
+    },
+    {
+      "date": "1612-07-12",
+      "event": "confrontation",
+      "subject": "Mengin Mathiotte with witnesses",
+      "details": "No reproaches to witnesses, continued to deny all charges"
+    },
+    {
+      "date": "1612-07-16",
+      "event": "torture_requested",
+      "subject": "Mengin Mathiotte",
+      "details": "PG asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1612-07-17",
+      "event": "torture_approved",
+      "subject": "Mengin Mathiotte",
+      "details": "Change de Nancy approves torture, but only with moderation in view of his age"
+    },
+    {
+      "date": "1612-07-19",
+      "event": "torture",
+      "subject": "Mengin Mathiotte",
+      "details": "Interrogation under torture - Court at Amance confirmed 'question mediocre'; given thumbscrews and rack; confessed to being witch seduced by Persy"
+    },
+    {
+      "date": "1612-07-20",
+      "event": "interrogation",
+      "subject": "Mengin Mathiotte",
+      "details": "Confirmed previous confessions"
+    },
+    {
+      "date": "1612-07-20",
+      "event": "death_requested",
+      "subject": "Mengin Mathiotte",
+      "details": "PG asks for death sentence"
+    },
+    {
+      "date": "1612-07-21",
+      "event": "death_approved",
+      "subject": "Mengin Mathiotte",
+      "details": "Change de Nancy agrees to death sentence"
+    },
+    {
+      "date": "1612-07-21",
+      "event": "sentence",
+      "subject": "Mengin Mathiotte",
+      "details": "Sentence passed by Amance court"
+    },
+    {
+      "date": "1612-07-25",
+      "event": "execution",
+      "subject": "Mengin Mathiotte",
+      "details": "Executed; at execution was confronted with Mengeotte femme Didier Guerard; said he thought he had seen her at sabbat but could say no more"
+    },
+    {
+      "date": "1612-07-25",
+      "event": "other",
+      "subject": "Mengeotte femme Didier Guerard",
+      "details": "PG asked for investigation into her reputation based on accusation at execution"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "PG (Procureur Général)",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Only with moderation in view of his age (70 years); approved as 'question mediocre'"
+  },
+  "accomplices_named": [
+    {
+      "name": "Mengeotte femme Didier Guerard",
+      "location": "Mazerulles",
+      "context": "Claimed he had seen her when mask slipped while they were trying (unsuccessfully) to make hail previous year. At execution said he thought he had seen her at sabbat but could say no more.",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Barthelemin Humblot",
+      "accuser_location": "Mazerulles",
+      "context": "Called Mengin a witch; Mengin sought damages, but Humblot chose to make himself partie formelle, leading to Mengin's arrest",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Mengin Mathiotte to Demange Rougier (via witness 7)",
+      "french": "que dedans trois jours, il luy donneroit un tel torchon. qu'il s'en donneroit de guarde",
+      "english": "within three days, he would give him such a rag that he would beware",
+      "context": "Threat after dog incident involving Mengin's daughter"
+    },
+    {
+      "speaker": "Demange Rougier to Mengin Mathiotte (via witness 7)",
+      "french": "que s'il estoit bon clerc, qu'il tourne le feuillet nonobstant tout ce, et que mesme il luy payera ledit traict pour la seconde fois",
+      "english": "if he was a good clerk, let him turn the page notwithstanding all that, and he would even pay him for the carting a second time",
+      "context": "Response during payment dispute about carting"
+    },
+    {
+      "speaker": "Mengin Mathiotte to Demange Rougier near Laneuvelotte (via witness 7)",
+      "french": "luy vouloit faire beaucoup de mal",
+      "english": "wanted to do him much harm",
+      "context": "Last St Jean, said they were talking of him"
+    },
+    {
+      "speaker": "Demange Rougier's reply (via witness 7)",
+      "french": "qu'il advise de descharger sa conscience et que sy il estoit homme de bien que l'on le trouveroit",
+      "english": "that he should think about unburdening his conscience, and if he was a man of good that one would find it out",
+      "context": "Response to Mengin's statement about wanting to harm him"
+    },
+    {
+      "speaker": "Mengin Mathiotte to Demange Rougier (via witness 7)",
+      "french": "que ce n'estoit pour luy qu'on le voulloit faire prendre, mais que c'estoit pour d'aultres",
+      "english": "it was not for him they wanted to have him arrested, but for others",
+      "context": "Mengin's statement suggesting others were behind potential arrest"
+    },
+    {
+      "speaker": "Nicolas Saffrois to Mengin Mathiotte (via witness 11)",
+      "french": "il luy en arriveroit grand accident",
+      "english": "great accident would happen to him",
+      "context": "Confrontation where Nicolas told Mengin he had killed 7 horses and 2 more were bewitched"
+    },
+    {
+      "speaker": "Mengeotte veuve François Jean Maire (via witness 16)",
+      "french": "qu'il la retrouveroit bien en un aultre lieu",
+      "english": "he would find her in another place",
+      "context": "Threat after quarrel about limping cow; he tried to attack her but she ran away"
+    },
+    {
+      "speaker": "Nicolas Saffrois (via witness 11, reporting Mengin's threat)",
+      "french": "que sy il luy arriveroit encor un tel accident, il feroit des choses, que l'on en parleroit encor d'icy a cent ans, et qu'il vouloit faire prendre des femmes soupconnez pour sorciers audit Mazerulles",
+      "english": "if such an accident happened to him again, he would do things that people would still talk about in a hundred years, and he wanted to have women suspected of being witches in Mazerulles arrested",
+      "context": "Mengin's reported statement during interrogation about Nicolas Saffrois' confrontation"
+    },
+    {
+      "speaker": "Mengin Mathiotte during interrogation",
+      "french": "ce n'estoit pour luy, ains affin qu'il en accuse des aultres",
+      "english": "it was not for him, but so that he would accuse others",
+      "context": "Mengin's admission about what he told Rougier regarding reasons for possible arrest"
+    },
+    {
+      "speaker": "Nicolas Berger describing cat noise (via witness 2)",
+      "french": "on feroit abattre des chaudirons",
+      "english": "as if they were knocking down cauldrons",
+      "context": "Description of noise made by great black cat that rushed toward him"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Mengin Mathiotte",
+      "person2": "Nicolas Estienne",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father was Nicolas Estienne, with whom he lived until he was 20",
+      "inferred": false
+    },
+    {
+      "person1": "Mengin Mathiotte",
+      "person2": "Mengin Mathiotte's second wife",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Married for 40 years, 18 or 20 to present wife who was still living",
+      "inferred": false
+    },
+    {
+      "person1": "Mengin Mathiotte's son",
+      "person2": "Mengin Mathiotte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "fought with son of Mengin",
+      "inferred": false
+    },
+    {
+      "person1": "Mengin Mathiotte's daughter",
+      "person2": "Mengin Mathiotte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "dog made as if to attack Mengin's daughter; a 12-year-old daughter mentioned in theft confession",
+      "inferred": false
+    },
+    {
+      "person1": "Izabel",
+      "person2": "Demange Rougier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Izabel femme Demange Rougier",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe",
+      "person2": "Nicolas Saffrois",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbe femme Nicolas Saffrois",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte",
+      "person2": "Mengin Dourche",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mengeotte femme du precedent [Mengin Dourche]",
+      "inferred": false
+    },
+    {
+      "person1": "Barbellon",
+      "person2": "Demange Malgrais",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbellon femme Demange Malgrais",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Nicolas Villaume",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Nicolas Villaume",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte",
+      "person2": "François Jean Maire",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeotte, veuve François Jean Maire",
+      "inferred": false
+    },
+    {
+      "person1": "Odille",
+      "person2": "Jean Hangney",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Odille femme Jean Hangney",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Berger",
+      "person2": "Nicolas Saffrois",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "2 years earlier had been in service of Nicolas Saffrois of Mazerulles",
+      "inferred": false
+    },
+    {
+      "person1": "Mengin Mathiotte",
+      "person2": "Thoussainct Bournery",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "quarrelled with Mengin after returning from Amance",
+      "inferred": true
+    },
+    {
+      "person1": "Mengin Mathiotte",
+      "person2": "Demange Rougier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "multiple interactions and employment relationship",
+      "inferred": true
+    },
+    {
+      "person1": "Mengin Mathiotte",
+      "person2": "Anthoine Rougier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "as herdsman, let animals damage his field",
+      "inferred": true
+    },
+    {
+      "person1": "Mengin Mathiotte",
+      "person2": "Catherine femme Nicolas Villaume",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Previous Christmas were living in same house",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte",
+      "person2": "Didier Guerard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Mengeotte femme Didier Guerard (accomplice named)",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes centered on Mengin's role as village herdsman: refusing to pay 'les vins' (customary payment), disputes over grain payments, conflicts over woodland fines payment for herdsman position, payment disputes for carting work, disputes over compensation for crop damage. Economic hardship mentioned - Mengin lamenting his poverty when devil approached him. Loss of herdsman position was central economic issue leading to many conflicts. Confessed to thefts driven by poverty: 2 loaves at Vic 18 years earlier, a sheep on lease from Pieron George of Champenoux (killed 5 years before), shoes for 12-year-old daughter at Vic 3 years before."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Thoussainct Bournery",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Horse strangled by wolves before dawn",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Returned joyeux from Amance and quarrelled",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Thoussainct Bournery",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "Another horse bitten by wolves",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Same quarrel after returning from Amance",
+      "time_between_quarrel_and_harm": "next day before dawn",
+      "method_alleged": "witchcraft causing wolf attack",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Nicolas Berger",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "other",
+      "harm_description": "Great black cat rushed toward him making noise like knocking down cauldrons, then jumped on dung-heap; cat appeared next day in barn scratching doorpost",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte (as shapeshifted cat)",
+      "precipitating_quarrel": "Fought with Mengin's son over same girl",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "shapeshifting into black cat",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Bastien Arracourt",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "One cow lost in the woods",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Mengin refused to pay 'les vins' for cattle charge; job taken away and given to witness by Hesselot Saffrois",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "witchcraft",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Demange Rougier household",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Young ox sickened and died after long illness",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Wife wondered whether Christmas payment to Mengin was enough",
+      "time_between_quarrel_and_harm": "shortly afterwards",
+      "method_alleged": "witchcraft (refused angrily to look at sick animal when asked)",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Demange Rougier household",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Heifer died",
+      "animal_type": "heifer",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Dispute over payment for carting which had been made but Mengin denied receiving",
+      "time_between_quarrel_and_harm": "a year after ox death",
+      "method_alleged": "witchcraft",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Demange Rougier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Dog ran about everywhere as if rabid, was shut up, and died",
+      "animal_type": "dog",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Dog made as if to attack Mengin's daughter; Mengin told him off furiously and made threat",
+      "time_between_quarrel_and_harm": "within three days",
+      "method_alleged": "witchcraft curse",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Demange Rougier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "One of his best horses died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "best",
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Put horses to pasture in garden belonging to Mengin Bouchier attached to house where accused lived; accused was angry claiming grass belonged to him",
+      "time_between_quarrel_and_harm": "soon after (12 years before trial)",
+      "method_alleged": "witchcraft",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Demange Rougier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Heifer became ill and died under his own eyes while feeding animals",
+      "animal_type": "heifer",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Payment dispute where Mengin said if not paid one way would be paid another way",
+      "time_between_quarrel_and_harm": "soon after quarrel",
+      "method_alleged": "witchcraft powder (confessed to killing cow with powder)",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Mengin Dourche",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Lost a cow which died suddenly",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Had outbid Mengin for herd but was persuaded to match price and keep it; Mengin resented this",
+      "time_between_quarrel_and_harm": "shortly after Mengin went to his house in his absence (18 months before)",
+      "method_alleged": "witchcraft",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Mengin Dourche",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "2 calves died suddenly",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Same herd dispute",
+      "time_between_quarrel_and_harm": "same time as cow (18 months before)",
+      "method_alleged": "witchcraft",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Nicolas Saffrois",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Lost a horse, then 5 others at fortnightly intervals",
+      "animal_type": "horse",
+      "animal_count": 6,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Said herdsman should be at certain charge in grain in 1610",
+      "time_between_quarrel_and_harm": "within a month for first, then every two weeks",
+      "method_alleged": "witchcraft",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Nicolas Saffrois",
+      "victim_relationship_to_witness": "self (servant was leading it)",
+      "harm_category": "animal_death",
+      "harm_description": "Horse died in 2 days after Mengin admired it",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Animals allowed to stray on his land; met Mengin in woods who was very friendly; admired horse",
+      "time_between_quarrel_and_harm": "2 days after admiration (5 weeks before trial)",
+      "method_alleged": "witchcraft (confessed to killing calf with powder because of bad grain payment)",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Nicolas Saffrois",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "2 horses bewitched but recovered in 3 days after confrontation",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Ongoing conflict; witness confronted Mengin saying he'd killed 7 horses",
+      "time_between_quarrel_and_harm": "contemporaneous; recovered after threat",
+      "method_alleged": "witchcraft (lifted after confrontation/threat)",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Barbe femme Nicolas Saffrois",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Became very ill",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Payment dispute - 10 gros due for work; his wife took 15-16 bundles straw, asked for more; witness said already well paid but could take 3 more",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "witchcraft",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Barbellon femme Demange Malgrais household",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "other",
+      "harm_description": "Cows gave milk when he was herdsman, none when he was not",
+      "animal_type": "cow",
+      "animal_count": null,
+      "economic_value": "loss of milk production",
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "none specific - ongoing suspicion",
+      "time_between_quarrel_and_harm": "ongoing pattern",
+      "method_alleged": "witchcraft",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Catherine femme Nicolas Villaume household",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Had a cow dead",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Made remark to his wife about how they were no longer keeping herd",
+      "time_between_quarrel_and_harm": "some time after Christmas",
+      "method_alleged": "witchcraft",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Mengeotte veuve François Jean Maire",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "A calf died",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Cow returned limping; quarrel about this; he said didn't want it in herd; tried to attack her but she ran away",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "witchcraft",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Odille femme Jean Hangney household",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Death of 2 heifers and a cow",
+      "animal_type": "cattle",
+      "animal_count": 3,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "He blamed them for helping to deprive him of position as herdsman",
+      "time_between_quarrel_and_harm": "after loss of position",
+      "method_alleged": "witchcraft",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Mathis Florentin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Lost 2 horses which became ill with unknown malady",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Promised herdsman position; Mengin refused to pay franc for supper/drink; lost position to another who paid; Mengin angry and said witness would see what he gained by it",
+      "time_between_quarrel_and_harm": "a week later",
+      "method_alleged": "witchcraft",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Jean Hangney",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "Lost a cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Dispute over payment for keeping herd",
+      "time_between_quarrel_and_harm": "10 years before trial",
+      "method_alleged": "witchcraft",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Jean Hangney",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "2 heifers died suddenly",
+      "animal_type": "heifer",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Mengin Mathiotte",
+      "precipitating_quarrel": "Blamed Mengin and maire for loss of herd",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "witchcraft",
+      "witness_number": 19
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "horses",
+      "context": "Primary livestock affected by alleged witchcraft; used for plowing and transport",
+      "category": "agricultural"
+    },
+    {
+      "object": "cattle (cows, oxen, heifers, calves)",
+      "context": "Village herd under care of herdsman; frequent victims of alleged maleficia",
+      "category": "agricultural"
+    },
+    {
+      "object": "les vins",
+      "context": "Customary payment that Mengin refused to pay for cattle charge position",
+      "category": "food"
+    },
+    {
+      "object": "grain",
+      "context": "Payment for herdsman services; compensation for crop damage; bad grain given by Nicolas Saffrois mentioned",
+      "category": "food"
+    },
+    {
+      "object": "straw (bundles)",
+      "context": "Payment dispute with Barbe - 15-16 bundles taken, asked for more",
+      "category": "agricultural"
+    },
+    {
+      "object": "black powder",
+      "context": "Given by devil Persy to kill",
+      "category": "magical"
+    },
+    {
+      "object": "yellow powder",
+      "context": "Given by devil to cause languishing/illness",
+      "category": "magical"
+    },
+    {
+      "object": "grey powder",
+      "context": "Given by devil but lost after putting in pocket",
+      "category": "magical"
+    },
+    {
+      "object": "glass pieces",
+      "context": "Devil's money turned out to be worthless glass",
+      "category": "other"
+    },
+    {
+      "object": "black masks",
+      "context": "Worn by all at sabbat so he did not know them",
+      "category": "magical"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "Torture instrument used during interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "rack",
+      "context": "Torture instrument used during interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "2 loaves",
+      "context": "Stolen at Vic 18 years earlier (confessed theft)",
+      "category": "food"
+    },
+    {
+      "object": "sheep",
+      "context": "Had on lease from Pieron George of Champenoux; killed 5 years before (confessed theft)",
+      "category": "agricultural"
+    },
+    {
+      "object": "pair of shoes",
+      "context": "Stolen for 12-year-old daughter at Vic 3 years before (confessed theft)",
+      "category": "clothing"
+    },
+    {
+      "object": "franc",
+      "context": "Payment Mengin refused for supper/drink deal regarding herdsman position",
+      "category": "money"
+    },
+    {
+      "object": "10 gros",
+      "context": "Amount remaining due for work in payment dispute with Barbe",
+      "category": "money"
+    },
+    {
+      "object": "herbs",
+      "context": "Sent for during wife's illness to cure her",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Mazerulles",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Amance",
+      "place_type": "village",
+      "context": "Court location; Thoussainct Bournery returned from there before quarrel"
+    },
+    {
+      "place_name": "Bey",
+      "place_type": "village",
+      "context": "Native village of Mengin Mathiotte"
+    },
+    {
+      "place_name": "Brin",
+      "place_type": "village",
+      "context": "Location of witness Nicolas Berger"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where devil Persy seduced Mengin while guarding cattle; where cow was lost; where Nicolas Saffrois met Mengin; where powders were hidden in earth; sabbat location"
+    },
+    {
+      "place_name": "Laneuvelotte",
+      "place_type": "village",
+      "context": "Where Mengin met Demange Rougier last St Jean; where Mengin had previously been herdsman"
+    },
+    {
+      "place_name": "Dompmartin",
+      "place_type": "village",
+      "context": "Where Mengin had previously been herdsman"
+    },
+    {
+      "place_name": "Vic",
+      "place_type": "village",
+      "context": "Where Mengin confessed to stealing 2 loaves 18 years earlier and shoes 3 years earlier"
+    },
+    {
+      "place_name": "Champenoux",
+      "place_type": "village",
+      "context": "Home of late Pieron George from whom Mengin had sheep on lease"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy court that approved torture and death sentence"
+    },
+    {
+      "place_name": "garden belonging to Mengin Bouchier",
+      "place_type": "field",
+      "context": "Attached to house where accused lived; disputed pasture for horses"
+    },
+    {
+      "place_name": "sown field",
+      "place_type": "field",
+      "context": "Anthoine Rougier's field damaged by animals under Mengin's care"
+    },
+    {
+      "place_name": "barn",
+      "place_type": "house",
+      "context": "Where Nicolas Berger was with master when cat appeared and scratched at doorpost"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": ["attempted hail-making at sabbat (unsuccessful) previous year"],
+    "animal_predation": ["wolves attacked herd of horses before dawn, strangling one and biting another"],
+    "economic_hardship_indicators": [
+      "Mengin lamenting his poverty when approached by devil",
+      "Confessed thefts driven by need: loaves, sheep, shoes for daughter",
+      "Multiple payment disputes over small amounts",
+      "Loss of herdsman position was major economic blow",
+      "Competition for herdsman position (Mengin Dourche outbidding)",
+      "Disputes over customary payments like 'les vins'"
+    ],
+    "religious_calendar_references": ["Christmas (payment time)", "last St Jean (meeting near Laneuvelotte)"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": "Amance"
+      },
+      {
+        "name": "Mathis Florentin",
+        "role": "prevot",
+        "location": "Mazerulles"
+      },
+      {
+        "name": "Anthoine Rougier",
+        "role": "mayor",
+        "location": "Mazerulles"
+      },
+      {
+        "name": "Jean Symonin",
+        "role": "mayor",
+        "location": "Mazerulles (maire pour le sondrier)"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Mengin sought damages from Barthelemin Humblot (paistre) after he called him witch",
+        "outcome": "Humblot chose to make himself partie formelle, leading to Mengin's arrest"
+      },
+      {
+        "dispute_type": "property",
+        "description": "As herdsman, Mengin let animals damage Anthoine Rougier's sown field",
+        "outcome": "Condemned to give grain as compensation; wife later gave it back (presumably from fear)"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Backfired - Barthelemin Humblot made himself partie formelle, resulting in Mengin's arrest for witchcraft",
+    "imprisonment_conditions": "Mengin said he would rather die than remain in prison as he was",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 18,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Demange Rougier (witness 7)",
+        "source": "Mengin Bouchier",
+        "content": "Heard from him that accused had been angry about horses put to pasture in garden"
+      },
+      {
+        "reporter": "Anthoine Rougier (witness 8)",
+        "source": "wife",
+        "content": "Heard his wife had given back grain compensation, presumed due to fear"
+      },
+      {
+        "reporter": "Mengin Dourche (witness 9)",
+        "source": "unspecified",
+        "content": "Had heard Mengin resented losing herd position"
+      },
+      {
+        "reporter": "Demange Malgrais (witness 20)",
+        "source": "community rumor",
+        "content": "Had heard that since Mengin lost guard of cattle he was suspected of causing milk loss"
+      },
+      {
+        "reporter": "Mengin Mathiotte during interrogation",
+        "source": "Nicolas Pierson",
+        "content": "Heard from Nicolas Pierson that he was likely to be arrested"
+      }
+    ],
+    "oldest_accusation_years": 16,
+    "corroboration_groups": [
+      [6, 7],
+      [9, 10],
+      [11, 12],
+      [17, 19]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Said he would rather die than remain in prison as he was (before torture)",
+      "Denied charges firmly during first interrogation",
+      "Long and careful interrogation produced no results before torture",
+      "Only confessed under torture after being placed on rack twice"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Barthelemin Humblot",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "neighbor/fellow herdsman",
+      "relationship_to_witness": null,
+      "context": "Paistre who called Mengin witch; Mengin sought damages but Humblot made himself partie formelle, leading to Mengin's arrest"
+    },
+    {
+      "name": "Hesselot Saffrois",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "village official who removed herdsman position",
+      "relationship_to_witness": null,
+      "context": "Took herdsman job away from Mengin and gave to Bastien Arracourt"
+    },
+    {
+      "name": "Mengin Bouchier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "employer",
+      "relationship_to_witness": "told Demange Rougier about accused's anger",
+      "context": "Employed Demange Rougier for plowing; owned garden attached to house where accused lived"
+    },
+    {
+      "name": "Nicolas Pierson",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "acquaintance",
+      "relationship_to_witness": null,
+      "context": "Told Mengin he was likely to be arrested"
+    },
+    {
+      "name": "Pieron George",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "creditor (deceased)",
+      "relationship_to_witness": null,
+      "context": "Late resident of Champenoux from whom Mengin had sheep on lease which he killed (confessed theft)"
+    },
+    {
+      "name": "clerc juré",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "village official involved in herdsman appointment",
+      "relationship_to_witness": null,
+      "context": "Was to have supper/drink with Mengin and Mathis Florentin regarding herdsman deal"
+    },
+    {
+      "name": "Persy",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "devil/seducer",
+      "relationship_to_witness": null,
+      "context": "Devil who seduced Mengin 6-10 years before trial; appeared as merchant; gave powders and led sabbat"
+    },
+    {
+      "name": "Mengin Mathiotte's son",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": "fought with Nicolas Berger over girl",
+      "context": "Fought with Nicolas Berger because courting same girl"
+    },
+    {
+      "name": "Mengin Mathiotte's daughter",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "relationship_to_witness": null,
+      "context": "Dog made as if to attack her; Mengin told Demange Rougier off furiously; 12-year-old daughter mentioned in shoe theft confession"
+    },
+    {
+      "name": "Mengin Mathiotte's children (plural)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "relationship_to_witness": null,
+      "context": "Came to speak to him in prison and told him witnesses were being heard"
+    },
+    {
+      "name": "Mengin Mathiotte's wife (second wife)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "spouse",
+      "relationship_to_witness": null,
+      "context": "Still living; married 18-20 years; Mengin denied absolutely she was accomplice; was ill and he sent for herbs to cure her"
+    },
+    {
+      "name": "Mengeotte femme Didier Guerard",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "alleged accomplice at sabbat",
+      "relationship_to_witness": null,
+      "context": "Of Mazerulles; Mengin claimed he saw her when mask slipped while trying to make hail at sabbat; at execution said he thought he saw her but could say no more; PG asked for investigation"
+    },
+    {
+      "name": "Didier Guerard",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "husband of alleged accomplice",
+      "relationship_to_witness": null,
+      "context": "Husband of Mengeotte who was accused at execution"
+    },
+    {
+      "name": "Nicolas Saffrois' servant",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "servant of witness 11",
+      "context": "Was leading horse that Mengin admired and which died in 2 days"
+    },
+    {
+      "name": "Nicolas Villaume",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "husband of witness 15",
+      "context": "Husband of Catherine; lived in same house as accused at Christmas"
+    },
+    {
+      "name": "François Jean Maire",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor (deceased)",
+      "relationship_to_witness": "deceased husband of witness 16",
+      "context": "Late husband of Mengeotte who testified; she was widow at time of trial"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is a comprehensive trial record with detailed witness testimonies following a clear pattern: long reputation for witchcraft + specific quarrel/conflict + harm befalling witness or their property shortly after. The accused was a village herdsman whose loss of this position and related economic disputes drove most of the conflicts. The trial shows the legal process backfiring - Mengin sought redress for defamation but the accused chose to become partie formelle, leading to full witchcraft prosecution. Confession came only under torture and included standard elements: devil pact, powders, sabbat attendance. Named one accomplice at execution. Clear economic tensions around customary payments and herdsman position. Total of 20 witnesses with varying levels of specific testimony (some reputation only). Trial lasted 23 days from informations preparatoires to execution.",
+    "pdf_pages": 5
+  }
+}

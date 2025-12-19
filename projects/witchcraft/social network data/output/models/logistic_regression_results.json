@@ -1,0 +1,36 @@
+{
+  "accusation_model": {
+    "cv_auc_mean": 0.9125065388109219,
+    "cv_auc_std": 0.017590701662805436,
+    "roc_auc": 0.9166336267518879,
+    "n_samples": 7380,
+    "n_accused": 313,
+    "coefficients": {
+      "degree": 0.8882955083915312,
+      "betweenness_centrality": -0.6853469294403309,
+      "pagerank": 0.20610489468067247,
+      "closeness_centrality": -0.20661023074018717,
+      "eigenvector_centrality": -0.025578548500085205,
+      "clustering_coefficient": 1.8605514833182126,
+      "brokerage_score": 1.411552020001048,
+      "gender_female": 0.0,
+      "gender_male": -0.07329886535393043
+    },
+    "odds_ratios": {
+      "degree": 2.4309825286056745,
+      "betweenness_centrality": 0.5039153761662543,
+      "pagerank": 1.2288821004304273,
+      "closeness_centrality": 0.8133366018197878,
+      "eigenvector_centrality": 0.9747458111372073,
+      "clustering_coefficient": 6.42728033211666,
+      "brokerage_score": 4.102317344434004,
+      "gender_female": 1.0,
+      "gender_male": 0.9293230460567828
+    },
+    "intercept": -2.765546776331401
+  },
+  "witness_transition_model": {
+    "note": "See roles/witness_to_accused_transitions.csv for transition analysis",
+    "n_transitions_identified": 9
+  }
+}

@@ -1,0 +1,1285 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "trial_id": "w026",
+  "archive_ref": "B 3323 no 2",
+  "location": "Leintrey",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1602-02-09",
+    "end": "1602-03-09",
+    "duration_days": 28
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Sebille femme Jean Pierson",
+      "gender": "female",
+      "age": 46,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "St Paule",
+      "residence": "Leintrey",
+      "marital_status": "married",
+      "spouse_name": "Jean Pierson",
+      "parents": {
+        "father": "Demenge Poirot (laboureur)",
+        "mother": "Jehenne"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": null,
+        "devil_appearance": "whirlwind",
+        "seduction_date": "4 years before arrest (circa 1598)",
+        "seduction_context": "Had been angry because asked to pay so many debts; left house towards dawn; husband was away working on ramparts at Lunéville; roof of house had collapsed and she had to find him to get money; he gave her so little she did not know how to pay workmen",
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [
+          "powder (unspecified type)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "unspecified location"
+        ],
+        "sabbat_activities": [
+          "resolution taken to destroy the acorns"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jennon veuve Claudon Jacquemin",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "boundaries between gardens",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals (unspecified)",
+            "target_relationship": "witness's animals",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "just after marriage 20 years earlier"
+          },
+          {
+            "type": "human_death",
+            "target": "child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "17 years before testimony"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Barbelline femme Colas Goudot",
+      "gender": "female",
+      "age": 34,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "Sebille was often in their house",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband quarrelled with Jean Pierson (accused's husband, who was herdsman)",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Nicolas",
+            "target_relationship": "witness's son",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "3 or 4 years before testimony"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 calves",
+            "target_relationship": "witness's husband's calves",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "previous year after quarrel"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jehennon veuve Jean de Chasnoy",
+      "gender": "female",
+      "age": 60,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused charged with stealing plums from his tree",
+        "threat_received": true,
+        "threat_quote": "qu'il n'en avoit encore assé (he had not yet had enough)",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean de Chasnoy",
+            "target_relationship": "witness's husband",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "illness lasting 5 or 6 years, died 12 years before testimony"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge Michiel Ballance",
+      "gender": "male",
+      "age": 32,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "customer (she worked on his chimney)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 22,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to visit him when ill unless he reduced price of work by 2 or 3 gros",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Demenge Michiel Ballance",
+            "target_relationship": "self",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "7 or 8 years before testimony, suddenly became ill when working on her chimney"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Didier Connot",
+      "gender": "male",
+      "age": 27,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to sell Sebille straw",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Thoussaince",
+            "target_relationship": "witness's small daughter",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "3 weeks after refusing to sell straw; illness followed apple given at veillée, death a week later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Demenge Pierson",
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "brother-in-law (brother of Jean Pierson)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first child of Jean Pierson",
+            "target_relationship": "witness's brother's child",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "12 or 13 years before, a year after brother's marriage"
+          },
+          {
+            "type": "human_death",
+            "target": "Jean Pierson (brother) and wife",
+            "target_relationship": "witness's brother and sister-in-law",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "within a few weeks after child's death"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Nicolas Vaultrin",
+      "gender": "male",
+      "age": 32,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused told him he was cutting more hay than was his by right",
+        "threat_received": true,
+        "threat_quote": "de par dieu, il vault mieulx qu'elle soit morte que toy, ou ton mary, ou l'un de vos chevaulx (by God, it is better that she [the cow] is dead than you, or your husband, or one of your horses)",
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "cart",
+            "target_relationship": "witness's cart",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "as he returned to village"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "at same time as cart breaking; died next day after Sebille was called to see it"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Estienne Connot",
+      "gender": "male",
+      "age": 56,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "debt collector for Jean Pierson",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt collection of 20 francs Jean Pierson owed to shepherd of Reillon; witness called her witch while drinking",
+        "threat_received": true,
+        "threat_quote": "she would never forget the insult",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "fell ill same day as quarrel; recovered"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "witness's horses",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "subsequently after cow illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Nicolas Simon",
+      "gender": "male",
+      "age": 33,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "neighbor; her husband was herdsman",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "death of cow when her husband was herdsman; witness threatened to seek compensation",
+        "threat_received": true,
+        "threat_quote": "qu'il y en mourrait bien d'aultres (that many others would die)",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "sickened and died after the threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Nicolas Jean Gerardin (alias Chailey)",
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "son-in-law of Jean du Chesnoy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused of stealing plums and wood for a fire to dry them",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "many pigs, a cow, and 2 horses",
+            "target_relationship": "witness's animals",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "5 or 6 weeks after he called her witch and said she had caused Jean du Chesnoy's death"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Colas Pierson",
+      "gender": "male",
+      "age": 35,
+      "occupation": null,
+      "location": "Leintrey",
+      "relationship_to_accused": "nephew of Jean Pierson (husband)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute with Jean Pierson (accused's husband, his uncle) about putting a cow to milk",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "that cow and another",
+            "target_relationship": "witness's cows",
+            "attributed_to": "Sebille femme Jean Pierson",
+            "time_after_quarrel": "previous year after dispute"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-02-09",
+      "event": "other",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Arrested after denunciation by Jenotte veuve Claudon Thoussainct"
+    },
+    {
+      "date": "1602-02-23",
+      "event": "interrogation",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "First interrogation; had confessed to prévôt that she was a witch; described seduction 4 years before and sabbat attendance"
+    },
+    {
+      "date": "1602-02-26",
+      "event": "informations_preparatoires",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "11 witnesses testified"
+    },
+    {
+      "date": "1602-02-26",
+      "event": "interrogation",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Second interrogation; provided biographical details and defended herself against charges"
+    },
+    {
+      "date": "1602-02-27",
+      "event": "confrontation",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Confronted with witnesses; after confrontations began confessing to acts of malefice"
+    },
+    {
+      "date": "1602-02-28",
+      "event": "torture_requested",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Procureur Fiscal asks for torture to obtain more information"
+    },
+    {
+      "date": "1602-03-01",
+      "event": "torture_approved",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1602-03-06",
+      "event": "torture",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Interrogation under torture; suffered greatly on strappado; continued previous admissions, identified accomplices"
+    },
+    {
+      "date": "1602-03-06",
+      "event": "death_requested",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Procureur fiscal asks for death sentence"
+    },
+    {
+      "date": "1602-03-07",
+      "event": "death_approved",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1602-03-09",
+      "event": "execution",
+      "subject": "Sebille femme Jean Pierson",
+      "details": "Execution carried out; maintained charges against those she had accused, even at stake"
+    },
+    {
+      "date": "1602-03-15",
+      "event": "other",
+      "subject": "Four denounced by Sebille",
+      "details": "Following execution of first 2 witches, procureur fiscal issued general instruction for proceedings against four denounced by Sebille"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "strappado"
+    ],
+    "requesting_official": "Procureur Fiscal",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Jenotte",
+      "location": "Leintrey",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la Jobarde",
+      "location": "Leintrey",
+      "context": "Seen at sabbat; procureur fiscal concerned about her use of dog's head to cure animals superstitiously",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la grande Marye",
+      "location": "Leintrey",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "veuve Didier Sotterel",
+      "location": "Leintrey",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Mathieu Margeron",
+      "location": "Leintrey",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "le Petit Noel",
+      "location": "Blesmerey",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jenotte veuve Claudon Thoussainct",
+      "accuser_location": "Leintrey",
+      "context": "Denunciation led to arrest on 9 February 1602",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Sebille femme Jean Pierson",
+      "french": "a quoy elle respondit en soymesme qu'il ne la batteroit plus guiere, car elle avoit tant de repentance de son faict, et retourneroit de telle façon envers son dieu que tel malheur n'auroit plus de puissance sur elle",
+      "english": "to which she responded to herself that he would not beat her much longer, for she had such repentance for her deed, and would return in such a way to her God that such misfortune would have no more power over her",
+      "context": "Devil threatening to beat her to make her go to sabbat"
+    },
+    {
+      "speaker": "Jehennon veuve Jean de Chasnoy (quoting Sebille)",
+      "french": "qu'il n'en avoit encore assé",
+      "english": "that he had not yet had enough",
+      "context": "Sebille's response when Jean du Chasnoy accused her of giving him illness 2 or 3 years before his death"
+    },
+    {
+      "speaker": "Nicolas Vaultrin (quoting Sebille)",
+      "french": "de par dieu, il vault mieulx qu'elle soit morte que toy, ou ton mary, ou l'un de vos chevaulx",
+      "english": "by God, it is better that she [the cow] is dead than you, or your husband, or one of your horses",
+      "context": "Sebille's response when told of cow's death"
+    },
+    {
+      "speaker": "Nicolas Simon (quoting Sebille)",
+      "french": "qu'il y en mourrait bien d'aultres",
+      "english": "that many others would die",
+      "context": "Sebille's response when Nicolas threatened to seek compensation for cow's death"
+    },
+    {
+      "speaker": "Jennon veuve Claudon Jacquemin (quoting Sebille)",
+      "french": "qu'elle estoit bonne pour la mettre a la Lonotte estimant par telles parolles persuader que leurs infortunes arrivoient par le moyen de ladite Jacquenatte",
+      "english": "that she [la Jacquenatte] was good to put at la Lonotte, estimating by such words to persuade that their misfortunes came through said Jacquenatte",
+      "context": "Sebille trying to deflect blame to la Jacquenatte"
+    },
+    {
+      "speaker": "Procureur Fiscal",
+      "french": "Et comme ledit Procureur est adverty particulierement que ladicte Jobarde auroit cy devant usé fort superstitieusement d'une teste de chien a guerir plusieurs bestiaulx et meme en presenté une a benir au Sr Curé dudit Leintrey et depuis a son Vicaire presentement Curé d'Embermesnil: pour soub la voile et couleur de piété user d'icelle envers le simple peuple et en commetre plusieurs abus, comme elle a faict: et que ce ne peult avoir esté faict sans presomption grande de quelque pact malin qui ne doit demeurer impuni",
+      "english": "And as said Procureur is particularly advised that said Jobarde had previously used very superstitiously a dog's head to cure several animals and even presented one to be blessed by the Lord Curé of said Leintrey and since to his Vicar presently Curé of Embermesnil: to under the veil and color of piety use it towards the simple people and commit several abuses, as she has done: and that this cannot have been done without great presumption of some malign pact which must not remain unpunished",
+      "context": "Procureur fiscal's instructions for proceedings against la Jobarde, expressing concern about superstitious practices"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Sebille femme Jean Pierson",
+      "person2": "Jean Pierson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Sebille femme Jean Pierson",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille femme Jean Pierson",
+      "person2": "Demenge Poirot",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of late Demenge Poirot, laboureur",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille femme Jean Pierson",
+      "person2": "Jehenne",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of late Demenge Poirot, laboureur, and his wife Jehenne",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Claudon Jacquemin",
+      "person2": "Sebille femme Jean Pierson",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "when she was their neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Claudon Jacquemin",
+      "person2": "Claudon Jacquemin",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve Claudon Jacquemin",
+      "inferred": false
+    },
+    {
+      "person1": "Barbelline femme Colas Goudot",
+      "person2": "Colas Goudot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Barbelline femme Colas Goudot",
+      "inferred": false
+    },
+    {
+      "person1": "Barbelline femme Colas Goudot",
+      "person2": "Nicolas",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her son Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon veuve Jean de Chasnoy",
+      "person2": "Jean de Chasnoy",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Jehennon, veuve Jean de Chasnoy",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Pierson",
+      "person2": "Jean Pierson (brother)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his brother Jean had married",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Pierson",
+      "person2": "Jean Pierson (accused's husband)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "brother of Jean Pierson",
+      "inferred": true
+    },
+    {
+      "person1": "Nicolas Jean Gerardin (alias Chailey)",
+      "person2": "Jean du Chesnoy",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his father-in-law Jean du Chesnoy",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Pierson",
+      "person2": "Jean Pierson (accused's husband)",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her late husband, his uncle",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Sebille's seduction by devil occurred during financial crisis: asked to pay many debts, roof of house had collapsed, husband away working on ramparts at Lunéville, he gave her so little money she did not know how to pay workmen. Jean Pierson owed 20 francs to shepherd of Reillon. Quarrels over: refusing to reduce price of chimney work, refusing to sell straw, boundaries between gardens, accusations of stealing plums and wood. Jean Pierson worked as herdsman. Witness Demenge Michiel Ballance paid Sebille for chimney work."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "child of Jennon veuve Claudon Jacquemin",
+      "victim_relationship_to_witness": "witness's child",
+      "harm_category": "human_death",
+      "harm_description": "drowned in horsepond behind Sebille's house",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "boundaries between gardens",
+      "time_between_quarrel_and_harm": "17 years before testimony",
+      "method_alleged": null,
+      "witness_number": 1
+    },
+    {
+      "victim_name": "animals of Jennon veuve Claudon Jacquemin",
+      "victim_relationship_to_witness": "witness's animals",
+      "harm_category": "animal_death",
+      "harm_description": "many losses especially just after marriage 20 years earlier",
+      "animal_type": "unspecified",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "20 years before",
+      "method_alleged": null,
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Nicolas",
+      "victim_relationship_to_witness": "witness's son",
+      "harm_category": "human_illness",
+      "harm_description": "started to vomit and was ill for a week",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "none, though they feared her and took care not to quarrel",
+      "time_between_quarrel_and_harm": "3 or 4 years before testimony",
+      "method_alleged": "gave pear to son",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "2 calves",
+      "victim_relationship_to_witness": "witness's husband's calves",
+      "harm_category": "animal_death",
+      "harm_description": "lost 2 calves",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "husband quarrelled with husband of accused (herdsman)",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": null,
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Jean de Chasnoy",
+      "victim_relationship_to_witness": "witness's husband",
+      "harm_category": "human_death",
+      "harm_description": "illness lasting 5 or 6 years, then death",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "charged with stealing plums from his tree",
+      "time_between_quarrel_and_harm": "died 12 years before testimony after 5-6 year illness",
+      "method_alleged": null,
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Demenge Michiel Ballance",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "suddenly became ill when working on her chimney",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "refused to visit him when ill unless he reduced price of work",
+      "time_between_quarrel_and_harm": "7 or 8 years before",
+      "method_alleged": "gave him herbs to put on arms (also cured him)",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Thoussaince",
+      "victim_relationship_to_witness": "witness's small daughter",
+      "harm_category": "human_death",
+      "harm_description": "became ill, then worse after Sebille waved arm over her, died a week later",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "refused to sell Sebille straw",
+      "time_between_quarrel_and_harm": "3 weeks before; later came to veillée",
+      "method_alleged": "gave an apple; later 'tournoyer son bras sur ladite fille'",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "first child of Jean Pierson (brother)",
+      "victim_relationship_to_witness": "witness's brother's child",
+      "harm_category": "human_death",
+      "harm_description": "died a year after marriage",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "12 or 13 years before",
+      "method_alleged": null,
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jean Pierson (brother) and wife",
+      "victim_relationship_to_witness": "witness's brother and sister-in-law",
+      "harm_category": "human_death",
+      "harm_description": "both died within a few weeks",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "after child's death",
+      "method_alleged": null,
+      "witness_number": 6
+    },
+    {
+      "victim_name": "cart of Nicolas Vaultrin",
+      "victim_relationship_to_witness": "witness's cart",
+      "harm_category": "property_damage",
+      "harm_description": "cart broke",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "told him he was cutting more hay than was his by right",
+      "time_between_quarrel_and_harm": "as he returned to village",
+      "method_alleged": null,
+      "witness_number": 7
+    },
+    {
+      "victim_name": "cow of Nicolas Vaultrin",
+      "victim_relationship_to_witness": "witness's cow",
+      "harm_category": "animal_death",
+      "harm_description": "became sick, died next day after Sebille was called to see it",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "hay cutting dispute",
+      "time_between_quarrel_and_harm": "at same time as cart breaking",
+      "method_alleged": "called to see sick cow",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "cow of Estienne Connot",
+      "victim_relationship_to_witness": "witness's cow",
+      "harm_category": "animal_illness",
+      "harm_description": "fell ill same day, later recovered",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "debt collection; witness called her witch while drinking",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": null,
+      "witness_number": 8
+    },
+    {
+      "victim_name": "2 horses of Estienne Connot",
+      "victim_relationship_to_witness": "witness's horses",
+      "harm_category": "animal_death",
+      "harm_description": "lost 2 horses",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "debt collection and insult",
+      "time_between_quarrel_and_harm": "subsequently after cow illness",
+      "method_alleged": null,
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow of Nicolas Simon",
+      "victim_relationship_to_witness": "witness's cow",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "death of cow when her husband was herdsman; witness threatened compensation",
+      "time_between_quarrel_and_harm": "after her threat 'many others would die'",
+      "method_alleged": null,
+      "witness_number": 9
+    },
+    {
+      "victim_name": "animals of Nicolas Jean Gerardin",
+      "victim_relationship_to_witness": "witness's animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost many pigs, a cow, and 2 horses",
+      "animal_type": "pigs, cow, horses",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "accused of stealing plums and wood; witness called her witch and said she caused Jean du Chesnoy's death",
+      "time_between_quarrel_and_harm": "5 or 6 weeks later",
+      "method_alleged": null,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "2 cows of Colas Pierson",
+      "victim_relationship_to_witness": "witness's cows",
+      "harm_category": "animal_death",
+      "harm_description": "lost that cow and another",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson",
+      "precipitating_quarrel": "dispute with her late husband about putting a cow to milk",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": null,
+      "witness_number": 11
+    },
+    {
+      "victim_name": "cow belonging to curé",
+      "victim_relationship_to_witness": "curé's cow",
+      "harm_category": "animal_death",
+      "harm_description": "killing cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Sebille femme Jean Pierson (confessed)",
+      "precipitating_quarrel": "housekeeper refused her bread as alms",
+      "time_between_quarrel_and_harm": "4 or 5 years earlier",
+      "method_alleged": null,
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "pear",
+      "context": "Sebille gave pear to Nicolas (Barbelline's son); he became ill",
+      "category": "food"
+    },
+    {
+      "object": "apple",
+      "context": "Sebille gave apple to Thoussaince at veillée; child became ill and died",
+      "category": "food"
+    },
+    {
+      "object": "herbs",
+      "context": "Sebille gave herbs to Demenge Michiel Ballance to put on arms to cure illness",
+      "category": "magical"
+    },
+    {
+      "object": "powder",
+      "context": "Admitted being given powder at sabbat, but had not used it",
+      "category": "magical"
+    },
+    {
+      "object": "images of St Nicolas and St Claude",
+      "context": "Sebille equipped herself with these images to avoid devil",
+      "category": "religious"
+    },
+    {
+      "object": "plums",
+      "context": "Accused of stealing plums from Jean du Chesnoy's tree",
+      "category": "food"
+    },
+    {
+      "object": "wood",
+      "context": "Accused of stealing wood for a fire to dry plums",
+      "category": "household"
+    },
+    {
+      "object": "straw",
+      "context": "Didier Connot refused to sell Sebille straw",
+      "category": "agricultural"
+    },
+    {
+      "object": "cart",
+      "context": "Nicolas Vaultrin's cart broke after quarrel with Sebille",
+      "category": "agricultural"
+    },
+    {
+      "object": "bread",
+      "context": "Curé's housekeeper refused Sebille bread as alms",
+      "category": "food"
+    },
+    {
+      "object": "20 francs",
+      "context": "Debt Jean Pierson owed to shepherd of Reillon",
+      "category": "money"
+    },
+    {
+      "object": "2 or 3 gros",
+      "context": "Amount Demenge Michiel Ballance offered to reduce price of work",
+      "category": "money"
+    },
+    {
+      "object": "leaves",
+      "context": "Devil's money was leaves as usual",
+      "category": "magical"
+    },
+    {
+      "object": "dog's head",
+      "context": "La Jobarde used dog's head superstitiously to cure animals, had it blessed by curé",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Leintrey",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "St Paule",
+      "place_type": "village",
+      "context": "Sebille's birthplace"
+    },
+    {
+      "place_name": "Repas",
+      "place_type": "village",
+      "context": "Where Sebille worked in service for 3 years before marriage"
+    },
+    {
+      "place_name": "Blesmerey",
+      "place_type": "village",
+      "context": "Home of le Petit Noel, seen at sabbat"
+    },
+    {
+      "place_name": "Lunéville",
+      "place_type": "village",
+      "context": "Where Jean Pierson was working on ramparts when Sebille was seduced"
+    },
+    {
+      "place_name": "Reillon",
+      "place_type": "village",
+      "context": "Home of shepherd to whom Jean Pierson owed 20 francs"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Where Jean Pierson was called before prévôt regarding debt"
+    },
+    {
+      "place_name": "Dieuze",
+      "place_type": "village",
+      "context": "Estienne Connot had to go towards Dieuze"
+    },
+    {
+      "place_name": "Autrepierre",
+      "place_type": "village",
+      "context": "Home of girl Jean Bon Claude's son wanted to marry"
+    },
+    {
+      "place_name": "Embermesnil",
+      "place_type": "village",
+      "context": "Where vicar who blessed dog's head became curé"
+    },
+    {
+      "place_name": "horsepond behind Sebille's house",
+      "place_type": "water_body",
+      "context": "Where child of Jennon veuve Claudon Jacquemin drowned 17 years earlier"
+    },
+    {
+      "place_name": "la Lonotte",
+      "place_type": "other",
+      "context": "Place Sebille suggested la Jacquenatte should be put"
+    },
+    {
+      "place_name": "sabbat location (unspecified)",
+      "place_type": "sabbat_location",
+      "context": "Where Sebille saw accomplices; resolution taken to destroy acorns"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Husband was away working on ramparts at Lunéville during time of seduction",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Sebille's anger before seduction was because asked to pay so many debts",
+      "Roof of house had collapsed",
+      "Husband gave her so little money she did not know how to pay workmen",
+      "Too poor to take Jean du Chesnoy to law",
+      "Husband 'n'est point de deffence' (not one to defend)",
+      "Jean Pierson owed 20 francs to shepherd",
+      "Sebille refused bread as alms from curé's housekeeper",
+      "Price negotiation over chimney work"
+    ],
+    "religious_calendar_references": [
+      "feast-day when child drowned in horsepond"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "prévôt",
+        "role": "prevot",
+        "location": "Blamont"
+      },
+      {
+        "name": "sergent",
+        "role": "other",
+        "location": "Leintrey"
+      },
+      {
+        "name": "Procureur Fiscal",
+        "role": "prosecutor_pg",
+        "location": null
+      },
+      {
+        "name": "Sr Curé of Leintrey",
+        "role": "other",
+        "location": "Leintrey"
+      },
+      {
+        "name": "Vicar (presently Curé of Embermesnil)",
+        "role": "other",
+        "location": "Embermesnil"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Jean du Chesnoy charged Sebille with stealing plums from his tree",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Nicolas Jean Gerardin told she had stolen plums and wood for fire",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "Estienne Connot collected debt of 20 francs Jean Pierson owed to shepherd of Reillon; Jean Pierson called before prévôt at Blamont",
+        "outcome": "Jean Pierson made fruitless journey as shepherd failed to appear"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Did not take Jean du Chesnoy to law for calling her witch because they were too poor and her husband 'n'est point de deffence'",
+    "imprisonment_conditions": null,
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 11,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 22,
+    "corroboration_groups": [
+      [3, 10]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility",
+      "blamed_others"
+    ],
+    "emotional_state_notes": [
+      "Initially started to say she was not a witch at all, then gave way",
+      "After confrontations, exhorted to think of her salvation, started to make series of confessions",
+      "Maintained charges against those she had accused, even at stake"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Child drowned on feast-day; Jennon should have been in church with child according to custom, rather than cooking at home"
+      },
+      {
+        "witness_number": 3,
+        "objection": "Jean du Chesnoy had done her wrong, and he was already ill when he came to Leintrey"
+      },
+      {
+        "witness_number": 4,
+        "objection": "If she gave him herbs this did not mean she was cause of illness, and he already had two kinds of them"
+      },
+      {
+        "witness_number": 8,
+        "objection": "Estienne Connot was drunk when he called her witch, as he often was"
+      },
+      {
+        "witness_number": 1,
+        "objection": "Denied telling Jennon that la Jacquenatte had said she was good to put at la Lonotte; tried to deflect blame to la Jacquenatte"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jenotte veuve Claudon Thoussainct",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Denounced Sebille, leading to her arrest; seen at sabbat by Sebille"
+    },
+    {
+      "name": "la Jacquenatte",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "known to Jennon veuve Claudon Jacquemin",
+      "context": "Sebille allegedly tried to deflect blame to her, saying she was responsible for Jennon's misfortunes and was 'good to put at la Lonotte'"
+    },
+    {
+      "name": "Hillenix",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "wife of Demenge Michiel Ballance",
+      "context": "Sent twice by husband to ask Sebille to visit him when he was ill"
+    },
+    {
+      "name": "shepherd of Reillon",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "creditor of Jean Pierson",
+      "relationship_to_witness": null,
+      "context": "Jean Pierson owed him 20 francs; Estienne Connot undertook to collect debt"
+    },
+    {
+      "name": "Jean Bon Claude",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Sebille claimed he had given illness to Jean du Chesnoy in hatred because du Chesnoy had prevented his son marrying a girl from Autrepierre"
+    },
+    {
+      "name": "housekeeper of curé",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Refused Sebille bread as alms; Sebille confessed to killing curé's cow in revenge"
+    },
+    {
+      "name": "Jean Pierson (brother of witness Demenge Pierson)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "brother of witness Demenge Pierson",
+      "context": "Married, first child died a year later, then he and wife both died within a few weeks; suspected to be Sebille's witchcraft"
+    },
+    {
+      "name": "wife of Jean Pierson (brother)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "sister-in-law of witness Demenge Pierson",
+      "context": "Died within few weeks of husband and child"
+    },
+    {
+      "name": "wife of Nicolas Vaultrin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "wife of witness Nicolas Vaultrin",
+      "context": "Told Sebille of cow's death"
+    },
+    {
+      "name": "children of Estienne Connot",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "children of witness Estienne Connot",
+      "context": "Told father off for having anything to do with debt collection business in view of Sebille's reputation"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Very detailed trial record with 11 witnesses, extensive testimony about harms, quarrels, and threats. Rich documentation of economic hardship context around seduction. Notable quotes preserved in French with context. Sebille confessed under torture but also made voluntary confessions after confrontations. Named 6 accomplices at sabbat. Execution note indicates she was one of 'first 2 witches' executed, suggesting coordinated proceedings. Procureur fiscal's instructions about la Jobarde reveal concerns about superstitious practices using dog's head.",
+    "pdf_pages": 4
+  }
+}

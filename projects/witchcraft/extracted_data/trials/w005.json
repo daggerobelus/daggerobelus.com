@@ -1,0 +1,1079 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "trial_id": "w005",
+  "archive_ref": "B 2199 no 1",
+  "location": "Bourget d'Amance",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1616-02-03",
+    "end": "1616-03-10",
+    "duration_days": 35
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jacquotte femme Nicolas Tixerand",
+      "gender": "female",
+      "age": 58,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "Moncel",
+      "residence": "Bourget d'Amance",
+      "marital_status": "married",
+      "spouse_name": "Nicolas Tixerand",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persy",
+        "devil_appearance": null,
+        "seduction_date": "about 7 years earlier, when forced to pay caution to George Guyart",
+        "seduction_context": "Occurred around the time she had to pay caution to George Guyart for Nicolas Colin's unpaid wine debt",
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [
+          "witch powder (tested on own hens)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [
+          "making great hailstorm 3 years earlier",
+          "regular attendance with masked participants"
+        ],
+        "sexual_relations_with_devil": null
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Demenge Anguevin dit Barbier",
+      "gender": "male",
+      "age": 60,
+      "occupation": "huillier (oil merchant)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor and business associate",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Horse eating barley outside her house; wife refused oil exchange for graines de navette at unfavorable rate",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "next day after horse ate barley"
+          },
+          {
+            "type": "animal_death",
+            "target": "5 piglets",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "soon after oil exchange refusal"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "shortly after piglets died"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Landry Jehennel",
+      "gender": "male",
+      "age": 40,
+      "occupation": "vigneron (wine grower)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jeanne femme Michiel Godar",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Not being called to witness's childbed despite being neighbor",
+        "threat_received": true,
+        "threat_quote": "she would come in any case",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "witness's baby",
+            "target_relationship": "witness's own child",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "3 years earlier, during childbirth"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Marguerite veuve Claude Hersault",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Michiel Godar",
+      "gender": "male",
+      "age": 31,
+      "occupation": "manouvrier (day laborer)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "repeated wife's deposition",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Bastienne femme Nicolas Mercier",
+      "gender": "female",
+      "age": 25,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Gerard Marchal",
+      "gender": "male",
+      "age": 60,
+      "occupation": "vigneron (wine grower)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Barbe femme Demenge Anguevin",
+      "gender": "female",
+      "age": 60,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "could not remember quarrelling with her",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Demenge Anguevin le jeune",
+      "gender": "male",
+      "age": 22,
+      "occupation": "laboureur (farmer)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor, son of witness #1",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "collecting fardeaux d'estrain (bundles of straw) owed to his father; accused complained he took too much",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "George Guyart",
+      "gender": "male",
+      "age": 34,
+      "occupation": "vigneron (wine grower)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "business associate and neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Sold wine to Nicolas Colin of Monssel who failed to pay; had to get payment from her husband as caution; also refused to attend baptism because not invited to childbed",
+        "threat_received": true,
+        "threat_quote": "Guarde le bien Françoise, voyla un bel enfant",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "soon afterwards"
+          },
+          {
+            "type": "human_death",
+            "target": "witness's infant son",
+            "target_relationship": "witness's own child",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "same day after her visit"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jacquatte femme Didier Martin",
+      "gender": "female",
+      "age": 46,
+      "occupation": "paistre (shepherd's wife)",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Barbe veuve Demenge Pouignon",
+      "gender": "female",
+      "age": 56,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "plate lost in witness's house",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "after quarrel, previous wine harvest"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Françoise femme George Guyart",
+      "gender": "female",
+      "age": 25,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "repeated husband's story",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Urbaine veuve Demenge Hermant le jeune",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "witness's late husband's",
+            "attributed_to": "Jacquotte Tixerand",
+            "time_after_quarrel": "during husband's lifetime"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1616-02-03",
+      "event": "informations_preparatoires",
+      "subject": "Jacquotte Tixerand",
+      "details": "Witness depositions collected"
+    },
+    {
+      "date": "1616-02-11",
+      "event": "interrogation",
+      "subject": "Jacquotte Tixerand",
+      "details": "First interrogation; denied charges but admitted anger in some incidents"
+    },
+    {
+      "date": "1616-02-12",
+      "event": "confrontation",
+      "subject": "Jacquotte Tixerand",
+      "details": "Confronted with witnesses; reproached Françoise Guyart; called Barbe Anguevin 'une meschante femme' and perhaps more of a witch"
+    },
+    {
+      "date": "1616-02-19",
+      "event": "torture_requested",
+      "subject": "Jacquotte Tixerand",
+      "details": "PG (C.M. Rémy) requests question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1616-02-24",
+      "event": "torture_approved",
+      "subject": "Jacquotte Tixerand",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1616-03-02",
+      "event": "torture",
+      "subject": "Jacquotte Tixerand",
+      "details": "Interrogation under torture; withstood thumbscrews, rack, tortillons; confessed on strappado with 50 lb weight"
+    },
+    {
+      "date": "1616-03-03",
+      "event": "interrogation",
+      "subject": "Jacquotte Tixerand",
+      "details": "Confirmed earlier admissions"
+    },
+    {
+      "date": "1616-03-05",
+      "event": "death_requested",
+      "subject": "Jacquotte Tixerand",
+      "details": "PG asks for death sentence"
+    },
+    {
+      "date": "1616-03-07",
+      "event": "death_approved",
+      "subject": "Jacquotte Tixerand",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1616-03-10",
+      "event": "sentence",
+      "subject": "Jacquotte Tixerand",
+      "details": "Formal sentence from court at Amance"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews",
+      "rack",
+      "tortillons",
+      "strappado with 50 pound weight tied to feet"
+    ],
+    "requesting_official": "C.M. Rémy (PG)",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "la Grosse Colatte",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": null,
+      "trial_id": null
+    },
+    {
+      "name": "la Vilaume",
+      "location": null,
+      "context": "Seen at sabbat; had previously accused Jacquotte",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Mariette",
+      "location": null,
+      "context": "Seen at sabbat; was in prison with Jacquotte at time of trial",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "la Vilaume",
+      "accuser_location": null,
+      "context": "Accused Jacquotte before being executed",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jacquotte Tixerand",
+      "french": "mais n'avoit moyen luy faire mal, adjoustant et disant, voyla un diable de papier, qui lui fera beaucoup de mal",
+      "english": "but had no means to harm him, adding and saying, there's a devil of a paper, which will do him much harm",
+      "context": "Response during interrogation about being angry when Anguevin took too much in debt repayment"
+    },
+    {
+      "speaker": "Jacquotte Tixerand",
+      "french": "Guarde le bien Françoise, voyla un bel enfant",
+      "english": "Guard him well Françoise, there's a beautiful child",
+      "context": "Words spoken to Françoise Guyart when visiting the baby, who died within a week"
+    },
+    {
+      "speaker": "Jacquotte Tixerand",
+      "french": "que le commun avoit mauvaise opinion d'elle une fois, retournante de la fontaine sans estre mouillée avec sa fille, et ce lors de la grande gresle arrivé à Amance il y a quelques trois annees qui degatta tous les biens, mais qu'on luy faisoit grand tort",
+      "english": "that the common people had a bad opinion of her once, returning from the fountain without being wet with her daughter, and this at the time of the great hailstorm that arrived at Amance some three years ago which destroyed all the goods, but that they did her great wrong",
+      "context": "Preliminary interrogation before torture, explaining origin of her reputation"
+    },
+    {
+      "speaker": "Jacquotte Tixerand",
+      "french": null,
+      "english": "His wife was 'une meschante femme', and perhaps more of a witch than she was",
+      "context": "During confrontations, responding to Demenge Anguevin's wife's testimony"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jacquotte Tixerand",
+      "person2": "Nicolas Tixerand",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jacquotte femme Nicolas Tixerand",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Demenge Anguevin",
+      "person2": "Demenge Anguevin dit Barbier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbe femme Demenge Anguevin",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Anguevin dit Barbier",
+      "person2": "Demenge Anguevin le jeune",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "gone to collect some 'fardeaux d'estrain' they owed his father",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne femme Michiel Godar",
+      "person2": "Michiel Godar",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jeanne femme Michiel Godar / Michiel Godar",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquotte Tixerand",
+      "person2": "Jeanne femme Michiel Godar",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "although she was neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Bastienne femme Nicolas Mercier",
+      "person2": "Nicolas Mercier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Bastienne femme Nicolas Mercier",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise femme George Guyart",
+      "person2": "George Guyart",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Françoise femme George Guyart",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquatte femme Didier Martin",
+      "person2": "Didier Martin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jacquatte femme Didier Martin",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite",
+      "person2": "Claude Hersault",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguerite veuve Claude Hersault",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe",
+      "person2": "Demenge Pouignon",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Barbe veuve Demenge Pouignon",
+      "inferred": false
+    },
+    {
+      "person1": "Urbaine",
+      "person2": "Demenge Hermant le jeune",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Urbaine veuve Demenge Hermant le jeune",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquotte Tixerand",
+      "person2": "Demenge Anguevin dit Barbier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "horse had eaten barley outside her house",
+      "inferred": true
+    },
+    {
+      "person1": "Barbe veuve Demenge Pouignon",
+      "person2": "Tante Anne",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "consulted neighbour called Tante Anne",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Tixerand",
+      "person2": "Nicolas Colin",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "husband as caution for Nicolas Colin of Monssel",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": false,
+    "details": "Multiple economic disputes: oil exchange for graines de navette at unfavorable rate; debt collection for fardeaux d'estrain; Nicolas Tixerand forced to pay as caution for Nicolas Colin's unpaid wine debt; plate lost in neighbor's house"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Demenge Anguevin's horse",
+      "victim_relationship_to_witness": "witness's own property",
+      "harm_category": "animal_death",
+      "harm_description": "became ill as if rabid, killed after 3 days",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "horse ate barley outside her house until she and husband drove it off",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Demenge Anguevin's piglets",
+      "victim_relationship_to_witness": "witness's own property",
+      "harm_category": "animal_death",
+      "harm_description": "5 piglets died within a week, dogs would not touch bodies",
+      "animal_type": "pig",
+      "animal_count": 5,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "wife refused oil exchange for graines de navette at unfavorable rate; accused went off muttering",
+      "time_between_quarrel_and_harm": "soon after (3 months before testimony)",
+      "method_alleged": "witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Demenge Anguevin's horse",
+      "victim_relationship_to_witness": "witness's own property",
+      "harm_category": "animal_death",
+      "harm_description": "lost a horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "shortly after piglet deaths",
+      "time_between_quarrel_and_harm": "shortly after",
+      "method_alleged": "witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jeanne Godar's baby",
+      "victim_relationship_to_witness": "witness's own child",
+      "harm_category": "human_death",
+      "harm_description": "child was born dead, although felt it move just before; gave enough sign of life to be baptised by midwife, but was dead when taken to church",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "not called to childbed because of reputation; accused was angry and said she would come anyway",
+      "time_between_quarrel_and_harm": "3 years earlier during childbirth",
+      "method_alleged": "witchcraft",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Demenge Anguevin le jeune's horse",
+      "victim_relationship_to_witness": "witness's own property",
+      "harm_category": "animal_death",
+      "harm_description": "became rabid and died in 24 hours; accused expressed sorrow but did not heal it as expected",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "collecting fardeaux d'estrain owed to his father; they complained he took too much",
+      "time_between_quarrel_and_harm": "soon after (3 years before testimony)",
+      "method_alleged": "witchcraft",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "George Guyart's cow",
+      "victim_relationship_to_witness": "witness's own property",
+      "harm_category": "animal_death",
+      "harm_description": "fine cow sickened, trying to strangle itself as if rabid, had to be killed",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "angry about being forced to pay as caution for Nicolas Colin's unpaid wine debt; made great fuss",
+      "time_between_quarrel_and_harm": "soon afterwards (5 years before testimony)",
+      "method_alleged": "witchcraft",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "George Guyart's infant son",
+      "victim_relationship_to_witness": "witness's own child",
+      "harm_category": "human_death",
+      "harm_description": "child fell ill same day and died in a week; became dry and black as coal before death",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "refused to attend baptism because not invited to childbed; came week later to collect flour and fat, went to see child and said 'Guarde le bien Françoise, voyla un bel enfant'",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "witchcraft",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Barbe Pouignon",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "chest trouble during previous wine harvest; made slow recovery",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "quarrel over a plate lost in witness's house",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "method_alleged": "witchcraft",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Demenge Hermant le jeune's animals",
+      "victim_relationship_to_witness": "witness's late husband's property",
+      "harm_category": "animal_death",
+      "harm_description": "lost various animals during husband's lifetime",
+      "animal_type": "various",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Barbe Anguevin's animals",
+      "victim_relationship_to_witness": "witness's own property",
+      "harm_category": "animal_death",
+      "harm_description": "deaths of various animals",
+      "animal_type": "various",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jacquotte Tixerand",
+      "precipitating_quarrel": "could not remember",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft",
+      "witness_number": 8
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "barley",
+      "context": "horse ate barley outside accused's house",
+      "category": "agricultural"
+    },
+    {
+      "object": "oil",
+      "context": "Demenge Anguevin's wife wanted to exchange oil for graines de navette",
+      "category": "food"
+    },
+    {
+      "object": "graines de navette (rapeseed)",
+      "context": "accused wanted to exchange for oil at unfavorable rate",
+      "category": "agricultural"
+    },
+    {
+      "object": "fardeaux d'estrain (bundles of straw)",
+      "context": "debt owed to Demenge Anguevin senior; young Demenge collected them",
+      "category": "agricultural"
+    },
+    {
+      "object": "wine",
+      "context": "George Guyart sold wine to Nicolas Colin who failed to pay",
+      "category": "food"
+    },
+    {
+      "object": "flour",
+      "context": "Nicolas Tixerand was using to make toilée as payment",
+      "category": "food"
+    },
+    {
+      "object": "fat",
+      "context": "Nicolas Tixerand was using to make toilée as payment",
+      "category": "food"
+    },
+    {
+      "object": "toilée",
+      "context": "payment being made with flour and fat",
+      "category": "food"
+    },
+    {
+      "object": "ropes",
+      "context": "found in accused's house; she blamed her son for taking them 'pour faire des sottises'",
+      "category": "tools"
+    },
+    {
+      "object": "plate",
+      "context": "lost in Barbe Pouignon's house, caused quarrel",
+      "category": "household"
+    },
+    {
+      "object": "bread and salt",
+      "context": "Tante Anne suggested getting from accused's house as counter-magic",
+      "category": "food"
+    },
+    {
+      "object": "witch powder",
+      "context": "confessed to trying it out on own hens; used to kill animals",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Bourget d'Amance",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused"
+    },
+    {
+      "place_name": "Moncel (or Menssel)",
+      "place_type": "village",
+      "context": "Origin of accused Jacquotte Tixerand"
+    },
+    {
+      "place_name": "Monssel",
+      "place_type": "village",
+      "context": "Residence of Nicolas Colin who failed to pay for wine"
+    },
+    {
+      "place_name": "Amance",
+      "place_type": "village",
+      "context": "Location of court issuing formal sentence; site of great hailstorm 3 years earlier"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appellate court)"
+    },
+    {
+      "place_name": "fountain",
+      "place_type": "water_body",
+      "context": "Accused returned from fountain without being wet during hailstorm, contributing to reputation"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [
+      "great hailstorm at Amance 3 years earlier (c. 1613) that destroyed all the goods"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "multiple debt disputes",
+      "emphasis on value of livestock losses",
+      "careful tracking of payment obligations"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": null
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": "imprisoned with Mariette",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Barbe veuve Demenge Pouignon",
+        "source": "Tante Anne",
+        "content": "Tante Anne asked if she suspected anyone of giving her illness and suggested getting bread and salt from accused's house"
+      },
+      {
+        "reporter": "Marguerite veuve Claude Hersault",
+        "source": "general rumor",
+        "content": "Rumoured a witch since she had been accused"
+      }
+    ],
+    "oldest_accusation_years": 5,
+    "corroboration_groups": [
+      [1, 8],
+      [1, 9],
+      [3, 5],
+      [10, 13]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "admitted being angry in various incidents",
+      "withstood extensive torture before confessing",
+      "defiant toward some witnesses"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 13,
+        "objection": "Françoise Guyart had made reparation to her"
+      },
+      {
+        "witness_number": 1,
+        "objection": "said if she had known what Demenge Anguevin would depose against her, and had she been a witch, she would have done much more to him"
+      },
+      {
+        "witness_number": 8,
+        "objection": "His wife Barbe was 'une meschante femme', and perhaps more of a witch than she was"
+      },
+      {
+        "witness_number": 14,
+        "objection": "late Demenge Hermant had been 'assez gallant' to have killed his horses with beating them"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Nicolas Colin",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "debtor to George Guyart for whom Nicolas Tixerand stood caution",
+      "relationship_to_witness": "debtor to George Guyart",
+      "context": "Failed to pay for wine purchased from George Guyart from Monssel"
+    },
+    {
+      "name": "Nicolas Tixerand",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "relationship_to_witness": null,
+      "context": "Husband of accused; stood as caution for Nicolas Colin's debt; drove horse away from barley; was using flour and fat to make toilée as payment"
+    },
+    {
+      "name": "Tante Anne",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "neighbor of Barbe Pouignon",
+      "context": "Neighbor consulted by Barbe Pouignon about chest illness; suggested counter-magic of getting bread and salt from accused's house"
+    },
+    {
+      "name": "midwife",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "attended Jeanne Godar's childbirth",
+      "context": "Baptised Jeanne Godar's baby who showed signs of life but died"
+    },
+    {
+      "name": "accused's son",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": null,
+      "context": "Blamed by mother for taking George Guyart's ropes 'pour faire des sottises'"
+    },
+    {
+      "name": "accused's daughter",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "relationship_to_witness": null,
+      "context": "Returned from fountain with mother without being wet during great hailstorm"
+    },
+    {
+      "name": "Demenge Hermant le jeune",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "late husband of Urbaine",
+      "context": "Lost various animals which he suspected accused caused; did not want her in house; accused said he killed his horses by beating them"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Complete trial record with detailed witness testimonies, torture session, and confession. Multiple economic disputes involving debt, trade, and livestock. Pattern of quarrels followed by animal deaths and infant deaths. Confession obtained only after extensive torture (thumbscrews, rack, tortillons, strappado with weights). Named accomplices at sabbat including previously executed la Vilaume and imprisoned Mariette. Notable quote about returning from fountain without being wet during hailstorm that destroyed crops. Strong evidence of economic tensions in community.",
+    "pdf_pages": 3
+  }
+}

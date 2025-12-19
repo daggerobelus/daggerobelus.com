@@ -1,0 +1,1267 @@
+{
+  "trial_id": "w065",
+  "archive_ref": "B 3792 no 4",
+  "location": "Dompierre",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1615-12-19",
+    "end": "1616-02-18",
+    "duration_days": 61
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Thomasse femme Jean Poirot",
+      "gender": "female",
+      "age": 55,
+      "age_approximate": true,
+      "occupation": ["paistre of horse herd"],
+      "origin": "Girecourt",
+      "residence": "Dompierre",
+      "marital_status": "married",
+      "spouse_name": "Jean Poirot",
+      "parents": {
+        "father": "Claudon Jean Mongin of Girecourt"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Demenge Biennon",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "occupation": "Doyen",
+      "relationship_to_accused": "Had carried out legal action against her husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Legal exploit against her husband in his capacity as Doyen",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "4 year old daughter",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Demenge Antoine",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "His son mounted Thomasse's horse to chase others in herd",
+        "threat_received": true,
+        "threat_quote": "never again in his life would he mount a horse without remembering that one",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "son",
+            "target_relationship": "witness's son",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "time_after_quarrel": "soon afterwards",
+            "harm_description": "trouble in one knee, then in the other, finally a great douleur de teste, went blind and died"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Nicolas Claudon Petit Homme",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Had 'gagé' Thomasse for non-payment after he had sold her some wheat",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "6 year-old daughter",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "time_after_quarrel": "after various disputes",
+            "harm_description": "developed a 'bosse' on her back; surgeon agreed it was witchcraft"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Didier Borion",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean Poirot and Thomasse, paistres of the herd of horses, had allowed them to damage his field of flax; he declined to pay his normal part of charges to paistre",
+        "threat_received": true,
+        "threat_quote": "de faire brusler de ces sorciers",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "two best horses",
+            "target_relationship": "witness's horses",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 2,
+            "time_after_quarrel": "after refusing to pay",
+            "harm_description": "went lame but quickly recovered after wife threatened to burn sorcerers"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Antoine Paris",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Thomasse always haunting his house and borrowing money; despite her promises, had been difficult about repayment",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "harm_description": "died 3 years before after languishing for long time in a pitiful state"
+          },
+          {
+            "type": "human_death",
+            "target": "20-year-old daughter",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "harm_description": "died at last St. Remy; at Epinal had brought up 'un ploton de file cru'; similar illness to mother"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Nicolas Jan Virion",
+      "gender": "male",
+      "age": 31,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "After a quarrel, his wife had told Thomasse not to haunt their house any longer",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "time_after_quarrel": "She returned next day when they were both out",
+            "harm_description": "fell sick same day and died two days later"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "around previous St. Jean after a quarrel with Jean Poirot"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Nicolas Pierat",
+      "gender": "male",
+      "age": 30,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "At previous St. Jean he had refused to cart some barley for Thomasse",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "economic_value": "80 francs",
+            "time_after_quarrel": "immediately afterwards",
+            "harm_description": "fell dead"
+          },
+          {
+            "type": "human_injury",
+            "target": "chambriere",
+            "target_relationship": "witness's servant",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "time_after_quarrel": "same time as horse death",
+            "harm_description": "fell 'a la renverse' and hurt herself; Thomasse made 'quelque ceremonie de sa main' on her leg and told her she would be in pain for two hours yet, but would then recover - this duly happened",
+            "method_alleged": "touch and ceremony"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jennon veuve de Claudon Pierat",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Same story about refusal to cart barley",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1
+          },
+          {
+            "type": "human_injury",
+            "target": "chambriere",
+            "attributed_to": "Thomasse femme Jean Poirot"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Didier Hanna",
+      "gender": "male",
+      "age": 72,
+      "location": "Dompierre",
+      "relationship_to_accused": "His brother is Thomasse's husband",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "He had tried to dissuade his brother from marrying her, and various other disputes",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter aged 11",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Thomasse femme Jean Poirot"
+          },
+          {
+            "type": "human_death",
+            "target": "daughter aged 13",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Thomasse femme Jean Poirot"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Bastien Phulpin",
+      "gender": "male",
+      "age": 24,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "genisse",
+            "target_relationship": "witness's heifer",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "genisse",
+            "animal_count": 1,
+            "time_after_quarrel": "Two days after Thomasse said to wife in front of stable 'c'estoit bel bestail'",
+            "harm_description": "became 'comme enragée' so that he was forced to kill it"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Demenge Antoine Toussaint",
+      "gender": "male",
+      "age": 40,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Two years before one of his horses had escaped from herd, and he had reproached Thomasse, since he believed she and her husband had been negligent",
+        "threat_received": true,
+        "threat_quote": "She said the horse would return, but he would not need to fetch it in future",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "3 or 4 days later",
+            "harm_description": "died 'comme enragé'"
+          },
+          {
+            "type": "animal_death",
+            "target": "another horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "economic_value": "30 ecus",
+            "time_after_quarrel": "2 months later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Girard",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "relationship_to_accused": "Neighbour of Jean Poirat",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Bernard la Gaulde",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "During last 'troubles de guerre' the previous prévôt had required community to provide some 'pionniers'; Jean Poirat was among those chosen, and he and his wife believed witness responsible",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "Soon after",
+            "harm_description": "became sick and remained so for 9 months before recovering"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Bastien Lalemant",
+      "gender": "male",
+      "age": 38,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "A year and a half before had words with Thomasse over an obligation which she denied",
+        "threat_received": true,
+        "threat_quote": "que cela prevenoit d'elle et qu'il failloit en faire brusler, elle luy dict qu'il se taise craignant plus grand inconvenient",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "mare",
+            "target_relationship": "witness's mare",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "shortly afterwards"
+          },
+          {
+            "type": "animal_death",
+            "target": "second mare",
+            "target_relationship": "witness's mare",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "time_after_quarrel": "Previous harvest another quarrel had been followed by death"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Liebaire femme Nicolas Le Comte",
+      "gender": "female",
+      "age": 37,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "occupation": "miller's wife",
+      "relationship_to_accused": "Customer at mill",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "6-month-old child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "time_after_quarrel": "while witness went to get key from husband",
+            "harm_description": "upset and crying; had been ill since as if wanting to reject something from mouth",
+            "method_alleged": "proximity while alone with child"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Demenge Masson",
+      "gender": "male",
+      "age": 36,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Disputes over ownership of terasse of house they shared, and also because earlier she had asked his wife why various people were going to Bruyeres, and she had concealed fact that they were going to depose against her",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter aged 3",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "harm_description": "fell ill on Christmas Day last and died a week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Blaise fils Adrien Villemin",
+      "gender": "male",
+      "age": 24,
+      "occupation": "serrurier",
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Some 4 years before his parents had been disputing with Thomasse's sister Jennon, and he had wanted to strike her, but his father had prevented him",
+        "threat_received": true,
+        "threat_quote": "qu'il ne courroit pas tousiours si fort",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "witness",
+            "attributed_to": "Thomasse femme Jean Poirot",
+            "time_after_quarrel": "Soon after",
+            "harm_description": "fell ill and remained so for a year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jean la Gaulde",
+      "gender": "male",
+      "age": 32,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1615-12-19",
+      "event": "informations_preparatoires",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Witness depositions begin"
+    },
+    {
+      "date": "1615-12-22",
+      "event": "informations_preparatoires",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Additional witness depositions"
+    },
+    {
+      "date": "1615-12-31",
+      "event": "informations_preparatoires",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Deposition of Bastien Lalemant taken in Dompierre because of illness"
+    },
+    {
+      "date": "1616-01-02",
+      "event": "informations_preparatoires",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Additional witness depositions"
+    },
+    {
+      "date": "1616-01-08",
+      "event": "other",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "PG des Vosges orders arrest and interrogation"
+    },
+    {
+      "date": "1616-01-30",
+      "event": "interrogation",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "First interrogation; she denied all charges"
+    },
+    {
+      "date": "1616-02-01",
+      "event": "confrontation",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Confrontations with witnesses; she made counter-accusations of theft and fraud"
+    },
+    {
+      "date": "1616-02-01",
+      "event": "informations_preparatoires",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Further depositions"
+    },
+    {
+      "date": "1616-02-05",
+      "event": "torture_requested",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "PG des Vosges asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1616-02-06",
+      "event": "torture_approved",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1616-02-10",
+      "event": "torture",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Interrogation under torture; she maintained denials throughout"
+    },
+    {
+      "date": "1616-02-16",
+      "event": "other",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "PG des Vosges asks that she be banished for ten years, with confiscation of one third of goods"
+    },
+    {
+      "date": "1616-02-18",
+      "event": "sentence",
+      "subject": "Thomasse femme Jean Poirot",
+      "details": "Change de Nancy orders renvoy jusqu'a rappel"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews on hands and feet", "racked three times", "moderately tortured with tourtillons"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Nicolas Adam",
+      "context": "In February 1620 she was denounced again, who said that she had now left her husband and fled",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Demenge Biennon's 4 year old daughter",
+      "french": "voila une moult belle baiselote",
+      "context": "Thomasse touched the child on the head and said this; child became ill that night and died next morning"
+    },
+    {
+      "speaker": "Thomasse femme Jean Poirot (via Demenge Antoine's testimony)",
+      "french": "never again in his life would he mount a horse without remembering that one",
+      "english": "never again in his life would he mount a horse without remembering that one",
+      "context": "Threat after son mounted her horse"
+    },
+    {
+      "speaker": "Didier Borion's wife",
+      "french": "de faire brusler de ces sorciers",
+      "english": "to burn these sorcerers",
+      "context": "Said after horses went lame; horses quickly recovered"
+    },
+    {
+      "speaker": "Didier Hanna via divineress",
+      "french": "une devineresse auroit eu dit a sa femme qu'une autre qui taschoit d'avoir leurs biens avoit fait mourir leursdits enfants",
+      "english": "a divineress told his wife that another who was trying to get their goods had caused their children to die",
+      "context": "About death of his two daughters"
+    },
+    {
+      "speaker": "Bastien Phulpin via Thomasse",
+      "french": "c'estoit bel bestail",
+      "english": "that was beautiful livestock",
+      "context": "Said by Thomasse to wife in front of stable two days before genisse died"
+    },
+    {
+      "speaker": "Demenge Antoine Toussaint via Thomasse",
+      "french": "She said the horse would return, but he would not need to fetch it in future",
+      "context": "Threat after he reproached her about escaped horse; 3-4 days later it died"
+    },
+    {
+      "speaker": "Nicolas Girard",
+      "french": "et avoir craint et redoubté Thomasse sa femme, il leur a quicté et cedé beaucoup de chose, qu'autrement il n'eut fait et qu'au surplus icelle est en mauvaise reputation",
+      "english": "having feared and dreaded Thomasse his wife, he had given up and ceded many things to them, which otherwise he would not have done, and moreover she is in bad reputation",
+      "context": "Explaining his relationship as neighbour"
+    },
+    {
+      "speaker": "Bastien Lalemant via Thomasse",
+      "french": "que cela prevenoit d'elle et qu'il failloit en faire brusler, elle luy dict qu'il se taise craignant plus grand inconvenient",
+      "english": "that it came from her and they should burn her, she told him to be quiet fearing greater trouble",
+      "context": "After second mare died"
+    },
+    {
+      "speaker": "Thomasse femme Jean Poirot",
+      "french": "une pauvre pecheresse comme autres, mais que quand au crime de sortilege elle n'en fust oncques entasché, et que c'est par hayne qu'on l'a accusé",
+      "english": "a poor sinner like others, but as for the crime of witchcraft she was never tainted with it, and that it is through hatred that she was accused",
+      "context": "Her response during first interrogation"
+    },
+    {
+      "speaker": "Thomasse femme Jean Poirot",
+      "french": "elle estoit remplie de la grace de Dieu, et que ceux qu'ainsy deposoient contre elle en estoient bien esloignés",
+      "english": "she was filled with the grace of God, and that those who thus deposed against her were very far from it",
+      "context": "Her defense during interrogation"
+    },
+    {
+      "speaker": "Thomasse femme Jean Poirot about Didier Hanna",
+      "french": "devroit craindre sa damnation",
+      "english": "should fear his damnation",
+      "context": "For accusing her over deaths of his daughters"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Thomasse femme Jean Poirot",
+      "person2": "Jean Poirot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Thomasse femme Jean Poirot",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Poirot",
+      "person2": "Didier Hanna",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Thomasse, whose husband was his brother",
+      "inferred": false
+    },
+    {
+      "person1": "Thomasse femme Jean Poirot",
+      "person2": "Jennon",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Thomasse's sister Jennon",
+      "inferred": false
+    },
+    {
+      "person1": "Thomasse femme Jean Poirot",
+      "person2": "Claudon Jean Mongin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Father had been Claudon Jean Mongin of Girecourt",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Girard",
+      "person2": "Jean Poirot",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Was neighbour of Jean Poirat",
+      "inferred": false
+    },
+    {
+      "person1": "Liebaire femme Nicolas Le Comte",
+      "person2": "Nicolas Le Comte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Liebaire femme Nicolas Le Comte",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve de Claudon Pierat",
+      "person2": "Claudon Pierat",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve de Claudon Pierat",
+      "inferred": false
+    },
+    {
+      "person1": "Blaise fils Adrien Villemin",
+      "person2": "Adrien Villemin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Blaise fils Adrien Villemin",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes related to Thomasse's occupation as paistre of horse herd (damages to fields, negligence in watching herd). Significant debt disputes with Antoine Paris (money borrowing and difficult repayment). Property dispute with Demenge Masson over terasse of shared house. Economic dispute with Nicolas Claudon Petit Homme (gagé for non-payment after selling wheat). Obligation dispute with Bastien Lalemant."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Demenge Biennon's 4 year old daughter",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "Child became ill that night and died next morning after being touched on the head",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Legal exploit against Thomasse's husband in his capacity as Doyen; she was resentful and less friendly",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "method_alleged": "touch on head",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Demenge Antoine's son",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Developed trouble in one knee, then in the other, finally a great douleur de teste, went blind and finally died",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Son had mounted Thomasse's horse to chase others in herd",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Nicolas Claudon Petit Homme's 6 year-old daughter",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Developed a 'bosse' on her back; surgeon agreed it was witchcraft",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Had 'gagé' Thomasse for non-payment after he had sold her some wheat",
+      "time_between_quarrel_and_harm": "after various disputes followed",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Didier Borion's two best horses",
+      "victim_relationship_to_witness": "owner's horses",
+      "harm_category": "animal_illness",
+      "harm_description": "Went lame but quickly recovered after wife threatened to burn sorcerers",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Jean Poirot and Thomasse, paistres of the herd of horses, had allowed them to damage his field of flax; he declined to pay his normal part of charges",
+      "time_between_quarrel_and_harm": "after refusing to pay",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Antoine Paris's wife",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "Died 3 years before after languishing for long time in a pitiful state",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Thomasse always haunting his house and borrowing money; difficult about repayment; believed her to have ill-will towards household",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Antoine Paris's 20-year-old daughter",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "Died at last St. Remy; at Epinal had brought up 'un ploton de file cru'; similar illness to mother",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Same as mother; Thomasse had absolutely refused to visit daughter during illness",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Nicolas Jan Virion's cow",
+      "victim_relationship_to_witness": "owner's cow",
+      "harm_category": "animal_death",
+      "harm_description": "Fell sick same day and died two days later",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "After a quarrel, his wife had told Thomasse not to haunt their house any longer",
+      "time_between_quarrel_and_harm": "She returned next day when they were both out; cow fell sick same day",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Nicolas Jan Virion's horse",
+      "victim_relationship_to_witness": "owner's horse",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Poirot",
+      "precipitating_quarrel": "Quarrel with Jean Poirot",
+      "time_between_quarrel_and_harm": "around previous St. Jean",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Nicolas Pierat's horse",
+      "victim_relationship_to_witness": "owner's horse",
+      "harm_category": "animal_death",
+      "harm_description": "Fell dead",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "80 francs",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "At previous St. Jean he had refused to cart some barley for Thomasse; she had been angry",
+      "time_between_quarrel_and_harm": "immediately afterwards",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Nicolas Pierat's chambriere",
+      "victim_relationship_to_witness": "servant",
+      "harm_category": "human_injury",
+      "harm_description": "Fell 'a la renverse' and hurt herself, could hardly be got back to village; Thomasse made 'quelque ceremonie de sa main' on her leg and told her she would be in pain for two hours yet, but would then recover - this duly happened",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Same as horse death",
+      "time_between_quarrel_and_harm": "same time as horse",
+      "method_alleged": "touch and ceremony on leg",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Didier Hanna's daughter aged 11",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "He had tried to dissuade his brother from marrying her, and various other disputes",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Didier Hanna's daughter aged 13",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "He had tried to dissuade his brother from marrying her, and various other disputes; divineress told wife that someone trying to get their goods had killed the children",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Bastien Phulpin's genisse",
+      "victim_relationship_to_witness": "owner's heifer",
+      "harm_category": "animal_death",
+      "harm_description": "Became 'comme enragée' so that he was forced to kill it",
+      "animal_type": "genisse",
+      "animal_count": 1,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Two days before, passing to draw water, Thomasse had said to wife in front of stable 'c'estoit bel bestail'",
+      "time_between_quarrel_and_harm": "two days after comment",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Demenge Antoine Toussaint's horse",
+      "victim_relationship_to_witness": "owner's horse",
+      "harm_category": "animal_death",
+      "harm_description": "Died 'comme enragé'",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "One of his horses had escaped from herd, and he had reproached Thomasse for negligence; she said horse would return but he would not need to fetch it in future",
+      "time_between_quarrel_and_harm": "3 or 4 days later",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Demenge Antoine Toussaint's second horse",
+      "victim_relationship_to_witness": "owner's horse",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "30 ecus",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "time_between_quarrel_and_harm": "2 months after first horse",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Bernard la Gaulde's horse",
+      "victim_relationship_to_witness": "owner's horse",
+      "harm_category": "animal_illness",
+      "harm_description": "Became sick and remained so for 9 months before recovering",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "During 'troubles de guerre' the prévôt required community to provide 'pionniers'; Jean Poirat was among those chosen, and he and his wife believed witness responsible and bore him 'quelque inimitié'",
+      "time_between_quarrel_and_harm": "Soon after",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Bastien Lalemant's mare",
+      "victim_relationship_to_witness": "owner's mare",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Had words with Thomasse over an obligation which she denied",
+      "time_between_quarrel_and_harm": "shortly afterwards",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Bastien Lalemant's second mare",
+      "victim_relationship_to_witness": "owner's mare",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Another quarrel at previous harvest",
+      "time_between_quarrel_and_harm": "followed by death",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Liebaire femme Nicolas Le Comte's 6-month-old child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Upset and crying; had been ill since as if wanting to reject something from mouth",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Miller's wife did not want to deal with her because of reputation but agreed to sell corn; left child alone with Thomasse while getting key",
+      "time_between_quarrel_and_harm": "during the time witness was getting key",
+      "method_alleged": "proximity while alone with child",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Demenge Masson's daughter aged 3",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "Fell ill on Christmas Day last and died a week later",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "Disputes over ownership of terasse of house they shared; also his wife had concealed from Thomasse that people were going to Bruyeres to depose against her",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Blaise fils Adrien Villemin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Fell ill and remained so for a year",
+      "attributed_to": "Thomasse femme Jean Poirot",
+      "precipitating_quarrel": "His parents had been disputing with Thomasse's sister Jennon, and he had wanted to strike her, but his father prevented him; when he passed Thomasse later, she reproached him",
+      "time_between_quarrel_and_harm": "Soon after",
+      "witness_number": 17
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "wheat",
+      "context": "Nicolas Claudon Petit Homme had sold her some wheat; she didn't pay",
+      "category": "agricultural"
+    },
+    {
+      "object": "barley",
+      "context": "Nicolas Pierat had refused to cart some barley for Thomasse",
+      "category": "agricultural"
+    },
+    {
+      "object": "flax field",
+      "context": "Jean Poirot and Thomasse allowed horses to damage Didier Borion's field of flax",
+      "category": "agricultural"
+    },
+    {
+      "object": "corn",
+      "context": "Thomasse came to the mill and asked to buy some corn",
+      "category": "food"
+    },
+    {
+      "object": "key",
+      "context": "Miller's wife had to go get key from husband who was in the village",
+      "category": "household"
+    },
+    {
+      "object": "money (8 ecus)",
+      "context": "Thomasse claimed Bastien l'Allemand had cheated her of 8 ecus",
+      "category": "money"
+    },
+    {
+      "object": "money (30 ecus)",
+      "context": "Value of horse that died",
+      "category": "money"
+    },
+    {
+      "object": "money (80 francs)",
+      "context": "Value of Nicolas Pierat's horse that fell dead",
+      "category": "money"
+    },
+    {
+      "object": "clothes",
+      "context": "Thomasse alleged Nicolas Jean Virion had stolen some clothes from Bastien l'Allemant",
+      "category": "clothing"
+    },
+    {
+      "object": "grain",
+      "context": "Thomasse alleged Bastien l'Allemand had stolen some grain from the mill",
+      "category": "food"
+    },
+    {
+      "object": "terasse",
+      "context": "Disputes with Demenge Masson over ownership of terasse of house they shared",
+      "category": "property"
+    },
+    {
+      "object": "remedy",
+      "context": "Thomasse gave chambriere a remedy she herself had previously used",
+      "category": "magical"
+    },
+    {
+      "object": "harquebus",
+      "context": "Thomasse's husband had been chosen as a soldier and harquebusier",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Dompierre",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of Thomasse and all witnesses"
+    },
+    {
+      "place_name": "Girecourt",
+      "place_type": "village",
+      "context": "Origin of Thomasse's father, Claudon Jean Mongin"
+    },
+    {
+      "place_name": "Epinal",
+      "place_type": "village",
+      "context": "Where Antoine Paris's daughter had brought up 'un ploton de file cru' during illness"
+    },
+    {
+      "place_name": "Bruyeres",
+      "place_type": "village",
+      "context": "Where people were going to depose against Thomasse; Demenge Masson's wife concealed this fact"
+    },
+    {
+      "place_name": "mill",
+      "place_type": "house",
+      "context": "Where Thomasse came to buy corn; Nicolas Le Comte was miller"
+    },
+    {
+      "place_name": "field",
+      "place_type": "field",
+      "context": "Didier Borion's field of flax damaged by horses under Thomasse's care"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "house",
+      "context": "Where Thomasse commented on Bastien Phulpin's livestock"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "During last 'troubles de guerre' the previous prévôt had required community to provide some 'pionniers' (military pioneers/laborers); Jean Poirat was among those chosen. Thomasse's husband had not been chosen as a 'pionnier', but as a soldier and harquebusier.",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Multiple debt disputes",
+      "Economic value of animals extremely important (horses valued at 80 francs, 30 ecus)",
+      "Witness Demenge Antoine Toussaint suffered so many losses that 'the only thing on four legs left to him was a dog'",
+      "Disputes over small amounts (8 ecus)",
+      "Thomasse borrowing money from Antoine Paris and being difficult about repayment"
+    ],
+    "religious_calendar_references": [
+      "St. Jean",
+      "St. Remy",
+      "Christmas Day"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Demenge Biennon",
+        "role": "other",
+        "location": "Dompierre"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "other",
+        "description": "Legal 'exploit' carried out by Demenge Biennon against Thomasse's husband in his capacity as Doyen",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "Nicolas Claudon Petit Homme had 'gagé' Thomasse for non-payment after he had sold her some wheat",
+        "outcome": "Various disputes followed"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Not specified",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 16,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Didier Hanna",
+        "source": "une devineresse",
+        "content": "Told his wife that another who was trying to get their goods had caused their children to die"
+      },
+      {
+        "reporter": "Jean la Gaulde",
+        "source": "unknown",
+        "content": "Had nothing certain to depose against Thomasse"
+      }
+    ],
+    "oldest_accusation_years": 18,
+    "corroboration_groups": [
+      [7, 8]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Much crying on Jesus during torture",
+      "Remained quite firm in denials under torture",
+      "Astonished that Demenge Masson should accuse her over death of daughter"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 3,
+        "objection": "Said that Nicolas Claudon Petit Homme's daughter had been injured by a stone thrown by daughter of one Bagney"
+      },
+      {
+        "witness_number": 6,
+        "objection": "Called Nicolas Jean Virion a 'larron', alleging that he had stolen some clothes from Bastien l'Allemant"
+      },
+      {
+        "witness_number": 14,
+        "objection": "Said that Bastien l'Allemand had cheated her of 8 ecus, and had stolen some grain from the mill"
+      },
+      {
+        "witness_number": 9,
+        "objection": "Said that Didier Hanna 'devroit craindre sa damnation' for accusing her over deaths of his daughters, and that he had already given two false oaths"
+      },
+      {
+        "witness_number": 5,
+        "objection": "Claimed to have visited daughter of Antoine Paris several times during illness, with other women (contrary to his testimony that she refused)"
+      },
+      {
+        "witness_number": 7,
+        "objection": "As for horse belonging to Nicolas Jean Virion, reason he had been unable to cart her barley was that horse was already ill. She had not touched knee of his chambriere, nor told her she would be better in two hours, but had given her a remedy she herself had previously used"
+      },
+      {
+        "witness_number": 11,
+        "objection": "Over death of Demenge Antoine Toussaint's animals, said that they themselves had lost four at same time"
+      },
+      {
+        "witness_number": 16,
+        "objection": "Astonished that Demenge Masson should accuse her over death of daughter, since she believed him to be 'homme de bien' and had never wished him harm"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Poirot",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "context": "Co-paistre of horse herd; subject of legal exploit by Demenge Biennon; chosen as soldier and harquebusier during troubles de guerre"
+    },
+    {
+      "name": "Jennon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "context": "Had been disputing with parents of Blaise fils Adrien Villemin"
+    },
+    {
+      "name": "Nicolas Adam",
+      "role_in_narrative": "other",
+      "context": "Denounced Thomasse again in February 1620 (witch 248, B 3804 no 1), saying she had left her husband and fled"
+    },
+    {
+      "name": "Bagney's daughter",
+      "role_in_narrative": "community_member",
+      "context": "According to Thomasse's defense, threw stone that injured Nicolas Claudon Petit Homme's daughter"
+    },
+    {
+      "name": "devineresse",
+      "role_in_narrative": "community_member",
+      "context": "Told Didier Hanna's wife that someone trying to get their goods had caused their children to die"
+    },
+    {
+      "name": "surgeon",
+      "role_in_narrative": "official",
+      "context": "Agreed that Nicolas Claudon Petit Homme's daughter's bosse was witchcraft"
+    },
+    {
+      "name": "previous prévôt",
+      "role_in_narrative": "official",
+      "context": "During 'troubles de guerre' required community to provide 'pionniers'"
+    },
+    {
+      "name": "Claudon Jean Mongin",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "Of Girecourt"
+    },
+    {
+      "name": "Thomasse's two sons",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "context": "One about 20, the other 10 years old"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "This is a very well-documented trial with 18 witnesses and detailed testimony. Thomasse was accused primarily in her role as paistre (herder) of horses, and many disputes centered on her occupational responsibilities. She maintained firm denials even under torture. The trial ended with renvoy jusqu'a rappel (released subject to recall) rather than death or explicit banishment, though PG des Vosges had requested 10-year banishment. She was denounced again in 1620 and had apparently fled. Notable features: strong defense with counter-accusations of theft and fraud against witnesses; unusual healing episode with chambriere; economic context of military troubles; brother-in-law as witness against her.",
+    "pdf_pages": 5
+  }
+}

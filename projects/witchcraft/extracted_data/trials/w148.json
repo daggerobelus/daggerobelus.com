@@ -1,0 +1,1413 @@
+{
+  "trial_id": "w148",
+  "archive_ref": "B 8669",
+  "location": "Ginfosse",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1592-11-20",
+    "end": "1593-09-09",
+    "duration_days": 294
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jeanne femme Jean Lienard le maimbourg",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["beggar"],
+      "origin": "Raves",
+      "residence": "Ginfosse",
+      "marital_status": "married",
+      "spouse_name": "Jean Lienard le maimbourg",
+      "parents": {
+        "father": "Jean Andreu of Raves"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "seduction_date": "6 years before arrest (c. 1587)",
+        "seduction_context": "Rather spare account, no promises or money given",
+        "powder_types": ["white powder"],
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Margo veuve feu le maire Nicolas",
+      "gender": "female",
+      "age": 60,
+      "location": "Ginfosse",
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "next day after begging visit"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 2,
+      "name": "Georgette femme Jean Lhoste",
+      "gender": "female",
+      "age": 27,
+      "location": "Ginfosse",
+      "relationship_to_accused": "former landlord (rented from accused's father-in-law)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "house purchase from Jean Lienard's father - bought a third of a house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "multiple animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "during time living in house"
+          },
+          {
+            "type": "human_injury",
+            "target": "baby in cradle",
+            "target_relationship": "witness's child",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "during quarrel period"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Colas Mandray de Raves",
+      "gender": "male",
+      "age": 40,
+      "location": "Raves",
+      "occupation": "servant",
+      "relationship_to_accused": "former servant of maire Nicolas",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "bought manure obtained by court judgment against her and her husband",
+        "threat_received": true,
+        "threat_quote": "She told him he would repent if he took it",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "after taking manure"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse (maire Nicolas's)",
+            "target_relationship": "master's",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "same night"
+          },
+          {
+            "type": "human_death",
+            "target": "witness's wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "following evening became ill"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "Bastienne veuve feu le maire Claudel le maimbourg",
+      "gender": "female",
+      "age": 60,
+      "location": "Ginfosse",
+      "relationship_to_accused": "relative by marriage (called 'belle tante')",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "found accused in their cherry tree in garden",
+        "threat_received": true,
+        "threat_quote": "He que voulez vous belle tante Bastienne s'at faict le bien que j'ay heu",
+        "harms_alleged": [],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 5,
+      "name": "Demenge Louys de Raves",
+      "gender": "male",
+      "age": 36,
+      "location": "Raves",
+      "relationship_to_accused": "brother-in-law (married her sister)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused her of being witch, asked about throwing stones in water",
+        "threat_received": true,
+        "threat_quote": "if she could have bread and salt from somewhere she would make a neuvaine and he would not have time",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "maire Nicolas",
+            "target_relationship": "community leader",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "3 weeks after threat"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Comand, mareschal de Rayegoutte",
+      "gender": "male",
+      "age": 36,
+      "occupation": "blacksmith",
+      "location": "Rayegoutte",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Catherine veuve Jacot Rouyer de Rayegoutte",
+      "gender": "female",
+      "age": 40,
+      "location": "Rayegoutte",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Dedielle femme Michiel Jean Michiel",
+      "gender": "female",
+      "age": 25,
+      "location": "area village",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claude Jean Didier de Laulnay",
+      "gender": "male",
+      "age": 33,
+      "location": "Laulnay",
+      "occupation": "servant",
+      "relationship_to_accused": "former servant of maire Nicolas",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "maire beat her when found stealing from garden",
+        "harms_alleged": [],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 10,
+      "name": "Catherine de Launay",
+      "gender": "female",
+      "age": 56,
+      "location": "Launay",
+      "marital_status": "single",
+      "relationship_to_accused": "acquaintance",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jehennon fille de feu Jean Aulbert de Layegoutte",
+      "gender": "female",
+      "age": 22,
+      "location": "Layegoutte",
+      "occupation": "servant",
+      "relationship_to_accused": "former servant of maire Nicolas",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "caught in garden, beaten, called witch",
+        "threat_received": true,
+        "threat_quote": "s'il savoit les moyens pour la faire brusler qu'il le feroit et y mectroit de son bien",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "master's",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "after quarrel, then recovered"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "Colas Demenge la Poire, doyen de maire à Neufviller",
+      "gender": "male",
+      "age": 50,
+      "occupation": "doyen de maire",
+      "location": "Neufviller",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wife refused alms, said she came too often",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "died in exactly 24 hours"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 13,
+      "name": "Mengeon Demenge Everard de Layegoutte",
+      "gender": "male",
+      "age": 31,
+      "location": "Layegoutte",
+      "relationship_to_accused": "rented meadow from her",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "she was discontented about meadow rental",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 cattle",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "within a week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claude Mengeon Jean le maimbourg, de la Treuxe",
+      "gender": "male",
+      "age": 28,
+      "location": "la Treuxe (formerly Ginfosse)",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "maire Nicolas",
+            "target_relationship": "community leader",
+            "attributed_to": "Jeanne femme Jean Lienard",
+            "time_after_quarrel": "shortly after threat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Colas Jean Robin, de Laveline",
+      "gender": "male",
+      "age": 30,
+      "location": "Laveline",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Colas Claude le Voisin, de Laveline",
+      "gender": "male",
+      "age": 30,
+      "location": "Laveline",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused alms, said she came too often",
+        "threat_received": true,
+        "threat_quote": "qu'il ne debvoit faire mal a ceulx dudit Leveline de ne luy bailler l'aulmosne, qu'elle leur avoit bien valu daventage et qu'elle avoit preservé leurs bleds de la gresle",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jehenne femme Demenge Jacquemin de Laveline",
+      "gender": "female",
+      "age": 40,
+      "location": "Laveline",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "reproached for daily begging and claiming to save crops",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jehenne femme Jean Colas Robin de Laveline",
+      "gender": "female",
+      "age": 32,
+      "location": "Laveline",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Claude le Clerc de Bertrimoutier",
+      "gender": "male",
+      "age": 40,
+      "location": "Bertrimoutier",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox and cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "unknown (confessed to by Jeanne)",
+            "time_after_quarrel": "5-6 years ago for ox, previous Christmas for cow"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Claude Didier Alix, gendre de George la Barre, de Raves",
+      "gender": "male",
+      "age": 35,
+      "location": "Raves",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "8 cattle including best cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "suspected witches",
+            "time_after_quarrel": "year before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Jean Trexon maire de Bertrimoutier",
+      "gender": "male",
+      "age": 50,
+      "occupation": "maire",
+      "location": "Bertrimoutier",
+      "relationship_to_accused": "community leader",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow and bull",
+            "target_relationship": "witness's own",
+            "attributed_to": "suspected witchcraft",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Jacquot Gerard Bechay de Raves",
+      "gender": "male",
+      "age": 40,
+      "location": "Raves",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 oxen and other animals totaling 1200 francs value",
+            "target_relationship": "witness's own",
+            "attributed_to": "suspected witches",
+            "time_after_quarrel": "shortly after last Easter"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Jennon femme Thomas Lucker de Coinche",
+      "gender": "female",
+      "age": 25,
+      "location": "Coinche",
+      "relationship_to_accused": "former daughter-in-law of maire Colas",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "caught stealing cabbages with 2 children",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals worth 1200 francs",
+            "target_relationship": "mother-in-law's",
+            "attributed_to": "possibly Jeanne",
+            "time_after_quarrel": "over time"
+          }
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Margo veuve Colas le maimbourg",
+      "gender": "female",
+      "age": 40,
+      "location": "area village",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 25,
+      "name": "Claudon Colas Claude, beau-fils de la precedente",
+      "gender": "male",
+      "age": 40,
+      "location": "area village",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 26,
+      "name": "Georgeatte femme Jean Lhoste",
+      "gender": "female",
+      "age": 30,
+      "location": "area village",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 27,
+      "name": "Colas Babillon alias la Poire",
+      "gender": "male",
+      "age": 50,
+      "location": "Neufviller",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 28,
+      "name": "Bastienne veuve le maire Claudel",
+      "gender": "female",
+      "age": 60,
+      "location": "area village",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1592-11-20",
+      "event": "informations_preparatoires",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "18 witnesses testify against her"
+    },
+    {
+      "date": "1592-11-30",
+      "event": "other",
+      "subject": "additional witnesses",
+      "details": "More witnesses added to informations"
+    },
+    {
+      "date": "1592-12-05",
+      "event": "other",
+      "subject": "Rémy",
+      "details": "Rémy asks for arrest and interrogation"
+    },
+    {
+      "date": "1593-07-08",
+      "event": "interrogation",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "First interrogation without torture"
+    },
+    {
+      "date": "1593-07-09",
+      "event": "interrogation",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Second interrogation, questions about gypsies and stones"
+    },
+    {
+      "date": "1593-07-19",
+      "event": "confrontation",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Confronted with witnesses"
+    },
+    {
+      "date": "1593-07-24",
+      "event": "torture_requested",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Rémy asks for question extraordinaire"
+    },
+    {
+      "date": "1593-07-26",
+      "event": "torture_approved",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Change de Nancy approves with proviso that torture be moderate"
+    },
+    {
+      "date": "1593-08-10",
+      "event": "torture",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "First torture session - confessed under rack"
+    },
+    {
+      "date": "1593-08-11",
+      "event": "torture",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Second torture session - retracted confessions"
+    },
+    {
+      "date": "1593-08-18",
+      "event": "torture_requested",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Rémy asks for further torture"
+    },
+    {
+      "date": "1593-08-19",
+      "event": "other",
+      "subject": "Change de Nancy",
+      "details": "Court orders verification of confessed crimes before more torture"
+    },
+    {
+      "date": "1593-08-25",
+      "event": "informations_preparatoires",
+      "subject": "verification witnesses",
+      "details": "Additional informations to verify confessed crimes"
+    },
+    {
+      "date": "1593-08-27",
+      "event": "informations_preparatoires",
+      "subject": "more verification witnesses",
+      "details": "More witnesses for verification"
+    },
+    {
+      "date": "1593-08-28",
+      "event": "torture",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Third torture session - refused to confess, maintained earlier confessions were lies"
+    },
+    {
+      "date": "1593-09-03",
+      "event": "sentence",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Change de Nancy recommends she be renvoyée (released)"
+    },
+    {
+      "date": "1593-09-09",
+      "event": "other",
+      "subject": "Jeanne femme Jean Lienard",
+      "details": "Released from prison"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "Rémy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "moderate only"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Jeanne femme Jean Lienard",
+      "french": "He que voulez vous belle tante Bastienne s'at faict le bien que j'ay heu",
+      "context": "Response when called a witch while in cherry tree"
+    },
+    {
+      "speaker": "Jeanne femme Jean Lienard",
+      "french": "qu'elle le feroit bien aller en ung autre lieu devant, que ce n'estoit a luy de la faire brusler",
+      "context": "Response to maire Nicolas's threat to burn her - he died shortly after"
+    },
+    {
+      "speaker": "Jeanne femme Jean Lienard",
+      "french": "que le diable l'en avoit porté et qu'il en emporteroit encor d'aultres",
+      "context": "Allegedly said about death of maire Nicolas"
+    },
+    {
+      "speaker": "maire Nicolas",
+      "french": "s'il savoit les moyens pour la faire brusler qu'il le feroit et y mectroit de son bien",
+      "context": "Threat to have her burned"
+    },
+    {
+      "speaker": "Jeanne femme Jean Lienard",
+      "french": "qu'elle aimoit aultant dire des bordes [lies] ou elle estoit qu'a ladite question, et qu'elle vouloit bien que l'on tienne pour bon ce qu'elle avoit dict",
+      "english": "that she might as well tell lies where she was as under torture, and they could consider what she had said to be good",
+      "context": "During final torture session, explaining her earlier confessions were false"
+    },
+    {
+      "speaker": "Colas Jean Robin",
+      "french": "il aymeroit aultant veoir ung loup qu'elle quand elle vient en son losgis y demander l'aulmosne",
+      "english": "he would as soon see a wolf as her when she comes to his house begging",
+      "context": "Describing fear of accused"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jeanne femme Jean Lienard",
+      "person2": "Jean Lienard le maimbourg",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married to Jean Lienard for some 30 years",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Andreu",
+      "person2": "Jeanne femme Jean Lienard",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Jean Andreu of Raves",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne femme Jean Lienard",
+      "person2": "Demenge Louys de Raves",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "he had married her sister",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne femme Jean Lienard",
+      "person2": "Bastienne veuve feu le maire Claudel",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "called 'belle tante' by accused",
+      "inferred": false
+    },
+    {
+      "person1": "Georgette femme Jean Lhoste",
+      "person2": "Colas Claudel le maimbourg",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "when married to Colas Claudel le maimbourg",
+      "inferred": false
+    },
+    {
+      "person1": "Georgette femme Jean Lhoste",
+      "person2": "Jean Lhoste",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Georgette femme Jean Lhoste",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Mandray",
+      "person2": "maire Nicolas",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "he had been serving late maire Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "maire Nicolas",
+      "person2": "Margo veuve feu le maire Nicolas",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "Margo veuve feu le maire Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Jean Didier",
+      "person2": "maire Nicolas",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "witness was in his service",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon fille de feu Jean Aulbert",
+      "person2": "maire Nicolas",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "had been in service of maire Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Jean Robin",
+      "person2": "Jehennon wife of maire Colayel",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "His aunt Jehennon, wife of maire Colayel",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Thomas Lucker",
+      "person2": "Colas le maire",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Had been wife of Colas le maire",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Thomas Lucker",
+      "person2": "Thomas Lucker",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Thomas Lucker",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Didier Alix",
+      "person2": "George la Barre",
+      "relationship_type": "in_law_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "gendre de George la Barre",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Colas Claude",
+      "person2": "Margo veuve Colas le maimbourg",
+      "relationship_type": "in_law_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "beau-fils de la precedente",
+      "inferred": false
+    },
+    {
+      "person1": "Dedielle femme Michel Jean Bellier",
+      "person2": "Jeanne femme Jean Lienard",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "her friend Dedielle femme Michel Jean Bellier",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "In great dearth some 18 years earlier, husband had sold her property, and she had then been obliged to go about begging. Quarrel with Georgette and Colas Claudel over house purchase from Jean Lienard's father. Dispute over manure obtained by court judgment against her and her husband. Multiple disputes related to poverty and begging for alms."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "horse found dead",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "animals of various kinds",
+      "victim_relationship_to_witness": "own animals",
+      "harm_category": "animal_death",
+      "harm_description": "could not keep animals alive during time living in house",
+      "economic_value": "300 francs worth over last year",
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "purchased third of house from Jean Lienard's father",
+      "time_between_quarrel_and_harm": "duration of living there (8 years ago)",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "baby in cradle",
+      "victim_relationship_to_witness": "witness's child",
+      "harm_category": "human_injury",
+      "harm_description": "found lying face down in corner (unharmed)",
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "time_between_quarrel_and_harm": "during quarrel period",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "started to limp, infection spread up leg, died",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "bought manure obtained by court judgment against her",
+      "time_between_quarrel_and_harm": "after taking manure",
+      "method_alleged": "curse/threat",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "master's (maire Nicolas)",
+      "harm_category": "animal_death",
+      "harm_description": "went berserk, as if rabid, died same night",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "maire refused to cart her hay",
+      "time_between_quarrel_and_harm": "same night",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "witness's wife",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "became ill, died a week later after raving, seeing visions of Jennon with white shirt",
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "wife accepted milk from Jennon despite witness's prohibition",
+      "time_between_quarrel_and_harm": "following evening became ill",
+      "method_alleged": "poisoned milk",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "30 animals including 5 horses and 4 oxen",
+      "victim_relationship_to_witness": "master's (maire Nicolas)",
+      "harm_category": "animal_death",
+      "harm_description": "various animal deaths",
+      "animal_type": "horses, oxen, other animals",
+      "animal_count": 30,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "maire Nicolas",
+      "victim_relationship_to_witness": "community leader",
+      "harm_category": "human_death",
+      "harm_description": "death of maire",
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "heard maire wanted to arrest her",
+      "time_between_quarrel_and_harm": "3 weeks after her threat about neuvaine",
+      "method_alleged": "powder in tart (confessed), curse",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "master's (maire Nicolas)",
+      "harm_category": "animal_illness",
+      "harm_description": "cow became sick, then recovered after threat to burn accused",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "caught in garden, beaten, called witch",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "horse sickened and died in exactly 24 hours",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "wife refused alms, said she came too often, she grumbled",
+      "time_between_quarrel_and_harm": "immediately after passing by horses",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "2 cattle",
+      "victim_relationship_to_witness": "own animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost 2 cattle",
+      "animal_type": "cattle",
+      "animal_count": 2,
+      "attributed_to": "Jeanne femme Jean Lienard",
+      "precipitating_quarrel": "rented meadow from her, she was discontented",
+      "time_between_quarrel_and_harm": "within a week",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "ox died",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jeanne femme Jean Lienard (confessed to)",
+      "time_between_quarrel_and_harm": "5-6 years earlier",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "cow died (butcher said not poisoned)",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "unknown",
+      "time_between_quarrel_and_harm": "previous Christmas",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "8 cattle including best cow",
+      "victim_relationship_to_witness": "own animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost best cow suddenly, then total of 8 cattle",
+      "animal_type": "cattle",
+      "animal_count": 8,
+      "attributed_to": "suspected witches",
+      "time_between_quarrel_and_harm": "year before",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "cow and bull",
+      "victim_relationship_to_witness": "own animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost cow and bull",
+      "animal_type": "cow, bull",
+      "animal_count": 2,
+      "attributed_to": "suspected witchcraft",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "2 oxen",
+      "victim_relationship_to_witness": "own animals",
+      "harm_category": "animal_death",
+      "harm_description": "one died in a day, other in a week",
+      "animal_type": "oxen",
+      "animal_count": 2,
+      "attributed_to": "suspected witches",
+      "time_between_quarrel_and_harm": "shortly after last Easter",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "animals worth 1200 francs",
+      "victim_relationship_to_witness": "mother-in-law's",
+      "harm_category": "animal_death",
+      "harm_description": "animals lost totaling 1200 francs value",
+      "economic_value": "1200 francs",
+      "attributed_to": "possibly Jeanne",
+      "witness_number": 23
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread",
+      "context": "given as alms to accused",
+      "category": "food"
+    },
+    {
+      "object": "manure",
+      "context": "purchased by court judgment",
+      "category": "agricultural"
+    },
+    {
+      "object": "cradle",
+      "context": "baby's cradle in which child found face down",
+      "category": "household"
+    },
+    {
+      "object": "white shirt",
+      "context": "vision seen by dying woman",
+      "category": "clothing"
+    },
+    {
+      "object": "milk",
+      "context": "allegedly given to Colas Mandray's wife",
+      "category": "food"
+    },
+    {
+      "object": "stones",
+      "context": "thrown in water as magical practice taught by gypsies",
+      "category": "magical"
+    },
+    {
+      "object": "holy water",
+      "context": "used by gypsies in treasure-finding ritual",
+      "category": "religious"
+    },
+    {
+      "object": "saage (cooking pot)",
+      "context": "taken by gypsy woman",
+      "category": "household"
+    },
+    {
+      "object": "serviette worth 15 gros",
+      "context": "taken by gypsy woman",
+      "category": "household"
+    },
+    {
+      "object": "bas de chausse (stockings)",
+      "context": "taken by gypsy woman",
+      "category": "clothing"
+    },
+    {
+      "object": "ver (glass vessel)",
+      "context": "used by gypsy in ritual, water turned red",
+      "category": "household"
+    },
+    {
+      "object": "palms",
+      "context": "found after Easter in front of door",
+      "category": "religious"
+    },
+    {
+      "object": "oats",
+      "context": "promised to Catherine if she would sleep in Jeanne's house",
+      "category": "food"
+    },
+    {
+      "object": "cabbages",
+      "context": "caught stealing from maire's garden",
+      "category": "food"
+    },
+    {
+      "object": "hay",
+      "context": "asked maire Nicolas to cart",
+      "category": "agricultural"
+    },
+    {
+      "object": "tart",
+      "context": "allegedly gave poisoned tart to maire Colas on Easter Monday (confession)",
+      "category": "food"
+    },
+    {
+      "object": "white powder",
+      "context": "given by devil Persin (confession)",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Ginfosse",
+      "place_type": "village",
+      "context": "primary location of accused's residence"
+    },
+    {
+      "place_name": "Raves",
+      "place_type": "village",
+      "context": "birthplace of accused, residence of several witnesses"
+    },
+    {
+      "place_name": "Coinches",
+      "place_type": "village",
+      "context": "direction accused went after staying with Jean Lhoste"
+    },
+    {
+      "place_name": "Rayegoutte",
+      "place_type": "village",
+      "context": "location where accused was feared"
+    },
+    {
+      "place_name": "Laulnay",
+      "place_type": "village",
+      "context": "where accused threw stones in water"
+    },
+    {
+      "place_name": "Layegoutte",
+      "place_type": "village",
+      "context": "residence of several witnesses"
+    },
+    {
+      "place_name": "Neufviller",
+      "place_type": "village",
+      "context": "residence of doyen de maire witness"
+    },
+    {
+      "place_name": "la Treuxe",
+      "place_type": "village",
+      "context": "where witness moved after leaving Ginfosse"
+    },
+    {
+      "place_name": "Laveline",
+      "place_type": "village",
+      "context": "village where accused begged and claimed to save crops from hail"
+    },
+    {
+      "place_name": "Bertrimoutier",
+      "place_type": "village",
+      "context": "location of several witnesses and alleged harms"
+    },
+    {
+      "place_name": "Stampaumont in Val de Viller",
+      "place_type": "village",
+      "context": "residence of Demenge Houllenel, married to accused's sister"
+    },
+    {
+      "place_name": "Coinche",
+      "place_type": "village",
+      "context": "residence of witness Jennon femme Thomas Lucker"
+    },
+    {
+      "place_name": "river/water at Laulnay",
+      "place_type": "water_body",
+      "context": "where accused threw stones as magical practice"
+    },
+    {
+      "place_name": "church at Bertrimoutier",
+      "place_type": "church",
+      "context": "where accused saw figure in white going"
+    },
+    {
+      "place_name": "church at Laveline",
+      "place_type": "church",
+      "context": "contained statue of virgin mary, reason crops allegedly saved"
+    },
+    {
+      "place_name": "garden of maire Nicolas/Bastienne",
+      "place_type": "other",
+      "context": "where accused found stealing, caught in cherry tree"
+    },
+    {
+      "place_name": "les grandes aulnes",
+      "place_type": "other",
+      "context": "location where accused allegedly had relations with unknown man"
+    },
+    {
+      "place_name": "bridge",
+      "place_type": "other",
+      "context": "where accused seen throwing stones in water before crossing"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail damage to crops 3 years before trial"],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "great dearth 18 years earlier",
+      "husband sold her property",
+      "obliged to go begging",
+      "no milk for 7 years except as alms",
+      "poverty forced separation from household"
+    ],
+    "religious_calendar_references": [
+      "Easter",
+      "Lent (Karesme)",
+      "Easter Monday",
+      "neuvaine (9-day religious observance)",
+      "pilgrimage to St Idoult"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "jurisdiction over Ginfosse"
+      },
+      {
+        "name": "Nicolas Brexon",
+        "role": "other",
+        "location": "area"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Court judgment against her and husband regarding manure",
+        "outcome": "judgment went against them"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "imprisoned from December 1592 to September 1593",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 18,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Georgette femme Jean Lhoste",
+        "source": "servant",
+        "content": "heard there was a woman who called on Mre Persin to come and fetch her"
+      },
+      {
+        "reporter": "Colas Jean Robin",
+        "source": "aunt Jehennon wife of maire Colayel",
+        "content": "accused said she preserved crops of Laveline from hail"
+      }
+    ],
+    "oldest_accusation_years": 10,
+    "corroboration_groups": [
+      [15, 16, 17, 18],
+      [1, 24],
+      [2, 26],
+      [12, 27]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "refused to confess under torture",
+      "maintained composure in final torture session",
+      "said she preferred to tell lies than be tortured again",
+      "insisted earlier confessions were forced"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 3,
+        "objection": "could not have given milk to his wife because had none for 7 years except as alms"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Nicolas Brexon",
+      "role_in_narrative": "community_member",
+      "context": "had manure by court judgment against accused and husband"
+    },
+    {
+      "name": "Nicolas le maire (son of witness 1)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor/accuser",
+      "context": "had called her witch several times, had child die in cradle, lost 30 animals worth 300 francs, died 3 years before trial"
+    },
+    {
+      "name": "Colas Claudel le maimbourg",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "first husband of witness 2",
+      "context": "had quarrels with accused over house purchase"
+    },
+    {
+      "name": "Demenge Houllenel of Stampaumont",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law (married another sister)",
+      "context": "found accused in his house 3 times at night wet and dishevelled"
+    },
+    {
+      "name": "maire Colayel of Laveline",
+      "role_in_narrative": "official",
+      "context": "said accused killed his ox"
+    },
+    {
+      "name": "Jehennon wife of maire Colayel",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "aunt of witness 15",
+      "context": "very ill at time of trial, told of accused's claims about protecting crops"
+    },
+    {
+      "name": "Colas le maire",
+      "role_in_narrative": "victim",
+      "context": "allegedly killed by accused with poisoned tart on Easter Monday (confession)"
+    },
+    {
+      "name": "Dedielle femme Michel Jean Bellier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "friend",
+      "context": "accused thought she might have put palms at door"
+    },
+    {
+      "name": "Marie (daughter of accused)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "told mother about vision of small figure in white"
+    },
+    {
+      "name": "gypsy woman (Egiptienne)",
+      "role_in_narrative": "other",
+      "context": "came to house 18 years ago, told of treasure, took household goods, taught stone-throwing practice"
+    },
+    {
+      "name": "George la Barre",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "father-in-law of witness 20",
+      "context": "mentioned in relation to witness"
+    },
+    {
+      "name": "Thomas Lucker",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "husband of witness 23",
+      "context": "husband of widow of Colas le maire"
+    },
+    {
+      "name": "Mre Persin",
+      "role_in_narrative": "other",
+      "context": "someone woman allegedly called on (possibly devil's name, same as in confession)"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is a remarkable case of acquittal. Jeanne confessed under torture to witchcraft, naming the devil as Persin and confessing to killing animals and maire Colas with powder. However, she retracted her confession during subsequent torture sessions, insisting her confessions were lies extorted by pain. The Change de Nancy ordered verification of her confessed crimes, and when additional witnesses could not confirm the specific harms she confessed to, the court ordered her release. This demonstrates the appellate court's skepticism toward torture-induced confessions and requirement for corroborating evidence. The case is rich with details about poverty, begging, community tensions, and the intersection of economic hardship with witchcraft accusations. The gypsy encounter story is particularly detailed and provides insight into folk magic practices and economic exploitation during times of dearth.",
+    "pdf_pages": 7
+  }
+}

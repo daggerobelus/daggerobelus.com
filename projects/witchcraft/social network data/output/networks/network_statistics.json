@@ -1,0 +1,36 @@
+{
+  "num_nodes": 10652,
+  "num_edges": 17412,
+  "num_components": 3786,
+  "largest_component_size": 4545,
+  "largest_component_fraction": 0.4266804355989486,
+  "density": 0.0003067310218906174,
+  "avg_degree": 3.2669921141569658,
+  "max_degree": 160,
+  "min_degree": 0,
+  "node_types": {
+    "accused": 71,
+    "witness": 3109,
+    "unknown": 7472
+  },
+  "genders": {
+    "male": 946,
+    "female": 1303,
+    "unknown": 8403
+  },
+  "edge_types": {
+    "TESTIFIED_AGAINST": 4974,
+    "CO_WITNESS": 9703,
+    "CO_ACCUSED": 771,
+    "WIDOW_OF": 380,
+    "SPOUSE_OF": 1423,
+    "CHILD_OF": 145,
+    "SEEN_AT_SABBAT": 13,
+    "NAMED_AS_WITCH": 3
+  },
+  "layers": {
+    "accusation": 4990,
+    "co_presence": 10474,
+    "kinship": 1948
+  }
+}

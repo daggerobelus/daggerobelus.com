@@ -1,0 +1,1687 @@
+{
+  "trial_id": "w119",
+  "archive_ref": "B 7301",
+  "location": "Jarville",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1591-06-24",
+    "end": "1591-08-05",
+    "duration_days": 42
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Barbe la grosse gorge",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["healer", "folk medicine practitioner", "beggar"],
+      "origin": "Ville-sur-Illon",
+      "residence": "Jarville",
+      "marital_status": "widowed",
+      "spouse_name": "Demenge Vanal",
+      "parents": {
+        "father": "Jean Morel",
+        "mother": "Jennon"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Augustin",
+        "devil_appearance": "Not described in detail",
+        "seduction_date": "7 or 8 years earlier",
+        "seduction_context": "Near Jametz when very poor and hungry, was traveling to visit a sick man at Stenay. Augustin offered to teach her about herbs that would make ill or heal as she chose",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["herbs called 'gloriate finate'", "poisonous herbs", "mercury"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Philippe la Tour",
+      "gender": "male",
+      "age": 40,
+      "occupation": "doyen d'Art-sur-Meurthe",
+      "location": "Art-sur-Meurthe",
+      "relationship_to_accused": "Had seen her in Art claiming to cure illnesses",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Found her in his house with other women and drove her out",
+        "threat_received": true,
+        "threat_quote": "threatened to have her arrested and taken to Nancy as a witch",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Barbe la grosse gorge",
+            "time_after_quarrel": "after he drove her out"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Barthelemy Jacques",
+      "gender": "male",
+      "age": 25,
+      "location": "Loupcourt",
+      "relationship_to_accused": "Consulted her for gambling luck",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his cat",
+            "target_relationship": "witness's pet",
+            "attributed_to": "Barbe la grosse gorge",
+            "time_after_quarrel": "3 or 4 days later",
+            "method_alleged": "cut fur off cat and put with grains of 'fouchere'"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Didier François",
+      "gender": "male",
+      "age": 27,
+      "location": "Vandeuvre",
+      "relationship_to_accused": "Witnessed her collecting herbs",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Catherine veuve de Didier Rayeux",
+      "gender": "female",
+      "age": 50,
+      "occupation": "widow of ardoisier de SA",
+      "location": "la Neufville",
+      "relationship_to_accused": "Consulted her to cure husband's illness",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Apothecary la Ratte threatened Barbe for practicing medicine",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Didier Rayeux (Didellot)",
+            "target_relationship": "witness's husband",
+            "attributed_to": "Barbe la grosse gorge",
+            "time_after_quarrel": "soon after herbs applied to head",
+            "method_alleged": "herbs steeped in vinegar and put on his head"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Mengeotte femme Gerard Hanns",
+      "gender": "female",
+      "age": 50,
+      "location": "la Neufville",
+      "relationship_to_accused": "Had hired Barbe's son as shepherd; later consulted Barbe about illnesses",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Demoiselle de Champy told them to dismiss Barbe's son so his mother would no longer frequent Montel because of her reputation",
+        "threat_received": true,
+        "threat_quote": "he would suffer for this (after son denied speaking ill of her over horses)",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Paul Petit (first husband)",
+            "target_relationship": "witness's first husband",
+            "attributed_to": "Barbe la grosse gorge",
+            "time_after_quarrel": "18 months after dismissing her son"
+          },
+          {
+            "type": "human_death",
+            "target": "3 children",
+            "target_relationship": "witness's children",
+            "attributed_to": "Barbe la grosse gorge",
+            "time_after_quarrel": "18 months after dismissing her son"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "witness's horses",
+            "attributed_to": "Barbe la grosse gorge",
+            "animal_type": "horse",
+            "animal_count": 2
+          },
+          {
+            "type": "human_death",
+            "target": "Nicolas Charier (her son)",
+            "target_relationship": "witness's son",
+            "attributed_to": "Barbe la grosse gorge",
+            "time_after_quarrel": "immediately after she accused him",
+            "method_alleged": "gave something like 'muscade' from her purse"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Messire Didier Mathieu",
+      "gender": "male",
+      "age": 56,
+      "occupation": "curé de la Neufville",
+      "location": "la Neufville",
+      "relationship_to_accused": "Tried to prevent her living at la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Baptiste Florentin",
+      "gender": "male",
+      "age": 36,
+      "occupation": "archer de SA",
+      "relationship_to_accused": "Brother of Margueritte who was treated by Barbe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Margueritte, wife of Jean Masselin",
+            "target_relationship": "witness's sister",
+            "attributed_to": "Barbe la grosse gorge",
+            "method_alleged": "claimed to heal but was fraudulent"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Nicolas Florentin",
+      "gender": "male",
+      "age": 52,
+      "occupation": "prevôt des monnoyes de SA à Nancy",
+      "relationship_to_accused": "Brother of Margueritte who was treated by Barbe",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Brother-in-law threatened to have her arrested and become partie formelle",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Margueritte, wife of Jean Masselin",
+            "target_relationship": "witness's sister",
+            "attributed_to": "Barbe la grosse gorge"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Vatellet Dellenal",
+      "gender": "male",
+      "age": 66,
+      "occupation": "escuyer, lieutenant du gouvernement de Biche",
+      "location": "Nancy",
+      "relationship_to_accused": "She treated his maid",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Margueritte",
+      "gender": "female",
+      "age": 22,
+      "relationship_to_accused": "Niece of Vatellet Dellenal; was treated by Barbe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jeanne Collignon",
+      "gender": "female",
+      "age": 28,
+      "occupation": "femme Jacques Guillard, espronnier de SA",
+      "relationship_to_accused": "Consulted her for illness",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Went to ask for return of money; Barbe threatened to cut off her head with 'serpe'",
+        "threat_received": true,
+        "threat_quote": "threatened to cut off her head if she did not leave",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jeanne Collignon (herself)",
+            "target_relationship": "self",
+            "attributed_to": "Barbe la grosse gorge",
+            "harm_description": "headache and vomiting, brought up piece of twisted napkin",
+            "method_alleged": "herbs because she told her off"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jehan Mortaigne",
+      "gender": "male",
+      "age": 36,
+      "occupation": "soldat à Nancy",
+      "location": "Nancy",
+      "relationship_to_accused": "Consulted her as healer for himself and wife",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Called her 'abuseresse' at feast of la Neufville",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Clere veuve Claudin Grand Villaume",
+      "gender": "female",
+      "age": 60,
+      "location": "Nancy",
+      "relationship_to_accused": "Witnessed her fraud with 'graines de fouchere'",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Exposed her fraud about 'graines de fouchere' being wheat grains",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Mre Didier Gerdin",
+      "gender": "male",
+      "age": 46,
+      "occupation": "mre masson",
+      "location": "Nancy",
+      "relationship_to_accused": "She treated him; he rejected her",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife of Didier Gerdin",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Barbe la grosse gorge"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Barbe le Brun",
+      "gender": "female",
+      "age": 23,
+      "occupation": "servant of sieur tresorier des guerres",
+      "relationship_to_accused": "Was servant in house where Barbe treated sick daughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Sick woman suspected Barbe was bewitching her and had not made pilgrimage",
+        "threat_received": true,
+        "threat_quote": "je luy monstreres bien que je ne suis pas une sy elle m'eust voullu croire elle fut guarie mais elle en a assez sa vie",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Margueritte femme Noel Gerard",
+      "gender": "female",
+      "age": 30,
+      "occupation": "femme menusier",
+      "location": "Nancy",
+      "relationship_to_accused": "Consulted her about difficult pregnancies",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Marie femme Remey Bastien",
+      "gender": "female",
+      "age": 24,
+      "occupation": "femme marchal",
+      "location": "Nancy",
+      "relationship_to_accused": "Consulted her about childbirth and sick sister-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her first child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Barbe la grosse gorge",
+            "harm_description": "died after a month"
+          },
+          {
+            "type": "human_death",
+            "target": "sister-in-law aged 8",
+            "target_relationship": "witness's sister-in-law",
+            "attributed_to": "Barbe la grosse gorge",
+            "harm_description": "fever and jaundice",
+            "method_alleged": "made cake with urine, flour, butter, and salt"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Claudon femme Jean Ferry",
+      "gender": "female",
+      "age": 42,
+      "location": "St Nicolas",
+      "relationship_to_accused": "Barbe cured her of long illness at Tonnoy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Noel Daulphin",
+      "gender": "male",
+      "age": 75,
+      "location": "la Neufville",
+      "relationship_to_accused": "Called her to treat his nephew",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to pay 3 or 4 francs she demanded; she became angry",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Demenge Bagard",
+      "gender": "male",
+      "age": 40,
+      "occupation": "maire de la Neufville",
+      "location": "la Neufville",
+      "relationship_to_accused": "Saw her trying to heal son of demoiselle de Viller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1591-06-24",
+      "event": "other",
+      "subject": "Barbe la grosse gorge",
+      "details": "Bastien Aubertin made himself partie formelle before maire of Jarville"
+    },
+    {
+      "date": "1591-07-04",
+      "event": "interrogation",
+      "subject": "Barbe la grosse gorge",
+      "details": "Initial interrogation"
+    },
+    {
+      "date": "1591-07-05",
+      "event": "informations_preparatoires",
+      "subject": "Barbe la grosse gorge",
+      "details": "Witness testimonies began"
+    },
+    {
+      "date": "1591-07-08",
+      "event": "interrogation",
+      "subject": "Barbe la grosse gorge",
+      "details": "Second interrogation"
+    },
+    {
+      "date": "1591-07-15",
+      "event": "informations_preparatoires",
+      "subject": "Barbe la grosse gorge",
+      "details": "Additional witness testimony"
+    },
+    {
+      "date": "1591-07-22",
+      "event": "informations_preparatoires",
+      "subject": "Barbe la grosse gorge",
+      "details": "Additional witnesses; confrontations (2 pages missing)"
+    },
+    {
+      "date": "1591-07-24",
+      "event": "torture_requested",
+      "subject": "Barbe la grosse gorge",
+      "details": "Procureur for seigneurs of Lenoncourt asks for torture"
+    },
+    {
+      "date": "1591-07-24",
+      "event": "torture_approved",
+      "subject": "Barbe la grosse gorge",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1591-07-26",
+      "event": "torture",
+      "subject": "Barbe la grosse gorge",
+      "details": "Interrogation under torture; briefly racked; confessed"
+    },
+    {
+      "date": "1591-07-26",
+      "event": "death_requested",
+      "subject": "Barbe la grosse gorge",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1591-07-27",
+      "event": "interrogation",
+      "subject": "Barbe la grosse gorge",
+      "details": "Additional interrogation after torture"
+    },
+    {
+      "date": "1591-07-29",
+      "event": "death_approved",
+      "subject": "Barbe la grosse gorge",
+      "details": "Change de Nancy approves death sentence, subject to repetition of confessions"
+    },
+    {
+      "date": "1591-08-02",
+      "event": "other",
+      "subject": "Barbe la grosse gorge",
+      "details": "Formal declaration made to court at Lenoncourt"
+    },
+    {
+      "date": "1591-08-03",
+      "event": "interrogation",
+      "subject": "Barbe la grosse gorge",
+      "details": "Confirmed previous confessions; confronted with Poinsotte"
+    },
+    {
+      "date": "1591-08-05",
+      "event": "sentence",
+      "subject": "Barbe la grosse gorge",
+      "details": "Final sentence to death by burning (no mention of strangling)"
+    },
+    {
+      "date": "1591-08-05",
+      "event": "execution",
+      "subject": "Barbe la grosse gorge",
+      "details": "Burned same day as sentence"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack"],
+    "requesting_official": "procureur for seigneurs of Lenoncourt",
+    "approving_court": "Change de Nancy",
+    "restrictions": "briefly racked"
+  },
+  "accomplices_named": [
+    {
+      "name": "Poinsotte, wife of Claudin Petit Homme",
+      "location": "Jarville",
+      "context": "Barbe claimed Poinsotte appeared with 3 flaming candles on her head and tried to strangle her in bed; persisted in claims against her during confrontation",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Philippe la Tour (witness 1)",
+      "french": "que ladite Barbe ayant tiré des personnes ce qu'elle pouvoit tant en argent que victuailles les laissoit et abandonnoit en tel estat",
+      "context": "Describing Barbe's pattern of extracting money and food then abandoning patients"
+    },
+    {
+      "speaker": "Barbe la grosse gorge to Jeanne Collignon",
+      "french": "vous est ensorcellée et sy vous voulez faire ce que je vous dira je y trouveres remede",
+      "context": "Diagnosing bewitchment"
+    },
+    {
+      "speaker": "Barbe la grosse gorge",
+      "french": "ha je scavoys bien qu'elle renvoyast aupres me moy elle m'appelle genoiche mais je luy monstreres bien que je ne suis pas une sy elle m'eust voullu croire elle fut guarie mais elle en a assez sa vie",
+      "context": "Refusing to return to treat a patient who accused her of being a witch"
+    },
+    {
+      "speaker": "Mengeotte femme Gerard Hanns to Barbe",
+      "french": "ha faulce genoiche je le peult bien estre quand tu as faict mourir mon fils",
+      "context": "Accusing Barbe of killing her son"
+    },
+    {
+      "speaker": "Barbe la grosse gorge",
+      "french": "le cuer ne le disoit et estime que par avoir esté mal baptisée ce en pouroit estre cause",
+      "context": "Explaining why she renounced God - her heart didn't mean it and she thought bad baptism might be the cause"
+    },
+    {
+      "speaker": "Barbe la grosse gorge about sabbat",
+      "french": "tout ce qu'on s'en peult dire n'est que par songes et reveries",
+      "context": "Claiming sabbat experiences were only dreams and fantasies"
+    },
+    {
+      "speaker": "Apothecary la Ratte to Didellot",
+      "french": "Didellot je ne vous puis ayder d'aultant qu'il est apparent que votre mal procede de sorcerie",
+      "context": "Apothecary refusing to treat because illness appeared to come from witchcraft"
+    },
+    {
+      "speaker": "Barbe la grosse gorge",
+      "french": "que les putains disent ce qui leur vient en la bouche",
+      "context": "Rejecting testimony of Barbe le Brun"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Barbe la grosse gorge",
+      "person2": "Demenge Vanal",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married to Demenge Vanal, who had died 7 or 8 years ago",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Morel",
+      "person2": "Barbe la grosse gorge",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Jean Morel and his wife Jennon",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "Barbe la grosse gorge",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Jean Morel and his wife Jennon",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe la grosse gorge",
+      "person2": "Demenge (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "they had hired Barbe's son Demenge to keep sheep",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe la grosse gorge",
+      "person2": "Chastellain",
+      "relationship_type": "nephew_niece_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her late uncle named Chastellain, prévôt of canons of Metz",
+      "inferred": false
+    },
+    {
+      "person1": "Baptiste Florentin",
+      "person2": "Margueritte wife of Jean Masselin",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his sister Margueritte, wife of Jean Masselin",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Florentin",
+      "person2": "Margueritte wife of Jean Masselin",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Was also brother of Margueritte",
+      "inferred": false
+    },
+    {
+      "person1": "Vatellet Dellenal",
+      "person2": "Margueritte (witness 10)",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Margueritte, niece du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme Gerard Hanns",
+      "person2": "Paul Petit",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "4 years earlier she had been married to Paul Petit",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme Gerard Hanns",
+      "person2": "Nicolas Charier",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her son Nicolas Charier",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve de Didier Rayeux",
+      "person2": "Didier Rayeux",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "When husband was ill",
+      "inferred": false
+    },
+    {
+      "person1": "Bastien Aubertin",
+      "person2": "François Aubertin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "Bastien's wife and the wife of his son François",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Barbe claimed she left Ville-sur-Illon because of poverty. She worked as an itinerant healer, charging for her services. Multiple witnesses accused her of fraud - extracting money, food, clothing, and other goods (scarves, sheets, napkins, hair locks) for pilgrimages and cures that didn't work. Barbe confessed under torture to killing her nephew Demenge Voyant of le Grand Frizon 'because he took her property and did her wrong.'"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Philippe la Tour's child",
+      "victim_relationship_to_witness": "witness's child",
+      "harm_category": "human_death",
+      "harm_description": "death of child",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Philippe found Barbe in his house with other women and drove her out, threatening to have her arrested",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Barthelemy Jacques' cat",
+      "victim_relationship_to_witness": "witness's pet",
+      "harm_category": "animal_death",
+      "harm_description": "cat died",
+      "animal_type": "cat",
+      "animal_count": 1,
+      "attributed_to": "Barbe la grosse gorge",
+      "time_between_quarrel_and_harm": "3 or 4 days later",
+      "method_alleged": "cut fur off cat and mixed with grains of 'fouchere'",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Didier Rayeux (Didellot)",
+      "victim_relationship_to_witness": "witness's husband",
+      "harm_category": "human_death",
+      "harm_description": "died with fever and mouth cancer that prevented swallowing",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Apothecary la Ratte threatened Barbe; she was chased from the town",
+      "time_between_quarrel_and_harm": "soon after she provided herbs steeped in vinegar",
+      "method_alleged": "herbs steeped in vinegar put on his head",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Paul Petit",
+      "victim_relationship_to_witness": "witness's first husband",
+      "harm_category": "human_death",
+      "harm_description": "husband and 3 children fell ill suddenly and died; husband only ill for a fortnight",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Demoiselle de Champy told them to dismiss Barbe's son so she would no longer frequent Montel",
+      "time_between_quarrel_and_harm": "about 18 months later",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "3 children of Paul Petit and Mengeotte",
+      "victim_relationship_to_witness": "witness's children",
+      "harm_category": "human_death",
+      "harm_description": "fell ill suddenly and died",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Dismissal of Barbe's son",
+      "time_between_quarrel_and_harm": "about 18 months later",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "2 horses",
+      "victim_relationship_to_witness": "witness's horses",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Barbe la grosse gorge",
+      "time_between_quarrel_and_harm": "at harvest after German soldiers passed by pont St Vincent",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Nicolas Charier",
+      "victim_relationship_to_witness": "witness's son",
+      "harm_category": "human_death",
+      "harm_description": "fell ill immediately after meeting Barbe; died saying she had bewitched him",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Barbe accused him of speaking ill of her over horses; he denied it",
+      "time_between_quarrel_and_harm": "immediately fell ill",
+      "method_alleged": "gave something like 'muscade' from her purse",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Margueritte, wife of Jean Masselin",
+      "victim_relationship_to_witness": "witness's sister",
+      "harm_category": "human_death",
+      "harm_description": "long illness; said she was bewitched up to her death",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Brother-in-law threatened to have Barbe arrested",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Jeanne Collignon",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "very ill with headache, vomited several times until brought up piece of twisted napkin",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "Barbe made her ill because she told her off",
+      "time_between_quarrel_and_harm": "next morning after first consultation",
+      "method_alleged": "herbs called 'gloriate finate'",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Wife of Didier Gerdin",
+      "victim_relationship_to_witness": "witness's wife",
+      "harm_category": "human_illness",
+      "harm_description": "illness",
+      "attributed_to": "Barbe la grosse gorge",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "First child of Marie femme Remey Bastien",
+      "victim_relationship_to_witness": "witness's child",
+      "harm_category": "human_death",
+      "harm_description": "died after a month",
+      "attributed_to": "Barbe la grosse gorge",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Sister-in-law of Marie, aged 8",
+      "victim_relationship_to_witness": "witness's sister-in-law",
+      "harm_category": "human_death",
+      "harm_description": "fever and jaundice; said ever since Barbe had to do with her she declined",
+      "attributed_to": "Barbe la grosse gorge",
+      "method_alleged": "made cake with urine, flour, butter, and salt",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Demenge Voyant",
+      "victim_relationship_to_witness": "Barbe's nephew",
+      "harm_category": "human_death",
+      "harm_description": "killed by poisonous herbs in soup",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "he took her property and did her wrong",
+      "method_alleged": "poisonous herbs in soup",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Claudon Barthelemy",
+      "victim_relationship_to_witness": "from Ville-sur-Illon",
+      "harm_category": "human_death",
+      "harm_description": "killed by throwing powder on him",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "he had fallen from a tree and broken her leg",
+      "method_alleged": "throwing powder on him",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "La belle Alix",
+      "victim_relationship_to_witness": "from Ville-sur-Illon",
+      "harm_category": "human_death",
+      "harm_description": "killed with mercury in soup",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "she was cause of Barbe's bad relations with her husband",
+      "method_alleged": "mercury in soup",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Servant at inn la Chatte et Epinal",
+      "victim_relationship_to_witness": "none",
+      "harm_category": "human_illness",
+      "harm_description": "made ill for a week then cured",
+      "attributed_to": "Barbe la grosse gorge",
+      "precipitating_quarrel": "servant would not give her wine on credit",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "herbs in wine",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "grains of 'fouchere' (fern seeds)",
+      "context": "Used for healing, gambling luck, and magical purposes; collected at vigil of St Jean with elaborate ritual",
+      "category": "magical"
+    },
+    {
+      "object": "herbs and moss from wooden cross",
+      "context": "Collected on Good Friday while passion was being read; used to cure fever",
+      "category": "magical"
+    },
+    {
+      "object": "brass 'mortier' (mortar)",
+      "context": "Used to crush orange with wine for patient Didellot",
+      "category": "household"
+    },
+    {
+      "object": "young dog",
+      "context": "Cut up and cooked with white wine and milk to make ointment; also roasted with 9 kinds of herbs to make medicine",
+      "category": "magical"
+    },
+    {
+      "object": "vinegar from St Genoil",
+      "context": "Brought back from pilgrimage; patient to drink for 9 days",
+      "category": "religious"
+    },
+    {
+      "object": "9 small candles",
+      "context": "To be placed on font where sick man was baptised",
+      "category": "religious"
+    },
+    {
+      "object": "bassin d'airain (brass basin)",
+      "context": "Like that of a barber; seen holding it while collecting herbs at dawn on St Jean",
+      "category": "household"
+    },
+    {
+      "object": "earthenware pot",
+      "context": "Used to collect dew",
+      "category": "household"
+    },
+    {
+      "object": "white linen",
+      "context": "Carried under arm while collecting herbs",
+      "category": "household"
+    },
+    {
+      "object": "packets containing salt, 'saulge', and candle",
+      "context": "Given to pregnant woman; told candle had been baptised and to carry until delivered",
+      "category": "magical"
+    },
+    {
+      "object": "twisted cloth with 'sel de levain' and 'saulge' in form of cross",
+      "context": "To wear against breasts for 9 days as protection against witches",
+      "category": "magical"
+    },
+    {
+      "object": "orange",
+      "context": "Cut up and crushed in brass mortar with wine for patient",
+      "category": "food"
+    },
+    {
+      "object": "cat fur",
+      "context": "Cut from Barthelemy Jacques' cat and mixed with fern grains for gambling luck",
+      "category": "magical"
+    },
+    {
+      "object": "drap d'aultel (altar cloth)",
+      "context": "Required for collecting fern seeds; spread on ground under fern",
+      "category": "religious"
+    },
+    {
+      "object": "estoille (stole)",
+      "context": "That priest wears at neck to sing mass; needed for collecting fern seeds",
+      "category": "religious"
+    },
+    {
+      "object": "holy water",
+      "context": "Given with roots of verveine and agrimoine to cure troubled mind",
+      "category": "religious"
+    },
+    {
+      "object": "wine",
+      "context": "Frequently requested as payment or for making remedies",
+      "category": "food"
+    },
+    {
+      "object": "ham, andouilles (sausages)",
+      "context": "Requested as payment for pilgrimage",
+      "category": "food"
+    },
+    {
+      "object": "scarves, sheets, chemises, 'collier', locks of hair",
+      "context": "Requested from patients for making pilgrimages",
+      "category": "clothing"
+    },
+    {
+      "object": "serpe (billhook/pruning knife)",
+      "context": "Barbe threatened to cut off Jeanne Collignon's head with it",
+      "category": "tools"
+    },
+    {
+      "object": "mercury",
+      "context": "Confessed to putting in soup to kill la belle Alix",
+      "category": "other"
+    },
+    {
+      "object": "poisonous herbs",
+      "context": "Confessed to using in soup to kill nephew",
+      "category": "magical"
+    },
+    {
+      "object": "powder",
+      "context": "Confessed to throwing on Claudon Barthelemy to kill him",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Jarville",
+      "place_type": "village",
+      "context": "Primary location of trial; where Barbe resided and was arrested"
+    },
+    {
+      "place_name": "Ville-sur-Illon",
+      "place_type": "village",
+      "context": "Barbe's birthplace; where she killed Claudon Barthelemy and la belle Alix"
+    },
+    {
+      "place_name": "Darney",
+      "place_type": "village",
+      "context": "In Vosges; Barbe went there when she left Ville-sur-Illon"
+    },
+    {
+      "place_name": "Ste Barbe",
+      "place_type": "village",
+      "context": "Barbe traveled via there to Thiecourt"
+    },
+    {
+      "place_name": "Thiecourt",
+      "place_type": "village",
+      "context": "Barbe spent 3 years there"
+    },
+    {
+      "place_name": "la Woeuvre",
+      "place_type": "village",
+      "context": "Barbe went there while begging"
+    },
+    {
+      "place_name": "St Dizier",
+      "place_type": "village",
+      "context": "Barbe traveled there before returning to Jarville"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Major city; location of Change de Nancy court; many witnesses from there"
+    },
+    {
+      "place_name": "la Neufville",
+      "place_type": "village",
+      "context": "Location of several witnesses; curé tried to prevent Barbe living there"
+    },
+    {
+      "place_name": "St Nicolas",
+      "place_type": "village",
+      "context": "Where Bastien Aubertin lived; several witnesses from there"
+    },
+    {
+      "place_name": "Lenoncourt",
+      "place_type": "village",
+      "context": "Court location; formal declaration made there"
+    },
+    {
+      "place_name": "Art-sur-Meurthe",
+      "place_type": "village",
+      "context": "Where Philippe la Tour was doyen; Barbe seen there claiming to cure"
+    },
+    {
+      "place_name": "Loupcourt",
+      "place_type": "village",
+      "context": "Where Barthelemy Jacques lived; Barbe treated people there"
+    },
+    {
+      "place_name": "Vandeuvre",
+      "place_type": "village",
+      "context": "Where Didier François lived"
+    },
+    {
+      "place_name": "wood of la Briquarde",
+      "place_type": "forest",
+      "context": "Where Barbe was seen collecting herbs at dawn on St Jean"
+    },
+    {
+      "place_name": "la Mallegrainge",
+      "place_type": "house",
+      "context": "Nearby tenant whose daughter received basin Barbe was using"
+    },
+    {
+      "place_name": "Mont",
+      "place_type": "village",
+      "context": "Where le sieur des Fours lived"
+    },
+    {
+      "place_name": "house of Grey Sisters at Nancy",
+      "place_type": "church",
+      "context": "Where wife of sieur des Fours fell on her back"
+    },
+    {
+      "place_name": "St Genoil",
+      "place_type": "other",
+      "context": "In Burgundy; pilgrimage site for bad leg"
+    },
+    {
+      "place_name": "Montel",
+      "place_type": "village",
+      "context": "Where Paul Petit was moictrier for demoiselle de Champy"
+    },
+    {
+      "place_name": "pont St Vincent",
+      "place_type": "other",
+      "context": "Where German soldiers passed by; horses became ill after"
+    },
+    {
+      "place_name": "ND de Bon Secours",
+      "place_type": "church",
+      "context": "Church Barbe claimed to be visiting"
+    },
+    {
+      "place_name": "Pont-à-Mousson",
+      "place_type": "village",
+      "context": "Where Margueritte's husband was concierge of château"
+    },
+    {
+      "place_name": "St Epvre",
+      "place_type": "church",
+      "context": "Barbe claimed she could reveal witch under the bells there"
+    },
+    {
+      "place_name": "Beau Bernard",
+      "place_type": "other",
+      "context": "Pilgrimage site"
+    },
+    {
+      "place_name": "St Maxey",
+      "place_type": "other",
+      "context": "Pilgrimage site"
+    },
+    {
+      "place_name": "St Cesar",
+      "place_type": "other",
+      "context": "Pilgrimage site"
+    },
+    {
+      "place_name": "Neufchâteau",
+      "place_type": "village",
+      "context": "Pilgrimage site"
+    },
+    {
+      "place_name": "Tonnoy",
+      "place_type": "village",
+      "context": "Where Claudon femme Jean Ferry lived during first marriage"
+    },
+    {
+      "place_name": "St Marc",
+      "place_type": "village",
+      "context": "Where Poiresson lived"
+    },
+    {
+      "place_name": "porte de la Craffe",
+      "place_type": "other",
+      "context": "Gate in Nancy where woman allegedly gave François Aubertin wine to drink"
+    },
+    {
+      "place_name": "Jametz",
+      "place_type": "village",
+      "context": "Near where Barbe was seduced by Mre Augustin"
+    },
+    {
+      "place_name": "Stenay",
+      "place_type": "village",
+      "context": "Where Barbe was going to visit sick man when seduced"
+    },
+    {
+      "place_name": "inn la Chatte et Epinal",
+      "place_type": "other",
+      "context": "Where Barbe made servant ill 6 years earlier"
+    },
+    {
+      "place_name": "le Grand Frizon",
+      "place_type": "village",
+      "context": "Where nephew Demenge Voyant lived"
+    },
+    {
+      "place_name": "Brisambaut",
+      "place_type": "village",
+      "context": "Where Barbe was when demoiselle de Viller sent cart for her"
+    },
+    {
+      "place_name": "Biche",
+      "place_type": "village",
+      "context": "Where Vatellet Dellenal was lieutenant du gouvernement"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "German soldiers passed by pont St Vincent at harvest time; affected horses became ill",
+    "weather_events": ["bad weather prevented pilgrimage"],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Barbe left Ville-sur-Illon because of poverty",
+      "She worked as itinerant beggar and healer to earn living",
+      "Multiple references to poverty and need for money"
+    ],
+    "religious_calendar_references": [
+      "Good Friday",
+      "St John's day (St Jean)",
+      "Lent",
+      "St Laurent",
+      "All Saints Day",
+      "Carnival time"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "maire of Jarville",
+        "role": "mayor",
+        "location": "Jarville"
+      },
+      {
+        "name": "procureur for seigneurs of Lenoncourt",
+        "role": "prosecutor_pg",
+        "location": "Lenoncourt"
+      },
+      {
+        "name": "Demenge Bagard",
+        "role": "mayor",
+        "location": "la Neufville"
+      },
+      {
+        "name": "Messire Didier Mathieu",
+        "role": "other",
+        "location": "la Neufville"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": true,
+    "redress_outcome": "Barbe said she was ready to endure any pain and demanded vengeance against Aubertin",
+    "imprisonment_conditions": "Not specified",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Philippe la Tour",
+        "source": "general reputation",
+        "content": "Always heard she was suspected as witch"
+      },
+      {
+        "reporter": "Barthelemy Jacques",
+        "source": "general reputation",
+        "content": "la bruit en est assez ou ladite Barbe a frequentez"
+      },
+      {
+        "reporter": "Catherine veuve de Didier Rayeux",
+        "source": "reputation",
+        "content": "Everyone feared her because of reputation as witch"
+      },
+      {
+        "reporter": "Barbe la grosse gorge",
+        "source": "her master (devil)",
+        "content": "Her master told her about woman who bewitched François Aubertin"
+      },
+      {
+        "reporter": "Barbe la grosse gorge",
+        "source": "la grande Margueritte femme Thierry",
+        "content": "When Margueritte arrived in Jarville, Poinsotte touched her on shoulder and she was ill for a year"
+      }
+    ],
+    "oldest_accusation_years": 9,
+    "corroboration_groups": [
+      [7, 8],
+      [9, 10]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Insisted she was no witch before torture",
+      "Said she was ready to endure any pain",
+      "Demanded vengeance against Aubertin",
+      "Called witness Barbe le Brun a 'putain'",
+      "Became angry when patients refused to pay or questioned her methods",
+      "Silent when accused by Mengeotte of killing her son"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Denied making remarks about seeing people at fern collection"
+      },
+      {
+        "witness_number": 15,
+        "objection": "Rejected deposition, calling her a 'putain' who says what comes to her mouth"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Bastien Aubertin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Made formal complaint; accused sought his son's cure",
+      "context": "marchand tainturier of St Nicolas; made himself partie formelle on 24 June"
+    },
+    {
+      "name": "François Aubertin",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient she attempted to cure",
+      "relationship_to_witness": "son of Bastien Aubertin",
+      "context": "Unable to walk and almost without speech; Barbe attempted various cures"
+    },
+    {
+      "name": "sieur Controlleur de Desme",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Patient she successfully cured",
+      "context": "Cured of fever along with 3 of his maids using herbs and moss"
+    },
+    {
+      "name": "Symon le Boulengier",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Wife was patient",
+      "context": "of la Neufville; wife cured of fever"
+    },
+    {
+      "name": "Claude des Seurs",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Daughters were patients",
+      "context": "baker of la Neufville; 2 young daughters cured of fever"
+    },
+    {
+      "name": "captain Vatollet",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Maid was patient",
+      "context": "Barbe treated his maid for fever but did not know outcome"
+    },
+    {
+      "name": "Didellot (Didier Rayeux)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient who died",
+      "relationship_to_witness": "husband of witness 4",
+      "context": "recouvreur de haute ouvraige; had 'cancre' in mouth; died after Barbe's treatment"
+    },
+    {
+      "name": "Magdellaine femme Demenge of Jarville",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Intermediary",
+      "context": "Brought bottle of wine from Didellot's wife to Barbe"
+    },
+    {
+      "name": "Jean Blucotte",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Patient she cured",
+      "context": "cook of Mgr le Marquis; cured with 'contrepoison'"
+    },
+    {
+      "name": "le sieur des Fours",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Called her to treat wife",
+      "context": "of Mont; wife had fallen on back outside Grey Sisters house"
+    },
+    {
+      "name": "Mre Bastien",
+      "role_in_narrative": "other",
+      "context": "Barbe claimed she returned 3 francs to him at his house"
+    },
+    {
+      "name": "la demoiselle de Viller",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Employer; mother of patient",
+      "context": "Sent cart for Barbe to treat son Colignon who had lost sight"
+    },
+    {
+      "name": "Colignon",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient",
+      "relationship_to_witness": "son of demoiselle de Viller",
+      "context": "Lost his sight; Barbe claimed to cure him over 6 weeks with water"
+    },
+    {
+      "name": "Two Grey Sisters from convent at la Neufville",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Patients cured of fever",
+      "context": "Successfully treated by Barbe"
+    },
+    {
+      "name": "Henry de la Cave",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Patient not cured",
+      "context": "baker at St Nicolas; had longstanding leg problem; not cured"
+    },
+    {
+      "name": "Mason at St Nicolas",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Patient cured",
+      "context": "Eyes cured with waters Barbe made"
+    },
+    {
+      "name": "Richis Humbert",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Wife called Barbe to treat daughter",
+      "context": "of Lenoncourt; daughter troubled in mind"
+    },
+    {
+      "name": "la grande Françoise",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Intermediary who brought Barbe to patients",
+      "context": "Brought Barbe to multiple patients in Nancy"
+    },
+    {
+      "name": "la Grande Mengeon, wife of Jean Tropessaulx",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Asked for help finding lost money",
+      "context": "of Loupcourt; Barbe took money for pilgrimage but never returned"
+    },
+    {
+      "name": "apothecary la Ratte",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Threatened her for practicing medicine",
+      "context": "Told Didellot his illness came from sorcery after Barbe treated him"
+    },
+    {
+      "name": "demoiselle de Champy",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Employer who dismissed Barbe's son",
+      "context": "at Montel; told servants to dismiss boy because of mother's reputation"
+    },
+    {
+      "name": "Paul Petit",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Former employer; later died",
+      "relationship_to_witness": "first husband of witness 5",
+      "context": "moictrier for demoiselle de Champy; hired Barbe's son; later died with 3 children"
+    },
+    {
+      "name": "Nicolas Charier",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Accused of speaking ill; died after her threat",
+      "relationship_to_witness": "son of witness 5",
+      "context": "Died saying Barbe bewitched him"
+    },
+    {
+      "name": "Jean Masselin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Husband of patient who died",
+      "context": "concierge of château of Pont-à-Mousson; drove Barbe away with threats"
+    },
+    {
+      "name": "Margueritte, wife of Jean Masselin",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient who died",
+      "relationship_to_witness": "sister of witnesses 7 and 8",
+      "context": "Long illness; said she was bewitched up to death"
+    },
+    {
+      "name": "Mengin Florentin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Father who called Barbe to treat daughter",
+      "context": "Father of Margueritte who died; witness 15 was servant in his house"
+    },
+    {
+      "name": "Poiresson le Clerc alias le Roucel",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Landlord who sheltered her",
+      "context": "Curé threatened to expel him if he continued to shelter Barbe"
+    },
+    {
+      "name": "wife of Grand Didier",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Recommended Barbe to patients",
+      "context": "Advised Jeanne Collignon to consult Barbe"
+    },
+    {
+      "name": "Jean Thomas",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Asked for gambling luck",
+      "context": "son-in-law of witness 13; given 'graines de fouchere' for gambling"
+    },
+    {
+      "name": "Mengeotte wife of Jean Thomas",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Exposed her fraud",
+      "relationship_to_witness": "wife of Jean Thomas, related to witness 13",
+      "context": "Called Barbe 'abuzeresse' when exposing wheat grains as fake fern seeds"
+    },
+    {
+      "name": "Aubertin Lausson",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "First husband of witness 18",
+      "relationship_to_witness": "first husband of witness 18",
+      "context": "Witness lived at Tonnoy during this marriage"
+    },
+    {
+      "name": "Poiresson",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Patient's husband",
+      "context": "of St Marc; wife treated by Barbe; he called her 'orde et idotte cuseniere'"
+    },
+    {
+      "name": "wife of Poiresson",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient who remained ill",
+      "context": "Remained ill for long time after Barbe's treatment"
+    },
+    {
+      "name": "Noel Gerard",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Husband of witness",
+      "relationship_to_witness": "husband of witness 16",
+      "context": "menusier de Nancy"
+    },
+    {
+      "name": "Remey Bastien",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Husband of witness",
+      "relationship_to_witness": "husband of witness 17",
+      "context": "marchal de Nancy"
+    },
+    {
+      "name": "widow of Jean Cordonnier",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Recommended Barbe",
+      "context": "Told witness 17 about Barbe being born on Good Friday"
+    },
+    {
+      "name": "Jean Ferry",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Husband of witness",
+      "relationship_to_witness": "husband of witness 18",
+      "context": "de St Nicolas"
+    },
+    {
+      "name": "wife of Bastien Aubertin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Sought cure for son",
+      "context": "Brought son François to Barbe multiple times"
+    },
+    {
+      "name": "Chastellain",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Uncle who taught her about fern seeds",
+      "context": "prévôt of canons of Metz; died 7 or 8 years earlier; gave her 'graines de fouchere'"
+    },
+    {
+      "name": "Mre Augustin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Alleged devil/seducer",
+      "context": "Seduced her near Jametz 7 or 8 years earlier; taught her about herbs"
+    },
+    {
+      "name": "Demenge Voyant",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Nephew she confessed to killing",
+      "context": "of le Grand Frizon; Barbe confessed to killing with poisonous herbs in soup"
+    },
+    {
+      "name": "Claudon Barthelemy",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Man she confessed to killing",
+      "context": "of Ville-sur-Illon; Barbe confessed he broke her leg falling from tree; she killed him with powder"
+    },
+    {
+      "name": "la belle Alix",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Woman she confessed to killing",
+      "context": "of Ville-sur-Illon; Barbe confessed to killing with mercury in soup because she caused bad relations with husband"
+    },
+    {
+      "name": "Claudin Petit Homme",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Neighbor; quarreled with Barbe",
+      "context": "of Jarville; husband of Poinsotte"
+    },
+    {
+      "name": "Poinsotte, wife of Claudin Petit Homme",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "Woman Barbe accused of witchcraft",
+      "context": "of Jarville; Barbe claimed she appeared with flaming candles and tried to strangle her; confronted with Barbe"
+    },
+    {
+      "name": "la grande Margueritte femme Thierry",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "Told Barbe about Poinsotte",
+      "context": "of Jarville; said Poinsotte touched her on shoulder and she was ill for a year"
+    },
+    {
+      "name": "vagabond who made profession of pilgrimages",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Substitute pilgrim",
+      "context": "Barbe sent him to St Genoil in her stead when bad weather prevented her going"
+    },
+    {
+      "name": "curé of St Genoil",
+      "role_in_narrative": "official",
+      "context": "Provided vinegar and instructions for sick man"
+    },
+    {
+      "name": "servant at inn la Chatte et Epinal",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Barbe confessed to making her ill",
+      "context": "Would not give Barbe wine on credit; made ill then cured"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Very detailed trial record with extensive witness testimony. 20 witnesses provided testimony over multiple sessions. Barbe was an itinerant healer who practiced folk medicine, collecting herbs with elaborate rituals. She was accused of fraud and witchcraft after many patients died or were not cured. Under torture she confessed to being seduced by 'Mre Augustin' who taught her about harmful herbs. She confessed to killing several people including her nephew, and accused another woman (Poinsotte) of witchcraft. Trial shows complex social dynamics around healing, reputation, economic transactions, and community suspicion. Notable that 2 pages of confrontations are missing from the document. Barbe was executed by burning on August 5, 1591.",
+    "pdf_pages": 10
+  }
+}

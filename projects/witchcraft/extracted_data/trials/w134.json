@@ -1,0 +1,940 @@
+{
+  "trial_id": "w134",
+  "archive_ref": "B 8535 no 2",
+  "location": "Rozieres",
+  "court": "Court at Rozieres",
+  "dates": {
+    "start": "1603-12-05",
+    "end": "1603-12-20",
+    "duration_days": 15
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Ydatte veuve Demenge Moyne",
+      "gender": "female",
+      "age": 68,
+      "age_approximate": false,
+      "occupation": ["beggar", "hermit"],
+      "origin": "Tonnoy",
+      "residence": "Rozieres",
+      "marital_status": "widowed",
+      "spouse_name": "Demenge le Moyne (second husband, deceased)",
+      "parents": {
+        "father": "Maire Vaultrin of Tonnoy",
+        "mother": "Margueritte"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "devil_appearance": "young men dressed like priest",
+        "seduction_date": "30 years before arrest (circa 1573)",
+        "seduction_context": "Found her eating fish on guées de Vigneulles. She had taken fish home; when carrying it met young men dressed like priest who asked her to believe in him and she would never want. Usual seduction scene.",
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": ["black powder", "grey powder", "white powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["making hail"],
+        "sexual_relations_with_devil": null
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Chrestienne femme Alixy Domballe",
+      "gender": "female",
+      "age": 35,
+      "occupation": null,
+      "location": "Rozieres",
+      "relationship_to_accused": "customer/neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over price of curielz",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Ydatte veuve Demenge Moyne",
+            "time_after_quarrel": "after 18 month illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Francoise femme Gerard Barlet",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Rozieres",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "her child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Ydatte veuve Demenge Moyne",
+            "time_after_quarrel": "four years before"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Annon femme Mengin Regnault le jeune",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Rozieres",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter Sibille, aged 14",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Ydatte veuve Demenge Moyne",
+            "time_after_quarrel": "5 years before testimony"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Mengeon femme Claudon Chapelier",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Rozieres",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter refused to give Ydatte any of the piquatte she was taking to poisle",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "17 year old daughter",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Ydatte veuve Demenge Moyne",
+            "time_after_quarrel": "previous Whitsun, died after 6 months illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Catherine femme Sr Jean Clerc",
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": "Rozieres",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her small child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Ydatte veuve Demenge Moyne",
+            "time_after_quarrel": "immediately after Ydatte hugged child's head"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Didier Clement",
+      "gender": "male",
+      "age": 56,
+      "occupation": "bouchier (butcher)",
+      "location": "Rozieres",
+      "relationship_to_accused": "neighbor (lived in same house)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over some bread",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his daughter, wife of Didier Cadet",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Ydatte veuve Demenge Moyne",
+            "time_after_quarrel": "some 3 years before"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1603-12-05",
+      "event": "interrogation",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "First interrogation. Confessed to witchcraft after being told she would be confronted with Jehenne who denounced her. Described seduction 30 years before, named accomplices at sabbat, admitted to harming Gerard Marchal's son."
+    },
+    {
+      "date": "1603-12-06",
+      "event": "interrogation",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Confessed to killing Sibille fille Mengin Regnauld, daughter of Alixy Domballe, and making hail. Admitted several malefices after people refused her alms."
+    },
+    {
+      "date": "1603-12-10",
+      "event": "interrogation",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Confessed to killing her niece at Tonnoy, another widow and small son who were begging with her, and pigs at Cuyttefebve. Said she killed large numbers of people around Rozieres but could not remember all due to old age."
+    },
+    {
+      "date": "1603-12-11",
+      "event": "other",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Remy asks that summary testimony be taken against her"
+    },
+    {
+      "date": "1603-12-12",
+      "event": "other",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Change de Nancy agrees to summary testimony"
+    },
+    {
+      "date": "1603-12-13",
+      "event": "informations_preparatoires",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Six witnesses testified against her. She was also confronted with Jehenne Medecin and they confirmed respective confessions. She agreed to all malefices suggested on basis of witness depositions."
+    },
+    {
+      "date": "1603-12-17",
+      "event": "torture_requested",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Remy asks that she be tortured on grounds she still seems to be concealing some offences"
+    },
+    {
+      "date": "1603-12-17",
+      "event": "torture_approved",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Change de Nancy agrees to torture and also approves death sentence if she confirms earlier confessions"
+    },
+    {
+      "date": "1603-12-19",
+      "event": "interrogation",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Executioner (Claude Janney) declined to torture her because she was so feeble and terrified that he thought she might die. She persisted in confessions."
+    },
+    {
+      "date": "1603-12-20",
+      "event": "sentence",
+      "subject": "Ydatte veuve Demenge Moyne",
+      "details": "Formal death sentence by court at Rozieres"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "requesting_official": "Remy (Nicolas Remy, prosecutor)",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Executioner Claude Janney declined to torture her because she was so feeble and terrified that he thought she might die"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jehenne",
+      "location": null,
+      "context": "Seen at sabbat; also the person who denounced Ydatte as a witch",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jehenne Medecin",
+      "location": null,
+      "context": "Confronted with Ydatte on December 13, 1603; they confirmed respective confessions",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Catherine veuve Claudon Aulbert",
+      "location": null,
+      "context": "Seen at sabbat (currently absent at time of testimony)",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Mengin Lamourou paistre des vaches",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Margueritte la Cuuresse",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Symonatte la Pauresse",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Olry Go's wife",
+      "location": null,
+      "context": "Seen at sabbat; marginal note stated 'ne fault interroger au personne' (should not interrogate the person)",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Didiere veuve Henry Lallement",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Ydatte veuve Demenge Moyne",
+      "french": null,
+      "english": "she would never want",
+      "context": "What the devil (Persin) promised her during seduction if she believed in him"
+    },
+    {
+      "speaker": "Catherine femme Sr Jean Clerc",
+      "french": "he le bel enfant",
+      "english": "oh the beautiful child",
+      "context": "What Ydatte said when she hugged the head of Catherine's small child, who died 3 days later"
+    },
+    {
+      "speaker": "Ydatte veuve Demenge Moyne",
+      "french": "plus habille a prendre les aulmosnes",
+      "english": "more skilled at receiving alms",
+      "context": "Her reason for killing another widow who was begging with her - the woman was better at getting alms than she was"
+    },
+    {
+      "speaker": "marginal note",
+      "french": "ne fault interroger au personne",
+      "english": "should not interrogate the person",
+      "context": "Written after Ydatte agreed that Olry Go's wife was present at sabbat"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Ydatte veuve Demenge Moyne",
+      "person2": "Maire Vaultrin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "native of Tonnoy, daughter of maire Vaultrin of that place",
+      "inferred": false
+    },
+    {
+      "person1": "Ydatte veuve Demenge Moyne",
+      "person2": "Margueritte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of maire Vaultrin of that place and his wife Margueritte",
+      "inferred": false
+    },
+    {
+      "person1": "Maire Vaultrin",
+      "person2": "Margueritte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "maire Vaultrin of that place and his wife Margueritte",
+      "inferred": false
+    },
+    {
+      "person1": "Ydatte veuve Demenge Moyne",
+      "person2": "Francois Masson",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "First husband was Francois Masson, from near Epinal; married for 13 or 14 years, then widow for 4",
+      "inferred": false
+    },
+    {
+      "person1": "Ydatte veuve Demenge Moyne",
+      "person2": "Demenge le Moyne",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Second husband was manouvrier of Sessey named Demenge le Moyne, and this marriage lasted 12 years, then she had been widow for 18",
+      "inferred": false
+    },
+    {
+      "person1": "Chrestienne",
+      "person2": "Alixy Domballe",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Chrestienne femme Alixy Domballe paticier de Rozieres",
+      "inferred": false
+    },
+    {
+      "person1": "Francoise",
+      "person2": "Gerard Barlet",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Francoise femme Gerard Barlet marchal de Rozieres",
+      "inferred": false
+    },
+    {
+      "person1": "Annon",
+      "person2": "Mengin Regnault le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Annon femme Mengin Regnault le jeune",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon",
+      "person2": "Claudon Chapelier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeon femme Claudon Chapelier de Rozieres",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Sr Jean Clerc",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Sr Jean Clerc mre echevin",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Clement",
+      "person2": "Didier Cadet's wife",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "His daughter, wife of Didier Cadet",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Cadet's wife",
+      "person2": "Didier Cadet",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "His daughter, wife of Didier Cadet",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Clement",
+      "person2": "Ydatte veuve Demenge Moyne",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "lived in same house, had dispute over some bread",
+      "inferred": false
+    },
+    {
+      "person1": "Francoise femme Gerard Barlet",
+      "person2": "Ydatte veuve Demenge Moyne",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "neighbour told her Ydatte had touched him",
+      "inferred": false
+    },
+    {
+      "person1": "Ydatte veuve Demenge Moyne",
+      "person2": "niece at Tonnoy",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Had killed one of her nieces at Tonnoy 7 years earlier",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes arose from Ydatte begging for alms. She killed people after they refused her alms or gave her insufficient alms (cheese with no bread to her niece). As a beggar, she was in competition with others and killed another widow 'because woman was more skilled at receiving alms than she was.' She also killed pigs at Cuyttefebve when she was hermit there because they damaged her garden. Commercial disputes included the price of 'curielz' with Alixy Domballe's wife. The accused was clearly impoverished, having been widowed twice and spending final years as a beggar."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "small son of Gerard Marchal",
+      "victim_relationship_to_witness": "son of Gerard Marchal",
+      "harm_category": "human_illness",
+      "harm_description": "made ill, later cured, but remained lame",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "wife had called her witch",
+      "time_between_quarrel_and_harm": "3 years before interrogation",
+      "method_alleged": "powder (also cured him with powder after making pilgrimage at their request)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Sibille fille Mengin Regnauld",
+      "victim_relationship_to_witness": "daughter of Mengin Regnauld, aged 14",
+      "harm_category": "human_death",
+      "harm_description": "died after a week with strange illness during which she vomited more than 2 basins of poison as black as ink",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "Ydatte was giving alms at door but had none left for her",
+      "time_between_quarrel_and_harm": "4 years earlier (per confession), 5 years before (per witness testimony)",
+      "method_alleged": "gave her a pear poisoned with powder",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "daughter of Alixy Domballe paticier",
+      "victim_relationship_to_witness": "child of witness Chrestienne femme Alixy Domballe",
+      "harm_category": "human_death",
+      "harm_description": "death after 18 month illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "dispute over price of curielz",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder (implied)",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "niece at Tonnoy",
+      "victim_relationship_to_witness": "niece of accused",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "asked for alms and being given some cheese with no bread",
+      "time_between_quarrel_and_harm": "7 years earlier",
+      "method_alleged": null,
+      "witness_number": null
+    },
+    {
+      "victim_name": "another widow and small son begging with her",
+      "victim_relationship_to_witness": "fellow beggar",
+      "harm_category": "human_death",
+      "harm_description": "killed both widow and her small son",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "woman was 'more skilled at receiving alms' than she was",
+      "time_between_quarrel_and_harm": "5 years earlier",
+      "method_alleged": null,
+      "witness_number": null
+    },
+    {
+      "victim_name": "pigs at Cuyttefebve",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_death",
+      "harm_description": "killed pigs",
+      "animal_type": "pig",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "pigs damaged her garden when she was hermit at Cuyttefebve",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": null
+    },
+    {
+      "victim_name": "17 year old daughter of Mengeon femme Claudon Chapelier",
+      "victim_relationship_to_witness": "daughter of witness",
+      "harm_category": "human_death",
+      "harm_description": "died after being ill for 6 months, vomiting all the time",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "girl had refused to give Ydatte any of the piquatte she was taking to poisle",
+      "time_between_quarrel_and_harm": "previous Whitsun",
+      "method_alleged": null,
+      "witness_number": 4
+    },
+    {
+      "victim_name": "small child of Catherine femme Sr Jean Clerc",
+      "victim_relationship_to_witness": "child of witness",
+      "harm_category": "human_death",
+      "harm_description": "fell ill and died in 3 days",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "immediately after Ydatte hugged head of child",
+      "method_alleged": "touch (hugged head of child saying 'he le bel enfant')",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "daughter of Didier Clement, wife of Didier Cadet",
+      "victim_relationship_to_witness": "daughter of witness",
+      "harm_category": "human_death",
+      "harm_description": "died of strange illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "dispute over some bread (lived in same house)",
+      "time_between_quarrel_and_harm": "some 3 years before",
+      "method_alleged": null,
+      "witness_number": 6
+    },
+    {
+      "victim_name": "child of Francoise femme Gerard Barlet",
+      "victim_relationship_to_witness": "child of witness",
+      "harm_category": "human_illness",
+      "harm_description": "sick child who recovered although still lame",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "four years before",
+      "method_alleged": "touch; cured with egg that had been rewarmed 15 times",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "crops damaged by hail",
+      "victim_relationship_to_witness": null,
+      "harm_category": "weather_event",
+      "harm_description": "made hail on several occasions",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "sabbat activities",
+      "witness_number": null
+    },
+    {
+      "victim_name": "large number of people around Rozieres",
+      "victim_relationship_to_witness": "community members",
+      "harm_category": "human_death",
+      "harm_description": "killed large number of people, large and small, could not remember them all due to old age",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Ydatte veuve Demenge Moyne",
+      "precipitating_quarrel": "usually after they had refused her alms",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "fish",
+      "context": "Found by Ydatte eating fish on guées de Vigneulles at time of seduction; she had taken it home",
+      "category": "food"
+    },
+    {
+      "object": "black powder",
+      "context": "Type of magical powder described by Ydatte; used to harm people",
+      "category": "magical"
+    },
+    {
+      "object": "grey powder",
+      "context": "Type of magical powder described by Ydatte; used to harm people",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "Type of magical powder described by Ydatte; used to harm and cure people",
+      "category": "magical"
+    },
+    {
+      "object": "pear",
+      "context": "Gave Sibille fille Mengin Regnauld a pear poisoned with powder",
+      "category": "food"
+    },
+    {
+      "object": "curielz",
+      "context": "Dispute over price of curielz between Ydatte and Alixy Domballe's wife",
+      "category": "other"
+    },
+    {
+      "object": "cheese",
+      "context": "Given some cheese with no bread by her niece at Tonnoy as alms, which angered Ydatte",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "Dispute over bread between Ydatte and Didier Clement's family (lived in same house); also lacking when niece gave her cheese",
+      "category": "food"
+    },
+    {
+      "object": "egg",
+      "context": "Ydatte gave an egg to Gerard Barlet's child to eat after it had been rewarmed 15 times, as part of cure",
+      "category": "food"
+    },
+    {
+      "object": "piquatte",
+      "context": "17 year old daughter of Mengeon refused to give Ydatte any of the piquatte she was taking to poisle",
+      "category": "food"
+    },
+    {
+      "object": "basins",
+      "context": "Sibille vomited more than 2 basins of poison as black as ink during her death illness",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Rozieres",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and all witnesses"
+    },
+    {
+      "place_name": "guées de Vigneulles",
+      "place_type": "other",
+      "context": "Location where Ydatte was seduced by the devil 30 years before; she found fish there that she was eating"
+    },
+    {
+      "place_name": "Tonnoy",
+      "place_type": "village",
+      "context": "Place of origin of Ydatte; native village where her father was maire; where she killed her niece 7 years earlier"
+    },
+    {
+      "place_name": "Epinal",
+      "place_type": "village",
+      "context": "First husband Francois Masson was from near Epinal"
+    },
+    {
+      "place_name": "Sessey",
+      "place_type": "village",
+      "context": "Second husband Demenge le Moyne was manouvrier of Sessey"
+    },
+    {
+      "place_name": "Cuyttefebve",
+      "place_type": "village",
+      "context": "Where Ydatte was hermit (Ermitrasse) and killed pigs which damaged her garden"
+    },
+    {
+      "place_name": "garden at Cuyttefebve",
+      "place_type": "other",
+      "context": "Her garden when she was hermit; pigs damaged it and she killed them"
+    },
+    {
+      "place_name": "poisle",
+      "place_type": "other",
+      "context": "Where Mengeon's daughter was taking piquatte when she refused to give Ydatte any"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": ["hail - Ydatte confessed to making hail on several occasions"],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Ydatte was a beggar in her final years",
+      "Multiple incidents of disputes over alms",
+      "Killed another widow because she was more skilled at receiving alms",
+      "Asked for alms from her own niece",
+      "Killed people who refused her alms or gave insufficient alms",
+      "Dispute over price of curielz suggests economic tension",
+      "Dispute over bread suggests scarcity"
+    ],
+    "religious_calendar_references": ["Whitsun (mentioned as timing of death of 17 year old daughter)"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Nicolas Remy",
+        "role": "prosecutor_pg",
+        "location": null
+      },
+      {
+        "name": "Claude Janney",
+        "role": "executioner",
+        "location": null
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": null,
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 6,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 7,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [],
+    "emotional_state_notes": ["so feeble and terrified that executioner thought she might die if tortured"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Gerard Marchal",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "customer/neighbor",
+      "relationship_to_witness": null,
+      "context": "His small son was made ill by Ydatte 3 years before, after his wife called her witch; Ydatte later cured him after pilgrimage"
+    },
+    {
+      "name": "Gerard Marchal's wife",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": null,
+      "context": "Called Ydatte a witch; her son became ill after this"
+    },
+    {
+      "name": "Francois Masson",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "deceased first husband",
+      "relationship_to_witness": null,
+      "context": "First husband of Ydatte, from near Epinal; married for 13 or 14 years"
+    },
+    {
+      "name": "Demenge le Moyne",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "deceased second husband",
+      "relationship_to_witness": null,
+      "context": "Second husband of Ydatte, manouvrier of Sessey; marriage lasted 12 years"
+    },
+    {
+      "name": "Alixy Domballe",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "customer",
+      "relationship_to_witness": "husband of witness 1",
+      "context": "Paticier (pastry maker) of Rozieres; husband of witness Chrestienne; his daughter died after dispute over curielz"
+    },
+    {
+      "name": "Gerard Barlet",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "husband of witness 2",
+      "context": "Marchal (blacksmith) of Rozieres; husband of witness Francoise"
+    },
+    {
+      "name": "Mengin Regnault le jeune",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "husband of witness 3",
+      "context": "Husband of witness Annon; father of Sibille who died"
+    },
+    {
+      "name": "Sibille",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "daughter of witness 3",
+      "context": "Daughter of Mengin Regnauld, aged 14; killed by Ydatte with poisoned pear 4-5 years before"
+    },
+    {
+      "name": "Claudon Chapelier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "husband of witness 4",
+      "context": "Husband of witness Mengeon; father of 17 year old daughter who died"
+    },
+    {
+      "name": "Sr Jean Clerc",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "husband of witness 5",
+      "context": "Mre echevin (master alderman); husband of witness Catherine; father of child who died"
+    },
+    {
+      "name": "Didier Cadet",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "son-in-law of witness 6",
+      "context": "Husband of Didier Clement's daughter who died; lived in same house as Ydatte"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (AI)",
+    "confidence": "high",
+    "notes": "This is a comprehensive trial record with detailed confessions and witness testimony. Ydatte Moyne was a 68-year-old widow who had been widowed twice and spent her final years as a beggar. Her confessions were extensive and voluntary - torture was approved but not used because the executioner deemed her too feeble. The trial shows a clear pattern of alleged maleficia related to disputes over alms and resources, reflecting the economic vulnerability of an elderly beggar woman. She was denounced by Jehenne (Jehenne Medecin) and confessed immediately, naming 8 accomplices seen at sabbat. The trial moved quickly from arrest to execution (15 days). Notable aspects include: (1) economic context of begging and disputes over alms; (2) confession without torture; (3) marginal note warning not to interrogate Olry Go's wife despite Ydatte naming her; (4) extensive catalog of maleficia spanning years; (5) her statement that she killed so many people she couldn't remember them all due to old age.",
+    "pdf_pages": 3
+  }
+}

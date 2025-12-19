@@ -1,0 +1,2177 @@
+{
+  "trial_id": "w013",
+  "archive_ref": "B 2521 no 1",
+  "location": "Xennenay",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1598-04-29",
+    "end": "1598-11-08",
+    "duration_days": 193
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Jacotte femme Nicolas François Raon",
+      "gender": "female",
+      "age": null,
+      "occupation": ["housewife", "farmer"],
+      "origin": "Sainct Nabvoir",
+      "residence": "Xennenay near Remiremont",
+      "marital_status": "married",
+      "spouse_name": "Nicolas François Raon",
+      "parents": {
+        "father": "Jean Baret de Sainct Nabvoir"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Estiennon Boudart",
+      "gender": "male",
+      "age": 50,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 28,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Land purchase dispute - witness bought land next to Jacotte's house from Demengeon de Ranfaing; she tried to offer twice the price to prevent it",
+        "threat_received": true,
+        "threat_quote": "qu'il luy empescheroit ses arbres, et boucheroit son jour, et qu'il s'en repentiroit",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "a year later"
+          },
+          {
+            "type": "animal_death",
+            "target": "two pigs",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "following year after the ox"
+          },
+          {
+            "type": "human_illness",
+            "target": "Thienon (son)",
+            "target_relationship": "son",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "ongoing"
+          },
+          {
+            "type": "human_illness",
+            "target": "Nicolas Estiennon Boudart (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "recent"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Estienne Raon",
+      "gender": "male",
+      "age": 40,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Lawsuit after witness crossed Jacotte's land when public way was closed to take manure to his field",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "10 days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Bertrand Jacot",
+      "gender": "male",
+      "age": 33,
+      "occupation": "graniere maire en la chambre du moulin",
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel over planting hedge close to Raon's 'challot'",
+        "threat_received": true,
+        "threat_quote": "qu'il s'en repentiroit, que la cloison luy seroit bien chere",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "toraxe of 2 years",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "10 or 12 days later"
+          },
+          {
+            "type": "animal_death",
+            "target": "two oxen",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "same period"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "a year later"
+          },
+          {
+            "type": "animal_illness",
+            "target": "foal",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "six weeks after second hedge dispute"
+          },
+          {
+            "type": "animal_death",
+            "target": "mare",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after land sale dispute"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Demengeon Boudart",
+      "gender": "male",
+      "age": 45,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true
+      }
+    },
+    {
+      "number": 5,
+      "name": "Marc Olry",
+      "gender": "male",
+      "age": 26,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Nicolas Francois Raon or his servants took sheaves of barley for tithe belonging to witness's late father, then were compelled to restore them",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox and cow from rabies",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after tithe dispute"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Thienon Blaise",
+      "gender": "male",
+      "age": 25,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel over tithe of beans which Raon had been collecting",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Thienon Blaise (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "shortly after passing her on road"
+          },
+          {
+            "type": "human_death",
+            "target": "witness's father",
+            "target_relationship": "father",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "unclear"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Claudine femme a Jean Boudart",
+      "gender": "female",
+      "age": 50,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Collette (daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "while guarding village sheep"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jannon femme François Joliot",
+      "gender": "female",
+      "age": 50,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute with Margueritte (Jacotte's daughter) who had taken fruit from tree in garden they rented",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jannon (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "a month later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Julienne fille de feu Pierot Cordebotte",
+      "gender": "female",
+      "age": 23,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Martin Gaspar Colas Simon (stepfather) removed Jacotte's corn from mill to put his own in first",
+        "threat_received": true,
+        "threat_quote": "que devant qu'il soit un an il n'y en moudroit plus",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "stepfather Martin Gaspar Colas Simon",
+            "target_relationship": "stepfather",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "a week later"
+          },
+          {
+            "type": "human_death",
+            "target": "mother",
+            "target_relationship": "mother",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "same week as stepfather"
+          },
+          {
+            "type": "human_death",
+            "target": "two brothers",
+            "target_relationship": "brothers",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "same week as parents"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudotte femme de Nicolas Boudart",
+      "gender": "female",
+      "age": 70,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Son-in-law Thienon Boudart removed a 'cloison' which Nicolas Francois Raon and servants had put on his land",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "best cow in calf",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "within 3 days"
+          },
+          {
+            "type": "animal_death",
+            "target": "two cows killed in fields",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after land sale dispute"
+          }
+        ],
+        "threat_quote": "qu'elle ne l'auroit pas, ou que le diable y cheorroit"
+      }
+    },
+    {
+      "number": 11,
+      "name": "Simon le Duc",
+      "gender": "male",
+      "age": 60,
+      "occupation": "demeurant au gaignage de Meillermont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Collecting rents for priory of Sainctmont, asked for 'quart de blé' from Raons; Jacotte refused",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "mare (held for Thomas Robert)",
+            "target_relationship": "held in trust",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "within 3 days"
+          },
+          {
+            "type": "animal_death",
+            "target": "two sows",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "4 days after they escaped into Raon's field"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Raon",
+      "gender": "male",
+      "age": 36,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter Mengeotte",
+            "target_relationship": "daughter",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after being struck on head by 'fugue' Jacotte was carrying"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jean Raon",
+      "gender": "male",
+      "age": 50,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Nicolas Francois Raon's horses did damage in witness's meadow",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean Raon (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "soon afterwards"
+          },
+          {
+            "type": "animal_death",
+            "target": "bullock",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "subsequent"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claudotte veuve Demengeon de Rainfaing",
+      "gender": "female",
+      "age": 50,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband Demengeon de Rainfaing",
+            "target_relationship": "husband",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "unclear - ate gateau she gave"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jannon femme de Nicolas Raon",
+      "gender": "female",
+      "age": 36,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter aged 4",
+            "target_relationship": "daughter",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after being hurt"
+          },
+          {
+            "type": "human_death",
+            "target": "daughter aged 6",
+            "target_relationship": "daughter",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "unclear"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Colin Demenge Pierre",
+      "gender": "male",
+      "age": 60,
+      "occupation": "demeurant à la grange de Sainct Estienne les Remiremont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "three young pigs",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after damage dispute 4 years earlier"
+          },
+          {
+            "type": "animal_death",
+            "target": "mare",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean fils d'Estienne Colin de la Poirie",
+      "gender": "male",
+      "age": 26,
+      "location": "la Poirie",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Did not dance with Jacotte's daughters at feste on hault de St Jean de St Arnould",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "two hours after she spoke to him at fair of Remiremont"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jean Toussaint",
+      "gender": "male",
+      "age": 34,
+      "occupation": "geolier des prisons d'Arches",
+      "location": "Arches",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Nicolas Graniere",
+      "gender": "male",
+      "age": 50,
+      "location": "La Brenche, finage de St. Estienne",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jehan Meullien",
+      "gender": "male",
+      "age": 40,
+      "location": "Longuey",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Sister-in-law Marguerite decided to leave Xennenay where she was weaving and come live with witness; Jacotte was angry",
+        "threat_received": true,
+        "threat_quote": "she did not want to weave for her, but she would repent",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "sister-in-law Marguerite",
+            "target_relationship": "sister-in-law",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "15 days later - drowned in shallow water"
+          },
+          {
+            "type": "human_illness",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after dispute over 'pesan'"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Nicolas le Clerc",
+      "gender": "male",
+      "age": 60,
+      "location": "Moulin",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Arnould Meullien of Xennenay",
+            "target_relationship": "acquaintance",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "within a year of theft incident"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Marguerite femme de Nicolas le Clerc",
+      "gender": "female",
+      "age": 50,
+      "location": "Moulin",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Catherine femme de Bertrand Graniere",
+      "gender": "female",
+      "age": 30,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Catherine (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "immediately after Jacotte looked at her while pregnant"
+          }
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Claudotte femme de Jean Cordebotte",
+      "gender": "female",
+      "age": 30,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 25,
+      "name": "Claudon Cordebotte",
+      "gender": "male",
+      "age": 27,
+      "location": "Xennenay",
+      "testimony": {
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after being called to Jacotte's house on Mardi gras"
+          },
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "2 months after becoming ill"
+          }
+        ]
+      }
+    },
+    {
+      "number": 26,
+      "name": "Nicolas Demengeon Arnould",
+      "gender": "male",
+      "age": 30,
+      "location": "Seuch",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 27,
+      "name": "Jennon veuve de Colas Jacquel Richard",
+      "gender": "female",
+      "age": 35,
+      "location": "Seuch",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jacotte was angry that Jean serviteur of Demenge de Ranfaing paid attentions to witness instead of marrying Jacotte's daughter",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jennon (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "after Jacotte took and looked at cabbages witness was carrying"
+          }
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "Marguerite veuve de Demengeon Blaise Olry",
+      "gender": "female",
+      "age": 50,
+      "location": "Xennenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband Demengeon Blaise Olry",
+            "target_relationship": "husband",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "9 or 10 years ago - after he bought land she wanted"
+          }
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Thienon fils de feu Jean Rattel",
+      "gender": "male",
+      "age": 24,
+      "location": "Xennenay",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with Nicolas Francois Raon over delayed payment for day's work",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Thienon (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "within 2 or 3 days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Jean fils Thienon Boudart",
+      "gender": "male",
+      "age": 40,
+      "location": "Xennenay",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Village youth organized collation and initially didn't want to invite Jacotte's daughters",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "sister Magdelaine",
+            "target_relationship": "sister",
+            "attributed_to": "Jacotte",
+            "time_after_quarrel": "4 year illness ending last St. George's Day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 31,
+      "name": "Jacotte fille de feu Jacquel Richard",
+      "gender": "female",
+      "age": 40,
+      "location": "Seuch",
+      "relationship_to_accused": "niece",
+      "testimony": {
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jacotte (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jacotte Raon",
+            "time_after_quarrel": "after marriage of Jacotte's daughters at Mailleville"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1598-04-29",
+      "event": "informations_preparatoires",
+      "subject": "Jacotte Raon",
+      "details": "Carried out by Nicolas Pirouel, prévôt d'Arches, at request of substitut for PG"
+    },
+    {
+      "date": "1598-06-02",
+      "event": "other",
+      "subject": "Jacotte Raon",
+      "details": "Procureur General des Vosges orders arrest and examination"
+    },
+    {
+      "date": "1598-06-17",
+      "event": "interrogation",
+      "subject": "Jacotte Raon",
+      "details": "First interrogation - denied accusations, said they were made out of envy"
+    },
+    {
+      "date": "1598-07-09",
+      "event": "confrontation",
+      "subject": "Jacotte Raon",
+      "details": "Confronted with witnesses - made vehement denials"
+    },
+    {
+      "date": "1598-07-23",
+      "event": "torture_requested",
+      "subject": "Jacotte Raon",
+      "details": "PG des Vosges asks for question extraordinaire"
+    },
+    {
+      "date": "1598-07-31",
+      "event": "torture_approved",
+      "subject": "Jacotte Raon",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1598-08-05",
+      "event": "torture",
+      "subject": "Jacotte Raon",
+      "details": "Racked and given water; persisted in denying guilt"
+    },
+    {
+      "date": "1598-08-14",
+      "event": "other",
+      "subject": "Jacotte Raon",
+      "details": "PG des Vosges requests life imprisonment if her goods insufficient, husband must provide. Notes resistance to torture probably mere obstinacy"
+    },
+    {
+      "date": "1598-08-16",
+      "event": "other",
+      "subject": "Jacotte Raon",
+      "details": "Change de Nancy postpones decision until new evidence evaluated. Letter from dame secrette appended"
+    },
+    {
+      "date": "1598-09-01",
+      "event": "other",
+      "subject": "Jacotte Raon",
+      "details": "Further depositions taken"
+    },
+    {
+      "date": "1598-09-16",
+      "event": "interrogation",
+      "subject": "Jacotte Raon",
+      "details": "Continued denials; invoked Jesus and St Nicolas. More confrontations followed"
+    },
+    {
+      "date": "1598-10-11",
+      "event": "torture_requested",
+      "subject": "Jacotte Raon",
+      "details": "Procureur General des Vosges asks that she be tortured again"
+    },
+    {
+      "date": "1598-10-17",
+      "event": "other",
+      "subject": "Jacotte Raon",
+      "details": "Change de Nancy orders interrogation in presence of torture instruments but not actually tortured. If she won't confess, banish from duchy"
+    },
+    {
+      "date": "1598-11-08",
+      "event": "sentence",
+      "subject": "Jacotte Raon",
+      "details": "Prévôt d'Arches has her taken to torture chamber; when she refuses to confess orders banishment"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack", "water torture"],
+    "requesting_official": "Procureur General des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Second torture request denied - only shown instruments without application"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Jacotte Raon to Nicolas Estiennon Boudart",
+      "french": "qu'il luy empescheroit ses arbres, et boucheroit son jour, et qu'il s'en repentiroit",
+      "english": "that he would block her trees and her light, and he would repent of it",
+      "context": "Threat after witness bought land next to her house"
+    },
+    {
+      "speaker": "Jacotte Raon",
+      "french": "si sa semence estoit belle",
+      "english": "if his seed was beautiful/good",
+      "context": "Speaking to Nicolas Estiennon Boudart while he was sowing, before his 5-week illness"
+    },
+    {
+      "speaker": "Jacotte Raon to Bertrand Jacot",
+      "french": "qu'il s'en repentiroit, que la cloison luy seroit bien chere",
+      "english": "that he would repent, that the fence would cost him dearly",
+      "context": "Threat about hedge dispute"
+    },
+    {
+      "speaker": "Demenge (Jacotte's late son) to Bertrand Jacot",
+      "french": "Hola, hola, votre poulain n'est pas encore perdu",
+      "english": "Hold on, hold on, your foal is not yet lost",
+      "context": "After Jacot threatened to have Jacotte burned if she didn't cure his foal"
+    },
+    {
+      "speaker": "Julienne's stepfather (witness 9) about Jacotte",
+      "french": "que devant qu'il soit un an il n'y en moudroit plus",
+      "english": "that before a year he would not mill there anymore",
+      "context": "Jacotte's threat after stepfather removed her corn from mill; he and family died within two weeks"
+    },
+    {
+      "speaker": "Claudotte (witness 10)",
+      "french": "qu'elle ne l'auroit pas, ou que le diable y cheorroit",
+      "english": "that she would not have it, or the devil would fall there",
+      "context": "Jacotte's words during land sale dispute"
+    },
+    {
+      "speaker": "Thienon Blaise's father to Jacotte",
+      "french": "qu'il estoit engenauché comme les autres",
+      "english": "that he was bewitched like the others",
+      "context": "When Jacotte visited sick Thienon"
+    },
+    {
+      "speaker": "Jacotte Raon",
+      "french": "qu'il n'avoit garde",
+      "english": "that he need not fear",
+      "context": "Her reply to father's bewitchment comment"
+    },
+    {
+      "speaker": "Jacotte Raon (in interrogation)",
+      "french": "par envye d'autant que son marit et elle font bon mesnage (dieu mercy) et qu'ilz marient en bons lieux leurs enffans",
+      "english": "out of envy because her husband and she keep a good household (thank God) and they marry their children into good families",
+      "context": "Her explanation for why accusations were made"
+    },
+    {
+      "speaker": "Jacotte Raon (in interrogation)",
+      "french": "femme de bien et bonne mesnagere, aiant si bien travaillé avec son marit que moyennant la grace de dieu ils ont amassés plusieurs beaux biens; et pense fermement que cela est la principale cause de ce qu'elle peult estre haye ou mal voulue de quelques habitants de Xennenay",
+      "english": "a good woman and good housewife, having worked so well with her husband that by the grace of God they have accumulated many fine goods; and firmly believes this is the principal reason she may be hated or ill-regarded by some inhabitants of Xennenay",
+      "context": "Her defense - blaming envy of economic success"
+    },
+    {
+      "speaker": "Nicolas le Clerc (witness 21) reporting Jacotte's words",
+      "french": "femme de bien",
+      "english": "a good woman",
+      "context": "What Jacotte said she was when being escorted to prison, though she had feared it for 20 years"
+    },
+    {
+      "speaker": "Marguerite femme de Nicolas le Clerc (witness 22) reporting Jacotte",
+      "french": "que possible seroit elle encor perdue",
+      "english": "that possibly she would be lost/destroyed",
+      "context": "Jacotte's fear if she went to prison in old chemise"
+    },
+    {
+      "speaker": "Jacotte Raon (in interrogation)",
+      "french": "comment est ce que Jesus ne fait pas ses miracles",
+      "english": "how is it that Jesus does not perform his miracles",
+      "context": "During September interrogation"
+    },
+    {
+      "speaker": "Claudotte widow of Demengeon de Ranfaing",
+      "french": "puis se retira en sa maison, en menacant et grondant entre ses dents",
+      "english": "then withdrew to her house, threatening and grumbling between her teeth",
+      "context": "After reproaching tax collector husband about rates"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jacotte Raon",
+      "person2": "Nicolas François Raon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married for more than 30 years to Nicolas François Raon",
+      "inferred": false
+    },
+    {
+      "person1": "Jacotte Raon",
+      "person2": "Jean Baret de Sainct Nabvoir",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Jean Baret de Sainct Nabvoir",
+      "inferred": false
+    },
+    {
+      "person1": "Jacotte Raon",
+      "person2": "Margueritte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Margueritte, Jacotte's daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Jacotte Raon",
+      "person2": "Epnon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her daughter Epnon",
+      "inferred": false
+    },
+    {
+      "person1": "Jacotte Raon",
+      "person2": "Demenge",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her late son Demenge",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Estiennon Boudart",
+      "person2": "Thienon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his son Thienon",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Estiennon Boudart",
+      "person2": "Nicolas François Raon",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "bought land next to house of Nicolas Francois Raon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudine femme a Jean Boudart",
+      "person2": "Jean Boudart",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudine femme a Jean Boudart",
+      "inferred": false
+    },
+    {
+      "person1": "Claudine femme a Jean Boudart",
+      "person2": "Collette",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Collette",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon femme François Joliot",
+      "person2": "François Joliot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jannon femme François Joliot",
+      "inferred": false
+    },
+    {
+      "person1": "Julienne fille de feu Pierot Cordebotte",
+      "person2": "Pierot Cordebotte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Julienne fille de feu Pierot Cordebotte",
+      "inferred": false
+    },
+    {
+      "person1": "Julienne fille de feu Pierot Cordebotte",
+      "person2": "Martin Gaspar Colas Simon",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her stepfather",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte femme de Nicolas Boudart",
+      "person2": "Nicolas Boudart",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudotte femme de Nicolas Boudart",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte femme de Nicolas Boudart",
+      "person2": "Thienon Boudart",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her son-in law Thienon Boudart",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Raon",
+      "person2": "Mengeotte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his daughter Mengeotte",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon femme de Nicolas Raon",
+      "person2": "Nicolas Raon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jannon femme de Nicolas Raon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte veuve Demengeon de Rainfaing",
+      "person2": "Demengeon de Rainfaing",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Claudotte veuve Demengeon de Rainfaing",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite femme de Nicolas le Clerc",
+      "person2": "Nicolas le Clerc",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marguerite femme de Nicolas le Clerc",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme de Bertrand Graniere",
+      "person2": "Bertrand Graniere",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme de Bertrand Graniere",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte femme de Jean Cordebotte",
+      "person2": "Jean Cordebotte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudotte femme de Jean Cordebotte",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve de Colas Jacquel Richard",
+      "person2": "Colas Jacquel Richard",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve de Colas Jacquel Richard",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite veuve de Demengeon Blaise Olry",
+      "person2": "Demengeon Blaise Olry",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Marguerite veuve de Demengeon Blaise Olry",
+      "inferred": false
+    },
+    {
+      "person1": "Thienon fils de feu Jean Rattel",
+      "person2": "Jean Rattel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Thienon fils de feu Jean Rattel",
+      "inferred": false
+    },
+    {
+      "person1": "Jean fils Thienon Boudart",
+      "person2": "Thienon Boudart",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jean fils Thienon Boudart",
+      "inferred": false
+    },
+    {
+      "person1": "Jean fils Thienon Boudart",
+      "person2": "Magdelaine",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his sister Magdelaine",
+      "inferred": false
+    },
+    {
+      "person1": "Jacotte fille de feu Jacquel Richard",
+      "person2": "Jacquel Richard",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jacotte fille de feu Jacquel Richard",
+      "inferred": false
+    },
+    {
+      "person1": "Jacotte fille de feu Jacquel Richard",
+      "person2": "Jacotte Raon",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "accused was aunt to Jacotte fille Jacquel Richard",
+      "inferred": false
+    },
+    {
+      "person1": "Jean fils d'Estienne Colin de la Poirie",
+      "person2": "Estienne Colin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jean fils d'Estienne Colin",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes over land purchases and boundaries. Jacotte and her husband were economically successful - she stated they had 'accumulated many fine goods' through hard work, married children into good families. She attributed accusations to envy of their prosperity. Disputes included: Nicolas Estiennon Boudart buying land next to her house (she offered twice the price to prevent it); boundary disputes over hedges and 'cloisons'; land sales to neighbors she disapproved of; tithe collection disputes."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "owned by Nicolas Estiennon Boudart",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly in stable",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": "20 francs",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "land purchase dispute",
+      "time_between_quarrel_and_harm": "a year later",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "two pigs",
+      "victim_relationship_to_witness": "owned by Nicolas Estiennon Boudart",
+      "harm_category": "animal_death",
+      "harm_description": "one died, other became so ill it had to be killed",
+      "animal_type": "pig",
+      "animal_count": 2,
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "land purchase dispute",
+      "time_between_quarrel_and_harm": "year after ox death - she passed between them",
+      "method_alleged": "proximity/passing between them",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Thienon",
+      "victim_relationship_to_witness": "son of witness 1",
+      "harm_category": "human_illness",
+      "harm_description": "very robust until age 12, for last 4 years so ill could only walk with help of two sticks",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "land purchase dispute",
+      "time_between_quarrel_and_harm": "ongoing illness",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Nicolas Estiennon Boudart",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "5-week illness after she spoke to him while sowing",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "land purchase dispute",
+      "time_between_quarrel_and_harm": "after she asked 'si sa semence estoit belle'",
+      "method_alleged": "words spoken while sowing",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "owned by Jean Estienne Raon",
+      "harm_category": "animal_death",
+      "harm_description": "lost ox",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": "28 francs",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "lawsuit after witness crossed her land when public way closed",
+      "time_between_quarrel_and_harm": "10 days later",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "toraxe",
+      "victim_relationship_to_witness": "owned by Bertrand Jacot",
+      "harm_category": "animal_death",
+      "harm_description": "toraxe of 2 years died",
+      "animal_type": "toraxe",
+      "animal_count": 1,
+      "economic_value": "12 francs",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "planting hedge close to their 'challot'",
+      "time_between_quarrel_and_harm": "10 or 12 days later",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "two oxen",
+      "victim_relationship_to_witness": "owned by Bertrand Jacot",
+      "harm_category": "animal_death",
+      "harm_description": "two oxen died",
+      "animal_type": "ox",
+      "animal_count": 2,
+      "economic_value": "12 ecus",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "hedge dispute",
+      "time_between_quarrel_and_harm": "10 or 12 days later",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by Bertrand Jacot",
+      "harm_category": "animal_death",
+      "harm_description": "cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "24 francs",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "hedge dispute",
+      "time_between_quarrel_and_harm": "a year later",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "foal",
+      "victim_relationship_to_witness": "owned by Bertrand Jacot",
+      "harm_category": "animal_illness",
+      "harm_description": "foal became ill but recovered after Jacotte and son visited stable",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "sold for 36 francs 6 gros after recovery",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "second hedge dispute",
+      "time_between_quarrel_and_harm": "six weeks later",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "mare",
+      "victim_relationship_to_witness": "owned by Bertrand Jacot",
+      "harm_category": "animal_death",
+      "harm_description": "mare died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "witness refused to sell land adjoining theirs, sold to Jean Estienne Raon instead",
+      "time_between_quarrel_and_harm": "after land sale",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "ox and cow",
+      "victim_relationship_to_witness": "owned by Marc Olry's late father",
+      "harm_category": "animal_death",
+      "harm_description": "died from rabies",
+      "animal_type": "ox and cow",
+      "animal_count": 2,
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "tithe dispute - Nicolas Francois Raon or servants took sheaves of barley, compelled to restore them",
+      "time_between_quarrel_and_harm": "after threat that he would repent",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Thienon Blaise",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "seized by great fear after passing Jacotte on road, stayed in bed 8 days",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "quarrel over tithe of beans",
+      "time_between_quarrel_and_harm": "shortly after quarrel, when going to Remiremont",
+      "method_alleged": "encounter/proximity on road",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Thienon Blaise's father",
+      "victim_relationship_to_witness": "father of witness 6",
+      "harm_category": "human_death",
+      "harm_description": "death - claimed Jacotte responsible during his sickness",
+      "attributed_to": "Jacotte Raon",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Collette",
+      "victim_relationship_to_witness": "daughter of Claudine",
+      "harm_category": "human_illness",
+      "harm_description": "felt something like thorn in foot while guarding sheep, became very painful up to knee",
+      "attributed_to": "Jacotte Raon",
+      "time_between_quarrel_and_harm": "after Jacotte 'l'agacoit toujours' (always bothered her)",
+      "method_alleged": "something like thorn in foot",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Jannon femme François Joliot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "unable to eat for 3 days",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "dispute with Margueritte (Jacotte's daughter) who took fruit from rented garden",
+      "time_between_quarrel_and_harm": "a month later",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Martin Gaspar Colas Simon",
+      "victim_relationship_to_witness": "stepfather of Julienne",
+      "harm_category": "human_death",
+      "harm_description": "died in another week after becoming ill",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "took out Jacotte's corn from mill to put his own in first",
+      "time_between_quarrel_and_harm": "a week after threat, died week after",
+      "method_alleged": "suspected flour he had milled",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Julienne's mother",
+      "victim_relationship_to_witness": "mother of witness 9",
+      "harm_category": "human_death",
+      "harm_description": "died in another week after becoming ill",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "mill dispute",
+      "time_between_quarrel_and_harm": "same week as stepfather",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "two brothers of Julienne",
+      "victim_relationship_to_witness": "brothers of witness 9",
+      "harm_category": "human_death",
+      "harm_description": "died in another week after becoming ill",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "mill dispute",
+      "time_between_quarrel_and_harm": "same week as parents",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "best cow in calf",
+      "victim_relationship_to_witness": "owned by Claudotte femme de Nicolas Boudart",
+      "harm_category": "animal_death",
+      "harm_description": "lost their best cow which was in calf",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "7 or 8 ecus",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "son-in-law removed 'cloison' Raon and servants put on his land",
+      "time_between_quarrel_and_harm": "within 3 days",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "two cows",
+      "victim_relationship_to_witness": "owned by Claudotte femme de Nicolas Boudart",
+      "harm_category": "animal_death",
+      "harm_description": "killed in fields by strange beast, not wolf - only small hole each under stomach",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "land sale dispute",
+      "time_between_quarrel_and_harm": "shortly after threat",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "mare held for Thomas Robert",
+      "victim_relationship_to_witness": "held in trust by Simon le Duc",
+      "harm_category": "animal_death",
+      "harm_description": "died as of rabies",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "12 ecus",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "collecting rents for priory, Jacotte refused to pay 'quart de blé'",
+      "time_between_quarrel_and_harm": "within 3 days",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "two sows",
+      "victim_relationship_to_witness": "owned by Simon le Duc",
+      "harm_category": "animal_death",
+      "harm_description": "died as if rabid",
+      "animal_type": "pig",
+      "animal_count": 2,
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "sows escaped into field rented by Raon, she not satisfied with reparation offer",
+      "time_between_quarrel_and_harm": "4 days later",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Mengeotte",
+      "victim_relationship_to_witness": "daughter of Nicolas Raon",
+      "harm_category": "human_illness",
+      "harm_description": "struck on head by 'fugue' Jacotte was carrying, scratched on forehead and bleeding, complained of pain",
+      "attributed_to": "Jacotte Raon",
+      "time_between_quarrel_and_harm": "2 or 3 days ill, recovered after Jacotte visited",
+      "method_alleged": "struck by 'fugue' (implement) Jacotte was carrying",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Jean Raon",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became very ill, not really conscious",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "Nicolas Francois Raon's horses damaged his meadow",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "bullock",
+      "victim_relationship_to_witness": "owned by Jean Raon",
+      "harm_category": "animal_death",
+      "harm_description": "death of bullock",
+      "animal_type": "bullock",
+      "animal_count": 1,
+      "attributed_to": "Jacotte Raon",
+      "time_between_quarrel_and_harm": "subsequent to illness",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Demengeon de Rainfaing",
+      "victim_relationship_to_witness": "husband of witness 14",
+      "harm_category": "human_death",
+      "harm_description": "died after eating gateau Jacotte gave, foot pain progressed to death in 5-6 days",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "unclear",
+      "time_between_quarrel_and_harm": "2 days after eating gateau, died 5-6 days later",
+      "method_alleged": "gateau given on Christmas Eve",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "daughter aged 4",
+      "victim_relationship_to_witness": "daughter of Nicolas Raon and Jannon",
+      "harm_category": "human_illness",
+      "harm_description": "hurt by Jacotte",
+      "attributed_to": "Jacotte Raon",
+      "method_alleged": "Jacotte gave her three pears",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "daughter aged 6",
+      "victim_relationship_to_witness": "daughter of Nicolas Raon and Jannon",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jacotte Raon",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "three young pigs",
+      "victim_relationship_to_witness": "owned by Colin Demenge Pierre",
+      "harm_category": "animal_death",
+      "harm_description": "death of three young pigs",
+      "animal_type": "pig",
+      "animal_count": 3,
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "pigs did damage",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "mare",
+      "victim_relationship_to_witness": "owned by Colin Demenge Pierre",
+      "harm_category": "animal_death",
+      "harm_description": "mare died - had been on land of Jacotte's",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jacotte Raon",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Jean fils d'Estienne Colin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "unable to work for 7 weeks",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "did not dance with Jacotte's daughters at feste",
+      "time_between_quarrel_and_harm": "two hours after she spoke to him at fair",
+      "method_alleged": "words/confrontation at fair",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Marguerite (sister-in-law)",
+      "victim_relationship_to_witness": "sister-in-law of Jehan Meullien",
+      "harm_category": "human_death",
+      "harm_description": "drowned at place where water only up to legs",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "Marguerite decided to leave Xennenay weaving work",
+      "time_between_quarrel_and_harm": "15 days later",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "wife of Jehan Meullien",
+      "victim_relationship_to_witness": "wife of witness 20",
+      "harm_category": "human_illness",
+      "harm_description": "strange 3-week illness",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "dispute over 'pesan' borrowed and unwillingly returned",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "Arnould Meullien",
+      "victim_relationship_to_witness": "acquaintance of Nicolas le Clerc",
+      "harm_category": "human_death",
+      "harm_description": "died within the year",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "he and witness saw Jacotte's husband steal 'crampons d'acier', led to fine of 40-50 francs",
+      "time_between_quarrel_and_harm": "within the year after threat",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "Catherine femme de Bertrand Graniere",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "fell and hurt herself badly while pregnant with child on neck",
+      "attributed_to": "Jacotte Raon",
+      "time_between_quarrel_and_harm": "immediately after Jacotte looked at her",
+      "method_alleged": "Jacotte's gaze/look",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "wife of Claudon Cordebotte",
+      "victim_relationship_to_witness": "wife of witness 25",
+      "harm_category": "human_death",
+      "harm_description": "fell ill after being called to Jacotte's house, died after 2 months",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "none known",
+      "time_between_quarrel_and_harm": "immediately after visit to Jacotte's house on Mardi gras",
+      "method_alleged": "food/drink at Jacotte's house",
+      "witness_number": 25
+    },
+    {
+      "victim_name": "Jennon veuve de Colas Jacquel Richard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "bedridden 12 weeks with bad knee, trouble with sight",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "jealousy over Jean serviteur paying attention to witness instead of Jacotte's daughter",
+      "time_between_quarrel_and_harm": "after Jacotte took and looked at cabbages witness was carrying",
+      "method_alleged": "handling/looking at cabbages",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "Demengeon Blaise Olry",
+      "victim_relationship_to_witness": "husband of witness 28",
+      "harm_category": "human_death",
+      "harm_description": "death by poison according to devineresse",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "he bought land which Jacotte and her husband wanted",
+      "time_between_quarrel_and_harm": "9 or 10 years ago",
+      "method_alleged": "poison given one Sunday",
+      "witness_number": 28
+    },
+    {
+      "victim_name": "Thienon fils de feu Jean Rattel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "bedridden for 3 weeks",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "quarrel with Nicolas Francois Raon over delayed payment for day's work",
+      "time_between_quarrel_and_harm": "within 2 or 3 days",
+      "witness_number": 29
+    },
+    {
+      "victim_name": "Magdelaine",
+      "victim_relationship_to_witness": "sister of Jean fils Thienon Boudart",
+      "harm_category": "human_death",
+      "harm_description": "4-year illness ending in death last St. George's Day, stomach pains",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "village youth didn't want to invite Jacotte's daughters to collation, though Magdelaine got them invited",
+      "time_between_quarrel_and_harm": "after Jacotte gave her cheese",
+      "method_alleged": "cheese given when with other women",
+      "witness_number": 30
+    },
+    {
+      "victim_name": "Jacotte fille de feu Jacquel Richard",
+      "victim_relationship_to_witness": "self (niece of accused)",
+      "harm_category": "human_illness",
+      "harm_description": "8-day illness",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "none - no quarrel",
+      "time_between_quarrel_and_harm": "after marriage of Jacotte's daughters at Mailleville",
+      "method_alleged": "bread and meat served multiple times at wedding",
+      "witness_number": 31
+    },
+    {
+      "victim_name": "Demengeon de Ranfaing (tax collector)",
+      "victim_relationship_to_witness": "husband of witness added in later testimony",
+      "harm_category": "human_injury",
+      "harm_description": "part of fingers of one hand cut off",
+      "attributed_to": "Jacotte Raon",
+      "precipitating_quarrel": "reproached him with taxing them too highly",
+      "time_between_quarrel_and_harm": "shortly afterwards",
+      "witness_number": 14
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "land plot",
+      "context": "Nicolas Estiennon Boudart bought from Demengeon de Ranfaing to build house",
+      "category": "other"
+    },
+    {
+      "object": "ox",
+      "context": "valued at 20 francs, 28 francs in different cases",
+      "category": "agricultural"
+    },
+    {
+      "object": "pigs",
+      "context": "feeding in house, young pigs worth various amounts",
+      "category": "agricultural"
+    },
+    {
+      "object": "sticks for walking",
+      "context": "Thienon could only walk with help of two sticks due to illness",
+      "category": "household"
+    },
+    {
+      "object": "manure",
+      "context": "Jean Estienne Raon wanted to take to field",
+      "category": "agricultural"
+    },
+    {
+      "object": "hedge/cloison",
+      "context": "boundary markers, disputes over planting near 'challot'",
+      "category": "agricultural"
+    },
+    {
+      "object": "toraxe",
+      "context": "2 year old animal worth 12 francs",
+      "category": "agricultural"
+    },
+    {
+      "object": "foal",
+      "context": "sold for 36 francs 6 gros after recovery",
+      "category": "agricultural"
+    },
+    {
+      "object": "mare",
+      "context": "worth 12 ecus in various cases",
+      "category": "agricultural"
+    },
+    {
+      "object": "cow",
+      "context": "worth 24 francs, 7-8 ecus in different cases",
+      "category": "agricultural"
+    },
+    {
+      "object": "sheaves of barley",
+      "context": "tithe collection",
+      "category": "agricultural"
+    },
+    {
+      "object": "beans",
+      "context": "tithe collection",
+      "category": "food"
+    },
+    {
+      "object": "sickle",
+      "context": "going to Remiremont to have repaired",
+      "category": "tools"
+    },
+    {
+      "object": "soup",
+      "context": "Jacotte made soup with milk for various sick people",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "used in soup, sent to sick people",
+      "category": "food"
+    },
+    {
+      "object": "tart",
+      "context": "sent to sick Jean fils d'Estienne Colin",
+      "category": "food"
+    },
+    {
+      "object": "corn/grain",
+      "context": "mill dispute, flour suspected of poisoning",
+      "category": "food"
+    },
+    {
+      "object": "mill",
+      "context": "Martin Gaspar Colas Simon had third share with right to precedence",
+      "category": "other"
+    },
+    {
+      "object": "la cuche dit de Noel",
+      "context": "Christmas Eve log put on fire",
+      "category": "household"
+    },
+    {
+      "object": "gateau",
+      "context": "Jacotte gave pieces to those who put Christmas log on fire",
+      "category": "food"
+    },
+    {
+      "object": "fruit/pears",
+      "context": "Margueritte took from rented garden; Jacotte gave pears to child",
+      "category": "food"
+    },
+    {
+      "object": "cabbages",
+      "context": "Jacotte returning from washing in stream; took 'tiges de choux' for replanting",
+      "category": "food"
+    },
+    {
+      "object": "fugue",
+      "context": "implement Jacotte was carrying that struck child on head",
+      "category": "tools"
+    },
+    {
+      "object": "bread",
+      "context": "Jacotte gave bread to sick Thienon; served at wedding",
+      "category": "food"
+    },
+    {
+      "object": "meat",
+      "context": "served at daughter's wedding",
+      "category": "food"
+    },
+    {
+      "object": "cheese",
+      "context": "Jacotte gave to Magdelaine who developed stomach pains",
+      "category": "food"
+    },
+    {
+      "object": "shirts and sheets",
+      "context": "washing in stream",
+      "category": "clothing"
+    },
+    {
+      "object": "chemise",
+      "context": "Jacotte complained of wearing old one when arrested",
+      "category": "clothing"
+    },
+    {
+      "object": "quart de blé",
+      "context": "rent for priory of Sainctmont",
+      "category": "agricultural"
+    },
+    {
+      "object": "sows",
+      "context": "escaped into field, died of rabies",
+      "category": "agricultural"
+    },
+    {
+      "object": "bullock",
+      "context": "died after meadow dispute",
+      "category": "agricultural"
+    },
+    {
+      "object": "pesan",
+      "context": "lent item that had to be recovered from Jacotte's house",
+      "category": "household"
+    },
+    {
+      "object": "crampons d'acier",
+      "context": "Nicolas François Raon stole, fined 40-50 francs",
+      "category": "tools"
+    },
+    {
+      "object": "gazons",
+      "context": "Jean serviteur threw to Jennon from master's meix",
+      "category": "other"
+    },
+    {
+      "object": "rack (torture)",
+      "context": "used in torture session",
+      "category": "other"
+    },
+    {
+      "object": "water (torture)",
+      "context": "given during torture",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Xennenay",
+      "place_type": "village",
+      "context": "Primary location of trial, where accused and most witnesses lived"
+    },
+    {
+      "place_name": "Remiremont",
+      "place_type": "village",
+      "context": "Nearby town - going to have sickle repaired, fair location, threatening to complain to authorities there"
+    },
+    {
+      "place_name": "Arches",
+      "place_type": "village",
+      "context": "Location of prison where Jacotte was held, jurisdiction of prévôt"
+    },
+    {
+      "place_name": "Sainct Nabvoir",
+      "place_type": "village",
+      "context": "Jacotte's place of origin, father Jean Baret from there"
+    },
+    {
+      "place_name": "La Brenche, finage de St. Estienne",
+      "place_type": "village",
+      "context": "Where Nicolas Graniere lived"
+    },
+    {
+      "place_name": "Longuey",
+      "place_type": "village",
+      "context": "Where Jehan Meullien lived, quarter league from Xennenay"
+    },
+    {
+      "place_name": "Moulin",
+      "place_type": "village",
+      "context": "Where Nicolas le Clerc lived"
+    },
+    {
+      "place_name": "Seuch",
+      "place_type": "village",
+      "context": "Where several witnesses lived"
+    },
+    {
+      "place_name": "la Poirie",
+      "place_type": "village",
+      "context": "Where Jean fils d'Estienne Colin was from"
+    },
+    {
+      "place_name": "Mailleville",
+      "place_type": "village",
+      "context": "Location of Jacotte's daughters' marriage"
+    },
+    {
+      "place_name": "gaignage de Meillermont",
+      "place_type": "field",
+      "context": "Where Simon le Duc lived"
+    },
+    {
+      "place_name": "grange de Sainct Estienne les Remiremont",
+      "place_type": "house",
+      "context": "Where Colin Demenge Pierre lived"
+    },
+    {
+      "place_name": "priory of Sainctmont",
+      "place_type": "church",
+      "context": "Simon le Duc collecting rents for this priory"
+    },
+    {
+      "place_name": "hault de St Jean de St Arnould",
+      "place_type": "other",
+      "context": "Location of feste with dancing"
+    },
+    {
+      "place_name": "stream",
+      "place_type": "water_body",
+      "context": "Where Jacotte washed cabbages, where witness washed shirts and sheets"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "house",
+      "context": "Where animals died or became ill"
+    },
+    {
+      "place_name": "meadow",
+      "place_type": "field",
+      "context": "Where horses did damage, where animals were killed"
+    },
+    {
+      "place_name": "mill",
+      "place_type": "other",
+      "context": "Dispute location, Martin Gaspar Colas Simon had third share"
+    },
+    {
+      "place_name": "road",
+      "place_type": "road",
+      "context": "Where Thienon Blaise passed Jacotte on way to Remiremont"
+    },
+    {
+      "place_name": "cemetery",
+      "place_type": "church",
+      "context": "Where Jacotte met Jennon and struck her shoulder"
+    },
+    {
+      "place_name": "fair of Remiremont",
+      "place_type": "market",
+      "context": "Where Jacotte confronted Jean about not dancing with daughters"
+    },
+    {
+      "place_name": "field of millot",
+      "place_type": "field",
+      "context": "Where Jacotte was working with witness's mother"
+    },
+    {
+      "place_name": "challot",
+      "place_type": "field",
+      "context": "Hedge planted close to Raon's challot causing disputes"
+    },
+    {
+      "place_name": "meix",
+      "place_type": "house",
+      "context": "Demenge de Ranfaing's meix from which Jean threw gazons"
+    },
+    {
+      "place_name": "fumier",
+      "place_type": "other",
+      "context": "Dung heap where Jacotte and daughter were when Catherine passed"
+    },
+    {
+      "place_name": "Lergle",
+      "place_type": "village",
+      "context": "Mentioned as location witness was returning from (uncertain reading)"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Change de Nancy - appellate court that made key decisions"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [
+      "Strange beast killed two cows - not wolf, only small hole under stomach"
+    ],
+    "economic_hardship_indicators": [],
+    "religious_calendar_references": [
+      "last St. Martin",
+      "next Christmas",
+      "last Christmas Eve",
+      "Easter",
+      "St. George's Day",
+      "Mardi gras"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Nicolas Pirouel",
+        "role": "prevot",
+        "location": "Arches"
+      },
+      {
+        "name": "Procureur General des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Jean Toussaint",
+        "role": "other",
+        "location": "Arches"
+      },
+      {
+        "name": "dame secrette de Remyremont",
+        "role": "other",
+        "location": "Remiremont"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Nicolas François Raon (accused's husband) stole two 'crampons d'acier' 24 years before",
+        "outcome": "fined 40 to 50 francs"
+      },
+      {
+        "dispute_type": "property",
+        "description": "lawsuit between Jean Estienne Raon and Jacotte over crossing her land when public way closed",
+        "outcome": "unclear"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Held at Arches prison, jailer testified she was 'forte robuste' and declared herself ready to die rather than confess. No special treatment from relatives. Complained about wearing old chemise when arrested.",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 25,
+    "hearsay_testimony_count": 6,
+    "hearsay_chains": [
+      {
+        "reporter": "Marguerite veuve de Demengeon Blaise Olry",
+        "source": "devineresse passing through village",
+        "content": "told her husband's brother Claudon that Jacotte had given him poison one Sunday out of resentment over land deal"
+      },
+      {
+        "reporter": "Jean Raon",
+        "source": "wife",
+        "content": "knew about Jacotte and daughter visiting and making soup from wife, as he had not been really conscious"
+      },
+      {
+        "reporter": "witness 1",
+        "source": "neighbors",
+        "content": "often heard neighbors complain of 'desplaisir' she had done them"
+      },
+      {
+        "reporter": "witness 17",
+        "source": "others",
+        "content": "heard that Jacotte's daughters were angry about not being asked to dance"
+      },
+      {
+        "reporter": "witness 31",
+        "source": "neighbors",
+        "content": "neighbors advised her to go to Xennenay and complain to Jacotte"
+      }
+    ],
+    "oldest_accusation_years": 30,
+    "corroboration_groups": [
+      [3, 24],
+      [12, 15],
+      [21, 22]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Made vehement denials of accusations during confrontations",
+      "Declared herself ready to die rather than confess",
+      "Described as 'forte robuste' by jailer",
+      "Persisted in denying guilt under torture",
+      "Said she had feared being taken to prison for more than 20 years"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Said illness of his son was 'mal de sainct' (St. Vitus dance/epilepsy)"
+      },
+      {
+        "witness_number": 20,
+        "objection": "Said she could hardly have caused illness of Jehan Meullien's wife even if she were a witch, since it was a quarter of a league from Xennenay to Longuet"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Demengeon de Ranfaing",
+      "role_in_narrative": "other",
+      "context": "Sold land to Nicolas Estiennon Boudart that was next to Jacotte's house"
+    },
+    {
+      "name": "Thomas Robert",
+      "role_in_narrative": "other",
+      "context": "Owned mare worth 12 ecus that Simon le Duc held and that died"
+    },
+    {
+      "name": "Demenge",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son (deceased)",
+      "context": "Jacotte's late son who was present when Bertrand Jacot threatened to burn her"
+    },
+    {
+      "name": "Arnould Meullien",
+      "role_in_narrative": "victim",
+      "context": "Of Xennenay, died within year after witnessing Nicolas François Raon's theft of crampons d'acier"
+    },
+    {
+      "name": "devineresse",
+      "role_in_narrative": "other",
+      "context": "Passing through village, told that Jacotte poisoned Demengeon Blaise Olry"
+    },
+    {
+      "name": "Jean serviteur of Demenge de Ranfaing",
+      "role_in_narrative": "community_member",
+      "context": "Paid attentions to Jennon, Jacotte wanted him to marry her daughter (later did)"
+    },
+    {
+      "name": "Martin des Cailles",
+      "role_in_narrative": "other",
+      "context": "Mercier who lived with Demenge de Ranfaing, prevented alleged strangling attempt"
+    },
+    {
+      "name": "Claudon (brother of Demengeon Blaise Olry)",
+      "role_in_narrative": "family_member",
+      "context": "Told by devineresse that Jacotte poisoned his brother"
+    },
+    {
+      "name": "Marguerite (sister-in-law of Jehan Meullien)",
+      "role_in_narrative": "victim",
+      "context": "Was weaving in Xennenay, drowned in shallow water after Jacotte's threat"
+    },
+    {
+      "name": "Demenge Colin Thiebauld",
+      "role_in_narrative": "family_member",
+      "context": "Brother of Marguerite who drowned"
+    },
+    {
+      "name": "Demenge (son-in-law of Jennon veuve de Colas Jacquel Richard)",
+      "role_in_narrative": "victim",
+      "context": "Allegedly strangled by Jacotte, her husband, and daughter Epnon; died soon after"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Exceptionally detailed trial with 31 witnesses. Jacotte was accused of numerous maleficia over 25-30 years, primarily against neighbors in property and boundary disputes. She maintained innocence throughout, attributing accusations to envy of her family's economic success. She withstood torture and was ultimately banished rather than executed. Notable features: (1) Pattern of threats followed by harms within days/weeks; (2) Many cures allegedly performed by Jacotte visiting sick people and giving them soup/food; (3) Strong economic success theme - she emphasized good household management and children marrying well; (4) 'dame secrette de Remyremont' wrote influential letter urging continued imprisonment; (5) Very high number of animal deaths attributed to her, especially livestock losses after property disputes; (6) Multiple family deaths in witness 9's testimony (stepfather, mother, two brothers within two weeks of mill dispute). Trial lasted nearly 6 months with extensive witness testimony and legal proceedings.",
+    "pdf_pages": 8
+  }
+}

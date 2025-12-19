@@ -1,0 +1,1285 @@
+{
+  "trial_id": "w103",
+  "archive_ref": "B 5354 no 2",
+  "location": "Assenoncourt",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1613-07-12",
+    "end": "1613-08-14",
+    "duration_days": 33
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jeanne le Schrempt",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["manouvrier"],
+      "origin": "Assenoncourt",
+      "residence": "Assenoncourt",
+      "marital_status": "married",
+      "spouse_name": "Guillaume Boucher",
+      "parents": {
+        "father": "Michel Schrempt",
+        "mother": "Guele"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": false,
+        "devil_name": "Chierling",
+        "devil_appearance": "man in black",
+        "seduction_date": "6 years before (circa 1607)",
+        "seduction_context": "Had quarrel with one named le Baleux, who called her witch; was crying as she went to woods towards dusk, and approached by man in black who asked her to renounce God - beat her when she refused. Came to garden next day, and beat her again on further refusal, after which she yielded.",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "Scratched forehead"
+        },
+        "powder_types": ["mixture of black and green powder", "made with body of stillborn child"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["centre of village", "place where there were 12 or 13 people"],
+        "sabbat_activities": ["dancing back to back", "eating meat without bread or salt", "drinking what looked like wine", "riding brooms or 'jarons'"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Crisman Lampert",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Bought manure from outside her house, and she wanted him to take it away immediately so they could do some building; he could not do this",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "about a week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Michiel Laboureur",
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked him to plough for her, but he refused, saying his harness was in poor condition; Also dispute over oven ownership in their kitchen",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "soon after refusal"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "3 days after she came and asked after it"
+          },
+          {
+            "type": "animal_death",
+            "target": "two fine calves",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "after being pressed to sell oven"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "George Villermin",
+      "gender": "male",
+      "age": 45,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Took his animals to drink at well near her house, and she had several times been angry",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses (several)",
+            "target_relationship": "witness's own",
+            "attributed_to": "none - did not blame anyone",
+            "time_after_quarrel": "various times"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge Colas le maire",
+      "gender": "male",
+      "age": 36,
+      "occupation": "maire",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Called her witch saying he would have her burned",
+        "threat_received": true,
+        "threat_quote": "she said he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "over last 5 years",
+            "economic_value": "1600 francs"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "soon after threat"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 5,
+      "name": "Nicolle",
+      "gender": "female",
+      "age": 30,
+      "occupation": "wife of Demenge Colas le maire",
+      "location": "Assenoncourt",
+      "relationship_to_accused": "neighbor/villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "witness and husband's",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "various times"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 6,
+      "name": "Austien le Maire",
+      "gender": "male",
+      "age": 27,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 2,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Had her husband fined for damage to garden",
+        "threat_received": true,
+        "threat_quote": "she said she never wished to see him again",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "witness's own",
+            "attributed_to": "none - suspected no-one",
+            "time_after_quarrel": "after the quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Hans le petit Benet",
+      "gender": "male",
+      "age": 46,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Marguerite",
+      "gender": "female",
+      "age": 50,
+      "occupation": "wife of Hans le petit Benet",
+      "location": "Assenoncourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "Michiel Beze Michel",
+      "gender": "male",
+      "age": 42,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "When she came to veillée in his house he said 'allé je suis bien sot de vous rechauffer quand vous m'as couté mon bien'",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horses",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "harm_description": "horses became 'morveux' (diseased)",
+            "time_after_quarrel": "since then (3 years ago)"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Didier Chatron",
+      "gender": "male",
+      "age": 80,
+      "occupation": "manouvrier",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Fist fight with her brother, called him 'fils de sorcier'",
+        "threat_received": true,
+        "threat_quote": "she appeared and told him he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "best horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "harm_description": "fell and broke its neck",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Cretaille Estienne",
+      "gender": "male",
+      "age": 28,
+      "occupation": "manouvrier",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "He had bought some reeds, and refused to sell her any of them; also had argument when he was unloading grain",
+        "threat_received": true,
+        "threat_quote": "tu cause bien maintenant mais tu ne causeras pas tousjours",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Jeanne le Schrempt",
+            "harm_description": "fell ill for 6 months",
+            "time_after_quarrel": "2 weeks later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jeannon femme Colas le Maire",
+      "gender": "female",
+      "age": 29,
+      "location": "Assenoncourt",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Cretienne femme de Couret le petit Feltin",
+      "gender": "female",
+      "age": 30,
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute with witness and mother-in-law about some sowing",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "mother-in-law",
+            "target_relationship": "witness's mother-in-law",
+            "attributed_to": "Jeanne le Schrempt",
+            "harm_description": "bad leg, from which she still suffered",
+            "time_after_quarrel": "around 5 or 6 years ago"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Mayetté femme Krieer Hans",
+      "gender": "female",
+      "age": 60,
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 15,
+      "name": "Simon Lampert",
+      "gender": "male",
+      "age": 30,
+      "occupation": "tisserand",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Made her a piece of cloth and asked for payment",
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Blaisse Pierre",
+      "gender": "male",
+      "age": 24,
+      "occupation": "laboureur",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Took hay from a field previously cropped by her husband",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "best horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jeanne le Schrempt",
+            "time_after_quarrel": "shortly afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Claudin Genin",
+      "gender": "male",
+      "age": 34,
+      "occupation": "boulengier",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "When he was banyard found her daughter with other children who had 3 hats full of pears; threatened to fine them; her husband came and threatened him",
+        "threat_received": true,
+        "threat_quote": "husband threatened him",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Jeanne le Schrempt",
+            "harm_description": "trouble with eyes, going blind in a week",
+            "time_after_quarrel": "same day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mongeatte femme Petteman Austien",
+      "gender": "female",
+      "age": 28,
+      "occupation": "laboureur (wife of)",
+      "location": "Assenoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1613-07-12",
+      "event": "informations_preparatoires",
+      "subject": "Jeanne le Schrempt",
+      "details": "Nicolas Melletz marchal d'Assenoncourt asks for her arrest and taking of depositions; substitut du PG at Dieuze also asks for arrest"
+    },
+    {
+      "date": "1613-07-16",
+      "event": "informations_preparatoires",
+      "subject": "Jeanne le Schrempt",
+      "details": "18 witnesses give depositions"
+    },
+    {
+      "date": "1613-07-17",
+      "event": "other",
+      "subject": "Jeanne le Schrempt",
+      "details": "Substitut orders that she be arrested, questioned, and confronted"
+    },
+    {
+      "date": "1613-07-18",
+      "event": "interrogation",
+      "subject": "Jeanne le Schrempt",
+      "details": "First interrogation; denied charges"
+    },
+    {
+      "date": "1613-07-23",
+      "event": "confrontation",
+      "subject": "Jeanne le Schrempt",
+      "details": "Confronted with witnesses; offered natural explanations for some harms"
+    },
+    {
+      "date": "1613-08-01",
+      "event": "torture_requested",
+      "subject": "Jeanne le Schrempt",
+      "details": "C.M. Rémy asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1613-08-06",
+      "event": "torture_approved",
+      "subject": "Jeanne le Schrempt",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1613-08-09",
+      "event": "torture",
+      "subject": "Jeanne le Schrempt",
+      "details": "Interrogation under torture; confessed after being presented to strappado"
+    },
+    {
+      "date": "1613-08-14",
+      "event": "death_approved",
+      "subject": "Jeanne le Schrempt",
+      "details": "Rémy asks for death sentence, and Change agrees"
+    },
+    {
+      "date": "1613-08-14",
+      "event": "execution",
+      "subject": "Jeanne le Schrempt",
+      "details": "Executed; at execution declared 'ne scavoir aucun mal sur ceulx qu'elle avoit accusé' (knew nothing evil about those she had accused)"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["strappado"],
+    "requesting_official": "C.M. Rémy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jeannon femme Meillard",
+      "location": "Assenoncourt",
+      "context": "Named in confession as accomplice in making powder to kill calves; met her outside house and signaled to follow",
+      "already_executed": false
+    },
+    {
+      "name": "Imeline veuve Colas Cherier",
+      "location": "Assenoncourt",
+      "context": "Named in confession as accomplice in making powder to kill calves",
+      "already_executed": false
+    },
+    {
+      "name": "Gerardin Marchal",
+      "location": "Assenoncourt",
+      "context": "Named as present when they made powder with body of stillborn child",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "mother",
+      "accuser_location": "Assenoncourt",
+      "context": "Mother executed as witch about 20 years before (circa 1593); accused described as 'de race infecte'",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "sister",
+      "accuser_location": "unknown",
+      "context": "A sister already executed as witch",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jeanne le Schrempt",
+      "french": "elle savoit bien qu'il y en avoit, en disant fict fict au diable il ne les fault pas çeler j'en ay trop veu, pourquoy les laisse on tant vivre, elles ne font poinct de bien, il y a vingt ans sy l'on les eust toutes bruslé elles n'eust poinct tant faict de mal qu'elles ont faict",
+      "english": "she knew well that there were [witches], saying damn the devil they must not hide them I've seen too much, why do they let them live so long, they do no good, if 20 years ago they had burned them all they would not have done so much harm as they have done",
+      "context": "On way to market at Dieuze, speaking of witches with other women (witness 12)"
+    },
+    {
+      "speaker": "Jeanne le Schrempt to Cretaille Estienne",
+      "french": "tu cause bien maintenant mais tu ne causeras pas tousjours",
+      "english": "you speak well now but you won't always speak",
+      "context": "Threat during argument when he refused to sell her reeds (witness 11)"
+    },
+    {
+      "speaker": "Michiel Beze Michel to Jeanne",
+      "french": "allé je suis bien sot de vous rechauffer quand vous m'as couté mon bien",
+      "english": "go, I am very foolish to warm you when you have cost me my goods",
+      "context": "At veillée 3 years before she came to his house (witness 9)"
+    },
+    {
+      "speaker": "Jeanne le Schrempt",
+      "french": "quand l'on en a prien une l'on laisse les autres sy l'on en eut prien il y at une vaintaine dans",
+      "english": "when they arrest one they leave the others, if they arrested them there are about twenty in [the village]",
+      "context": "Conversation on road about witches (witness 18)"
+    },
+    {
+      "speaker": "Jeanne le Schrempt",
+      "french": "qu'elle ne craindoit d'estre damnée de dire cela sy elle ne l'estoit aucunement, car elle an avoit trop veu",
+      "english": "that she was not afraid of being damned for saying this if she was not [damned] in any way, because she had seen too much",
+      "context": "Insisting on her statements about witches in the village (witness 18)"
+    },
+    {
+      "speaker": "Jeanne le Schrempt",
+      "french": "au nom du pere et du filz et du St Esprit et de Madame Saincte Odille, et que Dieu luy veille renvoyer sa vue",
+      "english": "in the name of the Father and the Son and the Holy Spirit and of Madame Saint Odille, and may God send back his sight",
+      "context": "Prayer said when curing Claudin Boulengier's blindness with root (witness 17)"
+    },
+    {
+      "speaker": "Jeanne le Schrempt",
+      "french": "qu'elle n'en scauroit que faire, et que l'on luy fait grand tort",
+      "english": "that she didn't know what to do about it, and that they do her great wrong",
+      "context": "Response when asked about her reputation during interrogation"
+    },
+    {
+      "speaker": "Jeanne le Schrempt at execution",
+      "french": "ne scavoir aucun mal sur ceulx qu'elle avoit accusé",
+      "english": "knew nothing evil about those she had accused",
+      "context": "Final statement at execution, retracting accusations of accomplices"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jeanne le Schrempt",
+      "person2": "Guillaume Boucher",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "femme Guillaume Boucher",
+      "inferred": false
+    },
+    {
+      "person1": "Michel Schrempt",
+      "person2": "Jeanne le Schrempt",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Michel Schrempt",
+      "inferred": false
+    },
+    {
+      "person1": "Guele",
+      "person2": "Jeanne le Schrempt",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Michel Schrempt and his wife Guele",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle",
+      "person2": "Demenge Colas le maire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Nicolle femme au precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite",
+      "person2": "Hans le petit Benet",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marguerite femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannon",
+      "person2": "Colas le Maire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jeannon femme Colas le Maire",
+      "inferred": false
+    },
+    {
+      "person1": "Cretienne",
+      "person2": "Couret le petit Feltin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Cretienne femme de Couret le petit Feltin",
+      "inferred": false
+    },
+    {
+      "person1": "Mayetté",
+      "person2": "Krieer Hans",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mayetté femme Krieer Hans",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte",
+      "person2": "Petteman Austien",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mongeatte femme Petteman Austien",
+      "inferred": false
+    },
+    {
+      "person1": "Hans le petit Benet",
+      "person2": "Jeanne le Schrempt",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "As neighbour had often heard her swear by the devil",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Chatron",
+      "person2": "brother of Jeanne",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "had fist fight with her brother",
+      "inferred": false
+    },
+    {
+      "person1": "Cretienne",
+      "person2": "mother-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "dispute with witness and mother-in-law",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Dispute over oven ownership in Michiel Laboureur's kitchen; witness 2 was pressed to sell oven to accused's husband for 4 francs after losing calves. Payment dispute with Simon Lampert over piece of cloth. Accused described herself and husband as 'pauvres manouvriers' (poor day laborers). Mayor Demenge Colas lost horses worth 1600 francs."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Crisman Lampert's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Bought manure from outside her house, could not remove it immediately as she wanted",
+      "time_between_quarrel_and_harm": "about a week later",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Michiel Laboureur's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "horse sick, recovered initially",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Refused to plough for her, saying harness in poor condition",
+      "time_between_quarrel_and_harm": "soon after refusal",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Michiel Laboureur's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Wife did not reply when accused asked after the horse",
+      "time_between_quarrel_and_harm": "3 days later",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Michiel Laboureur's calves",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "two fine calves died",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Pressed to sell oven in their kitchen",
+      "time_between_quarrel_and_harm": "after losing calves, sold oven for 4 francs",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "George Villermin's horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "several misfortunes with horses",
+      "animal_type": "horse",
+      "attributed_to": "none - did not blame anyone",
+      "precipitating_quarrel": "Took animals to drink at well near her house, she was angry",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Demenge Colas le maire's horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost horses",
+      "animal_type": "horse",
+      "economic_value": "1600 francs",
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Called her witch, said he would have her burned",
+      "time_between_quarrel_and_harm": "over last 5 years; one soon after quarrel",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Nicolle and husband's horses",
+      "victim_relationship_to_witness": "witness and husband's animals",
+      "harm_category": "animal_death",
+      "harm_description": "losses of horses",
+      "animal_type": "horse",
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Called her witch",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Austien le Maire's horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "misfortunes to horses",
+      "animal_type": "horse",
+      "attributed_to": "none - suspected no-one",
+      "precipitating_quarrel": "Had her husband fined for damage to garden",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Michiel Beze Michel's horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_illness",
+      "harm_description": "horses became 'morveux' (diseased)",
+      "animal_type": "horse",
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Said to her at veillée 'I am foolish to warm you when you have cost me my goods'",
+      "time_between_quarrel_and_harm": "since then (3 years ago)",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Didier Chatron's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "best horse fell and broke its neck",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Fist fight with her brother, called him 'fils de sorcier'",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Cretaille Estienne",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill for 6 months",
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Refused to sell her reeds; argument when unloading grain",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Cretienne's mother-in-law",
+      "victim_relationship_to_witness": "witness's mother-in-law",
+      "harm_category": "human_illness",
+      "harm_description": "bad leg, still suffering from it",
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Dispute about some sowing",
+      "time_between_quarrel_and_harm": "around 5-6 years ago",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Blaisse Pierre's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "lost best horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Took hay from field previously cropped by her husband",
+      "time_between_quarrel_and_harm": "shortly afterwards",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Claudin Genin",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "human_illness",
+      "harm_description": "trouble with eyes, going blind in a week",
+      "attributed_to": "Jeanne le Schrempt",
+      "precipitating_quarrel": "Threatened to fine her daughter for stealing pears; husband came and threatened him",
+      "time_between_quarrel_and_harm": "same day",
+      "witness_number": 17
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "manure",
+      "context": "Crisman Lampert bought manure from outside accused's house",
+      "category": "agricultural"
+    },
+    {
+      "object": "harness",
+      "context": "Michiel Laboureur's harness was in poor condition, used as excuse not to plough",
+      "category": "agricultural"
+    },
+    {
+      "object": "oven",
+      "context": "Oven in kitchen of Michiel Laboureur which originally belonged to accused; sold for 4 francs",
+      "category": "household"
+    },
+    {
+      "object": "well",
+      "context": "Well near accused's house where George Villermin took animals to drink",
+      "category": "household"
+    },
+    {
+      "object": "reeds",
+      "context": "Cretaille Estienne bought reeds and refused to sell any to accused",
+      "category": "agricultural"
+    },
+    {
+      "object": "grain",
+      "context": "Cretaille Estienne was unloading grain when argument occurred",
+      "category": "agricultural"
+    },
+    {
+      "object": "hen",
+      "context": "Hen taken as offering to pilgrimage at Vic",
+      "category": "food"
+    },
+    {
+      "object": "basket",
+      "context": "Basket taken as offering to pilgrimage at Vic",
+      "category": "household"
+    },
+    {
+      "object": "root for eyes (racine pour les yeulx)",
+      "context": "Herbal remedy used by accused to cure blindness; father had used same method",
+      "category": "magical"
+    },
+    {
+      "object": "cloth",
+      "context": "Simon Lampert made her a piece of cloth",
+      "category": "clothing"
+    },
+    {
+      "object": "hay",
+      "context": "Blaisse Pierre took hay from field previously cropped by accused's husband",
+      "category": "agricultural"
+    },
+    {
+      "object": "pears",
+      "context": "Accused's daughter had 3 hats full of pears",
+      "category": "food"
+    },
+    {
+      "object": "candlewax",
+      "context": "Mistress Schneider had lot of candlewax in room",
+      "category": "household"
+    },
+    {
+      "object": "brooms or 'jarons'",
+      "context": "Used to fly to sabbat in confession",
+      "category": "magical"
+    },
+    {
+      "object": "iron pot",
+      "context": "Took out from under stone to make powder in confession",
+      "category": "magical"
+    },
+    {
+      "object": "powder (black and green mixture)",
+      "context": "Made from stillborn child's body, used for maleficia in confession",
+      "category": "magical"
+    },
+    {
+      "object": "hands of stillborn child",
+      "context": "Kept and took when wanted to do harm in confession",
+      "category": "magical"
+    },
+    {
+      "object": "host",
+      "context": "Unable to swallow at Easter, hid under scarf and threw away",
+      "category": "religious"
+    },
+    {
+      "object": "scarf",
+      "context": "Used to hide host",
+      "category": "clothing"
+    },
+    {
+      "object": "money",
+      "context": "Devil offered her money but struck her on ear when she refused",
+      "category": "money"
+    },
+    {
+      "object": "glasses",
+      "context": "Wine served in glasses at sabbat",
+      "category": "household"
+    },
+    {
+      "object": "coupes d'argent (silver cups)",
+      "context": "Rich witches drank from silver cups at sabbat according to accused's story",
+      "category": "household"
+    },
+    {
+      "object": "veres (glasses)",
+      "context": "Poor witches drank from glasses at sabbat",
+      "category": "household"
+    },
+    {
+      "object": "caroche (coach)",
+      "context": "Witch from Guermange came across pond of Lindre in coach",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Assenoncourt",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Dieuze",
+      "place_type": "village",
+      "context": "Location of substitut du PG; market destination for women; accused escorted there"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where accused went crying and was approached by devil; where Cretienne returned from with accused"
+    },
+    {
+      "place_name": "Vic",
+      "place_type": "village",
+      "context": "Pilgrimage destination where accused took hen and basket as offerings"
+    },
+    {
+      "place_name": "Bocquenon",
+      "place_type": "village",
+      "context": "Where Claudin Genin went to doctor who could not cure his blindness"
+    },
+    {
+      "place_name": "Guermange",
+      "place_type": "village",
+      "context": "Village mentioned in accused's story about witches at sabbat"
+    },
+    {
+      "place_name": "l'estang de Lindre (pond of Lindre)",
+      "place_type": "water_body",
+      "context": "Witch allegedly came across it in coach to sabbat"
+    },
+    {
+      "place_name": "Gelucourt",
+      "place_type": "village",
+      "context": "Where accused and accomplices tried to make hail to waste vines"
+    },
+    {
+      "place_name": "centre of village",
+      "place_type": "village",
+      "context": "Sabbat meeting location at midnight in confession"
+    },
+    {
+      "place_name": "stable (of Demenge Collas)",
+      "place_type": "other",
+      "context": "Where accused confessed to poisoning horse"
+    },
+    {
+      "place_name": "stable (of Michiel Laboureur)",
+      "place_type": "other",
+      "context": "Where devil took them to poison calves in confession"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Where devil came second day to beat accused; damage to garden caused fine"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where root for eyes was found; hayfield dispute; field ploughing"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail at Assenoncourt"],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["accused described self and husband as 'pauvres manouvriers'", "harvest season hardship mentioned by Nicolas Melletz"],
+    "religious_calendar_references": ["Easter"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Nicolas Melletz",
+        "role": "other",
+        "location": "Assenoncourt"
+      },
+      {
+        "name": "substitut du PG",
+        "role": "prosecutor_pg",
+        "location": "Dieuze"
+      },
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": "unknown"
+      },
+      {
+        "name": "Demenge Colas",
+        "role": "mayor",
+        "location": "Assenoncourt"
+      },
+      {
+        "name": "Couret",
+        "role": "mayor",
+        "location": "Assenoncourt"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Austien le Maire had accused's husband fined for damage to garden",
+        "outcome": "Fine imposed"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Accused said she and husband called witness witch without any action following, though accused said they did her great wrong and it was a great sin",
+    "imprisonment_conditions": "Nicolas Melletz asked that he not be imprisoned since this would cause hardship in harvest season",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 14,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Mayetté femme Krieer Hans",
+        "source": "Claudin Boulengier",
+        "content": "Suspected some evil persons of causing him to go blind"
+      },
+      {
+        "reporter": "Mayetté femme Krieer Hans",
+        "source": "unknown",
+        "content": "Heard she had given Claudin a root but did not know if it cured him"
+      },
+      {
+        "reporter": "Simon Lampert",
+        "source": "Jeanne le Schrempt",
+        "content": "Story about witches of Guermange at sabbat - accused said she knew it by hearsay"
+      },
+      {
+        "reporter": "Blaisse Pierre",
+        "source": "several people",
+        "content": "Warned him he might suffer misfortune for taking hay from field"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [7, 8],
+      [4, 5],
+      [12, 18]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "crying as she went to woods after being called witch",
+      "spat on ground saying nothing when called to renounce Devil",
+      "promised to tell truth if given time when presented with strappado",
+      "started denying again when brought back, but confessed when presented to torture"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 2,
+        "objection": "Offered natural explanations for deaths of Michiel Laboureur's calves - one had been 'mordu d'une mousatte', the other struck by a bull"
+      },
+      {
+        "witness_number": 17,
+        "objection": "Said she treated Claudin Boulengier before he went to doctor, not after"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "le Baleux (also called Demenge Collas)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "person who quarreled with her and called her witch",
+      "context": "Seduction story begins with quarrel with this person; later identified as Demenge Collas whose horse was allegedly poisoned"
+    },
+    {
+      "name": "Demenge Ballou",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "called her names",
+      "context": "Once called her 'noir gipsine, noir diable ou noir sorciere' but no witnesses"
+    },
+    {
+      "name": "wife of Demenge Ballou",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "hostile",
+      "context": "Said she wished accused were burned like 'la Gaidste'"
+    },
+    {
+      "name": "la Gaidste",
+      "role_in_narrative": "prior_accused",
+      "context": "Previously executed witch mentioned as comparison"
+    },
+    {
+      "name": "Schneider",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "former employer",
+      "context": "Accused was in service of Schneider 23 years earlier around time of mother's execution"
+    },
+    {
+      "name": "wife of Schneider",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "former employer",
+      "context": "In habit of taking light into room where she had lot of candlewax; accused suspected witchcraft"
+    },
+    {
+      "name": "nephew of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "nephew",
+      "context": "Had quarrel with Demenge Collas (Baleux)"
+    },
+    {
+      "name": "brother of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sibling",
+      "context": "Had fist fight with Didier Chatron who called him 'fils de sorcier'"
+    },
+    {
+      "name": "daughter of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Found with other children who had 3 hats full of pears"
+    },
+    {
+      "name": "sister-in-law of Cretienne",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "sister-in-law of witness 13",
+      "context": "Suspicions about accused were passed to her, then to accused"
+    },
+    {
+      "name": "father of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "Died of plague; had used same root remedy for eyes"
+    },
+    {
+      "name": "mother of accused",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother",
+      "context": "Executed as witch about 20 years before (circa 1593)"
+    },
+    {
+      "name": "sister of accused",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "sibling",
+      "context": "Already executed as witch"
+    },
+    {
+      "name": "le vieux marchal",
+      "role_in_narrative": "community_member",
+      "context": "Accused allegedly said if they arrested him he might tell about hail damage at Assenoncourt"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "Very detailed trial record with extensive witness testimony (18 witnesses), clear timeline, confession under torture, and execution. Notable for accused's ambiguous statements about witches that were used against her, family history of execution (mother and sister), healing activities, and final retraction at execution. Confession obtained under threat of strappado; accused confessed when presented to torture but retracted accusations of accomplices at execution. Rich detail on economic disputes, material culture, and social relationships.",
+    "pdf_pages": 5
+  }
+}

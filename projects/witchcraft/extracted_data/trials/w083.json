@@ -1,0 +1,2188 @@
+{
+  "trial_id": "w083",
+  "archive_ref": "B 4500 no 1",
+  "location": "St. Prancher",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1586-05-06",
+    "end": "1586-08-09",
+    "duration_days": 95
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Jean Aulbry",
+      "gender": "male",
+      "age": 34,
+      "age_approximate": true,
+      "occupation": ["weaver", "agricultural laborer"],
+      "origin": "St. Prancher",
+      "residence": "St. Prancher",
+      "marital_status": "married",
+      "spouse_name": "Alix Goyon",
+      "parents": {
+        "father": "Bastien Aulbry",
+        "mother": "Claude Lucaire"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    },
+    {
+      "name": "Claudin Aulbry",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": ["weaver", "retondeur", "laboureur", "herdsman"],
+      "origin": "St. Prancher",
+      "residence": "St. Prancher",
+      "marital_status": "married",
+      "spouse_name": "Ysabel daughter of Mongenot Gerel",
+      "parents": {
+        "father": "Bastien Aulbry",
+        "mother": "Claude Lucaire"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Didier Pierrot",
+      "gender": "male",
+      "age": 43,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, quarreled with Jean",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 40,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean wanted to attack billeted soldiers; Jean threw himself against witness's dagger and was wounded",
+        "threat_received": true,
+        "threat_quote": "he would make him as poor as himself",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "10 horses",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "since that date (12 years)"
+          },
+          {
+            "type": "animal_death",
+            "target": "other animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "over 12 years"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Collon",
+      "gender": "male",
+      "age": 35,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "Jean Petit Jean's horse (witness's associate)",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "2 days after Claudin touched the horse"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Perrin Boulengier",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claude femme de Jean Marsellot",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to sell 2 pigs to Claudin, wanted to fatten them more herself",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "same day"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claudin Didillot",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, quarreled with Claudin",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unspecified quarrel 3 years before",
+        "threat_received": true,
+        "threat_quote": "qu'il se donneroit de garde bientost",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "after the quarrel, then cured when witness confronted Claudin"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Gerard Pierrot",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Colas Thouvenin",
+      "gender": "male",
+      "age": 32,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, had business dealings with Jean",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "withdrew 2 cows belonging to his wife which Jean had leased; dispute over payment of pence and wine",
+        "threat_received": true,
+        "threat_quote": "he would not keep them long, or make a profit on them",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 cows",
+            "target_relationship": "witness's wife's cows",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "unspecified"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Petit Jean",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, business dealings",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "previous year"
+          },
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "returned from herd limping, recovered after Claudin came to see it"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Izabellon femme à Jean Petit Jean",
+      "gender": "female",
+      "age": 36,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "husband's horse that was lent to Jean",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "returned sick after being lent for ploughing, died"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Marie veuve de Clement Behel",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": false,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "3 weeks before testimony, returned lame from herd, recovered after Claudin felt along its leg"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mongin Variot",
+      "gender": "male",
+      "age": 35,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, business rival",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over buying meadow hay - witness bought for 4 francs, Claudin offered 6 francs, witness refused to buy twice",
+        "threat_received": true,
+        "threat_quote": "he would repent of this hay",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "a fortnight later"
+          },
+          {
+            "type": "animal_illness",
+            "target": "foal",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "recovered after confrontation"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "immediately after incident at well following Jean Braconnier's execution"
+          },
+          {
+            "type": "animal_illness",
+            "target": "foal",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "soon after subsidy dispute, recovered after Claudin visited"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Isabel femme de Mengin Viriot",
+      "gender": "female",
+      "age": 33,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "subsidy dispute, Claudin as village herdsman thought he shouldn't pay",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "husband Mengin Viriot",
+            "target_relationship": "husband",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "about 15 days after Jean Braconnier execution incident, recovered when Claudin visited"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudin Husson",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "boulengier",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, intermediary",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "told story of warning Mongin Viriot that Claudin was angry over subsidy",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Margueritte femme à Claudon Didellot",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Ydeline femme de Colas Thouvenin",
+      "gender": "female",
+      "age": 24,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "withdrawal of cows from herd",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 horses",
+            "target_relationship": "husband's animals",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "after the threats"
+          },
+          {
+            "type": "animal_death",
+            "target": "3 cows",
+            "target_relationship": "husband's animals",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "after the threats"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Clement Behel",
+      "gender": "male",
+      "age": 24,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Mengeon veuve de Bartremin Collin",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mre Jean Vincenot",
+      "gender": "male",
+      "age": 45,
+      "age_approximate": false,
+      "occupation": "chirurgien",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute with Claudin about his son 4 months earlier",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "after the dispute"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Claude femme de Jean Vincenot",
+      "gender": "female",
+      "age": 44,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "children called Claudin's children 'genots'",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Symon Baltaire",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "several animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "unknown",
+            "time_after_quarrel": "unspecified"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Claudin Petit",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Claudon femme de Perrin Boulengier",
+      "gender": "female",
+      "age": 26,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "witness's father",
+            "target_relationship": "witness's father",
+            "attributed_to": "Bastien Aulbry (father of accused)",
+            "time_after_quarrel": "unspecified"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Claudotte fille de feu Claudon Didellot",
+      "gender": "female",
+      "age": 24,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "creditor to Jean",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean owed her 11 francs for corn and rent, refused to pay",
+        "threat_received": true,
+        "threat_quote": "he might see her begging for her livelihood",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "same day after being persuaded to take bread, became demented for 23 weeks"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 24,
+      "name": "Didier Marsellot",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": false,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter Sebille",
+            "target_relationship": "daughter",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "6 years before, ill for 2 years after beating"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 25,
+      "name": "Sebille fille de Didier Marsellot",
+      "gender": "female",
+      "age": 20,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to show Jean Aulbry pears she had been gathering",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "beaten with grey stick three times, ill for 2 years"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 26,
+      "name": "Didier Messe",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 27,
+      "name": "Jacquot du Prey",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudin angry over the subsidy",
+        "threat_received": true,
+        "threat_quote": "qu'il l'en feroit respondre",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "2 or 3 months later, recovered mysteriously"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "day after not inviting Claudin to drink, died after 6 weeks"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 28,
+      "name": "Claudon Talleron",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 29,
+      "name": "Toussaincts Licaire",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudin complaining about not enough help with herd, witness said predecessors had no more",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudin Aulbry",
+            "time_after_quarrel": "next day fell ill, died a month later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 30,
+      "name": "Andreu Jacquinot",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor, housed accused while guarded",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 31,
+      "name": "Jean Georgeon",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 32,
+      "name": "Claudon Gobel",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 33,
+      "name": "Pancras Vincenot",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": "maire",
+      "location": "St. Prancher",
+      "relationship_to_accused": "mayor, official",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 34,
+      "name": "Viriot Petit Jean",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "creditor/financial dispute with Jean",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "stood guarantor for 72 franc loan to Jean from Demenge Guenot; had to pay and constrain Jean to reimburse",
+        "threat_received": true,
+        "threat_quote": "he would not gain from it",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses and cows",
+            "target_relationship": "witness's own",
+            "attributed_to": "Jean Aulbry",
+            "time_after_quarrel": "since then (4 years)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 35,
+      "name": "Claudin de Tresmont",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "St. Prancher",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1586-05-06",
+      "event": "informations_preparatoires",
+      "subject": "Jean and Claudin Aulbry",
+      "details": "Informations preparatoires taken by Claude Borduet, prévôt of Chastenoy, at request of PG des Vosges"
+    },
+    {
+      "date": "1586-05-12",
+      "event": "other",
+      "subject": "Jean and Claudin Aulbry",
+      "details": "Account of mysterious knocking and spirit visit to guarded accused on previous Saturday night"
+    },
+    {
+      "date": "1586-05-13",
+      "event": "interrogation",
+      "subject": "Claudin Aulbry",
+      "details": "First interrogation, denied all charges"
+    },
+    {
+      "date": "1586-05-19",
+      "event": "interrogation",
+      "subject": "Jean Aulbry",
+      "details": "First interrogation, denied all charges"
+    },
+    {
+      "date": "1586-05-20",
+      "event": "confrontation",
+      "subject": "Claudin Aulbry",
+      "details": "Confronted with witnesses, denied all charges"
+    },
+    {
+      "date": "1586-05-21",
+      "event": "confrontation",
+      "subject": "Jean Aulbry",
+      "details": "Confronted with witnesses, denied all charges, alleged Nicolas Thouvenin was convicted of selling bad meat and was a thief"
+    },
+    {
+      "date": "1586-06-01",
+      "event": "other",
+      "subject": "Jean Aulbry",
+      "details": "PG des Vosges records Jean Aulbry's violent death by suicide at instigation of devil; requests body be hung and goods confiscated; also asks for question extraordinaire for Claudin"
+    },
+    {
+      "date": "1586-06-03",
+      "event": "torture_approved",
+      "subject": "Claudin Aulbry",
+      "details": "Change de Nancy agrees to torture request (Remy among signatories)"
+    },
+    {
+      "date": "1586-07-04",
+      "event": "torture",
+      "subject": "Claudin Aulbry",
+      "details": "Racked for half hour, given water several times, quarter hour on strappado with 40 pound weight; maintained denials throughout"
+    },
+    {
+      "date": "1586-07-26",
+      "event": "other",
+      "subject": "Claudin Aulbry",
+      "details": "PG des Vosges (Maimbourg) asks denials be disregarded and requests banishment from duchy and confiscation of goods"
+    },
+    {
+      "date": "1586-07-26",
+      "event": "interrogation",
+      "subject": "Ysabeau wife of Claudin",
+      "details": "Interrogated about calf husband supposedly killed; said family ate meat from dead calf but denied husband killed it"
+    },
+    {
+      "date": "1586-08-09",
+      "event": "sentence",
+      "subject": "Claudin Aulbry",
+      "details": "Change de Nancy orders renvoyé jusqu'au rappel, told to conduct himself modestly so people have no cause to complain"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack", "water torture", "strappado with 40 pound weight"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": ""
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean Braconnier",
+      "location": "Delaucourt",
+      "context": "Previously executed witch mentioned in testimony; Claudin present at his execution 5 years before",
+      "already_executed": true,
+      "trial_id": ""
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "late wife of Pancras Vincenot",
+      "accuser_location": "St. Prancher",
+      "context": "Called father Bastien Aulbry a witch more than 20 years before",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Aulbry (via witness Didier Pierrot)",
+      "french": "he would make him as poor as himself",
+      "english": "he would make him as poor as himself",
+      "context": "Threat after quarrel over soldiers incident"
+    },
+    {
+      "speaker": "Claudin Aulbry (via witness Claudin Didillot)",
+      "french": "qu'il se donneroit de garde bientost",
+      "english": "that he should be on his guard soon",
+      "context": "Threat after quarrel"
+    },
+    {
+      "speaker": "Claude femme de Jean Marsellot",
+      "french": "fort craings et doubté d'un chacun",
+      "english": "greatly feared and doubted by everyone",
+      "context": "Describing reputation of brothers and father"
+    },
+    {
+      "speaker": "Claudin Aulbry (via witness Margueritte femme à Claudon Didellot)",
+      "french": "que l'on parloit de luy et qu'on en dict ce qu'on vouldroit qu'il estoit homme le plus mauvais qui fut jamais sur terre et l'ung des bon aussy s'il le vouloit faire",
+      "english": "that people spoke of him and they could say what they wanted, that he was the worst man who ever lived on earth and one of the good ones too if he wanted to be",
+      "context": "Claudin's statement in their house previous winter"
+    },
+    {
+      "speaker": "Claudin Aulbry",
+      "french": "bien joyeux de ce qu'il est entre nos mains prisonnier affin que l'on n'aisse plus de suspitions sur luy et qu'on ne le regard plus de travers",
+      "english": "very happy to be prisoner in our hands so that they would have no more suspicions of him and no longer look at him askance",
+      "context": "During first interrogation, revealing awareness of reputation"
+    },
+    {
+      "speaker": "Mongin Viriot (via witness)",
+      "french": "un cher poulain . . . pour quelcun",
+      "english": "an expensive foal . . . for someone",
+      "context": "Public warning to Claudin after foal became ill"
+    },
+    {
+      "speaker": "Claudotte fille de feu Claudon Didellot",
+      "french": "que c'estoit trop la faire aller en la maison d'un genot",
+      "english": "that it was too much to make her go to the house of a genot (witch/sorcerer)",
+      "context": "Angry statement to Jean over unpaid debt"
+    },
+    {
+      "speaker": "Jacquot du Prey (via witness)",
+      "french": "qu'il l'en feroit respondre",
+      "english": "that he would make him answer for it",
+      "context": "Claudin's threat over subsidy dispute"
+    },
+    {
+      "speaker": "Mongin Viriot questioning Claudin",
+      "french": "a quelle occasion qu'il l'avoit print hayne contre luy",
+      "english": "for what reason he had taken hatred against him",
+      "context": "After becoming ill following Jean Braconnier execution incident"
+    },
+    {
+      "speaker": "Witness about Mongin Viriot incident",
+      "french": "parolles assez suffisantes pour luy donner ample recognoissance qu'il luy avoit donné la maladie",
+      "english": "words sufficient enough to give him ample recognition that he had given him the illness",
+      "context": "Claudin's response interpreted as admission of causing illness"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Aulbry",
+      "person2": "Claudin Aulbry",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "accused",
+      "evidence_text": "brothers arrested together",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Aulbry",
+      "person2": "Bastien Aulbry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "their father Bastien Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Aulbry",
+      "person2": "Bastien Aulbry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "their father Bastien Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Aulbry",
+      "person2": "Claude Lucaire",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "learned weaving from his mother Claude Lucaire",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Aulbry",
+      "person2": "Claude Lucaire",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "learned weaving from his mother",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Aulbry",
+      "person2": "Alix Goyon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "marry a few months later Alix Goyon of Repel",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Aulbry",
+      "person2": "Ysabel daughter of Mongenot Gerel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married Ysabel daughter of Mongenot Gerel of Dompmartin",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Aulbry",
+      "person2": "Toussainct Aulbry",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "living with another brother, Toussainct in Metz",
+      "inferred": false
+    },
+    {
+      "person1": "Claude femme de Jean Marsellot",
+      "person2": "Jean Marsellot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claude femme de Jean Marsellot",
+      "inferred": false
+    },
+    {
+      "person1": "Izabellon",
+      "person2": "Jean Petit Jean",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Izabellon femme à Jean Petit Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Marie",
+      "person2": "Clement Behel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marie veuve de Clement Behel",
+      "inferred": false
+    },
+    {
+      "person1": "Isabel femme de Mengin Viriot",
+      "person2": "Mongin Variot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Isabel femme de Mengin Viriot / Mongin Variot",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Claudon Didellot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme à Claudon Didellot",
+      "inferred": false
+    },
+    {
+      "person1": "Ydeline",
+      "person2": "Colas Thouvenin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Ydeline femme de Colas Thouvenin",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon",
+      "person2": "Bartremin Collin",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeon veuve de Bartremin Collin",
+      "inferred": false
+    },
+    {
+      "person1": "Claude femme de Jean Vincenot",
+      "person2": "Jean Vincenot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claude femme de Jean Vincenot",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon femme de Perrin Boulengier",
+      "person2": "Perrin Boulengier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudon femme de Perrin Boulengier",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille fille de Didier Marsellot",
+      "person2": "Didier Marsellot",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "Sebille fille de Didier Marsellot",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte fille de feu Claudon Didellot",
+      "person2": "Claudon Didellot",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudotte fille de feu Claudon Didellot",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte fille de feu Claudon Didellot",
+      "person2": "Didier Didellot",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her uncle Didier Didellot at Genaincourt",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Collon",
+      "person2": "Jean Petit Jean",
+      "relationship_type": "business_partner",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "son of Jean Petit Jean his associé as they were ploughing",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Pierrot",
+      "person2": "Didier Pierrot's mother",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Bastien had bewitched his mother",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Thouvenin",
+      "person2": "Jean Aulbry",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "withdrawn 2 cows belonging to his wife which Jean Aulbry had leased",
+      "inferred": false
+    },
+    {
+      "person1": "Viriot Petit Jean",
+      "person2": "Jean Aulbry",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "stood guarantor for a loan of 72 francs to Jean from Demenge Guenot; had to pay and constrain Jean to reimburse",
+      "inferred": false
+    },
+    {
+      "person1": "Claudotte",
+      "person2": "Jean Aulbry",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Jean had owed her 11 francs for some corn and for rent",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple economic tensions: Jean owed debts to several people (11 francs to Claudotte for corn and rent, 72 francs loan to Viriot Petit Jean); Claudin disputed subsidy assessment of 5 francs claiming shepherds exempt; disputes over leasing cows, buying meadow hay, payment for work; both accused described as poor, Jean doing agricultural work 'by which the poor normally earned their living'; Claudin abandoned being laboureur because could not pay rent for land; economic hardship clearly underlying many quarrels"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Didier Pierrot's mother",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_illness",
+      "harm_description": "ill for a year before being cured after consulting devin at Blainville",
+      "attributed_to": "Bastien Aulbry (father)",
+      "precipitating_quarrel": "children's quarrel",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "method_alleged": "bewitchment",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "10 horses belonging to Didier Pierrot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "sudden deaths",
+      "animal_type": "horse",
+      "animal_count": 10,
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "quarrel when Jean wanted to attack soldiers, threw himself against witness's dagger",
+      "time_between_quarrel_and_harm": "since that date (12 years ago)",
+      "method_alleged": "bewitchment",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "other animals of Didier Pierrot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "deaths",
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "same quarrel",
+      "time_between_quarrel_and_harm": "over 12 years",
+      "method_alleged": "bewitchment",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "horse belonging to Jean Petit Jean",
+      "victim_relationship_to_witness": "business partner's horse",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "none known",
+      "time_between_quarrel_and_harm": "2 days after Claudin touched the horse while ploughing",
+      "method_alleged": "touch",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "horse belonging to Claude femme de Jean Marsellot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "became ill, died same day",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "refused to sell 2 pigs to Claudin",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "bewitchment",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "cow belonging to Claudin Didillot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "became sick, then recovered when witness confronted Claudin",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "quarrel 3 years before",
+      "time_between_quarrel_and_harm": "after threat",
+      "method_alleged": "bewitchment, then cured",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "2 cows belonging to Colas Thouvenin's wife",
+      "victim_relationship_to_witness": "wife's cows",
+      "harm_category": "animal_death",
+      "harm_description": "soon died",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "withdrew cows from Jean's lease, dispute over payment of pence and wine",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "bewitchment",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "horse belonging to Colas Thouvenin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "unspecified",
+      "time_between_quarrel_and_harm": "unspecified",
+      "method_alleged": "bewitchment",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "horse belonging to Jean Petit Jean",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "none given",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "bewitchment",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow belonging to Jean Petit Jean",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "returned limping from herd, recovered after Claudin saw it",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": "while in Claudin's herd",
+      "method_alleged": "bewitchment, then cured",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "horse lent to Jean Aulbry",
+      "victim_relationship_to_witness": "husband's horse",
+      "harm_category": "animal_death",
+      "harm_description": "returned sick, died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "husband lent horse to Jean for ploughing",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "bewitchment",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "cow belonging to Marie veuve de Clement Behel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "returned lame from herd, recovered after Claudin felt along its leg",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": "3 weeks before testimony",
+      "method_alleged": "bewitchment, then cured by touch",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "foal belonging to Mongin Variot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost a foal",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "dispute over buying meadow hay",
+      "time_between_quarrel_and_harm": "a fortnight later",
+      "method_alleged": "bewitchment",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "foal belonging to Mongin Variot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "became ill, recovered after witness threatened Claudin",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "same dispute",
+      "time_between_quarrel_and_harm": "fortnight later",
+      "method_alleged": "bewitchment, cured after confrontation",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Mongin Variot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "immediately became ill, had to return home",
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "incident at well after Jean Braconnier execution, bad look from Claudin",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "evil eye/look",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "foal belonging to Mongin Variot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "fine foal became ill, in very bad state not eating, recovered after Claudin visited",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "subsidy dispute - Claudin charged 30 gros, murmured against witness",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "bewitchment, cured by visit",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "calf belonging to Jean Vincenot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost a calf, side so damaged ('guasté') butcher had never seen such a case",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "dispute with Claudin about his son 4 months earlier",
+      "time_between_quarrel_and_harm": "after dispute",
+      "method_alleged": "bewitchment",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Claudotte fille de feu Claudon Didellot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became ill as if demented, wandered around fields for 23 weeks, then heavy bleeding for 2 days",
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "Jean owed her 11 francs, refused to pay, she called his house 'maison d'un genot'",
+      "time_between_quarrel_and_harm": "same day after taking bread from him",
+      "method_alleged": "poisoned bread",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Sebille fille de Didier Marsellot",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "beaten in fields, ill for 2 years afterwards, still felt pain sometimes",
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "refused to show Jean pears she was gathering",
+      "time_between_quarrel_and_harm": "immediate",
+      "method_alleged": "beating with grey stick three times, possibly with witchcraft",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "horse belonging to Jacquot du Prey",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "lying as if dead, didn't move when struck, then mysteriously recovered",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "subsidy dispute",
+      "time_between_quarrel_and_harm": "2 or 3 months later",
+      "method_alleged": "bewitchment, then cured when witness threatened to burn him",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "ox belonging to Jacquot du Prey",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill, died after 6 weeks",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "did not invite Claudin to join them for wine at fair at Vitel",
+      "time_between_quarrel_and_harm": "next day fell ill",
+      "method_alleged": "bewitchment",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "horse belonging to Toussaincts Licaire",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill, died a month later as nothing but skin and bones",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudin Aulbry",
+      "precipitating_quarrel": "Claudin complaining about not enough help with herd, witness said predecessors had no more",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "evil look, bewitchment",
+      "witness_number": 29
+    },
+    {
+      "victim_name": "horses and cows of Viriot Petit Jean",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost some horses and cows",
+      "animal_type": "horse, cow",
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "stood guarantor for 72 franc loan, had to pay and constrain Jean to reimburse",
+      "time_between_quarrel_and_harm": "since then (4 years)",
+      "method_alleged": "bewitchment",
+      "witness_number": 34
+    },
+    {
+      "victim_name": "3 horses of Colas Thouvenin",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "animal_death",
+      "harm_description": "deaths",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "withdrawal of cows from herd",
+      "time_between_quarrel_and_harm": "after threats",
+      "method_alleged": "bewitchment",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "3 cows of Colas Thouvenin",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "animal_death",
+      "harm_description": "deaths",
+      "animal_type": "cow",
+      "animal_count": 3,
+      "attributed_to": "Jean Aulbry",
+      "precipitating_quarrel": "withdrawal of cows from herd",
+      "time_between_quarrel_and_harm": "after threats",
+      "method_alleged": "bewitchment",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "father of Claudon femme de Perrin Boulengier",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Bastien Aulbry (father)",
+      "precipitating_quarrel": "unspecified",
+      "time_between_quarrel_and_harm": "unspecified",
+      "method_alleged": "witchcraft",
+      "witness_number": 22
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread",
+      "context": "Gendarmes took bread from Jean's house; Jean persuaded Claudotte to take some bread before she became ill",
+      "category": "food"
+    },
+    {
+      "object": "dagger",
+      "context": "Didier Pierrot holding dagger when Jean threw himself against it",
+      "category": "tools"
+    },
+    {
+      "object": "wine",
+      "context": "Dispute over payment involving wine; drinking pint of wine at fair",
+      "category": "food"
+    },
+    {
+      "object": "pigs",
+      "context": "Claudin asked to buy 2 pigs from Claude Marsellot",
+      "category": "agricultural"
+    },
+    {
+      "object": "horses",
+      "context": "Multiple references to horses for ploughing, transport, work animals",
+      "category": "agricultural"
+    },
+    {
+      "object": "cows",
+      "context": "Leasing cows, cows in herd, multiple cow deaths/illnesses",
+      "category": "agricultural"
+    },
+    {
+      "object": "oxen",
+      "context": "Bought two oxen at fair at Vitel",
+      "category": "agricultural"
+    },
+    {
+      "object": "foal",
+      "context": "Multiple references to foals becoming ill",
+      "category": "agricultural"
+    },
+    {
+      "object": "oats",
+      "context": "Offered oats to sick foal which then began to eat",
+      "category": "agricultural"
+    },
+    {
+      "object": "grey stick",
+      "context": "Jean struck Sebille three times with grey stick",
+      "category": "tools"
+    },
+    {
+      "object": "pears",
+      "context": "Sebille gathering pears, refused to show them to Jean",
+      "category": "food"
+    },
+    {
+      "object": "corn",
+      "context": "Jean owed 11 francs for corn",
+      "category": "agricultural"
+    },
+    {
+      "object": "meadow/hay (le poil)",
+      "context": "Bought 'le poil' of meadows for 4 francs for hay",
+      "category": "agricultural"
+    },
+    {
+      "object": "bichot",
+      "context": "Claudin came asking to borrow 'un bichot' (a vessel/measure)",
+      "category": "household"
+    },
+    {
+      "object": "chenevieux",
+      "context": "Pretext of repaying some 'chenevieux' (hemp seeds or related product)",
+      "category": "agricultural"
+    },
+    {
+      "object": "4 sols",
+      "context": "Money owed and repaid",
+      "category": "money"
+    },
+    {
+      "object": "72 francs",
+      "context": "Loan amount",
+      "category": "money"
+    },
+    {
+      "object": "11 francs",
+      "context": "Debt for corn and rent",
+      "category": "money"
+    },
+    {
+      "object": "4 francs",
+      "context": "Price for meadow hay",
+      "category": "money"
+    },
+    {
+      "object": "6 francs",
+      "context": "Counter-offer for hay",
+      "category": "money"
+    },
+    {
+      "object": "5 francs",
+      "context": "Subsidy assessment",
+      "category": "money"
+    },
+    {
+      "object": "30 gros",
+      "context": "Subsidy charge for Claudin",
+      "category": "money"
+    },
+    {
+      "object": "calf",
+      "context": "Dead calf eaten by Claudin's family",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "St. Prancher",
+      "place_type": "village",
+      "context": "Main location of trial, residence of accused and all witnesses"
+    },
+    {
+      "place_name": "Chastenoy (Chatenoy)",
+      "place_type": "village",
+      "context": "Location of castle where accused imprisoned, seat of prévôt Claude Borduet"
+    },
+    {
+      "place_name": "Blainville",
+      "place_type": "village",
+      "context": "Location of devin consulted by Didier Pierrot's mother"
+    },
+    {
+      "place_name": "St. Genot",
+      "place_type": "church",
+      "context": "Pilgrimage destination for cure"
+    },
+    {
+      "place_name": "Mirecourt",
+      "place_type": "village",
+      "context": "Where Claudin learned trade of retondeur from Francois Verrier"
+    },
+    {
+      "place_name": "Dompmartin",
+      "place_type": "village",
+      "context": "Near St. Prancher, home of Claudin's wife's family"
+    },
+    {
+      "place_name": "Metz",
+      "place_type": "village",
+      "context": "Where Jean worked as weaver for 2 years, lived with brother Toussainct"
+    },
+    {
+      "place_name": "Repel",
+      "place_type": "village",
+      "context": "Origin of Jean's wife Alix Goyon"
+    },
+    {
+      "place_name": "Delaucourt",
+      "place_type": "village",
+      "context": "Where witch Jean Braconnier was executed"
+    },
+    {
+      "place_name": "Genaincourt",
+      "place_type": "village",
+      "context": "Home of Didier Didellot, uncle of Claudotte"
+    },
+    {
+      "place_name": "Vitel",
+      "place_type": "market",
+      "context": "Fair where Jacquot du Prey bought oxen"
+    },
+    {
+      "place_name": "Giecourt",
+      "place_type": "village",
+      "context": "Home of Demenge Guenot who lent 72 francs to Jean"
+    },
+    {
+      "place_name": "house of Andreu Jacquinot",
+      "place_type": "house",
+      "context": "Where brothers guarded, mysterious spirit visit occurred"
+    },
+    {
+      "place_name": "tithe barn",
+      "place_type": "other",
+      "context": "Where Jean was threshing when Claudotte's uncles found him"
+    },
+    {
+      "place_name": "well (puix)",
+      "place_type": "water_body",
+      "context": "Where incident occurred after Jean Braconnier execution, Claudin gave Mongin Variot evil look"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where Sebille beaten by Jean; where Claudotte wandered when demented; where ploughing occurred"
+    },
+    {
+      "place_name": "pasture",
+      "place_type": "field",
+      "context": "Where Claude Marsellot took horse before meeting Claudin"
+    },
+    {
+      "place_name": "enclosure behind house",
+      "place_type": "field",
+      "context": "Where Jacquot du Prey's horse was when Claudin passed with herd"
+    },
+    {
+      "place_name": "village street",
+      "place_type": "road",
+      "context": "Where Jacquot went saying he would have Claudin burned"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Seat of Change de Nancy court"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Soldiers billeted in village; gendarmes took bread from Jean's house to Didier Pierrot's house; quarrel arose when Jean wanted to attack billeted soldiers",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Jean described as doing agricultural work 'by which the poor normally earned their living'",
+      "Claudin abandoned being laboureur because could not pay rent for land",
+      "Jean told Claudotte he could not pay debt because needed to feed his children",
+      "Jean threatened Claudotte saying she might see her begging for livelihood",
+      "Jean threatened Didier Pierrot saying he would make him as poor as himself",
+      "Multiple debts and payment disputes throughout testimonies"
+    ],
+    "religious_calendar_references": [
+      "St. Jean (St. John's Day) - when Mongin Viriot was charged with levying subsidy"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Claude Borduet",
+        "role": "prevot",
+        "location": "Chastenoy"
+      },
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Maimbourg",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Remy",
+        "role": "judge",
+        "location": "Change de Nancy"
+      },
+      {
+        "name": "Pancras Vincenot",
+        "role": "mayor",
+        "location": "St. Prancher"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "other",
+        "description": "Claudin Didellot had been fined for woodland offences (mentioned by Claudin Aulbry during confrontations)",
+        "outcome": "fined"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Nicolas Thouvenin and his wife convicted of selling bad meat, also accused of being thief (mentioned by Jean during confrontations)",
+        "outcome": "convicted"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "",
+    "imprisonment_conditions": "Guarded in house of Andreu Jacquinot by five men; mysterious spirit visit with three loud knocks at midnight",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 25,
+    "hearsay_testimony_count": 10,
+    "hearsay_chains": [
+      {
+        "reporter": "Mongin Variot",
+        "source": "his chambermaid",
+        "content": "Claudin had been threatening that he would repent of the hay"
+      },
+      {
+        "reporter": "Jean Collon",
+        "source": "several people",
+        "content": "several people thought Claudin had bewitched the horse"
+      },
+      {
+        "reporter": "Claudin Husson",
+        "source": "told by Mengin Viriot",
+        "content": "to inform Claudin that if foal died he would kill him"
+      },
+      {
+        "reporter": "Isabel femme de Mengin Viriot",
+        "source": "husband asked at execution",
+        "content": "whether Jean Braconnier had denounced anyone of St. Prancher"
+      },
+      {
+        "reporter": "Claudotte",
+        "source": "those who saw her",
+        "content": "said it was witchcraft and poison leaving her body"
+      }
+    ],
+    "oldest_accusation_years": 40,
+    "corroboration_groups": [
+      [11, 12, 13],
+      [8, 9],
+      [7, 15],
+      [24, 25]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "During torture: calling on patron saint, protesting they were crippling him so he couldn't work",
+      "During first interrogation: claimed to be 'gens de bien' (good people)",
+      "Said he was 'bien joyeux' (very happy) to be prisoner so suspicions would end"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 5,
+        "objection": "Claudin Didellot had been fined for woodland offences"
+      },
+      {
+        "witness_number": 7,
+        "objection": "Nicolas Thouvenin and his wife had been convicted of selling bad meat, and he was a thief"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Bastien Aulbry",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "father of both accused",
+      "relationship_to_witness": "various",
+      "context": "Father of accused, had reputation as witch, allegedly killed witness's father and bewitched Didier Pierrot's mother"
+    },
+    {
+      "name": "Jean Braconnier",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow suspected witch",
+      "relationship_to_witness": "none",
+      "context": "Executed witch from Delaucourt 5 years before; Claudin present at execution; incident at well after execution when someone wished he had accused all witches including Claudin"
+    },
+    {
+      "name": "Mengin Viriot",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "specialized in curing horses",
+      "context": "Specialist in curing horses, told Claude Marsellot her horse was hopeless"
+    },
+    {
+      "name": "Toussainct Aulbry",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother of Jean",
+      "relationship_to_witness": "none",
+      "context": "Another brother, Jean lived with him in Metz"
+    },
+    {
+      "name": "Francois Verrier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Claudin's master",
+      "relationship_to_witness": "none",
+      "context": "Of Mirecourt, taught Claudin trade of retondeur"
+    },
+    {
+      "name": "Mongenot Gerel",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father-in-law of Claudin",
+      "relationship_to_witness": "none",
+      "context": "Father of Claudin's wife Ysabel, from Dompmartin"
+    },
+    {
+      "name": "Alix Goyon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife of Jean",
+      "relationship_to_witness": "none",
+      "context": "Jean's wife from Repel"
+    },
+    {
+      "name": "Demenge Guenot",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "creditor",
+      "relationship_to_witness": "creditor to Viriot Petit Jean who stood guarantor",
+      "context": "Of Giecourt, lent 72 francs to Jean"
+    },
+    {
+      "name": "Didier Didellot",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "uncle of Claudotte",
+      "context": "Uncle at Genaincourt who cared for Claudotte when she was ill"
+    },
+    {
+      "name": "Claude Husson",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "intermediary in foal incident",
+      "context": "Alerted Claudin about Mongin Viriot's sick foal and threats"
+    },
+    {
+      "name": "late wife of Pancras Vincenot",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "wife of mayor",
+      "context": "Had called father Bastien Aulbry a witch more than 20 years before"
+    },
+    {
+      "name": "son of Jean Petit Jean",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "son of witness 8",
+      "context": "Was ploughing with Jean Collon as his associé when Claudin touched horse"
+    },
+    {
+      "name": "Ysabeau wife of Claudin",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife of Claudin",
+      "relationship_to_witness": "none",
+      "context": "Interrogated about calf, defended husband, said never saw him have anything to do with witchcraft"
+    },
+    {
+      "name": "children of Claudin",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "relationship_to_witness": "none",
+      "context": "Called 'genots' by children of Jean Vincenot; Jean mentioned needing to feed his children"
+    },
+    {
+      "name": "chambermaid of Mongin Variot",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "servant of witness 11",
+      "context": "Told Mongin that Claudin had been threatening about the hay"
+    },
+    {
+      "name": "man who cut up calf",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "butcher",
+      "context": "Told Jean Vincenot he had never seen calf with side so damaged"
+    },
+    {
+      "name": "five guards",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "guards",
+      "relationship_to_witness": "none",
+      "context": "Guarding brothers in house of Andreu Jacquinot when spirit visit occurred"
+    },
+    {
+      "name": "devin at Blainville",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "healer consulted",
+      "context": "Consulted by Didier Pierrot's mother, made pilgrimage to St. Genot on her behalf"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Complex trial involving two brothers with extensive witness testimony (35 witnesses). Jean Aulbry committed suicide before trial concluded. Claudin tortured extensively but maintained denials. Ultimately banished rather than executed. Rich detail on economic disputes, animal harms, reputation duration, and community dynamics. Notable for pattern of healing sick animals after confrontation. Military presence (billeted soldiers) mentioned. Reference to prior witch execution (Jean Braconnier). Mysterious spirit visit during imprisonment. Detailed economic context showing poverty and debt disputes underlying many accusations.",
+    "pdf_pages": 9
+  }
+}

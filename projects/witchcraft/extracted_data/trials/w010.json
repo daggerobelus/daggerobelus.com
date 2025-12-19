@@ -1,0 +1,980 @@
+{
+  "trial_id": "w010",
+  "archive_ref": "B 2203 no 2",
+  "location": "Champegnoult",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1618-05-02",
+    "end": "1618-06-07",
+    "duration_days": 36
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Parmentier",
+      "gender": "male",
+      "age": 46,
+      "age_approximate": true,
+      "occupation": ["couturier"],
+      "origin": null,
+      "residence": "Champegnoult",
+      "marital_status": "married",
+      "spouse_name": null,
+      "parents": {
+        "father": "Jean Boullenger",
+        "mother": null
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": null,
+        "devil_appearance": null,
+        "seduction_date": "over 26 years earlier",
+        "seduction_context": "Devil appeared and suggested incest with his mother; had sexual relations with his own mother 6 times",
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": ["powder for maleficia"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["danced back to back", "no banquet"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Martin Bourdon",
+      "gender": "male",
+      "age": 28,
+      "occupation": "laboureur",
+      "location": "Champegnoult",
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to cart grain to mill for Parmentier",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own horse",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": "same day"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolas Boucher",
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Champegnoult",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Noel Warin",
+      "gender": "male",
+      "age": 36,
+      "occupation": "manoeuvrier",
+      "location": "Champegnoult",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Epne Thouvenin",
+      "gender": "male",
+      "age": 23,
+      "occupation": "jeune fils",
+      "location": "Champegnoult",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "horses ate grass in front of Parmentier's house",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own horse",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Nicolas Warin",
+      "gender": "male",
+      "age": 40,
+      "occupation": "manoeuvrier",
+      "location": "Champegnoult",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Bastien's mother (paistre at Herbeviller)",
+            "target_relationship": "hearsay - mother of Bastien",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Mathiat Play Cesson",
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Champegnoult",
+      "relationship_to_accused": "customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter took fabric ('baye') to Parmentier to make but he asked too much; she found another to do it",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "wife",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": "few days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Françoise femme a Demenge Mauffrois",
+      "gender": "female",
+      "age": 20,
+      "occupation": null,
+      "location": "Champegnoult",
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "repeated father's story about 'baye' - wanted it made for village fete at St. Barthelemy",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge Perey",
+      "gender": "male",
+      "age": 20,
+      "occupation": "jeune fils",
+      "location": "Champegnoult",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Zabillon femme a Mathiat Play Cesson",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Champegnoult",
+      "relationship_to_accused": "customer/neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "repeated story as told by husband and daughter about 'baye'; Parmentier refused to return her salutations of 'bon jour' and 'bon soir' after the affair",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jacques Doyen",
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness refused to rent a 'cheneviere' (hemp field) to him",
+        "threat_received": true,
+        "threat_quote": "threatening remarks",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own horse",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": "subsequently"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Laurent Mathieu",
+      "gender": "male",
+      "age": 46,
+      "occupation": "laboureur",
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Bastien Pierson",
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": "Champegnoult",
+      "relationship_to_accused": "in-law (mother married Parmentier's wife's brother as second husband)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mother had quarrel with Parmentier",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother",
+            "target_relationship": "witness's mother",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": "after quarrel"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Dion femme a Colas Mathiat",
+      "gender": "female",
+      "age": 55,
+      "occupation": null,
+      "location": "Herbeviller",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mother had quarrels with Parmentier",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "mother",
+            "target_relationship": "witness's mother",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": "after quarrels"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Margueritte veuve de Demenge Gatton",
+      "gender": "female",
+      "age": 55,
+      "occupation": null,
+      "location": "Herbeviller",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claudon Pierson (sister-in-law)",
+            "target_relationship": "witness's sister-in-law",
+            "attributed_to": "Jean Parmentier",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1618-05-02",
+      "event": "informations_preparatoires",
+      "subject": "Jean Parmentier",
+      "details": "procureur d'office informed of ill fame as witch, orders investigation"
+    },
+    {
+      "date": "1618-05-21",
+      "event": "informations_preparatoires",
+      "subject": "Jean Parmentier",
+      "details": "witness testimonies begin"
+    },
+    {
+      "date": "1618-05-23",
+      "event": "informations_preparatoires",
+      "subject": "Jean Parmentier",
+      "details": "witness 6 testimony"
+    },
+    {
+      "date": "1618-05-25",
+      "event": "informations_preparatoires",
+      "subject": "Jean Parmentier",
+      "details": "witnesses 12-15 testimony; interrogation of accused"
+    },
+    {
+      "date": "1618-05-25",
+      "event": "interrogation",
+      "subject": "Jean Parmentier",
+      "details": "admitted trying to flee in fear of imprisonment; denied mother driven from Raon; denied all charges"
+    },
+    {
+      "date": "1618-05-26",
+      "event": "confrontation",
+      "subject": "Jean Parmentier",
+      "details": "simple denials; only witnesses 13, 15, 14, 4, 1, 11, and 9 produced"
+    },
+    {
+      "date": "1618-05-26",
+      "event": "torture_requested",
+      "subject": "Jean Parmentier",
+      "details": "procureur d'office asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1618-05-28",
+      "event": "torture_approved",
+      "subject": "Jean Parmentier",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1618-05-31",
+      "event": "torture",
+      "subject": "Jean Parmentier",
+      "details": "interrogation under torture with gresillons and rack; confessed to witchcraft, incest, sabbat attendance, and maleficia"
+    },
+    {
+      "date": "1618-06-01",
+      "event": "interrogation",
+      "subject": "Jean Parmentier",
+      "details": "confirmed earlier confessions"
+    },
+    {
+      "date": "1618-06-01",
+      "event": "death_requested",
+      "subject": "Jean Parmentier",
+      "details": "procureur d'office asks for death sentence"
+    },
+    {
+      "date": "1618-06-01",
+      "event": "death_approved",
+      "subject": "Jean Parmentier",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1618-06-07",
+      "event": "execution",
+      "subject": "Jean Parmentier",
+      "details": "formal sentence and execution"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["gresillons", "rack"],
+    "requesting_official": "procureur d'office",
+    "approving_court": "Change de Nancy",
+    "restrictions": "ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Catherine 'la Maulgrasse'",
+      "location": null,
+      "context": "seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la Grande Didiere",
+      "location": null,
+      "context": "seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jeanotte femme de Nicolas Marat",
+      "location": "Champegnoult (left under suspicion)",
+      "context": "seen at sabbat; proposed destroying grains but others did not consent",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Nicolas Marat",
+      "location": "Champegnoult",
+      "context": "husband of Jeanotte",
+      "already_executed": true,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": null,
+      "accuser_location": "Raon",
+      "context": "Asked if his mother had been driven out of Raon on suspicion of witchcraft (denied)",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Parmentier",
+      "french": "quil est devenu tel pour ses faultes et peschés, et qu'il a heu affaire a sa propre mere",
+      "english": "that he became such [a witch] for his faults and sins, and that he had affairs with his own mother",
+      "context": "confession under torture with gresillons"
+    },
+    {
+      "speaker": "Mre Francois Marchal (horse expert at Sercoeur)",
+      "french": "qu'il estoit perdu pour estre ensorcelé",
+      "english": "that it [the horse] was lost because it was bewitched",
+      "context": "told to witness 4 (Epne Thouvenin) about his sick horse"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Parmentier",
+      "person2": "Jean Boullenger",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father had been Jean Boullenger",
+      "inferred": false
+    },
+    {
+      "person1": "Bastien Pierson",
+      "person2": "Jean Parmentier",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "They were related, because she [Bastien's mother] had married as second husband his [Parmentier's] wife's brother",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise",
+      "person2": "Mathiat Play Cesson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his daughter Francoise",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise femme a Demenge Mauffrois",
+      "person2": "Mathiat Play Cesson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Repeated father's story",
+      "inferred": false
+    },
+    {
+      "person1": "Zabillon femme a Mathiat Play Cesson",
+      "person2": "Mathiat Play Cesson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme a Mathiat Play Cesson",
+      "inferred": false
+    },
+    {
+      "person1": "Zabillon femme a Mathiat Play Cesson",
+      "person2": "Françoise",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Repeated story as told by husband and daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise femme a Demenge Mauffrois",
+      "person2": "Demenge Mauffrois",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme a Demenge Mauffrois",
+      "inferred": false
+    },
+    {
+      "person1": "Dion femme a Colas Mathiat",
+      "person2": "Colas Mathiat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme a Colas Mathiat",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte veuve de Demenge Gatton",
+      "person2": "Demenge Gatton",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve de Demenge Gatton",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte veuve de Demenge Gatton",
+      "person2": "Claudon Pierson",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her sister-in-law Claudon Pierson",
+      "inferred": false
+    },
+    {
+      "person1": "Bastien Pierson",
+      "person2": "Claudon Pierson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his mother",
+      "inferred": true
+    },
+    {
+      "person1": "Jeanotte",
+      "person2": "Nicolas Marat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Jeanotte wife of Nicolas Marat",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Parmentier was a couturier (tailor/seamstress). Multiple disputes arose from his trade: Mathiat Play Cesson's daughter had fabric ('baye') for him to make into clothing for village fete at St. Barthelemy, but he asked too much and she found another to do it. Also dispute over rental of cheneviere (hemp field) with Jacques Doyen. Dispute over carting grain to mill with Martin Bourdon. Dispute over carting wood with Collan Thouvelin."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Martin Bourdon's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "witness refused to cart grain to mill for Parmentier",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "threat/curse",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Epne Thouvenin's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "became ill as if rabid, died after two days; horse expert said it was bewitched",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "horses ate grass in front of Parmentier's house, made him angry",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "bewitchment",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Bastien's mother (paistre at Herbeviller)",
+      "victim_relationship_to_witness": "hearsay source's mother",
+      "harm_category": "human_death",
+      "harm_description": "fatal illness; maintained throughout that Parmentier had given it to her",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Wife of Mathiat Play Cesson",
+      "victim_relationship_to_witness": "witness's wife",
+      "harm_category": "human_injury",
+      "harm_description": "kicked by normally peaceable horse in stable, was for some time given up for dead",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "daughter had taken fabric to Parmentier but he asked too much; she found another to do it",
+      "time_between_quarrel_and_harm": "few days later",
+      "method_alleged": "caused horse to kick",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jacques Doyen's horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "witness refused to rent a cheneviere (hemp field) to him",
+      "time_between_quarrel_and_harm": "subsequently",
+      "method_alleged": "threat",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Claudon Pierson (mother of Bastien Pierson)",
+      "victim_relationship_to_witness": "witness's mother",
+      "harm_category": "human_death",
+      "harm_description": "became very ill, all swollen; always said Parmentier had given her the illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "quarrel with Parmentier",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "method_alleged": null,
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Mother of Dion femme a Colas Mathiat",
+      "victim_relationship_to_witness": "witness's mother",
+      "harm_category": "human_illness",
+      "harm_description": "seriously ill for more than a year",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "quarrels they had often had",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Claudon Pierson (sister-in-law of Margueritte)",
+      "victim_relationship_to_witness": "witness's sister-in-law",
+      "harm_category": "human_illness",
+      "harm_description": "ill and swollen; always maintained Parmentier had given her the illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Baby of Collan Thouvelin",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jean Parmentier",
+      "precipitating_quarrel": "Collan Thouvelin refused to cart some wood",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "baye",
+      "context": "fabric taken to Parmentier to be made into clothing for village fete at St. Barthelemy",
+      "category": "clothing"
+    },
+    {
+      "object": "grain",
+      "context": "Martin Bourdon refused to cart grain to mill for Parmentier",
+      "category": "agricultural"
+    },
+    {
+      "object": "cheneviere",
+      "context": "hemp field that Jacques Doyen refused to rent to Parmentier",
+      "category": "agricultural"
+    },
+    {
+      "object": "wood",
+      "context": "Collan Thouvelin refused to cart wood for Parmentier",
+      "category": "other"
+    },
+    {
+      "object": "powder",
+      "context": "Parmentier confessed to using powder for malefices",
+      "category": "magical"
+    },
+    {
+      "object": "gresillons",
+      "context": "torture device used during interrogation",
+      "category": "other"
+    },
+    {
+      "object": "rack",
+      "context": "torture device used during interrogation",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Champegnoult",
+      "place_type": "village",
+      "context": "primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Herbeviller",
+      "place_type": "village",
+      "context": "residence of some witnesses (Dion, Margueritte); location where Bastien worked as paistre of animals"
+    },
+    {
+      "place_name": "Sercoeur",
+      "place_type": "village",
+      "context": "location where Mre Francois Marchal (horse expert) lived"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "place where Parmentier's mother was allegedly driven out on suspicion of witchcraft (denied)"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "other",
+      "context": "location of Change de Nancy court that approved torture and death sentence"
+    },
+    {
+      "place_name": "mill",
+      "place_type": "other",
+      "context": "destination for grain that Martin Bourdon refused to cart for Parmentier"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "other",
+      "context": "where Mathiat Play Cesson's wife was kicked by horse"
+    },
+    {
+      "place_name": "sabbat location",
+      "place_type": "sabbat_location",
+      "context": "unnamed location where Parmentier confessed to attending sabbat"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [],
+    "religious_calendar_references": [
+      "St. Martin (previous St. Martin when quarrel occurred)",
+      "St. Barthelemy (village fete)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur d'office",
+        "role": "prosecutor_pg",
+        "location": null
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": null,
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 7,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Nicolas Warin (witness 5)",
+        "source": "Bastien, paistre of animals at Herbeviller",
+        "content": "his mother maintained throughout fatal illness that Parmentier had given it to her"
+      }
+    ],
+    "oldest_accusation_years": 6,
+    "corroboration_groups": [
+      [6, 7, 9],
+      [13, 15],
+      [13, 14]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "tried to flee in fear of being imprisoned",
+      "initially said he would damn himself if he confessed to being a witch"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Bastien (paistre at Herbeviller)",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "source for Nicolas Warin (witness 5)",
+      "context": "told Nicolas Warin about his mother's deathbed accusation of Parmentier"
+    },
+    {
+      "name": "Mre Francois Marchal",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "horse expert at Sercoeur who told Epne Thouvenin that his horse was bewitched"
+    },
+    {
+      "name": "Collan Thouvelin",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "community member who refused to cart wood",
+      "relationship_to_witness": null,
+      "context": "Parmentier confessed to killing his baby after he refused to cart wood"
+    },
+    {
+      "name": "Claudon Pierson",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "in-law (wife's brother's wife as second husband)",
+      "relationship_to_witness": "mother of Bastien Pierson (witness 13); sister-in-law of Margueritte (witness 15)",
+      "context": "died from swollen illness attributed to Parmentier; directly accused him when he visited her; Parmentier denied killing her even under torture"
+    },
+    {
+      "name": "Jean Parmentier's mother",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "mother",
+      "relationship_to_witness": null,
+      "context": "allegedly driven out of Raon on suspicion of witchcraft (Parmentier denied); Parmentier confessed to incestuous relations with her 6 times over 26 years earlier"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Sonnet 4.5",
+    "confidence": "high",
+    "notes": "Complete trial record with detailed witness testimony, torture confession, and execution. Trial shows pattern of economic disputes (tailor refusing or overcharging for work, disputes over land rental and labor services) leading to alleged maleficia, particularly involving horse deaths. Notable confession includes incest with mother and Devil's role in initiating this. Parmentier denied killing Claudon Pierson even under torture, though multiple witnesses attributed her death to him. Witness 11 mentioned in confrontation list but not in witness testimony section.",
+    "pdf_pages": 3
+  }
+}

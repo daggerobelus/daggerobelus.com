@@ -1,0 +1,1015 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "trial_id": "w070",
+  "archive_ref": "B 4077 no 2",
+  "location": "Charmes",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1596-08-09",
+    "end": "1596-09-03",
+    "duration_days": 25
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Claudon la Romaine",
+      "gender": "female",
+      "age": 70,
+      "age_approximate": true,
+      "occupation": ["beggar", "day labourer", "spinner"],
+      "origin": "Bar-le-Duc",
+      "residence": "Charmes",
+      "marital_status": "widowed",
+      "spouse_name": "Bastien Thiery",
+      "parents": {
+        "father": "Claude Martinet",
+        "mother": "Didon"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": null,
+        "devil_appearance": null,
+        "seduction_date": "18 years before arrest (1578)",
+        "seduction_context": "Returning from begging at Branthegny; was upset at having to beg, and devil promised to allow her to live at her ease so she should not have to beg again",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "Great scar on forehead which sergent pricked without her feeling anything - suspected it was devil's mark"
+        },
+        "powder_types": ["magical powder (unspecified)"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["nothing remarkable mentioned"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mongeatte veuve de Aulbry Jean Aulbry",
+      "gender": "female",
+      "age": 54,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor/acquaintance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Her late husband's son refused to undertake a lawsuit at Nancy for her despite being asked by his father",
+        "threat_received": true,
+        "threat_quote": "ha ha il n'y a plus de bonne gens au monde les pauvres sont maintenant delaissez d'un chacun",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself (Mongeatte)",
+            "target_relationship": "self",
+            "attributed_to": "Claudon la Romaine",
+            "time_after_quarrel": "illness spread to thigh after Claudon touched her there"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Sebille fille de feu Harmant Aulbry",
+      "gender": "female",
+      "age": 24,
+      "age_approximate": true,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudon advised remedy for mother's illness (Italian women's mixture to wash head) but mother refused; Claudon was displeased",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself (Sebille)",
+            "target_relationship": "self",
+            "attributed_to": "Claudon la Romaine",
+            "time_after_quarrel": "previous Christmas - struck her on shoulder at church door taking holy water"
+          },
+          {
+            "type": "human_death",
+            "target": "her mother",
+            "target_relationship": "mother",
+            "attributed_to": "Claudon la Romaine",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Isabel femme de Jean Pordon",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness had stopped visiting Claudon during her illness; when Claudon recovered and came to witness's house, she threw away cabbage and bread she didn't like",
+        "threat_received": false,
+        "threat_quote": "bien commencé mal achevé",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself (Isabel)",
+            "target_relationship": "self",
+            "attributed_to": "Claudon la Romaine",
+            "time_after_quarrel": "immediately after quarrel - felt pain in leg which became so swollen she could only walk with stick"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Idatte femme d'Aubry Perin tailleur",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudon came asking for stockings; witness said they had none (already feared her)",
+        "threat_received": true,
+        "threat_quote": "Vous dites doncque que je suis Jenoche s'il vous le semble rendez vous partie contre moy et faictes ce que vous pouvez",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself (Idatte)",
+            "target_relationship": "self",
+            "attributed_to": "Claudon la Romaine",
+            "time_after_quarrel": "illness began when Claudon touched her; had been ill for a year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claudon veuve de Jean Pelletier",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "beggar",
+      "location": "Charmes",
+      "relationship_to_accused": "fellow beggar",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jealousy over alms - witness had received 2 sols from Nicolas Flamand commis de l'hopital and Claudon had not",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself (Claudon veuve Pelletier)",
+            "target_relationship": "self",
+            "attributed_to": "Claudon la Romaine",
+            "time_after_quarrel": "after being touched by her, became all swollen and had to be helped back to house"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Nicolas Sellier",
+      "gender": "male",
+      "age": 22,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Barbe Sellier",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Claude Rossel",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1596-08-09",
+      "event": "informations_preparatoires",
+      "subject": "Claudon la Romaine",
+      "details": "Informations preparatoires against Claudon la Romaine of Charmes, accused by Barbe Mallebarbe up to her execution"
+    },
+    {
+      "date": "1596-08-12",
+      "event": "interrogation",
+      "subject": "Claudon la Romaine",
+      "details": "First interrogation - questioned about early life, marriage, and work history"
+    },
+    {
+      "date": "1596-08-14",
+      "event": "interrogation",
+      "subject": "Claudon la Romaine",
+      "details": "Second interrogation - shaved and devil's mark discovered on forehead"
+    },
+    {
+      "date": "1596-08-16",
+      "event": "confrontation",
+      "subject": "Claudon la Romaine",
+      "details": "Confrontations with witnesses; maintained innocence but said nothing against witnesses"
+    },
+    {
+      "date": "1596-08-16",
+      "event": "other",
+      "subject": "Claudon la Romaine",
+      "details": "After being taken back to prison, sent for prévôt and started to confess voluntarily"
+    },
+    {
+      "date": "1596-08-21",
+      "event": "torture_requested",
+      "subject": "Claudon la Romaine",
+      "details": "PG des Vosges asks for question extraordinaire to extract fuller confessions"
+    },
+    {
+      "date": "1596-08-23",
+      "event": "torture_approved",
+      "subject": "Claudon la Romaine",
+      "details": "Change de Nancy approves torture with moderation suitable to her age"
+    },
+    {
+      "date": "1596-08-26",
+      "event": "torture",
+      "subject": "Claudon la Romaine",
+      "details": "Interrogation under torture - placed on rack and slightly drawn; confessed to additional malefices"
+    },
+    {
+      "date": "1596-08-30",
+      "event": "death_requested",
+      "subject": "Claudon la Romaine",
+      "details": "PG des Vosges asks for death sentence"
+    },
+    {
+      "date": "1596-08-31",
+      "event": "death_approved",
+      "subject": "Claudon la Romaine",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1596-09-03",
+      "event": "execution",
+      "subject": "Claudon la Romaine",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "moderation suitable to her age"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean de Socourt",
+      "location": "Charmes",
+      "context": "Named during confession under torture; said to be a witch but knew no other details because all were masked at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Claudon wife of Jean de Socourt",
+      "location": "Charmes",
+      "context": "Named during confession under torture",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jannette Topin",
+      "location": "Charmes",
+      "context": "Named during confession under torture",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Vincent Vinot",
+      "location": "Charmes",
+      "context": "Named during confession under torture",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Barbon Marlier widow of Nicolas Sellier",
+      "location": "Charmes",
+      "context": "Named during confession under torture",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Barbe Mallebarbe",
+      "accuser_location": "Charmes",
+      "context": "Accused Claudon up to her execution; Claudon claimed Mallebarbe accused her out of hatred",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudon la Romaine",
+      "french": "ha ha il n'y a plus de bonne gens au monde les pauvres sont maintenant delaissez d'un chacun",
+      "english": "ha ha there are no more good people in the world, the poor are now abandoned by everyone",
+      "context": "Said to Mongeatte after hearing that her late husband's son refused to undertake a lawsuit"
+    },
+    {
+      "speaker": "Claudon la Romaine",
+      "french": "tous ceux qui sont malades, s'ils vouloient dire qu'ils sont ensorcellé ilz ne feroient pas bien, et que c'est dieu qui envoye les maladies",
+      "english": "all those who are sick, if they wanted to say they are bewitched they would not do well, and it is God who sends illnesses",
+      "context": "Said during first interrogation when denying she was a witch"
+    },
+    {
+      "speaker": "Isabel Pordon",
+      "french": "je ne quel diable me la donne sy on ne me l'oste il faudra tuer des gens",
+      "english": "I don't know what devil gave it to me, if it is not removed I will have to kill people",
+      "context": "Complaining about her leg pain to Claudon"
+    },
+    {
+      "speaker": "Claudon la Romaine",
+      "french": "bien commencé mal achevé",
+      "english": "well begun, badly finished",
+      "context": "Said to Isabel Pordon when she stopped visiting Claudon during her illness"
+    },
+    {
+      "speaker": "Idatte (Aubry Perin's wife)",
+      "french": "Vous dites doncque que je suis Jenoche s'il vous le semble rendez vous partie contre moy et faictes ce que vous pouvez",
+      "english": "You say then that I am a witch, if it seems so to you take action against me and do what you can",
+      "context": "Claudon's defiant response when Aubry Perin compared her to la Mallebarbe"
+    },
+    {
+      "speaker": "Jean Regard",
+      "french": "le diable",
+      "english": "the devil",
+      "context": "Referring to Mongeatte's illness, which made Claudon go out in a fury"
+    },
+    {
+      "speaker": "Claudon la Romaine",
+      "french": "Bastien, Bastien, vien moy trouver",
+      "english": "Bastien, Bastien, come find me",
+      "context": "Calling for her dead husband in bed, after which he allegedly appeared and struck the bed with a stick"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claudon la Romaine",
+      "person2": "Bastien Thiery",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "husband had died 15 years before",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Martinet",
+      "person2": "Claudon la Romaine",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Claude Martinet and his wife Didon",
+      "inferred": false
+    },
+    {
+      "person1": "Didon",
+      "person2": "Claudon la Romaine",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Claude Martinet and his wife Didon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon la Romaine",
+      "person2": "Jean Regard",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "in whose house Claudon lived",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte veuve de Aulbry",
+      "person2": "Jean Aulbry",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve de Aulbry Jean Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille",
+      "person2": "Harmant Aulbry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "fille de feu Harmant Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Isabel",
+      "person2": "Jean Pordon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme de Jean Pordon",
+      "inferred": false
+    },
+    {
+      "person1": "Idatte",
+      "person2": "Aubry Perin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme d'Aubry Perin tailleur",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon (witness 5)",
+      "person2": "Jean Pelletier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve de Jean Pelletier",
+      "inferred": false
+    },
+    {
+      "person1": "Barbon Marlier",
+      "person2": "Nicolas Sellier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Barbon Marlier widow of Nicolas Sellier",
+      "inferred": false
+    },
+    {
+      "person1": "Jean de Socourt",
+      "person2": "Claudon (wife of Socourt)",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "his wife Claudon",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Claudon was interrogated with unusual severity about her early life and lack of proper profession. She was extremely poor, living on charity. She had pursued a lawsuit over her 'dolbaire' (unclear what this refers to) against late Demenge Meschi both at Charmes and Nancy. There was tension between beggars - Claudon had been accused by other poor of hindering them from gaining entry to houses by demanding alms for her husband as well as herself. Witness 5 testified to jealousy over alms distribution."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Mongeatte veuve de Aulbry Jean Aulbry",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Great illness with right thigh so swollen she could only move by crawling; began with swollen and ulcerated foot, spread to thigh",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Her late husband's son refused to undertake a lawsuit at Nancy for her",
+      "time_between_quarrel_and_harm": "Spread to thigh after Claudon touched her there",
+      "method_alleged": "touch",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Sebille fille de feu Harmant Aulbry",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Great illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Struck her on shoulder at church door",
+      "time_between_quarrel_and_harm": "previous Christmas",
+      "method_alleged": "touch/strike on shoulder",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Sebille's mother",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_death",
+      "harm_description": "Fatal sickness in stomach",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Mother refused to try remedy (Italian women's mixture to wash head) that Claudon suggested",
+      "time_between_quarrel_and_harm": "Ceased coming to house after mother refused remedy",
+      "method_alleged": "unknown",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Isabel femme de Jean Pordon",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Pain in leg which became so swollen she could only walk with a stick",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Claudon threw away cabbage and bread she didn't like; witness scolded her for throwing away 'le bien de Dieu'",
+      "time_between_quarrel_and_harm": "immediately - 'witness immediately felt pain in leg'",
+      "method_alleged": "unknown - curse after leaving angry",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Idatte femme d'Aubry Perin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness for a year, so emaciated she could only move with husband's help",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Witness said they had no stockings to give when Claudon asked",
+      "time_between_quarrel_and_harm": "Illness began when Claudon touched her",
+      "method_alleged": "touch",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Claudon veuve de Jean Pelletier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Sickness for a year, became all swollen",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Jealousy - witness had received alms (2 sols) from Nicolas Flamand and Claudon had not",
+      "time_between_quarrel_and_harm": "After being touched by her, became all swollen",
+      "method_alleged": "touch",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Wife of maire Nicolas Meschy",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_injury",
+      "harm_description": "Miscarriage",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Maire turned her roughly away from door",
+      "time_between_quarrel_and_harm": "Later she pretended to tell wife she would have a fine child",
+      "method_alleged": "rubbed powder on her stomach",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Two horses belonging to late procureur général des Vosges, sieur Harrimont",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_death",
+      "harm_description": "Death of two horses",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Revenge for his failure to take sympathetic attitude in her lawsuit over her 'dolbaire'",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Thiebault Dorin, gouverneur de l'hopital",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Her weekly allowance had been reduced by 2 sols (though she knew administrators had decided this)",
+      "time_between_quarrel_and_harm": "She repented his death soon after causing it",
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Unknown person at Grainville",
+      "victim_relationship_to_witness": null,
+      "harm_category": "other",
+      "harm_description": "Unknown - put powder on shoulder of person who refused alms",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon la Romaine",
+      "precipitating_quarrel": "Refused alms",
+      "time_between_quarrel_and_harm": "Immediately",
+      "method_alleged": "put powder on shoulder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Didier Colardot (deceased)",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_death",
+      "harm_description": "Death (alleged bewitchment)",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Unknown - Claudon asked if it was said he had been bewitched",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Late prévôt",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_illness",
+      "harm_description": "Lost use of limbs 3 years before",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Unknown - Claudon made enquiries about him",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 1
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "stockings",
+      "context": "Claudon came to ask Idatte for some stockings",
+      "category": "clothing"
+    },
+    {
+      "object": "plate of cabbage",
+      "context": "Isabel gave Claudon a plate of cabbage which she threw away",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "Claudon threw away bread along with cabbage she didn't like",
+      "category": "food"
+    },
+    {
+      "object": "stick (walking stick)",
+      "context": "Isabel could only walk with a stick due to swollen leg",
+      "category": "tools"
+    },
+    {
+      "object": "butter",
+      "context": "Claudon advised Isabel to rub her leg with butter to cure it",
+      "category": "food"
+    },
+    {
+      "object": "alms (2 sols)",
+      "context": "Claudon veuve Pelletier received 2 sols from Nicolas Flamand commis de l'hopital",
+      "category": "money"
+    },
+    {
+      "object": "magical powder",
+      "context": "Used to cause various harms; Claudon said she burned all powder on arrest of la Mallebarbe",
+      "category": "magical"
+    },
+    {
+      "object": "Italian women's mixture to wash head",
+      "context": "Remedy Claudon suggested for Sebille's mother's illness",
+      "category": "other"
+    },
+    {
+      "object": "stick (weapon)",
+      "context": "Dead husband Bastien allegedly appeared and struck bed with a stick",
+      "category": "other"
+    },
+    {
+      "object": "holy water",
+      "context": "Sebille was taking holy water at church door when Claudon struck her",
+      "category": "religious"
+    },
+    {
+      "object": "instruments of torture",
+      "context": "When she saw instruments of torture, admitted causing miscarriage",
+      "category": "other"
+    },
+    {
+      "object": "rack",
+      "context": "Placed on rack and slightly drawn during torture",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Charmes",
+      "place_type": "village",
+      "context": "Primary location of trial; where Claudon lived and where most witnesses were from"
+    },
+    {
+      "place_name": "Bar-le-Duc",
+      "place_type": "village",
+      "context": "Claudon's birthplace and origin"
+    },
+    {
+      "place_name": "Rome",
+      "place_type": "other",
+      "context": "Claudon and her husband lived there twice - once for 4-5 years, another time for 3 years; worked in household of Cardinal Rodolphe"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of lawsuit that Mongeatte's stepson refused to undertake; also where Claudon pursued case over 'dolbaire'"
+    },
+    {
+      "place_name": "Branthegny",
+      "place_type": "village",
+      "context": "Where Claudon was returning from begging when she was seduced by devil 18 years before"
+    },
+    {
+      "place_name": "Grainville",
+      "place_type": "village",
+      "context": "Where Claudon committed her first malefice after being refused alms"
+    },
+    {
+      "place_name": "Church door",
+      "place_type": "church",
+      "context": "Where Claudon struck Sebille on shoulder as she was taking holy water"
+    },
+    {
+      "place_name": "Jean Regard's house",
+      "place_type": "house",
+      "context": "Where Claudon lived"
+    },
+    {
+      "place_name": "Prison",
+      "place_type": "other",
+      "context": "Where Claudon was held; where she had conversation with la Triffatte on first night"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [
+      "whirlwind in street (though witness 7 said it was caused by loose cow)"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Claudon lived on charity for 15 years after husband's death",
+      "Multiple witnesses and Claudon herself were beggars",
+      "Competition among poor for alms",
+      "Weekly allowance from hospital reduced by 2 sols",
+      "Claudon's mother was a day labourer helped by rich relative",
+      "Dispute over distribution of alms"
+    ],
+    "religious_calendar_references": [
+      "Christmas (when Sebille was struck at church door)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "prévôt",
+        "role": "prevot",
+        "location": "Charmes"
+      },
+      {
+        "name": "Nicolas Meschy",
+        "role": "mayor",
+        "location": "Charmes"
+      },
+      {
+        "name": "Nicolas Flamand",
+        "role": "other",
+        "location": "Charmes (commis de l'hopital)"
+      },
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "sieur Harrimont (late procureur général des Vosges)",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Thiebault Dorin",
+        "role": "other",
+        "location": "Charmes (gouverneur de l'hopital)"
+      },
+      {
+        "name": "sergent",
+        "role": "other",
+        "location": "Charmes (pricked devil's mark)"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Pursued case for her 'dolbaire' against late Demenge Meschi, both at Charmes and at Nancy",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Used as evidence against her - authorities found it implausible she claimed to be too poor for justice but had pursued the dolbaire case",
+    "imprisonment_conditions": "Shared cell with la Triffatte on first night",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 5,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Nicolas Sellier",
+        "source": "general community",
+        "content": "General reputation as witch"
+      }
+    ],
+    "oldest_accusation_years": null,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "went out in a fury when Jean Regard said illness was 'le diable'",
+      "mal contante et grondant (discontented and grumbling) when leaving Isabel's house",
+      "defiant when compared to la Mallebarbe - challenged accusers to take legal action",
+      "initially maintained innocence but said nothing against witnesses during confrontations",
+      "sent for prévôt voluntarily and started to confess after being returned to prison"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Said Barbe Mallebarbe had accused her out of hatred; had avoided her on road and Mallebarbe was angry; also reproached her for hindering other poor from gaining entry to houses"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Barbe Mallebarbe",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow beggar, enemy",
+      "relationship_to_witness": null,
+      "context": "Accused Claudon up to her execution; mentioned as already in prison when witness 4's husband compared Claudon to her; Claudon said she burned all powder on Mallebarbe's arrest"
+    },
+    {
+      "name": "Jean Regard",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "landlord - Claudon lived in his house",
+      "relationship_to_witness": null,
+      "context": "Said Mongeatte's illness was 'le diable' which made Claudon go out in a fury"
+    },
+    {
+      "name": "Didier Colardot (deceased)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Claudon asked if it was said he had been bewitched"
+    },
+    {
+      "name": "late prévôt",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Lost use of limbs 3 years before; Claudon made enquiries about him"
+    },
+    {
+      "name": "Jean Faillon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "rich relative (merchant of Bar)",
+      "relationship_to_witness": null,
+      "context": "Helped Claudon's mother; Claudon sometimes helped look after his children"
+    },
+    {
+      "name": "Messire Mathieu Grec",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "employer in Rome",
+      "relationship_to_witness": null,
+      "context": "Of household of Cardinal Rodolphe; found Claudon and husband employment in Rome"
+    },
+    {
+      "name": "Cardinal Rodolphe",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "employer in Rome",
+      "relationship_to_witness": null,
+      "context": "Claudon and husband worked in his household"
+    },
+    {
+      "name": "Demenge Meschi (deceased)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "legal opponent",
+      "relationship_to_witness": null,
+      "context": "Claudon pursued case against him for her 'dolbaire' at Charmes and Nancy"
+    },
+    {
+      "name": "la Triffatte",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow prisoner",
+      "relationship_to_witness": null,
+      "context": "Together with Claudon on first night of imprisonment; allegedly complained that poor were executed while rich escaped"
+    },
+    {
+      "name": "Bastien (Claudon's dead husband)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "deceased spouse",
+      "relationship_to_witness": null,
+      "context": "Allegedly appeared as ghost after Claudon called for him, struck bed with stick"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This trial provides exceptionally detailed witness testimony with specific quotes in French and clear patterns of quarrel-threat-harm sequences. The economic context is particularly rich, showing tensions among the poor over alms distribution. Claudon initially resisted but eventually confessed voluntarily before torture, then gave additional confessions under torture. The term 'dolbaire' is unclear - possibly a household item or property. Her time in Rome working for Cardinal Rodolphe's household is unusual biographical detail. Devil's mark was found via pricking test. All five accomplices named are from Charmes.",
+    "pdf_pages": 5
+  }
+}

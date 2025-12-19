@@ -1,0 +1,613 @@
+{
+  "trial_id": "w116",
+  "archive_ref": "B 7137 no 2",
+  "location": "Parey-sous-Montfort",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1626-11-03",
+    "end": "1626-11-27",
+    "duration_days": 24
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Jennon Bouvier",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": null,
+      "residence": "Parey-sous-Montfort",
+      "marital_status": "widowed",
+      "spouse_name": "Florentin Bouvier",
+      "parents": {},
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": null,
+        "devil_appearance": null,
+        "seduction_date": null,
+        "seduction_context": null,
+        "devil_mark": {
+          "present": false,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [],
+        "sabbat_attended": false,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Malcas",
+      "gender": "male",
+      "age": 29,
+      "occupation": null,
+      "location": "Parey-sous-Montfort",
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "being called a witch",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow belonging to Gerard Malcas (Nicolas's late father)",
+            "target_relationship": "father's property",
+            "attributed_to": "Jennon Bouvier",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 2,
+      "name": "Marguitte femme du Sr Francois Morquin",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Parey-sous-Montfort",
+      "relationship_to_accused": "neighbor with adjoining land",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "rights of passage across adjoining land",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine foal",
+            "target_relationship": "witness's property",
+            "attributed_to": "Jennon Bouvier",
+            "time_after_quarrel": "next day"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Mengin Francois",
+      "gender": "male",
+      "age": 52,
+      "occupation": null,
+      "location": "Parey-sous-Montfort",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unspecified quarrel a few days before illness",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mengin Francois himself",
+            "target_relationship": "self",
+            "attributed_to": "Jennon Bouvier and Margo",
+            "time_after_quarrel": "a few days after"
+          },
+          {
+            "type": "animal_death",
+            "target": "horses and cows",
+            "target_relationship": "self",
+            "attributed_to": "Jennon Bouvier and Margo (uncertain)",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jeannon femme du precedent",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Parey-sous-Montfort",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1626-11-03",
+      "event": "informations_preparatoires",
+      "subject": "Jennon Bouvier",
+      "details": "Four witnesses testified against her"
+    },
+    {
+      "date": "1626-11-03",
+      "event": "interrogation",
+      "subject": "Jennon Bouvier",
+      "details": "Initial interrogation, denied all charges"
+    },
+    {
+      "date": "1626-11-04",
+      "event": "confrontation",
+      "subject": "Jennon Bouvier",
+      "details": "Confronted with witnesses, denied all charges"
+    },
+    {
+      "date": "1626-11-05",
+      "event": "execution",
+      "subject": "Catherine femme Claudon Vidolot",
+      "details": "Catherine executed after maintaining accusations against Jennon and Margueritte"
+    },
+    {
+      "date": "1626-11-14",
+      "event": "torture_approved",
+      "subject": "Jennon Bouvier and Margueritte",
+      "details": "Change de Nancy approved question ordinaire for both"
+    },
+    {
+      "date": "1626-11-27",
+      "event": "torture",
+      "subject": "Jennon Bouvier",
+      "details": "Given thumbscrews moderately, denied all charges throughout"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews"],
+    "requesting_official": null,
+    "approving_court": "Change de Nancy",
+    "restrictions": "moderate only; supposed only to be tortured if accused by her daughter or found to be marked"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Catherine femme Claudon Vidolot",
+      "accuser_location": "Parey-sous-Montfort",
+      "context": "Catherine confessed and named Jennon and her daughter Margueritte as accomplices. They were confronted with her and she maintained accusations when executed.",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Marguitte femme du Sr Francois Morquin",
+      "french": "qui la caquilloit sur le col, et ne scavoit si c'estoit ung esprit ou non",
+      "english": "which was cackling on her neck, and did not know if it was a spirit or not",
+      "context": "Witness found Jennon crying 7 years earlier, saying there was something black on her neck"
+    },
+    {
+      "speaker": "Jennon Bouvier",
+      "french": "par ses hayneux",
+      "english": "by her enemies",
+      "context": "Jennon's explanation for being called a witch"
+    },
+    {
+      "speaker": "Jennon Bouvier",
+      "french": "malveillance",
+      "english": "malice",
+      "context": "How Catherine accused her, after quarrel during pear harvest"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "Demenge Voirion",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "first husband had been Demenge Voirion of Parey",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "Florentin Bouvier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "second Florentin Bouvier of Belmont",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "Thiron Voirion",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Thiron Voirion of Parey [living child from first husband]",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "Margueritte (Margo)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "accused",
+      "evidence_text": "Margo, prisoner with her",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "Claudon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her daughters Margo and Claudon (now dead)",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "unnamed son",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "One boy by second husband also seems to have been living",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Malcas",
+      "person2": "Gerard Malcas",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Had heard his late father blame her",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte",
+      "person2": "Francois Morquin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte femme du Sr Francois Morquin",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannon",
+      "person2": "Mengin Francois",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jeannon femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bouvier",
+      "person2": "Marguitte femme du Sr Francois Morquin",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "his land any more where it adjoined hers",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Claudon Vidolot",
+      "person2": "Claudon Vidolot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Claudon Vidolot",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Dispute over rights of passage across adjoining land between Jennon and Francois Morquin. Jennon sold oats to Gerard Malcas. Significant economic losses mentioned by Mengin Francois (200 écus in horses and cows)."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "cow belonging to Gerard Malcas",
+      "victim_relationship_to_witness": "late father's property",
+      "harm_category": "animal_illness",
+      "harm_description": "illness with limp",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jennon Bouvier",
+      "precipitating_quarrel": "Gerard Malcas called her a witch",
+      "time_between_quarrel_and_harm": "before the quarrel (illness came first)",
+      "method_alleged": "magical cure through oats - purchased oats from her and cow recovered after eating them",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "fine foal",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "brought back as if rabid and died, body full of poison",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "economic_value": "45 écus",
+      "attributed_to": "Jennon Bouvier",
+      "precipitating_quarrel": "dispute over rights of passage across adjoining land",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "poison",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Mengin Francois",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "illness that made it impossible to stay still, could only lean against table",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Jennon Bouvier and Margo",
+      "precipitating_quarrel": "quarrelled a few days earlier",
+      "time_between_quarrel_and_harm": "a few days after",
+      "method_alleged": "magical cure through ashes - brought packet of ashes to heat and place on shoulders, recovered after",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "horses and cows",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "loss of horses and cows",
+      "animal_type": "horses and cows",
+      "animal_count": null,
+      "economic_value": "200 écus",
+      "attributed_to": "Jennon Bouvier and Margo (uncertain)",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 3
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "oats",
+      "context": "Jennon sold oats to Gerard Malcas; cow recovered after eating them",
+      "category": "agricultural"
+    },
+    {
+      "object": "packet of ashes",
+      "context": "Jennon and Margo brought ashes to Mengin Francois to heat and place on shoulders for healing",
+      "category": "magical"
+    },
+    {
+      "object": "cloth",
+      "context": "Jennon was making cloth for Marguitte and Francois Morquin",
+      "category": "household"
+    },
+    {
+      "object": "écus (currency)",
+      "context": "Foal worth 45 écus, animals lost valued at 200 écus",
+      "category": "money"
+    },
+    {
+      "object": "pears",
+      "context": "Quarrel with Catherine during pear harvest",
+      "category": "food"
+    },
+    {
+      "object": "table",
+      "context": "Mengin Francois could only lean against table during illness",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Parey-sous-Montfort",
+      "place_type": "village",
+      "context": "Primary location of the trial, residence of Jennon and most witnesses"
+    },
+    {
+      "place_name": "Belmont",
+      "place_type": "village",
+      "context": "Origin of Florentin Bouvier, Jennon's second husband"
+    },
+    {
+      "place_name": "field",
+      "place_type": "field",
+      "context": "Jennon's daughters seen in field during great storm 15 years earlier without getting wet"
+    },
+    {
+      "place_name": "adjoining land",
+      "place_type": "field",
+      "context": "Disputed rights of passage between Jennon's land and Francois Morquin's land"
+    },
+    {
+      "place_name": "church/Mass",
+      "place_type": "church",
+      "context": "Jennon accused Mengin Francois of being found in neighbors' houses during Mass"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [
+      "great storm 15 years before trial",
+      "hail (Jennon asked if her crops spared by hail)"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "significant animal losses (200 écus)",
+      "value of livestock explicitly mentioned (45 écus for foal)"
+    ],
+    "religious_calendar_references": [
+      "Mass"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Nicolas Malcas called Jennon a witch and she took him to court",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "unknown - Nicolas Malcas said 'he did not know what had happened'",
+    "imprisonment_conditions": "imprisoned with her daughter Margueritte",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 3,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Nicolas Malcas",
+        "source": "his late father Gerard Malcas",
+        "content": "blame for illness of cow"
+      },
+      {
+        "reporter": "Jeannon femme Mengin Francois",
+        "source": "her husband and Catherine",
+        "content": "repeated husband's account of illness"
+      }
+    ],
+    "oldest_accusation_years": 15,
+    "corroboration_groups": [
+      [3, 4]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 3,
+        "objection": "Mengin Francois had been found in houses of neighbours during Mass (he denied this); was a worthless man; illness was from excessive drinking; losses of animals because he did not treat them well and took little care of them"
+      },
+      {
+        "witness_number": 1,
+        "objection": "Gerard Malcas's cow was ill because he beat it excessively, retained limp long after she sold him oats"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Gerard Malcas",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "customer (bought oats)",
+      "relationship_to_witness": "father of witness 1",
+      "context": "Late father of Nicolas Malcas who blamed Jennon for cow's illness, later called her witch"
+    },
+    {
+      "name": "Catherine femme Claudon Vidolot",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "co-villager, had quarrel",
+      "relationship_to_witness": null,
+      "context": "Executed on 5 November 1626 after confessing and naming Jennon and Margueritte as accomplices; maintained accusations at execution. Jennon says quarrel was during pear harvest that year."
+    },
+    {
+      "name": "Claudon Vidolot",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Husband of Catherine"
+    },
+    {
+      "name": "Francois Morquin",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor with adjoining land",
+      "relationship_to_witness": "husband of witness 2",
+      "context": "Disputed rights of passage with Jennon"
+    },
+    {
+      "name": "Thiron Voirion",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": null,
+      "context": "Living son from first marriage, of Parey"
+    },
+    {
+      "name": "Margueritte (Margo)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter, co-accused",
+      "relationship_to_witness": null,
+      "context": "Daughter imprisoned with Jennon, also accused by Catherine as accomplice. Nicknamed 'Margo les Grevelz' with her mother. Also seen in field during storm 15 years earlier."
+    },
+    {
+      "name": "Claudon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter (deceased)",
+      "relationship_to_witness": null,
+      "context": "Deceased daughter who was seen with Margo in field during storm 15 years earlier without getting wet"
+    },
+    {
+      "name": "Demenge Voirion",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "first husband (deceased)",
+      "relationship_to_witness": null,
+      "context": "First husband of Parey, marriage lasted 10 years, had 4 children together"
+    },
+    {
+      "name": "Florentin Bouvier",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "second husband (deceased)",
+      "relationship_to_witness": null,
+      "context": "Second husband of Belmont, marriage lasted 2.5 years, had one son"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (AI)",
+    "confidence": "high",
+    "notes": "Complete trial record with clear timeline, witness testimonies, and torture session. Notable for accused's active legal defense (sued someone for calling her witch) and strong denial throughout torture. Case involves mother-daughter co-accusation. Trial outcome appears to be banishment based on project documentation listing w116 as banished. Record notes torture was supposed to be conditional on daughter's accusation or finding devil's mark, but was applied anyway with thumbscrews moderately.",
+    "pdf_pages": 2
+  }
+}

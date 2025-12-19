@@ -1,0 +1,468 @@
+{
+  "trial_id": "w129",
+  "archive_ref": "B 8275 no 2",
+  "location": "Preny",
+  "court": "Court at Preny",
+  "dates": {
+    "start": "1597-05-30",
+    "end": "1597-07-03",
+    "duration_days": 34
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Babon femme Willaume Laboureur",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": ["domestic servant", "wife"],
+      "origin": "Vendieres",
+      "residence": "Preny",
+      "marital_status": "married",
+      "spouse_name": "Willaume le Laboureur",
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Jolly",
+        "devil_appearance": "not like a man, cold as marble",
+        "seduction_date": "22 years earlier (circa 1575)",
+        "seduction_context": "she was in great need and had no bread, approached in hayloft, he consoled her and gave her grease",
+        "sexual_relations_with_devil": true,
+        "powder_types": ["grease"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["danced back to back", "made hail"]
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mariotte femme Pierresson Vaixe",
+      "gender": "female",
+      "location": "Preny",
+      "relationship_to_accused": "neighbor, widow of victim Nicolas Harmant",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt repayment - Nicolas Harmant had loaned seedcorn to Willaume le Laboureur and asked for payment",
+        "threat_received": true,
+        "threat_quote": "Went to strike her with pole from cart, but witness prevented him",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "belonged to her husband Nicolas Harmant",
+            "attributed_to": "Babon femme Willaume Laboureur",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "human_death",
+            "target": "Nicolas Harmant (her husband)",
+            "target_relationship": "witness's husband",
+            "attributed_to": "Babon femme Willaume Laboureur",
+            "time_after_quarrel": "at Christmas (after the quarrel in autumn)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Mariotte femme Jean Lambert",
+      "gender": "female",
+      "location": "Preny",
+      "relationship_to_accused": "neighbor, attended Nicolas Harmant during illness",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1597-05-30",
+      "event": "interrogation",
+      "subject": "Babon femme Willaume Laboureur",
+      "details": "First interrogation. Stated age about 40, native of Vendieres, in service until marriage 20 years earlier. Judges described scene of Chrestaille's execution and her accusations against 3 women."
+    },
+    {
+      "date": "1597-05-31",
+      "event": "interrogation",
+      "subject": "Babon femme Willaume Laboureur",
+      "details": "Made voluntary confession of seduction 22 years earlier, maleficia including killing le Grand Gillot (18-20 years earlier), conspiracy with Colas Harmant's horses and death (10-12 years earlier), sabbat attendance (3 times), and hailmaking (2 years before)."
+    },
+    {
+      "date": "1597-06-04",
+      "event": "other",
+      "subject": "Rémy (prosecutor)",
+      "details": "Rémy asks for witnesses to be heard to confirm confessions and investigate other possible maleficia. Change de Nancy approved."
+    },
+    {
+      "date": "1597-06-12",
+      "event": "informations_preparatoires",
+      "subject": "Babon femme Willaume Laboureur",
+      "details": "Informations taken from 2 witnesses: Mariotte femme Pierresson Vaixe (widow of Nicolas Harmant) and Mariotte femme Jean Lambert. Babon repeated confessions afterward."
+    },
+    {
+      "date": "1597-06-26",
+      "event": "death_requested",
+      "subject": "Babon femme Willaume Laboureur",
+      "details": "Substitut for PG asks for death sentence"
+    },
+    {
+      "date": "1597-06-27",
+      "event": "death_approved",
+      "subject": "Babon femme Willaume Laboureur",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1597-07-03",
+      "event": "sentence",
+      "subject": "Babon femme Willaume Laboureur",
+      "details": "Definitive sentence from court at Preny"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Chrestaille",
+      "context": "Previously executed, had accused Babon and 3 other women at point of death. Described as 'frere non germain' (step-sibling or cousin) to Colas Harmant.",
+      "already_executed": true
+    },
+    {
+      "name": "Jeannotte Pierron",
+      "context": "Babon thought she might have seen her at sabbat because she walked stiffly and had a limp, but was uncertain",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Chrestaille",
+      "context": "Chrestaille maintained charges against Babon and 3 other women to point of death, despite exhortations to accuse no-one wrongly",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Babon femme Willaume Laboureur",
+      "french": "ne faisoit que frotter trouiller ça, et la, froid comme marbre",
+      "english": "he only rubbed and stirred here and there, cold as marble",
+      "context": "Describing sexual intercourse with her devil master Mre Jolly"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Babon femme Willaume Laboureur",
+      "person2": "Willaume le Laboureur",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Babon femme Willaume Laboureur",
+      "inferred": false
+    },
+    {
+      "person1": "Mariotte femme Pierresson Vaixe",
+      "person2": "Nicolas Harmant",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Had been wife of Nicolas Harmant",
+      "inferred": false
+    },
+    {
+      "person1": "Mariotte femme Pierresson Vaixe",
+      "person2": "Pierresson Vaixe",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mariotte femme Pierresson Vaixe",
+      "inferred": false
+    },
+    {
+      "person1": "Mariotte femme Jean Lambert",
+      "person2": "Jean Lambert",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mariotte femme Jean Lambert",
+      "inferred": false
+    },
+    {
+      "person1": "Babon femme Willaume Laboureur",
+      "person2": "Nicolas Harmant",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Babon never visited him during illness, although they were neighbours",
+      "inferred": false
+    },
+    {
+      "person1": "Chrestaille",
+      "person2": "Colas Harmant",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "Colas Harmant, 'frere non germain' to Chrestaille",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Harmant",
+      "person2": "Babon femme Willaume Laboureur",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "accused",
+      "evidence_text": "she complained to Babon, whom he owed money for wine",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple debt disputes central to case: (1) Nicolas Harmant loaned seedcorn to Willaume le Laboureur and quarreled with Babon over repayment; (2) Colas Harmant was in dispute with Chrestaille over inheritance; (3) Colas Harmant owed Babon money for wine. Babon's seduction occurred during extreme poverty ('in great need and had no bread')."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "le Grand Gillot",
+      "harm_category": "human_death",
+      "harm_description": "killed by grease put in milk",
+      "attributed_to": "Babon femme Willaume Laboureur",
+      "precipitating_quarrel": "he was debauching her husband",
+      "time_between_quarrel_and_harm": "18 or 20 years earlier (circa 1577-1579)",
+      "method_alleged": "grease in milk",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "2 horses belonging to Colas Harmant",
+      "harm_category": "animal_death",
+      "harm_description": "horses died after grease put on stable straw",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Babon femme Willaume Laboureur and Chrestaille (conspiracy)",
+      "precipitating_quarrel": "Colas Harmant in dispute with Chrestaille over inheritance; he owed Babon money for wine",
+      "time_between_quarrel_and_harm": "10 or 12 years earlier (circa 1585-1587)",
+      "method_alleged": "grease on straw in stable",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Colas Harmant",
+      "harm_category": "human_death",
+      "harm_description": "died after grease put in his soup",
+      "attributed_to": "Babon femme Willaume Laboureur and Chrestaille (conspiracy)",
+      "precipitating_quarrel": "dispute over inheritance with Chrestaille; debt for wine to Babon",
+      "time_between_quarrel_and_harm": "after the horses died, 10-12 years earlier",
+      "method_alleged": "grease in soup",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "2 horses belonging to Nicolas Harmant",
+      "harm_category": "animal_death",
+      "harm_description": "lost 2 horses",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Babon femme Willaume Laboureur",
+      "precipitating_quarrel": "Nicolas Harmant made loan of seedcorn to Willaume le Laboureur and quarreled with Babon when asking for payment",
+      "time_between_quarrel_and_harm": "soon after the quarrel",
+      "method_alleged": "unspecified",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Nicolas Harmant",
+      "harm_category": "human_death",
+      "harm_description": "died at Christmas",
+      "attributed_to": "Babon femme Willaume Laboureur",
+      "precipitating_quarrel": "loan of seedcorn and quarrel over repayment",
+      "time_between_quarrel_and_harm": "quarrel in autumn, death at Christmas (some 12 years earlier, circa 1585)",
+      "method_alleged": "unspecified",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "crops and vineyards",
+      "harm_category": "weather_event",
+      "harm_description": "hailstorm made at sabbat, mostly fell on woods with little on vines",
+      "attributed_to": "Babon femme Willaume Laboureur and others at sabbat",
+      "precipitating_quarrel": "rich wanted to direct hail against best land in ban, but poor resisted from fear of dearth",
+      "time_between_quarrel_and_harm": "2 years before (circa 1595)",
+      "method_alleged": "hailmaking at sabbat"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "grease",
+      "context": "Given by devil Mre Jolly at seduction, used in multiple maleficia (in milk, on straw, in soup)",
+      "category": "magical"
+    },
+    {
+      "object": "bread",
+      "context": "Babon had no bread when she was seduced, indicating extreme poverty",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "Used as vehicle for poisonous grease to kill le Grand Gillot",
+      "category": "food"
+    },
+    {
+      "object": "wine",
+      "context": "Colas Harmant owed Babon money for wine",
+      "category": "food"
+    },
+    {
+      "object": "seedcorn",
+      "context": "Nicolas Harmant made loan of seedcorn to Willaume le Laboureur",
+      "category": "agricultural"
+    },
+    {
+      "object": "pole from cart",
+      "context": "Nicolas Harmant went to strike Babon with pole from cart during quarrel",
+      "category": "agricultural"
+    },
+    {
+      "object": "straw",
+      "context": "Grease put on straw in Colas Harmant's stable to kill horses",
+      "category": "agricultural"
+    },
+    {
+      "object": "soup",
+      "context": "Grease put in Colas Harmant's soup to kill him",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Preny",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Vendieres",
+      "place_type": "village",
+      "context": "Birthplace of Babon"
+    },
+    {
+      "place_name": "hayloft",
+      "place_type": "other",
+      "context": "Location where Mre Jolly approached and seduced Babon"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "other",
+      "context": "Colas Harmant's stable where grease was put on straw to kill horses"
+    },
+    {
+      "place_name": "the ban",
+      "place_type": "field",
+      "context": "Rich wanted to direct hail against best land in the ban"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Hail mostly fell on the woods during storm made at sabbat"
+    },
+    {
+      "place_name": "vines",
+      "place_type": "field",
+      "context": "A little hail fell on the vines"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hailstorm made at sabbat 2 years before trial"],
+    "economic_hardship_indicators": ["extreme poverty at seduction - 'in great need and had no bread'", "poor at sabbat resisted directing hail on best land 'from fear of dearth'"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "Preny"
+      },
+      {
+        "name": "substitut for PG",
+        "role": "prosecutor_pg",
+        "location": "Preny"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Not specified",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 1,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Mariotte femme Jean Lambert",
+        "source": "Nicolas Harmant",
+        "content": "Never heard Nicolas Harmant express any suspicion during illness"
+      }
+    ],
+    "oldest_accusation_years": 22,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [],
+    "emotional_state_notes": [],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Chrestaille",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "co-conspirator in maleficia, step-sibling or cousin of Colas Harmant",
+      "context": "Previously executed, had accused Babon and 3 other women at point of death. Conspired with Babon to kill Colas Harmant and his horses."
+    },
+    {
+      "name": "le Grand Gillot",
+      "role_in_narrative": "victim",
+      "context": "Killed 18-20 years earlier by grease in milk because he was debauching Babon's husband. Left no relatives."
+    },
+    {
+      "name": "Colas Harmant",
+      "role_in_narrative": "victim",
+      "context": "Step-sibling or cousin ('frere non germain') of Chrestaille. In dispute with Chrestaille over inheritance. Owed Babon money for wine. Killed along with his 2 horses 10-12 years earlier."
+    },
+    {
+      "name": "Nicolas Harmant",
+      "role_in_narrative": "victim",
+      "context": "Husband of witness Mariotte femme Pierresson Vaixe. Made loan of seedcorn to Willaume le Laboureur. Quarreled with Babon over repayment. Lost 2 horses and died at Christmas some 12 years earlier."
+    },
+    {
+      "name": "Jeannotte Pierron",
+      "role_in_narrative": "prior_accused",
+      "context": "Babon thought she might have seen her at sabbat because she walked stiffly and had a limp, but was uncertain"
+    },
+    {
+      "name": "Mre Jolly",
+      "role_in_narrative": "other",
+      "context": "Devil/master who seduced Babon 22 years earlier in hayloft, gave her grease, had intercourse with her (cold as marble)"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is a notable case featuring voluntary confession without torture. Babon confessed to seduction during extreme poverty and multiple maleficia over 20+ years involving conspiracies with previously executed witch Chrestaille. The case involves complex debt relationships, inheritance disputes, and social tensions between rich and poor (evident in sabbat hailmaking testimony). Rémy's request for additional witnesses reveals prosecutorial concern about insufficient maleficia given the timespan. The confession includes vivid sensory details about intercourse with devil ('cold as marble'). Two separate Nicolas/Colas Harmant deaths are described - both involving horse deaths followed by human death. Trial moved quickly from voluntary confession to execution in 34 days.",
+    "pdf_pages": 2
+  }
+}

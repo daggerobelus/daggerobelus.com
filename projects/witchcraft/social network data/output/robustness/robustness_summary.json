@@ -1,0 +1,102 @@
+{
+  "bootstrap_analysis": {
+    "n_iterations": 30,
+    "sample_fraction": 0.8,
+    "top_10_rank_stability": -0.20519688818029486
+  },
+  "node_removal": {
+    "original_metrics": {
+      "n_nodes": 10652,
+      "n_edges": 17215,
+      "density": 0.00030346980125557345,
+      "avg_clustering": 0.2562349072063484,
+      "largest_component": 4545
+    },
+    "fragmentation_after_10": 0.6257282465701935
+  },
+  "cv_stability": {
+    "auc_mean": 0.9142405939923129,
+    "auc_std": 0.013740510253648672,
+    "auc_min": 0.8673176073367705,
+    "auc_max": 0.9401082914883339,
+    "n_cv_folds": 50,
+    "coefficient_summary": [
+      {
+        "feature": "degree",
+        "mean_coef": 0.8882955083915312,
+        "std_coef": 0.0,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "betweenness_centrality",
+        "mean_coef": -0.6853469294403309,
+        "std_coef": 0.0,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "pagerank",
+        "mean_coef": 0.20610489468067245,
+        "std_coef": 2.7755575615628914e-17,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "closeness_centrality",
+        "mean_coef": -0.2066102307401872,
+        "std_coef": 2.7755575615628914e-17,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "eigenvector_centrality",
+        "mean_coef": -0.02557854850008521,
+        "std_coef": 3.469446951953614e-18,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "clustering_coefficient",
+        "mean_coef": 1.8605514833182124,
+        "std_coef": 2.220446049250313e-16,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "brokerage_score",
+        "mean_coef": 1.411552020001048,
+        "std_coef": 0.0,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "gender_female",
+        "mean_coef": 0.0,
+        "std_coef": 0.0,
+        "sign_consistency": 1.0
+      },
+      {
+        "feature": "gender_male",
+        "mean_coef": -0.07329886535393042,
+        "std_coef": 1.3877787807814457e-17,
+        "sign_consistency": 1.0
+      }
+    ]
+  },
+  "gender_permutation_test": {},
+  "common_name_ambiguity": {
+    "n_ambiguous_nodes": 19,
+    "n_high_risk": 8,
+    "common_name_counts": {
+      "jean": 2381,
+      "didier": 629,
+      "mengeatte": 97,
+      "mengeon": 275,
+      "barbe": 190,
+      "claudon": 816,
+      "jennon": 287,
+      "pierre": 125,
+      "nicolas": 965,
+      "catherine": 304,
+      "jeanne": 72,
+      "marguerite": 44,
+      "marie": 102,
+      "claude": 479
+    },
+    "pct_network_after_removal": 97.00261399941911
+  }
+}

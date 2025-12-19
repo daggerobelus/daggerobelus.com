@@ -1,0 +1,1473 @@
+{
+  "trial_id": "w054",
+  "archive_ref": "B 3365 no 4",
+  "location": "Reillon",
+  "court": "Court at Blamont",
+  "dates": {
+    "start": "1624-03-30",
+    "end": "1624-05-11",
+    "duration_days": 42
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Noel Raimbault",
+      "gender": "male",
+      "age": 39,
+      "age_approximate": true,
+      "occupation": ["weaver", "herdsman"],
+      "origin": null,
+      "residence": "Reillon",
+      "marital_status": "unknown",
+      "spouse_name": null,
+      "parents": {
+        "father": "father executed as witch ~25 years earlier",
+        "mother": "Alison (still alive)"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": true,
+        "devil_name": "Persin",
+        "devil_appearance": "form of an ox",
+        "seduction_date": "4 years earlier (1620)",
+        "seduction_context": "Persin promised him money (which turned out to be oak leaves)",
+        "devil_mark": {
+          "present": true,
+          "location": "front/forehead",
+          "description": "Said the devil had touched him on the forehead which prevented him from returning to God"
+        },
+        "powder_types": ["diabolical powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["location not specified"],
+        "sabbat_activities": [
+          "making hail and wind to spoil crops",
+          "saw large numbers of people",
+          "said 'Jesus Maria' and everything disappeared at first sabbat"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Barthelemin de Veho",
+      "gender": "male",
+      "age": 40,
+      "occupation": "herdsman",
+      "location": null,
+      "relationship_to_accused": "fellow herdsman",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused asked him to put his dog after a hare",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "witness's hunting dog",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "immediately after"
+          },
+          {
+            "type": "animal_death",
+            "target": "horses strangled in fields by night",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "3 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Verger",
+      "gender": "male",
+      "age": 60,
+      "occupation": null,
+      "location": "Herbeviller",
+      "relationship_to_accused": "competitor for herdsman position",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Competition for cattle-keeping position at Barbas - Noel outbid witness",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "witness's dog",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "next day after meeting"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Agnatte femme Jean Verger",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Herbeviller",
+      "relationship_to_accused": "wife of competitor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband spoke ill of Noel at Barbas so he did not get custody of cattle",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Dieudenon Claude",
+      "gender": "male",
+      "age": 60,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Communal hedges dispute - accused cut section belonging to witness who took wood away",
+        "threat_received": true,
+        "threat_quote": "it would be expensive wood for him",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "within a week"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Noel Geoffroy",
+      "gender": "male",
+      "age": 42,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "employer/neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness refused to do some ploughing for accused",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses (one died, others affected)",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "2 or 3 weeks later"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "3 weeks after horse incident"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Zabey femme Dieudenon Claude",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "wife of neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "heifer",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "next day after consultation"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Demenge Geoffroy",
+      "gender": "male",
+      "age": 37,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse bought at St Dié",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Aulbry Austette",
+      "gender": "male",
+      "age": 70,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": true,
+        "threat_quote": "threatened to do him much harm (warning from late Aulbertin le Here)",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 horses",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "after threat"
+          },
+          {
+            "type": "animal_death",
+            "target": "3 cattle",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "after threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claudatte femme Aulbry Austette",
+      "gender": "female",
+      "age": 60,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "close neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Nicolas Olry",
+      "gender": "male",
+      "age": 45,
+      "occupation": "paistre (herdsman)",
+      "location": null,
+      "relationship_to_accused": "competitor for herdsman position",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 19,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Competition for keeping of herd - witness outbid accused",
+        "threat_received": true,
+        "threat_quote": "wished him 500 wolves among his herd",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "herd animals became frightened and made strange noise",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "after first bidding"
+          },
+          {
+            "type": "human_death",
+            "target": "3-month-old child",
+            "target_relationship": "own child",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "2 weeks after Christmas bidding"
+          },
+          {
+            "type": "human_death",
+            "target": "son aged 5",
+            "target_relationship": "own child",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "8 weeks after first child's death"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claudon Marchal",
+      "gender": "male",
+      "age": 34,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Wife called accused son of a witch when animal fell in ditch",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_injury",
+            "target": "animal fell in ditch",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "concurrent"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Chretienne veuve Colas Hachon",
+      "gender": "female",
+      "age": 60,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "heifer",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "when he lost keeping of herd previous year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Demenge Valtrin",
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claudon Bastien",
+      "gender": "male",
+      "age": 27,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses died on same day",
+            "target_relationship": "father's property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jean Vaultrin le jeune",
+      "gender": "male",
+      "age": 32,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 animals",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Nicolas François",
+      "gender": "male",
+      "age": 33,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Noel was angry with witness",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 chickens",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "before Noel's remark"
+          },
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "after Noel mentioned it"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Valtrin le vieux",
+      "gender": "male",
+      "age": 60,
+      "occupation": "maire de Reillon",
+      "location": "Reillon",
+      "relationship_to_accused": "mayor who participated in father's trial",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "Accused bore particular hatred because witness was imbalt at time of father's execution and took part in case",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "own property",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "5 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Margueritte veuve Aubertin Leher",
+      "gender": "female",
+      "age": 43,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "widow of man who accused Noel of theft",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband charged Noel with stealing purse with 16 francs, Noel was beaten and taken to court",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband Aubertin Leher",
+            "target_relationship": "spouse",
+            "attributed_to": "Noel Raimbault",
+            "time_after_quarrel": "3 or 4 years after court case"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1624-03-30",
+      "event": "other",
+      "subject": "Noel Raimbault",
+      "details": "Procureur fiscal asks for depositions, noting accused has been arrested to prevent possibility of flight"
+    },
+    {
+      "date": "1624-04-01",
+      "event": "informations_preparatoires",
+      "subject": "Noel Raimbault",
+      "details": "18 witnesses testify"
+    },
+    {
+      "date": "1624-04-16",
+      "event": "interrogation",
+      "subject": "Noel Raimbault",
+      "details": "First interrogation - denied all charges"
+    },
+    {
+      "date": "1624-04-17",
+      "event": "interrogation",
+      "subject": "Noel Raimbault",
+      "details": "Continued interrogation"
+    },
+    {
+      "date": "1624-04-29",
+      "event": "other",
+      "subject": "Margueritte veuve Aubertin Leher",
+      "details": "Additional witness testimony (witness 18)"
+    },
+    {
+      "date": "1624-04-29",
+      "event": "confrontation",
+      "subject": "Noel Raimbault",
+      "details": "Confrontations with witnesses - no reproaches, continued to deny charges"
+    },
+    {
+      "date": "1624-04-29",
+      "event": "torture_requested",
+      "subject": "Noel Raimbault",
+      "details": "Procureur fiscal asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1624-05-02",
+      "event": "torture_approved",
+      "subject": "Noel Raimbault",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1624-05-04",
+      "event": "torture",
+      "subject": "Noel Raimbault",
+      "details": "Interrogation under torture - resisted thumbscrews but confessed when racked"
+    },
+    {
+      "date": "1624-05-05",
+      "event": "death_requested",
+      "subject": "Noel Raimbault",
+      "details": "Procureur fiscal asks for death sentence"
+    },
+    {
+      "date": "1624-05-06",
+      "event": "death_approved",
+      "subject": "Noel Raimbault",
+      "details": "Change de Nancy approves, subject to reiteration of confessions"
+    },
+    {
+      "date": "1624-05-08",
+      "event": "other",
+      "subject": "Noel Raimbault",
+      "details": "Renewed confessions but withdrew all accusations, saying he did those concerned wrong"
+    },
+    {
+      "date": "1624-05-11",
+      "event": "sentence",
+      "subject": "Noel Raimbault",
+      "details": "Formal death sentence from court at Blamont"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "Procureur fiscal",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean Vuartin le vieux",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jean Febuay",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Michiel Mongeatte",
+      "location": "Leintrey",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la veuve Claudon Jean Zabey",
+      "location": null,
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jean de Benamesnil",
+      "location": "Gondrexon",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Claudatte Vaultrin femme Nicolas de Barbac",
+      "location": "Domjevin",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Claudatte femme Colas Mariatte",
+      "location": "Reillon",
+      "context": "Sister of Claudatte Vaultrin, seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la grande Chretienne veuve Petit Colas",
+      "location": "Reillon",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": null,
+      "accuser_location": null,
+      "context": "Father executed as witch approximately 20-25 years earlier; reputation as witch began after father's execution",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Noel Raimbault",
+      "french": "qu'il ne peut, et qu'il estime que ce que le malin l'avoit touché au front l'en empeschoit",
+      "english": "that he cannot [return to God], and that he believes that the evil one had touched him on the forehead which prevented him",
+      "context": "Asked during torture why he had not returned to God"
+    },
+    {
+      "speaker": "Noel Raimbault",
+      "french": "Jesus Maria",
+      "english": "Jesus Maria",
+      "context": "What he said when he saw large numbers of people at first sabbat, causing everything to disappear"
+    },
+    {
+      "speaker": "Noel Raimbault (when drunk)",
+      "french": "si c'est vray ce que les prêtres dise, nre loy estoit faubce",
+      "english": "if what the priests say is true, our law was false",
+      "context": "Reported by Jean Vaultrin at confrontations"
+    },
+    {
+      "speaker": "Noel Raimbault",
+      "french": "ne crains pas je ne te fera rien",
+      "english": "don't be afraid I will do nothing to you",
+      "context": "Response to Jean Vaultrin after making heretical statement"
+    },
+    {
+      "speaker": "Nicolas Olry (to Noel's wife)",
+      "french": null,
+      "english": "if misfortune followed he would have him treated as his father had been",
+      "context": "Threat after Noel wished 500 wolves among his herd"
+    },
+    {
+      "speaker": "Nicolas Olry",
+      "french": null,
+      "english": "he had heard how as a boy he talked of making hail",
+      "context": "Public accusation made 10 years earlier; Noel never sought reparation"
+    },
+    {
+      "speaker": "Claudon Marchal's wife",
+      "french": null,
+      "english": "he was son of a witch",
+      "context": "Called Noel son of witch when animal fell in ditch"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Noel Raimbault",
+      "person2": "father (executed)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father executed as a witch some 25 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Noel Raimbault",
+      "person2": "Alison (mother)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother Alison still alive",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Verger",
+      "person2": "Agnatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Agnatte femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Dieudenon Claude",
+      "person2": "Zabey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Zabey femme Dieudenon Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Dieudenon Claude",
+      "person2": "Aulbry Austette",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his cousin Aulbry Austette",
+      "inferred": false
+    },
+    {
+      "person1": "Aulbry Austette",
+      "person2": "Claudatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Aulbry Austette",
+      "person2": "Noel Raimbault",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "he was close neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Aubertin Leher",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Margueritte veuve Aubertin Leher",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte Vaultrin femme Nicolas de Barbac",
+      "person2": "Claudatte femme Colas Mariatte",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "her sister Claudatte femme Colas Mariatte",
+      "inferred": false
+    },
+    {
+      "person1": "Curien Marchal",
+      "person2": "Noel Raimbault",
+      "relationship_type": "other_social",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Curien Marchal of Reillon was 'partie plaindante' in case",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Much of the conflict centers on Noel's occupation as herdsman - multiple witnesses competed with him for lucrative positions keeping village herds and cattle. The hedge-cutting dispute with Dieudenon Claude indicates property boundary conflicts. The theft accusation by Aubertin Leher (purse with 16 francs) led to legal proceedings that were expensive for Noel."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Barthelemin de Veho's hunting dog",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_illness",
+      "harm_description": "Dog became useless for hunting after catching hare multiple times but unable to bring it down; previously was excellent hunter",
+      "animal_type": "dog",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Accused asked witness to put dog after hare",
+      "time_between_quarrel_and_harm": "immediately after",
+      "method_alleged": "charm",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Barthelemin de Veho's horses",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Horses strangled in fields by night",
+      "animal_type": "horse",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "3 years earlier",
+      "method_alleged": null,
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Verger's dog",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Dog became all swollen and died in 6 weeks; was excellent for keeping animals",
+      "animal_type": "dog",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Competition for cattle-keeping position at Barbas - Noel outbid witness and appeared angry",
+      "time_between_quarrel_and_harm": "next day after meeting",
+      "method_alleged": null,
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Dieudenon Claude's cow",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Cow fell sick, Noel as herdsman said not serious but died next day",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Communal hedges dispute - Noel cut section belonging to witness who took wood away; Aulbry Austette warned it would be expensive wood",
+      "time_between_quarrel_and_harm": "within a week",
+      "method_alleged": "witchcraft",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Noel Geoffroy's horses",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Horses suddenly took fright, one died and others affected since; witness now only had 4 horses",
+      "animal_type": "horse",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Witness refused to do some ploughing for accused",
+      "time_between_quarrel_and_harm": "2 or 3 weeks later",
+      "method_alleged": null,
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Noel Geoffroy's cow",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Cow sickened, accused did not warn witness as herdsman should have, died in fields next day",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "3 weeks after horse incident",
+      "method_alleged": null,
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Zabey's heifer",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Heifer sick, accused as herdsman said not serious but died next day",
+      "animal_type": "heifer",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "next day after consultation",
+      "method_alleged": null,
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Demenge Geoffroy's horse",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_illness",
+      "harm_description": "Horse bought at St Dié sickened, recovered after given piece of lard",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Aulbry Austette's horses",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Lost 4 horses without knowing cause",
+      "animal_type": "horse",
+      "animal_count": 4,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Late Aulbertin le Here warned that Noel threatened to do much harm",
+      "time_between_quarrel_and_harm": "after threat",
+      "method_alleged": "witchcraft",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Aulbry Austette's cattle",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Lost 3 cattle without knowing cause",
+      "animal_type": "cattle",
+      "animal_count": 3,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Threat to do harm",
+      "time_between_quarrel_and_harm": "after threat",
+      "method_alleged": "witchcraft",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Nicolas Olry's herd animals",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_illness",
+      "harm_description": "Animals became so frightened they made a strange noise",
+      "animal_type": "herd animals",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Witness outbid accused for keeping of herd; accused wished 500 wolves among herd",
+      "time_between_quarrel_and_harm": "after bidding",
+      "method_alleged": null,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Nicolas Olry's 3-month-old child",
+      "victim_relationship_to_witness": "own child",
+      "harm_category": "human_death",
+      "harm_description": "Child sickened and died",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Witness told Noel's wife he would have him treated as his father if misfortune followed after threats",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "method_alleged": null,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Nicolas Olry's son aged 5",
+      "victim_relationship_to_witness": "own child",
+      "harm_category": "human_death",
+      "harm_description": "Son died after being ill for a week",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Same as previous harm",
+      "time_between_quarrel_and_harm": "8 weeks after first child's death",
+      "method_alleged": null,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Claudon Marchal's animal",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_injury",
+      "harm_description": "Animal fell in ditch",
+      "animal_type": null,
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Wife called accused son of witch during incident",
+      "time_between_quarrel_and_harm": "concurrent",
+      "method_alleged": null,
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Chretienne's heifer",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Death of heifer",
+      "animal_type": "heifer",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "When he lost keeping of herd previous year",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": null,
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Claudon Bastien's father's horses",
+      "victim_relationship_to_witness": "father's property",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses died on same day",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Jean Vaultrin's animals",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Death of 2 animals",
+      "animal_type": null,
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "visited them, said illness not serious in one case",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Nicolas François's chickens",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Lost 2 chickens",
+      "animal_type": "chicken",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Noel was angry with witness",
+      "time_between_quarrel_and_harm": "before Noel remarked about it",
+      "method_alleged": null,
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Nicolas François's pig",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Pig died after Noel mentioned it",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Noel angry and suspected witness",
+      "time_between_quarrel_and_harm": "after Noel mentioned the pig",
+      "method_alleged": null,
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Jean Valtrin le vieux's horse",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_death",
+      "harm_description": "Death of horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Witness participated in father's trial as imbalt, accused bore particular hatred",
+      "time_between_quarrel_and_harm": "5 years earlier",
+      "method_alleged": null,
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Aubertin Leher",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "Became ill, bedridden 15 months with flesh dropping off to expose bones, finally died",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Husband accused Noel of stealing purse with 16 francs, Noel was beaten and taken to court",
+      "time_between_quarrel_and_harm": "3 or 4 years later",
+      "method_alleged": null,
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Aulbry Austette's horses (confession)",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_death",
+      "harm_description": "2 horses killed",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft - admitted under torture",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Curé's cow",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_injury",
+      "harm_description": "Master forced him to agree to breaking the thigh of a cow belonging to curé",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Noel Raimbault",
+      "precipitating_quarrel": "Master wanted harm to curé's property, Noel was angry with curé's servants but didn't want to harm curé",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "devil in form of ox forced agreement",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "lard",
+      "context": "Given to sick horse which then recovered",
+      "category": "food"
+    },
+    {
+      "object": "oak leaves",
+      "context": "Devil promised money but it was actually oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "diabolical powder",
+      "context": "Claimed pact exempted him from using it",
+      "category": "magical"
+    },
+    {
+      "object": "purse with 16 francs",
+      "context": "Noel accused of stealing from Aubertin Leher",
+      "category": "money"
+    },
+    {
+      "object": "muskets",
+      "context": "Aubertin Leher and accused charged by community with taking them to Badonviller for cleaning",
+      "category": "tools"
+    },
+    {
+      "object": "communal hedges",
+      "context": "Dispute over cutting and sharing; wood taken away",
+      "category": "agricultural"
+    },
+    {
+      "object": "hare",
+      "context": "Dog unable to bring down hare despite catching it several times",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Reillon",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Herbeviller",
+      "place_type": "village",
+      "context": "Home of witness Jean Verger"
+    },
+    {
+      "place_name": "Barbas",
+      "place_type": "village",
+      "context": "Location where cattle-keeping position was contested"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "market",
+      "context": "Where Demenge Geoffroy bought a horse"
+    },
+    {
+      "place_name": "Badonviller",
+      "place_type": "village",
+      "context": "Where muskets were taken for cleaning"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Location of court that issued torture sentence and death sentence"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy that approved torture and death sentence"
+    },
+    {
+      "place_name": "Leintrey",
+      "place_type": "village",
+      "context": "Home of Michiel Mongeatte (named accomplice)"
+    },
+    {
+      "place_name": "Gondrexon",
+      "place_type": "village",
+      "context": "Home of Jean de Benamesnil (named accomplice)"
+    },
+    {
+      "place_name": "Domjevin",
+      "place_type": "village",
+      "context": "Home of Claudatte Vaultrin (named accomplice)"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where horses were strangled at night; where cattle died"
+    },
+    {
+      "place_name": "sabbat location (unspecified)",
+      "place_type": "sabbat_location",
+      "context": "Where accused claimed to have been transported after seduction"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": ["hail", "wind"],
+    "animal_predation": ["wolves - wished 500 wolves among herd"],
+    "economic_hardship_indicators": [
+      "poverty mentioned - accused said both he and Aubertin Leher were poor and rich took no notice",
+      "competition for herdsman positions indicates economic pressure"
+    ],
+    "religious_calendar_references": [
+      "Good Friday - pact to give master an animal every Good Friday",
+      "Christmas - bidding for herd position"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur fiscal",
+        "role": "prosecutor_pg",
+        "location": null
+      },
+      {
+        "name": "Jean Valtrin le vieux",
+        "role": "mayor",
+        "location": "Reillon"
+      },
+      {
+        "name": "Curien Marchal",
+        "role": "other",
+        "location": "Reillon"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Accused of stealing purse with 16 francs from Aubertin Leher; was beaten across back and taken to court",
+        "outcome": "Eventually made accord before justice; was expensive for accused"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Nicolas Olry publicly accused him as boy of talking about making hail; Noel never sought reparation for this. He was angry when Nicolas Olry called him witch and said he ought to beat him until he left him on the place.",
+    "imprisonment_conditions": null,
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 18,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Aulbry Austette",
+        "source": "late Aulbertin le Here",
+        "content": "warned him that Noel threatened to do him much harm"
+      },
+      {
+        "reporter": "Jean Verger",
+        "source": "inhabitants of Barbas",
+        "content": "heard that inhabitants wanted someone to keep their cattle"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [2, 3],
+      [4, 6],
+      [8, 9]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "angry because Nicolas Olry called him witch",
+      "said both he and Aubertin Leher were poor and rich took no notice (explaining why he asked after sick man)"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Aulbry Austette (cousin of Dieudenon Claude)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "cousin of witness 4",
+      "context": "Warned Dieudenon Claude that wood would be expensive; also testified as witness 8"
+    },
+    {
+      "name": "Aulbertin le Here",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "late husband of witness 18",
+      "context": "Warned Aulbry Austette that Noel threatened harm; accused Noel of theft; died of terrible wasting illness"
+    },
+    {
+      "name": "Curien Marchal",
+      "role_in_narrative": "official",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Named as 'partie plaindante' in torture sentence from court at Blamont"
+    },
+    {
+      "name": "Noel's wife",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife",
+      "relationship_to_witness": null,
+      "context": "Nicolas Olry told her he would have Noel treated as his father if misfortune followed"
+    },
+    {
+      "name": "Curé",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Master wanted Noel to harm curé's property but Noel resisted because of benefits received from curé; master broke thigh of curé's cow"
+    },
+    {
+      "name": "Curé's servants",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Noel had been angry with them"
+    },
+    {
+      "name": "Claudon Marchal's wife",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "wife of witness 11",
+      "context": "Called Noel son of witch when animal fell in ditch"
+    },
+    {
+      "name": "Claudon Bastien's late father",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "father of witness 14",
+      "context": "Suspected Noel over 2 horses which died on same day"
+    },
+    {
+      "name": "Nicolas Olry's two children",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "children of witness 10",
+      "context": "3-month-old and 5-year-old sons who died after threats"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is a particularly detailed trial record with extensive witness testimony. The accused is the son of an executed witch, which clearly influenced his reputation from childhood. The trial centers heavily on his role as herdsman and the economic competition this created. Notable that he withdrew his accusations of accomplices after confessing under torture, saying he 'did those concerned wrong.' The confession contains the typical sabbat narrative but also unique elements like saying 'Jesus Maria' causing the sabbat to disappear, and making a pact to give the devil an animal every Good Friday in exchange for not attending more sabbats or using powder.",
+    "pdf_pages": 4
+  }
+}

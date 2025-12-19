@@ -1,0 +1,2220 @@
+{
+  "trial_id": "w084",
+  "archive_ref": "B 4500 no 2",
+  "location": "La Neuveville sous Chatenoy",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1586-07-07",
+    "end": "1586-09-01",
+    "duration_days": 56
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Margueritte veuve Jean Gallier",
+      "gender": "female",
+      "age": null,
+      "marital_status": "widowed",
+      "spouse_name": "Jean Gallier",
+      "residence": "La Neuveville sous Chatenoy",
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Parsin",
+        "devil_appearance": "Not specified in detail",
+        "seduction_date": "last St. Remy",
+        "seduction_context": "She had been angry after quarrelling with her children, and had gone to collect some wood",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "He removed something from her forehead, hurting her"
+        },
+        "powder_types": [
+          "grey powder (to harm)",
+          "white powder (to heal)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": false
+      }
+    },
+    {
+      "name": "Hanriotte veuve Jean des Boeufs",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "marital_status": "widowed",
+      "spouse_name": "Jehan de Boeuf",
+      "origin": "La Neuveville",
+      "residence": "La Neuveville",
+      "parents": {
+        "father": "Thouvenet Gardene"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Mre Persin",
+        "seduction_date": "8 years before",
+        "seduction_context": "When looking for a lost cow near woods",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "Removed baptismal 'cresme' from forehead"
+        },
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": false
+      }
+    },
+    {
+      "name": "Claudin Clerget",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": [
+        "blacksmith",
+        "marechal"
+      ],
+      "origin": "Frey",
+      "residence": "La Neuveville",
+      "marital_status": "married",
+      "spouse_name": "Margueritte widow of Jean Lietard",
+      "parents": {
+        "father": "Didier Clerject"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "devil_name": "Mre Persin",
+        "seduction_date": "5 years earlier",
+        "seduction_context": "Devil told him he was upset on account of his poverty, but he would make him rich",
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [
+          "took no part and not stayed long"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    },
+    {
+      "name": "Ambroise wife of Gillot Gillot",
+      "gender": "female",
+      "age": 46,
+      "age_approximate": true,
+      "occupation": [
+        "weaver (husband)"
+      ],
+      "origin": "Raymoix",
+      "residence": "La Neuveville",
+      "marital_status": "married",
+      "spouse_name": "Gillot Gillot",
+      "parents": {
+        "father": "Noel Thiebault"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudon femme de Jean Ferry",
+      "gender": "female",
+      "age": 32,
+      "age_approximate": true,
+      "location": "Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Water from bucket brought by Claudin",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Barbe (mother)",
+            "target_relationship": "mother",
+            "attributed_to": "Claudin Clerget",
+            "time_after_quarrel": "within 15 days"
+          },
+          {
+            "type": "human_death",
+            "target": "Marisot Gauthier (stepfather)",
+            "target_relationship": "stepfather",
+            "attributed_to": "Claudin Clerget",
+            "time_after_quarrel": "within 15 days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Barbe femme à Anthoine Bon Jean",
+      "gender": "female",
+      "age": 24,
+      "age_approximate": true,
+      "location": "la Nenfville",
+      "relationship_to_accused": "Sister of previous witness",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Bucket incident with mother and stepfather",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Barbe (mother)",
+            "target_relationship": "mother",
+            "attributed_to": "Claudin Clerget",
+            "method_alleged": "Something white in a paper dropped in water bucket"
+          },
+          {
+            "type": "human_death",
+            "target": "Marisot Gauthier (stepfather)",
+            "target_relationship": "stepfather",
+            "attributed_to": "Claudin Clerget",
+            "method_alleged": "Something white in a paper dropped in water bucket"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jeannon femme à Nicolas Deny",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Mengin Badel had taken back a field",
+        "threat_received": true,
+        "threat_quote": "la premiere fois qu'il y yroit jamais n'en retourneroit pas sante",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mengin Badel",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Illness so serious that he had to crawl back home; was ill on and off for two years before he died",
+            "time_after_quarrel": "When Badel went to sow field"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claude femme de Nicodemus Utchin",
+      "gender": "female",
+      "location": "prévôté de Chatenoy",
+      "relationship_to_accused": "Nicodemus Utchin was porte enseigne de la prévôté de Chatenoy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mengin Badel",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Claudin had given him a 'loppin' he carried in his body, and of which he would die"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claudon femme de Vincent Badel",
+      "gender": "female",
+      "age": 38,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "relationship_to_accused": "Mengin Badel was brother-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mengin Badel",
+            "target_relationship": "brother-in-law",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Repeated suspicions even on his deathbed"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Phelippa veuve de Mengin Badel",
+      "gender": "female",
+      "age": 24,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "relationship_to_accused": "Widow of Mengin Badel",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Mengin Badel (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Claudin told her husband was 'corrompu dedans luy'; made him a drink, promising to heal him for 'les fontaines' but he died 2 days before these"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Nicodemus Utchin",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": "porte enseigne de la prévôté de Chatenoy",
+      "location": "Chatenoy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mengin Badel",
+            "attributed_to": "Claudin Clerget"
+          },
+          {
+            "type": "human_death",
+            "target": "Barbe",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Found a packet with something twisted inside it in the bucket of water"
+          },
+          {
+            "type": "human_death",
+            "target": "Marisot Gauthier",
+            "attributed_to": "Claudin Clerget"
+          }
+        ],
+        "theft_mentioned": true
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengin Gardeme",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Mengin Badel",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Had supper with them when he invited Claudin; Mengin died about a week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Ferry",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Barbe",
+            "attributed_to": "Claudin Clerget"
+          },
+          {
+            "type": "human_death",
+            "target": "Marisot Gauthier",
+            "attributed_to": "Claudin Clerget"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Florentin Moictessier",
+      "gender": "male",
+      "age": 26,
+      "age_approximate": true,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Taking land from Claudin's adjoining field",
+        "threat_received": true,
+        "threat_quote": "par la mort dieu qu'il s'en repentiroit qu'il avoit ja un cheval boiteux et qu'il s'en trouveroit mal",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine mare",
+            "target_relationship": "self",
+            "attributed_to": "Claudin Clerget",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Seemed to have difficulty with back legs, and two days later servant could hardly get it back from fields; shortly after had to be killed",
+            "method_alleged": "Claudin smacked mare on rump, saying it was a fine mare",
+            "time_between_quarrel_and_harm": "two days later"
+          },
+          {
+            "type": "animal_death",
+            "target": "another horse",
+            "target_relationship": "self",
+            "attributed_to": "Claudin Clerget",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "18 months later had another horse ill; Claudin told him he should obtain 'goutte de cheval', and bring 'fremis' from 'une champaigne'. It soon died",
+            "time_between_quarrel_and_harm": "18 months later"
+          },
+          {
+            "type": "animal_death",
+            "target": "sick horse",
+            "target_relationship": "self",
+            "attributed_to": "Ambroise",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Mother asked Ambroise about it. She advised making it walk around church and giving it holy water, but he refused, and it died"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Nicolas Denys",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "Vincent Badel",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "brother",
+            "target_relationship": "brother",
+            "attributed_to": "Claudin Clerget"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Mengeon veuve de Claudot Moictessier",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "relationship_to_accused": "Mother of Florentin Moictessier",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sick horse",
+            "target_relationship": "son's horse",
+            "attributed_to": "Ambroise",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Ambroise advised remedy but son refused since it was not 'chose decente ny propre à une beste de donner ce qu'apartient aux personnes'"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Cleron femme de Florentin Moictessier",
+      "gender": "female",
+      "age": 25,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "household",
+            "attributed_to": "Claudin Clerget",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Believed Claudin had caused death 2 years earlier"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "harm_description": "Called Margueritte to see sick cow, she put something in its mouth, but it still died",
+            "time_between_quarrel_and_harm": "Around same time Ambroise had come asking for alms"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Yzabel femme d'Adam Varin",
+      "gender": "female",
+      "age": 28,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Ambroise had done weaving and witness accused her of keeping back yarn",
+        "threat_received": true,
+        "threat_quote": "Je prie que jamais tu ne puisse enfanter",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Ambroise",
+            "harm_description": "Was pregnant at time, and subsequent labour was very painful",
+            "time_between_quarrel_and_harm": "When went into labour"
+          },
+          {
+            "type": "human_death",
+            "target": "unborn child",
+            "target_relationship": "self (child)",
+            "attributed_to": "Ambroise",
+            "harm_description": "Later when pregnant again Ambroise touched her stomach in church, and she gave birth to a dead child",
+            "method_alleged": "touch"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Didiere veuve de Jean Grinsenot",
+      "gender": "female",
+      "age": 36,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudin angry because when ploughing they turned plough on his adjoining land",
+        "threat_received": true,
+        "threat_quote": "Par la mort dieu que les gros guarioient tousjours les petits mais qu'ilz ne gaigneroient tousjours",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "Adam Varin's household (she was servant)",
+            "attributed_to": "Claudin Clerget",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Claudin looked at horses in pasture and remarked how well they were eating. On return one fell ill, and although Claudin gave it something it died 3 days later",
+            "time_between_quarrel_and_harm": "3 or 4 days later"
+          },
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Had serious chest illness after childbirth, only cured after making a pilgrimage",
+            "precipitating_quarrel": "Dispute over sheep confiscation and 5 francs payment"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jalby femme de Jean Willaume le jeune",
+      "gender": "female",
+      "age": 28,
+      "age_approximate": true,
+      "testimony": {
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Esdeline femme de Mongin Ferry",
+      "gender": "female",
+      "age": 26,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to sell lard to Ambroise",
+        "threat_received": true,
+        "threat_quote": "she had not wanted to sell her any lard, but it would not profit her",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "self",
+            "attributed_to": "Ambroise",
+            "animal_type": "calf",
+            "animal_count": 1,
+            "time_between_quarrel_and_harm": "About 8 days later"
+          },
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Ambroise",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "harm_description": "Called in Ambroise, who said they must send an offering to St. Genens; cow recovered after this was done"
+          },
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Ambroise or Claudon Costelliere",
+            "harm_description": "Bewitched, losing her milk and having her body all twisted; Ambroise told her to spin a whole reel of thread at one go without speaking, then to wrap it around herself for 24 hours, make offering to St. Genens and promise pilgrimage. Did this and was healed"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Barbe femme de Mongin Michiel",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jannotte femme de Mongin Ferry",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "husband",
+            "target_relationship": "husband",
+            "attributed_to": "Ambroise",
+            "harm_description": "Husband had trouble with his leg, which was 'toute gastée'. Claudon Costelliere said Ambroise had done it by putting poison next to his bed. After various pilgrimages advised by Ambroise, he recovered"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Francois Marchal",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "relationship_to_accused": "Brother of Barbe (victim)",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudin asked to buy barley, was refused",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Morisot Gauthier",
+            "target_relationship": "brother-in-law",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "After drinking water from bucket near which Claudin sat, was suddenly taken with fever; died in 8 days",
+            "method_alleged": "Little 'drapeau' with something white inside it found in bucket",
+            "time_between_quarrel_and_harm": "Immediately after dining"
+          },
+          {
+            "type": "human_death",
+            "target": "Barbe (sister)",
+            "target_relationship": "sister",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Died 4 days after Morisot",
+            "method_alleged": "Same poisoned water"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Catherine femme à Jean Cabled",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte",
+            "harm_description": "Around last Easter gave Margueritte alms, immediately afterwards fell ill, spending a month in bed. Margueritte came to visit and put hand on bed with mouth twisted up, 'faisant hideux regard', hand seemed to become white and shining. But husband said Margueritte had healed her, and she quickly recovered",
+            "time_between_quarrel_and_harm": "immediately after giving alms"
+          },
+          {
+            "type": "human_death",
+            "target": "little girl (daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Margueritte",
+            "harm_description": "Believed Margueritte had killed one little girl"
+          },
+          {
+            "type": "human_illness",
+            "target": "another daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Margueritte",
+            "harm_description": "Made another ill, as she still was"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Mongin Tonnerel",
+      "gender": "male",
+      "age": 36,
+      "age_approximate": true,
+      "occupation": "laboureur",
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "mother",
+            "target_relationship": "mother",
+            "attributed_to": "Margueritte",
+            "harm_description": "Margueritte came to tell him his mother had fallen in her kitchen as if dead. She had been ill for 8 days, then recovered, and claimed that Margueritte had given her the illness",
+            "time_between_quarrel_and_harm": "3 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Adrienne femme de Mongin Tonnerel",
+      "gender": "female",
+      "age": 36,
+      "age_approximate": true,
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother-in-law",
+            "target_relationship": "mother-in-law",
+            "attributed_to": "Margueritte",
+            "harm_description": "Never been really well after illness, and had died previous winter"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Jean Willaume surnomme Brancquebourg",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Sendaucourt",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Uncle refused to sell Claudin 3 resaulx of oats",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "young horse",
+            "target_relationship": "uncle's horse",
+            "attributed_to": "Claudin Clerget",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Uncle Anthoine Willaume had called Claudin to see young horse which was slightly injured. After refusing to sell oats, Claudin visited horse again before leaving, and it died later same day",
+            "time_between_quarrel_and_harm": "same day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 26,
+      "name": "Mengin Michiel",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "occupation": "mainouvrier",
+      "location": "la Neufville",
+      "testimony": {
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 27,
+      "name": "Adam Varin",
+      "gender": "male",
+      "age": 36,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Wife reproached Ambroise because her husband (weaver) had not kept 'fidel compte' of yarn",
+        "threat_received": true,
+        "threat_quote": "qu'elle ne peut jamais enfanter ce qu'elle portoit",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Ambroise",
+            "harm_description": "Wife was pregnant and had long and painful labour, but finally pleased God that she was delivered safely"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Claudin Clerget",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Claudin had been angry because they turned plough on his land, later admired horses, and one of them died a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "Jean Villaume le Jeune",
+      "gender": "male",
+      "age": 38,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "mother-in-law Jannotte Boubier",
+            "target_relationship": "mother-in-law",
+            "attributed_to": "Margueritte",
+            "harm_description": "Had been so ill she expected to die, but Margueritte had cured her. Margueritte had been much around the house during her illness"
+          }
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Mathieu Varin",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_injury",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Ambroise",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "Horse had a bad leg, and Ambroise advised wife to obtain holy water from St. Genove at Dollaincourt. When she washed the leg it fell off just below the knee as if it had been cut",
+            "time_between_quarrel_and_harm": "Some 6 weeks earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Dedier Liermey",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "l'armitaige de Saint Remy",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "attributed_to": "Claudin Clerget",
+            "harm_description": "Some 5 years earlier had been harvesting at Sendaincourt, about an hour after dawn, when he saw Claudin sit by a spring, and strike water several times with a stick. He then threw something in it as if he were sowing, taking it from his hat. After he had left a mist began to rise from the spring, then formed into a great cloud, from which it hailed heavily",
+            "method_alleged": "Striking water with stick and throwing something from hat"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1586-07-07",
+      "event": "informations_preparatoires",
+      "subject": "Margueritte Gallier",
+      "details": "Prévôt of Chatenoy asked by various inhabitants of La Neuveville to act against witches causing deaths and sicknesses among animals. Went to La Neuveville and interrogated Margueritte in house of Claude Uthin"
+    },
+    {
+      "date": "1586-07-07",
+      "event": "interrogation",
+      "subject": "Margueritte Gallier",
+      "details": "After making 'quelque difficulté', Margueritte confessed that she was a witch"
+    },
+    {
+      "date": "1586-07-07",
+      "event": "interrogation",
+      "subject": "Hanriotte des Boeufs",
+      "details": "Produced for interrogation. Initially denied, then confessed after being 'fort remonstrée'"
+    },
+    {
+      "date": "1586-07-08",
+      "event": "interrogation",
+      "subject": "Hanriotte des Boeufs",
+      "details": "Brought back to continue interrogation, she started to call on God, saying she was not a witch. Renewed admissions 15 minutes after being taken back to prison"
+    },
+    {
+      "date": "1586-07-08",
+      "event": "informations_preparatoires",
+      "subject": "All 4 accused",
+      "details": "Witnesses were apparently sought against all 4 suspects imprisoned at Chatenoy - Margueritte, Hanriotte, Claudin and Ambroise"
+    },
+    {
+      "date": "1586-07-09",
+      "event": "informations_preparatoires",
+      "subject": "All 4 accused",
+      "details": "Additional witnesses testified"
+    },
+    {
+      "date": "1586-07-10",
+      "event": "interrogation",
+      "subject": "Margueritte Gallier",
+      "details": "Confirmed earlier confessions, but would add no more, and now denied having killed small daughter of Jean Cabled"
+    },
+    {
+      "date": "1586-07-10",
+      "event": "interrogation",
+      "subject": "Ambroise Gillot",
+      "details": "Said she was about 46, native of Raymoix, daughter of Noel Thiebault, married to Gillot Gillot for some 17 years. Systematically denied charges but made some admissions about quarrels and remedies"
+    },
+    {
+      "date": "1586-07-11",
+      "event": "interrogation",
+      "subject": "Claudin Clerget",
+      "details": "Said he was about 50, native of Frey, son of Didier Clerject, blacksmith. Gave extensive biographical details. Systematically denied charges"
+    },
+    {
+      "date": "1586-07-11",
+      "event": "confrontation",
+      "subject": "Margueritte vs Hanriotte",
+      "details": "Hanriotte denied she was a witch, saying earlier confessions made out of fear. Rejected Margueritte's claim that she had been at sabbat"
+    },
+    {
+      "date": "1586-07-12",
+      "event": "confrontation",
+      "subject": "Claudin vs witnesses",
+      "details": "Claudin made various reproaches against witnesses"
+    },
+    {
+      "date": "1586-07-20",
+      "event": "torture_requested",
+      "subject": "Hanriotte, Claudin, Ambroise",
+      "details": "PG des Vosges declares Margueritte sufficiently convicted by her own admissions. Other three should be put to torture, and while Ambroise was under torture Harriotte should be placed so she could hear 'les clameures des tortures'"
+    },
+    {
+      "date": "1586-07-22",
+      "event": "torture_approved",
+      "subject": "Claudin, Ambroise",
+      "details": "Change de Nancy recommends that Margueritte and Harriotte should be interrogated again, and that Claudin and Ambroise be given 'question extraordinaire'"
+    },
+    {
+      "date": "1586-07-24",
+      "event": "torture",
+      "subject": "Ambroise Gillot",
+      "details": "Racked, placed on strappado with 50 pound weight, and given thumbscrews, whole torture lasting an hour. Stoutly denied all charges. Seems to have fainted towards end of torture"
+    },
+    {
+      "date": "1586-07-24",
+      "event": "interrogation",
+      "subject": "Hanriotte des Boeufs",
+      "details": "Immediately after Ambroise's torture. Renewed her confessions, said she had been to sabbat, where she had seen Margueritte and Claudon. Denied committing other malefices"
+    },
+    {
+      "date": "1586-07-25",
+      "event": "torture",
+      "subject": "Claudin Clerget",
+      "details": "Racked; endured for some time protesting, but finally began to confess. Admitted being seduced by Mre Persin 5 years earlier, going to sabbat, killing Gauthier couple with arsenic and devil's powder, killing Mengin Badel with arsenic, killing two horses with powder. Was trembling with 'une fievre froide', so was released"
+    },
+    {
+      "date": "1586-07-26",
+      "event": "escaped",
+      "subject": "Claudin Clerget",
+      "details": "Escaped from chateau. Had broken his chains, climbed out of window, down roof of lean-to, and across moat. Suspected that guards from La Neuveville helped him"
+    },
+    {
+      "date": "1586-07-28",
+      "event": "other",
+      "subject": "Investigation of escape",
+      "details": "Prévôt carried out enquiry into escape of Claudin. Guards seem to have been Jean Jacquinot and son of Mengin Ferry (latter probably nephew of Claudin's wife)"
+    },
+    {
+      "date": "1586-08-07",
+      "event": "death_requested",
+      "subject": "Margueritte, Harriotte",
+      "details": "PG des Vosges, Maimbourg, called for execution of Margueritte and Harriotte, and for further torture of Ambroise"
+    },
+    {
+      "date": "1586-08-09",
+      "event": "death_approved",
+      "subject": "Margueritte Gallier",
+      "details": "Change de Nancy agreed to death sentence for Margueritte, but asked for Harriotte to be interrogated further, and for Ambroise to be renvoyée jusqu'a rappel"
+    },
+    {
+      "date": "1586-08-13",
+      "event": "confrontation",
+      "subject": "Ambroise vs Margueritte and Harriotte",
+      "details": "Ambroise confronted with other two, who maintained that she was a witch"
+    },
+    {
+      "date": "1586-08-13",
+      "event": "execution",
+      "subject": "Margueritte Gallier, Harriotte des Boeufs",
+      "details": "They were taken away and executed"
+    },
+    {
+      "date": "1586-08-13",
+      "event": "torture",
+      "subject": "Ambroise Gillot",
+      "details": "After execution of other two, Ambroise was tortured on rack for half an hour, but would not confess"
+    },
+    {
+      "date": "1586-08-30",
+      "event": "sentence",
+      "subject": "Ambroise Gillot",
+      "details": "PG des Vosges calls for Ambroise to be banished for life"
+    },
+    {
+      "date": "1586-09-01",
+      "event": "sentence",
+      "subject": "Ambroise Gillot",
+      "details": "Court at Chatenois approves banishment sentence"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "rack",
+      "strappado with 50 pound weight",
+      "thumbscrews"
+    ],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Claudon Costelliere",
+      "location": "La Neufville",
+      "context": "Named by Ambroise as someone who wanted to lead her and 'la faire perdre'; suspected of witchcraft; absent from La Neufville",
+      "already_executed": false
+    },
+    {
+      "name": "Jehan Rouyer",
+      "location": "Houecourt",
+      "context": "Seen at sabbat by Claudin (confession under torture)",
+      "already_executed": false
+    },
+    {
+      "name": "Jaccotte",
+      "location": "la Neufville",
+      "context": "Woman seen at sabbat by Claudin (confession under torture)",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jeannon femme à Nicolas Deny (witness 3)",
+      "french": "la premiere fois qu'il y yroit jamais n'en retourneroit pas sante",
+      "context": "Claudin's threat to Mengin Badel about the field"
+    },
+    {
+      "speaker": "Didiere veuve de Jean Grinsenot (witness 16)",
+      "french": "Par la mort dieu que les gros guarioient tousjours les petits mais qu'ilz ne gaigneroient tousjours",
+      "context": "Claudin's threat when angry about ploughing on his land"
+    },
+    {
+      "speaker": "Ambroise Gillot",
+      "french": "Je prie que jamais tu ne puisse enfanter",
+      "context": "Threat/curse to Yzabel wife of Adam Varin over yarn dispute"
+    },
+    {
+      "speaker": "Cleron femme de Florentin Moictessier (witness 14)",
+      "french": "que c'estoit une meschante femme et que le diable la seduisoit ou la vouloit seduire et qu'il failloit prier Dieu",
+      "context": "Warning to Ambroise when she complained of something pushing against her ear"
+    },
+    {
+      "speaker": "Ambroise Gillot",
+      "french": "qu'elle estoit telle qu'elle pouvoit estre",
+      "context": "Response when told she was a bad woman"
+    },
+    {
+      "speaker": "Catherine femme à Jean Cabled (witness 22)",
+      "french": "meschante femme qu'est ce que vous me faict retirez vous arriere de moy vous m'engenoche",
+      "context": "Catherine's accusation when Margueritte visited her while sick"
+    },
+    {
+      "speaker": "Claudin Clerget",
+      "french": "qu'elle mesme ne se damnat et qu'elle n'y estoit esté",
+      "context": "Claudin to Margueritte during confrontation, telling her she should not damn herself and she was not at sabbat"
+    },
+    {
+      "speaker": "Ambroise Gillot (during torture)",
+      "french": "they were killing her, that they were damaging her limbs, and that she would never be able to work again",
+      "context": "Cried out during torture but stoutly denied all charges"
+    },
+    {
+      "speaker": "Florentin Moictessier (witness 10)",
+      "french": "par la mort dieu qu'il s'en repentiroit qu'il avoit ja un cheval boiteux et qu'il s'en trouveroit mal",
+      "context": "Claudin's threat to Jean Ferry about ploughing help"
+    },
+    {
+      "speaker": "Mengin Michiel (witness 26)",
+      "french": "qu'on parloit fort d'elle mais qu'elle scavoit bien quand on en parloit en mal et en bien",
+      "context": "Ambroise told him she knew when people spoke of her, good or bad"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Margueritte Gallier",
+      "person2": "Jean Gallier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Margueritte veuve Jean Gallier",
+      "inferred": false
+    },
+    {
+      "person1": "Hanriotte des Boeufs",
+      "person2": "Jehan de Boeuf",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Hanriotte veuve Jean des Boeufs, married 33 years before with Jehan de Boeuf of Viocourt",
+      "inferred": false
+    },
+    {
+      "person1": "Hanriotte des Boeufs",
+      "person2": "Thouvenet Gardene",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Thouvenet Gardene of La Neufville",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Clerget",
+      "person2": "Margueritte widow of Jean Lietard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "accused",
+      "evidence_text": "Ferry persuaded him to come back to La Neufville with him, and marry his sister Margueritte, widow of Jean Lietard",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Clerget",
+      "person2": "Jean Ferry",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "marry his sister Margueritte",
+      "inferred": false
+    },
+    {
+      "person1": "Claudin Clerget",
+      "person2": "Didier Clerject",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son of Didier Clerject",
+      "inferred": false
+    },
+    {
+      "person1": "Ambroise Gillot",
+      "person2": "Gillot Gillot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married to Gillot Gillot for some 17 years",
+      "inferred": false
+    },
+    {
+      "person1": "Ambroise Gillot",
+      "person2": "Noel Thiebault",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Noel Thiebault",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon femme de Jean Ferry",
+      "person2": "Barbe femme à Anthoine Bon Jean",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Sister of previous witness",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon femme de Jean Ferry",
+      "person2": "Barbe (mother)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Her mother Barbe",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon femme de Jean Ferry",
+      "person2": "Marisot Gauthier",
+      "relationship_type": "other_kin",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her stepfather Marisot Gauthier",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme à Anthoine Bon Jean",
+      "person2": "Claudin Clerget",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "He was regular visitor to house, since he had married the widow of the witness's brother",
+      "inferred": false
+    },
+    {
+      "person1": "Florentin Moictessier",
+      "person2": "Nicodemus Utchin",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his brother-in-law Utchin",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon veuve de Claudot Moictessier",
+      "person2": "Florentin Moictessier",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "her son Florentin",
+      "inferred": false
+    },
+    {
+      "person1": "Cleron femme de Florentin Moictessier",
+      "person2": "Florentin Moictessier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme de Florentin Moictessier",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon femme de Vincent Badel",
+      "person2": "Mengin Badel",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her brother-in-law Mengin Badel",
+      "inferred": false
+    },
+    {
+      "person1": "Vincent Badel",
+      "person2": "Mengin Badel",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Told of brother's death",
+      "inferred": false
+    },
+    {
+      "person1": "Phelippa veuve de Mengin Badel",
+      "person2": "Mengin Badel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "veuve de Mengin Badel",
+      "inferred": false
+    },
+    {
+      "person1": "Yzabel femme d'Adam Varin",
+      "person2": "Adam Varin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme d'Adam Varin",
+      "inferred": false
+    },
+    {
+      "person1": "Didiere veuve de Jean Grinsenot",
+      "person2": "Adam Varin",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "before her marriage, she had been servant to Adam Varin",
+      "inferred": false
+    },
+    {
+      "person1": "Francois Marchal",
+      "person2": "Barbe",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Barbe (sister of witness)",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe",
+      "person2": "Morisot Gauthier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "victim",
+      "evidence_text": "Morisot Gauthier and his wife Barbe",
+      "inferred": false
+    },
+    {
+      "person1": "Esdeline femme de Mongin Ferry",
+      "person2": "Ambroise",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Esdeline (who was her 'commere')",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Villaume le Jeune",
+      "person2": "Jannotte Boubier",
+      "relationship_type": "in_law_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his mother-in-law Jannotte Boubier",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Willaume surnomme Brancquebourg",
+      "person2": "Anthoine Willaume",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his uncle Anthoine Willaume",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte Gallier",
+      "person2": "Hanriotte des Boeufs",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "accused",
+      "evidence_text": "Hanriotte her neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Nicodemus Utchin",
+      "person2": "Claude femme de Nicodemus Utchin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Claude femme de Nicodemus Utchin",
+      "inferred": false
+    },
+    {
+      "person1": "Nicodemus Utchin",
+      "person2": "Claudon Ferry",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "his brother-in-law Claudon Ferry",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Claudon daughter of Jean Cabled",
+      "harm_category": "human_illness",
+      "harm_description": "Made ill with powder after refusing alms; Margueritte wished to heal her but master had not given her white powder",
+      "attributed_to": "Margueritte Gallier",
+      "precipitating_quarrel": "Refused alms",
+      "time_between_quarrel_and_harm": "A week after seduction by devil",
+      "method_alleged": "grey powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Baby of Jean Cabled and Catherine",
+      "harm_category": "human_death",
+      "harm_description": "Lifted cover over cradle, asked how baby was, and put a 'malediction' on it. Baby died 4 or 6 weeks later",
+      "attributed_to": "Margueritte Gallier",
+      "precipitating_quarrel": "Catherine had told her off for not producing enough spinning, although she paid her as normal",
+      "time_between_quarrel_and_harm": "4 or 6 weeks",
+      "method_alleged": "malediction/words",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Cow belonging to Claudon daughter of Jean Limosin",
+      "harm_category": "animal_death",
+      "harm_description": "Put powder on cow and it soon died",
+      "attributed_to": "Margueritte Gallier",
+      "precipitating_quarrel": "Refused alms",
+      "time_between_quarrel_and_harm": "soon",
+      "method_alleged": "powder from devil",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "witness_number": null
+    },
+    {
+      "victim_name": "Catherine Cabled",
+      "harm_category": "human_illness",
+      "harm_description": "Made ill when she refused alms, but cured her a fortnight later",
+      "attributed_to": "Margueritte Gallier",
+      "precipitating_quarrel": "Refused alms",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "One of Hanriotte's own geese",
+      "harm_category": "animal_death",
+      "harm_description": "Hanriotte would only admit to killing one of her own geese",
+      "attributed_to": "Hanriotte des Boeufs",
+      "animal_type": "goose",
+      "animal_count": 1,
+      "witness_number": null
+    },
+    {
+      "victim_name": "Barbe (mother of witness 1)",
+      "harm_category": "human_death",
+      "harm_description": "Died some 6 years before within 15 days after drinking water from bucket brought by Claudin. Found something white in a paper in bucket",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "Dispute at meal",
+      "time_between_quarrel_and_harm": "died 4 days after Morisot",
+      "method_alleged": "something white in a paper dropped in water bucket",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Marisot Gauthier (stepfather of witness 1)",
+      "harm_category": "human_death",
+      "harm_description": "Died some 6 years before within 15 days after drinking water from bucket. Something white in paper found in bucket",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "Refused to give Claudin barley, invited him to dine",
+      "time_between_quarrel_and_harm": "died in 8 days",
+      "method_alleged": "arsenic and devil's powder in bucket (per Claudin's torture confession)",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Mengin Badel",
+      "harm_category": "human_death",
+      "harm_description": "Illness so serious he had to crawl back home; was ill on and off for two years before he died. Carried a 'loppin' in his body",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "Mengin Badel had taken back a field from Claudin",
+      "time_between_quarrel_and_harm": "When Badel went to sow field",
+      "method_alleged": "arsenic (per Claudin's torture confession)",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Fine mare",
+      "harm_category": "animal_death",
+      "harm_description": "Bought at St. Dié, had been ploughing. After quarrel with Claudin who smacked mare on rump, seemed to have difficulty with back legs, two days later servant could hardly get it back from fields; shortly after had to be killed",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "Utchin's wife Thomasse told witness to take small amount from adjoining land of Claudin, who had taken too much",
+      "time_between_quarrel_and_harm": "two days later showed difficulty, shortly after had to be killed",
+      "method_alleged": "smacked mare on rump",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Another horse of Florentin Moictessier",
+      "harm_category": "animal_death",
+      "harm_description": "18 months after mare incident, had another horse ill. Claudin told him he should obtain 'goutte de cheval' and bring 'fremis' from 'une champaigne'. When he objected this was too difficult, Claudin said it was only way to cure horse - it soon died",
+      "attributed_to": "Claudin Clerget",
+      "time_between_quarrel_and_harm": "18 months after mare incident",
+      "method_alleged": "powder (per Claudin's torture confession)",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Sick horse of Florentin Moictessier",
+      "harm_category": "animal_death",
+      "harm_description": "Some 2 years earlier had sick horse. His mother asked Ambroise about it. She advised making it walk around church and giving it holy water, but he refused this advice, and it died",
+      "attributed_to": "Ambroise",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Horse of Adam Varin",
+      "harm_category": "animal_death",
+      "harm_description": "Claudin had been angry because when ploughing they turned plough on his adjoining land. Some 3 or 4 days later took horses to pasture, where Claudin looked at them and remarked how well they were eating. On return one fell ill, and although Claudin gave it something it died 3 days later",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "They turned plough on Claudin's adjoining land",
+      "time_between_quarrel_and_harm": "3 or 4 days to pasture incident, then 3 days to death",
+      "method_alleged": "looked at horses",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Didiere veuve de Jean Grinsenot",
+      "harm_category": "human_illness",
+      "harm_description": "Had serious chest illness after childbirth, only cured after making a pilgrimage",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "Dispute over sheep confiscation and refused to pay 5 francs",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Yzabel femme d'Adam Varin (first pregnancy)",
+      "harm_category": "human_injury",
+      "harm_description": "Was pregnant at time, and subsequent labour was very painful",
+      "attributed_to": "Ambroise",
+      "precipitating_quarrel": "Ambroise had done weaving and witness accused her of keeping back yarn",
+      "method_alleged": "curse/malediction",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Unborn child of Yzabel",
+      "harm_category": "human_death",
+      "harm_description": "Later when pregnant again Ambroise touched her stomach as she stood talking to Jean Cabled's wife in the church, and she gave birth to a dead child",
+      "attributed_to": "Ambroise",
+      "method_alleged": "touch",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Cow of Cleron femme de Florentin Moictessier",
+      "harm_category": "animal_death",
+      "harm_description": "Around same time Ambroise had come asking for alms, had a cow sick, which she believed to be Margueritte's doing; called her to see it, and she put something in its mouth, but it still died",
+      "attributed_to": "Margueritte Gallier",
+      "precipitating_quarrel": "Context of Ambroise asking for alms",
+      "method_alleged": "put something in its mouth",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Calf of Esdeline femme de Mongin Ferry",
+      "harm_category": "animal_death",
+      "harm_description": "About 8 days later lost a calf",
+      "attributed_to": "Ambroise",
+      "precipitating_quarrel": "Refused to sell lard to Ambroise",
+      "time_between_quarrel_and_harm": "About 8 days later",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Cow of Esdeline",
+      "harm_category": "animal_illness",
+      "harm_description": "Later had a cow sick, called in Ambroise, who said they must send an offering to St. Genens; cow recovered after this was done",
+      "attributed_to": "Ambroise",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Esdeline herself",
+      "harm_category": "human_illness",
+      "harm_description": "Bewitched, losing her milk and having her body all twisted; went to see Ambroise who told her to spin a whole reel of thread at one go without speaking, then wrap it around herself for 24 hours, make offering to St. Genens and promise pilgrimage. Did this and was healed",
+      "attributed_to": "Ambroise or Claudon Costelliere",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Husband of Jannotte femme de Mongin Ferry (witness 20)",
+      "harm_category": "human_illness",
+      "harm_description": "Husband had trouble with his leg, which was 'toute gastée'. Claudon Costelliere said Ambroise had done it by putting poison next to his bed. After various pilgrimages advised by Ambroise, he recovered",
+      "attributed_to": "Ambroise",
+      "method_alleged": "putting poison next to his bed",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "Catherine femme à Jean Cabled",
+      "harm_category": "human_illness",
+      "harm_description": "Around last Easter gave Margueritte alms, immediately afterwards fell ill, spending a month in bed. Margueritte came to visit and put hand on bed with mouth twisted up, 'faisant hideux regard', hand seemed to become white and shining. Husband said Margueritte had healed her, and she quickly recovered",
+      "attributed_to": "Margueritte Gallier",
+      "time_between_quarrel_and_harm": "immediately after giving alms",
+      "method_alleged": "hand on bed, strange appearance",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Little girl daughter of Catherine",
+      "harm_category": "human_death",
+      "harm_description": "Believed Margueritte had killed one little girl",
+      "attributed_to": "Margueritte Gallier",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Another daughter of Catherine",
+      "harm_category": "human_illness",
+      "harm_description": "Made another ill, as she still was",
+      "attributed_to": "Margueritte Gallier",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Mother of Mongin Tonnerel",
+      "harm_category": "human_death",
+      "harm_description": "Some 3 years earlier Margueritte came to tell him his mother had fallen in her kitchen as if dead. She had been ill for 8 days, then recovered, and claimed that Margueritte had given her the illness. Never been really well afterwards, and died previous winter",
+      "attributed_to": "Margueritte Gallier",
+      "time_between_quarrel_and_harm": "3 years earlier",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Young horse of Anthoine Willaume",
+      "harm_category": "animal_death",
+      "harm_description": "Uncle had called Claudin to see young horse which was slightly injured. Afterwards went to drink in tavern and Claudin asked to buy 3 resaulx of oats, which uncle refused. Did this 2 or 3 times, then Claudin told him he would repent. He visited horse again before leaving, and it died later same day",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "Uncle refused to sell 3 resaulx of oats",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "visited horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 25
+    },
+    {
+      "victim_name": "Wife of Adam Varin",
+      "harm_category": "human_injury",
+      "harm_description": "Wife was pregnant and had long and painful labour after Ambroise's curse, but finally pleased God that she was delivered safely",
+      "attributed_to": "Ambroise",
+      "precipitating_quarrel": "Wife reproached Ambroise because her husband (weaver) had not kept 'fidel compte' of yarn",
+      "method_alleged": "curse",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "Horse of Adam Varin",
+      "harm_category": "animal_death",
+      "harm_description": "Claudin had been angry because they turned plough on his land, later admired horses, and one of them died a few days later",
+      "attributed_to": "Claudin Clerget",
+      "precipitating_quarrel": "They turned plough on Claudin's land",
+      "time_between_quarrel_and_harm": "a few days later",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 27
+    },
+    {
+      "victim_name": "Mother-in-law Jannotte Boubier",
+      "harm_category": "human_illness",
+      "harm_description": "Previous year had been so ill she expected to die, but Margueritte had cured her. Margueritte had been much around the house during her illness",
+      "attributed_to": "Margueritte Gallier (both caused and cured)",
+      "witness_number": 28
+    },
+    {
+      "victim_name": "Horse of Mathieu Varin",
+      "harm_category": "animal_injury",
+      "harm_description": "Some 6 weeks earlier horse had a bad leg, and Ambroise advised wife to obtain holy water from St. Genove at Dollaincourt, with which she should wash the leg. When she did so it fell off just below the knee as if it had been cut",
+      "attributed_to": "Ambroise",
+      "harm_description": "Leg fell off just below knee as if it had been cut",
+      "time_between_quarrel_and_harm": "Some 6 weeks earlier",
+      "method_alleged": "holy water remedy that backfired",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 29
+    },
+    {
+      "victim_name": "Community (weather event)",
+      "harm_category": "weather_event",
+      "harm_description": "Some 5 years earlier witness had been harvesting at Sendaincourt, about an hour after dawn, when he saw Claudin sit by a spring, and strike water several times with a stick. He then threw something in it as if he were sowing, taking it from his hat. After he had left a mist began to rise from the spring, then formed into a great cloud, from which it hailed heavily. No-one dared use the spring for more than a year",
+      "attributed_to": "Claudin Clerget",
+      "method_alleged": "Striking water with stick and throwing something from hat into spring",
+      "witness_number": 30
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "chappeau d'estain (pewter hat)",
+      "context": "Margueritte said her powder was in a 'chappeau d'estain' on windowsill in barn. When brought, found to contain two little packets of cabbage seed, and an empty packet from which she said the powder must have escaped",
+      "category": "household"
+    },
+    {
+      "object": "cabbage seed",
+      "context": "Found in pewter hat on windowsill instead of magical powder",
+      "category": "agricultural"
+    },
+    {
+      "object": "grey and white powders",
+      "context": "Devil gave Margueritte grey powder (to harm) and white powder (to heal)",
+      "category": "magical"
+    },
+    {
+      "object": "water bucket",
+      "context": "Claudin allegedly dropped something white in a paper into water bucket, causing deaths of Barbe and Marisot Gauthier",
+      "category": "household"
+    },
+    {
+      "object": "pistol",
+      "context": "9 years before Claudin had stolen a pistol from Nicodemus Utchin's house, sold it at Frain. Utchin bought it back for 4 francs, plus 2 francs of wine to find out who was thief",
+      "category": "other"
+    },
+    {
+      "object": "bichot of barley",
+      "context": "Claudin asked to buy a bichot of barley from Morisot; was refused but eventually given it",
+      "category": "agricultural"
+    },
+    {
+      "object": "lard",
+      "context": "Esdeline's husband had bought some lard, Ambroise came asking if she would sell her some. Refused but gave her a good piece. Returned next day and repeated request, but was refused absolutely",
+      "category": "food"
+    },
+    {
+      "object": "holy water",
+      "context": "Repeatedly mentioned as remedy and protection. Ambroise threw quantities of holy water at devil to drive him off. Used from various saints (St. Genens, St. Genot, St. Genove at Dollaincourt)",
+      "category": "religious"
+    },
+    {
+      "object": "yarn/thread",
+      "context": "Margueritte had been spinning for Cabled's wife Catherine. Ambroise had done weaving and was accused of keeping back yarn. Esdeline told to spin whole reel of thread at one go without speaking as remedy",
+      "category": "household"
+    },
+    {
+      "object": "herbs (bonnes herbes de St. Jean)",
+      "context": "Ambroise advised Esdeline to bathe using 'bonnes herbes de St. Jean'",
+      "category": "magical"
+    },
+    {
+      "object": "cloth soaked in holy water",
+      "context": "Ambroise used cloth soaked in holy water, which she put on forehead to preserve 'cresme' she had from baptism, for a fortnight",
+      "category": "religious"
+    },
+    {
+      "object": "arsenic",
+      "context": "Claudin confessed under torture to using arsenic to kill Gauthier couple and Mengin Badel",
+      "category": "other"
+    },
+    {
+      "object": "sulphur",
+      "context": "Claudin suggested in his defense that Francois Marchal had used sulphur on a horse, thrown it away through kitchen window, it fell in bucket, and would flare up when put on fire",
+      "category": "other"
+    },
+    {
+      "object": "3 resaulx of oats",
+      "context": "Claudin asked to buy this from Anthoine Willaume, was refused",
+      "category": "agricultural"
+    },
+    {
+      "object": "wine",
+      "context": "Nicodemus Utchin paid 2 francs of wine to find out who was thief of his pistol",
+      "category": "food"
+    },
+    {
+      "object": "chains",
+      "context": "Claudin had broken his chains when he escaped from the chateau",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "La Neuveville sous Chatenoy",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of most accused and witnesses"
+    },
+    {
+      "place_name": "Chatenoy",
+      "place_type": "village",
+      "context": "Seat of prévôté, where trials were held and prisoners kept"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Seat of Change de Nancy (appellate court); Claudin spent a year there as youth in service of baker; his uncle Demenge Clerject lived in faubourg of Nancy"
+    },
+    {
+      "place_name": "Frey",
+      "place_type": "village",
+      "context": "Claudin's birthplace"
+    },
+    {
+      "place_name": "Raymoix",
+      "place_type": "village",
+      "context": "Ambroise's birthplace"
+    },
+    {
+      "place_name": "Viocourt",
+      "place_type": "village",
+      "context": "Origin of Hanriotte's husband Jehan de Boeuf"
+    },
+    {
+      "place_name": "Mirecourt",
+      "place_type": "village",
+      "context": "Claudin went as 'pallefrenier' for 14 months"
+    },
+    {
+      "place_name": "Mattaincourt",
+      "place_type": "village",
+      "context": "Where Claudin returned to blacksmithing for 5 months and married first wife Barbon"
+    },
+    {
+      "place_name": "Paris",
+      "place_type": "village",
+      "context": "Near where Claudin joined company of M. de Clermont d'Antraigues"
+    },
+    {
+      "place_name": "Poland",
+      "place_type": "other",
+      "context": "Claudin went to Poland with Henri III, serving as a smith"
+    },
+    {
+      "place_name": "Frain",
+      "place_type": "village",
+      "context": "Where Claudin sold stolen pistol"
+    },
+    {
+      "place_name": "Chaumont",
+      "place_type": "village",
+      "context": "Where Claudin and Jean Ferry were arrested during an 'entreprinse'"
+    },
+    {
+      "place_name": "St. Dié",
+      "place_type": "market",
+      "context": "Where Florentin Moictessier bought a fine mare"
+    },
+    {
+      "place_name": "Sendaucourt (Sendaincourt)",
+      "place_type": "village",
+      "context": "Where Dedier Liermey was harvesting when he saw Claudin making hail at a spring; also home of Jean Willaume surnomme Brancquebourg"
+    },
+    {
+      "place_name": "Houecourt",
+      "place_type": "village",
+      "context": "Where widow Martinotte lived (taught Ambroise remedies); where Jehan Rouyer lived (allegedly seen at sabbat)"
+    },
+    {
+      "place_name": "Dollaincourt",
+      "place_type": "village",
+      "context": "Location of St. Genove holy water source"
+    },
+    {
+      "place_name": "Vallerois le Secque",
+      "place_type": "village",
+      "context": "Where Claudin's daughter by first wife was in service"
+    },
+    {
+      "place_name": "Belcourt",
+      "place_type": "village",
+      "context": "Where one of Hanriotte's daughters lived"
+    },
+    {
+      "place_name": "Bouxey",
+      "place_type": "village",
+      "context": "Home of Claudin Gardeme dit Harbel"
+    },
+    {
+      "place_name": "Vomecourt",
+      "place_type": "village",
+      "context": "Home of Claudon Chrestien"
+    },
+    {
+      "place_name": "Spring near Sendaincourt",
+      "place_type": "water_body",
+      "context": "Where Claudin allegedly made hail by striking water with stick and throwing something from his hat"
+    },
+    {
+      "place_name": "Church at La Neufville",
+      "place_type": "church",
+      "context": "Where Ambroise touched Yzabel's stomach, leading to stillbirth; where Ambroise suggested sick horse should walk around"
+    },
+    {
+      "place_name": "St. Genens",
+      "place_type": "church",
+      "context": "Pilgrimage site recommended by Ambroise for offerings"
+    },
+    {
+      "place_name": "St. Loup",
+      "place_type": "church",
+      "context": "Pilgrimage site recommended by Ambroise"
+    },
+    {
+      "place_name": "Beau Bernard",
+      "place_type": "church",
+      "context": "Pilgrimage site mentioned in testimony"
+    },
+    {
+      "place_name": "St. Gement",
+      "place_type": "church",
+      "context": "Pilgrimage site recommended by Ambroise"
+    },
+    {
+      "place_name": "Château of Chatenois",
+      "place_type": "other",
+      "context": "Where Claudin was imprisoned and from which he escaped; where Francois Marchal had escaped from previously"
+    },
+    {
+      "place_name": "Sabbat location",
+      "place_type": "sabbat_location",
+      "context": "Unspecified location where Margueritte, Hanriotte, and Claudin allegedly attended sabbat and saw each other and other witches"
+    },
+    {
+      "place_name": "Woods near La Neufville",
+      "place_type": "forest",
+      "context": "Where Hanriotte was looking for lost cow when devil appeared; where Margueritte was collecting wood when seduced"
+    },
+    {
+      "place_name": "Fields around La Neufville",
+      "place_type": "field",
+      "context": "Where much of the ploughing disputes occurred; where Claudin admired horses before they fell ill"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Duc Casimir's troops were lodged in village some 10 or 11 years earlier. Claudin showed special knowledge of movement of these troops. Claudin also went to Poland with Henri III, serving as a smith",
+    "weather_events": [
+      "Hail produced by Claudin at spring near Sendaincourt, witnessed by Dedier Liermey"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Claudin's poverty mentioned as reason for devil's seduction",
+      "Barbe wife of Anthoine Bon Jean had married a man less well off than herself, who had consumed her inheritance, so that she was dependent on her mother",
+      "Disputes over barley, oats, lard, yarn suggesting scarcity",
+      "Ambroise asking for alms to help make pilgrimage"
+    ],
+    "religious_calendar_references": [
+      "last St. Remy (when Margueritte was seduced)",
+      "Wednesday of Holy Week (when Claudin came to buy barley from Morisot)",
+      "last Easter (when Catherine gave Margueritte alms and fell ill)",
+      "les fontaines (religious celebration Claudin promised to heal Mengin Badel for)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Claude Uthin",
+        "role": "other",
+        "location": "La Neuveville",
+        "description": "hostellier and substitut of the PG des Vosges"
+      },
+      {
+        "name": "Nicodemus Utchin",
+        "role": "other",
+        "location": "Chatenoy",
+        "description": "porte enseigne de la prévôté de Chatenoy"
+      },
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      },
+      {
+        "name": "Maimbourg",
+        "role": "prosecutor_pg",
+        "location": "Nancy",
+        "description": "PG des Vosges who called for execution on 7 August"
+      },
+      {
+        "name": "M. Petitgot",
+        "role": "other",
+        "location": "Vosges",
+        "description": "lieutenant general des Vosges who conducted inquiry for Claudin's remission after killing Claudon Chrestien"
+      },
+      {
+        "name": "Prévôt of Chatenoy",
+        "role": "prevot",
+        "location": "Chatenoy"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "assault",
+        "description": "Some 6 years earlier Claudin had become involved in a quarrel between Claudin Gardeme dit Harbel of Bouxey and Claudon Chrestien of Vomecourt; latter had been determined to attack him, and in self-defence Claudin had thrown a stone which struck him on the forehead, from which wound he died 2 days later",
+        "outcome": "Had petitioned duke for remission, which had been granted after enquiry by M. Petitgot, lieutenant general des Vosges. Letters patent were in hands of his uncle Demenge Clerject"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "9 years before Claudin had stolen a pistol from Nicodemus Utchin's house, and sold it at Frain",
+        "outcome": "Utchin bought it back for 4 francs, plus 2 francs of wine to find out who was thief. (Claudin claimed he had borrowed it and used it as surety for debt)"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Previous year Vincent Badel had made a report to the substitut Claude Utchin that Claudin was taking unfair advantage of some meadows he held for wards",
+        "outcome": "Witness claimed it had been a true report"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Francois Marchal had escaped from château of Chatenois",
+        "outcome": "Unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Claudin was able to escape by breaking his chains, climbing out of window, down roof of lean-to, and across moat, though he was still suffering from after-effects of torture. Guards were from La Neuveville and one was close relative (nephew of Claudin's wife)",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 15,
+    "hearsay_chains": [
+      {
+        "reporter": "Claude femme de Nicodemus Utchin (witness 4)",
+        "source": "Mengin Badel",
+        "content": "Told her that Claudin had given him a 'loppin' he carried in his body, and of which he would die"
+      },
+      {
+        "reporter": "Claudon femme de Vincent Badel (witness 5)",
+        "source": "Mengin Badel",
+        "content": "Repeated suspicions even on his deathbed"
+      },
+      {
+        "reporter": "Phelippa veuve de Mengin Badel (witness 6)",
+        "source": "Mengin Badel (husband on deathbed)",
+        "content": "Told her that Claudin had offered to make him a drink to cure him"
+      },
+      {
+        "reporter": "Nicodemus Utchin (witness 7)",
+        "source": "Barbe on deathbed",
+        "content": "Told him of finding a packet with something twisted inside it in the bucket of water"
+      },
+      {
+        "reporter": "Mengin Gardeme (witness 8)",
+        "source": "Mengin Badel",
+        "content": "Asked him to have supper with them when he invited Claudin"
+      },
+      {
+        "reporter": "Jannotte femme de Mongin Ferry (witness 20)",
+        "source": "Claudon Costelliere",
+        "content": "When she accused Claudon of causing husband's leg illness, Claudon said Ambroise had done it by putting poison next to his bed"
+      },
+      {
+        "reporter": "Jean Villaume le Jeune (witness 28)",
+        "source": "Mother-in-law Jannotte Boubier",
+        "content": "Told her children when ill that Margueritte had cured her"
+      },
+      {
+        "reporter": "Jean Willaume surnomme Brancquebourg (witness 25)",
+        "source": "Uncle Anthoine Willaume",
+        "content": "Uncle was astonished after horse died, and regretted refusing Claudin the oats, believing that he had killed the horse"
+      },
+      {
+        "reporter": "Didiere widow of Jean Grinsenot (witness 16)",
+        "source": "others",
+        "content": "Heard later from others that Claudin had made threats against her"
+      }
+    ],
+    "oldest_accusation_years": 11,
+    "corroboration_groups": [
+      [1, 2, 7, 21],
+      [3, 4, 5, 6, 7, 8, 12],
+      [10, 13, 14]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "Margueritte made 'quelque difficulté' before confessing",
+      "Hanriotte was 'fort remonstrée' before confessing, then retracted",
+      "Ambroise 'stoutly denied all charges' even under torture, cried out that they were killing her, damaging her limbs, and she would never be able to work again",
+      "Claudin 'trembling all over with une fievre froide' after torture",
+      "Margueritte 'seemed the more sure of herself' during confrontation with Claudin"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 12,
+        "objection": "Vincent Badel had made a false report to the substitut Claude Utchin that he was taking unfair advantage of some meadows he held for wards"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Reproached Vincent's wife Claudon that she had previously served her father-in-law Claude Badel who 'paillardoit' with her, then married her to his son"
+      },
+      {
+        "witness_number": 4,
+        "objection": "Said that the curé of la Neufville had 'tenue et paillardé' Claude wife of Nicodemus Utchin"
+      },
+      {
+        "witness_number": 7,
+        "objection": "Nicodemus himself had made an 'esgout de chaulette' which fell on the roof of Claudin's house and damaged it"
+      },
+      {
+        "witness_number": 11,
+        "objection": "Reproached Nicolas Denys with being 'homme querelleux'"
+      },
+      {
+        "witness_number": 9,
+        "objection": "Jean Ferry had been called thief by wife of Denys"
+      },
+      {
+        "witness_number": 6,
+        "objection": "Philippe widow of Mengin Badel had taken some of his hay"
+      },
+      {
+        "witness_number": 16,
+        "objection": "Didiere widow of Jean Grinsenot had not paid him what she owed for sheep he had looked after for her"
+      },
+      {
+        "witness_number": 1,
+        "objection": "Accused Claudon wife of Jean Ferry of keeping property belonging to her wards"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Accused of stealing a shroud and a shirt, and of having taken property belonging to her nephew after her mother's death. Claimed Claudin offered to give her something to put beneath husband's pillow to kill him, and wanted to have her"
+      },
+      {
+        "witness_number": 21,
+        "objection": "Francois Marchal had escaped from château of Chatenois, had 'despendu son bien malheureusement', and had stolen items from the inheritance of his sister. Suggested he had used sulphur on horse which fell in bucket and caused flare-up"
+      },
+      {
+        "witness_number": 30,
+        "objection": "Accused Dedier Liermey of having stolen a resal of wheat some years earlier"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Claudon Cottelier (Costelliere)",
+      "role_in_narrative": "prior_accused",
+      "context": "Now absent from La Neufville, suspected of witchcraft, allegedly wanted to lead Ambroise with her. Accused by Jannotte of causing her husband's leg illness (though Claudon blamed Ambroise)"
+    },
+    {
+      "name": "Martinotte",
+      "role_in_narrative": "community_member",
+      "context": "Widow who lived at Houecourt; taught Ambroise the yarn remedy"
+    },
+    {
+      "name": "Jehan Rouyer",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "Named by Claudin under torture",
+      "context": "Of Houecourt, allegedly seen at sabbat by Claudin (confession under torture)"
+    },
+    {
+      "name": "Jaccotte",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "Named by Claudin under torture",
+      "context": "Woman of la Neufville, allegedly seen at sabbat by Claudin (confession under torture)"
+    },
+    {
+      "name": "Jean Jacquinot",
+      "role_in_narrative": "official",
+      "context": "One of two guards of Claudin, from La Neuveville, suspected of helping him escape"
+    },
+    {
+      "name": "Son of Mengin Ferry",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "Probably nephew of Claudin's wife",
+      "context": "One of two guards of Claudin, close relative, suspected of helping him escape"
+    },
+    {
+      "name": "Demenge Clerject",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Uncle of Claudin",
+      "context": "Living in faubourg of Nancy, holding Claudin's letters patent for remission"
+    },
+    {
+      "name": "Barbon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Claudin's first wife",
+      "context": "Daughter of Jean Nacquart, Claudin married her at Mattaincourt and lived with her for 12 years"
+    },
+    {
+      "name": "Daughter of Claudin and Barbon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Claudin's daughter",
+      "context": "In service at Vallerois le Secque"
+    },
+    {
+      "name": "M. de Clermont d'Antraigues",
+      "role_in_narrative": "other",
+      "context": "Claudin joined his company near Paris"
+    },
+    {
+      "name": "M. de Bouzey",
+      "role_in_narrative": "other",
+      "context": "Gentleman whom Claudin and Jean Ferry accompanied on an 'entreprinse' until arrested at Chaumont"
+    },
+    {
+      "name": "Jean Gilbert",
+      "role_in_narrative": "community_member",
+      "context": "Of La Neufville, met Claudin at Mattaincourt"
+    },
+    {
+      "name": "Claudin Gardeme dit Harbel",
+      "role_in_narrative": "other",
+      "context": "Of Bouxey, involved in quarrel that led to Claudin killing Claudon Chrestien"
+    },
+    {
+      "name": "Claudon Chrestien",
+      "role_in_narrative": "victim",
+      "context": "Of Vomecourt, killed by Claudin 6 years earlier in self-defense (stone to forehead); Claudin received ducal remission"
+    },
+    {
+      "name": "Anthoine Willaume",
+      "role_in_narrative": "other",
+      "relationship_to_witness": "Uncle of witness 25",
+      "context": "Owned young horse that died after Claudin was refused oats"
+    },
+    {
+      "name": "Jannotte Boubier",
+      "role_in_narrative": "other",
+      "relationship_to_witness": "Mother-in-law of witness 28",
+      "context": "Had been ill and claimed Margueritte had cured her"
+    },
+    {
+      "name": "Thomasse wife of Utchin",
+      "role_in_narrative": "community_member",
+      "context": "Told Florentin Moictessier to take small amount from adjoining land of Claudin"
+    },
+    {
+      "name": "Curé of la Neufville",
+      "role_in_narrative": "official",
+      "context": "Claudin accused him of misconduct with Claude wife of Nicodemus Utchin (she denied)"
+    },
+    {
+      "name": "Henri III",
+      "role_in_narrative": "other",
+      "context": "Claudin went to Poland with Henri III, serving as a smith"
+    },
+    {
+      "name": "Duke (of Lorraine)",
+      "role_in_narrative": "official",
+      "context": "Claudin petitioned duke for remission after killing Claudon Chrestien; Claudin's goods had been confiscated by officers of duke after murder"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "This is an exceptionally complex trial involving 4 accused individuals with extensive witness testimony (30 witnesses). Margueritte and Hanriotte were executed on 13 August 1586. Claudin escaped on 26 July 1586 after confessing under torture. Ambroise was banished for life on 1 September 1586 after withstanding torture twice without confessing. The trial provides rich detail on quarrels, maleficia, social relationships, legal procedures, defense strategies, and the dynamics between the accused. Notable features include Claudin's elaborate biographical account, Ambroise's steadfast resistance to torture, the escape inquiry, and extensive reproaches against witnesses.",
+    "pdf_pages": 11
+  }
+}

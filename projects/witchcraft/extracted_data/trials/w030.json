@@ -1,0 +1,531 @@
+{
+  "trial_id": "w030",
+  "archive_ref": "B 3323 no 6",
+  "location": "Leintrey",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1602-05-30",
+    "end": "1602-07-01",
+    "duration_days": 32
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Pierson fils Petit Pierson",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": [
+        "laboureur",
+        "servant",
+        "horse herder"
+      ],
+      "origin": "Leintrey",
+      "residence": "Leintrey",
+      "marital_status": "single",
+      "parents": {
+        "father": "Pierson le Petit Pierson",
+        "mother": "Catherine"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Vaultrin",
+      "gender": "male",
+      "age": 34,
+      "occupation": "laboureur",
+      "location": "Leintrey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused said ringing bells was useless to ward off bad weather when clouds came up",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Mengin Godot",
+      "gender": "male",
+      "age": 34,
+      "location": "Leintrey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 26,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Claudon Thoussainct",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "location": "Leintrey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused tried to take horses and plough across witness's wheat field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "witness's own horses",
+            "attributed_to": "Pierson fils Petit Pierson",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Hellenix",
+      "gender": "male",
+      "age": 25,
+      "occupation": "jeune fils",
+      "location": "Leintrey",
+      "relationship_to_accused": "accused each other of theft",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Theft of a cart-rope taken at night from cart of Jean Cartier; witness was suspected and tried to accuse Pierson",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "his master's horse",
+            "attributed_to": "Pierson fils Petit Pierson",
+            "time_after_quarrel": "subsequently"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": true
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-05-30",
+      "event": "informations_preparatoires",
+      "subject": "Pierson fils Petit Pierson",
+      "details": "Four witnesses testified during preliminary investigation"
+    },
+    {
+      "date": "1602-06-25",
+      "event": "interrogation",
+      "subject": "Pierson fils Petit Pierson",
+      "details": "First interrogation of the accused with confrontations"
+    },
+    {
+      "date": "1602-06-26",
+      "event": "confrontation",
+      "subject": "Pierson fils Petit Pierson",
+      "details": "Additional confrontations with witnesses"
+    },
+    {
+      "date": "1602-06-30",
+      "event": "torture_requested",
+      "subject": "Pierson fils Petit Pierson",
+      "details": "Procureur fiscal asks for question extraordinaire in normal way"
+    },
+    {
+      "date": "1602-07-01",
+      "event": "sentence",
+      "subject": "Pierson fils Petit Pierson",
+      "details": "Change de Nancy recommends that he be renvoyé (released)"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "requesting_official": "procureur fiscal",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Request denied - accused released instead"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "la Jobarde",
+      "context": "Accused was imprisoned because of allegations made by la Jobarde (who was later executed as a witch herself)",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Nicolas Vaultrin",
+      "french": "qu'elles estoient benistes, et valloient pour detourner le mauvais temps",
+      "english": "they [the bells] were blessed, and were good for turning away bad weather",
+      "context": "Witness objecting to accused's claim that ringing bells was useless against storms"
+    },
+    {
+      "speaker": "Claudon Thoussainct",
+      "french": "fort petit, on parloit de le rebaptiser, toutesfois l'on trouva qu'il ne se pouvoit faire, ains fut confirmé en l'abbaye de Domepvre parce qu'estant aux champs avec d'autres enfants il disoit qu'il feroit bien du bruit et de la gresle, sy bien qu'il fut en reputation depuis ce temps la qu'il est sorcier",
+      "english": "when very small, there was talk of rebaptizing him, but they found it could not be done, so he was confirmed at the abbey of Domepvre because when in the fields with other children he said he could make noise and hail, so much so that he has been reputed since that time to be a witch",
+      "context": "Describing the origin of the accused's reputation from childhood"
+    },
+    {
+      "speaker": "Pierson fils Petit Pierson",
+      "french": "et fust contrainct des qu'il eust un peu de cognoissance de servir a garder les chevaux, aujourd'huy en un logis demain en un autre Jusques a ce qu'il fust en age de discretion pour se gouverner",
+      "english": "and was forced as soon as he had a little awareness to serve watching horses, today in one lodging tomorrow in another until he was of age to govern himself",
+      "context": "Describing his difficult childhood working as a servant from a very young age"
+    },
+    {
+      "speaker": "Pierson fils Petit Pierson",
+      "french": "Et en nous discourant des parents et de ses feus pere et mere a pleuré amerement",
+      "english": "And in speaking to us of his relatives and his late father and mother cried bitterly",
+      "context": "Accused's emotional state during interrogation when discussing his deceased parents"
+    },
+    {
+      "speaker": "Pierson fils Petit Pierson",
+      "french": "en pleurant que non et qu'il scavoit bien ce que cela vouloit dire, Car estant petit guerson le bruict couroit qu'il disoit scavoir les moyens de faire de la gresle dequoy il n'a memoire",
+      "english": "crying that no and that he knew well what that meant, For when he was a small boy the rumor ran that he said he knew the means to make hail of which he has no memory",
+      "context": "Accused denying knowledge of making hail while acknowledging the childhood rumors"
+    },
+    {
+      "speaker": "Pierson fils Petit Pierson",
+      "french": "qu'il se taise et qu'il estoit sy vertte luy mesme",
+      "english": "that he be quiet and that he was so green/innocent himself",
+      "context": "Accused's angry response to Claudon Thoussainct's insult about those who had to be rebaptized"
+    },
+    {
+      "speaker": "Pierson fils Petit Pierson",
+      "french": "il pouvoit bien alleguer chose qui seroit contre la verité a cette fin d'en faire ressentir d'autres",
+      "english": "he could well allege things that would be against the truth in order to make others suffer for it",
+      "context": "Accused objecting to Nicolas Vaultrin's testimony, suggesting his mother's execution biased him"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Pierson le Petit Pierson",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "son of late Pierson le Petit Pierson"
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "his wife Catherine"
+    },
+    {
+      "person1": "Claudon Mengin",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "godparent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "feu Claudon Mengin son paraine"
+    },
+    {
+      "person1": "Jean Courtier",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "brother-in-law Jean Courtier",
+      "inferred": false
+    },
+    {
+      "person1": "Michel Hellenix",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Michel Hellenix for one [year]"
+    },
+    {
+      "person1": "Nicolas Pierson",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "widow of Nicolas Pierson at la Neuveville for a year",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon veuve Claudon Grand Demenge",
+      "person2": "Pierson fils Petit Pierson",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "his sister Jennon veuve Claudon Grand Demenge"
+    },
+    {
+      "person1": "la Jobarde",
+      "person2": "Nicolas Vaultrin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "because his mother (la Jobarde) had been executed"
+    },
+    {
+      "person1": "Jean Hellenix",
+      "person2": "Michel Hellenix",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jean Hellenix and Michel Hellenix",
+      "inferred": true
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Disputes over passage through wheat fields; theft accusations regarding cart-rope; accused had difficult economic circumstances, working as itinerant servant from childhood"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "2 horses",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses died",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Pierson fils Petit Pierson",
+      "precipitating_quarrel": "Accused tried to take horses and plough across witness's wheat field",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "master's horse",
+      "harm_category": "animal_death",
+      "harm_description": "horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Pierson fils Petit Pierson",
+      "precipitating_quarrel": "Theft accusation regarding cart-rope, mutual insults, attempt to take Pierson to justice",
+      "time_between_quarrel_and_harm": "subsequently",
+      "witness_number": 4
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "cart-rope",
+      "context": "Allegedly stolen at night from cart of Jean Cartier; central to dispute between accused and Jean Hellenix",
+      "category": "tools"
+    },
+    {
+      "object": "plough",
+      "context": "Accused tried to take horses and plough across Claudon Thoussainct's wheat field",
+      "category": "agricultural"
+    },
+    {
+      "object": "bells",
+      "context": "Church bells blessed and used to ward off bad weather; accused allegedly said useless against storms",
+      "category": "religious"
+    },
+    {
+      "object": "bandeau",
+      "context": "Priest folded a band/headband on his forehead during confirmation at abbey of Domepvre",
+      "category": "religious"
+    },
+    {
+      "object": "wheat",
+      "context": "Mengin Godot allegedly caught stealing wheat in the church",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Leintrey",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Domepvre",
+      "place_type": "village",
+      "context": "Location of abbey where accused was taken for confirmation as a child due to suspicions"
+    },
+    {
+      "place_name": "la Garde",
+      "place_type": "village",
+      "context": "One of the places where accused worked as servant"
+    },
+    {
+      "place_name": "Vacourt",
+      "place_type": "village",
+      "context": "One of the places where accused worked as servant"
+    },
+    {
+      "place_name": "Mulcey",
+      "place_type": "village",
+      "context": "One of the places where accused worked as servant"
+    },
+    {
+      "place_name": "St Martin",
+      "place_type": "village",
+      "context": "Where accused worked for a year"
+    },
+    {
+      "place_name": "la Neuveville",
+      "place_type": "village",
+      "context": "Where accused worked for widow of Nicolas Pierson for a year"
+    },
+    {
+      "place_name": "wheat field",
+      "place_type": "field",
+      "context": "Belonging to Claudon Thoussainct; site of quarrel over passage"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "Where Mengin Godot allegedly caught stealing wheat"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where accused as child allegedly said he could make hail while with other children"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "hail",
+      "clouds/storms"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "accused forced to work from very young age",
+      "itinerant labor",
+      "orphan with no memory of father",
+      "disputes over theft"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur fiscal",
+        "role": "prosecutor_pg",
+        "location": "Leintrey"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Jean Hellenix tried to take Pierson to justice over cart-rope theft, but affair was settled by local mediation since they were both young men",
+        "outcome": "settled by local mediation"
+      }
+    ],
+    "accused_sought_redress": false,
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 0,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Nicolas Vaultrin",
+        "source": "community rumor",
+        "content": "Long reputation as witch; talk of taking him to bishop"
+      },
+      {
+        "reporter": "Mengin Godot",
+        "source": "community rumor",
+        "content": "Heard he had been taken to Domepvre to be confirmed; claim about hail remark 26 years earlier"
+      },
+      {
+        "reporter": "Claudon Thoussainct",
+        "source": "community memory from childhood",
+        "content": "When accused was very small, talk of rebaptism; reputation since childhood for being witch"
+      }
+    ],
+    "oldest_accusation_years": 26,
+    "corroboration_groups": [
+      [1, 2, 3]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "accused_witnesses_of_crimes"
+    ],
+    "emotional_state_notes": [
+      "cried bitterly when discussing deceased parents",
+      "cried when asked about making hail",
+      "showed anger when insulted about rebaptism"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Because his mother (la Jobarde) had been executed, he could well allege things against the truth to make others suffer"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Heard that Mengin Godot had been caught stealing wheat in the church"
+      },
+      {
+        "witness_number": 4,
+        "objection": "Raised question of theft of rope against Jean Hellenix"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "la Jobarde",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "made allegations against him",
+      "relationship_to_witness": "mother of witness Nicolas Vaultrin",
+      "context": "Already executed as witch; made allegations that led to Pierson's imprisonment"
+    },
+    {
+      "name": "Jean Cartier",
+      "role_in_narrative": "community_member",
+      "context": "Owner of cart from which rope was allegedly stolen"
+    },
+    {
+      "name": "Claudon Grand Demenge",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law (husband of accused's sister Jennon)",
+      "context": "Deceased husband of accused's sister"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Sonnet 4.5",
+    "confidence": "high",
+    "notes": "This is a notable case of acquittal/release. The accused had a reputation from childhood (allegedly saying as a child he could make hail), which led to confirmation at abbey rather than rebaptism. Evidence was very thin - mostly hearsay about childhood remarks, with only circumstantial harm allegations (horse deaths after quarrels). The accused showed emotional vulnerability during interrogation, crying when discussing parents and denying charges. The Change de Nancy recognized the weak evidence and recommended release despite the procureur fiscal's request for torture. The judge's comment about not inferring guilt from parental witchcraft is particularly notable. This case demonstrates that not all trials ended in execution, especially when evidence was primarily based on childhood rumors and circumstantial animal deaths.",
+    "pdf_pages": 2
+  }
+}

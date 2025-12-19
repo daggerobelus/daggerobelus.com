@@ -1,0 +1,979 @@
+{
+  "trial_id": "w001",
+  "archive_ref": "B 2148",
+  "location": "Mazerulles",
+  "court": "Amance",
+  "dates": {
+    "start": "1591-05-22",
+    "end": "1591-07-16",
+    "duration_days": 55
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Bulme",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["herdsman", "day laborer"],
+      "origin": "Mazerulles",
+      "residence": "Mazerulles",
+      "marital_status": "married",
+      "spouse_name": "Didiere",
+      "parents": {
+        "father": "Jean Bulme",
+        "mother": "Sibille"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persy",
+        "devil_appearance": "dressed in black on black horse, looked like fine young man but feet like cattle",
+        "seduction_date": "10 years before trial",
+        "seduction_context": "trouble controlling herd, afraid animals would escape into woods",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "like bee-sting, not very painful"
+        },
+        "powder_types": ["yellow/kill", "black/kill", "grey/languish", "white/heal"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["etang at Brin", "woods of Liocourt"],
+        "sabbat_activities": ["beat water to make hail", "dancing to drum with hands behind backs", "masked dancing"],
+        "sexual_relations_with_devil": false
+      }
+    },
+    {
+      "name": "Didiere Bulme",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "Hoeville",
+      "residence": "Mazerulles",
+      "marital_status": "married",
+      "spouse_name": "Jean Bulme",
+      "parents": {
+        "father": "Didier Thierion",
+        "mother": "Barbelline"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Persy",
+        "devil_appearance": "",
+        "seduction_date": "recruited by husband 3 weeks after his seduction",
+        "seduction_context": "husband told her what happened, she agreed to join",
+        "devil_mark": {
+          "present": false,
+          "location": "",
+          "description": ""
+        },
+        "powder_types": [],
+        "sabbat_attended": true,
+        "sabbat_locations": ["etang at Brin", "woods of Liocourt"],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Parmentier",
+      "gender": "male",
+      "age": 26,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wives fighting in street",
+        "threat_received": true,
+        "threat_quote": "he would never be able to keep hens so long as they were his neighbours",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "hens",
+            "target_relationship": "self",
+            "attributed_to": "Jean and Didiere"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Odille femme Claudin Thieriat",
+      "gender": "female",
+      "age": 45,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accusation by Anthoine Rougier",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Catherine veuve Mongenot Gerard",
+      "gender": "female",
+      "age": 50,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 22,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cow loss, husband called him witch for not doing duty",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "human_death",
+            "target": "husband Mongenot Gerard",
+            "target_relationship": "husband",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Barbellon femme Nicolas Mulnier",
+      "gender": "female",
+      "age": 40,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "shirt making delayed; husband took over herdsman job",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cattle",
+            "target_relationship": "husband's",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "self",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Catherine femme Didier Moictrier",
+      "gender": "female",
+      "age": 40,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel between husband and Didiere",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "child",
+            "target_relationship": "child",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claude Guerard, jeune fils",
+      "gender": "male",
+      "age": 23,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel with his late father over herd",
+        "threat_received": true,
+        "threat_quote": "qu'il estoit tousjours contre luy, et qu'il s'en donneroit de garde",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father",
+            "target_relationship": "father",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Laurent Doullat",
+      "gender": "male",
+      "age": 50,
+      "occupation": "herdsman (bestes blanches)",
+      "location": "Mazerulles",
+      "relationship_to_accused": "took over herd from Jean",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean angry when failed to get cattle herd",
+        "threat_received": true,
+        "threat_quote": "qu'il pouvoit bien avoir des bons chiens et qu'elle luy envoieroit des grimonds",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pigs",
+            "target_relationship": "self",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Hangney",
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accusations by Vincent Epnon, accord made by relative",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "human_death",
+            "target": "child",
+            "target_relationship": "self",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Dyon femme Jean Vosgien",
+      "gender": "female",
+      "age": 39,
+      "occupation": "",
+      "location": "Aboncourt",
+      "relationship_to_accused": "neighbor from nearby village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "scarf she claimed lost behind witness house",
+        "threat_received": true,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "self",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Vosgien",
+      "gender": "male",
+      "age": 60,
+      "occupation": "",
+      "location": "Aboncourt",
+      "relationship_to_accused": "neighbor from nearby village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to cart wood for Jean",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Anthoine Rougier",
+      "gender": "male",
+      "age": 26,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor, recent physical fight",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel that came to blows",
+        "threat_received": true,
+        "threat_quote": "tu verras la meschancete de moy",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "human_death",
+            "target": "Mongenot Gerard",
+            "target_relationship": "community member",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claudin Thienat alias Mallenoy",
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Mengin Cuysenier",
+      "gender": "male",
+      "age": 36,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quality of grain for herd payment; refused to give Didiere milk",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Didier Moictrier",
+      "gender": "male",
+      "age": 40,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "creditor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt repayment",
+        "threat_received": true,
+        "threat_quote": "qu'il s'en repentiroit",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "son",
+            "target_relationship": "son",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Nicolas Musnier",
+      "gender": "male",
+      "age": 60,
+      "occupation": "herdsman",
+      "location": "Mazerulles",
+      "relationship_to_accused": "replaced Jean as herdsman",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "village wanted to replace Jean as herdsman",
+        "threat_received": true,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jean and Didiere"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Demange Rougier",
+      "gender": "male",
+      "age": 70,
+      "occupation": "laboureur",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor, told Jean village did not want him",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "herdsman appointment; told Jean village feared him",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "mare",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          },
+          {
+            "type": "human_death",
+            "target": "Symonin Mulnier",
+            "target_relationship": "community member",
+            "attributed_to": "Didiere"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Magdellaine femme Warin Cherrier",
+      "gender": "female",
+      "age": 25,
+      "occupation": "",
+      "location": "Bioncourt",
+      "relationship_to_accused": "rejected marriage proposal from their son",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "discouraged son's marriage proposal due to reputation",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "brother",
+            "target_relationship": "brother",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Le maire Nicolas Aubert",
+      "gender": "male",
+      "age": 63,
+      "occupation": "mayor",
+      "location": "Mazerulles",
+      "relationship_to_accused": "official, neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cow lost under Jean's watch as herdsman",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Barbon femme Demenge Rougier",
+      "gender": "female",
+      "age": 55,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "food for soldiers billeted in her house",
+        "threat_received": true,
+        "threat_quote": "be on her guard",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Damien Boullengier",
+      "gender": "male",
+      "age": 27,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "had animals on lease from Jean",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "return of animals held on lease, Jean demanded butter and scarf",
+        "threat_received": true,
+        "threat_quote": "qu'il s'en donneroit de garde, et qu'il n'en feroit gueres de profficts",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cattle, pigs, sheep",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Demange Rougier, jeune fils",
+      "gender": "male",
+      "age": 15,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "son of witness 16, saw Jean approach horses",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mother's quarrel with Didiere same day",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "family",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Catherine femme Colin Douche",
+      "gender": "female",
+      "age": 35,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband cleaned insects from trees, Jean blamed him for dead piglet",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self and husband",
+            "target_relationship": "self",
+            "attributed_to": "Jean"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Jean Symonin",
+      "gender": "male",
+      "age": 42,
+      "occupation": "",
+      "location": "Mazerulles",
+      "relationship_to_accused": "neighbor, child served in their household",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "child did not serve as agreed",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child",
+            "target_relationship": "child",
+            "attributed_to": "Jean and Didiere"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {"date": "1591-05-22", "event": "informations_preparatoires", "subject": "", "details": "Initial witness depositions begin"},
+    {"date": "1591-05-24", "event": "informations_preparatoires", "subject": "", "details": "Additional witnesses (16-23)"},
+    {"date": "1591-05-25", "event": "other", "subject": "", "details": "PG Maimbourg asks for interrogations and confrontations; reprimands prevot for allowing prisoners to communicate"},
+    {"date": "1591-05-28", "event": "interrogation", "subject": "Jean", "details": "Jean interrogated about background and accusations"},
+    {"date": "1591-05-29", "event": "confrontation", "subject": "Jean", "details": "Confrontations with witnesses"},
+    {"date": "1591-05-29", "event": "interrogation", "subject": "Didiere", "details": "Didiere interrogated"},
+    {"date": "1591-05-29", "event": "confrontation", "subject": "Didiere", "details": "Didiere confronted with witnesses"},
+    {"date": "1591-06-15", "event": "torture_requested", "subject": "both", "details": "PG de Lorraine asks for torture; Didiere to be questioned further about la Maslinade"},
+    {"date": "1591-06-20", "event": "torture_approved", "subject": "both", "details": "Change de Nancy approves, with condition Didiere tortured only moderately"},
+    {"date": "1591-06-26", "event": "torture", "subject": "Didiere", "details": "Racked, said dying, released but confessed nothing, racked again, pretended dead"},
+    {"date": "1591-06-26", "event": "torture", "subject": "Jean", "details": "Racked for long time, finally confessed"},
+    {"date": "1591-06-27", "event": "interrogation", "subject": "Jean", "details": "Confirmed confessions, added killing maire Demenge Parmentier"},
+    {"date": "1591-06-28", "event": "interrogation", "subject": "Didiere", "details": "Promised no torture, confronted with Jean, confessed"},
+    {"date": "1591-07-06", "event": "death_requested", "subject": "both", "details": "PG asks for death sentence after confrontations with la Masseninade"},
+    {"date": "1591-07-11", "event": "death_approved", "subject": "both", "details": "Change de Nancy approves"},
+    {"date": "1591-07-15", "event": "interrogation", "subject": "both", "details": "Final interrogation; Jean confirmed, Didiere said confession false but then renewed it"},
+    {"date": "1591-07-16", "event": "sentence", "subject": "both", "details": "Formal death sentence from court at Amance"}
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack"],
+    "requesting_official": "PG de Lorraine",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Didiere to be tortured only moderately"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jehenne femme Gros Joullain",
+      "location": "Brin",
+      "context": "Seen at sabbat at etang at Brin",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "la Masseninalde (la Maslinade)",
+      "location": "Mazerulles",
+      "context": "Persy arrived at sabbat carrying her on shoulders; spoke to Jean by name",
+      "already_executed": false,
+      "trial_id": ""
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jeanette Bagarde",
+      "accuser_location": "Brin",
+      "context": "Executed witch who discharged Jean at point of execution",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "la belle Claude",
+      "accuser_location": "Brin",
+      "context": "Executed witch who discharged Jean at point of execution",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean",
+      "french": "qu'il estoit tousjours contre luy, et qu'il s'en donneroit de garde",
+      "english": "that he was always against him, and he would make him pay for it",
+      "context": "Threat to Claude Guerard's father before his death"
+    },
+    {
+      "speaker": "Didiere",
+      "french": "qu'elle pouvoit bien avoir des bons chiens et qu'elle luy envoieroit des grimonds",
+      "english": "that he might well have good dogs and she would send him grimonds",
+      "context": "Threat to Laurent Doullat"
+    },
+    {
+      "speaker": "Jean",
+      "french": "tu verras la meschancete de moy",
+      "english": "you will see my wickedness",
+      "context": "Said to Mongenot Gerard before his death"
+    },
+    {
+      "speaker": "Didiere",
+      "french": "voyla ung terrible lieu que je deviens je ne suis esbahie sy on faict confesser des choses a des personnes qu'ilz n'ontz jamais faict",
+      "english": "this is a terrible place I find myself in, I am not surprised if they make people confess things they never did",
+      "context": "After torture, protesting false confessions"
+    },
+    {
+      "speaker": "Jean",
+      "french": "mais il ne se peult jamais deffaire dudit Persy, et falloit qu'il l'obeist tousjours quand il le retrouvoit",
+      "english": "but he could never free himself from Persy, and had to obey him whenever he found him again",
+      "context": "Describing inability to escape devil's service"
+    }
+  ],
+  "relationships": [
+    {"person1": "Jean Bulme", "person2": "Didiere Bulme", "relationship_type": "spouse_of", "direction": "undirected", "person1_role": "accused", "person2_role": "accused", "evidence_text": "Jean Bulme et Didiere sa femme", "inferred": false},
+    {"person1": "Jean Bulme", "person2": "Jean Bulme (father)", "relationship_type": "child_of", "direction": "directed", "person1_role": "accused", "person2_role": "other", "evidence_text": "late parents were Jean Bulme and his wife Sibille", "inferred": false},
+    {"person1": "Jean Bulme", "person2": "Sibille", "relationship_type": "child_of", "direction": "directed", "person1_role": "accused", "person2_role": "other", "evidence_text": "late parents were Jean Bulme and his wife Sibille", "inferred": false},
+    {"person1": "Didiere Bulme", "person2": "Didier Thierion", "relationship_type": "child_of", "direction": "directed", "person1_role": "accused", "person2_role": "other", "evidence_text": "daughter of Didier Thierion and his wife Barbelline", "inferred": false},
+    {"person1": "Didiere Bulme", "person2": "Barbelline", "relationship_type": "child_of", "direction": "directed", "person1_role": "accused", "person2_role": "other", "evidence_text": "daughter of Didier Thierion and his wife Barbelline", "inferred": false},
+    {"person1": "Claude Guerard", "person2": "deceased father", "relationship_type": "child_of", "direction": "directed", "person1_role": "witness", "person2_role": "victim", "evidence_text": "After quarrel with his late father", "inferred": false},
+    {"person1": "Magdellaine", "person2": "brother (deceased)", "relationship_type": "sibling_of", "direction": "undirected", "person1_role": "witness", "person2_role": "victim", "evidence_text": "Soon afterwards her brother died", "inferred": false},
+    {"person1": "Demange Rougier jeune fils", "person2": "Anthoine Rougier", "relationship_type": "sibling_of", "direction": "undirected", "person1_role": "witness", "person2_role": "witness", "evidence_text": "his small nephew, son of brother Anthoine", "inferred": false},
+    {"person1": "Demange Rougier (70)", "person2": "Anthoine Rougier", "relationship_type": "parent_of", "direction": "directed", "person1_role": "witness", "person2_role": "witness", "evidence_text": "his son Anthoine Rougier", "inferred": false},
+    {"person1": "Barbon", "person2": "Demenge Rougier (70)", "relationship_type": "spouse_of", "direction": "undirected", "person1_role": "witness", "person2_role": "witness", "evidence_text": "Barbon femme Demenge Rougier", "inferred": false},
+    {"person1": "Didier Moictrier", "person2": "Catherine femme Didier Moictrier", "relationship_type": "spouse_of", "direction": "undirected", "person1_role": "witness", "person2_role": "witness", "evidence_text": "Catherine femme Didier Moictrier", "inferred": false},
+    {"person1": "Jean Vosgien", "person2": "Dyon", "relationship_type": "spouse_of", "direction": "undirected", "person1_role": "witness", "person2_role": "witness", "evidence_text": "Dyon femme Jean Vosgien", "inferred": false},
+    {"person1": "Catherine", "person2": "Mongenot Gerard (deceased)", "relationship_type": "widow_of", "direction": "directed", "person1_role": "witness", "person2_role": "victim", "evidence_text": "Catherine veuve Mongenot Gerard", "inferred": false},
+    {"person1": "Jean Bulme", "person2": "Didier Moictrier", "relationship_type": "creditor_debtor", "direction": "directed", "person1_role": "accused", "person2_role": "witness", "evidence_text": "They owed him money", "inferred": false}
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Central conflict over herdsman position. Jean repeatedly tried to keep or regain herd, village feared him and tried to replace him. Multiple disputes over animals on lease, debts, grain quality for payment."
+  },
+  "harms_catalog": [
+    {"victim_name": "Nicolas Bazin", "victim_relationship_to_witness": "", "harm_category": "human_death", "harm_description": "died soon after", "animal_type": "", "animal_count": null, "economic_value": "", "attributed_to": "Jean", "precipitating_quarrel": "took herdsman job from Jean", "time_between_quarrel_and_harm": "soon after", "method_alleged": "powder", "witness_number": null},
+    {"victim_name": "Mongenot Gerard", "victim_relationship_to_witness": "husband", "harm_category": "human_death", "harm_description": "fell ill a month later and died in 5 days", "animal_type": "", "animal_count": null, "economic_value": "", "attributed_to": "Jean", "precipitating_quarrel": "called Jean witch for not doing duty as herdsman", "time_between_quarrel_and_harm": "1 month", "method_alleged": "powder sprinkled on clothes while cutting wood", "witness_number": 3},
+    {"victim_name": "Jean Margo", "victim_relationship_to_witness": "", "harm_category": "human_death", "harm_description": "", "animal_type": "", "animal_count": null, "economic_value": "", "attributed_to": "Jean", "precipitating_quarrel": "prevented marriage of Jean's son with sister Magdellaine", "time_between_quarrel_and_harm": "", "method_alleged": "", "witness_number": null},
+    {"victim_name": "daughter of Jean Symonin", "victim_relationship_to_witness": "child", "harm_category": "human_death", "harm_description": "small daughter", "animal_type": "", "animal_count": null, "economic_value": "", "attributed_to": "Jean (forced by master)", "precipitating_quarrel": "child did not serve as agreed", "time_between_quarrel_and_harm": "6-7 years before", "method_alleged": "", "witness_number": 23},
+    {"victim_name": "horses of Jean Hangney", "victim_relationship_to_witness": "self", "harm_category": "animal_death", "harm_description": "4 horses dead suddenly", "animal_type": "horse", "animal_count": 4, "economic_value": "", "attributed_to": "Jean", "precipitating_quarrel": "quarrel over accusations by Vincent Epnon", "time_between_quarrel_and_harm": "within a week", "method_alleged": "", "witness_number": 8},
+    {"victim_name": "animals of Damien Boullengier", "victim_relationship_to_witness": "self", "harm_category": "animal_death", "harm_description": "lost 5 cattle, 5 pigs, 17-18 sheep", "animal_type": "mixed", "animal_count": 27, "economic_value": "300 francs", "attributed_to": "Jean", "precipitating_quarrel": "refused to give butter and scarf when lease ended", "time_between_quarrel_and_harm": "soon after", "method_alleged": "", "witness_number": 20}
+  ],
+  "material_culture": [
+    {"object": "warcolles (harness)", "context": "found in Jean's house, accused of theft", "category": "agricultural"},
+    {"object": "scarf", "context": "Didiere claimed lost behind Dyon's house; Jean demanded from Damien", "category": "clothing"},
+    {"object": "butter (pot of)", "context": "Jean demanded from Damien Boullengier", "category": "food"},
+    {"object": "cheese", "context": "pig ate cheeses, Didiere threatened they would pay", "category": "food"},
+    {"object": "shirt", "context": "Barbellon agreed to make for Didiere, delayed", "category": "clothing"},
+    {"object": "golden piece", "context": "devil gave Jean, disappeared from purse", "category": "magical"},
+    {"object": "silver coin", "context": "devil gave Didiere, turned false/yellow at St Nicolas", "category": "magical"},
+    {"object": "powder (various colors)", "context": "yellow/black to kill, grey to languish, white to heal", "category": "magical"},
+    {"object": "drum", "context": "at sabbat, sound made by man hitting oak with stick", "category": "other"},
+    {"object": "mask", "context": "dancers at sabbat were masked", "category": "other"}
+  ],
+  "spatial_references": [
+    {"place_name": "Mazerulles", "place_type": "village", "context": "residence of accused and most witnesses"},
+    {"place_name": "Aboncourt", "place_type": "village", "context": "residence of witnesses 9-10 (Vosgien family)"},
+    {"place_name": "Bioncourt", "place_type": "village", "context": "residence of witness 17 (Magdellaine)"},
+    {"place_name": "Brin", "place_type": "village", "context": "location of executed witches who named Jean; sabbat at etang"},
+    {"place_name": "etang at Brin", "place_type": "sabbat_location", "context": "first sabbat location, beat water to make hail"},
+    {"place_name": "woods of Liocourt", "place_type": "sabbat_location", "context": "second sabbat, dancing with drums"},
+    {"place_name": "St Nicolas", "place_type": "market", "context": "Didiere tried to use devil's coin to buy shoes"},
+    {"place_name": "Amance", "place_type": "village", "context": "court location; woods damaged by lightning 1590"},
+    {"place_name": "Champenoux", "place_type": "village", "context": "Jean heard story from shepherd between Mazerulles and here"},
+    {"place_name": "Hoeville", "place_type": "village", "context": "Didiere's origin"},
+    {"place_name": "Mulcey", "place_type": "village", "context": "Jean served there 2 years"},
+    {"place_name": "Bettoncourt", "place_type": "village", "context": "Jean served there"},
+    {"place_name": "Bezanges", "place_type": "village", "context": "Jean served there 2 years"},
+    {"place_name": "Drouville", "place_type": "village", "context": "Didiere served there 6 months"},
+    {"place_name": "Nancy", "place_type": "village", "context": "bailli, Change de Nancy approved torture/death"}
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "soldiers lodged in house of witness 19 (Barbon), quarrel with Didiere over providing food for them",
+    "weather_events": ["lightning and wind damage at Amance 1590"],
+    "animal_predation": ["wolf attack on animals (no damage)", "wolf strangled cow"],
+    "economic_hardship_indicators": ["poverty mentioned - first husband driven by poverty to garrison at Dieuze"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {"name": "Maimbourg", "role": "prosecutor_pg", "location": ""},
+      {"name": "PG de Lorraine", "role": "prosecutor_pg", "location": "Lorraine"},
+      {"name": "prevot of Amance", "role": "prevot", "location": "Amance"},
+      {"name": "clerc jure", "role": "clerc_jure", "location": "Amance"},
+      {"name": "Nicolas Aubert", "role": "mayor", "location": "Mazerulles"},
+      {"name": "bailli at Nancy", "role": "judge", "location": "Nancy"}
+    ],
+    "prior_legal_disputes": [
+      {"dispute_type": "theft", "description": "warcolles and harness found in Jean's house", "outcome": "returned to maire, not fined"},
+      {"dispute_type": "theft", "description": "accused of stealing sheep from Moncel", "outcome": "accused without action"},
+      {"dispute_type": "theft", "description": "Laurent Doullat accused Jean of stealing logs", "outcome": "Jean denied"},
+      {"dispute_type": "assault", "description": "Jean beat Didier Moictrier's wife", "outcome": "no complaint lodged"},
+      {"dispute_type": "defamation", "description": "Multiple people called Jean witch", "outcome": "Jean failed to seek redress in most cases"}
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "intended but failed to pursue in most cases; one accord made by relative with Jean Hangney",
+    "imprisonment_conditions": "PG reprimanded prevot because prisoners allowed to communicate with only one sergent to guard",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 18,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {"reporter": "Odille (witness 2)", "source": "Barbellon femme Didier Charpentier", "content": "her son Urban had called her witch"},
+      {"reporter": "Jean Hangney (witness 8)", "source": "Jean de Moullin", "content": "Didiere had caused death of one of his children"},
+      {"reporter": "Barbon (witness 19)", "source": "Demenge Herdier of Brin (fled)", "content": "they were witches doing much harm"}
+    ],
+    "oldest_accusation_years": 22,
+    "corroboration_groups": [[3, 11], [9, 10], [16, 21]]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "natural_explanations", "accused_witnesses_of_crimes", "challenged_witness_credibility"],
+    "emotional_state_notes": [
+      "Jean defended himself sensibly with natural explanations",
+      "Didiere's replies were impertinentes ains furieuses, avec jurementz",
+      "Didiere said she was dying under torture",
+      "Didiere pretended to be dead on rack",
+      "Didiere begged not to be tortured more",
+      "Jean said he had not slept thinking of crimes"
+    ],
+    "reproaches_to_witnesses": [
+      {"witness_number": 1, "objection": "denied Nicolas Parmentier called him witch"},
+      {"witness_number": 4, "objection": "claimed Barbellon had 'couru les pays' (bad reputation)"},
+      {"witness_number": 7, "objection": "claimed Laurent Doullat was a thief who stole logs"},
+      {"witness_number": 10, "objection": "claimed Jean Vosgien had stolen wood and not accepted as witness before bailli"}
+    ]
+  },
+  "third_parties": [
+    {"name": "Jacquotte Charpentier", "role_in_narrative": "prior_accused", "relationship_to_accused": "", "relationship_to_witness": "", "context": "arrested on similar charge, told witness 1 about hens"},
+    {"name": "Vincent Epnon", "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "", "context": "made accusations against Jean that led to accord"},
+    {"name": "Claudin Barbier (late)", "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "", "context": "dissuaded Jean from taking action against Vosgien"},
+    {"name": "Demenge Herdier", "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "told witness 19 they were witches", "context": "fled because also suspected"},
+    {"name": "Urban (son of Barbellon)", "role_in_narrative": "hearsay_source", "relationship_to_accused": "", "relationship_to_witness": "son", "context": "called Didiere witch"},
+    {"name": "Jean de Moullin", "role_in_narrative": "hearsay_source", "relationship_to_accused": "", "relationship_to_witness": "", "context": "told witness 8 that Didiere killed his child"},
+    {"name": "Symonin Mulnier", "role_in_narrative": "victim", "relationship_to_accused": "", "relationship_to_witness": "", "context": "said Didiere should eat Jean's cows, then died suddenly a week before trial"}
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2024-12-15",
+    "extractor": "claude",
+    "confidence": "high",
+    "notes": "Very detailed trial record with 23 witnesses. Both accused confessed under torture. Rich detail on sabbat, devil pact, and community conflicts. Central to trial is Jean's role as herdsman and village conflicts over the position.",
+    "pdf_pages": 8
+  }
+}

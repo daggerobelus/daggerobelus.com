@@ -1,0 +1,15 @@
+trial_id,person1,person2,relationship_type,direction,person1_role,person2_role,evidence_text,inferred
+w001,Jean Bulme,Didiere Bulme,spouse_of,undirected,accused,accused,Jean Bulme et Didiere sa femme,False
+w001,Jean Bulme,Jean Bulme (father),child_of,directed,accused,other,late parents were Jean Bulme and his wife Sibille,False
+w001,Jean Bulme,Sibille,child_of,directed,accused,other,late parents were Jean Bulme and his wife Sibille,False
+w001,Didiere Bulme,Didier Thierion,child_of,directed,accused,other,daughter of Didier Thierion and his wife Barbelline,False
+w001,Didiere Bulme,Barbelline,child_of,directed,accused,other,daughter of Didier Thierion and his wife Barbelline,False
+w001,Claude Guerard,deceased father,child_of,directed,witness,victim,After quarrel with his late father,False
+w001,Magdellaine,brother (deceased),sibling_of,undirected,witness,victim,Soon afterwards her brother died,False
+w001,Demange Rougier jeune fils,Anthoine Rougier,sibling_of,undirected,witness,witness,"his small nephew, son of brother Anthoine",False
+w001,Demange Rougier (70),Anthoine Rougier,parent_of,directed,witness,witness,his son Anthoine Rougier,False
+w001,Barbon,Demenge Rougier (70),spouse_of,undirected,witness,witness,Barbon femme Demenge Rougier,False
+w001,Didier Moictrier,Catherine femme Didier Moictrier,spouse_of,undirected,witness,witness,Catherine femme Didier Moictrier,False
+w001,Jean Vosgien,Dyon,spouse_of,undirected,witness,witness,Dyon femme Jean Vosgien,False
+w001,Catherine,Mongenot Gerard (deceased),widow_of,directed,witness,victim,Catherine veuve Mongenot Gerard,False
+w001,Jean Bulme,Didier Moictrier,creditor_debtor,directed,accused,witness,They owed him money,False

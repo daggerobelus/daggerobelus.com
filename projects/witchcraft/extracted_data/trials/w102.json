@@ -1,0 +1,1106 @@
+{
+  "trial_id": "w102",
+  "archive_ref": "B 5354 no 1",
+  "location": "Blanche Eglise",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1613-06-27",
+    "end": "1613-08-17",
+    "duration_days": 51
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jennon femme Lux Barquel",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["herdsman", "servant"],
+      "origin": "Chateaux Houé",
+      "residence": "Blanche Eglise",
+      "marital_status": "married",
+      "spouse_name": "Lux Barquel",
+      "parents": {
+        "father": "Pierron Beublait",
+        "mother": "Jeannon"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mathieu Thiery",
+      "gender": "male",
+      "age": 40,
+      "occupation": "manoeuvrier (herdsman for calves)",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "Co-worker (he guarded calves, she guarded cows)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute when he became herdsman for calves while she had charge of cows; later quarrel over shared plums",
+        "threat_received": true,
+        "threat_quote": "he would not have charge of the big ones for long",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "15 or 16 calves",
+            "target_relationship": "animals under his care",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "2 weeks later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Double Hans",
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "neighbor/community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused her some wine",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his best horse",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "next day"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Francois Adam",
+      "gender": "male",
+      "age": 47,
+      "occupation": "manoeuvrier",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Had been keeping horse belonging to her husband with his, but returned it when he bought another",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his newly purchased horse",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "promptly after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Dieudonné",
+      "gender": "male",
+      "age": 17,
+      "occupation": "paistre des vaches du moctrier de Boreche",
+      "location": "Boreche",
+      "relationship_to_accused": "fellow herdsman",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "His animals became mixed up with those she was guarding",
+        "threat_received": true,
+        "threat_quote": "Par dieu tu n'est guerre sage d'ainsy souhaiter mal a une personne dieu l'en veuille bien garder",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "one of his cows",
+            "target_relationship": "animals under his care",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "later (cow was struck with a stick and became ill)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Collas de Chazaille",
+      "gender": "male",
+      "age": 34,
+      "occupation": "paistre des rouges bestes",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "fellow herdsman",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Expressed regret to her husband about large calves dying; husband said it was because of lack of water, witness objected",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "two small calves and one large calf",
+            "target_relationship": "animals under his care",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "over next 3 days"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Granchier",
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Her husband had beaten two of his young bulls which strayed into their garden; he told them they should have it properly fenced; later fined her calves as 'bangard'",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "two young bulls",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "animal_death",
+            "target": "his best horse (died strangled)",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "after fining her calves"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Clemance femme Collas Moictrier",
+      "gender": "female",
+      "age": 60,
+      "occupation": "unknown",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Bastien veuve le Gros Feltien",
+      "gender": "female",
+      "age": 40,
+      "occupation": "unknown",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked if she wanted to send 2 large calves to herd; she said no because others did not do so",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 large calves",
+            "target_relationship": "unknown",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Meclon veuve Didier Lhuilier",
+      "gender": "female",
+      "age": 34,
+      "occupation": "unknown",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "husband's niece",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with accused 6 years earlier",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her husband (Didier Lhuilier)",
+            "target_relationship": "her husband",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "fell ill and died in 3 months"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Adloff Collin",
+      "gender": "male",
+      "age": 45,
+      "occupation": "moictrier à Boreche",
+      "location": "Boreche",
+      "relationship_to_accused": "employer of witness 4",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "as described by witness 4"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Colas Chalain le jeune",
+      "gender": "male",
+      "age": 23,
+      "occupation": "unknown",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claude Cloppestein",
+      "gender": "male",
+      "age": 40,
+      "occupation": "bouchier de Marsal",
+      "location": "Marsal",
+      "relationship_to_accused": "customer/business contact",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Had not paid her the 'vin' (customary payment/tip) after purchasing animals",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "one pig (second of two purchased)",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "before he could kill it"
+          },
+          {
+            "type": "animal_death",
+            "target": "a cow (died same day)",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "same day as purchase"
+          },
+          {
+            "type": "animal_illness",
+            "target": "an ox",
+            "target_relationship": "his property",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "became ill after purchase"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Colas Cuisenier",
+      "gender": "male",
+      "age": 33,
+      "occupation": "laboureur",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calves",
+            "target_relationship": "community animals",
+            "attributed_to": "Jennon femme Lux Barquel",
+            "time_after_quarrel": "2 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Zenelle femme du precedent",
+      "gender": "female",
+      "age": 30,
+      "occupation": "unknown",
+      "location": "Blanche Eglise",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Henry Lorentz",
+      "gender": "male",
+      "age": 28,
+      "occupation": "serviteur à Colas Lenfan de la Basse Lindre",
+      "location": "Basse Lindre",
+      "relationship_to_accused": "no connection",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1613-06-27",
+      "event": "informations_preparatoires",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Substitut for PG de Lorraine at Dieuze states he has sufficient information about her reputation - threats and effects, much feared - and asks for depositions"
+    },
+    {
+      "date": "1613-06-28",
+      "event": "informations_preparatoires",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Witness depositions taken from 15 witnesses"
+    },
+    {
+      "date": "1613-06-30",
+      "event": "other",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Substitut orders arrest and interrogation"
+    },
+    {
+      "date": "1613-07-01",
+      "event": "interrogation",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Initial interrogation; she provides biographical information and denies accusations"
+    },
+    {
+      "date": "1613-07-05",
+      "event": "informations_preparatoires",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Additional witness depositions taken (witnesses 12-14)"
+    },
+    {
+      "date": "1613-07-06",
+      "event": "confrontation",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Confrontations with witnesses; no reproaches"
+    },
+    {
+      "date": "1613-07-09",
+      "event": "confrontation",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Additional confrontations"
+    },
+    {
+      "date": "1613-07-12",
+      "event": "torture_requested",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Substitut for PG (at Nancy) asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1613-07-20",
+      "event": "torture_approved",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Change de Nancy agrees to torture"
+    },
+    {
+      "date": "1613-07-26",
+      "event": "torture",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Interrogation under torture (strappado) for 2 hours; she would not confess. Critical marginal note that some jolts given by executioner were contrary to advice of Change"
+    },
+    {
+      "date": "1613-07-27",
+      "event": "torture",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Second interrogation under torture (racking); she still would not confess. Marginal note: 'ceste reiteration de question est contre le droit et la pratique'"
+    },
+    {
+      "date": "1613-08-06",
+      "event": "sentence",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Substitut at Nancy proposes that she be renvoyée (released); Change de Nancy approves with firm note that in future the court at Dieuze should not repeat torture without new indices and approval from Change"
+    },
+    {
+      "date": "1613-08-17",
+      "event": "other",
+      "subject": "Jennon femme Lux Barquel",
+      "details": "Note that she has been released"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["strappado", "rack"],
+    "requesting_official": "substitut for PG at Nancy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire approved, but executioner exceeded approved methods; repeated torture criticized as illegal"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "community of Chateaux Houé",
+      "accuser_location": "Chateaux Houé",
+      "context": "Driven out of Chateaux Houé as witch (approximately 20 years before trial)",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "community of La Motte",
+      "accuser_location": "La Motte",
+      "context": "Her husband's parents claimed her parents had been chased out of La Motte as 'mauvaises gens'",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jennon femme Lux Barquel",
+      "french": "he would not have charge of the big ones for long",
+      "english": "he would not have charge of the big ones for long",
+      "context": "Threat allegedly made to Mathieu Thiery during quarrel about herding duties"
+    },
+    {
+      "speaker": "Jennon's husband",
+      "french": "fils de sorcier",
+      "english": "son of a sorcerer",
+      "context": "Insult directed at young herdsman Dieudonné during quarrel"
+    },
+    {
+      "speaker": "Jennon femme Lux Barquel",
+      "french": "fils de putain",
+      "english": "son of a whore",
+      "context": "Insult directed at Dieudonné; she later claimed she was laughing when she said it"
+    },
+    {
+      "speaker": "Jennon femme Lux Barquel",
+      "french": "Par dieu tu n'est guerre sage d'ainsy souhaiter mal a une personne dieu l'en veuille bien garder",
+      "english": "By God you are not very wise to wish harm to a person like this, may God preserve them well from it",
+      "context": "Response to servant girl who wished that those who had given the cow sickness might have as much themselves"
+    },
+    {
+      "speaker": "Jennon femme Lux Barquel",
+      "french": "je me feroy prendre et diroy tout ce que je sauroy pour estre hors du monde",
+      "english": "I would let myself be taken and would say all that I knew in order to be out of the world",
+      "context": "Statement to Zenelle 2 years before trial, saying what she would do if she were actually a witch"
+    },
+    {
+      "speaker": "Jennon femme Lux Barquel",
+      "french": "de par sa foy qu'elle n'en scait rien",
+      "english": "by her faith that she knows nothing of it",
+      "context": "Response under torture when asked if she agreed there were witches in the world"
+    },
+    {
+      "speaker": "Jennon femme Lux Barquel",
+      "french": "prayed God that she were a witch, and that she would say so but could not damn her soul",
+      "english": "prayed God that she were a witch, and that she would say so but could not damn her soul",
+      "context": "Statement during second torture session, refusing to confess falsely"
+    },
+    {
+      "speaker": "Official (marginal note)",
+      "french": "ceste reiteration de question est contre le droit et la pratique",
+      "english": "this repetition of torture is against the law and practice",
+      "context": "Critical note in margin about the illegal second torture session"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jennon femme Lux Barquel",
+      "person2": "Lux Barquel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married present husband when they were both in service at Blanche Eglise, and had been married 18 years",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Lux Barquel",
+      "person2": "Mengeon from Pont-à-Mousson",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married Mengeon from Pont-à-Mousson, who went into garrison at Marsal, then left with other soldiers 6 weeks after marriage - never saw him again, heard he had been killed",
+      "inferred": false
+    },
+    {
+      "person1": "Pierron Beublait",
+      "person2": "Jennon femme Lux Barquel",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Pierron Beublait and his wife Jeannon of Chateaux Houé",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannon",
+      "person2": "Jennon femme Lux Barquel",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Pierron Beublait and his wife Jeannon of Chateaux Houé",
+      "inferred": false
+    },
+    {
+      "person1": "Meclon veuve Didier Lhuilier",
+      "person2": "Lux Barquel",
+      "relationship_type": "nephew_niece_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Was husband's niece",
+      "inferred": false
+    },
+    {
+      "person1": "Meclon veuve Didier Lhuilier",
+      "person2": "Didier Lhuilier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Meclon veuve Didier Lhuilier",
+      "inferred": false
+    },
+    {
+      "person1": "Zenelle",
+      "person2": "Colas Cuisenier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Zenelle femme du precedent (wife of the preceding witness)",
+      "inferred": false
+    },
+    {
+      "person1": "Clemance",
+      "person2": "Collas Moictrier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Clemance femme Collas Moictrier",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Lux Barquel",
+      "person2": "Mathieu Thiery",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "2 years earlier he became herdsman for calves when she had charge of cows",
+      "inferred": false
+    },
+    {
+      "person1": "Dieudonné",
+      "person2": "Adloff Collin",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "paistre des vaches du moctrier de Boreche (herdsman for the cattle of Adloff Collin's farm at Boreche)",
+      "inferred": true
+    },
+    {
+      "person1": "Henry Lorentz",
+      "person2": "Colas Lenfan",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Henry Lorentz serviteur à Colas Lenfan de la Basse Lindre",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes related to her work as herdsman: conflicts over animal care, fines for animals straying, payment disputes (the 'vin' or customary payment). Her husband's parents opposed their marriage because she had no property while he did. Her parents were allegedly driven out of La Motte as 'mauvaises gens'. She worked as a servant from age 8-28, suggesting lower economic status. The 'bangard' fine (for allowing animals to stray) and disputes over shared plums indicate economic tensions."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "15 or 16 calves",
+      "victim_relationship_to_witness": "animals under witness's care",
+      "harm_category": "animal_death",
+      "harm_description": "Mass death of calves",
+      "animal_type": "calf",
+      "animal_count": 16,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Quarrel during which she told him he would not have charge of the big ones for long",
+      "time_between_quarrel_and_harm": "2 weeks",
+      "method_alleged": "not specified",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Double Hans's best horse",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Horse fell ill and died within a day",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Refused her some wine",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "not specified",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Francois Adam's newly purchased horse",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Horse promptly died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Had been keeping horse belonging to her husband with his, but finally returned it when he bought another",
+      "time_between_quarrel_and_harm": "promptly",
+      "method_alleged": "not specified",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Dieudonné's cow",
+      "victim_relationship_to_witness": "animals under witness's care",
+      "harm_category": "animal_illness",
+      "harm_description": "Cow became ill after being struck with a stick, still in danger",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Animals became mixed up; she called him 'fils de putain', her husband called him 'fils de sorcier'",
+      "time_between_quarrel_and_harm": "later",
+      "method_alleged": "struck with a stick",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Two small calves and one large calf",
+      "victim_relationship_to_witness": "animals under witness's care",
+      "harm_category": "animal_death",
+      "harm_description": "Calves died after witness objected to husband's explanation",
+      "animal_type": "calf",
+      "animal_count": 3,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Witness expressed regret about dying calves to her husband, who said it was lack of water; witness objected that small ones should be dying too if that were the case",
+      "time_between_quarrel_and_harm": "over next 3 days",
+      "method_alleged": "not specified",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Jean Granchier's two young bulls",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Bulls died",
+      "animal_type": "bull",
+      "animal_count": 2,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Her husband had beaten two of his young bulls which strayed into their garden, and he told him they ought to have it properly fenced off",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "not specified",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jean Granchier's best horse",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Horse died strangled",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Had fined her calves as 'bangard'",
+      "time_between_quarrel_and_harm": "after fining",
+      "method_alleged": "strangled",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Two large calves",
+      "victim_relationship_to_witness": "unknown",
+      "harm_category": "animal_death",
+      "harm_description": "Calves died",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Asked her if she wanted to send 2 large calves to herd; she said no because others did not do so",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "not specified",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Didier Lhuilier",
+      "victim_relationship_to_witness": "witness's husband",
+      "harm_category": "human_death",
+      "harm_description": "Fell ill and died in 3 months, saying he was sure she had made him ill",
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Quarrel with witness (his wife, husband's niece) 6 years earlier",
+      "time_between_quarrel_and_harm": "fell ill after quarrel, died in 3 months",
+      "method_alleged": "not specified",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Adloff Collin's cow",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_illness",
+      "harm_description": "Cow became ill (same incident as witness 4)",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "as described by witness 4",
+      "time_between_quarrel_and_harm": "as per witness 4",
+      "method_alleged": "struck with stick",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Claude Cloppestein's pig",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Second pig was found dead before he could kill it",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Had not paid her the 'vin' (customary payment)",
+      "time_between_quarrel_and_harm": "before he could slaughter it",
+      "method_alleged": "not specified",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Claude Cloppestein's cow",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Cow died same day as purchase",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Had not paid her the 'vin' for previous transaction",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "not specified",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Claude Cloppestein's ox",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_illness",
+      "harm_description": "Ox became ill but recovered after her husband was sent to cure it",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "Had not paid her the 'vin'",
+      "time_between_quarrel_and_harm": "shortly after purchase",
+      "method_alleged": "not specified (but her husband was able to cure it, suggesting she caused it)",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Calves (community animals)",
+      "victim_relationship_to_witness": "community animals",
+      "harm_category": "animal_death",
+      "harm_description": "Deaths of calves 2 years earlier",
+      "animal_type": "calf",
+      "attributed_to": "Jennon femme Lux Barquel",
+      "precipitating_quarrel": "not specified",
+      "time_between_quarrel_and_harm": "2 years earlier",
+      "method_alleged": "not specified",
+      "witness_number": 13
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "wine (vin)",
+      "context": "Customary payment expected in transactions; refusing wine led to suspicion of bewitchment; also the 'vin' as payment for animal purchases",
+      "category": "food"
+    },
+    {
+      "object": "plums",
+      "context": "Shared plums that became subject of quarrel with witness 1",
+      "category": "food"
+    },
+    {
+      "object": "sheet",
+      "context": "She claimed to have been looking at a sheet she had put on a hedge by the river; witness suspected she had been to sabbat instead",
+      "category": "household"
+    },
+    {
+      "object": "stick",
+      "context": "Used to strike cow on the back during quarrel with young herdsman",
+      "category": "tools"
+    },
+    {
+      "object": "recepte (recipe/spell)",
+      "context": "Claimed to know a 'recepte' in German to prevent wolves getting nearer than 9 paces from animals",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Blanche Eglise",
+      "place_type": "village",
+      "context": "Primary location of trial; where accused lived and worked as herdsman"
+    },
+    {
+      "place_name": "Chateaux Houé",
+      "place_type": "village",
+      "context": "Birthplace of accused; place from which she was driven out as witch approximately 20 years before"
+    },
+    {
+      "place_name": "Dieuze",
+      "place_type": "village",
+      "context": "Location of lower court where trial was conducted"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appeals court) that ultimately ordered her release"
+    },
+    {
+      "place_name": "La Motte",
+      "place_type": "village",
+      "context": "Place from which her parents were allegedly chased out as 'mauvaises gens'"
+    },
+    {
+      "place_name": "Pont-à-Mousson",
+      "place_type": "village",
+      "context": "Origin of her first husband Mengeon"
+    },
+    {
+      "place_name": "Marsal",
+      "place_type": "village",
+      "context": "Location of garrison where first husband served; home of witness Claude Cloppestein the butcher"
+    },
+    {
+      "place_name": "Boreche",
+      "place_type": "village",
+      "context": "Location where witnesses 4 and 10 worked as herdsmen"
+    },
+    {
+      "place_name": "Basse Lindre",
+      "place_type": "village",
+      "context": "Home of witness 15, Henry Lorentz"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Path from river where witness saw her far from her house; she claimed to have been looking at a sheet on a hedge, but witness suspected sabbat attendance"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "other",
+      "context": "Where she came to ask after the sick cow"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Her garden that witness's bulls strayed into, leading to quarrel"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Her first husband Mengeon went into garrison at Marsal with other soldiers 6 weeks after marriage, then left and was reportedly killed",
+    "weather_events": [],
+    "animal_predation": [
+      "Wolves mentioned - she claimed to know a spell in German to keep wolves 9 paces away from animals"
+    ],
+    "economic_hardship_indicators": [
+      "Disputes over payment ('vin' not paid)",
+      "Fines for animals straying ('bangard')",
+      "Quarrels over shared resources (plums)",
+      "Class tensions: husband's parents objected to marriage because she had no property",
+      "Worked as servant from age 8-28",
+      "Parents driven out of communities as 'mauvaises gens'"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "substitut for PG de Lorraine at Dieuze",
+        "role": "prosecutor_pg",
+        "location": "Dieuze"
+      },
+      {
+        "name": "substitut for PG at Nancy",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "imprisoned during trial from June 30 to August 17, 1613",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 14,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Meclon veuve Didier Lhuilier",
+        "source": "others in community",
+        "content": "Had heard others blame her for deaths of horses"
+      },
+      {
+        "reporter": "Zenelle",
+        "source": "Hanzo Buisson",
+        "content": "Hanzo Buisson had told her to leave because they were going to arrest her"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [1, 5, 8, 13],
+      [4, 10]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "When asked at veillée why she allowed herself to be called witch, she tried to cry but shed no tears (witness 7)",
+      "During interrogation, explained everything in very reasonable manner",
+      "Maintained she could not damn her soul by confessing falsely even under extreme torture"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jennon's daughter (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Told her mother that Mathieu Thiery was calling her a witch"
+    },
+    {
+      "name": "servant girl (unnamed)",
+      "role_in_narrative": "other",
+      "relationship_to_witness": "worked for witness 10",
+      "context": "Wished those who had given the cow sickness might have it themselves; Jennon responded with warning about wishing harm"
+    },
+    {
+      "name": "Gros Claude",
+      "role_in_narrative": "community_member",
+      "context": "Called accused witch the previous year without her taking legal action"
+    },
+    {
+      "name": "Hanzo Buisson",
+      "role_in_narrative": "community_member",
+      "context": "Warned accused to leave because they were going to arrest her"
+    },
+    {
+      "name": "surgeon (unnamed)",
+      "role_in_narrative": "other",
+      "context": "Treated her husband who had been 'taillé' (cut/operated on); said he went back to work too soon"
+    },
+    {
+      "name": "executioner (unnamed)",
+      "role_in_narrative": "official",
+      "context": "Administered torture; criticized for giving jolts contrary to advice of Change de Nancy"
+    },
+    {
+      "name": "Lux Barquel's parents (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "parents-in-law",
+      "context": "Hostile to marriage, claiming her parents had been chased out of La Motte as 'mauvaises gens' and that she had no property while their son did"
+    },
+    {
+      "name": "husband's nieces (unnamed, plural)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "nieces by marriage",
+      "context": "Had called her witch according to witness 7"
+    },
+    {
+      "name": "Didier Lhuilier",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "husband's nephew",
+      "relationship_to_witness": "husband of witness 9",
+      "context": "Died after quarrel between his wife and accused; said he was sure she had made him ill"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "This is a particularly important case as it documents a woman who survived torture and was released. The trial record is detailed with 15 witnesses, comprehensive documentation of the torture sessions, and critical marginal notes indicating that the court at Dieuze exceeded its legal authority by repeating torture. The Change de Nancy intervened to stop illegal practices and ordered her release. The case reveals economic and social tensions around her work as a herdsman, class differences (her lack of property vs. husband's property), and prior expulsions from multiple communities. Her resistance under torture and refusal to confess falsely ('could not damn her soul') is notable. The critical legal annotations provide rare documentation of oversight mechanisms and limits on torture.",
+    "pdf_pages": 4
+  }
+}

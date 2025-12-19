@@ -1,0 +1,1587 @@
+{
+  "trial_id": "w067",
+  "archive_ref": "B 3804 no 2",
+  "location": "Dompierre",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1619-11-06",
+    "end": "1620-04-04",
+    "duration_days": 150
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Demenge Demongeot",
+      "gender": "male",
+      "age": 80,
+      "age_approximate": true,
+      "occupation": ["miller"],
+      "origin": "Damay-devant-Dompierre",
+      "residence": "Dompierre",
+      "marital_status": "married",
+      "spouse_name": "Claudate (current wife, third marriage)",
+      "parents": {},
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Demenge Jacot Cole",
+      "gender": "male",
+      "age": 60,
+      "location": "Dompierre",
+      "relationship_to_accused": "father-in-law of accused's deceased daughter Nicole",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused angry about son-in-law's poverty and demand for promised marriage portion; accused daughter and sister of stealing from his coffers after death of first wife",
+        "threat_received": true,
+        "threat_quote": "qu'il auroit sadite fille en main, ou passeroit par ses mains",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Nicole (daughter of accused, wife of Claudon Haiatte)",
+            "target_relationship": "daughter-in-law",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "shortly afterwards fell ill, recovered briefly, then died 10 months later after harvest quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Claudate femme de Claudon Chabay",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "relationship_to_accused": "cousin of accused's son-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Told accused his daughter might be unhappy he hadn't given her marriage portion and had remarried",
+        "threat_received": true,
+        "threat_quote": "jurer la mort, la teste Nre Seigneur qu'elle s'en repentiroit, l'auroit, et passeroit par ses mains",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Nicole (daughter of accused)",
+            "target_relationship": "cousin's wife",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "illness followed until Whitsun, then recurred after corn theft incident"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jean la Gaulde",
+      "gender": "male",
+      "age": 33,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused quarreled with son-in-law Nicolas Petit Homme, calling him thief and bad man",
+        "threat_received": true,
+        "threat_quote": "qu'il estoit un sorcier, qu'il avoit ja fait mourir ses trois autres filles, qu'il face encore mourir la derniere sa femme, et puis qu'il n'en auroit plus du tout",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Nicolas Pirot",
+      "gender": "male",
+      "age": 36,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "relationship_to_accused": "son of someone who quarreled with accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Same quarrel as witness 3 with Nicolas Petit Homme",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Self (when he was 12 years old)",
+            "target_relationship": "self",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "result of quarrel between Demenge and his father"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Bastien Hanna",
+      "gender": "male",
+      "age": 26,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean fils Jean Mougin",
+      "gender": "male",
+      "age": 18,
+      "age_approximate": true,
+      "occupation": "servant to Didier Barton laboureur",
+      "location": "Girecourt (but serving in Dompierre)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with son-in-law Nicolas Petit Homme and daughter Jennon",
+        "threat_received": true,
+        "threat_quote": "que quand il voudroit il les feroit tous mourir",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Nicolas fils Antoine Ferry",
+      "gender": "male",
+      "age": 20,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Similar to witness 6",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Lallemant",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked Demenge to grind wheat finely for newborn baby; Demenge refused rudely",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Newborn son",
+            "target_relationship": "son",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "shortly afterwards"
+          },
+          {
+            "type": "animal_death",
+            "target": "Mare",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "same hour as quarrel about 100 sheaves"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Bernard la Gaulde le jeune",
+      "gender": "male",
+      "age": 28,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Demenge threatened Magdelaine over alleged theft of his dog",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Magdelaine wife of Jeandat tabellion of Sercoeur",
+            "target_relationship": "acquaintance",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "dislocated ankle at veilles of Fontenay on St. Laurent's Day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Nicolas Jean Blot",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Niece demanded cloth owed for her service; Demenge was angry",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Niece of witness (servant of Demenge)",
+            "target_relationship": "niece",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "sickened and died after leaving service"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jean Clerc",
+      "gender": "male",
+      "age": 32,
+      "age_approximate": true,
+      "location": "Padoux",
+      "relationship_to_accused": "former employee",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Lease dispute at mill of Sercoeur",
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "Corn mill (witness's load)",
+            "target_relationship": "self",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "after lease surrender; mill made noise like 50 drums, horse fled"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jacote femme de Claudon du Pore",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Girecourt",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Daughter (servant of Demenge)",
+            "target_relationship": "daughter",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "left service with illness, died two years later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudon du Pore",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Girecourt",
+      "relationship_to_accused": "father of former servant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Demenge owed daughter a couvrechef (head covering), only gave it after threat of legal action",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "after demanding payment"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Mongeon Antoine Toussainct",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to sell horse at price demanded",
+        "threat_received": true,
+        "threat_quote": "la mort de nre Seigneur, because he didn't want to sell at that price, within 6 weeks horse would not be worth 4 ecus",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "within 6 weeks; became sick and killed as enraged"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claudon Fraiart",
+      "gender": "male",
+      "age": 54,
+      "age_approximate": true,
+      "location": "Girecourt",
+      "origin": "Damay-devant-Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Told Claudate Durant about accused's criminal family history when she was considering marriage to him; she married him anyway and told accused what witness had said",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "within a couple of days of quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Nicolas Rouvier",
+      "gender": "male",
+      "age": 50,
+      "location": "Dezviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Father secured lease of mills at Sercoeur and Dompierre previously held by Demenge",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Father of witness",
+            "target_relationship": "father",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "13-14 years ago; strange illness making him 'hors de soy'; struck on shoulder by Demenge"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Toussaint Mathieu",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Fontenay",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Father had dispute with Demenge 25 years earlier while levying tithe for curé",
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Nicolas Bonne Aveine",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": "miller",
+      "location": "molin de Sainte Heleine",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Catherine veuve de Nicolas Rouvier",
+      "gender": "female",
+      "age": 80,
+      "age_approximate": true,
+      "location": "Dezviller",
+      "marital_status": "widowed",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Demenge wanted husband to sublet mill of Dompierre",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Husband Nicolas Rouvier",
+            "target_relationship": "husband",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "became ill and died 2 days after Whitsun, 24 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Nicolas Jean Ferry",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Dompierre",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Several quarrels with Demenge",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Magdelaine femme a George Jeandat",
+      "gender": "female",
+      "age": 36,
+      "age_approximate": true,
+      "occupation": "wife of tabellion",
+      "location": "Sercoeur",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Demenge's dog was in their house; he called her 'carogne' for keeping it",
+        "threat_received": true,
+        "threat_quote": "Elle l'entretient, la carogne",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Self",
+            "target_relationship": "self",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "9-10 months earlier; sprained ankle on return from Veilles of Fontenay"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Dieudonné femme de Demenge Drouin",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Sercoeur",
+      "relationship_to_accused": "husband obtained lease previously held by accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband obtained lease of mill at Sercoeur previously held by Demenge",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "13-year-old son",
+            "target_relationship": "son",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "died suddenly, 7 years after lease obtained"
+          },
+          {
+            "type": "human_death",
+            "target": "Son-in-law",
+            "target_relationship": "son-in-law",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "died suddenly"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Nicolas le Conte",
+      "gender": "male",
+      "age": 55,
+      "location": "Laxoncourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 45,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Leased mill of Dompierre; Demenge was angry, claimed witness was encroaching on his business",
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "Mill machinery",
+            "target_relationship": "self",
+            "attributed_to": "Demenge Demongeot",
+            "time_after_quarrel": "During next 3 years, so many breakdowns they had to abandon lease and cede back to Demenge"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1619-11-06",
+      "event": "other",
+      "subject": "Bastienne veuve Jean Brihey d'Aydoille",
+      "details": "Denunciations at execution by Bastienne naming Demenge Demongeot and others"
+    },
+    {
+      "date": "1620-02-10",
+      "event": "other",
+      "subject": "Demenge Demongeot",
+      "details": "Order by substitut of procureur general des Vosges for confrontation with Colas Adam and witness gathering"
+    },
+    {
+      "date": "1620-02-11",
+      "event": "confrontation",
+      "subject": "Demenge Demongeot",
+      "details": "Confrontation with Adam who maintains charges; accused denies firmly"
+    },
+    {
+      "date": "1620-02-11",
+      "event": "informations_preparatoires",
+      "subject": "Demenge Demongeot",
+      "details": "Information by George Milot, Prévôt de Bruyères - witness depositions begin"
+    },
+    {
+      "date": "1620-02-18",
+      "event": "informations_preparatoires",
+      "subject": "Demenge Demongeot",
+      "details": "Additional witness depositions"
+    },
+    {
+      "date": "1620-02-19",
+      "event": "other",
+      "subject": "Colas Adam",
+      "details": "Adam repeats accusations against Demengeon and Thomasse at stake"
+    },
+    {
+      "date": "1620-02-24",
+      "event": "interrogation",
+      "subject": "Demenge Demongeot",
+      "details": "First interrogation; accused denies all charges"
+    },
+    {
+      "date": "1620-02-28",
+      "event": "confrontation",
+      "subject": "Demenge Demongeot",
+      "details": "Confrontations with witnesses; accused denies allegations"
+    },
+    {
+      "date": "1620-03-04",
+      "event": "confrontation",
+      "subject": "Demenge Demongeot",
+      "details": "Confrontations completed (2 witnesses only)"
+    },
+    {
+      "date": "1620-03-18",
+      "event": "torture_requested",
+      "subject": "Demenge Demongeot",
+      "details": "PG des Vosges requests question ordinaire et extraordinaire, with moderation due to great age"
+    },
+    {
+      "date": "1620-03-20",
+      "event": "torture_approved",
+      "subject": "Demenge Demongeot",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1620-03-26",
+      "event": "torture",
+      "subject": "Demenge Demongeot",
+      "details": "Interrogation under torture; full battery applied; stubbornly denied guilt throughout"
+    },
+    {
+      "date": "1620-03-29",
+      "event": "sentence",
+      "subject": "Demenge Demongeot",
+      "details": "PG des Vosges orders he be renvoyé (released), subject to payment of costs"
+    },
+    {
+      "date": "1620-04-01",
+      "event": "sentence",
+      "subject": "Demenge Demongeot",
+      "details": "Change de Nancy approves release but orders he should not be liable for costs"
+    },
+    {
+      "date": "1620-04-04",
+      "event": "other",
+      "subject": "Demenge Demongeot",
+      "details": "Prisoner released without payment of costs"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews on hands", "thumbscrews on feet", "rack", "bastonceaux", "strappado"],
+    "requesting_official": "Procureur General des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "moderation appropriate to great age of accused"
+  },
+  "accomplices_named": [
+    {
+      "name": "Mongeon le musnier",
+      "context": "Named by Bastienne veuve Jean Brihey d'Aydoille at execution; absented himself when told to be present",
+      "already_executed": false
+    },
+    {
+      "name": "Thomasse femme Jean Poirot",
+      "context": "Named by Bastienne at execution; already imprisoned",
+      "already_executed": false
+    },
+    {
+      "name": "Nicolas Adam (Colas Adam)",
+      "context": "Named by Bastienne at execution; also accused Demenge and maintained charges in confrontation",
+      "already_executed": false
+    },
+    {
+      "name": "Woman of Rompchamps called le Poil",
+      "location": "Rompchamps, bailliage d'Espinal",
+      "context": "Named by Bastienne at execution; father already executed at Epinal",
+      "already_executed": false
+    },
+    {
+      "name": "Georgatte (daughter of accused)",
+      "context": "Bastienne claimed daughter was a witch",
+      "already_executed": false
+    },
+    {
+      "name": "Marie (daughter-in-law of accused)",
+      "context": "Bastienne claimed daughter-in-law was a witch",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Bastienne veuve Jean Brihey d'Aydoille",
+      "accuser_location": "Aydoille",
+      "context": "Accused Demenge at her execution on 6 November 1619",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Colas Adam (Nicolas Adam)",
+      "context": "Maintained accusations in confrontation on 11 February 1620; repeated at stake on 19 February 1620",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Demenge Demongeot",
+      "french": "qu'il auroit sadite fille en main, ou passeroit par ses mains",
+      "english": "that he would have his said daughter in hand, or she would pass through his hands",
+      "context": "Threat to daughter Nicole regarding marriage portion dispute"
+    },
+    {
+      "speaker": "Demenge Demongeot",
+      "french": "jurer la mort, la teste Nre Seigneur qu'elle s'en repentiroit, l'auroit, et passeroit par ses mains",
+      "english": "swearing death, by the head of Our Lord that she would repent it, he would have her, and she would pass through his hands",
+      "context": "Threat to daughter regarding marriage portion"
+    },
+    {
+      "speaker": "Nicolas Petit Homme (son-in-law)",
+      "french": "qu'il estoit un sorcier, qu'il avoit ja fait mourir ses trois autres filles, qu'il face encore mourir la derniere sa femme, et puis qu'il n'en auroit plus du tout",
+      "english": "that he was a sorcerer, that he had already made his three other daughters die, let him also make the last one his wife die, and then he would have none at all",
+      "context": "Son-in-law's response to being called thief"
+    },
+    {
+      "speaker": "Demenge Demongeot",
+      "french": "que quand il voudroit il les feroit tous mourir",
+      "english": "that when he wanted he would make them all die",
+      "context": "Threat to son-in-law Nicolas Petit Homme and daughter Jennon"
+    },
+    {
+      "speaker": "Demenge Demongeot",
+      "french": "la mort de nre Seigneur, because he didn't want to sell at that price, within 6 weeks horse would not be worth 4 ecus",
+      "english": "by the death of our Lord, because he didn't want to sell at that price, within 6 weeks the horse would not be worth 4 ecus",
+      "context": "Threat/curse regarding Mongeon Antoine Toussainct's horse sale refusal"
+    },
+    {
+      "speaker": "Claudate Durant (later wife of accused)",
+      "french": "que s'il avoit esté d'or elle ne l'epouseroit pas et qu'il vaudroit bien mieux qu'elle s'allit noier",
+      "english": "that if he had been made of gold she would not marry him and that it would be much better if she went and drowned herself",
+      "context": "Response after learning about Demenge's criminal family history; she married him anyway"
+    },
+    {
+      "speaker": "Nicolas Jean Ferry",
+      "french": "s'il eut esté sorcier et eu pouvoir sur luy il ne seroit aujordhuy vivant, veu l'Inimitié qu'ils se sont entreportés",
+      "english": "if he had been a sorcerer and had power over him he would not be alive today, given the enmity they have borne each other",
+      "context": "Demenge's defense: if he were truly a witch, his enemy would be dead"
+    },
+    {
+      "speaker": "Demenge Demongeot",
+      "french": "Elle l'entretient, la carogne",
+      "english": "She keeps it, the hag/carcass",
+      "context": "About Magdelaine keeping his dog"
+    },
+    {
+      "speaker": "Nicole (daughter of accused)",
+      "french": "qu'elle avoit laissé le mal chez sondit pere au molin, ou elle avoit fait bonne chere et beaucoup beu",
+      "english": "that she had left the illness at her said father's mill, where she had good cheer and drank much",
+      "context": "After temporary recovery at Whitsun following visit to father"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Nicole",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "his daughter Nicole"
+    },
+    {
+      "person1": "Nicole",
+      "person2": "Claudon Haiatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "wife of Claudon Haiatte"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Claudon Haiatte",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son-in-law"
+    },
+    {
+      "person1": "Demenge Jacot Cole",
+      "person2": "Nicole",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his daughter Nicole"
+    },
+    {
+      "person1": "Claudon Chabay",
+      "person2": "Claudon Haiatte",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "her cousin Claudon Haiatte"
+    },
+    {
+      "person1": "Claudate",
+      "person2": "Claudon Chabay",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudate femme de Claudon Chabay"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Nicolas Petit Homme",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son-in-law Nicolas Petit Homme"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Jennon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his daughter Jennon"
+    },
+    {
+      "person1": "Nicolas Petit Homme",
+      "person2": "Jennon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "his daughter Jennon, wife of Nicolas Petit Homme"
+    },
+    {
+      "person1": "Nicolas Pirot",
+      "person2": "Antoine (father)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "father told him"
+    },
+    {
+      "person1": "Jean fils Jean Mougin",
+      "person2": "Didier Barton",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "servant Didier Barton laboureur"
+    },
+    {
+      "person1": "Nicolas fils Antoine Ferry",
+      "person2": "Antoine Ferry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Nicolas fils Antoine Ferry"
+    },
+    {
+      "person1": "Nicolas Jean Blot",
+      "person2": "Niece (former servant)",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his niece"
+    },
+    {
+      "person1": "Jacote",
+      "person2": "Claudon du Pore",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jacote femme de Claudon du Pore"
+    },
+    {
+      "person1": "Jacote",
+      "person2": "Daughter (servant)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter"
+    },
+    {
+      "person1": "Claudon du Pore",
+      "person2": "Daughter (servant)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "daughter"
+    },
+    {
+      "person1": "Nicolas Rouvier",
+      "person2": "Father (deceased)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his father"
+    },
+    {
+      "person1": "Toussaint Mathieu",
+      "person2": "Father (deceased)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his late father"
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Nicolas Rouvier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Catherine veuve de Nicolas Rouvier"
+    },
+    {
+      "person1": "Magdelaine",
+      "person2": "George Jeandat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Magdelaine femme a George Jeandat"
+    },
+    {
+      "person1": "Dieudonné",
+      "person2": "Demenge Drouin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Dieudonné femme de Demenge Drouin"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Claudate (current wife)",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "third wife, current"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Georgatte (daughter)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter Georgatte"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Marie (daughter-in-law)",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter-in-law Marie"
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Uncle (hanged)",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his uncle hanged at Fontenoy",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Demongeot",
+      "person2": "Two cousins (hanged)",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "two of his cousins hanged at Fontenoy",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Demenge was a miller who lost multiple mill leases (Sercoeur, Dompierre) to other millers, creating economic rivalries. He sold land before trial, claiming to pay debts to prévôt of Epinal and merchants. Disputes over marriage portions owed to daughters. Disputes over wages/goods owed to servants (cloth/couvrechef). Horse trading disputes. Mill lease disputes created significant animosity with multiple witnesses who took over his business."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Nicole (daughter of accused)",
+      "victim_relationship_to_witness": "daughter-in-law to witness 1; cousin's wife to witness 2",
+      "harm_category": "human_death",
+      "harm_description": "Languishing illness with two phases: first lasted until Whitsun, temporary recovery, then recurred and she died 10 months after initial onset",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Accused angry about daughter's poverty and demands for promised marriage portion; accused her of stealing from his coffers with her sister",
+      "time_between_quarrel_and_harm": "shortly afterwards; temporary recovery after eating/drinking with father; relapse after harvest quarrel about stolen corn",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Nicole (daughter of accused)",
+      "victim_relationship_to_witness": "cousin's wife",
+      "harm_category": "human_death",
+      "harm_description": "Same illness as above, with detail that she 'left the illness at her father's mill' after recovery",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Witness told accused daughter might be unhappy about lack of marriage portion and his remarriage",
+      "time_between_quarrel_and_harm": "illness followed conversation",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Nicolas Pirot (witness 4 as child)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Affliction in legs requiring crutches when he was 12; cured after Demenge told him he would be cured",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Quarrel between Demenge and witness's father",
+      "time_between_quarrel_and_harm": "when witness was 12 years old",
+      "method_alleged": "Demenge told him he would be cured and he recovered - suggesting Demenge caused and removed the affliction",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Newborn son of Jean Lallemant",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Baby sickened and died",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Asked Demenge to grind wheat finely for baby; Demenge refused rudely 'repartit en le rebrouant pour le diable'",
+      "time_between_quarrel_and_harm": "shortly afterwards",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Mare belonging to Jean Lallemant",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "Mare became ill and had to be destroyed",
+      "animal_type": "mare",
+      "animal_count": 1,
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Demenge reproached wife about story of 100 missing sheaves; wife denied it",
+      "time_between_quarrel_and_harm": "same hour",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Magdelaine wife of Jeandat tabellion",
+      "victim_relationship_to_witness": "acquaintance",
+      "harm_category": "human_injury",
+      "harm_description": "Dislocated ankle",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Threat over alleged theft of his dog",
+      "time_between_quarrel_and_harm": "at veilles of Fontenay on St. Laurent's Day",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Niece of Nicolas Jean Blot (servant of accused)",
+      "victim_relationship_to_witness": "niece",
+      "harm_category": "human_death",
+      "harm_description": "Sickened and died two years after leaving service",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Demanded cloth still due for her service; Demenge was angry",
+      "time_between_quarrel_and_harm": "sickened after leaving service, died 2 years later",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Corn mill / load of corn",
+      "victim_relationship_to_witness": "witness's mill load",
+      "harm_category": "property_damage",
+      "harm_description": "Corn would not mill properly, made noise like 50 drums, horse broke away and fled to village",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Lease dispute at mill of Sercoeur; witness claimed he wanted to back out of surrender",
+      "time_between_quarrel_and_harm": "after lease surrender went through",
+      "method_alleged": "Witchcraft",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Daughter of Jacote and Claudon du Pore",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "Left service with illness, died two years later",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Unknown to witness 12; witness 13 specifies owed couvrechef dispute",
+      "time_between_quarrel_and_harm": "left service 10-12 years before, died 2 years after leaving",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Daughter of Claudon du Pore",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Illness (same as above)",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Demenge owed daughter a couvrechef, only gave it after father threatened legal action",
+      "time_between_quarrel_and_harm": "after demanding payment",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Horse of Mongeon Antoine Toussainct",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "Became sick and had to be killed 'comme enragé' (as if rabid)",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "worth 18 ecus when healthy, predicted to be worth only 4 ecus within 6 weeks",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Refused to sell horse at demanded price (18 ecus) to Nicolas Claude courretier",
+      "time_between_quarrel_and_harm": "within 6 weeks as predicted",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Horse of Claudon Fraiart",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "Became sick and died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Witness told Claudate Durant about Demenge's criminal family history, discouraging marriage; she married him anyway and told Demenge; quarrel ensued",
+      "time_between_quarrel_and_harm": "within a couple of days",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Father of Nicolas Rouvier",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "Strange illness making him 'hors de soy' (out of his mind)",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Father secured lease of mills at Sercoeur and Dompierre previously held by Demenge; Demenge struck him on shoulder pretending to wish him good health",
+      "time_between_quarrel_and_harm": "13-14 years ago at next Whitsun; died 2 days after Whitsun",
+      "method_alleged": "Touch/striking on shoulder",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Father of Nicolas Rouvier (husband of witness 19)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "Became ill and died 2 days after Whitsun",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Demenge wanted husband to sublet mill of Dompierre; arranged to meet at veilles",
+      "time_between_quarrel_and_harm": "became ill before veilles meeting; died 2 days after Whitsun (24 years earlier per witness 19)",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Magdelaine femme George Jeandat",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "Sprained ankle on return from Veilles of Fontenoy",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "His dog was in their house, couldn't chase it away; he called her 'carogne'",
+      "time_between_quarrel_and_harm": "9-10 months earlier; did not see Demenge at Fontenoy or on road",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "13-year-old son of Dieudonné and Demenge Drouin",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Died suddenly",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Husband obtained lease of mill at Sercoeur previously held by Demenge; he was angry",
+      "time_between_quarrel_and_harm": "7 years after lease obtained",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Son-in-law of Dieudonné and Demenge Drouin",
+      "victim_relationship_to_witness": "son-in-law",
+      "harm_category": "human_death",
+      "harm_description": "Died suddenly",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Same as above - mill lease",
+      "time_between_quarrel_and_harm": "sometime after lease obtained 7 years earlier",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Mill machinery at Dompierre",
+      "victim_relationship_to_witness": "leased by witness",
+      "harm_category": "property_damage",
+      "harm_description": "So many breakdowns over 3 years that they had to abandon lease and cede back to Demenge",
+      "attributed_to": "Demenge Demongeot",
+      "precipitating_quarrel": "Nicolas le Conte leased mill; Demenge angry, complained witness was encroaching on his business after he held it 45 years continuously",
+      "time_between_quarrel_and_harm": "during next 3 years",
+      "witness_number": 23
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "wheat",
+      "context": "taken to mill; sold by accused; payment disputes",
+      "category": "food"
+    },
+    {
+      "object": "white flour",
+      "context": "requested for newborn baby",
+      "category": "food"
+    },
+    {
+      "object": "Burte (sieve/bolting cloth)",
+      "context": "asked Demenge to 'tendre le Burte' to make white flour",
+      "category": "tools"
+    },
+    {
+      "object": "sheaves of corn",
+      "context": "100 sheaves allegedly missing from 'teisse de ble'",
+      "category": "agricultural"
+    },
+    {
+      "object": "couvrechef (head covering)",
+      "context": "owed to servant for wages",
+      "category": "clothing"
+    },
+    {
+      "object": "cloth",
+      "context": "owed to servant for wages",
+      "category": "clothing"
+    },
+    {
+      "object": "vaisselle (dishware/vessels)",
+      "context": "daughters allegedly stole from accused's coffers after first wife's death",
+      "category": "household"
+    },
+    {
+      "object": "coffres (chests/coffers)",
+      "context": "daughters allegedly emptied them",
+      "category": "household"
+    },
+    {
+      "object": "crutches",
+      "context": "Nicolas Pirot had to use them for leg affliction",
+      "category": "other"
+    },
+    {
+      "object": "horse",
+      "context": "multiple horses involved in sales, deaths; brought corn to mill",
+      "category": "agricultural"
+    },
+    {
+      "object": "mare",
+      "context": "became ill and destroyed",
+      "category": "agricultural"
+    },
+    {
+      "object": "cart",
+      "context": "used to transport injured woman from veilles",
+      "category": "agricultural"
+    },
+    {
+      "object": "dog",
+      "context": "small dog belonging to Demenge caused dispute",
+      "category": "other"
+    },
+    {
+      "object": "hoe",
+      "context": "witness tried to hit Demenge with handle",
+      "category": "agricultural"
+    },
+    {
+      "object": "ecus (coins)",
+      "context": "18 ecus offered for horse, would be worth only 4 ecus after curse",
+      "category": "money"
+    },
+    {
+      "object": "land/property",
+      "context": "Demenge sold several pieces since St. Martin to pay debts",
+      "category": "other"
+    },
+    {
+      "object": "tithe",
+      "context": "father levying tithe for curé 25 years earlier",
+      "category": "agricultural"
+    },
+    {
+      "object": "paulx (pole/post)",
+      "context": "allegedly thrown into mill machinery",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Dompierre",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Damay-devant-Dompierre",
+      "place_type": "village",
+      "context": "Native village of accused; left and never returned on rumor of accusation by executed relatives"
+    },
+    {
+      "place_name": "Bruyères",
+      "place_type": "village",
+      "context": "Market town; Prévôt de Bruyères conducted information; accused returning from market there"
+    },
+    {
+      "place_name": "Sercoeur",
+      "place_type": "village",
+      "context": "Location of mill leased by accused; residence of tabellion and witnesses"
+    },
+    {
+      "place_name": "Girecourt",
+      "place_type": "village",
+      "context": "Residence of several witnesses"
+    },
+    {
+      "place_name": "Padoux",
+      "place_type": "village",
+      "context": "Where accused lodged while hiding; residence of witness; courretier from there"
+    },
+    {
+      "place_name": "Fontenay",
+      "place_type": "village",
+      "context": "Veilles held there on St. Laurent's Day; location where injury occurred"
+    },
+    {
+      "place_name": "Fontenoy",
+      "place_type": "village",
+      "context": "Where accused's uncle and two cousins were hanged"
+    },
+    {
+      "place_name": "Dezviller",
+      "place_type": "village",
+      "context": "Residence of witnesses whose father died after mill dispute"
+    },
+    {
+      "place_name": "Laxoncourt",
+      "place_type": "village",
+      "context": "Residence of Nicolas le Conte who leased mill"
+    },
+    {
+      "place_name": "Aydoille",
+      "place_type": "village",
+      "context": "Location of Bastienne who accused Demenge at execution"
+    },
+    {
+      "place_name": "Rompchamps, bailliage d'Espinal",
+      "place_type": "village",
+      "context": "Location of woman called le Poil accused by Bastienne"
+    },
+    {
+      "place_name": "Epinal",
+      "place_type": "village",
+      "context": "Where father of woman called le Poil was executed; accused owed debts to prévôt there"
+    },
+    {
+      "place_name": "Mill of Sercoeur",
+      "place_type": "other",
+      "context": "Mill leased by accused, then by others; site of disputes"
+    },
+    {
+      "place_name": "Mill of Dompierre",
+      "place_type": "other",
+      "context": "Mill leased by accused for 45 years continuously; later by others; site of disputes"
+    },
+    {
+      "place_name": "Mill of Sainte Heleine",
+      "place_type": "other",
+      "context": "Where accused stayed night while fleeing"
+    },
+    {
+      "place_name": "Barn",
+      "place_type": "other",
+      "context": "Where witness was threshing when accused came to quarrel"
+    },
+    {
+      "place_name": "Woods/forest",
+      "place_type": "forest",
+      "context": "Accused 'tenu et frequenté craintivement les bois' while hiding"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Accused's daughter and son-in-law described as poor",
+      "Marriage portions not paid",
+      "Debts to merchants and prévôt of Epinal",
+      "Sale of land to pay debts",
+      "Wage disputes with servants",
+      "Mill lease disputes due to lack of profit"
+    ],
+    "religious_calendar_references": [
+      "Whitsun",
+      "St. Laurent's Day",
+      "St. Martin"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "George Milot",
+        "role": "prevot",
+        "location": "Bruyères"
+      },
+      {
+        "name": "Substitut of procureur general des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Procureur General des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "George Jeandat",
+        "role": "notary",
+        "location": "Sercoeur"
+      },
+      {
+        "name": "Dominicq Nicolas",
+        "role": "notary",
+        "location": "Dompierre area"
+      },
+      {
+        "name": "Curé of Dompierre",
+        "role": "other",
+        "location": "Dompierre"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "other",
+        "description": "Lawsuit with Nicolas Adam's brother",
+        "outcome": "Unknown"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "Father of witness 13 threatened to take accused to court over owed couvrechef",
+        "outcome": "Accused paid before legal action"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Not specified, but released without payment of costs",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 18,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Bernard la Gaulde le jeune (witness 9)",
+        "source": "mother-in-law",
+        "content": "Magdelaine suspected Demenge of causing dislocated ankle"
+      },
+      {
+        "reporter": "Bernard la Gaulde le jeune (witness 9)",
+        "source": "miller's wife Claudate",
+        "content": "Demenge was frightened by accusation and spent night away"
+      },
+      {
+        "reporter": "Nicolas Jean Blot (witness 10)",
+        "source": "niece",
+        "content": "Niece said Demenge gave her illness over cloth dispute"
+      },
+      {
+        "reporter": "Toussaint Mathieu (witness 17)",
+        "source": "late father",
+        "content": "Father called Demenge witch 25 years earlier"
+      },
+      {
+        "reporter": "Claudon Fraiart (witness 15)",
+        "source": "Claudate Durant",
+        "content": "Marriage proposal and information about family; she told Demenge what witness said"
+      }
+    ],
+    "oldest_accusation_years": 25,
+    "corroboration_groups": [
+      [1, 2],
+      [3, 4, 6, 7],
+      [12, 13],
+      [16, 19]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "Frightened of arrest - absented himself for night and a half",
+      "Hiding in woods ('tenu et frequenté craintivement les bois')",
+      "'Espouvanté' by accusations according to miller's wife",
+      "Sold land and removed property via family members before arrest",
+      "Stubbornly denied guilt throughout torture"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 6,
+        "objection": "Accused Jean fils Jean Mongin of being thief and son of murderer"
+      },
+      {
+        "witness_number": 7,
+        "objection": "Claimed he said they desired his death, and perhaps theirs would arrive first"
+      },
+      {
+        "witness_number": 11,
+        "objection": "Claimed Jean Clerc caused mill breakage himself; was angry at being sacked and threw 'un paulx' into machinery"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Bastienne veuve Jean Brihey d'Aydoille",
+      "role_in_narrative": "prior_accused",
+      "context": "Executed 6 November 1619; accused Demenge and others at execution"
+    },
+    {
+      "name": "Colas Adam (Nicolas Adam)",
+      "role_in_narrative": "prior_accused",
+      "context": "Maintained accusations against Demenge in confrontation and at stake"
+    },
+    {
+      "name": "First wife of accused (deceased)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "first wife",
+      "context": "After her death, daughters allegedly emptied coffers"
+    },
+    {
+      "name": "Second wife of accused (deceased)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "second wife",
+      "context": "Had children by two previous wives"
+    },
+    {
+      "name": "Nicolas Claude",
+      "role_in_narrative": "community_member",
+      "context": "Courretier a Padoux who wanted to buy horse for 18 ecus"
+    },
+    {
+      "name": "Claudate Durant (widow of Francois Brausson)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "third wife",
+      "context": "Married accused despite warnings about his criminal family; told him what Claudon Fraiart said"
+    },
+    {
+      "name": "Nicolas Chante",
+      "role_in_narrative": "community_member",
+      "context": "Involved in mill lease negotiation with accused"
+    },
+    {
+      "name": "Didier Barton",
+      "role_in_narrative": "community_member",
+      "context": "Laboureur de Dompierre, employer of witness 6"
+    },
+    {
+      "name": "Uncle of accused (hanged)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "uncle",
+      "context": "Hanged at Fontenoy by officers of M. d'Haure"
+    },
+    {
+      "name": "Two cousins of accused (hanged)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "cousins",
+      "context": "Hanged at Fontenoy by officers of M. d'Haure; accused fled on rumor they accused him"
+    },
+    {
+      "name": "M. d'Haure, seigneur of Damay",
+      "role_in_narrative": "official",
+      "context": "Officers arrested and executed accused's relatives"
+    },
+    {
+      "name": "Cousin of Claudon Fraiart (woman claiming pregnancy)",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "cousin of witness 15",
+      "context": "Left claiming to be pregnant by accused when he fled Damay"
+    },
+    {
+      "name": "Sergent",
+      "role_in_narrative": "official",
+      "context": "Summoned accused to execution of Bastienne; testified he was properly summoned"
+    },
+    {
+      "name": "Son of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "context": "Helped remove wheat and property from mill before arrest"
+    },
+    {
+      "name": "Mongeon le musnier",
+      "role_in_narrative": "prior_accused",
+      "context": "Named by Bastienne; absented self from her execution"
+    },
+    {
+      "name": "Thomasse femme Jean Poirot",
+      "role_in_narrative": "prior_accused",
+      "context": "Named by Bastienne and Colas Adam; already imprisoned"
+    },
+    {
+      "name": "Georgatte (daughter)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Bastienne claimed she was a witch"
+    },
+    {
+      "name": "Marie (daughter-in-law)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter-in-law",
+      "context": "Bastienne claimed she was a witch"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Exceptionally well-documented trial with 23 witnesses providing detailed testimony. Accused was at least 80 years old. Notable for RELEASE outcome despite extensive witness testimony, prior accusations by executed witches, and full torture. Demenge maintained innocence throughout. Complex economic context involving multiple mill lease disputes. Long reputation (25 years). Family history of executions. Pattern of quarrels over economic matters (marriage portions, debts, wages, mill leases) followed by harms. Change de Nancy ordered release without costs, unusual outcome suggesting insufficient evidence despite reputation and accusations.",
+    "pdf_pages": 7
+  }
+}

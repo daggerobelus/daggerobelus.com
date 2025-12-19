@@ -1,0 +1,32 @@
+======================================================================
+LOGISTIC REGRESSION MODEL INTERPRETATION
+Lorraine Witchcraft Trials - Accusation Prediction
+======================================================================
+
+1. ACCUSATION MODEL SUMMARY
+----------------------------------------
+Sample Size: 7380 individuals
+Accused: 313 (4.2%)
+Cross-validated AUC: 0.913 (+/- 0.035)
+
+2. KEY PREDICTORS OF ACCUSATION
+----------------------------------------
+  - clustering_coefficient: OR=6.427 (increases accusation risk by 543%)
+  - brokerage_score: OR=4.102 (increases accusation risk by 310%)
+  - degree: OR=2.431 (increases accusation risk by 143%)
+  - betweenness_centrality: OR=0.504 (decreases accusation risk by 50%)
+  - pagerank: OR=1.229 (increases accusation risk by 23%)
+
+3. INTERPRETATION
+----------------------------------------
+  * Gender has modest effect on accusation risk
+  * Central network positions appear protective
+  * More connections correlate with higher accusation risk
+
+4. CAVEATS
+----------------------------------------
+  * Network position may reflect accusation rather than predict it
+  * Historical data has inherent selection biases
+  * Model assumes linear effects in log-odds
+
+======================================================================

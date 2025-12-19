@@ -1,0 +1,1759 @@
+{
+  "trial_id": "w034",
+  "archive_ref": "B 3325 no 1",
+  "location": "Gondrexon",
+  "court": "Blamont",
+  "dates": {
+    "start": "1602-12-11",
+    "end": "1603-06-28",
+    "duration_days": 199
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Claudon de Benamenil",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": ["laboureur"],
+      "origin": "Beaumesnil",
+      "residence": "Gondrexon",
+      "marital_status": "married",
+      "spouse_name": null,
+      "parents": {},
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": null,
+        "devil_appearance": null,
+        "seduction_date": null,
+        "seduction_context": null,
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [],
+        "sabbat_attended": false,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Danel",
+      "gender": "male",
+      "age": 34,
+      "occupation": "laboureur",
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudon opposed witness's inclusion in communal pasture rights lease",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 or 4 pigs",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "within 3 or 4 days"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Mesline veuve Jean Mengeotte",
+      "gender": "female",
+      "age": null,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "crops (wheat and oats)",
+            "target_relationship": "community's crops, but not accused's",
+            "attributed_to": "someone in accused's household",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Barbelline femme Jean Danel",
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "pasture rights dispute (husband's testimony)",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pigs",
+            "target_relationship": "husband's",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "after Noel Purel's accusation"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Nicolas Connat",
+      "gender": "male",
+      "age": 32,
+      "occupation": null,
+      "location": "Monsey",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": null,
+            "target_relationship": null,
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Sebille veuve Claudon Colas Claudon",
+      "gender": "female",
+      "age": null,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor with land dispute",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "retraite (land buyback) - husband and his father had operated retraite on family land accused had bought",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her husband",
+            "target_relationship": "witness's husband",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "9 months ago"
+          },
+          {
+            "type": "animal_death",
+            "target": "young horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "within a month of husband's death"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudatte femme de Colas Jean Mongeatte",
+      "gender": "female",
+      "age": null,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "hailstorm protection - brother confronted accused about why his crops were spared",
+        "threat_received": false,
+        "threat_quote": "il falloit que ledit defferé fust meilleure qu'eulx ou plus mauvais veu que ses bledz estoient gardez et non les leur",
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "crops",
+            "target_relationship": "community crops",
+            "attributed_to": "someone in accused's family",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Claudon Jean Claudon",
+      "gender": "male",
+      "age": 42,
+      "occupation": null,
+      "location": "Mesmerey",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Thoussainct Bastien",
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to join suit seeking reduction in rents after hailstorm",
+        "threat_received": false,
+        "threat_quote": "qu'il donroit bien sa vie qu'il y avoit des sorciers dans la maison et famille dudict defferé et qu'il craindoit icelluy merveilleusement",
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "crops",
+            "target_relationship": "community",
+            "attributed_to": "accused's household",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Nicolas Jean Mengeotte",
+      "gender": "male",
+      "age": 38,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "calf",
+            "target_relationship": "witness's wife",
+            "attributed_to": null,
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Grand Michiel",
+      "gender": "male",
+      "age": 60,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor, known 30+ years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "calf",
+            "target_relationship": null,
+            "attributed_to": null,
+            "time_after_quarrel": null
+          },
+          {
+            "type": "weather_event",
+            "target": "crops",
+            "target_relationship": "community",
+            "attributed_to": null,
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Nicolas Claudon",
+      "gender": "male",
+      "age": 70,
+      "occupation": "laboureur",
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor, known 30+ years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "retraite (land buyback)",
+        "threat_received": true,
+        "threat_quote": "qu'il luy cousteroit tout son bien s'il pouvoit",
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "crops damaged by hail",
+            "target_relationship": "witness's own",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "3 years after threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Grand Demenge",
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Didier Essenat",
+      "gender": "male",
+      "age": 35,
+      "occupation": "servant",
+      "location": "Dommepvre",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Elizabeth femme Nicolas",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "related through marriage",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_injury",
+            "target": "cow with broken leg",
+            "target_relationship": "daughter-in-law's cow",
+            "attributed_to": "Jennon Pierson (accused's daughter)",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jehennon femme Colas Danal",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": "ung des grand sorcier qui se pouvoit veoir",
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "crops",
+            "target_relationship": "community",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Claudon Jean Zabey",
+      "gender": "male",
+      "age": 50,
+      "occupation": "maire",
+      "location": "Gondrexon",
+      "relationship_to_accused": "local official",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Marsel Recouvreur",
+      "gender": "male",
+      "age": 46,
+      "occupation": "roofer",
+      "location": "Xousse",
+      "relationship_to_accused": "worked for accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Anthoine Colas Claudon jeune fils",
+      "gender": "male",
+      "age": 25,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "nephew of victim",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "inheritance dispute from Claudon's uncle",
+        "threat_received": true,
+        "threat_quote": "qu'il luy laisseroit bien de six parts une et qu'il n'en perderoit rien",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "married brother Claudon",
+            "target_relationship": "witness's brother",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "after inheritance dispute"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "father's cow",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "next day after tree dispute"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Margueritte fille de Colas Claudon",
+      "gender": "female",
+      "age": 26,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "niece of victim",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "inheritance dispute",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "brother Claudon",
+            "target_relationship": "witness's brother",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "after 2 weeks illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jacquot Febvre",
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Jean Bastien",
+      "gender": "male",
+      "age": 45,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor, brother-in-law of witness 6",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "hailstorm protection and feast-keeping",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Claudon Jean Mengeotte jeune fils",
+      "gender": "male",
+      "age": 23,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Colas Claudon",
+      "gender": "male",
+      "age": 68,
+      "occupation": null,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor with multiple land disputes",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "multiple: son acquired land from accused's brother-in-law, share of oak trees, retraite land buyback",
+        "threat_received": true,
+        "threat_quote": "que s'il pouvoit qu'il luy cousteroit tout son bien",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "son's horse",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": null
+          },
+          {
+            "type": "human_death",
+            "target": "son Claudon",
+            "target_relationship": "witness's son",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "a year previous Lent"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "day or two after tree dispute"
+          },
+          {
+            "type": "weather_event",
+            "target": "crops destroyed by hailstorm",
+            "target_relationship": "witness's crops",
+            "attributed_to": "Claudon de Benamenil",
+            "time_after_quarrel": "year after retraite and threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-12-11",
+      "event": "informations_preparatoires",
+      "subject": "Claudon de Benamenil",
+      "details": "Procureur fiscal of county of Blamont requested evidence be taken; accused had been named by Noel Purel of Blesmerey before his execution"
+    },
+    {
+      "date": "1602-12-30",
+      "event": "informations_preparatoires",
+      "subject": "Claudon de Benamenil",
+      "details": "Additional witnesses heard (witnesses 11-14)"
+    },
+    {
+      "date": "1603-05-15",
+      "event": "informations_preparatoires",
+      "subject": "Claudon de Benamenil",
+      "details": "More witnesses heard at request of procureur fiscal"
+    },
+    {
+      "date": "1603-05-16",
+      "event": "informations_preparatoires",
+      "subject": "Claudon de Benamenil",
+      "details": "Continued witness hearings"
+    },
+    {
+      "date": "1603-05-22",
+      "event": "other",
+      "subject": "Claudon de Benamenil",
+      "details": "Procureur d'office asks prévôt to arrest accused for interrogation without counsel"
+    },
+    {
+      "date": "1603-05-30",
+      "event": "interrogation",
+      "subject": "Claudon de Benamenil",
+      "details": "First interrogation; accused denied all charges"
+    },
+    {
+      "date": "1603-05-30",
+      "event": "confrontation",
+      "subject": "Claudon de Benamenil",
+      "details": "Confrontations with witnesses; accused maintained innocence"
+    },
+    {
+      "date": "1603-06-07",
+      "event": "torture_requested",
+      "subject": "Claudon de Benamenil",
+      "details": "Procureur fiscal asks for question extraordinaire"
+    },
+    {
+      "date": "1603-06-08",
+      "event": "torture_approved",
+      "subject": "Claudon de Benamenil",
+      "details": "Change de Nancy recommends thumbscrews alone, rack only if about to confess"
+    },
+    {
+      "date": "1603-06-20",
+      "event": "torture_approved",
+      "subject": "Claudon de Benamenil",
+      "details": "Blamont court orders torture without specifying form"
+    },
+    {
+      "date": "1603-06-20",
+      "event": "torture",
+      "subject": "Claudon de Benamenil",
+      "details": "Thumbscrews on hands and feet for quarter hour, then racked moderately for half that time, then second turn on rack; maintained innocence throughout"
+    },
+    {
+      "date": "1603-06-28",
+      "event": "sentence",
+      "subject": "Claudon de Benamenil",
+      "details": "Procureur fiscal states he should be renvoyé unless stronger evidence produced; Blamont court confirms and orders release"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews on hands and feet", "rack"],
+    "requesting_official": "procureur fiscal",
+    "approving_court": "Change de Nancy and Blamont court",
+    "restrictions": "Change de Nancy recommended thumbscrews alone, rack only if perceived about to confess; rack applied moderately"
+  },
+  "accomplices_named": [
+    {
+      "name": "Noel Purel",
+      "location": "Blesmerey",
+      "context": "Named accused before his execution; referred to as 'petit Noel'",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Jennon Pierson",
+      "location": "Leintrey",
+      "context": "Accused's daughter or relative; called him 'ung des grand sorcier'; arrested for witchcraft then released",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Noel Purel (petit Noel)",
+      "accuser_location": "Blesmerey",
+      "context": "Named Claudon before his execution",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Bastien (witness 6's brother)",
+      "french": "il falloit que ledit defferé fust meilleure qu'eulx ou plus mauvais veu que ses bledz estoient gardez et non les leur",
+      "english": "the accused must be better than them or worse, seeing that his crops were protected and not theirs",
+      "context": "Confronting accused about hailstorm damage pattern"
+    },
+    {
+      "speaker": "Claudon de Benamenil",
+      "french": "qu'il estoit bon et qu'il faisoit mieux les festes qu'eulx",
+      "english": "that he was good and that he kept the feast days better than them",
+      "context": "Response to accusation about crop protection"
+    },
+    {
+      "speaker": "Late Claudon Colas Claudon",
+      "french": "qu'il donroit bien sa vie qu'il y avoit des sorciers dans la maison et famille dudict defferé et qu'il craindoit icelluy merveilleusement",
+      "english": "that he would give his life that there were witches in the house and family of the accused and that he feared him greatly",
+      "context": "Statement made 5-6 years before trial"
+    },
+    {
+      "speaker": "Claudon de Benamenil during hailstorm",
+      "french": "qu'il y avoit beaucoup de mauvaises gens qui causoient telles choses",
+      "english": "that there were many bad people who caused such things",
+      "context": "Speaking to roofer Marsel during hailstorm"
+    },
+    {
+      "speaker": "Nicolas Claudon",
+      "french": "qu'il luy cousteroit tout son bien s'il pouvoit",
+      "english": "that it would cost him all his property if he could",
+      "context": "Threat after retraite land dispute"
+    },
+    {
+      "speaker": "Claudon de Benamenil (about trees)",
+      "french": "qu'il luy laisseroit bien de six parts une et qu'il n'en perderoit rien",
+      "english": "that he would leave him one of six parts and he would lose nothing by it",
+      "context": "Dispute with Colas Claudon over oak trees"
+    },
+    {
+      "speaker": "Claudon de Benamenil (about trees with Colas Claudon)",
+      "french": "qu'il gaigneroit encore assé de luy laisser",
+      "english": "that he would still gain enough by leaving him",
+      "context": "During oak tree sharing dispute"
+    },
+    {
+      "speaker": "Jennon Pierson",
+      "french": "ung des grand sorcier qui se pouvoit veoir",
+      "english": "one of the greatest witches that could be seen",
+      "context": "Speaking about accused to witness 15"
+    },
+    {
+      "speaker": "Claudon de Benamenil during confrontations",
+      "french": "qu'il ne tient ledit deposant pour homme de bien s'il le charge et qu'il die qu'il ayt faict mourir ses porcz",
+      "english": "that he does not consider the witness an honest man if he accuses him of killing his pigs",
+      "context": "Confrontation with Jean Dunal"
+    },
+    {
+      "speaker": "Claudon de Benamenil under torture",
+      "french": "que c'estoit pour estre troublé et sy esperdu qu'il ne peult pleurer",
+      "english": "that it was because he was troubled and so distraught that he could not cry",
+      "context": "Explaining why he could not produce tears"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Danel",
+      "person2": "Barbelline femme Jean Danel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbelline femme Jean Danel",
+      "inferred": false
+    },
+    {
+      "person1": "Mesline",
+      "person2": "Jean Mengeotte",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mesline veuve Jean Mengeotte",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille",
+      "person2": "Claudon Colas Claudon",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Sebille veuve Claudon Colas Claudon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon de Benamenil",
+      "person2": "Jean Danel",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "residents of Gondrexon, pasture rights dispute",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte",
+      "person2": "Colas Jean Mongeatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme de Colas Jean Mongeatte",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte (witness 6)",
+      "person2": "Jean Bastien (witness 21)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Her brother Jean Bastien",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoine Colas Claudon jeune fils",
+      "person2": "Margueritte fille de Colas Claudon",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Brother of above",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoine Colas Claudon jeune fils",
+      "person2": "Claudon (deceased brother)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his married brother Claudon had died",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoine Colas Claudon jeune fils",
+      "person2": "Colas Claudon (witness 23)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "son of Colas Claudon",
+      "inferred": true
+    },
+    {
+      "person1": "Margueritte fille de Colas Claudon",
+      "person2": "Colas Claudon (witness 23)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "daughter of Colas Claudon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon de Benamenil",
+      "person2": "Colas Claudon",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "multiple land disputes over years",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon de Benamenil",
+      "person2": "Sebille veuve Claudon Colas Claudon",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "land retraite dispute",
+      "inferred": false
+    },
+    {
+      "person1": "Elizabeth femme Nicolas",
+      "person2": "Jennon Pierson",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "bellesoeur a la depposante",
+      "infc": false
+    },
+    {
+      "person1": "Jennon Pierson",
+      "person2": "Claudon de Benamenil",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "que son pere estoit fort soupconné d'estre sorcier",
+      "inferred": true
+    },
+    {
+      "person1": "Claudon de Benamenil",
+      "person2": "Jean de Beaumesnil",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jean de Beaumesnil son filz",
+      "inferred": false
+    },
+    {
+      "person1": "Jean de Beaumesnil",
+      "person2": "wife from Xenaguesange",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "brother to the wife of Jean de Beaumesnil",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Essenat",
+      "person2": "Jennon Adam",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "when serving a widow named Jennon Adam",
+      "inferred": false
+    },
+    {
+      "person1": "Grand Michiel",
+      "person2": "daughter-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his daughter-in-law had given birth",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon de Benamenil",
+      "person2": "grandson",
+      "relationship_type": "grandparent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his daughter-in-law had given birth to a son",
+      "inferred": true
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple land disputes involving retraite (legal buyback of family land): Claudon de Benamenil angry about retraite operations by Colas Claudon and Sebille's family. Also disputes over communal pasture rights, sharing of oak trees (inheritance), and land purchased for 600 francs. Dispute over rent reduction petition after hailstorm."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Danel's pigs",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "3 or 4 pigs died",
+      "animal_type": "pig",
+      "animal_count": 4,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "Claudon opposed witness's inclusion in communal pasture rights lease",
+      "time_between_quarrel_and_harm": "within 3 or 4 days",
+      "method_alleged": "witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Community crops",
+      "victim_relationship_to_witness": "community",
+      "harm_category": "weather_event",
+      "harm_description": "Two separate hailstorms 9 years before - one damaged wheat, other damaged oats; accused's crops not affected",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "someone in Claudon's household",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft causing selective hail damage",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Sebille's husband",
+      "victim_relationship_to_witness": "witness's husband",
+      "harm_category": "human_death",
+      "harm_description": "Husband died",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "retraite land dispute",
+      "time_between_quarrel_and_harm": "died 9 months ago",
+      "method_alleged": "witchcraft",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Sebille's horse",
+      "victim_relationship_to_witness": "witness's horse",
+      "harm_category": "animal_death",
+      "harm_description": "Young horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "retraite land dispute",
+      "time_between_quarrel_and_harm": "within a month of husband's death",
+      "method_alleged": "witchcraft",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Didier Essenat",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "other",
+      "harm_description": "Horse threw him twice at night; saw animal like wolf or dog; horse refused to move",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "10 years earlier",
+      "method_alleged": "supernatural presence or illusion",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Daughter-in-law's cow",
+      "victim_relationship_to_witness": "daughter-in-law's cow",
+      "harm_category": "animal_injury",
+      "harm_description": "Cow broke its leg when going to drink",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Jennon Pierson (accused's daughter/relative)",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "6 years earlier",
+      "method_alleged": "malefice",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Claudon (son of Colas Claudon)",
+      "victim_relationship_to_witness": "brother of witnesses 18 and 19",
+      "harm_category": "human_death",
+      "harm_description": "Married brother died after 2-3 days illness (or 2 weeks per sister)",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "great quarrel over sharing inheritance from Claudon's uncle",
+      "time_between_quarrel_and_harm": "a year before middle of Lent 1603",
+      "method_alleged": "witchcraft/sortilege",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Colas Claudon's cow",
+      "victim_relationship_to_witness": "father's cow",
+      "harm_category": "animal_death",
+      "harm_description": "Cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "Dispute over sharing six oak trees - accused wanted 1/6 when only 1/16 due",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "witchcraft",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Colas Claudon's son's horse",
+      "victim_relationship_to_witness": "son's horse",
+      "harm_category": "animal_illness",
+      "harm_description": "Horse fell ill with sickness called 'le layant' which made horses as if rabid",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "Son acquired land from accused's brother-in-law",
+      "time_between_quarrel_and_harm": "unclear",
+      "method_alleged": "witchcraft",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Colas Claudon's son Claudon",
+      "victim_relationship_to_witness": "witness's son",
+      "harm_category": "human_death",
+      "harm_description": "Fatal illness - languished long unable to work, then took to bed and died in a week",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "Land acquisition and ongoing hostility",
+      "time_between_quarrel_and_harm": "a year previous Lent",
+      "method_alleged": "witchcraft",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Colas Claudon's cow",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "animal_death",
+      "harm_description": "Cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "Oak tree sharing dispute",
+      "time_between_quarrel_and_harm": "within a day or two",
+      "method_alleged": "witchcraft",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Colas Claudon's crops",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "weather_event",
+      "harm_description": "Hailstorm devastated all land he had sown",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": "land worth 600 francs affected",
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "Retraite buyback of 600 francs worth of land",
+      "time_between_quarrel_and_harm": "next year after retraite",
+      "method_alleged": "witchcraft causing targeted hailstorm",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Nicolas Jean Mengeotte's calf",
+      "victim_relationship_to_witness": "witness's wife",
+      "harm_category": "other",
+      "harm_description": "Calf apparently drowned in river but reappeared in garden next day",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": null,
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "18 years before",
+      "method_alleged": "unexplained",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Community crops",
+      "victim_relationship_to_witness": "community",
+      "harm_category": "weather_event",
+      "harm_description": "Hail 6 and 3 years earlier",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": null,
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "possibly witchcraft",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Nicolas Claudon's crops",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "weather_event",
+      "harm_description": "Hail damaged crops 3 years earlier",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Claudon de Benamenil",
+      "precipitating_quarrel": "retraite dispute",
+      "time_between_quarrel_and_harm": "3 years after threat",
+      "method_alleged": "witchcraft",
+      "witness_number": 11
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "pasture rights lease",
+      "context": "Communal purchase of woodland pasture rights",
+      "category": "agricultural"
+    },
+    {
+      "object": "pigs",
+      "context": "Jean Danel's pigs that died after being put in communal pasture",
+      "category": "agricultural"
+    },
+    {
+      "object": "wheat and oats",
+      "context": "Crops damaged by hailstorms",
+      "category": "agricultural"
+    },
+    {
+      "object": "horse",
+      "context": "Multiple mentions - young horse that died, horses being guarded at night, horse that threw rider",
+      "category": "agricultural"
+    },
+    {
+      "object": "cows",
+      "context": "Multiple cows that died or broke legs",
+      "category": "agricultural"
+    },
+    {
+      "object": "calf",
+      "context": "Calf that allegedly drowned then reappeared",
+      "category": "agricultural"
+    },
+    {
+      "object": "oak trees",
+      "context": "Six oak trees that were subject of inheritance dispute",
+      "category": "agricultural"
+    },
+    {
+      "object": "land worth 600 francs",
+      "context": "Land bought by accused then bought back via retraite",
+      "category": "money"
+    },
+    {
+      "object": "bread and cheese",
+      "context": "Accused took in knapsack when sleeping in fields",
+      "category": "food"
+    },
+    {
+      "object": "knapsack",
+      "context": "Used by accused to carry food to fields",
+      "category": "household"
+    },
+    {
+      "object": "hay",
+      "context": "Accused slept in hay in meadow",
+      "category": "agricultural"
+    },
+    {
+      "object": "bed",
+      "context": "Accused and wife sometimes took bed out to garden",
+      "category": "household"
+    },
+    {
+      "object": "garden",
+      "context": "Where accused slept to guard fruits around St. Remy",
+      "category": "agricultural"
+    },
+    {
+      "object": "beehives",
+      "context": "Accused had bees",
+      "category": "agricultural"
+    },
+    {
+      "object": "club",
+      "context": "Didier Essenat carried little club",
+      "category": "tools"
+    },
+    {
+      "object": "piece of silver (piece d'argent)",
+      "context": "Colas Claudon's son gave to devin/fortune teller",
+      "category": "money"
+    },
+    {
+      "object": "stool",
+      "context": "Accused leaned on stool during confrontations",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Gondrexon",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Benamenil/Beaumesnil",
+      "place_type": "village",
+      "context": "Birthplace of accused"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Court location; also had market"
+    },
+    {
+      "place_name": "Blesmerey/Mesmerey",
+      "place_type": "village",
+      "context": "Location of Noel Purel who named accused; also where witness 7 lived"
+    },
+    {
+      "place_name": "Monsey",
+      "place_type": "village",
+      "context": "Residence of witness Nicolas Connat"
+    },
+    {
+      "place_name": "Xousse",
+      "place_type": "village",
+      "context": "Home of roofer Marsel Recouvreur"
+    },
+    {
+      "place_name": "Dommepvre",
+      "place_type": "village",
+      "context": "Home of witness Didier Essenat"
+    },
+    {
+      "place_name": "Ainville",
+      "place_type": "village",
+      "context": "Where accused's brother lived; accused hid there for two weeks"
+    },
+    {
+      "place_name": "Leintrey",
+      "place_type": "village",
+      "context": "Location associated with Jennon Pierson"
+    },
+    {
+      "place_name": "Xenaguesange",
+      "place_type": "village",
+      "context": "Home of Colas Jean Claudon, brother to wife of Jean de Beaumesnil"
+    },
+    {
+      "place_name": "Luneville",
+      "place_type": "village",
+      "context": "Where procureur fiscal wrote from"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appeal court)"
+    },
+    {
+      "place_name": "les champs du pre jourdain",
+      "place_type": "field",
+      "context": "Fields that escaped hail damage"
+    },
+    {
+      "place_name": "la Malle Massue",
+      "place_type": "field",
+      "context": "Place where Didier Essenat's horse threw him, near ban bois"
+    },
+    {
+      "place_name": "ban bois",
+      "place_type": "forest",
+      "context": "Wooded area near where nocturnal incident occurred"
+    },
+    {
+      "place_name": "banniere",
+      "place_type": "field",
+      "context": "Area where animals were taken to pasture"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Where calf allegedly drowned"
+    },
+    {
+      "place_name": "woodland",
+      "place_type": "forest",
+      "context": "Where communal pasture rights were purchased"
+    },
+    {
+      "place_name": "meadow",
+      "place_type": "field",
+      "context": "Where accused slept in hay"
+    },
+    {
+      "place_name": "finage",
+      "place_type": "other",
+      "context": "Village territory/boundary that accused fled from"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [
+      "Multiple hailstorms mentioned - 9 years before (two separate storms, one affecting wheat, one oats)",
+      "Hailstorm 6 years before",
+      "Hailstorm 3 years before",
+      "Hailstorm in spring of previous year (1602)"
+    ],
+    "animal_predation": [
+      "Wolf or dog-like animal seen by Didier Essenat at night (though companion said it was nothing)",
+      "Nicolas Connat testified accused thought he saw wolf while guarding horses 14 years before"
+    ],
+    "economic_hardship_indicators": [
+      "Inhabitants sought reduction in rents after hailstorm damage",
+      "Multiple land disputes involving retraite (suggests economic pressure on land)",
+      "High value placed on animals and crops (600 francs for land)",
+      "Accused feared prisons 'tant pour les froidures' (cold) suggesting harsh conditions"
+    ],
+    "religious_calendar_references": [
+      "St. Remy (September 1) - when pasture rights purchased, when accused guarded fruits",
+      "St. Jean (June 24) - when Noel Purel made accusation",
+      "Lent - timing of brother's death",
+      "Easter - timing of tree dispute",
+      "Christmas - accused returned after Christmas",
+      "Feasts/feast days - accused defended himself saying he kept feasts better than others",
+      "Sundays - accused mentioned others going to see crops on Sundays"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur fiscal of county of Blamont",
+        "role": "prosecutor_pg",
+        "location": "Blamont"
+      },
+      {
+        "name": "procureur d'office",
+        "role": "prosecutor_pg",
+        "location": "Blamont"
+      },
+      {
+        "name": "prévôt",
+        "role": "prevot",
+        "location": "Blamont"
+      },
+      {
+        "name": "Claudon Jean Zabey",
+        "role": "mayor",
+        "location": "Gondrexon"
+      },
+      {
+        "name": "echevins (multiple)",
+        "role": "other",
+        "location": "Gondrexon"
+      },
+      {
+        "name": "clerc juré",
+        "role": "clerc_jure",
+        "location": "Gondrexon"
+      },
+      {
+        "name": "sergent from Blamont",
+        "role": "other",
+        "location": "Blamont"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": "Accused feared prisons due to cold ('les froidures') and his age ('du temps de son aage')",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 12,
+    "hearsay_testimony_count": 11,
+    "hearsay_chains": [
+      {
+        "reporter": "Thoussainct Bastien (witness 8)",
+        "source": "late Claudon Colas Claudon",
+        "content": "Said 5-6 years earlier that there were witches in accused's house and family and he feared him greatly"
+      },
+      {
+        "reporter": "Claudatte (witness 6)",
+        "source": "brother Jean Bastien",
+        "content": "Brother confronted accused about why his crops were spared from hail"
+      },
+      {
+        "reporter": "Jean Bastien (witness 21)",
+        "source": "Jean Mengeotte of Gondrexon (deceased)",
+        "content": "Told about hail affair and accused's response about keeping feasts"
+      },
+      {
+        "reporter": "Claudon Jean Mengeotte (witness 22)",
+        "source": "heard about episode",
+        "content": "Heard about episode with horse of Esselat de Dommepvre"
+      },
+      {
+        "reporter": "Claudon Jean Mengeotte (witness 22)",
+        "source": "heard",
+        "content": "Heard suspicions of Claudon Colas Claudon"
+      },
+      {
+        "reporter": "Elizabeth femme Nicolas (witness 14)",
+        "source": "daughter-in-law",
+        "content": "Daughter-in-law suspected Jennon Pierson caused cow's broken leg"
+      },
+      {
+        "reporter": "Jehennon femme Colas Danal (witness 15)",
+        "source": "Jennon Pierson",
+        "content": "Jennon called accused one of the greatest witches"
+      },
+      {
+        "reporter": "Marsel Recouvreur (witness 17)",
+        "source": "heard since Noel's execution",
+        "content": "Heard some bad reputation but not much until after execution"
+      },
+      {
+        "reporter": "Marsel Recouvreur (witness 17)",
+        "source": "heard",
+        "content": "Heard that villagers said accused didn't testify as much as he'd said beforehand"
+      },
+      {
+        "reporter": "Nicolas Grand Demenge (witness 12)",
+        "source": "accused's son",
+        "content": "Son told him accused was angry about daughter-in-law's pregnancy"
+      },
+      {
+        "reporter": "Nicolas Grand Demenge (witness 12)",
+        "source": "others",
+        "content": "Only knew about hail from what others had said, as he was shepherd not on scene"
+      },
+      {
+        "reporter": "Colas Claudon (witness 23)",
+        "source": "unknown devin/fortune teller",
+        "content": "Devin told his son someone in Gondrexon wished him ill, would be discovered soon, and something bad would happen to him or his wife"
+      },
+      {
+        "reporter": "Didier Essenat (witness 13)",
+        "source": "Jean Petit Jean (now dead)",
+        "content": "Companion identified the man by fallen tree as Claudon de Benamesnil guarding his oats"
+      }
+    ],
+    "oldest_accusation_years": 18,
+    "corroboration_groups": [
+      [2, 3, 5, 6, 8, 9, 10, 11, 12, 15, 20, 22],
+      [18, 19, 23],
+      [1, 3]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Unable to cry - judges suggested this was sign of witchcraft",
+      "Accused explained inability to cry as being troubled and distraught",
+      "Appeared to cry but produced no tears while kneeling and leaning on stool",
+      "Fearful - fled village twice to avoid arrest",
+      "Doggedly insisted on innocence even under torture"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Said he would not consider Jean Dunal an honest man if he charged him with killing pigs, but if he didn't charge him, he'd consider him honest. Said all witnesses who charged him with witchcraft did him great wrong"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Noel Purel (petit Noel)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "From Blesmerey; named Claudon before his execution; accused himself said Noel accused him out of hatred for testifying against him"
+    },
+    {
+      "name": "Jennon Pierson",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter or relative",
+      "relationship_to_witness": "sister-in-law to witness 14",
+      "context": "From Leintrey; strongly suspected as witch by people of Leintrey; arrested for witchcraft then released; called accused one of the greatest witches; witnesses believed they knew each other as witches"
+    },
+    {
+      "name": "Jean de Beaumesnil",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": null,
+      "context": "Made same response as father about keeping feast days when reproached about crops being spared"
+    },
+    {
+      "name": "Claudon Colas Claudon (deceased)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor with land disputes",
+      "relationship_to_witness": "husband of witness 5",
+      "context": "Died 9 months before; had said 5-6 years before that there were witches in accused's house and family and he feared accused greatly"
+    },
+    {
+      "name": "Claudon (son of Colas Claudon, deceased)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor in property dispute",
+      "relationship_to_witness": "son of witness 23, brother of witnesses 18 and 19",
+      "context": "Died after 2-3 days (or 2 weeks) illness following inheritance quarrel; devin had warned him someone wished him ill"
+    },
+    {
+      "name": "Jean Petit Jean (deceased)",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "companion of witness 13",
+      "context": "Was with Didier Essenat during nocturnal incident; identified accused by tree"
+    },
+    {
+      "name": "Jennon Adam (widow)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "employer of witness 13",
+      "context": "Didier Essenat was serving her when nocturnal incident occurred"
+    },
+    {
+      "name": "Jean Mengeotte of Gondrexon (deceased)",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Told Jean Bastien about hail affair and accused's response"
+    },
+    {
+      "name": "Colas Jean Claudon of Xenaguesange",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law (brother to wife of Jean de Beaumesnil)",
+      "relationship_to_witness": null,
+      "context": "Sold land to Colas Claudon's son, which angered accused"
+    },
+    {
+      "name": "Unknown devin/fortune teller",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Stayed with Colas Claudon's son; warned someone in Gondrexon wished him ill and would be discovered soon"
+    },
+    {
+      "name": "Accused's wife",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "spouse",
+      "relationship_to_witness": null,
+      "context": "Sometimes took bed out to garden with accused; mentioned in context of sleeping arrangements"
+    },
+    {
+      "name": "Accused's daughter-in-law",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter-in-law",
+      "relationship_to_witness": null,
+      "context": "Gave birth to son; accused allegedly angry or sleeping away during this time"
+    },
+    {
+      "name": "Accused's grandson",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "grandson",
+      "relationship_to_witness": null,
+      "context": "Born to daughter-in-law 2.5 years before; accused said he welcomed the child"
+    },
+    {
+      "name": "Accused's brother",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "relationship_to_witness": null,
+      "context": "Lived in Ainville; accused stayed with him for two weeks while hiding"
+    },
+    {
+      "name": "Accused's sister",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "relationship_to_witness": "sister of witness 23 (Colas Claudon)",
+      "context": "Sold land worth 600 francs to accused; Colas Claudon later used retraite to buy it back"
+    },
+    {
+      "name": "Jean Bastien (brother of witness 6)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "brother of witness 6",
+      "context": "Confronted accused publicly about why his crops were spared from hail"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "This is a remarkably detailed trial record with extensive witness testimony. The case centers on property disputes (especially retraite/land buyback), selective hail damage to crops, and a prior accusation by an executed witch. Key features: (1) No prior reputation for witchcraft before Noel Purel's accusation; (2) Most suspicions arose retroactively after naming; (3) Evidence largely circumstantial based on crop protection patterns and property disputes; (4) Accused maintained innocence throughout, even under substantial torture; (5) Released due to insufficient evidence. This is one of the survival cases mentioned in the project documentation. The trial shows importance of community consensus, quality of evidence, and possibly defendant's social standing (laboureur, defended reputation, owned significant property).",
+    "pdf_pages": 7
+  }
+}

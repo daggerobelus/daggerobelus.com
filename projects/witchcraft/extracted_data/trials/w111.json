@@ -1,0 +1,1411 @@
+{
+  "trial_id": "w111",
+  "archive_ref": "B 7122",
+  "location": "Mesnil les Gircourt",
+  "court": "Prevot of Mirecourt",
+  "dates": {
+    "start": "1619-06-04",
+    "end": "1619-08-17",
+    "duration_days": 74
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Claudatte Moinel",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "Vaulbexey",
+      "residence": "Mesnil les Gircourt",
+      "marital_status": "married",
+      "spouse_name": "Nicolas du Val",
+      "parents": {
+        "father": "Colas Jean Moinel"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claude Jean Potier",
+      "gender": "male",
+      "age": 30,
+      "occupation": "laboureur",
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to plough land for Claudatte",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean (brother)",
+            "target_relationship": "brother of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "some 15 days"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolas Cuguin",
+      "gender": "male",
+      "age": 30,
+      "occupation": "masson",
+      "location": "Vieville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to allow Claudatte's daughter to be godmother at baptism",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "baby daughter",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "at birth"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Anne veuve Claudon l'Huillier",
+      "gender": "female",
+      "age": 50,
+      "occupation": "widow",
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband refused to do ploughing for Claudatte",
+        "threat_received": false,
+        "threat_quote": "que l'on rechercheoit les remedes bien loing, et qu'ilz estoient peult estre bien pres",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon l'Huillier (husband)",
+            "target_relationship": "husband of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "after 2 year illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge Simon",
+      "gender": "male",
+      "age": 32,
+      "occupation": "paistre des bestes blanches",
+      "location": "Girecourt et du Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "child aged 18 months",
+            "target_relationship": "son of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "during pregnancy"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Demenge Beurard",
+      "gender": "male",
+      "age": 42,
+      "occupation": "bouchier",
+      "location": "Girecourt",
+      "relationship_to_accused": "had contract with accused's husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute about carting wood - Duval spread rumor he had not delivered",
+        "threat_received": true,
+        "threat_quote": "Said he had fine horses, but did not add 'que Dieu les veuille garder de mal' as was customary",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "horse of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "some days after quarrel, 8 days illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Nicolas l'Huillier",
+      "gender": "male",
+      "age": 46,
+      "occupation": null,
+      "location": "Mesnil les Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "qu'il n'estoit guieres blessé de ce qu'ainsy sadite femme estoit malade, et qu'il auroit moyen de faire faire ses ouvrages sans elle",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife",
+            "target_relationship": "wife of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "since jour des rois"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jannon femme Demenge Simon",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "du Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "qu'elle gardoit un boucquet a son marit",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "child",
+            "target_relationship": "child of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Ysabel veuve Demenge Jean Trop",
+      "gender": "female",
+      "age": 60,
+      "occupation": "widow",
+      "location": "du Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudatte expressed hatred for Claudon l'Huillier at escraigne",
+        "threat_received": false,
+        "threat_quote": "qu'il avoit des petits diables d'enfans, de gros nez grandes bouches et qu'il cherchoit le medecin bien loing et qu'il estoit bien pres",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Anne femme Claude Aulbry",
+      "gender": "female",
+      "age": 25,
+      "occupation": null,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Trop",
+      "gender": "male",
+      "age": 32,
+      "occupation": "rouyer",
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked if she was drunk when he found her lying face down on path in woods",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Idatte femme Claude Didier Aulbry",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "du Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Revenge - someone said 'Le diable soit qui te ramene' when Claudatte released from prison, she might have thought it was witness",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "child",
+            "target_relationship": "child of witness",
+            "attributed_to": "Claudatte Moinel (sister Jeannatte gave pears)",
+            "time_after_quarrel": "immediately after eating pears"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jean Febuatte",
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "location": "Vieville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over seating in church",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "wife of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "after more than a year illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jeannon femme Jean Barnardin",
+      "gender": "female",
+      "age": 25,
+      "occupation": null,
+      "location": "du Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudatte wanted to cause displeasure without reason",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self (witness)",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "recovered when Claudatte offered her bread"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Barbe femme Jean Robert",
+      "gender": "female",
+      "age": 38,
+      "occupation": null,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Potier",
+            "target_relationship": "community member",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Martinotte femme Claude Potier",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Potier",
+            "target_relationship": "family member",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jean Robert",
+      "gender": "male",
+      "age": 30,
+      "occupation": "laboureur",
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Potier",
+            "target_relationship": "community member",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Demenge Aulbry",
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "location": "Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to let her participate in escraigne because of suspicions",
+        "threat_received": true,
+        "threat_quote": "qu'on ne les y porteroit guieres (referring to his children)",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "small son aged 12 months",
+            "target_relationship": "son of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "two weeks later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jeannette fille Jean Febuatte",
+      "gender": "female",
+      "age": 25,
+      "occupation": null,
+      "location": "Vieville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Father refused to allow Claudatte in escraigne; dispute over church seating",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother",
+            "target_relationship": "mother of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "after being stepped on in church"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "father's horse",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": "after escraigne refusal, 9 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Alix soeur de la precedente",
+      "gender": "female",
+      "age": 27,
+      "occupation": null,
+      "location": "Vieville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Church seating dispute",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother",
+            "target_relationship": "mother of witness",
+            "attributed_to": "Claudatte Moinel",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1619-06-04",
+      "event": "other",
+      "subject": "Claudatte Moinel and sister Jeanotte",
+      "details": "PG du bailliage des Vosges informed of strong suspicions. New charges since first detention. People very upset. Receveur at Mirecourt ordered to take information secretly."
+    },
+    {
+      "date": "1619-06-11",
+      "event": "informations_preparatoires",
+      "subject": "Claudatte Moinel",
+      "details": "19 witnesses deposed against Claudatte"
+    },
+    {
+      "date": "1619-06-12",
+      "event": "other",
+      "subject": "Claudatte Moinel",
+      "details": "Order for arrest of Claudatte, carried out same day"
+    },
+    {
+      "date": "1619-06-18",
+      "event": "informations_preparatoires",
+      "subject": "Claudatte Moinel",
+      "details": "Additional witnesses (14-19) deposed"
+    },
+    {
+      "date": "1619-06-21",
+      "event": "interrogation",
+      "subject": "Claudatte Moinel",
+      "details": "First interrogation. Said she was 70 years old (later changed to about 50). Denied all charges."
+    },
+    {
+      "date": "1619-07-04",
+      "event": "confrontation",
+      "subject": "Claudatte Moinel",
+      "details": "Confrontations with witnesses. Claudatte accused all witnesses of being thieves and other crimes. Maintained innocence."
+    },
+    {
+      "date": "1619-07-09",
+      "event": "torture_requested",
+      "subject": "Claudatte Moinel",
+      "details": "PG des Vosges requests question ordinaire et extraordinaire, describing her reproaches as 'peu considerables et frivols'"
+    },
+    {
+      "date": "1619-07-16",
+      "event": "torture_approved",
+      "subject": "Claudatte Moinel",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1619-07-24",
+      "event": "interrogation",
+      "subject": "Claudatte Moinel",
+      "details": "Changed age to about 50. Discussed prior imprisonment and accusation by Ysabel Guerin 9 years before. Denied all charges."
+    },
+    {
+      "date": "1619-08-05",
+      "event": "torture",
+      "subject": "Claudatte Moinel",
+      "details": "Given thumbscrews and racked, shown the strappado, but made no admissions at all"
+    },
+    {
+      "date": "1619-08-17",
+      "event": "sentence",
+      "subject": "Claudatte Moinel",
+      "details": "Order from prevot of Mirecourt that she be renvoyée jusqu'a rappel (released pending recall)"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack", "strappado (shown but possibly not applied)"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Ysabel Guerin",
+      "accuser_location": "Savigny",
+      "context": "Accused Claudatte and her sister 9 years before execution. When Claudatte took her hand at the stake to see if she would maintain accusation, Ysabel turned her head away and refused to reply.",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Anne veuve Claudon l'Huillier",
+      "french": "que l'on rechercheoit les remedes bien loing, et qu'ilz estoient peult estre bien pres",
+      "english": "that they were seeking remedies far away, when they were perhaps very near",
+      "context": "Claudatte's ominous statement during husband's illness suggesting she was the source"
+    },
+    {
+      "speaker": "Demenge Beurard",
+      "french": "que Dieu les veuille garder de mal",
+      "english": "may God keep them from harm",
+      "context": "Customary phrase Claudatte omitted when complimenting his horses, which then died"
+    },
+    {
+      "speaker": "Nicolas l'Huillier (via Claudatte)",
+      "french": "qu'il n'estoit guieres blessé de ce qu'ainsy sadite femme estoit malade, et qu'il auroit moyen de faire faire ses ouvrages sans elle",
+      "english": "that he was hardly troubled that his wife was sick, and that he would have means to have his work done without her",
+      "context": "Threatening statement attributed to Claudatte about sick wife"
+    },
+    {
+      "speaker": "Jannon femme Demenge Simon",
+      "french": "qu'elle gardoit un boucquet a son marit",
+      "english": "that she was keeping a 'gift' for her husband",
+      "context": "Veiled threat about illness to come"
+    },
+    {
+      "speaker": "Ysabel veuve Demenge Jean Trop (quoting Mengeotte)",
+      "french": "qu'il avoit des petits diables d'enfans, de gros nez grandes bouches et qu'il cherchoit le medecin bien loing et qu'il estoit bien pres",
+      "english": "that he had little devil children with big noses and big mouths, and that he sought the doctor far away when he was very near",
+      "context": "Claudatte's hostile imprecations against Claudon l'Huillier at escraigne"
+    },
+    {
+      "speaker": "Mengeotte femme Bastien de la Ruelle",
+      "french": "qu'elle estoit vrayement sorciere",
+      "english": "that she was truly a witch",
+      "context": "Public accusation. Remarkably, Claudatte did not take offense but instead cherished Mengeotte more afterwards"
+    },
+    {
+      "speaker": "Demenge Aulbry (quoting Claudatte)",
+      "french": "mais qu'on ne les y porteroit guieres",
+      "english": "but they would not be carried there long",
+      "context": "Threat about his children after he excluded her from escraigne"
+    },
+    {
+      "speaker": "Claudatte Moinel",
+      "french": "O le mechant homme, larron, et un couppeur de jambe de vache",
+      "english": "O the wicked man, thief, and a cow-leg cutter",
+      "context": "Claudatte's response about Nicolas Cuguin during interrogation"
+    },
+    {
+      "speaker": "Claudatte Moinel",
+      "french": "qu'elle radresse il fault avoir patience",
+      "english": "for redress one must have patience",
+      "context": "Explaining why she didn't take legal action when called a witch"
+    },
+    {
+      "speaker": "Claudatte Moinel",
+      "french": "que la plus grande partie luy tient mais que quelques gens de bien ne l'y tiennent pas",
+      "english": "that the greater part hold her for one, but some good people do not",
+      "context": "Admitting most people consider her a witch"
+    },
+    {
+      "speaker": "girl at Mirecourt",
+      "french": "Le diable soit qui te ramene",
+      "english": "May the devil take whoever brings you back",
+      "context": "Said when Claudatte was released from prison, possibly triggering revenge"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claudatte Moinel",
+      "person2": "Nicolas du Val",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme Nicolas du Val",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte Moinel",
+      "person2": "Jeanotte femme Bastien Laurent dit Balozel",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her sister Jeanotte",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte Moinel",
+      "person2": "Colas Jean Moinel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Claudatte Moinel fille Colas Jean Moinel",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Jean Potier",
+      "person2": "Jean Potier",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his brother Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Cuguin",
+      "person2": "Jannotte",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "asked him to allow his baby daughter to be held by her daughter Jannotte at baptism",
+      "inferred": false
+    },
+    {
+      "person1": "Anne veuve Claudon l'Huillier",
+      "person2": "Claudon l'Huillier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Anne veuve Claudon l'Huillier",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon femme Demenge Simon",
+      "person2": "Demenge Simon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jannon femme Demenge Simon",
+      "inferred": false
+    },
+    {
+      "person1": "Ysabel veuve Demenge Jean Trop",
+      "person2": "Demenge Jean Trop",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Ysabel veuve Demenge Jean Trop",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Claude Aulbry",
+      "person2": "Claude Aulbry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Claude Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Idatte femme Claude Didier Aulbry",
+      "person2": "Claude Didier Aulbry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Idatte femme Claude Didier Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannon femme Jean Barnardin",
+      "person2": "Jean Barnardin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jeannon femme Jean Barnardin",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Robert",
+      "person2": "Jean Robert",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbe femme Jean Robert",
+      "inferred": false
+    },
+    {
+      "person1": "Martinotte femme Claude Potier",
+      "person2": "Claude Potier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Martinotte femme Claude Potier",
+      "inferred": false
+    },
+    {
+      "person1": "Jeannette fille Jean Febuatte",
+      "person2": "Jean Febuatte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jeannette fille Jean Febuatte",
+      "inferred": false
+    },
+    {
+      "person1": "Alix soeur de la precedente",
+      "person2": "Jeannette fille Jean Febuatte",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Alix soeur de la precedente",
+      "inferred": false
+    },
+    {
+      "person1": "Alix soeur de la precedente",
+      "person2": "Jean Febuatte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "sister of Jeannette fille Jean Febuatte",
+      "inferred": true
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Multiple disputes centered on ploughing services and labor contracts. Demenge Beurard had contracted with Nicolas du Val (Claudatte's husband) for ploughing and carting wood. Claudatte asked several people to plough for her but was refused."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Potier (brother of witness 1)",
+      "victim_relationship_to_witness": "brother",
+      "harm_category": "human_death",
+      "harm_description": "Very ill, believed he was sure to die, troubled in mind and body",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Refused to plough land for Claudatte",
+      "time_between_quarrel_and_harm": "some 15 days",
+      "method_alleged": "anger/witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "baby daughter of Nicolas Cuguin",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "deaf-mute",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Refused to allow Claudatte's daughter to be godmother at baptism because of her reputation",
+      "time_between_quarrel_and_harm": "at birth",
+      "method_alleged": "witchcraft",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Claudon l'Huillier",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "Illness lasting two years, died last dimanche gras (a year ago)",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Refused to do ploughing for Claudatte",
+      "time_between_quarrel_and_harm": "two year illness",
+      "method_alleged": "witchcraft - remedies far but near",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "child of Demenge Simon",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "18 months old, 'tout sec', could not stand, born 'presque sans forme de creature'",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "None specified",
+      "time_between_quarrel_and_harm": "during pregnancy",
+      "method_alleged": "gave wife soups and small cakes during pregnancy",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "horse of Demenge Beurard",
+      "victim_relationship_to_witness": "property",
+      "harm_category": "animal_death",
+      "harm_description": "Sickened and died in 8 days",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Dispute about carting wood - Nicolas du Val spread rumor that Beurard had not delivered",
+      "time_between_quarrel_and_harm": "some days after she helped him with cart, after he had delivered 3 loads",
+      "method_alleged": "omitted customary blessing 'que Dieu les veuille garder de mal'",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "wife of Nicolas l'Huillier",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "Great illness of eyes and head since jour des rois; surgeon said she was poisoned",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "None specified, but Claudatte said they suspected her without voicing it",
+      "time_between_quarrel_and_harm": "since jour des rois",
+      "method_alleged": "poisoning/witchcraft",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "child of Jannon femme Demenge Simon",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Illness (unspecified)",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Claudatte said she kept a 'boucquet' for her husband",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "child of Idatte femme Claude Didier Aulbry",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Became ill immediately and remained so for 6 months",
+      "attributed_to": "Jeannatte (Claudatte's sister)",
+      "precipitating_quarrel": "Revenge - someone said 'Le diable soit qui te ramene' when released from prison",
+      "time_between_quarrel_and_harm": "immediately after eating pears",
+      "method_alleged": "gave poisoned pears",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "wife of Jean Febuatte",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "Fell ill and died after more than a year; 'sec et percluée de ses membres'",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Dispute over seating in church",
+      "time_between_quarrel_and_harm": "illness began immediately after Claudatte stood on her feet in church",
+      "method_alleged": "stepped on her feet in church",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Jeannon femme Jean Barnardin (self)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness of more than a year, recovered when Claudatte gave her bread",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Claudatte wanted to cause her displeasure without reason",
+      "time_between_quarrel_and_harm": "two years before last Easter",
+      "method_alleged": "witchcraft; healed by counter-magic (bread)",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "small son of Demenge Aulbry",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Aged 12 months, died hardly having been ill",
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Refused her request to participate in escraigne because of suspicions",
+      "time_between_quarrel_and_harm": "two weeks later",
+      "method_alleged": "threat - said children wouldn't be carried there long",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "horse of Jean Febuatte",
+      "victim_relationship_to_witness": "father's property",
+      "harm_category": "animal_death",
+      "harm_description": "Horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudatte Moinel",
+      "precipitating_quarrel": "Father refused to allow her in escraigne, at which she was angry",
+      "time_between_quarrel_and_harm": "some time after (9 years earlier)",
+      "method_alleged": "hatred/witchcraft",
+      "witness_number": 18
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "soups",
+      "context": "Claudatte gave soups to wife of Demenge Simon during pregnancy",
+      "category": "food"
+    },
+    {
+      "object": "small cakes",
+      "context": "Claudatte gave small cakes to wife of Demenge Simon during pregnancy",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "Claudatte offered bread to Jeannon femme Jean Barnardin, which healed her; used in counter-magic ritual",
+      "category": "food"
+    },
+    {
+      "object": "salt",
+      "context": "Obtained from Claudatte's house for counter-magic ritual to heal child",
+      "category": "food"
+    },
+    {
+      "object": "ashes",
+      "context": "Obtained from Claudatte's house for counter-magic ritual to heal child",
+      "category": "household"
+    },
+    {
+      "object": "pears from wild pear tree",
+      "context": "Jeannatte gave pears to child which caused illness",
+      "category": "food"
+    },
+    {
+      "object": "cart",
+      "context": "Demenge Beurard's cart for hauling wood",
+      "category": "agricultural"
+    },
+    {
+      "object": "colet de limont",
+      "context": "Horse collar - Claudatte mentioned Beurard's horse lacked one",
+      "category": "agricultural"
+    },
+    {
+      "object": "horses",
+      "context": "Multiple references to horses dying or being complimented",
+      "category": "agricultural"
+    },
+    {
+      "object": "wood",
+      "context": "Carting wood as part of labor contract",
+      "category": "agricultural"
+    },
+    {
+      "object": "sheaves for tithe",
+      "context": "Claudatte accused Jean Robert of stealing these",
+      "category": "agricultural"
+    },
+    {
+      "object": "garderobe",
+      "context": "Claudatte accused Alix of stealing garderobe from Nicolas Belot's wife",
+      "category": "clothing"
+    },
+    {
+      "object": "couvrechef",
+      "context": "Claudatte accused Alix of stealing this from Claude Amatte's house",
+      "category": "clothing"
+    },
+    {
+      "object": "ceincture",
+      "context": "Belt - Claudatte accused Jean Trop of stealing curé's belt",
+      "category": "clothing"
+    },
+    {
+      "object": "scarf",
+      "context": "Claudatte accused Nicolas Cugnin of stealing a scarf",
+      "category": "clothing"
+    },
+    {
+      "object": "pot of butter",
+      "context": "Claudatte sold butter at Mirecourt that proved to contain more 'ordure' than butter",
+      "category": "food"
+    },
+    {
+      "object": "wheat, oats, barley",
+      "context": "Claudatte accused Demenge Simon of stealing these grains",
+      "category": "agricultural"
+    },
+    {
+      "object": "stakes",
+      "context": "Claudatte accused Nicolas Cugnin of stealing stakes",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Mesnil les Gircourt",
+      "place_type": "village",
+      "context": "Residence of Claudatte and many witnesses"
+    },
+    {
+      "place_name": "Girecourt",
+      "place_type": "village",
+      "context": "Nearby village where many witnesses lived"
+    },
+    {
+      "place_name": "Vieville",
+      "place_type": "village",
+      "context": "Near Gircourt, where Claudatte's sister Jeanotte lived with Bastien Laurent dit Balozel"
+    },
+    {
+      "place_name": "Vaulbexey",
+      "place_type": "village",
+      "context": "Claudatte's place of origin, where her father Colas Jean Moinel was from"
+    },
+    {
+      "place_name": "Mirecourt",
+      "place_type": "village",
+      "context": "Location of court/prison; where Claudatte had been imprisoned before; where she sold butter"
+    },
+    {
+      "place_name": "Avillers",
+      "place_type": "village",
+      "context": "Where Jean Potier was returning from when he met Claudatte; location of mill with surgeon; where tithe sheaves were allegedly stolen"
+    },
+    {
+      "place_name": "Savigny",
+      "place_type": "village",
+      "context": "Where Ysabel Guerin was executed 10 years earlier, having accused Claudatte"
+    },
+    {
+      "place_name": "Bouzemont",
+      "place_type": "market",
+      "context": "Fair location; Jean Trop returning from fair when he saw Claudatte lying in woods"
+    },
+    {
+      "place_name": "Goherey",
+      "place_type": "church",
+      "context": "Pilgrimage destination for healing sick child"
+    },
+    {
+      "place_name": "Charmes",
+      "place_type": "village",
+      "context": "Where Bouzeval was buried in consecrated ground"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "Location of seating dispute that allegedly led to illness and death of Jean Febuatte's wife"
+    },
+    {
+      "place_name": "woods/forest path",
+      "place_type": "forest",
+      "context": "Where Jean Trop found Claudatte lying face down"
+    },
+    {
+      "place_name": "mill of Avillers",
+      "place_type": "other",
+      "context": "Where surgeon was consulted about wife's illness"
+    },
+    {
+      "place_name": "behind her house",
+      "place_type": "house",
+      "context": "Where Claudatte was seen in strange position believed to be sabbat behavior"
+    },
+    {
+      "place_name": "fumier in front of house",
+      "place_type": "other",
+      "context": "Where escraigne was held; manure pile"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Disputes over ploughing services suggest labor scarcity or economic tension",
+      "Claudatte's butter adulterated with 'ordure' suggests poverty or desperation"
+    ],
+    "religious_calendar_references": [
+      "dimanche gras (Sunday before Lent)",
+      "jour des rois (Epiphany)",
+      "Brandons (first Sunday of Lent)",
+      "Whitsun (Pentecost)",
+      "Easter"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "PG du bailliage des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "receveur at Mirecourt",
+        "role": "other",
+        "location": "Mirecourt"
+      },
+      {
+        "name": "prevot of Mirecourt",
+        "role": "prevot",
+        "location": "Mirecourt"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": true,
+    "redress_outcome": "Would have taken witnesses to court for calling her witch, but said she had no witnesses. Also said 'qu'elle radresse il fault avoir patience' (for redress one must have patience)",
+    "imprisonment_conditions": "Previously imprisoned at Mirecourt about 9 years earlier; subjected to question (torture) at that time",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 19,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Claude Jean Potier",
+        "source": "brother Jean",
+        "content": "Jean told him about meeting Claudatte and refusing to plough, believed she gave him illness"
+      },
+      {
+        "reporter": "Ysabel veuve Demenge Jean Trop",
+        "source": "Mengeotte femme Bastien de la Ruelle",
+        "content": "Heard Mengeotte tell Claudatte she was a witch and had killed le Gros Claudon and Jean Potier"
+      },
+      {
+        "reporter": "Jeannette and Alix filles Jean Febuatte",
+        "source": "neighbors",
+        "content": "Neighbors attributed death of horse to Claudatte's hatred"
+      }
+    ],
+    "oldest_accusation_years": 10,
+    "corroboration_groups": [
+      [1, 14, 15, 16],
+      [12, 18, 19],
+      [4, 7],
+      [3, 8, 9]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Defiant - accused all witnesses of being thieves",
+      "Changed her stated age from 70 to about 50",
+      "Philosophical about being called witch - 'for redress one must have patience'",
+      "Remarkably resilient under torture - made no admissions"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Called Claude Jean Potier a thief and 'de race de sorcier', said his mother's uncle Bouzeval had been burned (denied by witness)"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Called Nicolas Cuguin 'O le mechant homme, larron, et un couppeur de jambe de vache'; said he and wife stole scarf and stakes; 'de race de sorcier'"
+      },
+      {
+        "witness_number": 3,
+        "objection": "Said Anne veuve Claudon l'Huillier had stolen wood with her husband; was present at Mirecourt when pot of butter she sold was broken and proved to contain more 'ordure' than butter"
+      },
+      {
+        "witness_number": 5,
+        "objection": "Called Demenge Beurard 'un larron, un faulx dismeur et un arracheur de bornes' (thief, false tither, boundary marker puller)"
+      },
+      {
+        "witness_number": 4,
+        "objection": "Said Demenge Simon had stolen wheat, oats and barley"
+      },
+      {
+        "witness_number": 6,
+        "objection": "Said Nicolas l'Huillier helped break door of Jean de Rapey's wife's house, had stolen wood, was 'de race de sorcier'"
+      },
+      {
+        "witness_number": 7,
+        "objection": "Called Jannon femme Demenge Simon 'une sorciere et une putain'"
+      },
+      {
+        "witness_number": 10,
+        "objection": "Called Jean Trop a thief who had stolen 'ceincture' of the curé of Girecourt"
+      },
+      {
+        "witness_number": 12,
+        "objection": "Called Jean Febuotte a 'faulx dismeur' (false tither)"
+      },
+      {
+        "witness_number": 16,
+        "objection": "Accused Jean Robert of having stolen sheaves for tithe at Avillers"
+      },
+      {
+        "witness_number": 17,
+        "objection": "Called Demenge Aulbry a thief"
+      },
+      {
+        "witness_number": 18,
+        "objection": "Said Alix fille Jean Febuotte had stolen garderobe of Nicolas Belot's wife and a couvrechef from Claude Amatte's house; called her thief"
+      },
+      {
+        "witness_number": 19,
+        "objection": "Called Jannotte fille Jean Febuotte a thief"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jeanotte femme Bastien Laurent dit Balozel",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "context": "Also accused of witchcraft, subject of same investigation. General reputation as witch."
+    },
+    {
+      "name": "Jean Potier",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "brother of witness 1",
+      "context": "Died believing Claudatte bewitched him after he refused to plough for her. Troubled in mind and body."
+    },
+    {
+      "name": "Claudon l'Huillier",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "husband of witness 3",
+      "context": "Died after 2-year illness, believed caused by Claudatte. Claudatte expressed hatred for him at escraigne."
+    },
+    {
+      "name": "Jannotte (daughter of Claudatte)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Was to be godmother to Nicolas Cuguin's child but was refused because of reputation"
+    },
+    {
+      "name": "la Bourguignotte",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "antagonist",
+      "context": "Called Claudatte a witch, cried out 'Va te faire donner la question' after quarrel"
+    },
+    {
+      "name": "Mengeotte la Ruelle (femme Bastien de la Ruelle)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "accuser",
+      "context": "Called Claudatte witch, said she had killed le Gros Claudon and Jean Potier. Remarkably, Claudatte did not take offense and cherished her more afterwards."
+    },
+    {
+      "name": "Ysabel Guerin",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accuser",
+      "context": "Burned at Savigny 9 or 10 years earlier. Had accused Claudatte and her sister. When going to stake, Claudatte took her hand to see if she would maintain accusation, but Ysabel turned her head away and refused to reply."
+    },
+    {
+      "name": "le Gros Claudon",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "alleged victim",
+      "context": "Mengeotte accused Claudatte of killing him"
+    },
+    {
+      "name": "la Chevriere",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "community member",
+      "context": "At escraigne, told Claudatte that Claudon l'Huillier said he was ill from strain or lifting too much"
+    },
+    {
+      "name": "Nicolas du Val",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "context": "Husband of Claudatte. Had contract with Demenge Beurard for ploughing and carting wood. Spread rumor about Beurard."
+    },
+    {
+      "name": "Bouzeval",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "alleged relative of witness",
+      "context": "Claudatte claimed he was burned as witch and was uncle of witness's mother. Witness denied this, said he died 'homme de bien' and was buried in consecrated ground at Charmes."
+    },
+    {
+      "name": "Nicolas Belot's wife",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Claudatte accused Alix of stealing her garderobe"
+    },
+    {
+      "name": "Claude Amatte",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Claudatte accused Alix of stealing couvrechef from her house"
+    },
+    {
+      "name": "curé of Girecourt",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "none",
+      "context": "Claudatte accused Jean Trop of stealing his belt (ceincture)"
+    },
+    {
+      "name": "Jean de Rapey's wife",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Claudatte accused Nicolas l'Huillier of helping to break her door"
+    },
+    {
+      "name": "surgeon at mill of Avillers",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "none",
+      "context": "Consulted by Nicolas l'Huillier about his wife's illness; said she was poisoned and he could not cure her"
+    },
+    {
+      "name": "girl at Mirecourt (godmother of Idatte's child)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "antagonist",
+      "context": "Said 'Le diable soit qui te ramene' when Claudatte was released from prison, possibly triggering revenge"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (AI)",
+    "confidence": "high",
+    "notes": "Extremely well-documented trial with 19 detailed witness depositions. Remarkable outcome: Claudatte was released (renvoyée jusqu'a rappel) after enduring torture without confessing. Her defense strategy was unusual and aggressive - she accused all witnesses of being thieves and criminals. The trial reveals extensive social tensions around labor obligations (ploughing), baptismal godparentage, and church seating. Previous imprisonment 9 years earlier when accused by executed witch Ysabel Guerin. Sister Jeanotte also under investigation. Trial costs: just under 30 francs. Claudatte's age changed from 70 to about 50 between interrogations. Notable pattern: many harms followed refusals of labor or social obligations.",
+    "pdf_pages": 6
+  }
+}

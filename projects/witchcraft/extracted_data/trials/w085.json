@@ -1,0 +1,1849 @@
+{
+  "trial_id": "w085",
+  "archive_ref": "B 4500 no 3",
+  "location": "la Neufville",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1586-09-17",
+    "end": "1586-11-03",
+    "duration_days": 47
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jacquotte Gardeux",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": ["day laborer", "spinner", "shepherd"],
+      "origin": "Chatenois",
+      "residence": "la Neufville",
+      "marital_status": "married",
+      "spouse_name": "Florentin Gardeux",
+      "parents": {
+        "father": "Anthoine Perrin (violeur)",
+        "mother": "Epnotte (from Parey-soubs-Montfort)"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false
+      }
+    },
+    {
+      "name": "Marie Canot",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": false,
+      "occupation": ["domestic servant", "day laborer"],
+      "origin": "Parey-soubs-Montfort",
+      "residence": "la Neufville",
+      "marital_status": "married",
+      "spouse_name": "Francois Canot",
+      "parents": {
+        "father": "Claude Mengel",
+        "mother": ""
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Gegoult",
+      "gender": "male",
+      "age": 40,
+      "occupation": "hostellier",
+      "location": "la Neufville",
+      "relationship_to_accused": "customer/villager",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Collection of 'devancier' (down payment or advance) promised for wine purchase",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Cathin Gegoult (his wife)",
+            "target_relationship": "wife",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "immediately after returning home"
+          },
+          {
+            "type": "human_death",
+            "target": "son aged 13",
+            "target_relationship": "son",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "another week after wife's death"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Vanyer",
+      "gender": "male",
+      "age": 30,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "had shared house with Jacquotte",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "always quarrelling while sharing house",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his mother-in-law",
+            "target_relationship": "mother-in-law",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "last Easter"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Ysabeau Villaume",
+      "gender": "female",
+      "age": 30,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "daughter of victim (mother-in-law to Jean Vanyer)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jacquotte asked if mother would say she was bewitched like others",
+        "threat_received": true,
+        "threat_quote": "le diable vous puisse embismer",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Cathin Gegoult",
+            "target_relationship": "neighbor/friend",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "after receiving 'devancier'"
+          },
+          {
+            "type": "human_death",
+            "target": "her mother",
+            "target_relationship": "mother",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "after quarrel about admitting bewitchment"
+          },
+          {
+            "type": "animal_death",
+            "target": "three cows",
+            "target_relationship": "own livestock",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "just after calving"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Barbe Basle",
+      "gender": "female",
+      "age": 50,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Cathin Gegoult",
+            "target_relationship": "neighbor",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Halbix Mongenot",
+      "gender": "female",
+      "age": 60,
+      "occupation": "widow of butcher",
+      "location": "la Neufville",
+      "relationship_to_accused": "mother of victim Cathin",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Cathin (her daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jannon Waulthier",
+      "gender": "female",
+      "age": 33,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Didier Bouvard",
+      "gender": "male",
+      "age": 50,
+      "occupation": "paistre des bestes blanches (shepherd of white animals)",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Ysabel Gudine",
+      "gender": "female",
+      "age": 34,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jehan Thouvenel",
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "location": "la Neufville",
+      "relationship_to_accused": "former maire who ruled against Jacquotte",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "slander case 3 years before - court ruled against Jacquotte's complaint about Claudet Cabled calling her witch",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 horses",
+            "target_relationship": "own livestock",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "soon afterwards"
+          },
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "14 years before, when he finally agreed to do carting for her"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Cathin Thouvenel",
+      "gender": "female",
+      "age": 28,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "wife of former maire",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused Jacquotte's request for barley",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 horses",
+            "target_relationship": "family livestock",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "after court ruling"
+          },
+          {
+            "type": "animal_death",
+            "target": "1 sow and 4 piglets",
+            "target_relationship": "own livestock",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": ""
+          },
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "3 years before when in childbed, after refusing barley"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claudet Cabled",
+      "gender": "male",
+      "age": 20,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "subject of slander case brought by Jacquotte",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "contract dispute over hay delivery - didn't want to unload cart",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "1 horse",
+            "target_relationship": "family livestock",
+            "attributed_to": "Marie Canot",
+            "time_after_quarrel": "previous year, found Marie near dying horse alone"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "Lucresse Vannier",
+      "gender": "female",
+      "age": 24,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "court ruling against Jacquotte 2 years before",
+        "threat_received": true,
+        "threat_quote": "qu'elle avoit mal parlé contre ledict maire de luy avoir dict qu'il s'en repentiroit, que s'il luy arievoit quelques choses on dirroit qu'elle l'auroit faict",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jannon Cabled",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "mother of Claudet",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "1 horse",
+            "target_relationship": "family livestock",
+            "attributed_to": "Marie Canot",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Andreu Baille",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Barbe Baille",
+      "gender": "female",
+      "age": 50,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Thierry Toussainct",
+      "gender": "male",
+      "age": 40,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "brother-in-law to Marie Canot",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Claudot Cabled",
+      "gender": "male",
+      "age": 56,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "father of Claudet who accused Marie",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Ysabel Vanyer",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accusation of killing Cathin Gegoult while 'carregeroient' (working together)",
+        "threat_received": true,
+        "threat_quote": "qu'on la suspitionnoit d'estre genoiche et d'avoir faict mourir Cathin la femme Nicolas Gegoult mais qu'on verroit et cognoisteroit on cy apres ceux qui estoient genoches",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Cathin Cabled",
+            "target_relationship": "co-worker",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "same evening"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Janotte Vastron",
+      "gender": "female",
+      "age": 27,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "lent scales to Jacquotte",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "collecting promised cherries, told she was 'bien hative' (too hasty)",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "immediately - before getting home"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Thomasse Utchin",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": "wife of substitut (prosecutor)",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused Mengeotte 'lait de fromaige' (whey/cheese milk)",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 calves",
+            "target_relationship": "own livestock",
+            "attributed_to": "Mongeotte (third accused)",
+            "time_after_quarrel": "after refusal"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Cathin Cabled",
+      "gender": "female",
+      "age": 31,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "villager",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her son aged 7",
+            "target_relationship": "son",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "3 years earlier, Jacquotte in house on day he fell ill"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Cleron Thouvenel",
+      "gender": "female",
+      "age": 23,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor 3 years before",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 newborn calves",
+            "target_relationship": "own livestock",
+            "attributed_to": "Jacquotte Gardeux",
+            "time_after_quarrel": "when they were neighbors 3 years before"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Symonin Cabled",
+      "gender": "male",
+      "age": 26,
+      "age_approximate": true,
+      "occupation": "",
+      "location": "la Neufville",
+      "relationship_to_accused": "had called Jacquotte witch, subject of slander suit",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "family livestock",
+            "attributed_to": "Marie Canot",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1586-09-17",
+      "event": "informations_preparatoires",
+      "subject": "Jacquotte Gardeux",
+      "details": "Prévôt of Chatenois arrests Jacquotte on accusation by Jean Rouyer, prisoner at Houecourt. Begins taking depositions produced by Claude Utchin, substitut for PG des Vosges"
+    },
+    {
+      "date": "1586-09-18",
+      "event": "confrontation",
+      "subject": "Jean Rouyer",
+      "details": "At Houecourt where Jean Rouyer and Mathieu Amand about to be executed, prévôt interrogates Rouyer about denunciations. Confirms accusations against Jacquotte, Marie Canot, Mongeotte, and Estienne in their presence. Names additional accomplices"
+    },
+    {
+      "date": "1586-09-19",
+      "event": "other",
+      "subject": "Jacquotte and Marie",
+      "details": "Prévôt orders Jacquotte and Marie held as prisoners in chateau at Chatenois, while Mongeotte and Estienne under house arrest. Additional informations taken"
+    },
+    {
+      "date": "1586-09-19",
+      "event": "interrogation",
+      "subject": "Jacquotte Gardeux",
+      "details": "Jacquotte interrogated about background, family, occupation, and accusations. Denies all charges"
+    },
+    {
+      "date": "1586-09-19",
+      "event": "interrogation",
+      "subject": "Marie Canot",
+      "details": "Marie interrogated about background and accusations. Denies all, claims Cabled family prompted Rouyer's accusation due to dispute over horse death"
+    },
+    {
+      "date": "1586-09-22",
+      "event": "confrontation",
+      "subject": "Jacquotte and Marie",
+      "details": "Both women confronted with witnesses. Jacquotte makes extensive counter-accusations against witnesses (theft, adultery, etc.). Marie objects to Cabled family as personal enemies"
+    },
+    {
+      "date": "1586-10-10",
+      "event": "torture_requested",
+      "subject": "Jacquotte and Marie",
+      "details": "PG des Vosges requests both be tortured, admits charges against Jacquotte stronger"
+    },
+    {
+      "date": "1586-10-11",
+      "event": "torture_approved",
+      "subject": "Jacquotte and Marie",
+      "details": "Change de Nancy advises Jacquotte be tortured 'mediocrement', Marie merely shown instruments and interrogated"
+    },
+    {
+      "date": "1586-10-18",
+      "event": "torture",
+      "subject": "Jacquotte Gardeux",
+      "details": "Jacquotte tortured for hour and half - thrown 4 times into cold water, racked, water poured into mouth while racked. Stubbornly denied all charges"
+    },
+    {
+      "date": "1586-10-18",
+      "event": "interrogation",
+      "subject": "Marie Canot",
+      "details": "Marie placed on rack but not tortured. Denied charges 'fort constamment' with tears and groans"
+    },
+    {
+      "date": "1586-10-31",
+      "event": "sentence",
+      "subject": "Jacquotte Gardeux",
+      "details": "Change de Nancy declares Jacquotte should be 'renvoyée jusqu'à rappel' (released subject to recall)"
+    },
+    {
+      "date": "1586-11-03",
+      "event": "sentence",
+      "subject": "Jacquotte Gardeux",
+      "details": "Court at Chatenois releases Jacquotte with injunction to behave 'plus modestement' in future. Marie presumably released as well"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "cold water immersion (4 times)",
+      "rack",
+      "water torture (poured into mouth while racked)"
+    ],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "mediocrement (moderate) for Jacquotte; Marie only to be shown instruments"
+  },
+  "accomplices_named": [
+    {
+      "name": "Mongeotte veuve Gerard Aubry",
+      "location": "la Neufville",
+      "context": "Named by Jean Rouyer on scaffold, placed under house arrest but evidence weak",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Estienne fils Alaphe Renard Violeur",
+      "location": "Chatenois",
+      "context": "Named by Jean Rouyer on scaffold, placed under house arrest",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "le grand marchal Jean de Paret",
+      "location": "Mandres sur verre",
+      "context": "Additional accusation by Jean Rouyer from scaffold",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Thiebault Brochet",
+      "location": "Mandres",
+      "context": "Additional accusation by Jean Rouyer from scaffold",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Pierot Pastenier",
+      "location": "Mourroy",
+      "context": "Additional accusation by Jean Rouyer from scaffold",
+      "already_executed": false,
+      "trial_id": ""
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jean Rouyer",
+      "accuser_location": "Houecourt",
+      "context": "Accused Jacquotte and Marie while imprisoned on witchcraft charges, confirmed accusation on scaffold before execution",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Cathin Gegoult",
+      "french": "something which smelt had come out of the 'devantier de taffetas' and gone round her head",
+      "english": "something which smelt had come out of the taffeta apron and gone round her head",
+      "context": "Cathin describing her bewitchment symptoms before death"
+    },
+    {
+      "speaker": "Jacquotte Gardeux",
+      "french": "elle ne vouloit pas dire qu'elle estoit engenauchée aussy bien que les aultres",
+      "english": "wouldn't she say that she was bewitched just like the others",
+      "context": "Jacquotte asking victim's mother if she would admit to bewitchment"
+    },
+    {
+      "speaker": "Jacquotte Gardeux",
+      "french": "le diable vous puisse embismer",
+      "english": "may the devil embalm you",
+      "context": "Threat/curse uttered when mother admitted to being bewitched"
+    },
+    {
+      "speaker": "Jacquotte Gardeux",
+      "french": "faulx juges en leur justice et que par le nom de dieu il s'en doneroit de garde et s'en repentiroit quand il penseroit qu'elle l'eust obligé",
+      "english": "false judges in their justice and that by God's name he should be on guard and would repent when he thought she had obliged him",
+      "context": "Jacquotte's threat to maire after losing slander case"
+    },
+    {
+      "speaker": "Jacquotte Gardeux",
+      "french": "qu'on la suspitionnoit d'estre genoiche et d'avoir faict mourir Cathin la femme Nicolas Gegoult mais qu'on verroit et cognoisteroit on cy apres ceux qui estoient genoches",
+      "english": "that she was suspected of being a witch and of having killed Cathin wife of Nicolas Gegoult but that one would see and know hereafter who were the witches",
+      "context": "Jacquotte's counter-threat while working with other women, before striking Cathin Cabled's knee"
+    },
+    {
+      "speaker": "Marie Canot",
+      "french": "qu'il fault bien qu'il fut esté poussé et incité de ce faire par aucuns que luy veult mal pour ce que ledict Rouyer accusoit ung chacun qu'on vouloit mesme par apres les deschargeoit",
+      "english": "that he must have been pushed and incited to do this by some who wish her ill because the said Rouyer accused anyone people wanted and even afterwards discharged them",
+      "context": "Marie claiming Rouyer was manipulated to accuse her"
+    },
+    {
+      "speaker": "Marie Canot",
+      "french": "pour ce qu'ils sont pauvres gens elle et son marit sont esté contraints d'endurer ledict tort d'eux qui sont riches et forts",
+      "english": "because they are poor people she and her husband have been forced to endure this wrong from those who are rich and powerful",
+      "context": "Marie explaining why she couldn't seek legal redress against Cabled family"
+    },
+    {
+      "speaker": "Marie Canot (via Thierry Toussainct)",
+      "french": "qu'elle ne vouloit aller parler audict Rouyer accusateur pour ce qu'elle le connessoit mauvais guerson, qu'il luy soustiendroit qu'elle estoit sorciere",
+      "english": "that she didn't want to go speak to the said Rouyer accuser because she knew him to be a bad fellow, that he would insist she was a witch",
+      "context": "Marie's fear of confronting Rouyer before arrest"
+    },
+    {
+      "speaker": "Marie Canot (via Thierry Toussainct)",
+      "french": "sy elle estoit prinse qu'on luy donnoit la question et qu'il luy faudroit dire sur ce parce qu'elle estoit de petite complexion",
+      "english": "if she was arrested they would give her the question (torture) and she would have to say whatever because she was of small constitution",
+      "context": "Marie's fear that torture would force false confession"
+    },
+    {
+      "speaker": "Jacquotte Gardeux",
+      "french": "par necessite et pauvreté",
+      "english": "by necessity and poverty",
+      "context": "Explaining husband's grain theft 12 years earlier"
+    },
+    {
+      "speaker": "PG des Vosges",
+      "french": "l'atrocité du crime duquel elles sont prevenues, a la qualité d'iceluy que toutes personnes indifferement soient de bonne fame ou non, sont admises et receues à deposer valablement, tant tel crime, qui est de lèse majesté divine et humaine a toujours esté, et est en horreur",
+      "english": "the atrocity of the crime of which they are accused, such that all persons indifferently whether of good fame or not, are admitted and received to testify validly, such a crime being one of lèse majesté divine and human has always been and is held in horror",
+      "context": "PG arguing witness objections should be disregarded due to nature of witchcraft crime"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jacquotte Gardeux",
+      "person2": "Florentin Gardeux",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "wife of Florentin Gardeux of la Neufville",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquotte Gardeux",
+      "person2": "Anthoine Perrin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Anthoine Perrin of Chatenois",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquotte Gardeux",
+      "person2": "Epnotte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of... his wife Epnotte (from Parey-soubs-Montfort)",
+      "inferred": false
+    },
+    {
+      "person1": "Marie Canot",
+      "person2": "Francois Canot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "wife of Francois Canot of la Neufville",
+      "inferred": false
+    },
+    {
+      "person1": "Marie Canot",
+      "person2": "Claude Mengel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Claude Mengel of Parey-soubs-Montfort",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Gegoult",
+      "person2": "Cathin Gegoult",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife had died 3 years before",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Vanyer",
+      "person2": "Ysabeau Villaume",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Ysabeau femme à Jean Villaume",
+      "inferred": false
+    },
+    {
+      "person1": "Ysabeau Villaume",
+      "person2": "mother (victim)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his mother-in-law had died",
+      "inferred": false
+    },
+    {
+      "person1": "Halbix Mongenot",
+      "person2": "Florentin Mongenot (butcher)",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Halbix veuve Florentin Mongenot bouchier",
+      "inferred": false
+    },
+    {
+      "person1": "Halbix Mongenot",
+      "person2": "Cathin Gegoult",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Cathin had been her daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon Waulthier",
+      "person2": "Jean Waulthier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jannon femme de Jean Waulthier",
+      "inferred": false
+    },
+    {
+      "person1": "Ysabel Gudine",
+      "person2": "Jacquot Gudine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Ysabel femme de Jacquot Gudine",
+      "inferred": false
+    },
+    {
+      "person1": "Jehan Thouvenel",
+      "person2": "Cathin Thouvenel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Cathin femme à Jehan Thouvenel",
+      "inferred": false
+    },
+    {
+      "person1": "Claudet Cabled",
+      "person2": "Claude Cabled",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudet fils de Claude Cabled",
+      "inferred": false
+    },
+    {
+      "person1": "Claudet Cabled",
+      "person2": "Symonin Cabled",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "he and his brother Simonin had seen her",
+      "inferred": false
+    },
+    {
+      "person1": "Lucresse Vannier",
+      "person2": "Gaspard Vannier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Lucresse femme de Gaspard de la Neufville",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon Cabled",
+      "person2": "Claude Cabled",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jannon femme à Claude Cabled",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon Cabled",
+      "person2": "Claudet Cabled",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Repeated son's story",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe Baille",
+      "person2": "Andreu Baille",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbe femme d'Andreu Baille",
+      "inferred": false
+    },
+    {
+      "person1": "Thierry Toussainct",
+      "person2": "Jehan Thouvenel",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jehan Thouvenel son beau frere",
+      "inferred": false
+    },
+    {
+      "person1": "Claudot Cabled",
+      "person2": "Jannon Cabled",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Claudot Cabled",
+      "person2": "Claudet Cabled",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his... sons",
+      "inferred": false
+    },
+    {
+      "person1": "Janotte Vastron",
+      "person2": "Jehan Vastron",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Janotte femme de Jehan Vastron",
+      "inferred": false
+    },
+    {
+      "person1": "Thomasse Utchin",
+      "person2": "Claude Utchin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Thomasse femme à Claude Utchin substitut",
+      "inferred": false
+    },
+    {
+      "person1": "Cathin Cabled",
+      "person2": "Jehan Cabled",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Cathin femme de Jehan Cabled",
+      "inferred": false
+    },
+    {
+      "person1": "Cleron Thouvenel",
+      "person2": "Claude Thouvenel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Cleron femme de Claude Thouvenel",
+      "inferred": false
+    },
+    {
+      "person1": "Symonin Cabled",
+      "person2": "Claude Cabled",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Symonin Cabled fils de Claude Cabled",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquotte Gardeux",
+      "person2": "Jean Vanyer",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had been sharing a house with accused",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeotte veuve Gerard Aubry",
+      "person2": "Gerard Aubry",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Mongeotte veuve Gerard Aubry",
+      "inferred": false
+    },
+    {
+      "person1": "Estienne Renard Violeur",
+      "person2": "Alaphe Renard Violeur",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Estienne fils Alaphe Renard Violeur",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Cabled (Collotte)",
+      "person2": "Ferry Boyart",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Claude Cabled qu'on dict collotte qui est parent à Ferry Boyart procureur",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Jacquotte's husband had been caught stealing grain 12 years earlier, whipped, banished 6 weeks, with property confiscated - crime committed 'par necessite et pauvreté'. Multiple disputes over payment/promises (devancier for wine, cherries, hay delivery, barley, lait de fromaige). Marie explicitly states class conflict: poor people forced to endure wrongs from 'riches et forts' (rich and powerful). Jacquotte and husband kept village sheep for ~9 years, did day labor, she spun. Both women from poor backgrounds doing subsistence work."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Cathin Gegoult",
+      "victim_relationship_to_witness": "wife (witness 1), neighbor (witnesses 3, 4), daughter (witness 5)",
+      "harm_category": "human_death",
+      "harm_description": "Illness lasting only one week; something smelling came out of taffeta apron and went round her head; claimed on deathbed it was Jacquotte's doing",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Cathin purchased wine for feast of Notre Dame, went to collect 'devancier' promised; Jacquotte took long time finding it in chest",
+      "time_between_quarrel_and_harm": "on return home",
+      "method_alleged": "something in the taffeta apron that smelled",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Nicolas Gegoult's son aged 13",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Death following mother's death",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Same incident as mother's death",
+      "time_between_quarrel_and_harm": "another week after mother's death",
+      "method_alleged": "",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Vanyer's mother-in-law",
+      "victim_relationship_to_witness": "mother-in-law (witness 2), mother (witness 3)",
+      "harm_category": "human_death",
+      "harm_description": "Suffering from 'un chaleur brulant' (burning fever)",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Jacquotte visited and asked if she would say she was bewitched like others; when she said yes, Jacquotte became angry",
+      "time_between_quarrel_and_harm": "last Easter (shortly before death)",
+      "method_alleged": "curse: 'le diable vous puisse embismer'",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Ysabeau Villaume - three cows",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Three cows died just after calving",
+      "animal_type": "cow",
+      "animal_count": 3,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "General tension",
+      "time_between_quarrel_and_harm": "just after calving",
+      "method_alleged": "",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jehan Thouvenel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness in the head lasting 6 weeks",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Refused several times to do carting for her, then finally agreed",
+      "time_between_quarrel_and_harm": "14 years before, when he finally did the carting",
+      "method_alleged": "",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Jehan Thouvenel - four horses",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Four horses died",
+      "animal_type": "horse",
+      "animal_count": 4,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Court ruled against Jacquotte in slander case; she threatened he would repent",
+      "time_between_quarrel_and_harm": "soon afterwards (3 years before trial)",
+      "method_alleged": "threat/curse, though not seen near horses",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Cathin Thouvenel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Three-week illness when in childbed",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Refused Jacquotte's request for barley",
+      "time_between_quarrel_and_harm": "3 years before, after refusing barley",
+      "method_alleged": "",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Cathin Thouvenel - sow and piglets",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "One sow and four piglets died",
+      "animal_type": "pig",
+      "animal_count": 5,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Cabled family - horse",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Horse found dying",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "",
+      "attributed_to": "Marie Canot",
+      "precipitating_quarrel": "Contract dispute - Cabled family contracted to bring hay with cart, didn't want to unload it; Marie was angry",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "proximity - Marie seen near dying horse alone",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Cathin Cabled",
+      "victim_relationship_to_witness": "co-worker",
+      "harm_category": "human_injury",
+      "harm_description": "Knee hurting badly after Jacquotte struck it",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "While working together ('carregeroient'), Jacquotte declared she was suspected of being witch and killing Cathin Gegoult, but 'one would see who were the witches'",
+      "time_between_quarrel_and_harm": "same evening",
+      "method_alleged": "struck three blows on knee",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Janotte Vastron",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Became ill for 3 days",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "Went to collect 2 pounds cherries Jacquotte promised; told she was 'bien hative' (too hasty)",
+      "time_between_quarrel_and_harm": "immediately - before getting back home",
+      "method_alleged": "",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Thomasse Utchin - two calves",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Two calves died",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "economic_value": "",
+      "attributed_to": "Mongeotte veuve Gerard Aubry",
+      "precipitating_quarrel": "Refused Mongeotte 'lait de fromaige' (whey) when she was guarding village sheep",
+      "time_between_quarrel_and_harm": "after refusal",
+      "method_alleged": "",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "Cathin Cabled's son aged 7",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Nine-day illness leading to death",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "3 years earlier; Jacquotte in house on day he fell ill",
+      "method_alleged": "presence in house on day of illness onset",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "Cleron Thouvenel - four newborn calves",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Four newborn calves died",
+      "animal_type": "calf",
+      "animal_count": 4,
+      "economic_value": "",
+      "attributed_to": "Jacquotte Gardeux",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "when they were neighbors 3 years before",
+      "method_alleged": "proximity as neighbors",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Symonin Cabled family - two horses",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "Two horses died",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": "",
+      "attributed_to": "Marie Canot",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "",
+      "witness_number": 23
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "wine",
+      "context": "Cathin Gegoult purchased wine from Jacquotte for feast of Notre Dame",
+      "category": "food"
+    },
+    {
+      "object": "devancier (down payment/advance)",
+      "context": "Payment promised for wine purchase, kept in chest",
+      "category": "money"
+    },
+    {
+      "object": "chest",
+      "context": "Jacquotte took long time finding devancier in a chest",
+      "category": "household"
+    },
+    {
+      "object": "devantier de taffetas (taffeta apron)",
+      "context": "Something smelling came out of it during Cathin's bewitchment",
+      "category": "clothing"
+    },
+    {
+      "object": "scales",
+      "context": "Jacquotte borrowed scales from Janotte to sell cherries",
+      "category": "tools"
+    },
+    {
+      "object": "cherries",
+      "context": "Jacquotte sold cherries from garden she bought, promised 2 pounds to lender of scales",
+      "category": "food"
+    },
+    {
+      "object": "garden",
+      "context": "Jacquotte bought garden from Matheu Varrin to grow cherries",
+      "category": "agricultural"
+    },
+    {
+      "object": "lait de fromaige (whey/cheese milk)",
+      "context": "Thomasse refused to give this to Mongeotte",
+      "category": "food"
+    },
+    {
+      "object": "barley",
+      "context": "Cathin Thouvenel refused Jacquotte's request for barley",
+      "category": "food"
+    },
+    {
+      "object": "hay",
+      "context": "Cabled family contracted to bring hay with cart for Marie, didn't want to unload",
+      "category": "agricultural"
+    },
+    {
+      "object": "cart",
+      "context": "Used for hay delivery and for carting Jacquotte requested 14 years earlier",
+      "category": "agricultural"
+    },
+    {
+      "object": "trumpet",
+      "context": "Florentin Gardeux used to recall sheep in stormy weather",
+      "category": "tools"
+    },
+    {
+      "object": "grain",
+      "context": "Florentin Gardeux caught stealing grain 12 years earlier",
+      "category": "food"
+    },
+    {
+      "object": "couvrechef (head covering)",
+      "context": "Jacquotte accused Cleron Thouvenel of stealing this from her",
+      "category": "clothing"
+    },
+    {
+      "object": "ploughshare",
+      "context": "Jacquotte accused Claude Cabled of stealing this",
+      "category": "agricultural"
+    },
+    {
+      "object": "soup",
+      "context": "Jacquotte made soup for sick Cathin Gegoult at her mother's request",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neufville",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of both accused and most witnesses"
+    },
+    {
+      "place_name": "Chatenois",
+      "place_type": "village",
+      "context": "Location of court/chateau where Jacquotte and Marie imprisoned; birthplace of Jacquotte; home of prévôt"
+    },
+    {
+      "place_name": "Houecourt",
+      "place_type": "village",
+      "context": "Location where Jean Rouyer and Mathieu Amand executed; where Rouyer confirmed accusations on scaffold"
+    },
+    {
+      "place_name": "Parey-soubs-Montfort",
+      "place_type": "village",
+      "context": "Origin of Jacquotte's mother Epnotte; birthplace of Marie Canot; where Marie and husband lived first 4 years of marriage"
+    },
+    {
+      "place_name": "Noaillancourt",
+      "place_type": "village",
+      "context": "Where Jacquotte spent 10 weeks in house of Didier Mathiot before marriage"
+    },
+    {
+      "place_name": "Mandres sur verre",
+      "place_type": "village",
+      "context": "Location mentioned by Rouyer as having many witches; home of Jean de Paret and Thiebault Brochet whom he accused"
+    },
+    {
+      "place_name": "Mourroy",
+      "place_type": "village",
+      "context": "Home of Pierot Pastenier accused by Rouyer"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appellate court) that made final rulings"
+    },
+    {
+      "place_name": "chateau at Chatenois",
+      "place_type": "other",
+      "context": "Prison where Jacquotte and Marie held"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": "",
+    "weather_events": [
+      "Stormy weather 2 years before trial when Jacquotte stopped husband from sounding trumpet to recall sheep, saying storm would do no harm"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Jacquotte's husband stole grain 'par necessite et pauvreté' (by necessity and poverty) 12 years earlier",
+      "Jacquotte and mother supported household by spinning and day labor done by poor",
+      "Both Jacquotte and Marie did day work for subsistence",
+      "Marie explicitly states poverty: 'pauvres gens' forced to endure wrongs from 'riches et forts'",
+      "Multiple disputes over small economic transactions (barley, whey, cherries, hay)",
+      "Jacquotte kept village sheep for ~9 years as occupation"
+    ],
+    "religious_calendar_references": [
+      "feast of Notre Dame (when wine purchase occurred)",
+      "last Easter (when mother-in-law died)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Claude Utchin",
+        "role": "prosecutor_pg",
+        "location": "la Neufville"
+      },
+      {
+        "name": "Prévôt of Chatenois",
+        "role": "prevot",
+        "location": "Chatenois"
+      },
+      {
+        "name": "Claude Bossuet",
+        "role": "prevot",
+        "location": "Chatenoy"
+      },
+      {
+        "name": "Jehan Thouvenel",
+        "role": "mayor",
+        "location": "la Neufville"
+      },
+      {
+        "name": "Ferry Boyart",
+        "role": "other",
+        "location": "Houecourt"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "12 years earlier, Florentin Gardeux (Jacquotte's husband) caught stealing grain",
+        "outcome": "Whipped, banished 6 weeks, property confiscated"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "3 years before trial, Jacquotte's husband brought slander case against Claudet Cabled (via his son Claudet) for calling her witch",
+        "outcome": "Court ruled against Jacquotte; her husband made to pay fine"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Lost case, husband fined, which led to threats against maire and further suspicions",
+    "imprisonment_conditions": "Jacquotte and Marie held in chateau at Chatenois; Mongeotte and Estienne under house arrest",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Halbix Mongenot",
+        "source": "Cathin Gegoult (her daughter)",
+        "content": "Had heard her daughter accuse Jacquotte of bewitching her"
+      },
+      {
+        "reporter": "Barbe Basle",
+        "source": "Cathin Gegoult",
+        "content": "Told similar story of Cathin's sickness and death"
+      },
+      {
+        "reporter": "Ysabeau Villaume",
+        "source": "Cathin Gegoult",
+        "content": "Repeated account of Cathin's death and the smelling thing from taffeta apron"
+      },
+      {
+        "reporter": "Lucresse Vannier",
+        "source": "Jacquotte Gardeux",
+        "content": "Jacquotte told witness she regretted threatening maire, worried she'd be blamed if something happened to him"
+      },
+      {
+        "reporter": "Ysabel Vanyer",
+        "source": "Cathin Cabled",
+        "content": "Cathin told witness her knee was hurting badly after Jacquotte struck it"
+      }
+    ],
+    "oldest_accusation_years": 14,
+    "corroboration_groups": [
+      [1, 3, 4, 5],
+      [9, 10],
+      [11, 13, 23]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Jacquotte: angry during confrontations, defiant, made extensive counter-accusations",
+      "Jacquotte: stubbornly denied all charges during torture for 1.5 hours",
+      "Marie: 'fort estonnée' (very shocked) when first accused",
+      "Marie: denied charges 'fort constamment' (very constantly) with tears and groans during interrogation on rack",
+      "Marie: fearful before arrest - worried torture would force false confession due to 'petite complexion'"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 9,
+        "objection": "Called Jehan Thouvenel a thief"
+      },
+      {
+        "witness_number": 10,
+        "objection": "Called Cathin Thouvenel 'putain et parjure' - committed adultery with Messire Dominique Utin"
+      },
+      {
+        "witness_number": 12,
+        "objection": "Lucresse wife of Gaspard Vannier had bastard daughter by Messire Pierot Gueniot"
+      },
+      {
+        "witness_number": 22,
+        "objection": "Cleron Thouvenel stole 'couvrechef' from her"
+      },
+      {
+        "witness_number": 5,
+        "objection": "Halbix wife of Matheu Varrin caught 'paillardant' with Claude Rigault - witness so angry she tried to beat Jacquotte with stick"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Ysabeau wife of Jehan Vannier is thief and whore; first husband died of grief at this"
+      },
+      {
+        "witness_number": 8,
+        "objection": "Ysabel wife of Jacques Gudine is thief and whore with bastard daughter"
+      },
+      {
+        "witness_number": 16,
+        "objection": "Thierry Toussaint is a thief"
+      },
+      {
+        "witness_number": 17,
+        "objection": "Claude Cabled stole ploughshare"
+      },
+      {
+        "witness_number": 13,
+        "objection": "Cabled's wife Jannon is 'une babillarde' (gossip/chatterbox)"
+      },
+      {
+        "witness_number": 14,
+        "objection": "Said of Andreu Balle the miller that 'all millers were thieves, and as a miller he was like all the others'"
+      },
+      {
+        "witness_number": 11,
+        "objection": "Marie said Claudet Cabled was personal enemy who unjustly called her witch; repeated story that Cabled family attacked her over horse death"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Rouyer",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "",
+      "context": "Prisoner at Houecourt on witchcraft charges; accused Jacquotte and Marie; confirmed accusations on scaffold before execution"
+    },
+    {
+      "name": "Mathieu Amand",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "",
+      "context": "Executed for witchcraft alongside Jean Rouyer at Houecourt"
+    },
+    {
+      "name": "Florentin Gardeux",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband of Jacquotte",
+      "relationship_to_witness": "",
+      "context": "Shepherd; previously convicted of grain theft; brought slander case on wife's behalf"
+    },
+    {
+      "name": "Francois Canot",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband of Marie",
+      "relationship_to_witness": "",
+      "context": "Tried to hide Marie when she was accused; asked Thierry Toussainct for permission to keep her secretly"
+    },
+    {
+      "name": "Anthoine Perrin",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father of Jacquotte",
+      "relationship_to_witness": "",
+      "context": "Violeur (musician) of Chatenois; poor, supported by wife and daughter's labor"
+    },
+    {
+      "name": "Epnotte",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother of Jacquotte",
+      "relationship_to_witness": "",
+      "context": "From Parey-soubs-Montfort; supported household by spinning and day labor"
+    },
+    {
+      "name": "Claude Mengel",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father of Marie",
+      "relationship_to_witness": "",
+      "context": "Of Parey-soubs-Montfort"
+    },
+    {
+      "name": "Cathin Gegoult",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "customer/neighbor",
+      "relationship_to_witness": "wife of witness 1, daughter of witness 5",
+      "context": "Died after week-long illness; claimed on deathbed Jacquotte bewitched her via taffeta apron; central victim in multiple testimonies"
+    },
+    {
+      "name": "Didier Mathiot",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "former employer/host",
+      "relationship_to_witness": "",
+      "context": "Of Noaillancourt; Jacquotte spent 10 weeks in his house before marriage"
+    },
+    {
+      "name": "Matheu Varrin",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "sold garden to Jacquotte",
+      "relationship_to_witness": "",
+      "context": "Sold garden to Jacquotte previous year; husband of witness 5 (Halbix)"
+    },
+    {
+      "name": "Messire Dominique Utin",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "alleged lover of Cathin Thouvenel",
+      "context": "Jacquotte accused Cathin Thouvenel of adultery with him"
+    },
+    {
+      "name": "Messire Pierot Gueniot",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "alleged father of Lucresse's child",
+      "context": "Of Neuveville; Jacquotte accused Lucresse of having bastard daughter by him"
+    },
+    {
+      "name": "Claude Rigault",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "",
+      "context": "Jacquotte accused Halbix of adultery with him; Halbix became so angry she tried to beat Jacquotte"
+    },
+    {
+      "name": "Simonin Cabled",
+      "role_in_narrative": "witness",
+      "relationship_to_accused": "called Jacquotte witch; subject of slander case",
+      "relationship_to_witness": "brother of Claudet (witness 11), son of Claude and Jannon Cabled",
+      "context": "With brother found Marie near dying horse; had called Jacquotte witch leading to slander lawsuit"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (AI extraction)",
+    "confidence": "high",
+    "notes": "This is a particularly rich trial record with two accused women who were both released. Exceptional detail on: (1) class conflict - both women poor, Marie explicitly states 'riches et forts' persecute them; (2) prior legal history - slander case backfired on Jacquotte; (3) defense strategies - Jacquotte's aggressive counter-accusations of adultery/theft against witnesses; (4) Marie's sophisticated understanding of legal process and fear of torture; (5) resistance to torture - Jacquotte withstood 1.5 hours; (6) economic disputes underlying accusations (grain, cherries, hay, barley, whey); (7) scaffold denunciation by condemned witch Jean Rouyer as trigger; (8) extensive harms catalog (15+ incidents) mostly livestock deaths; (9) gender dynamics - most witnesses female; (10) Change de Nancy showing restraint - moderate torture only, then release. Trial exemplifies how poor women navigated accusations through a combination of defiance (Jacquotte) and strategic victimhood (Marie).",
+    "pdf_pages": 6
+  }
+}

@@ -1,0 +1,34 @@
+source,target,relationship_type,trial_id,evidence_text,direction,confidence,source_role,target_role,extraction_method
+Jean Bulme,Jean Bulme,CHILD_OF,w001,Father of Jean Bulme: Jean Bulme,directed,1.0,accused,other,explicit_field
+Jean Bulme,Sibille,CHILD_OF,w001,Mother of Jean Bulme: Sibille,directed,1.0,accused,other,explicit_field
+Jean Bulme,Didiere,SPOUSE_OF,w001,Spouse of Jean Bulme: Didiere,undirected,1.0,accused,other,explicit_field
+Didiere Bulme,Didier Thierion,CHILD_OF,w001,Father of Didiere Bulme: Didier Thierion,directed,1.0,accused,other,explicit_field
+Didiere Bulme,Barbelline,CHILD_OF,w001,Mother of Didiere Bulme: Barbelline,directed,1.0,accused,other,explicit_field
+Didiere Bulme,Jean Bulme,SPOUSE_OF,w001,Spouse of Didiere Bulme: Jean Bulme,undirected,1.0,accused,accused,explicit_field
+Odille,Claudin Thieriat,SPOUSE_OF,w001,Odille femme Claudin Thieriat,undirected,0.8,witness,,text_pattern
+Catherine,Mongenot Gerard,WIDOW_OF,w001,Catherine veuve Mongenot Gerard,directed,0.8,witness,,text_pattern
+Catherine veuve Mongenot Gerard,husband Mongenot Gerard,SPOUSE_OF,w001,Harm victim: husband,undirected,0.9,witness,victim,harm_victim_field
+Barbellon,Nicolas Mulnier,SPOUSE_OF,w001,Barbellon femme Nicolas Mulnier,undirected,0.8,witness,,text_pattern
+Barbellon femme Nicolas Mulnier,cattle,SPOUSE_OF,w001,Harm victim: husband's,undirected,0.9,witness,victim,harm_victim_field
+Catherine,Didier Moictrier,SPOUSE_OF,w001,Catherine femme Didier Moictrier,undirected,0.8,witness,,text_pattern
+Catherine femme Didier Moictrier,child,PARENT_OF,w001,Harm victim: child,directed,0.9,witness,victim,harm_victim_field
+"Claude Guerard, jeune fils",over herd,PARENT_OF,w001,quarrel with his late father over herd,directed,0.8,witness,,text_pattern
+"Claude Guerard, jeune fils",father,CHILD_OF,w001,Harm victim: father,directed,0.9,witness,victim,harm_victim_field
+Jean Vosgien,Dyon,SPOUSE_OF,w001,Dyon femme Jean Vosgien,undirected,1.0,witness,witness,explicit_relationship_field
+Didier Moictrier,son,PARENT_OF,w001,Harm victim: son,directed,0.9,witness,victim,harm_victim_field
+Nicolas Musnier,wife,SPOUSE_OF,w001,Harm victim: wife,undirected,0.9,witness,victim,harm_victim_field
+Magdellaine,Warin Cherrier,SPOUSE_OF,w001,Magdellaine femme Warin Cherrier,undirected,0.8,witness,,text_pattern
+Magdellaine femme Warin Cherrier,brother,SIBLING_OF,w001,Harm victim: brother,undirected,0.9,witness,victim,harm_victim_field
+Barbon,Demenge Rougier,SPOUSE_OF,w001,Barbon femme Demenge Rougier,undirected,0.8,witness,,text_pattern
+Catherine,Colin Douche,SPOUSE_OF,w001,Catherine femme Colin Douche,undirected,0.8,witness,,text_pattern
+Jean Symonin,did not,CHILD_OF,w001,child did not serve as agreed,directed,0.8,witness,,text_pattern
+Jean Symonin,child,PARENT_OF,w001,Harm victim: child,directed,0.9,witness,victim,harm_victim_field
+Jean Bulme,Jean Bulme (father),CHILD_OF,w001,late parents were Jean Bulme and his wife Sibille,directed,1.0,accused,other,explicit_relationship_field
+Claude Guerard,deceased father,CHILD_OF,w001,After quarrel with his late father,directed,1.0,witness,victim,explicit_relationship_field
+Magdellaine,brother (deceased),SIBLING_OF,w001,Soon afterwards her brother died,undirected,1.0,witness,victim,explicit_relationship_field
+Demange Rougier jeune fils,Anthoine Rougier,SIBLING_OF,w001,"his small nephew, son of brother Anthoine",undirected,1.0,witness,witness,explicit_relationship_field
+Demange Rougier (70),Anthoine Rougier,PARENT_OF,w001,his son Anthoine Rougier,directed,1.0,witness,witness,explicit_relationship_field
+Barbon,Demenge Rougier (70),SPOUSE_OF,w001,Barbon femme Demenge Rougier,undirected,1.0,witness,witness,explicit_relationship_field
+Didier Moictrier,Catherine femme Didier Moictrier,SPOUSE_OF,w001,Catherine femme Didier Moictrier,undirected,1.0,witness,witness,explicit_relationship_field
+Catherine,Mongenot Gerard (deceased),WIDOW_OF,w001,Catherine veuve Mongenot Gerard,directed,1.0,witness,victim,explicit_relationship_field
+Jean Bulme,Didier Moictrier,CREDITOR_DEBTOR,w001,They owed him money,directed,1.0,accused,witness,explicit_relationship_field

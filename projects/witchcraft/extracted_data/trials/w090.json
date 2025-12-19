@@ -1,0 +1,1468 @@
+{
+  "trial_id": "w090",
+  "archive_ref": "B 4998",
+  "location": "Condé (Custines)",
+  "court": "Val de Faulx",
+  "dates": {
+    "start": "1626-08-05",
+    "end": "1626-09-07",
+    "duration_days": 33
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Gillette Ticquet",
+      "gender": "female",
+      "age": 70,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": null,
+      "residence": "Condé",
+      "marital_status": "widowed",
+      "spouse_name": "Bastien Jean Page",
+      "parents": {
+        "father": null,
+        "mother": null
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": null,
+        "devil_appearance": null,
+        "seduction_date": null,
+        "seduction_context": null,
+        "devil_mark": {
+          "present": false,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [],
+        "sabbat_attended": false,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Francois Naville",
+      "gender": "male",
+      "age": 37,
+      "occupation": "paistre des menues bestes",
+      "location": "Condé",
+      "relationship_to_accused": "neighbor at hospital",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "witness (supernatural noise)",
+            "target_relationship": "self",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "same night she came to hospital"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Claudon des Chiens",
+      "gender": "female",
+      "age": 42,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Jean Genereux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Mengeon Francois",
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Nicolas Chardin",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "confrontation at oven about witchcraft reputation",
+        "threat_received": false,
+        "threat_quote": "que l'on la voulois faire enrager; sy le diable ne la voulois emporter",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness's children",
+            "target_relationship": "self (children)",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claudon Vincent",
+      "gender": "female",
+      "age": 70,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Jean Pieron, grandmother of deceased",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mistreatment of daughter-in-law Simonette",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Simonette",
+            "target_relationship": "daughter-in-law (married to witness's son Claude)",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jean Renesson Vigenberg",
+      "gender": "male",
+      "age": 44,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Vaulthier",
+      "gender": "male",
+      "age": 50,
+      "occupation": "paistre des bestes rouges",
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel between wife and Gillette",
+        "threat_received": true,
+        "threat_quote": "she would repent",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "niece aged 7",
+            "target_relationship": "niece",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "2 weeks after receiving cherries"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Marguerite",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Barthelemin Francois serrurier, neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to share food with Gillette",
+        "threat_received": true,
+        "threat_quote": "Hola hola je vois bien que vous me tournez le dos, nous ne serons plus guiere ensemble",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "5-month-old baby",
+            "target_relationship": "child",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "within quarter of an hour became ill, died 3 days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengin Bailly",
+      "gender": "male",
+      "age": 68,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claude Louis",
+      "gender": "male",
+      "age": 40,
+      "occupation": "vigneron",
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Noel Roussel",
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "Rogeville (formerly)",
+      "relationship_to_accused": "employer (she tended his vineyard)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "failure to bring customary gift when gathering grapes",
+        "threat_received": false,
+        "threat_quote": "elle s'estonnoit bien",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife Claudon",
+            "target_relationship": "wife",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "4 or 5 days after being given grape to taste"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jean Genereux",
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accusation about drowning of Claude Valois's wife",
+        "threat_received": false,
+        "threat_quote": "qu'il parloit a celles que scavoient faire et que scavoit esté elle ou quelqu'un de sa race",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Claude Valois",
+            "target_relationship": "none",
+            "attributed_to": "Gillette Ticquet (or her race)",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Mathelin",
+      "gender": "male",
+      "age": 40,
+      "occupation": "vigneron",
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "called witch by her sister Francoise",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Odille",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Mengin Bailly, fellow hospital resident",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": "que l'on disoit qu'elle estoit sorciere, et que sy elle l'estoit qu'elle ne se feroit desrompre, et que sy elle l'estoit qu'il y avoit deux femmes a l'hospital dudit Condé qui n'y fussent prins",
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "witness (supernatural noise)",
+            "target_relationship": "self",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "same night at hospital"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Bastienne",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Francois Naville, neighbor at hospital",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "complained about vermin in 'eschade' bought from Gillette",
+        "threat_received": false,
+        "threat_quote": "que ce seroit bien daventure sy l'on vendangeoit et seilloit a Condé et a Malleloy ceste année",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "child",
+            "target_relationship": "child",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "2 or 3 days later"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness self",
+            "target_relationship": "self",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Gegoult Gandremel",
+      "gender": "male",
+      "age": 40,
+      "occupation": "passager",
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to put her 'eschande' in banal oven",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child aged 18 months",
+            "target_relationship": "child",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "soon after, died after 3 week illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Francoise",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Claude Bracconnier bouchier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter called Gillette 'vieille sot' while harvesting flax",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "daughter aged 12",
+            "target_relationship": "daughter",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "immediately, when sent to fetch serpette"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Barthelemy Francois",
+      "gender": "male",
+      "age": 30,
+      "occupation": "serrurier",
+      "location": "Condé",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refusal of food and death of baby",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "5-month-old baby",
+            "target_relationship": "child",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "3 days"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Claude Bracconnier",
+      "gender": "male",
+      "age": 36,
+      "occupation": "bouchier",
+      "location": "Condé",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter's illness after flax harvesting dispute",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "immediately"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Maizon",
+      "gender": "female",
+      "age": 55,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "wife of Jean Vauchier paistre des rouges bestes",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Margueritte",
+      "gender": "female",
+      "age": 13,
+      "occupation": null,
+      "location": "Condé",
+      "relationship_to_accused": "daughter of Claude Bracconnier",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused of calling Gillette 'vieille sot' while harvesting flax",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Gillette Ticquet",
+            "time_after_quarrel": "immediately when sent to fetch serpette"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1626-08-05",
+      "event": "other",
+      "subject": "Gillette Ticquet",
+      "details": "Substitut for PG de Lorraine requests depositions based on information that Gillette was commonly reputed a witch"
+    },
+    {
+      "date": "1626-08-12",
+      "event": "informations_preparatoires",
+      "subject": "Gillette Ticquet",
+      "details": "20 witnesses deposed (15 on Aug 12, witness 16-20 on Aug 11)"
+    },
+    {
+      "date": "1626-08-12",
+      "event": "other",
+      "subject": "Gillette Ticquet",
+      "details": "Substitut asks for arrest and interrogation"
+    },
+    {
+      "date": "1626-08-14",
+      "event": "interrogation",
+      "subject": "Gillette Ticquet",
+      "details": "First interrogation; denied all charges"
+    },
+    {
+      "date": "1626-08-18",
+      "event": "confrontation",
+      "subject": "Gillette Ticquet",
+      "details": "Confrontations with witnesses; sustained all denials"
+    },
+    {
+      "date": "1626-08-20",
+      "event": "torture_requested",
+      "subject": "Gillette Ticquet",
+      "details": "Substitut asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1626-08-20",
+      "event": "torture_approved",
+      "subject": "Gillette Ticquet",
+      "details": "Change de Nancy approves torture with moderation suitable to her age"
+    },
+    {
+      "date": "1626-08-25",
+      "event": "torture",
+      "subject": "Gillette Ticquet",
+      "details": "Interrogation under torture; given thumbscrews, rack, and tortillons but firmly denied everything"
+    },
+    {
+      "date": "1626-09-02",
+      "event": "other",
+      "subject": "Gillette Ticquet",
+      "details": "Substitut (Maimbourg at Nancy) asks that she be banished"
+    },
+    {
+      "date": "1626-09-04",
+      "event": "other",
+      "subject": "Gillette Ticquet",
+      "details": "Change de Nancy recommends that she be renvoyée jusqu'a rappel"
+    },
+    {
+      "date": "1626-09-07",
+      "event": "sentence",
+      "subject": "Gillette Ticquet",
+      "details": "Court of Val de Faulx orders her release"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews",
+      "rack",
+      "tortillons"
+    ],
+    "requesting_official": "Substitut for PG de Lorraine",
+    "approving_court": "Change de Nancy",
+    "restrictions": "with moderation suitable to her age"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "que l'on la voulois faire enrager; sy le diable ne la voulois emporter",
+      "english": "that they wanted to drive her mad; may the devil take her",
+      "context": "When confronted at the oven by other women about witchcraft reputation"
+    },
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "Hola hola je vois bien que vous me tournez le dos, nous ne serons plus guiere ensemble",
+      "english": "Well well I see clearly that you are turning your back on me, we will not be together much longer",
+      "context": "To Marguerite when refused food"
+    },
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "et qu'elle ne leur feroit jamais mal sy elle devroit estre tuée tourmentée et foudriée",
+      "english": "and that she would never harm them even if she should be killed, tormented, and struck by lightning",
+      "context": "Speaking about the people of Condé on All Saints Day"
+    },
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "Hola hola sy je suis prinse il y en aura encor des autres",
+      "english": "Well well if I am taken there will still be others",
+      "context": "When Marguerite and husband spoke to her of witchcraft"
+    },
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "que l'on disoit qu'elle estoit sorciere, et que sy elle l'estoit qu'elle ne se feroit desrompre, et que sy elle l'estoit qu'il y avoit deux femmes a l'hospital dudit Condé qui n'y fussent prins",
+      "english": "that people said she was a witch, and that if she was one she would not allow herself to be broken, and that if she was there were two women at the hospital of Condé who would also be taken",
+      "context": "Statement to Odille at hospital"
+    },
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "que ce seroit bien daventure sy l'on vendangeoit et seilloit a Condé et a Malleloy ceste année",
+      "english": "that it would be quite something if they harvested and gathered grapes at Condé and Malleloy this year",
+      "context": "Ominous prediction about harvest"
+    },
+    {
+      "speaker": "Women at oven",
+      "french": "et que sy elle estoit telle qu'il failloit qu'elle s'en accuse et que sy elle ne l'estoit qu'il failloit avoir patience",
+      "english": "and that if she was such a one she must confess it, and if she was not she must have patience",
+      "context": "Women reproaching Gillette at the oven about witchcraft suspicions"
+    },
+    {
+      "speaker": "Jean Genereux",
+      "french": "qu'il parloit a celles que scavoient faire et que scavoit esté elle ou quelqu'un de sa race",
+      "english": "that he was speaking to those who knew how to do it and that it was her or someone of her race",
+      "context": "About the drowning of Claude Valois's wife"
+    },
+    {
+      "speaker": "Gillette Ticquet",
+      "french": "que l'on ne scauroit tenir les gens de parler et qu'elle n'estoit sur l'eaue lors que ladite femme fut noyée",
+      "english": "that one cannot prevent people from speaking and that she was not on the water when the said woman was drowned",
+      "context": "Her response to Jean Genereux's accusation"
+    },
+    {
+      "speaker": "Nicolas Mathelin",
+      "french": "disans que sy on ne la craignoit on ne luy donneroit rien",
+      "english": "saying that if they did not fear her they would give her nothing",
+      "context": "About Gillette taking items from the oven without asking"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Gillette Ticquet",
+      "person2": "Bastien Jean Page",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Gillette veuve Bastien Jean Page",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon des Chiens",
+      "person2": "Jean Genereux",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudon des Chiens femme Jean Genereux",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Francois",
+      "person2": "Nicolas Chardin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeon Francois femme Nicolas Chardin",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Vincent",
+      "person2": "Jean Pieron",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudon Vincent femme Jean Pieron",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Vincent",
+      "person2": "Claude",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her son Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Claude",
+      "person2": "Simonette",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Simonette, wife of her son Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Vaulthier",
+      "person2": "niece aged 7",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his niece aged 7",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite",
+      "person2": "Barthelemin Francois",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marguerite femme Barthelemin Francois",
+      "inferred": false
+    },
+    {
+      "person1": "Noel Roussel",
+      "person2": "Claudon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife Claudon",
+      "inferred": false
+    },
+    {
+      "person1": "Gillette Ticquet",
+      "person2": "daughter-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her daughter-in-law suspected her of causing death of her child",
+      "inferred": false
+    },
+    {
+      "person1": "Gillette Ticquet",
+      "person2": "Francoise (wife of Jean Gros Jean)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her sister Francoise, wife of Jean Gros Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Francoise",
+      "person2": "Jean Gros Jean",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "wife of Jean Gros Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Odille",
+      "person2": "Mengin Bailly",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Odille femme Mengin Bailly",
+      "inferred": false
+    },
+    {
+      "person1": "Bastienne",
+      "person2": "Francois Naville",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Bastienne femme Francois Naville",
+      "inferred": false
+    },
+    {
+      "person1": "Gegoult Gandremel",
+      "person2": "Nicolas Francois",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his brother-in-law Nicolas Francois",
+      "inferred": false
+    },
+    {
+      "person1": "Francoise",
+      "person2": "Claude Bracconnier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Francoise femme Claude Bracconnier, bouchier",
+      "inferred": false
+    },
+    {
+      "person1": "Francoise",
+      "person2": "Margueritte (daughter aged 12)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "she sent her daughter aged 12",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Bracconnier",
+      "person2": "Margueritte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Margueritte fille Claude Bracconnier",
+      "inferred": false
+    },
+    {
+      "person1": "Maizon",
+      "person2": "Jean Vauchier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Maizon femme Jean Vauchier",
+      "inferred": false
+    },
+    {
+      "person1": "Gillette Ticquet",
+      "person2": "Marguerite (witness 7)",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Gillette, who was neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Gillette Ticquet",
+      "person2": "Gros Jean",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her brother-in-law Gros Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Gillette Ticquet",
+      "person2": "children at Bouxieres-aux-Dames",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her children at Bouxieres-aux-Dames had asked for her",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Gillette was clearly impoverished, living in the hospital at Condé, begging for food and alms. She worked as a vineyard keeper for Noel Roussel. She sold 'eschades' and begged at the oven and banal. Witnesses noted she took items from the oven, with one saying 'if they did not fear her they would give her nothing.' She stated she could not avenge herself for being called a witch because of her poverty."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "witness (supernatural event)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "other",
+      "harm_description": "great noise of cats on roof over her room around midnight, followed by thunderstorm",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": "same night she came to hospital",
+      "method_alleged": "proximity/witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "witness's children",
+      "victim_relationship_to_witness": "children",
+      "harm_category": "human_illness",
+      "harm_description": "children had 'chacques' (possibly convulsions or fits)",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "none specified",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Simonette",
+      "victim_relationship_to_witness": "daughter-in-law (married to witness's son Claude)",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "Gillette treated her badly, told son to beat her more often",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "niece aged 7",
+      "victim_relationship_to_witness": "niece",
+      "harm_category": "human_death",
+      "harm_description": "lump in throat which prevented her eating or drinking, died",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "quarrel between wife and Gillette, threat 'she would repent'",
+      "time_between_quarrel_and_harm": "given cherries, died 2 weeks later",
+      "method_alleged": "poisoned cherries",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "5-month-old baby",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "became very ill, all dried up, died 3 days later",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "refused to share food with Gillette",
+      "time_between_quarrel_and_harm": "within quarter of an hour became ill, died 3 days later",
+      "method_alleged": "touch and drawing milk from breasts onto baby's lips",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Claudon (wife)",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "felt as if something pricked her head, died 4 or 5 days later",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "complaint that they brought nothing for her as customary",
+      "time_between_quarrel_and_harm": "4 or 5 days after being given grape to taste",
+      "method_alleged": "poisoned grape, insisted she taste it",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "daughter-in-law's child",
+      "victim_relationship_to_witness": "none (hearsay)",
+      "harm_category": "human_death",
+      "harm_description": "death of child in cradle",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "none specified",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "put fish into hand of child in cradle",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "wife of Claude Valois",
+      "victim_relationship_to_witness": "none",
+      "harm_category": "human_death",
+      "harm_description": "drowned in the river",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet or someone of her race",
+      "precipitating_quarrel": "none specified",
+      "time_between_quarrel_and_harm": "9 or 10 days before testimony",
+      "method_alleged": "witchcraft causing drowning",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "witness (supernatural event)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "other",
+      "harm_description": "great noise of cats at hospital, heard 3 times while Gillette was there",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": "same night she came to hospital",
+      "method_alleged": "witchcraft",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "became ill, passed out two live worms, still ill more than a year later",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "complained about vermin in 'eschade' bought from Gillette",
+      "time_between_quarrel_and_harm": "2 or 3 days later",
+      "method_alleged": "witchcraft",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "witness self",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 3 months",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "husband said near Gillette's room that she was bewitched",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "child aged 18 months",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "died after 3 week illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "refused to put her 'eschande' in banal oven, told him he would repent",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "witchcraft",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "daughter aged 12 (Margueritte)",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_injury",
+      "harm_description": "arm became 'estropiée' (crippled), could still not use it years later",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Gillette Ticquet",
+      "precipitating_quarrel": "daughter allegedly called Gillette 'vieille sot' while harvesting flax",
+      "time_between_quarrel_and_harm": "immediately when sent to fetch serpette",
+      "method_alleged": "witchcraft",
+      "witness_number": 16
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "cherries",
+      "context": "Gillette gave cherries to Jean Vaulthier's niece who later died",
+      "category": "food"
+    },
+    {
+      "object": "bread, meat, and wine",
+      "context": "Barthelemin Francois sent food to wife from hostelain; Gillette suggested eating together",
+      "category": "food"
+    },
+    {
+      "object": "milk from breasts",
+      "context": "Gillette drew milk from her breasts to put on dying baby's lips",
+      "category": "other"
+    },
+    {
+      "object": "17 gros",
+      "context": "Gillette showed alms she received for the dead in cemetery",
+      "category": "money"
+    },
+    {
+      "object": "grape",
+      "context": "Gillette gave grape to Noel Roussel's wife to taste; wife died after",
+      "category": "food"
+    },
+    {
+      "object": "fish",
+      "context": "Gillette put fish into hand of child in cradle",
+      "category": "food"
+    },
+    {
+      "object": "paste, bois et braise",
+      "context": "Items Gillette asked for or took from oven",
+      "category": "other"
+    },
+    {
+      "object": "eschades",
+      "context": "Food items Gillette sold; one had vermin in it",
+      "category": "food"
+    },
+    {
+      "object": "eschande",
+      "context": "Item Gillette asked Gegoult Gandremel to put in banal oven",
+      "category": "food"
+    },
+    {
+      "object": "serpette",
+      "context": "Tool daughter was sent to fetch when she became crippled",
+      "category": "tools"
+    },
+    {
+      "object": "flax",
+      "context": "Being harvested when dispute occurred",
+      "category": "agricultural"
+    },
+    {
+      "object": "grapes",
+      "context": "Being gathered at vineyard",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Condé (Custines)",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused and most witnesses"
+    },
+    {
+      "place_name": "hospital at Condé",
+      "place_type": "house",
+      "context": "Where Gillette lived; where supernatural cat noises occurred"
+    },
+    {
+      "place_name": "oven",
+      "place_type": "other",
+      "context": "Community oven where Gillette begged and was confronted by women about witchcraft"
+    },
+    {
+      "place_name": "Rogeville",
+      "place_type": "village",
+      "context": "Where Noel Roussel lived when Gillette tended his vineyard"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Where wife of Claude Valois drowned"
+    },
+    {
+      "place_name": "four banal",
+      "place_type": "other",
+      "context": "Banal oven run by Gegoult Gandremel where Gillette came to beg"
+    },
+    {
+      "place_name": "Bouxieres-aux-Dames",
+      "place_type": "village",
+      "context": "Where Gillette's children lived"
+    },
+    {
+      "place_name": "Malleloy",
+      "place_type": "village",
+      "context": "Mentioned in Gillette's ominous prediction about harvest"
+    },
+    {
+      "place_name": "cemetery",
+      "place_type": "other",
+      "context": "Where Gillette received alms for the dead"
+    },
+    {
+      "place_name": "house of Martin Mengeat (hostelain)",
+      "place_type": "house",
+      "context": "Where Barthelemin Francois was having supper"
+    },
+    {
+      "place_name": "vineyard",
+      "place_type": "field",
+      "context": "Gillette tended vineyard for Noel Roussel"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appeals court)"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [
+      "thunderstorm following cat noises at hospital"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Gillette living in hospital (poorhouse)",
+      "Gillette begging for food and alms",
+      "Gillette stated she could not avenge herself because of poverty",
+      "Witnesses noted people gave her things because they feared her"
+    ],
+    "religious_calendar_references": [
+      "St Jean (around last St Jean)",
+      "All Saints Day",
+      "St Lieger (neuvaine to St Lieger recommended)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "substitut for PG de Lorraine",
+        "role": "prosecutor_pg",
+        "location": null
+      },
+      {
+        "name": "Maimbourg",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": true,
+    "redress_outcome": "unable to avenge herself because of poverty",
+    "imprisonment_conditions": null,
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Vaulthier",
+        "source": "wife",
+        "content": "wife told him she had previously quarrelled with Gillette who told her she would repent"
+      },
+      {
+        "reporter": "Noel Roussel",
+        "source": "daughter-in-law",
+        "content": "heard her say that her daughter-in-law suspected her of causing death of child"
+      },
+      {
+        "reporter": "Mengin Bailly",
+        "source": "wife of Francois Naville",
+        "content": "had heard her called witch by wife of Francois Naville"
+      },
+      {
+        "reporter": "Maizon",
+        "source": "others",
+        "content": "reported remark about sowing and harvesting (heard indirectly)"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [1, 13, 14],
+      [7, 17],
+      [16, 18, 20]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "angry at oven when confronted (putting hands on knees and stamping)",
+      "firmly denied everything under torture",
+      "sustained all denials during confrontations"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 4,
+        "objection": "denied asking for son to beat daughter-in-law, but agreed she had often told her off when she was at fault"
+      },
+      {
+        "witness_number": 7,
+        "objection": "admitted cursing Margueritte Francois' children"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Simonette",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "daughter-in-law",
+      "relationship_to_witness": "daughter-in-law (witness 4's son's wife)",
+      "context": "died, allegedly due to Gillette's malice"
+    },
+    {
+      "name": "Claude",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": "son of witness 4",
+      "context": "Gillette allegedly told him to beat his wife Simonette more often"
+    },
+    {
+      "name": "niece aged 7",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "niece of witness 6",
+      "context": "died after receiving cherries from Gillette"
+    },
+    {
+      "name": "Martin Mengeat",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "hostelain where Barthelemin Francois was dining",
+      "context": "owner of inn/tavern"
+    },
+    {
+      "name": "Claudon (wife of Noel Roussel)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "former employer's wife",
+      "relationship_to_witness": "wife of witness 10",
+      "context": "died after being given grape by Gillette"
+    },
+    {
+      "name": "wife of Claude Valois",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "drowned in river, allegedly by witchcraft"
+    },
+    {
+      "name": "Francoise (wife of Jean Gros Jean)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "relationship_to_witness": null,
+      "context": "called Gillette a witch; Gillette replied she was one too"
+    },
+    {
+      "name": "Jean Gros Jean",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law",
+      "relationship_to_witness": null,
+      "context": "told Gillette her children at Bouxieres-aux-Dames had asked for her"
+    },
+    {
+      "name": "Gros Jean",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law",
+      "relationship_to_witness": null,
+      "context": "same person as Jean Gros Jean"
+    },
+    {
+      "name": "Nicolas Francois",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "brother-in-law of witness 15",
+      "context": "threatened Gillette about taking her as witch if she did not heal child"
+    },
+    {
+      "name": "Alizon Chambrey",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "working with witness 16 harvesting flax",
+      "context": "defended Margueritte, said she had not called Gillette 'vieille sot'"
+    },
+    {
+      "name": "children at Bouxieres-aux-Dames",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "relationship_to_witness": null,
+      "context": "Gillette's children who allegedly asked for her"
+    },
+    {
+      "name": "daughter-in-law (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter-in-law",
+      "relationship_to_witness": null,
+      "context": "suspected Gillette of causing death of her child"
+    },
+    {
+      "name": "child in cradle (daughter-in-law's)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "grandchild",
+      "relationship_to_witness": null,
+      "context": "died allegedly after Gillette put fish in its hand"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial resulted in banished outcome after Gillette withstood torture and maintained her innocence. Change de Nancy recommended 'renvoyée jusqu'a rappel' (released until recalled), but local court ordered full release. This is a significant case showing successful resistance to witchcraft prosecution. Rich testimony about poverty, community dynamics, and reputation. Multiple allegations of child deaths and illnesses following quarrels over food, resources, and social slights. Notable that prosecutor switched from requesting torture to requesting banishment after she withstood torture. Age (70) and poverty status clearly influenced proceedings.",
+    "pdf_pages": 5
+  }
+}

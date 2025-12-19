@@ -1,0 +1,512 @@
+{
+  "trial_id": "w130",
+  "archive_ref": "B 8275 no 3",
+  "location": "Preny",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1597-05-13",
+    "end": "1597-07-03",
+    "duration_days": 51
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Bonne Bricholet",
+      "gender": "female",
+      "age": 35,
+      "age_approximate": true,
+      "occupation": ["servant", "housewife"],
+      "residence": "Preny",
+      "marital_status": "married",
+      "spouse_name": "Mengeot Bricholet",
+      "parents": {
+        "mother": "Parrotte femme Conictin le Treixe"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Robert",
+        "devil_appearance": "big man in black",
+        "seduction_date": "4 months after second visit (approximately 3-4 years before arrest)",
+        "seduction_context": "Appeared when she was ill in bed after her husband nearly drowned in millstream. First appeared twice without intercourse, third time had sexual relations with her.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": [
+          "black grease (to make ill)",
+          "white grease (to heal)",
+          "yellow powder (to heal)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "côte d'Arry (on E bank of Moselle)"
+        ],
+        "sabbat_activities": [
+          "made hail",
+          "rich caused hail to fall around Arnaville and Woysaige",
+          "attempted to damage grain in flower",
+          "poor resisted damaging grain",
+          "snow fell mainly on woods instead"
+        ],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Collignon Chandelot",
+      "gender": "male",
+      "location": "Preny",
+      "relationship_to_accused": "tax collector (collected taille from her)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "collecting taille (tax) from Bonne and taking surety (basin)",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Collignon Chandelot himself",
+            "target_relationship": "self",
+            "attributed_to": "Bonne Bricholet",
+            "time_after_quarrel": "immediately after taking basin as surety"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1597-05-13",
+      "event": "other",
+      "subject": "Bonne Bricholet",
+      "details": "Arrested"
+    },
+    {
+      "date": "1597-05-30",
+      "event": "interrogation",
+      "subject": "Bonne Bricholet",
+      "details": "First interrogation - denied sabbat attendance, described visitations by spirit but denied intercourse"
+    },
+    {
+      "date": "1597-05-31",
+      "event": "interrogation",
+      "subject": "Bonne Bricholet",
+      "details": "Second interrogation - confessed to intercourse with devil, receiving powders, causing harms, attending sabbat 5 times"
+    },
+    {
+      "date": "1597-06-04",
+      "event": "other",
+      "subject": "Bonne Bricholet",
+      "details": "Rémy asks for witnesses to be heard to discover additional malefices; Change de Nancy approves"
+    },
+    {
+      "date": "1597-06-10",
+      "event": "interrogation",
+      "subject": "Bonne Bricholet",
+      "details": "Third interrogation - confirmed earlier confessions; Collignon Chandelot gave evidence"
+    },
+    {
+      "date": "1597-06-26",
+      "event": "death_requested",
+      "subject": "Bonne Bricholet",
+      "details": "Substitut for PG asks for death sentence"
+    },
+    {
+      "date": "1597-06-27",
+      "event": "death_approved",
+      "subject": "Bonne Bricholet",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1597-07-03",
+      "event": "sentence",
+      "subject": "Bonne Bricholet",
+      "details": "Formal death sentence issued (includes careless claim that she brought about deaths and illnesses of several people)"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": []
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Chrestaille",
+      "context": "Accused Bonne of attending sabbat with her",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Bonne Bricholet",
+      "english": "she would rather die repentant than live longer",
+      "context": "When suggested she might receive sentence less than death since she had killed no-one"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Bonne Bricholet",
+      "person2": "Mengeot Bricholet",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Bonne, femme Mengeot Bricholet",
+      "inferred": false
+    },
+    {
+      "person1": "Bonne Bricholet",
+      "person2": "Parrotte femme Conictin le Treixe",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Parrotte femme Conictin le Treixe, her mother",
+      "inferred": false
+    },
+    {
+      "person1": "Bonne Bricholet",
+      "person2": "Martin Mathiot",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "they had sold a cow to Martin Mathiot",
+      "inferred": false
+    },
+    {
+      "person1": "Bonne Bricholet",
+      "person2": "Collignon Chandelot",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "he had gone to collect taille from her",
+      "inferred": false
+    },
+    {
+      "person1": "Bonne Bricholet",
+      "person2": "Jean Huielle",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "After quarrel over a small house",
+      "inferred": false
+    },
+    {
+      "person1": "Bonne Bricholet",
+      "person2": "Chrestaille",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "she had been accused by Chrestaille",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Dispute over a small house with Jean Huielle. Tax collection by Collignon Chandelot requiring surety (basin, then frying pan). Sale of bread to pay taxes mentioned. Lost calf from cow sale to Martin Mathiot."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Collignon Chandelot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "bad leg",
+      "attributed_to": "Bonne Bricholet",
+      "precipitating_quarrel": "came to take surety (basin) for taille (tax)",
+      "time_between_quarrel_and_harm": "immediately after",
+      "method_alleged": "greased the basin he took as surety with black grease",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Collignon Chandelot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "healed bad leg",
+      "attributed_to": "Bonne Bricholet",
+      "precipitating_quarrel": "he came seeking healing 3-4 months later",
+      "time_between_quarrel_and_harm": "3-4 months after first visit",
+      "method_alleged": "put white grease on handle of frying pan he took as surety, intending to cure him",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Huielle",
+      "harm_category": "human_illness",
+      "harm_description": "made ill (unspecified illness)",
+      "attributed_to": "Bonne Bricholet",
+      "precipitating_quarrel": "quarrel over a small house",
+      "time_between_quarrel_and_harm": "just before previous Christmas",
+      "method_alleged": "used grease on dried pears"
+    },
+    {
+      "victim_name": "Jean Huielle",
+      "harm_category": "human_illness",
+      "harm_description": "cured illness",
+      "attributed_to": "Bonne Bricholet",
+      "precipitating_quarrel": "he asked to buy a dog for some wine",
+      "time_between_quarrel_and_harm": "after making him ill",
+      "method_alleged": "cured him (method not specified, likely white grease or yellow powder)"
+    },
+    {
+      "victim_name": "crops around Arnaville and Woysaige",
+      "harm_category": "weather_event",
+      "harm_description": "hail damage",
+      "attributed_to": "Bonne Bricholet and other sabbat attendees (rich caused it to fall)",
+      "precipitating_quarrel": "none - sabbat activity",
+      "method_alleged": "made hail at sabbat on côte d'Arry, rich caused it to fall on these areas"
+    },
+    {
+      "victim_name": "grain which was in flower",
+      "harm_category": "crop_damage",
+      "harm_description": "attempted damage to flowering grain",
+      "attributed_to": "Bonne Bricholet and other sabbat attendees",
+      "precipitating_quarrel": "none - sabbat activity",
+      "method_alleged": "sabbat activity - poor resisted and snow fell mainly on woods instead"
+    },
+    {
+      "victim_name": "calf",
+      "harm_category": "animal_death",
+      "harm_description": "lost in woods",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "unclear - possibly natural, precipitated devil's first visit",
+      "precipitating_quarrel": "sale of cow to Martin Mathiot with condition they keep first calf"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "cow",
+      "context": "sold to Martin Mathiot with condition they should have its first calf",
+      "category": "agricultural"
+    },
+    {
+      "object": "calf",
+      "context": "lost in woods, prompting search in bad weather",
+      "category": "agricultural"
+    },
+    {
+      "object": "bread",
+      "context": "husband went to sell bread to pay taxes",
+      "category": "food"
+    },
+    {
+      "object": "money",
+      "context": "devil gave her money which proved to be horse-dung",
+      "category": "money"
+    },
+    {
+      "object": "horse-dung",
+      "context": "money from devil transformed into this",
+      "category": "other"
+    },
+    {
+      "object": "black grease",
+      "context": "given by devil to make people ill",
+      "category": "magical"
+    },
+    {
+      "object": "white grease",
+      "context": "given by devil to heal",
+      "category": "magical"
+    },
+    {
+      "object": "yellow powder",
+      "context": "given by devil to heal",
+      "category": "magical"
+    },
+    {
+      "object": "basin",
+      "context": "taken as surety by Collignon Chandelot for taille, greased to make him ill",
+      "category": "household"
+    },
+    {
+      "object": "frying pan",
+      "context": "taken as surety by Collignon Chandelot on second visit, greased to cure him",
+      "category": "household"
+    },
+    {
+      "object": "dried pears",
+      "context": "greased to make Jean Huielle ill",
+      "category": "food"
+    },
+    {
+      "object": "dog",
+      "context": "Jean Huielle asked to buy a dog for some wine",
+      "category": "other"
+    },
+    {
+      "object": "wine",
+      "context": "offered in exchange for dog",
+      "category": "food"
+    },
+    {
+      "object": "linen",
+      "context": "her mother arrested for stealing linen from church",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Preny",
+      "place_type": "village",
+      "context": "place of residence of accused"
+    },
+    {
+      "place_name": "côte d'Arry",
+      "place_type": "sabbat_location",
+      "context": "sabbat location on E bank of Moselle where they made hail"
+    },
+    {
+      "place_name": "Moselle",
+      "place_type": "water_body",
+      "context": "river they crossed to reach sabbat at côte d'Arry - crossed easily with devil's help without getting wet"
+    },
+    {
+      "place_name": "Arnaville",
+      "place_type": "village",
+      "context": "where hail fell and did much damage, caused by rich at sabbat"
+    },
+    {
+      "place_name": "Woysaige",
+      "place_type": "village",
+      "context": "where hail fell and did much damage, caused by rich at sabbat"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "where calf was lost; where snow fell instead of on grain when poor resisted"
+    },
+    {
+      "place_name": "millstream",
+      "place_type": "water_body",
+      "context": "where husband fell and nearly drowned"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "where her mother stole linen"
+    },
+    {
+      "place_name": "chimney",
+      "place_type": "other",
+      "context": "how devil took her to sabbat - up the chimney"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "bad weather during search for lost calf",
+      "hail around Arnaville and Woysaige (attributed to sabbat)",
+      "snow falling mainly on woods (attributed to sabbat)"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "selling bread to pay taxes",
+      "taking surety for tax collection (basin, frying pan)",
+      "dispute over small house"
+    ],
+    "religious_calendar_references": [
+      "Christmas (mentioned as timing reference for quarrel with Jean Huielle)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      },
+      {
+        "name": "substitut for PG",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Her mother Parrotte femme Conictin le Treixe arrested for stealing linen from church and as witch, then suffocated herself in prison",
+        "outcome": "mother died in prison (suicide by suffocation)"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "imprisoned during trial",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 1,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 3,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "crying in bed when first spirit appeared",
+      "ill in bed when second spirit appeared",
+      "resigned to death - said she would rather die repentant than live longer"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Parrotte femme Conictin le Treixe",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "arrested for stealing linen from church and as witch, suffocated herself in prison; Bonne said she had been wronged"
+    },
+    {
+      "name": "Conictin le Treixe",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "stepfather or mother's husband",
+      "context": "husband of Parrotte"
+    },
+    {
+      "name": "Chrestaille",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "unknown - accused her",
+      "context": "accused Bonne of attending sabbat with her; Bonne denied this initially"
+    },
+    {
+      "name": "Martin Mathiot",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "business partner",
+      "context": "bought cow from Bonne and husband with condition they keep first calf"
+    },
+    {
+      "name": "Mengeot Bricholet",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "context": "husband; nearly drowned in millstream; went to sell bread to pay taxes"
+    },
+    {
+      "name": "Jean Huielle",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "quarreled with Bonne over small house; she made him ill with greased pears, then cured him; asked to buy dog for wine"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "This is a detailed case with full confession obtained without torture. Notable for: (1) mother's prior arrest and suicide in prison; (2) progression from denial to detailed confession between first and second interrogation; (3) detailed account of sabbat activities including class conflict (rich vs poor) over weather damage; (4) healing as well as harming; (5) resigned attitude - preferred death to continued life. The formal sentence carelessly claimed she caused deaths when confession only mentioned illnesses and healing. Only one witness (Collignon Chandelot) testified, corroborating her confession about his leg trouble.",
+    "pdf_pages": 2
+  }
+}

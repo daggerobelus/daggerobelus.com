@@ -1,0 +1,1878 @@
+{
+  "trial_id": "w042",
+  "archive_ref": "B 3333",
+  "location": "Domjevin",
+  "court": "Court at Blamont, with appeals to Change de Nancy",
+  "dates": {
+    "start": "1607-06-15",
+    "end": "1607-09-04",
+    "duration_days": 81
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Chretienne Simon",
+      "gender": "female",
+      "age": 32,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "Domjevin",
+      "residence": "Domjevin",
+      "marital_status": "married",
+      "spouse_name": "Demenge Fennay",
+      "parents": {
+        "father": "le maire Simon",
+        "mother": "Chretienne"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Parsin",
+        "devil_appearance": "appeared in form of a black dog (in later confession)",
+        "seduction_date": "2 years before arrest (initially confessed), later changed to 4 years earlier",
+        "seduction_context": "Seduced behind her house when 'toute desolée' (completely distressed) about accusations by Demenge Nicklauss. Devil promised to make her rich. Later said it was after quarrel with husband.",
+        "devil_mark": {
+          "present": false,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [
+          "yellow powder (to kill)",
+          "white powder (to heal)",
+          "red powder (to harm animals)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "by the river"
+        ],
+        "sabbat_activities": [
+          "dancing",
+          "making hail"
+        ],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas Nicklauss",
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "Brother of Demenge Nicklauss who had conflicts with accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Marriage negotiations - accused's brother Jean Simon was courting witness's brother's daughter Catherine, accused hoped for marriage, but she was married to another",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Two horses belonging to his brother Demenge Nicklauss",
+            "target_relationship": "brother's horses",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "around St Luc previous year, about a week after being touched"
+          },
+          {
+            "type": "animal_illness",
+            "target": "One horse that she held",
+            "target_relationship": "brother's horse",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "same incident, recovered after 2 weeks"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Demenge Nicklauss (le maire)",
+      "gender": "male",
+      "age": 48,
+      "occupation": "maire",
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor, had marriage negotiations and land disputes",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Land dispute - intended to operate 'retraicte' on land, and failed marriage negotiations between his daughter and accused's brother Jean Simon",
+        "threat_received": true,
+        "threat_quote": "Petite rouzeotte ou est ton pere il va querir des beaux poullains a Thiebausmesnil nompas",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his young daughter Jeanne",
+            "target_relationship": "daughter",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "following day after accused spoke to her and sent her to look for geese"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "his horses",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "shortly after quarrel over marriage"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Lucie veuve Claudon Nicolle",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jehenne fille Demenge Nicklauss",
+      "gender": "female",
+      "age": 17,
+      "age_approximate": true,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "daughter of Demenge Nicklauss",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "next day immediately after accused spoke to her again"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Catherine femme Demenge Nicklauss",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "wife of Demenge Nicklauss",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "marriage negotiations and illness of daughter",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter Jehenne",
+            "target_relationship": "daughter",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "after marriage dispute"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "family horses",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "around same time"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Nicklauss",
+      "gender": "male",
+      "age": 25,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "son of Demenge Nicklauss",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "marriage of his sister and illness of Jehenne",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jehenne (his sister)",
+            "target_relationship": "sister",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "after marriage dispute"
+          },
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "family horses",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Henry Mulnier dit le Clerc",
+      "gender": "male",
+      "age": 30,
+      "occupation": "Imbault of village",
+      "location": "Domjevin",
+      "relationship_to_accused": "had disputes with her husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Disputes with husband over communal fines and overcharging for wood",
+        "threat_received": true,
+        "threat_quote": "qu'il estoit trop haultain et qu'il ne fauldroit courrir trop fort pour le rattaindre",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "a horse",
+            "target_relationship": "his horse",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "after the quarrel and threat"
+          },
+          {
+            "type": "human_illness",
+            "target": "his wife",
+            "target_relationship": "wife",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "after horse became ill and knocked wife over"
+          },
+          {
+            "type": "animal_illness",
+            "target": "another horse",
+            "target_relationship": "his horse",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "previous summer when she went into stable during house rebuilding"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean le Clerc",
+      "gender": "male",
+      "age": 36,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Her husband's horses damaged his field of oats, husband condemned to repay 5 quarterons",
+        "threat_received": true,
+        "threat_quote": "qu'il vauldroit mieulx qu'il ne les eust gagés que ce seroit de la cherre avoine pour luy et qu'avant qu'il fust un peu de temps il se donneroit de garde",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "a horse",
+            "target_relationship": "his horse",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "soon after accepting oats from husband"
+          },
+          {
+            "type": "animal_death",
+            "target": "a cow",
+            "target_relationship": "his cow",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "some 6 weeks later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Annon femme Henry Mulnier",
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "wife of Henry Mulnier",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "during illness from horse incident"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Pierson Nicolle",
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Brother called Claudon fils Claudon Marchal 'fils de sorciere' while drinking, her husband Demenge Fennay defended her, fight ensued",
+        "threat_received": true,
+        "threat_quote": "qu'elle l'avoit hay cent et cent fois pour ce qu'elle hantoit et frequentoit au logis de Demenge Nicklauss (said to his mother); to witness she said she would remember it when he had forgotten",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal belonging to his mother",
+            "target_relationship": "mother's foal",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "around last Chandeleur, after the threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Demenge de Chesnoy, dit Marchal",
+      "gender": "male",
+      "age": null,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "had quarrelled with husband and relatives",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrelled with her husband and other relatives",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jennon femme au maire Jean Dediat",
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Franceatte femme Didier Estienne",
+      "gender": "female",
+      "age": null,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 1,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused complained that witness and her sister spoke ill of her while hoeing, and sister's children called one of accused's children 'son of a witch'",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses and a foal",
+            "target_relationship": "her horses",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "after the complaint"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jean Henry",
+      "gender": "male",
+      "age": 80,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "father of Franceatte, had complained to accused about insults",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused's grandchildren calling his son 'fils de sorciere' and remarks by his daughter Franceatte",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 horses",
+            "target_relationship": "his horses",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "within 2 days after complaint"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Laurent Bouzenotte",
+      "gender": "male",
+      "age": 33,
+      "occupation": null,
+      "location": "Benamesnil",
+      "relationship_to_accused": "stepfather of former servant Claudon Benay",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Stepson Claudon Benay had been servant in her house, left service and called her 'one of the witches' when passing her on road",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon Benay",
+            "target_relationship": "wife's son, stepson",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "about a month after calling her witch"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Didier Hocquarre",
+      "gender": "male",
+      "age": 28,
+      "occupation": "marguillier",
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Bastienne femme Nicolas Simonatte",
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "a cow",
+            "target_relationship": "her cow",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "year earlier"
+          },
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "on feast day of St Mathias after accused came to her door before dawn"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Vaultrin Louy",
+      "gender": "male",
+      "age": 51,
+      "occupation": null,
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor, accompanied Demenge Nicklauss to procureur fiscal",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with Demenge Nicklauss; witness accompanied Nicklauss to procureur fiscal at Blamont",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon de Benamesnil",
+            "target_relationship": "companion on road",
+            "attributed_to": "Chretienne Simon",
+            "time_after_quarrel": "shortly after Claudon called her 'one of the most perfect witches of Domjevin'"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean Dediat",
+      "gender": "male",
+      "age": 50,
+      "occupation": "maire",
+      "location": "Domjevin",
+      "relationship_to_accused": "neighbor, maire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1607-06-15",
+      "event": "other",
+      "subject": "maire Jean du Pont",
+      "details": "Placet submitted by maire Jean du Pont to initiate case"
+    },
+    {
+      "date": "1607-07-05",
+      "event": "other",
+      "subject": "procureur fiscal of comté de Blamont",
+      "details": "Approved taking of depositions"
+    },
+    {
+      "date": "1607-07-10",
+      "event": "informations_preparatoires",
+      "subject": "Chretienne Simon",
+      "details": "Witness depositions begin (witnesses 1-12)"
+    },
+    {
+      "date": "1607-07-11",
+      "event": "informations_preparatoires",
+      "subject": "Chretienne Simon",
+      "details": "Witness depositions continue (witnesses 14-19)"
+    },
+    {
+      "date": "1607-07-13",
+      "event": "other",
+      "subject": "procureur fiscal",
+      "details": "Orders arrest, interrogation, and confrontations"
+    },
+    {
+      "date": "1607-07-20",
+      "event": "interrogation",
+      "subject": "Chretienne Simon",
+      "details": "First interrogation - denied all charges"
+    },
+    {
+      "date": "1607-08-09",
+      "event": "confrontation",
+      "subject": "Chretienne Simon",
+      "details": "Confrontations with witnesses - she attacked their credibility"
+    },
+    {
+      "date": "1607-08-10",
+      "event": "torture_requested",
+      "subject": "Chretienne Simon",
+      "details": "Procureur fiscal asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1607-08-11",
+      "event": "torture_approved",
+      "subject": "Chretienne Simon",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1607-08-20",
+      "event": "torture",
+      "subject": "Chretienne Simon",
+      "details": "First torture session - thumbscrews, racked twice, confessed nothing"
+    },
+    {
+      "date": "1607-08-21",
+      "event": "torture",
+      "subject": "Chretienne Simon",
+      "details": "Second torture session - racked again, confessed to witchcraft for 2 years, seduction by Parsin, powders, sabbat"
+    },
+    {
+      "date": "1607-08-22",
+      "event": "death_requested",
+      "subject": "Chretienne Simon",
+      "details": "Procureur fiscal asks for question extraordinaire and death sentence"
+    },
+    {
+      "date": "1607-08-22",
+      "event": "death_approved",
+      "subject": "Chretienne Simon",
+      "details": "Change de Nancy approves, subject to confirmation of confessions away from torture chamber"
+    },
+    {
+      "date": "1607-08-24",
+      "event": "other",
+      "subject": "Chretienne Simon",
+      "details": "Attempted escape - bolted door at bottom of stairs at 4am"
+    },
+    {
+      "date": "1607-08-28",
+      "event": "interrogation",
+      "subject": "Chretienne Simon",
+      "details": "Interrogation away from torture - changed story, now said seduced 4 years earlier, admitted more harms"
+    },
+    {
+      "date": "1607-08-30",
+      "event": "death_approved",
+      "subject": "Chretienne Simon",
+      "details": "Change de Nancy reiterates approval"
+    },
+    {
+      "date": "1607-09-04",
+      "event": "interrogation",
+      "subject": "Chretienne Simon",
+      "details": "Final interrogation - confirmed previous confessions, left with priest"
+    },
+    {
+      "date": "1607-09-04",
+      "event": "sentence",
+      "subject": "Chretienne Simon",
+      "details": "Undated death sentence from court at Blamont follows"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews",
+      "rack (multiple times)"
+    ],
+    "requesting_official": "procureur fiscal of comté de Blamont",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Mother of accused",
+      "accuser_location": "Domjevin",
+      "context": "Mother Chretienne executed as witch at Blamont 4 or 5 years earlier (around 1602-1603), since when accused had been suspected",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Chretienne Simon (to Nicolas Nicklauss when passing horses at night)",
+      "french": "En voila un noirre qui abbaye par la, on dict que c'est le chien du prevost d'Argeviller",
+      "english": "There is a black one barking over there, they say it's the dog of the prévôt of Ogéviller",
+      "context": "Night encounter when accused allegedly touched horses that later died"
+    },
+    {
+      "speaker": "Chretienne Simon (to Demenge Nicklauss's young daughter Jeanne)",
+      "french": "Petite rouzeotte ou est ton pere il va querir des beaux poullains a Thiebausmesnil nompas",
+      "english": "Little red-head, where is your father, he's going to get fine foals at Thiebausmesnil, isn't he",
+      "context": "Shortly before daughter became mentally disturbed"
+    },
+    {
+      "speaker": "Ambrosian father (about bewitched girl)",
+      "french": "ensorcellée par une femme qui ne demeuroit guiere loing de son logis et qui avoit bien envie de luy faire beaucoup de maulx",
+      "english": "bewitched by a woman who lived not far from her house and who had a strong desire to do her much harm",
+      "context": "Diagnosis of Jehenne's illness after exorcism"
+    },
+    {
+      "speaker": "Chretienne Simon (to Henry Mulnier during quarrel)",
+      "french": "qu'il estoit trop haultain et qu'il ne fauldroit courrir trop fort pour le rattaindre",
+      "english": "that he was too haughty and it wouldn't be necessary to run very fast to catch up with him",
+      "context": "Threatening statement during dispute over communal fines and wood charges"
+    },
+    {
+      "speaker": "Jean le Clerc (threat from Chretienne Simon)",
+      "french": "qu'il vauldroit mieulx qu'il ne les eust gagés que ce seroit de la cherre avoine pour luy et qu'avant qu'il fust un peu de temps il se donneroit de garde",
+      "english": "that it would be better if he hadn't won them, that it would be expensive oats for him and that before long he would beware",
+      "context": "After husband's horses damaged his field and he was awarded compensation"
+    },
+    {
+      "speaker": "Chretienne Simon (to mother of Pierson Nicolle)",
+      "french": "qu'elle l'avoit hay cent et cent fois pour ce qu'elle hantoit et frequentoit au logis de Demenge Nicklauss",
+      "english": "that she had hated her a hundred and a hundred times because she frequented the house of Demenge Nicklauss",
+      "context": "Before death of foal"
+    },
+    {
+      "speaker": "Claudon Benay (former servant, about Chretienne Simon)",
+      "french": "en voicy une des genaxes",
+      "english": "here is one of the witches",
+      "context": "Called out when passing her on road from Nancy"
+    },
+    {
+      "speaker": "Vaultrin Louy (reporting what Claudon de Benamesnil said)",
+      "french": "en voila une des plus parfaites sorcieres de Domjevin",
+      "english": "there is one of the most perfect witches of Domjevin",
+      "context": "Claudon's statement about Chretienne Simon before his drowning"
+    },
+    {
+      "speaker": "Chretienne Simon (in interrogation about Demenge Nicklauss)",
+      "french": "ung meschant homme, estimant que ladite haine est cause de son malheur et de son apprehention qu'il ne tasche qu'a luy faire deshonneur et la rendre meschante",
+      "english": "a wicked man, believing that said hatred is the cause of her misfortune and her arrest, that he seeks only to dishonor her and make her appear wicked",
+      "context": "When asked about hatreds in village"
+    },
+    {
+      "speaker": "Chretienne Simon (about testimony)",
+      "french": "que le papier se laissoit escrire et qu'elle recognoissoit bien que l'on y mestoit aussy bien des menteries qu'autres choses",
+      "english": "that paper allowed itself to be written on and that she recognized well that they put as many lies as other things on it",
+      "context": "Denying charges about harming Nicklauss's daughter"
+    },
+    {
+      "speaker": "Chretienne Simon (about pilgrimages for bewitchment)",
+      "french": "s'ils estoient en oppinion que ce fut de sorcellerie qu'ils n'en debvoient aller en pelerinage comme ils ont fait les appelants tousjours meschantes gens et traistres qu'ils taschent bien de luy causer ung malheur, toutesfois qu'elle esperoit qu'ils n'y adviendroient et qu'ils faisoient en cela leurs damnations",
+      "english": "if they were of the opinion that it was witchcraft they shouldn't go on pilgrimage as they did, calling them always wicked people and traitors who are trying hard to cause her misfortune, however she hoped they would not succeed and that they were doing their damnation in this",
+      "context": "Defending herself during interrogation"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Chretienne Simon",
+      "person2": "Demenge Fennay",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Chretienne Simon, femme Demenge Fennay",
+      "inferred": false
+    },
+    {
+      "person1": "Chretienne Simon",
+      "person2": "le maire Simon",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of le maire Simon and his wife Chretienne",
+      "inferred": false
+    },
+    {
+      "person1": "Chretienne Simon",
+      "person2": "Chretienne (mother)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of le maire Simon and his wife Chretienne",
+      "inferred": false
+    },
+    {
+      "person1": "Chretienne Simon",
+      "person2": "Jean Simon",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her brother Jean Simon was courting brother's daughter Catherine",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Nicklauss",
+      "person2": "Demenge Nicklauss",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "guarding horses of his brother Demenge Nicklauss",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Nicklauss",
+      "person2": "Catherine femme Demenge Nicklauss",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme Demenge Nicklauss",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Nicklauss",
+      "person2": "Jehenne fille Demenge Nicklauss",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his young daughter Jeanne",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Nicklauss",
+      "person2": "Jean Nicklauss",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "son of Demenge Nicklauss",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Simon",
+      "person2": "Catherine (daughter of Demenge Nicklauss)",
+      "relationship_type": "other_social",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "her brother Jean Simon was courting brother's daughter Catherine",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Bennay",
+      "person2": "Demenge Fennay",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "servant of Fennay, Claudon Bennay of Benaumesnil",
+      "inferred": false
+    },
+    {
+      "person1": "Henry Mulnier dit le Clerc",
+      "person2": "Annon femme Henry Mulnier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Annon femme Henry Mulnier",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Henry",
+      "person2": "Franceatte femme Didier Estienne",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "father of the witness, Jean Henry",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte",
+      "person2": "Sebille femme Nicolas Estienne",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her sister Sebille femme Nicolas Estienne",
+      "inferred": false
+    },
+    {
+      "person1": "Laurent Bouzenotte",
+      "person2": "Claudon Benay",
+      "relationship_type": "other_kin",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "His wife's son Claudon Benay, aged 16",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Simonatte",
+      "person2": "Bastienne femme Nicolas Simonatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Bastienne femme Nicolas Simonatte",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Dediat",
+      "person2": "Jennon femme au maire Jean Dediat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon, femme au maire Jean Dediat",
+      "inferred": false
+    },
+    {
+      "person1": "Chretienne Simon",
+      "person2": "Demenge Nicklauss",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "she lived next to them",
+      "inferred": false
+    },
+    {
+      "person1": "Lucie veuve Claudon Nicolle",
+      "person2": "Claudon Nicolle",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Lucie veuve Claudon Nicolle",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Marchal (mother)",
+      "person2": "Claudon fils Claudon Marchal",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Claudon fils Claudon Marchal 'fils de sorciere' - his mother had been executed at Blamont",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes mentioned: land 'retraicte' dispute between Demenge Nicklauss and Demenge Jean Jean; Henry Mulnier as 'Imbault' had disputes with accused's husband over delayed communal fines and alleged overcharging for wood; accused claimed Demenge Nicklauss used false measure and stole wood at Ognieviller; Jean le Clerc's field of oats damaged by accused's husband's horses, awarded 5 quarterons compensation"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Two horses belonging to Demenge Nicklauss",
+      "victim_relationship_to_witness": "brother's horses",
+      "harm_category": "animal_death",
+      "harm_description": "Became ill, refusing to eat, died within an hour of time when touched",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Marriage negotiations failed - accused's brother wanted to marry Nicklauss's daughter",
+      "time_between_quarrel_and_harm": "around St Luc previous year, a week after being touched",
+      "method_alleged": "Put hand on mane of one horse, sprinkled something on back of others",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "One horse held by Chretienne",
+      "victim_relationship_to_witness": "brother's horse",
+      "harm_category": "animal_illness",
+      "harm_description": "Became ill for 2 weeks but recovered",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Same marriage dispute",
+      "time_between_quarrel_and_harm": "same incident",
+      "method_alleged": "She held the horse",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jehenne, daughter of Demenge Nicklauss",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Became 'perturbée de son entendement' (disturbed in understanding/mentally ill), returned with every new moon",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Failed marriage negotiations and land dispute",
+      "time_between_quarrel_and_harm": "following day after accused spoke to her and sent her to look for geese",
+      "method_alleged": "Speaking to her, calling her 'Petite rouzeotte', sending her to look for geese",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Two horses belonging to Demenge Nicklauss",
+      "victim_relationship_to_witness": "his horses",
+      "harm_category": "animal_death",
+      "harm_description": "Deaths of 2 horses",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Marriage and land disputes",
+      "time_between_quarrel_and_harm": "shortly after quarrel",
+      "method_alleged": "Witchcraft",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Horse of Henry Mulnier",
+      "victim_relationship_to_witness": "his horse",
+      "harm_category": "animal_death",
+      "harm_description": "Became as if rabid, making great disturbance in stable at night",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Disputes over communal fines and overcharging for wood",
+      "time_between_quarrel_and_harm": "after threat",
+      "method_alleged": "Witchcraft after threat",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Wife of Henry Mulnier",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "In bed for 5 or 6 weeks, so ill expected to die",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Dispute with husband",
+      "time_between_quarrel_and_harm": "after horse became rabid and knocked her over",
+      "method_alleged": "Brought five eggs, one cracked - eating them cured her",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Another horse of Henry Mulnier",
+      "victim_relationship_to_witness": "his horse",
+      "harm_category": "animal_illness",
+      "harm_description": "Became ill but recovered after a week",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Previous summer, entered stable during house rebuilding",
+      "time_between_quarrel_and_harm": "next morning",
+      "method_alleged": "Went into stable as far as stable area",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Horse of Jean le Clerc",
+      "victim_relationship_to_witness": "his horse",
+      "harm_category": "animal_death",
+      "harm_description": "Sickened and died before reaching house",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Husband's horses damaged his oats field, he was awarded 5 quarterons",
+      "time_between_quarrel_and_harm": "soon after accepting half resal of oats from husband",
+      "method_alleged": "Wished horse might never return home as he led it past her house",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Cow of Jean le Clerc",
+      "victim_relationship_to_witness": "his cow",
+      "harm_category": "animal_death",
+      "harm_description": "Death of cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Same dispute",
+      "time_between_quarrel_and_harm": "some 6 weeks later",
+      "method_alleged": "Cow chewed some straw outside her house",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Foal belonging to mother of Pierson Nicolle",
+      "victim_relationship_to_witness": "mother's foal",
+      "harm_category": "animal_death",
+      "harm_description": "Death of foal",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Brother called Claudon Marchal 'fils de sorciere', husband defended her, fight ensued; witness said witches should be quiet",
+      "time_between_quarrel_and_harm": "around last Chandeleur",
+      "method_alleged": "After telling mother she hated her for frequenting Nicklauss's house",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Two horses and a foal of Franceatte",
+      "victim_relationship_to_witness": "her animals",
+      "harm_category": "animal_death",
+      "harm_description": "Lost 2 horses and a foal",
+      "animal_type": "horse/foal",
+      "animal_count": 3,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Accused complained about witness and sister speaking ill of her, sister's children calling accused's child 'son of a witch'",
+      "time_between_quarrel_and_harm": "after the complaint",
+      "method_alleged": "Witchcraft/revenge",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Three horses of Jean Henry",
+      "victim_relationship_to_witness": "his horses",
+      "harm_category": "animal_death",
+      "harm_description": "Death of 3 horses",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Accused's grandchildren calling his son 'fils de sorciere', his daughter Franceatte's remarks",
+      "time_between_quarrel_and_harm": "within 2 days after complaint",
+      "method_alleged": "Witchcraft/revenge",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Claudon Benay (stepson of Laurent Bouzenotte)",
+      "victim_relationship_to_witness": "wife's son, stepson",
+      "harm_category": "human_death",
+      "harm_description": "Drowned in river - horse ran away with him and threw him in river during floods",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Former servant who left her service, called her 'one of the witches' when passing on road",
+      "time_between_quarrel_and_harm": "about a month later",
+      "method_alleged": "Witchcraft/revenge for insult",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Cow of Bastienne femme Nicolas Simonatte",
+      "victim_relationship_to_witness": "her cow",
+      "harm_category": "animal_death",
+      "harm_description": "Cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Unclear - cow tended to go to accused's house",
+      "time_between_quarrel_and_harm": "year earlier",
+      "method_alleged": "Witchcraft",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Bastienne femme Nicolas Simonatte",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Eyes started to stream so couldn't see to sew, whole body became swollen, had to go to bed, still suffering back pains",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Unknown - witness didn't know how she displeased her",
+      "time_between_quarrel_and_harm": "same evening after accused came to door before dawn on St Mathias",
+      "method_alleged": "Knocked on door before dawn, possibly threw something over her when she opened without light; brought lard that cured her",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Claudon de Benamesnil",
+      "victim_relationship_to_witness": "companion on road",
+      "harm_category": "human_death",
+      "harm_description": "Found drowned",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon",
+      "precipitating_quarrel": "Called her 'one of the most perfect witches of Domjevin' while passing her on road",
+      "time_between_quarrel_and_harm": "shortly after incident",
+      "method_alleged": "Witchcraft/revenge",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Calf of Jean (brother of Chretienne)",
+      "victim_relationship_to_witness": "brother's calf",
+      "harm_category": "animal_death",
+      "harm_description": "Killed calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon (confessed)",
+      "precipitating_quarrel": "Quarrelled with her brother",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Yellow powder to kill",
+      "witness_number": null
+    },
+    {
+      "victim_name": "One of her own cows",
+      "victim_relationship_to_witness": "self/test victim",
+      "harm_category": "animal_death",
+      "harm_description": "Died - used as test for powder",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon (confessed)",
+      "precipitating_quarrel": "None - testing powder",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Yellow powder to kill - testing it out",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Cow of Jennon veuve le Gal",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_death",
+      "harm_description": "Killed cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon (confessed)",
+      "precipitating_quarrel": "Jennon had been breaking her garden fence",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Red powder to harm animals",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Cow of mother of Pierson Nicolle",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_death",
+      "harm_description": "Killed cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon (confessed in later interrogation)",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Witchcraft",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Horses of Demenge Nicklauss",
+      "victim_relationship_to_witness": null,
+      "harm_category": "animal_death",
+      "harm_description": "Given permission to master in form of black dog to kill horses",
+      "animal_type": "horse",
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Chretienne Simon (confessed in later interrogation)",
+      "precipitating_quarrel": "Long-standing dispute with Nicklauss",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Gave devil permission in form of black dog",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "horses",
+      "context": "Multiple horses killed or made ill - central to village economy",
+      "category": "agricultural"
+    },
+    {
+      "object": "foals",
+      "context": "Young horses mentioned in quarrels and as victims",
+      "category": "agricultural"
+    },
+    {
+      "object": "cows",
+      "context": "Multiple cows killed by alleged witchcraft",
+      "category": "agricultural"
+    },
+    {
+      "object": "field of oats",
+      "context": "Damaged by accused's husband's horses",
+      "category": "agricultural"
+    },
+    {
+      "object": "lentils",
+      "context": "Franceatte was hoeing among lentils",
+      "category": "agricultural"
+    },
+    {
+      "object": "geese",
+      "context": "Demenge Nicklauss sent daughter to look for geese, accused asked her to help round up her own geese",
+      "category": "agricultural"
+    },
+    {
+      "object": "eggs",
+      "context": "Accused brought 5 eggs to sick wife of Henry Mulnier during Lent, one was cracked",
+      "category": "food"
+    },
+    {
+      "object": "lard",
+      "context": "Accused brought lard to Bastienne femme Nicolas Simonatte which helped her recover",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "Accused was putting bread in oven when Claudon drowned",
+      "category": "food"
+    },
+    {
+      "object": "butter",
+      "context": "Used to cook eggs daily",
+      "category": "food"
+    },
+    {
+      "object": "grain",
+      "context": "Taking grain to Nancy by cart",
+      "category": "agricultural"
+    },
+    {
+      "object": "cart",
+      "context": "Used to transport grain to Nancy",
+      "category": "agricultural"
+    },
+    {
+      "object": "wood",
+      "context": "Dispute over overcharging for wood; accused claimed Nicklauss stole wood at Ognieviller",
+      "category": "agricultural"
+    },
+    {
+      "object": "straw",
+      "context": "Cow chewed straw outside accused's house and died",
+      "category": "agricultural"
+    },
+    {
+      "object": "powder (yellow, white, red)",
+      "context": "Magical powders allegedly given by devil - yellow to kill, white to heal, red to harm animals",
+      "category": "magical"
+    },
+    {
+      "object": "mask (red)",
+      "context": "Devil gave accused red mask at sabbat, she left it on willow-tree",
+      "category": "magical"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "Torture instrument used in interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "rack",
+      "context": "Torture instrument used multiple times",
+      "category": "tools"
+    },
+    {
+      "object": "light/candle",
+      "context": "Wife of Henry Mulnier dropped light when horse knocked into her; Bastienne opened door without light",
+      "category": "household"
+    },
+    {
+      "object": "stable",
+      "context": "Location of horse illness and death; accused entered Henry Mulnier's stable",
+      "category": "agricultural"
+    },
+    {
+      "object": "shirt collar",
+      "context": "Demenge Fennay tore collar off witness's brother's shirt in fight",
+      "category": "clothing"
+    },
+    {
+      "object": "cloth",
+      "context": "Franceatte allegedly given cloth to hush up having child by German soldier",
+      "category": "clothing"
+    },
+    {
+      "object": "money (nothing)",
+      "context": "Devil gave her money that turned out to be nothing",
+      "category": "money"
+    },
+    {
+      "object": "quarterons (measure)",
+      "context": "Unit of measurement - Jean le Clerc awarded 5 quarterons for damaged oats",
+      "category": "agricultural"
+    },
+    {
+      "object": "resal (measure)",
+      "context": "Half resal of oats accepted as compensation",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Domjevin",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Location of court and procureur fiscal; mother executed there; Claudon Marchal's mother executed there"
+    },
+    {
+      "place_name": "Manonviller",
+      "place_type": "village",
+      "context": "Accused returning from 'bastand' (pasture) there when she passed horses at night"
+    },
+    {
+      "place_name": "Ogéviller (Argeviller)",
+      "place_type": "village",
+      "context": "Location of prévôt whose dog was mentioned; Jean Henry allegedly drowned man returning from tavern there; Demenge Nicklauss allegedly stole wood there"
+    },
+    {
+      "place_name": "Benaumesnil (Benamesnil)",
+      "place_type": "village",
+      "context": "Home of Claudon Bennay and Laurent Bouzenotte"
+    },
+    {
+      "place_name": "St Nicolas",
+      "place_type": "church",
+      "context": "Location of Ambrosian fathers who performed exorcism on Jehenne"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Demenge Nicklauss taking sick horse there to see if it could be cured"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Witness's brother married there; taking grain to market there; Change de Nancy (court)"
+    },
+    {
+      "place_name": "Lunéville",
+      "place_type": "village",
+      "context": "Accused and husband went to inform procureur; Claudon Benay met accused in plain of Lunéville"
+    },
+    {
+      "place_name": "Thiebausmesnil",
+      "place_type": "village",
+      "context": "Mentioned in accused's threat about getting foals"
+    },
+    {
+      "place_name": "Vargaville",
+      "place_type": "village",
+      "context": "Pilgrimage site where they took bewitched daughter"
+    },
+    {
+      "place_name": "Frémenil",
+      "place_type": "village",
+      "context": "Direction escaped horse ran before Claudon drowned chasing it"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Multiple disputes over fields, horses grazing in fields, field of oats damaged"
+    },
+    {
+      "place_name": "river (by sabbat location)",
+      "place_type": "water_body",
+      "context": "Sabbat held by river where 12 people danced and made hail; Claudon drowned in river"
+    },
+    {
+      "place_name": "behind her house",
+      "place_type": "house",
+      "context": "Location where devil Parsin seduced her; where she claimed to hide white powder under wood"
+    },
+    {
+      "place_name": "willow-tree near sabbat",
+      "place_type": "other",
+      "context": "Where accused claimed to leave red mask from devil"
+    },
+    {
+      "place_name": "Blemerey mill",
+      "place_type": "other",
+      "context": "Accused claimed Vaultrin Louy committed theft there"
+    },
+    {
+      "place_name": "plain of Lunéville",
+      "place_type": "field",
+      "context": "Where Claudon Benay encountered accused and called her witch"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Jennon veuve le Gal allegedly breaking accused's garden fence"
+    },
+    {
+      "place_name": "poisle of maire Jean Dediot",
+      "place_type": "house",
+      "context": "Where women were to keep vigil and spin on feast of St Mathias"
+    },
+    {
+      "place_name": "tavern at Ogéviller",
+      "place_type": "other",
+      "context": "Where Jean Henry allegedly drank before drowning Didier Pierson"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "German soldier mentioned - Franceatte allegedly had child by German soldier and was given cloth to hush it up, commonly called 'allemande' as result",
+    "weather_events": [
+      "floods mentioned when Claudon Benay drowned",
+      "hail-making at sabbat"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "multiple disputes over small amounts of grain and wood",
+      "communal fines causing conflict",
+      "accusations of false measure and theft",
+      "economic value of horses and livestock crucial - multiple deaths economically devastating"
+    ],
+    "religious_calendar_references": [
+      "St Luc",
+      "Lent (accused brought eggs during Lent)",
+      "Chandeleur",
+      "feast day of St Mathias",
+      "Vespres (vespers)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Jean du Pont",
+        "role": "mayor",
+        "location": "Domjevin"
+      },
+      {
+        "name": "procureur fiscal of comté de Blamont",
+        "role": "prosecutor_pg",
+        "location": "Blamont"
+      },
+      {
+        "name": "Jean Dediat",
+        "role": "mayor",
+        "location": "Domjevin"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Quarrel with Demenge Nicklauss over land 'retraicte' - went before procureur fiscal at Blamont who made accord with penalty of 'boisson' for breaking it",
+        "outcome": "Accord made but accused decided to pay penalty rather than keep it, went to Lunéville to inform procureur"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Demenge Nicklauss blamed her for death of horses, she wanted to take him to court but couldn't prove what he said",
+        "outcome": "Unable to proceed - no proof"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Accused claimed Demenge Nicklauss had stolen wood at Ognieviller",
+        "outcome": "Unknown"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Dispute with Henry Mulnier over communal fines and wood charges",
+        "outcome": "Ongoing conflict"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Unable to take Demenge Nicklauss to court for defamation because couldn't prove what he said; went before procureur fiscal who made accord",
+    "imprisonment_conditions": "Guards in room; attempted escape on August 24 by bolting door at bottom of stairs at 4am",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 14,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Nicolas Nicklauss",
+        "source": "Claudon Bennay (servant of Fennay)",
+        "content": "Heard his master telling off his wife over rumour she killed the two horses, she swore she hadn't done it but believed it was wife of Toussaint Henry"
+      },
+      {
+        "reporter": "Franceatte femme Didier Estienne",
+        "source": "wife of Nicolas Gossat",
+        "content": "If accused knew what they had said about her while hoeing, the devil her master must have told her"
+      },
+      {
+        "reporter": "Laurent Bouzenotte",
+        "source": "stepson Claudon Benay aged 16",
+        "content": "Claimed he had seen such things in her house that he believed she was a true witch; her eldest son aged 7 or 8 told Claudon that his mother wanted to take him with her"
+      },
+      {
+        "reporter": "Vaultrin Louy",
+        "source": "Claudon de Benamesnil",
+        "content": "Described how her husband returned from tavern, called her 'carogne', told her of accusation over horses; she denied it; he said he would beat servant; she begged him not to"
+      },
+      {
+        "reporter": "Jennon femme au maire Jean Dediat",
+        "source": "husband",
+        "content": "Had heard from husband of some suspicions but no personal ones"
+      }
+    ],
+    "oldest_accusation_years": 10,
+    "corroboration_groups": [
+      [1, 2, 5, 6],
+      [7, 9],
+      [13, 14],
+      [15, 18]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Made some difficulty about renouncing devil before finally doing so",
+      "Had often cried over rumours she was to be arrested, shutting herself up in her room",
+      "Attempted escape on August 24, 1607",
+      "Claimed something in body prevented her from telling truth during torture and made her lie"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 15,
+        "objection": "Said she did not know Laurent Bougenotte well, but had heard he had a bad reputation, and several including his own son had called him a witch"
+      },
+      {
+        "witness_number": 1,
+        "objection": "Called Nicolas Nicklauss 'une vielle charogne et un viel dampné' (an old carrion and an old damned one), said he originally suspected wife of Toussaint Henry over deaths"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Claimed Demenge Nicklauss had been fined for theft of wood, used false measure; claimed he gave his daughter instructions in writing about what to depose; said his wife Catherine had been reputed a witch for 16 years"
+      },
+      {
+        "witness_number": 6,
+        "objection": "Said Jean Nicklauss kept company with Mre Jean du Pont who had been hung in effigy and 'luy apprend toute meschanceté' (teaches him all wickedness)"
+      },
+      {
+        "witness_number": 7,
+        "objection": "Claimed Henry Mulnier, his brother, and his sister were all reputed witches"
+      },
+      {
+        "witness_number": 10,
+        "objection": "Said Pierson Nicolle threatened to chase rats out of cousin's house which burned down 2 weeks later; reproached with setting it alight without seeking reparation"
+      },
+      {
+        "witness_number": 8,
+        "objection": "Said Jean le Clerc had long reputation as witch and thief"
+      },
+      {
+        "witness_number": 9,
+        "objection": "Said Annel femme Henry Mulnier was a thief"
+      },
+      {
+        "witness_number": 13,
+        "objection": "Said Franceotte was a whore, having had child by German soldier, given cloth to hush it up, commonly called 'allemande'"
+      },
+      {
+        "witness_number": 14,
+        "objection": "Said Jean Henry supposedly drowned man named Didier Pierson in river returning from tavern at Ogéviller, tried to kill someone on road and steal his purse"
+      },
+      {
+        "witness_number": 17,
+        "objection": "Said Bastienne femme Nicolas Simonatte was a whore who had child by another man, which is why husband didn't see her willingly"
+      },
+      {
+        "witness_number": 18,
+        "objection": "Said Vaultrin Louy had committed theft in mill at Blemerey"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Chretienne (mother of accused)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother",
+      "relationship_to_witness": null,
+      "context": "Executed as witch at Blamont 4 or 5 years before this trial (around 1602-1603), since when accused had been suspected"
+    },
+    {
+      "name": "Jean Simon",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "relationship_to_witness": "was courting daughter of Demenge Nicklauss",
+      "context": "Courted Catherine, daughter of Demenge Nicklauss; accused hoped for marriage but she was married to another"
+    },
+    {
+      "name": "Catherine (daughter of Demenge Nicklauss)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "potential sister-in-law",
+      "relationship_to_witness": "daughter of witness 2",
+      "context": "Was courted by Jean Simon but married to another, sparking quarrel"
+    },
+    {
+      "name": "Claudon Bennay (Benay)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "former servant",
+      "relationship_to_witness": "stepson of witness 15",
+      "context": "Aged 16, served in accused's house, claimed to see things that made him believe she was witch; left service, called her witch, drowned about month later"
+    },
+    {
+      "name": "Demenge Fennay",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "relationship_to_witness": "had disputes with witnesses",
+      "context": "Husband of accused; defended her honor; had disputes with Henry Mulnier and others; accused said he didn't believe she was witch and would defend her strongly"
+    },
+    {
+      "name": "wife of Toussaint Henry Toussaint",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": null,
+      "context": "Accused's husband allegedly said she (not accused) was responsible for death of horses; Nicolas Nicklauss originally suspected her"
+    },
+    {
+      "name": "Ambrosian fathers at St Nicolas",
+      "role_in_narrative": "official",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "exorcised Jehenne",
+      "context": "Performed exorcism on Jehenne, diagnosed her as bewitched by woman living nearby who wanted to do much harm"
+    },
+    {
+      "name": "Claudon fils Claudon Marchal",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Called 'fils de sorciere' by Pierson Nicolle's brother while drinking - his mother had been executed at Blamont"
+    },
+    {
+      "name": "Claudon Marchal (mother)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Executed as witch at Blamont"
+    },
+    {
+      "name": "wife of Nicolas Gossat",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "working near witness 13",
+      "context": "Working nearby when Franceatte was hoeing; commented that if accused knew what they said, devil must have told her"
+    },
+    {
+      "name": "Sebille femme Nicolas Estienne",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "sister of witness 13",
+      "context": "Accused complained about her speaking ill; her children called accused's child 'son of a witch'"
+    },
+    {
+      "name": "Pierron Courrexier (?)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Maire whose house Claudon Benay went to after leaving accused's service"
+    },
+    {
+      "name": "Jennon veuve le Gal",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": null,
+      "context": "Accused confessed to killing her cow with red powder after she broke garden fence"
+    },
+    {
+      "name": "Didier Pierson",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Accused claimed Jean Henry drowned him in river when returning from tavern at Ogéviller"
+    },
+    {
+      "name": "Mre Jean du Pont",
+      "role_in_narrative": "official",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Had been hung in effigy; accused claimed he taught Jean Nicklauss all wickedness; was maire who initiated case with placet"
+    },
+    {
+      "name": "German soldier",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Accused claimed Franceatte had child by German soldier"
+    },
+    {
+      "name": "eldest son of accused (aged 7 or 8)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": null,
+      "context": "Allegedly told Claudon Benay that his mother wanted to take him with her; she beat him when she overheard"
+    },
+    {
+      "name": "Mengin Saba (Caba)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "relative of husband",
+      "relationship_to_witness": null,
+      "context": "Had quarrelled with husband; devil Parsin wanted her to harm him but she refused because he was a relative; his servant had red dog"
+    },
+    {
+      "name": "Demenge Jean Jean",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Bought land that Demenge Nicklauss wanted to operate 'retraicte' on; his son was involved in marriage negotiations"
+    },
+    {
+      "name": "Lucie veuve Claudon Nicolle",
+      "role_in_narrative": "witness",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "witness 3",
+      "context": "Accused denied hating her but admitted not associating with those who frequented Nicklauss's house"
+    },
+    {
+      "name": "Claudon de Benamesnil",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "companion of witness 18",
+      "context": "Was with Vaultrin Louy returning from Nancy, called accused 'one of the most perfect witches of Domjevin', found drowned shortly after"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Exceptionally detailed trial record with 19 witnesses, extensive confrontations, torture sessions, confession under duress, and execution. Accused was daughter of executed witch. Key themes: failed marriage negotiations, multiple animal deaths (especially horses), economic disputes, accusations spreading through Nicklauss family network. Accused vigorously defended herself by attacking credibility of all witnesses during confrontations. Confession only came under torture and involved typical elements (devil Parsin, powders, sabbat, sexual relations). Trial demonstrates pattern of reputation-harm-accusation cycle and role of prior family execution in establishing suspicion.",
+    "pdf_pages": 8
+  }
+}

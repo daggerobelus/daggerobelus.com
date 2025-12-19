@@ -1,0 +1,789 @@
+{
+  "trial_id": "w033",
+  "archive_ref": "B 3323 no 9",
+  "location": "Leintrey",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1602-06-11",
+    "end": "1602-07-01",
+    "duration_days": 20
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jennon fille feu le Petit Poirson",
+      "gender": "female",
+      "age": 46,
+      "age_approximate": true,
+      "occupation": [
+        "servant",
+        "widow"
+      ],
+      "origin": "Leintrey",
+      "residence": "Leintrey",
+      "marital_status": "widowed",
+      "spouse_name": "Claudon Grand Demenge",
+      "parents": {
+        "father": "Le Petit Poirson",
+        "mother": "Catherine Nicolas Gerard"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Elizabeth femme a Colas Grand Demenge",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Gondrexon",
+      "relationship_to_accused": "sister-in-law (husband's brother's wife)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Colas Grand Demenge",
+      "gender": "male",
+      "age": 35,
+      "age_approximate": true,
+      "location": "Gondrexon",
+      "relationship_to_accused": "brother-in-law (husband's brother)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Property settlement - accused refused to place goods 'au plus vivant'",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon Grand Demenge",
+            "target_relationship": "brother (accused's husband)",
+            "attributed_to": "Jennon Poirson",
+            "time_after_quarrel": "fell ill after returning from feste a Migneville"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jean de Benamesnil",
+      "gender": "male",
+      "age": 38,
+      "age_approximate": true,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over watering animals - asked accused to hold hers back",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jennon Poirson",
+            "time_after_quarrel": "immediately after - calf rushed into cow's side"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jennon femme Jean de Benaumesnil",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Watering animals dispute",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jennon Poirson",
+            "time_after_quarrel": "immediately after quarrel"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Demenge Daval",
+      "gender": "male",
+      "age": 26,
+      "age_approximate": true,
+      "location": "Gondrexon",
+      "relationship_to_accused": "unknown",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudatte femme Colas Jean Mongeatte",
+      "gender": "female",
+      "age": 30,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused's husband didn't want to live in Leintrey",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon Grand Demenge",
+            "target_relationship": "accused's husband",
+            "attributed_to": "Jennon Poirson",
+            "time_after_quarrel": "unspecified"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jehenne femme Colas Petit Claude",
+      "gender": "female",
+      "age": 40,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor, both from Leintrey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Not being invited when witness gave birth",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jehenne herself",
+            "target_relationship": "self",
+            "attributed_to": "Jennon Poirson",
+            "time_after_quarrel": "after giving birth"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Mongeotte",
+      "gender": "male",
+      "age": 70,
+      "age_approximate": true,
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Chrestienne veuve de Guillaumin Jean Vatrix",
+      "gender": "female",
+      "location": "Gondrexon",
+      "relationship_to_accused": "neighbor and friend",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Colas Claudon",
+      "gender": "male",
+      "age": 70,
+      "location": "Gondrexon",
+      "occupation": "margelier",
+      "relationship_to_accused": "neighbor, father-in-law identified her",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 9,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-06-11",
+      "event": "informations_preparatoires",
+      "subject": "Jennon Poirson",
+      "details": "Preliminary investigations began with witness testimonies"
+    },
+    {
+      "date": "1602-06-25",
+      "event": "interrogation",
+      "subject": "Jennon Poirson",
+      "details": "Accused interrogated, declared age about 46, explained life history and service positions"
+    },
+    {
+      "date": "1602-06-25",
+      "event": "confrontation",
+      "subject": "Jennon Poirson",
+      "details": "Confrontations with witnesses held same day as interrogation; mild argument over icy/snowy conditions during cow incident"
+    },
+    {
+      "date": "1602-06-26",
+      "event": "other",
+      "subject": "Additional witnesses",
+      "details": "Two additional depositions taken (witnesses 9 and 10)"
+    },
+    {
+      "date": "1602-06-30",
+      "event": "torture_requested",
+      "subject": "Jennon Poirson",
+      "details": "Procureur fiscal requests question extraordinaire"
+    },
+    {
+      "date": "1602-07-01",
+      "event": "sentence",
+      "subject": "Jennon Poirson",
+      "details": "Change de Nancy orders that she be renvoyée (released)"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "requesting_official": "procureur fiscal",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Request denied - accused was released instead"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon Bailly",
+      "location": "Gondrexon",
+      "context": "Accused of dancing in fields with Jennon Poirson; wife of Nicolas Bailly; left village when suspicion arose",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "context": "Dancing in fields with Jennon Bailly witnessed by curé Messire Jean Donnerey approximately 5-9 years before trial",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jennon Bailly",
+      "context": "When she returned claiming to be pursued by horseman",
+      "french": "une sotte",
+      "english": "a fool"
+    },
+    {
+      "speaker": "Jennon Poirson (to Jennon Bailly)",
+      "context": "Dismissing Bailly's claim about horseman",
+      "french": "c'était quelque haxarre",
+      "english": "it was some trickster/rogue"
+    },
+    {
+      "speaker": "Claudon Grand Demenge (dying husband)",
+      "context": "Warning Elizabeth about eating sugar",
+      "french": "si tu en mange, tu en prinse",
+      "english": "if you eat it, you will be harmed/poisoned"
+    },
+    {
+      "speaker": "Claudon Grand Demenge (on deathbed)",
+      "context": "Telling his brother about his illness",
+      "french": "frappé a mort, mais qu'une femme en estoit cause",
+      "english": "struck to death, but that a woman was the cause"
+    },
+    {
+      "speaker": "Curé Messire Jean Donnerey",
+      "context": "After witnessing dancing in fields",
+      "french": "Qui fit soupconner au commun qu'elles estoient sorcieres Mesmement ledit feu Curé dit qu'il n'avoit jamais voulu croire qu'il fut des sorcieres mais qu'a ceste heure la il le croyoit",
+      "english": "Which made the common people suspect they were witches. Especially the late Curé said he had never wanted to believe there were witches but at that time he believed it"
+    },
+    {
+      "speaker": "Elizabeth (witness 1) explaining husband's suspicions",
+      "context": "Why she didn't believe dying husband suspected his wife",
+      "french": "tellement que ladite deposante impute telles parolles a la contrainte de la malladie dudit deffunct parce qu'il estoit comme troublé",
+      "english": "such that the witness attributes such words to the constraint of the illness of the deceased because he was as if troubled/confused"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Claudon Grand Demenge",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Her late husband who died after some 18 months of marriage",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Le Petit Poirson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Le Petit Poirson",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Catherine Nicolas Gerard",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Le Petit Poirson and his wife Catherine Nicolas Gerard",
+      "inferred": false
+    },
+    {
+      "person1": "Elizabeth",
+      "person2": "Colas Grand Demenge",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Elizabeth femme a Colas Grand Demenge",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Grand Demenge",
+      "person2": "Claudon Grand Demenge",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his brother (her husband)",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Bailly",
+      "person2": "Nicolas Bailly",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Jennon Bailly wife to Nicolas Bailly",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "Jean de Benamesnil",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme Jean de Benaumesnil",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte",
+      "person2": "Colas Jean Mongeatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme Colas Jean Mongeatte",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne",
+      "person2": "Colas Petit Claude",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehenne femme Colas Petit Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne",
+      "person2": "Bastien",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Five years before had given birth to son called Bastien",
+      "inferred": false
+    },
+    {
+      "person1": "Chrestienne",
+      "person2": "Guillaumin Jean Vatrix",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Chrestienne veuve de Guillaumin Jean Vatrix",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Nicolas du Vaulx",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "after year in service there with Nicolas du Vaulx, married late husband",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Colas Grand Demenge",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Colas Grand Demenge was brother of her late husband",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Elizabeth",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Elizabeth was wife of her husband's brother",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon Poirson",
+      "person2": "Jehenne femme Colas Petit Claude",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Both natives of Leintrey, lived as neighbors",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Major dispute with brother-in-law over property settlement. Husband wanted Jennon to place their goods 'au plus vivant' (to the survivor) which she refused. This refusal was mentioned multiple times and linked to his subsequent illness and death. Also tension over accused's desire to return to native Leintrey versus husband's preference to stay in Gondrexon."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Claudon Grand Demenge",
+      "victim_relationship_to_witness": "brother (witness 2), husband (accused)",
+      "harm_category": "human_death",
+      "harm_description": "Illness and death after dispute over property settlement",
+      "attributed_to": "Jennon Poirson",
+      "precipitating_quarrel": "Refusal to place goods 'au plus vivant' and daily quarrels between spouses",
+      "time_between_quarrel_and_harm": "fell ill after returning from feste a Migneville following repeated request about property",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "Unable to stand after being hit by calf, had to be killed in spring; butcher could see no natural reason",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jennon Poirson",
+      "precipitating_quarrel": "Dispute over watering animals - witness asked accused to hold her animals back",
+      "time_between_quarrel_and_harm": "immediately - calf rushed into cow's side during the watering incident",
+      "method_alleged": "witchcraft (no natural cause found)",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jehenne femme Colas Petit Claude",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Temporary loss of milk after giving birth to son Bastien",
+      "attributed_to": "Jennon Poirson",
+      "precipitating_quarrel": "Not being invited when witness gave birth - suggested neighbor was angry",
+      "time_between_quarrel_and_harm": "after giving birth",
+      "witness_number": 7
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "sugar",
+      "context": "Jennon brought sugar from Ogieviller for her dying husband; he refused to eat it and warned Elizabeth not to eat it",
+      "category": "food"
+    },
+    {
+      "object": "host (communion wafer)",
+      "context": "Colas Claudon testified he saw Jennon Bailly take communion twice but appear not to swallow the host, leading to suspicion of being Huguenot or witch",
+      "category": "religious"
+    },
+    {
+      "object": "goods/property",
+      "context": "Dispute over placing goods 'au plus vivant' (property settlement to survivor)",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Leintrey",
+      "place_type": "village",
+      "context": "Accused's native village and residence at time of trial; also where she returned to live as widow"
+    },
+    {
+      "place_name": "Gondrexon",
+      "place_type": "village",
+      "context": "Village where accused lived with husband; where most witnesses resided and incidents occurred"
+    },
+    {
+      "place_name": "Amenoncourt",
+      "place_type": "village",
+      "context": "One of the places where accused worked in service"
+    },
+    {
+      "place_name": "Remoncourt",
+      "place_type": "village",
+      "context": "Place where accused worked in service"
+    },
+    {
+      "place_name": "Blesmerey",
+      "place_type": "village",
+      "context": "Place where accused worked in service"
+    },
+    {
+      "place_name": "Moulcey",
+      "place_type": "village",
+      "context": "Place where accused worked in service"
+    },
+    {
+      "place_name": "Repos",
+      "place_type": "village",
+      "context": "Place where accused worked in service"
+    },
+    {
+      "place_name": "La Garde",
+      "place_type": "village",
+      "context": "Place where accused worked in service"
+    },
+    {
+      "place_name": "Ogieviller",
+      "place_type": "village",
+      "context": "Where Jennon obtained sugar for her dying husband"
+    },
+    {
+      "place_name": "Migneville",
+      "place_type": "village",
+      "context": "Location of 'feste' (festival) that Claudon attended before falling ill"
+    },
+    {
+      "place_name": "fields near Gondrexon",
+      "place_type": "field",
+      "context": "Location where accused was allegedly seen dancing with Jennon Bailly; witnessed by curé's boy and reported by curé Messire Jean Donnerey"
+    },
+    {
+      "place_name": "fields (between Leintrey and Gondrexon)",
+      "place_type": "field",
+      "context": "Where accused accompanied Jennon Bailly partway, and where Bailly claimed to see horseman"
+    },
+    {
+      "place_name": "watering place",
+      "place_type": "water_body",
+      "context": "Where incident with cow occurred during time of Brandons (Carnival)"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "icy/snowy conditions during Brandons (Carnival season, late winter) when cow incident occurred - dispute between witnesses about whether icy or just snowy"
+    ],
+    "animal_predation": [],
+    "economic_hardship_indicators": [],
+    "religious_calendar_references": [
+      "Brandons (Carnival/Shrovetide) - time when cow incident occurred",
+      "communion practices - suspicion around not swallowing host"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Messire Jean Donnerey",
+        "role": "other",
+        "location": "Gondrexon"
+      },
+      {
+        "name": "procureur fiscal",
+        "role": "prosecutor_pg",
+        "location": "unknown"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Not specified in document",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 4,
+    "hearsay_testimony_count": 6,
+    "hearsay_chains": [
+      {
+        "reporter": "Demenge Daval (witness 5)",
+        "source": "Colas Claudon",
+        "content": "Dancing episode and suspicions about brother's death - explicitly noted as hearsay and unclear timeframe"
+      },
+      {
+        "reporter": "Claudatte (witness 6)",
+        "source": "curé Messire Jean Donnerey",
+        "content": "Saw dancing in fields with Jennon Bailly"
+      },
+      {
+        "reporter": "Jehenne (witness 7)",
+        "source": "unnamed suggester",
+        "content": "That milk loss might be because neighbor angry at not being invited"
+      },
+      {
+        "reporter": "Colas Claudon (witness 10)",
+        "source": "curé Messire Jean Donnerey",
+        "content": "Curé's boy saw two women dancing in fields; one identified as Jennon Bailly"
+      },
+      {
+        "reporter": "Multiple witnesses",
+        "source": "curé Messire Jean Donnerey",
+        "content": "Dancing episode - curé was primary source for this key reputation element"
+      }
+    ],
+    "oldest_accusation_years": 10,
+    "corroboration_groups": [
+      [1, 2, 6],
+      [3, 4]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "Offered normal explanations for points put to her during interrogation",
+      "Mild argument during confrontation over weather conditions (icy vs snowy)"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Denied some apparently harmless points in stories, such as giving husband sugar"
+      },
+      {
+        "witness_number": 3,
+        "objection": "During confrontation, disputed weather conditions - said it was so icy animals could hardly stand, while witness said there was only snow"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Messire Jean Donnerey",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "curé (priest) of Gondrexon when she lived there",
+      "context": "Late curé who witnessed or whose boy witnessed the dancing incident; primary source for reputation of witchcraft; reportedly said he never believed in witches until he saw the dancing"
+    },
+    {
+      "name": "Jennon Bailly",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "companion in alleged dancing incident",
+      "relationship_to_witness": "lived in Gondrexon",
+      "context": "Wife of Nicolas Bailly, suspected witch who allegedly danced in fields with accused; left village when suspicion arose; visited accused at Gondrexon returning from Leintrey"
+    },
+    {
+      "name": "Nicolas Bailly",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "husband of alleged accomplice Jennon Bailly",
+      "context": "Husband of Jennon Bailly who was suspected of witchcraft"
+    },
+    {
+      "name": "Nicolas du Vaulx",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "former employer",
+      "context": "Master in Gondrexon where accused served for a year before marrying"
+    },
+    {
+      "name": "Bastien",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "son of witness 7 (Jehenne)",
+      "context": "Son born to witness who experienced milk loss attributed to accused"
+    },
+    {
+      "name": "la Jobarde",
+      "role_in_narrative": "other",
+      "context": "Witness 7 thought dancing had been with la Jobarde rather than Jennon Bailly - variant account"
+    },
+    {
+      "name": "curé's boy",
+      "role_in_narrative": "hearsay_source",
+      "context": "Son of curé Messire Jean Donnerey who reportedly first saw the two women dancing in fields"
+    },
+    {
+      "name": "butcher",
+      "role_in_narrative": "community_member",
+      "context": "Examined cow that couldn't stand and found no natural reason for inability to stand"
+    },
+    {
+      "name": "father-in-law (of accused)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father-in-law",
+      "context": "Identified the other woman dancing as Jennon (accused) whom Jennon Bailly had visited at Leintrey"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "Complete trial record with clear outcome. Notable for: (1) Release ordered by Change de Nancy despite torture request, (2) Central role of dancing incident witnessed/reported by curé as foundation of reputation, (3) Property dispute with dying husband as main accusation, (4) Two favorable character witnesses (8 and 9) who saw no evil in her, (5) Accused's age calculation inconsistent (claimed 46 but service years don't add up - likely younger), (6) Religious element of suspected host desecration by accomplice Jennon Bailly. Trial shows importance of curé's testimony and property disputes within families.",
+    "pdf_pages": 3
+  }
+}

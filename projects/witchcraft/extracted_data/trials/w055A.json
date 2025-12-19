@@ -1,0 +1,1451 @@
+{
+  "trial_id": "w055A",
+  "archive_ref": "B 3743",
+  "location": "Girecourt",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1597-06-13",
+    "end": "1597-06-25",
+    "duration_days": 12
+  },
+  "outcome": "died_in_prison",
+  "accused": [
+    {
+      "name": "Claudon Jean Gerardin dit le Plomb",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": ["smith"],
+      "origin": "Dompierre",
+      "residence": "Girecourt",
+      "marital_status": "unknown",
+      "parents": {
+        "father": "Jean Gerardin",
+        "mother": "Mongeotte"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudatte femme Jean Prebtre",
+      "gender": "female",
+      "age": 35,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "witness herself",
+            "attributed_to": "Claudon Jean Gerardin",
+            "time_after_quarrel": "next day after carrying beans"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Quirienne veuve Jean de Charmois",
+      "gender": "female",
+      "age": 40,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor, economic dispute",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband had often quarrelled with him",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses and cows",
+            "target_relationship": "witness's husband's property",
+            "attributed_to": "Claudon Jean Gerardin"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Alix veuve Dieudonné d'Omecourt",
+      "gender": "female",
+      "age": 40,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Didier fils Alix d'Omecourt",
+      "gender": "male",
+      "age": 16,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge Anthoine",
+      "gender": "male",
+      "age": 60,
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 40,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Colin",
+      "gender": "male",
+      "age": 50,
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Anthoine Jean Virion",
+      "gender": "male",
+      "age": 60,
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 22,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused said he had been caused to lose his property, and others would lose theirs",
+        "threat_received": true,
+        "threat_quote": "he had been caused to lose his property, and others would lose theirs",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses of M. d'Haraucourt",
+            "target_relationship": "employer's horses",
+            "attributed_to": "Claudon Jean Gerardin",
+            "time_after_quarrel": "a few days after threat"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Demenge Jacot Collé",
+      "gender": "male",
+      "age": 60,
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "witness's parents' property",
+            "attributed_to": "mother and grandmother of accused",
+            "economic_value": "more than 100 écus"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jean Ferry",
+      "gender": "male",
+      "age": 50,
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Anthoine Toussaincts",
+      "gender": "male",
+      "age": 50,
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 40,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over payment for wine 2 years ago",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "numerous horses and cows",
+            "target_relationship": "witness's uncle Nicolas Ozelle",
+            "attributed_to": "mother of accused"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Nicolas Goery",
+      "gender": "male",
+      "location": "Dompierre",
+      "relationship_to_accused": "from same village",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mengeatte veuve Bastien Thiriat",
+      "gender": "female",
+      "age": 36,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Mourel",
+      "gender": "male",
+      "age": 30,
+      "occupation": "marchal (blacksmith)",
+      "location": "Girecourt",
+      "relationship_to_accused": "possibly professional rival",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jannon veuve Colas Jean Belat",
+      "gender": "female",
+      "location": "Girecourt",
+      "relationship_to_accused": "creditor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jean Prebtre",
+      "gender": "male",
+      "age": 46,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor, spouse of witness 1",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his wife Claudatte",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Claudon Jean Gerardin",
+            "method_alleged": "blew on her"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Mengeon Dideron",
+      "gender": "male",
+      "age": 30,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Speaking German while cleaning village well",
+        "threat_received": true,
+        "threat_quote": "within 3 days he would not be so proud and would repent",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "witness himself",
+            "attributed_to": "Claudon Jean Gerardin",
+            "time_after_quarrel": "2 days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jean Richard dit Pouaux",
+      "gender": "male",
+      "age": 50,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused tried to steal some of his hay",
+        "threat_received": true,
+        "threat_quote": "que avant qu'il soit nuict qu'il auroit sur le né",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "witness's horse",
+            "attributed_to": "Claudon Jean Gerardin",
+            "time_after_quarrel": "same hour"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Claudon Frouart",
+      "gender": "male",
+      "age": 30,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over stolen sheet, witness beat accused's daughter Claudatte",
+        "threat_received": true,
+        "threat_quote": "he had beaten her, but would not beat his own children",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Georgeatte (wife)",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Claudon Jean Gerardin",
+            "harm_description": "5 or 6 stillbirths, unable to have children"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Georgeatte femme Claudon Frouart",
+      "gender": "female",
+      "age": 32,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over stolen sheet with accused's daughters",
+        "threat_received": true,
+        "threat_quote": "he had beaten her, but would not beat his own children",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "witness herself",
+            "attributed_to": "Claudon Jean Gerardin",
+            "harm_description": "5 or 6 stillbirths after threat"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mengeon le maire",
+      "gender": "male",
+      "age": 36,
+      "occupation": "maire (mayor)",
+      "location": "Girecourt",
+      "relationship_to_accused": "official",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "who should go first at mill",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "witness's property",
+            "attributed_to": "Claudon Jean Gerardin",
+            "time_after_quarrel": "6 weeks later",
+            "harm_description": "bad legs - all swollen and joints decayed so that they were only held together by skin"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Georgeon Poirat",
+      "gender": "male",
+      "age": 60,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor, employer of his daughter",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "various quarrels with his household; debt of 2 francs",
+        "threat_received": true,
+        "threat_quote": "sy cruelles qu'il n'en estoit point a son aise et que sy dedans quarante jours il luy advenoit mal ou a sa famille qu'il luy advertissoit",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 young oxen",
+            "target_relationship": "witness's property",
+            "attributed_to": "Claudon Jean Gerardin",
+            "harm_description": "One died in fields, other became emaciated despite eating normally"
+          },
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "witness himself",
+            "attributed_to": "Claudon Jean Gerardin",
+            "harm_description": "horse threw him several times on trip to Allemaigne, has not been well since"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Margueritte femme Jean l'Hoste",
+      "gender": "female",
+      "age": 30,
+      "location": "Girecourt",
+      "relationship_to_accused": "neighbor, wife of maire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband as maire took cauldron as caution for payment of taxes",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's property",
+            "attributed_to": "Claudon Jean Gerardin",
+            "time_after_quarrel": "after threats made"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1596-11-11",
+      "event": "other",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Originally imprisoned at request of PG des Vosges for theft of animals with accomplices Claudon Jean du Prey and Mongeon Dideron"
+    },
+    {
+      "date": "1596-11-26",
+      "event": "sentence",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Sentenced by Change de Nancy to pay fine of 100 écus to duke, costs of justice, and restitution; to stay in prison until paid"
+    },
+    {
+      "date": "1596-12-06",
+      "event": "other",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Broke his irons and fled from prison using carpenter's tool"
+    },
+    {
+      "date": "1597-06-13",
+      "event": "other",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Letter from M. d'Haraucourt at Parroy to prévôt of Bruyères, sending accused with charge of killing two horses"
+    },
+    {
+      "date": "1597-06-16",
+      "event": "informations_preparatoires",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Evidence taken against him at Girecourt - 20 witnesses testified"
+    },
+    {
+      "date": "1597-06-19",
+      "event": "interrogation",
+      "subject": "Claudon Jean Gerardin",
+      "details": "First interrogation at château of Bruyères"
+    },
+    {
+      "date": "1597-06-20",
+      "event": "other",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Committed suicide by hanging from bolt of door using small cord"
+    },
+    {
+      "date": "1597-06-22",
+      "event": "sentence",
+      "subject": "Claudon Jean Gerardin",
+      "details": "PG des Vosges orders with agreement of Change de Nancy that body be hung by neck from forked tree, face downwards; goods confiscated"
+    },
+    {
+      "date": "1597-06-25",
+      "event": "other",
+      "subject": "Claudon Jean Gerardin",
+      "details": "Investigation into suicide; fellow prisoners testified about his behavior"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jean fils Bastien Gerardin",
+      "context": "His nephew called him witch without accused taking action",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudon Jean Gerardin to Mengeon Dideron",
+      "french": "within 3 days he would not be so proud and would repent",
+      "context": "Threat after quarrel about speaking German while cleaning village well"
+    },
+    {
+      "speaker": "Claudon Jean Gerardin to Jean Richard",
+      "french": "que avant qu'il soit nuict qu'il auroit sur le né",
+      "english": "before night he would have it on his nose",
+      "context": "Threat after being called witch for trying to steal hay"
+    },
+    {
+      "speaker": "Claudon Jean Gerardin (general threat)",
+      "french": "he had been caused to lose his property, and others would lose theirs",
+      "context": "Statement made a few days before M. d'Haraucourt's horses died"
+    },
+    {
+      "speaker": "Georgeon Poirat to maire",
+      "french": "sy cruelles qu'il n'en estoit point a son aise et que sy dedans quarante jours il luy advenoit mal ou a sa famille qu'il luy advertissoit",
+      "english": "so cruel that he was not at ease and that if within forty days harm came to him or his family he was warning",
+      "context": "Witness reporting threats from accused after debt dispute"
+    },
+    {
+      "speaker": "Claudatte, daughter of accused, to Claudon Frouart",
+      "french": "he had beaten her, but would not beat his own children",
+      "context": "Threat after Frouart beat her for chasing his wife with sticks over stolen sheet"
+    },
+    {
+      "speaker": "Demenge Anthoine and Jean Colin about accused",
+      "french": "tant par abus que tromperie qu'il usoit journellement a l'entour d'eulx",
+      "english": "by abuses and deceptions which he used daily around them",
+      "context": "Describing accused as evil living man who harmed neighbors"
+    },
+    {
+      "speaker": "About sister Maurice",
+      "french": "et des incontinant qu'il y mouroit quelque bestail l'on disoit que c'estoit par elle",
+      "english": "and as soon as any animal died people said it was by her",
+      "context": "Accused describing reputation of his sister"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Gerardin",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "parents were Jean Gerardin and his wife Mongeotte of Dompierre"
+    },
+    {
+      "person1": "Mongeotte",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "parents were Jean Gerardin and his wife Mongeotte of Dompierre"
+    },
+    {
+      "person1": "Bastien Jean Gerardin",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Bastien Jean Gerardin, brother of accused"
+    },
+    {
+      "person1": "Maurice",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Sister Maurice had been married at Padoux"
+    },
+    {
+      "person1": "Maurice",
+      "person2": "Claudon Tardu",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "she had married Claudon Tardu of Padoux"
+    },
+    {
+      "person1": "Jean fils Bastien Gerardin",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "his nephew Jean fils Bastien Gerardin"
+    },
+    {
+      "person1": "Claudatte (daughter)",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "one of daughters of accused... named Claudatte"
+    },
+    {
+      "person1": "Jean Prebtre",
+      "person2": "Claudatte femme Jean Prebtre",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme Jean Prebtre... Jean Prebtre... Story of wife's illness"
+    },
+    {
+      "person1": "Jean de Charmois",
+      "person2": "Quirienne veuve Jean de Charmois",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Quirienne veuve Jean de Charmois... Husband had often quarrelled"
+    },
+    {
+      "person1": "Dieudonné d'Omecourt",
+      "person2": "Alix veuve Dieudonné d'Omecourt",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Alix veuve Dieudonné d'Omecourt"
+    },
+    {
+      "person1": "Alix veuve Dieudonné d'Omecourt",
+      "person2": "Didier",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Alix veuve Dieudonné d'Omecourt, 40, et son fils Didier, 16"
+    },
+    {
+      "person1": "Bastien Thiriat",
+      "person2": "Mengeatte veuve Bastien Thiriat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Mengeatte veuve Bastien Thiriat"
+    },
+    {
+      "person1": "Colas Jean Belat",
+      "person2": "Jannon veuve Colas Jean Belat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Jannon veuve Colas Jean Belat"
+    },
+    {
+      "person1": "Claudon Frouart",
+      "person2": "Georgeatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudon Frouart, 30, et Georgeatte sa femme, 32"
+    },
+    {
+      "person1": "Jean l'Hoste",
+      "person2": "Margueritte femme Jean l'Hoste",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Margueritte femme Jean l'Hoste... her husband, as maire"
+    },
+    {
+      "person1": "Nicolas Ozelle",
+      "person2": "Anthoine Toussaincts",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "he was living with his uncle Nicolas Ozelle"
+    },
+    {
+      "person1": "Georgeon Poirat",
+      "person2": "Didon fils Georgeon Poirat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Georgeon Poirat's son... Didon fils Georgeon Poirat"
+    },
+    {
+      "person1": "Claudon Jean Gerardin",
+      "person2": "Claudatte (daughter)",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "2 young oxen which were being guarded by Claudon's daughter Claudatte in herd",
+      "inferred": true
+    },
+    {
+      "person1": "Jean Marie",
+      "person2": "Claudon Jean Gerardin",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Jean Marie was his 'compere et bon amy' (godparent relationship and good friend)"
+    },
+    {
+      "person1": "Claudon Jean Gerardin",
+      "person2": "Georgeatte (mother of witness 17)",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "threat which Claudon himself repeated next day to Georgeatte and her mother"
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Claudatte femme Jean Prebtre",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "human_illness",
+      "harm_description": "became ill, bedridden for 6 weeks after his breath stank when she took beans from him",
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "asked her to carry beans on way back from Ramberviller",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "breath/contact with beans",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean de Charmois (husband of witness)",
+      "victim_relationship_to_witness": "witness's husband",
+      "harm_category": "animal_death",
+      "harm_description": "horses and cows dead",
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "Husband had often quarrelled with him",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "M. d'Haraucourt",
+      "victim_relationship_to_witness": "employer of witness",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses died of strange illness",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "Accused said he had been caused to lose his property, and others would lose theirs",
+      "time_between_quarrel_and_harm": "a few days",
+      "method_alleged": "witchcraft",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Didon fils Georgeon Poirat",
+      "victim_relationship_to_witness": "mentioned by witness 5",
+      "harm_category": "human_illness",
+      "harm_description": "neck twisted and became deaf",
+      "attributed_to": "Bastien Jean Gerardin (brother of accused)",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "parents of witness 6",
+      "victim_relationship_to_witness": "witness's parents",
+      "harm_category": "animal_death",
+      "harm_description": "losses of animals",
+      "economic_value": "more than 100 écus",
+      "attributed_to": "mother and grandmother of accused",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Nicolas Ozelle (uncle of witness 8)",
+      "victim_relationship_to_witness": "witness's uncle",
+      "harm_category": "animal_death",
+      "harm_description": "numerous horses and cows dead",
+      "animal_type": "horses and cows",
+      "attributed_to": "mother of accused",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Mengeon Dideron",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "human_illness",
+      "harm_description": "felt unwell during thunderstorm and fell down, ill for 14 weeks",
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "Speaking German while cleaning village well",
+      "time_between_quarrel_and_harm": "2 days",
+      "method_alleged": "threat and witchcraft during thunderstorm",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Jean Richard dit Pouaux",
+      "victim_relationship_to_witness": "witness himself (his horse)",
+      "harm_category": "animal_illness",
+      "harm_description": "horse fell three times into river and was unwell for a year",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "accused tried to steal some of his hay; called him witch",
+      "time_between_quarrel_and_harm": "same hour",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Georgeatte femme Claudon Frouart",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "human_injury",
+      "harm_description": "5 or 6 stillbirths, unable to have children though had some by first husband",
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "Dispute over stolen sheet; husband beat accused's daughter Claudatte",
+      "time_between_quarrel_and_harm": "since marriage 8 years earlier",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Mengeon le maire",
+      "victim_relationship_to_witness": "witness himself (his foal)",
+      "harm_category": "animal_death",
+      "harm_description": "foal developed bad legs - all swollen and joints decayed so only held together by skin, had to be killed",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "quarrel about who should go first at mill",
+      "time_between_quarrel_and_harm": "6 weeks later",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Georgeon Poirat",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "2 young oxen - one died in fields, other became emaciated despite eating normally and had to be killed",
+      "animal_type": "oxen",
+      "animal_count": 2,
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "oxen were being guarded by accused's daughter Claudatte in herd",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Georgeon Poirat",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "human_injury",
+      "harm_description": "horse threw him several times on trip to Allemaigne, has not been well since",
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "took action against him for debt of 2 francs, received cruel threats",
+      "time_between_quarrel_and_harm": "later during trip",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Margueritte femme Jean l'Hoste",
+      "victim_relationship_to_witness": "witness herself (her horse)",
+      "harm_category": "animal_death",
+      "harm_description": "horse sickened and died even after cauldron returned",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudon Jean Gerardin",
+      "precipitating_quarrel": "husband as maire took cauldron as caution for payment of taxes",
+      "time_between_quarrel_and_harm": "after threats made",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "Jean Marie",
+      "victim_relationship_to_witness": "mentioned by witness 5",
+      "harm_category": "human_death",
+      "harm_description": "died a few days after ensuing quarrel over stolen ploughshare",
+      "attributed_to": "Claudon Jean Gerardin (implied)",
+      "precipitating_quarrel": "stolen ploughshare which Jean Marie recognized",
+      "time_between_quarrel_and_harm": "a few days",
+      "witness_number": 5
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "beans",
+      "context": "Claudon asked witness 1 to carry beans for him on way back from Ramberviller",
+      "category": "food"
+    },
+    {
+      "object": "salt and ashes",
+      "context": "obtained from Bastien's house to make drink for child to heal him",
+      "category": "magical"
+    },
+    {
+      "object": "ironwork from cross of La Chapelle",
+      "context": "witness brought him ironwork from cross to work as smith, but he refused to take it",
+      "category": "tools"
+    },
+    {
+      "object": "ploughshare",
+      "context": "accused stole ploughshare of Jean Marie",
+      "category": "agricultural"
+    },
+    {
+      "object": "wheat",
+      "context": "Jannon veuve Colas Jean Belat loaned him wheat he had not paid back",
+      "category": "food"
+    },
+    {
+      "object": "wine",
+      "context": "dispute over payment for wine 2 years ago with Anthoine Toussaincts",
+      "category": "food"
+    },
+    {
+      "object": "hay",
+      "context": "accused tried to steal hay from Jean Richard",
+      "category": "agricultural"
+    },
+    {
+      "object": "sheet",
+      "context": "lost sheet that witness saw in accused's house, led to violent confrontation",
+      "category": "household"
+    },
+    {
+      "object": "cauldron",
+      "context": "maire took cauldron as caution from accused for payment of taxes",
+      "category": "household"
+    },
+    {
+      "object": "carpenter's tool",
+      "context": "used to break irons and escape from prison",
+      "category": "tools"
+    },
+    {
+      "object": "small cord",
+      "context": "used to hang himself from bolt of door",
+      "category": "other"
+    },
+    {
+      "object": "bread",
+      "context": "took some bread back to prison with him before suicide",
+      "category": "food"
+    },
+    {
+      "object": "irons",
+      "context": "prison restraints that accused broke to escape",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Girecourt",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of accused and many witnesses"
+    },
+    {
+      "place_name": "Dompierre",
+      "place_type": "village",
+      "context": "Native village of accused, where his family was from and had reputation"
+    },
+    {
+      "place_name": "Bruyères",
+      "place_type": "village",
+      "context": "Location of château where accused was imprisoned and committed suicide"
+    },
+    {
+      "place_name": "Parroy",
+      "place_type": "village",
+      "context": "Location where M. d'Haraucourt wrote letter from"
+    },
+    {
+      "place_name": "Ramberviller",
+      "place_type": "village",
+      "context": "Witness 1 was returning from there when accused asked her to carry beans"
+    },
+    {
+      "place_name": "Epinal",
+      "place_type": "village",
+      "context": "Where accused's sister Maurice fled from when prévôt wanted to arrest her; where a female witch's mother was burned"
+    },
+    {
+      "place_name": "Padoux",
+      "place_type": "village",
+      "context": "Where accused's sister Maurice had been married"
+    },
+    {
+      "place_name": "Val de Moustier",
+      "place_type": "village",
+      "context": "Destination when accused transported peas on horse at midnight"
+    },
+    {
+      "place_name": "woods of la Voivre",
+      "place_type": "forest",
+      "context": "Near Girecourt, where accused saw wolf with grinding teeth 40 years earlier"
+    },
+    {
+      "place_name": "La Chapelle",
+      "place_type": "church",
+      "context": "Location of cross whose ironwork witness brought to accused"
+    },
+    {
+      "place_name": "Ste Marie",
+      "place_type": "village",
+      "context": "Accused had returned from there before horses of M. d'Haraucourt died"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "Germany - Georgeon Poirat went on trip there and horse threw him"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy court that confirmed sentence"
+    },
+    {
+      "place_name": "village well",
+      "place_type": "other",
+      "context": "Where witnesses were speaking German while cleaning it, leading to quarrel"
+    },
+    {
+      "place_name": "mill",
+      "place_type": "other",
+      "context": "Location of quarrel between accused and Mengeon le maire about who should go first"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Where Jean Richard's horse fell three times after accused's threat"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "thunderstorm occurred 2 days after accused threatened Mengeon Dideron"
+    ],
+    "animal_predation": [
+      "wolf with grinding teeth followed accused near woods of la Voivre 40 years earlier"
+    ],
+    "economic_hardship_indicators": [
+      "multiple debt disputes",
+      "accused fled prison because no-one was active to secure his release (financial inability)",
+      "general reputation for theft and fraud",
+      "dispute over payment for wine",
+      "unpaid wheat loan",
+      "cauldron taken as caution for unpaid taxes"
+    ],
+    "religious_calendar_references": [
+      "accused said he did his duty every Easter (confession)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "M. d'Haraucourt",
+        "role": "other",
+        "location": "Parroy"
+      },
+      {
+        "name": "prévôt of Bruyères",
+        "role": "prevot",
+        "location": "Bruyères"
+      },
+      {
+        "name": "M. de Vaudemont (duke)",
+        "role": "other",
+        "location": "unknown"
+      },
+      {
+        "name": "comte de Salm",
+        "role": "other",
+        "location": "unknown"
+      },
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Mengeon le maire",
+        "role": "mayor",
+        "location": "Girecourt"
+      },
+      {
+        "name": "Jean l'Hoste",
+        "role": "mayor",
+        "location": "Girecourt"
+      },
+      {
+        "name": "prévôt of Epinal",
+        "role": "prevot",
+        "location": "Epinal"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Imprisoned 11 November 1596 for stealing animals from barn with accomplices Claudon Jean du Prey and Mongeon Dideron",
+        "outcome": "Condemned to pay fine of 100 écus to duke, costs of justice, and restitution; confirmed by Change de Nancy 26 November 1596"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Stole ploughshare of Jean Marie which latter recognized",
+        "outcome": "Jean Marie died a few days after ensuing quarrel"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "Georgeon Poirat took action against him for debt of 2 francs previous summer",
+        "outcome": "Accused made cruel threats"
+      },
+      {
+        "dispute_type": "other",
+        "description": "General reputation for theft and fraud; tendency to get others fined inappropriately",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Accused claimed he would have taken action against those who called him witch if there had been witnesses present; angry with nephew for calling him witch",
+    "imprisonment_conditions": "Imprisoned in château of Bruyères; wore irons which he broke using carpenter's tool to escape on 6 December 1596; imprisoned again from 13 June 1597",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 12,
+    "hearsay_testimony_count": 8,
+    "hearsay_chains": [
+      {
+        "reporter": "Demenge Jacot Collé",
+        "source": "Father and mother",
+        "content": "reputation of mother and grandmother of accused, animal losses worth more than 100 écus"
+      },
+      {
+        "reporter": "Anthoine Toussaincts",
+        "source": "Uncle Nicolas Ozelle",
+        "content": "Mother of accused was witch who caused animal deaths 40 years earlier"
+      },
+      {
+        "reporter": "Claudon Jean Gerardin (accused)",
+        "source": "Jean Boulengier of Girecourt",
+        "content": "Georgeon Poirat's mother Cathelon was reputed a witch"
+      }
+    ],
+    "oldest_accusation_years": 40,
+    "corroboration_groups": [
+      [4, 5, 6, 7, 8, 9],
+      [1, 14],
+      [17]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "blamed_others"
+    ],
+    "emotional_state_notes": [
+      "fled prison because alarmed by long imprisonment and no-one working for his release",
+      "not talked much to fellow prisoner",
+      "angry when fellow prisoner suggested he should say his paternoster",
+      "had not seemed ill nor given indication of intentions before suicide",
+      "angry with nephew for making him take a wife against his will"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 2,
+        "objection": "Gave different account of debt of 11 francs, claiming Jean de Charmois had only paid 3 of them"
+      },
+      {
+        "witness_number": 5,
+        "objection": "Said brother Bastien had beaten Didon because he had beaten Bastien's son at school; Nicolas Chabay acted as mediator"
+      },
+      {
+        "witness_number": 5,
+        "objection": "Denied stealing ironwork or ploughshare; said Jean Marie was his 'compere et bon amy' and was ill for a year before death"
+      },
+      {
+        "witness_number": 13,
+        "objection": "Had done carting and other services worth at least 2 of the 3 francs he owed for wheat"
+      },
+      {
+        "witness_number": 15,
+        "objection": "Admitted telling Mongeon Didieron to keep his German for when he needed it, but not to making threats"
+      },
+      {
+        "witness_number": 16,
+        "objection": "Admitted making threat to Jean Richard, but knew nothing about trouble with his horse"
+      },
+      {
+        "witness_number": 17,
+        "objection": "Agreed Claudon Feriart had called him witch but there had been no-one present, otherwise he would have taken action"
+      },
+      {
+        "witness_number": 19,
+        "objection": "Told Georgeon Poirot he was more of a witch himself, and defendant was of better race than him; claimed Jean Boulengier said Georgeon's mother Cathelon was reputed witch"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Claudon Jean du Prey",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "accomplice in theft",
+      "context": "Co-accused in theft of animals from barn, imprisoned together"
+    },
+    {
+      "name": "Mongeon Dideron (accomplice)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "accomplice in theft",
+      "context": "Co-accused in theft of animals from barn; accused allegedly told him he was frightened of being questioned about other crimes"
+    },
+    {
+      "name": "Bastien Begel",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "economic dispute",
+      "context": "Accused took 11 francs in expenses from him according to witness 2"
+    },
+    {
+      "name": "grandmother of accused",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "grandmother",
+      "context": "Reputed witch, believed arrested; caused losses of animals worth more than 100 écus"
+    },
+    {
+      "name": "mother of accused",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother",
+      "context": "Reputed witch, believed arrested; called witch by Nicolas Ozelle 40 years earlier"
+    },
+    {
+      "name": "daughter of accused (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Believed arrested for witchcraft"
+    },
+    {
+      "name": "Maurice (sister)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "sister",
+      "context": "Married at Padoux, fled when prévôt of Epinal wanted to arrest her; reputed witch"
+    },
+    {
+      "name": "Claudon Tardu",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law",
+      "context": "Husband of accused's sister Maurice of Padoux"
+    },
+    {
+      "name": "Bastien Jean Gerardin",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "brother",
+      "context": "Suspected of witchcraft in case of Didon's illness 22 years earlier; claimed to heal by prayer"
+    },
+    {
+      "name": "Jean fils Bastien Gerardin",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "nephew",
+      "context": "Called accused witch without accused taking action; angry for being forced to take wife"
+    },
+    {
+      "name": "Didon fils Georgeon Poirat",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none direct",
+      "relationship_to_witness": "son of witness 19",
+      "context": "Had neck twisted and became deaf 22 years ago; accused's brother Bastien suspected"
+    },
+    {
+      "name": "Nicolas Chabay",
+      "role_in_narrative": "community_member",
+      "context": "Acted as mediator; sent with witness 5 to ask Bastien to heal child"
+    },
+    {
+      "name": "sister of Anthoine Jean Virion",
+      "role_in_narrative": "community_member",
+      "context": "Obtained salt and ashes from Bastien's house to heal child"
+    },
+    {
+      "name": "Jean Marie",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "compere et bon amy (godparent relationship)",
+      "context": "Owned ploughshare that was allegedly stolen; died few days after quarrel; was ill for year before death"
+    },
+    {
+      "name": "Claudatte (daughter of accused)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "One of 3 daughters who chased Georgeatte with sticks; beaten by Claudon Frouart; guarded herd where oxen died"
+    },
+    {
+      "name": "2 other daughters of accused (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughters",
+      "context": "Chased Georgeatte with sticks over stolen sheet"
+    },
+    {
+      "name": "mother of Georgeatte (witness 17)",
+      "role_in_narrative": "community_member",
+      "context": "Accused repeated threat to her and her daughter Georgeatte"
+    },
+    {
+      "name": "Jean Boulengier",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "neighbor",
+      "context": "Of Girecourt; allegedly told accused that Georgeon Poirat's mother was reputed witch"
+    },
+    {
+      "name": "Cathelon (mother of Georgeon Poirat)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_witness": "mother of witness 19",
+      "context": "Reputed witch according to Jean Boulengier"
+    },
+    {
+      "name": "Claude Marie",
+      "role_in_narrative": "other",
+      "context": "Fellow prisoner who testified about accused's behavior before suicide; suggested he say paternoster"
+    },
+    {
+      "name": "Bastienne femme Jean Goery",
+      "role_in_narrative": "other",
+      "context": "Of Girecourt, fellow prisoner who testified accused took bread back to prison"
+    },
+    {
+      "name": "Nicolas Ozelle",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "uncle of witness 8",
+      "context": "Had numerous horses and cows dead 40 years ago; called mother of accused witch"
+    },
+    {
+      "name": "female witch whose mother was burned at Epinal",
+      "role_in_narrative": "prior_accused",
+      "context": "Sent with accused to prévôt; mother had said she was witch when mother was burned at Epinal"
+    },
+    {
+      "name": "sister and brother-in-law of Mengeon Dideron",
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "siblings/family of witness 15",
+      "context": "Went outside with witness during thunderstorm 'pour rescrier' (customary practice)"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple debt disputes including 11 francs expenses from Bastien Begel, 2 francs debt to Georgeon Poirat, unpaid wheat loan to Jannon veuve Colas Jean Belat, unpaid taxes leading to cauldron seizure. Theft accusations including stolen ploughshare, attempted hay theft, stolen sheet. General reputation for 'abus que tromperie' (abuses and deceptions). Accused was condemned to pay 100 écus fine plus costs and restitution for animal theft. Unable to pay debts or fine, fled prison when no-one worked for his release. Trial and execution costs were 45 francs."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (AI)",
+    "confidence": "high",
+    "notes": "This is a particularly detailed trial record with 20 witnesses providing extensive testimony. The accused had a long family history of witchcraft accusations spanning three generations (grandmother, mother, siblings, and daughter). The trial is notable for ending in suicide rather than execution or torture. The accused was already imprisoned for theft when witchcraft charges were added. Strong pattern of quarrel-threat-harm sequence in witness testimony. Economic disputes and reputation for fraud feature prominently alongside witchcraft accusations. The accused's escape from prison and subsequent recapture added complexity to the case. His body was posthumously executed (hung face down from forked tree) and goods confiscated.",
+    "pdf_pages": 5
+  }
+}

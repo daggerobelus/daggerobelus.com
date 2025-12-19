@@ -1,0 +1,2122 @@
+{
+  "trial_id": "w046",
+  "archive_ref": "B 3343",
+  "location": "Leintrey",
+  "court": "Court at Blamont",
+  "dates": {
+    "start": "1607-08-23",
+    "end": "1612-09-26",
+    "duration_days": 1860
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Margueritte femme Claude Martin",
+      "gender": "female",
+      "age": 45,
+      "age_approximate": true,
+      "occupation": ["tavern keeper"],
+      "origin": "Leintrey",
+      "residence": "Leintrey",
+      "marital_status": "married",
+      "spouse_name": "Claude Martin",
+      "parents": {
+        "father": "Pierson de Waxaville",
+        "mother": "Allison Pierson"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Margueritte femme Mengin Godat",
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused struck witness's daughter Jennon on cheek after quarrel with accused's daughter",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jennon (daughter)",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "immediately after being struck"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Izabel femme Jean Mongeat",
+      "gender": "female",
+      "age": 55,
+      "occupation": "midwife",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child of Françoise femme Demenge Jacquemin",
+            "target_relationship": "patient of witness as midwife",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Allison veuve Jean Hellenix",
+      "gender": "female",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt dispute - witness claimed daughter's work cancelled debt",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Allison (self)",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "immediately after drinking water from pot"
+          },
+          {
+            "type": "human_death",
+            "target": "child of daughter Jennon",
+            "target_relationship": "grandchild of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jennon veuve Claudon Jacquemin",
+      "gender": "female",
+      "age": 54,
+      "relationship_to_accused": "sister of accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "division of inheritance from parents - witness claimed Margueritte behaved unfairly",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "immediately after quarrel",
+            "animal_type": "horse",
+            "animal_count": 1
+          },
+          {
+            "type": "human_illness",
+            "target": "Pierson (youngest son)",
+            "target_relationship": "son of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A",
+            "harm_description": "lost use of limbs, could not work, returned annually for 5 years"
+          },
+          {
+            "type": "human_death",
+            "target": "child of Françoise femme Demenge Jacquemin",
+            "target_relationship": "grandchild (third stillbirth)",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Hellenix femme Demenge Michiel Vallance",
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter Barbelline often quarrelled with accused's children - accused complained she was spoiled",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Barbelline (daughter)",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "one day after being given a pear",
+            "harm_description": "ill for 2 years, complained of right side with void that sounded like drum; doctor diagnosed witchcraft",
+            "method_alleged": "pear"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Françoise femme Demenge Jacquemin",
+      "gender": "female",
+      "age": 24,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first child (stillborn)",
+            "target_relationship": "child of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "after eating roast sent by accused",
+            "method_alleged": "roast (food)"
+          },
+          {
+            "type": "human_death",
+            "target": "second child (stillborn)",
+            "target_relationship": "child of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A"
+          },
+          {
+            "type": "human_death",
+            "target": "third child (stillborn)",
+            "target_relationship": "child of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "during childbirth when accused interfered with midwife"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Demenge Jacquemin",
+      "gender": "male",
+      "age": 29,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused struck his mother and bruised her arm",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "children of wife (miscarriages)",
+            "target_relationship": "children of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "after he called her witch"
+          },
+          {
+            "type": "animal_death",
+            "target": "mother's horse",
+            "target_relationship": "mother's property",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "5 years earlier",
+            "animal_type": "horse",
+            "animal_count": 1
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Henry Claudon",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness's cow pushed accused's cows and knocked one over; she struck it with stick",
+        "threat_received": true,
+        "threat_quote": "que c'estoit eulx qui luy donnoit ung mauvais fame, que c'estoit ung beau chappeau qu'ils mettoient sur la teste de ses enfans que c'estoit assé pour la faire devenir genoxe et que sy il luy survenoit quelque chose qu'elle en donneroit la charge a luy deposant",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "five-year-old cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "immediately after being struck with stick",
+            "harm_description": "went into decline over 3 months",
+            "animal_type": "cow",
+            "animal_count": 1
+          },
+          {
+            "type": "animal_death",
+            "target": "4 other cows",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "over 3 months period",
+            "animal_type": "cow",
+            "animal_count": 4
+          },
+          {
+            "type": "animal_death",
+            "target": "14 sheep",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "over 3 months period",
+            "animal_type": "sheep",
+            "animal_count": 14
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claudon Marchal, dit Marye",
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "general quarrel",
+        "threat_received": true,
+        "threat_quote": "qu'il estoit bien hautain mais qu'en peu de temps son cacquant luy rabaisseroit",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "shortly after quarrel",
+            "harm_description": "died after lying in straw for 6 weeks",
+            "economic_value": "30 francs",
+            "animal_type": "cow",
+            "animal_count": 1
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "shortly after quarrel",
+            "harm_description": "died suddenly",
+            "animal_type": "horse",
+            "animal_count": 1
+          },
+          {
+            "type": "human_death",
+            "target": "Claudon (son aged 3)",
+            "target_relationship": "son of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "a year later",
+            "harm_description": "immediately became ill, refused all food, died in a week",
+            "method_alleged": "quarter of a chemelle (food)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Demenge Grand Colas",
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "pigs ate fallen fruit from trees",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Demenge Grand Colas (self)",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "immediately after quarrel",
+            "harm_description": "gravely ill for 4-5 days, recovered after calling her witch"
+          },
+          {
+            "type": "property_damage",
+            "target": "cauldron of water and coals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "about 4 years earlier",
+            "harm_description": "cauldron fell, putting out every coal during marriage feast cooking"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mongin Godat",
+      "gender": "male",
+      "age": 45,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt - she wanted him to sow field of wheat",
+        "threat_received": true,
+        "threat_quote": "threatened to throw a stool at her head, calling her witch",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Thiebault Jean Thiebault",
+      "gender": "male",
+      "age": 44,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over a goose which her children thought was theirs",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "2 weeks later",
+            "harm_description": "died suddenly",
+            "animal_type": "horse",
+            "animal_count": 1
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Demenge Conna",
+      "gender": "male",
+      "age": 50,
+      "occupation": "mason",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "blamed her for daughter's death",
+        "threat_received": true,
+        "threat_quote": "accused called on daughter to bring axe to kill him",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Barbelline (daughter aged 12)",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "8-9 years earlier",
+            "harm_description": "ill after eating pear, doctor at Blamont diagnosed witchcraft",
+            "method_alleged": "pear"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Margueritte femme Jean Colotte",
+      "gender": "female",
+      "age": 60,
+      "location": "Avricourt (previously lived at Leintrey)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to lend large cauldron for washing on advice of husband",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Didier de Vacourt (husband)",
+            "target_relationship": "husband of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "shortly after refusal",
+            "harm_description": "felt very cold as he left house, died in 10 days"
+          },
+          {
+            "type": "human_illness",
+            "target": "Margueritte (self) and daughter Sebille",
+            "target_relationship": "self and daughter",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "shortly after refusal",
+            "harm_description": "witness recovered after 3 months"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Melline veuve Anthoine Grand Anthoine",
+      "gender": "female",
+      "age": 45,
+      "location": "Avricourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband refused to repair a cradle",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband",
+            "target_relationship": "husband of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "4 years earlier",
+            "harm_description": "became ill as soon as he ate bread, died 2 weeks later",
+            "method_alleged": "bread"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Claude Vautrin, femme Claude Mal Didier",
+      "gender": "female",
+      "age": 24,
+      "location": "Xousse",
+      "relationship_to_accused": "neighbor (husband was schoolmaster at Leintrey)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "small girl aged 2 (daughter)",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A",
+            "harm_description": "recovered after pilgrimage to Beau Bernard suggested by accused"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Claude Mal Didier",
+      "gender": "male",
+      "age": 21,
+      "occupation": "schoolmaster at Xousse (previously at Leintrey)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 2,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A",
+            "harm_description": "ill for 3 months, spitting blood, stomach swollen, difficulty breathing; recovered after cure advised by accused"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Demenge Mongeat",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel over meat he sold her (she kept tavern)",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Demenge Mongeat (self)",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "immediately after she reproached him",
+            "harm_description": "eye trouble, spent 2 months in bed unable to see, crying with pain"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Demenge Bon Claude",
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused angry because witness's cousin Claudon Marchal had quarrelled with her; she wanted to stop her son courting witness's daughter",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 horses",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "soon after",
+            "harm_description": "such unpleasant illness they could not be eaten, had to be killed; everyone judged them bewitched",
+            "animal_type": "horse",
+            "animal_count": 3
+          },
+          {
+            "type": "animal_death",
+            "target": "2 cattle",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "N/A",
+            "animal_type": "cattle",
+            "animal_count": 2
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Margueritte femme Demenge Bon Claude",
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused came to say she did not want her son to frequent witness's daughter or marry her",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "after the conversation"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Jehenne femme Demenge Gadel",
+      "gender": "female",
+      "age": 28,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "could not agree on price for reaping work - wanted a gros more per journal",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "daughter aged 3",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Margueritte femme Claude Martin",
+            "time_after_quarrel": "2 weeks later",
+            "harm_description": "child disappeared in open field, searched all day without success; found next day with herd of cows at Remoncourt - impossible for small child to get so far"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Odille femme Claudon Grand Claude",
+      "gender": "female",
+      "age": 48,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Catherine veuve Claudon Thomas",
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1607-08-23",
+      "event": "informations_preparatoires",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Procureur fiscal of comté de Blamont asks prévôt to get echevins to conduct secret enquiry"
+    },
+    {
+      "date": "1607-08-30",
+      "event": "interrogation",
+      "subject": "Witnesses (informations preparatoires)",
+      "details": "23 witnesses deposed"
+    },
+    {
+      "date": "1612-08-31",
+      "event": "interrogation",
+      "subject": "Witnesses continued",
+      "details": "Witness depositions continued after 5 year gap"
+    },
+    {
+      "date": "1612-09-01",
+      "event": "other",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Substitut for procureur fiscal asks for arrest, interrogation, and confrontations"
+    },
+    {
+      "date": "1612-09-12",
+      "event": "interrogation",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Initial interrogation - denied all charges"
+    },
+    {
+      "date": "1612-09-14",
+      "event": "confrontation",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Confrontations with witnesses - denied all charges, made reproaches to some witnesses"
+    },
+    {
+      "date": "1612-09-16",
+      "event": "torture_requested",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Procureur fiscal asks for question ordinaire et extraordinaire; complains about blasphemies"
+    },
+    {
+      "date": "1612-09-17",
+      "event": "torture_approved",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1612-09-19",
+      "event": "torture",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "First day of torture - thumbscrews and strappado; refused to confess; ordered to be shaved"
+    },
+    {
+      "date": "1612-09-20",
+      "event": "torture",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Second day - racked again (marginal note: contre le droit), given tortillons, put on strappado with stones; refused to confess; sent back to prison for debility"
+    },
+    {
+      "date": "1612-09-21",
+      "event": "other",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Procureur fiscal admits she purged herself of witchcraft; asks for punishment for blasphemy: amende honorable, whipping, and banishment"
+    },
+    {
+      "date": "1612-09-24",
+      "event": "sentence",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Change de Nancy agrees she should be renvoyée on witchcraft; for blasphemy, court should point out enormity and order her to seek pardon"
+    },
+    {
+      "date": "1612-09-26",
+      "event": "sentence",
+      "subject": "Margueritte femme Claude Martin",
+      "details": "Formal sentence from court at Blamont ordering that she be renvoyée"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews",
+      "strappado",
+      "rack",
+      "tortillons (on leg, thigh, and arm)",
+      "strappado with stones tied to feet"
+    ],
+    "requesting_official": "procureur fiscal",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Marginal notes protest that second day of torture was 'contre le droict et la pratique' - multiple violations noted"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Margueritte veuve Colas Vautrin",
+      "context": "Said accused should be taken to prison with other prisoners from Leintrey accused of witchcraft",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Margueritte femme Claude Martin (accused)",
+      "french": "qu'elle ne craindoit ny dieu ny diable, et qu'elle estoit aussy nette du crime de sortilege que nre Seigneur",
+      "english": "that she feared neither God nor devil, and that she was as clean of the crime of witchcraft as our Lord",
+      "context": "Said on way to Blamont; cited as blasphemy"
+    },
+    {
+      "speaker": "Margueritte femme Claude Martin (accused)",
+      "french": "they did her as great wrong as had been done to Virgin Mary",
+      "context": "When told Godat's wife suspected her; marginal note of outrage at comparison"
+    },
+    {
+      "speaker": "Henry Claudon (witness 8)",
+      "french": "que c'estoit eulx qui luy donnoit ung mauvais fame, que c'estoit ung beau chappeau qu'ils mettoient sur la teste de ses enfans que c'estoit assé pour la faire devenir genoxe et que sy il luy survenoit quelque chose qu'elle en donneroit la charge a luy deposant",
+      "english": "that it was they who gave her a bad reputation, that it was a fine hat they put on her children's heads, that it was enough to make her go mad, and that if anything happened to her she would give the blame to him (the witness)",
+      "context": "Threat from accused to witness after he protected Françoise"
+    },
+    {
+      "speaker": "Claudon Marchal (witness 9)",
+      "french": "qu'il estoit bien hautain mais qu'en peu de temps son cacquant luy rabaisseroit",
+      "english": "that he was very arrogant but in a short time his pride would be lowered",
+      "context": "Threat from accused during quarrel"
+    },
+    {
+      "speaker": "Margueritte femme Claude Martin (accused)",
+      "french": "qu'elle ne se lamente sy croit que son enfant n'estoit perdu, et que s'il estoit bien signé du signe de la croix il failloit croire qu'il retrouveroit aydant dieu qu'il estoit ausy seure aux champs qu'a la ville",
+      "english": "that she should not lament, she believed the child was not lost, and if it was well signed with the sign of the cross one should believe it would be found, God willing, that it was as safe in the fields as in the town",
+      "context": "To Jehenne after her child disappeared; considered suspicious knowledge"
+    },
+    {
+      "speaker": "Jennon veuve Claudon Jacquemin (witness 4, sister)",
+      "french": "que sy elle le savoit elle parleroit a elle d'une bonne façon",
+      "english": "that if she knew who did it, she would speak to her in a good way",
+      "context": "Witness's response when accused asked who gave her son the illness"
+    },
+    {
+      "speaker": "Margueritte femme Claude Martin (accused)",
+      "french": "ung pauvre bon homme ne desirant de arrester a aultruy",
+      "english": "a poor good man not wishing to trouble others",
+      "context": "Describing her husband's unwillingness to take legal action when she was called witch"
+    },
+    {
+      "speaker": "Margueritte femme Claude Martin (accused)",
+      "french": "lignée des sorcieres",
+      "english": "lineage of witches",
+      "context": "Describing the family of Demenge Bon Claude, explaining why she discouraged her son from marrying his daughter; claimed his father Jean was banished from duchy as witch"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Margueritte femme Claude Martin",
+      "person2": "Claude Martin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married to present husband some 27 years",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Claude Martin",
+      "person2": "Pierson de Waxaville",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father was Pierson de Waxaville, laboureur",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Claude Martin",
+      "person2": "Allison Pierson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother Allison Pierson",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Claude Martin",
+      "person2": "Jennon veuve Claudon Jacquemin",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "sister of accused",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mengin Godat",
+      "person2": "Mengin Godat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme Mengin Godat",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mengin Godat",
+      "person2": "Jennon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Jennon",
+      "inferred": false
+    },
+    {
+      "person1": "Izabel femme Jean Mongeat",
+      "person2": "Jean Mongeat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme Jean Mongeat",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise femme Demenge Jacquemin",
+      "person2": "Demenge Jacquemin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme Demenge Jacquemin",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Claudon Jacquemin",
+      "person2": "Claudon Jacquemin",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve Claudon Jacquemin",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Claudon Jacquemin",
+      "person2": "Pierson",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her youngest son Pierson",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Claudon Jacquemin",
+      "person2": "Demenge Jacquemin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "her other son",
+      "inferred": false
+    },
+    {
+      "person1": "Hellenix femme Demenge Michiel Vallance",
+      "person2": "Demenge Michiel Vallance",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme Demenge Michiel Vallance",
+      "inferred": false
+    },
+    {
+      "person1": "Hellenix femme Demenge Michiel Vallance",
+      "person2": "Barbelline",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Barbelline",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Conna",
+      "person2": "Barbelline",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "daughter Barbelline, aged 12",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Jean Colotte",
+      "person2": "Jean Colotte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme Jean Colotte",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Jean Colotte",
+      "person2": "Didier de Vacourt",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "had been married to Didier de Vacourt",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Jean Colotte",
+      "person2": "Sebille",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Sebille",
+      "inferred": false
+    },
+    {
+      "person1": "Melline veuve Anthoine Grand Anthoine",
+      "person2": "Anthoine Grand Anthoine",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "veuve Anthoine Grand Anthoine",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Vautrin",
+      "person2": "Claude Mal Didier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme Claude Mal Didier",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Demenge Bon Claude",
+      "person2": "Demenge Bon Claude",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme Demenge Bon Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne femme Demenge Gadel",
+      "person2": "Demenge Gadel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme Demenge Gadel",
+      "inferred": false
+    },
+    {
+      "person1": "Odille femme Claudon Grand Claude",
+      "person2": "Claudon Grand Claude",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "femme Claudon Grand Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve Claudon Thomas",
+      "person2": "Claudon Thomas",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve Claudon Thomas",
+      "inferred": false
+    },
+    {
+      "person1": "Allison veuve Jean Hellenix",
+      "person2": "Jean Hellenix",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve Jean Hellenix",
+      "inferred": false
+    },
+    {
+      "person1": "Allison veuve Jean Hellenix",
+      "person2": "Jennon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Daughter Jennon",
+      "inferred": false
+    },
+    {
+      "person1": "Allison veuve Jean Hellenix",
+      "person2": "Demenge",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her nephew Demenge",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Marchal",
+      "person2": "Claudon (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his son Claudon, aged 3",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Bon Claude",
+      "person2": "Jean",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Demenge's father Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Bon Claude",
+      "person2": "Claudon Marchal",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his cousin Claudon Marchal",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Claude Martin",
+      "person2": "Demenge Jacquemin",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "her nephew",
+      "inferred": true
+    },
+    {
+      "person1": "Margueritte femme Claude Martin",
+      "person2": "Françoise femme Demenge Jacquemin",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "nephew's wife",
+      "inferred": true
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes: debt with Allison Hellenix over money owed and daughter's work; dispute with Mongin Godat over debt and field sowing; inheritance dispute with sister Jennon veuve Claudon Jacquemin; wage dispute with Jehenne femme Demenge Gadel over reaping prices. Accused kept a tavern. Some witnesses mentioned economic value of lost animals (cow worth 30 francs). Witnesses noted accused's interest in property of nephews as 'richest young men in village'."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jennon",
+      "victim_relationship_to_witness": "daughter of witness 1",
+      "harm_category": "human_illness",
+      "harm_description": "earache for several days",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "quarrel between children; accused struck child on cheek",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "struck on cheek",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "child of Françoise femme Demenge Jacquemin",
+      "victim_relationship_to_witness": "patient being delivered by witness as midwife",
+      "harm_category": "human_death",
+      "harm_description": "stillborn",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "none - accused entered uninvited",
+      "time_between_quarrel_and_harm": "during childbirth",
+      "method_alleged": "forcibly took charge of childbirth despite protests",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Allison veuve Jean Hellenix",
+      "victim_relationship_to_witness": "self (witness 3)",
+      "harm_category": "human_illness",
+      "harm_description": "throat trouble which prevented eating until went to Beau Bernard",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "debt dispute - witness said daughter's work cancelled debt",
+      "time_between_quarrel_and_harm": "immediately after drinking water from pot",
+      "method_alleged": "water from pot",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "child of Jennon (daughter of witness 3)",
+      "victim_relationship_to_witness": "grandchild of witness 3",
+      "harm_category": "human_death",
+      "harm_description": "drowned by mother",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "accused mocked daughter, said she was not worthy of betrothed",
+      "time_between_quarrel_and_harm": "N/A",
+      "method_alleged": "caused disaster",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "owned by witness 4",
+      "harm_category": "animal_death",
+      "harm_description": "sudden death; estuve prepared without success",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "inheritance dispute - witness claimed accused behaved unfairly",
+      "time_between_quarrel_and_harm": "shortly after quarrel",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Pierson",
+      "victim_relationship_to_witness": "youngest son of witness 4",
+      "harm_category": "human_illness",
+      "harm_description": "lost use of limbs and could not work; returned annually for 5 years except previous year; began at harvest time",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "inheritance dispute",
+      "time_between_quarrel_and_harm": "N/A",
+      "method_alleged": "apple (son hinted she gave him an apple)",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "child of Françoise femme Demenge Jacquemin",
+      "victim_relationship_to_witness": "grandchild of witness 4 (third stillbirth)",
+      "harm_category": "human_death",
+      "harm_description": "stillborn (third stillbirth)",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "none - but they did not want her present",
+      "time_between_quarrel_and_harm": "during childbirth",
+      "method_alleged": "interference during childbirth",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Barbelline",
+      "victim_relationship_to_witness": "daughter of witness 5, aged 12",
+      "harm_category": "human_death",
+      "harm_description": "ill for 2 years, complained of right side where there seemed to be void that made sound like drum; doctor Odet at Blamont diagnosed witchcraft",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "daughter often quarrelled with accused's children; accused complained she was spoiled",
+      "time_between_quarrel_and_harm": "one day after eating pear",
+      "method_alleged": "pear",
+      "economic_value": "doctor consulted at Blamont, advised getting water from Badonviller",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "first child of Françoise femme Demenge Jacquemin",
+      "victim_relationship_to_witness": "child of witness 6",
+      "harm_category": "human_death",
+      "harm_description": "stillborn - felt no sign of life from child after eating roast",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "suspected of wanting property to revert to her",
+      "time_between_quarrel_and_harm": "after eating roast",
+      "method_alleged": "roast sent by accused",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "second child of Françoise femme Demenge Jacquemin",
+      "victim_relationship_to_witness": "child of witness 6",
+      "harm_category": "human_death",
+      "harm_description": "stillborn",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same suspicion re: property",
+      "time_between_quarrel_and_harm": "N/A",
+      "method_alleged": "gift sent (but burned)",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "third child of Françoise femme Demenge Jacquemin",
+      "victim_relationship_to_witness": "child of witness 6",
+      "harm_category": "human_death",
+      "harm_description": "stillborn",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same suspicion",
+      "time_between_quarrel_and_harm": "during childbirth",
+      "method_alleged": "arrived early uninvited, interfered with midwife, insisted on hot water for feet when witness felt cold",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "children of Demenge Jacquemin (miscarriages)",
+      "victim_relationship_to_witness": "children of witness 7",
+      "harm_category": "human_death",
+      "harm_description": "miscarriages of wife",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "he called her witch after she struck his mother",
+      "time_between_quarrel_and_harm": "6 years earlier when argument occurred",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "mother's horse",
+      "victim_relationship_to_witness": "mother's property (witness 7)",
+      "harm_category": "animal_death",
+      "harm_description": "death; accused helped with estuve but told them to put oat straw and cushion on back in separate stable",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same as above",
+      "time_between_quarrel_and_harm": "5 years earlier",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 7
+    },
+    {
+      "victim_name": "five-year-old cow",
+      "victim_relationship_to_witness": "owned by witness 8",
+      "harm_category": "animal_death",
+      "harm_description": "went into decline, finally had to be killed; took 3 months",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "witness's cow pushed accused's cows and knocked one over; she struck it with stick",
+      "time_between_quarrel_and_harm": "immediately after being struck",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "witness_number": 8
+    },
+    {
+      "victim_name": "4 other cows",
+      "victim_relationship_to_witness": "owned by witness 8",
+      "harm_category": "animal_death",
+      "harm_description": "died over 3 month period",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same incident",
+      "time_between_quarrel_and_harm": "over 3 months",
+      "animal_type": "cow",
+      "animal_count": 4,
+      "witness_number": 8
+    },
+    {
+      "victim_name": "14 sheep",
+      "victim_relationship_to_witness": "owned by witness 8",
+      "harm_category": "animal_death",
+      "harm_description": "died over 3 month period",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same incident",
+      "time_between_quarrel_and_harm": "over 3 months",
+      "animal_type": "sheep",
+      "animal_count": 14,
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by witness 9",
+      "harm_category": "animal_death",
+      "harm_description": "died after lying in straw for 6 weeks",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "general quarrel where she threatened him",
+      "time_between_quarrel_and_harm": "shortly after",
+      "economic_value": "30 francs",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "witness_number": 9
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "owned by witness 9",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same quarrel",
+      "time_between_quarrel_and_harm": "shortly after",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Claudon (son aged 3)",
+      "victim_relationship_to_witness": "son of witness 9",
+      "harm_category": "human_death",
+      "harm_description": "immediately became ill, refused all food, died in a week",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "N/A - a year after quarrel",
+      "time_between_quarrel_and_harm": "a year later",
+      "method_alleged": "quarter of a chemelle (food) - she made fuss of him and gave it to him",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Demenge Grand Colas",
+      "victim_relationship_to_witness": "self (witness 10)",
+      "harm_category": "human_illness",
+      "harm_description": "gravely ill for 4-5 days; recovered after calling her witch",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "quarrel over pigs which ate fallen fruit from trees",
+      "time_between_quarrel_and_harm": "immediately after quarrel",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "cauldron and coals",
+      "victim_relationship_to_witness": "owned by witness 10",
+      "harm_category": "property_damage",
+      "harm_description": "cauldron of water fell, putting out every coal during marriage feast cooking",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "he complained she did not have spices needed for soup; she said she did not want to be 'gourmandé' in her house",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "owned by witness 12",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "dispute over goose; his wife called her witch",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Barbelline (daughter aged 12)",
+      "victim_relationship_to_witness": "daughter of witness 13",
+      "harm_category": "human_death",
+      "harm_description": "ill after eating pear; doctor at Blamont diagnosed witchcraft, advised getting water from Badonviller; died next day after seeing doctor",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "N/A",
+      "time_between_quarrel_and_harm": "8-9 years earlier",
+      "method_alleged": "pear",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Didier de Vacourt",
+      "victim_relationship_to_witness": "husband of witness 14",
+      "harm_category": "human_death",
+      "harm_description": "felt very cold as he left house, died in 10 days",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "refused to lend large cauldron for washing on husband's advice",
+      "time_between_quarrel_and_harm": "shortly after refusal",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Margueritte and daughter Sebille",
+      "victim_relationship_to_witness": "witness 14 (self) and daughter",
+      "harm_category": "human_illness",
+      "harm_description": "both ill; witness recovered after 3 months",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same - refusal of cauldron",
+      "time_between_quarrel_and_harm": "shortly after refusal",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "husband of witness 15",
+      "victim_relationship_to_witness": "husband of witness 15",
+      "harm_category": "human_death",
+      "harm_description": "became ill as soon as he ate bread, died 2 weeks later",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "husband refused to repair cradle",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "method_alleged": "bread given by accused",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "small girl aged 2",
+      "victim_relationship_to_witness": "daughter of witness 16",
+      "harm_category": "human_illness",
+      "harm_description": "became ill after playing with accused's children; recovered after pilgrimage to Beau Bernard",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": "N/A",
+      "method_alleged": "unclear - but accused suggested the cure",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "daughter",
+      "victim_relationship_to_witness": "daughter of witness 17",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 3 months, spitting blood, stomach swollen, difficulty breathing; recovered after cure",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "none - child often played in accused's house and was given food",
+      "time_between_quarrel_and_harm": "N/A",
+      "method_alleged": "bread and other things given to child; but accused also gave advice about cure",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Demenge Mongeat",
+      "victim_relationship_to_witness": "self (witness 18)",
+      "harm_category": "human_illness",
+      "harm_description": "eye trouble, spent 2 months in bed unable to see, crying with pain",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "quarrel over meat he sold her (she kept tavern); she reproached him while he was playing cards",
+      "time_between_quarrel_and_harm": "immediately after she reproached him",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "3 horses",
+      "victim_relationship_to_witness": "owned by witness 19",
+      "harm_category": "animal_death",
+      "harm_description": "such unpleasant illness they could not be eaten, had to be killed; everyone judged them bewitched",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "she was angry because his cousin Claudon Marchal quarrelled with her; said she would stop her son courting witness's daughter",
+      "time_between_quarrel_and_harm": "soon after",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "witness_number": 19
+    },
+    {
+      "victim_name": "2 cattle",
+      "victim_relationship_to_witness": "owned by witness 19",
+      "harm_category": "animal_death",
+      "harm_description": "died",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "same",
+      "time_between_quarrel_and_harm": "N/A",
+      "animal_type": "cattle",
+      "animal_count": 2,
+      "witness_number": 19
+    },
+    {
+      "victim_name": "horses",
+      "victim_relationship_to_witness": "owned by witness 20 and husband",
+      "harm_category": "animal_death",
+      "harm_description": "died",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "accused came to say she did not want her son to marry witness's daughter",
+      "time_between_quarrel_and_harm": "after conversation",
+      "animal_type": "horse",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "daughter aged 3",
+      "victim_relationship_to_witness": "daughter of witness 21",
+      "harm_category": "other",
+      "harm_description": "disappeared in open field, searched all day without success; found next day with herd of cows at Remoncourt - impossible for small child to get so far",
+      "attributed_to": "Margueritte femme Claude Martin",
+      "precipitating_quarrel": "could not agree on price for reaping work",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "witness_number": 21
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "roast",
+      "context": "sent by accused to pregnant Françoise; husband advised not to eat",
+      "category": "food"
+    },
+    {
+      "object": "pear",
+      "context": "given by accused to children who later died or became ill",
+      "category": "food"
+    },
+    {
+      "object": "quarter of a chemelle",
+      "context": "given by accused to 3-year-old boy who died",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "given by accused to man who died; also given to children playing in her house",
+      "category": "food"
+    },
+    {
+      "object": "large cauldron",
+      "context": "accused asked to borrow for washing; refused",
+      "category": "household"
+    },
+    {
+      "object": "estuve",
+      "context": "preparation for sick horse",
+      "category": "other"
+    },
+    {
+      "object": "oat straw and cushion",
+      "context": "accused told them to put on horse's back in separate stable",
+      "category": "agricultural"
+    },
+    {
+      "object": "stick",
+      "context": "accused struck cow with stick",
+      "category": "tools"
+    },
+    {
+      "object": "stool",
+      "context": "witness threatened to throw at accused's head",
+      "category": "household"
+    },
+    {
+      "object": "axe",
+      "context": "accused called on daughter to bring to kill witness",
+      "category": "tools"
+    },
+    {
+      "object": "candles",
+      "context": "bring back from Beau Bernard pilgrimage",
+      "category": "religious"
+    },
+    {
+      "object": "cradle",
+      "context": "husband refused to repair",
+      "category": "household"
+    },
+    {
+      "object": "spices",
+      "context": "witness needed for soup at marriage feast",
+      "category": "food"
+    },
+    {
+      "object": "cauldron of water",
+      "context": "fell and put out coals during cooking",
+      "category": "household"
+    },
+    {
+      "object": "goose",
+      "context": "dispute over ownership",
+      "category": "agricultural"
+    },
+    {
+      "object": "meat",
+      "context": "sold to accused who kept tavern",
+      "category": "food"
+    },
+    {
+      "object": "chapelet",
+      "context": "three women heard making mocking remarks about",
+      "category": "religious"
+    },
+    {
+      "object": "cock",
+      "context": "accused said she was putting in hayloft to hide from soldiers",
+      "category": "agricultural"
+    },
+    {
+      "object": "fumiers",
+      "context": "cows fed from in street",
+      "category": "agricultural"
+    },
+    {
+      "object": "hat",
+      "context": "surgeon put on accused's stomach to force her to renounce devil",
+      "category": "clothing"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "torture instrument",
+      "category": "other"
+    },
+    {
+      "object": "tortillons",
+      "context": "torture instrument applied to leg, thigh, arm",
+      "category": "other"
+    },
+    {
+      "object": "stones",
+      "context": "tied to feet during strappado",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Leintrey",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Location of court and doctor Odet consulted about bewitched child"
+    },
+    {
+      "place_name": "Beau Bernard",
+      "place_type": "other",
+      "context": "Pilgrimage site for healing; multiple witnesses went there for cures"
+    },
+    {
+      "place_name": "Avricourt",
+      "place_type": "village",
+      "context": "Two witnesses had previously lived at Leintrey but moved to Avricourt"
+    },
+    {
+      "place_name": "Xousse",
+      "place_type": "village",
+      "context": "Residence of schoolmaster Claude Mal Didier and wife"
+    },
+    {
+      "place_name": "Embermesnil",
+      "place_type": "village",
+      "context": "Witness returning from there heard women mocking chapelet; also where witness went to reap and child disappeared"
+    },
+    {
+      "place_name": "Remoncourt",
+      "place_type": "village",
+      "context": "Where missing child was found with herd of cows"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy court that approved torture and sentencing"
+    },
+    {
+      "place_name": "Badonviller",
+      "place_type": "village",
+      "context": "Doctor advised getting water from there for bewitched child"
+    },
+    {
+      "place_name": "Metz",
+      "place_type": "village",
+      "context": "Woman from Metz who practiced divination came to house"
+    },
+    {
+      "place_name": "comté de Blamont",
+      "place_type": "other",
+      "context": "Jurisdiction under which trial was conducted"
+    },
+    {
+      "place_name": "duchy",
+      "place_type": "other",
+      "context": "Demenge Bon Claude's father Jean was banished from duchy as witch"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where accused was arrested; where Allison called accused witch; where child disappeared"
+    },
+    {
+      "place_name": "street",
+      "place_type": "road",
+      "context": "Where cows were fed from fumiers when not yet in fields"
+    },
+    {
+      "place_name": "barn/threshing floor",
+      "place_type": "other",
+      "context": "Where accused fell 12 years earlier"
+    },
+    {
+      "place_name": "hayloft",
+      "place_type": "other",
+      "context": "Where accused said she was putting cock to hide from soldiers"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Soldiers mentioned as expected/feared; accused claimed she fell while trying to hide cock from soldiers in hayloft 12 years before trial",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "multiple debt disputes",
+      "disputes over wages (reaping prices)",
+      "value of animals noted (cow worth 30 francs)",
+      "inheritance disputes between family members",
+      "tavern keeping as occupation"
+    ],
+    "religious_calendar_references": [
+      "harvest time (when illness began)",
+      "end of winter (when cattle incident occurred)",
+      "Lent mentioned implicitly (marriage feast preparations)",
+      "neuvaine (nine-day devotion) performed for cure"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur fiscal of comté de Blamont",
+        "role": "prosecutor_pg",
+        "location": "Blamont"
+      },
+      {
+        "name": "prévôt",
+        "role": "prevot",
+        "location": "Blamont/Leintrey"
+      },
+      {
+        "name": "substitut for procureur fiscal",
+        "role": "prosecutor_pg",
+        "location": "Blamont"
+      },
+      {
+        "name": "echevins",
+        "role": "other",
+        "location": "Leintrey"
+      },
+      {
+        "name": "surgeon",
+        "role": "other",
+        "location": "prison"
+      },
+      {
+        "name": "doctor Odet",
+        "role": "other",
+        "location": "Blamont"
+      },
+      {
+        "name": "sergent",
+        "role": "other",
+        "location": "Leintrey"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Demenge Conna called accused witch; they were called before prévôt who made them forgive each other and make peace",
+        "outcome": "ordered to make peace"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Demenge Michel Valence called her witch; husband had to make reparation with written document",
+        "outcome": "reparation made, written document"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Simon Marie called her witch when drunk; begged pardon in house of Demenge Parmentier and in presence of prévôt; she was promised 'acte de justice' but did not get it",
+        "outcome": "pardon begged, promised legal document but not received"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Multiple instances: (1) Demenge Jacquemin called her witch but she sought no redress; (2) Thiebault's wife called her witch but did not seek redress; (3) Mongin Godat called her witch and told her to get out - she made no complaint; (4) Simon Marie case - promised acte de justice but did not receive it. Generally did not seek redress except in Simon Marie case.",
+    "imprisonment_conditions": "Imprisoned before interrogation; after torture on Sept 19 ordered to be shaved 'affin de pouvoir facillement tirer la verité d'elle, et empescher que l'ennemy ne s'y cache et l'empesche de dire la verité'; after torture on Sept 20 sent back to prison 'pour sa debillité'",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 8,
+    "hearsay_chains": [
+      {
+        "reporter": "Margueritte femme Mengin Godat",
+        "source": "others",
+        "content": "accusations by Demenge de Conna and wife over death of daughter, and by Margueritte over death of first husband"
+      },
+      {
+        "reporter": "Margueritte femme Jean Colotte",
+        "source": "woman from Metz who practiced divination",
+        "content": "told daughter that illness had been given by woman to whom they refused a cauldron"
+      },
+      {
+        "reporter": "Melline veuve Anthoine Grand Anthoine",
+        "source": "Margueritte veuve Colas Vautrin (executed)",
+        "content": "said accused should be taken to prison with others"
+      },
+      {
+        "reporter": "Demenge Mongeat",
+        "source": "others",
+        "content": "heard accused said however much treatment he had, he would never see so well again"
+      },
+      {
+        "reporter": "Demenge Bon Claude",
+        "source": "everyone who saw horses",
+        "content": "judged they were bewitched"
+      },
+      {
+        "reporter": "Demenge Grand Colas",
+        "source": "others",
+        "content": "heard 3 women making mocking remarks about chapelet"
+      },
+      {
+        "reporter": "Henry Claudon",
+        "source": "others",
+        "content": "heard someone say devil had caused accused to fall onto threshing floor"
+      },
+      {
+        "reporter": "Claude Mal Didier",
+        "source": "others in village",
+        "content": "within 3 weeks heard of her reputation"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [2, 4, 6],
+      [5, 13],
+      [4, 7]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "comparison to Virgin Mary - marginal note of outrage",
+      "endured torture with 'bon courage'",
+      "pretended to be unable to speak after torture",
+      "unable to stand after strappado",
+      "made difficulties about renouncing devil",
+      "finally made renunciation 'as if by force'",
+      "said she was so upset she might have made blasphemous statements"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 9,
+        "objection": "Claudon Marchal was always quarrelling and had long sought to dishonour her"
+      },
+      {
+        "witness_number": 10,
+        "objection": "Demenge Grand Colas was a liar and 'renyeur de debte' (denier of debt)"
+      },
+      {
+        "witness_number": 18,
+        "objection": "Demenge Mangeot was 'larron manifeste' (manifest thief)"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jennon fille Mengin Godat",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "daughter of witness's daughter quarrelled with accused's daughter",
+      "relationship_to_witness": "daughter of witness 1",
+      "context": "struck on cheek by accused, had earache"
+    },
+    {
+      "name": "Demenge de Conna (husband)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "heard by witness 1",
+      "context": "made accusations over death of daughter (hearsay)"
+    },
+    {
+      "name": "wife of Demenge de Conna",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "heard by witness 1",
+      "context": "made accusations over death of daughter (hearsay)"
+    },
+    {
+      "name": "Margueritte (unspecified)",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "acquaintance",
+      "relationship_to_witness": "heard by witness 1",
+      "context": "thought accused killed her first husband after he refused her something (hearsay)"
+    },
+    {
+      "name": "Jennon (daughter of Allison Hellenix)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "had child before marriage, drowned it",
+      "relationship_to_witness": "daughter of witness 3",
+      "context": "betrothed to nephew Demenge; accused mocked her"
+    },
+    {
+      "name": "Demenge (nephew of Allison Hellenix)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "possibly related",
+      "relationship_to_witness": "nephew of witness 3",
+      "context": "betrothed to Jennon"
+    },
+    {
+      "name": "Pierson (son of Jennon veuve Claudon Jacquemin)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "nephew (son of sister)",
+      "relationship_to_witness": "son of witness 4",
+      "context": "illness that returned annually for 5 years"
+    },
+    {
+      "name": "Françoise femme Demenge Jacquemin",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "nephew's wife",
+      "relationship_to_witness": "daughter-in-law of witness 4; witness 6 herself",
+      "context": "three stillbirths attributed to accused"
+    },
+    {
+      "name": "Barbelline (daughter of Hellenix femme Demenge Michiel Vallance)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "child who quarrelled with accused's children",
+      "relationship_to_witness": "daughter of witness 5; also mentioned by witness 13 (Demenge Conna) as his daughter",
+      "context": "died after 2-year illness from eating pear; doctor diagnosed witchcraft"
+    },
+    {
+      "name": "doctor Odet",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "consulted by witnesses 5 and 13",
+      "context": "at Blamont; diagnosed witchcraft in Barbelline's case"
+    },
+    {
+      "name": "Didier de Vacourt",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "former neighbor",
+      "relationship_to_witness": "first husband of witness 14",
+      "context": "died 10 days after refusing to lend cauldron; had been working for accused"
+    },
+    {
+      "name": "Sebille",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "former neighbor",
+      "relationship_to_witness": "daughter of witness 14",
+      "context": "became ill after cauldron refusal"
+    },
+    {
+      "name": "woman from Metz",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "came to house of witness 14",
+      "context": "practiced divination; told daughter illness came from woman refused cauldron"
+    },
+    {
+      "name": "Margueritte veuve Colas Vautrin",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "from same village",
+      "relationship_to_witness": "mentioned by witness 15",
+      "context": "later executed; said accused should be taken with other prisoners from Leintrey"
+    },
+    {
+      "name": "Simon Marie",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "none",
+      "context": "called accused witch when drunk; begged pardon before prévôt"
+    },
+    {
+      "name": "Demenge Michel Valence",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "mentioned by witness 19",
+      "context": "called her witch 3 years earlier without her husband taking action"
+    },
+    {
+      "name": "Demenge Parmentier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "none",
+      "context": "in whose house Simon Marie begged pardon"
+    },
+    {
+      "name": "Jean (father of Demenge Bon Claude)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "none directly",
+      "relationship_to_witness": "father of witness 19",
+      "context": "thought a witch and banished from duchy; accused used this to explain why she discouraged her son from marrying into family"
+    },
+    {
+      "name": "Claudon (son of Claudon Marchal)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor's child",
+      "relationship_to_witness": "son of witness 9",
+      "context": "aged 3, died within week after eating food given by accused"
+    },
+    {
+      "name": "daughter of Demenge Bon Claude",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "potential daughter-in-law (rejected)",
+      "relationship_to_witness": "daughter of witness 19",
+      "context": "accused's son was courting her but accused opposed match"
+    },
+    {
+      "name": "son of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": "was courting witness 19's daughter",
+      "context": "accused discouraged him from marrying into 'lignée des sorcieres'"
+    },
+    {
+      "name": "daughter aged 3 (of Jehenne femme Demenge Gadel)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "daughter of witness 21",
+      "context": "disappeared in open field, found at Remoncourt with cow herd"
+    },
+    {
+      "name": "woodcutters",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "told witness 21 where child was found",
+      "context": "found child and took to Remoncourt"
+    },
+    {
+      "name": "daughter (called on to bring axe)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "relationship_to_witness": "none",
+      "context": "accused called on her to bring axe to kill Demenge Conna"
+    },
+    {
+      "name": "Claude Martin (husband)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "relationship_to_witness": "none",
+      "context": "described as 'ung pauvre bon homme ne desirant de arrester a aultruy'; did not take legal action when wife called witch"
+    },
+    {
+      "name": "surgeon",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "none",
+      "context": "examined accused during torture; put hat on her stomach to force renunciation of devil"
+    },
+    {
+      "name": "sergent",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "arrested her",
+      "relationship_to_witness": "none",
+      "context": "called her witch when arresting her from fields"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "This is an exceptionally detailed trial record with 23 witness depositions spanning 5 years (1607-1612). Notable features: (1) Accused was RELEASED after withstanding extensive torture without confessing - very rare outcome; (2) Five-year gap between initial depositions (1607) and resumption of trial (1612); (3) Multiple marginal notes protesting illegal torture practices; (4) Extensive catalog of harms including deaths of multiple children (often via food), animal deaths, and property damage; (5) Rich detail on quarrels, debts, inheritance disputes; (6) Accused made blasphemous comparisons to Christ and Virgin Mary; (7) Multiple witnesses mention Doctor Odet at Blamont diagnosing witchcraft; (8) Pilgrimage to Beau Bernard mentioned multiple times as cure; (9) One witness page missing (witness 3 incomplete); (10) Procureur fiscal sought punishment for blasphemy (whipping, banishment) even after acquittal on witchcraft; (11) Change de Nancy rejected this and ordered only admonishment; (12) Multiple instances where accused did not seek legal redress when called witch. This trial provides exceptional insight into a survivor's case and the limits of torture.",
+    "pdf_pages": 7
+  }
+}

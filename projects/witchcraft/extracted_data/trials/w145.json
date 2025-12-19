@@ -1,0 +1,1519 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "trial_id": "w145",
+  "archive_ref": "B8667 no 7",
+  "location": "Saint Remy",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1591-11-28",
+    "end": "1592-03-01",
+    "duration_days": 94
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Colas Mengin",
+      "gender": "male",
+      "age": 46,
+      "age_approximate": false,
+      "occupation": ["labouraige"],
+      "origin": "Saint Remy",
+      "residence": "Saint Remy",
+      "marital_status": "married",
+      "parents": {
+        "father": "Nicolas Mengin",
+        "mother": "Margo"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Mre Persin",
+        "seduction_date": "8 years before",
+        "seduction_context": "angry over death of a cow, and had no money to buy another",
+        "sabbat_attended": true,
+        "sabbat_locations": ["Repy"],
+        "sabbat_activities": ["dancing", "feasting", "watching"]
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Colas Claude Jardel",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Marion",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "field boundary",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "time_after_quarrel": "after quarrels and threats"
+          },
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "time_after_quarrel": "after quarrels and threats"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jean Colas Henry",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals (unspecified)",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "time_after_quarrel": "after quarrels"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Cesar Colas de Brux",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "residence": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claudon Colas Marion",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "[Unknown female witness - page damaged]",
+      "gender": "female",
+      "age": null,
+      "location": "Saint Remy",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "pigs escaped and caused damage",
+        "threat_received": true,
+        "threat_quote": "qu'il en estoit ung des plus parfaict; se donroit de garde",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "broke a leg",
+            "time_after_quarrel": "10 years before"
+          },
+          {
+            "type": "animal_death",
+            "target": "animals (various)",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "time_after_quarrel": "subsequent to quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "[Unknown witness - later identified as Jean Jacquot]",
+      "gender": "male",
+      "age": null,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Didier Cherier",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "failed to pay chopine de vin due after partage of beasts on a lease",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animal from lease",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "languished and died"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Colas Ferry",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "[Unknown female witness]",
+      "gender": "female",
+      "age": null,
+      "location": "Saint Remy",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband Claudon Gerard kept company with le Salpetrier",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claudon Gerard",
+            "target_relationship": "husband",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "ill for some 10 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jean Hanna",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "[Unknown witness]",
+      "gender": "unknown",
+      "age": null,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Margueritte femme de Fleurentin Marron",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jennon femme a Jean Henry de la Salle",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Colas Hanna",
+      "gender": "male",
+      "age": 45,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean Jacquot",
+            "target_relationship": "community member",
+            "attributed_to": "Colas Mengin",
+            "time_after_quarrel": "3 years before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jennon femme a Jean Salleneix",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mariette femme a Mengin Gerard",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean Colas Didier Cherrier",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Claudon Claude Andreu",
+      "gender": "male",
+      "age": 60,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "Jennon femme à Jean Marron",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "husband",
+            "target_relationship": "husband",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "illness which lasted a few days"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 23,
+      "name": "Mathiette veuve de Colas Marion",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 24,
+      "name": "Claudatte veuve de Nicolas Chordey",
+      "gender": "female",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 25,
+      "name": "Margueritte femme a Mengeon Moulin",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 26,
+      "name": "Claudon Colas Marion",
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 27,
+      "name": "Jennon femme a Colas Didier Cherrier",
+      "gender": "female",
+      "age": 26,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 28,
+      "name": "Demenge Neise de Welacourt",
+      "gender": "male",
+      "age": 25,
+      "age_approximate": true,
+      "occupation": "salpetrier pour la service de son altesse",
+      "location": "Welacourt",
+      "residence": "Saint Remy (temporary)",
+      "relationship_to_accused": "lodged nearby",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "resented le Salpetrier for spreading stories and mother threatened to have witches arrested",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "fell ill seriously and died within a fortnight, saying she was bewitched",
+            "time_after_quarrel": "around St. George"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness and children",
+            "target_relationship": "self and children",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "tormented by cough, coughing blood",
+            "method_alleged": "night visit, then healing with promise"
+          }
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Jean Jacquot",
+      "gender": "male",
+      "age": null,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "property lawsuit",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "witness himself",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "serious illness which lasted 13 weeks",
+            "time_after_quarrel": "9 weeks after lawsuit"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin"
+          }
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Mengeon Moulat",
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 31,
+      "name": "Chrepien Cesar Chrepien",
+      "gender": "male",
+      "age": 44,
+      "age_approximate": true,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Marron",
+            "target_relationship": "community member",
+            "attributed_to": "Colas Mengin",
+            "precipitating_quarrel": "Jean Marron appointed to office previously held by Colas",
+            "time_between_quarrel_and_harm": "during Lent, two years ago"
+          }
+        ]
+      }
+    },
+    {
+      "number": 32,
+      "name": "[Unknown female witness]",
+      "gender": "female",
+      "age": null,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "damage done by beasts",
+        "threat_received": true,
+        "threat_quote": "they would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "witness's own",
+            "attributed_to": "Colas Mengin",
+            "method_alleged": "wolf killed calf",
+            "time_after_quarrel": "shortly afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 33,
+      "name": "[Unknown witness]",
+      "gender": "unknown",
+      "age": null,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "argument over cow lease prolongation, subsequent fight, lawsuit",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "witness",
+            "attributed_to": "Colas Mengin",
+            "harm_description": "illness lasting 2 years"
+          }
+        ]
+      }
+    },
+    {
+      "number": 34,
+      "name": "Colas Colin Gerardin de Nompatelize",
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Nompatelize",
+      "residence": "Saint Remy (12 years)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1591-11-28",
+      "event": "informations_preparatoires",
+      "subject": "Colas Mengin",
+      "details": "34 witnesses deposed"
+    },
+    {
+      "date": "1592-01-18",
+      "event": "torture_approved",
+      "subject": "Colas Mengin",
+      "details": "Change de Nancy orders question extraordinaire"
+    },
+    {
+      "date": "1592-01-29",
+      "event": "torture",
+      "subject": "Colas Mengin",
+      "details": "Interrogation under torture in great kitchen of abbey of Estival; racked and given water; confessed"
+    },
+    {
+      "date": "1592-01-30",
+      "event": "interrogation",
+      "subject": "Colas Mengin",
+      "details": "Repeated confession, named Anthoine Chrepien as accomplice at sabbat"
+    },
+    {
+      "date": "1592-01-31",
+      "event": "other",
+      "subject": "Colas Mengin",
+      "details": "Produced before 'les bons hommes' of Ban d'Estival; retracted then renewed confession; waived right to three days hearing"
+    },
+    {
+      "date": "1592-02-03",
+      "event": "death_approved",
+      "subject": "Colas Mengin",
+      "details": "Death sentence from Change de Nancy, subject to further interrogation"
+    },
+    {
+      "date": "1592-02-17",
+      "event": "interrogation",
+      "subject": "Colas Mengin",
+      "details": "Taken from prison, denied everything previously confessed"
+    },
+    {
+      "date": "1592-02-18",
+      "event": "torture_approved",
+      "subject": "Colas Mengin",
+      "details": "Change de Nancy orders renewed torture"
+    },
+    {
+      "date": "1592-02-22",
+      "event": "torture",
+      "subject": "Colas Mengin",
+      "details": "Racked again, given water, made to feel chappelet; confessed afresh with some modifications"
+    },
+    {
+      "date": "1592-02-25",
+      "event": "sentence",
+      "subject": "Colas Mengin",
+      "details": "Change de Nancy renews death sentence"
+    },
+    {
+      "date": "1592-03-01",
+      "event": "execution",
+      "subject": "Colas Mengin",
+      "details": "Execution carried out at Saint-Dié"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack", "water torture", "chappelet", "sonnettes"],
+    "requesting_official": "Unknown prosecutor",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Anthoine Chrepien",
+      "location": "Saint Remy",
+      "context": "Named during confession on 30 January as being seen at sabbat along with his brother Chrepien",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jean Marion",
+      "accuser_location": "Saint Remy",
+      "context": "Told 3 years earlier he thought Colas was indeed the witch he was reputed",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Colas Mengin",
+      "french": "Sy tu ne l'as dit, se l'a tu pensé",
+      "english": "If you did not say it, did you think it?",
+      "context": "Colas confronting Claudon Gerard about accusations"
+    },
+    {
+      "speaker": "Wife of Gerard des Dames",
+      "french": "qu'il en estoit ung des plus parfaict",
+      "english": "that he was one of the most perfect (witches)",
+      "context": "Identifying Colas as a witch when consulted about bewitched cow"
+    },
+    {
+      "speaker": "Colas Mengin to witness 6",
+      "french": "se donroit de garde",
+      "english": "should watch out",
+      "context": "Threatening witness after quarrel about pigs"
+    },
+    {
+      "speaker": "Jean Marion's wife (witness 6)",
+      "french": "qu'ilz ne s'en souriassent",
+      "english": "that they would not laugh about it",
+      "context": "Colas threatening about land encroachment"
+    },
+    {
+      "speaker": "Community members",
+      "french": "ha les chapeaux rouges soient en mauvais bruict",
+      "english": "ah, the red hats are in bad repute",
+      "context": "People connecting red hats to witchcraft suspicion"
+    },
+    {
+      "speaker": "Witness 26",
+      "french": "que tousjours la race dudit Colas Mengin a esté redoubtée et soubbconnée de sortilege",
+      "english": "that always the race of said Colas Mengin has been feared and suspected of witchcraft",
+      "context": "Describing family reputation"
+    },
+    {
+      "speaker": "Demenge le Salpetrier's wife",
+      "french": "elle estoit ensorcellée",
+      "english": "she was bewitched",
+      "context": "Dying wife's statement to husband"
+    },
+    {
+      "speaker": "Demenge le Salpetrier's mother",
+      "french": "qu'elle feroit par les gens de Monsieur de Haracourt prendre les sorciers et sorcieres de par la",
+      "english": "that she would have the witches and sorceresses taken by the people of Monsieur de Haracourt",
+      "context": "Mother's public threat at fountain after family fell ill"
+    },
+    {
+      "speaker": "Colas Mengin during interrogation",
+      "french": "s'il doubtoit de ses faicts qu'il s'en feict informer, ce qu'a esté cause de la presente procedure",
+      "english": "if he doubted his acts, that he should inform himself, which was the cause of the present procedure",
+      "context": "Colas claiming he himself requested investigation"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Colas Mengin",
+      "person2": "Nicolas Mengin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son of Nicolas Mengin",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Mengin",
+      "person2": "Margo",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Colas' mother Margo, dead for 14 years, had been reputed and feared as a witch",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Mengin",
+      "person2": "Mengin (brother)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Colas' brother Mengin had told him they had another master than God",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Marion",
+      "person2": "witness 6",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "her husband Jean Marion",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Neise de Welacourt",
+      "person2": "wife (deceased)",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife fell ill so seriously that she died within a fortnight",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Gerard",
+      "person2": "witness 10",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "her husband Claudon Gerard",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Fleurentin Marron",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme de Fleurentin Marron",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "Jean Henry de la Salle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme a Jean Henry de la Salle",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "Jean Salleneix",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme a Jean Salleneix",
+      "inferred": false
+    },
+    {
+      "person1": "Mariette",
+      "person2": "Mengin Gerard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mariette femme a Mengin Gerard",
+      "inferred": false
+    },
+    {
+      "person1": "Mathiette",
+      "person2": "Colas Marion",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mathiette veuve de Colas Marion",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte",
+      "person2": "Nicolas Chordey",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte veuve de Nicolas Chordey",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Mengeon Moulin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme a Mengeon Moulin",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "Jean Marron",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme à Jean Marron",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "Colas Didier Cherrier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme a Colas Didier Cherrier",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Colas Marion",
+      "person2": "Jean Colas Marion",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his brother Jean Colas Marion",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Mengin",
+      "person2": "Colas Cougnolle",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Lodged in house of Colas Cougnolle, close to that of the accused",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes over field boundaries, animal leases, unpaid debts (chopine de vin), property lawsuits, and Nicolas Jean Arnoult seizing wheat against debt payment. Colas had lost an office appointment to Jean Marron."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Marion's ox",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "ox died",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "field boundary dispute",
+      "time_between_quarrel_and_harm": "after quarrels and threats",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Jean Marion's pig",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "pig died",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "field boundary dispute",
+      "time_between_quarrel_and_harm": "after quarrels and threats",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Jean Colas Henry's animals",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "animal_death",
+      "harm_description": "lost animals after quarrels",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "quarrels (unspecified)",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jean Jacques Diez",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_illness",
+      "harm_description": "illness",
+      "attributed_to": "Colas Mengin",
+      "time_between_quarrel_and_harm": "5 years before",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Witness 6's cow",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "animal_illness",
+      "harm_description": "broke a leg",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Colas Mengin (according to wife of Gerard des Dames)",
+      "time_between_quarrel_and_harm": "10 years before",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Witness 6's animals",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "animal_death",
+      "harm_description": "various losses of animals",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "pigs escaped and caused damage",
+      "time_between_quarrel_and_harm": "subsequently",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Witness 6 and Jean Marion's ox",
+      "victim_relationship_to_witness": "witness and husband's ox",
+      "harm_category": "animal_death",
+      "harm_description": "lost ox",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "land encroachment reproach",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jean Didier Cherier's animal",
+      "victim_relationship_to_witness": "witness's own from lease",
+      "harm_category": "animal_death",
+      "harm_description": "languished and died",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "failed to pay chopine de vin",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Claudon Gerard",
+      "victim_relationship_to_witness": "witness's husband",
+      "harm_category": "human_illness",
+      "harm_description": "ill for some 10 weeks",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "Claudon Gerard kept company with le Salpetrier",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Witness 22's husband",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "illness which lasted a few days",
+      "attributed_to": "Colas Mengin",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Demenge le Salpetrier's wife",
+      "victim_relationship_to_witness": "witness's wife",
+      "harm_category": "human_death",
+      "harm_description": "fell ill seriously, died within a fortnight saying she was bewitched",
+      "attributed_to": "Colas Mengin",
+      "time_between_quarrel_and_harm": "around St. George, shortly after arriving in village",
+      "witness_number": 28
+    },
+    {
+      "victim_name": "Demenge le Salpetrier and children",
+      "victim_relationship_to_witness": "witness himself and children",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill, tormented by cough, coughing blood",
+      "attributed_to": "Colas Mengin",
+      "method_alleged": "witchcraft, then healed by night visit",
+      "witness_number": 28
+    },
+    {
+      "victim_name": "Jean Jacquot",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "human_illness",
+      "harm_description": "serious illness which lasted 13 weeks",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "property lawsuit",
+      "time_between_quarrel_and_harm": "9 weeks after lawsuit decision",
+      "witness_number": 29
+    },
+    {
+      "victim_name": "Jean Jacquot's horse",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "animal_death",
+      "harm_description": "lost a horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Colas Mengin",
+      "witness_number": 29
+    },
+    {
+      "victim_name": "Jean Marron",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_death",
+      "harm_description": "suddenly died during Lent",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "took office previously held by Colas at Christmas",
+      "time_between_quarrel_and_harm": "two years ago last Lent",
+      "witness_number": 31
+    },
+    {
+      "victim_name": "Witness 32's calf",
+      "victim_relationship_to_witness": "witness's own",
+      "harm_category": "animal_death",
+      "harm_description": "wolf killed one of their calves",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "damage done by beasts",
+      "time_between_quarrel_and_harm": "shortly afterwards",
+      "method_alleged": "suspected of sending wolf",
+      "witness_number": 32
+    },
+    {
+      "victim_name": "Witness 33",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "human_illness",
+      "harm_description": "illness lasting 2 years",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "argument over cow lease, fight, lawsuit",
+      "witness_number": 33
+    },
+    {
+      "victim_name": "Nicolas Jean Arnoult",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "human_death",
+      "harm_description": "death (confessed under torture, later denied)",
+      "attributed_to": "Colas Mengin",
+      "precipitating_quarrel": "seized wheat against debt payment",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "red hat",
+      "context": "Colas always wore a red hat; used to identify him during night visits; associated with witchcraft suspicion",
+      "category": "clothing"
+    },
+    {
+      "object": "chopine de vin",
+      "context": "Payment due after partage of beasts on a lease",
+      "category": "food"
+    },
+    {
+      "object": "wheat (3 quarterons)",
+      "context": "Colas confessed under torture to stealing wheat 'au hault ban'",
+      "category": "food"
+    },
+    {
+      "object": "healing powder",
+      "context": "Given to Demenge le Salpetrier during night visit to cure him",
+      "category": "magical"
+    },
+    {
+      "object": "rack",
+      "context": "Torture device used during interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "chappelet",
+      "context": "Torture implement (thumbscrews) threatened and used",
+      "category": "tools"
+    },
+    {
+      "object": "sonnettes",
+      "context": "Torture implement threatened",
+      "category": "tools"
+    },
+    {
+      "object": "selle",
+      "context": "Seat on which Colas was placed before 'les bons hommes'",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Saint Remy",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Brux",
+      "place_type": "village",
+      "context": "Origin of witness Cesar Colas"
+    },
+    {
+      "place_name": "Welacourt",
+      "place_type": "village",
+      "context": "Origin of Demenge Neise (le Salpetrier)"
+    },
+    {
+      "place_name": "Ban d'Estivay",
+      "place_type": "village",
+      "context": "Origin of wife of Gerard des Dames, fugitive for same crime"
+    },
+    {
+      "place_name": "Estinay",
+      "place_type": "village",
+      "context": "Location of Colas Declain, maire"
+    },
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "Origin of witness Colas Colin Gerardin"
+    },
+    {
+      "place_name": "Repy",
+      "place_type": "sabbat_location",
+      "context": "Location where Colas claimed to be seduced by Mre Persin"
+    },
+    {
+      "place_name": "Abbey of Estival",
+      "place_type": "other",
+      "context": "Court in which he was tried; location of prisons; great kitchen used for torture"
+    },
+    {
+      "place_name": "Ban d'Estival",
+      "place_type": "village",
+      "context": "Jurisdiction with ancient rights; location of 'les bons hommes'"
+    },
+    {
+      "place_name": "Saint-Dié",
+      "place_type": "village",
+      "context": "Location where execution was carried out"
+    },
+    {
+      "place_name": "hault ban",
+      "place_type": "field",
+      "context": "Location where Colas confessed to stealing wheat"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": ["wolf killed calf", "witness saw Colas transform into wolf"],
+    "economic_hardship_indicators": ["debt disputes", "inability to buy replacement cow", "wheat seizure for debt"],
+    "religious_calendar_references": ["Whitsun", "Toussaint", "St. George", "Lent", "Christmas"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Mre. Jean",
+        "role": "executioner",
+        "location": "Ducal executioner"
+      },
+      {
+        "name": "Nicolas Aulbry",
+        "role": "mayor",
+        "location": "Ban d'Estival"
+      },
+      {
+        "name": "Colas Declain",
+        "role": "mayor",
+        "location": "Estinay"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Property lawsuit with Jean Jacquot; Colas opposed the case but decision went in favor of witness",
+        "outcome": "Favored Jean Jacquot"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "Nicolas Jean Arnoult seized Colas' wheat against payment of a debt",
+        "outcome": "Unknown"
+      },
+      {
+        "dispute_type": "property",
+        "description": "Lawsuit following argument over cow lease prolongation and fight",
+        "outcome": "Unknown"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Colas confessed under torture to stealing 3 quarterons of wheat 'au hault ban'",
+        "outcome": "Unknown"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Colas complained that witness 22 had accused him of causing her husband's death; denied being cause",
+    "imprisonment_conditions": "Kept in prisons of abbey of Estival",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 14,
+    "hearsay_chains": [
+      {
+        "reporter": "Colas Claude Jardel",
+        "source": "Jean Marion",
+        "content": "Jean Marion said he thought Colas was indeed the witch he was reputed; had various quarrels and suffered much harm"
+      },
+      {
+        "reporter": "Jean Colas Henry",
+        "source": "Jean Jacques Diez",
+        "content": "Jean Jacques Diez had suspected Colas of causing his illness"
+      },
+      {
+        "reporter": "Cesar Colas de Brux",
+        "source": "Demenge le Salpetrier",
+        "content": "Demenge told him that Colas came through tiny window with two others while he was ill"
+      },
+      {
+        "reporter": "Claudon Colas Marion",
+        "source": "Demenge le Salpetrier",
+        "content": "Heard about Colas' visit to cure le Salpetrier"
+      },
+      {
+        "reporter": "Witness 6",
+        "source": "Wife of Gerard des Dames",
+        "content": "Wife of Gerard des Dames said Colas was 'one of the most perfect' witches"
+      },
+      {
+        "reporter": "Margueritte femme de Fleurentin Marron",
+        "source": "Jennon wife of Jean Colas Marion",
+        "content": "Jennon confided her suspicions about Colas"
+      },
+      {
+        "reporter": "Colas Hanna",
+        "source": "Jean Jacquot",
+        "content": "Jean Jacquot complained that Colas had given him an illness"
+      },
+      {
+        "reporter": "Jean Colas Didier Cherrier",
+        "source": "Jean Colas Marion",
+        "content": "Jean Colas Marion confided his own suspicions"
+      },
+      {
+        "reporter": "Jennon femme à Jean Marron",
+        "source": "Colas Hanna",
+        "content": "Colas Hanna said accused 'avoit bien ses joyes' since he caused husband's illness"
+      },
+      {
+        "reporter": "Claudon Colas Marion",
+        "source": "Jean Colas Marion (brother)",
+        "content": "Brother told him of his suspicions two years before"
+      },
+      {
+        "reporter": "Chrepien Cesar Chrepien",
+        "source": "Jean Marron's widow",
+        "content": "Widow told witness she had warned husband that evil might come of taking the office; held Colas killed him"
+      },
+      {
+        "reporter": "Colas Colin Gerardin",
+        "source": "Late Colas Declain, maire d'Estinay",
+        "content": "Colas Declain said Colas' brother Mengin told him they had another master than God"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [4, 5, 8, 10, 28]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "accused_witnesses_of_crimes"
+    ],
+    "emotional_state_notes": [
+      "felt so reluctant to come to confrontations that he had to be forced",
+      "reversed position during hearing before 'bons hommes' - retracted then renewed confession",
+      "said he wished he was already dead",
+      "denied everything when taken from prison on Feb 17"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 29,
+        "objection": "Jean Jacquot had been 'reprins en justice' and was not fit to be received"
+      },
+      {
+        "witness_number": 28,
+        "objection": "Salpetrier was 'ung vagabond, ivrogne' in whose word one could have no trust; held him to be 'ung estranger et incognu'"
+      },
+      {
+        "witness_number": 22,
+        "objection": "Complained that she had accused him of causing her husband's death"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Margo",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "Dead for 14 years; had been reputed and feared as a witch; when there was rumor she would be arrested, begged witness not to help in arresting her"
+    },
+    {
+      "name": "Mengin (brother of Colas)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "context": "Told Colas Declain they had another master than God; fled when asked to repeat remark"
+    },
+    {
+      "name": "Wife of Gerard des Dames",
+      "role_in_narrative": "prior_accused",
+      "context": "Fugitive from Ban d'Estivay for same crime; consulted about bewitched cow; identified Colas as 'one of the most perfect' witches"
+    },
+    {
+      "name": "Jean Jacques Diez",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "community member",
+      "context": "Suspected Colas of causing his illness 5 years before"
+    },
+    {
+      "name": "Demenge le Salpetrier's wife (deceased)",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "wife of witness 28",
+      "context": "Died within fortnight saying she was bewitched; family had just arrived in village"
+    },
+    {
+      "name": "Demenge le Salpetrier's mother",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_witness": "mother of witness 28",
+      "context": "Was so upset she publicly threatened to have witches arrested by people of Monsieur de Haracourt; overheard at fountain by wife of accused"
+    },
+    {
+      "name": "12-year old girl",
+      "role_in_narrative": "other",
+      "context": "Guarded animals for witness 13; had bad dream about wolf, next morning dream came true (text damaged)"
+    },
+    {
+      "name": "Jean Marron",
+      "role_in_narrative": "victim",
+      "context": "Appointed to office previously held by Colas at Christmas; suddenly died during Lent two years ago; widow believed Colas killed him"
+    },
+    {
+      "name": "Nicolas Jean Arnoult",
+      "role_in_narrative": "victim",
+      "context": "Seized Colas' wheat against payment of debt; Colas confessed to causing his death under torture (later denied)"
+    },
+    {
+      "name": "Colas Declain",
+      "role_in_narrative": "official",
+      "context": "Maire d'Estinay; reported that Colas' brother Mengin said they had another master than God"
+    },
+    {
+      "name": "Anthoine Chrepien",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "alleged accomplice",
+      "context": "Named by Colas during confession as being seen at sabbat with his brother; already arrested on suspicion of witchcraft; had been tortured 3 times"
+    },
+    {
+      "name": "Chrepien (brother of Anthoine)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "alleged accomplice",
+      "context": "Named as being at sabbat with Anthoine"
+    },
+    {
+      "name": "Colas Cougnolle",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Demenge le Salpetrier lodged in his house, which was close to Colas Mengin's house"
+    },
+    {
+      "name": "Nicolas Mengin",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "Father of Colas; died some 20 years before; lived by 'labouraige'"
+    },
+    {
+      "name": "Les bons hommes of Ban d'Estival",
+      "role_in_narrative": "official",
+      "context": "Carrying out ancient right of jurisdiction; Colas produced before them on three different days"
+    },
+    {
+      "name": "Mre Persin",
+      "role_in_narrative": "other",
+      "context": "Name of devil/master who allegedly seduced Colas at Repy 8 years before"
+    },
+    {
+      "name": "Two unidentified companions",
+      "role_in_narrative": "other",
+      "context": "Accompanied Colas during night visit to Demenge le Salpetrier; kept their backs turned so couldn't be recognized"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Very detailed trial record with 34 witnesses (some missing/unknown), comprehensive torture and confession sequences, retraction and renewal of confession. Notable features include: hereditary witch reputation (mother and brother implicated), distinctive red hat as identifying feature, the Demenge le Salpetrier healing visit story that triggered the trial, transformation into wolf allegation, multiple economic disputes, and complex legal proceedings including ancient jurisdictional rights of 'les bons hommes'. Execution at Saint-Dié rather than at location of trial.",
+    "pdf_pages": 6
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "trial_id": "w022B",
+  "archive_ref": "B 3136 no 2",
+  "location": "Hellingen",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1619-10-01",
+    "end": "1620-03-28",
+    "duration_days": 179
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Anne femme Girard George",
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["cheese seller"],
+      "origin": "Archingen",
+      "residence": "Hellingen",
+      "marital_status": "married",
+      "spouse_name": "Girard George",
+      "parents": {
+        "father": "Pasquin Mulnier"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Messire Jost Bayer",
+      "gender": "male",
+      "age": 40,
+      "occupation": "curé de Bedviller",
+      "location": "Bedviller",
+      "relationship_to_accused": "parish priest",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Jacque Stömmin",
+      "gender": "male",
+      "age": 39,
+      "occupation": "sergent en la sergenterie de Hellingen",
+      "location": "Hellingen",
+      "relationship_to_accused": "local official",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Nicolas Thiebauld",
+      "gender": "male",
+      "age": 37,
+      "occupation": null,
+      "location": "Hellingen",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over sheep purchase at Bitche - witness negotiating to buy sheep, George intervened saying if witness didn't keep bargain he should pay 4 pots de vin",
+        "threat_received": true,
+        "threat_quote": "Sy vous et vostre femme eussiez receu voz droicts, il y a long temps que ne seriez plus icy",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Anne femme Girard George",
+            "time_after_quarrel": "a few days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jeanne fille de Maulhenry",
+      "gender": "female",
+      "age": 16,
+      "occupation": "servant",
+      "location": "Hellingen",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Miraculous multiplication of cheese when servant disobeyed instruction not to leave spoon in pot",
+        "threat_received": true,
+        "threat_quote": "she should say nothing on her life",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Nicolas Jacques",
+      "gender": "male",
+      "age": 60,
+      "occupation": null,
+      "location": "Hellingen",
+      "relationship_to_accused": "brother-in-law",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Called the son of her niece a bastard, Anne called him 'un schelm et un larron'",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Dietry le Roman",
+      "gender": "male",
+      "age": 40,
+      "occupation": "habitant de Bedviller",
+      "location": "Bedviller",
+      "relationship_to_accused": "former servant of her neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Dietry le Roman",
+            "target_relationship": "self",
+            "attributed_to": "Anne femme Girard George",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Pasquin de Hellingen",
+      "gender": "male",
+      "age": 27,
+      "occupation": null,
+      "location": "Hellingen",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Claudel le Suisse de Rederchingen",
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": "Rederchingen",
+      "relationship_to_accused": "husband of adoptive daughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Catherine femme Claudel le Suisse",
+      "gender": "female",
+      "age": 37,
+      "occupation": null,
+      "location": "Rederchingen",
+      "relationship_to_accused": "adoptive daughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean le Petit",
+      "gender": "male",
+      "age": 26,
+      "occupation": null,
+      "location": "Hellingen",
+      "relationship_to_accused": "married to niece of Girard George",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1619-10-01",
+      "event": "informations_preparatoires",
+      "subject": "Anne femme Girard George",
+      "details": "Preliminary depositions taken from witnesses"
+    },
+    {
+      "date": "1620-01-31",
+      "event": "interrogation",
+      "subject": "Anne femme Girard George",
+      "details": "First interrogation of the accused"
+    },
+    {
+      "date": "1620-02-08",
+      "event": "torture_approved",
+      "subject": "Anne femme Girard George",
+      "details": "Change de Nancy approves confrontations"
+    },
+    {
+      "date": "1620-02-17",
+      "event": "interrogation",
+      "subject": "Anne femme Girard George",
+      "details": "Additional depositions collected, followed by interrogation"
+    },
+    {
+      "date": "1620-02-18",
+      "event": "confrontation",
+      "subject": "Anne femme Girard George",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1620-02-28",
+      "event": "torture_approved",
+      "subject": "Anne femme Girard George",
+      "details": "Change de Nancy approves torture (ordinaire only)"
+    },
+    {
+      "date": "1620-03-05",
+      "event": "torture",
+      "subject": "Anne femme Girard George",
+      "details": "Interrogation under torture - thumbscrews, strappado, rack, and brodequins applied but no confession obtained"
+    },
+    {
+      "date": "1620-03-20",
+      "event": "sentence",
+      "subject": "Anne femme Girard George",
+      "details": "Change de Nancy orders that she be renvoyée (released)"
+    },
+    {
+      "date": "1620-03-28",
+      "event": "sentence",
+      "subject": "Anne femme Girard George",
+      "details": "Final sentence - after enduring torture she should be renvoyée"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "strappado", "rack", "brodequins"],
+    "requesting_official": null,
+    "approving_court": "Change de Nancy",
+    "restrictions": "ordinaire only (moderate torture, not extraordinary)"
+  },
+  "accomplices_named": [
+    {
+      "name": "Kühthans",
+      "location": "Bitche",
+      "context": "Executed witch who named Anne as accomplice 8 years before trial",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Margueritte la femme du porchier",
+      "location": "Hellingen",
+      "context": "Released (renvoyée) before Anne's arrest; Anne returned after her release",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Kühthans",
+      "accuser_location": "Bitche",
+      "context": "Named Anne as accomplice before execution 8 years prior",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Nicolas Thiebauld",
+      "french": "Sy vous et vostre femme eussiez receu voz droicts, il y a long temps que ne seriez plus icy",
+      "english": "If you and your wife had received your rights, you would not have been here for a long time",
+      "context": "Threat made during quarrel over sheep purchase at Bitche"
+    },
+    {
+      "speaker": "Anne femme Girard George",
+      "french": "qu'elle se repentoit que lors que ladite Jeanne servoit aupres d'elle, et descouvrit le secret desdits frommages, quelle ne l'avoit jetté contre l'apparoye que la cervelle luy soit demeurée apres estant tant parlé",
+      "english": "that she regretted that when said Jeanne was in her service and discovered the secret of said cheeses, that she had not thrown her against the wall so that her brains remained there for having talked so much",
+      "context": "Said after confrontation with servant Jeanne about the cheese multiplication incident"
+    },
+    {
+      "speaker": "Nicolas Jacques",
+      "french": "un schelm et un larron",
+      "english": "a scoundrel and a thief",
+      "context": "Anne's insult to her brother-in-law during quarrel"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Girard George",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Girard George de Hellingen",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Pasquin Mulnier",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Said she was daughter of Pasquin Mulnier of Archingen",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Catherine femme Claudel le Suisse",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "adoptive daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Claudel le Suisse",
+      "person2": "Claudel le Suisse de Rederchingen",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Husband of her adoptive daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Nicolas Jacques",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "her brother-in-law Nicolas Jacque",
+      "inferred": false
+    },
+    {
+      "person1": "Jean le Petit",
+      "person2": "Girard George",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Married to niece of Girard George",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Nicolas Thiebauld",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "neighbour Marie femme Nicolas Thiebauld",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Jeanne fille de Maulhenry",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "she had been servant in their house",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Girard George",
+      "person2": "Adam Tailleur",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had come with a relative, Adam Tailleur of Rimblingen",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Anne sold cheese professionally despite having only 4 cows - witnesses found this suspicious. The cheese multiplication incident raised questions about her prosperity. There were disputes over sheep purchases and wine payments at Bitche. Her attempts to flee were influenced by fear of losing property if she left. One witness thought a heavy sack contained money when they were packing to flee."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "cow owned by Nicolas Thiebauld",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "neck broken in stable, master who cut it up said it was bewitched",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "more than 37 francs",
+      "attributed_to": "Anne femme Girard George",
+      "precipitating_quarrel": "Dispute at Bitche over sheep purchase where George demanded 4 pots de vin; witness responded with threat",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "witchcraft following quarrel",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Dietry le Roman",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "very ill for 10 weeks with unknown sickness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Anne femme Girard George",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "witchcraft (identified by 'une pelerine de St Jacques' who healed him)",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Anne femme Girard George",
+      "victim_relationship_to_witness": "self (accused)",
+      "harm_category": "human_injury",
+      "harm_description": "attacked, face scratched and blackened, dried blood from mouth",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "unknown (she claimed great dog or three cats with blue candle)",
+      "precipitating_quarrel": "After witch Kühthans named her as accomplice",
+      "time_between_quarrel_and_harm": "shortly after",
+      "method_alleged": "attack by supernatural creature",
+      "witness_number": 1
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "cheese",
+      "context": "Anne sold cheese professionally; miraculous multiplication of cheese in pot",
+      "category": "food"
+    },
+    {
+      "object": "spoon (wooden or iron - disputed)",
+      "context": "Servant instructed not to leave spoon in cheese pot; Anne claimed iron, servant claimed wooden",
+      "category": "household"
+    },
+    {
+      "object": "black horse saddled",
+      "context": "Seen tied to fence outside curé's house; Anne told servant Jean Tisserand to mount it",
+      "category": "other"
+    },
+    {
+      "object": "sheep",
+      "context": "Nicolas Thiebauld negotiating to buy sheep at Bitche inn",
+      "category": "agricultural"
+    },
+    {
+      "object": "pots de vin",
+      "context": "Penalty demanded in dispute - 4 pots de vin",
+      "category": "money"
+    },
+    {
+      "object": "grains for tithe",
+      "context": "Anne's husband and Nicolas Thiebauld delivering to Bitche",
+      "category": "agricultural"
+    },
+    {
+      "object": "great dog",
+      "context": "Supernatural creature that allegedly attacked Anne through window",
+      "category": "other"
+    },
+    {
+      "object": "three cats with blue candle",
+      "context": "Anne's alternative explanation for her injuries",
+      "category": "magical"
+    },
+    {
+      "object": "sacks (two)",
+      "context": "Used to pack belongings when planning to flee, one very heavy possibly containing money",
+      "category": "household"
+    },
+    {
+      "object": "small ox",
+      "context": "In stable, arrangements for selling it during flight planning",
+      "category": "agricultural"
+    },
+    {
+      "object": "pelerine de St Jacques",
+      "context": "Healing object or person that cured Dietry le Roman and identified Anne as witch",
+      "category": "religious"
+    },
+    {
+      "object": "cows (4)",
+      "context": "Anne owned only 4 cows but sold much cheese",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Hellingen",
+      "place_type": "village",
+      "context": "Primary location of trial, Anne's residence"
+    },
+    {
+      "place_name": "Bedviller",
+      "place_type": "village",
+      "context": "Location of curé Jost Bayer; where black horse was seen"
+    },
+    {
+      "place_name": "Bitche",
+      "place_type": "village",
+      "context": "Where witch Kühthans was executed; location of inn and market; Chancellery location; where grains delivered for tithe"
+    },
+    {
+      "place_name": "Archingen",
+      "place_type": "village",
+      "context": "Anne's birthplace, home of her father Pasquin Mulnier"
+    },
+    {
+      "place_name": "Rimblingen",
+      "place_type": "village",
+      "context": "Home of Anne's relative Adam Tailleur"
+    },
+    {
+      "place_name": "Giesingen",
+      "place_type": "village",
+      "context": "Home of Jean Tisserand who had been servant"
+    },
+    {
+      "place_name": "Erchingen",
+      "place_type": "village",
+      "context": "Destination of Jean Tisserand when traveling with Anne"
+    },
+    {
+      "place_name": "Rederchingen",
+      "place_type": "village",
+      "context": "Home of Claudel le Suisse and Catherine; location where Dietry le Roman and Pasquin encountered Anne after baptism"
+    },
+    {
+      "place_name": "Kuschl in Palatinate",
+      "place_type": "village",
+      "context": "Birthplace of Jean le Petit"
+    },
+    {
+      "place_name": "Deux-Ponts",
+      "place_type": "village",
+      "context": "Potential destination for Anne's planned flight"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "house",
+      "context": "Where Nicolas Thiebauld's cow died with broken neck; where Anne's small ox was kept"
+    },
+    {
+      "place_name": "barn",
+      "place_type": "house",
+      "context": "Where Anne's husband was threshing before dawn when she was attacked"
+    },
+    {
+      "place_name": "inn at Bitche",
+      "place_type": "other",
+      "context": "Where dispute over sheep purchase occurred"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Where servant Jeanne went to fetch feed for animals"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appeals court)"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Fear of property confiscation if fled",
+      "Economic value of animals emphasized (cow worth 37 francs)",
+      "Professional cheese selling despite limited resources"
+    ],
+    "religious_calendar_references": [
+      "Christmas Day (when Anne's sister warned of arrest)",
+      "Baptism (when Anne and husband encountered Dietry le Roman)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Messire Jost Bayer",
+        "role": "other",
+        "location": "Bedviller"
+      },
+      {
+        "name": "Jean Jacque Stömmin",
+        "role": "other",
+        "location": "Hellingen"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Dietry le Roman accused her of being witch without her taking action; brother-in-law Nicolas Jacques called her witch without action; she complained about being called witch but never followed through",
+        "outcome": "No legal action taken by accused despite multiple opportunities"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "She never took legal action despite being publicly called a witch multiple times",
+    "imprisonment_conditions": "Feared being imprisoned in cold weather and tortured",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 4,
+    "hearsay_testimony_count": 6,
+    "hearsay_chains": [
+      {
+        "reporter": "Nicolas Thiebauld",
+        "source": "Jean Tisserand of Giesingen",
+        "content": "Story about black horse outside curé's house"
+      },
+      {
+        "reporter": "Jeanne fille de Maulhenry",
+        "source": "Marie femme Nicolas Thiebauld",
+        "content": "Advice about crossing herself when making miraculous cheese"
+      },
+      {
+        "reporter": "Dietry le Roman",
+        "source": "une pelerine de St Jacques",
+        "content": "Identification of Anne as source of his bewitchment"
+      },
+      {
+        "reporter": "Claudel le Suisse",
+        "source": "his wife Catherine",
+        "content": "That Anne and Girard were packing to flee"
+      }
+    ],
+    "oldest_accusation_years": 8,
+    "corroboration_groups": [
+      [1, 2],
+      [6, 7]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Did not cry during imprisonment - she said this was because they wronged her",
+      "Described as showing 'arrogance' during torture",
+      "Furious with servant Jeanne about cheese incident",
+      "Frightened of imprisonment in cold weather and torture",
+      "Attempted to flee twice rather than face trial"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 4,
+        "objection": "Disputed whether spoon was wooden (as Jeanne claimed) or iron (as Anne claimed)"
+      },
+      {
+        "witness_number": 1,
+        "objection": "Claimed there was another woman of same name in village who was greatly suspected as witch and now dead"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Kühthans",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "none - named her as accomplice",
+      "relationship_to_witness": null,
+      "context": "Witch executed at Bitche 8 years earlier who named Anne as accomplice"
+    },
+    {
+      "name": "Margueritte la femme du porchier",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow accused witch",
+      "relationship_to_witness": null,
+      "context": "Released (renvoyée) before Anne returned from hiding; Anne's return after her release noted"
+    },
+    {
+      "name": "Adam Tailleur",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "relative",
+      "relationship_to_witness": null,
+      "context": "Accompanied Anne to speak to curé about accusation"
+    },
+    {
+      "name": "Jean Tisserand",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "former servant",
+      "relationship_to_witness": "told story to Nicolas Thiebauld",
+      "context": "Had been servant for long time; told story about black horse"
+    },
+    {
+      "name": "Marie femme Nicolas Thiebauld",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "told by Jeanne about cheese incident",
+      "context": "Advised Jeanne to cross herself and make the cheese"
+    },
+    {
+      "name": "widow of sergent of Hallingen",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "employer of Dietry le Roman",
+      "context": "Dietry was in her service when he became ill"
+    },
+    {
+      "name": "sheep vendor at Bitche",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "negotiating sale with Nicolas Thiebauld",
+      "context": "Selling sheep that led to quarrel"
+    },
+    {
+      "name": "master who cut up cow",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none",
+      "relationship_to_witness": "butchered Nicolas Thiebauld's cow",
+      "context": "Said the cow was bewitched"
+    },
+    {
+      "name": "Anne's sister",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "relationship_to_witness": null,
+      "context": "Warned Anne on Christmas Day that she would be arrested next day"
+    },
+    {
+      "name": "niece of Girard George (wife of Jean le Petit)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "niece by marriage",
+      "relationship_to_witness": null,
+      "context": "Married to Jean le Petit"
+    },
+    {
+      "name": "son of Anne's niece",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "nephew",
+      "relationship_to_witness": null,
+      "context": "Nicolas Jacques called him a bastard, leading to quarrel"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is a particularly significant case as Anne survived torture and was released. She maintained her innocence throughout, never confessing despite experiencing thumbscrews, strappado, rack, and brodequins. The document emphasizes her 'arrogance' and notes that interrogators wished they could have continued torture beyond the restrictions imposed by Change de Nancy. Key themes: long reputation (8 years), multiple attempts to flee, failure to seek legal redress for defamation, economic suspicion (cheese selling), cheese multiplication miracle, attempt to flee influenced by fear of torture and property loss. The trial shows the importance of the appeals court (Change de Nancy) in limiting torture and ordering release. Notable that Anne was named by an executed witch 8 years earlier but wasn't arrested until community pressure mounted. Her refusal to take legal action when called witch publicly was used against her as evidence of guilt.",
+    "pdf_pages": 4
+  }
+}

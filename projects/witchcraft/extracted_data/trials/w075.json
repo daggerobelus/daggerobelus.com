@@ -1,0 +1,390 @@
+{
+  "trial_id": "w075",
+  "archive_ref": "B 4098",
+  "location": "Charmes",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1611-06-01",
+    "end": "1611-06-30"
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Esdeline veuve Thoussainct Tarrion",
+      "gender": "female",
+      "age": 33,
+      "age_approximate": false,
+      "occupation": ["servant", "beggar (former)"],
+      "origin": "Saxou soubz Vaudemont",
+      "residence": "Charmes",
+      "marital_status": "widowed",
+      "spouse_name": "Thoussainct Tarrion",
+      "parents": {
+        "father": "Pierat Masson"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Idatte femme George Martin",
+      "gender": "female",
+      "age": 50,
+      "occupation": "wife of carpenter",
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Various disputes, came to physical fighting",
+        "threat_received": true,
+        "threat_quote": "menassé de la noyer ou luy donner un coup de cousteau",
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-06-01",
+      "event": "informations_preparatoires",
+      "subject": "Esdeline Tarrion",
+      "details": "Witness testimonies collected regarding death of apothecary's children"
+    },
+    {
+      "date": "1611-06-15",
+      "event": "interrogation",
+      "subject": "Esdeline Tarrion",
+      "details": "Interrogation about life history and accusations"
+    },
+    {
+      "date": "1611-06-20",
+      "event": "torture",
+      "subject": "Esdeline Tarrion",
+      "details": "Given rack, which she resisted; recorded as bleeding from hands and feet"
+    },
+    {
+      "date": "1611-06-25",
+      "event": "sentence",
+      "subject": "Esdeline Tarrion",
+      "details": "PG des Vosges requested flogging and banishment; Change de Nancy ordered release as she had sufficiently purged the accusations"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "none specified"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "multiple witnesses",
+      "context": "Suspected of murdering her mother-in-law who had been under suspicion as a witch and was found dead in bed, possibly strangled, when a case might have been brought against her",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Idatte femme George Martin",
+      "french": "que comme voisine de ladite Esdeline elle a heu plusieurs querelles avec elle, jusques a s'entrebattre et neanmoins ne luy est arrivé, ny en son bestail aucun mal, et estime que sy ladite Esdeline estoit sorciere qu'elle luy auroit faict desplaisir, estant d'un tres mauvais vouloir, et de parole avantageuse ayant menassé de la noyer ou luy donner un coup de cousteau a cause de quelque dispute qu'elles avoyent heus par ensemble",
+      "english": "that as neighbor of said Esdeline she had several quarrels with her, even coming to blows, and nevertheless no harm came to her or her livestock, and estimates that if said Esdeline were a witch she would have done her harm, being of very bad will and boastful words having threatened to drown her or give her a knife blow because of some dispute they had together",
+      "context": "Witness testimony arguing that Esdeline was NOT a witch, despite quarrels"
+    },
+    {
+      "speaker": "Esdeline Tarrion",
+      "french": "non faict ma foy car tant de gens le prient, en est sy fort importuné qu'il n'oyt pas tout le monde, mais qu'il le falloit prier un peu aujord'huy et un peu demain, et que l'enfant seroit guery",
+      "english": "no by my faith because so many people pray to him, he is so greatly importuned that he does not hear everyone, but one must pray a little today and a little tomorrow, and the child would be cured",
+      "context": "Esdeline's controversial statement about prayer when discussing a sick child"
+    },
+    {
+      "speaker": "Esdeline Tarrion (about her childhood)",
+      "french": "des son jeune age sondit pere s'estant remarié se voyant surchargé de sa maratre l'abandonna petite qu'elle estoit avec un sien frere nommé Nicolas et s'en alla mendier sa vie par le monde jusques a ce qu'elle eust la force de servir maitre",
+      "english": "from her young age her said father having remarried, finding herself burdened by her stepmother, abandoned her when she was small with her brother named Nicolas and went to beg for her life through the world until she had the strength to serve a master",
+      "context": "Esdeline's account of her impoverished childhood and abandonment"
+    },
+    {
+      "speaker": "Esdeline Tarrion",
+      "french": "bien qu'elle l'eut en extreme haine a cause qu'elle estoit soubçonnée sorciere de ce son proces luy avoit esté faict",
+      "english": "although she held her in extreme hatred because she was suspected of being a witch and a case had been brought against her",
+      "context": "Esdeline denying she killed her mother-in-law but admitting she hated her for being suspected as a witch"
+    },
+    {
+      "speaker": "Accused (Esdeline)",
+      "french": "que les riches et les pauvres doivent danser ensemble",
+      "english": "that the rich and the poor must dance together",
+      "context": "What Esdeline allegedly said when forcing apothecary's children to take hands with her own child while dancing"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Esdeline Tarrion",
+      "person2": "Thoussainct Tarrion",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Esdeline veuve Thoussainct Tarrion",
+      "inferred": false
+    },
+    {
+      "person1": "Esdeline Tarrion",
+      "person2": "Pierat Masson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her father Pierat Masson of Saxou soubz Vaudemont was still alive",
+      "inferred": false
+    },
+    {
+      "person1": "Esdeline Tarrion",
+      "person2": "Nicolas Masson",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "avec un sien frere nommé Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "Esdeline Tarrion",
+      "person2": "mother-in-law (unnamed)",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "suspected of murdering her mother-in-law",
+      "inferred": false
+    },
+    {
+      "person1": "Idatte",
+      "person2": "George Martin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Idatte femme George Martin, charpentier de Charmes",
+      "inferred": false
+    },
+    {
+      "person1": "Esdeline Tarrion",
+      "person2": "Idatte femme George Martin",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "comme voisine de ladite Esdeline",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Esdeline came from extreme poverty - abandoned by father as child, begged for 3-4 years before able to work as servant. Accusations include theft and purse-cutting (which she admitted to one instance and made restitution). Class tension visible in the dancing incident where she insisted 'rich and poor must dance together.'"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "child 1 of Jean Gros Jean (apothecary)",
+      "victim_relationship_to_witness": "child of apothecary",
+      "harm_category": "human_death",
+      "harm_description": "fell ill immediately after dancing and died within 2 weeks",
+      "attributed_to": "Esdeline Tarrion",
+      "precipitating_quarrel": "Esdeline forced apothecary's children to take hands with her own child while dancing, saying rich and poor must dance together",
+      "time_between_quarrel_and_harm": "immediately after return from dancing",
+      "method_alleged": "touch (touched them while dancing)",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "child 2 of Jean Gros Jean (apothecary)",
+      "victim_relationship_to_witness": "child of apothecary",
+      "harm_category": "human_death",
+      "harm_description": "fell ill immediately after dancing and died within 2 weeks",
+      "attributed_to": "Esdeline Tarrion",
+      "precipitating_quarrel": "Esdeline forced apothecary's children to take hands with her own child while dancing",
+      "time_between_quarrel_and_harm": "immediately after return from dancing",
+      "method_alleged": "touch (touched them while dancing)",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "child 3 of Jean Gros Jean (apothecary)",
+      "victim_relationship_to_witness": "child of apothecary",
+      "harm_category": "human_death",
+      "harm_description": "languished for some time before dying (Esdeline tried to help cure with prayer)",
+      "attributed_to": "Esdeline Tarrion",
+      "precipitating_quarrel": "Esdeline forced apothecary's children to take hands with her own child while dancing",
+      "time_between_quarrel_and_harm": "some time after dancing incident",
+      "method_alleged": "touch (touched them while dancing)",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "mother-in-law of Esdeline (unnamed)",
+      "victim_relationship_to_witness": "mother-in-law of accused",
+      "harm_category": "human_death",
+      "harm_description": "found dead in bed, possibly strangled",
+      "attributed_to": "Esdeline Tarrion",
+      "precipitating_quarrel": "Esdeline hated her mother-in-law because she was suspected as a witch and a case had been brought against her",
+      "time_between_quarrel_and_harm": "at the moment when a case might have been brought against her",
+      "method_alleged": "possibly strangling",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "prayer written on paper",
+      "context": "Esdeline suggested using a prayer to God, the Virgin, and an unknown saint, which should be given to the first beggar who came to the house to cure the sick child",
+      "category": "religious"
+    },
+    {
+      "object": "purse",
+      "context": "Esdeline accused of being a cutpurse; admitted to one case and made restitution",
+      "category": "other"
+    },
+    {
+      "object": "knife (cousteau)",
+      "context": "Idatte testified Esdeline threatened to give her a knife blow",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Charmes",
+      "place_type": "village",
+      "context": "Primary location of trial; where Esdeline resided and where dancing incident occurred"
+    },
+    {
+      "place_name": "town hall of Charmes",
+      "place_type": "other",
+      "context": "Where children were dancing when Esdeline touched them"
+    },
+    {
+      "place_name": "Saxou soubz Vaudemont",
+      "place_type": "village",
+      "context": "Esdeline's place of origin; where her father Pierat Masson lived"
+    },
+    {
+      "place_name": "Vaudemont",
+      "place_type": "village",
+      "context": "Where there had been a garrison; Esdeline accused of having been 'garce' of a soldier there"
+    },
+    {
+      "place_name": "Grimont pres Epinal",
+      "place_type": "village",
+      "context": "Where Esdeline stopped begging after 3-4 years and began working as servant"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Garrison at Vaudemont; Esdeline accused of having been 'garce' (prostitute/mistress) of a soldier when garrison was there. She admitted dancing with soldiers like other girls in locality.",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "extreme poverty of accused - abandoned as child",
+      "begging for 3-4 years",
+      "class tensions visible in 'rich and poor must dance together' comment",
+      "theft and purse-cutting accusations"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "One case of purse-cutting for which she made restitution",
+        "outcome": "restitution made"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "tortured on rack, bled from hands and feet",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 1,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 0,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "strongly resisted accusations",
+      "resisted torture on rack",
+      "bleeding from hands and feet after torture"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Denied theft accusations except for one case of purse-cutting for which she made restitution"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Gros Jean",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "apothecary whose children allegedly died",
+      "context": "Father of three children who died after dancing incident; evidently incapable of curing his own daughter"
+    },
+    {
+      "name": "Nicolas Masson",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "context": "Brother who was abandoned with Esdeline when they were children"
+    },
+    {
+      "name": "George Martin",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor (husband of witness)",
+      "relationship_to_witness": "husband of Idatte",
+      "context": "Carpenter of Charmes, husband of witness Idatte"
+    },
+    {
+      "name": "mother-in-law of Esdeline (unnamed)",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother-in-law",
+      "context": "Had been under suspicion as a witch, found dead in bed possibly strangled at moment when case might have been brought against her; Esdeline suspected of murdering her"
+    },
+    {
+      "name": "child of Esdeline (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "child",
+      "context": "Esdeline forced apothecary's children to take hands with her own child while dancing"
+    },
+    {
+      "name": "stepmother of Esdeline (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "stepmother",
+      "context": "Father remarried; Esdeline felt burdened by stepmother and was abandoned"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Sonnet 4.5",
+    "confidence": "high",
+    "notes": "This is a remarkable trial showing class tensions and the importance of local reputation. Many witnesses testified that Esdeline was NOT a witch despite quarrels with her. The apothecary's children incident appears to be the catalyst for accusations. Esdeline's extreme poverty background (abandoned child, beggar) and her controversial religious statements created vulnerability. The Change de Nancy's decision to release her (renvoyée) rather than follow PG des Vosges' recommendation for flogging and banishment is significant - they ruled she had 'sufficiently purged the accusations.' Physical evidence of torture resistance documented (bleeding from hands and feet). Notable absence of confession despite torture.",
+    "pdf_pages": 2
+  }
+}

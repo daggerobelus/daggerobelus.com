@@ -1,0 +1,1092 @@
+{
+  "trial_id": "w089",
+  "archive_ref": "B 4576",
+  "location": "Neufchâteau",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1611-06-27",
+    "end": "1611-07-31",
+    "duration_days": 34
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jeanne veuve Mansuy Magnien",
+      "gender": "female",
+      "age": 65,
+      "age_approximate": false,
+      "occupation": ["spinner"],
+      "residence": "Neufchâteau",
+      "marital_status": "widowed",
+      "spouse_name": "Mansuy Magnien",
+      "parents": {},
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Humbert",
+      "gender": "male",
+      "age": 40,
+      "occupation": "tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former neighbor, lived in same house 7-8 years ago",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Her son Jean Gontart called her witch and accused her of causing his father's death",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Mongeotte femme Jean Humbert",
+      "gender": "female",
+      "age": 32,
+      "occupation": "wife of weaver",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jeanne femme Jean Flaman le jeune",
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "occupation": "wife of weaver",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former tenant, lived in Jeanne's house for 3 years",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness suggested illness at Visage d'Ange house might be witchcraft; servant reported this to Jehenne",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "witness",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "next day"
+          },
+          {
+            "type": "human_illness",
+            "target": "her son aged 2 months",
+            "target_relationship": "witness's child",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "while living in house"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Magdelaine fille feu Florentin Pernot (surnommé Visage d'Ange)",
+      "gender": "female",
+      "age": 11,
+      "location": "Neufchâteau",
+      "relationship_to_accused": "neighbor on rue Verdunoise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Found a new carolus in ashes outside Jehenne's house; daughter-in-law asked for return but mother refused",
+        "threat_received": true,
+        "threat_quote": "Je n'en diray mot pour cela mais tu verras ce que s'en sera",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her father Florentin Pernot",
+            "target_relationship": "witness's father",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "6 months later"
+          },
+          {
+            "type": "human_death",
+            "target": "her mother",
+            "target_relationship": "witness's mother",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "3 weeks after father died"
+          },
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "witness",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "6 months after death of parents"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Anne femme Mengin Claude",
+      "gender": "female",
+      "age": 30,
+      "occupation": "wife of weaver",
+      "location": "rue Verdunoise, Neufchâteau",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "her two small children",
+            "target_relationship": "witness's children",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "4 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Pierre Roussel",
+      "gender": "male",
+      "age": 60,
+      "occupation": "tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former tenant, lived with her for 2 years",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his 13-year-old daughter",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "died after 2 years of illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Didiere femme Pierre Roussel",
+      "gender": "female",
+      "age": 51,
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former tenant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her daughter aged 13",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "after 2 years illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Flaman le jeune",
+      "gender": "male",
+      "age": 25,
+      "occupation": "tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former tenant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his wife",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "3 years ago"
+          },
+          {
+            "type": "human_illness",
+            "target": "his small son",
+            "target_relationship": "witness's child",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "while living in house"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jacquot Arnoult",
+      "gender": "male",
+      "age": 36,
+      "occupation": "chartier",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "contracted to take her on pilgrimage",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute about waiting to see curé during pilgrimage to chapel of St Anne",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "6 to 8 horses",
+            "target_relationship": "witness's property",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "beginning 3 or 4 months after the journey"
+          },
+          {
+            "type": "human_illness",
+            "target": "his wife",
+            "target_relationship": "witness's wife",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "after the journey"
+          },
+          {
+            "type": "human_death",
+            "target": "two children aged 6 and 2",
+            "target_relationship": "witness's children",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "after the journey"
+          },
+          {
+            "type": "human_illness",
+            "target": "daughter aged 12",
+            "target_relationship": "witness's daughter",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "after the journey"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Vacharin Gaulthier",
+      "gender": "male",
+      "age": 24,
+      "occupation": "serviteur a Bastien Clement tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former servant to Mengin Claude, neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Threw stones at her when she was talking to herself in garden; she called him 'O grand fuzelier de Vacharin'",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jacques Amand",
+      "gender": "male",
+      "age": 45,
+      "occupation": "tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Her son threatened her about going to court",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jean Obry",
+      "gender": "male",
+      "age": 46,
+      "occupation": "tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "former tenant for 10 months",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute between Jeanne and her daughter-in-law over beating of small child",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Nicolas Pasquier",
+      "gender": "male",
+      "age": 45,
+      "occupation": "tisserand",
+      "location": "Neufchâteau",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Balthazar la Hyre",
+      "gender": "male",
+      "age": 50,
+      "occupation": "tisserand",
+      "location": "previously Neufchâteau, now living at Secqvaulx",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Confronted her with stick about son's illness; later confronted again threatening to hang her",
+        "threat_received": true,
+        "threat_quote": "que par la mort et par la chair dieu, qu'elle estoit sorciere, et qu'elle avoit faict malade son enfant, que s'elle ne le guarissoit, qu'il l'assommeroit toute a l'heure",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his son aged 6",
+            "target_relationship": "witness's son",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "4 years earlier"
+          },
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "witness",
+            "attributed_to": "Jeanne Magnien",
+            "time_after_quarrel": "around same time as son's illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-06-27",
+      "event": "informations_preparatoires",
+      "subject": "Jeanne Magnien",
+      "details": "At request of PG des Vosges. General repute as witch, claim she made several people ill"
+    },
+    {
+      "date": "1611-06-24",
+      "event": "other",
+      "subject": "Jeanne Magnien",
+      "details": "Procureur general des Vosges asks for arrest and interrogation"
+    },
+    {
+      "date": "1611-06-27",
+      "event": "interrogation",
+      "subject": "Jeanne Magnien",
+      "details": "First interrogation"
+    },
+    {
+      "date": "1611-06-28",
+      "event": "interrogation",
+      "subject": "Jeanne Magnien",
+      "details": "Second interrogation, no significant admissions"
+    },
+    {
+      "date": "1611-07-04",
+      "event": "interrogation",
+      "subject": "Jeanne Magnien",
+      "details": "Interrogation and confrontation with Balthazar la Hyre"
+    },
+    {
+      "date": "1611-07-05",
+      "event": "confrontation",
+      "subject": "Jeanne Magnien",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1611-07-06",
+      "event": "confrontation",
+      "subject": "Jeanne Magnien",
+      "details": "Confrontations, no significant admissions"
+    },
+    {
+      "date": "1611-07-08",
+      "event": "confrontation",
+      "subject": "Jeanne Magnien",
+      "details": "Confrontations about dispute with daughter-in-law"
+    },
+    {
+      "date": "1611-07-11",
+      "event": "confrontation",
+      "subject": "Jeanne Magnien",
+      "details": "Confrontations about episode with possessed girl"
+    },
+    {
+      "date": "1611-07-12",
+      "event": "other",
+      "subject": "Jean Gontar",
+      "details": "Interrogation of her son - said he did not believe she was a witch"
+    },
+    {
+      "date": "1611-07-18",
+      "event": "torture_requested",
+      "subject": "Jeanne Magnien",
+      "details": "Procureur general asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1611-07-23",
+      "event": "torture_approved",
+      "subject": "Jeanne Magnien",
+      "details": "Change de Nancy agrees to torture, with moderation appropriate for her age"
+    },
+    {
+      "date": "1611-07-28",
+      "event": "torture",
+      "subject": "Jeanne Magnien",
+      "details": "Given thumbscrews on hands and feet, placed on la chable. Made no admission"
+    },
+    {
+      "date": "1611-07-29",
+      "event": "interrogation",
+      "subject": "Jeanne Magnien",
+      "details": "After being prevented from sleeping all night. Still denying everything. Prepared for renewed torture but apparently not tortured despite threats"
+    },
+    {
+      "date": "1611-07-30",
+      "event": "sentence",
+      "subject": "Jeanne Magnien",
+      "details": "Procureur general des Vosges suggests she be renvoyée jusqu'a rappel"
+    },
+    {
+      "date": "1611-07-31",
+      "event": "sentence",
+      "subject": "Jeanne Magnien",
+      "details": "Local judges agree to release"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews on hands and feet", "la chable"],
+    "requesting_official": "procureur general des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "with moderation appropriate for her age"
+  },
+  "accomplices_named": [
+    {
+      "name": "Huguette",
+      "context": "Mentioned as having accused Jeanne; described as 'bruslée sorciere' (burned witch)",
+      "already_executed": true
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Huguette",
+      "context": "Previously accused Jeanne of witchcraft",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jeanne Magnien to Magdelaine's mother",
+      "french": "Je n'en diray mot pour cela mais tu verras ce que s'en sera",
+      "english": "I won't say a word about it but you will see what comes of it",
+      "context": "Threat after mother refused to return the carolus coin found by daughter"
+    },
+    {
+      "speaker": "Anne femme Mengin Claude (reporting Jehenne's words)",
+      "french": "Tenez Annon baillez cela a vos enfans",
+      "english": "Here Annon give this to your children",
+      "context": "Giving millet and tart to sick children"
+    },
+    {
+      "speaker": "Jeanne Magnien",
+      "french": "qui t'a faict malade te guairisse, je ne suis pas une guairisseuse ny faiseuse de maladie, c'est affaire aux genaulches de guairir et de faire malade",
+      "english": "Let whoever made you sick cure you, I am not a healer nor maker of illness, it is the business of witches to cure and to make sick",
+      "context": "Response when asked to heal someone"
+    },
+    {
+      "speaker": "Jean Gontar (Jeanne's son) to Henry Melnie",
+      "french": "Que par la mort dieu, s'elle s'en va plaindre, je luy feray mectre la main sur le colet, qu'elle ne resveille pas le char qui dort",
+      "english": "By God's death, if she goes to complain, I will have her arrested, that she not awaken the sleeping cart",
+      "context": "Son threatening mother about going to court"
+    },
+    {
+      "speaker": "Vacharin Gaulthier (reporting what Jehenne said to herself)",
+      "french": "Tien tu, ostes tu, petit cocquinel, laisse my",
+      "english": "Take that, remove that, little cocquinel, leave me",
+      "context": "Talking to herself in garden when witness saw her"
+    },
+    {
+      "speaker": "Balthazar la Hyre to Jeanne",
+      "french": "que par la mort et par la chair dieu, qu'elle estoit sorciere, et qu'elle avoit faict malade son enfant, que s'elle ne le guarissoit, qu'il l'assommeroit toute a l'heure",
+      "english": "By God's death and flesh, that she was a witch and had made his child sick, and if she didn't cure him, he would kill her right there",
+      "context": "Threatening her with stick in garden about his sick son"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jeanne Magnien",
+      "person2": "Claude Gontart",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "had been married first to Claude Gontart",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne Magnien",
+      "person2": "Mansuy Magnien",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "then 13 years later to Mansuy Magnien, masson et laboureur, who had died 9 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne Magnien",
+      "person2": "Jean Gontart",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her son Jean Gontart, also weaver",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Humbert",
+      "person2": "Mongeotte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mongeotte femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne femme Jean Flaman",
+      "person2": "Jean Flaman le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jeanne femme Jean Flaman le jeune",
+      "inferred": false
+    },
+    {
+      "person1": "Magdelaine",
+      "person2": "Florentin Pernot (Visage d'Ange)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Magdelaine fille feu Florentin Pernot",
+      "inferred": false
+    },
+    {
+      "person1": "Anne",
+      "person2": "Mengin Claude",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Mengin Claude tisserand",
+      "inferred": false
+    },
+    {
+      "person1": "Pierre Roussel",
+      "person2": "Didiere",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Didiere femme Pierre Roussel",
+      "inferred": false
+    },
+    {
+      "person1": "Vacharin Gaulthier",
+      "person2": "Bastien Clement",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Vacharin Gaulthier, serviteur a Bastien Clement",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Obry",
+      "person2": "Jeanne Magnien",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Had lived for 10 months in her house",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Flaman le jeune",
+      "person2": "Jeanne Magnien",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "occupied small house belonging to Jehenne and adjoining hers",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Jeanne had transferred property to her son, allegedly because she was almost blind and could not manage her own affairs. Witnesses disputed timing of transfer, suggesting it happened right after accusation by Huguette. There was a previous dispute with Balthazar la Hyre about a stolen 'ciel du lit' (bed canopy) 16 years before. Quarrel with daughter-in-law about vine killed by hot water. Son threatened to evict her from house."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jeanne femme Jean Flaman",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Swellings to head and neck, swollen legs, no appetite, still very sick 3 years later",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Servant reported that witness suggested illness might be witchcraft; Jehenne's daughter-in-law beat servant",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Son of Jean Flaman",
+      "victim_relationship_to_witness": "witness's son",
+      "harm_category": "human_illness",
+      "harm_description": "Swollen testicles, crying like a dog day and night, aged 2 months. Recovered after visit to hospital",
+      "attributed_to": "Jeanne Magnien",
+      "method_alleged": "Jeanne initially refused to visit, then came and inspected child",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Florentin Pernot (Visage d'Ange)",
+      "victim_relationship_to_witness": "witness's father",
+      "harm_category": "human_death",
+      "harm_description": "Became ill and died in 8 days",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Mother refused to return carolus coin found by daughter",
+      "time_between_quarrel_and_harm": "6 months later",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Mother of Magdelaine",
+      "victim_relationship_to_witness": "witness's mother",
+      "harm_category": "human_death",
+      "harm_description": "Became ill and died",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Refused to return carolus coin",
+      "time_between_quarrel_and_harm": "3 weeks after father died",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Magdelaine fille Visage d'Ange",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Twisted neck and damaged arms and legs, apostume on neck that spread to head and body",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Carolus coin incident and earlier quarrel about vine killed by hot water",
+      "time_between_quarrel_and_harm": "6 months after death of parents",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Two small children of Mengin Claude",
+      "victim_relationship_to_witness": "witness's children",
+      "harm_category": "human_illness",
+      "harm_description": "Both became ill, then slowly recovered after Jehenne brought millet and tart",
+      "attributed_to": "Jeanne Magnien",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "method_alleged": "Brought millet in 'ung saulssure bien noire' and tart, children recovered after eating",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "13-year-old daughter of Pierre Roussel",
+      "victim_relationship_to_witness": "witness's daughter",
+      "harm_category": "human_death",
+      "harm_description": "Became ill, all swollen, died after 2 years",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Jehenne hated the girl for no known reason",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "6 to 8 horses of Jacquot Arnoult",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "Lost horses, including fine one that would not obey but became docile when passed to someone else",
+      "animal_type": "horse",
+      "animal_count": 8,
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Dispute during pilgrimage about waiting to see curé",
+      "time_between_quarrel_and_harm": "beginning 3 or 4 months after the journey",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Wife of Jacquot Arnoult",
+      "victim_relationship_to_witness": "witness's wife",
+      "harm_category": "human_illness",
+      "harm_description": "Became ill with an enflure (swelling) that lasted more than 6 months",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Dispute during pilgrimage",
+      "time_between_quarrel_and_harm": "after the journey",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Two children of Jacquot Arnoult",
+      "victim_relationship_to_witness": "witness's children",
+      "harm_category": "human_death",
+      "harm_description": "Children aged 6 and 2 died after becoming emaciated despite continuing to eat",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Dispute during pilgrimage",
+      "time_between_quarrel_and_harm": "after the journey",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Daughter aged 12 of Jacquot Arnoult",
+      "victim_relationship_to_witness": "witness's daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Body all twisted, illness still returned periodically",
+      "attributed_to": "Jeanne Magnien",
+      "precipitating_quarrel": "Dispute during pilgrimage",
+      "time_between_quarrel_and_harm": "after the journey",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Son aged 6 of Balthazar la Hyre",
+      "victim_relationship_to_witness": "witness's son",
+      "harm_category": "human_illness",
+      "harm_description": "All bunched up and unable to stretch himself out, could sometimes talk sometimes not, virtually unable to eat. Recovered within 4-5 days after Jehenne promised cure",
+      "attributed_to": "Jeanne Magnien",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "method_alleged": "Jeanne promised child would recover after being confronted with stick",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Balthazar la Hyre",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Strange sickness that began in shoulders then affected arms and legs at different times. Cured within a week after Jehenne said he would recover",
+      "attributed_to": "Jeanne Magnien",
+      "time_between_quarrel_and_harm": "around same time as son's illness",
+      "method_alleged": "After threatening to hang her, she told him it was caused by cold and he would soon recover",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Small child of Balthazar la Hyre",
+      "victim_relationship_to_witness": "witness's child",
+      "harm_category": "human_injury",
+      "harm_description": "Fell out of cradle at bottom of bed",
+      "attributed_to": "Jeanne Magnien",
+      "time_between_quarrel_and_harm": "when wife upbraided Jehenne for inappropriate remarks",
+      "witness_number": 14
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "carolus (coin)",
+      "context": "New carolus found in ashes outside Jehenne's house by Magdelaine, given to mother, daughter-in-law asked for return",
+      "category": "money"
+    },
+    {
+      "object": "millet",
+      "context": "Brought by Jehenne in 'ung saulssure bien noire' as gift for sick children, said to be from wedding feast of her niece",
+      "category": "food"
+    },
+    {
+      "object": "tart",
+      "context": "Brought with millet as gift for sick children",
+      "category": "food"
+    },
+    {
+      "object": "ciel du lit (bed canopy)",
+      "context": "Stolen from Jeanne 16 years before; she accused Balthazar la Hyre of taking it",
+      "category": "household"
+    },
+    {
+      "object": "stick",
+      "context": "Balthazar la Hyre had stick in hand when he confronted Jehenne about his sick son",
+      "category": "tools"
+    },
+    {
+      "object": "garter",
+      "context": "Balthazar threatened to hang Jehenne from pear tree with a garter",
+      "category": "clothing"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "Applied to Jehenne's hands and feet during torture",
+      "category": "tools"
+    },
+    {
+      "object": "la chable (torture device)",
+      "context": "Jeanne placed on this device during torture",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Neufchâteau",
+      "place_type": "village",
+      "context": "Location of trial and residence of accused and most witnesses"
+    },
+    {
+      "place_name": "rue Verdunoise",
+      "place_type": "road",
+      "context": "Street where Jehenne lived and had reputation as witch"
+    },
+    {
+      "place_name": "chapel of St Anne",
+      "place_type": "church",
+      "context": "Pilgrimage destination near village of Goudancy for eye treatment from spring"
+    },
+    {
+      "place_name": "Goudancy",
+      "place_type": "village",
+      "context": "Village near Jouvelle in Burgundy where chapel of St Anne located"
+    },
+    {
+      "place_name": "Jouvelle",
+      "place_type": "village",
+      "context": "Location in Burgundy near Goudancy"
+    },
+    {
+      "place_name": "Saincte reyne",
+      "place_type": "church",
+      "context": "Pilgrimage site visited by Jehenne for eye trouble"
+    },
+    {
+      "place_name": "Saint Meinefort",
+      "place_type": "church",
+      "context": "Pilgrimage site allegedly advised by Jehenne for sick child (she denied this)"
+    },
+    {
+      "place_name": "hospital of Neufchateau",
+      "place_type": "other",
+      "context": "Where witness took sick child who then recovered same evening"
+    },
+    {
+      "place_name": "Secqvaulx",
+      "place_type": "village",
+      "context": "Where Balthazar la Hyre was living at time of testimony"
+    },
+    {
+      "place_name": "poisle",
+      "place_type": "house",
+      "context": "Place where Magdelaine was spinning before finding the carolus"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Jeanne lived by spinning after husband's death",
+      "Multiple families living in same house (weavers)",
+      "Jeanne almost blind and unable to manage affairs"
+    ],
+    "religious_calendar_references": [
+      "next notre dame of August",
+      "night of Ascension",
+      "Vespers",
+      "Mass",
+      "Sunday"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur general des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "16 years before, Jeanne accused Balthazar la Hyre of stealing a 'ciel du lit' (bed canopy) when she had been absent",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "On second visit to Goudance, asked curé to secure redress against accusations but he asked if she had permission from her curé, which she had to admit she did not",
+    "imprisonment_conditions": "Guarded in her house by arbalestriers after being accused. Prevented from sleeping all night before final interrogation on 29 July 1611",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 10,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Humbert",
+        "source": "heard her son Jean Gontart",
+        "content": "calling her witch, accusing her of causing father's death"
+      },
+      {
+        "reporter": "Jeanne femme Jean Flaman",
+        "source": "servant reported to Jehenne",
+        "content": "that witness had accused her of witchcraft"
+      },
+      {
+        "reporter": "Magdelaine",
+        "source": "those of the street",
+        "content": "said Jehenne had bewitched her parents"
+      },
+      {
+        "reporter": "Jacquot Arnoult",
+        "source": "another charretier",
+        "content": "that curé did come later that evening for conjurations"
+      }
+    ],
+    "oldest_accusation_years": 8,
+    "corroboration_groups": [
+      [3, 8],
+      [6, 7]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "very pertinacious and arrogant (judges' observation during confrontation)",
+      "bon courage (judges remarked on her courage during torture)",
+      "stoutly denying everything after sleep deprivation",
+      "undressed herself and placed herself in position for renewed torture"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 14,
+        "objection": "Denied everything absolutely. Said Balthazar la Hyre had reputation as 'un debauche' and she had accused him of theft 16 years before"
+      },
+      {
+        "witness_number": 3,
+        "objection": "Denied advising pilgrimage to Saint Memefort"
+      },
+      {
+        "witness_number": 4,
+        "objection": "Agreed to carolus episode but denied making threat"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Gontart",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son (from first marriage to Claude Gontart)",
+      "context": "Called her witch, accused her of causing his father's death, threatened her about going to court, interrogated and said he did not believe she was a witch"
+    },
+    {
+      "name": "daughter-in-law of Jeanne",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter-in-law",
+      "context": "Beat servant, had quarrels with Jehenne, beat her small child roughly, pushed Jehenne into room and locked her in"
+    },
+    {
+      "name": "Huguette",
+      "role_in_narrative": "prior_accused",
+      "context": "Previously accused Jeanne of witchcraft, described as 'bruslée sorciere' (burned witch), already executed"
+    },
+    {
+      "name": "sister of Demenge Guyet",
+      "role_in_narrative": "community_member",
+      "context": "Came complaining of bad leg asking Jehenne to heal her"
+    },
+    {
+      "name": "curé of Goudance",
+      "role_in_narrative": "official",
+      "context": "Jehenne asked him to secure redress against accusations, he performed exorcisms on possessed people"
+    },
+    {
+      "name": "possessed blind girl with demon called Joly",
+      "role_in_narrative": "community_member",
+      "context": "Dancing and singing at church, touched Jehenne on shoulder and shook her during Mass"
+    },
+    {
+      "name": "Henry Melnie",
+      "role_in_narrative": "community_member",
+      "context": "Jean Gontart told him about threats to his mother"
+    },
+    {
+      "name": "Nicolas Lalleman",
+      "role_in_narrative": "community_member",
+      "context": "Jehenne threatened to leave house and go live with him"
+    },
+    {
+      "name": "Florentin Pernot (Visage d'Ange)",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "father of witness 4",
+      "context": "Died in 8 days after illness, death attributed to Jehenne"
+    },
+    {
+      "name": "Claude Gontart",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "first husband",
+      "context": "Died of pleurisy"
+    },
+    {
+      "name": "Mansuy Magnien",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "second husband",
+      "context": "Masson et laboureur, died 9 years before trial 'des esprinsons'"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This trial is particularly significant as it resulted in release despite torture. Jeanne Magnien was a 65-year-old widow who maintained her innocence throughout extensive interrogations, confrontations, and torture. She was released 'jusqu'a rappel' (until recalled) on 31 July 1611. The case features detailed testimony about her reputation in rue Verdunoise, multiple alleged harms following quarrels, an interesting pilgrimage episode involving possessed people at Goudance, and family conflicts with her son and daughter-in-law. The trial demonstrates a pattern of healing/harming accusations typical of witchcraft cases, with neighbors seeking her help then blaming her when things went wrong. Her resistance to torture and consistent denials, combined with her son's testimony that he did not believe she was a witch, likely contributed to her release. The document provides rich detail on daily life, neighborhood dynamics, material culture, and the legal process including multiple confrontations and judicial oversight by the Change de Nancy.",
+    "pdf_pages": 7
+  }
+}

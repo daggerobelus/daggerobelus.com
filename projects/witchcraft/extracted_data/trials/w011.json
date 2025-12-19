@@ -1,0 +1,1524 @@
+{
+  "trial_id": "w011",
+  "archive_ref": "B 2211 no 1",
+  "location": "Amance",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1625-03-03",
+    "end": "1625-04-26",
+    "duration_days": 54
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Margueritte femme Jean Estienne",
+      "gender": "female",
+      "age": null,
+      "age_approximate": false,
+      "occupation": ["healer", "herbalist"],
+      "origin": null,
+      "residence": "Amance",
+      "marital_status": "married",
+      "spouse_name": "Jean Estienne",
+      "parents": {
+        "father": null,
+        "mother": null
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Mre Cercelle",
+        "devil_appearance": null,
+        "seduction_date": "3 years earlier (circa 1622)",
+        "seduction_context": "Gave her money which proved to be oak leaves, and had intercourse with her",
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["making hail (which she refused)"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Margueritte femme Demenge Huguenin le jeune",
+      "gender": "female",
+      "age": 36,
+      "occupation": "laboureur's wife",
+      "location": "Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused's cow eating cabbages in garden",
+        "threat_received": true,
+        "threat_quote": "it would not be like previous year",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow (leased from plaintiff)",
+            "target_relationship": "household property",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "2 or 3 days after treatment"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Didier Martin dit Saulnier",
+      "gender": "male",
+      "age": 50,
+      "occupation": "paistre du Bourget d'Amance",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Wife refused accused milk",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "own property",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "promptly (14 years earlier)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "George Guiart",
+      "gender": "male",
+      "age": 46,
+      "occupation": "cabaretier du Bourget d'Amance",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": true,
+        "threat_quote": "she should be quiet and she was not cured yet",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Françoise (his daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "after pilgrimage to Chaumont"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Françoise fille de George Guiart",
+      "gender": "female",
+      "age": 14,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": true,
+        "threat_quote": "she should be quiet and she was not cured yet",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "after saying she had recovered"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jeanne femme Demenge Balatte",
+      "gender": "female",
+      "age": 24,
+      "occupation": null,
+      "location": "Amance",
+      "relationship_to_accused": "neighbor (adjoining rooms/shared window)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused wanted to be present at birth but was not invited",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "stillborn baby",
+            "target_relationship": "her child",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "3 or 4 days after accused said she wanted to be at birth"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jeanne femme Claude Ferquel",
+      "gender": "female",
+      "age": 45,
+      "occupation": null,
+      "location": "Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness suspected accused and accused her of causing illness",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "around last St Remy (after remark about wood)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Laurence femme Laurent Blanc Didier",
+      "gender": "female",
+      "age": 27,
+      "occupation": null,
+      "location": "Laistre",
+      "relationship_to_accused": "acquaintance",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Claudin Thieriet",
+      "gender": "male",
+      "age": 30,
+      "occupation": "charpentier du Bourget d'Amance",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Demenge Heuguenin le jeune",
+      "gender": "male",
+      "age": 30,
+      "occupation": "laboureur",
+      "location": "Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused's cow damaged garden; her husband asked for sheaf of barley as recompense; then cow eating cabbages",
+        "threat_received": true,
+        "threat_quote": "it would not be like previous year",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow (leased from plaintiff)",
+            "target_relationship": "leased property",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "2-3 days after treatment"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudon fille Claudin Fulpin",
+      "gender": "female",
+      "age": 18,
+      "occupation": "servant",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "servant of plaintiff",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Barthelemin Mansuin",
+      "gender": "male",
+      "age": 32,
+      "occupation": "vigneron",
+      "location": "Amance",
+      "relationship_to_accused": "guard (was guarding her in custody)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Dion fille Parel Vilaume le vieux",
+      "gender": "female",
+      "age": 24,
+      "occupation": "lieutenant d'enseigne's daughter",
+      "location": "Amance",
+      "relationship_to_accused": "unknown",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Marie veuve Claudon Vosgien",
+      "gender": "female",
+      "age": 60,
+      "occupation": null,
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Nicolas Bourca",
+      "gender": "male",
+      "age": 18,
+      "occupation": "fils Jean Bourca vigneron",
+      "location": "Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jean Charton",
+      "gender": "male",
+      "age": 40,
+      "occupation": "manouvrier du Bourget d'Amance",
+      "location": "Bourget d'Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Bastien Conta",
+      "gender": "male",
+      "age": 50,
+      "occupation": "messager de S.A. et sergent",
+      "location": "Amance",
+      "relationship_to_accused": "official/former servant of receveur",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Caught her stealing grain from barn at night",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Claude femme Nicolas Pierion",
+      "gender": "female",
+      "age": 20,
+      "occupation": null,
+      "location": "Dommartin",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Noble Jean Pierre Dattel",
+      "gender": "male",
+      "age": 31,
+      "occupation": "noble",
+      "location": "Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused him of causing his horse to go lame",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "his property",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "9 or 10 months before testimony"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean de Loizey",
+      "gender": "male",
+      "age": 30,
+      "occupation": "forestier",
+      "location": "Amance",
+      "relationship_to_accused": "acquaintance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Father had quarrel at mill about who should go first; manhandled her",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "grain at mill",
+            "target_relationship": "father's property",
+            "attributed_to": "Margueritte femme Jean Estienne",
+            "time_after_quarrel": "immediately (machinery went wrong)"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Izabeau femme Demenge Cottel",
+      "gender": "female",
+      "age": 37,
+      "occupation": "messager au domaine's wife, baker",
+      "location": "Laistre",
+      "relationship_to_accused": "creditor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked for payment of debt for bread",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Anne femme Nicolas Granice",
+      "gender": "female",
+      "age": 26,
+      "occupation": null,
+      "location": "Laistre",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1625-03-03",
+      "event": "informations_preparatoires",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Taken at request of Adam de Vidrange, chambellan de Son Altesse; witnesses 1-16"
+    },
+    {
+      "date": "1625-03-04",
+      "event": "informations_preparatoires",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Witness 17 testified"
+    },
+    {
+      "date": "1625-03-06",
+      "event": "informations_preparatoires",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Witnesses 18-19 testified; substitut for PG asks for interrogation and confrontations"
+    },
+    {
+      "date": "1625-03-11",
+      "event": "informations_preparatoires",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Additional witnesses 20-21 testified"
+    },
+    {
+      "date": "1625-04-24",
+      "event": "torture",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Interrogation under torture; confessed to being witch, seduced by Mre Cercelle 3 years earlier, attending sabbat, using black powder to kill animals and people"
+    },
+    {
+      "date": "1625-04-25",
+      "event": "death_requested",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Substitut asks for death sentence; confessions confirmed"
+    },
+    {
+      "date": "1625-04-26",
+      "event": "death_approved",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1625-04-26",
+      "event": "sentence",
+      "subject": "Margueritte femme Jean Estienne",
+      "details": "Formal sentence from court at Amance"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "substitut for PG",
+    "approving_court": null,
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean Bourca le vieux",
+      "location": "Amance",
+      "context": "Identified at sabbat; she recognized him by his trousers",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Margueritte femme Jean Estienne",
+      "french": "Et que quant elle avoit affaire de quelques choses, elle s'en alloit aux champs avec ladite feuille, disant avec les mains jointes, mon dieu de paradis et benoiste vierge marie enseigne moy toutes les herbes que je cherche. Ce faict elle trouvoit incontinent tout ce que luy estoit necessaire",
+      "english": "And when she needed something, she would go to the fields with the said sheet, saying with hands joined, my god of paradise and blessed virgin mary teach me all the herbs that I seek. Having done this she found immediately all that was necessary for her",
+      "context": "Accused describing her herbal healing practice to witness 1"
+    },
+    {
+      "speaker": "Margueritte femme Jean Estienne",
+      "french": "adjoustant qu'elle scavoit beaucoup de bonne recepte, mais que sy elle s'en servoit l'on diroit incontinent qu'elle estoit sorciere",
+      "english": "adding that she knew many good recipes, but that if she used them one would say immediately that she was a witch",
+      "context": "Accused expressing awareness that her healing knowledge made her vulnerable to witchcraft accusations"
+    },
+    {
+      "speaker": "Margueritte femme Jean Estienne",
+      "french": "qu'elle avoit adjourné devant les grant Juges, tous les gros d'Amance, qu'il n'y restoit que le sieur de Vidrange plaindant, mais en fin qu'il y estoit aussy adjourné avec les aultres, qu'ils seroient tous en enfers, et eulx bien estonnez de la veoir en paradis, et qu'ilz luy faisoient de place",
+      "english": "that she had summoned before the great Judges, all the important people of Amance, that only the sieur de Vidrange plaintiff remained, but finally that he was also summoned with the others, that they would all be in hell, and be very astonished to see her in paradise, and that they were making room for her",
+      "context": "Accused's defiant remarks about divine judgment reversing earthly verdicts"
+    },
+    {
+      "speaker": "Margueritte femme Jean Estienne",
+      "french": "que ladite damoiselle femme audit sieur plaindant l'avoit esté querir pour veoir ladite vache et la traisne comme Judas fit nre seigneur que ladite damoiselle marchant devant comme Judas et qu'elle la suivoit comme nre seigneur",
+      "english": "that the said lady wife of the said plaintiff had summoned her to see the said cow and betrays her like Judas did our lord, that the said lady walking before like Judas and that she followed like our lord",
+      "context": "Accused comparing herself to Christ and her accusers to Judas"
+    },
+    {
+      "speaker": "Margueritte femme Jean Estienne",
+      "french": "que le sieur plaindant estoit pire qu'un Caiphas et qu'il falloit bien que le diable luy heut dict qu'elle estoit sorciere",
+      "english": "that the sieur plaintiff was worse than a Caiaphas and that surely the devil must have told him that she was a witch",
+      "context": "Accused's bitter remarks while in custody, comparing plaintiff to biblical figures who condemned Christ"
+    },
+    {
+      "speaker": "Margueritte femme Jean Estienne",
+      "french": "que sy elle estoit sorciere elle n'en scavoit que ce qu'il luy en avoit aprins",
+      "english": "that if she was a witch she knew nothing of it except what he had taught her",
+      "context": "Accused's defiant response implying accusers create witches through their accusations"
+    },
+    {
+      "speaker": "Jeanne femme Claude Ferquel (witness 6)",
+      "french": "qu'il y avoit loing temps qu'elle avoit envie de se jetter a elle ne fut esté l'empeschement de ses gens par ce qu'on luy avoit dict qu'elle la soubconnoit sorciere et luy avoit donné ladite maladie",
+      "english": "that for a long time she had wanted to throw herself at her were it not for the restraint of her people because she had been told that she suspected her of being a witch and had given her the said illness",
+      "context": "Accused confronting witness about suspecting her of witchcraft"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Margueritte",
+      "person2": "Jean Estienne",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme Jean Estienne",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Demenge Huguenin le jeune",
+      "person2": "Demenge Huguenin le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Margueritte femme Demenge Huguenin le jeune, laboureur",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise",
+      "person2": "George Guiart",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his daughter Françoise",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne",
+      "person2": "Demenge Balatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jeanne femme Demenge Balatte",
+      "inferred": false
+    },
+    {
+      "person1": "Jeanne",
+      "person2": "Claude Ferquel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jeanne femme Claude Ferquel",
+      "inferred": false
+    },
+    {
+      "person1": "Laurence",
+      "person2": "Laurent Blanc Didier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Laurence femme Laurent Blanc Didier",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon",
+      "person2": "Claudin Fulpin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudon fille Claudin Fulpin",
+      "inferred": false
+    },
+    {
+      "person1": "Dion",
+      "person2": "Parel Vilaume le vieux",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Dion fille Parel Vilaume le vieux, lieutenant d'enseigne",
+      "inferred": false
+    },
+    {
+      "person1": "Marie",
+      "person2": "Claudon Vosgien",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marie veuve Claudon Vosgien",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Bourca",
+      "person2": "Jean Bourca",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Nicolas Bourca, fils Jean Bourca vigneron",
+      "inferred": false
+    },
+    {
+      "person1": "Claude",
+      "person2": "Nicolas Pierion",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claude femme Nicolas Pierion",
+      "inferred": false
+    },
+    {
+      "person1": "Izabeau",
+      "person2": "Demenge Cottel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Izabeau femme Demenge Cottel, messager au domaine",
+      "inferred": false
+    },
+    {
+      "person1": "Anne",
+      "person2": "Nicolas Granice",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Nicolas Granice",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Jeanne femme Demenge Balatte",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "their rooms adjoined and even shared a window",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Cezar (nephew)",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Had killed her nephew Cezar, aged 12",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Claude wife of cousin at Pulenoy",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Claude, wife of her cousin at Pulenoy",
+      "inferred": false
+    },
+    {
+      "person1": "Jean de Loizey",
+      "person2": "father (late)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "he and his late father had been to mill",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Accused worked as healer/herbalist; had debts for bread (witness 20); multiple disputes over livestock damage to gardens; caught stealing grain 12 years earlier by witness 16; accused was known for healing animals and humans using herbs; daughter worked in fields (meadows) for plaintiff previous year and had not been paid"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "cow (leased from Adam de Vidrange)",
+      "victim_relationship_to_witness": "leased property of plaintiff",
+      "harm_category": "animal_death",
+      "harm_description": "Cow fell ill after eating accused's cabbages, died 2-3 days after being treated by accused; still gave good milk 3 hours after death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Cow eating accused's cabbages; accused said 'it would not be like previous year'",
+      "time_between_quarrel_and_harm": "2 or 3 days after treatment",
+      "method_alleged": "treatment with oil of camomile soup",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "second cow",
+      "victim_relationship_to_witness": "leased property of plaintiff",
+      "harm_category": "animal_illness",
+      "harm_description": "Fell ill within 3 or 4 days of cabbage incident",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Same cabbage incident",
+      "time_between_quarrel_and_harm": "3 or 4 days",
+      "method_alleged": "witchcraft after threat",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "cow belonging to Didier Martin's wife",
+      "victim_relationship_to_witness": "own property",
+      "harm_category": "animal_illness",
+      "harm_description": "Promptly lost milk",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Wife had refused accused milk 14 years earlier",
+      "time_between_quarrel_and_harm": "promptly",
+      "method_alleged": "witchcraft",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Françoise daughter of George Guiart",
+      "victim_relationship_to_witness": "daughter (witness 3), self (witness 4)",
+      "harm_category": "human_illness",
+      "harm_description": "Abscess on throat which had to be lanced",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Girl said she thanked God she had recovered her health; accused told her to be quiet and she was not cured yet",
+      "time_between_quarrel_and_harm": "after this",
+      "method_alleged": "malevolent words/curse",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "baby of Jeanne femme Demenge Balatte",
+      "victim_relationship_to_witness": "her child",
+      "harm_category": "human_death",
+      "harm_description": "Stillborn after very painful labour",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Accused wanted to be present at birth but was not invited",
+      "time_between_quarrel_and_harm": "3 or 4 days later",
+      "method_alleged": "Witness thought she saw accused at window preventing birth",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Jeanne femme Claude Ferquel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "Plank twisted and she fell into hole up to her neck while carrying wood into loft, was there all twisted for some time",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Accused remarked they had a lot of wood",
+      "time_between_quarrel_and_harm": "as she was carrying it into loft",
+      "method_alleged": "witchcraft",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "horse belonging to Noble Jean Pierre Dattel",
+      "victim_relationship_to_witness": "his property",
+      "harm_category": "animal_illness",
+      "harm_description": "Went lame; blacksmith found infected foot",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "He called her witch and accused her of causing it",
+      "time_between_quarrel_and_harm": "9 or 10 months before testimony",
+      "method_alleged": "witchcraft",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "grain at mill (Jean de Loizey's father)",
+      "victim_relationship_to_witness": "father's property",
+      "harm_category": "property_damage",
+      "harm_description": "Machinery went wrong and grain was spilled",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Father had quarrel with her about who should go first at mill; manhandled her",
+      "time_between_quarrel_and_harm": "immediately when he put grain in",
+      "method_alleged": "witchcraft",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Cezar (nephew of accused)",
+      "victim_relationship_to_witness": "nephew of accused",
+      "harm_category": "human_death",
+      "harm_description": "Killed aged 12",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "He would not enter her service",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "powder in soup (confession under torture)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "hen (accused's own)",
+      "victim_relationship_to_witness": "accused's property",
+      "harm_category": "animal_death",
+      "harm_description": "Killed one of her own hens",
+      "animal_type": "hen",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "black powder (confession under torture)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "cat (accused's own)",
+      "victim_relationship_to_witness": "accused's property",
+      "harm_category": "animal_death",
+      "harm_description": "Killed her cat",
+      "animal_type": "cat",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder (confession under torture)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "sheep (accused's own)",
+      "victim_relationship_to_witness": "accused's property",
+      "harm_category": "animal_death",
+      "harm_description": "Killed a sheep which was ill",
+      "animal_type": "sheep",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "none",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder (confession under torture)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "horse at Pulenoy",
+      "victim_relationship_to_witness": "property of cousin's wife",
+      "harm_category": "animal_death",
+      "harm_description": "Killed",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Margueritte femme Jean Estienne",
+      "precipitating_quarrel": "Claude, wife of her cousin at Pulenoy, had refused her some grain 2 years before",
+      "time_between_quarrel_and_harm": "2 years before torture",
+      "method_alleged": "powder (confession under torture)",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "oil of camomile",
+      "context": "Used to make soup to treat sick cow; crushed in pot",
+      "category": "magical"
+    },
+    {
+      "object": "piece of paper as large as piece of cloth with pictures of all kinds of herbs",
+      "context": "Given to her by surgeon she served for 3 years; used to identify herbs in fields",
+      "category": "magical"
+    },
+    {
+      "object": "black powder",
+      "context": "Given to her by devil; used to kill animals and people according to confession under torture",
+      "category": "magical"
+    },
+    {
+      "object": "oak leaves",
+      "context": "Money given by devil which proved to be oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "cabbages",
+      "context": "Plaintiff's cow found eating her cabbages in garden",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "Witness 2's wife refused accused milk 14 years earlier",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "Witness 20 came to ask for payment of debt for bread",
+      "category": "food"
+    },
+    {
+      "object": "sheaf of barley",
+      "context": "Accused's husband asked for sheaf as recompense for cow damage to garden",
+      "category": "agricultural"
+    },
+    {
+      "object": "grain",
+      "context": "Caught stealing grain from barn at night in her apron 12 years earlier; grain spilled at mill; refused grain at Pulenoy; fetching grain for piglet",
+      "category": "food"
+    },
+    {
+      "object": "apron",
+      "context": "Used to carry stolen grain",
+      "category": "clothing"
+    },
+    {
+      "object": "cat",
+      "context": "Seen jumping around accused's husband; made piglet sleep on skin with cat; killed her own cat with powder",
+      "category": "household"
+    },
+    {
+      "object": "skin",
+      "context": "Made piglet sleep on skin with cat",
+      "category": "household"
+    },
+    {
+      "object": "cradle",
+      "context": "Found child hanging in loft in cradle according to witness testimony",
+      "category": "household"
+    },
+    {
+      "object": "hens/chickens",
+      "context": "Took hens to fields at harvest which returned when called; killed one of her own with powder; fox attacked neighbors' chickens",
+      "category": "agricultural"
+    },
+    {
+      "object": "herbs",
+      "context": "Collected at dawn to cure cow's damaged leg; searched for using prayer and herb chart",
+      "category": "magical"
+    },
+    {
+      "object": "hatchet",
+      "context": "Cow's leg was cut by hatchet",
+      "category": "tools"
+    },
+    {
+      "object": "wood",
+      "context": "Collecting wood; carrying into loft when accident occurred",
+      "category": "household"
+    },
+    {
+      "object": "washing",
+      "context": "Load of washing on her head when she saw snake",
+      "category": "household"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "Torture instrument used during interrogation",
+      "category": "other"
+    },
+    {
+      "object": "rack",
+      "context": "Torture instrument used during interrogation",
+      "category": "other"
+    },
+    {
+      "object": "soup",
+      "context": "Made soup to treat cow; put powder in soup to kill nephew",
+      "category": "food"
+    },
+    {
+      "object": "trousers",
+      "context": "Recognized Jean Bourca le vieux at sabbat by his trousers",
+      "category": "clothing"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Amance",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Bourget d'Amance",
+      "place_type": "village",
+      "context": "Residence of multiple witnesses (2, 3, 4, 8, 10, 13, 15)"
+    },
+    {
+      "place_name": "Laistre",
+      "place_type": "village",
+      "context": "Residence of witnesses 7, 20, 21"
+    },
+    {
+      "place_name": "Dommartin",
+      "place_type": "village",
+      "context": "Residence of witness 17; location of mill where quarrel occurred 15 years earlier"
+    },
+    {
+      "place_name": "Pulenoy",
+      "place_type": "village",
+      "context": "Location of accused's cousin whose wife refused her grain"
+    },
+    {
+      "place_name": "Ste Raine",
+      "place_type": "other",
+      "context": "Pilgrimage destination; returning from when mysterious incidents occurred"
+    },
+    {
+      "place_name": "Neufchâteau",
+      "place_type": "village",
+      "context": "Approached toward night during pilgrimage; found accused on bridge next morning"
+    },
+    {
+      "place_name": "bridge at Neufchâteau",
+      "place_type": "other",
+      "context": "Where accused was mysteriously found morning after saying she could go no further"
+    },
+    {
+      "place_name": "Chaumont",
+      "place_type": "village",
+      "context": "Approached during pilgrimage when Françoise said she had recovered health"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where accused went with herb chart to search for herbs; where she took hens at harvest time"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Where cows ate cabbages; where witness 7 was working when saw accused with snake; where cow damaged crops"
+    },
+    {
+      "place_name": "mill at Dommartin",
+      "place_type": "other",
+      "context": "Where quarrel occurred 15 years earlier between accused and witness 19's father"
+    },
+    {
+      "place_name": "barn",
+      "place_type": "other",
+      "context": "Where accused was caught stealing grain at night 12 years earlier"
+    },
+    {
+      "place_name": "loft",
+      "place_type": "house",
+      "context": "Where witness fell through hole while carrying wood; where cradle was allegedly found hanging"
+    },
+    {
+      "place_name": "stream",
+      "place_type": "water_body",
+      "context": "Accused was wet from waist down as if she had been in stream, but there was none near"
+    },
+    {
+      "place_name": "path",
+      "place_type": "road",
+      "context": "Where accused was found lying on her back during thunderstorm"
+    },
+    {
+      "place_name": "vineyards",
+      "place_type": "field",
+      "context": "Where witness 15 was guarding vines when he saw accused placing face on ground repeatedly"
+    },
+    {
+      "place_name": "sabbat",
+      "place_type": "sabbat_location",
+      "context": "Confessed to attending every Thursday at 2 a.m.; saw Jean Bourca le vieux there"
+    },
+    {
+      "place_name": "prison",
+      "place_type": "other",
+      "context": "Where accused was held; where her master (devil) visited her; where holy ghost in form of white bird visited her"
+    },
+    {
+      "place_name": "meadows/prey",
+      "place_type": "field",
+      "context": "Where accused's daughter worked for plaintiff previous year without payment"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": [
+      "thunderstorm during wood collecting (witness 7)"
+    ],
+    "animal_predation": [
+      "snake allegedly chasing accused (witnesses 7, 17)"
+    ],
+    "economic_hardship_indicators": [
+      "debt for bread unpaid (witness 20)",
+      "stealing grain from barn (witness 16)",
+      "daughter worked in fields without payment",
+      "need for food mentioned as reason for refusing to make hail at sabbat"
+    ],
+    "religious_calendar_references": [
+      "Whitsun (witness 7)",
+      "St Remy's day (witnesses 6, 7)",
+      "pilgrimage to Ste Raine (witnesses 2, 3, 4, 14)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Adam de Vidrange",
+        "role": "other",
+        "location": "Amance"
+      },
+      {
+        "name": "substitut for PG",
+        "role": "prosecutor_pg",
+        "location": "Amance"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Caught stealing grain from barn at night 12 years earlier",
+        "outcome": "Mistress gave her two or three blows, but took no further action"
+      },
+      {
+        "dispute_type": "debt",
+        "description": "Debt for bread to witness 20",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": "Guarded; allowed to warm herself by fire because of great cold",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 6,
+    "hearsay_chains": [
+      {
+        "reporter": "Noble Jean Pierre Dattel",
+        "source": "his daughter",
+        "content": "she made piglet sleep on a skin with a cat"
+      },
+      {
+        "reporter": "Izabeau femme Demenge Cottel",
+        "source": "accused herself",
+        "content": "story about child in cradle hanging in loft"
+      },
+      {
+        "reporter": "Anne femme Nicolas Granice",
+        "source": "unknown",
+        "content": "confused story about child in cradle; story about fox attacking neighbors' chickens"
+      },
+      {
+        "reporter": "Marie veuve Claudon Vosgien",
+        "source": "hearsay",
+        "content": "Had heard reputation, but had seen no harm"
+      },
+      {
+        "reporter": "Claudin Thieriet",
+        "source": "heard",
+        "content": "Had heard her comment about cow"
+      },
+      {
+        "reporter": "Jean de Loizey",
+        "source": "father (now deceased)",
+        "content": "Story from 15 years earlier about quarrel at mill"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [1, 9],
+      [2, 3, 4, 14],
+      [11, 12],
+      [20, 21]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "defiant and bitter toward accusers",
+      "compared herself to Christ and accusers to Judas and Caiaphas",
+      "claimed she would be in paradise while accusers would be in hell",
+      "fearful in prison (said holy ghost warned her she would be tortured)",
+      "made voluntary confession out of fear then retracted"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": null,
+        "objection": "Told Noble Jean Pierre Dattel he did her wrong by calling her witch"
+      },
+      {
+        "witness_number": 6,
+        "objection": "Confronted witness saying she wanted to throw herself at her because witness suspected her of witchcraft and giving illness"
+      },
+      {
+        "witness_number": null,
+        "objection": "Said plaintiff was worse than Caiaphas and devil must have told him she was witch"
+      },
+      {
+        "witness_number": null,
+        "objection": "Said if she was witch she only knew what accusers taught her"
+      },
+      {
+        "witness_number": null,
+        "objection": "Said witnesses were heard to make people die, gibet was in hell for plaintiff"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "surgeon",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "former employer",
+      "relationship_to_witness": null,
+      "context": "Accused served surgeon for 3 years; he gave her herb chart with pictures of all kinds of herbs"
+    },
+    {
+      "name": "late receveur at Amance",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "former employer of witness 16",
+      "context": "Bastien Conta was in his service 12 years earlier when accused was caught stealing grain"
+    },
+    {
+      "name": "wife of late receveur",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Gave accused two or three blows when she was caught stealing but took no further action"
+    },
+    {
+      "name": "blacksmith",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "consulted by witness 18",
+      "context": "Examined witness 18's lame horse and found infected foot"
+    },
+    {
+      "name": "butcher",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "consulted by witness 18",
+      "context": "Advised witness 18 that cow's nerves were damaged by hatchet and would be hard to cure"
+    },
+    {
+      "name": "one woman healer",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "rival healer",
+      "relationship_to_witness": "consulted by witness 18",
+      "context": "Called in to cure cow's damaged leg but could do nothing; then accused was asked and succeeded"
+    },
+    {
+      "name": "Cezar (nephew)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "nephew",
+      "relationship_to_witness": null,
+      "context": "Accused confessed under torture to killing him aged 12 with powder in soup because he would not enter her service"
+    },
+    {
+      "name": "Claude, wife of cousin at Pulenoy",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "cousin-in-law",
+      "relationship_to_witness": null,
+      "context": "Refused accused grain 2 years before; accused confessed under torture to killing her horse with powder"
+    },
+    {
+      "name": "daughter of Noble Jean Pierre Dattel",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "daughter of witness 18",
+      "context": "Told father that accused made piglet sleep on skin with cat"
+    },
+    {
+      "name": "servant of Noble Jean Pierre Dattel",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "servant of witness 18",
+      "context": "Given piglet to give to accused to look after"
+    },
+    {
+      "name": "mistress of Laurence femme Laurent Blanc Didier",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "employer of witness 7",
+      "context": "Witness 7 was working in her garden when saw accused with snake"
+    },
+    {
+      "name": "mistress of Claudon fille Claudin Fulpin",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "employer of witness 10",
+      "context": "Wife of plaintiff; sent witness 10 to accused's house to ask about cow"
+    },
+    {
+      "name": "husband of accused (Jean Estienne)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "spouse",
+      "relationship_to_witness": null,
+      "context": "Asked witness 9 for sheaf of barley as recompense for cow damage; seen with cat jumping around him; picked up accused after she was found lying in path; allegedly hung cradle up in loft"
+    },
+    {
+      "name": "son of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "child",
+      "relationship_to_witness": null,
+      "context": "Helped pick up accused when she was found lying in path during thunderstorm"
+    },
+    {
+      "name": "daughter of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "child",
+      "relationship_to_witness": null,
+      "context": "Worked in meadows for plaintiff previous year without being paid; fetched grain from accused's house and piglet followed her like dog"
+    },
+    {
+      "name": "father of Jean de Loizey (late)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "father of witness 19",
+      "context": "Had quarrel with accused at mill 15 years earlier; manhandled her"
+    },
+    {
+      "name": "holy ghost",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "claimed visitor",
+      "relationship_to_witness": null,
+      "context": "Accused said holy ghost visited her in form of white bird in prison night before torture and warned her she would be tortured"
+    },
+    {
+      "name": "Mre Cercelle (devil)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "alleged seducer",
+      "relationship_to_witness": null,
+      "context": "Accused confessed under torture to being seduced by this devil 3 years earlier; gave her money that proved to be oak leaves; had intercourse with her; gave her black powder; asked her to make hail; visited her in prison"
+    },
+    {
+      "name": "wife of Adam de Vidrange (plaintiff)",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "accuser",
+      "relationship_to_witness": null,
+      "context": "Sent for accused to visit sick cows; accused compared her to Judas betraying Christ"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Sonnet 4.5",
+    "confidence": "high",
+    "notes": "Very detailed trial record with 21 witnesses. Interrogation and confrontations noted as missing in document. Rich testimony about accused's healing practices, her defiant religious rhetoric comparing herself to Christ, and economic disputes. Confession obtained under torture (thumbscrews and rack). Multiple instances of harm following quarrels over property, livestock damage, and refusals of aid. Accused was known healer who successfully cured animals using herbs, which made her vulnerable to accusations. Notable for accused's articulate defense and bitter commentary on accusers as worse than biblical figures who condemned Christ. Trial shows tension between healing practice and witchcraft accusation.",
+    "pdf_pages": 5
+  }
+}

@@ -1,0 +1,733 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lorraine Witch Trial Record",
+  "description": "Standardized extraction schema for witch trial records from the Lorraine archive",
+  "type": "object",
+  "required": ["trial_id", "location", "outcome", "accused", "witnesses"],
+  "properties": {
+    "trial_id": {
+      "type": "string",
+      "pattern": "^w\\d{3}[A-Z]?$",
+      "description": "Unique trial identifier (e.g., w001, w022A)"
+    },
+    "archive_ref": {
+      "type": "string",
+      "description": "Archive reference number (e.g., B 2148)"
+    },
+    "location": {
+      "type": "string",
+      "description": "Primary location/village of the trial"
+    },
+    "court": {
+      "type": "string",
+      "description": "Court that issued final judgment"
+    },
+    "dates": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date",
+          "description": "First recorded date (YYYY-MM-DD)"
+        },
+        "end": {
+          "type": "string",
+          "format": "date",
+          "description": "Final recorded date (YYYY-MM-DD)"
+        },
+        "duration_days": {
+          "type": "integer",
+          "description": "Calculated duration in days"
+        }
+      }
+    },
+    "outcome": {
+      "type": "string",
+      "enum": ["death", "released", "banished", "unknown", "escaped", "died_in_prison"],
+      "description": "Final outcome of the trial"
+    },
+    "accused": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "gender"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Full name as recorded"
+          },
+          "gender": {
+            "type": "string",
+            "enum": ["male", "female", "unknown"]
+          },
+          "age": {
+            "type": ["integer", "null"],
+            "description": "Age if stated"
+          },
+          "age_approximate": {
+            "type": "boolean",
+            "default": false,
+            "description": "True if age is approximate (e.g., 'about 50')"
+          },
+          "occupation": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Occupations mentioned"
+          },
+          "origin": {
+            "type": "string",
+            "description": "Place of origin/birth"
+          },
+          "residence": {
+            "type": "string",
+            "description": "Place of residence at time of trial"
+          },
+          "marital_status": {
+            "type": "string",
+            "enum": ["married", "single", "widowed", "unknown"]
+          },
+          "spouse_name": {
+            "type": "string"
+          },
+          "parents": {
+            "type": "object",
+            "properties": {
+              "father": {"type": "string"},
+              "mother": {"type": "string"}
+            }
+          },
+          "confession": {
+            "type": "object",
+            "properties": {
+              "confessed": {
+                "type": "boolean",
+                "description": "Did the accused confess?"
+              },
+              "under_torture": {
+                "type": "boolean",
+                "description": "Was confession obtained under torture?"
+              },
+              "retracted": {
+                "type": "boolean",
+                "description": "Was confession later retracted?"
+              },
+              "retraction_renewed": {
+                "type": "boolean",
+                "description": "Was confession renewed after retraction?"
+              },
+              "devil_name": {
+                "type": "string",
+                "description": "Name given to the devil/master"
+              },
+              "devil_appearance": {
+                "type": "string",
+                "description": "Physical description of devil"
+              },
+              "seduction_date": {
+                "type": "string",
+                "description": "When seduction allegedly occurred (relative, e.g., '10 years before')"
+              },
+              "seduction_context": {
+                "type": "string",
+                "description": "Circumstances of alleged seduction"
+              },
+              "devil_mark": {
+                "type": "object",
+                "properties": {
+                  "present": {"type": "boolean"},
+                  "location": {"type": "string"},
+                  "description": {"type": "string"}
+                }
+              },
+              "powder_types": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Types of magical powder mentioned"
+              },
+              "sabbat_attended": {
+                "type": "boolean"
+              },
+              "sabbat_locations": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "sabbat_activities": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Activities at sabbat (dancing, making hail, etc.)"
+              },
+              "sexual_relations_with_devil": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "witnesses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "number": {
+            "type": "integer",
+            "description": "Witness number as listed in document"
+          },
+          "name": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string",
+            "enum": ["male", "female", "unknown"]
+          },
+          "age": {
+            "type": ["integer", "null"]
+          },
+          "occupation": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "relationship_to_accused": {
+            "type": "string",
+            "description": "How witness knew the accused"
+          },
+          "testimony": {
+            "type": "object",
+            "properties": {
+              "reputation_mentioned": {
+                "type": "boolean"
+              },
+              "reputation_duration_years": {
+                "type": ["integer", "null"]
+              },
+              "quarrel_mentioned": {
+                "type": "boolean"
+              },
+              "quarrel_subject": {
+                "type": "string",
+                "description": "What the quarrel was about"
+              },
+              "threat_received": {
+                "type": "boolean"
+              },
+              "threat_quote": {
+                "type": "string"
+              },
+              "harms_alleged": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["human_death", "human_illness", "animal_death", "animal_illness", "crop_damage", "property_damage", "other"]
+                    },
+                    "target": {
+                      "type": "string",
+                      "description": "Who/what was harmed"
+                    },
+                    "target_relationship": {
+                      "type": "string",
+                      "description": "Relationship of target to witness"
+                    },
+                    "attributed_to": {
+                      "type": "string",
+                      "description": "Which accused person blamed"
+                    },
+                    "time_after_quarrel": {
+                      "type": "string",
+                      "description": "Time elapsed between quarrel and harm"
+                    }
+                  }
+                }
+              },
+              "theft_mentioned": {
+                "type": "boolean"
+              },
+              "called_witch_publicly": {
+                "type": "boolean",
+                "description": "Did witness publicly call accused a witch?"
+              },
+              "sought_legal_redress": {
+                "type": "boolean",
+                "description": "Did accused seek legal action for being called witch?"
+              }
+            }
+          }
+        }
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "event"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "event": {
+            "type": "string",
+            "enum": [
+              "informations_preparatoires",
+              "interrogation",
+              "confrontation",
+              "torture_requested",
+              "torture_approved",
+              "torture",
+              "death_requested",
+              "death_approved",
+              "sentence",
+              "execution",
+              "appeal",
+              "other"
+            ]
+          },
+          "subject": {
+            "type": "string",
+            "description": "Who this event concerns"
+          },
+          "details": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "torture": {
+      "type": "object",
+      "properties": {
+        "used": {
+          "type": "boolean"
+        },
+        "methods": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "requesting_official": {
+          "type": "string"
+        },
+        "approving_court": {
+          "type": "string"
+        },
+        "restrictions": {
+          "type": "string",
+          "description": "Any restrictions on torture (e.g., 'moderate only')"
+        }
+      }
+    },
+    "accomplices_named": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "location": {"type": "string"},
+          "context": {
+            "type": "string",
+            "description": "How they were implicated"
+          },
+          "already_executed": {
+            "type": "boolean",
+            "description": "Were they already executed when named?"
+          },
+          "trial_id": {
+            "type": "string",
+            "description": "Their trial ID if known"
+          }
+        }
+      }
+    },
+    "prior_accusations": {
+      "type": "array",
+      "description": "Previous accusations or witch trials referencing accused",
+      "items": {
+        "type": "object",
+        "properties": {
+          "accuser_name": {"type": "string"},
+          "accuser_location": {"type": "string"},
+          "context": {"type": "string"},
+          "already_executed": {"type": "boolean"}
+        }
+      }
+    },
+    "notable_quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "speaker": {"type": "string"},
+          "french": {
+            "type": "string",
+            "description": "Original French text"
+          },
+          "english": {
+            "type": "string",
+            "description": "English translation if available"
+          },
+          "context": {"type": "string"}
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "description": "All familial and social relationships mentioned in the trial",
+      "items": {
+        "type": "object",
+        "required": ["person1", "person2", "relationship_type"],
+        "properties": {
+          "person1": {
+            "type": "string",
+            "description": "First person in relationship"
+          },
+          "person2": {
+            "type": "string",
+            "description": "Second person in relationship"
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": [
+              "spouse_of",
+              "widow_of",
+              "parent_of",
+              "child_of",
+              "sibling_of",
+              "grandparent_of",
+              "grandchild_of",
+              "uncle_aunt_of",
+              "nephew_niece_of",
+              "cousin_of",
+              "in_law_of",
+              "godparent_of",
+              "servant_of",
+              "employer_of",
+              "neighbor_of",
+              "business_partner",
+              "creditor_debtor",
+              "other_kin",
+              "other_social"
+            ],
+            "description": "Type of relationship"
+          },
+          "direction": {
+            "type": "string",
+            "enum": ["directed", "undirected"],
+            "description": "Whether relationship has direction (parent_of is directed, sibling_of is undirected)"
+          },
+          "person1_role": {
+            "type": "string",
+            "enum": ["accused", "witness", "victim", "other"],
+            "description": "Role of person1 in the trial"
+          },
+          "person2_role": {
+            "type": "string",
+            "enum": ["accused", "witness", "victim", "other"],
+            "description": "Role of person2 in the trial"
+          },
+          "evidence_text": {
+            "type": "string",
+            "description": "Text snippet establishing the relationship"
+          },
+          "inferred": {
+            "type": "boolean",
+            "default": false,
+            "description": "True if relationship was inferred rather than explicitly stated"
+          }
+        }
+      }
+    },
+    "economic_context": {
+      "type": "object",
+      "properties": {
+        "accused_occupation_disputes": {
+          "type": "boolean",
+          "description": "Were there disputes over accused's occupation?"
+        },
+        "debt_disputes": {
+          "type": "boolean"
+        },
+        "property_disputes": {
+          "type": "boolean"
+        },
+        "details": {
+          "type": "string"
+        }
+      }
+    },
+    "harms_catalog": {
+      "type": "array",
+      "description": "Comprehensive catalog of all alleged harms/maleficia",
+      "items": {
+        "type": "object",
+        "properties": {
+          "victim_name": {"type": "string"},
+          "victim_relationship_to_witness": {"type": "string"},
+          "harm_category": {
+            "type": "string",
+            "enum": ["human_death", "human_illness", "human_injury", "animal_death", "animal_illness", "crop_damage", "property_damage", "weather_event", "other"]
+          },
+          "harm_description": {
+            "type": "string",
+            "description": "Specific symptoms or nature of harm (lameness, impotence, bad leg, etc.)"
+          },
+          "animal_type": {
+            "type": "string",
+            "description": "If animal: horse, cow, pig, sheep, hen, etc."
+          },
+          "animal_count": {
+            "type": "integer",
+            "description": "Number of animals affected"
+          },
+          "economic_value": {
+            "type": "string",
+            "description": "Stated value if mentioned (e.g., '300 francs')"
+          },
+          "attributed_to": {
+            "type": "string",
+            "description": "Which accused person blamed"
+          },
+          "precipitating_quarrel": {
+            "type": "string",
+            "description": "What dispute preceded the harm"
+          },
+          "time_between_quarrel_and_harm": {
+            "type": "string",
+            "description": "Temporal gap (e.g., 'next day', '6 weeks later', 'soon after')"
+          },
+          "method_alleged": {
+            "type": "string",
+            "description": "How harm was allegedly caused (powder, touch, words, proximity)"
+          },
+          "witness_number": {
+            "type": "integer",
+            "description": "Which witness reported this harm"
+          }
+        }
+      }
+    },
+    "material_culture": {
+      "type": "array",
+      "description": "Objects mentioned in testimony (reveals daily life, economic status)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "object": {"type": "string"},
+          "context": {"type": "string"},
+          "category": {
+            "type": "string",
+            "enum": ["food", "clothing", "tools", "household", "agricultural", "magical", "religious", "money", "other"]
+          }
+        }
+      }
+    },
+    "spatial_references": {
+      "type": "array",
+      "description": "Locations mentioned (geography of daily life and accusations)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "place_name": {"type": "string"},
+          "place_type": {
+            "type": "string",
+            "enum": ["village", "field", "forest", "road", "market", "church", "water_body", "house", "sabbat_location", "other"]
+          },
+          "context": {"type": "string"}
+        }
+      }
+    },
+    "historical_context": {
+      "type": "object",
+      "description": "Broader context clues in the trial",
+      "properties": {
+        "military_presence": {
+          "type": "boolean",
+          "description": "Soldiers, billeting, or military activity mentioned"
+        },
+        "military_details": {"type": "string"},
+        "weather_events": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Storms, lightning, hail, drought mentioned"
+        },
+        "animal_predation": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Wolves, wild animals mentioned"
+        },
+        "economic_hardship_indicators": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Poverty, debt, food scarcity mentioned"
+        },
+        "religious_calendar_references": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Saints' days, Lent, feast days mentioned"
+        }
+      }
+    },
+    "legal_context": {
+      "type": "object",
+      "properties": {
+        "officials_named": {
+          "type": "array",
+          "description": "Judges, prosecutors, notaries, mayors mentioned",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "role": {
+                "type": "string",
+                "enum": ["judge", "prosecutor_pg", "notary", "mayor", "prevot", "clerc_jure", "executioner", "other"]
+              },
+              "location": {"type": "string"}
+            }
+          }
+        },
+        "prior_legal_disputes": {
+          "type": "array",
+          "description": "Non-witchcraft legal matters involving accused",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dispute_type": {
+                "type": "string",
+                "enum": ["theft", "assault", "debt", "property", "defamation", "other"]
+              },
+              "description": {"type": "string"},
+              "outcome": {"type": "string"}
+            }
+          }
+        },
+        "accused_sought_redress": {
+          "type": "boolean",
+          "description": "Did accused ever try to sue for being called witch?"
+        },
+        "redress_outcome": {"type": "string"},
+        "imprisonment_conditions": {"type": "string"},
+        "appeal_to_change_de_nancy": {"type": "boolean"},
+        "property_confiscation_mentioned": {"type": "boolean"}
+      }
+    },
+    "evidence_quality": {
+      "type": "object",
+      "description": "Metadata about testimony reliability",
+      "properties": {
+        "firsthand_testimony_count": {
+          "type": "integer",
+          "description": "Witnesses who saw/experienced harm directly"
+        },
+        "hearsay_testimony_count": {
+          "type": "integer",
+          "description": "Witnesses reporting what others told them"
+        },
+        "hearsay_chains": {
+          "type": "array",
+          "description": "Who heard from whom",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reporter": {"type": "string"},
+              "source": {"type": "string"},
+              "content": {"type": "string"}
+            }
+          }
+        },
+        "oldest_accusation_years": {
+          "type": "integer",
+          "description": "Oldest reputation/accusation in years"
+        },
+        "corroboration_groups": {
+          "type": "array",
+          "description": "Sets of witnesses telling same story",
+          "items": {
+            "type": "array",
+            "items": {"type": "integer"},
+            "description": "Witness numbers who corroborate each other"
+          }
+        }
+      }
+    },
+    "defense_and_behavior": {
+      "type": "object",
+      "description": "How accused responded and behaved",
+      "properties": {
+        "defense_strategies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "denied_all",
+              "natural_explanations",
+              "accused_witnesses_of_crimes",
+              "challenged_witness_credibility",
+              "claimed_mistaken_identity",
+              "blamed_others",
+              "sought_character_witnesses",
+              "other"
+            ]
+          }
+        },
+        "emotional_state_notes": {
+          "type": "array",
+          "description": "Behavioral observations (crying, defiance, calm, furious)",
+          "items": {"type": "string"}
+        },
+        "reproaches_to_witnesses": {
+          "type": "array",
+          "description": "Specific objections accused made to witness testimony",
+          "items": {
+            "type": "object",
+            "properties": {
+              "witness_number": {"type": "integer"},
+              "objection": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "third_parties": {
+      "type": "array",
+      "description": "People mentioned who are neither accused nor witnesses",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "role_in_narrative": {
+            "type": "string",
+            "enum": ["victim", "hearsay_source", "prior_accused", "family_member", "community_member", "official", "other"]
+          },
+          "relationship_to_accused": {"type": "string"},
+          "relationship_to_witness": {"type": "string"},
+          "context": {"type": "string"}
+        }
+      }
+    },
+    "extraction_metadata": {
+      "type": "object",
+      "properties": {
+        "extracted_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "pdf_pages": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "trial_id": "w007",
+  "archive_ref": "B 2199 no 3",
+  "location": "Laitre-sous-Amance",
+  "court": "Court at Amance",
+  "dates": {
+    "start": "1615-10-26",
+    "end": "1616-01-02",
+    "duration_days": 68
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Collatte veuve Cesar Lorette",
+      "gender": "female",
+      "age": 67,
+      "age_approximate": false,
+      "occupation": [],
+      "origin": "Sercoeur",
+      "residence": "Laitre-sous-Amance",
+      "marital_status": "widowed",
+      "spouse_name": "Cesar Lorette",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persy",
+        "devil_appearance": "Not described in detail",
+        "seduction_date": "2 years before trial (circa 1613)",
+        "seduction_context": "She had quarrelled with her daughter-in-law who drove her from the house. She was sleeping in the woods at night when Persy found her and promised to help her. Met her again 2 weeks later on the way to seek alms at Guermange.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": [
+          "powder (given by Persy, but she claimed to have thrown it away initially)",
+          "powder (later confessed to using it to kill horses)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "fontaine de Houditemps"
+        ],
+        "sabbat_activities": [
+          "danced back to back",
+          "ate black soup and black, burned meat"
+        ],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mengin Richard",
+      "gender": "male",
+      "age": 30,
+      "occupation": "laboureur",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused had been working for his wife and asked for 'eschaude' (a type of pastry/bread) that wife forgot to give her",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Wife of Mengin Richard",
+            "target_relationship": "self (witness's wife)",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "around same time"
+          },
+          {
+            "type": "human_death",
+            "target": "la Grande Valentré",
+            "target_relationship": "community member",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "soon after threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Thiebault Thiebault dit Patticier",
+      "gender": "male",
+      "age": 50,
+      "occupation": "vigneron",
+      "location": "Laitre-sous-Amance",
+      "relationship_to_accused": "neighbor (came from Sercoeur about 20 years before)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "As messier, caught her son stealing beans and took caution to officer; she came angrily demanding its return",
+        "threat_received": true,
+        "threat_quote": "mon enffant ne voudrois tu pas bien estre mort",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first child (in cradle)",
+            "target_relationship": "witness's child",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "next day fell ill, died day after"
+          },
+          {
+            "type": "human_death",
+            "target": "seven subsequent children",
+            "target_relationship": "witness's children",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "over subsequent years"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Marguerite femme Thiebault Thiebault",
+      "gender": "female",
+      "age": 50,
+      "occupation": "wife of vigneron",
+      "location": "Laitre-sous-Amance",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Many quarrels; accused cursing and damning her repeatedly",
+        "threat_received": true,
+        "threat_quote": "qu'il y en avoit desté qu'avoient eus le col rompu, et qu'il y en auroit encor d'aultres",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her uncle Chrespaille le Barry",
+            "target_relationship": "witness's uncle",
+            "attributed_to": "Collatte Lorette and her late husband",
+            "time_after_quarrel": "after quarrel when they lived at Sercoeur"
+          },
+          {
+            "type": "human_death",
+            "target": "first child",
+            "target_relationship": "witness's child",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "next day"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Noel Perrin",
+      "gender": "male",
+      "age": 32,
+      "occupation": "manouvrier",
+      "location": "Laitre-sous-Amance",
+      "relationship_to_accused": "bought property from her; lived in same house",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Simon Bretton",
+      "gender": "male",
+      "age": 40,
+      "occupation": "vigneron",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Barbe femme Simon Bretton",
+      "gender": "female",
+      "age": 40,
+      "occupation": "wife of vigneron",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child of le grand Thiebault",
+            "target_relationship": "other witness's child",
+            "attributed_to": "Collatte Lorette"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Mengeotte femme Nicolas Rémy",
+      "gender": "female",
+      "age": 22,
+      "occupation": "wife of chartier",
+      "location": "Laitre-sous-Amance",
+      "relationship_to_accused": "neighbor; bought her property",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused complained they had bought her property cheaply while she was in Allemaigne",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's household",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "during last wine harvest"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge Remy",
+      "gender": "male",
+      "age": 44,
+      "occupation": "huillier",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "General quarrelsomeness; wanted to have upper hand everywhere",
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Nicolas Remy",
+      "gender": "male",
+      "age": 30,
+      "occupation": "chartier",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's household",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "during illness horse went blind and died in 3 days"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses belonging to his father",
+            "target_relationship": "witness's father's property",
+            "attributed_to": "Collatte Lorette (suggested by wife of Noel Perrin)",
+            "time_after_quarrel": "5 years earlier"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse bought at Brin",
+            "target_relationship": "witness's property",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "2 weeks after giving her 'denier dieu'"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Remy Dieudonné",
+      "gender": "male",
+      "age": 80,
+      "occupation": "cy-devant maire et échevin d'Amance",
+      "location": "Amance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "la grande Valentré",
+            "target_relationship": "community member",
+            "attributed_to": "Collatte Lorette"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Nicolas Lyenal",
+      "gender": "male",
+      "age": 33,
+      "occupation": "manouvrier",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of late Didier Bretton (la Valentré)",
+            "target_relationship": "community member",
+            "attributed_to": "Collatte Lorette"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Françoise femme Nicolas Lyenal",
+      "gender": "female",
+      "age": 30,
+      "occupation": "wife of manouvrier",
+      "location": "Laitre-sous-Amance",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Arguing at an 'escraigne'; husband had quarrelled with her when working as salpetrier, and she claimed he had wronged her",
+        "threat_received": true,
+        "threat_quote": "un plat de son mestier",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "George Hillaire, gentilhomme dit de la Grange",
+      "gender": "male",
+      "age": 45,
+      "occupation": "gentilhomme",
+      "location": "Laitre-sous-Amance / Sercoeur",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with la grande Valentré",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "la grande Valentré",
+            "target_relationship": "community member",
+            "attributed_to": "Collatte Lorette",
+            "time_after_quarrel": "after quarrel"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1615-10-26",
+      "event": "informations_preparatoires",
+      "subject": "Collatte Lorette",
+      "details": "PG de Lorraine (C.M. Rémy) orders investigation into her reputation following remonstrance from Noel Perrin"
+    },
+    {
+      "date": "1615-11-26",
+      "event": "informations_preparatoires",
+      "subject": "Collatte Lorette",
+      "details": "Witness testimonies collected from 13 witnesses"
+    },
+    {
+      "date": "1615-11-27",
+      "event": "other",
+      "subject": "Collatte Lorette",
+      "details": "Substitut for PG orders arrest"
+    },
+    {
+      "date": "1615-11-29",
+      "event": "other",
+      "subject": "Collatte Lorette",
+      "details": "PG orders interrogation and confrontations"
+    },
+    {
+      "date": "1615-12-02",
+      "event": "interrogation",
+      "subject": "Collatte Lorette",
+      "details": "First interrogation; she denies being a witch but admits taking fruit, dead wood, and some logs"
+    },
+    {
+      "date": "1615-12-02",
+      "event": "confrontation",
+      "subject": "Collatte Lorette",
+      "details": "Confrontations with witnesses; she calls Thiebault Thiebault a murderer and liar"
+    },
+    {
+      "date": "1615-12-12",
+      "event": "torture_requested",
+      "subject": "Collatte Lorette",
+      "details": "PG asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1615-12-14",
+      "event": "torture_approved",
+      "subject": "Collatte Lorette",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1615-12-18",
+      "event": "torture",
+      "subject": "Collatte Lorette",
+      "details": "Interrogation under torture; withstood thumbscrews and rack, then confessed after being released"
+    },
+    {
+      "date": "1615-12-19",
+      "event": "interrogation",
+      "subject": "Collatte Lorette",
+      "details": "Confirmed and expanded confession; admitted attending sabbat twice and using powder to kill horses"
+    },
+    {
+      "date": "1615-12-23",
+      "event": "death_requested",
+      "subject": "Collatte Lorette",
+      "details": "PG asks for death sentence"
+    },
+    {
+      "date": "1615-12-23",
+      "event": "death_approved",
+      "subject": "Collatte Lorette",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1615-12-26",
+      "event": "confrontation",
+      "subject": "Collatte Lorette and la Vilaume",
+      "details": "Confronted with la Vilaume after naming her as accomplice"
+    },
+    {
+      "date": "1616-01-02",
+      "event": "sentence",
+      "subject": "Collatte Lorette",
+      "details": "Formal death sentence from court at Amance"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews",
+      "rack"
+    ],
+    "requesting_official": "PG de Lorraine",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "la Vilaume",
+      "context": "Saw her on way home from sabbat; did not recognize at sabbat but saw afterwards",
+      "already_executed": false
+    },
+    {
+      "name": "Mengeotte of Verhange",
+      "location": "Verhange",
+      "context": "Saw her on way home from sabbat; did not recognize at sabbat but saw afterwards",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Collatte Lorette (to child in cradle)",
+      "french": "mon enffant ne voudrois tu pas bien estre mort",
+      "english": "my child, would you not like to be dead",
+      "context": "Spoken when she lifted the linen of the baby in the cradle during quarrel with Thiebault Thiebault"
+    },
+    {
+      "speaker": "Marguerite femme Thiebault",
+      "french": "qu'il y en avoit desté qu'avoient eus le col rompu, et qu'il y en auroit encor d'aultres",
+      "english": "there were some who had their necks broken, and there would be others",
+      "context": "Threatening words recalled by Marguerite; accused would say this during quarrels"
+    },
+    {
+      "speaker": "Thiebault Thiebault to accused",
+      "french": "Jeunot, sorcier il te fault brusler",
+      "english": "Jeunot, witch you must be burned",
+      "context": "During confrontation when describing beating her in the street"
+    },
+    {
+      "speaker": "Collatte Lorette in response",
+      "french": "ne la vouloir maintenir femme de bien que selon les chansons qu'elle chantera elle luy respondra, disant arrogamment que les clercs ne scauroient chanter s'ilz ne scavent pleinement leurs charges",
+      "english": "she would not maintain herself as a good woman except according to the songs they sing, she will respond, saying arrogantly that the clerks cannot sing if they do not fully know their charges",
+      "context": "During confrontations, responding defiantly"
+    },
+    {
+      "speaker": "Barbe femme Simon Bretton",
+      "french": "fort mal plaisante, et qu'elle se scavoit bien revanchée",
+      "english": "very unpleasant, and that she knew well how to take revenge",
+      "context": "Describing the accused's character"
+    },
+    {
+      "speaker": "Demenge Remy's response to accused",
+      "french": "qu'elle se prenoit et querelloit a ung chacun, qu'elle vouloit avoir le hault bras partout",
+      "english": "that she picked quarrels with everyone, that she wanted to have the upper hand everywhere",
+      "context": "When accused complained about being called witch"
+    },
+    {
+      "speaker": "Collatte Lorette",
+      "french": "nous sommes tous subjects a fortunes ne scachant quant ny comment",
+      "english": "we are all subject to misfortunes, not knowing when or how",
+      "context": "During interrogation about death of Nicolas Remy's horse"
+    },
+    {
+      "speaker": "Collatte Lorette to Nicolas Lyenal",
+      "french": "Bien mon fils sy tu viens a chef croistre, et que tu fusse devestu comme le mien",
+      "english": "Well my son if you come to grow up, and you were stripped like mine",
+      "context": "Her version of what she said to the baby (different from witness account)"
+    },
+    {
+      "speaker": "Françoise femme Nicolas Lyenal about threat",
+      "french": "un plat de son mestier",
+      "english": "a dish of her trade/craft",
+      "context": "Threat made at an 'escraigne' to her husband"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Collatte Lorette",
+      "person2": "Cesar Lorette",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "widow for 8 years"
+    },
+    {
+      "person1": "Collatte Lorette",
+      "person2": "son (unnamed, in Allemaigne)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "left to live with her son in Allemaigne; had given power to son to settle affairs"
+    },
+    {
+      "person1": "Collatte Lorette",
+      "person2": "daughter-in-law (at Rodde)",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had quarrelled with daughter-in-law, who finally drove her from house"
+    },
+    {
+      "person1": "Thiebault Thiebault",
+      "person2": "Marguerite femme Thiebault",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "wife of the previous witness"
+    },
+    {
+      "person1": "Marguerite femme Thiebault",
+      "person2": "Chrespaille le Barry",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her uncle Chrespaille le Barry"
+    },
+    {
+      "person1": "Simon Bretton",
+      "person2": "Barbe femme Simon Bretton",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "wife of the previous witness"
+    },
+    {
+      "person1": "Nicolas Rémy (chartier)",
+      "person2": "Mengeotte femme Nicolas Rémy",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "wife of Nicolas Remy, chartier"
+    },
+    {
+      "person1": "Nicolas Remy (chartier)",
+      "person2": "Demenge Remy (huillier)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "5 years earlier 2 of his father's horses died; Nicolas Remy is son",
+      "inferred": true
+    },
+    {
+      "person1": "Nicolas Lyenal",
+      "person2": "Françoise femme Nicolas Lyenal",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "wife of the previous witness"
+    },
+    {
+      "person1": "Collatte Lorette",
+      "person2": "Thiebault Thiebault",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had come from Sercoeur about 20 years before, and become his neighbour"
+    },
+    {
+      "person1": "Collatte Lorette",
+      "person2": "Noel Perrin",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Perrin bought house from her and late husband; lived in same house; business dispute",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Bretton",
+      "person2": "la grande Valentré",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "late Didier Bretton claim she had caused death of his wife, la Valentré"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Collatte had left to live with son in Allemaigne because of bad reputation. She had given power to son to settle affairs, and he made deal with Noel Perrin to sell goods and over usufruit of room in house Perrin bought from her and late husband. She was constantly molesting Perrin with lawsuits over this arrangement. She also complained that Nicolas Remy and his wife had bought her property cheaply while she was away in Allemaigne. The accused admitted to stealing fruit, dead wood, logs, and utensils when poor. Multiple witnesses described her as a thief who stole from gardens and hedges."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Wife of Mengin Richard",
+      "victim_relationship_to_witness": "self (witness's wife)",
+      "harm_category": "human_death",
+      "harm_description": "fatal illness",
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "Accused had been working for his wife and asked for 'eschaude' she forgot to give her",
+      "time_between_quarrel_and_harm": "around same time (5 or 6 years before trial)",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "la Grande Valentré",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_death",
+      "harm_description": "fell ill and died",
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "Quarrel with la Grande Valentré, told her she would repent",
+      "time_between_quarrel_and_harm": "soon after threat",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "First child of Thiebault Thiebault",
+      "victim_relationship_to_witness": "witness's child",
+      "harm_category": "human_death",
+      "harm_description": "child fell ill and died",
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "Caught her son stealing beans as messier; she came angrily demanding return of caution",
+      "time_between_quarrel_and_harm": "next day child fell ill, died day after",
+      "method_alleged": "words (threat over cradle)",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Seven subsequent children of Thiebault Thiebault",
+      "victim_relationship_to_witness": "witness's children",
+      "harm_category": "human_death",
+      "harm_description": "all died of sudden illnesses",
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "Ongoing quarrels with wife, cursing and damning her",
+      "time_between_quarrel_and_harm": "over subsequent years",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Chrespaille le Barry",
+      "victim_relationship_to_witness": "witness's uncle",
+      "harm_category": "human_death",
+      "harm_description": "fell from a tree and was killed",
+      "attributed_to": "Collatte Lorette and her late husband",
+      "precipitating_quarrel": "Quarrels with uncle when they lived at Sercoeur",
+      "time_between_quarrel_and_harm": "after quarrels (when both reputed witches at Sercoeur)",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Horse belonging to Nicolas Remy's household",
+      "victim_relationship_to_witness": "household property",
+      "harm_category": "animal_death",
+      "harm_description": "suddenly gone blind and died in 3 days",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "Accused complained they had bought her property cheaply",
+      "time_between_quarrel_and_harm": "during last wine harvest",
+      "method_alleged": "proximity - came to house asking for water twice during illness",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "2 horses belonging to Nicolas Remy's father",
+      "victim_relationship_to_witness": "witness's father's property",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Collatte Lorette",
+      "time_between_quarrel_and_harm": "5 years earlier",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Horse bought at Brin by Nicolas Remy",
+      "victim_relationship_to_witness": "witness's property",
+      "harm_category": "animal_death",
+      "harm_description": "died after a fall",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "Gave her 'denier dieu' for horse after forgetting to give it at purchase; she said it had been hasty to say she killed father's horses",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Horse belonging to late Nicolas Hugues",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "He spoke harshly to her when she begged for alms",
+      "method_alleged": "powder given by devil",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Horse belonging to Remy Dieudonné",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Collatte Lorette",
+      "precipitating_quarrel": "He spoke harshly to her when he met her on road",
+      "method_alleged": "powder given by devil",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "eschaude",
+      "context": "Type of pastry/bread that witness's wife forgot to give accused, leading to quarrel",
+      "category": "food"
+    },
+    {
+      "object": "beans",
+      "context": "Accused's son caught stealing beans by messier Thiebault Thiebault",
+      "category": "food"
+    },
+    {
+      "object": "cradle",
+      "context": "Child in cradle when accused looked at it and lifted linen, speaking threatening words",
+      "category": "household"
+    },
+    {
+      "object": "linen",
+      "context": "Linen covering baby in cradle",
+      "category": "household"
+    },
+    {
+      "object": "apron",
+      "context": "Accused met in street with apron full of beans",
+      "category": "clothing"
+    },
+    {
+      "object": "utensils",
+      "context": "Accused stole utensils when living in same house as Noel Perrin",
+      "category": "household"
+    },
+    {
+      "object": "logs",
+      "context": "Accused stole logs from behind Simon Bretton's house; later begged mercy and returned some",
+      "category": "other"
+    },
+    {
+      "object": "dead wood from hedges",
+      "context": "Accused often seen taking dead wood from hedges and gardens",
+      "category": "other"
+    },
+    {
+      "object": "denier dieu",
+      "context": "Traditional coin given for luck when buying horse; Nicolas Remy gave it to accused",
+      "category": "money"
+    },
+    {
+      "object": "halbard",
+      "context": "Accused threatened Nicolas Lyenal with her husband's halbard to make him leave",
+      "category": "tools"
+    },
+    {
+      "object": "stone",
+      "context": "Thiebault Thiebault beat accused with stone in her 'poisle' (room/chamber)",
+      "category": "other"
+    },
+    {
+      "object": "powder",
+      "context": "Devil (Persy) gave her powder twice on way from la Neuflotte; she claimed to have thrown it away initially, then confessed to using it to kill horses",
+      "category": "magical"
+    },
+    {
+      "object": "oak leaves",
+      "context": "Money given by devil near Languebert proved to be oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "black soup",
+      "context": "Food served at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "black, burned meat",
+      "context": "Food served at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "masks",
+      "context": "7 or 8 other witches at sabbat were masked",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Laitre-sous-Amance",
+      "place_type": "village",
+      "context": "Primary location of trial; where accused lived before going to Allemaigne"
+    },
+    {
+      "place_name": "Sercoeur",
+      "place_type": "village",
+      "context": "Where Thiebault Thiebault came from 20 years before; where accused and late husband lived and were both reputed witches"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "Where accused went to live with son; region/territory"
+    },
+    {
+      "place_name": "Rodde",
+      "place_type": "village",
+      "context": "Village on border of Allemaigne where accused was living with son when seduced by devil"
+    },
+    {
+      "place_name": "Guermange",
+      "place_type": "village",
+      "context": "Where accused was going to seek alms when devil met her again"
+    },
+    {
+      "place_name": "Languebert",
+      "place_type": "village",
+      "context": "Near where devil gave her money that proved to be oak leaves"
+    },
+    {
+      "place_name": "Sercourt",
+      "place_type": "village",
+      "context": "Where feast was held at St Laurent; accused was begging there"
+    },
+    {
+      "place_name": "la Neuflotte",
+      "place_type": "village",
+      "context": "Devil met her on way from here and gave her powder twice"
+    },
+    {
+      "place_name": "fontaine de Houditemps",
+      "place_type": "sabbat_location",
+      "context": "Location of sabbat; where witches were said to meet"
+    },
+    {
+      "place_name": "Brin",
+      "place_type": "market",
+      "context": "Where Nicolas Remy bought a horse"
+    },
+    {
+      "place_name": "Amance",
+      "place_type": "village",
+      "context": "Location of court; Remy Dieudonné was former mayor and alderman there"
+    },
+    {
+      "place_name": "Verhange",
+      "place_type": "village",
+      "context": "Where accomplice Mengeotte was from"
+    },
+    {
+      "place_name": "wood/forest",
+      "place_type": "forest",
+      "context": "Where accused was sleeping at night when devil Persy found her and promised to help"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "accused left village due to bad reputation",
+      "accused sleeping in woods",
+      "accused begging for alms at multiple villages (Guermange, Sercourt)",
+      "accused stealing food (beans, fruit), dead wood, logs, utensils",
+      "property disputes over cheap sale",
+      "lawsuits over property settlements"
+    ],
+    "religious_calendar_references": [
+      "St Laurent (feast day)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": "Lorraine"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Multiple lawsuits between accused and Noel Perrin over property sale and usufruit of room in house",
+        "outcome": "ongoing at time of trial"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Lawsuits between accused and Thiebault Thiebault over quarrels; cost her money",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "property_confiscation_mentioned": false,
+    "imprisonment_conditions": "imprisoned before trial",
+    "appeal_to_change_de_nancy": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Mengin Richard",
+        "source": "his wife",
+        "content": "Wife said during fatal illness that it was accused's witchcraft; wife claimed la Grande Valentré said death was witchcraft by accused"
+      },
+      {
+        "reporter": "Barbe femme Simon Bretton",
+        "source": "le grand Thiebault",
+        "content": "Le grand Thiebault had called her witch and accused her of causing death of child"
+      },
+      {
+        "reporter": "Remy Dieudonné",
+        "source": "le Grand Thiebault and others",
+        "content": "Had heard of suspicions by le Grand Thiebault, and of accusations she had killed la grande Valentré"
+      },
+      {
+        "reporter": "Nicolas Lyenal",
+        "source": "late Didier Bretton",
+        "content": "Had several times heard late Didier Bretton claim she had caused death of his wife, la Valentré"
+      },
+      {
+        "reporter": "Nicolas Remy",
+        "source": "wife of Noel Perrin",
+        "content": "Perrin's wife suggested to accused that Nicolas thought she had killed his father's horses"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [1, 10, 11, 13],
+      [2, 3, 6]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "accused_witnesses_of_crimes"
+    ],
+    "emotional_state_notes": [
+      "very angry during confrontations",
+      "defiant and arrogant in responses",
+      "called witness 'faussaire' (liar/forger) repeatedly",
+      "withstood torture saying she would not confess even if drawn by 4 horses"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 2,
+        "objection": "Said Thiebault Thiebault was a murderer who had beaten her with a stone in her poisle, and 'un faussaire'; accused him of beating her son naked when taking caution"
+      },
+      {
+        "witness_number": 4,
+        "objection": "Said that Noel Perrin was thief and murderer, but had no witness to this"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "la Grande Valentré",
+      "role_in_narrative": "victim",
+      "context": "Died after quarrel with accused; multiple witnesses reported this; wife of late Didier Bretton"
+    },
+    {
+      "name": "Didier Bretton",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "community member",
+      "context": "Late husband of la Valentré; claimed accused caused death of his wife"
+    },
+    {
+      "name": "Chrespaille le Barry",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "uncle of Marguerite femme Thiebault",
+      "context": "Fell from tree and was killed after quarreling with accused and her husband at Sercoeur"
+    },
+    {
+      "name": "son of accused (unnamed)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "context": "Living in Allemaigne; accused went to live with him; given power to settle affairs; caught stealing beans as child"
+    },
+    {
+      "name": "daughter-in-law of accused (at Rodde)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter-in-law",
+      "context": "Quarreled with accused and drove her from house at Rodde"
+    },
+    {
+      "name": "son-in-law of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son-in-law",
+      "context": "Was absent and could not give attestation about power to settle affairs"
+    },
+    {
+      "name": "Cesar Lorette",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "late husband",
+      "context": "Accused was widow for 8 years; both reputed witches at Sercoeur; quarreled with Chrespaille le Barry"
+    },
+    {
+      "name": "late Nicolas Hugues",
+      "role_in_narrative": "victim",
+      "context": "Horse killed by accused using powder; had spoken harshly to her when she begged for alms"
+    },
+    {
+      "name": "Persy (devil)",
+      "role_in_narrative": "other",
+      "context": "Devil who seduced accused; found her sleeping in woods, gave her money (oak leaves), had intercourse, gave powder, took her to sabbat"
+    },
+    {
+      "name": "wife of Noel Perrin",
+      "role_in_narrative": "community_member",
+      "context": "Was annoyed about 'denier dieu' given to accused; suggested to accused that Nicolas Remy thought she killed his father's horses"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5 (AI)",
+    "confidence": "high",
+    "notes": "Complete 5-page trial document with detailed witness testimonies, interrogations, confrontations, torture session, confession, and sentencing. Rich detail on economic disputes, property conflicts, theft accusations, and social tensions. Confession obtained after torture includes sabbat attendance and maleficia. Multiple allegations of child deaths and animal deaths. Strong pattern of quarrels followed by harms. Accused showed defiant behavior during confrontations.",
+    "pdf_pages": 5
+  }
+}

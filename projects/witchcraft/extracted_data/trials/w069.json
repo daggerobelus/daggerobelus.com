@@ -1,0 +1,938 @@
+{
+  "trial_id": "w069",
+  "archive_ref": "B 4077 no 1",
+  "location": "Charmes",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1596-07-08",
+    "end": "1596-08-06",
+    "duration_days": 30
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Barbe femme Jean Mallebarbe",
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "occupation": ["day laborer (à jornée)", "beggar"],
+      "origin": "Langley",
+      "residence": "Charmes",
+      "marital_status": "married",
+      "spouse_name": "Jean Mallebarbe",
+      "parents": {
+        "father": "Claudon Chappelleur",
+        "mother": "Margueritte"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "maitre Percy",
+        "devil_appearance": null,
+        "seduction_date": "12 years before arrest (approximately 1584)",
+        "seduction_context": "When angry with her husband who had scolded her ('tancée'); promised to give her money in abundance",
+        "devil_mark": {
+          "present": null,
+          "location": null,
+          "description": null
+        },
+        "powder_types": ["powder for malefice (thrown in river)", "powder (two sacks given by Devil)"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["near Remiremont", "near Charmes"],
+        "sabbat_activities": ["dispute about causing hailstorm", "beaten by Devil for refusing to carry out his will", "refused to spoil crops due to dearth and hardship of poor", "witnessed bourgeois women with silver belts arriving on sows or calves"]
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Laurent Rouelle",
+      "gender": "male",
+      "age": null,
+      "occupation": "taillandier (metalworker/edge-tool maker)",
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor, had dispute with accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused her of stealing wood from his barn",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox and two cows",
+            "target_relationship": "his own animals",
+            "attributed_to": "Barbe femme Jean Mallebarbe",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Mathieu Basle",
+      "gender": "male",
+      "age": null,
+      "occupation": null,
+      "location": "Germonville (moved from Charmes)",
+      "relationship_to_accused": "neighbor, widower of victim",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his wife called Barbe 'vielle bigotte et genoche' (old bigot and fool)",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudon wife of Mathieu Basle",
+            "target_relationship": "his wife",
+            "attributed_to": "Barbe femme Jean Mallebarbe",
+            "time_after_quarrel": "18 months illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Claudon Marlier",
+      "gender": "male",
+      "age": null,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "he cut off overhanging branch of apple tree",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claudon Marlier",
+            "target_relationship": "self",
+            "attributed_to": "Barbe femme Jean Mallebarbe",
+            "time_after_quarrel": "illness lasting 3 years"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claude Hullon",
+      "gender": "male",
+      "age": null,
+      "occupation": null,
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused her of causing a fog on the lake",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "wife of Claude Hullon",
+            "target_relationship": "his wife",
+            "attributed_to": "Barbe femme Jean Mallebarbe",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Nicolas Meschy",
+      "gender": "male",
+      "age": null,
+      "occupation": "maire of Charmes",
+      "location": "Charmes",
+      "relationship_to_accused": "neighbor, son of victim",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father of Nicolas Meschy",
+            "target_relationship": "his father",
+            "attributed_to": "Barbe femme Jean Mallebarbe",
+            "time_after_quarrel": null
+          },
+          {
+            "type": "human_death",
+            "target": "wife of Nicolas Meschy",
+            "target_relationship": "his wife",
+            "attributed_to": "Barbe femme Jean Mallebarbe",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1596-07-08",
+      "event": "informations_preparatoires",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Note from Didier Clement prévôt of Charmes that he has arrested Barbe. Informations preparatoires had already been taken against her. She had fled for 4-5 months after threats of arrest, just returned and was arrested."
+    },
+    {
+      "date": "1596-07-08",
+      "event": "interrogation",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "First interrogation. Gave biographical information and confessed to serving the Devil, seduced by maitre Percy 6 months before when angry with husband."
+    },
+    {
+      "date": "1596-07-10",
+      "event": "interrogation",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Attempted to retract confessions but then reiterated them. Attempted suicide by hanging in prison from fear of torture. Changed seduction date to 12 years before. Confessed to killing two cows, attending sabbats, killing three horses in Vallois."
+    },
+    {
+      "date": "1596-07-13",
+      "event": "other",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "PG des Vosges orders further questioning to establish details of crimes she has admitted."
+    },
+    {
+      "date": "1596-07-13",
+      "event": "interrogation",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Repeated earlier admissions. Described sabbat near Remiremont 5-6 weeks before with dispute about hailstorm. Confessed to killing neighbor Claudon wife of Mathieu Basle. Accused Claudon widow of Bastien Thiery (la Romaine) as accomplice."
+    },
+    {
+      "date": "1596-07-18",
+      "event": "interrogation",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Retracted accusation against la Romaine, admitted she falsely accused her to speed up procedure."
+    },
+    {
+      "date": "1596-07-19",
+      "event": "torture_requested",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "PG des Vosges asks for question extraordinaire, believing she has not confessed full extent of crimes."
+    },
+    {
+      "date": "1596-07-21",
+      "event": "torture_approved",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Change de Nancy approves torture."
+    },
+    {
+      "date": "1596-07-24",
+      "event": "torture",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Interrogation under torture. Before torture, confessed to fresh series of malefices. Was placed on rack and drawn a little, then confessed to killing 3 men, 2 women, 4 children, crippling 2 men. Renewed accusation against la Romaine and added la Crissatte of Charmes and Catherine Rossel of Floremont."
+    },
+    {
+      "date": "1596-07-24",
+      "event": "other",
+      "subject": "Various witnesses",
+      "details": "Same day, supposed victims were heard confirming suspicions and harms."
+    },
+    {
+      "date": "1596-08-02",
+      "event": "death_requested",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "PG des Vosges asks for death sentence."
+    },
+    {
+      "date": "1596-08-03",
+      "event": "death_approved",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Change de Nancy agrees to death sentence."
+    },
+    {
+      "date": "1596-08-06",
+      "event": "execution",
+      "subject": "Barbe femme Jean Mallebarbe",
+      "details": "Death sentence carried out."
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack (drawn a little)"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Claudon Pallet",
+      "location": "Rejouville",
+      "context": "Seen at sabbat near Remiremont 5-6 weeks before. Had dispute with him about causing hailstorm. He wanted to damage crops to sell his own grains better. He kicked her in buttocks.",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Claudon widow of Bastien Thiery (la Romaine)",
+      "location": "Charmes",
+      "context": "Initially accused of seeing her at sabbat on July 13. Retracted on July 18, admitted false accusation to speed up procedure. Renewed accusation on July 24 under torture.",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la Crissatte",
+      "location": "Charmes",
+      "context": "Named as accomplice on July 24 under torture.",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Catherine Rossel",
+      "location": "Floremont",
+      "context": "Named as accomplice on July 24 under torture.",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Barbe femme Jean Mallebarbe",
+      "french": null,
+      "english": "asked to be put to death, but not to feel the fire, as she had harmed no-one",
+      "context": "After attempting suicide in prison on July 10, expressing fear of torture"
+    },
+    {
+      "speaker": "wife of Nicolas Meschy (dying words)",
+      "french": null,
+      "english": "la Mallebarbe was the cause of her death",
+      "context": "Last words of Nicolas Meschy's wife during her fatal illness"
+    },
+    {
+      "speaker": "Claudon wife of Mathieu Basle",
+      "french": "vielle bigotte et genoche",
+      "english": "old bigot and fool",
+      "context": "Insult directed at Barbe during quarrel, which precipitated her murder according to confession"
+    },
+    {
+      "speaker": "Devil (as wind in ear)",
+      "french": null,
+      "english": "a wind had come in her ear telling her she had no power over him",
+      "context": "When Barbe wanted to kill Laurent Rouelle but was prevented"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Jean Mallebarbe",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "wife of Jean Mallebarbe",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Claudon Chappelleur",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Claudon Chappelleur",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Margueritte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Claudon Chappelleur and his wife Margueritte",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Laurent Rouelle",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "dispute with Laurent Rouelle taillandier of Charmes; he called her witch publicly",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Claudon wife of Mathieu Basle",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "killed her neighbour Claudon wife of Mathieu Basle",
+      "inferred": false
+    },
+    {
+      "person1": "Mathieu Basle",
+      "person2": "Claudon wife of Mathieu Basle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Mathieu Basle, asked to testify about wife's death",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Claudon Marlier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Claudon Marlier said she had given him illness after quarrel when he cut off overhanging branch of apple tree",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Hullon",
+      "person2": "wife of Claude Hullon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "Claude Hullon's wife confirmed story of cat which had leaped at her throat",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Meschy",
+      "person2": "father of Nicolas Meschy",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "she had been suspected not only of causing death of his father",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Meschy",
+      "person2": "wife of Nicolas Meschy",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "suspected of that of his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "sister at Portessenix",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "a sister living at Portessenix had advised her to flee",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Jean Mallebarbe",
+      "person2": "Claudon la vefue",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had lived at village of Pont near Bonsay, with Claudon la vefue",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Barbe and husband had sold small pieces of land over recent years to support themselves. Now owned only small house in Charmes and garden. Relied on charity and begging. She was too poor to take legal action against Laurent Rouelle for calling her witch. Many of her alleged malefices were triggered by refusals of alms or charity. Economic desperation was central to her situation and many of her conflicts."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "two cows",
+      "victim_relationship_to_witness": "owned by men against whom she had grievances",
+      "harm_category": "animal_death",
+      "harm_description": "killed two cows",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "had grievances against owners",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "three horses in Vallois",
+      "victim_relationship_to_witness": "owners who refused alms",
+      "harm_category": "animal_death",
+      "harm_description": "killed a horse at each of three houses",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "refused charity at three houses running while begging in village of Vallois",
+      "time_between_quarrel_and_harm": "soon after refusal",
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Claudon wife of Mathieu Basle",
+      "victim_relationship_to_witness": "neighbor",
+      "harm_category": "human_death",
+      "harm_description": "death after 18 months illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "quarrel in which victim called her 'vielle bigotte et genoche'",
+      "time_between_quarrel_and_harm": "18 months illness before death",
+      "method_alleged": "threw powder down her neck",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "ox belonging to Laurent Rouelle",
+      "victim_relationship_to_witness": "his animal",
+      "harm_category": "animal_death",
+      "harm_description": "died strangely, suspected witchcraft",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "called her old witch and accused her of stealing wood from his barn",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "two cows belonging to Laurent Rouelle",
+      "victim_relationship_to_witness": "his animals",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "called her old witch and accused her of stealing wood from his barn",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "wife of Claude Hullon",
+      "victim_relationship_to_witness": "neighbor's wife",
+      "harm_category": "human_injury",
+      "harm_description": "attempted strangulation",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "husband accused her of causing a fog on the lake",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "transformed into cat and leaped at throat",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "three men",
+      "victim_relationship_to_witness": "people who refused alms",
+      "harm_category": "human_death",
+      "harm_description": "killed after refusals of alms",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "refused charity",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "two women",
+      "victim_relationship_to_witness": "people who refused alms",
+      "harm_category": "human_death",
+      "harm_description": "killed after refusals of alms",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "refused charity",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "four children",
+      "victim_relationship_to_witness": "children of those who refused her",
+      "harm_category": "human_death",
+      "harm_description": "killed children of those who refused her alms",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "parents refused charity",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "two men",
+      "victim_relationship_to_witness": "people she quarreled with",
+      "harm_category": "human_illness",
+      "harm_description": "crippled after quarrels - limbs twisted, remained crippled",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "quarrels for other reasons",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "gave lingering illnesses",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Claudon Marlier",
+      "victim_relationship_to_witness": "neighbor",
+      "harm_category": "human_illness",
+      "harm_description": "illness lasting 3 years",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "he cut off overhanging branch of apple tree",
+      "time_between_quarrel_and_harm": "3 years duration",
+      "method_alleged": "powder",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "man who caught her stealing wood",
+      "victim_relationship_to_witness": "person who caught her",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "caught her stealing wood and threatened her with punishment",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "man killed 15 years earlier",
+      "victim_relationship_to_witness": "unknown",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "no motive other than master's orders",
+      "time_between_quarrel_and_harm": "15 years before arrest",
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "baker's child",
+      "victim_relationship_to_witness": "child of person who refused credit",
+      "harm_category": "human_illness",
+      "harm_description": "made sick",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "refusal of bread on credit",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "father of Nicolas Meschy",
+      "victim_relationship_to_witness": "his father",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "wife of Nicolas Meschy",
+      "victim_relationship_to_witness": "his wife",
+      "harm_category": "human_death",
+      "harm_description": "death during illness; dying words blamed la Mallebarbe",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Barbe femme Jean Mallebarbe",
+      "precipitating_quarrel": "had been sent for during illness to bring cure but refused",
+      "time_between_quarrel_and_harm": "during illness",
+      "method_alleged": "refused to cure",
+      "witness_number": 5
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "powder (two sacks)",
+      "context": "Given by Devil for malefice, threw in river",
+      "category": "magical"
+    },
+    {
+      "object": "small house",
+      "context": "Only property remaining after selling land",
+      "category": "household"
+    },
+    {
+      "object": "garden",
+      "context": "Lived on fruits of garden",
+      "category": "agricultural"
+    },
+    {
+      "object": "silver belts",
+      "context": "Worn by bourgeois women at sabbat",
+      "category": "clothing"
+    },
+    {
+      "object": "sows or calves",
+      "context": "Bourgeois women arrived at sabbat riding on them",
+      "category": "agricultural"
+    },
+    {
+      "object": "grains",
+      "context": "Claudon Pallet had good quantity, wanted to damage crops to sell his own better",
+      "category": "food"
+    },
+    {
+      "object": "hay",
+      "context": "Mathieu Basle was getting in hay at Germonville",
+      "category": "agricultural"
+    },
+    {
+      "object": "wood",
+      "context": "Accused of stealing wood from Laurent Rouelle's barn; caught stealing wood by another man",
+      "category": "household"
+    },
+    {
+      "object": "bread",
+      "context": "Refused bread on credit by baker",
+      "category": "food"
+    },
+    {
+      "object": "apple tree branch",
+      "context": "Claudon Marlier cut off overhanging branch",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Charmes",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of accused and many witnesses"
+    },
+    {
+      "place_name": "Langley",
+      "place_type": "village",
+      "context": "Native place of Barbe"
+    },
+    {
+      "place_name": "Portessenix",
+      "place_type": "village",
+      "context": "Where Barbe's sister lived who advised her to flee"
+    },
+    {
+      "place_name": "Pont near Bonsay",
+      "place_type": "village",
+      "context": "Where Barbe fled and lived with Claudon la vefue for 4-5 months"
+    },
+    {
+      "place_name": "Vallois",
+      "place_type": "village",
+      "context": "Where Barbe was begging and killed three horses after being refused at three houses"
+    },
+    {
+      "place_name": "near Remiremont",
+      "place_type": "sabbat_location",
+      "context": "Chief sabbat location where she saw 700 witches; attended 5-6 weeks before arrest"
+    },
+    {
+      "place_name": "near Charmes",
+      "place_type": "sabbat_location",
+      "context": "Smaller sabbat groups with people from villages she did not know"
+    },
+    {
+      "place_name": "Rejouville",
+      "place_type": "village",
+      "context": "Home of Claudon Pallet who was at sabbat"
+    },
+    {
+      "place_name": "Darney",
+      "place_type": "village",
+      "context": "Where Claudon Pallet was recently burned"
+    },
+    {
+      "place_name": "Germonville",
+      "place_type": "village",
+      "context": "Where Mathieu Basle moved because of his fear of Barbe"
+    },
+    {
+      "place_name": "Floremont",
+      "place_type": "village",
+      "context": "Home of Catherine Rossel, named as accomplice"
+    },
+    {
+      "place_name": "the lake",
+      "place_type": "water_body",
+      "context": "Where Barbe was accused of causing a fog"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Where Barbe threw the powder given by Devil"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": ["hailstorm (dispute at sabbat about whether to cause one)", "fog on the lake"],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["dearth", "hardships of poor", "begging", "selling land to survive", "reliance on charity", "poverty preventing legal action", "refusals of alms", "refusal of bread on credit"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Didier Clement",
+        "role": "prevot",
+        "location": "Charmes"
+      },
+      {
+        "name": "PG des Vosges",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Jean Coureur",
+        "role": "other",
+        "location": "Charmes"
+      },
+      {
+        "name": "Nicolas Meschy",
+        "role": "mayor",
+        "location": "Charmes"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Laurent Rouelle called her witch in public without her taking any action",
+        "outcome": "No action taken due to poverty"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Caught stealing wood, threatened with punishment, confessed to killing the man who caught her",
+        "outcome": "Unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "Too poor to take Rouelle to court",
+    "imprisonment_conditions": "Attempted to hang herself in prison from fear of torture",
+    "appeal_to_change_de_nancy": false,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 5,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "blamed_others"],
+    "emotional_state_notes": ["attempted suicide by hanging in prison", "afraid of torture", "asked to be put to death but not to feel the fire", "said she had harmed no-one (before fuller confessions)"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Claudon Pallet",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow witch at sabbat",
+      "relationship_to_witness": null,
+      "context": "From Rejouville, recently burned at Darney. Seen at sabbat near Remiremont. Wanted to cause hailstorm to damage crops so he could sell his grains better. Kicked Barbe at sabbat."
+    },
+    {
+      "name": "Claudon la vefue",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "host during flight",
+      "relationship_to_witness": null,
+      "context": "Widow at village of Pont near Bonsay where Barbe stayed during her 4-5 month flight"
+    },
+    {
+      "name": "Jean Coureur",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "sergent who threatened her",
+      "relationship_to_witness": null,
+      "context": "Sergent who threatened to put her in prison, causing her to flee"
+    },
+    {
+      "name": "late prévôt",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "intended to arrest her",
+      "relationship_to_witness": null,
+      "context": "Previous prévôt whose 'furie' (fury) Barbe feared, causing her to flee. Had intended to arrest her."
+    },
+    {
+      "name": "receveur of Charmes",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "called her old witch",
+      "relationship_to_witness": null,
+      "context": "Called her an old witch but Devil told her not to avenge herself on him because he often gave her alms"
+    },
+    {
+      "name": "widow of ox owner",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "owner of killed ox",
+      "relationship_to_witness": null,
+      "context": "Confirmed her ox had died strangely and they suspected witchcraft"
+    },
+    {
+      "name": "bourgeois women at sabbat",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "fellow witches",
+      "relationship_to_witness": null,
+      "context": "Wore silver belts, arrived on sows or calves, did not eat with others, were masked and unrecognizable"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial record is detailed with clear chronological progression. Confession was obtained under threat of torture and actual torture. Barbe initially confessed voluntarily, then attempted to retract, then confessed more extensively under torture. She attempted suicide in prison. Many of her confessed malefices followed a pattern of economic desperation - refusals of charity triggering revenge. The record shows tension between her claims she harmed no one and extensive confessions to multiple murders and malefices. She retracted one accusation against an accomplice, admitting it was false to speed proceedings. The case demonstrates the role of poverty, reputation, public naming as witch, and the escalation of confessions under interrogation and torture.",
+    "pdf_pages": 3
+  }
+}

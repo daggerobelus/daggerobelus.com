@@ -1,0 +1,1251 @@
+{
+  "trial_id": "w118",
+  "archive_ref": "B 7279",
+  "location": "Azelot",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1583-07-16",
+    "end": "1583-10-08",
+    "duration_days": 84
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Catherine Jean Claude",
+      "gender": "female",
+      "age": 82,
+      "age_approximate": true,
+      "occupation": ["healer", "diviner"],
+      "residence": "Azelot",
+      "marital_status": "widowed",
+      "spouse_name": "Jean Claude (deceased)",
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudot Henry",
+      "gender": "male",
+      "age": 23,
+      "occupation": "cousturier (tailor)",
+      "location": "Ville-en-Vermois",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolas Guerlot",
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "location": "Ville-en-Vermois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "disturbing water at spring",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband (Nicolas Guerlot's father)",
+            "target_relationship": "father",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "eventually"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Mengeon femme Jean de Corbessault",
+      "gender": "female",
+      "age": 36,
+      "location": "Loupcourt",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Mengeotte femme Gergonne Roussel",
+      "gender": "female",
+      "age": 50,
+      "location": "Azelot",
+      "relationship_to_accused": "wife of maire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Françoise femme Pierre Bonnet",
+      "gender": "female",
+      "age": 47,
+      "location": "Azelot",
+      "relationship_to_accused": "neighbor for many years",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "numerous quarrels over 30+ years",
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Philippe Grand Demenge",
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Françoise (wife)",
+            "target_relationship": "wife",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "2 days after touch"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Odille veuve Jean de Beufville",
+      "gender": "female",
+      "age": 60,
+      "location": "Azelot",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "son refusing to let Catherine join reaping",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "son aged 26",
+            "target_relationship": "son",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "eventually (2 years before testimony)"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Marguerite femme Vincenot de la Rue",
+      "gender": "female",
+      "age": 40,
+      "relationship_to_accused": "former daughter-in-law (married to her son)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Girard Jean Girard",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Mengin Regnard",
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "another neighbor suggesting to go on pilgrimage for sick child",
+        "threat_received": true,
+        "threat_quote": "voyla ton enfant gueris le, tu envoye bien loing au St pour le guerir et il est tout pres",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child",
+            "target_relationship": "child",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Isabeau femme du precedent (wife of Mengin Regnard)",
+      "gender": "female",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "small child who would not suckle for 6 days",
+            "target_relationship": "child",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": ""
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Belotte femme Jean Marchal",
+      "gender": "female",
+      "age": 40,
+      "relationship_to_accused": "lived in same house",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "reproached Catherine over secretly burying illegitimate child",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself - paralyzed in front of fire",
+            "target_relationship": "self",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "same night"
+          },
+          {
+            "type": "human_death",
+            "target": "2 children within a month",
+            "target_relationship": "children",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "within a month"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jean Rouyer",
+      "gender": "male",
+      "age": 50,
+      "location": "Loupcourt",
+      "relationship_to_accused": "neighbor for 7 years",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Nicolas Petit Jean",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to live in her house",
+        "threat_received": true,
+        "threat_quote": "his wife would suffer many ills and die dry as wood",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife - completely paralysed",
+            "target_relationship": "wife",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "recently"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "François Guerlot",
+      "gender": "male",
+      "age": 36,
+      "occupation": "moictrier",
+      "location": "Bedon",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mother quarreled about disturbing spring water",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father",
+            "target_relationship": "father",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "4 months later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Gerard de Bedon",
+      "gender": "male",
+      "age": 40,
+      "location": "Loupcourt",
+      "relationship_to_accused": "brother of witness 15",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mother asked what she was doing beating water with stick",
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Michelet",
+      "gender": "male",
+      "age": 27,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Clement l'Allemand",
+      "gender": "male",
+      "age": 30,
+      "location": "Loupcourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean Voinchelin",
+      "gender": "male",
+      "age": 32,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "sister (wife of Jean Doctrinal) - died in childbed",
+            "target_relationship": "sister",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "after touch on shoulder"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean Pastel",
+      "gender": "male",
+      "age": 55,
+      "location": "Loupcourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 36,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "threatened to have her arrested",
+        "threat_received": true,
+        "threat_quote": "if she were a witch he would have been dead 7 years earlier",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Catherine Jean Claude",
+            "time_after_quarrel": "20 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Demenge Jenniot",
+      "gender": "male",
+      "age": 40,
+      "location": "Burthecourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "François Gerard (le maire)",
+      "gender": "male",
+      "age": 40,
+      "occupation": "maire",
+      "location": "Burthecourt",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1583-07-16",
+      "event": "other",
+      "subject": "Catherine Jean Claude",
+      "details": "First inventory of goods taken, presumably immediately after arrest"
+    },
+    {
+      "date": "1583-07-29",
+      "event": "informations_preparatoires",
+      "subject": "Jean Magnien",
+      "details": "List of witnesses prepared by partie formelle Jean Magnien, schoolmaster at Azelot, now imprisoned alongside accused"
+    },
+    {
+      "date": "1583-07-29",
+      "event": "interrogation",
+      "subject": "Jean Magnien",
+      "details": "Magnien interrogated about how he came to be partie formelle"
+    },
+    {
+      "date": "1583-07-30",
+      "event": "interrogation",
+      "subject": "Catherine Jean Claude",
+      "details": "First interrogation of accused"
+    },
+    {
+      "date": "1583-07-30",
+      "event": "interrogation",
+      "subject": "Gergonne Roussel (maire)",
+      "details": "Maire interrogated about Magnien's claims of incitement"
+    },
+    {
+      "date": "1583-08-02",
+      "event": "informations_preparatoires",
+      "subject": "witnesses 1-7",
+      "details": "First batch of witness depositions"
+    },
+    {
+      "date": "1583-08-16",
+      "event": "informations_preparatoires",
+      "subject": "witnesses 5-22",
+      "details": "Second batch of witness depositions"
+    },
+    {
+      "date": "1583-08-20",
+      "event": "other",
+      "subject": "Jean Magnien",
+      "details": "Jean Magnien released from prison, under obligation to present himself when required"
+    },
+    {
+      "date": "1583-08-26",
+      "event": "interrogation",
+      "subject": "Catherine Jean Claude",
+      "details": "Second interrogation responding to specific charges"
+    },
+    {
+      "date": "1583-08-27",
+      "event": "confrontation",
+      "subject": "Catherine Jean Claude",
+      "details": "Confronted with witnesses"
+    },
+    {
+      "date": "1583-09-07",
+      "event": "torture_requested",
+      "subject": "Catherine Jean Claude",
+      "details": "PG de Lorraine (Maimbourg) asks for question extraordinaire"
+    },
+    {
+      "date": "1583-09-27",
+      "event": "torture",
+      "subject": "Catherine Jean Claude",
+      "details": "Interrogation under torture - thumbscrews, rack, and tortillons; denied all charges"
+    },
+    {
+      "date": "1583-10-08",
+      "event": "sentence",
+      "subject": "Catherine Jean Claude",
+      "details": "Formal sentence from Change de Nancy: banishment for 10 years, confiscation of 1/3 goods, payment of costs"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack", "tortillons"],
+    "requesting_official": "PG de Lorraine (Maimbourg)",
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Catherine Jean Claude",
+      "french": "qu'elle escrioit et appelloit a son ayde ses enfans qui estoient mortz",
+      "english": "that she was writing and calling to her aid her children who were dead",
+      "context": "When asked what she was doing beating water with a stick at the spring"
+    },
+    {
+      "speaker": "Mengin Regnard (Catherine's words to him)",
+      "french": "voyla ton enfant gueris le, tu envoye bien loing au St pour le guerir et il est tout pres",
+      "english": "there is your child, cure him, you send very far to the saint to cure him and he is very near",
+      "context": "Angry response when another neighbor suggested going on pilgrimage for their sick child"
+    },
+    {
+      "speaker": "maire Gergonne",
+      "french": "une certaine bonne beste",
+      "english": "a certain good beast",
+      "context": "Referring to Catherine when trying to convince Magnien to be partie formelle"
+    },
+    {
+      "speaker": "wife of Jean Pastel",
+      "french": "que malle chartre la puisse enchartrer dans son lict",
+      "english": "that evil charter might enchain her in her bed",
+      "context": "Curse allegedly wished upon witness by Catherine"
+    },
+    {
+      "speaker": "Catherine Jean Claude",
+      "french": "si elle fut sorciere, elle qui depose s'en fut ressenty",
+      "english": "if she were a witch, she who testifies would have felt it",
+      "context": "Françoise femme Pierre Bonnet's testimony about their 30+ years of quarrels"
+    },
+    {
+      "speaker": "Belotte femme Jean Marchal",
+      "context": "Catherine's statement shortly before arrest while reaping together",
+      "english": "She had thought several times of killing herself; had heard that schoolmaster was thinking of having her arrested, and wished it was now. She was willing to suffer in body, provided her soul was saved"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Catherine Jean Claude",
+      "person2": "Jean Claude",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "widow of Jean Claude, aged about 82. Husband had died about 12 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite femme Vincenot de la Rue",
+      "person2": "Catherine Jean Claude's son",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Had been married to one of her sons for 11 months",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme Gergonne Roussel",
+      "person2": "Gergonne Roussel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "wife of maire Gergonne Roussel",
+      "inferred": false
+    },
+    {
+      "person1": "François Guerlot",
+      "person2": "Gerard de Bedon",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Brother of previous witness",
+      "inferred": false
+    },
+    {
+      "person1": "Isabeau",
+      "person2": "Mengin Regnard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine Jean Claude",
+      "person2": "Françoise femme Pierre Bonnet",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had been neighbour for many years",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine Jean Claude",
+      "person2": "Jean Rouyer",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had been her neighbour for 7 years",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine Jean Claude",
+      "person2": "Belotte femme Jean Marchal",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "lived in same house as her",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Magnien",
+      "person2": "Catherine Jean Claude",
+      "relationship_type": "other_social",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "partie formelle (legal accuser) against Catherine",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Catherine owned house (sold for 210 fr), land (161 fr), and household goods (55 fr), total 426 fr. She was also paid for healing services and pilgrimages."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "maire Gergonne's son",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "died recently",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "maire Gergonne's daughter",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "illness",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "wife of Jehan Michellet's child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "death of a child that summer",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Jehenin Dyentrinault's daughter",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_injury",
+      "harm_description": "twisted arm",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Jehenin Dyentrinault's son",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Zebey Renard's child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Zebey Renard's other children",
+      "victim_relationship_to_witness": "children",
+      "harm_category": "human_illness",
+      "harm_description": "illnesses",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Jean Tourselle's wife",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Nicolas Guerlot's father (husband)",
+      "victim_relationship_to_witness": "father/husband",
+      "harm_category": "human_death",
+      "harm_description": "fell ill after drinking water from spring, finally died",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "mother saw Catherine disturbing water of spring",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Philippe Grand Demenge's wife Françoise",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "in childbed, became fearful, lost speech, died",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "Catherine put hand on her stomach - hand was cold as ice",
+      "time_between_quarrel_and_harm": "2 days",
+      "method_alleged": "touch",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Odille's son",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "very swollen thigh with abscesses, aged 26",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "son refused to let Catherine join them in reaping",
+      "time_between_quarrel_and_harm": "2 years before testimony",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Mengin Regnard's child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "died next day, half of body became grey",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "Catherine angry that another neighbor would take child on pilgrimage",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Isabeau's small child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "would not suckle for 6 days",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Belotte femme Jean Marchal",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "found herself in front of fire in bed, unable to move although burning",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "reproached Catherine over secretly burying illegitimate child",
+      "time_between_quarrel_and_harm": "same night",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Belotte's 2 children",
+      "victim_relationship_to_witness": "children",
+      "harm_category": "human_death",
+      "harm_description": "died within month, one struck by Catherine",
+      "attributed_to": "Catherine Jean Claude",
+      "time_between_quarrel_and_harm": "within month",
+      "method_alleged": "struck",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Nicolas Petit Jean's wife",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "completely paralysed",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "refused to live in Catherine's house",
+      "time_between_quarrel_and_harm": "recently",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Nicolas Petit Jean's cow",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "sudden death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Catherine Jean Claude",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "François Guerlot's father",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "mother quarreled about disturbing spring water",
+      "time_between_quarrel_and_harm": "4 months later",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Jean Voinchelin's sister (wife of Jean Doctrinal)",
+      "victim_relationship_to_witness": "sister",
+      "harm_category": "human_death",
+      "harm_description": "brought to bed early with child and died",
+      "attributed_to": "Catherine Jean Claude",
+      "method_alleged": "touched her on shoulder",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Jean Pastel's wife",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "died 20 years earlier believing Catherine had caused death",
+      "attributed_to": "Catherine Jean Claude",
+      "time_between_quarrel_and_harm": "20 years before testimony",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "Gros Claude",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_death",
+      "harm_description": "fell ill next day after calling her witch, died soon after",
+      "attributed_to": "Catherine Jean Claude",
+      "precipitating_quarrel": "called her witch after drinking more than usual",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Laurent Marchal",
+      "victim_relationship_to_witness": "uncle of witness",
+      "harm_category": "human_death",
+      "harm_description": "died believing she had bewitched him, ordered she not be allowed near bed",
+      "attributed_to": "Catherine Jean Claude",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Nicolas (married son of maire Gergonne)",
+      "victim_relationship_to_witness": "son of maire",
+      "harm_category": "human_death",
+      "harm_description": "headache, completely out of mind, died despite pilgrimages",
+      "attributed_to": "Catherine Jean Claude (but Catherine claims she tried to help)",
+      "time_between_quarrel_and_harm": "2 weeks before trial",
+      "witness_number": 4
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "scarf/serviette",
+      "context": "used for divination to determine which saint was responsible for illnesses",
+      "category": "magical"
+    },
+    {
+      "object": "rosewater",
+      "context": "remedy made with rosewater, vinegar, and white of egg for headache",
+      "category": "household"
+    },
+    {
+      "object": "vinegar",
+      "context": "remedy ingredient",
+      "category": "food"
+    },
+    {
+      "object": "white of egg",
+      "context": "remedy ingredient",
+      "category": "food"
+    },
+    {
+      "object": "salt",
+      "context": "treated animals with salt and onions on wound for 'la barbe'",
+      "category": "food"
+    },
+    {
+      "object": "onions",
+      "context": "treated animals with salt and onions",
+      "category": "food"
+    },
+    {
+      "object": "overcoat",
+      "context": "maire promised to give Magnien an overcoat for becoming partie formelle",
+      "category": "clothing"
+    },
+    {
+      "object": "cloth",
+      "context": "Pierre Bonnet asked priest who had stolen some cloth",
+      "category": "household"
+    },
+    {
+      "object": "stick",
+      "context": "beating water with a stick at spring",
+      "category": "tools"
+    },
+    {
+      "object": "100 florins",
+      "context": "maire promised to cover Magnien's costs up to a hundred florins",
+      "category": "money"
+    },
+    {
+      "object": "6 gros per inhabitant",
+      "context": "maire allegedly offered Jean Pateltangel 6 gros for every inhabitant of Azelot",
+      "category": "money"
+    },
+    {
+      "object": "house",
+      "context": "sold for 210 fr as part of property confiscation",
+      "category": "property"
+    },
+    {
+      "object": "land",
+      "context": "sold for 161 fr",
+      "category": "property"
+    },
+    {
+      "object": "household goods",
+      "context": "sold for 55 fr",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Azelot",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of accused"
+    },
+    {
+      "place_name": "Ville-en-Vermois",
+      "place_type": "village",
+      "context": "residence of witnesses 1 and 2"
+    },
+    {
+      "place_name": "Loupcourt",
+      "place_type": "village",
+      "context": "residence of multiple witnesses; where bastard child was taken for baptism"
+    },
+    {
+      "place_name": "Burthecourt",
+      "place_type": "village",
+      "context": "residence of maire François Gerard and witness Demenge Jenniot"
+    },
+    {
+      "place_name": "Bedon",
+      "place_type": "village",
+      "context": "residence of François Guerlot"
+    },
+    {
+      "place_name": "Houdemont",
+      "place_type": "village",
+      "context": "maire's wife said there was a man from Houdemont who wanted to speak with Catherine"
+    },
+    {
+      "place_name": "Houdreville",
+      "place_type": "village",
+      "context": "Messire Hilaire was curé of Houdreville"
+    },
+    {
+      "place_name": "St Nicolas",
+      "place_type": "village",
+      "context": "where Odille's son was in service when he developed swollen thigh"
+    },
+    {
+      "place_name": "Mandre aux quatre tours",
+      "place_type": "village",
+      "context": "native village of Jean Magnien"
+    },
+    {
+      "place_name": "Fléville",
+      "place_type": "village",
+      "context": "where Jean Malherbe lived, who taught Catherine healing prayer when she was young"
+    },
+    {
+      "place_name": "Niderhoff",
+      "place_type": "village",
+      "context": "where Domp Jean de Xanrey lived"
+    },
+    {
+      "place_name": "le Court",
+      "place_type": "village",
+      "context": "residence of Jean Tourselle"
+    },
+    {
+      "place_name": "St Claude",
+      "place_type": "other",
+      "context": "pilgrimage site - Catherine's husband had been to St Claude"
+    },
+    {
+      "place_name": "St Melain at Vendenieres",
+      "place_type": "church",
+      "context": "pilgrimage site recommended for maire's son"
+    },
+    {
+      "place_name": "St Blaise",
+      "place_type": "church",
+      "context": "pilgrimage site"
+    },
+    {
+      "place_name": "beau Bernard",
+      "place_type": "church",
+      "context": "pilgrimage site"
+    },
+    {
+      "place_name": "St George",
+      "place_type": "church",
+      "context": "pilgrimage site"
+    },
+    {
+      "place_name": "spring",
+      "place_type": "water_body",
+      "context": "where Catherine was found disturbing water; went before dawn on first Friday of May to wash hands"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Change de Nancy was the court that tried the case"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Catherine mentioned 'very dear years' but said she had never been troubled in mind",
+      "Jean Magnien described himself as 'a poor man but honest' with wife and 2 children"
+    ],
+    "religious_calendar_references": [
+      "Whitsun - Magnien had only been at Azelot since previous Whitsun",
+      "first Friday of May - when Catherine went to spring for healing ritual",
+      "service of the year - mass said a year after someone's death"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Gergonne Roussel",
+        "role": "mayor",
+        "location": "Azelot"
+      },
+      {
+        "name": "François Gerard",
+        "role": "mayor",
+        "location": "Burthecourt"
+      },
+      {
+        "name": "Claudin",
+        "role": "mayor",
+        "location": "Burthecourt"
+      },
+      {
+        "name": "Maimbourg",
+        "role": "prosecutor_pg",
+        "location": "Lorraine"
+      },
+      {
+        "name": "Jean Magnien",
+        "role": "other",
+        "location": "Azelot"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "other",
+        "description": "Jean Pastel threatened to have Catherine arrested for witchcraft",
+        "outcome": "Catherine said if she were a witch he would have been dead 7 years earlier"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "Multiple witnesses noted she was called witch publicly but took no legal action for defamation",
+    "imprisonment_conditions": "imprisoned alongside Jean Magnien; other prisoners heard noises and cries earlier in week (which Catherine denied)",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 10,
+    "hearsay_testimony_count": 12,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Gerard le vieux (from initial list)",
+        "source": "his late wife",
+        "content": "Catherine told her he would die before her"
+      },
+      {
+        "reporter": "Clement l'Allemand",
+        "source": "his late mother",
+        "content": "his uncle Laurent Marchal died believing Catherine bewitched him"
+      },
+      {
+        "reporter": "François Gerard (maire Burthecourt)",
+        "source": "late Gros Claude",
+        "content": "how he called her witch after drinking, fell ill and died"
+      },
+      {
+        "reporter": "Jean Pastel",
+        "source": "other women",
+        "content": "she had wished 'que malle chartre la puisse enchartrer dans son lict'"
+      },
+      {
+        "reporter": "Odille veuve Jean de Beufville",
+        "source": "Pierre Bonnet and Domp Jean de Xanrey",
+        "content": "first woman to come into house on return would be cause of children's deaths"
+      }
+    ],
+    "oldest_accusation_years": 36,
+    "corroboration_groups": [
+      [2, 15, 16],
+      [10, 11]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "said she had thought of drowning herself in her well when she realized people believed her a witch",
+      "told Belotte she had thought several times of killing herself",
+      "said she wished the schoolmaster would arrest her now, willing to suffer in body if soul saved"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 20,
+        "objection": "Said that Jean Pastel was cause of his wife's death, because he had beaten her"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Magnien",
+      "role_in_narrative": "other",
+      "relationship_to_accused": "partie formelle (legal accuser)",
+      "context": "schoolmaster at Azelot from Mandre aux quatre tours; imprisoned alongside Catherine; allegedly coerced by maire into becoming partie formelle; later released"
+    },
+    {
+      "name": "Gergonne Roussel",
+      "role_in_narrative": "official",
+      "relationship_to_accused": "maire of Azelot",
+      "context": "allegedly tried to convince multiple people to be partie formelle against Catherine; son Nicolas died during trial"
+    },
+    {
+      "name": "Nicolas (son of maire)",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "maire's son",
+      "relationship_to_witness": "son",
+      "context": "married son who died of headache/mental illness; Catherine tried to heal him"
+    },
+    {
+      "name": "Jean Malherbe",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "teacher",
+      "context": "old man at Fléville who taught Catherine healing prayer when she was young; told her not to use until his death (6 weeks later)"
+    },
+    {
+      "name": "Esdeline",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "teacher",
+      "context": "old woman of Azelot, now dead, who taught Catherine use of serviette and prayer for animals 40+ years ago"
+    },
+    {
+      "name": "Jean Pateltangel",
+      "role_in_narrative": "community_member",
+      "context": "allegedly offered 6 gros per inhabitant by maire to become partie formelle"
+    },
+    {
+      "name": "Jean Gerard",
+      "role_in_narrative": "community_member",
+      "context": "maire allegedly approached him to become partie formelle"
+    },
+    {
+      "name": "Pierrot Hardier",
+      "role_in_narrative": "community_member",
+      "context": "maire allegedly approached him to become partie formelle"
+    },
+    {
+      "name": "Didier Tournoy",
+      "role_in_narrative": "community_member",
+      "context": "at whose house Magnien dined 2 weeks before arrest"
+    },
+    {
+      "name": "Messire Hilaire",
+      "role_in_narrative": "official",
+      "context": "curé of Houdreville; father of bastard child that Catherine took to be baptised"
+    },
+    {
+      "name": "Marguerite",
+      "role_in_narrative": "community_member",
+      "context": "mother of bastard child by curé"
+    },
+    {
+      "name": "Domp Jean de Xanrey",
+      "role_in_narrative": "official",
+      "context": "at Niderhoff; consulted about who stole cloth and made prediction about first woman to enter house"
+    },
+    {
+      "name": "Gros Claude",
+      "role_in_narrative": "victim",
+      "context": "called Catherine witch after drinking, fell ill next day and died"
+    },
+    {
+      "name": "Laurent Marchal",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "uncle of Clement l'Allemand",
+      "context": "died believing Catherine bewitched him"
+    },
+    {
+      "name": "wife of Jean Doctrinal (sister of Jean Voinchelin)",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "sister",
+      "context": "died in childbed claiming Catherine responsible after touch on shoulder"
+    },
+    {
+      "name": "Pierre Bonnet",
+      "role_in_narrative": "community_member",
+      "context": "tisserand; husband of witness 5; visited Domp Jean de Xanrey about stolen cloth"
+    },
+    {
+      "name": "9 children of Catherine",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "context": "all 9 children were dead at time of trial"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Exceptionally detailed trial record with 22 witnesses. Notable for: (1) complex legal drama around partie formelle Jean Magnien being allegedly coerced by maire; (2) Catherine's role as healer/diviner using scarf divination and prayers; (3) survival outcome - banished rather than executed despite torture; (4) extensive testimony about her healing practices being both valued and feared; (5) Catherine's own statements about contemplating suicide due to reputation. Strong evidence of folk healing practices and economic value of her services. Property inventory provides rare economic data.",
+    "pdf_pages": 6
+  }
+}

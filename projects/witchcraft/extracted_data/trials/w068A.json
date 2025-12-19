@@ -1,0 +1,1670 @@
+{
+  "trial_id": "w068A",
+  "archive_ref": "B 3813",
+  "location": "Grandvillers",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1625-10-27",
+    "end": "1626-03-02",
+    "duration_days": 127
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Mengeon Clement Thiriat",
+      "gender": "male",
+      "age": 70,
+      "age_approximate": true,
+      "occupation": ["laboureur", "tailor", "maire du ban", "lieutenant to maire"],
+      "origin": "Grandvillers",
+      "residence": "Grandvillers",
+      "marital_status": "married",
+      "spouse_name": "Florente fille Georgeon Thomas",
+      "parents": {
+        "father": "Georgeon Thomas (father-in-law)"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mongeon Laurent",
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 9,
+        "threat_received": true,
+        "threat_quote": "de luy faire mouiller ses yeux",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "6 years earlier"
+          },
+          {
+            "type": "animal_death",
+            "target": "several cows and oxen",
+            "target_relationship": "self",
+            "attributed_to": "quelque personne infectée de sortilege"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Georgeote femme Mongeon Laurent",
+      "gender": "female",
+      "age": 45,
+      "relationship_to_accused": "wife of witness 1",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "threat_received": true,
+        "threat_quote": "qu'il feroit une soupe qui ne seroit pas au gré de tout le monde",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "5 horses",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "after threat"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "around St Jean"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Marguerite femme Curien Ganiche",
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "animals pasturing in shared meadow",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Fleurette veuve Florentin Coitoux",
+      "gender": "female",
+      "age": 40,
+      "marital_status": "widowed",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "oxen and other valuable beasts",
+            "target_relationship": "self"
+          },
+          {
+            "type": "human_death",
+            "target": "husband",
+            "target_relationship": "self"
+          },
+          {
+            "type": "human_illness",
+            "target": "daughter",
+            "target_relationship": "self"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Georgeote fille Fleurette Coitoux",
+      "gender": "female",
+      "age": 20,
+      "relationship_to_accused": "Mengeon was nearest neighbour",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "harm_description": "prolonged illness"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Nicole veuve Toussaint le Roy",
+      "gender": "female",
+      "age": 65,
+      "marital_status": "widowed",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "husband",
+            "target_relationship": "self",
+            "harm_description": "ill for 10 years"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self"
+          },
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "self"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Marion femme Georgeon le Roy",
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter Jennon",
+            "target_relationship": "self",
+            "harm_description": "4-year illness"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Alison veuve Nicolas Mareschal",
+      "gender": "female",
+      "age": 60,
+      "marital_status": "widowed",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter's animals crossing meadow",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "several animals",
+            "target_relationship": "self"
+          },
+          {
+            "type": "human_illness",
+            "target": "daughter Bastienne",
+            "target_relationship": "daughter",
+            "harm_description": "ill for 6 years",
+            "time_after_quarrel": "6 months later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Helenne femme Claudon Thomas",
+      "gender": "female",
+      "age": 45,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "son Jean, aged 18",
+            "target_relationship": "self",
+            "harm_description": "fell ill and eventually died"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudate femme Claudon Jobert",
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "self"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jacote femme Anthoine Rataire",
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "keeping village animals",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "8 weeks later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jannon femme Nicolas Mengin",
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 13,
+      "name": "Nicolas Mengin",
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "self"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Curien Ganiche",
+      "gender": "male",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Florentin Tadierat",
+      "gender": "male",
+      "age": 35,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife Jennon",
+            "target_relationship": "self",
+            "harm_description": "ill for 3 years, then died"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Clement Voiemin",
+      "gender": "male",
+      "age": 34,
+      "occupation": "former doyen",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Mengin",
+      "gender": "male",
+      "age": 38,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "land dispute",
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "gun",
+            "target_relationship": "self",
+            "harm_description": "gun burst when fired at hare",
+            "method_alleged": "caused by accused"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "self",
+            "time_after_quarrel": "a year later"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "self",
+            "time_after_quarrel": "3 weeks before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Florent Goery",
+      "gender": "male",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "ox",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "after purchase"
+          },
+          {
+            "type": "animal_illness",
+            "target": "horse",
+            "target_relationship": "self"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Claudon Thomas",
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "threat_received": true,
+        "threat_quote": "que le diable luy en sceut gré, et qu'il le paieroit en un autre lieu sans qu'il s'en preigne de garde",
+        "quarrel_mentioned": true,
+        "quarrel_subject": "payment for keeping herd",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "three cows",
+            "target_relationship": "self",
+            "harm_description": "each lost left eye",
+            "attributed_to": "Mengeon Clement Thiriat",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean Grand Didier",
+      "gender": "male",
+      "age": 32,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 21,
+      "name": "Nicolas Marteau",
+      "gender": "male",
+      "age": 72,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "harm_description": "became so ill everyone thought he was dying",
+            "method_alleged": "dried pears given by accused",
+            "time_after_quarrel": "immediately after eating pears"
+          },
+          {
+            "type": "other",
+            "target": "self",
+            "target_relationship": "self",
+            "harm_description": "lost hunting ability, could hit nothing",
+            "time_after_quarrel": "after taking hare from accused's snares"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Noel Girardin",
+      "gender": "male",
+      "age": 48,
+      "occupation": "maire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 17,
+        "threat_received": true,
+        "threat_quote": "que ce n'estoit encor rien, et que sa langue seroit cause de luy faire mouiller ses yeux"
+      }
+    },
+    {
+      "number": 23,
+      "name": "Georgeon le Roy",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 24,
+      "name": "Michel Mareschal",
+      "gender": "male",
+      "age": 25,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 25,
+      "name": "Claudon Jobert",
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 26,
+      "name": "Jean fils feu Toussaint le Roy",
+      "gender": "male",
+      "age": 25,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 27,
+      "name": "Colatte femme Mengeon Dieudonné",
+      "gender": "female",
+      "age": 74,
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "harm_description": "could not keep any food down",
+            "method_alleged": "dried pears from accused",
+            "time_after_quarrel": "14 months before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "Margueritte veuve Romary Laurent",
+      "gender": "female",
+      "age": 26,
+      "marital_status": "widowed",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband",
+            "target_relationship": "self",
+            "harm_description": "languishing for a year, bewitched according to curé"
+          }
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Claudette femme Mengeon Jacot",
+      "gender": "female",
+      "age": 30,
+      "location": "Domfaing",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 30,
+      "name": "Collatte fille Nicolas le Roy",
+      "gender": "female",
+      "age": 23,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 31,
+      "name": "Nicolas Villemin",
+      "gender": "male",
+      "age": 70,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 32,
+      "name": "Georgeon Roussel",
+      "gender": "male",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 33,
+      "name": "Mengeatte femme George Michel",
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 34,
+      "name": "Claudette veuve Nicolas Virion",
+      "gender": "female",
+      "age": 33,
+      "marital_status": "widowed",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 35,
+      "name": "Barthelemy le Duc",
+      "gender": "male",
+      "age": 58,
+      "location": "Pierrepont",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt owed by father-in-law",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "harm_description": "fell and injured itself so badly it had to be killed",
+            "time_after_quarrel": "later, after meeting on road"
+          }
+        ]
+      }
+    },
+    {
+      "number": 36,
+      "name": "Jean Duc",
+      "gender": "male",
+      "age": 80,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 37,
+      "name": "Jean Gaspard",
+      "gender": "male",
+      "age": 52,
+      "location": "Bruyères",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1625-10-27",
+      "event": "informations_preparatoires",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "Taken by prévôt of Bruyères at request of PG des Vosges"
+    },
+    {
+      "date": "1625-10-31",
+      "event": "other",
+      "details": "Additional witness depositions (27-28)"
+    },
+    {
+      "date": "1625-11-07",
+      "event": "other",
+      "details": "PG des Vosges asks for arrest"
+    },
+    {
+      "date": "1625-11-04",
+      "event": "other",
+      "details": "Order signed by Duchess Nicole granting surseance for 15 days"
+    },
+    {
+      "date": "1625-11-11",
+      "event": "other",
+      "details": "PG des Vosges orders prévôt to send trial documents"
+    },
+    {
+      "date": "1625-12-23",
+      "event": "other",
+      "details": "Letter from Catherine Damas; order from Duke Charles to proceed with trial"
+    },
+    {
+      "date": "1625-12-29",
+      "event": "other",
+      "details": "Prévôt orders arrest"
+    },
+    {
+      "date": "1625-12-30",
+      "event": "other",
+      "details": "Ducal decision that trial should proceed"
+    },
+    {
+      "date": "1626-01-02",
+      "event": "interrogation",
+      "subject": "Mengeon Clement Thiriat"
+    },
+    {
+      "date": "1626-01-03",
+      "event": "interrogation",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "Second interrogation"
+    },
+    {
+      "date": "1626-01-05",
+      "event": "other",
+      "details": "Accused requests transfer to higher room due to age and ulcer"
+    },
+    {
+      "date": "1626-01-08",
+      "event": "confrontation",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1626-01-16",
+      "event": "other",
+      "details": "PG orders investigation of accused's justifications"
+    },
+    {
+      "date": "1626-01-21",
+      "event": "other",
+      "details": "List of additional witnesses prepared"
+    },
+    {
+      "date": "1626-01-23",
+      "event": "other",
+      "details": "Additional depositions taken (witnesses 29-37)"
+    },
+    {
+      "date": "1626-01-24",
+      "event": "other",
+      "details": "Prévôt declares accused should bring forward witnesses for defense"
+    },
+    {
+      "date": "1626-01-30",
+      "event": "other",
+      "details": "Defense witness testimonies begin"
+    },
+    {
+      "date": "1626-02-11",
+      "event": "torture_requested",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "PG des Vosges requests question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1626-02-16",
+      "event": "torture_approved",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "Change de Nancy approves torture with restrictions"
+    },
+    {
+      "date": "1626-02-25",
+      "event": "torture",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "Interrogation under torture - did not confess"
+    },
+    {
+      "date": "1626-02-28",
+      "event": "other",
+      "details": "PG des Vosges consents to release (renvoyé)"
+    },
+    {
+      "date": "1626-03-02",
+      "event": "sentence",
+      "subject": "Mengeon Clement Thiriat",
+      "details": "Released from prison by prévôt"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews on hands", "thumbscrews on feet", "rack"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Light torture only due to age and physical condition; under strict supervision by judges and surgeon"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Georgeon Raimbault",
+      "context": "Warned witnesses against Mengeon, said he was 'un malheureux homme qui ne portoit point de bon temps' and 'un traistre qui menoit un mauvais train'; claimed Mengeon tried to strangle him"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Mengeon Clement Thiriat (threat)",
+      "french": "de luy faire mouiller ses yeux",
+      "english": "to make his eyes wet",
+      "context": "Threat reported to witness 1"
+    },
+    {
+      "speaker": "Mengeon Clement Thiriat (threat)",
+      "french": "qu'il feroit une soupe qui ne seroit pas au gré de tout le monde",
+      "english": "he would make a soup that would not be to everyone's taste",
+      "context": "Threat when animals went through his meadow"
+    },
+    {
+      "speaker": "Mengeon Clement Thiriat",
+      "french": "qu'elle ne scavoit encor ce que c'estoit de vivre au monde, et qu'il failloit faire les plus beaux et meilleurs semblants a ceux que l'on haissoit le plus",
+      "english": "that she did not yet know what it was to live in the world, and that one must make the best and finest appearances to those one hated the most",
+      "context": "Said to witness 9 when carting hay"
+    },
+    {
+      "speaker": "Mengeon Clement Thiriat",
+      "french": "qu'il pourroit avoir des filles telles que bon luy sembleroit",
+      "english": "that he could have girls as he pleased",
+      "context": "Boast reported by witness 14"
+    },
+    {
+      "speaker": "Mengeon Clement Thiriat (during torture)",
+      "french": "Jesus Maria, ne me delaissez pas, je ne vous ay pas delaissé, et qu'il n'importe qu'il endure pour l'amour de son saint nom, puis qu'il a enduré la mort pour le genre humain",
+      "english": "Jesus Maria, do not abandon me, I have not abandoned you, and it does not matter that he endure for the love of his holy name, since he endured death for the human race",
+      "context": "During thumbscrews on hands"
+    },
+    {
+      "speaker": "Mengeon Clement Thiriat (during torture)",
+      "french": "Monsieur me fault il mourir en cest estat, je n'oublieray jamais dieu, puis qu'il m'a fait ce bien de me créer a sa semblance, qu'il est content qu'on le mette en mille pieces qu'il n'en dira davantage",
+      "english": "Sir, must I die in this state, I will never forget God, since he did me the good of creating me in his image, he is content that they put him in a thousand pieces before he will say more",
+      "context": "During racking"
+    },
+    {
+      "speaker": "Mengeon's son Jean",
+      "french": "un carractere ainsy l'appelloit il qu'il disoit estre propre pour charmer les coups d'espée, harquebuses, at autres, desquelles une personne qui en seroit saisy ne pourroit estre blessé ny interressé, moins noier quand bien il tomberoit en l'eaue",
+      "english": "a character as he called it that he said was proper for charming sword blows, harquebuses, and others, from which a person who possessed it could not be wounded or harmed, or even drown if he fell in water",
+      "context": "Description of magical paper shown to maire"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Mengeon Clement Thiriat",
+      "person2": "Florente fille Georgeon Thomas",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other"
+    },
+    {
+      "person1": "Mengeon Clement Thiriat",
+      "person2": "Jean Clement",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his son Jean Clement, who held office of maire"
+    },
+    {
+      "person1": "Mengeon Laurent",
+      "person2": "Georgeote femme Mongeon Laurent",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Marguerite femme Curien Ganiche",
+      "person2": "Curien Ganiche",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Fleurette veuve Florentin Coitoux",
+      "person2": "Florentin Coitoux",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim"
+    },
+    {
+      "person1": "Fleurette veuve Florentin Coitoux",
+      "person2": "Georgeote fille Fleurette Coitoux",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Mengeon Clement Thiriat",
+      "person2": "Georgeote fille Fleurette Coitoux",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Mengeon, who was nearest neighbour"
+    },
+    {
+      "person1": "Noel Girardin",
+      "person2": "Jean Grand Didier",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Noel Gerardin was 'oncle maternel' of Jean Grand Didier"
+    },
+    {
+      "person1": "Mengeon Clement Thiriat",
+      "person2": "Georgeon Raimbault",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Georgeon Raimbault was father-in-law of Mengeon"
+    },
+    {
+      "person1": "Colatte femme Mengeon Dieudonné",
+      "person2": "Jean Mongeote",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Colate femme Mongeon Dieudonné was his aunt"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Accused had disputes over land, payment for services, and debts. He transferred all his goods to his son before trial, which was seen as attempt to 'frauder le fisque'. Nicolas Hellet was angry that accused had not given his son (Hellet's son-in-law) a good dowry."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "horse of Mongeon Laurent",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Clement Thiriat",
+      "time_between_quarrel_and_harm": "6 years earlier",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "cows and oxen of Mongeon Laurent",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "cows and oxen",
+      "attributed_to": "quelque personne infectée de sortilege",
+      "time_between_quarrel_and_harm": "recently",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "5 horses of Georgeote femme Mongeon Laurent",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 5,
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "animals went through his meadow",
+      "time_between_quarrel_and_harm": "after threat",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "ox of Georgeote femme Mongeon Laurent",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Clement Thiriat",
+      "time_between_quarrel_and_harm": "around St Jean",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "horse of Marguerite femme Curien Ganiche",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "harm_description": "judged to be bewitched by man who cut it up",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "dispute over animals pasturing in shared meadow",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Florentin Coitoux",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "died after illness of a year",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "daughter of Fleurette Coitoux",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "had been ill",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "oxen and valuable beasts of Fleurette Coitoux",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "oxen and other beasts",
+      "time_between_quarrel_and_harm": "over last six years",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Georgeote fille Fleurette Coitoux",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "prolonged illness, thought possessed, exorcised",
+      "method_alleged": "food brought by Mengeon including tart and pears",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Toussaint le Roy",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 10 years",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "horse and pig of Nicole veuve Toussaint le Roy",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "horse and pig",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jennon daughter of Marion femme Georgeon le Roy",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "died after 4-year illness",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "several animals of Alison veuve Nicolas Mareschal",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Bastienne daughter of Alison veuve Nicolas Mareschal",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 6 years",
+      "precipitating_quarrel": "Mengeon told her off for allowing animals to cross his meadow",
+      "time_between_quarrel_and_harm": "fell ill 6 months later",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Jean son of Helenne femme Claudon Thomas",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "aged 18, fell ill and eventually died",
+      "attributed_to": "possibly Mengeon (suspected bewitchment)",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "animals of Claudate femme Claudon Jobert",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "horse of Jacote femme Anthoine Rataire",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "dispute when he was keeping village animals",
+      "time_between_quarrel_and_harm": "8 weeks later",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "animals of Nicolas Mengin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Jennon wife of Florentin Tadierat",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "ill for 3 years, then died",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "gun of Jean Mengin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "property_damage",
+      "harm_description": "gun burst when fired at hare",
+      "attributed_to": "Mengeon Clement Thiriat (suspected)",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "two oxen of Jean Mengin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "ox",
+      "animal_count": 2,
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "land dispute",
+      "time_between_quarrel_and_harm": "one a year later, another 3 weeks before",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "ox of Florent Goery",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "harm_description": "sickened, sold at loss",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "time_between_quarrel_and_harm": "after purchase and consultation",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "horse of Florent Goery",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "harm_description": "sickened but later recovered after Mengeon visited it",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Nicolas brother of Mengeon and his son",
+      "harm_category": "human_death",
+      "harm_description": "died at same time 14 years earlier",
+      "attributed_to": "Mengeon Clement Thiriat (rumored to have caused to get property)",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "three cows of Claudon Thomas",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "animal_type": "cow",
+      "animal_count": 3,
+      "harm_description": "each lost left eye, judged witchcraft by those who treated them",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "quarrel over payment for keeping herd",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Florentin Coitoux",
+      "harm_category": "human_death",
+      "harm_description": "fatal illness 7 or 8 months earlier",
+      "attributed_to": "Mengeon Clement Thiriat (Coitoux himself suspected)",
+      "precipitating_quarrel": "refused Mengeon half share in wood bought from community",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Nicolas Marteau",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became so ill everyone thought he was dying",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "method_alleged": "dried pears given by accused; recovered after eating picquate/compote sent by accused",
+      "time_between_quarrel_and_harm": "year after false swearing incident",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "hunting ability of Nicolas Marteau",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "other",
+      "harm_description": "previously good huntsman who never missed target, after incident could hit nothing",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "took hare that escaped Mengeon's snares",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "brother of Nicolas Marteau with wife and child",
+      "harm_category": "human_death",
+      "harm_description": "died 12 years earlier",
+      "attributed_to": "Mengeon Clement Thiriat (suspected to get inheritance)",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "horse of Mengeon le Roy",
+      "victim_relationship_to_witness": "neighbor",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "66 francs",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "quarrel between wives, fine extracted",
+      "time_between_quarrel_and_harm": "2 months later",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "two oxen of Jean Mengin",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "animal_death",
+      "animal_type": "ox",
+      "animal_count": 2,
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "dissatisfied exchange that Jean would not reverse",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Colatte femme Mengeon Dieudonné",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "could not keep any food down",
+      "attributed_to": "Mengeon Clement Thiriat (after accusation)",
+      "method_alleged": "dried pears from accused",
+      "time_between_quarrel_and_harm": "14 months before",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "Romary Laurent",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "languished for a year, curé said infailliblement bewitched",
+      "witness_number": 28
+    },
+    {
+      "victim_name": "horse of Barthelemy le Duc",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "harm_description": "fell and injured itself so badly had to be killed",
+      "attributed_to": "Mengeon Clement Thiriat",
+      "precipitating_quarrel": "debt dispute",
+      "time_between_quarrel_and_harm": "after meeting on road",
+      "witness_number": 35
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "magical paper with characters",
+      "context": "Paper with Greek word composed of seven brevets interlaced with 'a' and 'g', claimed to protect from sword blows, harquebuses, drowning",
+      "category": "magical"
+    },
+    {
+      "object": "dried pears",
+      "context": "Food given by accused that allegedly caused illness in multiple witnesses",
+      "category": "food"
+    },
+    {
+      "object": "tart",
+      "context": "Brought to sick Georgeote by Mengeon",
+      "category": "food"
+    },
+    {
+      "object": "picquate ou compote",
+      "context": "Sent by Mengeon to Nicolas Marteau which cured him after illness from dried pears",
+      "category": "food"
+    },
+    {
+      "object": "reliquary of St Hubert",
+      "context": "Held by monk from Autrey and by Mengeon during exorcism",
+      "category": "religious"
+    },
+    {
+      "object": "chapelet",
+      "context": "Blessed and touched foot of St Claude, placed on Georgette during possession",
+      "category": "religious"
+    },
+    {
+      "object": "nuts",
+      "context": "Servant sent to fetch from accused's house",
+      "category": "food"
+    },
+    {
+      "object": "oats",
+      "context": "Collected as due to seigneur",
+      "category": "agricultural"
+    },
+    {
+      "object": "ironwork from cart",
+      "context": "Allegedly stolen by Curien Ganiche",
+      "category": "tools"
+    },
+    {
+      "object": "busche (log)",
+      "context": "Given as sign of satisfaction in legal settlement",
+      "category": "other"
+    },
+    {
+      "object": "harquebuse (gun)",
+      "context": "Burst when Jean Mengin fired at hare",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Grandvillers",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Bruyères",
+      "place_type": "village",
+      "context": "Where prévôt conducted trial, location of taverns and officials"
+    },
+    {
+      "place_name": "Autrey",
+      "place_type": "village",
+      "context": "Location of St Hubert shrine where witnesses made offerings; monk from here brought relics"
+    },
+    {
+      "place_name": "Mirecourt",
+      "place_type": "village",
+      "context": "Location where Noel Gerardin pursued case, met officials"
+    },
+    {
+      "place_name": "Remiremont",
+      "place_type": "village",
+      "context": "Location of église St Pierre and Catherine Damas; where Gerardin traveled"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy court that approved torture"
+    },
+    {
+      "place_name": "Ramberviller",
+      "place_type": "village",
+      "context": "Where Georgeotte femme Mongeon le Roy allegedly caught stealing"
+    },
+    {
+      "place_name": "Pierrepont",
+      "place_type": "village",
+      "context": "Location of some witnesses"
+    },
+    {
+      "place_name": "Domfaing",
+      "place_type": "village",
+      "context": "Location of witness 29"
+    },
+    {
+      "place_name": "Cugniecourt",
+      "place_type": "village",
+      "context": "Where accused's nephew was placed and died"
+    },
+    {
+      "place_name": "Mortagne",
+      "place_type": "village",
+      "context": "Location of wedding attended by witness 26"
+    },
+    {
+      "place_name": "Nonzeville",
+      "place_type": "village",
+      "context": "Mentioned in context of accused's boasts about women"
+    },
+    {
+      "place_name": "St Idoult",
+      "place_type": "church",
+      "context": "Where Georgeon Raimbault was taken"
+    },
+    {
+      "place_name": "Vimenil",
+      "place_type": "village",
+      "context": "Location of fête 30 years earlier"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "Journey destination mentioned by accused"
+    },
+    {
+      "place_name": "Dompierre",
+      "place_type": "village",
+      "context": "Where Demenge Pierre met Gerardin"
+    },
+    {
+      "place_name": "meadow",
+      "place_type": "field",
+      "context": "Shared meadow where animals pastured, source of disputes"
+    },
+    {
+      "place_name": "poisle",
+      "place_type": "other",
+      "context": "Location of quarrel between wives"
+    },
+    {
+      "place_name": "woodland",
+      "place_type": "forest",
+      "context": "Communal assembly discussion about keeping pigs"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Multiple animal losses causing economic distress",
+      "Debt disputes",
+      "Property confiscation concerns",
+      "Accused transferred goods to son to avoid confiscation"
+    ],
+    "religious_calendar_references": [
+      "St Jean",
+      "haymaking time",
+      "Christmas"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "prévôt of Bruyères",
+        "role": "prevot",
+        "location": "Bruyères"
+      },
+      {
+        "name": "PG des Vosges (Procureur Général)",
+        "role": "prosecutor_pg",
+        "location": "Vosges"
+      },
+      {
+        "name": "Noel Girardin",
+        "role": "mayor",
+        "location": "Grandvillers"
+      },
+      {
+        "name": "Duchess Nicole",
+        "role": "other",
+        "location": "ducal court"
+      },
+      {
+        "name": "Duke Charles",
+        "role": "other",
+        "location": "ducal court"
+      },
+      {
+        "name": "Catherine Damas",
+        "role": "other",
+        "location": "Remiremont"
+      },
+      {
+        "name": "Nicolas Valot",
+        "role": "notary",
+        "location": "Bruyères"
+      },
+      {
+        "name": "Demenge Pierre",
+        "role": "notary",
+        "location": "Bruyères"
+      },
+      {
+        "name": "Claudon Anthoine",
+        "role": "clerc_jure",
+        "location": "PG des Vosges office"
+      },
+      {
+        "name": "Sr Gaulthier",
+        "role": "other",
+        "location": "substitut for PG"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Nicolas Marteau swore falsely as banyard that accused had cut unmarked tree, causing fine",
+        "outcome": "Accused had to pay fine"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Georgeote femme Mongeon le Roy called wife of accused 'meschante femme'",
+        "outcome": "Settled with payment of 'une busche'"
+      },
+      {
+        "dispute_type": "assault",
+        "description": "Bartremin le Duc killed Jacot Toussainct with 'coup de buche'",
+        "outcome": "Obtained remission from duke"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Requested in petition to Duchess Nicole to know names of denouncers to seek reparation and damages; granted surseance for 15 days but ultimately trial proceeded",
+    "imprisonment_conditions": "Initially in prison, then transferred to higher room in chateau due to age, weakness, and ulcer on back",
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 22,
+    "hearsay_chains": [
+      {
+        "reporter": "Mongeon Laurent (witness 1)",
+        "source": "Jean Michel's wife",
+        "content": "Mengeon had threatened 'de luy faire mouiller ses yeux'"
+      },
+      {
+        "reporter": "Georgeote femme Mongeon Laurent (witness 2)",
+        "source": "Nicolas Mareschal",
+        "content": "Threat about making soup"
+      },
+      {
+        "reporter": "Helenne femme Claudon Thomas (witness 9)",
+        "source": "Georgeon Raimbault",
+        "content": "Warning against Mongeon as bad man"
+      },
+      {
+        "reporter": "Claudate femme Claudon Jobert (witness 10)",
+        "source": "Georgeon Raimbault",
+        "content": "Warning against Mengeon, said he pretended to go to church and went hunting"
+      },
+      {
+        "reporter": "Florent Goery (witness 18)",
+        "source": "some",
+        "content": "Alleged Mengeon caused death of brother and son to get property"
+      },
+      {
+        "reporter": "Claudon Thomas (witness 19)",
+        "source": "Toussaint le Roy",
+        "content": "Warning 18 years earlier against Mengeon"
+      },
+      {
+        "reporter": "Claudon Thomas (witness 19)",
+        "source": "Georgeon Raimbault",
+        "content": "Warning and story of attempted strangling"
+      },
+      {
+        "reporter": "Claudon Thomas (witness 19)",
+        "source": "Florentin Coitoux during illness",
+        "content": "Illness caused because refused Mengeon half share in wood"
+      },
+      {
+        "reporter": "Claudon Jobert (witness 25)",
+        "source": "Georgeon Raimbault",
+        "content": "Warning and attempted strangling story"
+      },
+      {
+        "reporter": "Jean Gaspard (witness 37)",
+        "source": "late Anthoine Romary",
+        "content": "Mengeon 'se mesloit de charmer' 30 years earlier"
+      }
+    ],
+    "oldest_accusation_years": 18,
+    "corroboration_groups": [
+      [9, 10, 19, 25],
+      [1, 2],
+      [3, 14]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility",
+      "sought_character_witnesses"
+    ],
+    "emotional_state_notes": [
+      "During torture: invoked Jesus and Mary repeatedly",
+      "During torture: remained defiant, said they were doing him great wrong",
+      "During torture: expressed willingness to endure for God's sake",
+      "Said he would never forget God even if torn to pieces",
+      "Calm and rational in interrogations",
+      "Claimed dishonor from accusations"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 2,
+        "objection": "Alleged she had been caught stealing sack of grain at Ramberviller and had to run from sergents"
+      },
+      {
+        "witness_number": 3,
+        "objection": "Said at time horse died she blamed a servant girl"
+      },
+      {
+        "witness_number": 9,
+        "objection": "Said child died of smallpox as many knew"
+      },
+      {
+        "witness_number": 17,
+        "objection": "Claimed Jean Mengin threatened to cost him 100 écus because wouldn't help obtain late father-in-law's goods cheaply"
+      },
+      {
+        "witness_number": 19,
+        "objection": "Said Claudon Thomas wished him ill since he told him he was son of man who had been banished; one of 3 or 4 who conspired against him"
+      },
+      {
+        "witness_number": 21,
+        "objection": "Said Nicolas Marteau was known thief and had altered boundaries"
+      },
+      {
+        "witness_number": 29,
+        "objection": "Accused Claudette Jacotte of stealing linen and flax"
+      },
+      {
+        "witness_number": 36,
+        "objection": "Said Jean Duc was poor and regularly went begging, not valid witness"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Clement (son of accused)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son, current maire",
+      "context": "Held office of maire that accused was lieutenant to"
+    },
+    {
+      "name": "Jean (son of accused, possibly same as above)",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "context": "Showed magical paper to witnesses"
+    },
+    {
+      "name": "Georgeon Raimbault",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "father-in-law",
+      "context": "Warned multiple witnesses against Mengeon, said he was bad man and tried to strangle him"
+    },
+    {
+      "name": "Nicolas Hellet",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father-in-law of accused's son",
+      "context": "Gave accused magical paper; angry about dowry dispute"
+    },
+    {
+      "name": "Florentin Coitoux",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "brother-in-law (of Noel Gerardin)",
+      "context": "Died after year-long illness, suspected Mengeon caused it"
+    },
+    {
+      "name": "Georgette/Georgeote daughter of Florentin Coitoux",
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor, niece of maire Gerardin",
+      "context": "Suffered possession, exorcised by monk, vomited strange objects"
+    },
+    {
+      "name": "Romary le Roy",
+      "role_in_narrative": "victim",
+      "context": "Also exorcised, died"
+    },
+    {
+      "name": "Messire Adam (monk)",
+      "role_in_narrative": "other",
+      "context": "Performed exorcisms from Autrey"
+    },
+    {
+      "name": "Sr N. Paris of Mirecourt",
+      "role_in_narrative": "other",
+      "context": "Originally gave magical paper to Nicolas Hellet"
+    },
+    {
+      "name": "Nicolas brother of accused",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "context": "Died 14 years earlier with his son, rumored Mengeon caused to get inheritance"
+    },
+    {
+      "name": "Toussaint le Roy",
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "husband of witness 6",
+      "context": "Warned witnesses against Mengeon 18 years earlier, ill for 10 years before death"
+    },
+    {
+      "name": "Claudon Bertiquet",
+      "role_in_narrative": "hearsay_source",
+      "context": "Told accused that witch could put demons in someone's body, read in life of St Claude"
+    },
+    {
+      "name": "Didier Hellet",
+      "role_in_narrative": "hearsay_source",
+      "context": "Said about death of Mengeon's brother and nephew 'qu'il y avoit un nid par la dedans'"
+    },
+    {
+      "name": "Anthoine Romary",
+      "role_in_narrative": "hearsay_source",
+      "context": "Said 30 years earlier Mengeon 'se mesloit de charmer'"
+    },
+    {
+      "name": "Jean Michel's wife",
+      "role_in_narrative": "hearsay_source",
+      "context": "Told witness 1 about Mengeon's threat"
+    },
+    {
+      "name": "Nicolas Mareschal",
+      "role_in_narrative": "hearsay_source",
+      "context": "Reported threat about soup"
+    },
+    {
+      "name": "curé 6 leagues away",
+      "role_in_narrative": "other",
+      "context": "Told witness 28 her husband was bewitched"
+    },
+    {
+      "name": "Bartremin le Duc",
+      "role_in_narrative": "community_member",
+      "context": "Killed Jacot Toussainct, obtained ducal remission"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Exceptionally detailed trial record with 37+ witnesses over 127 days. Accused was a prominent local official (maire/lieutenant) aged ~70 who vigorously defended himself, challenged witness credibility, and brought 38 defense witnesses. He was tortured but did not confess, maintaining his innocence throughout with strong religious invocations. Released after PG consented to renvoyé. Key features: (1) Social status of accused as official; (2) Evidence of 'secret denouncer' Noel Gerardin organizing witnesses; (3) Extensive legal maneuvering including appeals to Duchess and Duke; (4) Property transfer before trial to avoid confiscation; (5) Accusations centered on animal deaths, threats, reputation, and possession of magical charm; (6) Multiple warnings from deceased father-in-law Georgeon Raimbault; (7) Pattern of veiled threats followed by harms; (8) Dried pears as method of harm; (9) Exorcism incidents; (10) 18-year reputation. Trial costs: 59 francs.",
+    "pdf_pages": 16
+  }
+}

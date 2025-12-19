@@ -1,0 +1,886 @@
+{
+  "trial_id": "w101",
+  "archive_ref": "B 5344 no 4",
+  "location": "Amange (Insming)",
+  "court": "Change de Nancy",
+  "dates": {
+    "start": "1608-11-12",
+    "end": "1609-01-31",
+    "duration_days": 80
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Synnelle femme Schur Adam",
+      "gender": "female",
+      "age": 46,
+      "age_approximate": true,
+      "occupation": [
+        "healer",
+        "butter maker"
+      ],
+      "origin": "Fribourg",
+      "residence": "Amange (Insming)",
+      "marital_status": "married",
+      "spouse_name": "Schnur Adam",
+      "parents": {
+        "father": "Laurent Andreu (laboureur)",
+        "mother": "Odille"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Sybille femme Stoffel Marchal",
+      "gender": "female",
+      "age": 30,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Mathis Schwab",
+      "gender": "male",
+      "age": 62,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Stoffel Marchal",
+      "gender": "male",
+      "age": 30,
+      "location": "Amange (Insming)",
+      "relationship_to_accused": "husband of witness 1",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Luc Reise",
+      "gender": "male",
+      "age": 50,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self (stomach pains)",
+            "target_relationship": "self",
+            "attributed_to": "Synnelle femme Schur Adam"
+          },
+          {
+            "type": "human_illness",
+            "target": "wife (pains, difficulty walking)",
+            "target_relationship": "wife",
+            "attributed_to": "Synnelle femme Schur Adam"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Synnelle femme Gaspar Cherrier",
+      "gender": "female",
+      "age": 32,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Estienne Schwab",
+      "gender": "male",
+      "age": 40,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jean Cordonnier",
+      "gender": "male",
+      "age": 40,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Nicolas Pescheur",
+      "gender": "male",
+      "age": 48,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "Guillaume Thomas",
+      "gender": "male",
+      "age": 40,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Cailla",
+      "gender": "male",
+      "age": 28,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 11,
+      "name": "Synnelle femme Nicolas Pescheur",
+      "gender": "female",
+      "age": 40,
+      "location": "Amange (Insming)",
+      "relationship_to_accused": "wife of witness 8",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Bingel femme Luc Reise",
+      "gender": "female",
+      "age": 40,
+      "location": "Amange (Insming)",
+      "relationship_to_accused": "wife of witness 4",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self (illness)",
+            "target_relationship": "self",
+            "attributed_to": "Synnelle femme Schur Adam"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Fritsche Cordonnier",
+      "gender": "male",
+      "age": 29,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Simon Barbier",
+      "gender": "male",
+      "age": 40,
+      "occupation": "bangard (field guard)",
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 15,
+      "name": "Clement Thiebault",
+      "gender": "male",
+      "age": 50,
+      "occupation": "paticier",
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to treat his sick cow",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": true,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "own animal",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "attributed_to": "Synnelle femme Schur Adam"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Dimenche Welsche",
+      "gender": "male",
+      "age": 40,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Cousturier",
+      "gender": "male",
+      "age": 24,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Nicolas Leuffer",
+      "gender": "male",
+      "age": 28,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jehanne femme François Oudat",
+      "gender": "female",
+      "age": 23,
+      "location": "Amange (Insming)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1608-11-12",
+      "event": "informations_preparatoires",
+      "subject": "Synnelle femme Schur Adam",
+      "details": "19 witnesses deposed regarding reputation and healing activities"
+    },
+    {
+      "date": "1608-11-29",
+      "event": "other",
+      "subject": "C.M. Rémy (prosecutor)",
+      "details": "Rémy requests arrest, interrogation, and confrontations"
+    },
+    {
+      "date": "1608-12-08",
+      "event": "other",
+      "subject": "Court at Dieuze",
+      "details": "Court approves arrest and interrogation"
+    },
+    {
+      "date": "1608-12-12",
+      "event": "interrogation",
+      "subject": "Synnelle femme Schur Adam",
+      "details": "First interrogation; denied being a witch, admitted to healing with prayers"
+    },
+    {
+      "date": "1608-12-17",
+      "event": "confrontation",
+      "subject": "Synnelle femme Schur Adam",
+      "details": "Confronted with witnesses; no reproaches made, denied all charges"
+    },
+    {
+      "date": "1609-01-14",
+      "event": "torture_requested",
+      "subject": "Synnelle femme Schur Adam",
+      "details": "Rémy requests 'question ordinaire mediocre'; Change de Nancy orders more confrontations and specific questioning about healing methods instead"
+    },
+    {
+      "date": "1609-01-20",
+      "event": "confrontation",
+      "subject": "Synnelle femme Schur Adam",
+      "details": "Further confrontations and detailed interrogation about prayers; revealed specific healing prayers in French"
+    },
+    {
+      "date": "1609-01-28",
+      "event": "other",
+      "subject": "Change de Nancy",
+      "details": "Court orders she be shown instruments of torture; if no confession, to be released with warning"
+    },
+    {
+      "date": "1609-01-31",
+      "event": "sentence",
+      "subject": "Synnelle femme Schur Adam",
+      "details": "Released (renvoyée) with warning about future conduct and order not to use prayers again"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "requesting_official": "C.M. Rémy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Change de Nancy ordered showing instruments only; if no confession, to be released"
+  },
+  "accomplices_named": [
+    {
+      "name": "Synnelle femme Hanns Schneider",
+      "location": "Amange (Insming)",
+      "context": "Asked if she had been with this woman at festival or to kill animals; denied this and said Synnelle hated her because she refused to sell her butter",
+      "already_executed": true,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Il alloit un cerf par dessus au traixat, voulant chercher sa pasture, il marcha sur une pierre, il se destourna le nerfve et la jambe, Cerf quel louyer me donnera tu. Je te guarriray beau, nerfve a nerfve, joincture a joincture, chaire a chaire, sang a sang, sy bien et sy beau, aussy plain que la lune, au nom du pere, du fils, et du sainct esprit.",
+      "english": "A stag went across the tract, wanting to find its pasture, it stepped on a stone, it turned its nerve and leg. Stag, what payment will you give me? I will heal you beautifully, nerve to nerve, joint to joint, flesh to flesh, blood to blood, so well and so beautifully, as full as the moon, in the name of the Father, the Son, and the Holy Spirit.",
+      "context": "Prayer for treating 'destorse' (sprains/dislocations); to be followed by 5 paternosters, 5 ave marias, and 5 credos, said before dawn or after sunset"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Saincte Dosane engendra, Saincte Betane, Saincte Betane engendra, Saincte, Saincte Anne engendra nre dame engendra le doux Seigneur Jesus Christ, romp le vecie et tout ce qui est dommageable a la vache, au nom du pere du filz et ut supra",
+      "english": "Saint Dosane begat, Saint Betane, Saint Betane begat, Saint, Saint Anne begat our lady begat the sweet Lord Jesus Christ, break the vecie and all that is harmful to the cow, in the name of the Father, the Son, etc.",
+      "context": "Prayer for healing cows"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Notre dame marchoit par dessus ung passage, la ou elle rencontra le poinct, elle luy dict poinct ou veulx tu aller? au corps de l'homme, que veulx tu faire lescher son sang, decoupper sa chaire, mener sa vie a la mort, Non (poinct) tu ne le feras pas par dela ce bois, il y a trois sources de fontaines, l'une des sources donne du sang, l'autre donne du laict, la troisieme donne de la paix, la dedans il te fault poindre, au nom du pere et ut supra.",
+      "english": "Our Lady walked across a passage, where she met the stitch/pain, she said to it 'stitch, where do you want to go?' to the body of man, what do you want to do? lick his blood, cut his flesh, lead his life to death. No (stitch) you will not do this beyond this wood, there are three fountain sources, one source gives blood, another gives milk, the third gives peace, in there you must sting, in the name of the Father, etc.",
+      "context": "Prayer 'pour les poinctz' (for stitches/pains)"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Feu ardant, il te fault rasseoir, comme le soleil devant la lune, chaleure de cuire, chaleure de froid, chaleure jaune, chaleure d'eau, chaleure de vent, tu te passera, comme l'heure se passa a St Anne, quand elle conceut Marie la mere de Dieu, au nom du pere et du fils et ut supra.",
+      "english": "Burning fire, you must settle down, like the sun before the moon, heat of cooking, heat of cold, yellow heat, heat of water, heat of wind, you will pass, as the hour passed for St. Anne when she conceived Mary the mother of God, in the name of the Father and the Son, etc.",
+      "context": "Prayer 'pour le feu, qui se mect ez playes' (for fire/inflammation in wounds)"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Sainctes trois lances, regardéz l'appostume qu'elle n'enfle, non plus que Jesus ne desira poinct d'aultre porteresse d'enfant que Marie, au nom du pere du fils et ut supra.",
+      "english": "Holy three lances, look at the abscess that it not swell, no more than Jesus desired any other bearer of child than Mary, in the name of the Father, the Son, etc.",
+      "context": "Prayer for swelling (enflure)"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Notre dame s'en alloit par pays, elle veit funer un feu, elle leva sa saincte droicte main, elle signa la chaleur afin qu'elle ne demange poinct, qu'elle se guarisse aussy net qu'un oeuf, aussy beau que la lune, au nom du pere du filz et ut supra.",
+      "english": "Our Lady went across the country, she saw smoke from a fire, she raised her holy right hand, she signed the heat so that it would not itch, that it would heal as clean as an egg, as beautiful as the moon, in the name of the Father, the Son, etc.",
+      "context": "Prayer for burns (bruslure)"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "Trois sainctes filles alloient par dessus une montagne de hindsche, l'une dicte, ce cheval est affligé de la hindsche, la seconde dict ouy il l'est, la troizieme dict, que le doux seigneur Jesus Christ luy preigne, au nom du pere et ut supra.",
+      "english": "Three holy maidens went over a mountain of hindsche, one said, this horse is afflicted with hindsche, the second said yes it is, the third said, may the sweet Lord Jesus Christ take it from him, in the name of the Father, etc.",
+      "context": "Prayer for a sickness of horses called 'hindsche' in German"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam (about witness Schuin Hanns)",
+      "french": null,
+      "english": "He had fled because he was a thief who stole barley, and would have risked corporal punishment otherwise",
+      "context": "Defense against testimony of Schuin Hanns who claimed to have seen the devil when following her instructions for collecting May dew"
+    },
+    {
+      "speaker": "Synnelle femme Schur Adam",
+      "french": "querir la rosée de May et qu'elle en auroit assé",
+      "english": "fetch/collect the May dew and she would have enough [butter]",
+      "context": "Advice allegedly given about obtaining more butter (from witness 3 testimony)"
+    },
+    {
+      "speaker": "Village nickname for Synnelle",
+      "french": "la faiseuse de beure",
+      "english": "the butter maker",
+      "context": "Nickname used in the village for Synnelle (from witness 7 testimony)"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Synnelle femme Schur Adam",
+      "person2": "Schnur Adam",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had married Schnur Adam at Fribourg and lived with him ever since",
+      "inferred": false
+    },
+    {
+      "person1": "Laurent Andreu",
+      "person2": "Synnelle femme Schur Adam",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "parents had been Laurent Andreu, laboureur, and his wife Odille",
+      "inferred": false
+    },
+    {
+      "person1": "Odille",
+      "person2": "Synnelle femme Schur Adam",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "parents had been Laurent Andreu, laboureur, and his wife Odille",
+      "inferred": false
+    },
+    {
+      "person1": "Sybille femme Stoffel Marchal",
+      "person2": "Stoffel Marchal",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Witness 1 is Sybille femme Stoffel Marchal; Witness 3 is Stoffel Marchal",
+      "inferred": false
+    },
+    {
+      "person1": "Bingel femme Luc Reise",
+      "person2": "Luc Reise",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Witness 4 is Luc Reise; Witness 12 is Bingel femme Luc Reise",
+      "inferred": false
+    },
+    {
+      "person1": "Synnelle femme Nicolas Pescheur",
+      "person2": "Nicolas Pescheur",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Witness 8 is Nicolas Pescheur; Witness 11 is Synnelle femme Nicolas Pescheur",
+      "inferred": false
+    },
+    {
+      "person1": "Synnelle femme Gaspar Cherrier",
+      "person2": "Gaspar Cherrier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Witness 5 is Synnelle femme Gaspar Cherrier",
+      "inferred": false
+    },
+    {
+      "person1": "Jehanne femme François Oudat",
+      "person2": "François Oudat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Witness 19 is Jehanne femme François Oudat",
+      "inferred": false
+    },
+    {
+      "person1": "Synnelle femme Schur Adam",
+      "person2": "Luc Reise",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Luc Reise sought help from accused for stomach pains and wife's illness; she cured them",
+      "inferred": false
+    },
+    {
+      "person1": "Synnelle femme Schur Adam",
+      "person2": "Bingel femme Luc Reise",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Synnelle cured Bingel's illness with prayers",
+      "inferred": false
+    },
+    {
+      "person1": "Synnelle femme Schur Adam",
+      "person2": "Clement Thiebault",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had asked her to treat sick cow; called her witch when refused; came to settlement before prévôt",
+      "inferred": false
+    },
+    {
+      "person1": "Synnelle femme Schur Adam",
+      "person2": "Elisabet femme Barthelemin Cousturier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Elisabet told Synnelle about her father finding a tresse des cheveulx (hair braid)",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Central economic theme: extraordinary butter production. Multiple witnesses testified that Synnelle produced more butter from one cow than neighbors produced from 4-6 cows. She explained this by careful milk/cream management in a specially prepared barrel. Sold butter to help support household. Economic rivalry and jealousy apparent - Synnelle said Synnelle femme Hanns Schneider 'hated her because she had refused to sell her butter.' The butter-making success appears to have generated both reputation and resentment."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Luc Reise",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "stomach pains",
+      "attributed_to": "Synnelle femme Schur Adam",
+      "method_alleged": "healed by accused with prayers",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "wife of Luc Reise",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "pains so severe she could hardly walk",
+      "attributed_to": "Synnelle femme Schur Adam",
+      "method_alleged": "healed by accused with prayers",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Bingel femme Luc Reise",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "illness (unspecified)",
+      "attributed_to": "Synnelle femme Schur Adam",
+      "method_alleged": "healed by accused with good prayers",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "cow belonging to Clement Thiebault",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "sick cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Synnelle femme Schur Adam",
+      "precipitating_quarrel": "asked her to treat sick cow and she refused",
+      "witness_number": 15
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "une tresse a lier les cheveulx (hair braid for tying hair)",
+      "context": "Found in fields by Elisabet's father; was 'pleine de neux' (full of knots); hidden in a hole; while hidden, Synnelle had abundant butter, but once removed had hardly any. Magical object associated with butter production.",
+      "category": "magical"
+    },
+    {
+      "object": "barrel (specially prepared)",
+      "context": "Synnelle claimed she mixed milk and cream without warming them in a specially prepared barrel to get more butter",
+      "category": "household"
+    },
+    {
+      "object": "butter",
+      "context": "Central to the case - Synnelle produced extraordinary amounts from one cow; sold it to help them live; known as 'la faiseuse de beure' (the butter maker)",
+      "category": "food"
+    },
+    {
+      "object": "milk and cream",
+      "context": "Managed carefully to maximize butter production",
+      "category": "food"
+    },
+    {
+      "object": "cheese",
+      "context": "Story about getting more cheese from one cow than others did from four",
+      "category": "food"
+    },
+    {
+      "object": "cloth",
+      "context": "Used to collect May dew in the ritual for obtaining milk and butter from animals; Schuin Hanns told to go out before dawn on first of May with a cloth to collect dew on 3 meadows",
+      "category": "household"
+    },
+    {
+      "object": "chopine (liquid measure)",
+      "context": "Witness 16 reported husband said Synnelle had only one chopine of milk a day but at end of week would have a chopine of butter, as much as those with three times as much milk",
+      "category": "household"
+    },
+    {
+      "object": "ointments",
+      "context": "Used to treat burns along with prayers",
+      "category": "magical"
+    },
+    {
+      "object": "barley",
+      "context": "Synnelle claimed Schuin Hanns fled because he was a thief who stole barley",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Amange (Insming)",
+      "place_type": "village",
+      "context": "Location of the trial and residence of accused"
+    },
+    {
+      "place_name": "Fribourg",
+      "place_type": "village",
+      "context": "Birthplace and origin of Synnelle; where she married Schnur Adam"
+    },
+    {
+      "place_name": "Dieuze",
+      "place_type": "village",
+      "context": "Location of court that approved arrest and interrogation on 8 December 1608"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Location of Change de Nancy (appellate court) that made final decisions in the case"
+    },
+    {
+      "place_name": "meadow (for May dew collection)",
+      "place_type": "field",
+      "context": "Location where people allegedly encountered the devil when trying to collect May dew following Synnelle's instructions; Schuin Hanns told to collect dew on 3 meadows where there were the most animals"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where Elisabet's father found the magical hair braid (tresse a lier les cheveulx)"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Synnelle sold butter to help them live (economic necessity)",
+      "Economic jealousy over butter production evident in testimonies"
+    ],
+    "religious_calendar_references": [
+      "First of May - significant date for May dew collection ritual",
+      "St. Anne - referenced in healing prayers",
+      "Virgin Mary/Our Lady - referenced extensively in healing prayers",
+      "Jesus Christ - referenced in healing prayers"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": "Dieuze/Nancy region"
+      },
+      {
+        "name": "prévôt (unnamed)",
+        "role": "prevot",
+        "location": "Amange (Insming)"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Clement Thiebault called her witch when she refused to treat his sick cow",
+        "outcome": "Came to settlement before prévôt (resolved locally)"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Settlement reached before prévôt regarding Clement Thiebault calling her a witch",
+    "imprisonment_conditions": null,
+    "appeal_to_change_de_nancy": true,
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 4,
+    "hearsay_testimony_count": 15,
+    "hearsay_chains": [
+      {
+        "reporter": "Stoffel Marchal (witness 3)",
+        "source": "a woman who no longer lived there",
+        "content": "Her husband told her off for not getting as much butter as Synnelle; Synnelle told her about May dew; when she and husband went to meadow they found the devil"
+      },
+      {
+        "reporter": "Jean Cordonnier (witness 7)",
+        "source": "Synnelle femme Schur Adam (the accused)",
+        "content": "Her father had found a hair braid in fields full of knots; as long as hidden she had abundant butter"
+      },
+      {
+        "reporter": "Synnelle femme Nicolas Pescheur (witness 11)",
+        "source": "Schuin Hanns",
+        "content": "Asked how she made more butter; she would teach him 'la science'; instructions about May dew collection; saw black man/devil"
+      },
+      {
+        "reporter": "Fritsche Cordonnier (witness 13)",
+        "source": "unspecified (hearsay)",
+        "content": "Story about Schuin Hanns seeing the devil"
+      },
+      {
+        "reporter": "Dimenche Welsche (witness 16)",
+        "source": "Synnelle's husband (Schnur Adam)",
+        "content": "Although she only had one chopine of milk a day, at end of week would have chopine of butter"
+      }
+    ],
+    "oldest_accusation_years": 6,
+    "corroboration_groups": [
+      [2, 4, 5, 6, 8, 10],
+      [3, 11, 13],
+      [1, 2, 7, 9, 17, 18, 19]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Consistently denied being a witch throughout interrogations",
+      "Provided detailed explanations of healing methods when pressed",
+      "No reproaches to witnesses during confrontations"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 11,
+        "objection": "Said that Schuin Hanns (source for witness 11's testimony) had fled because he was a thief who stole barley, and would have risked corporal punishment otherwise - thus challenging his credibility"
+      },
+      {
+        "witness_number": 0,
+        "objection": "Said Synnelle femme Hanns Schneider (already executed) hated her because she had refused to sell her butter - explaining animosity"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Schuin Hanns",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "community member who allegedly asked about butter-making secrets",
+      "context": "Currently absent during trial. Allegedly asked Synnelle how she made more butter; she offered to teach him 'la science' by collecting May dew; he saw a black man/devil and fled. Synnelle accused him of being a thief who stole barley and fled to avoid corporal punishment.",
+      "relationship_to_witness": "source for witness 11 (Synnelle femme Nicolas Pescheur) and witness 13 (Fritsche Cordonnier)"
+    },
+    {
+      "name": "Synnelle femme Hanns Schneider",
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "another witch, already executed; Synnelle claimed she hated her over butter sale refusal",
+      "context": "Already executed for witchcraft. Asked if Synnelle had been with her at festival or to kill animals. Synnelle denied and said this woman hated her because she refused to sell her butter."
+    },
+    {
+      "name": "Elisabet femme Barthelemin Cousturier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor/acquaintance who told story about magical hair braid",
+      "context": "Told Synnelle about her father finding a hair braid (tresse des cheveulx) in fields that was full of knots and could be hidden in a hole to produce abundant butter"
+    },
+    {
+      "name": "Laurent Andreu",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "Father of Synnelle; was a laboureur (farmer); from Fribourg"
+    },
+    {
+      "name": "Odille",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "Mother of Synnelle; from Fribourg"
+    },
+    {
+      "name": "Schnur Adam",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "context": "Married Synnelle at Fribourg; lived with her ever since. According to witness 16, he told people about her extraordinary butter production."
+    },
+    {
+      "name": "woman who no longer lived there (unnamed)",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "former community member",
+      "context": "Her husband criticized her for not getting as much butter as Synnelle; allegedly told by Synnelle to collect May dew; she and husband encountered the devil in the meadow and fled"
+    },
+    {
+      "name": "wife of Schuin Hanns",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "community member",
+      "context": "Her husband told her he had seen the devil and if he had taken the dew he would have learned witchcraft"
+    },
+    {
+      "name": "Barthelemin Cousturier",
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "community member",
+      "relationship_to_witness": "husband of Elisabet",
+      "context": "Husband of Elisabet who told the story about the magical hair braid"
+    },
+    {
+      "name": "father of Elisabet femme Barthelemin Cousturier",
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "indirect (through Elisabet)",
+      "context": "Allegedly found the magical hair braid (tresse a lier les cheveulx) in fields that was full of knots"
+    },
+    {
+      "name": "unnamed woman (now dead)",
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "teacher of healing prayers",
+      "context": "Woman from whom Synnelle learned the healing prayers; now dead. Synnelle noted prayers rhymed better in German than French since she was German."
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-15",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "This is a remarkable case of a healer accused of witchcraft who was ultimately released. The trial centers on Synnelle's reputation for extraordinary butter production (producing more from one cow than neighbors from 4-6 cows) and her healing practices using prayers. Key features: (1) No physical harms alleged - only healing activities; (2) Multiple hearsay testimonies about May dew collection rituals and encountering the devil; (3) Detailed documentation of healing prayers in French, which Synnelle said worked better in German; (4) Change de Nancy (appellate court) intervened to prevent torture and ordered release; (5) Legal dispute history shows Synnelle previously sought redress when called a witch by Clement Thiebault. The case demonstrates how healing activities and economic success (butter production) could generate witchcraft suspicions, but also shows judicial restraint - the court was interested in her methods and ultimately released her with a warning not to use the prayers again. The prayers themselves are fascinating blends of Christian invocations with folk healing formulae.",
+    "pdf_pages": 4
+  }
+}
