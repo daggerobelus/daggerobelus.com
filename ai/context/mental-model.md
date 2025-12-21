@@ -2,60 +2,21 @@
 
 ## Site Identity
 
-**Name Origin:** "Daggerobelus" references typographical symbols—the dagger (†) and obelus (÷)—marks traditionally used by scribes and editors to annotate texts, flag questionable passages, or indicate critical apparatus. This connects to the site's focus on textual analysis and digital humanities work on historical documents.
+**Name Origin:** "Daggerobelus" references typographical symbols—the dagger (†) and obelus (÷)—marks traditionally used by scribes and editors to annotate texts, flag questionable passages, or indicate critical apparatus.
 
-**Purpose:** Academic work showcase, primarily supporting coursework in English/Digital Humanities.
-
-**Audience:** Academic peers—historians, digital humanities scholars, researchers.
+**What it is:** A personal site featuring in-depth explorations of interesting topics, powered by NLP, data analysis, and interactive visualizations.
 
 ---
 
-## Owner Context
-
-- **Field:** English / Digital Humanities
-- **Approach:** Computational methods applied to historical texts and archives
-- **Current focus:** Course projects with potential to expand
-
----
-
-## Active Projects
-
-### Witchcraft (Lorraine Witch Trials)
-
-**Source:** 368 digitized trial records from the Lorraine region (16th-17th century France)—one of Europe's richest witch trial archives.
-
-**Status:** Course project, 157 trials extracted (42.7% complete)
-
-**Research Questions:**
-1. **Social network dynamics** — How did accusations spread through communities? Who were the "super-witnesses" and brokers?
-2. **Gender and power** — Who was accused and why? What patterns emerge in targeting?
-3. **Legal/procedural history** — How did trials function? What determined outcomes (death vs. survival)?
-
-**Methods:**
-- NLP extraction from PDFs to structured JSON
-- Entity resolution and relationship mapping
-- Social network analysis (centrality, clustering, temporal evolution)
-- Statistical modeling (logistic regression, ERGM)
-- Contagion/cascade modeling
-
-**Key Outputs:**
-- Network graphs (GraphML)
-- Interactive dashboard
-- Publication-ready figures
-- Derived datasets (CSV)
-
----
-
-## Site Architecture
+## Repository Structure
 
 ```
-daggerobelus.com/
-├── site/                 # Astro frontend
+/
+├── site/                 # daggerobelus.com (Astro + Semantic UI web components)
 │   ├── public/projects/  # Symlinked project assets
 │   └── src/content/      # Symlinked content files
-├── projects/             # Data analysis projects
-│   ├── TEMPLATE.md       # Reusable structure for new corpora
-│   └── witchcraft/       # Active project
+├── projects/             # Individual projects (research, data, analysis)
+│   └── witchcraft/       # Lorraine witch trials analysis
 └── ai/                   # AI collaboration context
     ├── context/          # Mental models, project understanding
     ├── plans/            # Implementation plans
@@ -64,28 +25,28 @@ daggerobelus.com/
 
 ---
 
+## Projects
+
+Each project in `/projects/` is self-contained with its own data, analysis pipelines, and outputs.
+
+### witchcraft
+Analysis of the Lorraine witch trials archive—social network dynamics, trial outcomes, and historical patterns. See `/projects/witchcraft/docs/CLAUDE.md` for details.
+
+---
+
 ## Design Principles
 
 1. **Reproducibility** — Clear separation of raw data → processing → outputs
-2. **Modularity** — Each corpus follows the same template structure
+2. **Modularity** — Each project follows a consistent structure
 3. **Integration** — Public outputs symlinked to site for seamless publishing
 4. **Documentation** — Each project self-documents its provenance and methods
 
 ---
 
-## Future Directions
+## Technical Approach
 
-- Additional historical corpora (TBD)
-- Expanding extraction coverage (remaining 211 trials)
-- Refining network analysis methods
-- Building out site with project pages and visualizations
-
----
-
-## Working Style Notes
-
-- Prefers plain folder names over numbered prefixes
-- Values clean, reproducible data pipelines
-- Academic audience = careful sourcing and methodology
-- Comfortable with Python, data analysis tools
-- New to some git/dev workflows (learning as we go)
+Projects may incorporate:
+- NLP entity extraction and relationship mapping
+- Network analysis and graph visualizations
+- Statistical modeling and predictive analysis
+- Interactive data explorations
