@@ -30,7 +30,7 @@
 Each project in `/projects/` is self-contained with its own data, analysis pipelines, and outputs.
 
 ### witchcraft
-Analysis of the Lorraine witch trials archive—social network dynamics, trial outcomes, and historical patterns. See `/projects/witchcraft/docs/CLAUDE.md` for details.
+Analysis of the Lorraine witch trials archive—social network dynamics, trial outcomes, and historical patterns. See `/projects/witchcraft/CLAUDE.md` for details.
 
 ---
 
