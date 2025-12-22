@@ -1,0 +1,113 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map(project => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { title, description, publishDate, updatedDate, image, imageAlt, status, tags } = project.data;
+const { Content } = await project.render();
+
+const displayDate = updatedDate || publishDate;
+const dateLabel = updatedDate ? 'Updated' : 'Published';
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <article class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
+    <header class="max-w-3xl mb-12">
+      <div class="flex items-center gap-4 mb-6">
+        {status === 'in-progress' && (
+          <span class="text-xs font-mono uppercase tracking-wider text-ink/50 px-2 py-1 border border-ink/20 rounded">
+            In Progress
+          </span>
+        )}
+        {tags && tags.length > 0 && (
+          <div class="flex gap-2">
+            {tags.map(tag => (
+              <span class="text-xs font-mono text-ink/50">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <h1 class="text-4xl md:text-5xl font-serif leading-tight mb-6">
+        {title}
+      </h1>
+
+      <p class="text-xl text-ink/70 leading-relaxed mb-6">
+        {description}
+      </p>
+
+      <div class="text-sm text-ink/50 font-mono">
+        <span>{dateLabel} {formatDate(displayDate)}</span>
+      </div>
+    </header>
+
+    {image && (
+      <figure class="mb-12 -mx-6 md:mx-0">
+        <img
+          src={image}
+          alt={imageAlt || title}
+          class="w-full object-cover max-h-[500px]"
+        />
+      </figure>
+    )}
+
+    <div class="prose prose-lg max-w-3xl prose-headings:font-serif prose-headings:font-normal prose-a:underline prose-a:decoration-ink/30 hover:prose-a:decoration-ink">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .prose {
+    --tw-prose-body: theme('colors.ink');
+    --tw-prose-headings: theme('colors.ink');
+    --tw-prose-links: theme('colors.ink');
+    color: var(--tw-prose-body);
+  }
+
+  .prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+  }
+
+  .prose h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
+
+  .prose p {
+    margin-bottom: 1.25rem;
+    line-height: 1.75;
+  }
+
+  .prose ul, .prose ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+
+  .prose strong {
+    font-weight: 600;
+  }
+</style>

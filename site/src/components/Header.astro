@@ -1,0 +1,32 @@
+---
+const pathname = Astro.url.pathname;
+
+const navItems = [
+  { href: '/', label: 'Projects' },
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+
+<header class="border-b border-ink/10">
+  <div class="max-w-content mx-auto px-6 md:px-10 py-6 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3 hover:opacity-70 transition-opacity">
+      <img src="/logo-alpha.png" alt="" class="h-8 w-auto" />
+      <span class="text-xl tracking-tight font-medium">daggerobelus</span>
+    </a>
+
+    <nav class="flex items-center gap-8">
+      {navItems.map(({ href, label }) => (
+        <a
+          href={href}
+          class:list={[
+            'text-sm tracking-wide uppercase transition-opacity hover:opacity-70',
+            pathname === href ? 'opacity-100' : 'opacity-60'
+          ]}
+        >
+          {label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>

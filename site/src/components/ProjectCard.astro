@@ -1,0 +1,88 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+  featured?: boolean;
+}
+
+const { project, featured = false } = Astro.props;
+const { title, description, publishDate, updatedDate, image, imageAlt, status, tags } = project.data;
+
+const displayDate = updatedDate || publishDate;
+const dateLabel = updatedDate ? 'Updated' : 'Published';
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+---
+
+<article class:list={[
+  'group',
+  featured ? 'md:grid md:grid-cols-2 md:gap-10 items-start' : ''
+]}>
+  {image && (
+    <a href={`/projects/${project.slug}/`} class="block overflow-hidden mb-6 md:mb-0">
+      <img
+        src={image}
+        alt={imageAlt || title}
+        class:list={[
+          'w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]',
+          featured ? 'aspect-[4/3]' : 'aspect-[16/9]'
+        ]}
+      />
+    </a>
+  )}
+
+  <div class="flex flex-col">
+    {status === 'in-progress' && (
+      <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-3">
+        In Progress
+      </span>
+    )}
+
+    <a href={`/projects/${project.slug}/`} class="group/title">
+      <h2 class:list={[
+        'font-serif leading-tight transition-opacity group-hover/title:opacity-70',
+        featured ? 'text-3xl md:text-4xl' : 'text-2xl'
+      ]}>
+        {title}
+      </h2>
+    </a>
+
+    <p class="mt-4 text-ink/70 leading-relaxed line-clamp-3">
+      {description}
+    </p>
+
+    <div class="mt-6 flex items-center gap-4 text-sm text-ink/50">
+      <time datetime={displayDate.toISOString()} class="font-mono">
+        {formatDate(displayDate)}
+      </time>
+
+      {tags && tags.length > 0 && (
+        <>
+          <span class="opacity-30">·</span>
+          <div class="flex gap-2">
+            {tags.slice(0, 3).map(tag => (
+              <span class="font-mono text-xs">{tag}</span>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+
+    <a
+      href={`/projects/${project.slug}/`}
+      class="mt-6 inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity"
+    >
+      Read more
+      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+  </div>
+</article>

@@ -1,13 +1,55 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+
+const allProjects = await getCollection('projects', ({ data }) => {
+  return data.status !== 'draft';
+});
+
+// Sort by publishDate descending
+const sortedProjects = allProjects.sort((a, b) =>
+  b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+
+// Featured project (first featured one, or first project)
+const featuredProject = sortedProjects.find(p => p.data.featured) || sortedProjects[0];
+const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slug);
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>daggerobelus</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
-</html>
+
+<BaseLayout>
+  <section class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
+    <div class="max-w-3xl mb-16">
+      <h1 class="text-4xl md:text-5xl font-serif leading-tight mb-6">
+        In-depth explorations of interesting topics
+      </h1>
+      <p class="text-lg text-ink/70 leading-relaxed">
+        Data analysis, interactive visualizations, and deep dives into history, literature, and the humanities.
+      </p>
+    </div>
+
+    {featuredProject && (
+      <div class="border-t border-ink/10 pt-12 mb-16">
+        <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">Featured</span>
+        <ProjectCard project={featuredProject} featured />
+      </div>
+    )}
+
+    {otherProjects.length > 0 && (
+      <div class="border-t border-ink/10 pt-12">
+        <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">All Projects</span>
+        <div class="grid gap-12 md:gap-16">
+          {otherProjects.map(project => (
+            <ProjectCard project={project} />
+          ))}
+        </div>
+      </div>
+    )}
+
+    {sortedProjects.length === 0 && (
+      <div class="text-center py-20 text-ink/50">
+        <p>No projects yet. Check back soon.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>
