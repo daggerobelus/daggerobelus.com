@@ -72,4 +72,4 @@ Projects may incorporate:
 ## General Guidelines
 
 - Each project in `/projects/` is self-contained with its own data and analysis
-- Document assumptions and methodology for reproducibility
+- See `/ai/context/project-structure.md` for project folder conventions and site integration
