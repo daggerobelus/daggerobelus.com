@@ -7,3 +7,26 @@
   --font-serif: Georgia, "Times New Roman", serif;
   --font-mono: "SF Mono", Monaco, monospace;
 }
+
+
+#page {
+
+  ul {
+    margin: 1rem 0rem;
+  }
+  li {
+    list-style: disc;
+    margin-left: 1rem;
+  }
+
+  a { 
+    text-decoration: underline;
+    color: #009FDA;
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+  }
+
+
+}

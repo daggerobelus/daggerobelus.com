@@ -22,6 +22,25 @@
       "type": "string",
       "description": "Court that issued final judgment"
     },
+    "language_region": {
+      "type": "string",
+      "enum": ["french", "german", "mixed", "unknown"],
+      "description": "Language region of Lorraine (affects confession content patterns)"
+    },
+    "formal_accuser": {
+      "type": "object",
+      "description": "The partie formelle who initiated the trial",
+      "properties": {
+        "name": {"type": "string"},
+        "person_id": {
+          "type": ["string", "null"],
+          "description": "Canonical person ID (populated during entity resolution)"
+        },
+        "occupation": {"type": "string"},
+        "location": {"type": "string"},
+        "relationship_to_accused": {"type": "string"}
+      }
+    },
     "dates": {
       "type": "object",
       "properties": {
@@ -57,9 +76,30 @@
             "type": "string",
             "description": "Full name as recorded"
           },
+          "person_id": {
+            "type": ["string", "null"],
+            "description": "Canonical person ID (populated during entity resolution)"
+          },
           "gender": {
             "type": "string",
             "enum": ["male", "female", "unknown"]
+          },
+          "economic_status": {
+            "type": "string",
+            "enum": ["destitute", "poor", "middling", "comfortable", "wealthy", "unknown"],
+            "description": "Economic status of accused based on evidence in trial"
+          },
+          "practiced_healing": {
+            "type": "boolean",
+            "description": "Whether accused was known as a healer/cunning person"
+          },
+          "healing_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["herbal_remedies", "touch_healing", "charms_amulets", "divination", "bone_setting", "midwifery", "veterinary", "other"]
+            },
+            "description": "Types of healing/cunning practices mentioned"
           },
           "age": {
             "type": ["integer", "null"],
@@ -177,6 +217,10 @@
           },
           "name": {
             "type": "string"
+          },
+          "person_id": {
+            "type": ["string", "null"],
+            "description": "Canonical person ID (populated during entity resolution)"
           },
           "gender": {
             "type": "string",
@@ -609,7 +653,29 @@
         },
         "redress_outcome": {"type": "string"},
         "imprisonment_conditions": {"type": "string"},
-        "appeal_to_change_de_nancy": {"type": "boolean"},
+        "change_de_nancy": {
+          "type": "object",
+          "description": "Appellate court (Change de Nancy) involvement",
+          "properties": {
+            "consulted": {
+              "type": "boolean",
+              "description": "Whether the Change de Nancy was consulted"
+            },
+            "ruling": {
+              "type": "string",
+              "enum": ["approved", "approved_with_modification", "rejected", "remanded", "unknown"],
+              "description": "What the appellate court decided"
+            },
+            "modification_details": {
+              "type": "string",
+              "description": "If modified, what changes were made (e.g., 'should feel fire before strangling')"
+            },
+            "local_court_followed": {
+              "type": "boolean",
+              "description": "Whether local court followed the Change's ruling"
+            }
+          }
+        },
         "property_confiscation_mentioned": {"type": "boolean"}
       }
     },
@@ -697,6 +763,10 @@
         "type": "object",
         "properties": {
           "name": {"type": "string"},
+          "person_id": {
+            "type": ["string", "null"],
+            "description": "Canonical person ID (populated during entity resolution)"
+          },
           "role_in_narrative": {
             "type": "string",
             "enum": ["victim", "hearsay_source", "prior_accused", "family_member", "community_member", "official", "other"]

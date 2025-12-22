@@ -1,0 +1,863 @@
+{
+  "trial_id": "w073",
+  "archive_ref": "B 4094 no 1",
+  "location": "Essegney",
+  "court": "Prévôté of Charmes",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean de Socourt",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": "prior accuser (later withdrew accusation, see B 4093)"
+  },
+  "dates": {
+    "start": "1607-10-03",
+    "end": "1608-03-11",
+    "duration_days": 160
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Catherine la Rondelatte",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
+      "age": 63,
+      "age_approximate": true,
+      "occupation": ["smallholder", "spinner"],
+      "origin": "Essegney",
+      "residence": "Essegney",
+      "marital_status": "widowed",
+      "spouse_name": "Guillaume Belruy (or Belmy)",
+      "parents": {
+        "father": null,
+        "mother": "Nicolle (also suspected as witch)"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Percy",
+        "devil_appearance": "appeared by round oak in middle of woods",
+        "seduction_date": "10 years before trial (c. 1597-98)",
+        "seduction_context": "Returning from visiting sister Barbon at Magnieres; upset about long widowhood, lack of children, family preventing remarriage",
+        "devil_mark": {
+          "present": true,
+          "location": "armpits and genitals",
+          "description": "lack of body hair, suggested as diabolical/unnatural"
+        },
+        "powder_types": ["killing powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["unspecified"],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jannon veuve Claude Marchal",
+      "person_id": null,
+      "gender": "female",
+      "age": 74,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor, mother-in-law of Jean Grainel",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Son-in-law refused to buy her meadows for Monsieur Terrel",
+        "threat_received": true,
+        "threat_quote": "Je feray tout ce que je pourray",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "four oxen, horses",
+            "target_relationship": "son-in-law's property",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "after threats"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Claudon femme Jean Grainel",
+      "person_id": null,
+      "gender": "female",
+      "age": 39,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Same as mother's deposition",
+        "threat_received": true,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jannon Marchal femme Claudon Maurice",
+      "person_id": null,
+      "gender": "female",
+      "age": 37,
+      "occupation": "salpetrier's wife",
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Chesnon femme Crestaille Gaillard",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband refused to admit accused's daughter to winter poisle",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter aged 12",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "soon after, died in 10 days"
+          },
+          {
+            "type": "animal_death",
+            "target": "sow, cow",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jannon Jannest femme Bastien Adan",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Unpaid/disputed coffre (chest) purchase",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Isabel Famel (orphan lodger)",
+            "target_relationship": "lodger",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "after seeing strange black pig"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Margueritte femme Marin Humbert",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Had forbidden her to frequent their house; threatening remarks to daughter",
+        "threat_received": true,
+        "threat_quote": "threatening remarks to daughter",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "son Humbert aged 19",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "met on way to cart hay, felt chilled, became frantic, died"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 11,
+      "name": "Bastien Prevost",
+      "person_id": null,
+      "gender": "male",
+      "age": 33,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 24,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Father's dispute over threshing money with accused's husband",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "infant sibling in cradle",
+            "target_relationship": "sibling",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "2 days after she said 'voicy un bel infant'"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Laurent Forestier alias Gregoire",
+      "person_id": null,
+      "gender": "male",
+      "age": 75,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Horse sale dispute with sister Jannon; called her witch",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow, two young oxen, another ox",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "after calling her witch"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Poiresson Garat",
+      "person_id": null,
+      "gender": "male",
+      "age": 65,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Wife refused wild pears",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child Barbe in cradle",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "a week after she overlooked child saying 'Voicy un moult bel enfant'"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Pieron Bocatte",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "occupation": null,
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Pan sale dispute - demanded fish at last minute which they never gave",
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "spouse",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "felt animal eating her body, died after 3 year illness"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 25,
+      "name": "Jean Grainel",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": "laboureur, moictrier for Sieur Terrel",
+      "location": "Essegney",
+      "relationship_to_accused": "neighbor, frequent antagonist",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to buy meadow; blamed for animal deaths worth 500 francs",
+        "threat_received": true,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "many animals",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "total value 500 francs"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 35,
+      "name": "Jannon femme Nicolas Masson de Vencey",
+      "person_id": null,
+      "gender": "female",
+      "age": 28,
+      "occupation": null,
+      "location": "Charmes (formerly Essegney)",
+      "relationship_to_accused": "former neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 13,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Called accused's daughter Barbe 'daughter of a witch'",
+        "threat_received": true,
+        "threat_quote": "elle ne mourroit jamais d'autres mains que des siennes",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Catherine la Rondelatte",
+            "time_after_quarrel": "2-3 years later, legs blackened and twisted for 1-2 weeks"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {"date": "1607-10-03", "event": "other", "subject": "9 witnesses", "details": "Statement of 9 witnesses prepared to testify; PG des Vosges orders secret investigation"},
+    {"date": "1607-11-23", "event": "informations_preparatoires", "subject": "Catherine la Rondelatte", "details": "Depositions begin"},
+    {"date": "1607-11-26", "event": "informations_preparatoires", "subject": "Catherine la Rondelatte", "details": "Depositions continue"},
+    {"date": "1608-01-21", "event": "informations_preparatoires", "subject": "Catherine la Rondelatte", "details": "Additional depositions from Poursieux area"},
+    {"date": "1608-02-07", "event": "other", "subject": "PG des Vosges", "details": "Orders arrest and interrogation"},
+    {"date": "1608-02-21", "event": "interrogation", "subject": "Catherine la Rondelatte", "details": "First interrogation - denies charges, unable to cry"},
+    {"date": "1608-02-22", "event": "interrogation", "subject": "Catherine la Rondelatte", "details": "Continued interrogation about beatings"},
+    {"date": "1608-02-23", "event": "interrogation", "subject": "Catherine la Rondelatte", "details": "Shaved, pressed hard; confesses seduction 10 years earlier, killing animals"},
+    {"date": "1608-02-24", "event": "interrogation", "subject": "Catherine la Rondelatte", "details": "Confirms confession; mentions suicidal thoughts"},
+    {"date": "1608-02-27", "event": "torture_requested", "subject": "PG des Vosges", "details": "Asks for question extraordinaire"},
+    {"date": "1608-03-02", "event": "torture_approved", "subject": "Change de Nancy", "details": "Agrees to torture with moderation suitable to her age"},
+    {"date": "1608-03-11", "event": "other", "subject": "Catherine la Rondelatte", "details": "Withdraws accusations against 4 women, maintains la Grande Lucye is witch; executed at stake"}
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["question extraordinaire"],
+    "requesting_official": "PG des Vosges",
+    "approving_court": "Change de Nancy",
+    "restrictions": "with moderation suitable to her age"
+  },
+  "accomplices_named": [
+    {
+      "name": "la Grande Lucye",
+      "person_id": null,
+      "location": "Charmes",
+      "context": "Maintained at sabbat with her; accusation upheld until execution",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la Grande Rousse (la femme Willaume)",
+      "person_id": null,
+      "location": "Charmes",
+      "context": "Initially accused then withdrawn",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "wife of Jacquot Caillel",
+      "person_id": null,
+      "location": "Charmes",
+      "context": "Initially accused then withdrawn",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la Loriade",
+      "person_id": null,
+      "location": "Essegney",
+      "context": "Initially accused then withdrawn",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la femme Le Dez",
+      "person_id": null,
+      "location": "Langley",
+      "context": "Initially accused then withdrawn",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jean de Socourt",
+      "accuser_location": null,
+      "context": "Previous accusation (B 4093), later withdrawn",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Catherine la Rondelatte",
+      "french": "Je dois bien mauldir dieu",
+      "english": "I should curse God",
+      "context": "Blasphemy; explained by saying God had done nothing for her by taking her children"
+    },
+    {
+      "speaker": "Catherine la Rondelatte",
+      "french": "qu'il n'avoit rien faict pour elle d'avoir prins ses enfans",
+      "english": "that he had done nothing for her by taking her children",
+      "context": "Explanation for blasphemy"
+    },
+    {
+      "speaker": "Jean Grainel",
+      "french": "Jenoche, je viens maintenant pour te tuer tu as fait mourir mes chevaulx et mon bestail, maintenant tu mourras aussy par mes mains",
+      "english": "Witch, I come now to kill you, you have killed my horses and livestock, now you too will die by my hands",
+      "context": "Threatening accused before beating her"
+    },
+    {
+      "speaker": "Catherine la Rondelatte",
+      "french": "Jean Grainel je vous crie mercy Jamais je ne vous feray mal ny desplaisir ny a ce que vous touche",
+      "english": "Jean Grainel I cry you mercy, never will I do you harm or displeasure nor anything that touches you",
+      "context": "Begging for mercy during beating"
+    },
+    {
+      "speaker": "Catherine la Rondelatte",
+      "french": "Ho le bel Jesus",
+      "english": "Oh beautiful Jesus",
+      "context": "Reaction when asked if she had killed her own family"
+    },
+    {
+      "speaker": "Catherine la Rondelatte",
+      "french": "ayant tant pleure par cy devant la mort et perte de son marit et de ses enfans que maintenant elle avoit le coeur sy endurcy qu'en fin elle ne pouvoit pleurer",
+      "english": "having cried so much before at the death and loss of her husband and children that now her heart was so hardened that she could no longer cry",
+      "context": "Explaining why she could not cry (considered a sign of witchcraft)"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Catherine la Rondelatte",
+      "person2": "Guillaume Belruy",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "widow for 18 years since death of husband Guillaume Belmy",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine la Rondelatte",
+      "person2": "Nicolle",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her mother Nicolle had been before her (suspected)",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine la Rondelatte",
+      "person2": "Jannon (sister)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her late sister Jannon, who was equally suspected",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine la Rondelatte",
+      "person2": "Barbon (sister)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "visiting her sister Barbon at Magnieres",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine la Rondelatte",
+      "person2": "Barbe (daughter)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Catherine's daughter Barbe took some apples",
+      "inferred": false
+    },
+    {
+      "person1": "Jannon veuve Claude Marchal",
+      "person2": "Jean Grainel",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "son-in-law Jean Grainel",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Numerous disputes: coffre sale, pan sale with fish demand, meadow purchase refusal, field enclosure costs. Accused had goods worth 120F including cow/calf; house and land worth 519F. Supported herself on small land, few animals, spinning."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "animals of Jean Grainel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "four oxen, horses; total 500 francs",
+      "animal_type": "oxen, horses",
+      "animal_count": null,
+      "economic_value": "500 francs total",
+      "attributed_to": "Catherine la Rondelatte",
+      "precipitating_quarrel": "refused to buy meadow for Sieur Terrel",
+      "time_between_quarrel_and_harm": "after threats",
+      "method_alleged": "stick given by devil (confessed)",
+      "witness_number": 25
+    },
+    {
+      "victim_name": "daughter of Chesnon/Crestaille Gaillard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_death",
+      "harm_description": "strange illness, died in 10 days",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte",
+      "precipitating_quarrel": "husband refused accused's daughter at poisle",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "proximity",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Isabel Famel",
+      "victim_relationship_to_witness": "lodger",
+      "harm_category": "human_death",
+      "harm_description": "lost wits after seeing black pig, couldn't receive sacraments, died",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte",
+      "precipitating_quarrel": "unpaid coffre dispute",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "black pig apparition",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Humbert son of Margueritte",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "felt chilled, became frantic, died",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte",
+      "precipitating_quarrel": "forbidden from house; threats to daughter",
+      "time_between_quarrel_and_harm": "after meeting on road",
+      "method_alleged": "encounter",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "child Barbe of Poiresson Garat",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_death",
+      "harm_description": "strange illness after being overlooked in cradle",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte",
+      "precipitating_quarrel": "wife refused wild pears",
+      "time_between_quarrel_and_harm": "a week",
+      "method_alleged": "overlooking ('Voicy un moult bel enfant')",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "wife of Pieron Bocatte (Marienne)",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_death",
+      "harm_description": "felt animal eating her body, 3 year illness",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte",
+      "precipitating_quarrel": "pan sale dispute, demanded fish",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "unknown",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "wife of Jacquat Gaillat",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_death",
+      "harm_description": "died in childbed",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte (confessed)",
+      "precipitating_quarrel": "cow trespassed and ate her cabbages",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "son of Claude la Vefue",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_death",
+      "harm_description": "aged 12, ill long time with ulcerated legs",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte (confessed)",
+      "precipitating_quarrel": "none - acted without ill-will",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "powder from master",
+      "witness_number": null
+    },
+    {
+      "victim_name": "daughter of Claudel Mathieu",
+      "victim_relationship_to_witness": null,
+      "harm_category": "human_death",
+      "harm_description": "year-old, died same day",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Catherine la Rondelatte (confessed)",
+      "precipitating_quarrel": "accidental - powder on fingers when touched child",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "accidental powder",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {"object": "coffre (chest)", "context": "sale dispute with Isabel Famel", "category": "household"},
+    {"object": "wild pears", "context": "refused to give, precipitated harm", "category": "food"},
+    {"object": "pan", "context": "sale dispute with Pieron Bocatte", "category": "household"},
+    {"object": "eggs", "context": "offered to persuade admission to poisle", "category": "food"},
+    {"object": "chapelet (rosary)", "context": "missing cross, suggested as witchcraft sign", "category": "religious"},
+    {"object": "fleau (flail)", "context": "repair dispute", "category": "agricultural"},
+    {"object": "bread, salt, and ashes", "context": "obtained from witch's house to cure sick cow", "category": "magical"},
+    {"object": "stick", "context": "given by devil to kill animals (confessed)", "category": "magical"},
+    {"object": "powder", "context": "killing powder from master (confessed)", "category": "magical"}
+  ],
+  "spatial_references": [
+    {"place_name": "Essegney", "place_type": "village", "context": "main location of trial and accused's residence"},
+    {"place_name": "Charmes", "place_type": "village", "context": "seat of prévôt; some witnesses lived there"},
+    {"place_name": "Poursieux", "place_type": "village", "context": "where accused and husband met in service; witnesses from here"},
+    {"place_name": "Magnieres", "place_type": "village", "context": "sister Barbon lived there; seduction occurred on return"},
+    {"place_name": "Mirecourt", "place_type": "village", "context": "where Humbert was in service"},
+    {"place_name": "Velaucourt", "place_type": "village", "context": "woman who advised on pilgrimages"},
+    {"place_name": "Langley", "place_type": "village", "context": "witness Didier Cure from there"},
+    {"place_name": "Bainville", "place_type": "village", "context": "origin of witness Barbion Garat"},
+    {"place_name": "round oak in woods", "place_type": "forest", "context": "location of seduction by devil"}
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": ["whirlwind"],
+    "animal_predation": ["wolf mentioned as benign"],
+    "economic_hardship_indicators": ["accused supported self on little land, few animals, spinning"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {"name": "PG des Vosges", "role": "prosecutor_pg", "location": "Vosges"},
+      {"name": "prévôt of Charmes", "role": "prevot", "location": "Charmes"},
+      {"name": "Mre Claude de Flavigny", "role": "other", "location": "Essegney"}
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "assault",
+        "description": "Jean Grainel sentenced to 16 francs compensation for beating her",
+        "outcome": "never paid"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Margueritte Humbert called her witch; obtained reparation through maire",
+        "outcome": "reparation obtained"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Multiple: 16F compensation (unpaid), reparation through maire for defamation",
+    "imprisonment_conditions": "gently treated; not tied up or chained because of her age and cold weather",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "with moderation suitable to her age",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 28,
+    "hearsay_testimony_count": 7,
+    "hearsay_chains": [
+      {"reporter": "Pierre Grand Jean", "source": "late father", "content": "quarrel and falling from pear tree"},
+      {"reporter": "Marie femme Jacquot Thiery", "source": "father", "content": "believed Catherine caused mother's death"},
+      {"reporter": "Isabillon femme Poirson Garat", "source": "Alison Gerard", "content": "saw accused praying with cat beside her"}
+    ],
+    "oldest_accusation_years": 30,
+    "corroboration_groups": [
+      [1, 2, 25],
+      [11, 13],
+      [18, 27, 28]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "natural_explanations", "challenged_witness_credibility"],
+    "emotional_state_notes": [
+      "said 'Ho le bel Jesus' and started muttering when asked about killing family",
+      "could not cry - heart hardened from grief over husband and children",
+      "constantly muttering as if saying prayers",
+      "eyes were red and haggard",
+      "was 'fort prompte' in replies as if she had 'un protocolle diabolique'",
+      "threw herself on knees before confessing",
+      "mentioned suicidal thoughts - wanted to throw herself in river"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Nicolle",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother",
+      "relationship_to_witness": null,
+      "context": "Also suspected as witch before her"
+    },
+    {
+      "name": "Jannon (sister)",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "sister (deceased)",
+      "relationship_to_witness": null,
+      "context": "Also suspected, equally suspected"
+    },
+    {
+      "name": "Guillaume Belruy/Belmy",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband (deceased)",
+      "relationship_to_witness": null,
+      "context": "Died 18 years before from stomach ailment"
+    },
+    {
+      "name": "daughter (unnamed)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "relationship_to_witness": null,
+      "context": "Died aged 19"
+    },
+    {
+      "name": "son (unnamed)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": null,
+      "context": "Died aged 16, a year after sister"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-21",
+    "extractor": "Claude (Opus 4.5)",
+    "confidence": "high",
+    "notes": "9-page trial. Rich documentation of community violence against accused (multiple beatings). Interrogation under torture not microfilmed. Family reputation - mother and sister also suspected. Notable economic data: property worth 519F, goods 120F. 35 witnesses total, representative sample included.",
+    "pdf_pages": 9
+  }
+}

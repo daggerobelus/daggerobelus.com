@@ -4,7 +4,11 @@ Implementation plans and roadmaps for site and project development.
 
 ## Active Plans
 
-_(none yet)_
+- [Extraction Execution](EXTRACTION_EXECUTION.md) — Extract remaining 211 witch trials + backfill 156 existing with new schema fields
+
+## Reference Plans
+
+- [Extraction Plan (Original)](EXTRACTION_PLAN.md) — Initial extraction plan (superseded by Execution plan)
 
 ## Completed Plans
 
