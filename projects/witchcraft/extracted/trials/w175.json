@@ -1,0 +1,1699 @@
+{
+  "trial_id": "w175",
+  "archive_ref": "B 8680 no 5",
+  "location": "Saulcy-sur-Meurthe",
+  "court": "Chapter court",
+  "language_region": "french",
+  "dates": {
+    "start": "1597-07-24",
+    "end": "1597-08-19",
+    "duration_days": 26
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Mongeatte femme Claude Tendon",
+      "person_id": null,
+      "gender": "female",
+      "age": 56,
+      "age_approximate": true,
+      "economic_status": "unknown",
+      "practiced_healing": false,
+      "origin": "Fouchifol",
+      "residence": "Saulcy-sur-Meurthe",
+      "marital_status": "married",
+      "spouse_name": "Claude Tendon",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Percin",
+        "devil_appearance": "hideous figure in black, with claws",
+        "seduction_date": "30 years earlier (circa 1567)",
+        "seduction_context": "Her daughter Marguitte was lost one night when looking for animals. Husband returned from St Dié saying he heard a girl had been eaten by animals, leaving only her head. In despair, Percin appeared and promised to find her daughter if she would give herself to him. He found the girl sleeping under a bush.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["Cambas near Taintrux"],
+        "sabbat_activities": ["beating water to make hail", "dancing", "eating horsemeat", "making reverence before devil", "receiving powder"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Blaise Laisney",
+      "person_id": null,
+      "gender": "male",
+      "age": 70,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 40,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Blaisette femme Jean Blaise Laisney",
+      "person_id": null,
+      "gender": "female",
+      "age": 55,
+      "location": "Saulcy-sur-Meurthe",
+      "relationship_to_accused": "wife of witness 1",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jean Colynot",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "lawsuit with her husband about a discharge of water which latter wanted him to allow in his garden",
+        "threat_received": true,
+        "threat_quote": "Thousse que tu puisse crever bien tost apres les aultres",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "within a week"
+          },
+          {
+            "type": "animal_death",
+            "target": "multiple animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "within days after lawsuit"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "Marguitte femme Jean Colynot",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "location": "Saulcy-sur-Meurthe",
+      "relationship_to_accused": "wife of witness 3",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "husband's",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Magdelaine femme Jean Grand Didier",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel between husbands",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jehenne fille feu Colas Chastel",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "father was collecting tithes, and husband of accused was caught evading them",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Colas Chastel (father)",
+            "target_relationship": "father",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "languished for a year before dying"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness's brother (aged 1)",
+            "target_relationship": "brother",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "immediately after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jean Demenge Noel",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cattle",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "10 years earlier"
+          },
+          {
+            "type": "human_death",
+            "target": "daughter aged 5",
+            "target_relationship": "daughter",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "3 weeks after visit"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge Grand Ferry",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his son quarreled with accused's son, whom he found pasturing animals in their field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "soon after settlement"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Demenge Jacquot",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over fruit trees",
+        "threat_received": true,
+        "threat_quote": "they would be dear ecus for him",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "after dispute"
+          },
+          {
+            "type": "animal_death",
+            "target": "several animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claude Mongeat",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claude Tendon had encroached on his land",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "within a few days"
+          },
+          {
+            "type": "animal_death",
+            "target": "bullock",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "within a few days"
+          },
+          {
+            "type": "animal_illness",
+            "target": "best cow (lost milk)",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "within a few days"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jennon femme Claude Mongeat",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "location": "Saulcy-sur-Meurthe",
+      "relationship_to_accused": "wife of witness 10",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Demenge Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "oat crops",
+            "target_relationship": "community crops",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Didier fils Demenge Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 24,
+      "location": "Saulcy-sur-Meurthe",
+      "relationship_to_accused": "son of witness 12",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Blaisette femme Didier Aulbert",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "goat",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "in a day"
+          },
+          {
+            "type": "animal_death",
+            "target": "pregnant sow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claude le Compte",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "salpetrier",
+      "location": "Contramolin",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wanted to work in an old room in her house, under terms of his patent from duke",
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jennon femme Claude le Compte",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "Contramolin",
+      "relationship_to_accused": "wife of witness 15",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Colas Colnot d'Aulbripaire",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "location": "Aulbripaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Didier Demenge Aulbert",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "she found his geese and pig in her meadow",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "within a few days"
+          },
+          {
+            "type": "animal_death",
+            "target": "goat",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 19,
+      "name": "Marie femme Jean Masson",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "location": "Saulcy-sur-Meurthe",
+      "relationship_to_accused": "wife of witness 9",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "husband's",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          },
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "3 days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Mengeatte veuve Didier Babel",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness refused to eat milk from accused's house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "7 cows which miscarried",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          },
+          {
+            "type": "human_illness",
+            "target": "son (illness moved around from head to arms and legs, lasted 4 years)",
+            "target_relationship": "son",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Barbellon femme Blaison Richard",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "location": "Mazeville au ban de Fraisse",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "many animals",
+            "target_relationship": "father's",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          },
+          {
+            "type": "human_death",
+            "target": "parents and brothers and sisters",
+            "target_relationship": "family members",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Thoussainct fils feu Colas Chastey",
+      "person_id": null,
+      "gender": "male",
+      "age": 24,
+      "location": "Saulcy-sur-Meurthe",
+      "relationship_to_accused": "sibling of witness 6",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel over tithes",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Colas Chastey (father)",
+            "target_relationship": "father",
+            "attributed_to": "Mongeatte femme Claude Tendon"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Jennon femme Colas Grand Didier",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Mandray",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 24,
+      "name": "Colas Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Mandray",
+      "relationship_to_accused": "husband of witness 23",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 25,
+      "name": "Dieudonné Colas Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": "doyen du ban de Saulcy",
+      "location": "Saulcy-sur-Meurthe",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 35,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "lawsuit with her husband over a meadow, which witness won",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals with strange illnesses",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte femme Claude Tendon",
+            "time_after_quarrel": "after lawsuit"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1597-07-24",
+      "event": "informations_preparatoires",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Witness testimonies began (witnesses 1-11)"
+    },
+    {
+      "date": "1597-07-24",
+      "event": "informations_preparatoires",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Additional witnesses 12-25 testified"
+    },
+    {
+      "date": "1597-07-30",
+      "event": "interrogation",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "First interrogation; partial confession (devil appeared 2 years earlier)"
+    },
+    {
+      "date": "1597-07-31",
+      "event": "interrogation",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Second interrogation; remained obstinate"
+    },
+    {
+      "date": "1597-08-01",
+      "event": "torture_requested",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Procureur asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1597-08-03",
+      "event": "torture_approved",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1597-08-08",
+      "event": "interrogation",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Interrogation under threat of torture; full confession (seduction 30 years earlier when daughter was lost)"
+    },
+    {
+      "date": "1597-08-09",
+      "event": "torture",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Interrogation under torture; lightly racked; confessed to killing three people and many animals"
+    },
+    {
+      "date": "1597-08-11",
+      "event": "interrogation",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Final interrogation; discharged some accomplices, confirmed accusations against husband and others"
+    },
+    {
+      "date": "1597-08-11",
+      "event": "death_requested",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Procureur for chapter asks for death sentence"
+    },
+    {
+      "date": "1597-08-12",
+      "event": "death_approved",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1597-08-19",
+      "event": "execution",
+      "subject": "Mongeatte femme Claude Tendon",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["light racking"],
+    "requesting_official": "procureur",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Claude Tendon",
+      "location": "Saulcy-sur-Meurthe",
+      "context": "Husband; said to be a perfect witch, seduced 16-17 years before over storm that scattered oats, attended sabbat together 3 times",
+      "already_executed": false
+    },
+    {
+      "name": "Marguitte femme Jean Bonipaire",
+      "location": "Chanoy",
+      "context": "Daughter; persuaded by mother to attend sabbat 3 years earlier, initially refused to renounce God but mother persuaded her (later discharged)",
+      "already_executed": false
+    },
+    {
+      "name": "Didier Pierrat",
+      "location": "Saulcy",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Catherine veuve Dieudonné Alzey",
+      "location": "Saulcy",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Mongeatte veuve Didier Babey",
+      "location": "Saulcy",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Claude Andreu",
+      "location": "Fouchifol",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "mairesse of Mandray",
+      "location": "Mandray",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Blaise",
+      "location": "Entre-deux-Eaux",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Estienatte",
+      "location": "Entre-deux-Eaux",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "George Cayel",
+      "location": "Taintrux",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Babey",
+      "location": "Mandray",
+      "context": "Danced with accused at first sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Colatte Villon",
+      "location": "Taintrux",
+      "context": "Seen at second sabbat on Cambas",
+      "already_executed": true
+    },
+    {
+      "name": "Didier Vincent",
+      "location": "Taintrux",
+      "context": "Seen at second sabbat on Cambas",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Claude Colin",
+      "location": "Fouchifol",
+      "context": "Seen at second sabbat; accused's brother",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Claude Andreu",
+      "location": "Fouchifol",
+      "context": "Seen at second sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Colas Girard",
+      "location": "Saulcy",
+      "context": "Seen at sabbat (later discharged)",
+      "already_executed": false
+    },
+    {
+      "name": "Colas Cayel",
+      "location": "le Faing",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Colin l'Hoste",
+      "location": "Contramolin",
+      "context": "Seen at sabbat (later discharged)",
+      "already_executed": false
+    },
+    {
+      "name": "widow of Mathis Viney",
+      "location": "Coinche",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Valentin Dion",
+      "location": "la Goutte de Coinche",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Colatte femme Valentin Dion",
+      "location": "la Goutte de Coinche",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "daughter of la Malraymatte",
+      "location": "Ste Marguerite",
+      "context": "Seen at sabbat; her mother had been burned",
+      "already_executed": false
+    },
+    {
+      "name": "Dieudonné Rohay",
+      "location": "Coinche",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Flandrey",
+      "location": "le Faing",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Demenge de la Leaue",
+      "location": "Ste Marguerite",
+      "context": "Seen at sabbat; man with no children",
+      "already_executed": false
+    },
+    {
+      "name": "widow of Claude Colnot",
+      "location": "Mandray",
+      "context": "Named as accomplice; already under arrest",
+      "already_executed": false
+    },
+    {
+      "name": "Mathieu Blaise",
+      "location": "Ste Marguerite",
+      "context": "Seen at sabbat; old man with grey beard",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "George de Hault",
+      "accuser_location": "Clingotte",
+      "context": "Said she was a witch but husband Claude Tendon was not; George himself was arrested and burned as a witch a few days later",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Mongeatte femme Claude Tendon",
+      "french": "Thousse que tu puisse crever bien tost apres les aultres",
+      "english": "Cough so that you may die very soon after the others",
+      "context": "Said to Jean Colynot about his coughing cow"
+    },
+    {
+      "speaker": "Mongeatte femme Claude Tendon",
+      "french": "hault de par le diable",
+      "english": "up by the devil",
+      "context": "Words spoken to fly to sabbat on greased broom"
+    },
+    {
+      "speaker": "Mongeatte femme Claude Tendon",
+      "french": "ce fut bien malgré elle et n'estoit d'ung bon coeur",
+      "english": "it was very much against her will and was not with a good heart",
+      "context": "Describing her renunciation of God and acceptance of powder"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Mongeatte femme Claude Tendon",
+      "person2": "Claude Tendon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married to Claude Tendon for some 40 years",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte femme Claude Tendon",
+      "person2": "Marguitte femme Jean Bonipaire",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her daughter Marguitte, now married to Jean Bonipaire of Chanoy",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte femme Claude Tendon",
+      "person2": "Jean Claude Colin",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jean Claude Colin of Fouchifol, whom she had named, was her brother",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Blaise Laisney",
+      "person2": "Blaisette femme Jean Blaise Laisney",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Blaisette femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Colynot",
+      "person2": "Marguitte femme Jean Colynot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marguitte femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne fille feu Colas Chastel",
+      "person2": "Colas Chastel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her father was collecting tithes",
+      "inferred": false
+    },
+    {
+      "person1": "Thoussainct fils feu Colas Chastey",
+      "person2": "Colas Chastel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "same story as sister about father",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne fille feu Colas Chastel",
+      "person2": "Thoussainct fils feu Colas Chastey",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "same story as sister",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Mongeat",
+      "person2": "Jennon femme Claude Mongeat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Grand Didier",
+      "person2": "Didier fils Demenge Grand Didier",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Didier fils du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Claude le Compte",
+      "person2": "Jennon femme Claude le Compte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Demenge Jacquot",
+      "person2": "Marie femme Jean Masson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Evidently wife of witness (9)",
+      "inferred": true
+    },
+    {
+      "person1": "Barbellon femme Blaison Richard",
+      "person2": "Claude Aulbry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "had lived with her father, le maire Claude Aulbry",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Colas Grand Didier",
+      "person2": "Colas Grand Didier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Colas Grand Didier, de Mandray; Same story as wife",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte femme Claude Tendon",
+      "person2": "Claude Mongeat",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Claude Tendon had encroached on his land",
+      "inferred": true
+    },
+    {
+      "person1": "Mongeatte femme Claude Tendon",
+      "person2": "Claude Maire Aulbry",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "nearest neighbour Claude Maire Aulbry",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Colynot",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "multiple cattle losses",
+      "animal_type": "cattle",
+      "economic_value": "100 ecus total between All Saints and Candlemas",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "lawsuit about discharge of water in garden",
+      "time_between_quarrel_and_harm": "within days",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jean Colynot",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "cow coughing then died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "heard accused curse the cow",
+      "time_between_quarrel_and_harm": "within a week",
+      "method_alleged": "words/curse",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Magdelaine femme Jean Grand Didier",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "animal_death",
+      "harm_description": "lost animals in strange fashion",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "quarrel between husbands",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Colas Chastel",
+      "victim_relationship_to_witness": "father of witness",
+      "harm_category": "human_death",
+      "harm_description": "languished for a year before dying",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "husband of accused caught evading tithes",
+      "time_between_quarrel_and_harm": "languished one year",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "brother of Jehenne",
+      "victim_relationship_to_witness": "brother of witness",
+      "harm_category": "human_illness",
+      "harm_description": "mother lost her milk, child aged about 1",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "accused said mother not feeding child well, should avoid black soups",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "words",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jean Demenge Noel",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "various losses of cattle with strange illnesses",
+      "animal_type": "cattle",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "time_between_quarrel_and_harm": "10 years earlier",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "daughter of Jean Demenge Noel",
+      "victim_relationship_to_witness": "daughter of witness",
+      "harm_category": "human_death",
+      "harm_description": "sickened and died",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "child sent with dried pears, accused gave her bread and cheese",
+      "time_between_quarrel_and_harm": "3 weeks",
+      "method_alleged": "food (bread and cheese)",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Demenge Grand Ferry",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "fine cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "son had quarrel with accused's son about pasturing animals",
+      "time_between_quarrel_and_harm": "soon after settlement",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Jean Demenge Jacquot",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "foal",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "economic_value": "7 ecus",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "dispute over fruit trees; witness said he would pay 2 ecus to have witches burned",
+      "time_between_quarrel_and_harm": "after dispute",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Jean Demenge Jacquot",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "several animals",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Claude Mongeat",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "foal",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "Claude Tendon encroached on witness's land; accused called him 'ung meschant homme'",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Claude Mongeat",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "bullock",
+      "animal_type": "bullock",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "land encroachment",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Claude Mongeat",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_illness",
+      "harm_description": "best cow lost its milk",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "land encroachment",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "community crops",
+      "victim_relationship_to_witness": "community property",
+      "harm_category": "weather_event",
+      "harm_description": "great thunderstorm which damaged oats; accused's fields virtually unaffected while others scattered",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "time_between_quarrel_and_harm": "18 years before",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Blaisette femme Didier Aulbert",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "animal_death",
+      "harm_description": "goat sickened and died in a day as if rabid",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "quarrel; witness called her witch and she replied with threats",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Blaisette femme Didier Aulbert",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "animal_death",
+      "harm_description": "pregnant sow",
+      "animal_type": "sow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "another quarrel",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Didier Demenge Aulbert",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "pig died as if rabid",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "she found his geese and pig in her meadow; said she would get even in another way",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Didier Demenge Aulbert",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "goat found eating her hedge; animal died",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "goat eating her hedge; she wished it to devil",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Marie femme Jean Masson",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "animal_death",
+      "harm_description": "calf would not suck and died",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "accused remarked that cow would soon calve",
+      "time_between_quarrel_and_harm": "3 days",
+      "method_alleged": "words",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "Mengeatte veuve Didier Babel",
+      "victim_relationship_to_witness": "witness herself",
+      "harm_category": "animal_illness",
+      "harm_description": "7 cows which miscarried",
+      "animal_type": "cows",
+      "animal_count": 7,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "son of Mengeatte veuve Didier Babel",
+      "victim_relationship_to_witness": "son of witness",
+      "harm_category": "human_illness",
+      "harm_description": "strange illness that moved around from head to arms and legs, lasted 4 years",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "witness refused to eat milk from accused's house; accused was told one of her sons said this",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "Claude Aulbry and family",
+      "victim_relationship_to_witness": "father of witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost so many animals they were almost in poverty",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "parents and siblings of Barbellon",
+      "victim_relationship_to_witness": "family of witness",
+      "harm_category": "human_death",
+      "harm_description": "parents and brothers and sisters all died",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "time_between_quarrel_and_harm": "2 years after blessed house",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "Dieudonné Colas Grand Didier",
+      "victim_relationship_to_witness": "witness himself",
+      "harm_category": "animal_death",
+      "harm_description": "various animals with strange illnesses",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "lawsuit with her husband over a meadow, which witness won",
+      "time_between_quarrel_and_harm": "after lawsuit",
+      "witness_number": 25
+    },
+    {
+      "victim_name": "Jean du Ban",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "animal_death",
+      "harm_description": "cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "method_alleged": "black powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Colas Noel",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "animal_death",
+      "harm_description": "cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "his pigs damaged her garden and he called her witch",
+      "method_alleged": "black powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Claudatte fille Dieudonné le maire d'Aulbripaire",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "human_death",
+      "harm_description": "hurt toe on stick, infection spread, died miserably in 6 months",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "refused to help when cartload of wood was bogged down",
+      "time_between_quarrel_and_harm": "a few days",
+      "method_alleged": "stick placed in river by instruction of devil",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Claude Maire Aulbry",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "human_death",
+      "harm_description": "developed bad knee, died in a month",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "precipitating_quarrel": "angry with nearest neighbour",
+      "method_alleged": "powder placed where he slept",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Jennon fille Richrd d'Anouzey",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "human_death",
+      "harm_description": "hurt foot on stick in field",
+      "attributed_to": "Mongeatte femme Claude Tendon",
+      "method_alleged": "stick placed in field",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "black powder",
+      "context": "Given by devil Percin to kill people and animals",
+      "category": "magical"
+    },
+    {
+      "object": "grease and small broom",
+      "context": "Given by devil to fly to sabbat; greased broom placed between legs",
+      "category": "magical"
+    },
+    {
+      "object": "black hen",
+      "context": "Annual payment to devil to reduce frequency of visits",
+      "category": "other"
+    },
+    {
+      "object": "stick",
+      "context": "Given by devil to place in river or field to cause harm",
+      "category": "magical"
+    },
+    {
+      "object": "horsemeat",
+      "context": "Served at sabbat, described as not very good",
+      "category": "food"
+    },
+    {
+      "object": "bread and salt",
+      "context": "Notably absent from sabbat meal",
+      "category": "food"
+    },
+    {
+      "object": "dried pears",
+      "context": "Requested by accused for sick children; witness initially refused",
+      "category": "food"
+    },
+    {
+      "object": "bread and cheese",
+      "context": "Given by accused to child who then died",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "Various references: cow losing milk, breast milk loss, refusing milk from accused's house",
+      "category": "food"
+    },
+    {
+      "object": "black soups",
+      "context": "Accused told mother to avoid feeding these to baby",
+      "category": "food"
+    },
+    {
+      "object": "silver belt",
+      "context": "Worn by woman who danced first with devil at sabbat",
+      "category": "clothing"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Saulcy-sur-Meurthe",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused for 40 years"
+    },
+    {
+      "place_name": "Fouchifol",
+      "place_type": "village",
+      "context": "Origin/birthplace of accused"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Where accused's son was imprisoned; threatened to take accused there"
+    },
+    {
+      "place_name": "Cambas near Taintrux",
+      "place_type": "sabbat_location",
+      "context": "Location of second sabbat"
+    },
+    {
+      "place_name": "Mandray",
+      "place_type": "village",
+      "context": "Mentioned multiple times; home of several accomplices"
+    },
+    {
+      "place_name": "Chanoy",
+      "place_type": "village",
+      "context": "Where daughter Marguitte lived with husband Jean Bonipaire"
+    },
+    {
+      "place_name": "Entre-deux-Eaux",
+      "place_type": "village",
+      "context": "Home of executed witches Jean Blaise and Estienatte"
+    },
+    {
+      "place_name": "Taintrux",
+      "place_type": "village",
+      "context": "Home of several accomplices, near sabbat location"
+    },
+    {
+      "place_name": "Contramolin",
+      "place_type": "village",
+      "context": "Home of salpetrier Claude le Compte"
+    },
+    {
+      "place_name": "Aulbripaire",
+      "place_type": "village",
+      "context": "Home of Colas Colnot"
+    },
+    {
+      "place_name": "Coinche",
+      "place_type": "village",
+      "context": "Home of several accomplices"
+    },
+    {
+      "place_name": "la Goutte de Coinche",
+      "place_type": "village",
+      "context": "Home of Valentin Dion and wife"
+    },
+    {
+      "place_name": "le Faing",
+      "place_type": "village",
+      "context": "Home of several accomplices; witch from here in prison"
+    },
+    {
+      "place_name": "Ste Marguerite",
+      "place_type": "village",
+      "context": "Home of several accomplices"
+    },
+    {
+      "place_name": "Clingotte",
+      "place_type": "village",
+      "context": "House of George de Hault"
+    },
+    {
+      "place_name": "Mazeville au ban de Fraisse",
+      "place_type": "village",
+      "context": "Home of witness Barbellon"
+    },
+    {
+      "place_name": "meadow behind house",
+      "place_type": "field",
+      "context": "Where Jean Colynot put animals for air; where accused overheard"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "other",
+      "context": "Where accused was found claiming to look for hens"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Where accused placed stick to harm Claudatte"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "field",
+      "context": "Where accused was weeping when devil first appeared; where pigs damaged accused's garden"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "great thunderstorm 18 years before that damaged oats",
+      "making hail at sabbat (though did not do much harm)"
+    ],
+    "economic_hardship_indicators": [
+      "lost so many animals they were almost in poverty",
+      "father said he was ruined and had nothing more to lose",
+      "economic value of animals mentioned frequently (100 ecus, 7 ecus foal, etc.)",
+      "concern about property confiscation leaving children poor"
+    ],
+    "religious_calendar_references": [
+      "between All Saints and Candlemas (period of animal losses)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur",
+        "role": "prosecutor_pg",
+        "location": "Chapter court"
+      },
+      {
+        "name": "Claude Aulbry",
+        "role": "mayor",
+        "location": "Saulcy"
+      },
+      {
+        "name": "Dieudonné Colas Grand Didier",
+        "role": "other",
+        "location": "Saulcy"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Lawsuit with Jean Colynot's husband about discharge of water in garden (15 years earlier)",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "property",
+        "description": "Lawsuit with Dieudonné Colas Grand Didier over a meadow (15 years earlier)",
+        "outcome": "witness won"
+      },
+      {
+        "dispute_type": "property",
+        "description": "Claude Tendon encroached on Claude Mongeat's land, had to make satisfaction (2 years earlier)",
+        "outcome": "Tendon made satisfaction"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Accused's son imprisoned at St Dié for making cousin pregnant and being a 'sodomiste' (2 years earlier)",
+        "outcome": "son released"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Witness obtained reparation for various insults from Mengeatte's daughter",
+        "outcome": "reparation obtained"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "Never sought reparation despite being called witch multiple times publicly",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 20,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Colynot",
+        "source": "heard",
+        "content": "that she was very angry about the case, uttering various threats"
+      },
+      {
+        "reporter": "Barbellon femme Blaison Richard",
+        "source": "always heard",
+        "content": "her reputed a witch"
+      }
+    ],
+    "oldest_accusation_years": 40,
+    "corroboration_groups": [
+      [3, 4],
+      [6, 22],
+      [9, 19],
+      [10, 11],
+      [12, 13],
+      [15, 16],
+      [23, 24]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "blamed_others"
+    ],
+    "emotional_state_notes": [
+      "insisted she was innocent initially",
+      "was weeping in her garden when devil first appeared",
+      "in despair when daughter was lost",
+      "remained obstinate during second interrogation",
+      "said she had not slept a quarter of an hour all night, praying",
+      "particularly sorry for husband and daughter",
+      "regretted children would be poor due to confiscation",
+      "determined to save her soul"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 0,
+        "objection": "Said losses of Jean Colnot had been caused by Jean Babey, not her (told this was untrue)"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Babey",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Accused initially claimed he confessed to harming Jean Colnot's animals; also seen dancing with accused at sabbat"
+    },
+    {
+      "name": "Jean du Ban",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Accused confessed to killing his cow with powder; described as 'the late Jean du Ban'"
+    },
+    {
+      "name": "George de Hault",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Said Mongeatte was a witch but husband Claude Tendon was not; arrested and burned a few days later"
+    },
+    {
+      "name": "curé",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "context": "Blessed the house of Claude Aulbry at accused's suggestion"
+    },
+    {
+      "name": "la Malraymatte",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Already burned; her daughter seen at sabbat"
+    },
+    {
+      "name": "Percin",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Devil/master; appeared as hideous figure in black with claws; seduced accused 30 years earlier"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Complete extraction from 7-page PDF. Trial shows classic patterns: long reputation (40+ years), property disputes, animal deaths following quarrels, eventual confession under torture threat, sabbat attendance, naming of accomplices. Accused initially confessed to seduction 2 years earlier but under torture threat changed story to 30 years earlier. Notable features include son's imprisonment for sodomy as trigger for devil's approach, payment of black hen to reduce devil's visits, and retraction of accusations against daughter and some others.",
+    "pdf_pages": 7
+  }
+}

@@ -3,6 +3,14 @@
   "archive_ref": "B 3345",
   "location": "Autrepierre",
   "court": "Blamont",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur fiscal of county of Blamont",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Blamont",
+    "relationship_to_accused": "state prosecutor"
+  },
   "dates": {
     "start": "1613-07-22",
     "end": "1613-09-07",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Jeanne femme Demenge Mercier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -24,6 +33,9 @@
         "father": "Jean de Domepvre",
         "mother": "unknown (deceased)"
       },
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "divination"],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -59,6 +71,7 @@
     {
       "number": 1,
       "name": "Margueritte femme Demenge Bugeat",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -95,6 +108,7 @@
     {
       "number": 2,
       "name": "Anne femme Claude Jean Clerc",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -124,6 +138,7 @@
     {
       "number": 3,
       "name": "Claude Jean Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -153,6 +168,7 @@
     {
       "number": 4,
       "name": "Demenge de Nohegny",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": null,
@@ -182,6 +198,7 @@
     {
       "number": 5,
       "name": "Jehenne femme Demenge de Nohegny",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -211,6 +228,7 @@
     {
       "number": 6,
       "name": "Demenge Bugeat",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -247,6 +265,7 @@
     {
       "number": 7,
       "name": "Jean André",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -276,6 +295,7 @@
     {
       "number": 8,
       "name": "Barbelline veuve Henry André",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -312,6 +332,7 @@
     {
       "number": 9,
       "name": "Henry fils Nicolas Zabey",
+      "person_id": null,
       "gender": "male",
       "age": 21,
       "occupation": null,
@@ -341,6 +362,7 @@
     {
       "number": 10,
       "name": "Nicolas Zabel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -370,6 +392,7 @@
     {
       "number": 11,
       "name": "Dieudenon Masson",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "echevin of the church",
@@ -399,6 +422,7 @@
     {
       "number": 12,
       "name": "Jean Barthe",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -428,6 +452,7 @@
     {
       "number": 13,
       "name": "Aulbry Colin",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -457,6 +482,7 @@
     {
       "number": 14,
       "name": "Allison femme Demenge Vincent",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": null,
@@ -478,6 +504,7 @@
     {
       "number": 15,
       "name": "Colas Guerard",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "occupation": null,
@@ -499,6 +526,7 @@
     {
       "number": 16,
       "name": "Nicolas Gerardin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -520,6 +548,7 @@
     {
       "number": 17,
       "name": "Demenge Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -549,6 +578,7 @@
     {
       "number": 18,
       "name": "Margueritte femme Claudon Jean Thiriot",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -570,6 +600,7 @@
     {
       "number": 19,
       "name": "Margueritte femme Remy Heuzellin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -591,6 +622,7 @@
     {
       "number": 20,
       "name": "Chrestienne femme Claude Bastien",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -620,6 +652,7 @@
     {
       "number": 21,
       "name": "Didie femme Aulbry Colin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -649,6 +682,7 @@
     {
       "number": 22,
       "name": "Demenge Aulbry Colin",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": null,
@@ -1527,7 +1561,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "She started court action against Claude Jean Clerc for calling her witch, but mediation by relatives followed. She did not pursue other instances despite being called witch publicly by multiple people.",
     "imprisonment_conditions": "Held in room with height such that she could throw herself from top and kill herself",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture on 20 August 1613. Approved death sentence on 7 September 1613, subject to repetition of confessions. Also noted that torture should not be repeated without advice being sought.",
+      "local_court_followed": false
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1596,6 +1635,7 @@
   "third_parties": [
     {
       "name": "Colas (son of Margueritte and Demenge Bugeat)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's son; his son fought with Jeanne's son",
       "relationship_to_witness": "son of witnesses 1 and 6",
@@ -1603,6 +1643,7 @@
     },
     {
       "name": "Jeanne's son (age 10)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1610,6 +1651,7 @@
     },
     {
       "name": "Jeanne's daughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter (deceased)",
       "relationship_to_witness": null,
@@ -1617,6 +1659,7 @@
     },
     {
       "name": "wife of Nicolas Zabel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "wife of witness 10",
@@ -1624,6 +1667,7 @@
     },
     {
       "name": "Didier Henry",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "official who fined her",
       "relationship_to_witness": "was with witness 7",
@@ -1631,6 +1675,7 @@
     },
     {
       "name": "Jean de Domepvre",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
@@ -1638,6 +1683,7 @@
     },
     {
       "name": "Jeanne's sister",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1645,6 +1691,7 @@
     },
     {
       "name": "widow of Jean Tabourin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "employer of Nicolas Zabel (witness 10)",
@@ -1652,6 +1699,7 @@
     },
     {
       "name": "niece of Jeanne's husband (Demenge Mercier)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband's niece",
       "relationship_to_witness": "related to witnesses 9 and 10",
@@ -1659,6 +1707,7 @@
     },
     {
       "name": "devin/devineresse near Guethin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "consulted by Nicolas Zabel's family",
@@ -1666,6 +1715,7 @@
     },
     {
       "name": "curé of Autrepierre",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "told witness 11 to collect fine",
@@ -1673,6 +1723,7 @@
     },
     {
       "name": "Allison (daughter of Barbelline veuve Henry André)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "daughter of witness 8",
@@ -1680,6 +1731,7 @@
     },
     {
       "name": "aunt of Allison",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": "related to witness 8",
@@ -1687,6 +1739,7 @@
     },
     {
       "name": "Jean Didier Aulbry",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "heard by witness 16",
@@ -1694,6 +1747,7 @@
     },
     {
       "name": "Demenge Mercier (Jeanne's husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": null,
@@ -1701,6 +1755,7 @@
     },
     {
       "name": "Jeanne's child",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "child",
       "relationship_to_witness": null,
@@ -1708,6 +1763,7 @@
     },
     {
       "name": "relative at Halloviller",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "relative of Jeanne or her husband",
       "relationship_to_witness": "seen by Aulbry Colin's husband",
@@ -1715,6 +1771,7 @@
     },
     {
       "name": "Parsin (devil)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master",
       "relationship_to_witness": null,

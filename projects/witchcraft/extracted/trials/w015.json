@@ -3,6 +3,8 @@
   "archive_ref": "B 2583 no 1",
   "location": "l'Estraye",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1624-06-25",
     "end": "1624-07-31",
@@ -12,9 +14,12 @@
   "accused": [
     {
       "name": "Chretienne fille Jean Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "age_approximate": false,
+      "economic_status": "destitute",
+      "practiced_healing": false,
       "occupation": ["servant"],
       "origin": "l'Estraye",
       "residence": "Fresse (in house of Demenge Fremillot)",
@@ -68,6 +73,7 @@
     {
       "number": 1,
       "name": "Jean fils feu Chrestofle Heckstein",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": "miner",
@@ -84,6 +90,7 @@
     {
       "number": 2,
       "name": "Toussaine femme Arbin Beustal",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "location": "du Thillot",
@@ -98,6 +105,7 @@
     {
       "number": 3,
       "name": "Didier Boileau",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "miller",
@@ -113,6 +121,7 @@
     {
       "number": 4,
       "name": "Paccatte femme Remy Claudon Bustal",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "du Thillot",
@@ -128,6 +137,7 @@
     {
       "number": 5,
       "name": "Remy Demenge Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "de l'Estraye",
@@ -143,6 +153,7 @@
     {
       "number": 6,
       "name": "Honn Nicolas Godel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "notary",
@@ -859,7 +870,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Interrogations held at house of Nicolas Laurent at Le Thillot, then moved to château of Arches",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -899,12 +915,14 @@
   "third_parties": [
     {
       "name": "Demenge Fremillot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "current host/employer",
       "context": "Chretienne was living in his house in Fresse at time of arrest"
     },
     {
       "name": "Demenge Valentin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "stepfather",
       "relationship_to_witness": null,
@@ -912,49 +930,58 @@
     },
     {
       "name": "fils de Jean Regnard",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "uncle by marriage",
       "context": "Married to Chretienne's aunt Magdelaine in Remiremont"
     },
     {
       "name": "Claude Pierre dit Bourginan",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "husband of accomplice",
       "context": "Husband of Mongeotte who attended sabbat"
     },
     {
       "name": "François (moictrier of late Nicolas Godel)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Was tenant farmer where cow was killed"
     },
     {
       "name": "moictresse of late Nicolas Godel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former employer's widow",
       "context": "Owner of cow that died; Chretienne was her servant"
     },
     {
       "name": "Arbin Thossaint",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Helped Nicolas Godel investigate the beaten ground where Chretienne had been"
     },
     {
       "name": "Simon Claude Anthoine",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Chretienne stole beans from his garden"
     },
     {
       "name": "Brice Mansuyt",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "His clos (field) was near where Chretienne spent the night with devil"
     },
     {
       "name": "Danys l'hoste",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "His house was near where Chretienne spent the night with devil"
     },
     {
       "name": "Sr Curé de l'Estraye",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "parish priest",
       "context": "Had given Chretienne relics but later took them away, after which she had great apprehensions and went to sabbat"

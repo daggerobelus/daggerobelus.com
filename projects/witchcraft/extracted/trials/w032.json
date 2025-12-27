@@ -3,6 +3,8 @@
   "archive_ref": "B 3323 no 8",
   "location": "Blemerey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1602-06-05",
     "end": "1602-07-13",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Noel Purel",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "age_approximate": false,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["servant", "laboureur"],
       "origin": null,
       "residence": "Blemerey",
@@ -54,6 +60,7 @@
     {
       "number": 1,
       "name": "Jean Henry",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "manouvrier",
@@ -83,6 +90,7 @@
     {
       "number": 2,
       "name": "Claudon de Benamesnil",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "laboureur",
@@ -112,6 +120,7 @@
     {
       "number": 3,
       "name": "Jean Mongeotte",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "laboureur",
@@ -141,6 +150,7 @@
     {
       "number": 4,
       "name": "Jean Renard",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -170,6 +180,7 @@
     {
       "number": 5,
       "name": "Demenge Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "community representative",
@@ -199,6 +210,7 @@
     {
       "number": 6,
       "name": "Jean Godat",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "laboureur",
@@ -220,6 +232,7 @@
     {
       "number": 7,
       "name": "Anne veuve Demenge Claude",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -249,6 +262,7 @@
     {
       "number": 8,
       "name": "Jennon veuve Vallentin Mesline",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "paistre (shepherd's widow)",
@@ -278,6 +292,7 @@
     {
       "number": 9,
       "name": "Jean Demenge Claude",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "occupation": "laboureur",
@@ -307,6 +322,7 @@
     {
       "number": 10,
       "name": "Jean Henry",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "maire",
@@ -336,6 +352,7 @@
     {
       "number": 11,
       "name": "Henry Hullatte",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "doyen",
@@ -365,6 +382,7 @@
     {
       "number": 12,
       "name": "Claudon Crolbesner",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "imballe",
@@ -394,6 +412,7 @@
     {
       "number": 13,
       "name": "Jehan du Bois",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "imballe",
@@ -423,6 +442,7 @@
     {
       "number": 14,
       "name": "Jehan de Benamesnil",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": "imballe",
@@ -452,6 +472,7 @@
     {
       "number": 15,
       "name": "Colas Jean Mongeatte",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": "imballe",
@@ -481,6 +502,7 @@
     {
       "number": 16,
       "name": "Claudon Jean Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -517,6 +539,7 @@
     {
       "number": 17,
       "name": "Claudon Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -1303,7 +1326,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Noel claimed Jean de Colbay withdrew his accusation; had attestation from late governor of Blamont which was lost, having been produced when last imprisoned",
     "imprisonment_conditions": "Imprisoned at Blamont previously; imprisoned during this trial before torture and execution",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture but specified it should be 'assez mediocrement eu esgard a l'age dudit prevenu' (moderately given his age); approved death sentence",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1385,6 +1413,7 @@
   "third_parties": [
     {
       "name": "Jean de Colbay (also Jean Colbay)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accused Noel at his execution",
       "relationship_to_witness": "multiple witnesses present at execution",
@@ -1392,6 +1421,7 @@
     },
     {
       "name": "Grand Demenge Charpentier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor who quarreled with Noel",
       "relationship_to_witness": "neighbor of Jean Henry (witness 1)",
@@ -1399,6 +1429,7 @@
     },
     {
       "name": "Grand Waultrin Charpentier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother of Grand Demenge who quarreled with Noel",
       "relationship_to_witness": null,
@@ -1406,6 +1437,7 @@
     },
     {
       "name": "Pierson Florentin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1413,6 +1445,7 @@
     },
     {
       "name": "Claude Petit Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "accompanied Jean Mongeotte (witness 3)",
@@ -1420,6 +1453,7 @@
     },
     {
       "name": "Mathieu",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "refused to help with cart",
       "relationship_to_witness": "son of Anne veuve Demenge Claude (witness 7), brother of Jean Demenge Claude (witness 9)",
@@ -1427,6 +1461,7 @@
     },
     {
       "name": "Vallentin Mesline",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "quarreled with Noel over animals; called him 'petit genot'",
       "relationship_to_witness": "husband of Jennon (witness 8)",
@@ -1434,6 +1469,7 @@
     },
     {
       "name": "Didier Cherier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "called Noel 'genot'",
       "relationship_to_witness": null,
@@ -1441,6 +1477,7 @@
     },
     {
       "name": "late governor of Blamont",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "provided attestation that Jean de Colbay withdrew accusation",
       "relationship_to_witness": null,
@@ -1448,6 +1485,7 @@
     },
     {
       "name": "sister of Jean Renard",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "was in service with Noel",
       "relationship_to_witness": "sister of Jean Renard (witness 4)",
@@ -1455,6 +1493,7 @@
     },
     {
       "name": "wife of Claudon Jean Claudon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "victim of alleged witchcraft",
       "relationship_to_witness": "wife of Claudon Jean Claudon (witness 16)",
@@ -1462,6 +1501,7 @@
     },
     {
       "name": "uncle of Claudon Jean Claudon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "uncle of Claudon Jean Claudon (witness 16)",
@@ -1469,6 +1509,7 @@
     },
     {
       "name": "brother of Claudon Clerc",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother of Claudon Clerc (witness 17)",
@@ -1476,6 +1517,7 @@
     },
     {
       "name": "Jean Demenge Claude of Blesmerey",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer - Noel was in his service 40 years before",
       "relationship_to_witness": null,
@@ -1483,6 +1525,7 @@
     },
     {
       "name": "Pairsin (also Mre Persin)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master who seduced Noel",
       "relationship_to_witness": null,
@@ -1490,6 +1533,7 @@
     },
     {
       "name": "widow of Noel Purel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife",
       "relationship_to_witness": null,

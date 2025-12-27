@@ -3,6 +3,14 @@
   "archive_ref": "B 2521 no 1",
   "location": "Xennenay",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur General des Vosges",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Vosges",
+    "relationship_to_accused": "state prosecutor - initiated through substitut"
+  },
   "dates": {
     "start": "1598-04-29",
     "end": "1598-11-08",
@@ -12,8 +20,12 @@
   "accused": [
     {
       "name": "Jacotte femme Nicolas François Raon",
+      "person_id": null,
       "gender": "female",
       "age": null,
+      "economic_status": "comfortable",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "other"],
       "occupation": ["housewife", "farmer"],
       "origin": "Sainct Nabvoir",
       "residence": "Xennenay near Remiremont",
@@ -34,6 +46,7 @@
     {
       "number": 1,
       "name": "Nicolas Estiennon Boudart",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Xennenay",
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Jean Estienne Raon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Xennenay",
@@ -100,6 +114,7 @@
     {
       "number": 3,
       "name": "Bertrand Jacot",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "graniere maire en la chambre du moulin",
@@ -152,6 +167,7 @@
     {
       "number": 4,
       "name": "Jean Demengeon Boudart",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "location": "Xennenay",
@@ -163,6 +179,7 @@
     {
       "number": 5,
       "name": "Marc Olry",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "location": "Xennenay",
@@ -185,6 +202,7 @@
     {
       "number": 6,
       "name": "Thienon Blaise",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "location": "Xennenay",
@@ -213,6 +231,7 @@
     {
       "number": 7,
       "name": "Claudine femme a Jean Boudart",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Xennenay",
@@ -233,6 +252,7 @@
     {
       "number": 8,
       "name": "Jannon femme François Joliot",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Xennenay",
@@ -254,6 +274,7 @@
     {
       "number": 9,
       "name": "Julienne fille de feu Pierot Cordebotte",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "location": "Xennenay",
@@ -291,6 +312,7 @@
     {
       "number": 10,
       "name": "Claudotte femme de Nicolas Boudart",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "location": "Xennenay",
@@ -321,9 +343,11 @@
     {
       "number": 11,
       "name": "Simon le Duc",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "demeurant au gaignage de Meillermont",
+      "location": "Xennenay",
       "testimony": {
         "reputation_mentioned": true,
         "quarrel_mentioned": true,
@@ -350,6 +374,7 @@
     {
       "number": 12,
       "name": "Nicolas Raon",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Xennenay",
@@ -370,6 +395,7 @@
     {
       "number": 13,
       "name": "Jean Raon",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Xennenay",
@@ -398,6 +424,7 @@
     {
       "number": 14,
       "name": "Claudotte veuve Demengeon de Rainfaing",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Xennenay",
@@ -418,6 +445,7 @@
     {
       "number": 15,
       "name": "Jannon femme de Nicolas Raon",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "location": "Xennenay",
@@ -444,9 +472,11 @@
     {
       "number": 16,
       "name": "Colin Demenge Pierre",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "demeurant à la grange de Sainct Estienne les Remiremont",
+      "location": "Xennenay",
       "testimony": {
         "reputation_mentioned": true,
         "reputation_duration_years": 15,
@@ -472,6 +502,7 @@
     {
       "number": 17,
       "name": "Jean fils d'Estienne Colin de la Poirie",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "location": "la Poirie",
@@ -493,6 +524,7 @@
     {
       "number": 18,
       "name": "Jean Toussaint",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "geolier des prisons d'Arches",
@@ -504,6 +536,7 @@
     {
       "number": 19,
       "name": "Nicolas Graniere",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "La Brenche, finage de St. Estienne",
@@ -515,6 +548,7 @@
     {
       "number": 20,
       "name": "Jehan Meullien",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Longuey",
@@ -545,6 +579,7 @@
     {
       "number": 21,
       "name": "Nicolas le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Moulin",
@@ -565,6 +600,7 @@
     {
       "number": 22,
       "name": "Marguerite femme de Nicolas le Clerc",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Moulin",
@@ -575,6 +611,7 @@
     {
       "number": 23,
       "name": "Catherine femme de Bertrand Graniere",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Xennenay",
@@ -594,6 +631,7 @@
     {
       "number": 24,
       "name": "Claudotte femme de Jean Cordebotte",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Xennenay",
@@ -604,6 +642,7 @@
     {
       "number": 25,
       "name": "Claudon Cordebotte",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "location": "Xennenay",
@@ -630,6 +669,7 @@
     {
       "number": 26,
       "name": "Nicolas Demengeon Arnould",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Seuch",
@@ -640,6 +680,7 @@
     {
       "number": 27,
       "name": "Jennon veuve de Colas Jacquel Richard",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "location": "Seuch",
@@ -662,6 +703,7 @@
     {
       "number": 28,
       "name": "Marguerite veuve de Demengeon Blaise Olry",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Xennenay",
@@ -681,6 +723,7 @@
     {
       "number": 29,
       "name": "Thienon fils de feu Jean Rattel",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "location": "Xennenay",
@@ -701,6 +744,7 @@
     {
       "number": 30,
       "name": "Jean fils Thienon Boudart",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Xennenay",
@@ -721,6 +765,7 @@
     {
       "number": 31,
       "name": "Jacotte fille de feu Jacquel Richard",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Seuch",
@@ -2045,6 +2090,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Held at Arches prison, jailer testified she was 'forte robuste' and declared herself ready to die rather than confess. No special treatment from relatives. Complained about wearing old chemise when arrested.",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "First approved torture (31 July 1598). Later postponed decision pending new evidence (16 August 1598). Finally ordered interrogation with torture instruments shown but not applied, with banishment if no confession (17 October 1598).",
+      "local_court_followed": true
+    },
     "appeal_to_change_de_nancy": true,
     "property_confiscation_mentioned": false
   },
@@ -2112,57 +2163,68 @@
   "third_parties": [
     {
       "name": "Demengeon de Ranfaing",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Sold land to Nicolas Estiennon Boudart that was next to Jacotte's house"
     },
     {
       "name": "Thomas Robert",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Owned mare worth 12 ecus that Simon le Duc held and that died"
     },
     {
       "name": "Demenge",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son (deceased)",
       "context": "Jacotte's late son who was present when Bertrand Jacot threatened to burn her"
     },
     {
       "name": "Arnould Meullien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Of Xennenay, died within year after witnessing Nicolas François Raon's theft of crampons d'acier"
     },
     {
       "name": "devineresse",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Passing through village, told that Jacotte poisoned Demengeon Blaise Olry"
     },
     {
       "name": "Jean serviteur of Demenge de Ranfaing",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Paid attentions to Jennon, Jacotte wanted him to marry her daughter (later did)"
     },
     {
       "name": "Martin des Cailles",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Mercier who lived with Demenge de Ranfaing, prevented alleged strangling attempt"
     },
     {
       "name": "Claudon (brother of Demengeon Blaise Olry)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "context": "Told by devineresse that Jacotte poisoned his brother"
     },
     {
       "name": "Marguerite (sister-in-law of Jehan Meullien)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Was weaving in Xennenay, drowned in shallow water after Jacotte's threat"
     },
     {
       "name": "Demenge Colin Thiebauld",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "context": "Brother of Marguerite who drowned"
     },
     {
       "name": "Demenge (son-in-law of Jennon veuve de Colas Jacquel Richard)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Allegedly strangled by Jacotte, her husband, and daughter Epnon; died soon after"
     }
@@ -2171,7 +2233,7 @@
     "extracted_date": "2025-12-15",
     "extractor": "Claude Opus 4.5",
     "confidence": "high",
-    "notes": "Exceptionally detailed trial with 31 witnesses. Jacotte was accused of numerous maleficia over 25-30 years, primarily against neighbors in property and boundary disputes. She maintained innocence throughout, attributing accusations to envy of her family's economic success. She withstood torture and was ultimately banished rather than executed. Notable features: (1) Pattern of threats followed by harms within days/weeks; (2) Many cures allegedly performed by Jacotte visiting sick people and giving them soup/food; (3) Strong economic success theme - she emphasized good household management and children marrying well; (4) 'dame secrette de Remyremont' wrote influential letter urging continued imprisonment; (5) Very high number of animal deaths attributed to her, especially livestock losses after property disputes; (6) Multiple family deaths in witness 9's testimony (stepfather, mother, two brothers within two weeks of mill dispute). Trial lasted nearly 6 months with extensive witness testimony and legal proceedings.",
+    "notes": "Exceptionally detailed trial with 31 witnesses. Jacotte was accused of numerous maleficia over 25-30 years, primarily against neighbors in property and boundary disputes. She maintained innocence throughout, attributing accusations to envy of her family's economic success. She withstood torture and was ultimately banished rather than executed. Notable features: (1) Pattern of threats followed by harms within days/weeks; (2) Many cures allegedly performed by Jacotte visiting sick people and giving them soup/food - she practiced healing; (3) Strong economic success theme - she emphasized good household management and children marrying well, placing her in comfortable economic status; (4) 'dame secrette de Remyremont' wrote influential letter urging continued imprisonment; (5) Very high number of animal deaths attributed to her, especially livestock losses after property disputes; (6) Multiple family deaths in witness 9's testimony (stepfather, mother, two brothers within two weeks of mill dispute). Trial lasted nearly 6 months with extensive witness testimony and legal proceedings. Change de Nancy heavily involved: approved initial torture, postponed decision for more evidence, then modified second torture request to instruments only with banishment if no confession.",
     "pdf_pages": 8
   }
 }

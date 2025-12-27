@@ -1,0 +1,841 @@
+{
+  "trial_id": "w214",
+  "archive_ref": "B 8691 no 3",
+  "location": "Raon",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jennon femme Claudon St Remy",
+    "person_id": null,
+    "relationship_to_accused": "maintained charge at confrontation"
+  },
+  "dates": {
+    "start": "1602-11-18",
+    "end": "1603-01-07",
+    "duration_days": 50
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Alix veuve Demenge Marond",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "origin": "Nossoncourt",
+      "residence": "Raon",
+      "marital_status": "widowed",
+      "spouse_name": "Demenge Marond",
+      "parents": {
+        "father": "Anthoine Jean Jacot",
+        "mother": "Annon"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Anne femme Jean Canot",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Ramberviller",
+      "person_id": null,
+      "gender": "male",
+      "age": 68,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Didier Prevost",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jennon femme Dieudonné Coupechausse",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Jean Martenat",
+            "attributed_to": "Alix veuve Demenge Marond"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Marguitte femme Colas des Mailles",
+      "person_id": null,
+      "gender": "female",
+      "age": 44,
+      "testimony": {
+        "reputation_mentioned": false,
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jehenne femme Jean le Martenatte",
+            "attributed_to": "Alix veuve Demenge Marond",
+            "time_after_quarrel": "a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "François Louy",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Alizon femme Demenge Remy",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "if he found her in house he would kill her with a cudgel",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Alizon femme Colas Liebault",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "Alizon fille feu Claudon Chassel",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Alizon femme Didier Bandeça",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt of 3 sols",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "small son",
+            "target_relationship": "son of witness",
+            "attributed_to": "Alix veuve Demenge Marond",
+            "time_after_quarrel": "previous summer"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Catherine femme Maurice Mongeon",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Colas Jean Peltre",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudon Cordier",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claude Marchaux",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "sweeping and making dust",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child of Claude Marchaux",
+            "target_relationship": "child of witness",
+            "attributed_to": "Alix veuve Demenge Marond"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jean le Martenatte",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "telling her not to 'faire la glorieuse'",
+        "threat_received": true,
+        "threat_quote": "she would not long live in the house with the witness",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jehenne (second wife of Jean le Martenatte)",
+            "target_relationship": "wife of witness",
+            "attributed_to": "Alix veuve Demenge Marond",
+            "time_after_quarrel": "next day, languished 2 years"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jennon femme Colas Barrey",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Marguitte veuve Jacques Charpentier",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Marguitte femme Chrestofle l'Huillier",
+      "person_id": null,
+      "gender": "female",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 2,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Anne femme Claude Marchant",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Jean la Martenatte",
+            "attributed_to": "Alix veuve Demenge Marond"
+          },
+          {
+            "type": "human_death",
+            "target": "one of husband's children by first marriage",
+            "attributed_to": "Alix veuve Demenge Marond"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Claudatte femme Jacquat Louy",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "noise from house around midnight",
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-11-18",
+      "event": "informations_preparatoires",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "20 witnesses testified"
+    },
+    {
+      "date": "1602-12-12",
+      "event": "interrogation",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "Denied all charges except quarrels with Jean la Martenat and Didier Prevost"
+    },
+    {
+      "date": "1602-12-13",
+      "event": "confrontation",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "No reproaches to witnesses"
+    },
+    {
+      "date": "1602-12-18",
+      "event": "torture_approved",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "Change de Nancy recommends threatening with instruments, torture only if she starts to confess"
+    },
+    {
+      "date": "1602-12-21",
+      "event": "interrogation",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "Made no admissions despite threats"
+    },
+    {
+      "date": "1602-12-31",
+      "event": "sentence",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "Change de Nancy orders that she be renvoyée (released)"
+    },
+    {
+      "date": "1603-01-07",
+      "event": "other",
+      "subject": "Alix veuve Demenge Marond",
+      "details": "Released from prison"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "requesting_official": "local court",
+    "approving_court": "Change de Nancy",
+    "restrictions": "only tortured if she starts to confess"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "wife of Jean Martenat",
+      "harm_category": "human_death",
+      "harm_description": "suspected killing",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jehenne femme Jean le Martenatte",
+      "harm_category": "human_death",
+      "harm_description": "fatal illness after quarrel, languished 2 years",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "precipitating_quarrel": "told not to 'faire la glorieuse', would not long live in the house",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Jehenne (second wife of Jean le Martenatte)",
+      "harm_category": "human_death",
+      "harm_description": "fell ill next day, languished for 2 years until death",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "precipitating_quarrel": "quarrelled violently, told her not to 'faire la glorieuse'",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "small son of Alizon femme Didier Bandeça",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "ill",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "precipitating_quarrel": "debt of 3 sols",
+      "time_between_quarrel_and_harm": "previous summer",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "child of Claude Marchaux",
+      "victim_relationship_to_witness": "child of witness",
+      "harm_category": "human_death",
+      "harm_description": "death of child",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "wife of Jean la Martenatte",
+      "harm_category": "human_death",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "one of husband's children by first marriage",
+      "harm_category": "human_death",
+      "attributed_to": "Alix veuve Demenge Marond",
+      "witness_number": 19
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "Demenge Marond",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Alix veuve Demenge Marond",
+      "inferred": false
+    },
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "Anthoine Jean Jacot",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father was Anthoine Jean Jacot",
+      "inferred": false
+    },
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "Annon",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother Annon",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Jean Canot",
+      "person2": "Jean Canot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Jean Canot",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Dieudonné Coupechausse",
+      "person2": "Dieudonné Coupechausse",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Dieudonné Coupechausse",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Colas des Mailles",
+      "person2": "Colas des Mailles",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte femme Colas des Mailles",
+      "inferred": false
+    },
+    {
+      "person1": "Alizon femme Demenge Remy",
+      "person2": "Demenge Remy",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Demenge Remy",
+      "inferred": false
+    },
+    {
+      "person1": "Alizon femme Colas Liebault",
+      "person2": "Colas Liebault",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Colas Liebault",
+      "inferred": false
+    },
+    {
+      "person1": "Alizon fille feu Claudon Chassel",
+      "person2": "Claudon Chassel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon fille feu Claudon Chassel",
+      "inferred": false
+    },
+    {
+      "person1": "Alizon femme Didier Bandeça",
+      "person2": "Didier Bandeça",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Didier Bandeça",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Maurice Mongeon",
+      "person2": "Maurice Mongeon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Maurice Mongeon",
+      "inferred": false
+    },
+    {
+      "person1": "Jean le Martenatte",
+      "person2": "Jehenne",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "his second wife Jehenne",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Colas Barrey",
+      "person2": "Colas Barrey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Colas Barrey",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte veuve Jacques Charpentier",
+      "person2": "Jacques Charpentier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte veuve Jacques Charpentier",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Chrestofle l'Huillier",
+      "person2": "Chrestofle l'Huillier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte femme Chrestofle l'Huillier",
+      "inferred": false
+    },
+    {
+      "person1": "Anne femme Claude Marchant",
+      "person2": "Claude Marchant",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Claude Marchant",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Jacquat Louy",
+      "person2": "Jacquat Louy",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme Jacquat Louy",
+      "inferred": false
+    },
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "Jean le Martenatte",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "quarrelled with Jean la Martenat, he gave her bad name years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "Didier Prevost",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "quarrels with Didier Prevost and his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "Didier Bandeça",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "she was often asking husband for payment of debt of 3 sols",
+      "inferred": false
+    },
+    {
+      "person1": "Alix veuve Demenge Marond",
+      "person2": "clerc juré",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "she was in household of clerc juré as young woman",
+      "inferred": false
+    }
+  ],
+  "third_parties": [
+    {
+      "name": "Jean Martenat",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "antagonist",
+      "context": "Jean Martenat had often told witness 4 he suspected Alix had killed his wife"
+    },
+    {
+      "name": "Jehenne femme Jean le Martenatte",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "victim of alleged maleficium",
+      "context": "Jean le Martenatte's second wife who fell ill and died after quarrel with accused"
+    },
+    {
+      "name": "Idoult Vigneron",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Consulted diviner at Tanviller who identified Alix among witches of Raon, mentioned by multiple witnesses"
+    },
+    {
+      "name": "late wife of Jean Poulain of la Neufville",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Told Jean le Martenatte that accused was cause of his wife's death and was already a witch when young"
+    },
+    {
+      "name": "clerc juré",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "former employer",
+      "context": "Alix worked in his household as a young woman"
+    },
+    {
+      "name": "Jennon femme Claudon St Remy",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "The formal accuser who had been accused of witchcraft, mentioned in witness 9 testimony"
+    },
+    {
+      "name": "la grosse Marie",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Mentioned by witness 9 as someone people thought should have been arrested"
+    },
+    {
+      "name": "devineresse at Tanviller",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Diviner consulted by Idoult Vigneron who identified witches in Raon"
+    }
+  ],
+  "economic_context": {
+    "debt_disputes": true,
+    "details": "Accused was owed 3 sols by husband of witness 10 (Didier Bandeça) and was often asking for payment"
+  },
+  "spatial_references": [
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Location of trial and residence of accused for 34 years"
+    },
+    {
+      "place_name": "Nossoncourt",
+      "place_type": "village",
+      "context": "Place of origin of accused"
+    },
+    {
+      "place_name": "Tanviller",
+      "place_type": "village",
+      "context": "Location of diviner consulted by Idoult Vigneron"
+    },
+    {
+      "place_name": "la Neufville",
+      "place_type": "village",
+      "context": "Home of Jean Poulain and his late wife"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean le Martenatte",
+      "french": "faire la glorieuse",
+      "context": "What he told his wife not to do during quarrel with accused"
+    },
+    {
+      "speaker": "Jean le Martenatte",
+      "french": "she would not long live in the house with the witness",
+      "context": "Threat/prediction accused made to his wife during quarrel"
+    },
+    {
+      "speaker": "Alizon fille feu Claudon Chassel",
+      "french": "qu'elle craindoit bien de sa part d'avoir ung chabot de ce que ladite Jennon alloit ordinairement aupres d'elle",
+      "context": "Witness 9 discussing fear of being given a bad name (chabot) because Jennon went to see her"
+    },
+    {
+      "speaker": "Alix veuve Demenge Marond",
+      "french": "qu'on luy baille un chabot",
+      "english": "when giving someone a bad name",
+      "context": "Accused explaining the word 'chabot' during interrogation"
+    },
+    {
+      "speaker": "Alix veuve Demenge Marond",
+      "context": "Reply to witness about sweeping: said she was not a witch to make so much dust"
+    }
+  ],
+  "legal_context": {
+    "officials_named": [
+      {
+        "role": "clerc_jure",
+        "location": "Raon"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Recommended threatening with instruments but only torturing if she starts to confess",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 4,
+    "hearsay_testimony_count": 16,
+    "hearsay_chains": [
+      {
+        "reporter": "Jennon femme Dieudonné Coupechausse",
+        "source": "Jean Martenat",
+        "content": "Jean Martenat had often told her he suspected Alix had killed his wife"
+      },
+      {
+        "reporter": "Marguitte femme Colas des Mailles",
+        "source": "Jehenne femme Jean le Martenatte",
+        "content": "often heard her say that Alix had given her the illness"
+      },
+      {
+        "reporter": "Alizon femme Demenge Remy",
+        "source": "Jean le Martenatte",
+        "content": "he had said that if he found her in house he would kill her with a cudgel"
+      },
+      {
+        "reporter": "Alizon femme Didier Bandeça",
+        "source": "Alix veuve Demenge Marond",
+        "content": "Had heard her say that reputation came from 'mechant homme' Jean de Martenatte"
+      },
+      {
+        "reporter": "Claude Marchaux",
+        "source": "Idoult Vigneron",
+        "content": "he had been to consult devineresse at Tanviller, who told him she had caused death of a child"
+      },
+      {
+        "reporter": "Jean le Martenatte",
+        "source": "late wife of Jean Poulain of la Neufville",
+        "content": "there was nothing so certain as that accused was cause of wife's death, and that she was already a witch when young"
+      },
+      {
+        "reporter": "Anne femme Claude Marchant",
+        "source": "Idoult Vigneron",
+        "content": "he had been to the devin, who had shown him all the witches of Raon, Alix among them"
+      }
+    ],
+    "oldest_accusation_years": 10,
+    "corroboration_groups": [
+      [4, 5, 7, 15, 16],
+      [14, 19]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [],
+    "reproaches_to_witnesses": []
+  },
+  "prior_accusations": [
+    {
+      "accuser_name": "late wife of Jean Poulain of la Neufville",
+      "context": "Said she was already a witch when she was in household of clerc juré as young woman"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "Trial w214: Alix Marond, widow from Raon accused by Jennon femme Claudon St Remy. 20 witnesses testified about her reputation (2-10 years). Main accusations centered on death of Jean le Martenatte's wife after quarrel. Accused denied all charges. Change de Nancy recommended conditional torture but ultimately ordered release. Released January 7, 1603 after 50 days.",
+    "pdf_pages": 3
+  }
+}

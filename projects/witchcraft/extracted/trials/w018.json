@@ -3,6 +3,14 @@
   "archive_ref": "B 2583 no 4",
   "location": "l'Estraye",
   "court": "Court at Arches",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "substitut for prévôt at Arches",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Arches",
+    "relationship_to_accused": "official prosecutor"
+  },
   "dates": {
     "start": "1624-08-04",
     "end": "1624-09-17",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Mengeotte femme Nicolas Colombain",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "l'Estraye",
       "marital_status": "married",
       "spouse_name": "Nicolas Colombain",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "mother": "mother from Bresse (suspected witch)"
       },
@@ -57,6 +69,7 @@
     {
       "number": 1,
       "name": "Bastien Houat",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": null,
@@ -78,6 +91,7 @@
     {
       "number": 2,
       "name": "Mre Pierre Roucelot",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "tabellion (notary)",
@@ -99,6 +113,7 @@
     {
       "number": 3,
       "name": "Demenge Lamouratte",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -120,6 +135,7 @@
     {
       "number": 4,
       "name": "Jean Mongin dit Haxat",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -149,6 +165,7 @@
     {
       "number": 5,
       "name": "George Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": null,
@@ -178,6 +195,7 @@
     {
       "number": 6,
       "name": "Nicolas Grand Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 63,
       "occupation": null,
@@ -199,6 +217,7 @@
     {
       "number": 7,
       "name": "Remiere femme Nicolas Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -220,6 +239,7 @@
     {
       "number": 8,
       "name": "Didiere femme Demenge Jacques",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -249,6 +269,7 @@
     {
       "number": 9,
       "name": "Nicole femme Demenge Thiebault Lamouratte",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -270,6 +291,7 @@
     {
       "number": 10,
       "name": "Martin Jacques",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -291,6 +313,7 @@
     {
       "number": 11,
       "name": "Mengeon fille Nicolas Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 18,
       "occupation": null,
@@ -320,6 +343,7 @@
     {
       "number": 12,
       "name": "Barbe femme Remy Choffel",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -341,6 +365,7 @@
     {
       "number": 13,
       "name": "Magdelaine fille Nicolas Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 17,
       "occupation": null,
@@ -370,6 +395,7 @@
     {
       "number": 14,
       "name": "Jean Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -391,6 +417,7 @@
     {
       "number": 15,
       "name": "Catherine femme Delon Choffel",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -412,6 +439,7 @@
     {
       "number": 16,
       "name": "Mathieu Mathieu",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -441,6 +469,7 @@
     {
       "number": 17,
       "name": "Colatte femme Jean Demenge",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -462,6 +491,7 @@
     {
       "number": 18,
       "name": "Anne femme Romain Thiebault Lamouratte",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -483,6 +513,7 @@
     {
       "number": 19,
       "name": "Jean Venin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "cordonnier (shoemaker)",
@@ -504,6 +535,7 @@
     {
       "number": 20,
       "name": "Remy Choffel",
+      "person_id": null,
       "gender": "male",
       "age": 41,
       "occupation": null,
@@ -540,6 +572,7 @@
     {
       "number": 21,
       "name": "Nicolas fils Demenge Lamouratte",
+      "person_id": null,
       "gender": "male",
       "age": 15,
       "occupation": null,
@@ -561,6 +594,7 @@
     {
       "number": 22,
       "name": "Estienne fils Jean Haxart",
+      "person_id": null,
       "gender": "male",
       "age": 9,
       "occupation": null,
@@ -582,6 +616,7 @@
     {
       "number": 23,
       "name": "Claudon fils Jean Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 11,
       "occupation": null,
@@ -618,6 +653,7 @@
     {
       "number": 24,
       "name": "Mongeotte femme Remy Claude Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -647,6 +683,7 @@
     {
       "number": 25,
       "name": "Mongeotte fille Nicolas Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 13,
       "occupation": null,
@@ -668,6 +705,7 @@
     {
       "number": 26,
       "name": "Marie fille Jean Colin",
+      "person_id": null,
       "gender": "female",
       "age": 10,
       "occupation": null,
@@ -697,6 +735,7 @@
     {
       "number": 27,
       "name": "Claudon fils Vincent Choffel",
+      "person_id": null,
       "gender": "male",
       "age": 16,
       "occupation": null,
@@ -718,6 +757,7 @@
     {
       "number": 28,
       "name": "Nicolas Barthremin le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": null,
@@ -747,6 +787,7 @@
     {
       "number": 29,
       "name": "Remy Claude Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -768,6 +809,7 @@
     {
       "number": 30,
       "name": "Nicolas Barthremin le viel",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": null,
@@ -789,6 +831,7 @@
     {
       "number": 31,
       "name": "Mongeotte femme Joseph Claudel Dirhay",
+      "person_id": null,
       "gender": "female",
       "age": 29,
       "occupation": null,
@@ -818,6 +861,7 @@
     {
       "number": 32,
       "name": "Royne femme Remy Martin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -847,6 +891,7 @@
     {
       "number": 33,
       "name": "Remy Martin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -876,6 +921,7 @@
     {
       "number": 34,
       "name": "Remy Demenge Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -1935,7 +1981,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Son Jean was interrogated and offered food (white bread, meat, parsnips) during questioning; told his family they wanted to hang him with leather strap to make him talk",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -2055,6 +2106,7 @@
   "third_parties": [
     {
       "name": "Chretienne Parmentier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother-in-law",
       "relationship_to_witness": null,
@@ -2062,6 +2114,7 @@
     },
     {
       "name": "Nicolas (son of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -2069,6 +2122,7 @@
     },
     {
       "name": "Jean (son of accused, age 12)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -2076,6 +2130,7 @@
     },
     {
       "name": "Claire (daughter of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -2083,6 +2138,7 @@
     },
     {
       "name": "Mongeotte (daughter of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -2090,6 +2146,7 @@
     },
     {
       "name": "little girl who could not walk (daughter of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -2097,6 +2154,7 @@
     },
     {
       "name": "Claudine Houat (age 10)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness Bastien Houat",
@@ -2104,6 +2162,7 @@
     },
     {
       "name": "Marie (sister of George Parmentier)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 5",
@@ -2111,6 +2170,7 @@
     },
     {
       "name": "Mengeotte Bourgman",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2118,6 +2178,7 @@
     },
     {
       "name": "Romain Thiebault",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2125,6 +2186,7 @@
     },
     {
       "name": "Arnoult Martin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2132,6 +2194,7 @@
     },
     {
       "name": "Remiere fille de Richard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2139,6 +2202,7 @@
     },
     {
       "name": "Remy Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2146,6 +2210,7 @@
     },
     {
       "name": "gruyer's son",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2153,6 +2218,7 @@
     },
     {
       "name": "Bastien Houat's late father",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "had wanted to marry her",
       "relationship_to_witness": "father of witness 1",

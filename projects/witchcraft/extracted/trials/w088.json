@@ -3,6 +3,14 @@
   "archive_ref": "B 4569 no 1",
   "location": "Neufchateau",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "maire et échevins of Neufchateau",
+    "person_id": null,
+    "occupation": "mayor",
+    "location": "Neufchateau",
+    "relationship_to_accused": "local officials responding to notorious reputation"
+  },
   "dates": {
     "start": "1609-08-03",
     "end": "1609-09-20",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Huguette Couroyeur",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "charms_amulets", "other"],
       "occupation": [],
       "origin": "Neufchateau",
       "residence": "Neufchateau",
@@ -47,6 +59,7 @@
     {
       "number": 1,
       "name": "Claude Meurot",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "occupation": "bouchier (butcher)",
@@ -74,6 +87,7 @@
     {
       "number": 2,
       "name": "Jean Francois",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "l'un des jurés en ladite justice (sworn juror in justice)",
@@ -101,6 +115,7 @@
     {
       "number": 3,
       "name": "Claude Daguenel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "tisserand (weaver)",
@@ -144,6 +159,7 @@
     {
       "number": 4,
       "name": "Jeanne (femme à Demengel Hacoet)",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -171,6 +187,7 @@
     {
       "number": 5,
       "name": "Nicolle (veuve Blaise Voiry)",
+      "person_id": null,
       "gender": "female",
       "age": 58,
       "occupation": null,
@@ -190,6 +207,7 @@
     {
       "number": 6,
       "name": "Clairon (femme à Claude Mourut)",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -216,6 +234,7 @@
     {
       "number": 7,
       "name": "Demenge Hacoet",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "bouchier (butcher) and juré de la justice",
@@ -244,6 +263,7 @@
     {
       "number": 8,
       "name": "Florentin Drouot",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "tisserand (weaver)",
@@ -279,6 +299,7 @@
     {
       "number": 9,
       "name": "Alix (fille de deffunt Claudin Regnault)",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -306,6 +327,7 @@
     {
       "number": 10,
       "name": "Barbe (fille de feu Jean de Bitel)",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": "servant",
@@ -988,7 +1010,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "held in prison with no communication; devil allegedly visited her in prison",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture on 4 September 1609 'with moderation appropriate to her age'; approved death sentence on 17 September 1609",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1047,6 +1074,7 @@
   "third_parties": [
     {
       "name": "servant of Claude Meurot",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "employed by witness",
@@ -1054,6 +1082,7 @@
     },
     {
       "name": "Idotte (wife of Jean Thellegrain)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "knew her reputation",
       "relationship_to_witness": "aunt of Jean Francois",
@@ -1061,6 +1090,7 @@
     },
     {
       "name": "Symon Sallet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "offered to lend money",
       "relationship_to_witness": null,
@@ -1068,6 +1098,7 @@
     },
     {
       "name": "servant of Hacoet household",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "persuaded her to help",
       "relationship_to_witness": "employed by witness",
@@ -1075,6 +1106,7 @@
     },
     {
       "name": "wife of Florentin Drouot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "Huguette spun in house",
       "relationship_to_witness": "wife of witness",
@@ -1082,6 +1114,7 @@
     },
     {
       "name": "daughter of sr. Debaucourt",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of Barbe's employer",
@@ -1089,6 +1122,7 @@
     },
     {
       "name": "Margueritte (veuve Nicolas Francois)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "named as accomplice",
       "relationship_to_witness": null,
@@ -1096,6 +1130,7 @@
     },
     {
       "name": "la Cuissotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "named as accomplice",
       "relationship_to_witness": null,
@@ -1103,6 +1138,7 @@
     },
     {
       "name": "Mere Anne (la mere d'Anne du Pasnier)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "named as accomplice",
       "relationship_to_witness": null,
@@ -1110,6 +1146,7 @@
     },
     {
       "name": "Barbe (veuve Nicolas le Foulx)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "named as accomplice",
       "relationship_to_witness": null,
@@ -1117,6 +1154,7 @@
     },
     {
       "name": "8 children of Huguette and Jean Courgyeur",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children (all deceased)",
       "relationship_to_witness": null,

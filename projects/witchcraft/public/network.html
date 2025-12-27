@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorraine Witch Trials - Social Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            overflow: hidden;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #sidebar {
+            width: 300px;
+            background: #16213e;
+            padding: 20px;
+            overflow-y: auto;
+            border-right: 1px solid #0f3460;
+        }
+
+        #graph {
+            flex: 1;
+            position: relative;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: #e94560;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+            margin: 20px 0 10px;
+            color: #0f3460;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #0f3460;
+            padding-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 0.75rem;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #0f3460;
+        }
+
+        .stat-value {
+            color: #e94560;
+            font-weight: bold;
+        }
+
+        .filter-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.8rem;
+            margin-bottom: 5px;
+            color: #aaa;
+        }
+
+        select, input[type="range"] {
+            width: 100%;
+            padding: 8px;
+            background: #0f3460;
+            border: 1px solid #1a1a2e;
+            color: #eee;
+            border-radius: 4px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.75rem;
+            background: #0f3460;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .checkbox-item:hover {
+            background: #1a1a2e;
+        }
+
+        .checkbox-item input {
+            margin: 0;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            padding: 4px 6px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .legend-item:hover {
+            background: #0f3460;
+        }
+
+        .legend-item.active {
+            background: #0f3460;
+            outline: 1px solid #e94560;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background: #e94560;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        button:hover {
+            background: #ff6b6b;
+        }
+
+        button.secondary {
+            background: #0f3460;
+        }
+
+        button.secondary:hover {
+            background: #16213e;
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(22, 33, 62, 0.95);
+            border: 1px solid #e94560;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            pointer-events: none;
+            display: none;
+            max-width: 300px;
+            z-index: 1000;
+        }
+
+        #tooltip h3 {
+            color: #e94560;
+            margin-bottom: 5px;
+        }
+
+        #tooltip .detail {
+            color: #aaa;
+            margin: 2px 0;
+        }
+
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        #loading .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid #0f3460;
+            border-top-color: #e94560;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .range-value {
+            text-align: right;
+            font-size: 0.75rem;
+            color: #e94560;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>Lorraine Witch Trials</h1>
+            <div class="subtitle">Social Network Visualization</div>
+
+            <div id="stats">
+                <div class="stat">
+                    <span>Nodes</span>
+                    <span class="stat-value" id="node-count">-</span>
+                </div>
+                <div class="stat">
+                    <span>Edges</span>
+                    <span class="stat-value" id="edge-count">-</span>
+                </div>
+                <div class="stat">
+                    <span>Trials</span>
+                    <span class="stat-value" id="trial-count">-</span>
+                </div>
+            </div>
+
+            <h2>Filters</h2>
+
+            <div class="filter-group">
+                <label>Time Period</label>
+                <input type="range" id="year-min" min="1580" max="1650" value="1580">
+                <div class="range-value"><span id="year-min-val">1580</span> - <span id="year-max-val">1650</span></div>
+                <input type="range" id="year-max" min="1580" max="1650" value="1650">
+            </div>
+
+            <div class="filter-group">
+                <label>Node Types</label>
+                <div class="checkbox-group" id="node-type-filters"></div>
+            </div>
+
+            <div class="filter-group">
+                <label>Edge Types</label>
+                <div class="checkbox-group" id="edge-type-filters"></div>
+            </div>
+
+            <div class="filter-group">
+                <label>Max Nodes (performance)</label>
+                <input type="range" id="max-nodes" min="100" max="5000" value="1000" step="100">
+                <div class="range-value"><span id="max-nodes-val">1000</span> nodes</div>
+            </div>
+
+            <button id="apply-filters">Apply Filters</button>
+            <button id="reset-filters" class="secondary">Reset</button>
+
+            <h2>Node Types</h2>
+            <div style="font-size: 0.7rem; color: #666; margin-bottom: 8px;">Click to highlight</div>
+            <div class="legend" id="legend"></div>
+
+            <h2>Edge Types</h2>
+            <div style="font-size: 0.7rem; color: #666; margin-bottom: 8px;">Click to highlight</div>
+            <div class="legend" id="edge-legend"></div>
+
+            <h2>Selected Node</h2>
+            <div id="selected-info">Click a node to see details</div>
+        </div>
+
+        <div id="graph">
+            <div id="loading">
+                <div class="spinner"></div>
+                <div>Loading network data...</div>
+            </div>
+            <canvas id="canvas"></canvas>
+            <div id="tooltip"></div>
+        </div>
+    </div>
+
+    <script>
+        // Color schemes
+        const nodeColors = {
+            accused: '#e94560',
+            witness: '#4a9eff',
+            victim: '#ffc107',
+            formal_accuser: '#9c27b0',
+            third_party: '#4caf50',
+            named_accomplice: '#ff5722'
+        };
+
+        // Node sizes by type
+        const nodeSizes = {
+            accused: 10,
+            formal_accuser: 8,
+            victim: 6,
+            witness: 5,
+            third_party: 5,
+            named_accomplice: 6
+        };
+
+        // Highlighted type (null = none)
+        let highlightedType = null;
+        let highlightedEdgeType = null;
+
+        // Edge line styles by category
+        const edgeStyles = {
+            // Accusation/testimony - solid
+            testified_against: { dash: [], width: 1.5 },
+            formally_accused: { dash: [], width: 2 },
+            allegedly_harmed: { dash: [], width: 1.5 },
+            named_as_accomplice: { dash: [], width: 2 },
+            // Family - dashed
+            spouse_of: { dash: [6, 3], width: 1.5 },
+            child_of: { dash: [6, 3], width: 1 },
+            parent_of: { dash: [6, 3], width: 1 },
+            sibling_of: { dash: [6, 3], width: 1 },
+            widow_of: { dash: [6, 3], width: 1 },
+            // Social - dotted
+            neighbor_of: { dash: [2, 2], width: 1 },
+            servant_of: { dash: [2, 2], width: 1 },
+            employer_of: { dash: [2, 2], width: 1 },
+            default: { dash: [3, 3], width: 1 }
+        };
+
+        const edgeColors = {
+            testified_against: '#4a9eff',
+            allegedly_harmed: '#ffc107',
+            formally_accused: '#9c27b0',
+            named_as_accomplice: '#ff5722',
+            spouse_of: '#e91e63',
+            child_of: '#00bcd4',
+            parent_of: '#00bcd4',
+            sibling_of: '#8bc34a',
+            neighbor_of: '#607d8b',
+            default: '#444'
+        };
+
+        // State
+        let fullData = null;
+        let filteredData = null;
+        let simulation = null;
+        let transform = d3.zoomIdentity;
+        let selectedNode = null;
+        let hoveredNode = null;
+
+        // Canvas setup
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const tooltip = document.getElementById('tooltip');
+
+        function resizeCanvas() {
+            const container = document.getElementById('graph');
+            canvas.width = container.clientWidth;
+            canvas.height = container.clientHeight;
+        }
+
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('../outputs/network_complete.json');
+                fullData = await response.json();
+
+                document.getElementById('loading').style.display = 'none';
+
+                // Update stats
+                document.getElementById('node-count').textContent = fullData.nodes.length.toLocaleString();
+                document.getElementById('edge-count').textContent = fullData.edges.length.toLocaleString();
+                document.getElementById('trial-count').textContent = fullData.metadata.trials_processed;
+
+                // Build filter UI
+                buildFilterUI();
+                buildLegend();
+
+                // Apply initial filter (limited nodes for performance)
+                applyFilters();
+
+            } catch (error) {
+                document.getElementById('loading').innerHTML = `
+                    <div style="color: #e94560;">Error loading data</div>
+                    <div style="font-size: 0.8rem; margin-top: 10px;">${error.message}</div>
+                `;
+            }
+        }
+
+        function buildFilterUI() {
+            // Node type filters
+            const nodeTypeContainer = document.getElementById('node-type-filters');
+            Object.keys(fullData.metadata.node_types).forEach(type => {
+                const count = fullData.metadata.node_types[type];
+                const label = document.createElement('label');
+                label.className = 'checkbox-item';
+                label.innerHTML = `
+                    <input type="checkbox" value="${type}" checked>
+                    <span style="color: ${nodeColors[type] || '#888'}">${type}</span>
+                    <span style="color: #666">(${count})</span>
+                `;
+                nodeTypeContainer.appendChild(label);
+            });
+
+            // Edge type filters - show top types plus essential ones
+            const edgeTypeContainer = document.getElementById('edge-type-filters');
+
+            // Essential edge types that must always be shown
+            const essentialEdgeTypes = ['testified_against', 'formally_accused', 'allegedly_harmed', 'named_as_accomplice'];
+
+            // Get top edge types by count
+            const sortedEdgeTypes = Object.entries(fullData.metadata.edge_types)
+                .sort((a, b) => b[1] - a[1]);
+
+            // Combine essential + top types, removing duplicates
+            const edgeTypesToShow = [...new Set([
+                ...essentialEdgeTypes,
+                ...sortedEdgeTypes.slice(0, 10).map(([type]) => type)
+            ])];
+
+            edgeTypesToShow.forEach(type => {
+                const count = fullData.metadata.edge_types[type] || 0;
+                const label = document.createElement('label');
+                label.className = 'checkbox-item';
+                label.innerHTML = `
+                    <input type="checkbox" value="${type}" checked>
+                    <span>${type.replace(/_/g, ' ')}</span>
+                `;
+                edgeTypeContainer.appendChild(label);
+            });
+        }
+
+        function buildLegend() {
+            // Node legend
+            const legend = document.getElementById('legend');
+            Object.entries(nodeColors).forEach(([type, color]) => {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.dataset.type = type;
+                item.innerHTML = `
+                    <div class="legend-color" style="background: ${color}"></div>
+                    <span>${type.replace(/_/g, ' ')}</span>
+                `;
+                item.addEventListener('click', () => {
+                    // Toggle highlight (clear edge highlight too)
+                    highlightedEdgeType = null;
+                    document.querySelectorAll('#edge-legend .legend-item').forEach(li => li.classList.remove('active'));
+
+                    if (highlightedType === type) {
+                        highlightedType = null;
+                        item.classList.remove('active');
+                    } else {
+                        highlightedType = type;
+                        document.querySelectorAll('#legend .legend-item').forEach(li => li.classList.remove('active'));
+                        item.classList.add('active');
+                    }
+                    if (filteredData?.simulationNodes) {
+                        render(filteredData.simulationNodes, filteredData.simulationEdges);
+                    }
+                });
+                legend.appendChild(item);
+            });
+
+            // Edge legend
+            const edgeLegend = document.getElementById('edge-legend');
+            const mainEdgeTypes = ['testified_against', 'allegedly_harmed', 'formally_accused', 'named_as_accomplice', 'spouse_of', 'child_of', 'neighbor_of'];
+
+            mainEdgeTypes.forEach(type => {
+                const color = edgeColors[type] || edgeColors.default;
+                const style = edgeStyles[type] || edgeStyles.default;
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.dataset.edgeType = type;
+
+                // Create SVG line preview
+                const dashArray = style.dash.length ? style.dash.join(',') : 'none';
+                item.innerHTML = `
+                    <svg width="20" height="12" style="flex-shrink: 0;">
+                        <line x1="0" y1="6" x2="20" y2="6"
+                              stroke="${color}"
+                              stroke-width="${Math.min(style.width * 1.5, 3)}"
+                              stroke-dasharray="${dashArray === 'none' ? '' : dashArray}"/>
+                    </svg>
+                    <span>${type.replace(/_/g, ' ')}</span>
+                `;
+                item.addEventListener('click', () => {
+                    // Toggle edge highlight (clear node highlight too)
+                    highlightedType = null;
+                    document.querySelectorAll('#legend .legend-item').forEach(li => li.classList.remove('active'));
+
+                    if (highlightedEdgeType === type) {
+                        highlightedEdgeType = null;
+                        item.classList.remove('active');
+                    } else {
+                        highlightedEdgeType = type;
+                        document.querySelectorAll('#edge-legend .legend-item').forEach(li => li.classList.remove('active'));
+                        item.classList.add('active');
+                    }
+                    if (filteredData?.simulationNodes) {
+                        render(filteredData.simulationNodes, filteredData.simulationEdges);
+                    }
+                });
+                edgeLegend.appendChild(item);
+            });
+        }
+
+        function applyFilters() {
+            const yearMin = parseInt(document.getElementById('year-min').value);
+            const yearMax = parseInt(document.getElementById('year-max').value);
+            const maxNodes = parseInt(document.getElementById('max-nodes').value);
+
+            // Get selected node types
+            const nodeTypeChecks = document.querySelectorAll('#node-type-filters input:checked');
+            const selectedNodeTypes = new Set(Array.from(nodeTypeChecks).map(c => c.value));
+
+            // Get selected edge types
+            const edgeTypeChecks = document.querySelectorAll('#edge-type-filters input:checked');
+            const selectedEdgeTypes = new Set(Array.from(edgeTypeChecks).map(c => c.value));
+
+            // Filter nodes
+            let filteredNodes = fullData.nodes.filter(n => {
+                if (!selectedNodeTypes.has(n.type)) return false;
+                if (n.year && (n.year < yearMin || n.year > yearMax)) return false;
+                return true;
+            });
+
+            // Limit nodes if needed - smarter approach:
+            // Include accused + their direct connections, up to maxNodes
+            if (filteredNodes.length > maxNodes) {
+                const accused = filteredNodes.filter(n => n.type === 'accused');
+                const nonAccused = filteredNodes.filter(n => n.type !== 'accused');
+
+                // Build a set of node IDs that connect to accused
+                const accusedIds = new Set(accused.map(n => n.id));
+                const connectedToAccused = new Set();
+
+                fullData.edges.forEach(e => {
+                    const sourceId = e.source.id || e.source;
+                    const targetId = e.target.id || e.target;
+                    if (accusedIds.has(sourceId)) connectedToAccused.add(targetId);
+                    if (accusedIds.has(targetId)) connectedToAccused.add(sourceId);
+                });
+
+                // Prioritize non-accused nodes that connect to accused
+                const connected = nonAccused.filter(n => connectedToAccused.has(n.id));
+                const unconnected = nonAccused.filter(n => !connectedToAccused.has(n.id));
+
+                const remainingSlots = maxNodes - accused.length;
+                filteredNodes = [
+                    ...accused,
+                    ...connected.slice(0, remainingSlots),
+                    ...unconnected.slice(0, Math.max(0, remainingSlots - connected.length))
+                ].slice(0, maxNodes);
+            }
+
+            const nodeIds = new Set(filteredNodes.map(n => n.id));
+
+            // Filter edges
+            const filteredEdges = fullData.edges.filter(e => {
+                if (!selectedEdgeTypes.has(e.type)) return false;
+                const sourceId = e.source.id || e.source;
+                const targetId = e.target.id || e.target;
+                if (!nodeIds.has(sourceId)) return false;
+                if (!nodeIds.has(targetId)) return false;
+                return true;
+            });
+
+            filteredData = {
+                nodes: filteredNodes,
+                edges: filteredEdges
+            };
+
+            // Update display counts
+            document.getElementById('node-count').textContent =
+                `${filteredNodes.length.toLocaleString()} / ${fullData.nodes.length.toLocaleString()}`;
+            document.getElementById('edge-count').textContent =
+                `${filteredEdges.length.toLocaleString()} / ${fullData.edges.length.toLocaleString()}`;
+
+            runSimulation();
+        }
+
+        function runSimulation() {
+            if (simulation) simulation.stop();
+
+            // Deep copy nodes for simulation
+            const nodes = filteredData.nodes.map(n => ({...n}));
+            const nodeMap = new Map(nodes.map(n => [n.id, n]));
+
+            // Map edges to node references
+            const edges = filteredData.edges
+                .map(e => ({
+                    ...e,
+                    source: nodeMap.get(e.source) || nodeMap.get(e.source?.id),
+                    target: nodeMap.get(e.target) || nodeMap.get(e.target?.id)
+                }))
+                .filter(e => e.source && e.target);
+
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(edges).id(d => d.id).distance(50))
+                .force('charge', d3.forceManyBody().strength(-100))
+                .force('center', d3.forceCenter(canvas.width / 2, canvas.height / 2))
+                .force('collision', d3.forceCollide().radius(10))
+                .on('tick', () => render(nodes, edges));
+
+            // Store for interaction
+            filteredData.simulationNodes = nodes;
+            filteredData.simulationEdges = edges;
+        }
+
+        function render(nodes, edges) {
+            ctx.save();
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.translate(transform.x, transform.y);
+            ctx.scale(transform.k, transform.k);
+
+            // Draw edges - non-highlighted first, then highlighted
+            const sortedEdges = (highlightedEdgeType || highlightedType)
+                ? [...edges].sort((a, b) => {
+                    const aHighlighted = highlightedEdgeType
+                        ? a.type === highlightedEdgeType
+                        : (a.source.type === highlightedType || a.target.type === highlightedType);
+                    const bHighlighted = highlightedEdgeType
+                        ? b.type === highlightedEdgeType
+                        : (b.source.type === highlightedType || b.target.type === highlightedType);
+                    if (aHighlighted && !bHighlighted) return 1;
+                    if (bHighlighted && !aHighlighted) return -1;
+                    return 0;
+                  })
+                : edges;
+
+            sortedEdges.forEach(e => {
+                const style = edgeStyles[e.type] || edgeStyles.default;
+
+                // Determine if this edge is highlighted
+                const isNodeHighlighted = highlightedType &&
+                    (e.source.type === highlightedType || e.target.type === highlightedType);
+                const isEdgeHighlighted = highlightedEdgeType && e.type === highlightedEdgeType;
+                const isHighlighted = isNodeHighlighted || isEdgeHighlighted;
+                const isDimmed = (highlightedType || highlightedEdgeType) && !isHighlighted;
+
+                ctx.globalAlpha = isDimmed ? 0.08 : (isHighlighted ? 0.9 : 0.5);
+                ctx.beginPath();
+                ctx.setLineDash(style.dash);
+                ctx.moveTo(e.source.x, e.source.y);
+                ctx.lineTo(e.target.x, e.target.y);
+                ctx.strokeStyle = edgeColors[e.type] || edgeColors.default;
+                ctx.lineWidth = isHighlighted ? style.width * 2 : style.width;
+                ctx.stroke();
+                ctx.setLineDash([]); // Reset dash
+            });
+
+            // Build set of nodes connected by highlighted edge type
+            const nodesInHighlightedEdges = new Set();
+            if (highlightedEdgeType) {
+                edges.forEach(e => {
+                    if (e.type === highlightedEdgeType) {
+                        nodesInHighlightedEdges.add(e.source.id);
+                        nodesInHighlightedEdges.add(e.target.id);
+                    }
+                });
+            }
+
+            // Draw nodes - non-highlighted first, then highlighted on top
+            const sortedNodes = (highlightedType || highlightedEdgeType)
+                ? [...nodes].sort((a, b) => {
+                    const aHighlighted = highlightedType
+                        ? a.type === highlightedType
+                        : nodesInHighlightedEdges.has(a.id);
+                    const bHighlighted = highlightedType
+                        ? b.type === highlightedType
+                        : nodesInHighlightedEdges.has(b.id);
+                    if (aHighlighted && !bHighlighted) return 1;
+                    if (bHighlighted && !aHighlighted) return -1;
+                    return 0;
+                  })
+                : nodes;
+
+            sortedNodes.forEach(n => {
+                const isSelected = selectedNode && selectedNode.id === n.id;
+                const isHovered = hoveredNode && hoveredNode.id === n.id;
+                const isHighlightedByType = highlightedType === n.type;
+                const isHighlightedByEdge = highlightedEdgeType && nodesInHighlightedEdges.has(n.id);
+                const isHighlighted = isHighlightedByType || isHighlightedByEdge;
+                const isDimmed = (highlightedType || highlightedEdgeType) && !isHighlighted;
+
+                const baseRadius = nodeSizes[n.type] || 5;
+                const radius = isHighlighted ? baseRadius * 1.5 : baseRadius;
+
+                ctx.globalAlpha = isDimmed ? 0.15 : 1;
+
+                // Draw node circle
+                ctx.beginPath();
+                ctx.arc(n.x, n.y, radius, 0, 2 * Math.PI);
+                ctx.fillStyle = nodeColors[n.type] || '#888';
+                ctx.fill();
+
+                // Draw border for visibility
+                ctx.strokeStyle = isDimmed ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.5)';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+
+                // Highlight ring for selected/hovered
+                if ((isSelected || isHovered) && !isDimmed) {
+                    ctx.beginPath();
+                    ctx.arc(n.x, n.y, radius + 3, 0, 2 * Math.PI);
+                    ctx.strokeStyle = '#fff';
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                }
+
+                // Extra glow for highlighted nodes
+                if (isHighlighted && !isDimmed) {
+                    ctx.beginPath();
+                    ctx.arc(n.x, n.y, radius + 2, 0, 2 * Math.PI);
+                    ctx.strokeStyle = nodeColors[n.type];
+                    ctx.lineWidth = 2;
+                    ctx.globalAlpha = 0.6;
+                    ctx.stroke();
+                }
+            });
+
+            ctx.restore();
+        }
+
+        // Zoom behavior
+        const zoom = d3.zoom()
+            .scaleExtent([0.1, 10])
+            .on('zoom', (event) => {
+                transform = event.transform;
+                if (filteredData?.simulationNodes) {
+                    render(filteredData.simulationNodes, filteredData.simulationEdges);
+                }
+            });
+
+        d3.select(canvas).call(zoom);
+
+        // Mouse interaction
+        canvas.addEventListener('mousemove', (event) => {
+            if (!filteredData?.simulationNodes) return;
+
+            const rect = canvas.getBoundingClientRect();
+            const x = (event.clientX - rect.left - transform.x) / transform.k;
+            const y = (event.clientY - rect.top - transform.y) / transform.k;
+
+            // Find closest node
+            let closest = null;
+            let minDist = 20;
+
+            filteredData.simulationNodes.forEach(n => {
+                const dist = Math.sqrt((n.x - x) ** 2 + (n.y - y) ** 2);
+                if (dist < minDist) {
+                    minDist = dist;
+                    closest = n;
+                }
+            });
+
+            hoveredNode = closest;
+
+            if (closest) {
+                tooltip.style.display = 'block';
+                tooltip.style.left = (event.clientX + 10) + 'px';
+                tooltip.style.top = (event.clientY + 10) + 'px';
+                tooltip.innerHTML = `
+                    <h3>${closest.name || 'Unknown'}</h3>
+                    <div class="detail">Type: ${closest.type}</div>
+                    ${closest.occupation ? `<div class="detail">Occupation: ${closest.occupation}</div>` : ''}
+                    ${closest.residence ? `<div class="detail">Residence: ${closest.residence}</div>` : ''}
+                    ${closest.year ? `<div class="detail">Year: ${closest.year}</div>` : ''}
+                    ${closest.outcome ? `<div class="detail">Outcome: ${closest.outcome}</div>` : ''}
+                    <div class="detail">Trial: ${closest.trial_id}</div>
+                `;
+            } else {
+                tooltip.style.display = 'none';
+            }
+
+            render(filteredData.simulationNodes, filteredData.simulationEdges);
+        });
+
+        canvas.addEventListener('click', (event) => {
+            if (hoveredNode) {
+                selectedNode = hoveredNode;
+                updateSelectedInfo(selectedNode);
+                render(filteredData.simulationNodes, filteredData.simulationEdges);
+            }
+        });
+
+        function updateSelectedInfo(node) {
+            const info = document.getElementById('selected-info');
+            if (!node) {
+                info.textContent = 'Click a node to see details';
+                return;
+            }
+
+            // Count connections
+            const connections = filteredData.simulationEdges.filter(e =>
+                e.source.id === node.id || e.target.id === node.id
+            );
+
+            info.innerHTML = `
+                <div><strong>${node.name || 'Unknown'}</strong></div>
+                <div class="detail">Type: ${node.type}</div>
+                ${node.gender ? `<div class="detail">Gender: ${node.gender}</div>` : ''}
+                ${node.age ? `<div class="detail">Age: ${node.age}</div>` : ''}
+                ${node.occupation ? `<div class="detail">Occupation: ${node.occupation}</div>` : ''}
+                ${node.residence ? `<div class="detail">Residence: ${node.residence}</div>` : ''}
+                ${node.economic_status ? `<div class="detail">Economic: ${node.economic_status}</div>` : ''}
+                ${node.outcome ? `<div class="detail">Outcome: ${node.outcome}</div>` : ''}
+                <div class="detail">Connections: ${connections.length}</div>
+                <div class="detail">Trial: ${node.trial_id}</div>
+            `;
+        }
+
+        // Event listeners
+        document.getElementById('apply-filters').addEventListener('click', applyFilters);
+
+        document.getElementById('reset-filters').addEventListener('click', () => {
+            document.getElementById('year-min').value = 1580;
+            document.getElementById('year-max').value = 1650;
+            document.getElementById('max-nodes').value = 1000;
+            document.querySelectorAll('#node-type-filters input, #edge-type-filters input')
+                .forEach(c => c.checked = true);
+            // Clear highlights
+            highlightedType = null;
+            highlightedEdgeType = null;
+            document.querySelectorAll('.legend-item').forEach(li => li.classList.remove('active'));
+            updateRangeDisplays();
+            applyFilters();
+        });
+
+        // Range display updates
+        function updateRangeDisplays() {
+            document.getElementById('year-min-val').textContent = document.getElementById('year-min').value;
+            document.getElementById('year-max-val').textContent = document.getElementById('year-max').value;
+            document.getElementById('max-nodes-val').textContent = document.getElementById('max-nodes').value;
+        }
+
+        document.getElementById('year-min').addEventListener('input', updateRangeDisplays);
+        document.getElementById('year-max').addEventListener('input', updateRangeDisplays);
+        document.getElementById('max-nodes').addEventListener('input', updateRangeDisplays);
+
+        // Load data on start
+        loadData();
+    </script>
+</body>
+</html>

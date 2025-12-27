@@ -1,0 +1,883 @@
+{
+  "trial_id": "w213",
+  "archive_ref": "B 8691 no 2",
+  "location": "Raon",
+  "language_region": "french",
+  "dates": {
+    "start": "1602-11-18",
+    "end": "1603-01-07",
+    "duration_days": 50
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Marie veuve Martin Oudinat",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "marital_status": "widowed",
+      "spouse_name": "Martin Oudinat",
+      "origin": "Ecosse near Andelot in Allemaigne",
+      "residence": "Raon",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "occupation": ["day laborer"],
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Navel",
+        "devil_appearance": "man in black",
+        "seduction_date": "20 years earlier",
+        "seduction_context": "in garden when very angry; first time made sign of cross and man in black vanished, but a week or two later he returned, promising to make her happy and ensure she did not lack money",
+        "powder_types": ["black powder to kill", "yellow powder to cure", "leaves as money"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["not specified"],
+        "sabbat_activities": ["reverence to the devil", "dancing", "throwing themselves upon one another"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jennon femme Claudon St Remy",
+      "context": "Already confronted with her before informations preparatoires; she maintained accusation",
+      "already_executed": true
+    }
+  ],
+  "formal_accuser": {
+    "name": "Jennon femme Claudon St Remy",
+    "person_id": null,
+    "relationship_to_accused": "community member"
+  },
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Menusier",
+      "person_id": null,
+      "gender": "male",
+      "age": 70,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jennon femme Humbert Vergier",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Catherine fille feu Humbert Vergier (first husband)",
+            "target_relationship": "daughter from first husband",
+            "attributed_to": "Marie veuve Martin Oudinat",
+            "time_after_quarrel": "4 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Claudin Babel",
+      "person_id": null,
+      "gender": "male",
+      "age": 47,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Ramberviller",
+      "person_id": null,
+      "gender": "male",
+      "age": 68,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 5,
+      "name": "Humbert Moictrier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5
+      }
+    },
+    {
+      "number": 6,
+      "name": "Alizon femme Demenge Remy",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Marie told her she was 'bien fiere'",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Zabel",
+            "target_relationship": "sister-in-law",
+            "attributed_to": "Marie veuve Martin Oudinat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Dedie femme Coals Faille",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge Barbonnille le vieux",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Odille femme Demenge Barbonnille le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10
+      }
+    },
+    {
+      "number": 10,
+      "name": "Alizon femme Colas Liebault",
+      "person_id": null,
+      "gender": "female",
+      "age": 31,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "threat_received": true
+      }
+    },
+    {
+      "number": 11,
+      "name": "Alizon femme Didier Bandeça",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Bastienne fille jeune Lucas Mercier",
+            "attributed_to": "Marie veuve Martin Oudinat",
+            "time_after_quarrel": "a year earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Dion femme Demenge Charpentier",
+      "person_id": null,
+      "gender": "female",
+      "age": 54,
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "daughter aged 6 weeks",
+            "target_relationship": "daughter",
+            "attributed_to": "Marie veuve Martin Oudinat",
+            "time_after_quarrel": "a week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Catherine femme Lucas Mercier le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "testimony": {
+        "reputation_mentioned": false,
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "small daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Marie veuve Martin Oudinat",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Nicolas Parmentier",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 15,
+      "name": "Didier Prevost",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 16,
+      "name": "Catherine veuve Henry Claudon",
+      "person_id": null,
+      "gender": "female",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7
+      }
+    },
+    {
+      "number": 17,
+      "name": "Marguitte veuve Jacques le Charbonier",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness had not married Marie's late husband as she hoped",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Marie veuve Martin Oudinat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jean Simon",
+      "person_id": null,
+      "gender": "male",
+      "age": 56,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to sell her a piglet",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "piglet",
+            "target_relationship": "his piglet",
+            "attributed_to": "Marie veuve Martin Oudinat",
+            "time_after_quarrel": "became as if rabid after refusal",
+            "animal_type": "pig",
+            "animal_count": 1
+          }
+        ]
+      }
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Catherine fille feu Humbert Vergier",
+      "victim_relationship_to_witness": "daughter from first husband",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill while in service of Claude Marchant where Marie was doing day labour; all who saw her thought it was witchcraft; only cured after obtaining bread, salt, and ashes from her house",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "method_alleged": "proximity/witchcraft",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Zabel",
+      "victim_relationship_to_witness": "sister-in-law",
+      "harm_category": "human_illness",
+      "harm_description": "ill for long time, having lost use of limbs",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "quarrel where Marie told witness she was 'bien fiere'",
+      "time_between_quarrel_and_harm": "after Marie came to house on 3 successive days bringing food",
+      "method_alleged": "food/proximity",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Bastienne fille jeune Lucas Mercier",
+      "harm_category": "human_illness",
+      "harm_description": "very ill; recovered after eating bread, salt, and ashes from Marie's house",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "time_between_quarrel_and_harm": "a year earlier",
+      "method_alleged": "witchcraft",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "daughter aged 6 weeks",
+      "victim_relationship_to_witness": "witness's daughter",
+      "harm_category": "human_death",
+      "harm_description": "Marie passed, admired the child and kissed her, but baby died a week later",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "time_between_quarrel_and_harm": "a week later",
+      "method_alleged": "kiss/touch",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "small daughter of Catherine femme Lucas Mercier le jeune",
+      "victim_relationship_to_witness": "witness's daughter",
+      "harm_category": "human_illness",
+      "harm_description": "illness of small daughter; gradual recovery after eating substances from Marie's house",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "Marie had uttered various threats against them",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "witchcraft",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "witness herself (Marguitte veuve Jacques le Charbonier)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "several great illnesses",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "witness had not married Marie's late husband as she hoped",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "piglet",
+      "harm_category": "animal_illness",
+      "harm_description": "became as if rabid; Marie said it would die",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "refused to sell her a piglet",
+      "time_between_quarrel_and_harm": "3 years earlier",
+      "method_alleged": "words/curse",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "goat of Didier Parmentier",
+      "harm_category": "animal_death",
+      "harm_description": "killed (confessed under torture)",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "he had spoken of her witchcraft",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "daughter of Lucas Guerard",
+      "harm_category": "human_death",
+      "harm_description": "killed aged 5 (confessed under torture)",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "angry after quarrels",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "first son of Lucas Mercier le jeune",
+      "harm_category": "human_death",
+      "harm_description": "killed (confessed under torture); went to house on pretext of buying cheese and sprinkled powder on baby",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "quarrels",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "small child of Demenge Parmentier",
+      "harm_category": "human_death",
+      "harm_description": "killed 20 years earlier (confessed under torture)",
+      "attributed_to": "Marie veuve Martin Oudinat",
+      "precipitating_quarrel": "his wife talked too much and had cursed her",
+      "time_between_quarrel_and_harm": "20 years earlier",
+      "method_alleged": "powder"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-11-18",
+      "event": "informations_preparatoires",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "18 witnesses testified"
+    },
+    {
+      "date": "1602-12-10",
+      "event": "interrogation",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "General denials; said Jennon and Nicolle femme Jean Gerardin (both just executed) had been 'aveuglées' when they accused her"
+    },
+    {
+      "date": "1602-12-11",
+      "event": "interrogation",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Judges said she was on point of confessing; she started to cry and confessed to seduction 20 years earlier, receiving powder, attending sabbat"
+    },
+    {
+      "date": "1602-12-12",
+      "event": "interrogation",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Withdrew confessions completely"
+    },
+    {
+      "date": "1602-12-18",
+      "event": "torture_approved",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1602-12-20",
+      "event": "torture",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Confessed under thumbscrews and rack to being witch for 24 years; confessed to killing multiple children with powder; named accomplices"
+    },
+    {
+      "date": "1602-12-21",
+      "event": "interrogation",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Confirmed earlier confessions; added Alix femme Demenge Marond to list of accomplices"
+    },
+    {
+      "date": "1602-12-31",
+      "event": "death_approved",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1603-01-07",
+      "event": "execution",
+      "subject": "Marie veuve Martin Oudinat",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon femme Claudon St Remy",
+      "location": "Raon",
+      "context": "accused Marie; seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Nicolle femme Jean Gerardin",
+      "location": "Raon",
+      "context": "accused Marie; seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Zabel femme Didier Pescheur",
+      "location": "Raon",
+      "context": "seen at sabbat; just convicted",
+      "already_executed": false
+    },
+    {
+      "name": "Melline veuve Colas Charrier",
+      "location": "Raon or suburbs",
+      "context": "seen at sabbat"
+    },
+    {
+      "name": "Barbeline veuve Colas Grand Claudon, dite la Bertrichaude",
+      "location": "Raon or suburbs",
+      "context": "seen at sabbat"
+    },
+    {
+      "name": "Didier Grand Claudon",
+      "location": "Raon or suburbs",
+      "context": "son of Barbeline; seen at sabbat"
+    },
+    {
+      "name": "François marion",
+      "location": "Raon or suburbs",
+      "context": "seen at sabbat"
+    },
+    {
+      "name": "Claudatte femme George Curien",
+      "location": "Raon or suburbs",
+      "context": "seen at sabbat"
+    },
+    {
+      "name": "Alix femme Demenge Marond",
+      "location": "Raon",
+      "context": "added to list of accomplices on December 21"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Marie veuve Martin Oudinat",
+      "french": "ne pensez point que je vienne icy pour la guarir car vous avez suspition sur moy, mais je ne luy ay donné",
+      "english": "do not think that I come here to cure her because you have suspicion of me, but I have not given her anything",
+      "context": "When Catherine femme Lucas Mercier le jeune called her in as she passed regarding her sick daughter"
+    },
+    {
+      "speaker": "Marie veuve Martin Oudinat (confession)",
+      "french": "et tout a coup se jetoient les ung sur les autres, mais que de sa part elle ne faisoit comme leas autres a cause de son infirmité",
+      "english": "and suddenly they threw themselves upon one another, but for her part she did not do as the others because of her infirmity",
+      "context": "Description of activities at the sabbat after doing reverence to the devil"
+    },
+    {
+      "speaker": "Marie veuve Martin Oudinat",
+      "french": "bien fiere",
+      "context": "What Marie told Alizon femme Demenge Remy during a quarrel"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Marie veuve Martin Oudinat",
+      "person2": "Martin Oudinat",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "widow of Martin Oudinat"
+    },
+    {
+      "person1": "Jennon femme Humbert Vergier",
+      "person2": "Humbert Vergier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Humbert Vergier"
+    },
+    {
+      "person1": "Jennon femme Humbert Vergier",
+      "person2": "Catherine fille feu Humbert Vergier",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Catherine fille feu Humbert Vergier (first husband)"
+    },
+    {
+      "person1": "Alizon femme Demenge Remy",
+      "person2": "Demenge Remy",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Demenge Remy"
+    },
+    {
+      "person1": "Alizon femme Demenge Remy",
+      "person2": "Zabel",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Sister-in-law Zabel"
+    },
+    {
+      "person1": "Dedie femme Coals Faille",
+      "person2": "Coals Faille",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Dedie femme Coals Faille"
+    },
+    {
+      "person1": "Odille femme Demenge Barbonnille le jeune",
+      "person2": "Demenge Barbonnille le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Odille femme Demenge Barbonnille le jeune"
+    },
+    {
+      "person1": "Demenge Barbonnille le vieux",
+      "person2": "Demenge Barbonnille le jeune",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Demenge Barbonnille le vieux and Demenge Barbonnille le jeune",
+      "inferred": true
+    },
+    {
+      "person1": "Alizon femme Colas Liebault",
+      "person2": "Colas Liebault",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Colas Liebault"
+    },
+    {
+      "person1": "Alizon femme Didier Bandeça",
+      "person2": "Didier Bandeça",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Didier Bandeça"
+    },
+    {
+      "person1": "Dion femme Demenge Charpentier",
+      "person2": "Demenge Charpentier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Dion femme Demenge Charpentier"
+    },
+    {
+      "person1": "Catherine femme Lucas Mercier le jeune",
+      "person2": "Lucas Mercier le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Lucas Mercier le jeune"
+    },
+    {
+      "person1": "Catherine veuve Henry Claudon",
+      "person2": "Henry Claudon",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine veuve Henry Claudon"
+    },
+    {
+      "person1": "Marguitte veuve Jacques le Charbonier",
+      "person2": "Jacques le Charbonier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte veuve Jacques le Charbonier"
+    },
+    {
+      "person1": "Bastienne fille jeune Lucas Mercier",
+      "person2": "Lucas Mercier",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "Bastienne fille jeune Lucas Mercier"
+    },
+    {
+      "person1": "Barbeline veuve Colas Grand Claudon",
+      "person2": "Didier Grand Claudon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Didier Grand Claudon her son"
+    },
+    {
+      "person1": "Claudatte femme George Curien",
+      "person2": "George Curien",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme George Curien"
+    },
+    {
+      "person1": "Alix femme Demenge Marond",
+      "person2": "Demenge Marond",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Alix femme Demenge Marond"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread, salt, and ashes",
+      "context": "Used as cure for suspected witchcraft illness; obtained from accused's house",
+      "category": "magical"
+    },
+    {
+      "object": "powder (black to kill)",
+      "context": "Allegedly given by devil Navel; used to kill",
+      "category": "magical"
+    },
+    {
+      "object": "powder (yellow to cure)",
+      "context": "Allegedly given by devil Navel; used to cure",
+      "category": "magical"
+    },
+    {
+      "object": "leaves as money",
+      "context": "Devil gave her leaves that appeared as money",
+      "category": "magical"
+    },
+    {
+      "object": "chicken",
+      "context": "Given annually to devil to be exempted from sabbat attendance",
+      "category": "food"
+    },
+    {
+      "object": "pears (dozen)",
+      "context": "Marie took to Zabel during illness",
+      "category": "food"
+    },
+    {
+      "object": "cheese",
+      "context": "Pretext for visiting Lucas Mercier's house to harm baby",
+      "category": "food"
+    },
+    {
+      "object": "piglet",
+      "context": "Jean Simon refused to sell to Marie",
+      "category": "agricultural"
+    },
+    {
+      "object": "goat",
+      "context": "Allegedly killed by Marie with powder",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Ecosse near Andelot in Allemaigne",
+      "place_type": "village",
+      "context": "Place of origin of Marie"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Location where Marie claimed to have been first seduced by the devil"
+    }
+  ],
+  "historical_context": {
+    "economic_hardship_indicators": [
+      "Marie worked as day laborer",
+      "Devil promised to make her happy and ensure she did not lack money",
+      "Given leaves that appeared as money"
+    ]
+  },
+  "legal_context": {
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 5,
+    "hearsay_testimony_count": 13,
+    "oldest_accusation_years": 20,
+    "hearsay_chains": [
+      {
+        "reporter": "Dedie femme Coals Faille",
+        "source": "her husband",
+        "content": "she had given herself to the devil 20 years earlier"
+      },
+      {
+        "reporter": "Alizon femme Demenge Remy",
+        "source": "second witness (Jennon femme Humbert Vergier)",
+        "content": "story of Catherine's illness"
+      },
+      {
+        "reporter": "Catherine femme Lucas Mercier le jeune",
+        "source": "others",
+        "content": "heard that Marie had uttered various threats against them"
+      }
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "started to cry before confessing",
+      "judges noted she was on point of confessing"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Said Jennon and Nicolle femme Jean Gerardin, both just executed, had been 'aveuglées' (blinded/deceived) when they accused her"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Claude Marchant",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Employer where Catherine fille feu Humbert Vergier was in service and Marie was doing day labour"
+    },
+    {
+      "name": "Demenge Saffrois",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Called Marie a witch in public; she did not seek reparation"
+    },
+    {
+      "name": "Lucas Guerard",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Father of 5-year-old daughter Marie confessed to killing under torture"
+    },
+    {
+      "name": "Demenge Parmentier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Father of small child Marie confessed to killing 20 years earlier under torture; wife had talked too much and cursed Marie"
+    },
+    {
+      "name": "Didier Parmentier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Owner of goat Marie confessed to killing; had spoken of her witchcraft"
+    },
+    {
+      "name": "Catherine fille Jean le Masson",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Marie denied causing her illness even under torture"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Trial document is well-preserved with clear testimony from 18 witnesses. Marie confessed under torture but initially retracted. Notable for pattern of suspected witchcraft illness being cured by bread, salt, and ashes from accused's house. Reputation testimony spans 4-20 years. Executed after approval from Change de Nancy.",
+    "pdf_pages": 4
+  }
+}

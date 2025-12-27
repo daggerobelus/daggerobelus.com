@@ -3,6 +3,14 @@
   "archive_ref": "B 3365 no 3",
   "location": "Reillon",
   "court": "Court at Blamont",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean Dediot",
+    "person_id": null,
+    "occupation": "unknown",
+    "location": "Reillon",
+    "relationship_to_accused": "community member"
+  },
   "dates": {
     "start": "1624-05-12",
     "end": "1624-06-01",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Jean Febuay",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "veterinary"],
       "occupation": ["laboureur"],
       "origin": "Gondrexon",
       "residence": "Reillon",
@@ -48,6 +60,7 @@
     {
       "number": 1,
       "name": "Nicolas Olry",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "location": "Reillon",
@@ -74,6 +87,7 @@
     {
       "number": 2,
       "name": "Zabey femme Dieudenon",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Reillon",
@@ -91,6 +105,7 @@
     {
       "number": 3,
       "name": "Jeannon veuve Grand Bastien",
+      "person_id": null,
       "gender": "female",
       "age": 54,
       "location": "Reillon",
@@ -118,6 +133,7 @@
     {
       "number": 4,
       "name": "Jeanne veuve Claudon Crousier",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Reillon",
@@ -153,6 +169,7 @@
     {
       "number": 5,
       "name": "Margueritte veuve Aubertin Lehel",
+      "person_id": null,
       "gender": "female",
       "age": 43,
       "location": "Reillon",
@@ -183,6 +200,7 @@
     {
       "number": 6,
       "name": "Claudotte femme au grand Aulbry",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Reillon",
@@ -200,6 +218,7 @@
     {
       "number": 7,
       "name": "Nicolas François",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "location": "Reillon",
@@ -228,6 +247,7 @@
     {
       "number": 8,
       "name": "Jean Marchal le viel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Reillon",
@@ -245,6 +265,7 @@
     {
       "number": 9,
       "name": "Jean Marchal le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "location": "Reillon",
@@ -275,6 +296,7 @@
     {
       "number": 10,
       "name": "Nicolas Mariotte",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "location": "Reillon",
@@ -304,6 +326,7 @@
     {
       "number": 11,
       "name": "Claude Crousée, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "location": "Reillon",
@@ -331,6 +354,7 @@
     {
       "number": 12,
       "name": "Claudon Bastien, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "location": "Reillon",
@@ -350,6 +374,7 @@
     {
       "number": 13,
       "name": "Humbert Charier",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Reillon",
@@ -395,6 +420,7 @@
     {
       "number": 14,
       "name": "Claudon Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Reillon",
@@ -413,6 +439,7 @@
     {
       "number": 15,
       "name": "Jean Waultrin",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "maire",
@@ -444,6 +471,7 @@
     {
       "number": 16,
       "name": "Nicolas Crousier",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "location": "Reillon",
@@ -472,6 +500,7 @@
     {
       "number": 17,
       "name": "George Curien",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Reillon",
@@ -1198,7 +1227,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Nicolas François testified Febuay had not sought reparation when called witch",
     "imprisonment_conditions": "not specified",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture on May 20, 1624; approved death sentence on May 31, 1624 subject to reiteration of confessions",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1246,72 +1280,85 @@
   "third_parties": [
     {
       "name": "Jean Dediot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "One of three men who complained to procureur fiscal about Febuay"
     },
     {
       "name": "Jean Hachon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "One of three men who complained to procureur fiscal about Febuay"
     },
     {
       "name": "Jean Olry",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "One of three men who complained to procureur fiscal about Febuay"
     },
     {
       "name": "Jean Vaultrin le vieux",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Also complained about with Febuay in initial complaint; later named by Febuay at sabbat"
     },
     {
       "name": "Jacques Febuay",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "late brother",
       "context": "of Gondrexon; bought horses from Nicolas Mariotte"
     },
     {
       "name": "Anthoine Colas Claudey",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "of Gondrexon; told Jean Marchal that Febuay was already suspected in his youth there"
     },
     {
       "name": "wife of Jean Febuay",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife",
       "context": "Asked Grand Bastien in tears if her husband had been accused during earlier witch trials"
     },
     {
       "name": "daughter of Jean Febuay",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "context": "Being courted by Crousier's son; marriage opposed by fathers"
     },
     {
       "name": "le grand Bastien (deceased)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Threatened to have Febuay burned if he did not cure sick horse"
     },
     {
       "name": "Aubertin Lehel (deceased)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "husband of witness 5",
       "context": "Refused to mend Febuay's shoes; lost two sheep"
     },
     {
       "name": "son of Jean Waultrin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "son of witness 15",
       "context": "Owned horse that died after being touched by Febuay"
     },
     {
       "name": "son-in-law of Jeanne veuve Claudon Crousier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "son-in-law of witness 4",
       "context": "Also discouraged marriage between his daughter and Crousier's son"
     },
     {
       "name": "Poison",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Name of devil/master who seduced Febuay 10 years earlier"
     }

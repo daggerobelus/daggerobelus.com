@@ -3,6 +3,14 @@
   "archive_ref": "B 7137 no 2",
   "location": "Parey-sous-Montfort",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Catherine femme Claudon Vidolot",
+    "person_id": null,
+    "occupation": null,
+    "location": "Parey-sous-Montfort",
+    "relationship_to_accused": "co-villager, had quarrel during pear harvest"
+  },
   "dates": {
     "start": "1626-11-03",
     "end": "1626-11-27",
@@ -12,7 +20,11 @@
   "accused": [
     {
       "name": "Jennon Bouvier",
+      "person_id": null,
       "gender": "female",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "other"],
       "age": 60,
       "age_approximate": true,
       "occupation": [],
@@ -47,6 +59,7 @@
     {
       "number": 1,
       "name": "Nicolas Malcas",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "occupation": null,
@@ -76,6 +89,7 @@
     {
       "number": 2,
       "name": "Marguitte femme du Sr Francois Morquin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -105,6 +119,7 @@
     {
       "number": 3,
       "name": "Mengin Francois",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": null,
@@ -141,6 +156,7 @@
     {
       "number": 4,
       "name": "Jeannon femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -497,7 +513,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "unknown - Nicolas Malcas said 'he did not know what had happened'",
     "imprisonment_conditions": "imprisoned with her daughter Margueritte",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved question ordinaire (moderate torture) for both Jennon and Margueritte on 14 November 1626",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -541,6 +562,7 @@
   "third_parties": [
     {
       "name": "Gerard Malcas",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "customer (bought oats)",
       "relationship_to_witness": "father of witness 1",
@@ -548,6 +570,7 @@
     },
     {
       "name": "Catherine femme Claudon Vidolot",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "co-villager, had quarrel",
       "relationship_to_witness": null,
@@ -555,6 +578,7 @@
     },
     {
       "name": "Claudon Vidolot",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -562,6 +586,7 @@
     },
     {
       "name": "Francois Morquin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor with adjoining land",
       "relationship_to_witness": "husband of witness 2",
@@ -569,6 +594,7 @@
     },
     {
       "name": "Thiron Voirion",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -576,6 +602,7 @@
     },
     {
       "name": "Margueritte (Margo)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter, co-accused",
       "relationship_to_witness": null,
@@ -583,6 +610,7 @@
     },
     {
       "name": "Claudon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter (deceased)",
       "relationship_to_witness": null,
@@ -590,6 +618,7 @@
     },
     {
       "name": "Demenge Voirion",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first husband (deceased)",
       "relationship_to_witness": null,
@@ -597,6 +626,7 @@
     },
     {
       "name": "Florentin Bouvier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "second husband (deceased)",
       "relationship_to_witness": null,

@@ -1,0 +1,1242 @@
+{
+  "trial_id": "w234",
+  "archive_ref": "B 8693 no 5",
+  "location": "la Neuveville-les-Raon",
+  "language_region": "french",
+  "dates": {
+    "start": "1604-09-11",
+    "end": "1604-10-04",
+    "duration_days": 23
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Bernarde femme Demenge Baille",
+      "person_id": null,
+      "gender": "female",
+      "age": 34,
+      "age_approximate": false,
+      "economic_status": "unknown",
+      "practiced_healing": true,
+      "healing_types": ["veterinary", "charms_amulets"],
+      "occupation": [],
+      "origin": "Bertrichamp",
+      "residence": "la Neuveville-les-Raon",
+      "marital_status": "married",
+      "spouse_name": "Demenge Baille",
+      "parents": {
+        "father": "Colas de la Court",
+        "mother": "Jennon"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Navel",
+        "devil_appearance": "hoofs for feet, claws on hands, did not speak as properly as a man",
+        "seduction_date": "4 years earlier",
+        "seduction_context": "when angry about some flour which was too thick",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder (to kill)", "white powder (to cure)"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["danced a rebours", "stirred black mixture in pots to make fog"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Chrestien Brandecq",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 3,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Colas Peltier",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "sold corses without his knowledge, claimed his share",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "his horse",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "within a week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Lucas Brandecq",
+      "person_id": null,
+      "gender": "male",
+      "age": 48,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "building house adjoining hers",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "himself and brother Chretien",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "over last 3 years"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Noel Mayance",
+      "person_id": null,
+      "gender": "male",
+      "age": 33,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his son Dieudonné",
+            "target_relationship": "son",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "since spring"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Demenge Mathieu",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrels about carting, who should go first on road",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his cow",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Didier Chostey",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his pig went in her house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his pig",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "after she chased it out"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Colas Brabant",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fine witness levied on horse which damaged crops",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "an ox",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Georgeatte femme Demenge Chopat",
+      "person_id": null,
+      "gender": "female",
+      "age": 46,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "carting arrangement with husband broke up",
+        "threat_received": true,
+        "threat_quote": "ne chariroit guiere avant",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "husband's horse",
+            "target_relationship": "husband",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Pieron",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fence round field of witness",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "a fine ox",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "2 weeks later"
+          },
+          {
+            "type": "animal_death",
+            "target": "a small pig",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "after ox"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Demenge Chopat",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "went to cart corses without telling her husband",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his horse",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "soon after threat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mongeon Jacquat",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Barbe femme Didier Coresier",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Didier Couresier",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claudatte femme Didier Chostey",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband kept his distance when she had scarf over mouth",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "her husband",
+            "target_relationship": "husband",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Marie femme Claudon Charier",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "immediately after seeing small creatures around chimney"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Agnon veuve Claudon Barbier",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "marital_status": "widowed",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Clemence fille Jean Poulain",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "finished spinning what she had brought",
+        "threat_received": true,
+        "threat_quote": "que le diable luy soit es yeulx",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "immediately"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jennon femme Jean Pieron",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fence round field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 oxen",
+            "target_relationship": "husband",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Mongeatte femme Colas Labbé",
+      "person_id": null,
+      "gender": "female",
+      "age": 23,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "her cow",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "within 2 or 3 days after touching"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Colas Blasat",
+      "person_id": null,
+      "gender": "male",
+      "age": 47,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "one of her pigs escaped",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "his horse",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "2 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Marguitte femme Colas Brabant",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fine on trespassing horse",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "animals",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "over last year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Jennon femme Lucas Brandecq",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "building behind their house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "property_damage",
+            "target": "themselves",
+            "target_relationship": "self",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "since quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Honn. homme Demenge Ganaire",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": "maire a la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "her husband angry about debt; witness's wife struck one of Bernarde's children",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his child",
+            "target_relationship": "son",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "immediately"
+          },
+          {
+            "type": "human_illness",
+            "target": "his wife Zabel",
+            "target_relationship": "wife",
+            "attributed_to": "Bernarde femme Demenge Baille",
+            "time_after_quarrel": "same time"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1604-09-11",
+      "event": "informations_preparatoires",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Witness testimony collected"
+    },
+    {
+      "date": "1604-09-13",
+      "event": "informations_preparatoires",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Additional witness testimony"
+    },
+    {
+      "date": "1604-09-14",
+      "event": "informations_preparatoires",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Final witness testimony"
+    },
+    {
+      "date": "1604-09-15",
+      "event": "interrogation",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "First interrogation, denied all charges"
+    },
+    {
+      "date": "1604-09-18",
+      "event": "confrontation",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Confrontations with witnesses; nearly confessed, mentioned dream of Mre Navel"
+    },
+    {
+      "date": "1604-09-24",
+      "event": "torture_approved",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Change de Nancy approved question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1604-09-27",
+      "event": "torture",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Withstood thumbscrews, confessed when racked"
+    },
+    {
+      "date": "1604-09-29",
+      "event": "sentence",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Death sentence from Change de Nancy"
+    },
+    {
+      "date": "1604-10-04",
+      "event": "execution",
+      "subject": "Bernarde femme Demenge Baille",
+      "details": "Sentence carried out at la Neuveville"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire et extraordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon femme Nicolas Bresson dit Neuxat",
+      "location": "St Blaise",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Marguitte femme Mongeon Jacquat",
+      "location": "la Neuveville",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Zabel femme Didier Pescheur",
+      "location": "la Neuveville",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Marguitte femme Dieudonné Maronde",
+      "location": "la Neuveville",
+      "context": "seen at sabbat",
+      "already_executed": true
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "mother Jennon",
+      "accuser_location": "Baccarat",
+      "context": "mother executed as witch 18 months earlier",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Bernarde femme Demenge Baille",
+      "french": "qu'elle desire bien de l'aller veoir, mais sy elle y alloit qu'on poulroit dire qu'elle alloit luy oster le mal",
+      "english": "she would like to go see her, but if she went people might say she was going to take off the illness",
+      "context": "Speaking to witness about visiting sick wife of maire"
+    },
+    {
+      "speaker": "Bernarde femme Demenge Baille",
+      "french": "sy une femme de bien estoit prinse et qu'elle fut bruslée lors qu'elle auroit confessé qu'elle estoit sorciere, sy elle seroit sauvé",
+      "english": "if a good woman was arrested and burned after confessing she was a witch, would she be saved",
+      "context": "Two days before arrest, speaking to Agnon veuve Claudon Barbier"
+    },
+    {
+      "speaker": "Bernarde femme Demenge Baille",
+      "french": "qu'elle ne l'estoit point sy elle ne le devenoit, mais qu'elle avoit plus de peure de son marit que d'elle",
+      "english": "she was not a witch unless she became one, but she was more afraid of her husband than herself",
+      "context": "Two days before arrest"
+    },
+    {
+      "speaker": "Clemence fille Jean Poulain",
+      "french": "que le diable luy soit es yeulx",
+      "english": "may the devil be in her eyes",
+      "context": "Threat allegedly made by Bernarde about spinning work"
+    },
+    {
+      "speaker": "Lucas Brandecq",
+      "french": "qu'elle faisoit grande meschanceté par ses sortilleges et venefices",
+      "english": "she was doing great wickedness by her sorcery and venefices",
+      "context": "After seeing mysterious fire at her house"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Bernarde femme Demenge Baille",
+      "person2": "Demenge Baille",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "inferred": false
+    },
+    {
+      "person1": "Bernarde femme Demenge Baille",
+      "person2": "Colas de la Court",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Father, Colas de la Court, was dead",
+      "inferred": false
+    },
+    {
+      "person1": "Bernarde femme Demenge Baille",
+      "person2": "Jennon",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother Jennon had been executed as witch at Baccarat some 18 months earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Chrestien Brandecq",
+      "person2": "Lucas Brandecq",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "he and brother Chretien were fishing",
+      "inferred": false
+    },
+    {
+      "person1": "Noel Mayance",
+      "person2": "Dieudonné",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his son Dieudonné",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Chostey",
+      "person2": "Claudatte femme Didier Chostey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Chopat",
+      "person2": "Georgeatte femme Demenge Chopat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Pieron",
+      "person2": "Jennon femme Jean Pieron",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Labbé",
+      "person2": "Mongeatte femme Colas Labbé",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Brabant",
+      "person2": "Marguitte femme Colas Brabant",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Lucas Brandecq",
+      "person2": "Jennon femme Lucas Brandecq",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Ganaire",
+      "person2": "Zabel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "wife of maire Demenge Ganaire",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Ganaire",
+      "person2": "Adam",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "their son Adam",
+      "inferred": false
+    },
+    {
+      "person1": "Bernarde femme Demenge Baille",
+      "person2": "Lucas Brandecq",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "had started to build house adjoining hers",
+      "inferred": false
+    },
+    {
+      "person1": "Bernarde femme Demenge Baille",
+      "person2": "Didier Chostey",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "when they were neighbours",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Poulain",
+      "person2": "Clemence fille Jean Poulain",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "inferred": false
+    },
+    {
+      "person1": "Lucas Brandecq",
+      "person2": "Marguitte fille Lucas Brandecq",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Marguitte fille Lucas Brandecq",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "horse of Jean Colas Peltier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "bad leg, for which no remedy could be found",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "sold corses without his knowledge, claimed his share",
+      "time_between_quarrel_and_harm": "within a week",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Lucas Brandecq and Chrestien Brandecq",
+      "victim_relationship_to_witness": "self and brother",
+      "harm_category": "property_damage",
+      "harm_description": "serious losses over last 3 years",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "building house adjoining hers",
+      "time_between_quarrel_and_harm": "over last 3 years",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Dieudonné, son of Noel Mayance",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "bossu et contrefaict (hunchbacked and deformed)",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "since spring",
+      "method_alleged": "powder",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "cow of Demenge Mathieu",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died of a strange illness",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "quarrels about carting, who should go first on road",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "pig of Didier Chostey",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died after she chased it out",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "pig went in her house",
+      "time_between_quarrel_and_harm": "after she chased it out",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "ox of Colas Brabant",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "illness, had to be killed",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "fine witness levied on horse which damaged crops",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "horse of Demenge Chopat",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "animal_death",
+      "harm_description": "drowned",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "went to cart corses without telling her husband",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "ox of Jean Pieron",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "fine ox sickened and died",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "fence round field of witness",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "method_alleged": "powder",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "pig of Jean Pieron",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "small pig killed by a wolf (herdsman's dog would not bark or run after it)",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "horse of Demenge Chopat",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "drowned",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "went to cart corses without telling her husband",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "husband of Claudatte femme Didier Chostey",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "strange trouble with mouth, which lasted some time",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "he kept his distance when she had scarf over mouth",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Marie femme Claudon Charier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "headache which lasted some time",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "time_between_quarrel_and_harm": "immediately after seeing small creatures swarming around chimney",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Clemence fille Jean Poulain",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "one eye became blurred, then other eye also affected, slowly recovered 3 months later",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "finished spinning what she had brought",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "2 oxen of Jean Pieron",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "animal_death",
+      "harm_description": "lost 2 oxen with strange illnesses",
+      "animal_type": "ox",
+      "animal_count": 2,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "fence round field",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "cow of Mongeatte femme Colas Labbé",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "lost use of back legs, eventually found remedy",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "time_between_quarrel_and_harm": "within 2 or 3 days after touching",
+      "method_alleged": "touch",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "horse of Colas Blasat",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "sick horse died after she 'signed' it",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "one of her pigs escaped",
+      "method_alleged": "touch_healing",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "animals of Marguitte femme Colas Brabant",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "great losses of animals over last year, some still ill",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "fine on trespassing horse",
+      "time_between_quarrel_and_harm": "over last year",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "Lucas Brandecq and wife",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "property_damage",
+      "harm_description": "many losses, veoir du tout leur change ostée",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "building behind their house",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "child of Demenge Ganaire",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "lost use of limbs for 6 weeks, expected to die but recovered",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "wife struck one of Bernarde's children",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Zabel femme Demenge Ganaire",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill for 6 weeks, expected to die but recovered",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "struck one of Bernarde's children",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "powder (white powder to cure, per confession)",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Marguitte fille Lucas Brandecq",
+      "victim_relationship_to_witness": "not specified",
+      "harm_category": "human_death",
+      "harm_description": "died",
+      "attributed_to": "Bernarde femme Demenge Baille",
+      "precipitating_quarrel": "very angry with her over lies she told",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "master killed her with Bernarde's consent"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "corses",
+      "context": "carting corses from Vic, stored in house, disputes over sale",
+      "category": "other"
+    },
+    {
+      "object": "salt",
+      "context": "Colas Godelet delivering salt with torch",
+      "category": "food"
+    },
+    {
+      "object": "torch",
+      "context": "used to illuminate salt delivery at night",
+      "category": "household"
+    },
+    {
+      "object": "flour",
+      "context": "angry about flour which was too thick",
+      "category": "food"
+    },
+    {
+      "object": "black powder",
+      "context": "to kill",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "to cure",
+      "category": "magical"
+    },
+    {
+      "object": "woman's milk",
+      "context": "cure for eye trouble",
+      "category": "magical"
+    },
+    {
+      "object": "club",
+      "context": "threw at escaped pig, mysteriously disappeared",
+      "category": "tools"
+    },
+    {
+      "object": "scarf",
+      "context": "worn over mouth",
+      "category": "clothing"
+    },
+    {
+      "object": "fence",
+      "context": "quarrel about fence round field",
+      "category": "agricultural"
+    },
+    {
+      "object": "money (straw)",
+      "context": "devil's money was straw",
+      "category": "money"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neuveville-les-Raon",
+      "place_type": "village",
+      "context": "location of trial, residence of accused"
+    },
+    {
+      "place_name": "Bertrichamp",
+      "place_type": "village",
+      "context": "birthplace of accused"
+    },
+    {
+      "place_name": "Baccarat",
+      "place_type": "village",
+      "context": "where mother was executed"
+    },
+    {
+      "place_name": "Vic",
+      "place_type": "village",
+      "context": "where corses were carted from"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "fishing location near accused's house"
+    },
+    {
+      "place_name": "St Blaise",
+      "place_type": "village",
+      "context": "location of accomplice"
+    },
+    {
+      "place_name": "forest/woods",
+      "place_type": "forest",
+      "context": "dream of being in woods where master Navel spoke to her"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": ["wolf killed pig"],
+    "economic_hardship_indicators": ["debt disputes", "disputes over carting work", "property losses"],
+    "religious_calendar_references": ["St Jean", "Brandons", "Christmas"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Demenge Ganaire",
+        "role": "mayor",
+        "location": "la Neufville"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 19,
+    "hearsay_testimony_count": 1,
+    "oldest_accusation_years": 10
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "natural_explanations"],
+    "emotional_state_notes": [
+      "seemed to be on point of confession",
+      "said she wished to save her soul",
+      "showed that justice was stronger than devil's tromperie"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Colas Godelet",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "delivering salt with torch, caused fire witness saw"
+    },
+    {
+      "name": "Zabel femme Demenge Ganaire",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "victim of alleged maleficium, later healed by accused",
+      "relationship_to_witness": "wife of witness 23",
+      "context": "became ill, accused said she could cure but feared accusations"
+    },
+    {
+      "name": "Adam",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "son of maire, victim of alleged maleficium",
+      "relationship_to_witness": "son of witness 23",
+      "context": "son of maire Demenge Ganaire who lost use of limbs"
+    },
+    {
+      "name": "Marguitte fille Lucas Brandecq",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "victim of alleged murder",
+      "relationship_to_witness": "daughter of witness 3",
+      "context": "accused confessed to consenting to her death by master"
+    },
+    {
+      "name": "Dieudonné",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "victim of alleged maleficium",
+      "relationship_to_witness": "son of witness 4",
+      "context": "son of Noel Mayance, became hunchbacked and deformed"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Complete trial record with witness testimony, confession under torture, and execution. Mother previously executed as witch. Accused practiced folk healing/veterinary remedies.",
+    "pdf_pages": 5
+  }
+}

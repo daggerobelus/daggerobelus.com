@@ -1,0 +1,898 @@
+{
+  "trial_id": "w235",
+  "archive_ref": "B 8699",
+  "location": "Lubine",
+  "language_region": "french",
+  "dates": {
+    "start": "1606-12-26",
+    "end": "1607-04-23",
+    "duration_days": 119
+  },
+  "outcome": "banished",
+  "accused": [
+    {
+      "name": "Claudatte veuve Jean Henri",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "veterinary"],
+      "age": null,
+      "occupation": [],
+      "residence": "Lubine",
+      "marital_status": "widowed",
+      "spouse_name": "Jean Henri",
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Demenge Olry",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "occupation": "forrestier du bois de Lubine",
+      "location": "Lubine",
+      "relationship_to_accused": "neighbor, had disputes",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused paid nothing to witness's son-in-law for guarding her oat field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness's wife",
+            "target_relationship": "wife",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "two days later"
+          },
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          },
+          {
+            "type": "animal_death",
+            "target": "bull",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "next morning after signing"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Demenge Andreu",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "occupation": "maire de Lubine",
+      "location": "Lubine",
+      "relationship_to_accused": "had disputes, went to court with her late husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Several disputes, went to court with her late husband",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness's father",
+            "target_relationship": "father",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Dieudonne George le petit Colin",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "forrestier de Lubine",
+      "location": "Lubine",
+      "relationship_to_accused": "neighbor, invited her to feast",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "soon after feast"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jehennon veuve Benay Dion",
+      "person_id": null,
+      "gender": "female",
+      "age": 70,
+      "location": "Lubine",
+      "relationship_to_accused": "mother-in-law (accused was married to her son)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "witness's son (accused's husband)",
+            "target_relationship": "son",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Catherine femme Didier Bernay Dion",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "location": "Lubine",
+      "relationship_to_accused": "daughter-in-law of Jehennon, lived with accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Marion femme Dieudonne George le petit Colin",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Lubine",
+      "relationship_to_accused": "neighbor, wife of witness 3",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness's husband",
+            "target_relationship": "husband",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Mengeatte femme Pierron Prey",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Lubine",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused said witness was 'bien villaine de ses biens' after witness failed to see her child",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness's child",
+            "target_relationship": "child",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Benay Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "Lubine",
+      "relationship_to_accused": "brother-in-law (married to sister of accused's late husband), lived with accused",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused complained that since witness kept sheep she had lost all hers",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sheep",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "within a month"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Colas",
+      "person_id": null,
+      "gender": "male",
+      "location": "Lubine",
+      "relationship_to_accused": "neighbor, took Jean Demenge Olry's side in dispute",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness took Jean Demenge Olry's side in dispute with accused",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte veuve Jean Henri"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Didier Arnould",
+      "person_id": null,
+      "gender": "male",
+      "location": "Lubine",
+      "relationship_to_accused": "had goats placed with accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness decided to take goats back despite reasonable price",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "next evening"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "unknown",
+      "person_id": null,
+      "gender": "male",
+      "location": "Lubine",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness refused to do carting for accused because too busy",
+        "threat_received": true,
+        "threat_quote": "she would remember this",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudatte veuve Jean Henri",
+            "time_after_quarrel": "3 days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1606-12-26",
+      "event": "informations_preparatoires",
+      "subject": "Claudatte veuve Jean Henri",
+      "details": "Witness testimony collected"
+    },
+    {
+      "date": "1607-01-18",
+      "event": "other",
+      "subject": "Claudatte veuve Jean Henri",
+      "details": "C.M. Rémy proposes arrest and imprisonment, or if not found and does not answer three summons, banishment"
+    },
+    {
+      "date": "1607-01-19",
+      "event": "other",
+      "subject": "Claudatte veuve Jean Henri",
+      "details": "Change de Nancy approves proposal"
+    },
+    {
+      "date": "1607-04-23",
+      "event": "sentence",
+      "subject": "Claudatte veuve Jean Henri",
+      "details": "Final sentence of banishment issued"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Demenge Olry",
+      "french": "au diable soit l'ordure et a la sorciere",
+      "context": "During quarrel over non-payment"
+    },
+    {
+      "speaker": "Mengeatte femme Pierron Prey",
+      "french": "bien villaine de ses biens",
+      "context": "Accused's words to witness after she failed to see accused's child"
+    },
+    {
+      "speaker": "Marion femme Dieudonne George le petit Colin",
+      "french": "aussy bon marit qui fut oncques",
+      "context": "Describing husband's recovery after accused's cure"
+    },
+    {
+      "speaker": "Jehennon veuve Benay Dion",
+      "french": "nonobstant qu'on ne pouvoit toutesfois croire qu'elle fut telle qu'on la soubconnoit",
+      "context": "Despite not wanting to believe accused was a witch"
+    },
+    {
+      "speaker": "Jehennon veuve Benay Dion",
+      "french": "qu'il n'y a rien de bon en son faict",
+      "context": "Presuming from accused's absence that there was nothing good in her actions"
+    },
+    {
+      "speaker": "Jehennon veuve Benay Dion",
+      "french": "ung grand triste coeur",
+      "context": "Describing her emotional state about the situation"
+    },
+    {
+      "speaker": "Witness 11",
+      "french": "O sorciere ceste toy qui a faict mourir notre vache, tu nous la payeras et satisferas, ou autrement nous te ferons brusler",
+      "english": "Oh witch, it is you who killed our cow, you will pay us and make amends, or else we will have you burned",
+      "context": "Confronting accused after cow died"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claudatte veuve Jean Henri",
+      "person2": "Jean Henri",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Claudatte veuve Jean Henri de Lubine",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte veuve Jean Henri",
+      "person2": "Jehennon veuve Benay Dion",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Accused had been married to her son",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon veuve Benay Dion",
+      "person2": "Jean Henri",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Accused had been married to her son",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Didier Bernay Dion",
+      "person2": "Jehennon veuve Benay Dion",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "lived with mother-in-law",
+      "inferred": false
+    },
+    {
+      "person1": "Benay Grand Didier",
+      "person2": "Jean Henri",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "married for 4 years to sister of late husband of accused",
+      "inferred": false
+    },
+    {
+      "person1": "Marion femme Dieudonne George le petit Colin",
+      "person2": "Dieudonne George le petit Colin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marion femme Dieudonne George le petit Colin",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Didier Bernay Dion",
+      "person2": "Didier Bernay Dion",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Didier Bernay Dion",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeatte femme Pierron Prey",
+      "person2": "Pierron Prey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeatte femme Pierron Prey",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon veuve Benay Dion",
+      "person2": "Benay Dion",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehennon veuve Benay Dion",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Demenge Olry",
+      "person2": "Claudatte veuve Jean Henri",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Had been resident 16 years",
+      "inferred": true
+    },
+    {
+      "person1": "Benay Grand Didier",
+      "person2": "Claudatte veuve Jean Henri",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Had lived with them",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes over payment and labor. Jean Demenge Olry angry because accused paid nothing to his son-in-law for guarding her oat field. Witness refused to do carting for accused. Didier Arnould took back goats despite reasonable price. Witness 11 demanded payment for dead cow. Accused left with 'a good part of her goods' suggesting she had some property."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "wife of Jean Demenge Olry",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "suddenly fell ill and was thought to be dying",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "non-payment for guarding oat field",
+      "time_between_quarrel_and_harm": "two days later",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "mare of Jean Demenge Olry",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "became lame",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "bull of Jean Demenge Olry",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "died morning after accused 'signed' it",
+      "animal_type": "cattle",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "called to sign sick animal as customary",
+      "time_between_quarrel_and_harm": "next morning",
+      "method_alleged": "touch",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "father of Demenge Andreu",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 2 years before death",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Dieudonne George le petit Colin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 5 or 6 weeks, as if out of his mind, treating wife badly, wandering, no memory, beating wife",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "possibly felt slighted at feast",
+      "time_between_quarrel_and_harm": "soon after feast",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jean Henri (accused's husband)",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "died suddenly after being ill only 48 hours",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "cow of Catherine femme Didier Bernay Dion",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "milk became yellow and bitter, lasted 8 weeks",
+      "animal_type": "cattle",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "husband of Marion (Dieudonne George le petit Colin)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "seemed out of his mind, unable to work, wandering about, having no memory, beating wife",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "child of Mengeatte femme Pierron Prey",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill, no cure could be found until bathed with herbs",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "witness was 'bien villaine de ses biens' for not seeing accused's child",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "sheep of Benay Grand Didier",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost 5 sheep",
+      "animal_type": "sheep",
+      "animal_count": 5,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "accused complained witness kept sheep while she lost all hers",
+      "time_between_quarrel_and_harm": "within a month",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "mare of Colas",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "became lame, remained so for 2 years",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "witness took Jean Demenge Olry's side in dispute",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Colas",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "violent pains in 'petit ventre', could not work, during harvest",
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "pig of Didier Arnould",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "one of two fine pigs became sick and died",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "witness took back goats despite reasonable price",
+      "time_between_quarrel_and_harm": "next evening",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "cow of witness 11",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill in herd, died after 3 days",
+      "animal_type": "cattle",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Jean Henri",
+      "precipitating_quarrel": "witness refused to do carting because too busy",
+      "time_between_quarrel_and_harm": "3 days later",
+      "witness_number": 11
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread",
+      "context": "Used in counter-magic cure, obtained from accused's house",
+      "category": "food"
+    },
+    {
+      "object": "salt",
+      "context": "Used in counter-magic cure, obtained from accused's house",
+      "category": "food"
+    },
+    {
+      "object": "cheese",
+      "context": "Used in counter-magic cure, obtained from accused's house",
+      "category": "food"
+    },
+    {
+      "object": "axe",
+      "context": "Jean Demenge Olry threatened accused with axe in hand",
+      "category": "tools"
+    },
+    {
+      "object": "black substance",
+      "context": "Accused used to rub and heal lame mare",
+      "category": "magical"
+    },
+    {
+      "object": "millet",
+      "context": "Mengeatte cooked to send to neighbors after having baby",
+      "category": "food"
+    },
+    {
+      "object": "herbs",
+      "context": "Used to make bath for sick child on accused's advice",
+      "category": "magical"
+    },
+    {
+      "object": "fumier",
+      "context": "Didier Arnould covered sick pig with manure",
+      "category": "agricultural"
+    },
+    {
+      "object": "cart",
+      "context": "Used to bring sick cow back, witness refused to do carting",
+      "category": "agricultural"
+    },
+    {
+      "object": "goats",
+      "context": "Didier Arnould had placed with accused, then took back",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Lubine",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused and all witnesses"
+    },
+    {
+      "place_name": "bois de Lubine",
+      "place_type": "forest",
+      "context": "Woods where Jean Demenge Olry worked as forester, source of boars damaging oat field"
+    },
+    {
+      "place_name": "oat field",
+      "place_type": "field",
+      "context": "Accused's field guarded by witness's son-in-law against boars"
+    },
+    {
+      "place_name": "neighboring field",
+      "place_type": "field",
+      "context": "Where accused was working when she spoke to Colas about grain"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [
+      "boars coming out of woods and damaging oat field"
+    ],
+    "economic_hardship_indicators": [
+      "disputes over payment for labor",
+      "concern over potential profit from sheep and goats",
+      "harvest season labor crucial"
+    ],
+    "religious_calendar_references": [
+      "St Jean (feast day when witness had baby)",
+      "St Martin (time when goats were placed with accused)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": "unknown"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "other",
+        "description": "Demenge Andreu had been to court with accused's late husband",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 11,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Jehennon veuve Benay Dion",
+        "source": "Catherine femme Didier Bernay Dion",
+        "content": "Story of cow's milk becoming bad"
+      }
+    ],
+    "oldest_accusation_years": 16,
+    "corroboration_groups": [
+      [3, 6]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [],
+    "emotional_state_notes": [
+      "Only reply to being called witch was shake of head",
+      "Fled before arrest, leaving at dawn"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "son-in-law of Jean Demenge Olry",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "son-in-law of witness 1",
+      "context": "Guarded accused's oat field but was not paid"
+    },
+    {
+      "name": "sister-in-law of Jean Demenge Olry",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "sister-in-law of witness 1",
+      "context": "Obtained bread, salt, and cheese from accused's house for counter-magic"
+    },
+    {
+      "name": "wife of Dieudonne George le petit Colin",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "wife of witness 3",
+      "context": "Held 'bancquet de femme' after having baby, invited accused"
+    },
+    {
+      "name": "Catherine (daughter-in-law of Jehennon)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "lived with accused",
+      "relationship_to_witness": "daughter-in-law of witness 4",
+      "context": "Had cow whose milk went bad, suspected accused"
+    },
+    {
+      "name": "brother-in-law of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law",
+      "context": "Stated he did not know accused's whereabouts during formal legal proceedings"
+    },
+    {
+      "name": "aunt of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "aunt",
+      "context": "Accused claimed she wanted to live with her aunt when leaving Lubine"
+    },
+    {
+      "name": "friends of Jean Demenge Olry",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Advised witness 1 to obtain bread, salt, and cheese from accused's house"
+    },
+    {
+      "name": "women in village",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Along with accused, advised witness 7 to make herbal bath for sick child"
+    },
+    {
+      "name": "wife of Didier Arnould",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "wife of witness 10",
+      "context": "Warned husband that taking back goats might cost them dearly, feared accused"
+    },
+    {
+      "name": "herdsman",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Brought pigs back and reported one was sick; village system where inhabitants took turns helping herdsman"
+    },
+    {
+      "name": "children of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "context": "Accused recommended them to Catherine when fleeing at dawn"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Trial ended in banishment as accused fled before arrest. Notable for extensive reputation testimony (up to 16 years), accused's dual role as suspected witch and village healer, and economic tensions around payment and livestock. Witness 9's name (Colas) is incomplete in source. Witness 11's name is missing from damaged text. Counter-magic practices prominent (bread/salt/cheese cures). Change de Nancy consulted and approved banishment.",
+    "pdf_pages": 3
+  }
+}

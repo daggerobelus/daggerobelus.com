@@ -4,6 +4,14 @@
   "archive_ref": "B 2192 no 1",
   "location": "Mazerulles",
   "court": "Amance",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Barthelemin Humblot",
+    "person_id": null,
+    "occupation": "paistre",
+    "location": "Mazerulles",
+    "relationship_to_accused": "neighbor/fellow herdsman"
+  },
   "dates": {
     "start": "1612-07-02",
     "end": "1612-07-25",
@@ -13,9 +21,13 @@
   "accused": [
     {
       "name": "Mengin Mathiotte",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["herdsman", "paistre"],
       "origin": "Bey",
       "residence": "Mazerulles",
@@ -60,6 +72,7 @@
     {
       "number": 1,
       "name": "Thoussainct Bournery",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "manoeuvrier",
@@ -96,6 +109,7 @@
     {
       "number": 2,
       "name": "Nicolas Berger, dit Tixerand",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": "manoeuvrier",
@@ -125,6 +139,7 @@
     {
       "number": 3,
       "name": "Didier Florentin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "manoeuvrier",
@@ -146,6 +161,7 @@
     {
       "number": 4,
       "name": "Crestaille Thieriet",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "laboureur",
@@ -167,6 +183,7 @@
     {
       "number": 5,
       "name": "Bastien Arracourt",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "manoeuvrier",
@@ -196,6 +213,7 @@
     {
       "number": 6,
       "name": "Izabel femme Demange Rougier",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": "laboureur (wife)",
@@ -232,6 +250,7 @@
     {
       "number": 7,
       "name": "Demange Rougier",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": "laboureur",
@@ -275,6 +294,7 @@
     {
       "number": 8,
       "name": "Anthoine Rougier (le maire)",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "occupation": "laboureur, maire",
@@ -296,6 +316,7 @@
     {
       "number": 9,
       "name": "Mengin Dourche",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "paistre des bestes blanches",
@@ -332,6 +353,7 @@
     {
       "number": 10,
       "name": "Mengeotte femme Mengin Dourche",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": "wife of herdsman",
@@ -353,6 +375,7 @@
     {
       "number": 11,
       "name": "Nicolas Saffrois",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "laboureur",
@@ -396,6 +419,7 @@
     {
       "number": 12,
       "name": "Barbe femme Nicolas Saffrois",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "laboureur (wife)",
@@ -425,6 +449,7 @@
     {
       "number": 13,
       "name": "Jean Symonin",
+      "person_id": null,
       "gender": "male",
       "age": 64,
       "occupation": "maire pour le sondrier",
@@ -446,6 +471,7 @@
     {
       "number": 14,
       "name": "Barbellon femme Demange Malgrais",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "laboureur (wife)",
@@ -475,6 +501,7 @@
     {
       "number": 15,
       "name": "Catherine femme Nicolas Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": "unknown",
@@ -504,6 +531,7 @@
     {
       "number": 16,
       "name": "Mengeotte, veuve François Jean Maire",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "widow",
@@ -533,6 +561,7 @@
     {
       "number": 17,
       "name": "Odille femme Jean Hangney",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "laboureur (wife)",
@@ -562,6 +591,7 @@
     {
       "number": 18,
       "name": "Mathis Florentin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "lieutenant du prévôt",
@@ -591,6 +621,7 @@
     {
       "number": 19,
       "name": "Jean Hangney",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "laboureur",
@@ -627,6 +658,7 @@
     {
       "number": 20,
       "name": "Demange Malgrais",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -1524,7 +1556,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Backfired - Barthelemin Humblot made himself partie formelle, resulting in Mengin's arrest for witchcraft",
     "imprisonment_conditions": "Mengin said he would rather die than remain in prison as he was",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture but only with moderation in view of his age (70 years); approved as 'question mediocre'",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1582,6 +1619,7 @@
   "third_parties": [
     {
       "name": "Barthelemin Humblot",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "neighbor/fellow herdsman",
       "relationship_to_witness": null,
@@ -1589,6 +1627,7 @@
     },
     {
       "name": "Hesselot Saffrois",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "village official who removed herdsman position",
       "relationship_to_witness": null,
@@ -1596,6 +1635,7 @@
     },
     {
       "name": "Mengin Bouchier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "employer",
       "relationship_to_witness": "told Demange Rougier about accused's anger",
@@ -1603,6 +1643,7 @@
     },
     {
       "name": "Nicolas Pierson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "acquaintance",
       "relationship_to_witness": null,
@@ -1610,6 +1651,7 @@
     },
     {
       "name": "Pieron George",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "creditor (deceased)",
       "relationship_to_witness": null,
@@ -1617,6 +1659,7 @@
     },
     {
       "name": "clerc juré",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "village official involved in herdsman appointment",
       "relationship_to_witness": null,
@@ -1624,6 +1667,7 @@
     },
     {
       "name": "Persy",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/seducer",
       "relationship_to_witness": null,
@@ -1631,6 +1675,7 @@
     },
     {
       "name": "Mengin Mathiotte's son",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": "fought with Nicolas Berger over girl",
@@ -1638,6 +1683,7 @@
     },
     {
       "name": "Mengin Mathiotte's daughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1645,6 +1691,7 @@
     },
     {
       "name": "Mengin Mathiotte's children (plural)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "relationship_to_witness": null,
@@ -1652,6 +1699,7 @@
     },
     {
       "name": "Mengin Mathiotte's wife (second wife)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "spouse",
       "relationship_to_witness": null,
@@ -1659,6 +1707,7 @@
     },
     {
       "name": "Mengeotte femme Didier Guerard",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice at sabbat",
       "relationship_to_witness": null,
@@ -1666,6 +1715,7 @@
     },
     {
       "name": "Didier Guerard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of alleged accomplice",
       "relationship_to_witness": null,
@@ -1673,6 +1723,7 @@
     },
     {
       "name": "Nicolas Saffrois' servant",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "servant of witness 11",
@@ -1680,6 +1731,7 @@
     },
     {
       "name": "Nicolas Villaume",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "husband of witness 15",
@@ -1687,6 +1739,7 @@
     },
     {
       "name": "François Jean Maire",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor (deceased)",
       "relationship_to_witness": "deceased husband of witness 16",

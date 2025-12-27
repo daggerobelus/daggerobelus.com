@@ -3,6 +3,7 @@
   "archive_ref": "B 3335 no 3",
   "location": "Blamont",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1608-05-05",
     "end": "1608-06-23",
@@ -12,6 +13,7 @@
   "accused": [
     {
       "name": "Babillon Cherier",
+      "person_id": null,
       "gender": "female",
       "age": 65,
       "age_approximate": true,
@@ -20,6 +22,9 @@
       "residence": "Blamont",
       "marital_status": "unknown",
       "spouse_name": "Martin l'Allemand",
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing"],
       "parents": {
         "father": "Nicolas Cherrier",
         "mother": "Catherine Galla"
@@ -38,6 +43,7 @@
     {
       "number": 1,
       "name": "Chrestien du Prey",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": "bourgeois",
@@ -73,6 +79,7 @@
     {
       "number": 2,
       "name": "Didie femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": "housewife",
@@ -101,6 +108,7 @@
     {
       "number": 3,
       "name": "Mengeotte femme Demenge Fournier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "servant",
@@ -129,6 +137,7 @@
     {
       "number": 4,
       "name": "Barbe femme Jean des Prez",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "bourgeois",
@@ -165,6 +174,7 @@
     {
       "number": 5,
       "name": "Hellenix femme Jean Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": "bourgeois",
@@ -192,6 +202,7 @@
     {
       "number": 6,
       "name": "Jean Menusier",
+      "person_id": null,
       "gender": "male",
       "age": 54,
       "occupation": "bourgeois",
@@ -211,6 +222,7 @@
     {
       "number": 7,
       "name": "Bernard Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "bourgeois",
@@ -230,6 +242,7 @@
     {
       "number": 8,
       "name": "Bastienne veuve Claude Charton",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "widow",
@@ -259,6 +272,7 @@
     {
       "number": 9,
       "name": "Jehennon femme Claude de Metz",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "bourgeois",
@@ -278,6 +292,7 @@
     {
       "number": 10,
       "name": "Melline femme Henry Jean",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": "wife of maire",
@@ -297,6 +312,7 @@
     {
       "number": 11,
       "name": "Claudine femme Pierre Barthellemy",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "wife of controller",
@@ -316,6 +332,7 @@
     {
       "number": 12,
       "name": "Jean du Prey",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "occupation": "charpentier bourgeois",
@@ -351,6 +368,7 @@
     {
       "number": 13,
       "name": "Jeannon femme Jean le Rouesson",
+      "person_id": null,
       "gender": "female",
       "age": 43,
       "occupation": "market vendor",
@@ -379,6 +397,7 @@
     {
       "number": 14,
       "name": "Nicolas Haultemant",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "salpetrier",
@@ -1093,7 +1112,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Considered seeking reparation against Jacquotte Gottatz for calling her witch, but brother dissuaded her",
     "imprisonment_conditions": "Not specified",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Local court requested question ordinaire et extraordinaire (full torture). Change de Nancy modified this to showing instruments of torture as threat, but only applying thumbscrews. Later approved procureur fiscal's recommendation to release (renvoyée) with right to enquire further if necessary",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1150,6 +1174,7 @@
   "third_parties": [
     {
       "name": "Didier femme Demenge Pourlat",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "defended by Babillon",
       "relationship_to_witness": "caused argument with witnesses",
@@ -1157,6 +1182,7 @@
     },
     {
       "name": "Jacquotte Gottatz",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "lived in same house, stole from Babillon",
       "relationship_to_witness": "none specified",
@@ -1164,6 +1190,7 @@
     },
     {
       "name": "Jean Charrier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": "none specified",
@@ -1171,6 +1198,7 @@
     },
     {
       "name": "Martin l'Allemand",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": "none specified",
@@ -1178,6 +1206,7 @@
     },
     {
       "name": "blacksmith",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "could testify to her innocence",
       "relationship_to_witness": "treated Nicolas Haultemant's horse",
@@ -1185,6 +1214,7 @@
     },
     {
       "name": "little daughter of Nicolas Haultemant",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none specified",
       "relationship_to_witness": "daughter of witness",
@@ -1192,6 +1222,7 @@
     },
     {
       "name": "wife of Nicolas Haultemant",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none specified",
       "relationship_to_witness": "wife of witness",

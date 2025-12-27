@@ -3,6 +3,8 @@
   "archive_ref": "B 3327 no 1",
   "location": "Domjevin",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1603-12-18",
     "end": "1604-01-29",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Chrestienne femme Nicolas Barret",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": "Domjevin",
       "residence": "Domjevin",
@@ -54,6 +60,7 @@
     {
       "number": 1,
       "name": "Didier Thirion",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -76,6 +83,7 @@
     {
       "number": 2,
       "name": "Jennon femme Jean Mongeot",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
@@ -98,6 +106,7 @@
     {
       "number": 3,
       "name": "Yzabey femme Didier Doyen",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -120,6 +129,7 @@
     {
       "number": 4,
       "name": "Jean Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -142,6 +152,7 @@
     {
       "number": 5,
       "name": "Catherine femme Didier Thirion",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -164,6 +175,7 @@
     {
       "number": 6,
       "name": "Jean Virion",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -194,6 +206,7 @@
     {
       "number": 7,
       "name": "Annel veuve Virion Bergier",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -224,6 +237,7 @@
     {
       "number": 8,
       "name": "Bastienne femme Colas Simonatte",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -261,6 +275,7 @@
     {
       "number": 9,
       "name": "Jean Henry",
+      "person_id": null,
       "gender": "male",
       "age": 72,
       "age_approximate": true,
@@ -291,6 +306,7 @@
     {
       "number": 10,
       "name": "Nicolas Goudot",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -321,6 +337,7 @@
     {
       "number": 11,
       "name": "Jean fils Demenge Jean Jean",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "age_approximate": true,
@@ -351,6 +368,7 @@
     {
       "number": 12,
       "name": "Jean Diez",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "age_approximate": true,
@@ -373,6 +391,7 @@
     {
       "number": 13,
       "name": "Nicolas Bon Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -395,6 +414,7 @@
     {
       "number": 14,
       "name": "Gerardin Jean Thiriat",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "age_approximate": true,
@@ -425,6 +445,7 @@
     {
       "number": 15,
       "name": "Jennon femme de Bernard Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -455,6 +476,7 @@
     {
       "number": 16,
       "name": "Allison Colas Estienne",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "age_approximate": false,
@@ -485,6 +507,7 @@
     {
       "number": 17,
       "name": "Bernard Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "age_approximate": true,
@@ -515,6 +538,7 @@
     {
       "number": 18,
       "name": "Zabey femme Claude Pierson",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -1186,7 +1210,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "obtained reparation through justice when she felt scandalized by being tested with herbs",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1256,6 +1285,7 @@
   "third_parties": [
     {
       "name": "Mengin le Xeru",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "relationship_to_witness": "told Gerardin about Manonviller denunciations",
@@ -1263,6 +1293,7 @@
     },
     {
       "name": "Allison (mother of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1270,6 +1301,7 @@
     },
     {
       "name": "Mengin Lours",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1277,6 +1309,7 @@
     },
     {
       "name": "Chrestienne (wife of Jean Diez)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 12",
@@ -1284,6 +1317,7 @@
     },
     {
       "name": "Dom Jean de Xanrey",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "provided magical cure to several witnesses",
@@ -1291,6 +1325,7 @@
     },
     {
       "name": "Gerardin (uncle)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "uncle to witness 11, same person as witness 14",
@@ -1298,6 +1333,7 @@
     },
     {
       "name": "Jehenne wife of Demenge Jean Jean",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 14, mother of witness 11",
@@ -1305,6 +1341,7 @@
     },
     {
       "name": "Jehenne wife of Jean Simonatte le jeune",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "niece",
       "relationship_to_witness": null,
@@ -1312,6 +1349,7 @@
     },
     {
       "name": "Colas Bon Demenge",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "source for witnesses 9 and 12",
@@ -1319,6 +1357,7 @@
     },
     {
       "name": "Zabey Masson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "same person as witness 18 Zabey femme Claude Pierson",
@@ -1326,6 +1365,7 @@
     },
     {
       "name": "Messire Demenge (curé)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "godfather to Parmentier child (victim)",
@@ -1333,6 +1373,7 @@
     },
     {
       "name": "Jean Virion's father",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had property dispute with accused's husband",
       "relationship_to_witness": "father of witness 6",
@@ -1340,6 +1381,7 @@
     },
     {
       "name": "Virion Bergier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had debt dispute with accused's husband",
       "relationship_to_witness": "husband of witness 7",
@@ -1347,6 +1389,7 @@
     },
     {
       "name": "Nicolas Goudot's wife",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 10",
@@ -1354,6 +1397,7 @@
     },
     {
       "name": "Bastienne and Colas Simonatte's son",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness 8",
@@ -1361,6 +1405,7 @@
     },
     {
       "name": "Bernard and Jennon Parmentier's son",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witnesses 15 and 17",
@@ -1368,6 +1413,7 @@
     },
     {
       "name": "wife of Colas Diez",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 16",
@@ -1375,6 +1421,7 @@
     },
     {
       "name": "Jehenne de Frumesnil",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged sabbat accomplice",
       "relationship_to_witness": null,
@@ -1382,6 +1429,7 @@
     },
     {
       "name": "several witches executed at Manonviller",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "denounced her",
       "relationship_to_witness": null,
@@ -1389,6 +1437,7 @@
     },
     {
       "name": "brother married to Chrestienne's niece",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "married to niece",
       "relationship_to_witness": "Bastienne feared succession might go to him",
@@ -1396,6 +1445,7 @@
     },
     {
       "name": "Jean Henry's son-in-law",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "bought field from Jean Henry",
       "relationship_to_witness": "son-in-law of witness 9",
@@ -1403,6 +1453,7 @@
     },
     {
       "name": "Francois Cherier (sergent)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "sergent who allegedly promised release",
       "relationship_to_witness": null,

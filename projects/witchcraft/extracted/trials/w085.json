@@ -3,6 +3,14 @@
   "archive_ref": "B 4500 no 3",
   "location": "la Neufville",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean Rouyer",
+    "person_id": null,
+    "occupation": "prisoner on witchcraft charges",
+    "location": "Houecourt",
+    "relationship_to_accused": "none - scaffold denunciation by condemned witch"
+  },
   "dates": {
     "start": "1586-09-17",
     "end": "1586-11-03",
@@ -12,10 +20,18 @@
   "accused": [
     {
       "name": "Jacquotte Gardeux",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
-      "occupation": ["day laborer", "spinner", "shepherd"],
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
+      "occupation": [
+        "day laborer",
+        "spinner",
+        "shepherd"
+      ],
       "origin": "Chatenois",
       "residence": "la Neufville",
       "marital_status": "married",
@@ -33,10 +49,17 @@
     },
     {
       "name": "Marie Canot",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": false,
-      "occupation": ["domestic servant", "day laborer"],
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
+      "occupation": [
+        "domestic servant",
+        "day laborer"
+      ],
       "origin": "Parey-soubs-Montfort",
       "residence": "la Neufville",
       "marital_status": "married",
@@ -57,6 +80,7 @@
     {
       "number": 1,
       "name": "Nicolas Gegoult",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "hostellier",
@@ -93,6 +117,7 @@
     {
       "number": 2,
       "name": "Jean Vanyer",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "",
@@ -122,6 +147,7 @@
     {
       "number": 3,
       "name": "Ysabeau Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "",
@@ -165,6 +191,7 @@
     {
       "number": 4,
       "name": "Barbe Basle",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "",
@@ -194,6 +221,7 @@
     {
       "number": 5,
       "name": "Halbix Mongenot",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": "widow of butcher",
@@ -223,6 +251,7 @@
     {
       "number": 6,
       "name": "Jannon Waulthier",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "age_approximate": true,
@@ -245,6 +274,7 @@
     {
       "number": 7,
       "name": "Didier Bouvard",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "paistre des bestes blanches (shepherd of white animals)",
@@ -266,6 +296,7 @@
     {
       "number": 8,
       "name": "Ysabel Gudine",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "age_approximate": true,
@@ -288,6 +319,7 @@
     {
       "number": 9,
       "name": "Jehan Thouvenel",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -324,6 +356,7 @@
     {
       "number": 10,
       "name": "Cathin Thouvenel",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "age_approximate": true,
@@ -368,6 +401,7 @@
     {
       "number": 11,
       "name": "Claudet Cabled",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "age_approximate": true,
@@ -398,6 +432,7 @@
     {
       "number": 12,
       "name": "Lucresse Vannier",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "age_approximate": true,
@@ -420,6 +455,7 @@
     {
       "number": 13,
       "name": "Jannon Cabled",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -450,6 +486,7 @@
     {
       "number": 14,
       "name": "Andreu Baille",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -472,6 +509,7 @@
     {
       "number": 15,
       "name": "Barbe Baille",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "",
@@ -493,6 +531,7 @@
     {
       "number": 16,
       "name": "Thierry Toussainct",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "",
@@ -514,6 +553,7 @@
     {
       "number": 17,
       "name": "Claudot Cabled",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "age_approximate": true,
@@ -536,6 +576,7 @@
     {
       "number": 18,
       "name": "Ysabel Vanyer",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -566,6 +607,7 @@
     {
       "number": 19,
       "name": "Janotte Vastron",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "age_approximate": true,
@@ -596,6 +638,7 @@
     {
       "number": 20,
       "name": "Thomasse Utchin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -626,6 +669,7 @@
     {
       "number": 21,
       "name": "Cathin Cabled",
+      "person_id": null,
       "gender": "female",
       "age": 31,
       "age_approximate": true,
@@ -656,6 +700,7 @@
     {
       "number": 22,
       "name": "Cleron Thouvenel",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "age_approximate": true,
@@ -686,6 +731,7 @@
     {
       "number": 23,
       "name": "Symonin Cabled",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "age_approximate": true,
@@ -1634,8 +1680,13 @@
     "accused_sought_redress": true,
     "redress_outcome": "Lost case, husband fined, which led to threats against maire and further suspicions",
     "imprisonment_conditions": "Jacquotte and Marie held in chateau at Chatenois; Mongeotte and Estienne under house arrest",
-    "appeal_to_change_de_nancy": true,
-    "property_confiscation_mentioned": true
+    "property_confiscation_mentioned": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Jacquotte to be tortured 'mediocrement' (moderately), Marie only to be shown instruments of torture",
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 15,
@@ -1669,9 +1720,21 @@
     ],
     "oldest_accusation_years": 14,
     "corroboration_groups": [
-      [1, 3, 4, 5],
-      [9, 10],
-      [11, 13, 23]
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        13,
+        23
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1742,6 +1805,7 @@
   "third_parties": [
     {
       "name": "Jean Rouyer",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "relationship_to_witness": "",
@@ -1749,6 +1813,7 @@
     },
     {
       "name": "Mathieu Amand",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "relationship_to_witness": "",
@@ -1756,6 +1821,7 @@
     },
     {
       "name": "Florentin Gardeux",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband of Jacquotte",
       "relationship_to_witness": "",
@@ -1763,6 +1829,7 @@
     },
     {
       "name": "Francois Canot",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband of Marie",
       "relationship_to_witness": "",
@@ -1770,6 +1837,7 @@
     },
     {
       "name": "Anthoine Perrin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father of Jacquotte",
       "relationship_to_witness": "",
@@ -1777,6 +1845,7 @@
     },
     {
       "name": "Epnotte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother of Jacquotte",
       "relationship_to_witness": "",
@@ -1784,6 +1853,7 @@
     },
     {
       "name": "Claude Mengel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father of Marie",
       "relationship_to_witness": "",
@@ -1791,6 +1861,7 @@
     },
     {
       "name": "Cathin Gegoult",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "customer/neighbor",
       "relationship_to_witness": "wife of witness 1, daughter of witness 5",
@@ -1798,6 +1869,7 @@
     },
     {
       "name": "Didier Mathiot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "former employer/host",
       "relationship_to_witness": "",
@@ -1805,6 +1877,7 @@
     },
     {
       "name": "Matheu Varrin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "sold garden to Jacquotte",
       "relationship_to_witness": "",
@@ -1812,6 +1885,7 @@
     },
     {
       "name": "Messire Dominique Utin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "alleged lover of Cathin Thouvenel",
@@ -1819,6 +1893,7 @@
     },
     {
       "name": "Messire Pierot Gueniot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "alleged father of Lucresse's child",
@@ -1826,6 +1901,7 @@
     },
     {
       "name": "Claude Rigault",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "",
@@ -1833,6 +1909,7 @@
     },
     {
       "name": "Simonin Cabled",
+      "person_id": null,
       "role_in_narrative": "witness",
       "relationship_to_accused": "called Jacquotte witch; subject of slander case",
       "relationship_to_witness": "brother of Claudet (witness 11), son of Claude and Jannon Cabled",

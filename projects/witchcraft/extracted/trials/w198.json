@@ -1,0 +1,1061 @@
+{
+  "trial_id": "w198",
+  "archive_ref": "B 8684 no 11",
+  "location": "Brehimont",
+  "court": "Etival",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean fils Demenge Arnoulx",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": null
+  },
+  "dates": {
+    "start": "1600-10-21",
+    "end": "1600-10-30",
+    "duration_days": 9
+  },
+  "outcome": "unknown",
+  "accused": [
+    {
+      "name": "Jean Thierion le vieux",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 60,
+      "age_approximate": false,
+      "occupation": ["laboureur"],
+      "origin": "Brehimont",
+      "residence": "Brehimont",
+      "marital_status": "married",
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false,
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "occupation": "maire",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over common land - witness arranged to rent land accused had enclosed",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "after the quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "several sheep",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "after the quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "after the quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "after the quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "sow",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "unknown"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Laurent",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused fenced in garden taking land belonging to witness",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "later (after witness's son took down fence)"
+          },
+          {
+            "type": "animal_death",
+            "target": "fine bull",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "within last month"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Demengeon Claude Girard",
+      "person_id": null,
+      "gender": "male",
+      "occupation": "laboureur",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Marguitte femme Jean Laurent",
+      "person_id": null,
+      "gender": "female",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fence and land dispute (corroborating husband's testimony)",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Halbix femme Demenge Colas Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Brehimont",
+      "relationship_to_accused": "nearest neighbor (widow of quarrel victim)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "first husband prevented accused from crossing land with cart of dung",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first husband (Demenge Colas Girard's predecessor)",
+            "target_relationship": "husband",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "within few days",
+            "harm_description": "fell ill and died in 5 days"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Thierion le jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Brehimont",
+      "relationship_to_accused": "relative (same surname, possibly nephew or cousin)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness had taken horse to graze in road where accused had grazing rights",
+        "threat_received": true,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "a week later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Demenge Colas Girard",
+      "person_id": null,
+      "gender": "male",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Thierion had closed off ancient passage forcing people to pass on witness's land",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "immediately",
+            "harm_description": "pain in back as if stung, unable to work for next week"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Michiel Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": 75,
+      "occupation": "laboureur",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Grand Michiel",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claudon Jean Perrin",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "occupation": "laboureur",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "Colas Ferry",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "occupation": "laboureur",
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness and Jean Girard were appointed to watch accused's house during imprisonment at Etival; accused angry saying they ate his property",
+        "threat_received": true,
+        "threat_quote": "he would thank them",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "a few days later",
+            "harm_description": "died in strange fashion"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Didier Thiebault de la Vacherie",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "la Vacherie",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": true,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Mengeotte femme Jean Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 33,
+      "location": "Brehimont",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband guarded accused's house during imprisonment",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sow",
+            "target_relationship": "husband",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "after guarding house"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Catherine femme Jean Thierion le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "location": "Brehimont",
+      "relationship_to_accused": "relative by marriage",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband's grazing dispute (corroborating husband's testimony)",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "husband",
+            "attributed_to": "Jean Thierion le vieux",
+            "time_after_quarrel": "a week later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1600-10-21",
+      "event": "informations_preparatoires",
+      "subject": "Jean Thierion le vieux",
+      "details": "15 witnesses testified"
+    },
+    {
+      "date": "1600-10-23",
+      "event": "interrogation",
+      "subject": "Jean Thierion le vieux",
+      "details": "Denied witchcraft, admitted some minor thefts"
+    },
+    {
+      "date": "1600-10-24",
+      "event": "confrontation",
+      "subject": "Jean Thierion le vieux",
+      "details": "No reproaches to witnesses, denied all witchcraft charges, admitted one or two more thefts"
+    },
+    {
+      "date": "1600-10-30",
+      "event": "torture_approved",
+      "subject": "Jean Thierion le vieux",
+      "details": "Change de Nancy approved torture"
+    },
+    {
+      "date": "1600-10-30",
+      "event": "torture",
+      "subject": "Jean Thierion le vieux",
+      "details": "Given thumbscrews and racked; refused to confess, tried to suffocate himself; had not eaten for 4 days in suicide attempt"
+    },
+    {
+      "date": "1600-10-31",
+      "event": "interrogation",
+      "subject": "Jean Thierion le vieux",
+      "details": "Jean Doridant testified about lycanthropy incident; guards claimed accused admitted turning into wolf, but accused denied"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": null,
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "two or three convicted witches",
+      "accuser_location": "Etival",
+      "context": "accused by witches at Etival",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Thierion le vieux",
+      "french": "que tous les sorciers et sorcieres fussent bruslez et mis en cendres, et luy le beau premier s'il est tel, affin que l'on en oye plus de nouvelles",
+      "english": "that all male and female witches should be burned and reduced to ashes, and him the very first if he is such, so that no more news would be heard of them",
+      "context": "During interrogation when asked about malefices"
+    },
+    {
+      "speaker": "Jean Thierion le vieux",
+      "french": "ce luy estoit tout ung",
+      "english": "it was all the same to him",
+      "context": "When told that killing himself would damn his soul; he still refused to confess"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Girard",
+      "person2": "Mengeotte femme Jean Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mengeotte femme Jean Girard repeated husband's testimony",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Laurent",
+      "person2": "Marguitte femme Jean Laurent",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marguitte femme Jean Laurent repeated husband's story",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le jeune",
+      "person2": "Catherine femme Jean Thierion le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme Jean Thierion le jeune repeated husband's story",
+      "inferred": false
+    },
+    {
+      "person1": "Halbix femme Demenge Colas Girard",
+      "person2": "Demenge Colas Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Halbix femme Demenge Colas Girard, witness 5; Demenge Colas Girard, witness 7",
+      "inferred": false
+    },
+    {
+      "person1": "Halbix femme Demenge Colas Girard",
+      "person2": "first husband (deceased)",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Told of incident when her first husband prevented him crossing land",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Thiebault de la Vacherie",
+      "person2": "Claudon Jean Girard",
+      "relationship_type": "in_law_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Had heard from late father-in-law Claudon Jean Girard",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "Jean Thierion le jeune",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Both share surname Thierion, le vieux (the old) and le jeune (the young) suggests family relation",
+      "inferred": true
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "Jean Girard",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Dispute over common land and multiple interactions",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "Halbix femme Demenge Colas Girard",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Although accused was nearest nighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Laurent",
+      "person2": "son of Jean Laurent",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "had his son take down fence",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "brother-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "he tried to blame his brother-in-law for abusing and distracting him",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes over land and fencing: enclosed common land, fenced in garden taking neighbor's land, closed off ancient passage, repeatedly stole fence posts. Accused was poor and engaged in petty theft (bread, sacks, fencing)."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses died as if rabid or strangely",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "dispute over common land",
+      "time_between_quarrel_and_harm": "after the quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "several sheep died as if rabid or strangely",
+      "animal_type": "sheep",
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "dispute over common land",
+      "time_between_quarrel_and_harm": "after the quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "cow died as if rabid or strangely",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "dispute over common land",
+      "time_between_quarrel_and_harm": "after the quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "ox died as if rabid or strangely",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "dispute over common land",
+      "time_between_quarrel_and_harm": "after the quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "sow died",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "time_between_quarrel_and_harm": "unknown",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Laurent",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "cow died after crying strangely",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "fence dispute - accused took land, witness's son took down fence",
+      "time_between_quarrel_and_harm": "later",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Jean Laurent",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "fine bull killed",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "witness was called to judge damage accused's animals had done in Mengeon Colas Girard's field; accused very angry",
+      "time_between_quarrel_and_harm": "within last month",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "first husband of Halbix",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "fell ill and died in 5 days",
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "husband prevented accused from crossing land with cart of dung, turned his horses and oxen around",
+      "time_between_quarrel_and_harm": "within few days",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Jean Thierion le jeune",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "witness had taken horse to graze in road where accused had grazing rights; accused told him off and threatened him",
+      "time_between_quarrel_and_harm": "a week later",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Demenge Colas Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "pain in back as if stung, unable to work for next week",
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "went to remove posts from ancient passage accused had closed off",
+      "time_between_quarrel_and_harm": "immediately (as he bent over)",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Colas Ferry",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "cow died in strange fashion",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "witness and Jean Girard were appointed to watch accused's house during imprisonment; accused angry, threatened to thank them",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "husband of Mengeotte (Jean Girard)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "animal_death",
+      "harm_description": "sow died",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jean Thierion le vieux",
+      "precipitating_quarrel": "husband guarded accused's house during imprisonment; accused threatened he would repent",
+      "time_between_quarrel_and_harm": "after guarding house",
+      "witness_number": 14
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "axe",
+      "context": "accused displayed axe when confronting witness about land dispute",
+      "category": "tools"
+    },
+    {
+      "object": "cart of dung",
+      "context": "accused tried to cross land with cart of dung",
+      "category": "agricultural"
+    },
+    {
+      "object": "fence posts",
+      "context": "repeatedly stolen by accused",
+      "category": "agricultural"
+    },
+    {
+      "object": "bread",
+      "context": "accused caught stealing bread at St Dié 20 years before",
+      "category": "food"
+    },
+    {
+      "object": "empty sacks",
+      "context": "accused stole 2 empty sacks at St Dié",
+      "category": "agricultural"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "instrument of torture used on accused",
+      "category": "other"
+    },
+    {
+      "object": "rack",
+      "context": "instrument of torture used on accused",
+      "category": "other"
+    },
+    {
+      "object": "stick",
+      "context": "Demenge Colas Girard had to go home supported on stick after back injury",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Brehimont",
+      "place_type": "village",
+      "context": "primary location of trial, residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Etival",
+      "place_type": "village",
+      "context": "court location, accused imprisoned there overnight, location where convicted witches accused him"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "location where accused caught stealing bread and sacks"
+    },
+    {
+      "place_name": "la Vacherie",
+      "place_type": "village",
+      "context": "residence of witness Didier Thiebault"
+    },
+    {
+      "place_name": "common land",
+      "place_type": "field",
+      "context": "disputed land that accused enclosed"
+    },
+    {
+      "place_name": "ancient passage",
+      "place_type": "road",
+      "context": "accused closed it off forcing people to pass on witness's land"
+    },
+    {
+      "place_name": "meadow",
+      "place_type": "field",
+      "context": "where Jean Doridant's animals escaped and where alleged lycanthropy incident occurred"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "field",
+      "context": "accused fenced in garden taking land belonging to Jean Laurent"
+    },
+    {
+      "place_name": "field of Mengeon Colas Girard",
+      "place_type": "field",
+      "context": "accused's animals did damage there"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [
+      "lycanthropy allegation - accused reportedly turned into wolf to chase Jean Doridant"
+    ],
+    "economic_hardship_indicators": [
+      "repeated petty theft of fence posts, bread, sacks",
+      "disputes over common land and property boundaries",
+      "economic value of animals important - loss of horses, bulls, oxen, cows, sheep had significant impact"
+    ],
+    "religious_calendar_references": [
+      "Previous Easter mentioned in Jean Laurent's testimony"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Mr d'Etival",
+        "role": "other",
+        "location": "Etival"
+      },
+      {
+        "name": "maire Demengeon Jean Girard",
+        "role": "mayor",
+        "location": "Brehimont"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Caught stealing bread at St Dié 20 years before; witness reproached him",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Stole 2 empty sacks at St Dié",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Claudon Jean Perrin took him to law about theft of fencing 4 or 5 years before",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "theft",
+        "description": "Imprisoned overnight at Etival some 9 months before (reason not specified)",
+        "outcome": "released"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Accused attempted suicide by starvation, not eating for 4 days; attempted to suffocate himself during torture",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 12,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Didier Thiebault de la Vacherie",
+        "source": "late father-in-law Claudon Jean Girard",
+        "content": "accused did much harm to fences at Brehimont, going out in the evening to steal posts"
+      }
+    ],
+    "oldest_accusation_years": 12,
+    "corroboration_groups": [
+      [2, 4],
+      [6, 15],
+      [1, 14]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "defiant - said if released would start spying on neighbors",
+      "desperate - tried to suffocate himself during torture",
+      "suicidal - hadn't eaten for 4 days attempting to kill himself",
+      "resigned but resolute - said it was all the same to him if killing himself damned him, but would not confess to witchcraft as that would mean eternal damnation",
+      "concerned for family honor - said children would be able to make accord with seigneur if he died under torture and would not be shamed before the world"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jean fils Demenge Arnoulx",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "formal accuser",
+      "context": "Charged accused, initiating the trial"
+    },
+    {
+      "name": "wife of Jean Thierion le vieux",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "spouse",
+      "context": "Michiel Girard suspected her of witchcraft but not the accused"
+    },
+    {
+      "name": "late Demenge Grand Didier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "Had quarrel with accused over field; would have hit him with post if wife had not prevented"
+    },
+    {
+      "name": "wife of late Demenge Grand Didier",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "neighbor",
+      "context": "Prevented husband from hitting accused with post during quarrel"
+    },
+    {
+      "name": "Jean Doridant",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "none",
+      "context": "Servant of miller at Etival; claimed accused turned into wolf and chased him 5 years earlier when he was 15; visited accused in prison and extracted admission"
+    },
+    {
+      "name": "son of Jean Laurent",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "neighbor's son",
+      "relationship_to_witness": "son of witness 2",
+      "context": "Took down fence that accused had built enclosing Jean Laurent's land"
+    },
+    {
+      "name": "brother-in-law of Jean Thierion le vieux",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "in-law",
+      "context": "Accused blamed him for distracting him so he forgot to pay for bread"
+    },
+    {
+      "name": "Mengeon Colas Girard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Owner of field where accused's animals did damage"
+    },
+    {
+      "name": "Mengeon Claude Perrin",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "Accused stole fencing from him 3 or 4 years before"
+    },
+    {
+      "name": "late father-in-law Claudon Jean Girard",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "father-in-law of witness 13",
+      "context": "Source of hearsay about accused stealing fence posts"
+    },
+    {
+      "name": "guards in prison",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "guards",
+      "context": "Reported Jean Doridant's visit and accused's alleged admission about turning into wolf; also reported accused's suicide attempt by starvation"
+    },
+    {
+      "name": "executioner",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "torturer",
+      "context": "Applied torture; reported accused had not eaten for 4 days"
+    },
+    {
+      "name": "miller at Etival",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "employer of witness",
+      "context": "Employer of Jean Doridant"
+    },
+    {
+      "name": "children of Jean Thierion le vieux",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "context": "Accused mentioned they would be able to make accord with seigneur if he died under torture"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI assistant)",
+    "confidence": "high",
+    "notes": "Trial record ends abruptly with illegible damaged recommendation from Change de Nancy, seemingly for further torture. Final outcome unknown. Lycanthropy accusation emerged late in trial from Jean Doridant's prison visit. Accused maintained innocence throughout despite torture, attempted suicide by starvation and suffocation. Notable for accused's theological reasoning - willing to die but not confess as confession would mean eternal damnation.",
+    "pdf_pages": 4
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "trial_id": "w190",
+  "archive_ref": "B 8684 no 3",
+  "location": "Clefcy",
+  "court": "Chapter of St Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur for Chapter of St Dié",
+    "person_id": null,
+    "occupation": "Prosecutor",
+    "location": "St Dié",
+    "relationship_to_accused": "Legal official"
+  },
+  "dates": {
+    "start": "1599-12-06",
+    "end": "1600-01-17",
+    "duration_days": 43
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Françatte veuve Claudon Jardel",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 50,
+      "age_approximate": true,
+      "marital_status": "widowed",
+      "spouse_name": "Claudon Colas Jardel",
+      "parents": {
+        "father": "Colas de la Heutte",
+        "mother": "Yzabel"
+      },
+      "origin": "Plumieres",
+      "residence": "Clefcy",
+      "occupation": ["servant", "domestic worker"],
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Navel",
+        "devil_appearance": "man in black with a hideous face",
+        "seduction_date": "18 years earlier (then said 20 or 22)",
+        "seduction_context": "After court dispute with Claudon Jacot Henry who called her witch and said she had 'enfanté son marit pour l'avoir en mariage'. She went to collect wood and met the devil who promised revenge if she would renounce God",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["white powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["Daveline"],
+        "sabbat_activities": ["dancing", "feasting", "making hail"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Colas Demenge Jalley",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 36,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Humbert le Grand Adam",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused asked his wife for cheese, he forbade it due to her reputation",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Pierron Jean le Masson",
+      "person_id": null,
+      "gender": "male",
+      "age": 56,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Her horse damaged his field of oats",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "2 or 3 days later"
+          },
+          {
+            "type": "human_death",
+            "target": "Marion",
+            "target_relationship": "his wife",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "2 days after Françatte looked at her with hideous eye"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claudon Voinceney",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Blaison Colas Betrand",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "His pigs damaged her garden; also refused to let his horse service her mare; also straying animals",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "immediately (died in 2 or 3 weeks)"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "immediately"
+          },
+          {
+            "type": "animal_illness",
+            "target": "ox",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "after quarrel over straying animals"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Colas de Vic",
+      "person_id": null,
+      "gender": "male",
+      "age": 24,
+      "location": "Clemecey",
+      "relationship_to_accused": "brother-in-law (married to her brother)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked for milk, wife refused; also his father did not consent to her marriage to his brother",
+        "threat_received": false,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Colas Demenge du Vic",
+            "target_relationship": "his father",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "after father refused to consent to marriage"
+          },
+          {
+            "type": "animal_illness",
+            "target": "fine ox",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Colas le Masson",
+      "person_id": null,
+      "gender": "male",
+      "age": 70,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel 7 years earlier",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "piglets",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengeatte fille Michiel Jean le Masson",
+      "person_id": null,
+      "gender": "female",
+      "age": 28,
+      "location": "Clemecey",
+      "relationship_to_accused": "sister of victim",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked for plate of soup at brother Clement Masson's house, none to give",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Clement Masson's child",
+            "target_relationship": "brother's child",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "promptly"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claudatte femme David Chanal",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "her own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Zabel fille Jean de la Dague",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Françatte habitually asked to borrow necessities, often refused",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various livestock (cows, pigs)",
+            "target_relationship": "family livestock",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "soon after refusals"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claude Vincent",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to lend her a horse for ploughing",
+        "threat_received": true,
+        "threat_quote": "qu'il n'en gaigneroit rien",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "soon"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claude Orbain",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Clemecey",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Left her service after 9 weeks due to constant illness",
+        "threat_received": true,
+        "threat_quote": "qu'elle luy prioit de ne parler de son faict et que jamais elle ne luy feroit mal",
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claude Orbain",
+            "target_relationship": "self",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "during service"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Blaisatte femme Colas le Masson",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Valencin Connemant reported her to gruyer for cutting more wood than paid for",
+        "threat_received": true,
+        "threat_quote": "qu'il luy avoit faict ce plaisir la mais qu'elle luy en rendroit un aultre, qui viendroit bien a aultant de desplaisir",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Valencin Connemant",
+            "target_relationship": "community member",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "soon afterwards (died in a week)"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Didier de la Levee",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Herbafain",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Agreed to buy horse, cow, and other animals but her procureurs would not agree; he was angry",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Didier de la Levee",
+            "target_relationship": "self",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "2 hours later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Mengeon Vincent",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Pierron Voignier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Scaurux",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Jacquot Henry",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Asked for loan of horse-comb, he refused but offered to sell one; also refused loan of mallet",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sole goat",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "same night"
+          },
+          {
+            "type": "animal_death",
+            "target": "sheep",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "same thing happened"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Adam Claudon Thiebault",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Mengeon Chrestofle",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 20,
+      "name": "George Jean Durant",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Clemecey",
+      "occupation": "officer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 17,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Mengeon Jeannel",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "Agatte femme Jean Jacot Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Valencin Connemant",
+            "target_relationship": "community member",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "soon after threats"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Claudon Colas Claude Jardel",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Herbarux, ban de Fraisse",
+      "relationship_to_accused": "relative (same surname)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 24,
+      "name": "Agatte veuve Jean de la Dague",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Every time they refused her something",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "family livestock",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "after refusals"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Mengey des Roses",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Lent her horses, then asked for loan of her horses, she refused",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "immediately"
+          }
+        ]
+      }
+    },
+    {
+      "number": 26,
+      "name": "Nicolas Thomas",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "location": "Clemecey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Took her son into service but sent him home as unsuitable",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "finest ox",
+            "target_relationship": "his own",
+            "attributed_to": "Françatte veuve Claudon Jardel",
+            "time_after_quarrel": "later (died in a week)"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1599-12-06",
+      "event": "informations_preparatoires",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "At request of procureur for Chapter of St Dié"
+    },
+    {
+      "date": "1599-12-11",
+      "event": "interrogation",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Denied charges, admitted reputation and some quarrels"
+    },
+    {
+      "date": "1599-12-13",
+      "event": "confrontation",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Made no reproaches except saying witnesses lied like thieves"
+    },
+    {
+      "date": "1599-12-14",
+      "event": "torture_requested",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Procureur asks for torture"
+    },
+    {
+      "date": "1599-12-18",
+      "event": "torture_approved",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Change de Nancy agrees to torture"
+    },
+    {
+      "date": "1600-01-07",
+      "event": "torture",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Withstood thumbscrews but confessed when racked"
+    },
+    {
+      "date": "1600-01-08",
+      "event": "interrogation",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Repeated earlier confessions and added details"
+    },
+    {
+      "date": "1600-01-10",
+      "event": "death_requested",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1600-01-12",
+      "event": "death_approved",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Change de Nancy agrees, subject to final repetition of confessions"
+    },
+    {
+      "date": "1600-01-17",
+      "event": "interrogation",
+      "subject": "Françatte veuve Claudon Jardel",
+      "details": "Final confession that all earlier avowals were true"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "Procureur for Chapter of St Dié",
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Didier Ferry alias de la Maixe",
+      "location": "Clemecey",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "Colatte femme Jean de la Fangue",
+      "location": "Clemecey",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "wife of Jean Barthelemin",
+      "location": "Clemecey",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "Agatte femme Claude Orbain",
+      "location": "Sachemont",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "Parisat Barthellemin",
+      "location": "Anould",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Lallemant",
+      "location": "St Lienard",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "Mengeon Claudey Ferry",
+      "location": "Vic",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "Claudatte femme Lambay Claudey Ferry",
+      "location": "Vic",
+      "context": "Seen at sabbat"
+    },
+    {
+      "name": "Colas de la Senec le vieux",
+      "location": "Hernafain",
+      "context": "Seen at sabbat"
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Claudon Jacot Henry",
+      "accuser_location": "Clemecey",
+      "context": "Called her witch and said she had 'enfanté son marit pour l'avoir en mariage'; they went to court where only he was obliged to make reparation",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudon Jacot Henry",
+      "french": "enfanté son marit pour l'avoir en mariage",
+      "context": "Accusation that she had bewitched her husband to marry her"
+    },
+    {
+      "speaker": "Pierron Jean le Masson (witness 3) about Françatte",
+      "french": "la regardant d'un oeil hideux",
+      "english": "looking at her with a hideous eye",
+      "context": "How Françatte looked at his wife before she fell ill and died"
+    },
+    {
+      "speaker": "Claude Vincent (witness 11), Françatte's words",
+      "french": "qu'il n'en gaigneroit rien",
+      "english": "that he would gain nothing from it",
+      "context": "Threat after he refused to lend her a horse"
+    },
+    {
+      "speaker": "Claude Orbain (witness 12), Françatte's words",
+      "french": "qu'elle luy prioit de ne parler de son faict et que jamais elle ne luy feroit mal",
+      "english": "that she begged him not to speak of her deeds and that she would never harm him",
+      "context": "When he left her service due to illness"
+    },
+    {
+      "speaker": "Blaisatte femme Colas le Masson (witness 13), Françatte's words",
+      "french": "qu'il luy avoit faict ce plaisir la mais qu'elle luy en rendroit un aultre, qui viendroit bien a aultant de desplaisir",
+      "english": "that he had done her that favor but she would return another that would amount to as much displeasure",
+      "context": "Threat against Valencin Connemant after he reported her for cutting too much wood"
+    },
+    {
+      "speaker": "Blaisatte femme Colas le Masson (witness 13), Françatte's words",
+      "french": "qu'il s'en aille au bois et qu'il y trouveroit les gruyeres de Frasse... allez allez au bois",
+      "english": "that he should go to the woods and he would find the foresters of Fraisse there... go go to the woods",
+      "context": "Words spoken to Valencin Connemant before he fell violently ill and died"
+    },
+    {
+      "speaker": "Pierron Voignier (witness 16)",
+      "french": "et disoit on communement qu'elle avoit faict mourir son marit, et l'avoit icelle sy bien en amouraché par (il n'en scait quelz moyens) abusé qu'il estoit contrainct l'espouser, et ne pouvoit durer ny arrester en place qu'il ne la voye, touttefois a la remonstrance de ses plus familiers amys qui luy mectoient au devant le crime de sortilleges dont elle en estoit prevenue, il s'en depetra",
+      "english": "and it was commonly said that she had caused her husband to die, and had so bewitched him (by what means he did not know) and abused him that he was forced to marry her, and could not endure or stay anywhere without seeing her, however at the remonstrance of his closest friends who put before him the crime of witchcraft of which she was accused, he freed himself",
+      "context": "Reputation that she had bewitched her husband into marriage"
+    },
+    {
+      "speaker": "Zabel fille Jean de la Dague (witness 10)",
+      "french": "estoit fort coustumiere d'aller a leur losgis demander d'emprung ce qu'elle avoit de necessité et comme souvent ilz la refusoient de ce qu'elle demandoit, aussy tost ils perdoient tantost une vache, ung porc, ou quelque aultre bestial",
+      "english": "was very accustomed to going to their dwelling to ask to borrow what she needed and as they often refused what she asked for, immediately they lost now a cow, a pig, or some other livestock",
+      "context": "Pattern of requesting items and animal deaths following refusals"
+    },
+    {
+      "speaker": "Françatte veuve Claudon Jardel (about husband)",
+      "french": "le meilleur homme du monde",
+      "english": "the best man in the world",
+      "context": "Her defense against accusation of killing her husband"
+    },
+    {
+      "speaker": "Françatte veuve Claudon Jardel",
+      "french": "mais que l'on luy mest des grandes affaires sur elle",
+      "english": "but that great matters were placed upon her",
+      "context": "Her response about living with neighbors"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Claudon Colas Jardel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Françatte veuve Claudon Jardel; married Claudon Colas Jardel, who had died some 10 years earlier"
+    },
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Colas de la Heutte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Said she was about 50, daughter of Colas de la Heutte"
+    },
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Yzabel",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Colas de la Heutte and his wife Yzabel of Plumieres"
+    },
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Jean Colas de Vic",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Was sure she had killed his father Colas Demenge du Vic, who had not consented to her marriage with his brother",
+      "inferred": true
+    },
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Humbert Herquel",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "36 years earlier had gone into service with Humbert Herquel at Plainfain, for 4 years"
+    },
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Ferry Jean Ferry",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "then 5 years with Ferry Jean Ferry at Clemecey"
+    },
+    {
+      "person1": "Claude Orbain",
+      "person2": "Françatte veuve Claudon Jardel",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Some 6 or 7 years before had been in her service, but left after 9 weeks"
+    },
+    {
+      "person1": "Pierron Voignier",
+      "person2": "Françatte veuve Claudon Jardel",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "15 years before had been in her service for 5 years"
+    },
+    {
+      "person1": "Pierron Jean le Masson",
+      "person2": "Marion",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "3 years ago his wife Marion"
+    },
+    {
+      "person1": "Jean Colas de Vic",
+      "person2": "Colas Demenge du Vic",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Was sure she had killed his father Colas Demenge du Vic"
+    },
+    {
+      "person1": "Mengeatte fille Michiel Jean le Masson",
+      "person2": "Clement Masson",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "she had asked for a plate of soup at house of her brother Clement Masson"
+    },
+    {
+      "person1": "Claudatte",
+      "person2": "David Chanal",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme David Chanal"
+    },
+    {
+      "person1": "Agatte",
+      "person2": "Jean Jacot Henry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Agatte femme Jean Jacot Henry"
+    },
+    {
+      "person1": "Agatte",
+      "person2": "Jean de la Dague",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Agatte veuve Jean de la Dague"
+    },
+    {
+      "person1": "Zabel fille Jean de la Dague",
+      "person2": "Jean de la Dague",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Zabel fille Jean de la Dague"
+    },
+    {
+      "person1": "Blaisatte",
+      "person2": "Colas le Masson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Blaisatte femme Colas le Masson"
+    },
+    {
+      "person1": "Françatte veuve Claudon Jardel",
+      "person2": "Anthoine Claudel",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Anthoine Claudel, who lived with her"
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "fine cow",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "cow sickened and died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "She asked his wife for cheese, he forbade it due to reputation",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "method_alleged": "powder scattered on grass (confession)",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "horse died in strange manner",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Her horse damaged his field of oats",
+      "time_between_quarrel_and_harm": "2 or 3 days later",
+      "method_alleged": "devil Navel made felled tree fall on horse (confession)",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Marion",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "took to bed with strange sickness, died in fortnight, maintained to end she was bewitched",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Françatte approached her 'la regardant d'un oeil hideux'",
+      "time_between_quarrel_and_harm": "2 days later",
+      "method_alleged": "threw powder on her (confession)",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "fine cow",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "cow sickened and died in 2 or 3 weeks",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "His pigs damaged her garden; he called her witch",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "horse died immediately",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Refused to let his horse service her mare",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_illness",
+      "harm_description": "ox sickened, quickly sold to butcher",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Quarrel over straying animals",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Colas Demenge du Vic",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Did not consent to her marriage with his brother, did not attend marriage feast",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "fine ox",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_illness",
+      "harm_description": "ox sickened, then began to recover after she was told to cure it",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Came asking for milk, wife refused, he told her off",
+      "time_between_quarrel_and_harm": "a few days",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "lost cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Quarrel 7 years earlier",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "method_alleged": "putting powder in water it was drinking (confession)",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "piglets",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "lost some piglets",
+      "animal_type": "pig",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Quarrel 7 years earlier",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Clement Masson's child",
+      "victim_relationship_to_witness": "brother's child",
+      "harm_category": "human_injury",
+      "harm_description": "became ill, lost use of hand",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Asked for plate of soup, none to give",
+      "time_between_quarrel_and_harm": "promptly",
+      "method_alleged": "touched arm with powder between fingers (confession)",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_illness",
+      "harm_description": "cow lost milk",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Quarrel with her",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "various livestock",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "lost cow, pig, or other livestock",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Habitually asked to borrow necessities, often refused",
+      "time_between_quarrel_and_harm": "soon after refusals",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "fine cow",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "cow sickened with legs rotting, became rabid, had to kill it",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Refused to lend her a horse for ploughing; she was angry",
+      "time_between_quarrel_and_harm": "soon",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Claude Orbain",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "constantly unwell during 9 weeks of service",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "time_between_quarrel_and_harm": "during service",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Valencin Connemant",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_death",
+      "harm_description": "taken with violent sickness outside village, died in a week",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Reported her to gruyer for cutting more wood than paid for",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "method_alleged": "devil agreed to go to woods and terrify him so he died (confession)",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Didier de la Levee",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill, recovered in a week after threatening to have her burned",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Dispute over purchase of animals; he was angry",
+      "time_between_quarrel_and_harm": "2 hours later",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "sole goat",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "goat started to cry strangely, died next morning",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Asked for loan of horse-comb, he refused but offered to sell one",
+      "time_between_quarrel_and_harm": "same night",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "sheep",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "sheep died in same manner as goat",
+      "animal_type": "sheep",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Refused to loan her a mallet",
+      "time_between_quarrel_and_harm": "same as goat incident",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "various animals",
+      "victim_relationship_to_witness": "family livestock",
+      "harm_category": "animal_death",
+      "harm_description": "lost animals every time refused her something",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Every time they refused her something",
+      "time_between_quarrel_and_harm": "after refusals",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "pig",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "pig died",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Lent her horses, then asked for loan of her horses, she refused",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "confessed to killing it",
+      "witness_number": 25
+    },
+    {
+      "victim_name": "finest ox",
+      "victim_relationship_to_witness": "own livestock",
+      "harm_category": "animal_death",
+      "harm_description": "ox became strangely ill, died in a week",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Took her son into service but sent him home as unsuitable",
+      "time_between_quarrel_and_harm": "later",
+      "witness_number": 26
+    },
+    {
+      "victim_name": "Claudon Jacot Henry's pig",
+      "harm_category": "animal_death",
+      "harm_description": "pig killed",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "precipitating_quarrel": "Master wanted her to kill Henry but she refused, only killed his pig",
+      "method_alleged": "confessed - devil wanted her to kill Henry himself"
+    },
+    {
+      "victim_name": "fields at Daveline",
+      "harm_category": "crop_damage",
+      "harm_description": "fields damaged by hail",
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "method_alleged": "made hail at sabbat (confession)"
+    },
+    {
+      "victim_name": "hen",
+      "harm_category": "animal_death",
+      "harm_description": "hen died when she tested powder",
+      "animal_type": "hen",
+      "animal_count": 1,
+      "attributed_to": "Françatte veuve Claudon Jardel",
+      "method_alleged": "tried powder given by devil on hen (confession)"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "cheese",
+      "context": "She asked his wife for some cheese",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "Asked for milk at house of Jean Colas de Vic",
+      "category": "food"
+    },
+    {
+      "object": "plate of soup",
+      "context": "Asked for a plate of soup at house of Clement Masson",
+      "category": "food"
+    },
+    {
+      "object": "horse-comb",
+      "context": "Asked for loan of horse-comb from Jean Jacquot Henry",
+      "category": "tools"
+    },
+    {
+      "object": "mallet",
+      "context": "Refused loan of mallet",
+      "category": "tools"
+    },
+    {
+      "object": "white powder",
+      "context": "Devil gave her white powder in paper to kill men and animals",
+      "category": "magical"
+    },
+    {
+      "object": "grease",
+      "context": "Master gave her grease to put on broom for traveling to sabbat",
+      "category": "magical"
+    },
+    {
+      "object": "broom",
+      "context": "Put grease between legs on broom to travel to sabbat through chimney",
+      "category": "household"
+    },
+    {
+      "object": "dress",
+      "context": "Wife of Clement Masson said she had lost a dress taken to have dyed black",
+      "category": "clothing"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Clefcy",
+      "place_type": "village",
+      "context": "Primary location of trial and residence"
+    },
+    {
+      "place_name": "Clemecey",
+      "place_type": "village",
+      "context": "Location of many witnesses and events"
+    },
+    {
+      "place_name": "Plumieres",
+      "place_type": "village",
+      "context": "Origin of accused; driven out in belief she was a witch"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Location of Chapter court and procureur"
+    },
+    {
+      "place_name": "Herbafain",
+      "place_type": "village",
+      "context": "Location of witness Didier de la Levee"
+    },
+    {
+      "place_name": "Herbarux, ban de Fraisse",
+      "place_type": "village",
+      "context": "Location of Claudon Colas Claude Jardel"
+    },
+    {
+      "place_name": "Scaurux",
+      "place_type": "village",
+      "context": "Location of witness Pierron Voignier"
+    },
+    {
+      "place_name": "Plainfain",
+      "place_type": "village",
+      "context": "Where she worked in service with Humbert Herquel"
+    },
+    {
+      "place_name": "Contramolin",
+      "place_type": "village",
+      "context": "Destination mentioned when asking to borrow horses"
+    },
+    {
+      "place_name": "Daveline",
+      "place_type": "field",
+      "context": "Fields damaged by hail she made at sabbat"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where she went to collect wood; where she met devil; where Valencin Connemant died"
+    },
+    {
+      "place_name": "Fraisse",
+      "place_type": "village",
+      "context": "Location of gruyer who received complaint about wood cutting"
+    },
+    {
+      "place_name": "Sachemont",
+      "place_type": "village",
+      "context": "Location of accomplice Agatte femme Claude Orbain"
+    },
+    {
+      "place_name": "Anould",
+      "place_type": "village",
+      "context": "Location of late Parisat Barthellemin"
+    },
+    {
+      "place_name": "St Lienard",
+      "place_type": "village",
+      "context": "Location of accomplice Jean Lallemant"
+    },
+    {
+      "place_name": "Vic",
+      "place_type": "village",
+      "context": "Location of accomplices Mengeon Claudey Ferry and wife"
+    },
+    {
+      "place_name": "Hernafain",
+      "place_type": "village",
+      "context": "Location of accomplice Colas de la Senec le vieux"
+    }
+  ],
+  "historical_context": {
+    "economic_hardship_indicators": [
+      "Frequently asked neighbors to borrow necessities",
+      "Disputed over amount of wood cut and paid for",
+      "Sought to borrow horses for ploughing",
+      "Asked for food (cheese, soup, milk)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Procureur for Chapter of St Dié",
+        "role": "prosecutor_pg",
+        "location": "St Dié"
+      },
+      {
+        "name": "gruyer of Fraisse",
+        "role": "other",
+        "location": "Fraisse"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Claudon Jacot Henry called her witch and said she had bewitched her husband to marry her; they went to court",
+        "outcome": "Only Henry was obliged to make reparation, but he was angry and threatened to kill her"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Only accuser obliged to make reparation",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 18,
+    "hearsay_testimony_count": 3,
+    "oldest_accusation_years": 36,
+    "hearsay_chains": [
+      {
+        "reporter": "Mengeon Jeannel",
+        "source": "general knowledge",
+        "content": "Had often heard that she was driven out of Plumieres in belief she was a witch, and that mother was also suspected"
+      },
+      {
+        "reporter": "Pierron Voignier",
+        "source": "general community knowledge",
+        "content": "Already generally reputed witch, 'et disoit on communement qu'elle avoit faict mourir son marit'"
+      },
+      {
+        "reporter": "Claude Orbain",
+        "source": "general knowledge",
+        "content": "general reputation, and belief she had killed husband - sought no reparation when accused of this in public"
+      }
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Said witnesses 'had lied like thieves and bad men'",
+      "Made no reproaches during confrontations",
+      "Admitted she feared being tortured",
+      "Told relative she was thinking of leaving because of suspicions"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Anthoine Claudel",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "lived with her",
+      "context": "Jean Colas de Vic told him to tell Françatte she had bewitched ox and had better cure it"
+    },
+    {
+      "name": "Valencin Connemant",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "community member who reported her",
+      "context": "Reported her to gruyer for cutting more wood than paid for; died after she threatened him"
+    },
+    {
+      "name": "Humbert Herquel",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "former employer",
+      "context": "She worked in his service at Plainfain for 4 years"
+    },
+    {
+      "name": "Ferry Jean Ferry",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "former employer",
+      "context": "She worked in his service at Clemecey for 5 years"
+    },
+    {
+      "name": "Clement Masson",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "His child became ill and lost use of hand after Françatte was refused soup at his house"
+    },
+    {
+      "name": "wife of Clement Masson",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "neighbor",
+      "context": "Dispute over lost dress taken to be dyed black"
+    },
+    {
+      "name": "Claudon Jacot Henry",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accuser",
+      "context": "Called her witch and said she had 'enfanté son marit pour l'avoir en mariage'; court case where he had to make reparation"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Dispute over amount of wood cut versus paid for, reported to gruyer of Fraisse. Multiple witnesses note pattern of her asking to borrow necessities and items (cheese, milk, soup, horses, tools), suggesting economic hardship. Had procureurs managing her affairs and children's property."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Well-documented trial with 26 witnesses and detailed confession under torture. Pattern of alleged maleficia following refusals of requests for food and items. Economic hardship evident. Change de Nancy consulted and approved both torture and death sentence.",
+    "pdf_pages": 6
+  }
+}

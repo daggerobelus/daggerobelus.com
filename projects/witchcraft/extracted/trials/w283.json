@@ -1,0 +1,817 @@
+{
+  "trial_id": "w283",
+  "archive_ref": "B 8715 no 6",
+  "location": "Raon",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Demenge Polier",
+    "person_id": null,
+    "relationship_to_accused": "community member (partie civile)"
+  },
+  "dates": {
+    "start": "1615-10-30",
+    "end": "1615-11-09",
+    "duration_days": 10
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Annon femme Jean Clauderat",
+      "person_id": null,
+      "gender": "female",
+      "age": 42,
+      "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["other"],
+      "occupation": [],
+      "residence": "Raon",
+      "marital_status": "married",
+      "spouse_name": "Jean Clauderat",
+      "parents": {
+        "father": "maréchal of Raon",
+        "mother": "Jehenne"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Navel",
+        "seduction_date": "about 6 years earlier (c. 1609)",
+        "seduction_context": "upset because her husband had sold their house in the faubourg; she feared he would spend the money instead of turning it to profit",
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["all masked", "recognised no-one"],
+        "powder_types": ["malefic powder from master"]
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Bietrix",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "location": "Grand Faubourg de Raon",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "some quarrels with accused, no specific memory",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife of Jean Bietrix",
+            "target_relationship": "wife",
+            "attributed_to": "Annon femme Jean Clauderat"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Annon femme Jean Clauderat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolas Piernille",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "location": "Grand Faubourg de Raon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Demenge (son of Nicolas Piernille)",
+            "target_relationship": "son",
+            "attributed_to": "Annon femme Jean Clauderat",
+            "time_after_quarrel": "died some 2 weeks later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Gabriel Mercier",
+      "person_id": null,
+      "gender": "male",
+      "location": "Grand Faubourg de Raon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Gabriel Mercier",
+            "target_relationship": "self",
+            "attributed_to": "Annon femme Jean Clauderat"
+          },
+          {
+            "type": "human_death",
+            "target": "small son of Gabriel Mercier",
+            "target_relationship": "son",
+            "attributed_to": "Annon femme Jean Clauderat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge Lucas",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Grand Faubourg de Raon",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Demenge Lucas",
+            "target_relationship": "wife",
+            "attributed_to": "Annon femme Jean Clauderat"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claudatte femme Didier Vatrin",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Grand Faubourg de Raon",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "small son of Claudatte",
+            "target_relationship": "son",
+            "attributed_to": "Annon femme Jean Clauderat"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1615-10-30",
+      "event": "other",
+      "subject": "Annon femme Jean Clauderat",
+      "details": "arrest (Friday before All Saints)"
+    },
+    {
+      "date": "1615-11-03",
+      "event": "interrogation",
+      "subject": "Annon femme Jean Clauderat",
+      "details": "voluntary confession - appeared before judges at her own request to make full confession"
+    },
+    {
+      "date": "1615-11-03",
+      "event": "interrogation",
+      "subject": "Annon femme Jean Clauderat",
+      "details": "renewed interrogation that afternoon - additional confessions about Mongeon Failley, wife of Demenge Lucas, Toussaint Piernille Charier, small daughter of Jean Piernille"
+    },
+    {
+      "date": "1615-11-04",
+      "event": "interrogation",
+      "subject": "Annon femme Jean Clauderat",
+      "details": "further interrogation - added confessions about Claudette's grandson and sister's pig during dysentery outbreak"
+    },
+    {
+      "date": "1615-11-04",
+      "event": "informations_preparatoires",
+      "subject": "witnesses",
+      "details": "witness depositions taken from 5 witnesses"
+    },
+    {
+      "date": "1615-11-06",
+      "event": "death_approved",
+      "subject": "Annon femme Jean Clauderat",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1615-11-09",
+      "event": "execution",
+      "subject": "Annon femme Jean Clauderat",
+      "details": "execution takes place"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "context": "her mother Jehenne had been executed for the same crime (witchcraft)",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Annon femme Jean Clauderat",
+      "french": "une volonté deliberée",
+      "english": "a deliberate will",
+      "context": "describing her intent to harm wife of Jean Bietrix"
+    },
+    {
+      "speaker": "Annon femme Jean Clauderat",
+      "french": "aucune hayne ny Inimytié",
+      "english": "no hatred nor enmity",
+      "context": "claiming she had no hatred or enmity against wife of Jean Bietrix despite harming her"
+    },
+    {
+      "speaker": "Annon femme Jean Clauderat",
+      "french": "repoussoit",
+      "english": "pushed away",
+      "context": "Gabriel Mercier often 'pushed away' her children"
+    },
+    {
+      "speaker": "judges",
+      "french": "la ruyne de tous",
+      "english": "the ruin of all",
+      "context": "judges pressed her to confess to other acts of malefice, since she must have committed more, under influence of Satan who sought 'the ruin of all'"
+    },
+    {
+      "speaker": "Annon femme Jean Clauderat (about Claudatte)",
+      "french": "faisoit tant de ceremonie d'un sien petit fils",
+      "english": "was making so much ceremony of her little grandson",
+      "context": "accused thought Claudatte was making too much ceremony over her little grandson during dysentery outbreak"
+    },
+    {
+      "speaker": "Annon femme Jean Clauderat",
+      "french": "print envye sans autre subject",
+      "english": "took envy without other reason",
+      "context": "she took envy without other reason against Claudatte's grandson"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Annon femme Jean Clauderat",
+      "person2": "Jean Clauderat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Annon wife of Jean Clauderat",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne",
+      "person2": "Annon femme Jean Clauderat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "her mother Jehenne had been executed for the same crime",
+      "inferred": false
+    },
+    {
+      "person1": "maréchal of Raon",
+      "person2": "Annon femme Jean Clauderat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "her father had been a maréchal of Raon",
+      "inferred": false
+    },
+    {
+      "person1": "Annon femme Jean Clauderat",
+      "person2": "Gabriel Mercier",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "her neighbour Gabriel Mercier",
+      "inferred": false
+    },
+    {
+      "person1": "Annon femme Jean Clauderat",
+      "person2": "Humbert Bastien",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her neighbour Humbert Bastien",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Bietrix",
+      "person2": "wife of Jean Bietrix",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Piernille",
+      "person2": "Demenge",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "had lost small son Demenge aged some 16 weeks",
+      "inferred": false
+    },
+    {
+      "person1": "Gabriel Mercier",
+      "person2": "small son aged 9 months",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "death of his small son aged 9 months",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Lucas",
+      "person2": "wife of Demenge Lucas",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Vatrin",
+      "person2": "Claudatte femme Didier Vatrin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Claudette wife of Didier Vaultrin",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Didier Vatrin",
+      "person2": "small son",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her small son had recently been ill",
+      "inferred": false
+    },
+    {
+      "person1": "Annon femme Jean Clauderat",
+      "person2": "wife of Jean Marond",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "house of her sister, wife of Jean Marond",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Marond",
+      "person2": "wife of Jean Marond",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "wife of Jean Marond",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas de Leusse",
+      "person2": "Jean Clauderat",
+      "relationship_type": "creditor_debtor",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Nicolas de Leusse, who was disputing over money with her husband",
+      "inferred": false
+    },
+    {
+      "person1": "Annon femme Jean Clauderat",
+      "person2": "Nicolas Piernille",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "approached him outside door",
+      "inferred": true
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": false,
+    "details": "Husband sold their house in the faubourg, which upset Annon and led to her seduction by the devil - she feared he would spend the money instead of turning it to profit. Nicolas de Leusse was disputing over money with her husband. Accused had many children to provide for. Could not afford to buy meat from butcher Mongeon Failley. Wife of Demenge Lucas came to complain about overtaxation of aides. Accused killed one of her own pigs to make it seem they had misfortunes like others. Nicolas de Leusse had been good to her in taking one of her children into his house, suggesting economic hardship requiring others to care for her children."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "wife of Jean Bietrix",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "made ill",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "to try powder; had 'deliberate will' but 'no hatred or enmity' - experimental malefice",
+      "method_alleged": "powder",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "cow of Jean Bietrix",
+      "harm_category": "animal_death",
+      "harm_description": "killed cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "to try powder; had 'deliberate will' but 'no hatred or enmity' - experimental malefice",
+      "method_alleged": "powder",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "child of Colas Piernille",
+      "harm_category": "human_death",
+      "harm_description": "killed child",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "angry at not being asked to baptism",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Gabriel Mercier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "two-month illness; eventually felt pity for him and cured him",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "he often 'repoussoit' (pushed away) her children",
+      "method_alleged": "powder; later cured by accused out of pity",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "small child of Gabriel Mercier",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "made ill (languishing), then obtained more powder and killed the child; aged 9 months",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "at veillée in his house was asked to move and make room for others; anger at this slight",
+      "method_alleged": "powder",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "own pig",
+      "harm_category": "animal_death",
+      "harm_description": "killed one of her own pigs",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "so that they should be thought subject to misfortunes like others - to deflect suspicion",
+      "time_between_quarrel_and_harm": "a few weeks earlier",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Mongeon Failley",
+      "harm_category": "human_death",
+      "harm_description": "killed butcher; felt pity and intended to cure him but was arrested which prevented her, and he died same day",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "at last St. Luc went to get meat from him but he refused because she had no money",
+      "time_between_quarrel_and_harm": "died Friday before All Saints (same day as her arrest on 30 Oct 1615)",
+      "method_alleged": "powder; intended to cure but arrested before she could",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "wife of Demenge Lucas",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "strange illness lasting only 8 days",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "annoyed by her coming to complain that her husband, who had been levying aides, had overtaxed them",
+      "time_between_quarrel_and_harm": "some 5 years before (c. 1610)",
+      "method_alleged": "powder",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Toussaint Piernille Charier",
+      "harm_category": "human_illness",
+      "harm_description": "made ill; then pitied him and cured him",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "he damaged her corn",
+      "method_alleged": "powder; later pitied and cured"
+    },
+    {
+      "victim_name": "small daughter of Jean Piernille",
+      "harm_category": "human_death",
+      "harm_description": "killed small daughter",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "quarrel over rights to gather plums",
+      "time_between_quarrel_and_harm": "about 15 months before (c. August 1614)",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "small son of Claudatte femme Didier Vaultrin",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "little illness; not yet fully recovered at time of trial",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "took envy without other reason; thought Claudatte was making too much ceremony over her son during dysentery outbreak",
+      "time_between_quarrel_and_harm": "recently (during recent dysentery outbreak)",
+      "method_alleged": "powder",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "small pig of sister (wife of Jean Marond)",
+      "harm_category": "animal_death",
+      "harm_description": "killed small pig",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "sent one of her children to house of her sister and was angry they gave nothing",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Demenge, son of Nicolas Piernille",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "aged 16 weeks; approached without speaking, came close, child gave loud cry; died 2 weeks later",
+      "attributed_to": "Annon femme Jean Clauderat",
+      "precipitating_quarrel": "approached him outside door as he was holding child, came close without speaking - Nicolas's fear of her made him take refuge in nearby shop",
+      "time_between_quarrel_and_harm": "died some 2 weeks later (c. 3 years earlier, 1612)",
+      "method_alleged": "powder (implied)",
+      "witness_number": 2
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "powder",
+      "context": "magical powder given by her master (devil Mre Navel) for maleficia; later gave her more powder; claimed to have thrown rest away",
+      "category": "magical"
+    },
+    {
+      "object": "house in the faubourg",
+      "context": "husband sold their house which upset accused and led to her seduction by devil",
+      "category": "household"
+    },
+    {
+      "object": "hen",
+      "context": "agreed to give her master a hen every year in order to be dispensed from sabbat attendance",
+      "category": "agricultural"
+    },
+    {
+      "object": "meat",
+      "context": "went to get meat from Mongeon Failley the butcher at Raon but had no money",
+      "category": "food"
+    },
+    {
+      "object": "corn",
+      "context": "Toussaint Piernille Charier damaged her corn",
+      "category": "agricultural"
+    },
+    {
+      "object": "plums",
+      "context": "quarrel over rights to gather plums with Jean Piernille",
+      "category": "food"
+    },
+    {
+      "object": "money",
+      "context": "feared husband would spend money from house sale instead of turning it to profit; had no money for meat; dispute with Nicolas de Leusse over money; devil promised her money",
+      "category": "money"
+    },
+    {
+      "object": "masks",
+      "context": "at sabbat all were masked so she recognised no-one",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "primary location of trial; residence of accused"
+    },
+    {
+      "place_name": "Grand Faubourg de Raon",
+      "place_type": "village",
+      "context": "where most witnesses lived; suburb/district of Raon"
+    },
+    {
+      "place_name": "the faubourg",
+      "place_type": "village",
+      "context": "location of house that husband sold (likely same as Grand Faubourg)"
+    },
+    {
+      "place_name": "Gabriel Mercier's house",
+      "place_type": "house",
+      "context": "social gathering (veillée) where accused was asked to move and make room for others, leading to her harming his child"
+    },
+    {
+      "place_name": "house of sister (wife of Jean Marond)",
+      "place_type": "house",
+      "context": "sent child there but they gave nothing, leading to revenge"
+    },
+    {
+      "place_name": "outside door (Nicolas Piernille)",
+      "place_type": "other",
+      "context": "where accused approached Nicolas holding his child"
+    },
+    {
+      "place_name": "nearby shop",
+      "place_type": "other",
+      "context": "Nicolas took refuge there with his child out of fear of accused"
+    },
+    {
+      "place_name": "Nicolas de Leusse's house",
+      "place_type": "house",
+      "context": "had taken one of accused's children into his house"
+    },
+    {
+      "place_name": "sabbat location",
+      "place_type": "sabbat_location",
+      "context": "attended once; all were masked; recognised no-one"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "accused could not afford to buy meat from butcher",
+      "husband sold their house, causing financial anxiety about the money",
+      "accused had many children to provide for",
+      "dispute over money with Nicolas de Leusse",
+      "killed own pig to appear to have misfortunes like others - suggests awareness of community scrutiny",
+      "Nicolas de Leusse had taken one of her children into his house - suggests she couldn't support all her children",
+      "sent child to sister's house expecting something (food/help?) but they gave nothing",
+      "wife of Demenge Lucas complained about overtaxation of aides",
+      "quarrel over rights to gather plums - subsistence economy"
+    ],
+    "religious_calendar_references": [
+      "St. Luc (October 18)",
+      "All Saints (November 1 - arrested Friday before, which was October 30)",
+      "baptism (for child of Colas Piernille)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Was in prison when she appeared for voluntary confession, since Demenge Polier had constituted himself partie civile against her",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 5,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 5,
+    "corroboration_groups": [
+      [1],
+      [2],
+      [3],
+      [4],
+      [5]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [],
+    "emotional_state_notes": [
+      "appeared voluntarily to confess at her own request",
+      "felt pity for Gabriel Mercier and cured him",
+      "felt pity for Mongeon Failley and intended to cure him but was arrested",
+      "refused to kill husband despite master's urging (pointed out she had many children to provide for)",
+      "refused to kill wife of neighbor Humbert Bastien (objected that she was a good neighbour and had done her no harm)",
+      "refused to kill Nicolas de Leusse (objected that he had been good to her in taking one of her children into his house)",
+      "was beaten by her master for refusing to kill",
+      "claimed to have thrown rest of powder away",
+      "cured some victims after initially harming them (Gabriel Mercier, Toussaint Piernille Charier)"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Colas Piernille",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "child killed because accused not invited to baptism"
+    },
+    {
+      "name": "Humbert Bastien",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "master tried to persuade accused to kill his wife, but accused refused saying she was a good neighbor"
+    },
+    {
+      "name": "wife of Humbert Bastien",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "came too often and importunately into accused's house according to devil, but accused defended her as good neighbor who had done no harm"
+    },
+    {
+      "name": "Nicolas de Leusse",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "creditor/benefactor",
+      "context": "disputing over money with accused's husband; master tried to persuade accused to kill him but she refused, saying he had been good to her in taking one of her children into his house"
+    },
+    {
+      "name": "Mongeon Failley",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "community member",
+      "context": "butcher at Raon who refused to give accused meat at St. Luc because she had no money; she killed him with powder but felt pity and intended to cure him; arrested before she could, and he died same day"
+    },
+    {
+      "name": "Toussaint Piernille Charier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "made ill because he damaged accused's corn; she then pitied and cured him"
+    },
+    {
+      "name": "Jean Piernille",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "small daughter killed after quarrel over rights to gather plums about 15 months before"
+    },
+    {
+      "name": "wife of Jean Marond",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "context": "accused sent child to her house but they gave nothing; killed their small pig in revenge"
+    },
+    {
+      "name": "Jean Marond",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law (husband of accused's sister)",
+      "context": "husband of accused's sister"
+    },
+    {
+      "name": "Jehenne",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother",
+      "context": "mother of accused who had been executed for witchcraft (same crime)"
+    },
+    {
+      "name": "maréchal of Raon",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "father of accused; worked as maréchal (farrier/blacksmith)"
+    },
+    {
+      "name": "Demenge (son of Nicolas Piernille)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "aged 16 weeks when accused approached without speaking causing child to cry loudly; died 2 weeks later"
+    },
+    {
+      "name": "small son of Gabriel Mercier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "aged 9 months when killed after accused was asked to move at veillée"
+    },
+    {
+      "name": "wife of Jean Bietrix",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "made ill as first malefice to try powder; accused had deliberate will but no hatred or enmity"
+    },
+    {
+      "name": "wife of Demenge Lucas",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "died of strange illness lasting 8 days after complaining about overtaxation of aides by her husband who was levying them"
+    },
+    {
+      "name": "small son of Claudatte femme Didier Vaultrin",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "given little illness during dysentery outbreak because accused took envy without reason; thought Claudatte was making too much ceremony over him"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "This is an exceptionally detailed voluntary confession case with significant research value. KEY FEATURES: (1) VOLUNTARY CONFESSION: Annon appeared before judges at her own request to make full confession - extremely rare. She was already in prison because Demenge Polier had constituted himself partie civile, claiming she had long been reputed a witch. (2) MATERNAL INHERITANCE: Her mother Jehenne was previously executed for witchcraft, establishing intergenerational pattern. (3) ECONOMIC HARDSHIP AS SEDUCTION TRIGGER: The seduction occurred when upset about husband selling their house in faubourg - she feared he would spend money instead of turning it to profit. This economic anxiety was the emotional state when devil appeared. (4) POVERTY INDICATORS: Could not afford meat from butcher (leading to his death); had many children to provide for; Nicolas de Leusse had taken one of her children into his house (suggesting she couldn't support all); sent child to sister expecting help but they gave nothing; killed own pig 'so that they should be thought subject to misfortunes like others' (awareness of community suspicion). (5) MORAL AGENCY: She refused multiple times to kill people the devil suggested (husband, neighbor's wife, Nicolas de Leusse) and gave specific moral reasons based on family obligations and past kindness. This shows complex moral reasoning within the confession framework. (6) HEALING/CURING: She expressed pity and CURED some victims (Gabriel Mercier, Toussaint Piernille Charier); intended to cure Mongeon Failley but was arrested before she could. This suggests she saw herself as having healing powers, not just harming. Schema field 'practiced_healing' set to true with 'other' type. (7) EXPERIMENTAL MALEFICE: First two acts (wife of Jean Bietrix, cow) were explicitly 'to try powder' with 'deliberate will' but 'no hatred or enmity' - testing the powder's efficacy. (8) SABBAT NEGOTIATION: Only attended sabbat once, saw no one (all masked), then negotiated annual payment of hen to avoid future attendance - suggests some agency in relationship with devil. (9) BEATEN BY MASTER: Was beaten for refusing to kill - shows coercion within the diabolical pact. (10) RAPID TRIAL: Only 10 days from arrest (Oct 30) to execution (Nov 9). No torture used - confession was voluntary. (11) COSTS: 74 francs total, half falling on duchy. (12) TIMING: Arrest on Friday before All Saints (Oct 30, 1615) prevented her from curing the butcher who died same day - shows importance of timing in narrative. (13) WITNESSES: All 5 witnesses confirmed their harms, making this a well-corroborated case. (14) DYSENTERY OUTBREAK: Recent dysentery outbreak mentioned as context for one harm - shows epidemic disease context. (15) SOCIAL SLIGHTS: Multiple harms triggered by social slights (not invited to baptism, asked to move at veillée, sister gave nothing) showing importance of honor/inclusion. (16) VEILLÉE: Social gathering mentioned - important for understanding community social structures. (17) AIDES TAXATION: Wife of Demenge Lucas complained about overtaxation of aides - shows tax collection as source of conflict. (18) UNCERTAINTY RE CLAUDATTE'S CHILD: Confession says 'petit fils' (grandson) but witness testimony suggests it might be her son; I've recorded as son based on witness testimony saying 'small son' but noted the discrepancy. This could be translation/transcription issue or Claudatte was caring for grandson. Left as 'small son' in harms catalog to match witness testimony.",
+    "pdf_pages": 2
+  }
+}

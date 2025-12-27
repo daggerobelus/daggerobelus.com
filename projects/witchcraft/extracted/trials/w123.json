@@ -3,6 +3,14 @@
   "archive_ref": "B 7326",
   "location": "la Neufville-devant-Nancy",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Bastien Cousturier",
+    "person_id": null,
+    "occupation": "cousturier",
+    "location": "la Neufville",
+    "relationship_to_accused": "community member who initiated complaint"
+  },
   "dates": {
     "start": "1599-04-22",
     "end": "1599-06-23",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Isabillon femme Jean Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -19,6 +28,9 @@
       "residence": "la Neufville-devant-Nancy",
       "marital_status": "married",
       "spouse_name": "Jean Parmentier",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "charms_amulets", "herbal_remedies"],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -43,6 +55,7 @@
     {
       "number": 1,
       "name": "Nicolas Braconnier",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "paistre (shepherd)",
@@ -57,6 +70,7 @@
     {
       "number": 2,
       "name": "Catherine femme Jean Braconnier",
+      "person_id": null,
       "gender": "female",
       "age": 37,
       "occupation": "laboureur (farmer's wife)",
@@ -72,6 +86,7 @@
     {
       "number": 3,
       "name": "Anne femme Mre George Bertrand",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": "tailleur d'habitz (tailor's wife)",
@@ -94,6 +109,7 @@
     {
       "number": 4,
       "name": "Claudin Richard femme Girard Epurard",
+      "person_id": null,
       "gender": "female",
       "age": 39,
       "occupation": "manouvrier (laborer's wife)",
@@ -115,6 +131,7 @@
     {
       "number": 5,
       "name": "Jannotte veuve Demenge Bagard",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "relationship_to_accused": "witnessed quarrels with victim",
@@ -135,6 +152,7 @@
     {
       "number": 6,
       "name": "Claudin Eulmont",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "manouvrier",
@@ -155,6 +173,7 @@
     {
       "number": 7,
       "name": "Jean Braconnier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -168,6 +187,7 @@
     {
       "number": 8,
       "name": "Jean Parisat",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -198,6 +218,7 @@
     {
       "number": 9,
       "name": "Georgin Masson",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "testimony": {
@@ -210,6 +231,7 @@
     {
       "number": 10,
       "name": "Demenge le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": "manouvrier",
@@ -231,6 +253,7 @@
     {
       "number": 11,
       "name": "Didier Languille",
+      "person_id": null,
       "gender": "male",
       "age": 49,
       "occupation": "manouvrier",
@@ -268,6 +291,7 @@
     {
       "number": 12,
       "name": "Mre George Bertrand",
+      "person_id": null,
       "gender": "male",
       "age": 65,
       "occupation": "tailleur d'habitz",
@@ -289,6 +313,7 @@
     {
       "number": 13,
       "name": "Magdellaine femme Didier Languille",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "relationship_to_accused": "husband refused to renew garden lease",
@@ -317,6 +342,7 @@
     {
       "number": 14,
       "name": "Bastien des Preys",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "cousturier",
@@ -347,6 +373,7 @@
     {
       "number": 15,
       "name": "Mengeatte femme Jean Parisat",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": "laboureur (farmer's wife)",
@@ -374,6 +401,7 @@
     {
       "number": 16,
       "name": "Martin le Duc",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "tisserand (weaver)",
@@ -388,6 +416,7 @@
     {
       "number": 17,
       "name": "Gergonne Perlet",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -411,6 +440,7 @@
     {
       "number": 18,
       "name": "Nicolle Hazart veuve Anthoine Hardier",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "relationship_to_accused": "neighbour for 4 years",
@@ -424,6 +454,7 @@
     {
       "number": 19,
       "name": "Claude Pays",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "maire à la Neufville",
@@ -438,6 +469,7 @@
     {
       "number": 20,
       "name": "Libaire femme Noel Ferry",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "testimony": {
@@ -452,6 +484,7 @@
     {
       "number": 21,
       "name": "Marie femme Jean Bagard",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "testimony": {
@@ -472,6 +505,7 @@
     {
       "number": 22,
       "name": "Catherine femme Vaultrin Vaultrin",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": "manouvrier (laborer's wife)",
@@ -485,6 +519,7 @@
     {
       "number": 23,
       "name": "Catherine servante à Mre George Bertrand",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": "servant",
@@ -500,6 +535,7 @@
     {
       "number": 24,
       "name": "Barbe Symon femme Laurent François",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "manouvrier (laborer's wife)",
@@ -522,6 +558,7 @@
     {
       "number": 25,
       "name": "Claude Borinet",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "tisserand",
@@ -535,6 +572,7 @@
     {
       "number": 26,
       "name": "Laurent François",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier",
@@ -557,6 +595,7 @@
     {
       "number": 27,
       "name": "Jean Thomassin",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "tisserand",
@@ -581,6 +620,7 @@
     {
       "number": 28,
       "name": "Mengin Millecy",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -594,6 +634,7 @@
     {
       "number": 29,
       "name": "Jean Bagard",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": "laboureur",
@@ -1356,7 +1397,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "not specified",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1414,73 +1460,86 @@
   "third_parties": [
     {
       "name": "Bastien Cousturier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accuser who applied to PG",
       "context": "Had been accused by Bastien Cousturier of la Neufville, who had applied to PG"
     },
     {
       "name": "la Grosse Janotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "another accused witch",
       "context": "she had hidden her goods when information was taken against la Grosse Janotte from house of George Masson, who was not convicted"
     },
     {
       "name": "George Masson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "house from which information was taken against la Grosse Janotte"
     },
     {
       "name": "Colin, servant of Claude Daulphin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Had heard her called witch by Colin, servant of Claude Daulphin, without seeking any reparation"
     },
     {
       "name": "Claude Daulphin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "employer of Colin who called accused witch"
     },
     {
       "name": "wife of Claude Henry",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "had given pieces of bread and tart given her by wife of Claude Henry to her own daughter"
     },
     {
       "name": "Claudin des Pomottes",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Claudin des Pomottes had informed her mistress that she gave her some soup, and he would repent"
     },
     {
       "name": "Claude Pays grandfather",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "grandfather of witness 19",
       "context": "She had been in service of his grandfather"
     },
     {
       "name": "Claude Pays father",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "father of witness 19",
       "context": "had long frequented his father's house, without any suspicion of witchcraft"
     },
     {
       "name": "Isabillon's stepdaughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "stepdaughter",
       "context": "He had not wanted to hire her stepdaughter as servant again"
     },
     {
       "name": "Isabillon's daughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "context": "she had given pieces of bread and tart to her own daughter, who was also ill; beat her daughter, who was servant in his house"
     },
     {
       "name": "first husband of Isabillon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "former husband",
       "context": "first husband sometimes called her witch; she had been told that devil gave her powder with which she had killed her first husband"
     },
     {
       "name": "Jean Parmentier (husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "husband was manouvrier; Was angry that her husband called her witch"

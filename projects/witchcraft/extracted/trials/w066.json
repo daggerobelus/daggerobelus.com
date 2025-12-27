@@ -3,6 +3,14 @@
   "archive_ref": "B 3804 no 1",
   "location": "Dompierre",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "procureur general du bailliage des Vosges",
+    "person_id": null,
+    "occupation": "prosecutor general",
+    "location": "bailliage des Vosges",
+    "relationship_to_accused": "state prosecutor"
+  },
   "dates": {
     "start": "1620-01-20",
     "end": "1620-02-19",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Nicolas Adam",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["menestrier", "hautbois player"],
       "origin": "Pallegney, bailliage d'Espinal",
       "residence": "Dompierre",
@@ -47,6 +59,7 @@
     {
       "number": 1,
       "name": "Jean Clauchier",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "age_approximate": true,
@@ -77,6 +90,7 @@
     {
       "number": 2,
       "name": "Bastien Hanna",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "age_approximate": true,
@@ -99,6 +113,7 @@
     {
       "number": 3,
       "name": "Nicolas Hanna",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "age_approximate": true,
@@ -136,6 +151,7 @@
     {
       "number": 4,
       "name": "Demenge Pretemol",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -158,6 +174,7 @@
     {
       "number": 5,
       "name": "Jean Colignon le Vieux",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -188,6 +205,7 @@
     {
       "number": 6,
       "name": "Florentin Cole",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -210,6 +228,7 @@
     {
       "number": 7,
       "name": "Jean Micquay",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -247,6 +266,7 @@
     {
       "number": 8,
       "name": "Demenge Durand",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -277,6 +297,7 @@
     {
       "number": 9,
       "name": "Nicolas Ozele",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -299,6 +320,7 @@
     {
       "number": 10,
       "name": "Jean Ozele",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "age_approximate": true,
@@ -321,6 +343,7 @@
     {
       "number": 11,
       "name": "Nicolas Jean Blot",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -351,6 +374,7 @@
     {
       "number": 12,
       "name": "Clement Villemin",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "age_approximate": true,
@@ -373,6 +397,7 @@
     {
       "number": 13,
       "name": "Antoine Binaud",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "age_approximate": true,
@@ -403,6 +428,7 @@
     {
       "number": 14,
       "name": "Antoine Binaud",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -425,6 +451,7 @@
     {
       "number": 15,
       "name": "Mongete",
+      "person_id": null,
       "gender": "female",
       "age": 48,
       "age_approximate": true,
@@ -447,6 +474,7 @@
     {
       "number": 16,
       "name": "Jean Grand Maire",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "age_approximate": true,
@@ -469,6 +497,7 @@
     {
       "number": 17,
       "name": "Bastien Begel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -491,6 +520,7 @@
     {
       "number": 18,
       "name": "Jean Bocquel le Jeune",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "age_approximate": true,
@@ -513,6 +543,7 @@
     {
       "number": 19,
       "name": "George Bocquel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -535,6 +566,7 @@
     {
       "number": 20,
       "name": "Humbert Berton",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -557,6 +589,7 @@
     {
       "number": 21,
       "name": "Humbert Rodot",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "age_approximate": true,
@@ -579,6 +612,7 @@
     {
       "number": 22,
       "name": "Florentin Brisat",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "age_approximate": true,
@@ -601,6 +635,7 @@
     {
       "number": 23,
       "name": "Bastien Rodat",
+      "person_id": null,
       "gender": "male",
       "age": 18,
       "age_approximate": true,
@@ -623,6 +658,7 @@
     {
       "number": 24,
       "name": "Curien Gonnel",
+      "person_id": null,
       "gender": "male",
       "age": 21,
       "age_approximate": true,
@@ -645,6 +681,7 @@
     {
       "number": 25,
       "name": "Alix",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -667,6 +704,7 @@
     {
       "number": 26,
       "name": "Marie",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "age_approximate": true,
@@ -689,6 +727,7 @@
     {
       "number": 27,
       "name": "Libaire",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -1304,7 +1343,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Held at château of Bruyères",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1367,6 +1411,7 @@
   "third_parties": [
     {
       "name": "Jennon Besdel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first wife",
       "relationship_to_witness": null,
@@ -1374,6 +1419,7 @@
     },
     {
       "name": "Jannon (wife of Nicolas)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "current wife",
       "relationship_to_witness": null,
@@ -1381,6 +1427,7 @@
     },
     {
       "name": "Bastienne wife of Jean Brisay d'Aidoile",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
@@ -1388,6 +1435,7 @@
     },
     {
       "name": "Mre Bernard",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged teacher",
       "relationship_to_witness": null,
@@ -1395,6 +1443,7 @@
     },
     {
       "name": "Thomasse wife of Jean Poirat",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "named accomplice",
       "relationship_to_witness": null,
@@ -1402,6 +1451,7 @@
     },
     {
       "name": "Topinot",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "source of suspicions",
       "relationship_to_witness": null,
@@ -1409,6 +1459,7 @@
     },
     {
       "name": "Claudon Demengeot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "companion of witness 7",
@@ -1416,6 +1467,7 @@
     },
     {
       "name": "Adam Binaud",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "peer of witness 11",
@@ -1423,6 +1475,7 @@
     },
     {
       "name": "Antoine Villemin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1430,6 +1483,7 @@
     },
     {
       "name": "Demenge Demengeot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "named accomplice (wavered)",
       "relationship_to_witness": null,
@@ -1437,6 +1491,7 @@
     },
     {
       "name": "Didier Mengin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1444,6 +1499,7 @@
     },
     {
       "name": "Bastien Chonte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "creditor",
       "relationship_to_witness": null,
@@ -1451,6 +1507,7 @@
     },
     {
       "name": "Jean Grand Maire of Ognieville",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1458,6 +1515,7 @@
     },
     {
       "name": "George Grand Maire de Padoux",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1465,6 +1523,7 @@
     },
     {
       "name": "Nicolas's brother",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": null,

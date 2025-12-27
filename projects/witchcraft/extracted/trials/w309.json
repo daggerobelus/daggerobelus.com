@@ -1,0 +1,1253 @@
+{
+  "trial_id": "w309",
+  "archive_ref": "B 8730",
+  "location": "Clefcy",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Colatte femme Mengel des Roses",
+    "person_id": null,
+    "location": "le Souche",
+    "relationship_to_accused": "neighbor"
+  },
+  "dates": {
+    "start": "1621-11-05",
+    "end": "1622-02-03",
+    "duration_days": 90
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Fleuratte veuve Anthoine Valdexey",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "other"],
+      "age": 50,
+      "age_approximate": false,
+      "occupation": ["weaver"],
+      "origin": "Clefcy",
+      "residence": "le Souche de Clefcy",
+      "marital_status": "widowed",
+      "spouse_name": "Anthoine Valdexey",
+      "parents": {
+        "father": "Mengeon Claudel Vaultier",
+        "mother": "Sebille daughter of Demenge de la Levee"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "devil_appearance": "dressed like a 'marquaire'",
+        "seduction_date": "30 years before trial (circa 1592)",
+        "seduction_context": "First appeared in barn asking if she would be his 'amoureuse', promising to be a good match. Seduced a week later outside house at dusk.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder (kill animals)", "red powder (kill people)", "green powder (cure)"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "feasting", "hailmaking"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Colas de la Maize",
+      "person_id": null,
+      "gender": "male",
+      "age": 31,
+      "location": "Clefcy",
+      "relationship_to_accused": "had denounced her husband at trial",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "he had denounced her husband at trial in June 1615",
+        "threat_received": true,
+        "threat_quote": "often saying that without him and his companions he would not have been burned",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "soon after these reproaches"
+          },
+          {
+            "type": "animal_illness",
+            "target": "another cow",
+            "target_relationship": "his own",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "after first cow died"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Marie femme Claude Hidoulf",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Clefcy",
+      "relationship_to_accused": "neighbor, bought field confiscated from accused's husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "reaping in field that had been confiscated from accused's husband",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "weather_event",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "immediately during conversation"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Germaine veuve Mengel Colas Demenge Durand",
+      "person_id": null,
+      "gender": "female",
+      "age": 55,
+      "location": "Clefcy",
+      "relationship_to_accused": "neighbor with property dispute",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute about a wall they wanted to put up",
+        "threat_received": true,
+        "threat_quote": "qu'ilz ne plaideroient davantage mais qu'ilz en auroient bien la raison d'autre faceon",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "many animals including mare",
+            "target_relationship": "her own",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "after they had been prevented from building wall"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Pieron Urbain",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Clefcy",
+      "relationship_to_accused": "nephew of victim Colas Valdexey",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel with victim Colas Valdexey",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Colas Valdexey",
+            "target_relationship": "his uncle",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "just after quarrel"
+          },
+          {
+            "type": "crop_damage",
+            "target": "no fruit that year",
+            "target_relationship": "community",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "same year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Colas Mengel Durand",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Clefcy",
+      "relationship_to_accused": "son of witness 3",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals of his mother",
+            "target_relationship": "his mother's animals",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "during lifetime of Fleuratte's husband"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Demenge Jacquat",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "location": "Clefcy",
+      "relationship_to_accused": "nephew (she was his aunt)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "complained about loss of cow",
+        "threat_received": true,
+        "threat_quote": "it had not been any negligence of their part, and that the misfortune came from elsewhere",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "some 2 years before"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Dieudonnée femme Jacquat Didier Valdexey",
+      "person_id": null,
+      "gender": "female",
+      "age": 55,
+      "location": "Clefcy",
+      "relationship_to_accused": "sister-in-law (married to husband's brother)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Colas Claudon Bertrand",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Clefcy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Mengeon Mengel Durand",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Clefcy",
+      "relationship_to_accused": "son of witness 3",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mother's property dispute about wall",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "his mother's",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "after wall dispute"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Mathiatte femme Mengeon Christophe",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Clefcy",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "discussed goat when passing by house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "goat",
+            "target_relationship": "her own",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "a week later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Marion femme Colas de la Maize",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Clefcy",
+      "relationship_to_accused": "wife of witness 1",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "resentment after her husband testified against Fleuratte's husband at trial",
+        "threat_received": true,
+        "threat_quote": "often saying that without him and his companions he would not have been burned",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "their own",
+            "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+            "time_after_quarrel": "soon after reproaches"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jacquat Didier Valdexey",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "location": "Clefcy",
+      "relationship_to_accused": "brother-in-law (husband's brother)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Epnon femme Mengeon le Marchal",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Clefcy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Zabel femme Bresson Jeandel",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "ban d'Anould",
+      "relationship_to_accused": "hired to help reap oats field",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1621-11-05",
+      "event": "informations_preparatoires",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Testimony collection begins"
+    },
+    {
+      "date": "1622-01-07",
+      "event": "informations_preparatoires",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Additional witness testimony (witness 13)"
+    },
+    {
+      "date": "1622-01-14",
+      "event": "interrogation",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "First interrogation, denied charges"
+    },
+    {
+      "date": "1622-01-17",
+      "event": "confrontation",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Confrontations with witnesses, accused them of various crimes"
+    },
+    {
+      "date": "1622-01-19",
+      "event": "torture_requested",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Procureur for chapter asks for question extraordinaire"
+    },
+    {
+      "date": "1622-01-22",
+      "event": "torture_approved",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1622-01-25",
+      "event": "torture",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Given thumbscrews and rack, continued to deny, asked to be released until morning"
+    },
+    {
+      "date": "1622-01-26",
+      "event": "interrogation",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Placed on rack again, threatened with renewed torture, started to confess"
+    },
+    {
+      "date": "1622-01-26",
+      "event": "other",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Confirmed confessions same afternoon, added accomplice names"
+    },
+    {
+      "date": "1622-01-27",
+      "event": "other",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Further reiteration of confessions"
+    },
+    {
+      "date": "1622-01-28",
+      "event": "death_requested",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1622-01-29",
+      "event": "appeal",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Change de Nancy asks for repetition of confessions"
+    },
+    {
+      "date": "1622-02-03",
+      "event": "death_approved",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Final repetition of confessions and approval for execution from Change de Nancy"
+    },
+    {
+      "date": "1622-02-03",
+      "event": "execution",
+      "subject": "Fleuratte veuve Anthoine Valdexey",
+      "details": "Execution approved same day"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "procureur for chapter",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Anthoine Valdexey",
+      "location": "Clefcy",
+      "context": "Her husband, named as accomplice at sabbat",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Claude Vincent",
+      "location": "le Souche",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jehennon Bon Claude",
+      "location": "le Souche",
+      "context": "Seen at sabbat, also victim whom she made ill then healed",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Didier de la Levee",
+      "location": "Hervafaing",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Georgeon Jean Durand",
+      "location": "le Souche",
+      "context": "Added to list of accomplices in afternoon confirmation",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Colatte femme Mengel des Roses",
+      "location": "le Souche",
+      "context": "Her accuser, named as dead accomplice",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Claude des Feignes",
+      "location": null,
+      "context": "Named as dead accomplice",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Agathe",
+      "location": null,
+      "context": "Sister of Claude des Feignes, named as dead accomplice",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Franceatte femme Claudel Jardel",
+      "location": null,
+      "context": "Named as dead accomplice",
+      "already_executed": true,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Colatte femme Mengel des Roses",
+      "accuser_location": "le Souche",
+      "context": "Undated copy of accusation, almost certainly executed 1621. Also named multiple other people.",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Fleuratte veuve Anthoine Valdexey",
+      "french": "qu'ilz ne plaideroient davantage mais qu'ilz en auroient bien la raison d'autre faceon",
+      "english": "that they would not plead/argue any more, but that they would have reason to regret it in another way",
+      "context": "Threat to Germaine after being prevented from building wall"
+    },
+    {
+      "speaker": "Fleuratte veuve Anthoine Valdexey",
+      "french": "Chay, Chay",
+      "english": "Shoo, shoo (to a cat or master)",
+      "context": "Said in field when wind arose, which ceased when she spoke"
+    },
+    {
+      "speaker": "Fleuratte veuve Anthoine Valdexey",
+      "french": "pour ladite jument l'on avoit esté au devin ainsy qu'on disoit",
+      "english": "for the said mare they had been to the diviner as they said",
+      "context": "Explaining the burning of the mare's heart"
+    },
+    {
+      "speaker": "Fleuratte veuve Anthoine Valdexey",
+      "french": "qu'elle at esté au devin nommement Michiel Colin Michiel et qu'a ce moyen l'on dit qu'elle est sorciere et qu'elle a faict tomber ledit Michiel de ses corbes ou il eut un bras rompu, et qu'un nommé Jean Bruyeres demeurant on Vic luy mescroyeroit la perte de beaucoup de son bestail qu'il perdoit",
+      "english": "that she had been to the diviner namely Michiel Colin Michiel and that for this reason they say she is a witch and that she made the said Michiel fall from his baskets where he broke an arm, and that one named Jean Bruyeres living in Vic would blame her for the loss of much of his livestock that he lost",
+      "context": "Counteraccusation against witness Zabel during confrontation"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Fleuratte veuve Anthoine Valdexey",
+      "person2": "Anthoine Valdexey",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Fleuratte veuve Anthoine Valdexey",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Claudel Vaultier",
+      "person2": "Fleuratte veuve Anthoine Valdexey",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Mengeon Claudel Vaultier of Clefcy",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille daughter of Demenge de la Levee",
+      "person2": "Fleuratte veuve Anthoine Valdexey",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "and his wife Sebille, daughter of Demenge de la Levee of Hervafaing",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Jacquat",
+      "person2": "Fleuratte veuve Anthoine Valdexey",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "who was his aunt",
+      "inferred": false
+    },
+    {
+      "person1": "Dieudonnée femme Jacquat Didier Valdexey",
+      "person2": "Jacquat Didier Valdexey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Dieudonnée femme Jacquat Didier Valdexey",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquat Didier Valdexey",
+      "person2": "Anthoine Valdexey",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "During lifetime of his brother Anthoine",
+      "inferred": false
+    },
+    {
+      "person1": "Marion femme Colas de la Maize",
+      "person2": "Colas de la Maize",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marion femme Colas de la Maize",
+      "inferred": false
+    },
+    {
+      "person1": "Marie femme Claude Hidoulf",
+      "person2": "Claude Hidoulf",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marie femme Claude Hidoulf",
+      "inferred": false
+    },
+    {
+      "person1": "Germaine veuve Mengel Colas Demenge Durand",
+      "person2": "Mengel Colas Demenge Durand",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Germaine veuve Mengel Colas Demenge Durand",
+      "inferred": false
+    },
+    {
+      "person1": "Germaine veuve Mengel Colas Demenge Durand",
+      "person2": "Colas Mengel Durand",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his mother suffered great losses",
+      "inferred": true
+    },
+    {
+      "person1": "Germaine veuve Mengel Colas Demenge Durand",
+      "person2": "Mengeon Mengel Durand",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Story of mother's losses",
+      "inferred": true
+    },
+    {
+      "person1": "Colas Mengel Durand",
+      "person2": "Mengeon Mengel Durand",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Both sons of Germaine",
+      "inferred": true
+    },
+    {
+      "person1": "Pieron Urbain",
+      "person2": "Colas Valdexey",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his uncle Colas Valdexey",
+      "inferred": false
+    },
+    {
+      "person1": "Mathiatte femme Mengeon Christophe",
+      "person2": "Mengeon Christophe",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mathiatte femme Mengeon Christophe",
+      "inferred": false
+    },
+    {
+      "person1": "Epnon femme Mengeon le Marchal",
+      "person2": "Mengeon le Marchal",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Epnon femme Mengeon le Marchal",
+      "inferred": false
+    },
+    {
+      "person1": "Zabel femme Bresson Jeandel",
+      "person2": "Bresson Jeandel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Zabel femme Bresson Jeandel",
+      "inferred": false
+    },
+    {
+      "person1": "Colatte femme Mengel des Roses",
+      "person2": "Mengel des Roses",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Colatte femme Mengel des Roses",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Husband's property had been confiscated after his execution. Witness Marie femme Claude Hidoulf bought field from seigneurs that had been confiscated from accused's husband. Dispute with Germaine about wall construction. Witness referred to economic losses of 6-700 francs from animal deaths. Accused worked as weaver, suggesting modest economic status."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "cow of Colas de la Maize",
+      "victim_relationship_to_witness": "his own animal",
+      "harm_category": "animal_death",
+      "harm_description": "became as if rabid, had to be buried alive",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "he had denounced her husband at trial June 1615",
+      "time_between_quarrel_and_harm": "soon after these reproaches",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "second cow of Colas de la Maize",
+      "victim_relationship_to_witness": "his own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "sickened, recovered after eating bread, salt, and leeks from accused's house",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "after first cow died",
+      "time_between_quarrel_and_harm": "after first cow",
+      "method_alleged": "cured by eating bread, salt, and leeks from her house (counter-magic)",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Marie femme Claude Hidoulf",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "weather_event",
+      "harm_description": "wind seemed to get up with great noise and frightened witness, ceased when accused said 'Chay, Chay'",
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "reaping in confiscated field, asked if she had taken too much",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "words 'Chay, Chay' to control wind/master",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "animals of Germaine veuve Mengel Colas Demenge Durand",
+      "victim_relationship_to_witness": "her own animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost many animals including mare",
+      "animal_type": "mare and other animals",
+      "economic_value": "6-700 francs (total losses)",
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "dispute about wall they wanted to build",
+      "time_between_quarrel_and_harm": "after they had been prevented from building",
+      "method_alleged": "witchcraft, confirmed by burning mare's heart test - accused appeared at door same day",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Colas Valdexey",
+      "victim_relationship_to_witness": "uncle of witness",
+      "harm_category": "human_death",
+      "harm_description": "killed by fall from cherry tree",
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "had just quarrelled with her",
+      "time_between_quarrel_and_harm": "just after quarrel",
+      "method_alleged": "she went to give news before anyone else knew",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "fruit crops",
+      "victim_relationship_to_witness": "community",
+      "harm_category": "crop_damage",
+      "harm_description": "no fruit that year, as predicted by accused",
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "time_between_quarrel_and_harm": "same year as Colas Valdexey's death",
+      "method_alleged": "prediction by her daughter that there would be no fruit, which came true",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "wife of Vincent Claude Vincent",
+      "victim_relationship_to_witness": "other person's wife",
+      "harm_category": "human_illness",
+      "harm_description": "illness cured by obtaining bread and salt from accused's house",
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "method_alleged": "cured by counter-magic (bread and salt from her house)",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "horse of Claude Vincent",
+      "victim_relationship_to_witness": "other person's animal",
+      "harm_category": "animal_death",
+      "harm_description": "death of horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "method_alleged": "openly accused by Claude Vincent without her reaction",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow of Demenge Jacquat",
+      "victim_relationship_to_witness": "his own animal",
+      "harm_category": "animal_death",
+      "harm_description": "lost a cow, buried it so other animals would not be infected, stones piled on grave found in disarray next day",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "complained to her about loss",
+      "time_between_quarrel_and_harm": "some 2 years before testimony",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "goat of Mathiatte femme Mengeon Christophe",
+      "victim_relationship_to_witness": "her own animal",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill and finally had to be killed",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "precipitating_quarrel": "discussed goat when passing by her house",
+      "time_between_quarrel_and_harm": "a week later",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Jennon Bon Claude",
+      "victim_relationship_to_witness": "other person",
+      "harm_category": "human_illness",
+      "harm_description": "made ill, then healed by accused",
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "method_alleged": "confession states she made ill then healed (demonstrates power)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "cat and calf",
+      "victim_relationship_to_witness": "test victims",
+      "harm_category": "animal_death",
+      "harm_description": "killed to test powder given by devil",
+      "animal_type": "cat and calf",
+      "animal_count": 2,
+      "attributed_to": "Fleuratte veuve Anthoine Valdexey",
+      "method_alleged": "black powder from devil",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread, salt, and leeks",
+      "context": "Used as counter-magic cure for bewitched cow, obtained from accused's house",
+      "category": "food"
+    },
+    {
+      "object": "mare's heart",
+      "context": "Burned to identify witch who caused animal deaths",
+      "category": "magical"
+    },
+    {
+      "object": "ribbon",
+      "context": "Given by devil Persin at seduction",
+      "category": "clothing"
+    },
+    {
+      "object": "money (pieces of glass)",
+      "context": "Devil gave what he said was money but turned out to be pieces of glass",
+      "category": "money"
+    },
+    {
+      "object": "powder (black, red, green)",
+      "context": "Given by devil - black to kill animals, red to kill people, green to cure",
+      "category": "magical"
+    },
+    {
+      "object": "cock",
+      "context": "Gave master a cock each year to be let off more frequent sabbat attendance",
+      "category": "agricultural"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "Torture device used during interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "rack",
+      "context": "Torture device used during interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "field of oats",
+      "context": "Fleuratte bought field to reap 30 years before",
+      "category": "agricultural"
+    },
+    {
+      "object": "wall",
+      "context": "Dispute with Germaine about wall they wanted to build",
+      "category": "property"
+    },
+    {
+      "object": "loaf",
+      "context": "Payment for reaping work (2 francs and a loaf each)",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Clefcy",
+      "place_type": "village",
+      "context": "Main location of trial, where accused lived"
+    },
+    {
+      "place_name": "le Souche de Clefcy",
+      "place_type": "village",
+      "context": "Specific residence location of accused, also location of accuser and some witnesses"
+    },
+    {
+      "place_name": "ban d'Anould",
+      "place_type": "village",
+      "context": "Location of witness Zabel femme Bresson Jeandel"
+    },
+    {
+      "place_name": "Hervafaing",
+      "place_type": "village",
+      "context": "Origin of accused's maternal grandfather, location of accomplice Didier de la Levee"
+    },
+    {
+      "place_name": "les Graviers",
+      "place_type": "village",
+      "context": "Location of Marguitte wife of Jean Carset named in initial accusation"
+    },
+    {
+      "place_name": "Plainfaing",
+      "place_type": "village",
+      "context": "Location of Blaise Colas Bertrand who had called husband a witch"
+    },
+    {
+      "place_name": "Vic",
+      "place_type": "village",
+      "context": "Location of Jean Bruyeres mentioned in counteraccusation"
+    },
+    {
+      "place_name": "barn of Anthoine Ferry",
+      "place_type": "house",
+      "context": "Where accused and witness Zabel slept 30 years before when reaping oats"
+    },
+    {
+      "place_name": "field (confiscated from husband)",
+      "place_type": "field",
+      "context": "Where wind incident occurred with Marie femme Claude Hidoulf"
+    },
+    {
+      "place_name": "cherry tree",
+      "place_type": "other",
+      "context": "Where Colas Valdexey fell to his death"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["wind with great noise", "predicted rain for hay harvest", "hailmaking at sabbat"],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["property confiscation from executed witch", "significant economic losses from animal deaths (6-700 francs)", "widow left with 7 small children", "weaver occupation suggests modest means"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur for chapter",
+        "role": "prosecutor_pg",
+        "location": "Clefcy"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Quarrel with Nicolas Valdexey over 'retraicte' he wanted to use on land she and husband had bought, 12 years before his fatal fall",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "Accused noted that husband did not seek reparation when called witch by Blaise Colas Bertrand, which she used as evidence he had been witch for long time",
+    "imprisonment_conditions": null,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 11,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Pieron Urbain",
+        "source": "Vincent Claude Vincent",
+        "content": "heard from Vincent Claude Vincent that he had obtained bread and salt from her house to cure his wife"
+      },
+      {
+        "reporter": "Pieron Urbain",
+        "source": "Vincent Claude Vincent",
+        "content": "if he knew it would only cost him 100 francs he would have her eldest unmarried daughter arrested"
+      },
+      {
+        "reporter": "Colas Claudon Bertrand",
+        "source": "Claude Vincent",
+        "content": "Claude Vincent had told him how he had openly accused her of being a witch and killing his horse"
+      },
+      {
+        "reporter": "Colas Claudon Bertrand",
+        "source": "Claude Vincent",
+        "content": "claimed to have heard her and husband talking over dinner shortly before his arrest"
+      },
+      {
+        "reporter": "Fleuratte",
+        "source": "wife of Jean Bruyeres and Mengel des Roses",
+        "content": "counteraccusations against Zabel"
+      }
+    ],
+    "oldest_accusation_years": 30,
+    "corroboration_groups": [
+      [1, 11],
+      [3, 5, 9]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "challenged_witness_credibility", "accused_witnesses_of_crimes", "natural_explanations"],
+    "emotional_state_notes": ["denied charges initially", "asked to be released after first torture session", "continued denials until threatened with renewed torture", "started to confess when placed on rack again"],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "Nicolas de la Maize was son of a thief, and his mother had been accused by Colatte"
+      },
+      {
+        "witness_number": 2,
+        "objection": "Father of Marie femme Claude Hidoulf had said she made him die more than a week before his time (Marie denied this)"
+      },
+      {
+        "witness_number": 3,
+        "objection": "Germaine veuve Mengel Colas Demenge Durand was reputed a whore, having twice given promises of marriage she had not kept"
+      },
+      {
+        "witness_number": 14,
+        "objection": "Zabel had been to diviner Michiel Colin Michiel, was reputed witch, made him fall and break arm, blamed for livestock losses by Jean Bruyeres"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Marguitte wife of Jean Carset",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Named in undated copy of accusation by Colatte",
+      "relationship_to_accused": "unknown",
+      "location": "les Graviers"
+    },
+    {
+      "name": "Lambert du Vic",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Named in undated copy of accusation by Colatte",
+      "relationship_to_accused": "unknown"
+    },
+    {
+      "name": "wife of Lambert du Vic",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Named in undated copy of accusation by Colatte",
+      "relationship_to_accused": "unknown"
+    },
+    {
+      "name": "Coinchatte veuve Colas de la Maize",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Named in undated copy of accusation by Colatte",
+      "relationship_to_accused": "unknown"
+    },
+    {
+      "name": "Claude Hidoulf",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "husband of witness 2",
+      "context": "Husband of Marie, bought confiscated field"
+    },
+    {
+      "name": "Mengel Colas Demenge Durand",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "deceased husband of witness 3",
+      "context": "Late husband of Germaine, she was widow with 7 children"
+    },
+    {
+      "name": "Nicolas Valdexey",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Also called Colas Valdexey, killed by fall from cherry tree after quarrel with accused",
+      "relationship_to_accused": "had property dispute 12 years earlier"
+    },
+    {
+      "name": "daughter of Fleuratte (unnamed, sewing)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Had been sewing in Pieron Urbain's house, told them mother said no fruit that year"
+    },
+    {
+      "name": "eldest unmarried daughter of Fleuratte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Vincent Claude Vincent said if it cost only 100 francs he would have her arrested"
+    },
+    {
+      "name": "Vincent Claude Vincent",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Obtained bread and salt from accused to cure his wife, openly accused her of witchcraft, later named as accomplice at sabbat",
+      "relationship_to_accused": "neighbor, later named accomplice"
+    },
+    {
+      "name": "wife of Vincent Claude Vincent",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Cured by counter-magic using bread and salt from accused's house",
+      "relationship_to_accused": "victim of alleged bewitchment"
+    },
+    {
+      "name": "daughter of Vincent Claude Vincent",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Also fell at same time as Colas Valdexey",
+      "relationship_to_accused": "neighbor"
+    },
+    {
+      "name": "Blaise Colas Bertrand",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Had called accused's husband a witch long before 10 years mentioned",
+      "relationship_to_accused": "had accused husband"
+    },
+    {
+      "name": "Anthoine Ferry",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Owner of barn where Fleuratte and Zabel slept 30 years earlier"
+    },
+    {
+      "name": "Michiel Colin Michiel",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Diviner that Zabel allegedly consulted, fell from baskets and broke arm",
+      "relationship_to_accused": "mentioned in counteraccusation"
+    },
+    {
+      "name": "Jean Bruyeres",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Living in Vic, would blame Zabel for livestock losses according to counteraccusation"
+    },
+    {
+      "name": "wife of Jean Bruyeres",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Source for counteraccusations against Zabel"
+    },
+    {
+      "name": "sister of Fleuratte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "context": "Accused claimed it was her sister not her with Zabel 30 years ago"
+    },
+    {
+      "name": "Persin",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Name of devil/master in confession"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Complete trial record with detailed witness testimony, torture, confession, and execution. Husband Anthoine Valdexey was executed in June 1615 (trial w309 references this). Accused was widow of executed witch and widely reputed to be more dangerous than her husband. Notable features: (1) Counter-magic healing with bread/salt/leeks from accused's house used by multiple people; (2) Burning mare's heart divination test that allegedly brought accused to door; (3) Detailed barn incident 30 years prior with possible devil visitation; (4) Strong counterattack strategy during confrontations accusing witnesses of various crimes; (5) Confession only obtained under threat of renewed torture after initial torture session failed. Multiple accomplices named including living people (Claude Vincent, Jehennon Bon Claude, Didier de la Levee, Georgeon Jean Durand) and dead ones (husband, accuser Colatte, Claude des Feignes and sister Agathe, Franceatte femme Claudel Jardel). Economic status assessed as 'poor' based on: weaver occupation, property confiscation from husband's execution, widow status, but had resources to buy oat field 30 years earlier. Healing practice evident from curing with green powder in confession and multiple witnesses using counter-magic from her house. Language region: French (all quotes in French, location in French-speaking Lorraine). Notable that accused had knowledge suggesting she practiced some form of healing/cunning work given the counter-magic cures.",
+    "pdf_pages": 4
+  }
+}

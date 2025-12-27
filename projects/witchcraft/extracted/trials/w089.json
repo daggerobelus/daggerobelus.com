@@ -3,6 +3,14 @@
   "archive_ref": "B 4576",
   "location": "Neufchâteau",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "procureur general des Vosges",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Vosges",
+    "relationship_to_accused": "official prosecutor"
+  },
   "dates": {
     "start": "1611-06-27",
     "end": "1611-07-31",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Jeanne veuve Mansuy Magnien",
+      "person_id": null,
       "gender": "female",
       "age": 65,
       "age_approximate": false,
@@ -20,6 +29,9 @@
       "marital_status": "widowed",
       "spouse_name": "Mansuy Magnien",
       "parents": {},
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "confession": {
         "confessed": false,
         "under_torture": false,
@@ -34,6 +46,7 @@
     {
       "number": 1,
       "name": "Jean Humbert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "tisserand",
@@ -54,6 +67,7 @@
     {
       "number": 2,
       "name": "Mongeotte femme Jean Humbert",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": "wife of weaver",
@@ -72,6 +86,7 @@
     {
       "number": 3,
       "name": "Jeanne femme Jean Flaman le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -107,6 +122,7 @@
     {
       "number": 4,
       "name": "Magdelaine fille feu Florentin Pernot (surnommé Visage d'Ange)",
+      "person_id": null,
       "gender": "female",
       "age": 11,
       "location": "Neufchâteau",
@@ -148,6 +164,7 @@
     {
       "number": 5,
       "name": "Anne femme Mengin Claude",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "wife of weaver",
@@ -174,6 +191,7 @@
     {
       "number": 6,
       "name": "Pierre Roussel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "tisserand",
@@ -200,6 +218,7 @@
     {
       "number": 7,
       "name": "Didiere femme Pierre Roussel",
+      "person_id": null,
       "gender": "female",
       "age": 51,
       "location": "Neufchâteau",
@@ -225,6 +244,7 @@
     {
       "number": 8,
       "name": "Jean Flaman le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "tisserand",
@@ -258,6 +278,7 @@
     {
       "number": 9,
       "name": "Jacquot Arnoult",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "chartier",
@@ -306,6 +327,7 @@
     {
       "number": 10,
       "name": "Vacharin Gaulthier",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "occupation": "serviteur a Bastien Clement tisserand",
@@ -325,6 +347,7 @@
     {
       "number": 11,
       "name": "Jacques Amand",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "tisserand",
@@ -344,6 +367,7 @@
     {
       "number": 12,
       "name": "Jean Obry",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "tisserand",
@@ -363,6 +387,7 @@
     {
       "number": 13,
       "name": "Nicolas Pasquier",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "tisserand",
@@ -381,6 +406,7 @@
     {
       "number": 14,
       "name": "Balthazar la Hyre",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "tisserand",
@@ -959,7 +985,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "On second visit to Goudance, asked curé to secure redress against accusations but he asked if she had permission from her curé, which she had to admit she did not",
     "imprisonment_conditions": "Guarded in her house by arbalestriers after being accused. Prevented from sleeping all night before final interrogation on 29 July 1611",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture with moderation appropriate for her age",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1023,60 +1054,71 @@
   "third_parties": [
     {
       "name": "Jean Gontart",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son (from first marriage to Claude Gontart)",
       "context": "Called her witch, accused her of causing his father's death, threatened her about going to court, interrogated and said he did not believe she was a witch"
     },
     {
       "name": "daughter-in-law of Jeanne",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter-in-law",
       "context": "Beat servant, had quarrels with Jehenne, beat her small child roughly, pushed Jehenne into room and locked her in"
     },
     {
       "name": "Huguette",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Previously accused Jeanne of witchcraft, described as 'bruslée sorciere' (burned witch), already executed"
     },
     {
       "name": "sister of Demenge Guyet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Came complaining of bad leg asking Jehenne to heal her"
     },
     {
       "name": "curé of Goudance",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Jehenne asked him to secure redress against accusations, he performed exorcisms on possessed people"
     },
     {
       "name": "possessed blind girl with demon called Joly",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Dancing and singing at church, touched Jehenne on shoulder and shook her during Mass"
     },
     {
       "name": "Henry Melnie",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Jean Gontart told him about threats to his mother"
     },
     {
       "name": "Nicolas Lalleman",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Jehenne threatened to leave house and go live with him"
     },
     {
       "name": "Florentin Pernot (Visage d'Ange)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "father of witness 4",
       "context": "Died in 8 days after illness, death attributed to Jehenne"
     },
     {
       "name": "Claude Gontart",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first husband",
       "context": "Died of pleurisy"
     },
     {
       "name": "Mansuy Magnien",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "second husband",
       "context": "Masson et laboureur, died 9 years before trial 'des esprinsons'"

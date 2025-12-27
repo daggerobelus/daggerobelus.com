@@ -1,0 +1,450 @@
+{
+  "trial_id": "w228",
+  "archive_ref": "B 8691 no 17",
+  "location": "St Jean d'Ormont",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "dates": {
+    "start": "1603-07-09",
+    "end": "1603-08-07",
+    "duration_days": 29
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Demenge Leclerc dit Mandray",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "occupation": ["manouvrier"],
+      "origin": "Mandray",
+      "residence": "St Jean d'Ormont",
+      "marital_status": "widowed",
+      "spouse_name": "deceased wife (name not recorded)",
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "sabbat_attended": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolas le Rouyer",
+      "person_id": null,
+      "gender": "male",
+      "location": "St Jean d'Ormont",
+      "relationship_to_accused": "neighbour",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Colas Anthoine",
+      "person_id": null,
+      "gender": "male",
+      "location": "St Jean d'Ormont",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Demenge Jean le Maire",
+      "person_id": null,
+      "gender": "male",
+      "location": "St Jean d'Ormont",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Marchal",
+      "person_id": null,
+      "gender": "male",
+      "location": "St Jean d'Ormont",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Marion veuve Grand Demenge",
+      "person_id": null,
+      "gender": "female",
+      "marital_status": "widowed",
+      "location": "St Jean d'Ormont",
+      "relationship_to_accused": "neighbour (adjoining house)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Cathelon veuve Demenge le Moulat",
+      "person_id": null,
+      "gender": "female",
+      "marital_status": "widowed",
+      "location": "St Jean d'Ormont",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Georgette femme Colin Colas Houllon",
+      "person_id": null,
+      "gender": "female",
+      "marital_status": "married",
+      "location": "St Jean d'Ormont",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1603-07-09",
+      "event": "interrogation",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Initial interrogation about background and accusations"
+    },
+    {
+      "date": "1603-07-10",
+      "event": "confrontation",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Confrontations with witnesses, no progress made, no reproaches offered"
+    },
+    {
+      "date": "1603-07-12",
+      "event": "torture_requested",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Rémy requests torture"
+    },
+    {
+      "date": "1603-07-12",
+      "event": "torture_approved",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1603-07-31",
+      "event": "torture",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Given thumbscrews for quarter hour with great distress, then racked. Denied everything despite threats of continued torture and dismemberment. Also asked about theft and sodomy, denied all."
+    },
+    {
+      "date": "1603-08-01",
+      "event": "torture",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Racked more severely for hour and half, continued to deny everything. Said torments would be meritorious."
+    },
+    {
+      "date": "1603-08-05",
+      "event": "other",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Substitut for PG proposes he be renvoyé (released), Change de Nancy approves"
+    },
+    {
+      "date": "1603-08-07",
+      "event": "sentence",
+      "subject": "Demenge Leclerc dit Mandray",
+      "details": "Released from prison"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "Rémy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "none mentioned"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Marguitte veuve Jacquot Coppel",
+      "accuser_location": "Ayemont",
+      "context": "Named Demenge Leclerc during her trial, executed at Taintrux 12 or 13 years earlier (circa 1590-1591)",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Mengeotte femme Demenge Anthoine",
+      "accuser_location": "Fratteux",
+      "context": "Named Demenge Leclerc during her trial, executed previous year (1602)",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Demenge Leclerc dit Mandray",
+      "french": "lesquelz il estime qu'ilz luy seront meritoires",
+      "english": "which he estimates will be meritorious for him",
+      "context": "Response during second day of torture (1 August 1603), saying his torments would be meritorious, maintaining his innocence"
+    },
+    {
+      "speaker": "Interrogators",
+      "french": "que nous ne le quicterons qu'il ne nous dise la verité ainsy il fera fort bien de la dire avant qu'il soit desmembré et tormenté davantaige",
+      "english": "that we will not release him until he tells us the truth, so he would do well to tell it before he is dismembered and tormented further",
+      "context": "Threat made during torture on 31 July 1603"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Demenge Leclerc dit Mandray",
+      "person2": "deceased son",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "another was dead",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Leclerc dit Mandray",
+      "person2": "living son aged 26",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "he had one son still living, aged 26",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Leclerc dit Mandray",
+      "person2": "deceased wife",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "as was his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Leclerc dit Mandray",
+      "person2": "Nicolas le Rouyer",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "his neighbour Nicolas le Rouyer",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Leclerc dit Mandray",
+      "person2": "Marion veuve Grand Demenge",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "both his house and the adjoining one of Marion had burned down",
+      "inferred": false
+    },
+    {
+      "person1": "Georgette femme Colin Colas Houllon",
+      "person2": "Colin Colas Houllon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Georgette femme Colin Colas Houllon",
+      "inferred": false
+    },
+    {
+      "person1": "Marion veuve Grand Demenge",
+      "person2": "Grand Demenge",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marion veuve Grand Demenge",
+      "inferred": false
+    },
+    {
+      "person1": "Cathelon veuve Demenge le Moulat",
+      "person2": "Demenge le Moulat",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Cathelon veuve Demenge le Moulat",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte veuve Jacquot Coppel",
+      "person2": "Jacquot Coppel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Marguitte veuve Jacquot Coppel",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme Demenge Anthoine",
+      "person2": "Demenge Anthoine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Mengeotte femme Demenge Anthoine",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Accused was a manouvrier (day laborer) since youth, indicating poor economic status. His house burned down accidentally along with his neighbor Marion's adjoining house."
+  },
+  "material_culture": [],
+  "spatial_references": [
+    {
+      "place_name": "St Jean d'Ormont",
+      "place_type": "village",
+      "context": "Primary location of trial, accused's residence since marriage"
+    },
+    {
+      "place_name": "Mandray",
+      "place_type": "village",
+      "context": "Origin of accused's parents, also his dit name"
+    },
+    {
+      "place_name": "Ayemont",
+      "place_type": "village",
+      "context": "Location of prior accuser Marguitte veuve Jacquot Coppel"
+    },
+    {
+      "place_name": "Taintrux",
+      "place_type": "village",
+      "context": "Location where Marguitte was executed 12-13 years earlier"
+    },
+    {
+      "place_name": "Fratteux",
+      "place_type": "village",
+      "context": "Location of prior accuser Mengeotte femme Demenge Anthoine"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["day laborer occupation", "house fire (accidental)"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      },
+      {
+        "name": "substitut for PG",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture on 12 July 1603, then approved release (renvoyé) on 5 August 1603 after accused withstood torture",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 0,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": 13,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all"],
+    "emotional_state_notes": ["sweating profusely", "crying out to God for help during torture"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Marguitte veuve Jacquot Coppel",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "hardly knew her (according to accused)",
+      "context": "Executed witch from Ayemont who named Demenge Leclerc during her trial 12-13 years earlier (circa 1590-1591), executed at Taintrux"
+    },
+    {
+      "name": "Mengeotte femme Demenge Anthoine",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "hardly knew her (according to accused)",
+      "context": "Executed witch from Fratteux who named Demenge Leclerc during her trial, executed previous year (1602)"
+    },
+    {
+      "name": "Jacquot Coppel",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "Deceased husband of Marguitte"
+    },
+    {
+      "name": "Demenge Anthoine",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "Husband of Mengeotte"
+    },
+    {
+      "name": "Grand Demenge",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "Deceased husband of witness Marion"
+    },
+    {
+      "name": "Demenge le Moulat",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "Deceased husband of witness Cathelon"
+    },
+    {
+      "name": "Colin Colas Houllon",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "Husband of witness Georgette"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Unusual case where accused was released after withstanding extensive torture. No witness depositions preserved in document, only references during confrontations indicating at least 25 witnesses. Document notes typical accusations of quarrels followed by illnesses of people and animals, but specific harms not detailed. Accused maintained innocence throughout, even invoking religious language about his torments being 'meritorious'. Document states 'renvoyé' which means released/dismissed.",
+    "pdf_pages": 2
+  }
+}

@@ -3,6 +3,14 @@
   "archive_ref": "B 8667 No 1",
   "location": "Haillieulle",
   "court": "Saint-Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Laurence femme à George Tolbay",
+    "person_id": null,
+    "occupation": null,
+    "location": "Saint Margarée",
+    "relationship_to_accused": "alleged sabbat accomplice (already executed)"
+  },
   "dates": {
     "start": "1592-07-23",
     "end": "1592-08-25",
@@ -12,10 +20,14 @@
   "accused": [
     {
       "name": "Jehenne Stablo",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "age_approximate": true,
-      "occupation": [],
+      "occupation": ["spinning"],
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary", "herbal_remedies"],
       "origin": "Chermat near Langres",
       "residence": "Haillieulle",
       "marital_status": "widowed",
@@ -58,6 +70,7 @@
     {
       "number": 1,
       "name": "Jean Jeandel de La Bolle",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "age_approximate": true,
@@ -95,6 +108,7 @@
     {
       "number": 2,
       "name": "Jehennon femme à Jean Jeandel de La Bolle",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "age_approximate": true,
@@ -130,6 +144,7 @@
     {
       "number": 3,
       "name": "Colas Gagaire de La Bolle",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -147,6 +162,7 @@
     {
       "number": 4,
       "name": "Marguitte femme Jean Anthoine de Haillieulle",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "age_approximate": true,
@@ -171,6 +187,7 @@
     {
       "number": 5,
       "name": "Jean Anthoine de Haillieule",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "age_approximate": true,
@@ -187,6 +204,7 @@
     {
       "number": 6,
       "name": "Claudatte femme à Mengeon Jeandel de Haillieulle",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -204,6 +222,7 @@
     {
       "number": 7,
       "name": "Marguitte veuve de Jean Gamel de Haillieulle",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -222,6 +241,7 @@
     {
       "number": 8,
       "name": "Dieudonnée, veuve de Jean George Noel de Haillieulle",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -245,6 +265,7 @@
     {
       "number": 9,
       "name": "Mathiatte, femme à Colas Demenge Willaume de Heillieulle",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -268,6 +289,7 @@
     {
       "number": 10,
       "name": "Mengeon Jeandel de Haillieulle",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -285,6 +307,7 @@
     {
       "number": 11,
       "name": "Didier Jean Masson de Haillieulle",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -313,6 +336,7 @@
     {
       "number": 12,
       "name": "Colas Demenge Willaume de Haillieulle",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -344,6 +368,7 @@
     {
       "number": 13,
       "name": "Jean Demenge Jeandel de Haillieulle",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -361,6 +386,7 @@
     {
       "number": 14,
       "name": "Colas Demenge le Roy, de Haillieulle",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -377,6 +403,7 @@
     {
       "number": 15,
       "name": "Colas Colin de Haillieulle",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -402,6 +429,7 @@
     {
       "number": 16,
       "name": "Jacot Hocley de La Moictresse des Etiges",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -427,6 +455,7 @@
     {
       "number": 17,
       "name": "Holbin le Jallay des Trois Maisons faulbourg de Saint Dié",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -1197,7 +1226,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Jehenne said she lacked the means to take Anthoine Jacquemin to court for calling her witch",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1268,136 +1302,136 @@
   "third_parties": [
     {
       "name": "Margo Sebille",
-      "role_in_narrative": "other",
+      "person_id": null,
+      "role_in_narrative": "community_member",
       "relationship_to_accused": "none mentioned",
-      "context": "Jehenne claimed Margo Sebille of Sainte Margarée was the one who pushed away dying wife of Jean Jeandel, not herself; Margo had died 4 years before trial",
-      "role_in_narrative": "community_member"
+      "context": "Jehenne claimed Margo Sebille of Sainte Margarée was the one who pushed away dying wife of Jean Jeandel, not herself; Margo had died 4 years before trial"
     },
     {
       "name": "Anthoine Jean Jacquemin",
-      "role_in_narrative": "community_member",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
       "relationship_to_accused": "neighbor/accuser",
-      "context": "Publicly called Jehenne 'sorciere et genoxe' multiple times 8 years before; threatened to prosecute her; now deceased ('late Anthoine Jean Jacquemin')",
-      "role_in_narrative": "prior_accused"
+      "context": "Publicly called Jehenne 'sorciere et genoxe' multiple times 8 years before; threatened to prosecute her; now deceased ('late Anthoine Jean Jacquemin')"
     },
     {
       "name": "Colas Collatte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
-      "context": "Lost an ox and blamed Jehenne so strongly was almost on point of having her arrested, but neighbors dissuaded him saying he would waste his wealth and she might not be convicted",
-      "role_in_narrative": "community_member"
+      "context": "Lost an ox and blamed Jehenne so strongly was almost on point of having her arrested, but neighbors dissuaded him saying he would waste his wealth and she might not be convicted"
     },
     {
       "name": "Jehenne's son (forester)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
-      "context": "Forester in bois de la Magdelaine; called 'fils de genoxe' by Jehennon; had quarrel with Jacot Hocley; wrongly fined Holbin le Jallay and threatened him",
-      "role_in_narrative": "family_member"
+      "context": "Forester in bois de la Magdelaine; called 'fils de genoxe' by Jehennon; had quarrel with Jacot Hocley; wrongly fined Holbin le Jallay and threatened him"
     },
     {
       "name": "Jehenne's daughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
-      "context": "Was with Jehenne when seen coming from mountains after hailstorm",
-      "role_in_narrative": "family_member"
+      "context": "Was with Jehenne when seen coming from mountains after hailstorm"
     },
     {
       "name": "Jeanne la Chaisne, wife of viel prevost",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "employer",
-      "context": "Jehenne confessed under torture to killing her with powder in wine because she didn't pay enough for spinning work",
-      "role_in_narrative": "victim"
+      "context": "Jehenne confessed under torture to killing her with powder in wine because she didn't pay enough for spinning work"
     },
     {
       "name": "Jeanne, wife of tabellion",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "daughter of employer",
-      "context": "Jehenne confessed under torture to killing her with powder in wine; daughter of Jeanne la Chaisne; wife of notary recording the case",
-      "role_in_narrative": "victim"
+      "context": "Jehenne confessed under torture to killing her with powder in wine; daughter of Jeanne la Chaisne; wife of notary recording the case"
     },
     {
       "name": "aunt of Monsieur l'Escollatre",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none mentioned",
-      "context": "Jehenne confessed under torture to giving her powder",
-      "role_in_narrative": "victim"
+      "context": "Jehenne confessed under torture to giving her powder"
     },
     {
       "name": "child from Ban d'Etival",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none mentioned",
-      "context": "Jehenne confessed under torture to killing this unnamed child with powder received at second sabbat",
-      "role_in_narrative": "victim"
+      "context": "Jehenne confessed under torture to killing this unnamed child with powder received at second sabbat"
     },
     {
       "name": "Colas le Bueffre",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first husband (deceased)",
-      "context": "Jehenne's first husband who had previously lived in Ban d'Etival; they lived in L'hoste de bois; she was widowed after three years",
-      "role_in_narrative": "family_member"
+      "context": "Jehenne's first husband who had previously lived in Ban d'Etival; they lived in L'hoste de bois; she was widowed after three years"
     },
     {
       "name": "Stablo",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "second husband (deceased)",
-      "context": "Jehenne's second husband; had been dead for about 13 years at time of trial",
-      "role_in_narrative": "family_member"
+      "context": "Jehenne's second husband; had been dead for about 13 years at time of trial"
     },
     {
       "name": "Perriat Boillat",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
-      "context": "Jehenne's father from village of Chermat near Langres",
-      "role_in_narrative": "family_member"
+      "context": "Jehenne's father from village of Chermat near Langres"
     },
     {
       "name": "Laurence femme à George Tolbay",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice (alleged)",
-      "context": "Already convicted and executed at Saint-Dié before this trial; accused Jehenne of being at sabbat; Jehenne saw her as cook at sabbat (confession); only accomplice Jehenne didn't discharge before execution",
-      "role_in_narrative": "prior_accused"
+      "context": "Already convicted and executed at Saint-Dié before this trial; accused Jehenne of being at sabbat; Jehenne saw her as cook at sabbat (confession); only accomplice Jehenne didn't discharge before execution"
     },
     {
       "name": "le Gros Mathieu",
-      "role_in_narrative": "community_member",
+      "person_id": null,
+      "role_in_narrative": "other",
       "relationship_to_accused": "alleged accomplice",
-      "context": "Allegedly seen at sabbat - described as 'ja viel et ancien'; later discharged by Jehenne",
-      "role_in_narrative": "other"
+      "context": "Allegedly seen at sabbat - described as 'ja viel et ancien'; later discharged by Jehenne"
     },
     {
       "name": "Pierron Dorbey",
-      "role_in_narrative": "community_member",
+      "person_id": null,
+      "role_in_narrative": "other",
       "relationship_to_accused": "alleged accomplice",
-      "context": "From La Bolle; allegedly seen at sabbat; later discharged by Jehenne",
-      "role_in_narrative": "other"
+      "context": "From La Bolle; allegedly seen at sabbat; later discharged by Jehenne"
     },
     {
       "name": "Jean Diez",
-      "role_in_narrative": "community_member",
+      "person_id": null,
+      "role_in_narrative": "other",
       "relationship_to_accused": "alleged accomplice",
-      "context": "From La Bolle; allegedly seen at sabbat; later discharged by Jehenne",
-      "role_in_narrative": "other"
+      "context": "From La Bolle; allegedly seen at sabbat; later discharged by Jehenne"
     },
     {
       "name": "Claudatte Michiel",
-      "role_in_narrative": "community_member",
+      "person_id": null,
+      "role_in_narrative": "other",
       "relationship_to_accused": "alleged accomplice",
-      "context": "From viel marché; allegedly seen at sabbat; later discharged by Jehenne",
-      "role_in_narrative": "other"
+      "context": "From viel marché; allegedly seen at sabbat; later discharged by Jehenne"
     },
     {
       "name": "man from St. Margarée or Ramomeix",
-      "role_in_narrative": "community_member",
+      "person_id": null,
+      "role_in_narrative": "other",
       "relationship_to_accused": "alleged accomplice",
-      "context": "Allegedly seen at sabbat; later discharged by Jehenne",
-      "role_in_narrative": "other"
+      "context": "Allegedly seen at sabbat; later discharged by Jehenne"
     },
     {
       "name": "Colas Gagaire's late wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "confidante",
-      "context": "Jehenne confided to her 8 years before that she was thinking of leaving because of threat of prosecution",
-      "role_in_narrative": "community_member"
+      "context": "Jehenne confided to her 8 years before that she was thinking of leaving because of threat of prosecution"
     }
   ],
   "extraction_metadata": {

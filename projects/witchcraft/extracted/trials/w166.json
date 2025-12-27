@@ -1,0 +1,1395 @@
+{
+  "trial_id": "w166",
+  "archive_ref": "B 8677 no 12",
+  "location": "St Blaise",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jehenne femme Demenge le Maire",
+    "person_id": null,
+    "location": "la Chapelle",
+    "relationship_to_accused": "unknown"
+  },
+  "dates": {
+    "start": "1596-11-25",
+    "end": "1596-12-13",
+    "duration_days": 18
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Mongeatte veuve Jacques de la Woeuvre",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "veterinary", "midwifery"],
+      "age": 54,
+      "age_approximate": true,
+      "occupation": ["midwife", "healer"],
+      "origin": "la Neufville-les-Raon",
+      "residence": "St Blaise",
+      "marital_status": "widowed",
+      "spouse_name": "Jacques de la Woeuvre",
+      "parents": {
+        "father": "Jean Petit",
+        "mother": "Anthoinette Petit"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Parsin",
+        "devil_appearance": "seemed like a gentleman",
+        "seduction_date": "7 years before trial",
+        "seduction_context": "on way to Raon",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder for harm", "white powder for healing"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "eating tripes de boeuf with white or black bread", "beat water to make rain which prevented haymaking"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudon Biberat",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 1
+      }
+    },
+    {
+      "number": 2,
+      "name": "Fleurence femme du precedent",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "St Blaise",
+      "relationship_to_accused": "wife of Claudon Biberat",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jean Bresson",
+      "person_id": null,
+      "gender": "male",
+      "age": 24,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 4,
+      "name": "Valentin Jean Andreu",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 5,
+      "name": "Demenge le Clerc",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "payment of her son for looking after village animals",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "same time"
+          },
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Barbe veuve Jean Curien",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Noelle femme Adrian le Parmentier",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "6 years earlier when guarding animals"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Janne femme Claudon Curien",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Thoussainct Chappelle",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 10,
+      "name": "Nicolas Clerc",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "6 years earlier when it was her turn to drive them into fields"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "5 years earlier after she remarked they were eating well"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jean de la Woeuvre",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Idoult Jean Martin",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudon Piernille",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 14,
+      "name": "Claudon Curien",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 15,
+      "name": "Adrian Idoult Jean Martin",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "how he kept the village animals",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "5 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jean Hanry",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jacquat Adam",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jennon veuve Colas Bresson",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jennon veuve Colas Lallemand",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null
+      }
+    },
+    {
+      "number": 20,
+      "name": "Georgeatte femme Valentin Chapelle",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null
+      }
+    },
+    {
+      "number": 21,
+      "name": "Babillon femme Hanry Jean Hanry",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null
+      }
+    },
+    {
+      "number": 22,
+      "name": "Claudatte femme Nicolas le Clerc",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "did not go to work for her as promised",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "2 cows",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "3 years earlier"
+          },
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "witness herself",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "current year, lasted 2 months"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Catherine femme Mongeon de la Woeuvre",
+      "person_id": null,
+      "gender": "female",
+      "age": 28,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 24,
+      "name": "Babillon femme Jean Bresson",
+      "person_id": null,
+      "gender": "female",
+      "age": 17,
+      "location": "St Blaise",
+      "relationship_to_accused": "daughter of Mongeon Bourald",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Mongeon Bourald",
+            "target_relationship": "father",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "6 or 7 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Sebille femme Idoult le Parmentier",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 26,
+      "name": "Claudatte fille Jacquat Adam",
+      "person_id": null,
+      "gender": "female",
+      "age": 18,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6
+      }
+    },
+    {
+      "number": 27,
+      "name": "Marion fille Jean Hanry",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 28,
+      "name": "Valentin Chapelle",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7
+      }
+    },
+    {
+      "number": 29,
+      "name": "Jennon femme François de Veze",
+      "person_id": null,
+      "gender": "female",
+      "age": 43,
+      "location": "Moyenmoutier",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    },
+    {
+      "number": 30,
+      "name": "Domp Jean de Triollier",
+      "person_id": null,
+      "gender": "male",
+      "age": 52,
+      "occupation": "prieur de Moyenmoutier",
+      "location": "Moyenmoutier",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+            "time_after_quarrel": "4 years earlier, same day after she touched its back"
+          }
+        ]
+      }
+    },
+    {
+      "number": 31,
+      "name": "Claudatte femme Colas Valtin",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "location": "Moyenmoutier",
+      "testimony": {
+        "reputation_mentioned": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1596-11-25",
+      "event": "informations_preparatoires",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Witnesses 1-10 testify"
+    },
+    {
+      "date": "1596-11-26",
+      "event": "informations_preparatoires",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Witnesses 12-31 testify"
+    },
+    {
+      "date": "1596-11-25",
+      "event": "interrogation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "First interrogation, denies all charges"
+    },
+    {
+      "date": "1596-11-26",
+      "event": "interrogation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Continued interrogation, denies all charges"
+    },
+    {
+      "date": "1596-11-28",
+      "event": "confrontation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "No results, denied all charges"
+    },
+    {
+      "date": "1596-11-28",
+      "event": "torture_requested",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Procureur requests question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1596-11-30",
+      "event": "torture_approved",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Change de Nancy approves with moderation suitable to her age"
+    },
+    {
+      "date": "1596-12-04",
+      "event": "confrontation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Confronted with Jehenne femme Demenge le maire who maintained accusation of seeing her at sabbat"
+    },
+    {
+      "date": "1596-12-05",
+      "event": "torture",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Interrogation under torture, confessed when given thumbscrews"
+    },
+    {
+      "date": "1596-12-05",
+      "event": "interrogation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Confirmed confessions later same day"
+    },
+    {
+      "date": "1596-12-06",
+      "event": "interrogation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Confirmed confessions again"
+    },
+    {
+      "date": "1596-12-08",
+      "event": "death_requested",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1596-12-10",
+      "event": "death_approved",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Change de Nancy approves subject to reaffirmation of confessions without threat of torture"
+    },
+    {
+      "date": "1596-12-12",
+      "event": "interrogation",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Confirmed earlier confessions were true; trial read out in presence of inhabitants of ban"
+    },
+    {
+      "date": "1596-12-13",
+      "event": "execution",
+      "subject": "Mongeatte veuve Jacques de la Woeuvre",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews"],
+    "requesting_official": "procureur",
+    "approving_court": "Change de Nancy",
+    "restrictions": "with moderation suitable to her age"
+  },
+  "accomplices_named": [
+    {
+      "name": "Claudatte Noixatte, veuve Chrestaille",
+      "location": "St Blaise",
+      "context": "Named as present at sabbat, but later discharged",
+      "already_executed": false
+    },
+    {
+      "name": "Claudatte femme Claudon de St Remy",
+      "location": "ban d'Etival",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Barbeline la Bertrichaude veuve Richard Colas des Mailles",
+      "location": "Raon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jehenne Rocte femme Micquel Marchal",
+      "location": "faulbourg de Raon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Zabel femme Jean Paticier",
+      "location": "Raon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Nicolle Brandecq femme Jean Gerardin",
+      "location": "la Neufville-les-Raon",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Claudatte veuve Chrestaille",
+      "location": "St Blaise",
+      "context": "Warned her 6 years earlier they were accused of causing death of Mongeon Bourald",
+      "already_executed": false
+    },
+    {
+      "name": "Jennon veuve Colas Bresson",
+      "location": "St Blaise",
+      "context": "Accused with her of causing death of Mongeon Bourald",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Mongeon Bourald",
+      "accuser_location": "St Blaise",
+      "context": "Devin identified her as cause of his death 6 or 7 years before trial",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Jenon Noisatte",
+      "accuser_location": "St Blaise",
+      "context": "Called her witch 2 years earlier, saying her pig was going to die",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Mongeon Bourald (dying man)",
+      "french": "que c'estoient toutes genaxes qui estoient alentour de luy",
+      "context": "During his illness, said witches were all around him"
+    },
+    {
+      "speaker": "Mongeatte",
+      "french": "qu'elle estoit peu fine, qu'elle ne pouvoit se venger a cause qu'elle ne pensoit aux affaires, mesme qu'elle estoit bien nette",
+      "context": "When asked why she did not seek legal reparation for being called witch"
+    },
+    {
+      "speaker": "Mongeatte",
+      "french": "Mongeatte voila ung devin au logis dudit Bourald, lequel dict que demain la premiere femme qui entrera du matin en chez eulx que que c'est celle que luy at eu donné sa maladie",
+      "context": "Husband told her what the devin said about first woman to enter house"
+    },
+    {
+      "speaker": "Mongeatte (explaining toad ritual)",
+      "french": "bestes je te leve au nom du pere et du fils et du St esprit",
+      "context": "Prayer said when picking up toads for veterinary purposes"
+    },
+    {
+      "speaker": "Jean Huat (vagabond healer)",
+      "french": "et que le venin et poison attire l'autre",
+      "context": "Teaching her about using toads to draw out parasites/poison from animals"
+    },
+    {
+      "speaker": "Jean Huat",
+      "french": "aussy tost la poison attire l'autre et regarder combien il vindroit",
+      "context": "Instructions for hanging toad under animals"
+    },
+    {
+      "speaker": "Idoult Jean Martin (witness)",
+      "french": "presume qu'elle estoit empeschée de l'ennemy sy elle est telle",
+      "context": "About the host incident at Easter - presumed she was impeded by the devil if she was a witch"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Mongeatte veuve Jacques de la Woeuvre",
+      "person2": "Jacques de la Woeuvre",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Mongeatte veuve Jacques de la Woeuvre",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte veuve Jacques de la Woeuvre",
+      "person2": "Jean Petit",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Jean and Anthoinette Petit",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte veuve Jacques de la Woeuvre",
+      "person2": "Anthoinette Petit",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Jean and Anthoinette Petit",
+      "inferred": false
+    },
+    {
+      "person1": "Fleurence",
+      "person2": "Claudon Biberat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Fleurence femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Janne",
+      "person2": "Claudon Curien",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Janne femme Claudon Curien",
+      "inferred": false
+    },
+    {
+      "person1": "Noelle",
+      "person2": "Adrian le Parmentier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Noelle femme Adrian le Parmentier",
+      "inferred": false
+    },
+    {
+      "person1": "Georgeatte",
+      "person2": "Valentin Chapelle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Georgeatte femme Valentin Chapelle",
+      "inferred": false
+    },
+    {
+      "person1": "Babillon",
+      "person2": "Hanry Jean Hanry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Babillon femme Hanry Jean Hanry",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte",
+      "person2": "Nicolas le Clerc",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme Nicolas le Clerc",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Mongeon de la Woeuvre",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Mongeon de la Woeuvre",
+      "inferred": false
+    },
+    {
+      "person1": "Babillon femme Jean Bresson",
+      "person2": "Mongeon Bourald",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "During illness of her father Mongeon Bourald",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille",
+      "person2": "Idoult le Parmentier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Sebille femme Idoult le Parmentier",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte fille Jacquat Adam",
+      "person2": "Jacquat Adam",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte fille Jacquat Adam",
+      "inferred": false
+    },
+    {
+      "person1": "Marion fille Jean Hanry",
+      "person2": "Jean Hanry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marion fille Jean Hanry",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon",
+      "person2": "François de Veze",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme François de Veze",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte",
+      "person2": "Colas Valtin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme Colas Valtin",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte veuve Jacques de la Woeuvre",
+      "person2": "Mongeon Bourald",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "nearest neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Colas Bresson",
+      "person2": "Colas Bresson",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve Colas Bresson",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Colas Lallemand",
+      "person2": "Colas Lallemand",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve Colas Lallemand",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe veuve Jean Curien",
+      "person2": "Jean Curien",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Barbe veuve Jean Curien",
+      "inferred": false
+    },
+    {
+      "person1": "Jacques de la Woeuvre",
+      "person2": "brother of Jacques",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "husband sold some land to his brother",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoinette (daughter)",
+      "person2": "Mongeatte veuve Jacques de la Woeuvre",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Anthoinette daughter of accused (now married)",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Dispute over payment of accused's son for looking after village animals. Dispute over land sale by husband to his brother (accused was angry). Accused was village midwife and healer for animals. Her role as keeper of village animals on rotation created multiple conflicts."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "Demenge le Clerc's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "loss of cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "dispute over payment of her son for looking after village animals",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "calf",
+      "victim_relationship_to_witness": "Demenge le Clerc's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "loss of calf; she told chambermaid they were wasting their time searching for it",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "time_between_quarrel_and_harm": "3 years earlier",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "Noelle femme Adrian le Parmentier's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "death of cow when guarding animals of village",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "time_between_quarrel_and_harm": "6 years earlier",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Mongeon Bourald",
+      "victim_relationship_to_witness": "neighbor",
+      "harm_category": "human_death",
+      "harm_description": "death; devin identified her as cause; he was all swollen",
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "time_between_quarrel_and_harm": "6 or 7 years earlier",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "Nicolas Clerc's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "loss of horse when it was her turn to drive them into fields",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "time_between_quarrel_and_harm": "6 years earlier",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "Nicolas Clerc's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "loss of ox after she remarked they were eating well",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "she remarked they were eating well",
+      "time_between_quarrel_and_harm": "5 years earlier",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "Adrian Idoult Jean Martin's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "loss of cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "always complaining about how he kept the village animals",
+      "time_between_quarrel_and_harm": "5 years earlier",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "2 cows",
+      "victim_relationship_to_witness": "Claudatte femme Nicolas le Clerc's own animals",
+      "harm_category": "animal_illness",
+      "harm_description": "2 cows lost milk",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "did not go to work for her as promised",
+      "time_between_quarrel_and_harm": "3 years earlier",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Claudatte femme Nicolas le Clerc",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "serious illness which lasted 2 months",
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "time_between_quarrel_and_harm": "current year",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "Domp Jean de Triollier's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "death of horse same day after she met him, admired the horse, and touched its back",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "method_alleged": "touch",
+      "time_between_quarrel_and_harm": "same day",
+      "witness_number": 30
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "prior's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "killed horse of prior (confessed under torture)",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "he was hostile to her and doubted witches",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "Adrian le Parmentier's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "killed cow (confessed under torture)",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "cow had hurt one of her own",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "calf",
+      "victim_relationship_to_witness": "Mongeon le Clerc's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "killed calf (confessed under torture)",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "would not help her husband with carting",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "child",
+      "victim_relationship_to_witness": "Nicolas le Clerc's child",
+      "harm_category": "human_death",
+      "harm_description": "killed child (confessed under torture)",
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "dispute because she did not assist his wife as midwife",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "Jean Chapelle's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "killed cow (confessed under torture)",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "assigned a horse she had kept back to the soldiers",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Jehenne femme Mongeon Noixatte",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_illness",
+      "harm_description": "made ill because she gave her a bad name (confessed under torture); then felt sorry and cured her with white powder in soup",
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "precipitating_quarrel": "gave her a bad name",
+      "method_alleged": "powder, then cured with white powder"
+    },
+    {
+      "victim_name": "haymaking",
+      "harm_category": "weather_event",
+      "harm_description": "made rain which prevented haymaking by beating water at sabbat",
+      "attributed_to": "Mongeatte veuve Jacques de la Woeuvre",
+      "method_alleged": "sabbat magic - beat water to make rain"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "toad",
+      "context": "Used to draw parasites/vermin from animals; hung beneath animals for 5 days or more",
+      "category": "magical"
+    },
+    {
+      "object": "bottle with holy water",
+      "context": "Found in field, she said contained holy water",
+      "category": "religious"
+    },
+    {
+      "object": "Good Friday egg",
+      "context": "Behind fireplace for protection from fire",
+      "category": "magical"
+    },
+    {
+      "object": "wax",
+      "context": "Behind fireplace for protection from fire",
+      "category": "magical"
+    },
+    {
+      "object": "holy water",
+      "context": "Behind fireplace for protection from fire",
+      "category": "religious"
+    },
+    {
+      "object": "holy bread",
+      "context": "Behind fireplace for protection from fire",
+      "category": "religious"
+    },
+    {
+      "object": "candles of St Curien",
+      "context": "Placed in field at Easter to prevent vermin attacking crops",
+      "category": "religious"
+    },
+    {
+      "object": "potat (pot)",
+      "context": "Found in field containing water, small candles, 'des pampies et du jolis bois'",
+      "category": "magical"
+    },
+    {
+      "object": "scarf",
+      "context": "Used to catch toad",
+      "category": "clothing"
+    },
+    {
+      "object": "pot",
+      "context": "Used to carry toad away",
+      "category": "household"
+    },
+    {
+      "object": "oak leaves",
+      "context": "Given as money by devil Parsin (confessed under torture)",
+      "category": "magical"
+    },
+    {
+      "object": "powder",
+      "context": "Black powder to harm men and animals; white powder to heal (confessed under torture)",
+      "category": "magical"
+    },
+    {
+      "object": "black hen",
+      "context": "Pact to give devil black hen every year to be exempt from sabbat",
+      "category": "agricultural"
+    },
+    {
+      "object": "tripes de boeuf",
+      "context": "Eaten at sabbat with white or black bread",
+      "category": "food"
+    },
+    {
+      "object": "white or black bread",
+      "context": "Eaten at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "wine",
+      "context": "Given by priest when she had difficulty taking host",
+      "category": "food"
+    },
+    {
+      "object": "host",
+      "context": "Had difficulties taking at Easter communion",
+      "category": "religious"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "St Blaise",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "la Chapelle",
+      "place_type": "village",
+      "context": "Location of formal accuser"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Where accused went at night to brother-in-law's house; where some accomplices lived"
+    },
+    {
+      "place_name": "la Neufville-les-Raon",
+      "place_type": "village",
+      "context": "Place of origin/birth of accused"
+    },
+    {
+      "place_name": "Moyenmoutier",
+      "place_type": "village",
+      "context": "Location of church where host incident occurred; residence of prior and some witnesses"
+    },
+    {
+      "place_name": "ban d'Etival",
+      "place_type": "village",
+      "context": "Location of one accomplice"
+    },
+    {
+      "place_name": "faulbourg de Raon",
+      "place_type": "village",
+      "context": "Suburb of Raon where accomplice lived"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Where animals were kept; where bottles and pots with magical items were found"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Soldiers threw away the toads 2 years earlier; Jean Chapelle assigned a horse she had kept back to the soldiers",
+    "weather_events": ["rain which prevented haymaking"],
+    "economic_hardship_indicators": [],
+    "religious_calendar_references": ["Easter", "Good Friday"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Domp Jean de Triollier",
+        "role": "other",
+        "location": "Moyenmoutier"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": "She said she was 'peu fine' (not clever), could not take revenge because she did not think about such affairs, and that she was innocent",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture with moderation suitable to her age; approved death sentence subject to reaffirmation of confessions without threat of torture",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 20,
+    "hearsay_testimony_count": 11,
+    "hearsay_chains": [
+      {
+        "reporter": "Barbe veuve Jean Curien",
+        "source": "sister-in-law of accused",
+        "content": "When husband sold property to his brother she was very angry, went alone at night to their house at Raon"
+      },
+      {
+        "reporter": "Jennon femme François de Veze",
+        "source": "Mongeon Bourald's widow",
+        "content": "Accused was cause of husband's death, 2 devins identified her"
+      },
+      {
+        "reporter": "Babillon femme Jean Bresson",
+        "source": "Anthoinette daughter of accused",
+        "content": "How witches attacked babies in cradles and dug up bodies to make powder"
+      }
+    ],
+    "oldest_accusation_years": 7,
+    "corroboration_groups": [
+      [7, 12, 13, 14, 17, 24, 29, 30, 31],
+      [3, 7, 16, 19, 23, 26],
+      [6, 12, 19]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "natural_explanations"],
+    "emotional_state_notes": ["continued to deny all charges during confrontations"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Mongeon Bourald",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "nearest neighbor",
+      "context": "Died 6-7 years before trial; devin identified accused as cause of death"
+    },
+    {
+      "name": "Thoussainct (devin)",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Cunning person/diviner who identified accused as cause of Mongeon Bourald's illness"
+    },
+    {
+      "name": "Jean Huat",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "taught her veterinary remedies",
+      "context": "Vagabond who begged in her house 6-7 years earlier and taught her to use toads for treating animals; had been with the 'sarracins'"
+    },
+    {
+      "name": "Nicolas Lallemant",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "His wife was doing day work with witness when they saw toad incident"
+    },
+    {
+      "name": "Jenon Noisatte",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Called accused witch 2 years earlier, saying her pig was going to die; later deceased"
+    },
+    {
+      "name": "Colas Noisatte",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "His widow was accused with Mongeatte of causing death of Bourald"
+    },
+    {
+      "name": "Anthoinette (daughter of accused)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Now married; told witness about how witches attack babies"
+    },
+    {
+      "name": "son of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "context": "Paid for looking after village animals; dispute over payment"
+    },
+    {
+      "name": "brother of Jacques de la Woeuvre",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law",
+      "context": "Bought land from husband; accused was very angry about this sale"
+    },
+    {
+      "name": "chambermaid",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Searching for lost calf with Demenge le Clerc; accused told her they were wasting time"
+    },
+    {
+      "name": "priest of Moyenmoutier",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "context": "Gave wine to accused when she had difficulty taking host at Easter"
+    },
+    {
+      "name": "widow of Mongeon Bourald",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Said accused was cause of husband's death"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial shows extensive witness testimony about veterinary healing practices with toads; accused was village midwife and healer. Multiple animal deaths over 6-7 year period. Central incident involves devin (cunning person) identifying accused as cause of neighbor's death. Confession obtained under torture (thumbscrews). Change de Nancy consulted twice - approved torture with age-appropriate moderation, then approved death sentence conditional on reaffirmation without torture threat. Executed after reaffirming confessions.",
+    "pdf_pages": 7
+  }
+}

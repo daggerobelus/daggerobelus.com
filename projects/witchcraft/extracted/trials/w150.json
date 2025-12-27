@@ -3,6 +3,14 @@
   "archive_ref": "B 8669 no 3",
   "location": "St Dié",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Mengeatte femme Jean Thierry dit l'Allemand (l'hospitaliere)",
+    "person_id": null,
+    "occupation": "hospitaliere",
+    "location": "St Dié",
+    "relationship_to_accused": "unknown - prior accuser"
+  },
   "dates": {
     "start": "1593-08-12",
     "end": "1593-10-10",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Barbeline femme Claude Wanesson",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "charms_amulets"],
       "occupation": ["chartier's wife"],
       "origin": "St Lyenard",
       "residence": "St Dié",
@@ -54,6 +66,7 @@
     {
       "number": 1,
       "name": "Nicolas Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "bourgeois",
@@ -69,6 +82,7 @@
     {
       "number": 2,
       "name": "Joseph Bouray",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "mre masson, bourgeois",
@@ -97,6 +111,7 @@
     {
       "number": 3,
       "name": "Nicolas Paticier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "bourgeois",
@@ -112,6 +127,7 @@
     {
       "number": 4,
       "name": "Jean le Rouyer",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "bourgeois",
@@ -140,6 +156,7 @@
     {
       "number": 5,
       "name": "René le Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "bourgeois",
@@ -157,6 +174,7 @@
     {
       "number": 6,
       "name": "Jehennon veuve Colas Henriot",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "St Dié",
@@ -173,6 +191,7 @@
     {
       "number": 7,
       "name": "Plaisance femme Toussainct Charpentier",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "location": "St Dié",
@@ -199,6 +218,7 @@
     {
       "number": 8,
       "name": "Jean Wagnaire",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "bourgeois",
@@ -215,6 +235,7 @@
     {
       "number": 9,
       "name": "Jacotte femme Nicolas Paticier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "St Dié",
@@ -231,6 +252,7 @@
     {
       "number": 10,
       "name": "Collatte fille Colas Chaisne de Ste Margarée",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "location": "Ste Margarée",
@@ -264,6 +286,7 @@
     {
       "number": 11,
       "name": "Hidoult Cognolle",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": "bourgeois",
@@ -297,6 +320,7 @@
     {
       "number": 12,
       "name": "Claudatte veuve Georgeon Rasaille",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "St Dié",
@@ -329,6 +353,7 @@
     {
       "number": 13,
       "name": "Claudatte femme Lyenard Taincturier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "bourgeois's wife",
@@ -353,6 +378,7 @@
     {
       "number": 14,
       "name": "Bastien Marande",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "fournier au four banal du chapitre",
@@ -379,6 +405,7 @@
     {
       "number": 15,
       "name": "Colas le Viel de Saincte Helaine",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "occupation": "jeune fils mulnier à St Dié",
@@ -1111,7 +1138,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Could not seek reparation from Jehennon veuve Colas Henriot for calling her witch because she had no witnesses",
     "imprisonment_conditions": "Died from cold and other privations caused by long imprisonment (59 days total, about 2 months)",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture on 20 August 1593 (ordinaire et extraordinaire). On 31 August 1593, ordered new interrogation without executioner present due to concerns torture was repeated too often. On 16 September 1593, approved torture again but 'avec mediocrité' (with moderation). Death sentence confirmed 1 October 1593.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1147,84 +1179,99 @@
   "third_parties": [
     {
       "name": "Claude Wanesson",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "Chartier (carter); carted stones for Joseph Bouray; exchanged horse with Jean le Rouyer; took legal action regarding defamation"
     },
     {
       "name": "mother-in-law of Jean le Rouyer",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "mother-in-law",
       "context": "Remembered his suspicions and made soup with items from accused's house"
     },
     {
       "name": "daughter of Plaisance",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "daughter",
       "context": "Drove away accused's sow, called her witch, then became ill and vomited strange stone"
     },
     {
       "name": "servant of Jean Hardancourt",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Helped get counter-magic substances from accused's house"
     },
     {
       "name": "Jean Hardancourt",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Employer of servant who helped with counter-magic"
     },
     {
       "name": "grand doyen Fournier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "employer of Collatte",
       "context": "Employed Collatte; his horse allegedly killed by accused under devil's compulsion"
     },
     {
       "name": "child aged 4 of Hidoult Cognolle",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's child",
       "context": "Lost voice for 10 weeks"
     },
     {
       "name": "wife of Hidoult Cognolle",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "context": "Lost milk for 2 weeks"
     },
     {
       "name": "son of Claudatte veuve Georgeon Rasaille",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "son",
       "context": "Became ill along with mother after pig sale dispute"
     },
     {
       "name": "la grosse Bietrix, femme Jean l'Hoste",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Made ill by accused after dispute over keeping of goats (confession)"
     },
     {
       "name": "Jean l'Hoste",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim",
       "context": "Husband of la grosse Bietrix"
     },
     {
       "name": "le peu Bourrat (wife of Colas Babon)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Only person accused recognized at sabbat"
     },
     {
       "name": "Colas Babon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Husband of Dion who was named as accomplice"
     },
     {
       "name": "apothecary",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Called in to check body for poison after death in prison; concluded she died from cold and privations"
     },
     {
       "name": "husband of l'hospitaliere",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Accused said l'hospitaliere's accusation was made because her husband had tried to obtain post of hospitalier"
     }

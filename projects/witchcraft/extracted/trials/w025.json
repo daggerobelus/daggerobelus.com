@@ -3,6 +3,14 @@
   "archive_ref": "B 3323 no 1",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur fiscal of Comté de Blamont",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Blamont",
+    "relationship_to_accused": "state official"
+  },
   "dates": {
     "start": "1601-10-12",
     "end": "1602-02-18",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Jeannotte veuve Claudon Toussaint",
+      "person_id": null,
       "gender": "female",
       "age": 80,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary", "herbal_remedies"],
       "occupation": ["healer (folk)", "herbalist"],
       "origin": "Rey",
       "residence": "Leintrey",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Margueritte veuve Demenge Jacquemin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Catherine femme Demenge Mengin Claude",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -100,6 +114,7 @@
     {
       "number": 3,
       "name": "Nicolas Chartier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -129,6 +144,7 @@
     {
       "number": 4,
       "name": "Germain Claudin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -158,6 +174,7 @@
     {
       "number": 5,
       "name": "Didier Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -187,6 +204,7 @@
     {
       "number": 6,
       "name": "Thiebault Jean Thiebault",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": null,
@@ -216,6 +234,7 @@
     {
       "number": 7,
       "name": "Demenge Colbay",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "occupation": "tax collector",
@@ -237,6 +256,7 @@
     {
       "number": 8,
       "name": "Jean Persin jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -266,6 +286,7 @@
     {
       "number": 9,
       "name": "Demenge Marchal jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": null,
@@ -295,6 +316,7 @@
     {
       "number": 10,
       "name": "Jean Grand Colas",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "occupation": null,
@@ -316,6 +338,7 @@
     {
       "number": 11,
       "name": "Nicolas Mongenot alias marchal",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "blacksmith",
@@ -337,6 +360,7 @@
     {
       "number": 12,
       "name": "Margueritte femme Nicolas Simon",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -366,6 +390,7 @@
     {
       "number": 13,
       "name": "Zabel femme Jean Mongeot",
+      "person_id": null,
       "gender": "female",
       "age": 37,
       "occupation": null,
@@ -387,6 +412,7 @@
     {
       "number": 14,
       "name": "Meline femme Anthoine Marlier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -416,6 +442,7 @@
     {
       "number": 15,
       "name": "Zabel veuve Vaultrin Jobard",
+      "person_id": null,
       "gender": "female",
       "age": 80,
       "occupation": null,
@@ -452,6 +479,7 @@
     {
       "number": 16,
       "name": "Claude Martin",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": null,
@@ -481,6 +509,7 @@
     {
       "number": 17,
       "name": "Jean Claudon Claude",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -502,6 +531,7 @@
     {
       "number": 18,
       "name": "Demenge Martin",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": null,
@@ -531,6 +561,7 @@
     {
       "number": 19,
       "name": "Demenge Jobard",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -552,6 +583,7 @@
     {
       "number": 20,
       "name": "Zabel femme Demenge Grand Colas (dit le Parmentier)",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -581,6 +613,7 @@
     {
       "number": 21,
       "name": "Demenge Le Grand Colas (alias Parmentier)",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "parmentier (cloth maker)",
@@ -610,6 +643,7 @@
     {
       "number": 22,
       "name": "Thoussainct Thirion",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": null,
@@ -646,6 +680,7 @@
     {
       "number": 23,
       "name": "Bietrix femme à Thoussainct Thirion",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -675,6 +710,7 @@
     {
       "number": 24,
       "name": "Estienne Counot",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "occupation": null,
@@ -711,6 +747,7 @@
     {
       "number": 25,
       "name": "Mengin Godot",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -732,6 +769,7 @@
     {
       "number": 26,
       "name": "Jennon femme à Colas Jean Mongeot",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -1767,7 +1805,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Won case against Claudon with reconciliation and 2 franc payment, but he died shortly after",
     "imprisonment_conditions": "Devil/incubus visited her in prison; brought from prison multiple times for interrogation",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1872,6 +1915,7 @@
   "third_parties": [
     {
       "name": "Margueritte veuve Demenge Vaultrin (la Jobarde)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -1879,6 +1923,7 @@
     },
     {
       "name": "wife of Henry Jacquemin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -1886,6 +1931,7 @@
     },
     {
       "name": "Colas Toussaint",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1893,6 +1939,7 @@
     },
     {
       "name": "Claudon Toussaint (deceased husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "relationship_to_witness": null,
@@ -1900,6 +1947,7 @@
     },
     {
       "name": "Margueritte femme Demenge Brouard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1907,6 +1955,7 @@
     },
     {
       "name": "Colas Martin (deceased)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "father of witness 16",
@@ -1914,6 +1963,7 @@
     },
     {
       "name": "Zabey femme Demenge le Grand Colas",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "mentioned by witness 14, victim of witness 20/21",
@@ -1921,6 +1971,7 @@
     },
     {
       "name": "Allison",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 26",
@@ -1928,6 +1979,7 @@
     },
     {
       "name": "Demenge Mesoillin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "first husband of mother of witness 4",
@@ -1935,6 +1987,7 @@
     },
     {
       "name": "Claudon son of Demenge Jacquenin (both deceased)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "mentioned by witness 24",
@@ -1942,6 +1995,7 @@
     },
     {
       "name": "Didier Breton (deceased)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "father-in-law of witness 24",
@@ -1949,6 +2003,7 @@
     },
     {
       "name": "Jean and Margueritte Cugin (both deceased)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1956,6 +2011,7 @@
     },
     {
       "name": "le petit Mengin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1963,6 +2019,7 @@
     },
     {
       "name": "Henri George",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1970,6 +2027,7 @@
     },
     {
       "name": "Thirion Florentin (deceased)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "related by marriage",
       "relationship_to_witness": "father of witness 22",
@@ -1977,6 +2035,7 @@
     },
     {
       "name": "Vaultrin Jobard (deceased)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "related by marriage",
       "relationship_to_witness": "husband of witness 15",
@@ -1984,6 +2043,7 @@
     },
     {
       "name": "Jean Bon Claude",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1991,6 +2051,7 @@
     },
     {
       "name": "Sebille femme Jean Pierson",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1998,6 +2059,7 @@
     },
     {
       "name": "Jean Mongeot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2005,6 +2067,7 @@
     },
     {
       "name": "Colas (seven-year-old son)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness 20",
@@ -2012,6 +2075,7 @@
     },
     {
       "name": "daughter (14 years old)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 20",
@@ -2019,6 +2083,7 @@
     },
     {
       "name": "granddaughter of Jeannotte's son Claudon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "granddaughter",
       "relationship_to_witness": null,
@@ -2026,6 +2091,7 @@
     },
     {
       "name": "Thoussainct Claude Toussaint",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -2033,6 +2099,7 @@
     },
     {
       "name": "servant from Allemagne",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employee",
       "relationship_to_witness": null,
@@ -2040,6 +2107,7 @@
     },
     {
       "name": "vicaire (of local church)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2047,6 +2115,7 @@
     },
     {
       "name": "curé of Embermesnil",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2054,6 +2123,7 @@
     },
     {
       "name": "Chapelain Hanneze",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "relationship_to_witness": null,
@@ -2061,6 +2131,7 @@
     },
     {
       "name": "Claudon du Chattel",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "relationship_to_witness": null,
@@ -2068,6 +2139,7 @@
     },
     {
       "name": "Jan Mulnier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "relationship_to_witness": null,
@@ -2075,6 +2147,7 @@
     },
     {
       "name": "Didier George",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "relationship_to_witness": null,
@@ -2082,6 +2155,7 @@
     },
     {
       "name": "mistress at Bozache gagnage",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "relationship_to_witness": null,

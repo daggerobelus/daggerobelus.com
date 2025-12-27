@@ -1,0 +1,1465 @@
+{
+  "trial_id": "w208",
+  "archive_ref": "B 8687 no 10",
+  "location": "Brehimont",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
+  "dates": {
+    "start": "1600-12-12",
+    "end": "1601-01-02",
+    "duration_days": 22
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Mengeon Claude Perrin",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "age": 60,
+      "age_approximate": true,
+      "occupation": ["laboureur", "margulier"],
+      "origin": null,
+      "residence": "Brehimont",
+      "marital_status": "unknown",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "devil_appearance": "big man in a long coat of green",
+        "seduction_date": "15 years earlier",
+        "seduction_context": "while putting up a fence",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "feasting", "hailmaking"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Grand Didier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "laboureur",
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Demengeon Claude Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": null,
+      "occupation": "laboureur",
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "enclosure of common land and dead animal burial site",
+        "threat_received": true,
+        "threat_quote": "le regarda des yeulx de travers avec grinçements de dentz",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine mare",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "within a few days"
+          },
+          {
+            "type": "animal_illness",
+            "target": "horses",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "for next year"
+          },
+          {
+            "type": "animal_illness",
+            "target": "calves",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "previous year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Colas Claude Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": "laboureur",
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "taking cartload of hay through meadow",
+        "threat_received": true,
+        "threat_quote": "que s'il le tuoit dieu luy auroit faict une belle grace d'estre ainsy tué",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "a few days later"
+          },
+          {
+            "type": "human_illness",
+            "target": "Colas Claude Girard",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "2 or 3 days later"
+          },
+          {
+            "type": "human_illness",
+            "target": "wife of Colas Claude Girard",
+            "target_relationship": "spouse",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "a few days later"
+          },
+          {
+            "type": "animal_injury",
+            "target": "horse belonging to maire Michiel",
+            "target_relationship": "maire's animal",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "same day"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Catherine femme Jean Thierion le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Halbix femme Demenge Colas Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Didielle femme Colas Claude Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband's quarrel with accused",
+        "threat_received": true,
+        "threat_quote": "she would not die so soon",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Didielle femme Colas Claude Girard",
+            "target_relationship": "self",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "a few days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Marguitte femme Jean Laurent",
+      "person_id": null,
+      "gender": "female",
+      "age": 46,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Marguitte femme Didier Seigaire",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 13,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "animals got into accused's meadow",
+        "threat_received": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "Estiennatte femme Colas Ferry",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Catherine femme Jean Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 11,
+      "name": "Peccatte femme Demengeon Claude Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "making place for young animals - accused wanted to rent the field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calves",
+            "target_relationship": "husband's animals",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "after quarrel"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Dieudonné Jean Thierion",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "father's pig",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "same day after being in front of Perrin's house"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Marguitte femme Jean Thierion le vieux",
+      "person_id": null,
+      "gender": "female",
+      "age": 70,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 18,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "they bought a meadow he wanted",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine mare",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "a few days later"
+          },
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "after returning from his porch"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jean Laurent",
+      "person_id": null,
+      "gender": "male",
+      "age": 49,
+      "occupation": "laboureur",
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claudon Jean Perrin",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "daughter accused Perrin of taking pears",
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jean Grand Michiel Ratonge",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Perrin",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over castration price",
+        "threat_received": true,
+        "threat_quote": "he would take them to the devil to be done rather than pay so much",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jean fils Jean Thierion le vieux",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Demenge Colas Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to go work for him",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "several animals",
+            "target_relationship": "witness's own",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "after threat"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Jean Symon",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "Colas Mariatte",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "Sauceray",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 23,
+      "name": "Jennon fille Claudon Jean Perrin",
+      "person_id": null,
+      "gender": "female",
+      "age": 14,
+      "occupation": null,
+      "location": null,
+      "relationship_to_accused": "neighbor's daughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused him of taking pears",
+        "threat_received": true,
+        "threat_quote": "ribaulde et trompiere, this time he would have her",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 24,
+      "name": "Mengeon Galdrimey",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "La Salle",
+      "relationship_to_accused": null,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "marriage broken off because Perrin was son of witch",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Mengeon Galdrimey",
+            "target_relationship": "spouse",
+            "attributed_to": "Mengeon Claude Perrin",
+            "time_after_quarrel": "immediately after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1600-12-12",
+      "event": "informations_preparatoires",
+      "subject": "Mengeon Claude Perrin",
+      "details": "24 witnesses testified"
+    },
+    {
+      "date": "1600-12-13",
+      "event": "interrogation",
+      "subject": "Mengeon Claude Perrin",
+      "details": "Initial interrogation and confrontations with witnesses"
+    },
+    {
+      "date": "1600-12-15",
+      "event": "torture_approved",
+      "subject": "Mengeon Claude Perrin",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1600-12-18",
+      "event": "torture",
+      "subject": "Mengeon Claude Perrin",
+      "details": "Thumbscrews, rack, tortillons - confessed under torture"
+    },
+    {
+      "date": "1600-12-19",
+      "event": "interrogation",
+      "subject": "Mengeon Claude Perrin",
+      "details": "Repeated earlier confessions"
+    },
+    {
+      "date": "1600-12-29",
+      "event": "other",
+      "subject": "Mengeon Claude Perrin",
+      "details": "Repeated confessions, handed over by inhabitants to duke for sentence"
+    },
+    {
+      "date": "1601-01-02",
+      "event": "sentence",
+      "subject": "Mengeon Claude Perrin",
+      "details": "Death sentence from Change de Nancy"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack", "tortillons"],
+    "requesting_official": null,
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean Grand Didier alias Remeguey",
+      "location": "la Vacherie",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Henriat Mathieu",
+      "location": "la Bourgonce",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Jean Perrin",
+      "location": "le Mesnil",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Mariatte veuve Curien Willaume",
+      "location": "Sauceray",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Jean Gerard l'Huillier",
+      "location": "la Bourgonce",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "la Tabouratte",
+      "location": "Nompatelize",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Gelyat",
+      "location": null,
+      "context": "greatest master at sabats, directed hail including great hailstorm 6-7 years back",
+      "already_executed": true
+    },
+    {
+      "name": "Mathieu Claude",
+      "location": null,
+      "context": "greatest master at sabats, directed hail including great hailstorm 6-7 years back",
+      "already_executed": true
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Barbeline veuve Demenge Mareschal",
+      "accuser_location": "Sauceray",
+      "context": "told witnesses Perrin had been to the devil more than 7 times and still went",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Marion",
+      "accuser_location": "Sauceray",
+      "context": "accused him before execution; he had asked her not to accuse him if arrested, promising wheat and care for her children",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Jean Thierion",
+      "accuser_location": null,
+      "context": "Perrin asked witness 18 to see father at execution to beg him not to accuse anyone wrongly",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Mengeon Claude Perrin",
+      "french": "le regarda des yeulx de travers avec grinçements de dentz",
+      "context": "Reaction when confronted about enclosing common land"
+    },
+    {
+      "speaker": "Mengeon Claude Perrin",
+      "french": "que s'il le tuoit dieu luy auroit faict une belle grace d'estre ainsy tué",
+      "context": "To Colas Claude Girard after quarrel over hay cartload"
+    },
+    {
+      "speaker": "Colas Claude Girard",
+      "french": "que c'estoit faict de luy, et qu'il estoit perdu",
+      "context": "When covered with 'petittes boutteilles comme du feu vollage' after quarrel"
+    },
+    {
+      "speaker": "Didielle femme Colas Claude Girard",
+      "french": "meschant sorcier",
+      "context": "Called Perrin wicked sorcerer and complained he made her languish"
+    },
+    {
+      "speaker": "Mengeon Claude Perrin",
+      "french": "sy elle pensoit qu'il donne du mal a des personnes, et que c'estoit une sotte",
+      "context": "Reply when accused by Mengeon Galdrimey's wife of bewitching"
+    },
+    {
+      "speaker": "Mengeon Claude Perrin",
+      "french": "qu'il avoit donc bien heu de la chair pour manger",
+      "context": "Laughing response when Jean Thierion confronted him about killing animals"
+    },
+    {
+      "speaker": "Mengeon Claude Perrin",
+      "french": "qu'il sera prins a bricquet parce que ne nous vouldrons contanter de cela, ains luy ferons dire encore autres choses, et vault mieulx qu'il se taise",
+      "context": "During initial interrogation when beginning to confess about devil Persin"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Demengeon Claude Girard",
+      "person2": "Peccatte femme Demengeon Claude Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness 2 and witness 11",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Claude Girard",
+      "person2": "Didielle femme Colas Claude Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness 3 and witness 6",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Colas Girard",
+      "person2": "Halbix femme Demenge Colas Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness 19 and witness 5",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le jeune",
+      "person2": "Catherine femme Jean Thierion le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "witness 4",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Laurent",
+      "person2": "Marguitte femme Jean Laurent",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness 14 and witness 7",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Seigaire",
+      "person2": "Marguitte femme Didier Seigaire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "witness 8",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Ferry",
+      "person2": "Estiennatte femme Colas Ferry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "witness 9",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Girard",
+      "person2": "Catherine femme Jean Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness 20 and witness 10",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "Marguitte femme Jean Thierion le vieux",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "witness 13",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "Jean fils Jean Thierion le vieux",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Jean fils Jean Thierion le vieux",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Thierion le vieux",
+      "person2": "Dieudonné Jean Thierion",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "he had sold a pig to his father",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Jean Perrin",
+      "person2": "Jennon fille Claudon Jean Perrin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon fille Claudon Jean Perrin",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Galdrimey",
+      "person2": "wife of Mengeon Galdrimey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "witness 24 testimony",
+      "inferred": false
+    },
+    {
+      "person1": "Halbix femme Demenge Colas Girard",
+      "person2": "sister already executed",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "sister already executed",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Claude Perrin",
+      "person2": "sister from La Chapelle",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "sister from La Chapelle executed a few years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Didier Seigaire",
+      "person2": "Barbeline",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her daughter Barbeline",
+      "inferred": false
+    },
+    {
+      "person1": "mother of Demengeon Claude Girard",
+      "person2": "Demengeon Claude Girard",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "mother also suspected",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Colas Girard",
+      "person2": "Colas Claude Girard",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "in presence of Demenge Colas Girard and his wife",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Demengeon Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "fine mare killed in strange fashion",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "spoke up about Perrin enclosing common land and dead animal burial place",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Demengeon Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "horses became unmanageable when harnessed, had various accidents and injuries on road",
+      "animal_type": "horse",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "took him to court for encroaching on field, obtained judgement against him",
+      "time_between_quarrel_and_harm": "for next year",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Demengeon Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "some went lame and even died",
+      "animal_type": "calf",
+      "animal_count": 12,
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "Perrin raised objections to enclosed field for young animals",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Colas Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "cow died strangely",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "Perrin prevented him taking cartload of hay through meadow, they had fight, Perrin told him he would repent",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "children of Colas Claude Girard",
+      "victim_relationship_to_witness": "children",
+      "harm_category": "other",
+      "harm_description": "wolf appeared and tried to attack children - witness believed it was Perrin transformed",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "quarrel when passed through meadow, Perrin threatened him, wishing he might be buried in field",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "transformation into wolf",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "maire Michiel",
+      "victim_relationship_to_witness": "mayor",
+      "harm_category": "animal_injury",
+      "harm_description": "horse broke its leg in stable",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "Perrin wished devil had carried off animals of maire Michiel and that Michiel was buried there",
+      "time_between_quarrel_and_harm": "immediately after these threats",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Colas Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "whole body covered with 'petittes boutteilles comme du feu vollage', in great pain",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "quarrel as they left church",
+      "time_between_quarrel_and_harm": "2 or 3 days later",
+      "method_alleged": "cured by holy water",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "wife of Colas Claude Girard",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill in different fashion, languished for some 15 weeks",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "quarrel as they left church",
+      "time_between_quarrel_and_harm": "a few days later after husband's illness",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Didielle femme Colas Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "something like wind surrounded her, fell down, felt strangled, pain in feet extending to much of body, ill for 2 years",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "husband quarrelled with him, he said husband would repent",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Barbeline",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "other",
+      "harm_description": "hare passed in front of them several times then vanished, saw Perrin with spade - frightened, trembling all night thinking she saw Perrin and hare",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "animals got into accused's meadow, he chased them out with threats",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "transformation into hare",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "pig belonging to Jean Thierion le vieux",
+      "victim_relationship_to_witness": "father's pig",
+      "harm_category": "animal_death",
+      "harm_description": "bewitched after being in front of Perrin's house, died same day",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Claude Perrin",
+      "time_between_quarrel_and_harm": "a week after sold to father",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Peccatte femme Demengeon Claude Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "losses of calves",
+      "animal_type": "calf",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "Perrin angry about their making place for young animals - he wanted to rent field himself",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Jean Thierion le vieux and Marguitte",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost a fine mare",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "very angry when they bought a meadow he wanted",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Marguitte femme Jean Thierion le vieux",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "pig died after returning home from his porch",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "very angry after hearing she prevented his marriage to widow of Ydoulx Grand Didier",
+      "time_between_quarrel_and_harm": "after pig got into his porch",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Jennon fille Claudon Jean Perrin",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "other",
+      "harm_description": "Perrin transformed into wolf and chased her, frightened for 2 days",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "she accused him of taking pears from tree",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "put hand to ground and took form of wolf",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Jennon fille Claudon Jean Perrin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "other",
+      "harm_description": "transformed into guise of wolf and chased her on four legs, troubled for 2 days",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "reported seeing him taking pears",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "transformation into wolf",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Demenge Colas Girard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost several animals",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "refused to go work some days for him, he said witness would repent",
+      "time_between_quarrel_and_harm": "after threat",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "wife of Mengeon Galdrimey",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_death",
+      "harm_description": "became very ill, remained so for 2 years, died maintaining he had bewitched her",
+      "attributed_to": "Mengeon Claude Perrin",
+      "precipitating_quarrel": "marriage broken off because Perrin's son was son of a witch",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 24
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "holy water",
+      "context": "wife of Colas Claude Girard used holy water to cure husband's illness",
+      "category": "religious"
+    },
+    {
+      "object": "oak leaves",
+      "context": "devil's money turned out to be oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "black powder",
+      "context": "given by devil, used to kill pig and horse",
+      "category": "magical"
+    },
+    {
+      "object": "grease",
+      "context": "given by master to transform into wolf",
+      "category": "magical"
+    },
+    {
+      "object": "chicken",
+      "context": "gave annual chicken to devil not to have to go to sabbat more often",
+      "category": "food"
+    },
+    {
+      "object": "100 francs",
+      "context": "offered to seigneur d'Etival for release",
+      "category": "money"
+    },
+    {
+      "object": "wheat",
+      "context": "promised to Marion not to accuse him",
+      "category": "food"
+    },
+    {
+      "object": "cartload of hay",
+      "context": "Colas Claude Girard tried to take through Perrin's meadow",
+      "category": "agricultural"
+    },
+    {
+      "object": "spade",
+      "context": "Perrin seen with spade on shoulders after hare incident",
+      "category": "tools"
+    },
+    {
+      "object": "bells",
+      "context": "ringing bells was protection against hail",
+      "category": "religious"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Brehimont",
+      "place_type": "village",
+      "context": "residence of accused"
+    },
+    {
+      "place_name": "Sauceray",
+      "place_type": "village",
+      "context": "location of some witnesses and prior accusers"
+    },
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "church and location of la Tabouratte"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "place of execution for other witches"
+    },
+    {
+      "place_name": "La Chapelle",
+      "place_type": "village",
+      "context": "where Perrin's sister was from"
+    },
+    {
+      "place_name": "La Salle",
+      "place_type": "village",
+      "context": "residence of Mengeon Galdrimey"
+    },
+    {
+      "place_name": "l'Hoste du Bois",
+      "place_type": "village",
+      "context": "location mentioned in testimony"
+    },
+    {
+      "place_name": "la Vacherie",
+      "place_type": "village",
+      "context": "location of Jean Grand Didier alias Remeguey and widow of Ydoulx Grand Didier"
+    },
+    {
+      "place_name": "la Bourgonce",
+      "place_type": "village",
+      "context": "location of Henriat Mathieu and wife of Jean Gerard l'Huillier"
+    },
+    {
+      "place_name": "le Mesnil",
+      "place_type": "village",
+      "context": "location of wife of Jean Perrin"
+    },
+    {
+      "place_name": "Grandviller",
+      "place_type": "village",
+      "context": "origin of man who charged for castrating bullocks"
+    },
+    {
+      "place_name": "St Michiel",
+      "place_type": "church",
+      "context": "parish where Perrin had been margulier 25 years earlier"
+    },
+    {
+      "place_name": "common land",
+      "place_type": "field",
+      "context": "Perrin enclosed common land including dead animal burial place"
+    },
+    {
+      "place_name": "meadow",
+      "place_type": "field",
+      "context": "various quarrels over meadow access and ownership"
+    },
+    {
+      "place_name": "market at St Dié",
+      "place_type": "market",
+      "context": "women returning from market encountered Barbeline veuve Demenge Mareschal"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "great hailstorm some 6 or 7 years back directed by Jean Gelyat and Mathieu Claude at sabbat"
+    ],
+    "animal_predation": [
+      "wolf appeared and tried to attack children of Colas Claude Girard"
+    ],
+    "economic_hardship_indicators": [],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Demengeon Claude Girard took Perrin to court 12 years earlier for encroaching on a field, obtained judgement against him",
+        "outcome": "judgement against Perrin"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Dieudonné Jean Thierion",
+        "source": "mother (Marguitte femme Jean Thierion le vieux)",
+        "content": "pig was bewitched after being in front of Perrin's house"
+      },
+      {
+        "reporter": "Didielle femme Colas Claude Girard",
+        "source": "Mengeon Galdrimey of l'Hoste du Bois",
+        "content": "his wife had been strangely ill at same time, he accused Perrin of bewitching her and the witness"
+      },
+      {
+        "reporter": "Marguitte femme Jean Thierion le vieux",
+        "source": "Barbeline veuve Demenge Mareschal",
+        "content": "Perrin had been to the devil more than 7 times and still went"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [2, 11],
+      [3, 6],
+      [15, 23]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "appeared astonished when Jean Thierion testified he laughed about dead animals",
+      "tried to negotiate 100 francs for release",
+      "afraid confession would harm children and lead to property confiscation",
+      "said he had already talked too much and they wanted to surprise him"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jean fils feu Demenge Arnoulx",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "from Sauceray, confronted with accused 13 January 1600, maintained accusations"
+    },
+    {
+      "name": "Barbeline veuve Demenge Mareschal",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "from Sauceray, later executed as witch, told witnesses Perrin had been to devil more than 7 times"
+    },
+    {
+      "name": "Marion",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "from Sauceray, executed at St Dié, had accused Perrin; he had asked her not to accuse him, promising wheat and care for children"
+    },
+    {
+      "name": "mother of Demengeon Claude Girard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "mother of witness 2",
+      "context": "also suspected of witchcraft"
+    },
+    {
+      "name": "sister of Mengeon Claude Perrin from La Chapelle",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "sister",
+      "relationship_to_witness": null,
+      "context": "executed a few years earlier, reputation of accused increased since her execution"
+    },
+    {
+      "name": "sister of Halbix femme Demenge Colas Girard",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "sister of witness 5",
+      "context": "already executed"
+    },
+    {
+      "name": "maire Michiel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "mayor",
+      "context": "horse broke leg after Perrin wished devil would carry off his animals"
+    },
+    {
+      "name": "widow of Ydoulx Grand Didier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "of la Vacherie, Perrin wanted to marry her, Marguitte femme Jean Thierion le vieux allegedly prevented marriage"
+    },
+    {
+      "name": "Mr d'Etival",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "seigneur, Perrin offered 100 francs for release through him"
+    },
+    {
+      "name": "Barbeline",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "daughter of witness 8",
+      "context": "daughter of Marguitte femme Didier Seigaire, frightened by hare/Perrin incident"
+    },
+    {
+      "name": "daughter of Claudon Jean Perrin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "daughter of witness 15",
+      "context": "was guarding animals with Barbeline when hare incident occurred"
+    },
+    {
+      "name": "Colas Curien Ferry",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Perrin confessed to killing his cow"
+    },
+    {
+      "name": "wife of Mengeon Galdrimey",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "spouse of witness 24",
+      "context": "became ill and died after Perrin's son's marriage proposal broken off, maintained he bewitched her"
+    },
+    {
+      "name": "son of Mengeon Claude Perrin",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": null,
+      "context": "asked for sister of Mengeon Galdrimey in marriage, broken off because he was son of witch"
+    },
+    {
+      "name": "sister of Mengeon Galdrimey",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "sister of witness 24",
+      "context": "proposed marriage to Perrin's son broken off"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Well-documented trial with detailed witness testimony. Multiple accounts of shapeshifting/transformation into wolf. Strong pattern of quarrels over land use and property disputes followed by alleged harms. Extensive testimony about reputation lasting 10-20 years. Confession obtained under torture.",
+    "pdf_pages": 6
+  }
+}

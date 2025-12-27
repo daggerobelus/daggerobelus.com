@@ -3,6 +3,14 @@
   "archive_ref": "B 3789 no 4",
   "location": "Aidoile",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "George Ferry dit bien-nelot",
+    "person_id": null,
+    "occupation": null,
+    "location": "Aidoile",
+    "relationship_to_accused": "partie civile prosecutor"
+  },
   "dates": {
     "start": "1615-11-17",
     "end": "1615-12-14",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Ysabeau Richard",
+      "person_id": null,
       "gender": "female",
       "age": 65,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing"],
       "occupation": [],
       "origin": "Exeguey, bailliage of Epinal",
       "residence": "Aidoile",
@@ -58,6 +70,7 @@
     {
       "number": 1,
       "name": "Jacat Doron",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -94,6 +107,7 @@
     {
       "number": 2,
       "name": "Anthoine Demenge Anthoine",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -114,6 +128,7 @@
     {
       "number": 3,
       "name": "Georgeon Prevost",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -133,6 +148,7 @@
     {
       "number": 4,
       "name": "Nicolas Guenguez",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "age_approximate": true,
@@ -162,6 +178,7 @@
     {
       "number": 5,
       "name": "Mengeotte femme Nicolas Guenguez",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -189,6 +206,7 @@
     {
       "number": 6,
       "name": "Claudon Ferry",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "age_approximate": true,
@@ -218,6 +236,7 @@
     {
       "number": 7,
       "name": "Mengeon le Duc",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -238,6 +257,7 @@
     {
       "number": 8,
       "name": "Jannon femme Mengeon le Duc",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "age_approximate": true,
@@ -266,6 +286,7 @@
     {
       "number": 9,
       "name": "Demenge Didier Blot",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -294,6 +315,7 @@
     {
       "number": 10,
       "name": "Marie Demenge Jean Priay",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -324,6 +346,7 @@
     {
       "number": 11,
       "name": "Nicolas Anthoine",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -344,6 +367,7 @@
     {
       "number": 12,
       "name": "Laurence femme Nicolas Anthoine",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
@@ -364,6 +388,7 @@
     {
       "number": 13,
       "name": "Jehennon veuve Jean Thiriot",
+      "person_id": null,
       "gender": "female",
       "age": 65,
       "age_approximate": true,
@@ -392,6 +417,7 @@
     {
       "number": 14,
       "name": "Mengeotte femme Jean Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
@@ -411,6 +437,7 @@
     {
       "number": 15,
       "name": "Jannon femme Claudon Masson",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -439,6 +466,7 @@
     {
       "number": 16,
       "name": "Ydatte femme Claudon Andreu",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "age_approximate": true,
@@ -467,6 +495,7 @@
     {
       "number": 17,
       "name": "Bietrix veuve Mengeon Richier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -502,6 +531,7 @@
     {
       "number": 18,
       "name": "Mengeotte fille de Bietrix",
+      "person_id": null,
       "gender": "female",
       "age": 9,
       "age_approximate": false,
@@ -1222,7 +1252,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "sent back to prison with exhortation to think about both malefices and accomplices",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1277,54 +1312,63 @@
   "third_parties": [
     {
       "name": "George Ferry dit bien-nelot",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "partie civile prosecutor",
       "context": "From Aidoile, rendered himself partie civile against Ysabeau 'from zeal for justice'; was arrested along with accused but released on condition he return when asked"
     },
     {
       "name": "Colas Hiey",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first husband",
       "context": "of Exeguey, first marriage"
     },
     {
       "name": "Jean de Cugney",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "second husband",
       "context": "of Aidoile, second marriage"
     },
     {
       "name": "Nicolas Demenge Richard",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "third husband",
       "context": "of Aidoile, died three weeks before trial began"
     },
     {
       "name": "infant child",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "only child",
       "context": "by first marriage, died three days after birth"
     },
     {
       "name": "Vincent Vinot",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "of Exeguey in bailliage of Epinal"
     },
     {
       "name": "Demenge Borion",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim Bietrix (deceased)",
       "context": "late husband of Bietrix who refused to loan Ysabeau a horse"
     },
     {
       "name": "servant of Jacat Doron",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "context": "taking grain to mill when Ysabeau made remark"
     },
     {
       "name": "Mongeotte Grounisse",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "shared house with witness 9",
@@ -1332,6 +1376,7 @@
     },
     {
       "name": "mother-in-law of Jannon femme Mengeon le Duc",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none",
       "relationship_to_witness": "mother-in-law of witness 8",
@@ -1339,36 +1384,42 @@
     },
     {
       "name": "Bastienne wife of Jean Brihey",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "suspected accomplice",
       "context": "of Aidoile, 'fort agée' (very old), 'en bruit d'estre sorciere'; Ysabeau thought she saw her returning from sabbat 3 years before"
     },
     {
       "name": "Marie wife of Demenge",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "suspected accomplice",
       "context": "of Aidoile, about 30 years old, 'en bruit d'estre sorciere'; Ysabeau thought she saw her returning from sabbat 3 years before"
     },
     {
       "name": "Nicolas Vaney",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "context": "of Dompierre, seen by Ysabeau on way from sabbat though not at assembly itself"
     },
     {
       "name": "two witches from Brouvelieures and Docelles",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "context": "had been burned; Ysabeau became somber and pensive when this happened, wearing many clothes, feared same fate"
     },
     {
       "name": "friends living with Ysabeau",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "lived with her",
       "context": "received fish from Claudon Ferry's wife; Ysabeau excluded"
     },
     {
       "name": "mother-in-law of Jannon femme Claudon Masson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "in property dispute",
       "relationship_to_witness": "mother-in-law of witness 15",
@@ -1376,6 +1427,7 @@
     },
     {
       "name": "Claudon Andreu",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "bargained with her",
       "relationship_to_witness": "husband of witness 16",
@@ -1383,6 +1435,7 @@
     },
     {
       "name": "Mengeon Richier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "late husband of witness 17",
@@ -1390,18 +1443,21 @@
     },
     {
       "name": "Jean Brihey",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "context": "of Aidoile, husband of suspected accomplice Bastienne"
     },
     {
       "name": "Demenge (husband of Marie)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "context": "of Aidoile, husband of suspected accomplice Marie"
     },
     {
       "name": "Jean Thiriot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "late husband of witness 13",
@@ -1409,6 +1465,7 @@
     },
     {
       "name": "Jean Villaume",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "husband of witness 14",
@@ -1416,6 +1473,7 @@
     },
     {
       "name": "Claudon Masson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "husband of witness 15",

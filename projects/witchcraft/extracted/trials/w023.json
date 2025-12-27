@@ -3,6 +3,14 @@
   "archive_ref": "B 3317 no 1",
   "location": "Blamont",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur Fiscal of comté de Blamont",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Blamont",
+    "relationship_to_accused": "state prosecutor"
+  },
   "dates": {
     "start": "1599-05-10",
     "end": "1599-07-14",
@@ -12,14 +20,21 @@
   "accused": [
     {
       "name": "Didie veuve Demenge Pourlatte",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
-      "occupation": ["laborer", "domestic worker"],
+      "occupation": [
+        "laborer",
+        "domestic worker"
+      ],
       "origin": "Hallouille",
       "residence": "Blamont",
       "marital_status": "widowed",
       "spouse_name": "Demenge Pourlatte (second husband, deceased)",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Mengin Chanoine",
         "mother": "Jehenne"
@@ -38,10 +53,15 @@
           "location": null,
           "description": null
         },
-        "powder_types": ["black powder"],
+        "powder_types": [
+          "black powder"
+        ],
         "sabbat_attended": true,
         "sabbat_locations": [],
-        "sabbat_activities": ["made fogs to spoil crops", "sabbat disappeared soon after arrival"],
+        "sabbat_activities": [
+          "made fogs to spoil crops",
+          "sabbat disappeared soon after arrival"
+        ],
         "sexual_relations_with_devil": false
       }
     }
@@ -50,6 +70,7 @@
     {
       "number": 0,
       "name": "Philippe son of the late Demenge Tisserand",
+      "person_id": null,
       "gender": "male",
       "age": 19,
       "age_approximate": true,
@@ -80,6 +101,7 @@
     {
       "number": 1,
       "name": "Jean de Nomeny",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "bourgeois",
@@ -101,6 +123,7 @@
     {
       "number": 2,
       "name": "Didon la Sorette le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "occupation": "boulanger bourgeois",
@@ -122,6 +145,7 @@
     {
       "number": 3,
       "name": "Jean Ranarre",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -144,6 +168,7 @@
     {
       "number": 4,
       "name": "Jean du Prey le viel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -166,6 +191,7 @@
     {
       "number": 5,
       "name": "Jean du Prey le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "age_approximate": true,
@@ -188,6 +214,7 @@
     {
       "number": 6,
       "name": "Francois Pelletier le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -210,6 +237,7 @@
     {
       "number": 7,
       "name": "Jean Menusier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "bourgeois",
@@ -231,6 +259,7 @@
     {
       "number": 8,
       "name": "Gaitte femme au sieur Nicolas Gellée",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": "wife of lieutenant du prévôt",
@@ -252,6 +281,7 @@
     {
       "number": 9,
       "name": "Barbelline veuve Remy Boullengier",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "age_approximate": true,
@@ -282,6 +312,7 @@
     {
       "number": 10,
       "name": "Claudine femme Jean Cunelier",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "age_approximate": true,
@@ -312,6 +343,7 @@
     {
       "number": 11,
       "name": "Marion femme Claudon Valleton",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -334,6 +366,7 @@
     {
       "number": 12,
       "name": "Claudatte femme Didier Mengin",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "age_approximate": true,
@@ -364,6 +397,7 @@
     {
       "number": 13,
       "name": "Magdelaine femme Ambroise Caba",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "age_approximate": true,
@@ -386,6 +420,7 @@
     {
       "number": 14,
       "name": "Claudon Mongin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -416,6 +451,7 @@
     {
       "number": 15,
       "name": "Jeanne femme Claudon Mengin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -437,6 +473,7 @@
     {
       "number": 16,
       "name": "Barbe femme Jean Duprey le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "occupation": null,
@@ -458,6 +495,7 @@
     {
       "number": 17,
       "name": "Jean Duprey charpentier",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "age_approximate": true,
@@ -480,6 +518,7 @@
     {
       "number": 18,
       "name": "Mre. René le Cerf",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "chirurgien bourgeois",
@@ -501,6 +540,7 @@
     {
       "number": 19,
       "name": "Sabillon femme Didier de Dompierre",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "age_approximate": true,
@@ -523,6 +563,7 @@
     {
       "number": 21,
       "name": "Bernarde veuve Jean Coustellier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -553,6 +594,7 @@
     {
       "number": 22,
       "name": "Sebille Cloutier veuve Colas Bourdaine",
+      "person_id": null,
       "gender": "female",
       "age": 42,
       "age_approximate": true,
@@ -575,6 +617,7 @@
     {
       "number": 23,
       "name": "Barbelline femme Jean Bouchat",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "age_approximate": true,
@@ -597,6 +640,7 @@
     {
       "number": 24,
       "name": "Jean Mongenat",
+      "person_id": null,
       "gender": "male",
       "age": 78,
       "age_approximate": true,
@@ -619,6 +663,7 @@
     {
       "number": 25,
       "name": "Dieudonnée Nicolas Thiebault",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
@@ -641,6 +686,7 @@
     {
       "number": 26,
       "name": "Didier de Dompierre",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -663,6 +709,7 @@
     {
       "number": 27,
       "name": "Marie femme Francois Rouyer",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "age_approximate": true,
@@ -685,6 +732,7 @@
     {
       "number": 28,
       "name": "Claudatte femme Jean Pinadel",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -707,6 +755,7 @@
     {
       "number": 29,
       "name": "Sebille veuve Jean Mercier",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -833,7 +882,10 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["threat of torture", "actual torture (methods not specified in detail)"],
+    "methods": [
+      "threat of torture",
+      "actual torture (methods not specified in detail)"
+    ],
     "requesting_official": "Procureur Fiscal of comté de Blamont",
     "approving_court": "Change de Nancy",
     "restrictions": "Initially ordered only to threaten with torture (June 2). Full torture approved June 11"
@@ -1466,7 +1518,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Initially modified local request: on June 2 ordered only to threaten with torture rather than apply it immediately. On June 11 approved full torture. On June 16 approved death sentence.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1511,9 +1568,24 @@
     ],
     "oldest_accusation_years": null,
     "corroboration_groups": [
-      [1, 2, 3, 4, 5, 6],
-      [9, 10, 12, 13],
-      [21, 24]
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      [
+        9,
+        10,
+        12,
+        13
+      ],
+      [
+        21,
+        24
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1550,6 +1622,7 @@
   "third_parties": [
     {
       "name": "Demenge Pourlatte (second husband)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "deceased spouse",
       "relationship_to_witness": "reported by multiple witnesses",
@@ -1557,6 +1630,7 @@
     },
     {
       "name": "Demenge le Lorrain (first husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first husband, deceased",
       "relationship_to_witness": null,
@@ -1564,6 +1638,7 @@
     },
     {
       "name": "Demenge Chanoine (brother)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": null,
@@ -1571,6 +1646,7 @@
     },
     {
       "name": "Didier Saulnier (son)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1578,6 +1654,7 @@
     },
     {
       "name": "Clemence (daughter)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1585,6 +1662,7 @@
     },
     {
       "name": "Didie (sister-in-law)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sister-in-law, also named Didie",
       "relationship_to_witness": null,
@@ -1592,6 +1670,7 @@
     },
     {
       "name": "Didie de Counay",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sister-in-law, wife of brother Demenge Chanoine",
       "relationship_to_witness": null,
@@ -1599,6 +1678,7 @@
     },
     {
       "name": "Mother of Didie Pourlatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1606,6 +1686,7 @@
     },
     {
       "name": "Bernarde veuve Jean Coustellier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother-in-law (of second husband)",
       "relationship_to_witness": null,
@@ -1613,6 +1694,7 @@
     },
     {
       "name": "Mre. Nicolle, curé d'Amenoncourt",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "landlord",
       "relationship_to_witness": null,
@@ -1620,6 +1702,7 @@
     },
     {
       "name": "Jeanne la Menchotte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "mother of daughter-in-law",
       "relationship_to_witness": null,
@@ -1627,6 +1710,7 @@
     },
     {
       "name": "widow of Didier Virtemberg",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1634,6 +1718,7 @@
     },
     {
       "name": "man from Blamont with 'pied fort'",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1641,6 +1726,7 @@
     },
     {
       "name": "Jennon femme au Gros Didier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1648,6 +1734,7 @@
     },
     {
       "name": "chaplain of Baccarat",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "former employer of Bernarde",
@@ -1655,6 +1742,7 @@
     },
     {
       "name": "sergent (guard)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "prison guard",
       "relationship_to_witness": null,
@@ -1662,6 +1750,7 @@
     },
     {
       "name": "governor",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1669,6 +1758,7 @@
     },
     {
       "name": "brother of Bernarde",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother of witness 21",
@@ -1676,6 +1766,7 @@
     },
     {
       "name": "child of Didie (burned in fire)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "child",
       "relationship_to_witness": null,

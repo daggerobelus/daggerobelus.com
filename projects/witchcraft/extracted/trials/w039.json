@@ -3,6 +3,8 @@
   "archive_ref": "B 3327 no 3",
   "location": "Reillon",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1604-04-01",
     "end": "1604-05-06",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Margueritte Francois",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "other"],
       "occupation": [],
       "origin": "Veho",
       "residence": "Reillon",
@@ -65,6 +71,7 @@
     {
       "number": 1,
       "name": "Dieudegnon Claude",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -95,6 +102,7 @@
     {
       "number": 2,
       "name": "Zabey femme a Dieudegnon Claude",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "age_approximate": true,
@@ -125,6 +133,7 @@
     {
       "number": 3,
       "name": "Jean du Bois",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "age_approximate": false,
@@ -155,6 +164,7 @@
     {
       "number": 4,
       "name": "Jean Vaultrin le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "age_approximate": false,
@@ -185,6 +195,7 @@
     {
       "number": 5,
       "name": "Zabey femme Jean du Bois",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "age_approximate": true,
@@ -215,6 +226,7 @@
     {
       "number": 6,
       "name": "Bastien Mariatte",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -252,6 +264,7 @@
     {
       "number": 7,
       "name": "Jean Febuay",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -282,6 +295,7 @@
     {
       "number": 8,
       "name": "Vaultrin Henry Colas",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "age_approximate": true,
@@ -312,6 +326,7 @@
     {
       "number": 9,
       "name": "Hellenix femme Dieudonné Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 68,
       "age_approximate": false,
@@ -349,6 +364,7 @@
     {
       "number": 10,
       "name": "Claude Dieudegnon, maire de Reillon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -393,6 +409,7 @@
     {
       "number": 11,
       "name": "Zabey femme a Claude Dieudegnon",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -415,6 +432,7 @@
     {
       "number": 12,
       "name": "Claudatte veuve de Demenge le Banc",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": false,
@@ -1234,7 +1252,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Shaven and had clothes changed after torture on presumption of 'pacte taciturne'",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1279,6 +1302,7 @@
   "third_parties": [
     {
       "name": "Jehenne",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": "employed by Jean Febuay, considered for employment by Jean du Bois and brother-in-law Aubertin",
@@ -1286,6 +1310,7 @@
     },
     {
       "name": "Zabey (daughter of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": "was guarding horses when struck by Claude Dieudegnon's horse",
@@ -1293,6 +1318,7 @@
     },
     {
       "name": "Son of Margueritte (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": "beat Bastien Mariatte's son; was struck by Bastien",
@@ -1300,6 +1326,7 @@
     },
     {
       "name": "Aubertin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "brother-in-law of Jean du Bois",
@@ -1307,6 +1334,7 @@
     },
     {
       "name": "Nicolas Hachon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "killed her husband",
       "relationship_to_witness": "none",
@@ -1314,6 +1342,7 @@
     },
     {
       "name": "Demenge marchal",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "procureur she sought for legal assistance",
       "relationship_to_witness": "none",
@@ -1321,6 +1350,7 @@
     },
     {
       "name": "Francois Gerard",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father (deceased)",
       "relationship_to_witness": "none",
@@ -1328,6 +1358,7 @@
     },
     {
       "name": "Allison Thomas",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother (deceased)",
       "relationship_to_witness": "none",
@@ -1335,6 +1366,7 @@
     },
     {
       "name": "Dieudonné du Banc",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "late husband",
       "relationship_to_witness": "none",
@@ -1342,6 +1374,7 @@
     },
     {
       "name": "servant of Hellenix",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "called her daughter a thief",
       "relationship_to_witness": "servant of witness 9",
@@ -1349,6 +1382,7 @@
     },
     {
       "name": "sister of Claude Dieudegnon (unnamed)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none",
       "relationship_to_witness": "sister of witness 10",
@@ -1356,6 +1390,7 @@
     },
     {
       "name": "religious man from Italy",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "none",
@@ -1363,6 +1398,7 @@
     },
     {
       "name": "new woman in Reillon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "mentioned by accused",
       "relationship_to_witness": "none",
@@ -1370,6 +1406,7 @@
     },
     {
       "name": "Demenge le Banc",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "possibly brother of late husband",
       "relationship_to_witness": "deceased husband of witness 12",
@@ -1377,6 +1414,7 @@
     },
     {
       "name": "Zabey (daughter of Claudatte)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "daughter of witness 12",
@@ -1384,6 +1422,7 @@
     },
     {
       "name": "boys who interrupted assault",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "saved Claude Dieudegnon's sister",

@@ -1,0 +1,1111 @@
+{
+  "trial_id": "w272",
+  "archive_ref": "B 8712 no 1",
+  "location": "Pajaille",
+  "court": "Court of the Abbé d'Etival",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Catherine veuve Jean Grand George",
+    "person_id": null,
+    "occupation": "widow",
+    "location": "Pajaille",
+    "relationship_to_accused": "neighbor"
+  },
+  "dates": {
+    "start": "1614-03-08",
+    "end": "1614-03-24",
+    "duration_days": 16
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Callerey",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 30,
+      "age_approximate": true,
+      "occupation": ["carpenter"],
+      "origin": "Saint Die",
+      "residence": "Pajaille",
+      "marital_status": "married",
+      "spouse_name": "woman from Pajaille (name not recorded)",
+      "parents": {
+        "father": "executed as witch at Saint Die",
+        "mother": "executed as witch at Saint Die"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "maitre Houbelat",
+        "devil_appearance": "big man dressed in black",
+        "seduction_date": "about 6 months after marriage (approximately 1608-1609)",
+        "seduction_context": "in woods of Ramberviller where he was working, suffering from poverty and hunger; devil offered him money if he would give himself to him",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder to kill", "red powder to make ill", "white powder to cure"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["location not specified"],
+        "sabbat_activities": ["dancing back-to-back", "making hail (which he objected to)", "eating tasteless meat", "transforming into wolves"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Pierre Chappon",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolas Bandesapt",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "roof tiles blown by wind in front of Jean's house which his wife picked up",
+        "threat_received": true,
+        "threat_quote": "qu'il luy feroit despendre son bien sans qu'il se donne de garde",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Nicolas Bandesapt (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jennon femme Jean de Sombois",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "location": "l'Hermitage des Dames",
+      "relationship_to_accused": "neighbor since residence",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Grand George",
+            "target_relationship": "heard secondhand",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "not specified"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Marguitte femme Vincent Bandesapt",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witnessed scene between Nicolas Bandesapt and Jean",
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jennon femme a Colas Bandesapt",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean de Sombois",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "l'Hermitage des Dames",
+      "relationship_to_accused": "neighbor since residence",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Grand George",
+            "target_relationship": "heard from victim",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "two days after expressed fear, died in 6 days total"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Catherine veuve Jean Grand George",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "damage pigs had done to Jean's fields",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Grand George (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "felt illness Sunday morning, died next Friday"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Estienne Henry",
+      "person_id": null,
+      "gender": "male",
+      "age": 22,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witnessed Jean complaining about Claudon Mongeay giving him difficult wood to work with",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Claudon Mongeay",
+            "target_relationship": "wife of wood supplier",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claudatte femme a Claudon Ferry",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Le Mesnil",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Thieriot Barbonnille",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": "carpenter",
+      "location": "Le Mesnil",
+      "relationship_to_accused": "work colleague",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over money Jean demanded for work done together",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "young cow",
+            "target_relationship": "own animal",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mengeon Jean Claudon",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": "paistre of bestes rouges for Le Mesnil and Pajaille",
+      "location": "Le Mesnil",
+      "relationship_to_accused": "service relationship",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean's old cow got lost in woods before Jean arrived to accompany it",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "cow under his care",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Segaire",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Nicolas Arnoulx",
+      "person_id": null,
+      "gender": "male",
+      "age": 52,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Nicolas killed Jean's geese on orders from Mr d'Estival for damaging oat field",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Nicolas Arnoulx (self)",
+            "target_relationship": "self",
+            "attributed_to": "Jean Callerey",
+            "time_after_quarrel": "on New Year's Day (months after harvest dispute)"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Vincent Ban de Sapt",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "location": "Pajaille",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1614-03-08",
+      "event": "informations_preparatoires",
+      "subject": "Jean Callerey",
+      "details": "14 witnesses testified"
+    },
+    {
+      "date": "1614-03-12",
+      "event": "interrogation",
+      "subject": "Jean Callerey",
+      "details": "Jean denied all charges, acknowledged his parents' execution and his reputation"
+    },
+    {
+      "date": "1614-03-13",
+      "event": "confrontation",
+      "subject": "Jean Callerey",
+      "details": "Confronted with witnesses; made no reproaches; denied all charges"
+    },
+    {
+      "date": "1614-03-13",
+      "event": "torture_requested",
+      "subject": "Jean Callerey",
+      "details": "Procureur d'office asked for question ordinaire"
+    },
+    {
+      "date": "1614-03-15",
+      "event": "torture_approved",
+      "subject": "Jean Callerey",
+      "details": "Change de Nancy approved torture"
+    },
+    {
+      "date": "1614-03-18",
+      "event": "torture",
+      "subject": "Jean Callerey",
+      "details": "Confessed as soon as he felt thumbscrews; gave detailed confession"
+    },
+    {
+      "date": "1614-03-18",
+      "event": "interrogation",
+      "subject": "Jean Callerey",
+      "details": "Confirmed all confessions made under torture"
+    },
+    {
+      "date": "1614-03-19",
+      "event": "interrogation",
+      "subject": "Jean Callerey",
+      "details": "Again confirmed confessions; added details about sabbat hierarchy and his children"
+    },
+    {
+      "date": "1614-03-20",
+      "event": "death_requested",
+      "subject": "Jean Callerey",
+      "details": "Procureur d'office for abbe d'Etival asked for death sentence"
+    },
+    {
+      "date": "1614-03-21",
+      "event": "death_approved",
+      "subject": "Jean Callerey",
+      "details": "Change de Nancy approved death sentence"
+    },
+    {
+      "date": "1614-03-24",
+      "event": "execution",
+      "subject": "Jean Callerey",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews"],
+    "requesting_official": "procureur d'office",
+    "approving_court": "Change de Nancy",
+    "restrictions": "question ordinaire"
+  },
+  "accomplices_named": [
+    {
+      "name": "Floratte femme Jean Chappoux",
+      "location": "Pajaille",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Catherine veuve Jean Grand George",
+      "location": "Pajaille",
+      "context": "seen at several sabbats; transformed into wolf with Jean to kill a cow",
+      "already_executed": false
+    },
+    {
+      "name": "Nicolas fils Vincent Bandesapt",
+      "location": "Pajaille",
+      "context": "seen at sabbat; taken there by his mother Laurence",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Laurence femme Vincent Bandesapt",
+      "accuser_location": "Pajaille",
+      "context": "denounced Jean; she was convicted in 1611",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Nicolas Bandesapt",
+      "french": "qu'il luy feroit despendre son bien sans qu'il se donne de garde",
+      "english": "that he would make him spend his wealth without him being aware",
+      "context": "threat after quarrel and fight"
+    },
+    {
+      "speaker": "Nicolas Bandesapt",
+      "french": "qu'il se debvoit bien contanter de l'avoir sy longtemps faict languir",
+      "english": "that he should be content to have made him languish so long",
+      "context": "when confronting Jean during illness"
+    },
+    {
+      "speaker": "Marguitte femme Vincent Bandesapt",
+      "french": "aymeroit mieulx despendre son bien pour le faire brusler que de le despendre languisant mallade comme il faisoit",
+      "english": "would prefer to spend his wealth to have him burned than to spend it languishing sick as he was doing",
+      "context": "witnessed Nicolas's determination to prosecute Jean"
+    },
+    {
+      "speaker": "Jean Grand George (dying words via Catherine)",
+      "french": "et dit que puisqu'il luy convenoit mourir cela ne luy serviroit de rien, et que peult estre ledit prevenu luy causeroit encor quelques autres desplaisir",
+      "english": "and said that since he had to die it would serve him no purpose, and that perhaps the accused would cause him yet other displeasure",
+      "context": "deciding not to confront Jean before death"
+    },
+    {
+      "speaker": "Jean Callerey",
+      "french": "qu'il failloit donner ung rabasjoye audit Bandesapt, et qu'il estoit desja tousjours ung des plus brave au sabat a la dance et l'ung des premiers",
+      "english": "that it was necessary to give a comedown to Bandesapt, and that he was always one of the bravest at the sabbat in the dance and one of the first",
+      "context": "confession about making Nicolas Bandesapt ill after the sword incident"
+    },
+    {
+      "speaker": "Jean Callerey",
+      "french": "ou il y avoit heu grand peine, et estoit en grande fascherie ad cause de sa pauvreté et enduroit grande famine",
+      "english": "where he had great hardship, and was in great distress because of his poverty and endured great hunger",
+      "context": "describing circumstances of his seduction by the devil"
+    },
+    {
+      "speaker": "Jean Callerey",
+      "french": "qu'il estoit pauvrement trompé et abbusé",
+      "english": "that he was poorly deceived and abused",
+      "context": "realizing devil's promises were false when gold turned to sand"
+    },
+    {
+      "speaker": "Jean Callerey",
+      "french": "tant avoit il regret d'estre ainsy tanté et abbusé du diable",
+      "english": "so much did he regret being thus tempted and abused by the devil",
+      "context": "explaining why he resolved to confess promptly"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Callerey",
+      "person2": "woman from Pajaille",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "when he married a woman from the village nearly 6 years before",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Callerey",
+      "person2": "father (executed)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his parents had been executed for witchcraft",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Callerey",
+      "person2": "mother (executed)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his parents had been executed for witchcraft",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Callerey",
+      "person2": "Valentin Callerey",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his brother (now named as Valentin) being a witch",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Bandesapt",
+      "person2": "Jennon femme a Colas Bandesapt",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Confirmed husband's deposition",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve Jean Grand George",
+      "person2": "Jean Grand George",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Catherine veuve Jean Grand George",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Vincent Bandesapt",
+      "person2": "Vincent Bandesapt",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte femme Vincent Bandesapt",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Jean de Sombois",
+      "person2": "Jean de Sombois",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme Jean de Sombois",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme a Claudon Ferry",
+      "person2": "Claudon Ferry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme a Claudon Ferry",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Bandesapt",
+      "person2": "Vincent Ban de Sapt",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Confirmed his son's deposition",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Callerey",
+      "person2": "Catherine veuve Jean Grand George",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "widow of Jean Grand George his neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Callerey",
+      "person2": "Nicolas Bandesapt",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "who was nearest neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas fils Vincent Bandesapt",
+      "person2": "Laurence femme Vincent Bandesapt",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "taken by his mother Laurence, executed 3 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Thieriot Barbonnille",
+      "person2": "Jean Callerey",
+      "relationship_type": "business_partner",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "they had done some work together - were both carpenters",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Jean was a poor carpenter who experienced extreme poverty and hunger. Multiple disputes arose over: (1) quality of wood supplied to him for carpentry work; (2) money owed for work done with fellow carpenter; (3) land lease Jean wanted but Jean Grand George secured; (4) damage caused by Jean's geese to Mr. d'Estival's oat field; (5) damage caused by Jean Grand George's pigs to Jean's field; (6) roof tiles dispute with Nicolas Bandesapt. Jean's poverty was explicitly mentioned as context for his seduction by the devil, and his confession shows concern for leaving his two children destitute."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Nicolas Bandesapt",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became very ill, bedridden for 3 or 4 months, recovered after confronting Jean",
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "quarrelled and fought with fists over roof tiles; Jean threatened him",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "method_alleged": "witchcraft (unspecified in testimony, confession says devil offered to make him ill with powder)",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Jean Grand George",
+      "victim_relationship_to_witness": "heard secondhand on deathbed",
+      "harm_category": "human_death",
+      "harm_description": "took to bed, died in 6 days",
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "Jean Grand George secured land lease from Mr. d'Estival that Jean wanted",
+      "time_between_quarrel_and_harm": "2 days after expressing fear",
+      "method_alleged": "witchcraft",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jean Grand George",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "felt illness as he passed Jean's manure heap, took to bed Sunday, died Friday",
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "damage pigs had done to Jean's field",
+      "time_between_quarrel_and_harm": "Sunday morning to Friday",
+      "method_alleged": "felt illness near manure heap (confession: devil sprinkled powder on him)",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "wife of Claudon Mongeay",
+      "victim_relationship_to_witness": "wife of man in dispute",
+      "harm_category": "human_death",
+      "harm_description": "fell ill and died",
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "Jean complained Mongeay gave him difficult wood to work with, made threats",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "witchcraft",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "young cow belonging to Thieriot Barbonnille",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly after passing in front of Jean's house",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "dispute over money Jean demanded for carpentry work done together",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "method_alleged": "witchcraft",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "fine cow in herd",
+      "victim_relationship_to_witness": "cow under witness's care as herdsman",
+      "harm_category": "animal_death",
+      "harm_description": "mysteriously strangled in the middle of the herd",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "Jean's old cow got lost before he arrived to accompany it; Jean was very angry and made threats",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "witchcraft (confession: devil transformed into wolf to strangle cow)",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Nicolas Arnoulx",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "painful fall at door of his house on New Year's Day",
+      "attributed_to": "Jean Callerey",
+      "precipitating_quarrel": "Nicolas killed 3 or 4 of Jean's geese on orders from Mr. d'Estival for damaging oat field",
+      "time_between_quarrel_and_harm": "previous harvest to New Year's Day (several months)",
+      "method_alleged": "witchcraft",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Jean's own hens",
+      "victim_relationship_to_witness": "self (from confession)",
+      "harm_category": "animal_death",
+      "harm_description": "immediately died when he tested black powder on them",
+      "animal_type": "hen",
+      "attributed_to": "Jean Callerey (self-confessed test)",
+      "precipitating_quarrel": "none - testing powder given by devil",
+      "method_alleged": "black powder given by devil"
+    },
+    {
+      "victim_name": "cow belonging to Jean Florentin of St. Remy",
+      "victim_relationship_to_witness": "confession only, no witness testimony",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Callerey (confession)",
+      "precipitating_quarrel": "Jean Florentin would not sell him oats",
+      "method_alleged": "black powder"
+    },
+    {
+      "victim_name": "horse belonging to Mr. d'Estival",
+      "victim_relationship_to_witness": "confession only, no witness testimony",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Callerey (confession)",
+      "precipitating_quarrel": "Mr. d'Estival did not give him as much work as his companions",
+      "method_alleged": "witchcraft"
+    },
+    {
+      "victim_name": "cow belonging to Jean Clerc",
+      "victim_relationship_to_witness": "confession only, no witness testimony",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Callerey (confession)",
+      "precipitating_quarrel": "Jean Clerc called him 'fils de sorcier' (son of witch)",
+      "method_alleged": "witchcraft"
+    },
+    {
+      "victim_name": "cow (killed with Catherine as wolves)",
+      "victim_relationship_to_witness": "confession only",
+      "harm_category": "animal_death",
+      "harm_description": "killed by Jean and Catherine when transformed into wolves; taken to sabbat",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Callerey and Catherine veuve Jean Grand George (confession)",
+      "method_alleged": "transformation into wolves using grease and skins with big teeth"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "roof tiles",
+      "context": "wind blew tiles in front of Jean's house; his wife picked them up; Nicolas Bandesapt claimed them",
+      "category": "household"
+    },
+    {
+      "object": "sword",
+      "context": "Nicolas Bandesapt drew sword and struck Jean's wife on the head during quarrel",
+      "category": "other"
+    },
+    {
+      "object": "axe",
+      "context": "Jean carried axe on his neck coming back from woods (carpentry tool)",
+      "category": "tools"
+    },
+    {
+      "object": "silver piece (turned to oak leaf)",
+      "context": "devil's false gift at first meeting",
+      "category": "money"
+    },
+    {
+      "object": "gold piece (turned to sand)",
+      "context": "devil's false gift at second meeting",
+      "category": "money"
+    },
+    {
+      "object": "black powder",
+      "context": "given by devil to kill",
+      "category": "magical"
+    },
+    {
+      "object": "red powder",
+      "context": "given by devil to make ill",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "given by devil to cure",
+      "category": "magical"
+    },
+    {
+      "object": "grease and wolf skins with big teeth",
+      "context": "used for transformation into wolves",
+      "category": "magical"
+    },
+    {
+      "object": "geese",
+      "context": "Jean's geese damaged Mr. d'Estival's oat field; Nicolas Arnoulx killed 3 or 4",
+      "category": "agricultural"
+    },
+    {
+      "object": "pigs",
+      "context": "Jean Grand George's pigs damaged Jean's field; Jean Grand George was driving pigs to herd when he fell ill",
+      "category": "agricultural"
+    },
+    {
+      "object": "oats",
+      "context": "Jean wanted to buy oats from Jean Florentin who refused; geese damaged Mr. d'Estival's oat field",
+      "category": "food"
+    },
+    {
+      "object": "manure heap",
+      "context": "Jean Grand George passed Jean's manure heap and felt illness take him",
+      "category": "agricultural"
+    },
+    {
+      "object": "wood",
+      "context": "Jean complained about difficult wood given to him by Claudon Mongeay for carpentry",
+      "category": "tools"
+    },
+    {
+      "object": "stick",
+      "context": "Jean was beaten with stick by his devil master at sabbat for objecting to making hail",
+      "category": "other"
+    },
+    {
+      "object": "gingue",
+      "context": "musical instrument at sabbat for back-to-back dancing",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Pajaille",
+      "place_type": "village",
+      "context": "primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Saint Die",
+      "place_type": "village",
+      "context": "birthplace of Jean Callerey; where his parents were executed"
+    },
+    {
+      "place_name": "l'Hermitage des Dames",
+      "place_type": "village",
+      "context": "residence of witnesses Jean de Sombois and Jennon his wife"
+    },
+    {
+      "place_name": "Le Mesnil",
+      "place_type": "village",
+      "context": "residence of witnesses Claudatte Ferry, Thieriot Barbonnille, Mengeon Jean Claudon"
+    },
+    {
+      "place_name": "woods of Ramberviller",
+      "place_type": "forest",
+      "context": "where Jean was working when first seduced by devil; site of carpentry work"
+    },
+    {
+      "place_name": "le Vivier",
+      "place_type": "village",
+      "context": "home of Claudon Mongeay who passed by on way from woods"
+    },
+    {
+      "place_name": "St. Remy",
+      "place_type": "village",
+      "context": "home of Jean Florentin who owned cow Jean confessed to killing"
+    },
+    {
+      "place_name": "tavern",
+      "place_type": "other",
+      "context": "where Nicolas Bandesapt had been drinking before Sunday quarrel"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "where herdsman took cows; where Jean worked as carpenter; where devil appeared"
+    },
+    {
+      "place_name": "sabbat location (unspecified)",
+      "place_type": "sabbat_location",
+      "context": "where witches gathered; about 20 present, mostly masked"
+    },
+    {
+      "place_name": "field of oats near house of accused",
+      "place_type": "field",
+      "context": "Mr. d'Estival's field where geese caused damage"
+    },
+    {
+      "place_name": "Mr. d'Estival's land",
+      "place_type": "field",
+      "context": "land lease Jean wanted but Jean Grand George secured"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail (mentioned in sabbat context - witches made hail)"],
+    "animal_predation": ["wolf transformation (confession: devil and witches transformed into wolves)"],
+    "economic_hardship_indicators": [
+      "extreme poverty of Jean Callerey",
+      "hunger and famine mentioned in confession",
+      "concern for leaving children destitute",
+      "disputes over small economic matters (roof tiles, money for work, quality of wood)",
+      "competition for work from Mr. d'Estival"
+    ],
+    "religious_calendar_references": [
+      "St. John's Day (when Jean brought old cow to herdsman)",
+      "Sunday (Jean Grand George drove pigs on Sunday morning; quarrel happened on Sunday)",
+      "New Year's Day (when Nicolas Arnoulx had his fall)",
+      "Friday (day Jean Grand George died)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur d'office",
+        "role": "prosecutor_pg",
+        "location": "court of abbe d'Etival"
+      },
+      {
+        "name": "Mr. d'Estival",
+        "role": "other",
+        "location": "Pajaille area (landowner/local authority)"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Nicolas Bandesapt threatened to seek satisfaction from Mr. d'Estival over roof tiles dispute",
+        "outcome": "they fought with fists"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Jean said if there were others present he would take action against Nicolas for calling him witch, but never followed through",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 6,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Jennon femme Jean de Sombois",
+        "source": "Jean Grand George on deathbed",
+        "content": "claimed accused had bewitched him and was cause of his death"
+      },
+      {
+        "reporter": "Jean de Sombois",
+        "source": "Jean Grand George",
+        "content": "heard him say he feared harm because accused was angry over land lease"
+      },
+      {
+        "reporter": "Estienne Henry",
+        "source": "witnessed Jean's threats against Mongeay",
+        "content": "then Mongeay's wife died, which witness attributed to Jean"
+      },
+      {
+        "reporter": "Nicolas Segaire",
+        "source": "heard Catherine femme Jean Grand George",
+        "content": "accuse Jean of causing her husband's death"
+      }
+    ],
+    "oldest_accusation_years": 6,
+    "corroboration_groups": [
+      [2, 5, 14],
+      [3, 6, 7, 12],
+      [4, 2]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "resolved on prompt confession due to regret over being deceived by devil",
+      "expressed concern for his two children who would be left destitute",
+      "wanted to recommend children to charity of Mr. d'Estival and inhabitants"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Claudon Mongeay",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "wood supplier",
+      "context": "passed by Jean's house; Jean complained about quality of wood he supplied"
+    },
+    {
+      "name": "wife of Claudon Mongeay (Claudatte)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "wife of wood supplier",
+      "context": "died after Jean made threats about her husband; Jean denied killing her in confession"
+    },
+    {
+      "name": "Jean Florentin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "location": "St. Remy",
+      "relationship_to_accused": "refused to sell oats",
+      "context": "Jean confessed to killing his cow because he would not sell him oats"
+    },
+    {
+      "name": "Jean Clerc",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "insulted Jean",
+      "context": "called Jean 'fils de sorcier' (son of witch); Jean confessed to killing his cow"
+    },
+    {
+      "name": "Laurence femme Vincent Bandesapt",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "location": "Pajaille",
+      "relationship_to_accused": "denounced Jean",
+      "context": "executed 3 years earlier (1611); had denounced Jean; Jean claimed to have seen her at sabbat where she was 'foremost in the dance'"
+    },
+    {
+      "name": "Valentin Callerey (also called Francois)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "context": "accused of bewitching niece of Grand Prévôt at Saint Dié; fled some years before; Jean denied knowing about his witchcraft"
+    },
+    {
+      "name": "surgeon",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "treated Jean's wife after Nicolas Bandesapt struck her on head with sword"
+    },
+    {
+      "name": "Jean's wife",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "spouse",
+      "context": "from Pajaille village; picked up roof tiles; warned Jean not to make threats; struck on head by Nicolas Bandesapt with sword"
+    },
+    {
+      "name": "Jean's two children",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "context": "Jean expressed concern they would be left destitute; asked they be instructed in fear of God"
+    },
+    {
+      "name": "Floratte femme Jean Chappoux",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "location": "Pajaille",
+      "relationship_to_accused": "accomplice (claimed)",
+      "context": "Jean claimed to have seen her at sabbat"
+    },
+    {
+      "name": "niece of Grand Prévôt",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "location": "Saint Dié",
+      "context": "allegedly bewitched by Jean's brother Valentin/Francois"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Complete 5-page trial document with clear procedural timeline. Jean Callerey confessed under torture (thumbscrews) and maintained confession through multiple interrogations. Trial shows typical pattern of neighbor conflicts over economic matters (land, animals, work) escalating to witchcraft accusations. Jean's extreme poverty explicitly mentioned as context for devil's seduction. Both parents previously executed; brother fled similar accusations. Named accomplices including primary accuser Catherine. Executed within 16 days of initial testimony.",
+    "pdf_pages": 5
+  }
+}

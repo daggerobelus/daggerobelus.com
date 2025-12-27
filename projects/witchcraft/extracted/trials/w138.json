@@ -9,9 +9,18 @@
     "duration_days": 20
   },
   "outcome": "death",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Richard Chamenol",
+    "person_id": null,
+    "occupation": "noble",
+    "location": null,
+    "relationship_to_accused": "victim of theft"
+  },
   "accused": [
     {
       "name": "Jacquot Colin",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "age_approximate": false,
@@ -20,6 +29,9 @@
       "residence": "Petites Rosieres",
       "marital_status": "married",
       "spouse_name": null,
+      "economic_status": "destitute",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Nicolas Colin (deceased)",
         "mother": "Ysabel (living at Affrocourt)"
@@ -59,6 +71,7 @@
     {
       "number": 1,
       "name": "Pierre d'Aspremont",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "portier de la porte St Nicolas",
@@ -80,6 +93,7 @@
     {
       "number": 2,
       "name": "Claude Lermitte",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -101,6 +115,7 @@
     {
       "number": 3,
       "name": "Nicole femme Claude Lermitte",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -130,6 +145,7 @@
     {
       "number": 4,
       "name": "Francois Riesselin",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "occupation": null,
@@ -151,6 +167,7 @@
     {
       "number": 5,
       "name": "Demenge Ban",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -172,6 +189,7 @@
     {
       "number": 6,
       "name": "Pierre Claude",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "tisserand",
@@ -193,6 +211,7 @@
     {
       "number": 7,
       "name": "Jeanne veuve Claudon Bessy",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -214,6 +233,7 @@
     {
       "number": 8,
       "name": "Margueritte veuve Jean Husson",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -235,6 +255,7 @@
     {
       "number": 9,
       "name": "Jeanne femme Francois Tiesselin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -256,6 +277,7 @@
     {
       "number": 10,
       "name": "Jean Gantier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -792,7 +814,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -824,6 +851,7 @@
   "third_parties": [
     {
       "name": "Richard Chamenol",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -831,6 +859,7 @@
     },
     {
       "name": "Cezar Bellery/Meillery",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accomplice in theft",
       "relationship_to_witness": null,
@@ -838,6 +867,7 @@
     },
     {
       "name": "Guinat",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accomplice in theft",
       "relationship_to_witness": null,
@@ -845,6 +875,7 @@
     },
     {
       "name": "Pierre Ganthier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -852,6 +883,7 @@
     },
     {
       "name": "Joseph Courbellon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "father-in-law of Demenge Ban",
@@ -859,6 +891,7 @@
     },
     {
       "name": "Florentin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -866,6 +899,7 @@
     },
     {
       "name": "le mandigat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -873,6 +907,7 @@
     },
     {
       "name": "Ladventure",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "business partner",
       "relationship_to_witness": null,
@@ -880,6 +915,7 @@
     },
     {
       "name": "Jean Magnien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -887,6 +923,7 @@
     },
     {
       "name": "Le Ver",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -894,6 +931,7 @@
     },
     {
       "name": "Libaire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

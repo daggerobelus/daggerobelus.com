@@ -3,6 +3,8 @@
   "archive_ref": "B 3792 no 1",
   "location": "Brouvelieures",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1615-11-09",
     "end": "1616-05-13",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Nicolas Herteman",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": "Brouvelieures",
       "residence": "Brouvelieures",
@@ -36,6 +42,7 @@
     {
       "number": 1,
       "name": "Nicolas Gainel",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": null,
@@ -72,6 +79,7 @@
     {
       "number": 2,
       "name": "Claudon Aucel",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -93,6 +101,7 @@
     {
       "number": 3,
       "name": "Claudon fils Anthoine grand Claude",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "occupation": null,
@@ -114,6 +123,7 @@
     {
       "number": 4,
       "name": "Margueritte Nicolas d'Arches",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -135,6 +145,7 @@
     {
       "number": 5,
       "name": "Nicolle femme Anthoine Navel",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -164,6 +175,7 @@
     {
       "number": 6,
       "name": "Laurent Voiry",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -193,6 +205,7 @@
     {
       "number": 7,
       "name": "Mengel le Duc",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": null,
@@ -222,6 +235,7 @@
     {
       "number": 8,
       "name": "Jean Voiry",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -251,6 +265,7 @@
     {
       "number": 9,
       "name": "Nicolas Mongeot Mareschal",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": "Mareschal (blacksmith)",
@@ -280,6 +295,7 @@
     {
       "number": 10,
       "name": "Thiriot le Duc",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "tithe collector",
@@ -316,6 +332,7 @@
     {
       "number": 11,
       "name": "Bernard Viry",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -352,6 +369,7 @@
     {
       "number": 12,
       "name": "Nicolas Napuel",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -1075,7 +1093,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Claudon Aucel advised him he could seek redress if innocent, but Nicolas never did so",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1119,6 +1142,7 @@
   "third_parties": [
     {
       "name": "Georgette femme Nicolas Herteman",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "wife (now deceased)",
       "relationship_to_witness": null,
@@ -1126,6 +1150,7 @@
     },
     {
       "name": "Monzouille",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1133,6 +1158,7 @@
     },
     {
       "name": "wife of Mongeon Voiry",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1140,6 +1166,7 @@
     },
     {
       "name": "Humbert Gagnel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother-in-law of witness 4",
@@ -1147,6 +1174,7 @@
     },
     {
       "name": "Fleurate Herteman",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1154,6 +1182,7 @@
     },
     {
       "name": "aunt (wife of uncle) of Nicolas",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "aunt",
       "relationship_to_witness": null,
@@ -1161,6 +1190,7 @@
     },
     {
       "name": "Bernard Viry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "mentioned by witness 8",
@@ -1168,6 +1198,7 @@
     },
     {
       "name": "wife of Bernard Viry",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1175,6 +1206,7 @@
     },
     {
       "name": "Tiriot le Duc",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

@@ -4,6 +4,14 @@
   "archive_ref": "B 3323 no 2",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jenotte veuve Claudon Thoussainct",
+    "person_id": null,
+    "occupation": null,
+    "location": "Leintrey",
+    "relationship_to_accused": "fellow accused witch who denounced Sebille"
+  },
   "dates": {
     "start": "1602-02-09",
     "end": "1602-03-09",
@@ -13,9 +21,15 @@
   "accused": [
     {
       "name": "Sebille femme Jean Pierson",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies"
+      ],
       "occupation": [],
       "origin": "St Paule",
       "residence": "Leintrey",
@@ -57,6 +71,7 @@
     {
       "number": 1,
       "name": "Jennon veuve Claudon Jacquemin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -93,6 +108,7 @@
     {
       "number": 2,
       "name": "Barbelline femme Colas Goudot",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": null,
@@ -129,6 +145,7 @@
     {
       "number": 3,
       "name": "Jehennon veuve Jean de Chasnoy",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -158,6 +175,7 @@
     {
       "number": 4,
       "name": "Demenge Michiel Ballance",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -187,6 +205,7 @@
     {
       "number": 5,
       "name": "Didier Connot",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": null,
@@ -216,6 +235,7 @@
     {
       "number": 6,
       "name": "Demenge Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -252,6 +272,7 @@
     {
       "number": 7,
       "name": "Nicolas Vaultrin",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -288,6 +309,7 @@
     {
       "number": 8,
       "name": "Estienne Connot",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "occupation": null,
@@ -324,6 +346,7 @@
     {
       "number": 9,
       "name": "Nicolas Simon",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": null,
@@ -353,6 +376,7 @@
     {
       "number": 10,
       "name": "Nicolas Jean Gerardin (alias Chailey)",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -382,6 +406,7 @@
     {
       "number": 11,
       "name": "Colas Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": null,
@@ -1156,7 +1181,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Did not take Jean du Chesnoy to law for calling her witch because they were too poor and her husband 'n'est point de deffence'",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1206,6 +1236,7 @@
   "third_parties": [
     {
       "name": "Jenotte veuve Claudon Thoussainct",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1213,6 +1244,7 @@
     },
     {
       "name": "la Jacquenatte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "known to Jennon veuve Claudon Jacquemin",
@@ -1220,6 +1252,7 @@
     },
     {
       "name": "Hillenix",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of Demenge Michiel Ballance",
@@ -1227,6 +1260,7 @@
     },
     {
       "name": "shepherd of Reillon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "creditor of Jean Pierson",
       "relationship_to_witness": null,
@@ -1234,6 +1268,7 @@
     },
     {
       "name": "Jean Bon Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1241,6 +1276,7 @@
     },
     {
       "name": "housekeeper of curé",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1248,6 +1284,7 @@
     },
     {
       "name": "Jean Pierson (brother of witness Demenge Pierson)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother of witness Demenge Pierson",
@@ -1255,6 +1292,7 @@
     },
     {
       "name": "wife of Jean Pierson (brother)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister-in-law of witness Demenge Pierson",
@@ -1262,6 +1300,7 @@
     },
     {
       "name": "wife of Nicolas Vaultrin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness Nicolas Vaultrin",
@@ -1269,6 +1308,7 @@
     },
     {
       "name": "children of Estienne Connot",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "children of witness Estienne Connot",

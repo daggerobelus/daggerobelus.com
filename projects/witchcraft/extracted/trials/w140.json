@@ -3,6 +3,14 @@
   "archive_ref": "B 8667 No 2",
   "location": "Saint Margarée",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Laurence, wife of George Tolbay",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": "neighbor/accuser"
+  },
   "dates": {
     "start": "1592-07-24",
     "end": "1592-08-24",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Catherine Malremmeix",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "age_approximate": true,
@@ -19,6 +28,9 @@
       "residence": "Saint Margarée",
       "marital_status": "married",
       "spouse_name": "Mauriche Harauze",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -38,6 +50,7 @@
     {
       "number": 1,
       "name": "Mengeatte femme Colas Henry",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "age_approximate": true,
@@ -73,6 +86,7 @@
     {
       "number": 2,
       "name": "Jehennon femme Claudon George",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -101,6 +115,7 @@
     {
       "number": 3,
       "name": "Colas Avereu",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -129,6 +144,7 @@
     {
       "number": 4,
       "name": "Demenge Perry",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "age_approximate": true,
@@ -158,6 +174,7 @@
     {
       "number": 5,
       "name": "Barbeline veuve Jean Wanier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -185,6 +202,7 @@
     {
       "number": 6,
       "name": "Mengeon Valentin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -213,6 +231,7 @@
     {
       "number": 7,
       "name": "Jean Perry",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "age_approximate": true,
@@ -241,6 +260,7 @@
     {
       "number": 8,
       "name": "Jean Wanemont",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "age_approximate": true,
@@ -283,6 +303,7 @@
     {
       "number": 9,
       "name": "Claude le Bailly",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -312,6 +333,7 @@
     {
       "number": 10,
       "name": "Didier George le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -340,6 +362,7 @@
     {
       "number": 11,
       "name": "Claudon George de Wanemont",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -367,6 +390,7 @@
     {
       "number": 12,
       "name": "Catherine femme Mongeon Valentin",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -395,6 +419,7 @@
     {
       "number": 13,
       "name": "Magdelaine femme Jean Wanemont",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -1129,7 +1154,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1167,47 +1197,55 @@
   "third_parties": [
     {
       "name": "Claude Malremmeix",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased first husband",
       "context": "widow of Claude Malremmeix"
     },
     {
       "name": "Mauriche Harauze",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "current husband",
       "context": "went to war at St. George's day because of poverty; gave detailed testimony about his fear she was a witch and regret at marrying her; died in war"
     },
     {
       "name": "Catherine's children",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "context": "debts were owed by her children"
     },
     {
       "name": "Catherine's son",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "his foal got into Didier George's field; left lease of cow to Jean Wanemont against Catherine's will"
     },
     {
       "name": "daughter of Mengeatte (marriageable age)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "daughter of witness 1",
       "context": "fell ill and died after 18 months of languishing; showed signs of bewitchment"
     },
     {
       "name": "la Stablatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "first in the dance at sabbat according to Laurence's accusation"
     },
     {
       "name": "Mre Persin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master who seduced her",
       "context": "took her to sabbat; accompanied her in dance; presence behind her ear caused silence"
     },
     {
       "name": "man carrying sickle",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "horses bolted and ran into him; one horse's leg cut by his sickle"
     }

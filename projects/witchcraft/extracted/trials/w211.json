@@ -1,0 +1,906 @@
+{
+  "trial_id": "w211",
+  "archive_ref": "B 8689 no 3",
+  "location": "Moyemont",
+  "court": "Court of Chapter of St. Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur for the canons",
+    "person_id": null,
+    "occupation": "Prosecutor",
+    "location": "Chapter of St. Dié"
+  },
+  "dates": {
+    "start": "1602-03-21",
+    "end": "1602-05-04",
+    "duration_days": 44
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jeannon veuve Valentin Poirot",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["animal healer"],
+      "origin": "Moyemont",
+      "residence": "Moyemont",
+      "marital_status": "widowed",
+      "spouse_name": "Valentin Poirot",
+      "parents": {
+        "father": "Demenge Chabauld",
+        "mother": "Mengeotte"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudon Mengin de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 17,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unspecified dispute",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "animal_death",
+            "target": "grey horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Nicolle femme de Colas Noel de Moyemont",
+      "person_id": null,
+      "gender": "female",
+      "age": 21,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Nicolas Jean Mengin de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "stealing pears",
+        "threat_received": true,
+        "threat_quote": "beating given to sister Alison",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Alison",
+            "target_relationship": "sister of witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "after this"
+          }
+        ],
+        "theft_mentioned": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "Blaisatte veuve de Thiery Breton de Moyemont",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fight at St. Jean, witness called Jeannon a witch",
+        "threat_received": true,
+        "threat_quote": "qu'elle les aurolt de quelle facon que se doibve estre",
+        "called_witch_publicly": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Marguitte",
+            "target_relationship": "daughter of witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "instantly"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jean Mengin de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 80,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudon Jean Claude de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wife intruding on Jeannon's animal healing practice",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Colas Domberat",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengeon Colin de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 28,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "stealing wood from fields",
+        "theft_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "after this"
+          },
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "after this"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Prevost de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean le Grand Girard de Moyement",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "age_approximate": true,
+      "location": "Moyement",
+      "testimony": {
+        "reputation_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "multiple animals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "since then"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Colas Perrin de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 72,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Honneste homme le maire Jean Vincent de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "age_approximate": true,
+      "occupation": "mayor",
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fishing dispute - witness sent Jeannon away for taking fish",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Colas Jean Simonin de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 56,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Fleurent Morlot de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "theft of food from his house during military occupation",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "theft_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "son aged 10",
+            "target_relationship": "son of witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claudon Vincent",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Colas Noel de Moyemont",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "age_approximate": true,
+      "location": "Moyemont",
+      "testimony": {
+        "reputation_mentioned": true,
+        "called_witch_publicly": true,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "several animals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jeannon veuve Valentin Poirot",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-03-21",
+      "event": "informations_preparatoires",
+      "subject": "Jeannon veuve Valentin Poirot",
+      "details": "Preliminary investigations with 16 witnesses"
+    },
+    {
+      "date": "1602-03-22",
+      "event": "interrogation",
+      "subject": "Jeannon veuve Valentin Poirot",
+      "details": "First interrogation - denied all charges, refused to renounce the Devil"
+    },
+    {
+      "date": "1602-04-10",
+      "event": "torture_requested",
+      "subject": "Jeannon veuve Valentin Poirot",
+      "details": "Procureur asks for question ordinaire with moderation suitable to her age"
+    },
+    {
+      "date": "1602-04-15",
+      "event": "torture_approved",
+      "subject": "Jeannon veuve Valentin Poirot",
+      "details": "Change de Nancy approves torture request"
+    },
+    {
+      "date": "1602-05-04",
+      "event": "execution",
+      "subject": "Jeannon veuve Valentin Poirot",
+      "details": "Executed same day as Ulriot Colas Ulriot"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "requesting_official": "Procureur",
+    "approving_court": "Change de Nancy",
+    "restrictions": "with moderation suitable to her age"
+  },
+  "prior_accusations": [
+    {
+      "accuser_name": "Blaisette",
+      "context": "Called her witch publicly without Jeannon seeking legal reparation"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jeannon veuve Valentin Poirot",
+      "french": "dict que cela est vray, et vouleroit l'avoir tuée, et avoir ses tripailles dans son girons, et par apres elle seroit contente d'estre pendue et estranglée. Mais elle ne vouldroit estre bruslée, par ce que l'on dit qu'une personne que n'est pas sorciere ne brusle pas volontiers",
+      "english": "said that it was true, and she would have liked to have killed her, and have her entrails in her lap, and afterwards would have been content to be hanged and strangled. But she would not want to be burned, because it is said that a person who is not a witch does not burn willingly",
+      "context": "Response when asked about quarrel with Blaisette veuve Thiery Breton"
+    },
+    {
+      "speaker": "Jeannon veuve Valentin Poirot",
+      "french": "que par Dieu tant qu'elle vive elle ne le renoncera, et n'en fera rien pour nous",
+      "english": "that by God as long as she lives she will not renounce him, and will do nothing for us",
+      "context": "When asked to renounce the Devil"
+    },
+    {
+      "speaker": "Jeannon veuve Valentin Poirot",
+      "french": "vouldroit d'un bon coeur estre sorciere a cette fin qu'elle soit executée par jugement et veoit bien que quand bien elle retourneroit en son losgis on l'enchargera de touttes les fortunes qui arriveront audit Moyemont",
+      "english": "would with all her heart be a witch so that she could be executed by judgment and sees well that even if she returned home she would be charged with all the misfortunes that happen in Moyemont",
+      "context": "During interrogation, expressing frustration at her situation"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jeannon veuve Valentin Poirot",
+      "person2": "Valentin Poirot",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jeannon veuve Valentin Poirot",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Chabauld",
+      "person2": "Jeannon veuve Valentin Poirot",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "her father, Demenge Chabauld",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte",
+      "person2": "Jeannon veuve Valentin Poirot",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "her mother Mengeotte",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Mengin de Moyemont",
+      "person2": "daughter (chambriere)",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her daughter, who was 'chambriere' to witness",
+      "inferred": false
+    },
+    {
+      "person1": "daughter (chambriere)",
+      "person2": "Jeannon veuve Valentin Poirot",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "her daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Jean Mengin de Moyemont",
+      "person2": "Alison",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his sister Alison",
+      "inferred": false
+    },
+    {
+      "person1": "Blaisatte veuve de Thiery Breton de Moyemont",
+      "person2": "Thiery Breton",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Blaisatte veuve de Thiery Breton",
+      "inferred": false
+    },
+    {
+      "person1": "Blaisatte veuve de Thiery Breton de Moyemont",
+      "person2": "Marguitte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Marguitte",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle femme de Colas Noel de Moyemont",
+      "person2": "Colas Noel de Moyemont",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Nicolle femme de Colas Noel",
+      "inferred": false
+    },
+    {
+      "person1": "Honneste homme le maire Jean Vincent de Moyemont",
+      "person2": "brother-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his brother-in-law said",
+      "inferred": false
+    },
+    {
+      "person1": "Fleurent Morlot de Moyemont",
+      "person2": "son aged 10",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his son aged 10",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Noel de Moyemont",
+      "person2": "chambriere (relative of Jeannon)",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his 'chambriere' was relative of Jeannon",
+      "inferred": false
+    },
+    {
+      "person1": "chambriere (relative of Jeannon)",
+      "person2": "Jeannon veuve Valentin Poirot",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "his 'chambriere' was relative of Jeannon",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes over Jeannon's animal healing practice - witness 6's wife intruded on her 'pratique'. Also theft accusations: stealing pears, stealing wood, taking fish without permission, taking food from houses during military occupation."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "became sick while grazing, died same day",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "quarrel with Jeannon 2 years prior",
+      "time_between_quarrel_and_harm": "soon after quarrel",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "grey horse",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "became sick and died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "quarrel with Jeannon 2 years prior",
+      "time_between_quarrel_and_harm": "a few days after ox died",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Alison",
+      "victim_relationship_to_witness": "sister of witness",
+      "harm_category": "human_death",
+      "harm_description": "body became all swollen, ill for 7 years, died",
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "accused Jeannon of stealing pears, Jeannon beat her",
+      "time_between_quarrel_and_harm": "after this",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Marguitte",
+      "victim_relationship_to_witness": "daughter of witness",
+      "harm_category": "human_death",
+      "harm_description": "seized by illness, took to bed, died 3 weeks before testimony",
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "fight at St. Jean where witness called Jeannon a witch",
+      "time_between_quarrel_and_harm": "instantly",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "fine cow sickened and died within the day",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "Jeannon angry that witness's wife was intruding on her animal healing practice",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost cow with strange illness",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "dispute over stolen wood from fields",
+      "time_between_quarrel_and_harm": "after this",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "foal",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost foal with strange illness",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "dispute over stolen wood from fields",
+      "time_between_quarrel_and_harm": "after this",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "multiple animals",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost a number of animals",
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "called her witch without her seeking reparation",
+      "time_between_quarrel_and_harm": "since then",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Jean Vincent (mayor)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "seriously ill, unable to move limbs, remained 10 weeks, death expected, received last sacraments, then recovered after Jeannon visited",
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "found Jeannon taking fish from diverted stream, sent her away",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "son aged 10",
+      "victim_relationship_to_witness": "son of witness",
+      "harm_category": "human_injury",
+      "harm_description": "developed ulcers and boils all over body, lost use of arm permanently",
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "threatened to prosecute for theft of food during military occupation",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "several animals",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "lost several animals, rest were sick and seemed likely to die (but recovered after threat)",
+      "attributed_to": "Jeannon veuve Valentin Poirot",
+      "precipitating_quarrel": "called her witch in his house, servant informed Jeannon",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 16
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "pears",
+      "context": "stolen from outside Alison's house",
+      "category": "food"
+    },
+    {
+      "object": "cloth",
+      "context": "dispute between Jeannon and Blaisette over cloth they had made together",
+      "category": "household"
+    },
+    {
+      "object": "fish",
+      "context": "Jeannon taking fish from diverted stream without participating in work",
+      "category": "food"
+    },
+    {
+      "object": "wood",
+      "context": "stolen from fields",
+      "category": "other"
+    },
+    {
+      "object": "food and other objects",
+      "context": "taken from houses during military occupation",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Moyemont",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused and witnesses"
+    },
+    {
+      "place_name": "Reselieulle",
+      "place_type": "village",
+      "context": "Origin of accused's father, from which he was chased for witchcraft"
+    },
+    {
+      "place_name": "Giriviller",
+      "place_type": "village",
+      "context": "Origin of accused's mother"
+    },
+    {
+      "place_name": "Luoret",
+      "place_type": "village",
+      "context": "Where accused's brother and aunt were burned for witchcraft"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "8 years before testimony, soldiers had been roaming the countryside, causing bourgeois to leave houses on several occasions"
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Jean Vincent",
+        "role": "mayor",
+        "location": "Moyemont"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Multiple theft accusations: pears, wood, fish, food during military occupation",
+        "outcome": "Threatened prosecution but unclear if pursued"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 8,
+    "oldest_accusation_years": 30
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "defiant",
+      "angry",
+      "unrepentant",
+      "refused to renounce Devil initially"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Demenge Chabauld",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "Suspected of witchcraft, chased from village of Reselieulle for same crime"
+    },
+    {
+      "name": "Mengeotte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "Suspected of witchcraft, from Giriviller"
+    },
+    {
+      "name": "Alison",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor/victim",
+      "relationship_to_witness": "sister of witness 3",
+      "context": "Accused Jeannon of stealing pears, beaten by Jeannon, became ill and died after 7 years"
+    },
+    {
+      "name": "Marguitte",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor/victim",
+      "relationship_to_witness": "daughter of witness 4",
+      "context": "Threatened by Jeannon, became ill and died 3 weeks before testimony"
+    },
+    {
+      "name": "Blaisette",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Called Jeannon witch publicly without Jeannon seeking reparation"
+    },
+    {
+      "name": "brother-in-law of Jean Vincent",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "brother-in-law of witness 12",
+      "context": "Warned Jean Vincent not to quarrel with Jeannon"
+    },
+    {
+      "name": "wife of Jean Vincent",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "wife of witness 12",
+      "context": "Present when Jeannon visited ill husband"
+    },
+    {
+      "name": "son aged 10",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "victim",
+      "relationship_to_witness": "son of witness 14",
+      "context": "Developed ulcers and boils, lost use of arm permanently"
+    },
+    {
+      "name": "daughter (chambriere to Claudon Mengin)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "relationship_to_witness": "servant to witness 1",
+      "context": "Worked as servant, took mother to see sick ox without witness's knowledge"
+    },
+    {
+      "name": "wife of Claudon Jean Claude",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "competitor",
+      "relationship_to_witness": "wife of witness 6",
+      "context": "Called to see sick cow, intruding on Jeannon's animal healing practice"
+    },
+    {
+      "name": "chambriere (relative of Jeannon) to Colas Noel",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "relative",
+      "relationship_to_witness": "servant to witness 16",
+      "context": "Informed Jeannon that Colas Noel called her a witch"
+    },
+    {
+      "name": "Ulriot Colas Ulriot",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Executed same day as Jeannon on 4 May 1602"
+    },
+    {
+      "name": "brother of Demenge Chabauld",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "uncle",
+      "context": "Burned for witchcraft at village of Luoret"
+    },
+    {
+      "name": "aunt (sister of Demenge Chabauld)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "aunt",
+      "context": "Burned for witchcraft at village of Luoret"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Well-documented trial with 16 witnesses. Jeannon practiced animal healing which created economic tensions. Strong family history of witchcraft accusations (father chased from village, brother and aunt burned). Notable for her defiant behavior - refused to renounce Devil, expressed violent wishes toward accusers, and said she'd rather be hanged than burned. Case approved by Change de Nancy for torture. Executed 4 May 1602.",
+    "pdf_pages": 4
+  }
+}

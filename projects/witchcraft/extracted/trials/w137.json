@@ -3,6 +3,14 @@
   "archive_ref": "B 8535 no 5",
   "location": "Rozieres",
   "court": "Court at Rozieres",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Ydatte veuve Demenge le Moyne (Ydatte Vaultrin)",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": "prior accused who claimed to have seen Margueritte at sabbat"
+  },
   "dates": {
     "start": "1603-12-18",
     "end": "1604-02-03",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Margueritte veuve Claudon Forget",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["salt seller"],
       "origin": "Vic",
       "residence": "Rozieres",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Catherine femme Jean George",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": "salt seller",
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Annon femme Mengin Regnaude le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -108,6 +122,7 @@
     {
       "number": 3,
       "name": "Alizon femme Michiel le Geay",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "occupation": "salt seller",
@@ -144,6 +159,7 @@
     {
       "number": 4,
       "name": "Thiery Racine",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -165,6 +181,7 @@
     {
       "number": 5,
       "name": "Mengeotte femme Villermin Grillat",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -186,6 +203,7 @@
     {
       "number": 6,
       "name": "Damoiselle Anne Magnien femme Abraham Clignotte",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": "wife of tailleur aux salines",
@@ -207,6 +225,7 @@
     {
       "number": 7,
       "name": "Jehenne femme Claude Pulligny",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": "salt seller (with late husband)",
@@ -236,6 +255,7 @@
     {
       "number": 8,
       "name": "Catherine femme Demenge Chevallier",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -265,6 +285,7 @@
     {
       "number": 9,
       "name": "Jennatte fille Nicolas Gontiere",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -939,7 +960,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Sent to prison on 18 December 1603",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -995,6 +1021,7 @@
   "third_parties": [
     {
       "name": "Ydatte veuve Demenge le Moyne (Ydatte Vaultrin)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1002,6 +1029,7 @@
     },
     {
       "name": "Mengin Lamourou (Mengon Lamourou)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1009,6 +1037,7 @@
     },
     {
       "name": "Laurence Viart",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "acquaintance of Annon",
@@ -1016,6 +1045,7 @@
     },
     {
       "name": "daughter of Catherine femme Jean George",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 1",
@@ -1023,6 +1053,7 @@
     },
     {
       "name": "daughter of Margueritte Forget",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1030,6 +1061,7 @@
     },
     {
       "name": "Charles (son of Margueritte)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1037,6 +1069,7 @@
     },
     {
       "name": "son-in-law of Margueritte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law",
       "relationship_to_witness": null,
@@ -1044,6 +1077,7 @@
     },
     {
       "name": "sister of Alizon femme Michiel le Geay",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 3",
@@ -1051,6 +1085,7 @@
     },
     {
       "name": "husband of Annon (Mengin Regnaude le jeune)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 2",
@@ -1058,6 +1093,7 @@
     },
     {
       "name": "Abraham Clignotte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 6",
@@ -1065,6 +1101,7 @@
     },
     {
       "name": "father of Anne Magnien (controlleur des salines)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 6",
@@ -1072,6 +1109,7 @@
     },
     {
       "name": "Les Sochattes",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "had called her witch",
       "relationship_to_witness": null,
@@ -1079,6 +1117,7 @@
     },
     {
       "name": "la Paurasse",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "had called her witch",
       "relationship_to_witness": null,
@@ -1086,6 +1125,7 @@
     },
     {
       "name": "wife of mre Michel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "had called her witch",
       "relationship_to_witness": null,
@@ -1093,6 +1133,7 @@
     },
     {
       "name": "bailli",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1100,6 +1141,7 @@
     },
     {
       "name": "les chevalcheur de saline",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1107,6 +1149,7 @@
     },
     {
       "name": "marchand bouchier de son altesse",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1114,6 +1157,7 @@
     },
     {
       "name": "Jean George",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 1",
@@ -1121,6 +1165,7 @@
     },
     {
       "name": "Michiel le Geay",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 3",
@@ -1128,6 +1173,7 @@
     },
     {
       "name": "Villermin Grillat",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 5",
@@ -1135,6 +1181,7 @@
     },
     {
       "name": "Claude Pulligny",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 7",
@@ -1142,6 +1189,7 @@
     },
     {
       "name": "Demenge Chevallier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 8",
@@ -1149,6 +1197,7 @@
     },
     {
       "name": "Claudon Forget",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "late husband",
       "relationship_to_witness": null,

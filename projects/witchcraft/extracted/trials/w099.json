@@ -3,6 +3,14 @@
   "archive_ref": "B 5344 no 2",
   "location": "Wirming",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Didier Grand",
+    "person_id": null,
+    "occupation": null,
+    "location": "Wirming",
+    "relationship_to_accused": "community member"
+  },
   "dates": {
     "start": "1608-08-19",
     "end": "1608-09-27",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Mayette femme Dietrich Gaste",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": ["domestic servant"],
       "origin": "Virming",
       "residence": "Wirming",
@@ -63,6 +75,7 @@
     {
       "number": 1,
       "name": "Margueritte femme Cornelius Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -92,6 +105,7 @@
     {
       "number": 2,
       "name": "Mengette femme Christman",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "occupation": null,
@@ -149,6 +163,7 @@
     {
       "number": 3,
       "name": "Ysambart Vieulx Maire",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "maire",
@@ -178,6 +193,7 @@
     {
       "number": 4,
       "name": "Jean le Jeune",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -207,6 +223,7 @@
     {
       "number": 5,
       "name": "Thomas de la Haye",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "manouvrier",
@@ -236,6 +253,7 @@
     {
       "number": 6,
       "name": "Hanns Fritsch",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -257,6 +275,7 @@
     {
       "number": 7,
       "name": "Konne",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": "laboureur",
@@ -286,6 +305,7 @@
     {
       "number": 8,
       "name": "Cornelius Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": null,
@@ -315,6 +335,7 @@
     {
       "number": 9,
       "name": "Philibert François",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": "tonnelier",
@@ -344,6 +365,7 @@
     {
       "number": 10,
       "name": "Jean Mulnier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "miller",
@@ -373,6 +395,7 @@
     {
       "number": 11,
       "name": "Marguitte femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -402,6 +425,7 @@
     {
       "number": 12,
       "name": "Mongeatte femme Lampert",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -1297,7 +1321,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "dropped case and paid costs herself; husband would not defend her",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture (17 Sept 1608) and death sentence (25 Sept 1608) subject to repetition of confessions without torture",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1335,6 +1364,7 @@
   "third_parties": [
     {
       "name": "daughter aged 10 or 12",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "daughter of Cornelius and Margueritte Marchal",
@@ -1342,6 +1372,7 @@
     },
     {
       "name": "Karst Weber",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "mentioned by witness 1",
@@ -1349,6 +1380,7 @@
     },
     {
       "name": "curé of Grostenquin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "mentioned by witness 1",
@@ -1356,6 +1388,7 @@
     },
     {
       "name": "servant of curé of Grostenquin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "buyer of stolen goods",
       "relationship_to_witness": "mentioned by witness 1",
@@ -1363,6 +1396,7 @@
     },
     {
       "name": "poor man living with Jean Mulnier",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "lived with witness 10",
@@ -1370,6 +1404,7 @@
     },
     {
       "name": "father-in-law of Thomas de la Haye",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "father-in-law of witness 5",
@@ -1377,6 +1412,7 @@
     },
     {
       "name": "first wife of Thomas de la Haye",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "former wife of witness 5",
@@ -1384,6 +1420,7 @@
     },
     {
       "name": "first husband of Mongeatte femme Lampert",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "suspected victim",
       "relationship_to_witness": "husband of witness 12",
@@ -1391,6 +1428,7 @@
     },
     {
       "name": "woman executed at Hingsange 18 years earlier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accused Mayette's mother and three older daughters (including Mayette) of being accomplices",
       "relationship_to_witness": "mentioned by witness 5",
@@ -1398,6 +1436,7 @@
     },
     {
       "name": "butcher",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "mentioned by witness 3",
@@ -1405,6 +1444,7 @@
     },
     {
       "name": "Petter Wolfen Hanns",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "mentioned in confession",
       "relationship_to_witness": "none",
@@ -1412,6 +1452,7 @@
     },
     {
       "name": "Belzebock",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "mentioned in confession",
       "relationship_to_witness": "none",
@@ -1419,6 +1460,7 @@
     },
     {
       "name": "Konne's mother",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "mother of witness 7",
@@ -1426,6 +1468,7 @@
     },
     {
       "name": "son aged 6 (of Jean Mulnier)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "unknown",
       "relationship_to_witness": "son of witnesses 10 and 11",

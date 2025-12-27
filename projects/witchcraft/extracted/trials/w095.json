@@ -3,6 +3,14 @@
   "archive_ref": "B 5312 no 5",
   "location": "Bisping",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Royne femme Demenge Marchal",
+    "person_id": null,
+    "occupation": "",
+    "location": "Bisping",
+    "relationship_to_accused": "Village resident who alleged night visitation"
+  },
   "dates": {
     "start": "1594-07-11",
     "end": "1594-09-07",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Senelle femme Waisen Petter",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -19,6 +28,11 @@
       "residence": "Bisping",
       "marital_status": "married",
       "spouse_name": "Waisen Petter",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": [
+        "touch_healing"
+      ],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -43,6 +57,7 @@
     {
       "number": 1,
       "name": "Barbe femme Faulhanns",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Bisping",
@@ -69,6 +84,7 @@
     {
       "number": 2,
       "name": "Le maire Michiel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "mayor",
@@ -96,6 +112,7 @@
     {
       "number": 3,
       "name": "Margueritte femme Grand Austien",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "location": "Bisping",
@@ -113,6 +130,7 @@
     {
       "number": 4,
       "name": "Eve femme Grand Bauer",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "location": "Bisping",
@@ -130,6 +148,7 @@
     {
       "number": 5,
       "name": "Sibille femme Rebenhanns",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Bisping",
@@ -147,6 +166,7 @@
     {
       "number": 6,
       "name": "Christienne femme Nickel Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Bisping",
@@ -172,6 +192,7 @@
     {
       "number": 7,
       "name": "Anthoine fils Berkerhanns",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "location": "Bisping",
@@ -198,6 +219,7 @@
     {
       "number": 8,
       "name": "Beckerhanns",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Bisping",
@@ -225,6 +247,7 @@
     {
       "number": 9,
       "name": "Laurent Hoch d'Angviller",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Angviller",
@@ -251,6 +274,7 @@
     {
       "number": 10,
       "name": "Margueritte femme Niclaus Baller",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Bisping",
@@ -276,6 +300,7 @@
     {
       "number": 11,
       "name": "Doctor Nickel",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "doctor",
@@ -307,6 +332,7 @@
     {
       "number": 12,
       "name": "Margueritte femme Hermans Hanns",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Bisping",
@@ -332,6 +358,7 @@
     {
       "number": 13,
       "name": "Didier Moictrier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Bisping",
@@ -349,6 +376,7 @@
     {
       "number": 14,
       "name": "Chrestophe Charpentier d'Angviller",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Angviller",
@@ -365,6 +393,7 @@
     {
       "number": 15,
       "name": "Pierron Jean Dommeré",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "location": "Berthelming, terre de Fenétrange",
@@ -412,6 +441,7 @@
     {
       "number": 16,
       "name": "Alizon femme Beckerhanns",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Bisping",
@@ -439,6 +469,7 @@
     {
       "number": 17,
       "name": "Mayette femme Anthoine Charpentier",
+      "person_id": null,
       "gender": "female",
       "age": 42,
       "location": "Bisping",
@@ -465,6 +496,7 @@
     {
       "number": 18,
       "name": "Barbe femme Steffen Faulhanns",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Bisping",
@@ -491,6 +523,7 @@
     {
       "number": 19,
       "name": "Bride femme Klein Nickel",
+      "person_id": null,
       "gender": "female",
       "age": 21,
       "location": "Bisping",
@@ -519,6 +552,7 @@
     {
       "number": 20,
       "name": "Royne femme Demenge Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "location": "Bisping",
@@ -1250,7 +1284,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Royne refused to provide reparation, saying there was sufficient proof Senelle was a witch. This led to the substitut for PG associating himself with Royne's accusation",
     "imprisonment_conditions": "Sent back to prison overnight between torture sessions",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1326,89 +1365,105 @@
   "third_parties": [
     {
       "name": "Faulhanns (brother)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "full brother (frere germain)",
       "context": "Died after dispute over inherited property; owed her 16 florins for house and barn"
     },
     {
       "name": "Messire Jacques Guedmon, curé of Bisping",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "village priest",
       "context": "Died with swollen leg after accompanying Steffen Faulhanns on marriage journey; maintained Synelle had given him illness"
     },
     {
       "name": "Georgeatte femme Pierron Domeré",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "village member",
       "context": "Died during long illness claiming Synnelle had given her sickness; also lost premature child"
     },
     {
       "name": "Geyss Salonné",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "quarreled 14 years before",
       "context": "At a childbed quarrelled with accused; told her she was a perfect witch; accused replied they called each other witch"
     },
     {
       "name": "Petter Stürlen",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "involved in inheritance quarrel",
       "context": "When Eve quarrelling with him over inheritance, she said he and his wife were both witches"
     },
     {
       "name": "Steffen Faulhanns",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Accompanied by curé when seeking marriage; asked curé to do him honour"
     },
     {
       "name": "Daughter of Muttervillig",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Girl sought in marriage by Steffen Faulhanns; possibly unsuccessfully sought by Senelle's son"
     },
     {
       "name": "Travelling tailor",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "15 years before was working for Laurent Hoch; Senelle asked him as if he were a devin about horse losses; he replied she knew the cause herself"
     },
     {
       "name": "Pierron (father-in-law of Doctor Nickel)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "employer disputes",
       "context": "Lost mare after dispute over fish transport work"
     },
     {
       "name": "Beggar-woman",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Told Senelle and 3 other women about devil taking clothes from bench with 4 legs; since executed"
     },
     {
       "name": "Woman of Guermange",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Told Eve about devil taking clothes; since executed"
     },
     {
       "name": "Boy of Fribourg",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "was in their service",
       "context": "Told about magical lore (bowl method to make enemies lame); now dead"
     },
     {
       "name": "Blacksmith",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Target of planned poisoning plot 18 months before; Barbe femme Stophle had grievance against him"
     },
     {
       "name": "Blacksmith's wife",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Eve thought she might have wrongly identified her after devil took her clothes"
     },
     {
       "name": "Synnelle (daughter of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "context": "Asked Anthoine for ride on horse; her son may have been unsuccessful suitor"
     },
     {
       "name": "Son of Senelle",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "Summoned to guard fort; possibly unsuccessful suitor for marriage"

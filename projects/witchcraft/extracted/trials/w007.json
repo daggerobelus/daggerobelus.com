@@ -4,6 +4,14 @@
   "archive_ref": "B 2199 no 3",
   "location": "Laitre-sous-Amance",
   "court": "Court at Amance",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Noel Perrin",
+    "person_id": null,
+    "occupation": "manouvrier",
+    "location": "Laitre-sous-Amance",
+    "relationship_to_accused": "bought property from her; lived in same house"
+  },
   "dates": {
     "start": "1615-10-26",
     "end": "1616-01-02",
@@ -13,9 +21,13 @@
   "accused": [
     {
       "name": "Collatte veuve Cesar Lorette",
+      "person_id": null,
       "gender": "female",
       "age": 67,
       "age_approximate": false,
+      "economic_status": "destitute",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": "Sercoeur",
       "residence": "Laitre-sous-Amance",
@@ -53,6 +65,7 @@
     {
       "number": 1,
       "name": "Mengin Richard",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -87,6 +100,7 @@
     {
       "number": 2,
       "name": "Thiebault Thiebault dit Patticier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "vigneron",
@@ -122,6 +136,7 @@
     {
       "number": 3,
       "name": "Marguerite femme Thiebault Thiebault",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "wife of vigneron",
@@ -157,6 +172,7 @@
     {
       "number": 4,
       "name": "Noel Perrin",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "manouvrier",
@@ -175,6 +191,7 @@
     {
       "number": 5,
       "name": "Simon Bretton",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "vigneron",
@@ -192,6 +209,7 @@
     {
       "number": 6,
       "name": "Barbe femme Simon Bretton",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "wife of vigneron",
@@ -216,6 +234,7 @@
     {
       "number": 7,
       "name": "Mengeotte femme Nicolas Rémy",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": "wife of chartier",
@@ -243,6 +262,7 @@
     {
       "number": 8,
       "name": "Demenge Remy",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": "huillier",
@@ -261,6 +281,7 @@
     {
       "number": 9,
       "name": "Nicolas Remy",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "chartier",
@@ -300,6 +321,7 @@
     {
       "number": 10,
       "name": "Remy Dieudonné",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": "cy-devant maire et échevin d'Amance",
@@ -324,6 +346,7 @@
     {
       "number": 11,
       "name": "Nicolas Lyenal",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "manouvrier",
@@ -348,6 +371,7 @@
     {
       "number": 12,
       "name": "Françoise femme Nicolas Lyenal",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "wife of manouvrier",
@@ -367,6 +391,7 @@
     {
       "number": 13,
       "name": "George Hillaire, gentilhomme dit de la Grange",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "gentilhomme",
@@ -974,7 +999,12 @@
     "accused_sought_redress": false,
     "property_confiscation_mentioned": false,
     "imprisonment_conditions": "imprisoned before trial",
-    "appeal_to_change_de_nancy": true
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 8,
@@ -1038,57 +1068,67 @@
   "third_parties": [
     {
       "name": "la Grande Valentré",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Died after quarrel with accused; multiple witnesses reported this; wife of late Didier Bretton"
     },
     {
       "name": "Didier Bretton",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "community member",
       "context": "Late husband of la Valentré; claimed accused caused death of his wife"
     },
     {
       "name": "Chrespaille le Barry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "uncle of Marguerite femme Thiebault",
       "context": "Fell from tree and was killed after quarreling with accused and her husband at Sercoeur"
     },
     {
       "name": "son of accused (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "Living in Allemaigne; accused went to live with him; given power to settle affairs; caught stealing beans as child"
     },
     {
       "name": "daughter-in-law of accused (at Rodde)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter-in-law",
       "context": "Quarreled with accused and drove her from house at Rodde"
     },
     {
       "name": "son-in-law of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law",
       "context": "Was absent and could not give attestation about power to settle affairs"
     },
     {
       "name": "Cesar Lorette",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "late husband",
       "context": "Accused was widow for 8 years; both reputed witches at Sercoeur; quarreled with Chrespaille le Barry"
     },
     {
       "name": "late Nicolas Hugues",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Horse killed by accused using powder; had spoken harshly to her when she begged for alms"
     },
     {
       "name": "Persy (devil)",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Devil who seduced accused; found her sleeping in woods, gave her money (oak leaves), had intercourse, gave powder, took her to sabbat"
     },
     {
       "name": "wife of Noel Perrin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Was annoyed about 'denier dieu' given to accused; suggested to accused that Nicolas Remy thought she killed his father's horses"
     }

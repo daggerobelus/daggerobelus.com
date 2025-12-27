@@ -3,6 +3,14 @@
   "archive_ref": "4535 No 2",
   "location": "Neufchatel",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur fiscal des Vosges",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Vosges",
+    "relationship_to_accused": "Following common report that Ysabel was a witch causing incurable illnesses"
+  },
   "dates": {
     "start": "1596-08-14",
     "end": "1598-07-06",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Ysabel veuve de Nicolas Seguin (alias Colardote)",
+      "person_id": null,
       "gender": "female",
       "age": 62,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "Neufchatel, rue St. Marie",
       "marital_status": "widowed",
       "spouse_name": "Nicolas Seguin (alias Colardot Seguin), second husband; Gerardmer, first husband",
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "herbal_remedies", "charms_amulets"],
       "parents": {},
       "confession": {
         "confessed": true,
@@ -44,6 +56,7 @@
     },
     {
       "name": "Gauthine daughter of Ysabel",
+      "person_id": null,
       "gender": "female",
       "age": 17,
       "age_approximate": true,
@@ -52,6 +65,9 @@
       "residence": "Neufchatel",
       "marital_status": "single",
       "spouse_name": "",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Gerardmer (died before her birth)",
         "mother": "Ysabel"
@@ -82,6 +98,7 @@
     {
       "number": 1,
       "name": "Guennotte fille de Jean Louys",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": "daughter of weaver",
@@ -111,6 +128,7 @@
     {
       "number": 2,
       "name": "Barthelemy fils de Jean Molen",
+      "person_id": null,
       "gender": "male",
       "age": 15,
       "occupation": "portier et guet à la porte des Maisonnelles",
@@ -140,6 +158,7 @@
     {
       "number": 3,
       "name": "Alix femme à Estienne Baronel",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "",
@@ -169,6 +188,7 @@
     {
       "number": 4,
       "name": "Claude Magister",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "laboureur",
@@ -198,6 +218,7 @@
     {
       "number": 5,
       "name": "Nicolas fils de Didier Giaguier",
+      "person_id": null,
       "gender": "male",
       "age": 15,
       "occupation": "",
@@ -794,7 +815,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Ysabel admitted that her poverty had prevented her from seeking redress when called a witch",
     "imprisonment_conditions": "",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -837,6 +863,7 @@
   "third_parties": [
     {
       "name": "Jean Louys",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Father of Guennotte (witness 1)",
@@ -844,6 +871,7 @@
     },
     {
       "name": "Mother of Guennotte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Mother of Guennotte (witness 1)",
@@ -851,6 +879,7 @@
     },
     {
       "name": "Wife of Jean des Voages",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "Example cited by Ysabel",
       "relationship_to_witness": "",
@@ -858,6 +887,7 @@
     },
     {
       "name": "Juif medecin of Remonville",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "",
       "relationship_to_witness": "Consulted by Guennotte's father",
@@ -865,6 +895,7 @@
     },
     {
       "name": "Jean Molen (father of Barthelemy)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Father of witness 2",
@@ -872,6 +903,7 @@
     },
     {
       "name": "Mother of Barthelemy",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Mother of witness 2",
@@ -879,6 +911,7 @@
     },
     {
       "name": "Sister of Barthelemy",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Sister of witness 2",
@@ -886,6 +919,7 @@
     },
     {
       "name": "Jeanne daughter of Alix",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "Worked with Ysabel at wine harvest",
       "relationship_to_witness": "Daughter of witness 3",
@@ -893,6 +927,7 @@
     },
     {
       "name": "Estienne Baronel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Husband of witness 3",
@@ -900,6 +935,7 @@
     },
     {
       "name": "Receveur Hondreville",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Employer of Alix's husband",
@@ -907,6 +943,7 @@
     },
     {
       "name": "Anne daughter of Claude Magister",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Daughter of witness 4",
@@ -914,6 +951,7 @@
     },
     {
       "name": "Jean Richard",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "Ysabel lived in his house",
       "relationship_to_witness": "Son-in-law of witness 4 (father-in-law of Anne)",
@@ -921,6 +959,7 @@
     },
     {
       "name": "Baby grandson of Claude Magister",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "",
       "relationship_to_witness": "Grandson of witness 4",
@@ -928,6 +967,7 @@
     },
     {
       "name": "Surgeon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "",
       "relationship_to_witness": "Consulted by witness 4",
@@ -935,6 +975,7 @@
     },
     {
       "name": "Didier Giaguier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "",
       "relationship_to_witness": "Father of witness 5",
@@ -942,6 +983,7 @@
     },
     {
       "name": "Denyse veuve Anthoine Pottier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "Made accusations against Ysabel; seen at sabbat",
       "relationship_to_witness": "",
@@ -949,6 +991,7 @@
     },
     {
       "name": "la Grande Jeannon de Rebeufville",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "Seen at sabbat",
       "relationship_to_witness": "",
@@ -956,6 +999,7 @@
     },
     {
       "name": "Gerardmer",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "First husband of Ysabel, father of Gauthine",
       "relationship_to_witness": "",
@@ -963,6 +1007,7 @@
     },
     {
       "name": "Priest of the town",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "Ysabel's employer before marriage",
       "relationship_to_witness": "",
@@ -970,6 +1015,7 @@
     },
     {
       "name": "Mre Persil",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "Devil who seduced Ysabel",
       "relationship_to_witness": "",

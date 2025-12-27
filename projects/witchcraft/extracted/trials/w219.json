@@ -1,0 +1,596 @@
+{
+  "trial_id": "w219",
+  "archive_ref": "B 8691 no 7",
+  "location": "la Neuveville-les-Raon",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "dates": {
+    "start": "1602-12-21",
+    "end": "1603-01-08",
+    "duration_days": 18
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Margueritte femme Mongeon Colas Jacquat",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "age_approximate": true,
+      "economic_status": "unknown",
+      "practiced_healing": false,
+      "marital_status": "married",
+      "spouse_name": "Mongeon Colas Jacquat",
+      "origin": "la Neuveville",
+      "residence": "la Neuveville-les-Raon",
+      "parents": {
+        "father": "George Ganat",
+        "mother": "Catherine"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "devil_name": "Mre Dominé",
+        "devil_appearance": "not described",
+        "seduction_date": "18 months after arrival in Kespey, Allemaigne - approximately 13 years before trial",
+        "seduction_context": "Approached in vines by Mre Dominé who reminded her of first incident with mother, offered her money if she would believe in him",
+        "powder_types": [
+          "black powder (kill)",
+          "yellow powder (languish)",
+          "white powder (heal)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "côte de Repy",
+          "upper chamber"
+        ],
+        "sabbat_activities": [
+          "dancing",
+          "making hail",
+          "cutting up stillborn children and cooking them",
+          "spoiling crops"
+        ],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Marguitte femme Didier Gerardin",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Didier Ganat",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "relationship_to_accused": "brother of accused",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unspecified dispute",
+        "threat_received": true,
+        "threat_quote": "she prayed God he might be hung as high as any thief",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow belonging to Didier Ganat",
+            "target_relationship": "self",
+            "attributed_to": "Margueritte femme Mongeon Colas Jacquat",
+            "time_after_quarrel": "shortly after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jeannette femme du precedent",
+      "person_id": null,
+      "gender": "female",
+      "relationship_to_accused": "sister-in-law (wife of brother)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "insult to Margueritte",
+        "threat_received": true,
+        "threat_quote": "qu'elle feroit encore ung coup a sa teste, et en gaigneroit qui en pourroit gaigner",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "household",
+            "attributed_to": "Margueritte femme Mongeon Colas Jacquat",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-12-21",
+      "event": "interrogation",
+      "subject": "Margueritte Jacquat",
+      "details": "Offered to confess after confrontation with Claudatte femme George Mongeat"
+    },
+    {
+      "date": "1602-12-23",
+      "event": "interrogation",
+      "subject": "Margueritte Jacquat",
+      "details": "Persisted in previous confessions"
+    },
+    {
+      "date": "1602-12-27",
+      "event": "interrogation",
+      "subject": "Margueritte Jacquat",
+      "details": "Repeated confessions, added seeing Jehenne veuve Colas Chretien at sabbat"
+    },
+    {
+      "date": "1602-12-31",
+      "event": "other",
+      "subject": "Change de Nancy",
+      "details": "Change de Nancy asks for depositions to check her story"
+    },
+    {
+      "date": "1603-01-03",
+      "event": "informations_preparatoires",
+      "subject": "Witnesses",
+      "details": "Three witnesses gave testimony"
+    },
+    {
+      "date": "1603-01-04",
+      "event": "interrogation",
+      "subject": "Margueritte Jacquat",
+      "details": "Confirmed confessions, added killing cow of Chretien Brandec over tax dispute"
+    },
+    {
+      "date": "1603-01-06",
+      "event": "death_approved",
+      "subject": "Margueritte Jacquat",
+      "details": "Death sentence from Change de Nancy"
+    },
+    {
+      "date": "1603-01-08",
+      "event": "execution",
+      "subject": "Margueritte Jacquat",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Zabel femme Didier Pescheur",
+      "context": "Seen at sabbat; previously accused Margueritte",
+      "already_executed": false
+    },
+    {
+      "name": "Nicolle femme Jean Gerardin",
+      "context": "Seen at first incident in upper chamber",
+      "already_executed": false
+    },
+    {
+      "name": "la Faillée",
+      "context": "Seen at first incident in upper chamber",
+      "already_executed": false
+    },
+    {
+      "name": "Claudatte femme George Mongeat",
+      "context": "Seen at sabbat; accused Margueritte",
+      "already_executed": false
+    },
+    {
+      "name": "Marguitte femme Chrestofle Jean Piere",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Hannix femme Jean Faillé",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jehenne veuve Colas Chretien",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Catherine (mother of accused)",
+      "location": "la Neuveville",
+      "context": "Mother who touched her and took her to first incident 18 years earlier",
+      "already_executed": false
+    },
+    {
+      "name": "Demenge Jean Mercier",
+      "context": "Seen at first incident, greatly troubled in his mind",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Zabel femme Didier Pescheur",
+      "context": "Already accused Margueritte before this trial"
+    },
+    {
+      "accuser_name": "Claudatte femme George Mongeat",
+      "context": "Confrontation with accused led to confession offer"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Margueritte Jacquat",
+      "french": "Would have killed all his relatives if she had been close enough to them and had the power",
+      "context": "Regarding her anger at first husband's relatives over marriage settlement"
+    },
+    {
+      "speaker": "Didier Ganat",
+      "french": "he had not deserved this, but he did not know if she did not deserve to be burned",
+      "context": "Response to his sister's threat that he should be hanged"
+    },
+    {
+      "speaker": "Jeannette (sister-in-law)",
+      "french": "fille de genaxe et qu'elle craindoit bien qu'elle leur feroit ung jour deshonneur",
+      "context": "Insult to Margueritte during quarrel"
+    },
+    {
+      "speaker": "Margueritte Jacquat",
+      "french": "qu'elle feroit encore ung coup a sa teste, et en gaigneroit qui en pourroit gaigner",
+      "context": "Response to sister-in-law's insult"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Margueritte femme Mongeon Colas Jacquat",
+      "person2": "George Ganat",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "late parents were George Ganat",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mongeon Colas Jacquat",
+      "person2": "Catherine",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "late parents were George Ganat and his wife Catherine",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mongeon Colas Jacquat",
+      "person2": "Mongeon Colas Jacquat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme Mongeon Colas Jacquat",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mongeon Colas Jacquat",
+      "person2": "Florent Padoulx",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "This had been 11 years earlier, to Florent Padoulx",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mongeon Colas Jacquat",
+      "person2": "Didier Ganat",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Didier Ganat, frere à la prevenue",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Ganat",
+      "person2": "Jeannette",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jeannette femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte femme Mongeon Colas Jacquat",
+      "person2": "Jeannette",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "wife of brother Didier Ganat",
+      "inferred": true
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "cat",
+      "harm_category": "animal_death",
+      "harm_description": "cat died after being given powder as test",
+      "animal_type": "cat",
+      "animal_count": 1,
+      "attributed_to": "Margueritte femme Mongeon Colas Jacquat",
+      "precipitating_quarrel": "none - test of powder",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Florent Padoulx",
+      "harm_category": "human_death",
+      "harm_description": "died after 3 weeks of illness",
+      "attributed_to": "Margueritte femme Mongeon Colas Jacquat",
+      "precipitating_quarrel": "quarrel with husband about marriage settlement promised by relatives",
+      "time_between_quarrel_and_harm": "died after 3 weeks",
+      "method_alleged": "powder in his soup"
+    },
+    {
+      "victim_name": "cow belonging to Didier Ganat",
+      "victim_relationship_to_witness": "self (Didier's cow)",
+      "harm_category": "animal_death",
+      "harm_description": "cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Margueritte femme Mongeon Colas Jacquat",
+      "precipitating_quarrel": "quarrels with her brother Didier Ganat",
+      "time_between_quarrel_and_harm": "shortly after",
+      "method_alleged": "powder",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "cow belonging to Chretien (Lucas) Brandec",
+      "harm_category": "animal_death",
+      "harm_description": "cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Margueritte femme Mongeon Colas Jacquat",
+      "precipitating_quarrel": "he had charged her too much tax",
+      "method_alleged": "powder (implied)"
+    },
+    {
+      "harm_category": "crop_damage",
+      "harm_description": "crops of Herbepaire spoiled",
+      "attributed_to": "witches collectively (including Margueritte)",
+      "time_between_quarrel_and_harm": "4 years earlier"
+    },
+    {
+      "harm_category": "crop_damage",
+      "harm_description": "attempted to spoil crops by causing continuous rains",
+      "attributed_to": "witches collectively (including Margueritte)",
+      "time_between_quarrel_and_harm": "previous year"
+    },
+    {
+      "harm_category": "weather_event",
+      "harm_description": "made hail at sabbat (but God caused it to fall harmlessly)",
+      "attributed_to": "witches at sabbat (including Margueritte)",
+      "time_between_quarrel_and_harm": "previous St Jean"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "black powder",
+      "context": "given by devil to kill",
+      "category": "magical"
+    },
+    {
+      "object": "yellow powder",
+      "context": "given by devil to make languish",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "given by devil to heal",
+      "category": "magical"
+    },
+    {
+      "object": "soup",
+      "context": "Margueritte put powder in husband's soup",
+      "category": "food"
+    },
+    {
+      "object": "money (turned to leaves)",
+      "context": "devil offered money which turned out to be leaves",
+      "category": "money"
+    },
+    {
+      "object": "hen",
+      "context": "gave annual hen not to go to sabbat more often",
+      "category": "agricultural"
+    },
+    {
+      "object": "bed",
+      "context": "carried bed through the air to dance around it",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neuveville-les-Raon",
+      "place_type": "village",
+      "context": "residence of accused"
+    },
+    {
+      "place_name": "St Marie",
+      "place_type": "village",
+      "context": "where Margueritte went into service for 2 years"
+    },
+    {
+      "place_name": "Kespey in Allemaigne",
+      "place_type": "village",
+      "context": "where Margueritte worked and was seduced by devil"
+    },
+    {
+      "place_name": "côte de Repy",
+      "place_type": "sabbat_location",
+      "context": "location of sabbat"
+    },
+    {
+      "place_name": "bridge",
+      "place_type": "other",
+      "context": "place beyond which bed was carried during first incident"
+    },
+    {
+      "place_name": "vines",
+      "place_type": "field",
+      "context": "where devil approached Margueritte in Kespey"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "field",
+      "context": "where Margueritte went in angry mood after quarrel with first husband"
+    },
+    {
+      "place_name": "Herbepaire",
+      "place_type": "village",
+      "context": "crops spoiled by witches 4 years earlier"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "hail made at sabbat (harmless)",
+      "continuous rains to spoil crops"
+    ],
+    "economic_hardship_indicators": [
+      "dispute over tax charged by Chretien Brandec",
+      "anger over unfulfilled marriage settlement"
+    ],
+    "religious_calendar_references": [
+      "St Jean"
+    ]
+  },
+  "legal_context": {
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved"
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 3,
+    "hearsay_testimony_count": 0,
+    "oldest_accusation_years": 4
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "offered to confess",
+      "very angry with relatives of husband"
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Florent Padoulx",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "first husband (deceased)",
+      "context": "died after 3 weeks of illness; Margueritte confessed to killing him with powder"
+    },
+    {
+      "name": "George Ganat",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father (deceased)",
+      "context": "late father of accused"
+    },
+    {
+      "name": "Catherine",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "mother (deceased)",
+      "context": "mother who introduced her to witchcraft 18 years earlier"
+    },
+    {
+      "name": "Zabel femme Didier Pescheur",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "had already accused Margueritte; seen at sabbat and first incident"
+    },
+    {
+      "name": "Claudatte femme George Mongeat",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "confrontation with her led to Margueritte's confession offer"
+    },
+    {
+      "name": "Demenge Jean Mercier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "seen at first incident, greatly troubled in his mind (deceased)"
+    },
+    {
+      "name": "Nicolle femme Jean Gerardin",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "seen at first incident in upper chamber"
+    },
+    {
+      "name": "la Faillée",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "seen at first incident (deceased)"
+    },
+    {
+      "name": "Marguitte femme Chrestofle Jean Piere",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "seen at sabbat (executed)"
+    },
+    {
+      "name": "Hannix femme Jean Faillé",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "seen at sabbat (deceased)"
+    },
+    {
+      "name": "Jehenne veuve Colas Chretien",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "seen at sabbat (deceased)"
+    },
+    {
+      "name": "Chretien (Lucas) Brandec",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "lost a cow allegedly killed by Margueritte over tax dispute"
+    },
+    {
+      "name": "Marguitte femme Didier Gerardin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "attended Florent Padoulx during his final illness"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI Assistant)",
+    "confidence": "high",
+    "notes": "Trial record is relatively complete with clear confession narrative, witness testimony, and timeline. Margueritte offered to confess voluntarily after confrontations with other accused witches. No torture was used. The Change de Nancy requested additional depositions before approving death sentence.",
+    "pdf_pages": 2
+  }
+}

@@ -3,6 +3,8 @@
   "archive_ref": "B 8535 no 2",
   "location": "Rozieres",
   "court": "Court at Rozieres",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1603-12-05",
     "end": "1603-12-20",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Ydatte veuve Demenge Moyne",
+      "person_id": null,
       "gender": "female",
       "age": 68,
       "age_approximate": false,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "other"],
       "occupation": ["beggar", "hermit"],
       "origin": "Tonnoy",
       "residence": "Rozieres",
@@ -50,6 +56,7 @@
     {
       "number": 1,
       "name": "Chrestienne femme Alixy Domballe",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -79,6 +86,7 @@
     {
       "number": 2,
       "name": "Francoise femme Gerard Barlet",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -108,6 +116,7 @@
     {
       "number": 3,
       "name": "Annon femme Mengin Regnault le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -137,6 +146,7 @@
     {
       "number": 4,
       "name": "Mengeon femme Claudon Chapelier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -166,6 +176,7 @@
     {
       "number": 5,
       "name": "Catherine femme Sr Jean Clerc",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -195,6 +206,7 @@
     {
       "number": 6,
       "name": "Didier Clement",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "occupation": "bouchier (butcher)",
@@ -836,7 +848,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -854,6 +871,7 @@
   "third_parties": [
     {
       "name": "Gerard Marchal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "customer/neighbor",
       "relationship_to_witness": null,
@@ -861,6 +879,7 @@
     },
     {
       "name": "Gerard Marchal's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -868,6 +887,7 @@
     },
     {
       "name": "Francois Masson",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased first husband",
       "relationship_to_witness": null,
@@ -875,6 +895,7 @@
     },
     {
       "name": "Demenge le Moyne",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased second husband",
       "relationship_to_witness": null,
@@ -882,6 +903,7 @@
     },
     {
       "name": "Alixy Domballe",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "customer",
       "relationship_to_witness": "husband of witness 1",
@@ -889,6 +911,7 @@
     },
     {
       "name": "Gerard Barlet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "husband of witness 2",
@@ -896,6 +919,7 @@
     },
     {
       "name": "Mengin Regnault le jeune",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "husband of witness 3",
@@ -903,6 +927,7 @@
     },
     {
       "name": "Sibille",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 3",
@@ -910,6 +935,7 @@
     },
     {
       "name": "Claudon Chapelier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "husband of witness 4",
@@ -917,6 +943,7 @@
     },
     {
       "name": "Sr Jean Clerc",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "husband of witness 5",
@@ -924,6 +951,7 @@
     },
     {
       "name": "Didier Cadet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "son-in-law of witness 6",

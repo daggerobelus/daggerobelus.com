@@ -3,6 +3,14 @@
   "archive_ref": "B 3792 no 2",
   "location": "Dompierre",
   "court": "Prevot of Bruyeres",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Dieudonne veuve Jean Bache",
+    "person_id": null,
+    "occupation": null,
+    "location": "Dompierre",
+    "relationship_to_accused": "community member, victim of assault"
+  },
   "dates": {
     "start": "1615-11-18",
     "end": "1616-01-29",
@@ -12,10 +20,17 @@
   "accused": [
     {
       "name": "Jean Gerardin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": false,
-      "occupation": ["soldier", "laboureur"],
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
+      "occupation": [
+        "soldier",
+        "laboureur"
+      ],
       "origin": null,
       "residence": "Dompierre",
       "marital_status": "married",
@@ -50,6 +65,7 @@
     {
       "number": 1,
       "name": "Demenge Biernon",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -86,6 +102,7 @@
     {
       "number": 2,
       "name": "Demenge Antoine",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -115,6 +132,7 @@
     {
       "number": 3,
       "name": "Nicolas Jean Ferry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -168,7 +186,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -197,7 +216,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -226,7 +246,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -247,7 +268,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -276,7 +298,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -312,7 +335,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -348,7 +372,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -369,7 +394,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 13,
@@ -390,7 +416,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -419,7 +446,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -440,7 +468,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -469,7 +498,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -490,7 +520,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -511,7 +542,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -540,7 +572,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -561,7 +594,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 21,
@@ -590,7 +624,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 22,
@@ -619,7 +654,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -722,7 +758,12 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["thumbscrews on hands", "thumbscrews on feet", "rack", "tourtillons"],
+    "methods": [
+      "thumbscrews on hands",
+      "thumbscrews on feet",
+      "rack",
+      "tourtillons"
+    ],
     "requesting_official": "Procureur General des Vosges",
     "approving_court": "Change de Nancy",
     "restrictions": "observans la mediocrité requise et convenable a Justice"
@@ -1460,8 +1501,13 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
-    "property_confiscation_mentioned": true
+    "property_confiscation_mentioned": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Change de Nancy opted for pillory, whipping, perpetual banishment, shoulder marking, and confiscation instead of death penalty recommended by PG",
+      "local_court_followed": false
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 15,
@@ -1485,9 +1531,23 @@
     ],
     "oldest_accusation_years": 12,
     "corroboration_groups": [
-      [2, 3, 4, 9, 12, 13],
-      [8, 15],
-      [16, 4, 7]
+      [
+        2,
+        3,
+        4,
+        9,
+        12,
+        13
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        16,
+        4,
+        7
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1528,70 +1588,80 @@
       "role_in_narrative": "victim",
       "relationship_to_accused": "victim of assault",
       "relationship_to_witness": "mother of witness 8",
-      "context": "original complainant whose assault triggered the investigation"
+      "context": "original complainant whose assault triggered the investigation",
+      "person_id": null
     },
     {
       "name": "La Grande Marye",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother-in-law",
       "relationship_to_witness": null,
-      "context": "widow living at Grandviller, mother of Gerardin's wife Marguerite"
+      "context": "widow living at Grandviller, mother of Gerardin's wife Marguerite",
+      "person_id": null
     },
     {
       "name": "Bastien Gerardin",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
-      "context": "father of accused, also suspected of witchcraft, struck boy with white stick"
+      "context": "father of accused, also suspected of witchcraft, struck boy with white stick",
+      "person_id": null
     },
     {
       "name": "Georgeon Poirot",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "father of boy who fought with young Jean Gerardin",
       "relationship_to_witness": null,
-      "context": "his son was struck by Bastien Gerardin"
+      "context": "his son was struck by Bastien Gerardin",
+      "person_id": null
     },
     {
       "name": "Maxine wife of schoolmaster of Thaon",
       "role_in_narrative": "other",
       "relationship_to_accused": "lover",
       "relationship_to_witness": null,
-      "context": "affair with Gerardin 12 years ago, child possibly his"
+      "context": "affair with Gerardin 12 years ago, child possibly his",
+      "person_id": null
     },
     {
       "name": "Nicolas de Sercoeur",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "person Jannon confided in",
-      "context": "late, Jannon told him about rape while ploughing with him"
+      "context": "late, Jannon told him about rape while ploughing with him",
+      "person_id": null
     },
     {
       "name": "Demenge Gerardin",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": null,
-      "context": "unmarried brother who sold horse"
+      "context": "unmarried brother who sold horse",
+      "person_id": null
     },
     {
       "name": "Mongeote",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister-in-law",
       "relationship_to_witness": null,
-      "context": "sister of Marguerite, reproached her for aiding husband's attempts to seduce Claudate"
+      "context": "sister of Marguerite, reproached her for aiding husband's attempts to seduce Claudate",
+      "person_id": null
     },
     {
       "name": "Messieurs Bauffremonts",
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "military commander of witness 20",
-      "context": "military leaders in Burgundy campaign"
+      "context": "military leaders in Burgundy campaign",
+      "person_id": null
     },
     {
       "name": "Monsieur de Tremblecourt",
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "military commander of witness 20",
-      "context": "military leaders in Burgundy campaign"
+      "context": "military leaders in Burgundy campaign",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

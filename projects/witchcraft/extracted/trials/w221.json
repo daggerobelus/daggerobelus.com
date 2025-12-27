@@ -1,0 +1,925 @@
+{
+  "trial_id": "w221",
+  "archive_ref": "B 8691 no 10",
+  "location": "St Blaise",
+  "language_region": "french",
+  "dates": {
+    "start": "1603-01-16",
+    "end": "1603-01-22",
+    "duration_days": 6
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Marion",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "occupation": ["blacksmith"],
+      "origin": "St Blaise",
+      "residence": "St Blaise",
+      "marital_status": "married",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "parents": {
+        "mother": "[executed witch, name unknown]"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "devil_name": "Mre Navel",
+        "seduction_date": "10 years earlier",
+        "seduction_context": "while fencing a field, and feeling sad while thinking of mother's execution and own money problems",
+        "powder_types": ["black powder (to kill)", "grey powder (to cure)"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "feasting", "making hail"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Hanry Jean Hanri",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Magdelaine",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12
+      }
+    },
+    {
+      "number": 3,
+      "name": "Anthoinette femme Jean Magdelaine",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Idoult Jané",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "two oxen",
+            "target_relationship": "belonged to Jean Bresson",
+            "attributed_to": "Jean Marion"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Valentin Jané",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 6,
+      "name": "Barbe femme du precedent",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 7,
+      "name": "Mengeotte femme Idoult Jané",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "threat_received": true,
+        "threat_quote": "qu'au diable soit donnée la femme de Hanry Jean Hanry (convicted at Moyenmoutier) que sans elle il n'eust pas eu le bruict d'estre sorcier"
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jean Bresson alias Neuxat",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute and fight",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "self",
+            "attributed_to": "Jean Marion",
+            "time_after_quarrel": "after fight 2 years earlier"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "self",
+            "attributed_to": "Jean Marion",
+            "time_after_quarrel": "week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Georgeatte femme Mengeon le Clerc",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudatte femme Colas le Clerc",
+      "person_id": null,
+      "gender": "female",
+      "age": 31,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11
+      }
+    },
+    {
+      "number": 11,
+      "name": "Colas le Clerc",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14
+      }
+    },
+    {
+      "number": 12,
+      "name": "Babellon femme Jean Bresson",
+      "person_id": null,
+      "gender": "female",
+      "age": 23,
+      "location": "St Blaise",
+      "relationship_to_accused": "wife of Jean Bresson",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "self (husband's animals)",
+            "attributed_to": "Jean Marion"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Marguitte femme Humbert Drappier",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "took horse to another smith at Raon to heal it",
+        "threat_received": true,
+        "threat_quote": "she would see what came of it",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean Marion",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jacquat Jean Adam",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "occupation": "smith",
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 13,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "ringing bells during storm",
+        "threat_received": true,
+        "threat_quote": "he would wear them out with so much ringing"
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claudon Curien",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "location": "St Blaise",
+      "testimony": {
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Mongeon Bresson",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "decided to use another smith (Jacquat Jean Adam) to shoe his horses",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "self",
+            "attributed_to": "Jean Marion",
+            "time_after_quarrel": "after quarrel 10 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Idoult Jean Martin",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12
+      }
+    },
+    {
+      "number": 18,
+      "name": "Claudon Verberiat",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7
+      }
+    },
+    {
+      "number": 19,
+      "name": "Mongeon Bourard",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "occupation": "deputy of commune for collection of taxes",
+      "location": "St Blaise",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "added 2 blancs to Marion's tax payment",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "son aged 4",
+            "target_relationship": "self (son)",
+            "attributed_to": "Jean Marion",
+            "time_after_quarrel": "at that moment"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Catherine femme du precedent",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "location": "St Blaise",
+      "relationship_to_accused": "wife of Mongeon Bourard",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "son aged 4",
+            "target_relationship": "self (son)",
+            "attributed_to": "Jean Marion"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Demenge Potier le jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Raon",
+      "testimony": {}
+    },
+    {
+      "number": 22,
+      "name": "Demenge Piernille",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Raon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Jacquatte fille feu Jean Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "La Neuveville",
+      "relationship_to_accused": "owed him money",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "asked for money due to him and was angry when he could not have it",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 cows and a calf",
+            "target_relationship": "self",
+            "attributed_to": "Jean Marion",
+            "time_after_quarrel": "within 8 days"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1603-01-16",
+      "event": "informations_preparatoires",
+      "subject": "Jean Marion",
+      "details": "23 witnesses testified"
+    },
+    {
+      "date": "1603-01-17",
+      "event": "interrogation",
+      "subject": "Jean Marion",
+      "details": "First interrogation, initially denied accusations, then asked for time to think"
+    },
+    {
+      "date": "1603-01-17",
+      "event": "interrogation",
+      "subject": "Jean Marion",
+      "details": "Second interrogation same day, made full confession"
+    },
+    {
+      "date": "1603-01-18",
+      "event": "interrogation",
+      "subject": "Jean Marion",
+      "details": "Confirmed earlier confessions and added more malefices"
+    },
+    {
+      "date": "1603-01-19",
+      "event": "death_requested",
+      "subject": "Jean Marion",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1603-01-20",
+      "event": "death_approved",
+      "subject": "Jean Marion",
+      "details": "Change de Nancy approves after free repetition of confessions"
+    },
+    {
+      "date": "1603-01-22",
+      "event": "other",
+      "subject": "Jean Marion",
+      "details": "Final confirmation of confessions"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Babellon femme Hanry Jean Hanry",
+      "location": "St Blaise",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jennon veuve Colas Bresson alias Neuxat",
+      "location": "St Blaise",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jaulne femme Claudon Curien",
+      "location": "St Blaise",
+      "context": "seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Claudatte veuve Chrespaille le maire",
+      "location": "St Blaise",
+      "context": "seen at sabbat",
+      "already_executed": true
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "[two convicted witches]",
+      "context": "accused him during their trials",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Marion",
+      "french": "et se repent qu'il ne print ung fourche de fer pour assommer la femme dudit Jean Bresson, veu qu'elle luy disoit qu'il avoit ensorcelé leur boeufz et que sy alors on l'eust faict mourir qu'il de par dieu",
+      "context": "outburst during interrogation about Jean Bresson's wife"
+    },
+    {
+      "speaker": "Mengeotte femme Idoult Jané",
+      "french": "qu'au diable soit donnée la femme de Hanry Jean Hanry (convicted at Moyenmoutier) que sans elle il n'eust pas eu le bruict d'estre sorcier",
+      "context": "Marion's statement 5 years earlier on way to market at Raon"
+    },
+    {
+      "speaker": "Claudon Verberiat",
+      "french": "qu'il a ferme opinion que ledit Marion par ses sortilleges a causé les grandes pertes du Bestails qui sont advenues depuis peu de temps ença audit St Blaise, en sorte que les pauvres habitants en sont quasy reduictz en grandes pauvretez",
+      "context": "testimony linking Marion's witchcraft to widespread livestock losses causing poverty"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Marion",
+      "person2": "[mother's name unknown]",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother had been executed some 30 years earlier"
+    },
+    {
+      "person1": "Jean Marion",
+      "person2": "[wife's name unknown]",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mentioned wife's property"
+    },
+    {
+      "person1": "Jean Magdelaine",
+      "person2": "Anthoinette femme Jean Magdelaine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Valentin Jané",
+      "person2": "Barbe femme du precedent",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Idoult Jané",
+      "person2": "Mengeotte femme Idoult Jané",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Mengeon le Clerc",
+      "person2": "Georgeatte femme Mengeon le Clerc",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Colas le Clerc",
+      "person2": "Claudatte femme Colas le Clerc",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Jean Bresson",
+      "person2": "Babellon femme Jean Bresson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Humbert Drappier",
+      "person2": "Marguitte femme Humbert Drappier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Marguitte femme Humbert Drappier",
+      "person2": "Jean Chapelle",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "as widow of Jean Chapelle, took horse to accused to be shod"
+    },
+    {
+      "person1": "Mongeon Bourard",
+      "person2": "Catherine femme du precedent",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Mongeon Bourard",
+      "person2": "[son aged 4]",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim"
+    },
+    {
+      "person1": "Catherine femme du precedent",
+      "person2": "[son aged 4]",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim"
+    },
+    {
+      "person1": "Jacquatte",
+      "person2": "Jean Henry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jacquatte fille feu Jean Henry"
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "two oxen",
+      "victim_relationship_to_witness": "belonged to Jean Bresson",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "animal_type": "ox",
+      "animal_count": 2,
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "dispute",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "various animals",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "dispute and fight",
+      "time_between_quarrel_and_harm": "after fight",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jean Marion",
+      "time_between_quarrel_and_harm": "week later",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "animals",
+      "victim_relationship_to_witness": "husband's animals",
+      "harm_category": "animal_death",
+      "harm_description": "strayed into his meadow and died",
+      "attributed_to": "Jean Marion",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "leg became swollen, then died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "took horse to another smith at Raon to heal it",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "powder on nail when shoeing",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died as if rabid",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "decided to use another smith to shoe horses",
+      "time_between_quarrel_and_harm": "after quarrel 10 years earlier",
+      "method_alleged": "powder",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "son aged 4",
+      "victim_relationship_to_witness": "self (son)",
+      "harm_category": "human_illness",
+      "harm_description": "remained ill for 5 weeks, unable to stand",
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "added 2 blancs to Marion's tax payment",
+      "time_between_quarrel_and_harm": "at that moment",
+      "method_alleged": "powder",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "2 cows and a calf",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "animal_type": "cow",
+      "animal_count": 3,
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "asked for money due and was angry when could not have it",
+      "time_between_quarrel_and_harm": "within 8 days",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "Claudon Viberat",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Marion",
+      "precipitating_quarrel": "animals caused damage",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "2 cows",
+      "victim_relationship_to_witness": "Marie Thoussainct",
+      "harm_category": "animal_death",
+      "harm_description": "death",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Jean Marion",
+      "method_alleged": "powder"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "breibelles",
+      "context": "food son was eating out of a hat when he fell ill",
+      "category": "food"
+    },
+    {
+      "object": "hat",
+      "context": "used as container for food",
+      "category": "household"
+    },
+    {
+      "object": "black powder",
+      "context": "magical powder given by devil to kill",
+      "category": "magical"
+    },
+    {
+      "object": "grey powder",
+      "context": "magical powder given by devil to cure",
+      "category": "magical"
+    },
+    {
+      "object": "money (leaves)",
+      "context": "devil gave him leaves that appeared as money",
+      "category": "money"
+    },
+    {
+      "object": "lamb",
+      "context": "gave master a lamb each year to be exempted from attending sabbat",
+      "category": "agricultural"
+    },
+    {
+      "object": "nail",
+      "context": "used when shoeing horse, put powder on it",
+      "category": "tools"
+    },
+    {
+      "object": "fourche de fer",
+      "context": "iron fork mentioned in outburst about wanting to attack witness",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "St Blaise",
+      "place_type": "village",
+      "context": "primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "market",
+      "context": "market town where witnesses went, location of another smith"
+    },
+    {
+      "place_name": "La Neuveville",
+      "place_type": "village",
+      "context": "location of Maire Thoussainct's house"
+    },
+    {
+      "place_name": "Colroy",
+      "place_type": "village",
+      "context": "home of Jean Thomas who called Marion witch"
+    },
+    {
+      "place_name": "Moyenmoutier",
+      "place_type": "village",
+      "context": "where Hanry Jean Hanry's wife was convicted"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["storms", "hail"],
+    "economic_hardship_indicators": [
+      "widespread livestock losses causing poverty in St Blaise",
+      "Marion had money problems",
+      "Marion sold what little property his wife had"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Maire Thoussainct",
+        "role": "mayor",
+        "location": "La Neuveville"
+      }
+    ],
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": false,
+    "details": "Multiple witnesses reported switching to another blacksmith (Jacquat Jean Adam), leading to quarrels and suspected maleficia. Marion had tax disputes with Mongeon Bourard. Marion inquired about property confiscation, stating he had acquired nothing and sold his wife's property. Witness testimony directly links Marion's alleged witchcraft to widespread livestock losses causing severe poverty in St Blaise."
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 10,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Idoult Jané",
+        "source": "Jean Bresson",
+        "content": "two oxen had died through his witchcraft after a dispute"
+      }
+    ],
+    "oldest_accusation_years": 20
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "showed tendency to shift position under pressure",
+      "burst out in anger about Jean Bresson's wife",
+      "refused to answer about conversation with Demenge Potier",
+      "asked for time to think"
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Thomas",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "location": "Colroy",
+      "context": "called Marion witch in public without reparation being sought"
+    },
+    {
+      "name": "Maire Thoussainct",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "location": "La Neuveville",
+      "context": "mayor at whose house money was owed to Marion"
+    },
+    {
+      "name": "Marie Thoussainct",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "lost 2 cows to Marion's alleged witchcraft"
+    },
+    {
+      "name": "Jean Chapelle",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "deceased first husband of Marguitte (witness 13)"
+    },
+    {
+      "name": "Claudon Viberat",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "lost cow after his animals caused damage"
+    },
+    {
+      "name": "Jean Bresson",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "lost oxen after dispute (reported by other witness)"
+    },
+    {
+      "name": "Hanry Jean Hanry's wife",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "location": "Moyenmoutier",
+      "context": "convicted witch, Marion blamed her for his reputation"
+    },
+    {
+      "name": "[Marion's grandfather]",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "also reputed a witch"
+    },
+    {
+      "name": "[Marion's mother]",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "executed 15-16 years earlier (30 years per Marion's testimony)"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial shows pattern of occupational disputes (blacksmith losing customers to competitor Jacquat Jean Adam) leading to maleficia accusations. Notable family history of witchcraft (mother and grandfather). Confession came without torture after initial denials. Change de Nancy approved death sentence. Widespread livestock mortality attributed to Marion by community.",
+    "pdf_pages": 4
+  }
+}

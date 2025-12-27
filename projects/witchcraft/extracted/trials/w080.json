@@ -3,6 +3,14 @@
   "archive_ref": "B 4126 no 3",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "George Grosjean",
+    "person_id": null,
+    "occupation": "tondeur de drap (cloth shearer)",
+    "location": "Charmes",
+    "relationship_to_accused": "lived in same house 6 years earlier"
+  },
   "dates": {
     "start": "1625-06-13",
     "end": "1625-08-21",
@@ -12,10 +20,21 @@
   "accused": [
     {
       "name": "Claudon veuve George Martin",
+      "person_id": null,
       "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies",
+        "charms_amulets",
+        "divination"
+      ],
       "age": 48,
       "age_approximate": false,
-      "occupation": ["folk healer", "maker of pilgrimages"],
+      "occupation": [
+        "folk healer",
+        "maker of pilgrimages"
+      ],
       "origin": "Charmes",
       "residence": "Charmes",
       "marital_status": "widowed",
@@ -41,7 +60,11 @@
         "powder_types": [],
         "sabbat_attended": true,
         "sabbat_locations": [],
-        "sabbat_activities": ["kissed anus of Devil in form of ox", "danced back-to-back", "complots among witches against harvests"],
+        "sabbat_activities": [
+          "kissed anus of Devil in form of ox",
+          "danced back-to-back",
+          "complots among witches against harvests"
+        ],
         "sexual_relations_with_devil": false
       }
     }
@@ -50,6 +73,7 @@
     {
       "number": 1,
       "name": "George Grosjean",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "tondeur de drap (cloth shearer)",
@@ -86,6 +110,7 @@
     {
       "number": 2,
       "name": "Francoise femme de Nicolas Moynel",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": null,
@@ -122,6 +147,7 @@
     {
       "number": 3,
       "name": "Jannon veuve de Jean Estienne",
+      "person_id": null,
       "gender": "female",
       "age": 37,
       "occupation": null,
@@ -143,6 +169,7 @@
     {
       "number": 4,
       "name": "Claude Vaultrin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "boulanger (baker)",
@@ -179,6 +206,7 @@
     {
       "number": 5,
       "name": "Janne femme à Claude Vaultrin",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -208,6 +236,7 @@
     {
       "number": 6,
       "name": "Catherine veuve Bastien Richard",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -237,6 +266,7 @@
     {
       "number": 7,
       "name": "Claude Habille",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": "maitre sellier (master saddler)",
@@ -273,6 +303,7 @@
     {
       "number": 8,
       "name": "Anne femme à Remy Paris",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": null,
@@ -316,6 +347,7 @@
     {
       "number": 9,
       "name": "Janne servante au maire Claude Ulriet",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": "servant to the mayor",
@@ -337,6 +369,7 @@
     {
       "number": 10,
       "name": "Didier Simon",
+      "person_id": null,
       "gender": "male",
       "age": 58,
       "occupation": "mercier (haberdasher/merchant)",
@@ -373,6 +406,7 @@
     {
       "number": 11,
       "name": "Anne fille de Didier Simon",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -402,6 +436,7 @@
     {
       "number": 12,
       "name": "Claudon fille de Didier Simon",
+      "person_id": null,
       "gender": "female",
       "age": 18,
       "occupation": null,
@@ -431,6 +466,7 @@
     {
       "number": 13,
       "name": "Bastienne femme à Germain Soyer",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -460,6 +496,7 @@
     {
       "number": 14,
       "name": "Barbe femme de Jean du Menil",
+      "person_id": null,
       "gender": "female",
       "age": 38,
       "occupation": null,
@@ -489,6 +526,7 @@
     {
       "number": 15,
       "name": "Jean du Menil",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -510,6 +548,7 @@
     {
       "number": 16,
       "name": "Lucie femme de Nicolas Remy",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -539,6 +578,7 @@
     {
       "number": 17,
       "name": "Margueritte fille de Lucie femme de Nicolas Remy",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": null,
@@ -568,6 +608,7 @@
     {
       "number": 18,
       "name": "Barbe Sellier veuve de Phillibert Philbert",
+      "person_id": null,
       "gender": "female",
       "age": 43,
       "occupation": null,
@@ -604,6 +645,7 @@
     {
       "number": 19,
       "name": "Sebille femme de Francois Anthoine",
+      "person_id": null,
       "gender": "female",
       "age": 38,
       "occupation": null,
@@ -717,7 +759,10 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["thumbscrews on hands and feet", "rack"],
+    "methods": [
+      "thumbscrews on hands and feet",
+      "rack"
+    ],
     "requesting_official": "PG des Vosges",
     "approving_court": "Change de Nancy",
     "restrictions": "question ordinaire et extraordinaire; body hair to be shaved and nails cut back to quick"
@@ -1633,7 +1678,13 @@
     "redress_outcome": null,
     "imprisonment_conditions": "Prevot noted she was 'fort robuste et d'une complexion forte' despite time in prison, seemed to have become fatter in prison",
     "appeal_to_change_de_nancy": true,
-    "property_confiscation_mentioned": false
+    "property_confiscation_mentioned": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 19,
@@ -1652,11 +1703,27 @@
     ],
     "oldest_accusation_years": 6,
     "corroboration_groups": [
-      [7, 13],
-      [4, 5],
-      [10, 11, 12],
-      [14, 15],
-      [16, 17]
+      [
+        7,
+        13
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        10,
+        11,
+        12
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1676,6 +1743,7 @@
   "third_parties": [
     {
       "name": "George Martin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "relationship_to_witness": null,
@@ -1683,6 +1751,7 @@
     },
     {
       "name": "Nicolas Poirat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "employer of witness 1",
@@ -1690,6 +1759,7 @@
     },
     {
       "name": "Messire Adam",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "priest consulted by multiple witnesses",
@@ -1697,6 +1767,7 @@
     },
     {
       "name": "Libaire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "aunt of witness 7, daughter of Jannon",
@@ -1704,6 +1775,7 @@
     },
     {
       "name": "Remy Couturieux",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "first husband of witness 8",
@@ -1711,6 +1783,7 @@
     },
     {
       "name": "Claudon Husson",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "distant relative",
       "relationship_to_witness": null,
@@ -1718,6 +1791,7 @@
     },
     {
       "name": "Jean Grainel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "source of healing knowledge",
       "relationship_to_witness": null,
@@ -1725,6 +1799,7 @@
     },
     {
       "name": "Mansuy",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged sabbat attendee",
       "relationship_to_witness": null,
@@ -1732,6 +1807,7 @@
     },
     {
       "name": "wife of viel bonnetier of Charmes",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged sabbat attendee",
       "relationship_to_witness": null,
@@ -1739,6 +1815,7 @@
     },
     {
       "name": "Bastien Richard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 6",
@@ -1746,6 +1823,7 @@
     },
     {
       "name": "Phillibert Philbert",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 18",
@@ -1753,6 +1831,7 @@
     },
     {
       "name": "Jannon",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 13",

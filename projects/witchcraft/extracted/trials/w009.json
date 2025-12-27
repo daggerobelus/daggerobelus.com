@@ -3,6 +3,14 @@
   "archive_ref": "B 2203 no 1",
   "location": "Champegnoult",
   "court": "Court at Champegnoult, approved by Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Sr. Handel",
+    "person_id": null,
+    "occupation": "Procureur d'office",
+    "location": "Champegnoult",
+    "relationship_to_accused": "One of his cows allegedly killed by accused"
+  },
   "dates": {
     "start": "1618-05-19",
     "end": "1618-06-07",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Catherine Malgrais",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "age_approximate": true,
@@ -19,6 +28,9 @@
       "residence": "Champegnoult",
       "marital_status": "married",
       "spouse_name": "Claudon Malgrais",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Le maire Barthelemy Saulsure",
         "mother": "Zabel Saulsure"
@@ -52,6 +64,7 @@
     {
       "number": 1,
       "name": "Martin Bourdon",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "age_approximate": true,
@@ -67,6 +80,7 @@
     {
       "number": 2,
       "name": "Nicolas Boucher",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -86,6 +100,7 @@
     {
       "number": 3,
       "name": "Noel Warin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -122,6 +137,7 @@
     {
       "number": 4,
       "name": "Jean Melain",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -148,6 +164,7 @@
     {
       "number": 5,
       "name": "Epve Thouvenin",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "age_approximate": true,
@@ -173,6 +190,7 @@
     {
       "number": 6,
       "name": "Nicolas Warin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -199,6 +217,7 @@
     {
       "number": 7,
       "name": "Demenge Perey",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "age_approximate": true,
@@ -223,6 +242,7 @@
     {
       "number": 8,
       "name": "Nicolas Perey",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "laboureur",
@@ -246,6 +266,7 @@
     {
       "number": 9,
       "name": "Jacques Doyen",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -278,6 +299,7 @@
     {
       "number": 10,
       "name": "Nicolas Cathon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -303,6 +325,7 @@
     {
       "number": 11,
       "name": "Claudon Corbel",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -328,6 +351,7 @@
     {
       "number": 12,
       "name": "Colas Grand Colas",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "age_approximate": true,
@@ -353,6 +377,7 @@
     {
       "number": 13,
       "name": "Jean Mercier",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "age_approximate": true,
@@ -377,6 +402,7 @@
     {
       "number": 14,
       "name": "Claude de Montigny",
+      "person_id": null,
       "gender": "male",
       "age": 14,
       "occupation": "servant",
@@ -406,6 +432,7 @@
     {
       "number": 15,
       "name": "Margueritte Faulcet",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "age_approximate": true,
@@ -1022,7 +1049,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "She claimed multiple times she lacked the means to pursue legal action against those who called her witch",
     "imprisonment_conditions": "Jean Parmentier mentioned as being 'also in prison' during her interrogation",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1082,78 +1114,92 @@
   "third_parties": [
     {
       "name": "Sr. Handel",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "procureur d'office prosecuting her",
       "context": "One of his cows died after incident previous summer; he was the prosecutor requesting torture and death"
     },
     {
       "name": "Sr. Philippe George",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accuser",
       "context": "Docteur en droict advocat a Nancy who publicly called her witch 8-9 days before trial, accused her of killing his father and sister"
     },
     {
       "name": "Jean Roussel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Mentioned during torture interrogation as owner of cows allegedly killed; Catherine denied this"
     },
     {
       "name": "Jean Parmentier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "context": "Also in prison during Catherine's trial; mentioned as seeing her at sabbat; she claimed to have seen him there too"
     },
     {
       "name": "la Grosse Catherine",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Another Catherine arrested for witchcraft about 8-9 years earlier; mentioned as context for suspicions"
     },
     {
       "name": "Laurent Thouvenin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "father of witness Epve Thouvenin and victim Marie",
       "context": "Father of Marie who died after quarrel with Catherine's daughter"
     },
     {
       "name": "Jean la Tresse",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "previous husband of witness Margueritte Faulcet",
       "context": "Returned from war with another woman; violent quarrel with Margueritte"
     },
     {
       "name": "woman from La Garde",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Inquired about Catherine's reputation for son's marriage arrangement; told Catherine what Margueritte said"
     },
     {
       "name": "wife of Jean Parmentier",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Jean Parmentier said he would see if she also wished to come to sabbat"
     },
     {
       "name": "unnamed daughters of Catherine",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughters",
       "context": "One quarrelled with Marie at poisle when spinning; another sought in marriage by son from La Garde"
     },
     {
       "name": "unnamed sons of Catherine",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sons",
       "context": "One had fiancailles that Bastien le Reistre wanted to attend"
     },
     {
       "name": "valet of Noel Warin",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Saw Catherine apparently talking in fields before cows died"
     },
     {
       "name": "valet of Jean Mercier",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Reported mare ate hay Catherine was drying and she drove it away"
     },
     {
       "name": "man who skinned horse",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Said Demenge Perey's horse was poisoned and 'enginoxé'"
     }

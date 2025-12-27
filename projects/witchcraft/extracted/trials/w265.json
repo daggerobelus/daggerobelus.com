@@ -1,0 +1,1282 @@
+{
+  "trial_id": "w265",
+  "archive_ref": "B 8708 no 4",
+  "location": "Nompatelize",
+  "court": "Etival",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jennon femme Bertremin de Laval dit la Mouratte",
+    "person_id": null,
+    "relationship_to_accused": "accomplice who named him"
+  },
+  "dates": {
+    "start": "1611-04-14",
+    "end": "1611-05-18",
+    "duration_days": 34
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Marechal",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 40,
+      "age_approximate": true,
+      "occupation": ["laboureur", "hermit"],
+      "residence": "hermitage of Boullain",
+      "origin": "la Bourgonce",
+      "marital_status": "married",
+      "parents": {
+        "father": "Colas Bidat alias le Mareschal",
+        "mother": "Claudatte alias la Gabouratte"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Maitre Persin",
+        "seduction_date": "10 years before trial",
+        "seduction_context": "Very upset during hay harvest when one of his horses, maddened by flies, was killed jumping a fence. Devil promised plenty of money to buy other horses so he should never want.",
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["les gemelz"],
+        "sabbat_activities": ["danced to sound of flute", "ate unsalted meat", "made hail"]
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudatte femme Symon de Besmont",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor, husband had dispute with accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over water from village sewer, to which both laid claim",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "husband's ox",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "same day ox fell ill, died two days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Alizon femme Georgeon Claudon Noel",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "occupation": "moictrier",
+      "location": "grange du haut ban",
+      "relationship_to_accused": "heard stories about him",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jacquot Claudon Noel",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor, formerly lodged in accused's house",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 19,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wife or children fed three cows on grass Jean had cut",
+        "threat_received": false,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "three cows",
+            "target_relationship": "witness's cows",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "promptly lost milk, slowly recovered"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Symon de Besmont",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "Nompatelize",
+      "relationship_to_accused": "worked together on carting contract",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "by accident he had carted a load instead of accused",
+        "threat_received": true,
+        "threat_quote": "he would repent, and would scarcely cart any more",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine ox",
+            "target_relationship": "witness's ox",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "sickened and died in 3 days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jean de Besmont",
+      "person_id": null,
+      "gender": "male",
+      "age": 55,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor with multiple disputes",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over ploughing at boundary of field; later dispute over ploughing in common when both wanted to go to market at Raon on same Saturday morning",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean de Besmont",
+            "target_relationship": "self",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "within a few days became ill, was in bed for 2 weeks"
+          },
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "witness's foal",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "lost foal same day as market dispute"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jean Regnauldin",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Nompatelize",
+      "relationship_to_accused": "went fishing together as youths",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Didier Claudon Noel",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused refused to compensate him for damage done by his animals",
+        "threat_received": true,
+        "threat_quote": "he would soon repent",
+        "called_witch_publicly": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "within a fortnight sickened and died next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Anthoine Doridant",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused did not feed village herdsman as witness and other inhabitants had done by turns",
+        "threat_received": true,
+        "threat_quote": "et que peult estre Dieu ne luy feroit la grace d'avoir des bestiaulx pour les chasser devant ledit paistre",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow in milk",
+            "target_relationship": "witness's cow",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "next day after accused visited and asked about their cows, sickened and died in 24 hours"
+          },
+          {
+            "type": "animal_death",
+            "target": "bull",
+            "target_relationship": "witness's bull",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "subsequently"
+          },
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "witness's calf",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "subsequently"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Noel",
+      "person_id": null,
+      "gender": "male",
+      "age": 52,
+      "location": "Nompatelize",
+      "relationship_to_accused": "debtor to accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt collection",
+        "threat_received": true,
+        "threat_quote": "que tant plus le deposant penseroit amasser que de tant plus s'en yroit il a neant",
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 fine cows and other animals",
+            "target_relationship": "witness's animals",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "after the threat, reduced to great poverty"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Mengeon Gelyat",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "la Bourgonce",
+      "relationship_to_accused": "business partner in carting contract",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused was angry because witness had good horses and could cart half as much again in a load",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 horses",
+            "target_relationship": "witness's horses",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "lost 3 horses in a week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Humbert Hanriat Mathieu",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Villairville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused sought joint ploughing arrangement, witness would only agree for limited period",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "witness's horses",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "within a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claudatte femme Jean Berquey",
+      "person_id": null,
+      "gender": "female",
+      "age": 29,
+      "location": "du Vivier",
+      "relationship_to_accused": "asked to go crayfishing when she was young",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Marion femme George Noel",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor, competing for field rental",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused wanted to rent a field near Boullain but husband preferred to let neighbor Jean Regnauldin have it",
+        "harms_alleged": [
+          {
+            "type": "crop_damage",
+            "target": "grain crop",
+            "target_relationship": "husband's crop",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "when grain grew, two thirds were lost to caterpillars"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Annon femme Jean Regnauldin",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor competing for field purchase",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused wanted to buy field from brother-in-law Claudon Malley of Le Mesnil for 40 ecus, husband planned to use 'retraite' if necessary",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean Regnauldin (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "about 3 weeks after signing contract, became ill and was bedridden for 5 weeks in great danger"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Floratte femme Anthoine Doridant",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute with husband over keeping of sheep",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow in milk",
+            "target_relationship": "only cow giving milk",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "after accused visited house asking about their cows"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Barbeline veuve Georgeon Choppat",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Marguitte femme Colas Gariolle",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jennon femme Jacquot Claudon Noel",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Nompatelize",
+      "relationship_to_accused": "neighbor, wife of witness 3",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cows fed on grass from behind his house",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cows",
+            "target_relationship": "witness's cows",
+            "attributed_to": "Jean Marechal",
+            "time_after_quarrel": "temporarily lost milk"
+          },
+          {
+            "type": "animal_death",
+            "target": "best calf",
+            "target_relationship": "witness's calf",
+            "attributed_to": "Jean Marechal"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-04-14",
+      "event": "informations_preparatoires",
+      "subject": "Jean Marechal",
+      "details": "18 witnesses deposed"
+    },
+    {
+      "date": "1611-04-14",
+      "event": "interrogation",
+      "subject": "Jean Marechal",
+      "details": "Denied all charges, made no circumstantial admissions"
+    },
+    {
+      "date": "1611-04-15",
+      "event": "confrontation",
+      "subject": "Jean Marechal",
+      "details": "Confronted with witnesses, no reproaches, no admissions"
+    },
+    {
+      "date": "1611-04-18",
+      "event": "torture_requested",
+      "subject": "Jean Marechal",
+      "details": "Procureur d'office asks for torture"
+    },
+    {
+      "date": "1611-04-20",
+      "event": "torture_approved",
+      "subject": "Jean Marechal",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1611-04-22",
+      "event": "torture",
+      "subject": "Jean Marechal",
+      "details": "Given thumbscrews and racked, but would confess nothing. Said he wished he was a witch so he could confess and be released from torment."
+    },
+    {
+      "date": "1611-04-27",
+      "event": "other",
+      "subject": "Jean Marechal",
+      "details": "Procureur suggests he be renvoyé unless reason to take further evidence. Approved same day by Change de Nancy."
+    },
+    {
+      "date": "1611-05-05",
+      "event": "confrontation",
+      "subject": "Jean Marechal",
+      "details": "Claudon Jean Perrin of Brehimont repeats confessions accusing Jean Marechal. Also confronted with Jean Seigaire. Jean started to confess after these confrontations."
+    },
+    {
+      "date": "1611-05-06",
+      "event": "interrogation",
+      "subject": "Jean Marechal",
+      "details": "Confirmed confessions in two separate sessions"
+    },
+    {
+      "date": "1611-05-06",
+      "event": "death_requested",
+      "subject": "Jean Marechal",
+      "details": "Procureur asked for death sentence"
+    },
+    {
+      "date": "1611-05-07",
+      "event": "death_approved",
+      "subject": "Jean Marechal",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1611-05-18",
+      "event": "execution",
+      "subject": "Jean Marechal",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "procureur d'office",
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean Seigaire",
+      "context": "Named at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jennon la Mouratte",
+      "context": "Named at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jennon veuve Colas Ydoulx",
+      "context": "Named at sabbat; also one of his accusers",
+      "already_executed": true
+    },
+    {
+      "name": "Marguitte Laurent",
+      "context": "Named at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Didier Choppat",
+      "location": "Nompatelize",
+      "context": "Initially named at sabbat but later discharged, said he was not sure he had seen him",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Mengeon Jean Dieudonné",
+      "location": "la Bourgonce",
+      "context": "Named at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Claudon Jean Perrin",
+      "location": "Brehimont",
+      "context": "Named at sabbat; was one who accused Jean Marechal which led to his confession",
+      "already_executed": false
+    },
+    {
+      "name": "Dieudonné Jean Thierion",
+      "location": "Brehimont",
+      "context": "Named at sabbat",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jennon femme Bertremin de Laval dit la Mouratte",
+      "context": "Had been accused by her",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Jennon veuve Colas Ydoulx",
+      "context": "Had been accused by her",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Claudon Jean Perrin",
+      "accuser_location": "Brehimont",
+      "context": "Repeated confessions on 5 May 1611 including accusation against Jean Marechal",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Jean Seigaire",
+      "context": "Had accused him since his torture",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Marechal",
+      "french": "que sy notre seigneur estoit encore sur terre, l'on pourroit trouver des personnes qui deposeroient telles choses contre de luy aussy bien que Judas",
+      "english": "if our lord were still on earth, one could find people who would depose such things against him as well as Judas",
+      "context": "During interrogation on 14 April 1611, denying charges"
+    },
+    {
+      "speaker": "Jennon veuve Colas Ydoulx",
+      "french": "un parfait sorcier",
+      "english": "a perfect witch",
+      "context": "Confrontation with Jean Marechal on 14 April 1611"
+    },
+    {
+      "speaker": "Jean Noel",
+      "french": "que sa sorciere de mere avoit commencé le ruyner et qu'il le voulloit achever",
+      "english": "that his witch of a mother had begun to ruin him and now he wanted to finish the job",
+      "context": "Said to accused when officer came to collect debt"
+    },
+    {
+      "speaker": "Jean Regnauldin (to Jean Marechal)",
+      "french": "un pauvre homme d'endurer telles injures, et en debvoit poursuyvre la reparation, a quoy il ne feit autres responses sinon dire tout froidement qu'il n'y scauroit que faire, et laisseroit ledit Jean Noel pour le diable",
+      "english": "a poor man to endure such injuries, and should pursue reparation, to which he made no other response except to say quite coldly that he would know nothing to do about it, and would leave said Jean Noel to the devil",
+      "context": "After Jean Noel called accused a witch"
+    },
+    {
+      "speaker": "Anthoine Doridant (threat from accused)",
+      "french": "et que peult estre Dieu ne luy feroit la grace d'avoir des bestiaulx pour les chasser devant ledit paistre",
+      "english": "and that perhaps God would not grant him the grace to have animals to drive before the said herdsman",
+      "context": "Threat made during dispute over feeding village herdsman"
+    },
+    {
+      "speaker": "Jean Noel (threat from accused to his wife)",
+      "french": "que tant plus le deposant penseroit amasser que de tant plus s'en yroit il a neant",
+      "english": "that the more the deponent thought to accumulate, the more he would come to nothing",
+      "context": "Threat made after debt collection dispute"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Marechal",
+      "person2": "Colas Bidat alias le Mareschal",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Father had been Colas Bidat alias le Mareschal of la Bourgonce, who had died when he was only 12 weeks old",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Marechal",
+      "person2": "Claudatte alias la Gabouratte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his mother Claudatte alias la Gabouratte, who had died in prison after confessing she was a witch some 20 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Symon de Besmont",
+      "person2": "Symon de Besmont",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme Symon de Besmont",
+      "inferred": false
+    },
+    {
+      "person1": "Alizon femme Georgeon Claudon Noel",
+      "person2": "Georgeon Claudon Noel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon femme Georgeon Claudon Noel",
+      "inferred": false
+    },
+    {
+      "person1": "Barbeline veuve Georgeon Choppat",
+      "person2": "Symon de Besmont",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "had heard son-in-law Symon de Besmont blame him",
+      "inferred": false
+    },
+    {
+      "person1": "Marion femme George Noel",
+      "person2": "George Noel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marion femme George Noel",
+      "inferred": false
+    },
+    {
+      "person1": "Annon femme Jean Regnauldin",
+      "person2": "Jean Regnauldin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Annon femme Jean Regnauldin",
+      "inferred": false
+    },
+    {
+      "person1": "Annon femme Jean Regnauldin",
+      "person2": "Claudon Malley",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her brother-in-law Claudon Malley of Le Mesnil",
+      "inferred": false
+    },
+    {
+      "person1": "Floratte femme Anthoine Doridant",
+      "person2": "Anthoine Doridant",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Floratte femme Anthoine Doridant",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Jean Berquey",
+      "person2": "Jean Berquey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme Jean Berquey",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Colas Gariolle",
+      "person2": "Colas Gariolle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte femme Colas Gariolle",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Jacquot Claudon Noel",
+      "person2": "Jacquot Claudon Noel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme Jacquot Claudon Noel",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquot Claudon Noel",
+      "person2": "Jean Marechal",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "when living in house of accused at Nompatelize",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "husband's ox",
+      "harm_category": "animal_death",
+      "harm_description": "ox fell ill same day, died two days later",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "dispute over water from village sewer",
+      "time_between_quarrel_and_harm": "same day fell ill",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "three cows",
+      "victim_relationship_to_witness": "witness's cows",
+      "harm_category": "animal_illness",
+      "harm_description": "cows lost their milk, slowly recovered",
+      "animal_type": "cow",
+      "animal_count": 3,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "wife or children fed cows on grass Jean had cut",
+      "time_between_quarrel_and_harm": "promptly",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "fine ox",
+      "victim_relationship_to_witness": "witness's ox",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died in 3 days",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "by accident witness had carted a load instead of accused",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jean de Besmont",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became ill, was in bed for 2 weeks",
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "dispute over ploughing at boundary of field",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "foal",
+      "victim_relationship_to_witness": "witness's foal",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "dispute over ploughing in common, both wanted to go to market at Raon on same Saturday",
+      "time_between_quarrel_and_harm": "same day",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "fine cow",
+      "victim_relationship_to_witness": "witness's cow",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died next day",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "accused refused to compensate for damage done by his animals, witness called him witch",
+      "time_between_quarrel_and_harm": "within a fortnight",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "cow in milk",
+      "victim_relationship_to_witness": "witness's cow, only one giving milk",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died in 24 hours",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "dispute over feeding village herdsman",
+      "time_between_quarrel_and_harm": "next day after accused visited and asked wife about their cows",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "bull",
+      "victim_relationship_to_witness": "witness's bull",
+      "harm_category": "animal_death",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "time_between_quarrel_and_harm": "subsequently",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "calf",
+      "victim_relationship_to_witness": "witness's calf",
+      "harm_category": "animal_death",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "time_between_quarrel_and_harm": "subsequently",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "4 fine cows and other animals",
+      "victim_relationship_to_witness": "witness's animals",
+      "harm_category": "animal_death",
+      "harm_description": "reduced witness to great poverty",
+      "animal_type": "cow",
+      "animal_count": 4,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "debt collection, witness called accused witch saying his mother had begun to ruin him",
+      "time_between_quarrel_and_harm": "after the quarrel",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "3 horses",
+      "victim_relationship_to_witness": "witness's horses",
+      "harm_category": "animal_death",
+      "harm_description": "lost 3 horses in a week, had to give up carting contract",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "accused was angry because witness had good horses and could cart half as much again",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "2 horses",
+      "victim_relationship_to_witness": "witness's horses",
+      "harm_category": "animal_death",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "accused sought joint ploughing arrangement, witness refused except for limited period, accused was furious",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "grain crop",
+      "victim_relationship_to_witness": "husband's crop",
+      "harm_category": "crop_damage",
+      "harm_description": "two thirds lost to caterpillars, had to plant afresh",
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "accused wanted to rent field near Boullain but husband preferred to let neighbor have it, accused was very angry",
+      "time_between_quarrel_and_harm": "when grain grew",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Jean Regnauldin (husband)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "became ill, was bedridden for 5 weeks in great danger",
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "accused wanted to buy field, husband planned to use 'retraite' if necessary",
+      "time_between_quarrel_and_harm": "about 3 weeks after signing contract",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "cow in milk",
+      "victim_relationship_to_witness": "only cow giving milk",
+      "harm_category": "animal_death",
+      "harm_description": "strange death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "precipitating_quarrel": "dispute with husband over keeping of sheep",
+      "time_between_quarrel_and_harm": "after accused visited and asked about their cows",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "best calf",
+      "victim_relationship_to_witness": "witness's calf",
+      "harm_category": "animal_death",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "pig",
+      "harm_category": "animal_death",
+      "harm_description": "died next day after accused tried black powder on it",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal",
+      "method_alleged": "black powder given by devil"
+    },
+    {
+      "victim_name": "ox belonging to Symon de Besmont",
+      "harm_category": "animal_death",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jean Marechal"
+    },
+    {
+      "victim_name": "crops in seigneurie of Etival",
+      "harm_category": "weather_event",
+      "harm_description": "hail which did much damage at last la Magdelaine",
+      "attributed_to": "Jean Marechal",
+      "method_alleged": "made hail at sabbat"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "wooden dam",
+      "context": "husband installed wooden dam to direct water from village sewer on his land",
+      "category": "agricultural"
+    },
+    {
+      "object": "planks",
+      "context": "contracted to cart planks at Valdechamps and put them in river at La Voivre for merchants of Raon",
+      "category": "agricultural"
+    },
+    {
+      "object": "red bonnet",
+      "context": "accused bought servant Mathiatte a red bonnet as recompense for frightening her while crayfishing",
+      "category": "clothing"
+    },
+    {
+      "object": "boiled fish",
+      "context": "wife of accused brought Jean de Besmont boiled fish to help him recover from illness",
+      "category": "food"
+    },
+    {
+      "object": "black powder",
+      "context": "devil gave accused black powder for causing harm",
+      "category": "magical"
+    },
+    {
+      "object": "money which turned to leaves",
+      "context": "devil gave him money which turned into leaves",
+      "category": "magical"
+    },
+    {
+      "object": "flute",
+      "context": "danced to sound of flute at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "unsalted meat",
+      "context": "ate unsalted meat at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "torture instrument used during interrogation",
+      "category": "tools"
+    },
+    {
+      "object": "rack",
+      "context": "torture instrument used during interrogation",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "Primary location where most witnesses and accused lived"
+    },
+    {
+      "place_name": "Boullain",
+      "place_type": "village",
+      "context": "Location of hermitage where accused lived for 18 years"
+    },
+    {
+      "place_name": "la Bourgonce",
+      "place_type": "village",
+      "context": "Origin of accused's father"
+    },
+    {
+      "place_name": "Valdechamps",
+      "place_type": "village",
+      "context": "Where planks were carted from"
+    },
+    {
+      "place_name": "La Voivre",
+      "place_type": "water_body",
+      "context": "River where planks were put for merchants of Raon"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "market",
+      "context": "Market town where merchants were based, where people went to sell goods"
+    },
+    {
+      "place_name": "St Remy",
+      "place_type": "village",
+      "context": "Accused claimed voices witness heard came from quarrel at St Remy"
+    },
+    {
+      "place_name": "grange du haut ban",
+      "place_type": "house",
+      "context": "Where witness 2 lived"
+    },
+    {
+      "place_name": "Villairville",
+      "place_type": "village",
+      "context": "Where witness 11 lived"
+    },
+    {
+      "place_name": "du Vivier",
+      "place_type": "village",
+      "context": "Where witness 12 lived"
+    },
+    {
+      "place_name": "Le Mesnil",
+      "place_type": "village",
+      "context": "Where Claudon Malley lived"
+    },
+    {
+      "place_name": "Bormont",
+      "place_type": "water_body",
+      "context": "River where planks were carted to"
+    },
+    {
+      "place_name": "Val de Champ",
+      "place_type": "village",
+      "context": "Where planks were carted from"
+    },
+    {
+      "place_name": "les gemelz",
+      "place_type": "sabbat_location",
+      "context": "Location of sabbat attended by accused"
+    },
+    {
+      "place_name": "Etival",
+      "place_type": "village",
+      "context": "Seigneurie where hail damage occurred; jurisdiction of court"
+    },
+    {
+      "place_name": "Brehimont",
+      "place_type": "village",
+      "context": "Where Claudon Jean Perrin and Dieudonné Jean Thierion lived"
+    },
+    {
+      "place_name": "l'Hoste du Bois",
+      "place_type": "village",
+      "context": "Where Catherine veuve Colas Gelyat lived"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "Thunder and lightning during night fishing incident",
+      "Hail damage in seigneurie of Etival at la Magdelaine (allegedly made at sabbat)"
+    ],
+    "animal_predation": [
+      "Large black animal seen jumping into water (accused claimed it was wolf)"
+    ],
+    "economic_hardship_indicators": [
+      "Jean Noel reduced to great poverty after losing 4 fine cows and other animals",
+      "Accused had 7 children who needed to be fed and brought up",
+      "Multiple disputes over economic resources: water rights, ploughing arrangements, carting contracts, field rentals"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur d'office",
+        "role": "prosecutor_pg"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "Multiple witnesses noted that when accused was called witch publicly, he did not seek legal reparation, responding coldly or saying he would leave the matter alone",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Alizon femme Georgeon Claudon Noel",
+        "source": "Catherine veuve Colas Gelyat of l'Hoste du Bois, who heard from Mathiatte (servant to accused)",
+        "content": "accused had taken Mathiatte out fishing at night for crayfish, something mysterious jumped between his legs in stream, he bought her red bonnet as recompense"
+      },
+      {
+        "reporter": "Anthoine Doridant",
+        "source": "young boy named Colas Mourizat",
+        "content": "boy had gone to fish for crayfish with accused and seen large black animal jump into water, accused told him it was wolf"
+      },
+      {
+        "reporter": "Annon femme Jean Regnauldin",
+        "source": "Didier Claudon Noel",
+        "content": "threats accused had made against her husband when carting"
+      }
+    ],
+    "oldest_accusation_years": 20
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "During initial interrogation made no circumstantial admissions",
+      "Compared himself to Jesus being falsely accused like Judas",
+      "During torture said he wished he was a witch so he could confess and be released from torment, but was a good Christian",
+      "Resisted torture because of concern for his 7 children",
+      "When finally confessing, recommended wife and children to care of Monsieur d'Etival and all those of the seigneurie"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Didier Claudon Noel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Blamed accused for loss of a cow (mentioned by witness 1)"
+    },
+    {
+      "name": "Catherine veuve Colas Gelyat",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_witness": "told story to witness 2",
+      "context": "From l'Hoste du Bois, told story about Mathiatte's fishing expedition with accused"
+    },
+    {
+      "name": "Mathiatte",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "former servant",
+      "context": "Servant to accused who went crayfishing with him at night, saw something mysterious, given red bonnet"
+    },
+    {
+      "name": "Colas Mourizat",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Young boy who told story 16 years earlier about fishing with accused and seeing large black animal"
+    },
+    {
+      "name": "merchants of Raon",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Employed accused and others to cart planks"
+    },
+    {
+      "name": "Claudon Malley",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "brother-in-law to witness 14",
+      "context": "Of Le Mesnil, planned to sell field near Boullain"
+    },
+    {
+      "name": "Jennon veuve Colas Ydoulx",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accused him of witchcraft",
+      "context": "Already executed witch who had accused Jean Marechal, also saw at sabbat"
+    },
+    {
+      "name": "Jean Seigaire",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accused him after torture",
+      "context": "Saw at sabbat, confronted with him which led to confession"
+    },
+    {
+      "name": "Claudon Jean Perrin",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Of Brehimont, repeated confessions including accusation against Jean Marechal on 5 May 1611"
+    },
+    {
+      "name": "Dieudonné Jean Thierion",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Of Brehimont, named at sabbat"
+    },
+    {
+      "name": "Marguitte Laurent",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Already executed, saw at sabbat"
+    },
+    {
+      "name": "wife of Mengeon Jean Dieudonné",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Of la Bourgonce, named at sabbat"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Trial of Jean Marechal, hermit of Boullain. Notable for his resistance to torture and delayed confession only after being confronted by other accused witches. His mother was also executed as a witch ~20 years earlier. Trial shows extensive pattern of economic disputes (water rights, carting contracts, ploughing arrangements, field rentals) followed by animal deaths. Accused initially denied everything, resisted torture claiming to be good Christian, but eventually confessed after other witches named him. Expressed concern for his 7 children throughout.",
+    "pdf_pages": 5
+  }
+}

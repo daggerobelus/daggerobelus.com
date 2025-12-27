@@ -3,6 +3,14 @@
   "archive_ref": "B 3753",
   "location": "Bruyères",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Adam Gaulthier",
+    "person_id": null,
+    "occupation": "substitut for PG des Vosges",
+    "location": "Bruyères",
+    "relationship_to_accused": "state prosecutor"
+  },
   "dates": {
     "start": "1601-03-12",
     "end": "1601-04-08",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Claudette Clauchepied",
+      "person_id": null,
       "gender": "female",
       "age": 66,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "divination", "charms_amulets", "other"],
       "occupation": ["healer", "diviner", "beggar", "domestic servant"],
       "origin": "Epinal",
       "residence": "vagabond (formerly lived at Houlx)",
@@ -62,6 +74,7 @@
     {
       "number": 1,
       "name": "Marie femme Mengeon Francois le Jeusne",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -98,6 +111,7 @@
     {
       "number": 2,
       "name": "Marion femme Nicolas Mengin",
+      "person_id": null,
       "gender": "female",
       "age": 80,
       "occupation": null,
@@ -127,6 +141,7 @@
     {
       "number": 3,
       "name": "Marion femme Claudel Mengeot and Barbon femme Colin Mengeot",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -156,6 +171,7 @@
     {
       "number": 4,
       "name": "Henry Henry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -177,6 +193,7 @@
     {
       "number": 5,
       "name": "Jean Bertrand",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -206,6 +223,7 @@
     {
       "number": 6,
       "name": "Germaine femme Jean Bertrand",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -235,6 +253,7 @@
     {
       "number": 7,
       "name": "Catherine fille Mengeon Genin",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": "servant",
@@ -256,6 +275,7 @@
     {
       "number": 8,
       "name": "Jeandon Bassat",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": "beggar, pilgrimage proxy",
@@ -285,6 +305,7 @@
     {
       "number": 10,
       "name": "Jacquotte femme Melchior Vauldechamps",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -314,6 +335,7 @@
     {
       "number": 11,
       "name": "Jacquette fille Jacquotte Vauldechamps",
+      "person_id": null,
       "gender": "female",
       "age": 18,
       "occupation": null,
@@ -335,6 +357,7 @@
     {
       "number": 12,
       "name": "Mengeon femme Phillippe Masson",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": null,
@@ -364,6 +387,7 @@
     {
       "number": 13,
       "name": "Jacquette fille Mengeon Masson",
+      "person_id": null,
       "gender": "female",
       "age": 16,
       "occupation": null,
@@ -385,6 +409,7 @@
     {
       "number": 14,
       "name": "Didiere femme Jean Mareschal",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -1479,7 +1504,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Jeandon spoke to her through prison window; imprisoned at Bruyères",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "PG requested death by strangulation after feeling the fire; Change de Nancy approved this on March 31, 1601",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1540,6 +1570,7 @@
   "third_parties": [
     {
       "name": "comte de Montbeliard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient she claimed to have healed",
       "relationship_to_witness": null,
@@ -1547,6 +1578,7 @@
     },
     {
       "name": "Gerard Contet",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "rescuer",
       "relationship_to_witness": null,
@@ -1554,6 +1586,7 @@
     },
     {
       "name": "la Montenatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice named",
       "relationship_to_witness": null,
@@ -1561,6 +1594,7 @@
     },
     {
       "name": "Demenge des Femmes",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
@@ -1568,6 +1602,7 @@
     },
     {
       "name": "Tante Annon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "rival healer",
       "relationship_to_witness": null,
@@ -1575,6 +1610,7 @@
     },
     {
       "name": "la Gueldrenatte (la Guealdrenatte)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "rival healer",
       "relationship_to_witness": null,
@@ -1582,6 +1618,7 @@
     },
     {
       "name": "male witch neighbor of comte de Montbeliard's castle",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "relationship_to_witness": null,
@@ -1589,6 +1626,7 @@
     },
     {
       "name": "Anthoine Galmeche",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "provided lodging",
       "relationship_to_witness": null,
@@ -1596,6 +1634,7 @@
     },
     {
       "name": "Jean Duguenot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "provided lodging",
       "relationship_to_witness": null,
@@ -1603,6 +1642,7 @@
     },
     {
       "name": "Jehennon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "stepdaughter of person who lodged her",
       "relationship_to_witness": null,
@@ -1610,6 +1650,7 @@
     },
     {
       "name": "Messire Jean of Grainges",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "employer",
       "relationship_to_witness": null,
@@ -1617,6 +1658,7 @@
     },
     {
       "name": "Lieger Didier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "accused her of theft",
       "relationship_to_witness": null,
@@ -1624,6 +1666,7 @@
     },
     {
       "name": "Jacat Ferry",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "knew her",
       "relationship_to_witness": null,
@@ -1631,6 +1674,7 @@
     },
     {
       "name": "Jean Claudine",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "potential client",
       "relationship_to_witness": null,
@@ -1638,6 +1682,7 @@
     },
     {
       "name": "Jean Grillot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient she claimed to heal",
       "relationship_to_witness": null,
@@ -1645,6 +1690,7 @@
     },
     {
       "name": "Mengeon Dondez",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member",
       "relationship_to_witness": null,
@@ -1652,6 +1698,7 @@
     },
     {
       "name": "Anthoine Claude",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "employer and potential spouse",
       "relationship_to_witness": null,
@@ -1659,6 +1706,7 @@
     },
     {
       "name": "Pierrat Collenel",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
       "relationship_to_witness": null,
@@ -1666,6 +1714,7 @@
     },
     {
       "name": "Nicolas Pierrat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "potential employer",
       "relationship_to_witness": null,
@@ -1673,6 +1722,7 @@
     },
     {
       "name": "Catherine (poor woman)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "co-worker",
       "relationship_to_witness": null,
@@ -1680,6 +1730,7 @@
     },
     {
       "name": "Claude le Lorrain",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "potential employer",
       "relationship_to_witness": null,
@@ -1687,6 +1738,7 @@
     },
     {
       "name": "Grand Demenge",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "debtor",
       "relationship_to_witness": null,
@@ -1694,6 +1746,7 @@
     },
     {
       "name": "Anthoine Tabourin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "community member",
       "relationship_to_witness": null,
@@ -1701,6 +1754,7 @@
     },
     {
       "name": "la Teuxenatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice named",
       "relationship_to_witness": null,
@@ -1708,6 +1762,7 @@
     },
     {
       "name": "Michiel Coladat",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
       "relationship_to_witness": null,
@@ -1715,6 +1770,7 @@
     },
     {
       "name": "Francois de l'Estraye (de la Treille)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "suitor",
       "relationship_to_witness": null,

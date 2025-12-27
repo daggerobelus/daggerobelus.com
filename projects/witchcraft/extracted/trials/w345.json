@@ -1,0 +1,490 @@
+{
+  "trial_id": "w345",
+  "archive_ref": "Vosges G706",
+  "location": "Badonviller",
+  "court": "comté de Salm at Badonviller",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jehan Hanss",
+    "person_id": null,
+    "location": "Badonviller",
+    "relationship_to_accused": "unknown"
+  },
+  "dates": {
+    "start": "1561-09-04",
+    "end": "1561-09-21",
+    "duration_days": 17
+  },
+  "outcome": "unknown",
+  "accused": [
+    {
+      "name": "la Grosse Alison de Monteigneiz, veuve Estienne de Ferterulz",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["other"],
+      "age": null,
+      "age_approximate": false,
+      "occupation": [],
+      "origin": "Ferterul",
+      "residence": "Badonviller",
+      "marital_status": "widowed",
+      "spouse_name": "Estienne de Ferterulz",
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Perxins",
+        "devil_appearance": "coldest thing she had ever felt, and often took form of a calf",
+        "seduction_date": "14 or 15 years earlier",
+        "seduction_context": "in her house at Ferterul, angry with husband because he worked in mines and gave her nothing",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead",
+          "description": "took something from her forehead with such force that it was very painful"
+        },
+        "powder_types": ["made from toads and rennes boiled together", "powder used in boulyes and soup"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["small wood near la Magdelaine"],
+        "sabbat_activities": ["dancing to sound of minstrels playing fifes, tambourines, and other instruments", "roasted and ate corpse of child", "appeared as cats, calves, and dogs"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [],
+  "timeline": [
+    {
+      "date": "1561-09-04",
+      "event": "other",
+      "subject": "la Grosse Alison de Monteigneiz",
+      "details": "Arrested at request of Jehan Hanss who claimed she was a witch and fugitive from St Dié"
+    },
+    {
+      "date": "1561-09-21",
+      "event": "interrogation",
+      "subject": "la Grosse Alison de Monteigneiz",
+      "details": "Interrogation by officers of comté de Salm at Badonviller"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "requesting_official": null,
+    "approving_court": null,
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Katherine la Bollatte",
+      "location": "St Dié",
+      "context": "accomplice at sabbats, had done much harm together",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "la Fuseliere",
+      "location": "St Dié",
+      "context": "accomplice at sabbats, had done much harm together",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Katherine of Padoulx",
+      "location": "Ramberviller",
+      "context": "accomplice mentioned",
+      "already_executed": true,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Perxins (the devil)",
+      "french": "la plus heureuse et la plus riche du monde",
+      "english": "the happiest and richest in the world",
+      "context": "Promise made by devil during seduction"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "la Grosse Alison de Monteigneiz",
+      "person2": "Estienne de Ferterulz",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "veuve Estienne de Ferterulz",
+      "inferred": false
+    },
+    {
+      "person1": "la Grosse Alison de Monteigneiz",
+      "person2": "Katherine la Bollatte",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Accomplices were Katherine la Bollatte of St Dié",
+      "inferred": false
+    },
+    {
+      "person1": "la Grosse Alison de Monteigneiz",
+      "person2": "la Fuseliere",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "another of the same called la Fuseliere; they had done much harm together",
+      "inferred": false
+    },
+    {
+      "person1": "la Grosse Alison de Monteigneiz",
+      "person2": "Katherine of Padoulx",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Also Katherine of Padoulx, burned a long time before at Ramberviller",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Husband worked in mines and gave her nothing - economic hardship and marital discord over finances. She told neighbours le Gros Claude should buy her eggs to obtain cure (suggests she sold eggs for income)."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "child of Blaise Laneçon",
+      "victim_relationship_to_witness": "child of Blaise Laneçon",
+      "harm_category": "human_death",
+      "harm_description": "death of 6-month-old child",
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "she was angry with Blaise Laneçon of St Dié",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "putting powder in its 'boulyes'",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Blaise Laneçon",
+      "victim_relationship_to_witness": "direct victim",
+      "harm_category": "human_death",
+      "harm_description": "attempted murder by poisoned drink",
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "angry with Blaise Laneçon",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "made drink from boiled toads and rennes but failed to give it to him",
+      "witness_number": null
+    },
+    {
+      "victim_name": "horse of Colas Pairy",
+      "victim_relationship_to_witness": "property of Colas Pairy",
+      "harm_category": "animal_death",
+      "harm_description": "horse death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "unknown",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "unknown",
+      "witness_number": null
+    },
+    {
+      "victim_name": "horse of Colin Lanceon",
+      "victim_relationship_to_witness": "property of Colin Lanceon",
+      "harm_category": "animal_death",
+      "harm_description": "horse death",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "unknown",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "unknown",
+      "witness_number": null
+    },
+    {
+      "victim_name": "ox of Blaise Lanceon",
+      "victim_relationship_to_witness": "property of Blaise Lanceon",
+      "harm_category": "animal_death",
+      "harm_description": "ox death",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "unknown",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "unknown",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Claude le Voussez",
+      "victim_relationship_to_witness": "direct victim",
+      "harm_category": "human_death",
+      "harm_description": "attempted murder by poisoning but had no power over him",
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "unknown",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "poisoning (failed)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "le Gros Claude",
+      "victim_relationship_to_witness": "direct victim",
+      "harm_category": "human_illness",
+      "harm_description": "ill for long time",
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "unknown",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "put powder she had made in soup",
+      "witness_number": null
+    },
+    {
+      "victim_name": "crops at la Croix de Perrichamps",
+      "victim_relationship_to_witness": "community harm",
+      "harm_category": "crop_damage",
+      "harm_description": "crops destroyed by hailstorm",
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "unknown",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "beat water with stick on river by master's command to spoil crops",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Estienne de Ferterulz (husband)",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_death",
+      "harm_description": "attempted murder of husband (unsuccessful)",
+      "attributed_to": "la Grosse Alison de Monteigneiz",
+      "precipitating_quarrel": "angry with husband because he worked in mines and gave her nothing",
+      "time_between_quarrel_and_harm": "unknown",
+      "method_alleged": "master taught her how to kill her husband",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "boulyes",
+      "context": "powder put in boulyes of child causing death",
+      "category": "food"
+    },
+    {
+      "object": "soup",
+      "context": "powder put in soup of le Gros Claude",
+      "category": "food"
+    },
+    {
+      "object": "eggs",
+      "context": "told neighbours le Gros Claude should buy her eggs and eat them to obtain cure",
+      "category": "food"
+    },
+    {
+      "object": "toads",
+      "context": "took toads and rennes in fields to boil for poison drink",
+      "category": "magical"
+    },
+    {
+      "object": "rennes",
+      "context": "took toads and rennes in fields to boil for poison drink",
+      "category": "magical"
+    },
+    {
+      "object": "broom",
+      "context": "took a broom which turned into a cat when she mounted it and carried her up through the chimney",
+      "category": "magical"
+    },
+    {
+      "object": "stick",
+      "context": "beat water with stick to spoil crops",
+      "category": "magical"
+    },
+    {
+      "object": "fifes",
+      "context": "minstrels playing fifes at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "tambourines",
+      "context": "minstrels playing tambourines at sabbat",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Badonviller",
+      "place_type": "village",
+      "context": "location where arrested and interrogated"
+    },
+    {
+      "place_name": "Ferterul",
+      "place_type": "village",
+      "context": "where she had her house and was seduced by devil"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "where she was fugitive from; location of many victims and accomplices"
+    },
+    {
+      "place_name": "la Magdelaine",
+      "place_type": "sabbat_location",
+      "context": "small wood near la Magdelaine where sabbats held and corpse roasted"
+    },
+    {
+      "place_name": "la Croix de Perrichamps",
+      "place_type": "field",
+      "context": "where crops were destroyed by hailstorm"
+    },
+    {
+      "place_name": "Ramberviller",
+      "place_type": "village",
+      "context": "where Katherine of Padoulx was burned"
+    },
+    {
+      "place_name": "Padoulx",
+      "place_type": "village",
+      "context": "origin of Katherine of Padoulx"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "where she beat water with stick by master's command to spoil crops"
+    },
+    {
+      "place_name": "mines",
+      "place_type": "other",
+      "context": "where her husband worked"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": null,
+    "weather_events": ["hailstorm which destroyed crops at la Croix de Perrichamps"],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["husband worked in mines and gave her nothing", "poverty implied by selling eggs for income"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": null,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": null,
+      "modification_details": null,
+      "local_court_followed": null
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 0,
+    "hearsay_testimony_count": 0,
+    "hearsay_chains": [],
+    "oldest_accusation_years": null,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [],
+    "emotional_state_notes": [],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Estienne de Ferterulz",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "deceased husband",
+      "relationship_to_witness": null,
+      "context": "worked in mines and gave her nothing; she attempted to kill him but was unsuccessful"
+    },
+    {
+      "name": "Blaise Laneçon",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "she was angry with him; attempted to poison him with drink made from toads and rennes; his 6-month-old child was killed"
+    },
+    {
+      "name": "child of Blaise Laneçon",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "6-month-old child killed by powder in boulyes; corpse dug up and roasted and eaten at sabbat"
+    },
+    {
+      "name": "Colas Pairy",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "his horse was killed"
+    },
+    {
+      "name": "Colin Lanceon",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "his horse was killed"
+    },
+    {
+      "name": "Blaise Lanceon",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "his ox was killed"
+    },
+    {
+      "name": "Claude le Voussez",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "she tried to kill him by poisoning but had no power over him"
+    },
+    {
+      "name": "le Gros Claude",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "she put powder in his soup; he was ill for long time; she told neighbours he should buy her eggs and eat them to obtain cure; he recovered as soon as he did this"
+    },
+    {
+      "name": "Katherine la Bollatte",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accomplice",
+      "relationship_to_witness": null,
+      "context": "accomplice of St Dié; had done much harm together"
+    },
+    {
+      "name": "la Fuseliere",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accomplice",
+      "relationship_to_witness": null,
+      "context": "accomplice of St Dié; had done much harm together"
+    },
+    {
+      "name": "Katherine of Padoulx",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accomplice",
+      "relationship_to_witness": null,
+      "context": "accomplice; burned a long time before at Ramberviller"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "This appears to be a confession record only - no witness testimony is included in this document. The trial outcome is unknown from this extract. The document notes she was 'fugitive from St Dié for that reason' suggesting prior accusations there. Economic hardship is evident: husband worked in mines and gave her nothing; she sold eggs for income (healing services). She practiced healing (cured le Gros Claude by having him buy and eat her eggs). Temporal note: seduction occurred 14-15 years before 1561 (c.1546-1547); hailstorm 12-13 years before (c.1548-1549). Possible name variants: Blaise Laneçon vs Blaise Lanceon vs Colin Lanceon - may be same family or transcription variants. Thursday evening sabbats are notable timing detail.",
+    "pdf_pages": 1
+  }
+}

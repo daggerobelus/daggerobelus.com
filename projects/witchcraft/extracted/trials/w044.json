@@ -3,6 +3,8 @@
   "archive_ref": "B 3335 no 2",
   "location": "Blamont",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1606-09-22",
     "end": "1608-04-26",
@@ -12,10 +14,20 @@
   "accused": [
     {
       "name": "Hellenix femme Barthelemin le Reytre",
+      "person_id": null,
       "gender": "female",
       "age": 52,
       "age_approximate": true,
-      "occupation": ["remanderesse"],
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies",
+        "touch_healing",
+        "other"
+      ],
+      "occupation": [
+        "remanderesse"
+      ],
       "origin": "Migneville",
       "residence": "Blamont",
       "marital_status": "married",
@@ -38,10 +50,15 @@
           "location": null,
           "description": null
         },
-        "powder_types": ["powder to kill", "powder to cure"],
+        "powder_types": [
+          "powder to kill",
+          "powder to cure"
+        ],
         "sabbat_attended": true,
         "sabbat_locations": [],
-        "sabbat_activities": ["attempts to damage crops"],
+        "sabbat_activities": [
+          "attempts to damage crops"
+        ],
         "sexual_relations_with_devil": false
       }
     }
@@ -50,6 +67,7 @@
     {
       "number": 1,
       "name": "Claudon le Cerf",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "bourgeois de Blamont",
@@ -86,6 +104,7 @@
     {
       "number": 2,
       "name": "Nicolas Colon",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": "bourgeois de Blamont",
@@ -115,6 +134,7 @@
     {
       "number": 3,
       "name": "Zabillon veuve Didier de Dompierre",
+      "person_id": null,
       "gender": "female",
       "age": 56,
       "occupation": null,
@@ -144,6 +164,7 @@
     {
       "number": 4,
       "name": "Barbe femme Jean de Prey",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": null,
@@ -165,6 +186,7 @@
     {
       "number": 5,
       "name": "Philippe femme d'honnorable Didier George",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "occupation": null,
@@ -201,6 +223,7 @@
     {
       "number": 6,
       "name": "Annon femme Adam de Mouney",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "occupation": null,
@@ -230,6 +253,7 @@
     {
       "number": 7,
       "name": "Claudon femme Claudon le Cerf",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -259,6 +283,7 @@
     {
       "number": 8,
       "name": "Jennon femme Jean Diez",
+      "person_id": null,
       "gender": "female",
       "age": 41,
       "occupation": null,
@@ -288,6 +313,7 @@
     {
       "number": 9,
       "name": "Zabel femme Nicolas Colon",
+      "person_id": null,
       "gender": "female",
       "age": 39,
       "occupation": null,
@@ -317,6 +343,7 @@
     {
       "number": 10,
       "name": "Jean Danjou",
+      "person_id": null,
       "gender": "male",
       "age": 31,
       "occupation": "chevaucheur des salines",
@@ -353,6 +380,7 @@
     {
       "number": 11,
       "name": "Claudatte femme François Pelletier le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "occupation": null,
@@ -389,6 +417,7 @@
     {
       "number": 12,
       "name": "François Pelletier le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": "bourgeois de Blamont",
@@ -425,6 +454,7 @@
     {
       "number": 13,
       "name": "Colin le Comte",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": null,
@@ -454,6 +484,7 @@
     {
       "number": 14,
       "name": "Jehenne femme Demenge Conrard",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -483,6 +514,7 @@
     {
       "number": 15,
       "name": "Odille femme Nicolas Pistollet",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -512,6 +544,7 @@
     {
       "number": 16,
       "name": "Huguette femme Jean Grigoire",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -541,6 +574,7 @@
     {
       "number": 17,
       "name": "Damoiselle Rose Collée",
+      "person_id": null,
       "gender": "female",
       "age": 42,
       "occupation": null,
@@ -577,6 +611,7 @@
     {
       "number": 18,
       "name": "Didier femme Chrestine du Prey",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -606,6 +641,7 @@
     {
       "number": 19,
       "name": "Jean Diez, dit le Racussen",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "bourgeois de Blamont",
@@ -635,6 +671,7 @@
     {
       "number": 20,
       "name": "Anyon veuve Claudon Tuppinier",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": null,
@@ -664,6 +701,7 @@
     {
       "number": 21,
       "name": "Jehenne fille Jean Gabriel",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -693,6 +731,7 @@
     {
       "number": 22,
       "name": "Barbe veuve Jean Sellier",
+      "person_id": null,
       "gender": "female",
       "age": 51,
       "occupation": null,
@@ -804,7 +843,11 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["shown instruments", "thumbscrews", "threat of further torture"],
+    "methods": [
+      "shown instruments",
+      "thumbscrews",
+      "threat of further torture"
+    ],
     "requesting_official": "procureur fiscal",
     "approving_court": "Change de Nancy",
     "restrictions": null
@@ -1891,8 +1934,13 @@
     "accused_sought_redress": true,
     "redress_outcome": "Threatened to sue various people who accused her of witchcraft but failed to follow through",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
-    "property_confiscation_mentioned": true
+    "property_confiscation_mentioned": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 18,
@@ -1921,11 +1969,26 @@
     ],
     "oldest_accusation_years": 27,
     "corroboration_groups": [
-      [2, 9],
-      [1, 7],
-      [8, 19],
-      [13, 14],
-      [11, 12]
+      [
+        2,
+        9
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        19
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        11,
+        12
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1961,6 +2024,7 @@
   "third_parties": [
     {
       "name": "le Blanc Gregoire de Marienviller",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "consulted by Didier de Dompierre",
@@ -1968,6 +2032,7 @@
     },
     {
       "name": "Demenge Pourlot (wife)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1975,6 +2040,7 @@
     },
     {
       "name": "Jean Marchal",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "surgeon examining Annon",
@@ -1982,6 +2048,7 @@
     },
     {
       "name": "Claudatte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "present at quarrel",
@@ -1989,6 +2056,7 @@
     },
     {
       "name": "Dom Jean de Xanrey",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "consulted by François Pelletier",
@@ -1996,6 +2064,7 @@
     },
     {
       "name": "Wife of Jean Thiebault le vieulx",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "told Colin le Comte",
@@ -2003,6 +2072,7 @@
     },
     {
       "name": "Monsieur Mabriat",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "priest",
@@ -2010,6 +2080,7 @@
     },
     {
       "name": "Henry Chrestian",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2017,6 +2088,7 @@
     },
     {
       "name": "Daniel Mongenot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2024,6 +2096,7 @@
     },
     {
       "name": "Noel le Chappelier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "tutor",
       "relationship_to_witness": null,
@@ -2031,6 +2104,7 @@
     },
     {
       "name": "Jean Ferry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -2038,6 +2112,7 @@
     },
     {
       "name": "Annon (or Agnes)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of Rose Collée",

@@ -3,6 +3,14 @@
   "archive_ref": "B 8673 no 1",
   "location": "Lubine",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean Demenge Olry",
+    "person_id": null,
+    "occupation": "",
+    "location": "Lubine",
+    "relationship_to_accused": "main accuser - suffered multiple animal losses attributed to accused"
+  },
   "dates": {
     "start": "1593-11-18",
     "end": "1593-12-26",
@@ -12,10 +20,19 @@
   "accused": [
     {
       "name": "Jean Colas Claude Martin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
-      "occupation": ["carpenter", "smith"],
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": [
+        "veterinary"
+      ],
+      "occupation": [
+        "carpenter",
+        "smith"
+      ],
       "origin": "Combrimont",
       "residence": "Lubine",
       "marital_status": "married",
@@ -33,9 +50,13 @@
     },
     {
       "name": "Jennon Martin",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": "Lubine",
       "residence": "Lubine",
@@ -56,6 +77,7 @@
     {
       "number": 1,
       "name": "Didier Doienney",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Lubine",
@@ -83,6 +105,7 @@
     {
       "number": 2,
       "name": "Colas Guillemotte",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Lubine",
@@ -109,6 +132,7 @@
     {
       "number": 3,
       "name": "George Jacquemin",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "location": "Lubine",
@@ -162,7 +186,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -202,7 +227,8 @@
         "theft_mentioned": true,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -219,7 +245,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -260,7 +287,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -284,7 +312,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -325,7 +354,8 @@
         "theft_mentioned": true,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 10,
@@ -349,7 +379,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -382,7 +413,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -406,7 +438,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 13,
@@ -431,7 +464,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -464,7 +498,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -498,7 +533,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -539,7 +575,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -565,7 +602,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -597,7 +635,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -622,7 +661,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -646,7 +686,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 21,
@@ -673,7 +714,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 22,
@@ -700,7 +742,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 23,
@@ -717,7 +760,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 24,
@@ -742,7 +786,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 25,
@@ -767,7 +812,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 26,
@@ -801,7 +847,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 27,
@@ -827,7 +874,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 28,
@@ -853,7 +901,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 29,
@@ -879,7 +928,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 30,
@@ -906,7 +956,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -991,7 +1042,11 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["thumbscrews", "rack", "tortillons"],
+    "methods": [
+      "thumbscrews",
+      "rack",
+      "tortillons"
+    ],
     "requesting_official": "Rémy (prosecutor)",
     "approving_court": "Change de Nancy",
     "restrictions": "Jean: ordinaire et extraordinaire; Jennon: mediocre only (lightly racked only in practice)"
@@ -1845,10 +1900,19 @@
   "historical_context": {
     "military_presence": true,
     "military_details": "Previous Lent, just after soldiers had left the village, children took wood from garden fence. Reference to payment for artillery horses at Easter.",
-    "weather_events": ["rainstorm during which Jean Olriot and Jean sheltered under tree"],
+    "weather_events": [
+      "rainstorm during which Jean Olriot and Jean sheltered under tree"
+    ],
     "animal_predation": [],
     "economic_hardship_indicators": [],
-    "religious_calendar_references": ["Good Friday", "Whitsun", "previous Lent", "previous Easter", "previous May", "St Jean"]
+    "religious_calendar_references": [
+      "Good Friday",
+      "Whitsun",
+      "previous Lent",
+      "previous Easter",
+      "previous May",
+      "St Jean"
+    ]
   },
   "legal_context": {
     "officials_named": [
@@ -1879,7 +1943,13 @@
     "redress_outcome": "According to maire, when accused and sister sought reparation, Jean Demenge Olry said 'if they did not withdraw he would show them a man's trick'",
     "imprisonment_conditions": "not specified",
     "appeal_to_change_de_nancy": false,
-    "property_confiscation_mentioned": false
+    "property_confiscation_mentioned": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Prosecutor Rémy requested banishment for Jean but Change de Nancy ordered both accused released with admonition to conduct themselves properly",
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 20,
@@ -1938,13 +2008,36 @@
     ],
     "oldest_accusation_years": 26,
     "corroboration_groups": [
-      [5, 9, 12, 17],
-      [7, 26],
-      [15, 23],
-      [16, 19],
-      [24, 25],
-      [28, 29],
-      [4, 22]
+      [
+        5,
+        9,
+        12,
+        17
+      ],
+      [
+        7,
+        26
+      ],
+      [
+        15,
+        23
+      ],
+      [
+        16,
+        19
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        28,
+        29
+      ],
+      [
+        4,
+        22
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1998,103 +2091,120 @@
       "name": "Colas Claude Martin (father)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father of Jean and Jennon",
-      "context": "native of Combrimont, died 2 years before trial; had reputation as witch; performed magical trick with chest and hat; worked as smith"
+      "context": "native of Combrimont, died 2 years before trial; had reputation as witch; performed magical trick with chest and hat; worked as smith",
+      "person_id": null
     },
     {
       "name": "Alison (mother)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother of Jean and Jennon",
-      "context": "native of Lusse, still living; Jean's mother told Benay George about joutte cure; quarrel with Jean Demenge de la Borse"
+      "context": "native of Lusse, still living; Jean's mother told Benay George about joutte cure; quarrel with Jean Demenge de la Borse",
+      "person_id": null
     },
     {
       "name": "Martin Claude",
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member",
-      "context": "died after quarrel with Jean; was good man, went shooting with Jean"
+      "context": "died after quarrel with Jean; was good man, went shooting with Jean",
+      "person_id": null
     },
     {
       "name": "Martin Claudel of Lubine",
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member",
-      "context": "died after languishing miserably for year; first husband of witness 19; said they gave him illness because he persuaded girl not to marry into suspect family; as forestier fined them"
+      "context": "died after languishing miserably for year; first husband of witness 19; said they gave him illness because he persuaded girl not to marry into suspect family; as forestier fined them",
+      "person_id": null
     },
     {
       "name": "Demenge Chapel",
       "role_in_narrative": "victim",
       "relationship_to_accused": "relative of Jean's wife",
-      "context": "father of witness 7; reproached Jean's future wife for marrying into witch family; died week after eating 2 apples brought by Jennon; was cause of Jean's marriage"
+      "context": "father of witness 7; reproached Jean's future wife for marrying into witch family; died week after eating 2 apples brought by Jennon; was cause of Jean's marriage",
+      "person_id": null
     },
     {
       "name": "Claudon Demenge Olry",
       "role_in_narrative": "victim",
       "relationship_to_accused": "first husband of Jean's current wife",
-      "context": "claimed he was poisoned by Jean"
+      "context": "claimed he was poisoned by Jean",
+      "person_id": null
     },
     {
       "name": "Jean Claude Olry of Colroy",
       "role_in_narrative": "victim",
       "relationship_to_accused": "first husband of Jean's current wife",
-      "context": "died after languishing; Jean blamed for death; Jean married widow which inhabitants would have prevented"
+      "context": "died after languishing; Jean blamed for death; Jean married widow which inhabitants would have prevented",
+      "person_id": null
     },
     {
       "name": "widow of Claudon Demenge Olry/Jean Claude Olry",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife of Jean",
-      "context": "of 'bon ligniage'; native of Lubine; Demenge Chapel reproached her for marrying Jean; blamed Jean for illness of first husband(s)"
+      "context": "of 'bon ligniage'; native of Lubine; Demenge Chapel reproached her for marrying Jean; blamed Jean for illness of first husband(s)",
+      "person_id": null
     },
     {
       "name": "une sarazine",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
-      "context": "8 years earlier told Jennon she had relations with devil; asked Jennon for lard, she refused, threatened her"
+      "context": "8 years earlier told Jennon she had relations with devil; asked Jennon for lard, she refused, threatened her",
+      "person_id": null
     },
     {
       "name": "Claudon Gros Jean du Bourg",
       "role_in_narrative": "other",
       "relationship_to_accused": "employer/business partner",
-      "context": "carpenter in Val de Viller; Jean spent 18 months with him, then 3 years in partnership"
+      "context": "carpenter in Val de Viller; Jean spent 18 months with him, then 3 years in partnership",
+      "person_id": null
     },
     {
       "name": "Simon de Viller",
       "role_in_narrative": "other",
       "relationship_to_accused": "employer",
-      "context": "Jean spent 3 months with him"
+      "context": "Jean spent 3 months with him",
+      "person_id": null
     },
     {
       "name": "unnamed carpenter at Brusviller",
       "role_in_narrative": "other",
       "relationship_to_accused": "employer",
-      "context": "Jean spent 6 months with him"
+      "context": "Jean spent 6 months with him",
+      "person_id": null
     },
     {
       "name": "Jean's late brother",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother of Jean",
-      "context": "worked as smith with Jean; involved in quarrel with Benay George over ploughing"
+      "context": "worked as smith with Jean; involved in quarrel with Benay George over ploughing",
+      "person_id": null
     },
     {
       "name": "Mengeotte femme Jean Gourmant of Lubine",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
-      "context": "present when Jennon drove out Jean Demenge Olry's bull; could testify Jennon did not touch or threaten it"
+      "context": "present when Jennon drove out Jean Demenge Olry's bull; could testify Jennon did not touch or threaten it",
+      "person_id": null
     },
     {
       "name": "Colin Guillemotte",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
-      "context": "pig was sick, recovered after taking joutte from garden of Jean's father"
+      "context": "pig was sick, recovered after taking joutte from garden of Jean's father",
+      "person_id": null
     },
     {
       "name": "Arnould Didier Arnould",
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
-      "context": "employer of witness 20"
+      "context": "employer of witness 20",
+      "person_id": null
     },
     {
       "name": "surgeons (unnamed)",
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
-      "context": "could do nothing to help Jean Olriot's swollen hand"
+      "context": "could do nothing to help Jean Olriot's swollen hand",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

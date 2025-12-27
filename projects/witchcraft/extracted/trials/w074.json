@@ -3,6 +3,14 @@
   "archive_ref": "B 4094 no 2",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "la Rondelatte",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": "denounced at execution"
+  },
   "dates": {
     "start": "1608-03-13",
     "end": "1608-04-22",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "La Grande Lucye (Lucie, widow of Guyot Bozieres)",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "Charmes (faubourg)",
       "marital_status": "widowed",
       "spouse_name": "Guyot Bozieres (deceased miller)",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["other"],
       "parents": {
         "father": null,
         "mother": null
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Claude Borrellier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -86,6 +99,7 @@
     {
       "number": 2,
       "name": "Margueritte Harmant",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
@@ -116,6 +130,7 @@
     {
       "number": 3,
       "name": "Marie",
+      "person_id": null,
       "gender": "female",
       "age": 78,
       "age_approximate": true,
@@ -146,6 +161,7 @@
     {
       "number": 4,
       "name": "Barbon",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "age_approximate": true,
@@ -168,6 +184,7 @@
     {
       "number": 5,
       "name": "Didier Bartremin Jeune",
+      "person_id": null,
       "gender": "male",
       "age": 19,
       "age_approximate": true,
@@ -190,6 +207,7 @@
     {
       "number": 6,
       "name": "Agnez",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "age_approximate": true,
@@ -227,6 +245,7 @@
     {
       "number": 7,
       "name": "Nicolas Claudert",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "age_approximate": true,
@@ -257,6 +276,7 @@
     {
       "number": 8,
       "name": "Mengeotte",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -287,6 +307,7 @@
     {
       "number": 9,
       "name": "Mongeon",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -317,6 +338,7 @@
     {
       "number": 10,
       "name": "Nicolas Gegoult",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "age_approximate": true,
@@ -347,6 +369,7 @@
     {
       "number": 11,
       "name": "Cuguin Flaux",
+      "person_id": null,
       "gender": "male",
       "age": 78,
       "age_approximate": true,
@@ -377,6 +400,7 @@
     {
       "number": 12,
       "name": "Idatte",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -407,6 +431,7 @@
     {
       "number": 13,
       "name": "Gille Joseph",
+      "person_id": null,
       "gender": "male",
       "age": 47,
       "age_approximate": true,
@@ -444,6 +469,7 @@
     {
       "number": 14,
       "name": "Anne",
+      "person_id": null,
       "gender": "female",
       "age": 48,
       "age_approximate": true,
@@ -466,6 +492,7 @@
     {
       "number": 15,
       "name": "Chesnon",
+      "person_id": null,
       "gender": "female",
       "age": 72,
       "age_approximate": true,
@@ -503,6 +530,7 @@
     {
       "number": 16,
       "name": "Bastienne",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -533,6 +561,7 @@
     {
       "number": 17,
       "name": "Libaire",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "age_approximate": true,
@@ -1468,7 +1497,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "imprisoned after accusation by la Rondelatte about a month before interrogation",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved death sentence on basis of existing evidence; she should only be shown instruments of torture while being questioned particularly on original allegations made by witnesses",
+      "local_court_followed": false
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1522,6 +1556,7 @@
   "third_parties": [
     {
       "name": "Francoise Borrellier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "sister (soeur germaine)",
       "relationship_to_witness": "wife of witness 1",
@@ -1529,6 +1564,7 @@
     },
     {
       "name": "Nicolas (son of Gegoult)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witnesses 2 and 10",
@@ -1536,6 +1572,7 @@
     },
     {
       "name": "Jean Flaux",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness 3",
@@ -1543,6 +1580,7 @@
     },
     {
       "name": "Libaire of Bralleville",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "servant taken in by witness 6, confirmed by witness 9",
@@ -1550,6 +1588,7 @@
     },
     {
       "name": "sons of Jean de Socourt",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "companions of witness 5",
@@ -1557,6 +1596,7 @@
     },
     {
       "name": "sieur de But, tabellion",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "employer of Libaire, husband of witness 9",
@@ -1564,6 +1604,7 @@
     },
     {
       "name": "Gille Choisy, tailor",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1571,6 +1612,7 @@
     },
     {
       "name": "Woman of Charmes (suicide victim)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1578,6 +1620,7 @@
     },
     {
       "name": "Man dressed in black",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1585,6 +1628,7 @@
     },
     {
       "name": "Nicolas Claudiat",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1592,6 +1636,7 @@
     },
     {
       "name": "Catherine Martin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 15",
@@ -1599,6 +1644,7 @@
     },
     {
       "name": "Guillaume Redoubte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 8",
@@ -1606,6 +1652,7 @@
     },
     {
       "name": "Claude Barbonnaire, harquebusier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 12",
@@ -1613,6 +1660,7 @@
     },
     {
       "name": "curé of Gripport",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1620,6 +1668,7 @@
     },
     {
       "name": "Religieux of Belchamps",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1627,6 +1676,7 @@
     },
     {
       "name": "la Rondelatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "denounced Lucie at execution",
       "relationship_to_witness": null,
@@ -1634,6 +1684,7 @@
     },
     {
       "name": "Jean de Socourt",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accused her in previous trial, withdrew accusation",
       "relationship_to_witness": null,
@@ -1641,6 +1692,7 @@
     },
     {
       "name": "la Mallebarbe",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1648,6 +1700,7 @@
     },
     {
       "name": "la Triffatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1655,6 +1708,7 @@
     },
     {
       "name": "la Romaine",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1662,6 +1716,7 @@
     },
     {
       "name": "Mre. Romary",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1669,6 +1724,7 @@
     },
     {
       "name": "Claudon Blanpoil",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "Lucie claimed he bewitched her husband to death",
       "relationship_to_witness": null,
@@ -1676,6 +1732,7 @@
     },
     {
       "name": "Francoise Philipe",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "cousin",
       "relationship_to_witness": null,
@@ -1683,6 +1740,7 @@
     },
     {
       "name": "Jean Mallebarbe",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1690,6 +1748,7 @@
     },
     {
       "name": "Girl of Ville-sur-Madon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1697,6 +1756,7 @@
     },
     {
       "name": "3-year-old girl at Gerbecourt",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1704,6 +1764,7 @@
     },
     {
       "name": "Claudatte Flamant",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1711,6 +1772,7 @@
     },
     {
       "name": "Catherine wife of late Claudon Jean",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1718,6 +1780,7 @@
     },
     {
       "name": "Woman of Gerbecourt",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1725,6 +1788,7 @@
     },
     {
       "name": "Two women at Ville-sur-Madon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1732,6 +1796,7 @@
     },
     {
       "name": "Sr. Maillard of Cantenois",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

@@ -3,6 +3,8 @@
   "archive_ref": "B 7118",
   "location": "Haréville",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1617-11-27",
     "end": "1618-03-19",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Jennon Petit Didier",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["servant", "agricultural laborer"],
       "origin": "They-soub-Montfort",
       "residence": "Haréville",
@@ -50,6 +56,7 @@
     {
       "number": 1,
       "name": "Francois Mongeat",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -86,6 +93,7 @@
     {
       "number": 2,
       "name": "Francoise femme Claudot Gillotte le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -122,6 +130,7 @@
     {
       "number": 3,
       "name": "Catherine femme Jean Collin",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -151,6 +160,7 @@
     {
       "number": 4,
       "name": "Jean Collin",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": null,
@@ -180,6 +190,7 @@
     {
       "number": 5,
       "name": "Philippe Voyot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -209,6 +220,7 @@
     {
       "number": 6,
       "name": "Marie femme Philippe Voyot",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -238,6 +250,7 @@
     {
       "number": 7,
       "name": "Menne femme Demenge Ferry",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -259,6 +272,7 @@
     {
       "number": 8,
       "name": "Mengeotte Vassart de Haréville, veuve Nicolas Limosin de They",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -288,6 +302,7 @@
     {
       "number": 9,
       "name": "Nicolas Voillot",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -317,6 +332,7 @@
     {
       "number": 10,
       "name": "Demenge Ferry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -338,6 +354,7 @@
     {
       "number": 11,
       "name": "Demenge Anthoine de Senonge",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -919,7 +936,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Kept under guard at house of Demenge Anthoine; strange noises heard in night",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1012,6 +1034,7 @@
   "third_parties": [
     {
       "name": "Mongin Petit Didier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
@@ -1019,6 +1042,7 @@
     },
     {
       "name": "Bastiene",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1026,6 +1050,7 @@
     },
     {
       "name": "Jennon's grandfather",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "grandfather",
       "relationship_to_witness": null,
@@ -1033,6 +1058,7 @@
     },
     {
       "name": "Jennon's sister",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1040,6 +1066,7 @@
     },
     {
       "name": "Perrin le Petit Didier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "brother",
       "relationship_to_witness": null,
@@ -1047,6 +1074,7 @@
     },
     {
       "name": "Nicolas le Petit Didier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "nephew (son of brother Perrin)",
       "relationship_to_witness": null,
@@ -1054,6 +1082,7 @@
     },
     {
       "name": "Perrin's wife",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "sister-in-law",
       "relationship_to_witness": "source for Menne femme Demenge Ferry",
@@ -1061,6 +1090,7 @@
     },
     {
       "name": "Claudot Gillotte le jeune",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "father of her child",
       "relationship_to_witness": "husband of witness #2",
@@ -1068,6 +1098,7 @@
     },
     {
       "name": "small boy",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "replacement for Jennon's work",
       "relationship_to_witness": "employed by Francoise femme Claudot Gillotte",
@@ -1075,6 +1106,7 @@
     },
     {
       "name": "mother-in-law of Catherine femme Jean Collin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "hostile",
       "relationship_to_witness": "mother-in-law of witness #3",
@@ -1082,6 +1114,7 @@
     },
     {
       "name": "Nicolas Limosin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "deceased husband of witness #8",
@@ -1089,6 +1122,7 @@
     },
     {
       "name": "wife of Nicolas Voillot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "intermediary",
       "relationship_to_witness": "wife of witness #9",
@@ -1096,6 +1130,7 @@
     },
     {
       "name": "Messire Demenge Burton",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "identified her for arrest",
       "relationship_to_witness": "curé of Haréville",
@@ -1103,6 +1138,7 @@
     },
     {
       "name": "uncle of Messire Demenge Burton",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "curé of Senonge",
@@ -1110,6 +1146,7 @@
     },
     {
       "name": "Jennon's child",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "child",
       "relationship_to_witness": null,
@@ -1117,6 +1154,7 @@
     },
     {
       "name": "neighbours of Mengeotte Vassart",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "hostile",
       "relationship_to_witness": "neighbours of witness #8",
@@ -1124,6 +1162,7 @@
     },
     {
       "name": "people in village",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "hostile",
       "relationship_to_witness": "community sources",

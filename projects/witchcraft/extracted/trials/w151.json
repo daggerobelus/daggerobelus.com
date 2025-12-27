@@ -3,6 +3,8 @@
   "archive_ref": "B 8669 no 4",
   "location": "Develine, ban d'Anould",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1593-10-29",
     "end": "1593-12-24",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Mengeotte fille Didier Le Compaing",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "other"],
       "occupation": ["servant", "domestic worker"],
       "origin": "Develine",
       "residence": "Develine",
@@ -36,6 +42,7 @@
     {
       "number": 1,
       "name": "Mengeon Didier Noel du Paire d'Avould",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "servant",
@@ -64,6 +71,7 @@
     {
       "number": 2,
       "name": "Valentin Jean Claude Estienne du Paire",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "location": "du Paire",
@@ -81,6 +89,7 @@
     {
       "number": 3,
       "name": "Catherine femme Colas Petit Didier d'Avould",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Avould",
@@ -108,6 +117,7 @@
     {
       "number": 4,
       "name": "Jean Valdechamps d'Avould",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Avould",
@@ -134,6 +144,7 @@
     {
       "number": 5,
       "name": "Pieron Jean Pierat de Develine",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Develine",
@@ -151,6 +162,7 @@
     {
       "number": 6,
       "name": "Jean Bastien Jehandel de Develine",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "location": "Develine",
@@ -192,6 +204,7 @@
     {
       "number": 7,
       "name": "Toussainct Didier Pierat de Develine",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "location": "Develine",
@@ -218,6 +231,7 @@
     {
       "number": 8,
       "name": "Nicolas Petit Didier d'Avould",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "location": "Avould",
@@ -244,6 +258,7 @@
     {
       "number": 9,
       "name": "Claude Mabrey de Develine",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Develine",
@@ -261,6 +276,7 @@
     {
       "number": 10,
       "name": "George Ferry de Develine",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Develine",
@@ -293,6 +309,7 @@
     {
       "number": 11,
       "name": "Claudette veuve Bastien Jehandel de Develine",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Develine",
@@ -320,6 +337,7 @@
     {
       "number": 12,
       "name": "Claudette femme Colas Mathieu de Develine",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Develine",
@@ -359,6 +377,7 @@
     {
       "number": 13,
       "name": "Claude Finance de Develine",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Develine",
@@ -375,6 +394,7 @@
     {
       "number": 14,
       "name": "Jennon femme Colas Finance d'Avould",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Avould",
@@ -401,6 +421,7 @@
     {
       "number": 15,
       "name": "Poline femme Jean Bastien Jeandel de Develine",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "location": "Develine",
@@ -442,6 +463,7 @@
     {
       "number": 16,
       "name": "Marguitte femme George Ferry de Develline",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "location": "Develine",
@@ -482,6 +504,7 @@
     {
       "number": 17,
       "name": "Mengeotte femme Pierat Jean Pierat de Develline",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Develine",
@@ -515,6 +538,7 @@
     {
       "number": 18,
       "name": "Colas Finance le Vieux d'Anould",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Anould",
@@ -531,6 +555,7 @@
     {
       "number": 19,
       "name": "Anthoine Claude Anthoine d'Anould",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Anould",
@@ -558,6 +583,7 @@
     {
       "number": 20,
       "name": "Lienard Jean Jacquemin de Develline",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "location": "Develine",
@@ -575,6 +601,7 @@
     {
       "number": 21,
       "name": "Colin Mengin d'Anould",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "tailor",
@@ -1402,7 +1429,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "imprisoned during trial",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1452,30 +1484,35 @@
   "third_parties": [
     {
       "name": "Didier le Compain (father)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father (deceased)",
       "context": "father of accused"
     },
     {
       "name": "Mengeotte's mother",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "context": "mother's reputation as witch; multiple witnesses mention mother also reputed witch; lived with accused after father's death"
     },
     {
       "name": "Mengeotte's brother",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "context": "widower whose children accused looked after for 9 years; heard Jean Bastien accuse her of bewitching bull; said he would eat his words but took no action; animals strayed into Anthoine's field"
     },
     {
       "name": "Valentin Colas Humbert",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "fellow servant",
       "context": "servant with Mengeon at Nicolas Petit Didier's; brought suspicious soup; found nut-sized object in soup"
     },
     {
       "name": "Jean, son of maire Bastien",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none specified",
       "relationship_to_witness": "brother-in-law of witness 2",
@@ -1483,6 +1520,7 @@
     },
     {
       "name": "Laurence",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "daughter of witness 3",
@@ -1490,6 +1528,7 @@
     },
     {
       "name": "Jehennon (little daughter)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "child of employers",
       "relationship_to_witness": "daughter of witnesses 3 and 8",
@@ -1497,18 +1536,21 @@
     },
     {
       "name": "devineresse de Bourgogne at Gerbepal",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
       "context": "consulted by Claude Mabrey's son-in-law; said unmarried witch pursued him; consulted by Claudette about sick foal"
     },
     {
       "name": "devin from Avould",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
       "context": "told Claude Finance that accused had tried more than 50 times to kill his wife"
     },
     {
       "name": "Claude Mabrey's son-in-law",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none",
       "relationship_to_witness": "son-in-law of witness 9",
@@ -1516,6 +1558,7 @@
     },
     {
       "name": "Colin Jean Clement",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "employer",
       "context": "Mengeotte was in his service when found in kitchen with hair spread"

@@ -1,0 +1,659 @@
+{
+  "trial_id": "w173",
+  "archive_ref": "B 8680 no 3",
+  "location": "Mandray",
+  "court": "Chapter of St Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur for chapter of St Dié",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "St Dié",
+    "relationship_to_accused": "official prosecutor"
+  },
+  "dates": {
+    "start": "1596-12-10",
+    "end": "1597-02-04",
+    "duration_days": 56
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean fils Demenge Claude Martin",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 17,
+      "age_approximate": true,
+      "occupation": ["animal herder"],
+      "origin": "Mandray",
+      "residence": "Mandray",
+      "marital_status": "single",
+      "parents": {
+        "father": "Demenge Claude Martin",
+        "mother": "Jehenne"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Persin",
+        "devil_appearance": "large black man; also appeared as black goat with yellow feet like a goose",
+        "seduction_date": "18 months before trial (approximately June 1595)",
+        "seduction_context": "Initially resisted renouncing God when approached by man in black who promised to make him rich; later attended sabbat with mother and after twice refusing, third time yielded to pressure from mother and Persin",
+        "powder_types": ["malefic powder given by devil"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["feasting", "dancing"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Henry fils Henry",
+      "person_id": null,
+      "gender": "male",
+      "age": 12,
+      "location": "Mandray",
+      "relationship_to_accused": "fellow child/playmate",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jehenne fille Colin Lienard",
+      "person_id": null,
+      "gender": "female",
+      "age": 17,
+      "location": "Mandray",
+      "relationship_to_accused": "fellow child/playmate",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jennon fille feu Jean Jennat",
+      "person_id": null,
+      "gender": "female",
+      "age": 15,
+      "location": "Mandray",
+      "relationship_to_accused": "fellow child/playmate",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claude fils feu Andreu Jaulnat",
+      "person_id": null,
+      "gender": "male",
+      "age": 15,
+      "location": "Mandray",
+      "relationship_to_accused": "fellow child/playmate",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Colas fils feu Mengin Menginot",
+      "person_id": null,
+      "gender": "male",
+      "age": 11,
+      "location": "Mandray",
+      "relationship_to_accused": "fellow child/playmate",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1596-12-10",
+      "event": "informations_preparatoires",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Procureur requests information from other children about accused's stories of seeing black man and black goat with yellow feet"
+    },
+    {
+      "date": "1596-12-11",
+      "event": "interrogation",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "First interrogation; after long denial, admitted story about man in black who promised riches if he renounced God, which he refused. Sent back to prison to await questioning of mother"
+    },
+    {
+      "date": "1596-12-18",
+      "event": "confrontation",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Confronted with mother Jehenne who claimed to have taken him to sabbat; he denied, then later confessed to attending sabbat 5 times starting 18 months earlier, but insisted he never committed malefices"
+    },
+    {
+      "date": "1596-12-23",
+      "event": "torture_approved",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Change de Nancy recommends thumbscrews only, with moderation"
+    },
+    {
+      "date": "1597-01-03",
+      "event": "torture",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Interrogation under torture; first retracted sabbat confession, then under thumbscrews confessed to attending sabbat, renouncing God, and committing multiple malefices with powder"
+    },
+    {
+      "date": "1597-01-04",
+      "event": "interrogation",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Confirmed previous confessions"
+    },
+    {
+      "date": "1597-01-07",
+      "event": "interrogation",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Further confirmation of confessions"
+    },
+    {
+      "date": "1597-01-08",
+      "event": "death_requested",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Procureur d'office requests death sentence"
+    },
+    {
+      "date": "1597-01-10",
+      "event": "death_approved",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Change de Nancy approves death sentence subject to final reiteration of confessions"
+    },
+    {
+      "date": "1597-01-13",
+      "event": "interrogation",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Final confirmation of confessions; added that he saw his sister Jennon at sabbat"
+    },
+    {
+      "date": "1597-02-04",
+      "event": "execution",
+      "subject": "Jean fils Demenge Claude Martin",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews"],
+    "requesting_official": "judges at St Dié",
+    "approving_court": "Change de Nancy",
+    "restrictions": "thumbscrews only, with moderation"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jacques Gabourel",
+      "location": "Mandray",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Barbeline femme Mengeon Jean",
+      "location": "Mandray",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jennon (sister)",
+      "location": "Mandray",
+      "context": "Seen at sabbat; accused believed his mother had taken her there",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jehenne (mother)",
+      "accuser_location": "Mandray",
+      "context": "Mother accused him during her own trial (B 8677 no 10) of attending sabbat with her and being used as agent for malefices",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claude fils feu Andreu Jaulnat",
+      "french": "que le Capitaine n'avoit plus a tarder de chercher des autres gens parce que son camp se defaisoit bien fort, et que sy sa mere estoit bruslée les seigneurs en auroient bien cent escus",
+      "english": "that the Captain need not delay seeking other people because his camp was breaking up badly, and that if his mother was burned the lords would have a good hundred ecus",
+      "context": "Witness reporting statement made by accused 3 weeks before trial, when his mother was being taken to St Dié"
+    },
+    {
+      "speaker": "Jehenne (mother)",
+      "french": "bien malheureuse et de meschante nature",
+      "english": "very unfortunate and of wicked nature",
+      "context": "Mother saying she would be this if she charged her son with untruths during confrontation"
+    },
+    {
+      "speaker": "Jean fils Demenge Claude Martin",
+      "french": "et vouldroit qu'il luy ait cousté deux vers de son sang que nous scachions sa pensée",
+      "english": "and would that it had cost him two drops of his blood that we know his thoughts",
+      "context": "Retracting his sabbat confession before torture was applied"
+    },
+    {
+      "speaker": "Jean fils Demenge Claude Martin",
+      "french": "que ladicte pouldre ne peult poinct faire de mal aux sorcieres qui la manient et que quand ils ont jecté de ladite pouldre sur quelque personne ou bestial, c'est le diable leur maitre par apres qui les faict mourir",
+      "english": "that the said powder cannot do harm to the witches who handle it and that when they have thrown the said powder on any person or animal, it is the devil their master afterwards who makes them die",
+      "context": "Explaining how malefic powder works"
+    },
+    {
+      "speaker": "Jean fils Demenge Claude Martin",
+      "french": "que luy ny toutes aultres sorcieres, n'ont poinct de puissance sur aulcune personne que le diable ne les en advertisse premierement, leur commandans de ce faire apres neangtmoings qu'ilz ont eu l'envie et intention de mal faire a aulcune personne, et que touttes les personnes et bestial qu'il a faict mourir, le diable son maitre Persin, l'avoit tousjours poussé et incité de ce faire",
+      "english": "that he nor any other witches have any power over any person unless the devil first informs them of it, commanding them to do so after they have had the desire and intention to harm any person, and that all the persons and animals he has killed, the devil his master Persin had always pushed and incited him to do so",
+      "context": "Explaining the relationship between witch's will and devil's power"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean fils Demenge Claude Martin",
+      "person2": "Demenge Claude Martin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jean fils Demenge Claude Martin",
+      "inferred": false
+    },
+    {
+      "person1": "Jean fils Demenge Claude Martin",
+      "person2": "Jehenne",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "confronted with his mother Jehenne",
+      "inferred": false
+    },
+    {
+      "person1": "Jean fils Demenge Claude Martin",
+      "person2": "Jennon",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his 'soeur germaine' Jennon",
+      "inferred": false
+    },
+    {
+      "person1": "Henry fils Henry",
+      "person2": "Henry (father)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Henry fils Henry",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne fille Colin Lienard",
+      "person2": "Colin Lienard",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehenne fille Colin Lienard",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon fille feu Jean Jennat",
+      "person2": "Jean Jennat",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon fille feu Jean Jennat",
+      "inferred": false
+    },
+    {
+      "person1": "Claude fils feu Andreu Jaulnat",
+      "person2": "Andreu Jaulnat",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claude fils feu Andreu Jaulnat",
+      "inferred": false
+    },
+    {
+      "person1": "Colas fils feu Mengin Menginot",
+      "person2": "Mengin Menginot",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Colas fils feu Mengin Menginot",
+      "inferred": false
+    },
+    {
+      "person1": "Barbeline femme Mengeon Jean",
+      "person2": "Mengeon Jean",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Barbeline femme Mengeon Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne femme George Jean Jeannatte",
+      "person2": "George Jean Jeannatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "Jehenne femme George Jean Jeannatte",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Demenge Jacquemin, doyen at Mandray, wanted to levy tax on accused's father, which led to quarrel and alleged malefice"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "goat of Cathelon Colin",
+      "victim_relationship_to_witness": "property of Cathelon Colin",
+      "harm_category": "animal_death",
+      "harm_description": "death of goat",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "quarrel with son of Cathelon Colin",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "bull of Jacques Henry Finance",
+      "victim_relationship_to_witness": "property of Jacques Henry Finance",
+      "harm_category": "animal_death",
+      "harm_description": "death of bull",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "Jacques Henry Finance insulted accused's father",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "calf of Claude Menginot",
+      "victim_relationship_to_witness": "property of Claude Menginot",
+      "harm_category": "animal_death",
+      "harm_description": "death of calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "Claude Menginot insulted accused's father",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "calf of Vincent Jean Laisne",
+      "victim_relationship_to_witness": "property of Vincent Jean Laisne",
+      "harm_category": "animal_death",
+      "harm_description": "death of calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "fighting with son of Vincent Jean Laisne",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "calf of Claude fils Jacques Henry",
+      "victim_relationship_to_witness": "property of Claude fils Jacques Henry's family",
+      "harm_category": "animal_death",
+      "harm_description": "death of calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "quarrel with Claude fils Jacques Henry",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Claude fils Jacques Henry",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "quarrel with Claude fils Jacques Henry",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Demenge Jacquemin",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "wanted to levy tax on accused's father and threatened to beat accused",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Mengey fils Mongeon Jean",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "quarrel",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Claude fils feu Claude Gabourel",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "called accused 'fils de sorciere ey fils de ribaulde' (son of witch and son of whore)",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Jehenne femme George Jean Jeannatte",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "threatened to beat accused after he struck one of her goats and made it limp",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Mengeatte fille Demenge Claude Menginot",
+      "harm_category": "human_death",
+      "harm_description": "death",
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "precipitating_quarrel": "called accused 'fils de ribaulde' (son of whore)",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "goat of Jehenne femme George Jean Jeannatte",
+      "victim_relationship_to_witness": "property of Jehenne femme George Jean Jeannatte",
+      "harm_category": "animal_injury",
+      "harm_description": "made limp",
+      "animal_type": "goat",
+      "animal_count": 1,
+      "attributed_to": "Jean fils Demenge Claude Martin",
+      "method_alleged": "struck it"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "stick",
+      "context": "Jean allegedly cut end of stick and thrust into ground to make water/spring appear",
+      "category": "magical"
+    },
+    {
+      "object": "powder",
+      "context": "malefic powder allegedly given by devil and used to kill people and animals",
+      "category": "magical"
+    },
+    {
+      "object": "money",
+      "context": "black man promised to give him money",
+      "category": "money"
+    },
+    {
+      "object": "cent escus",
+      "context": "Jean allegedly said if his mother was burned the lords would have a hundred ecus",
+      "category": "money"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Mandray",
+      "place_type": "village",
+      "context": "Location of accused, witnesses, and trial events"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Location of court; where accused's mother was taken"
+    },
+    {
+      "place_name": "field",
+      "place_type": "field",
+      "context": "Where Jean was guarding animals and where he allegedly made spring appear"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Reference to 'Capitaine' and 'camp' breaking up, suggesting military activity in the region",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["tax levying disputes"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Procureur for chapter of St Dié",
+        "role": "prosecutor_pg",
+        "location": "St Dié"
+      },
+      {
+        "name": "Procureur d'office",
+        "role": "prosecutor_pg",
+        "location": "St Dié"
+      },
+      {
+        "name": "Demenge Jacquemin",
+        "role": "other",
+        "location": "Mandray"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Recommended thumbscrews only, with moderation",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 5,
+    "hearsay_testimony_count": 0,
+    "oldest_accusation_years": 3,
+    "corroboration_groups": [
+      [1, 2, 3, 4, 5]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "denied for long time before initial admission",
+      "lowered his eyes when mother confronted him but continued to deny",
+      "retracted confession before torture was applied"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Demenge Jacquemin",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "doyen at Mandray who wanted to levy tax on accused's father",
+      "context": "Allegedly killed by accused using powder after threatening to beat him"
+    },
+    {
+      "name": "Jacques Gabourel",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "seen at sabbat",
+      "context": "Named as accomplice seen at sabbat"
+    },
+    {
+      "name": "Jennon",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister (soeur germaine)",
+      "context": "Allegedly seen at sabbat; accused thought mother had taken her there"
+    },
+    {
+      "name": "Cathelon Colin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Owner of goat allegedly killed after accused quarreled with his son"
+    },
+    {
+      "name": "Jacques Henry Finance",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Owner of bull allegedly killed after insulting accused's father"
+    },
+    {
+      "name": "Claude Menginot",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Owner of calf allegedly killed after insulting accused's father"
+    },
+    {
+      "name": "Vincent Jean Laisne",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Owner of calf allegedly killed after accused fought with his son"
+    },
+    {
+      "name": "Mengey fils Mongeon Jean",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Allegedly killed after quarrel with accused"
+    },
+    {
+      "name": "Mengeatte fille Demenge Claude Menginot",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Allegedly killed after calling accused 'fils de ribaulde'"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "This is an unusual trial of a very young male accused (16-17 years old) whose mother was simultaneously on trial for witchcraft. The case shows significant judicial caution with the Change de Nancy restricting torture to thumbscrews only with moderation. Notable for the accused's initial resistance to confession, retraction under torture, and the pattern of alleged malefices all stemming from childhood quarrels and insults. The trial reveals military presence in the region and provides detailed demonological testimony about the mechanics of malefic powder and devil's power over witches.",
+    "pdf_pages": 3
+  }
+}

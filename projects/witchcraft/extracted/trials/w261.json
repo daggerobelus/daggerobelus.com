@@ -1,0 +1,961 @@
+{
+  "trial_id": "w261",
+  "archive_ref": "B 8707 no 9",
+  "location": "l'Hoste du Bois (la Salle)",
+  "court": "Etival",
+  "language_region": "french",
+  "dates": {
+    "start": "1611-04-18",
+    "end": "1611-05-04",
+    "duration_days": 16
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Esnel femme Demenge Bourrotte",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "marital_status": "married",
+      "spouse_name": "Demenge Bourrotte",
+      "parents": {
+        "father": "Jean Girard Colin"
+      },
+      "origin": "l'Hoste du Bois",
+      "residence": "l'Hoste du Bois",
+      "occupation": [],
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "devil_name": "Persin",
+        "seduction_date": "12 years before (1599)",
+        "seduction_context": "During dearth 10 years earlier had been collecting wood, lamenting their poverty and inability to feed 3 small children, when Persin appeared and seduced her. Promised her a sum of money to feed her children and herself.",
+        "powder_types": [
+          "grey powder (to kill)",
+          "yellow powder (to make languish)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_activities": [
+          "dancing",
+          "feasting"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "formal_accuser": {
+    "name": "Jennon la Mourratte",
+    "person_id": null,
+    "relationship_to_accused": "fellow accused witch who named her"
+  },
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jacquotte femme Anthoine Mareschal",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband quarrelled with accused",
+        "threat_received": true,
+        "threat_quote": "she was dying of hunger, and that Catherine would repent",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Anthoine Mareschal (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "immediately after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "bull",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "next day"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "next day"
+          },
+          {
+            "type": "human_illness",
+            "target": "Catherine veuve Colas Gelyat",
+            "target_relationship": "neighbor",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "immediately"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Claudatte fille Anthoine Jean Mareschal",
+      "person_id": null,
+      "gender": "female",
+      "age": 18,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused angry they sent Jean Tixerant instead of Jeannon for pilgrimage",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Claudatte fille Anthoine Jean Mareschal",
+            "target_relationship": "self",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "a few days later"
+          },
+          {
+            "type": "human_illness",
+            "target": "Alizon (sister)",
+            "target_relationship": "sister",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 3,
+      "name": "Claudatte femme Colas Mengeon Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "multiple animals",
+            "target_relationship": "own animals",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "following quarrels"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "? du Val le vieulx",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jean fils Anthoine Mareschal",
+      "person_id": null,
+      "gender": "male",
+      "age": 22,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Fighting with her son Jean who was herdsman; also refused to sell rye",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "12 pigs",
+            "target_relationship": "own animals",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "over next fortnight"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "next day"
+          },
+          {
+            "type": "animal_death",
+            "target": "mare",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "later"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Colas Mengeon Henry",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "multiple animals",
+            "target_relationship": "own animals",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "following quarrels"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Anthoine Jean Mareschal",
+      "person_id": null,
+      "gender": "male",
+      "age": 44,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to sell her rye - only had enough for own purposes",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Anthoine Jean Mareschal",
+            "target_relationship": "self",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "immediately after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "following refusal"
+          },
+          {
+            "type": "human_injury",
+            "target": "Claudatte (daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "earlier incident"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge du Val le jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Threw stones through her window while guarding pigs",
+        "threat_received": true,
+        "threat_quote": "they would not come back as joyful as they went",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pigs",
+            "target_relationship": "pigs being guarded",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "same day in woods"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Mengeon Galdrimey",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Wife refused to store 2 pots of verjus with theirs",
+        "threat_received": true,
+        "threat_quote": "they would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jennon femme du precedent",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "l'Hoste du Bois",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to store verjus",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "own animal",
+            "attributed_to": "Esnel femme Demenge Bourrotte",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-04-18",
+      "event": "confrontation",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Confronted with Jennon la Mourratte; decided to make full confession"
+    },
+    {
+      "date": "1611-04-18",
+      "event": "interrogation",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Made full confession including seduction by Persin, maleficia, and sabbat attendance"
+    },
+    {
+      "date": "1611-04-20",
+      "event": "informations_preparatoires",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "10 witnesses testified"
+    },
+    {
+      "date": "1611-04-20",
+      "event": "interrogation",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Further interrogation confirming specific maleficia against witnesses"
+    },
+    {
+      "date": "1611-04-21",
+      "event": "interrogation",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Repeated earlier confessions and accusations"
+    },
+    {
+      "date": "1611-04-22",
+      "event": "interrogation",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Repeated earlier confessions and accusations"
+    },
+    {
+      "date": "1611-04-23",
+      "event": "sentence",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Brought before inhabitants of Etival and handed over to duke for punishment"
+    },
+    {
+      "date": "1611-04-27",
+      "event": "death_requested",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1611-04-28",
+      "event": "death_approved",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1611-05-04",
+      "event": "execution",
+      "subject": "Esnel femme Demenge Bourrotte",
+      "details": "Execution carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon la Mourratte",
+      "location": "l'Hoste du Bois",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jennon veuve Colas Ydoulx",
+      "location": "l'Hoste du Bois",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Seigaire",
+      "location": "l'Hoste du Bois",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Marguitte veuve Michiel le Mareschal",
+      "location": "l'Hoste du Bois",
+      "context": "Named as accomplice during interrogation",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Claude Mathieu",
+      "location": "la Bourgonce",
+      "context": "Named as accomplice during interrogation",
+      "already_executed": false
+    },
+    {
+      "name": "Ysabel femme Mengeon Jean Dieudonné",
+      "location": "la Bourgonce",
+      "context": "Named as accomplice during interrogation",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Mengin Colas Mengin",
+      "accuser_location": "St Remy",
+      "context": "Confronted with him some 10 years earlier (c. 1601)",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Alizon (sister of witness Claudatte)",
+      "french": "Vieille sorciere qu'est ce que tu faict icy, tu viens escouter et ouyr ce que nous disons, mon pere te fera brusler la sepmaine qui vient",
+      "english": "Old witch, what are you doing here, you come to listen and hear what we say, my father will have you burned next week",
+      "context": "Said to a cat that was following them, which they believed was Esnel"
+    },
+    {
+      "speaker": "Esnel femme Demenge Bourrotte",
+      "french": "ne sçavoit rien du faict de genoxerie que ce qu'elle luy avoit apprins",
+      "english": "knew nothing about witchcraft except what she [Jennon, mother-in-law] had taught her",
+      "context": "Quarrelling with mother-in-law Jennon"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Esnel femme Demenge Bourrotte",
+      "person2": "Demenge Bourrotte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Esnel femme Demenge Bourrotte",
+      "inferred": false
+    },
+    {
+      "person1": "Esnel femme Demenge Bourrotte",
+      "person2": "Jean Girard Colin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Jean Girard Colin",
+      "inferred": false
+    },
+    {
+      "person1": "Esnel femme Demenge Bourrotte",
+      "person2": "Jennon",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother-in-law Jennon / mother-in-law Jeannon",
+      "inferred": false
+    },
+    {
+      "person1": "Esnel femme Demenge Bourrotte",
+      "person2": "Jean (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her son Jean had been herdsman for pigs of village",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquotte femme Anthoine Mareschal",
+      "person2": "Anthoine Mareschal",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Jacquotte femme Anthoine Mareschal",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte fille Anthoine Jean Mareschal",
+      "person2": "Anthoine Jean Mareschal",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte fille Anthoine Jean Mareschal",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte fille Anthoine Jean Mareschal",
+      "person2": "Alizon",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her sister Alizon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Colas Mengeon Henry",
+      "person2": "Colas Mengeon Henry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme Colas Mengeon Henry",
+      "inferred": false
+    },
+    {
+      "person1": "Jean fils Anthoine Mareschal",
+      "person2": "Anthoine Jean Mareschal",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jean fils Anthoine Mareschal",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoine Jean Mareschal",
+      "person2": "Claudatte fille Anthoine Jean Mareschal",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his daughter Claudatte",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme du precedent",
+      "person2": "Mengeon Galdrimey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme du precedent",
+      "inferred": false
+    },
+    {
+      "person1": "Esnel femme Demenge Bourrotte",
+      "person2": "Anthoine Mareschal",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "quarrels and disputes mentioned throughout testimony",
+      "inferred": true
+    },
+    {
+      "person1": "Esnel femme Demenge Bourrotte",
+      "person2": "Mengeon Galdrimey",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "she had asked his wife if she could store 2 pots of verjus",
+      "inferred": true
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Anthoine Mareschal",
+      "victim_relationship_to_witness": "husband of witness 1",
+      "harm_category": "human_illness",
+      "harm_description": "something in his throat trying to strangle him, then went down to his feet, thought to be dying but suddenly recovered",
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "husband quarrelled with her",
+      "time_between_quarrel_and_harm": "immediately after",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "bull",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "accused was angry with witness and husband for not warning her about officers coming",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "lost an ox",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "asked to buy some wheat, which was refused",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Catherine veuve Colas Gelyat",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill and believed she was bewitched",
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "asked for loan of a loaf, was refused, said she was dying of hunger and that Catherine would repent",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Claudatte fille Anthoine Jean Mareschal",
+      "victim_relationship_to_witness": "self (witness 2)",
+      "harm_category": "human_injury",
+      "harm_description": "broke her leg",
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "angry because they sent Jean Tixerant instead of Jeannon to make pilgrimage for 'mal St Curien'",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Alizon (sister of witness 2)",
+      "victim_relationship_to_witness": "sister of witness 2",
+      "harm_category": "human_illness",
+      "harm_description": "long illness",
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "quarrel about promised bread and salt for chappelet; Alizon called her witch",
+      "time_between_quarrel_and_harm": "soon after cat incident",
+      "method_alleged": "in form of a cat",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "multiple animals",
+      "harm_category": "animal_death",
+      "harm_description": "various animals lost (more than they could count)",
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "various disputes",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "12 pigs",
+      "harm_category": "animal_death",
+      "harm_description": "12 of their 30 pigs died",
+      "animal_type": "pig",
+      "animal_count": 12,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "witness quarrelled and fought with her son Jean; she and husband beat him",
+      "time_between_quarrel_and_harm": "over next fortnight",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "father refused to sell her some rye",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "mare",
+      "harm_category": "animal_death",
+      "harm_description": "sickened, bleeding all over body as if it had been pricked; smith said it was bewitched; died 2 weeks later",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "death of ox",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "refused to sell her rye - only had enough for own purposes",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "pigs in herd",
+      "harm_category": "animal_death",
+      "harm_description": "wolves appeared and carried off pigs",
+      "animal_type": "pig",
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "witness and Jean fils Anthoine Mareschal threw stones through her window",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "Persin took form of wolf",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "horse",
+      "harm_category": "animal_death",
+      "harm_description": "horse sickened and died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "precipitating_quarrel": "wife refused to allow her to store 2 pots of verjus",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "pig of Demenge du Val",
+      "harm_category": "animal_death",
+      "harm_description": "killed pig",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "method_alleged": "powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "her own hen",
+      "harm_category": "animal_death",
+      "harm_description": "used powder on her own hen, which died",
+      "animal_type": "hen",
+      "animal_count": 1,
+      "attributed_to": "Esnel femme Demenge Bourrotte",
+      "method_alleged": "powder",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "oak leaves (given as money)",
+      "context": "Persin gave her money which turned out to be oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "grey powder",
+      "context": "Given by Persin to kill",
+      "category": "magical"
+    },
+    {
+      "object": "yellow powder",
+      "context": "Given by Persin to make languish",
+      "category": "magical"
+    },
+    {
+      "object": "wheat",
+      "context": "Refused to sell her wheat",
+      "category": "food"
+    },
+    {
+      "object": "loaf",
+      "context": "Asked for loan of a loaf",
+      "category": "food"
+    },
+    {
+      "object": "rye",
+      "context": "Refused to sell her rye",
+      "category": "food"
+    },
+    {
+      "object": "verjus",
+      "context": "Asked to store 2 pots of verjus",
+      "category": "food"
+    },
+    {
+      "object": "bread and salt",
+      "context": "Claimed she had promised for a chappelet",
+      "category": "food"
+    },
+    {
+      "object": "chappelet",
+      "context": "Promise of bread and salt for a chappelet",
+      "category": "religious"
+    },
+    {
+      "object": "pears",
+      "context": "Went to fetch pears from garden",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "l'Hoste du Bois",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of accused"
+    },
+    {
+      "place_name": "la Salle",
+      "place_type": "village",
+      "context": "Alternate name for l'Hoste du Bois"
+    },
+    {
+      "place_name": "Ramberviller",
+      "place_type": "village",
+      "context": "Accused had been away at Ramberviller"
+    },
+    {
+      "place_name": "St Remy",
+      "place_type": "village",
+      "context": "Location of Mengin Colas Mengin who accused her 10 years earlier"
+    },
+    {
+      "place_name": "la Bourgonce",
+      "place_type": "village",
+      "context": "Festival location; residence of some named accomplices"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "Where father sold pigs to avoid further losses"
+    },
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "Home of Didier Claudon Noel who said she killed his horse"
+    },
+    {
+      "place_name": "Etival",
+      "place_type": "village",
+      "context": "Court location where accused was brought before inhabitants"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where accused was collecting wood at time of seduction; where wolves appeared"
+    }
+  ],
+  "historical_context": {
+    "economic_hardship_indicators": [
+      "dearth 10 years earlier",
+      "lamenting their poverty and inability to feed 3 small children",
+      "accused said she was dying of hunger"
+    ],
+    "animal_predation": [
+      "3 wolves appeared and carried off pigs"
+    ]
+  },
+  "legal_context": {
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "accused_sought_redress": false
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "urged by Jennon la Mourratte not to allow herself to be tortured",
+      "said she wanted to make a full confession"
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jennon la Mourratte",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow accused who named her",
+      "context": "Maintained charge against Esnel and urged her not to be tortured; seen at sabbat"
+    },
+    {
+      "name": "Mengin Colas Mengin",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accused her 10 years earlier",
+      "context": "From St Remy; confronted with accused c. 1601"
+    },
+    {
+      "name": "Catherine veuve Colas Gelyat",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Fell ill after refusing to loan Esnel a loaf"
+    },
+    {
+      "name": "Alizon",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "sister of witness 2",
+      "context": "Had long illness after calling Esnel a witch and being followed by a cat"
+    },
+    {
+      "name": "Jean Tixerant",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Sent to make pilgrimage instead of Jeannon"
+    },
+    {
+      "name": "Didier Claudon Noel",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "From Nompatelize; said she killed his horse after he refused her some beans"
+    },
+    {
+      "name": "Jean Gerardin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "helped hide her",
+      "context": "Esnel hid in his house after Persin warned her to flee"
+    }
+  ],
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean fils Anthoine Mareschal",
+        "source": "Didier Claudon Noel of Nompatelize",
+        "content": "She killed a horse after he refused her some beans"
+      },
+      {
+        "reporter": "Jacquotte femme Anthoine Mareschal",
+        "source": "Catherine veuve Colas Gelyat",
+        "content": "Esnel had asked for loan of a loaf, was refused, made threat, Catherine fell ill"
+      }
+    ],
+    "oldest_accusation_years": 10
+  },
+  "economic_context": {
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Multiple disputes over refused sales or loans of food (wheat, rye, loaf, verjus). Accused was clearly poor and struggling to feed her family during period of dearth."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Clear trial record with confession, witness testimony, and procedural timeline. Economic hardship is a central theme. No torture was used; confession was voluntary after confrontation with another accused witch.",
+    "pdf_pages": 3
+  }
+}

@@ -1,0 +1,1669 @@
+{
+  "trial_id": "w256",
+  "archive_ref": "B 8707 no 4",
+  "location": "la Voivrelle",
+  "court": "canons",
+  "language_region": "french",
+  "formal_accuser": null,
+  "dates": {
+    "start": "1611-02-21",
+    "end": "1611-03-15",
+    "duration_days": 22
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Gerardin",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "age": 60,
+      "age_approximate": true,
+      "occupation": ["manouvrier"],
+      "origin": "Remomeix",
+      "residence": "la Voivrelle",
+      "marital_status": "widowed",
+      "parents": {
+        "father": "from Remomeix",
+        "mother": "from Rennegoutte in val de Champ"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "devil_appearance": "like a man, dressed in yellow",
+        "seduction_date": "20 years earlier",
+        "seduction_context": "After quarrel with late Demenge Babel, figure came to his house and suggested he should avenge himself. Offered to make him rich if he would believe in him and renounce God",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder to kill", "grey powder to cause languishing", "white powder to heal"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing to sound of flute and violins", "eating beef and mutton (good but unsalted)", "kissing master's behind and face"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Colas Demenge Noel",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Remeymont",
+      "relationship_to_accused": "rented meadow from accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "arrived late to cut hay in meadow he rented",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "small child with him",
+            "target_relationship": "his child",
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "next day"
+          },
+          {
+            "type": "crop_damage",
+            "target": "half meadow",
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "same day"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Alix",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Coinche",
+      "relationship_to_accused": "sold pig to accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean asked for reduction in price after buying pig",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "animal_type": "pig",
+            "animal_count": 1,
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "after this"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jacquat Thoussainct",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "location": "Coinche",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "obtained money from him for damage done by his animals",
+        "threat_received": true,
+        "threat_quote": "no-one had ever done this before, and he would remember it",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "animal_type": "pig",
+            "animal_count": 1,
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "about a month afterwards"
+          },
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "animal_type": "calf",
+            "animal_count": 1,
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "witness saw his animals on fallow where there was still grain",
+            "time_after_quarrel": "previous autumn"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Dieudonné Jean Demenge",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Coinche",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 4,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to cart manure for him because too busy",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "mare and her foal",
+            "animal_type": "horse",
+            "animal_count": 2,
+            "economic_value": "18 écus",
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "4 years earlier"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claude Jean Charpentier",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Coinche",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Colas Arnauld",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Coinche",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Parise femme Ferry Claude Ferry",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "des Fosses",
+      "relationship_to_accused": "mother of victim",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "sold him a pig, then he would not pay price agreed",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "victim_name": "Margueritte, widow of Jean Maire Claude",
+            "victim_relationship_to_witness": "daughter",
+            "harm_description": "touched her several times on shoulder, that was where sickness began, died after illness lasting 5 days",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "sold him a pig, then he would not pay price agreed",
+            "time_after_quarrel": "2 years before"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Gregoire Vincent Henriat",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "du Faing",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Demenge Babel",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "du Faing",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean asked to buy calves, witness refused",
+        "threat_received": true,
+        "threat_quote": "que quant lesdits veaux auroient sucez le laict, le diable les emporteroit",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "6 cows, each with a fine calf",
+            "animal_type": "cow",
+            "animal_count": 12,
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "refused to sell calves",
+            "time_after_quarrel": "later"
+          },
+          {
+            "type": "animal_death",
+            "target": "dead calf",
+            "animal_type": "calf",
+            "animal_count": 1,
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "nephew took piece of rounded wood that accused claimed was his",
+            "time_after_quarrel": "2 or 3 days later"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Beniste femme Claudon Renouard",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "du Faing",
+      "relationship_to_accused": "neighbor, frequent visitor to house",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean envious that husband doing carting work",
+        "threat_received": true,
+        "threat_quote": "il deviendroit bien tost her, ou grand seigneur",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "victim_name": "small child in cradle",
+            "victim_relationship_to_witness": "her child",
+            "harm_description": "heard bang in night, found child on floor by door, appeared to be stunned but recovered",
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "8 or 9 years before"
+          },
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "economic_value": "11 or 12 écus",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "envious of husband's good fortune getting carting work",
+            "time_after_quarrel": "within 2 days"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claudon Renouard",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "du Faing",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean envious of new mare",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "mare and bullock",
+            "animal_type": "horse",
+            "animal_count": 2,
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "envious of new mare",
+            "time_after_quarrel": "within less than 2 months"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Mengeon Thiehay",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "location": "de la Voivrelle",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his pigs damaged a garden belonging to Jean",
+        "threat_received": true,
+        "threat_quote": "warned him to control them better or he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "animal_type": "ox",
+            "animal_count": 1,
+            "economic_value": "more than 17 écus",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "pigs damaged Jean's garden",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Pierron Jardelle",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "du Faing",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "reported Jean taking straw, he had to pay 8 francs fine",
+        "threat_received": true,
+        "threat_quote": "had not wanted to rent his fields, and would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "would neither die nor recover",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "angry over 8 francs fine for taking straw",
+            "time_after_quarrel": "after paying fine"
+          },
+          {
+            "type": "animal_illness",
+            "target": "cow teat",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "harm_description": "one teat ceased giving milk",
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "after threats"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 14,
+      "name": "Agnes veuve Jean Demenge Babel",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "du Faing",
+      "relationship_to_accused": "widow of Demenge Babel",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Demenge Babel refused to sell him calves",
+        "threat_received": true,
+        "threat_quote": "que peult estre ayans lesdits veillons taicté le laict de ses vaches, il n'en feroit guieres de proffict",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calves",
+            "animal_type": "calf",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "refused to sell calves",
+            "time_after_quarrel": "after"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jacquat Didier Renouard",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "location": "jeune fils de Coinchemont",
+      "relationship_to_accused": "Jean was renting father's house",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "angry at having to move out of house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "victim_name": "Colas (brother) and his wife",
+            "victim_relationship_to_witness": "brother and sister-in-law",
+            "harm_description": "died within a week of one another",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "angry at having to move out",
+            "time_after_quarrel": "within 6 months"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Catherine servante à Mengeon Renouard",
+      "person_id": null,
+      "gender": "female",
+      "age": 22,
+      "location": "de la Voivrelle",
+      "occupation": "servant",
+      "relationship_to_accused": "servant in household he visited",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "mare knocked him down, he cursed",
+        "threat_received": true,
+        "threat_quote": "que le diable puisse rompre le col et les jambes des chevaulx, et des servans et servantes",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "victim_name": "Catherine (herself)",
+            "victim_relationship_to_witness": "self",
+            "harm_description": "illness which made her all swollen",
+            "attributed_to": "Jean Gerardin",
+            "time_after_quarrel": "during year"
+          },
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "something wrong with back legs, expert smith could do nothing",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "mare knocked him down",
+            "time_after_quarrel": "immediately"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Barbeline femme Jean Jacques Gerardin",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "de la Voivrelle",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband transferred lease on animals to Nicolas Cointzelin rather than to him",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "angry about lease transfer",
+            "time_after_quarrel": "8 or 9 years earlier"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Bastienne femme Claude Gerardin",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "presentement hors du pays",
+      "relationship_to_accused": "Jean was uncle to her husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean broke down fence of garden husband leased from him",
+        "threat_received": true,
+        "threat_quote": "told him he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "harm_description": "died suddenly, executioner said it was by poison",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "complained to maire about fence",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean Cointzelin",
+      "person_id": null,
+      "gender": "male",
+      "age": 15,
+      "location": "jeune fils de Raves",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean fils feu Jean Babel",
+      "person_id": null,
+      "gender": "male",
+      "age": 18,
+      "location": "du Faing",
+      "relationship_to_accused": "nephew guarding animals for brother of Demenge Babel",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "took piece of rounded wood that accused claimed was his",
+        "threat_received": true,
+        "threat_quote": "feroit des veaux",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "stillborn calf",
+            "animal_type": "calf",
+            "animal_count": 1,
+            "harm_description": "dead calf had to be dragged from cow",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "took piece of wood",
+            "time_after_quarrel": "2 or 3 days later"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Margueritte femme Pierron Jardolle",
+      "person_id": null,
+      "gender": "female",
+      "age": 38,
+      "location": "du Faing",
+      "relationship_to_accused": "wife of witness 13",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Mengeon Renouard",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "de la Voivrelle",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean envious of horse, then fight after being fined",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "harm_description": "became furious, as if rabid, and died",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "fight after being fined",
+            "time_after_quarrel": "3 years later"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Claudon fils Jean Simon",
+      "person_id": null,
+      "gender": "male",
+      "age": 23,
+      "location": "de la Voivrelle",
+      "relationship_to_accused": "son of maire Jean Simonin",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "nervous mare knocked him down when borrowing cart",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "animal_type": "horse",
+            "animal_count": 1,
+            "economic_value": "previously worth 19 écus, now worth 1 écu",
+            "harm_description": "in such a state they would be glad to take one écu for her",
+            "attributed_to": "Jean Gerardin",
+            "precipitating_quarrel": "knocked down by mare",
+            "time_after_quarrel": "after threats"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 24,
+      "name": "Le maire Jean Simonin",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "de la Voivrelle",
+      "occupation": "maire",
+      "relationship_to_accused": "neighbor, local official",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "called_witch_publicly": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-02-21",
+      "event": "other",
+      "subject": "procureur for canons",
+      "details": "procureur for canons has received denunciation; asks for witnesses to be heard, followed if appropriate by arrest, interrogation, and confrontations"
+    },
+    {
+      "date": "1611-02-25",
+      "event": "informations_preparatoires",
+      "subject": "Jean Gerardin",
+      "details": "24 witnesses heard"
+    },
+    {
+      "date": "1611-02-26",
+      "event": "interrogation",
+      "subject": "Jean Gerardin",
+      "details": "First interrogation, made voluntary confession of seduction by Persin and some malefices"
+    },
+    {
+      "date": "1611-02-28",
+      "event": "confrontation",
+      "subject": "Jean Gerardin",
+      "details": "Confronted with witnesses, denied most charges, then offered to make full confession; confessed to sabbat attendance and additional malefices"
+    },
+    {
+      "date": "1611-03-01",
+      "event": "interrogation",
+      "subject": "Jean Gerardin",
+      "details": "Confirmed earlier confessions"
+    },
+    {
+      "date": "1611-03-02",
+      "event": "interrogation",
+      "subject": "Jean Gerardin",
+      "details": "Further repetition of confessions"
+    },
+    {
+      "date": "1611-03-03",
+      "event": "death_requested",
+      "subject": "Jean Gerardin",
+      "details": "procureur asks for death sentence"
+    },
+    {
+      "date": "1611-03-05",
+      "event": "death_approved",
+      "subject": "Jean Gerardin",
+      "details": "Change de Nancy approves"
+    },
+    {
+      "date": "1611-03-15",
+      "event": "execution",
+      "subject": "Jean Gerardin",
+      "details": "sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Jehenne gros Jean",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Gregoire Mathieu",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Dieudonné Rohay",
+      "context": "seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Colas Malgendre",
+      "location": "Neufviller",
+      "context": "seen at sabbat",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Gerardin",
+      "french": "que l'on ne scauroit rien dire de luy, qu'il ne le scache a la fin",
+      "english": "that one cannot say anything about him that he will not know in the end",
+      "context": "Witness 5 heard him say this on many occasions, suspected this must be through agency of devil"
+    },
+    {
+      "speaker": "Jean Gerardin",
+      "french": "que quant lesdits veaux auroient sucez le laict, le diable les emporteroit",
+      "english": "that when the calves had sucked the milk, the devil would carry them away",
+      "context": "Threat to Demenge Babel after refusing to sell calves"
+    },
+    {
+      "speaker": "Jean Gerardin",
+      "french": "il deviendroit bien tost her, ou grand seigneur",
+      "english": "he would soon become heir, or great lord",
+      "context": "Said to Claudon Renouard's husband about doing carting work"
+    },
+    {
+      "speaker": "Jean Gerardin",
+      "french": "que le diable puisse rompre le col et les jambes des chevaulx, et des servans et servantes",
+      "english": "may the devil break the neck and legs of the horses, and of the servants male and female",
+      "context": "Curse after mare knocked him down"
+    },
+    {
+      "speaker": "Jean Gerardin",
+      "french": "ne s'entendre à justice",
+      "english": "not understanding justice",
+      "context": "When asked why he did not seek reparation for being called witch"
+    },
+    {
+      "speaker": "Jean Gerardin",
+      "french": "qu'il y avoit bien quelques choses qu'on ne scavoit et qui pouvoit arriver, qu'il craindoit",
+      "english": "that there were some things that one did not know and that could happen, that he feared",
+      "context": "When asked why he wanted to make donation of goods"
+    },
+    {
+      "speaker": "Jean Gerardin",
+      "french": "qu'il y avoit bien quelque chose",
+      "english": "that there was indeed something",
+      "context": "When maire Jean Simonin told him he suspected him of being a witch"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Gerardin",
+      "person2": "Demenge Babel",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "quarrel 20 years earlier over animals damaging crops",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Gerardin",
+      "person2": "Claudon Renouard",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "frequent visitor to house, always asking them to do carting",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Renouard",
+      "person2": "Beniste femme Claudon Renouard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness 11 is husband of witness 10",
+      "inferred": false
+    },
+    {
+      "person1": "Beniste femme Claudon Renouard",
+      "person2": "small child",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "had small child in cradle",
+      "inferred": false
+    },
+    {
+      "person1": "Parise femme Ferry Claude Ferry",
+      "person2": "Margueritte, widow of Jean Maire Claude",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "visiting sick daughter Margueritte",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte, widow of Jean Maire Claude",
+      "person2": "Jean Maire Claude",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "widow of Jean Maire Claude",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Babel",
+      "person2": "Jean fils feu Jean Babel",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his nephew Jean, guarding animals for brother of witness",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Gerardin",
+      "person2": "Claude Gerardin",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "husband leased garden from accused, who was his uncle",
+      "inferred": false
+    },
+    {
+      "person1": "Jacquat Didier Renouard",
+      "person2": "Colas",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his brother Colas",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine servante à Mengeon Renouard",
+      "person2": "maire Jean Simon",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "had engaged herself for a year to maire Jean Simon",
+      "inferred": false
+    },
+    {
+      "person1": "Pierron Jardelle",
+      "person2": "Margueritte femme Pierron Jardolle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "confirmed husband's deposition",
+      "inferred": false
+    },
+    {
+      "person1": "Le maire Jean Simonin",
+      "person2": "Claudon fils Jean Simon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudon fils Jean Simon",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Babel",
+      "person2": "Agnes veuve Jean Demenge Babel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Agnes veuve Jean Demenge Babel",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Gerardin",
+      "person2": "le maire Jean Simon",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "quarrels mentioned with le maire Jean Simon",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Gerardin",
+      "person2": "seigneur of la Faing (Didier Jean Colin)",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "quarrels mentioned with seigneur of la Faing",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes over renting land, carting work, damage by animals, and payment for goods (pigs). Jean rented land and meadows to others. He owned property and engaged in agricultural work as a manouvrier. Several quarrels involved economic transactions gone wrong or resentment over others' economic success."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "small child of Colas Demenge Noel",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "became ill, as it seemed mortally, but recovered some 10 days later",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "arrived late to cut hay",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "meadow",
+      "harm_category": "crop_damage",
+      "harm_description": "rain came and half meadow was ruined",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "said he had paid too little for the meadow",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "words - predicted rain",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "pig",
+      "harm_category": "animal_death",
+      "harm_description": "pig died following long illness",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "asked for reduction in price, which witness granted because he feared him",
+      "time_between_quarrel_and_harm": "after this",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "pig",
+      "harm_category": "animal_death",
+      "harm_description": "pig died",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "obtained money from him for damage done by his animals",
+      "time_between_quarrel_and_harm": "about a month afterwards",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "calf",
+      "harm_category": "animal_death",
+      "harm_description": "loss of calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "witness saw his animals on fallow where there was still grain, and called him witch",
+      "time_between_quarrel_and_harm": "previous autumn",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "mare and her foal",
+      "harm_category": "animal_death",
+      "harm_description": "lost a mare and her foal",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "economic_value": "18 écus",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "refused to cart manure for him because too busy",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Margueritte, widow of Jean Maire Claude",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "touched her several times on shoulder, that was where sickness began, died after illness lasting 5 days",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "sold him a pig, then he would not pay price agreed",
+      "time_between_quarrel_and_harm": "2 years before",
+      "method_alleged": "touch on shoulder",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "6 cows with calves",
+      "harm_category": "animal_death",
+      "harm_description": "6 cows, each with a fine calf, all died",
+      "animal_type": "cow",
+      "animal_count": 12,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "asked to buy calves, witness refused",
+      "time_between_quarrel_and_harm": "later",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "calf",
+      "harm_category": "animal_death",
+      "harm_description": "dead calf had to be dragged from brother's cow",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "nephew took piece of rounded wood that accused claimed was his",
+      "time_between_quarrel_and_harm": "2 or 3 days later",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "small child in cradle",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_injury",
+      "harm_description": "heard bang in night, found child on floor by door into poisle, appeared to be stunned but recovered",
+      "attributed_to": "Jean Gerardin",
+      "time_between_quarrel_and_harm": "8 or 9 years before",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "horse",
+      "harm_category": "animal_death",
+      "harm_description": "lost a horse",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "11 or 12 écus",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "envious of husband's good fortune getting carting work",
+      "time_between_quarrel_and_harm": "within 2 days",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "mare and bullock",
+      "harm_category": "animal_death",
+      "harm_description": "lost both the mare and a bullock",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "Jean envious of new mare",
+      "time_between_quarrel_and_harm": "within less than 2 months",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "lost an ox",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": "more than 17 écus",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "his pigs damaged a garden belonging to Jean",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "mare",
+      "harm_category": "animal_illness",
+      "harm_description": "mare became ill, would neither die nor recover",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "reported Jean taking straw, he had to pay 8 francs fine",
+      "time_between_quarrel_and_harm": "after paying fine",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "cow teat",
+      "harm_category": "animal_illness",
+      "harm_description": "one teat of a cow ceased giving milk",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "had not wanted to rent his fields",
+      "time_between_quarrel_and_harm": "after threats",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "calves",
+      "harm_category": "animal_death",
+      "harm_description": "calves all died",
+      "animal_type": "calf",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "Demenge Babel refused to sell him calves",
+      "time_between_quarrel_and_harm": "after",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Colas and his wife",
+      "victim_relationship_to_witness": "brother and sister-in-law",
+      "harm_category": "human_death",
+      "harm_description": "brother and wife died within a week of one another",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "angry at having to move out of house",
+      "time_between_quarrel_and_harm": "within 6 months",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Catherine (witness herself)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "illness which made her all swollen",
+      "attributed_to": "Jean Gerardin",
+      "time_between_quarrel_and_harm": "during year",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "mare",
+      "harm_category": "animal_illness",
+      "harm_description": "mare immediately sickened, something wrong with back legs which expert smith could do nothing for",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "mare knocked him down, he cursed",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "curse",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "cow",
+      "harm_category": "animal_death",
+      "harm_description": "loss of a cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "angry because husband transferred his part of lease on some animals to Nicolas Cointzelin",
+      "time_between_quarrel_and_harm": "8 or 9 years earlier",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "cow",
+      "harm_category": "animal_death",
+      "harm_description": "cow died suddenly, executioner said it was by poison",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "Jean broke down fence, husband complained to maire",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "poison",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "stillborn calf",
+      "harm_category": "animal_death",
+      "harm_description": "dead calf had to be dragged from cow",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "took piece of rounded wood that accused claimed",
+      "time_between_quarrel_and_harm": "2 or 3 days later",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "horse",
+      "harm_category": "animal_death",
+      "harm_description": "horse became furious, as if rabid, and died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "Jean envious of horse, then fight after being fined",
+      "time_between_quarrel_and_harm": "3 years later",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "mare",
+      "harm_category": "animal_illness",
+      "harm_description": "mare in such a state they would be glad to take one écu for her, whereas previously worth 19",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "previously worth 19 écus, now worth 1 écu",
+      "attributed_to": "Jean Gerardin",
+      "precipitating_quarrel": "nervous mare knocked him down when borrowing cart",
+      "time_between_quarrel_and_harm": "after threats",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "2 sheep",
+      "harm_category": "animal_death",
+      "harm_description": "killed 2 sheep",
+      "animal_type": "sheep",
+      "animal_count": 2,
+      "attributed_to": "Jean Gerardin",
+      "method_alleged": "powder",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "scythe",
+      "context": "cutting hay in meadow",
+      "category": "agricultural"
+    },
+    {
+      "object": "pig",
+      "context": "bought and sold as livestock",
+      "category": "agricultural"
+    },
+    {
+      "object": "manure",
+      "context": "carting manure",
+      "category": "agricultural"
+    },
+    {
+      "object": "cart",
+      "context": "borrowing cart and horses for work",
+      "category": "agricultural"
+    },
+    {
+      "object": "cradle",
+      "context": "small child in cradle",
+      "category": "household"
+    },
+    {
+      "object": "rounded wood",
+      "context": "piece of rounded wood that made calves",
+      "category": "magical"
+    },
+    {
+      "object": "tithes/sheaves",
+      "context": "carting sheaves for tithes",
+      "category": "agricultural"
+    },
+    {
+      "object": "straw",
+      "context": "taking straw from house",
+      "category": "agricultural"
+    },
+    {
+      "object": "8 francs",
+      "context": "fine for taking straw",
+      "category": "money"
+    },
+    {
+      "object": "fence",
+      "context": "broke down fence of garden",
+      "category": "agricultural"
+    },
+    {
+      "object": "bag",
+      "context": "devil gave him bag with powder",
+      "category": "magical"
+    },
+    {
+      "object": "powder - black, grey, white",
+      "context": "to kill, languish, or heal",
+      "category": "magical"
+    },
+    {
+      "object": "hen",
+      "context": "gave his master a hen every year",
+      "category": "agricultural"
+    },
+    {
+      "object": "beef and mutton",
+      "context": "food at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "flute and violins",
+      "context": "music at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "écus (currency)",
+      "context": "value of animals - 18 écus, 11-12 écus, 17 écus, 19 écus, 1 écu",
+      "category": "money"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Voivrelle",
+      "place_type": "village",
+      "context": "where accused lived and trial took place"
+    },
+    {
+      "place_name": "Remeymont",
+      "place_type": "village",
+      "context": "where witness 1 lived"
+    },
+    {
+      "place_name": "Coinche",
+      "place_type": "village",
+      "context": "where multiple witnesses lived"
+    },
+    {
+      "place_name": "le Faing",
+      "place_type": "village",
+      "context": "where accused lived for 20 years before moving to la Voivrelle"
+    },
+    {
+      "place_name": "des Fosses",
+      "place_type": "village",
+      "context": "where witness 7 lived"
+    },
+    {
+      "place_name": "Ste Marguerite",
+      "place_type": "village",
+      "context": "where sick daughter lived"
+    },
+    {
+      "place_name": "Bertrimoustier",
+      "place_type": "village",
+      "context": "cemetery where conversation about suicide took place"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "market town, where accused wanted to go to make donation of goods"
+    },
+    {
+      "place_name": "Coinchemont",
+      "place_type": "village",
+      "context": "where witness 15 lived"
+    },
+    {
+      "place_name": "Gemaingoutte",
+      "place_type": "village",
+      "context": "where brother Colas lived"
+    },
+    {
+      "place_name": "Raves",
+      "place_type": "village",
+      "context": "where mother remarried, where first wife was from, where witness 19 lived"
+    },
+    {
+      "place_name": "Remomeix",
+      "place_type": "village",
+      "context": "where father came from"
+    },
+    {
+      "place_name": "Rennegoutte in val de Champ",
+      "place_type": "village",
+      "context": "where mother was from"
+    },
+    {
+      "place_name": "Entre-deux-Eaux",
+      "place_type": "village",
+      "context": "where accused went into service"
+    },
+    {
+      "place_name": "Ginfosse",
+      "place_type": "village",
+      "context": "where accused went into service"
+    },
+    {
+      "place_name": "St Jean d'Ormont",
+      "place_type": "village",
+      "context": "where second wife was from"
+    },
+    {
+      "place_name": "Neufviller",
+      "place_type": "village",
+      "context": "where Colas Malgendre (accomplice) was from"
+    },
+    {
+      "place_name": "meadow",
+      "place_type": "field",
+      "context": "where hay cutting incident occurred"
+    },
+    {
+      "place_name": "fallow",
+      "place_type": "field",
+      "context": "where animals caused damage"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "field",
+      "context": "pigs damaged garden, fence broken down"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "where devil appeared to accused"
+    },
+    {
+      "place_name": "cemetery of Bertrimoustier",
+      "place_type": "church",
+      "context": "where suicide conversation took place"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["rain"],
+    "economic_hardship_indicators": ["disputes over small amounts", "fear of making someone angry", "accusations often following economic transactions"],
+    "religious_calendar_references": ["last Christmas"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur for canons",
+        "role": "prosecutor_pg",
+        "location": "canons"
+      },
+      {
+        "name": "Mengeon Henryat",
+        "role": "mayor",
+        "location": "le Faing, then maire of Ste Marguerite"
+      },
+      {
+        "name": "Le maire Jean Simonin",
+        "role": "mayor",
+        "location": "de la Voivrelle"
+      },
+      {
+        "name": "banyard",
+        "role": "other",
+        "location": "unknown"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Pierron Jardelle reported Jean taking straw, Jean had to pay 8 francs fine",
+        "outcome": "Jean paid 8 francs"
+      },
+      {
+        "dispute_type": "property",
+        "description": "Husband complained to maire about Jean breaking down fence",
+        "outcome": "unknown"
+      },
+      {
+        "dispute_type": "property",
+        "description": "Jean had witness fined by banyard for damage by horses",
+        "outcome": "witness fined"
+      }
+    ],
+    "accused_sought_redress": false,
+    "redress_outcome": "When asked why he did not seek reparation for being called witch, he replied 'ne s'entendre à justice'",
+    "imprisonment_conditions": null,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 20,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Gregoire Vincent Henriat",
+        "source": "daughter of witness 7",
+        "content": "heard her blame illness on Jean"
+      },
+      {
+        "reporter": "Jacquat Didier Renouard",
+        "source": "brother Colas",
+        "content": "heard brother say he suspected him over wife's death"
+      },
+      {
+        "reporter": "Agnes veuve Jean Demenge Babel",
+        "source": "Demenge Babel",
+        "content": "heard him say about calves"
+      },
+      {
+        "reporter": "Margueritte femme Pierron Jardolle",
+        "source": "husband Pierron Jardelle",
+        "content": "confirmed husband's deposition"
+      }
+    ],
+    "oldest_accusation_years": 20,
+    "corroboration_groups": [
+      [9, 14, 20],
+      [10, 11],
+      [13, 21],
+      [16, 23]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all"],
+    "emotional_state_notes": [
+      "en estoit en peine extreme, parlant de cela a par scÿ, et jectant les bras",
+      "se jecta, sur ung ban, et se frappant des poings contre l'estomach",
+      "de laquelle nouvelle ledict prevenu fut tout resjouy, et montra meilleur visage qu'aparavent"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Margueritte, widow of Jean Maire Claude",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "sold him a pig",
+      "relationship_to_witness": "daughter of witness 7",
+      "context": "died after Jean touched her shoulder following dispute over pig payment"
+    },
+    {
+      "name": "Jean Maire Claude",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "late husband of daughter of witness 7",
+      "context": "deceased husband of victim"
+    },
+    {
+      "name": "servant of curé",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "visited sick daughter with witness 8"
+    },
+    {
+      "name": "Jean (nephew of Demenge Babel)",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "nephew of witness 9",
+      "context": "guarding animals, took piece of wood"
+    },
+    {
+      "name": "Pierron Gerdolle",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "quarreled with Jean",
+      "context": "threatened to complain about threats Jean made, Jean very anxious about this"
+    },
+    {
+      "name": "Didier Renouard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "late, guardian of his children, witness 13 doing building work at his house"
+    },
+    {
+      "name": "maire Jean Simon",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Catherine engaged herself to work for him, Jean killed his 2 sheep"
+    },
+    {
+      "name": "Nicolas Cointzelin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "husband transferred lease on animals to him rather than to Jean"
+    },
+    {
+      "name": "Colas",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "brother of witness 15",
+      "context": "died within 6 months of moving into house Jean was renting"
+    },
+    {
+      "name": "wife of Colas",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "sister-in-law of witness 15",
+      "context": "died within a week of Colas"
+    },
+    {
+      "name": "Claude Renouard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Jean talked to him about hanging himself while they were ploughing"
+    },
+    {
+      "name": "Claude Gerardin",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "nephew",
+      "relationship_to_witness": "husband of witness 18",
+      "context": "leased garden from Jean who was his uncle"
+    },
+    {
+      "name": "executioner",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "context": "said cow died by poison"
+    },
+    {
+      "name": "expert smith",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "called in to help sick mare but could do nothing"
+    },
+    {
+      "name": "seigneur of la Faing (Didier Jean Colin)",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "had quarrels with him",
+      "context": "one of several people Jean admitted quarreling with"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial features voluntary confession without torture. Accused showed signs of suicidal ideation and eventually confessed to seduction by devil named Persin, receiving magical powders, attending sabbat, and causing harm to animals and one human death. Named 4 accomplices at sabbat. 24 witnesses testified to long reputation (up to 20 years), multiple quarrels over economic matters, and alleged harms primarily to livestock. Change de Nancy approved death sentence which was carried out 10 days later.",
+    "pdf_pages": 6
+  }
+}

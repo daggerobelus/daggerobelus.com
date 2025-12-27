@@ -3,6 +3,14 @@
   "archive_ref": "B 3343",
   "location": "Leintrey",
   "court": "Court at Blamont",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "procureur fiscal of comté de Blamont",
+    "person_id": null,
+    "occupation": "procureur fiscal",
+    "location": "Blamont",
+    "relationship_to_accused": "no prior relationship - official prosecutor"
+  },
   "dates": {
     "start": "1607-08-23",
     "end": "1612-09-26",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Margueritte femme Claude Martin",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "Leintrey",
       "marital_status": "married",
       "spouse_name": "Claude Martin",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["charms_amulets", "other"],
       "parents": {
         "father": "Pierson de Waxaville",
         "mother": "Allison Pierson"
@@ -38,6 +50,7 @@
     {
       "number": 1,
       "name": "Margueritte femme Mengin Godat",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "testimony": {
@@ -63,6 +76,7 @@
     {
       "number": 2,
       "name": "Izabel femme Jean Mongeat",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": "midwife",
@@ -88,6 +102,7 @@
     {
       "number": 3,
       "name": "Allison veuve Jean Hellenix",
+      "person_id": null,
       "gender": "female",
       "testimony": {
         "reputation_mentioned": false,
@@ -118,6 +133,7 @@
     {
       "number": 4,
       "name": "Jennon veuve Claudon Jacquemin",
+      "person_id": null,
       "gender": "female",
       "age": 54,
       "relationship_to_accused": "sister of accused",
@@ -161,6 +177,7 @@
     {
       "number": 5,
       "name": "Hellenix femme Demenge Michiel Vallance",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "testimony": {
@@ -188,6 +205,7 @@
     {
       "number": 6,
       "name": "Françoise femme Demenge Jacquemin",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "testimony": {
@@ -227,6 +245,7 @@
     {
       "number": 7,
       "name": "Demenge Jacquemin",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "testimony": {
@@ -261,6 +280,7 @@
     {
       "number": 8,
       "name": "Henry Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "testimony": {
@@ -308,6 +328,7 @@
     {
       "number": 9,
       "name": "Claudon Marchal, dit Marye",
+      "person_id": null,
       "gender": "male",
       "testimony": {
         "reputation_mentioned": true,
@@ -356,6 +377,7 @@
     {
       "number": 10,
       "name": "Demenge Grand Colas",
+      "person_id": null,
       "gender": "male",
       "testimony": {
         "reputation_mentioned": true,
@@ -389,6 +411,7 @@
     {
       "number": 11,
       "name": "Mongin Godat",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "testimony": {
@@ -407,6 +430,7 @@
     {
       "number": 12,
       "name": "Thiebault Jean Thiebault",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "testimony": {
@@ -435,6 +459,7 @@
     {
       "number": 13,
       "name": "Demenge Conna",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "mason",
@@ -464,6 +489,7 @@
     {
       "number": 14,
       "name": "Margueritte femme Jean Colotte",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Avricourt (previously lived at Leintrey)",
@@ -499,6 +525,7 @@
     {
       "number": 15,
       "name": "Melline veuve Anthoine Grand Anthoine",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "location": "Avricourt",
@@ -527,6 +554,7 @@
     {
       "number": 16,
       "name": "Claude Vautrin, femme Claude Mal Didier",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "location": "Xousse",
@@ -553,6 +581,7 @@
     {
       "number": 17,
       "name": "Claude Mal Didier",
+      "person_id": null,
       "gender": "male",
       "age": 21,
       "occupation": "schoolmaster at Xousse (previously at Leintrey)",
@@ -579,6 +608,7 @@
     {
       "number": 18,
       "name": "Demenge Mongeat",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "testimony": {
@@ -605,6 +635,7 @@
     {
       "number": 19,
       "name": "Demenge Bon Claude",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "testimony": {
@@ -642,6 +673,7 @@
     {
       "number": 20,
       "name": "Margueritte femme Demenge Bon Claude",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "testimony": {
@@ -667,6 +699,7 @@
     {
       "number": 21,
       "name": "Jehenne femme Demenge Gadel",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "testimony": {
@@ -692,6 +725,7 @@
     {
       "number": 22,
       "name": "Odille femme Claudon Grand Claude",
+      "person_id": null,
       "gender": "female",
       "age": 48,
       "testimony": {
@@ -708,6 +742,7 @@
     {
       "number": 23,
       "name": "Catherine veuve Claudon Thomas",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "testimony": {
@@ -1836,7 +1871,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Multiple instances: (1) Demenge Jacquemin called her witch but she sought no redress; (2) Thiebault's wife called her witch but did not seek redress; (3) Mongin Godat called her witch and told her to get out - she made no complaint; (4) Simon Marie case - promised acte de justice but did not receive it. Generally did not seek redress except in Simon Marie case.",
     "imprisonment_conditions": "Imprisoned before interrogation; after torture on Sept 19 ordered to be shaved 'affin de pouvoir facillement tirer la verité d'elle, et empescher que l'ennemy ne s'y cache et l'empesche de dire la verité'; after torture on Sept 20 sent back to prison 'pour sa debillité'",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture on Sept 17, 1612. On Sept 24, agreed she should be released (renvoyée) on witchcraft charges. Modified the procureur fiscal's request for whipping and banishment for blasphemy, instead ordering only that the court point out enormity of blasphemies and order her to seek pardon from God and Virgin.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1924,6 +1964,7 @@
   "third_parties": [
     {
       "name": "Jennon fille Mengin Godat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "daughter of witness's daughter quarrelled with accused's daughter",
       "relationship_to_witness": "daughter of witness 1",
@@ -1931,6 +1972,7 @@
     },
     {
       "name": "Demenge de Conna (husband)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "heard by witness 1",
@@ -1938,6 +1980,7 @@
     },
     {
       "name": "wife of Demenge de Conna",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "heard by witness 1",
@@ -1945,6 +1988,7 @@
     },
     {
       "name": "Margueritte (unspecified)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "acquaintance",
       "relationship_to_witness": "heard by witness 1",
@@ -1952,6 +1996,7 @@
     },
     {
       "name": "Jennon (daughter of Allison Hellenix)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had child before marriage, drowned it",
       "relationship_to_witness": "daughter of witness 3",
@@ -1959,6 +2004,7 @@
     },
     {
       "name": "Demenge (nephew of Allison Hellenix)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "possibly related",
       "relationship_to_witness": "nephew of witness 3",
@@ -1966,6 +2012,7 @@
     },
     {
       "name": "Pierson (son of Jennon veuve Claudon Jacquemin)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "nephew (son of sister)",
       "relationship_to_witness": "son of witness 4",
@@ -1973,6 +2020,7 @@
     },
     {
       "name": "Françoise femme Demenge Jacquemin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "nephew's wife",
       "relationship_to_witness": "daughter-in-law of witness 4; witness 6 herself",
@@ -1980,6 +2028,7 @@
     },
     {
       "name": "Barbelline (daughter of Hellenix femme Demenge Michiel Vallance)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "child who quarrelled with accused's children",
       "relationship_to_witness": "daughter of witness 5; also mentioned by witness 13 (Demenge Conna) as his daughter",
@@ -1987,6 +2036,7 @@
     },
     {
       "name": "doctor Odet",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "none",
       "relationship_to_witness": "consulted by witnesses 5 and 13",
@@ -1994,6 +2044,7 @@
     },
     {
       "name": "Didier de Vacourt",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former neighbor",
       "relationship_to_witness": "first husband of witness 14",
@@ -2001,6 +2052,7 @@
     },
     {
       "name": "Sebille",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former neighbor",
       "relationship_to_witness": "daughter of witness 14",
@@ -2008,6 +2060,7 @@
     },
     {
       "name": "woman from Metz",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none",
       "relationship_to_witness": "came to house of witness 14",
@@ -2015,6 +2068,7 @@
     },
     {
       "name": "Margueritte veuve Colas Vautrin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "from same village",
       "relationship_to_witness": "mentioned by witness 15",
@@ -2022,6 +2076,7 @@
     },
     {
       "name": "Simon Marie",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "none",
@@ -2029,6 +2084,7 @@
     },
     {
       "name": "Demenge Michel Valence",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "mentioned by witness 19",
@@ -2036,6 +2092,7 @@
     },
     {
       "name": "Demenge Parmentier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "none",
@@ -2043,6 +2100,7 @@
     },
     {
       "name": "Jean (father of Demenge Bon Claude)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none directly",
       "relationship_to_witness": "father of witness 19",
@@ -2050,6 +2108,7 @@
     },
     {
       "name": "Claudon (son of Claudon Marchal)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's child",
       "relationship_to_witness": "son of witness 9",
@@ -2057,6 +2116,7 @@
     },
     {
       "name": "daughter of Demenge Bon Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "potential daughter-in-law (rejected)",
       "relationship_to_witness": "daughter of witness 19",
@@ -2064,6 +2124,7 @@
     },
     {
       "name": "son of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": "was courting witness 19's daughter",
@@ -2071,6 +2132,7 @@
     },
     {
       "name": "daughter aged 3 (of Jehenne femme Demenge Gadel)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none",
       "relationship_to_witness": "daughter of witness 21",
@@ -2078,6 +2140,7 @@
     },
     {
       "name": "woodcutters",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "told witness 21 where child was found",
@@ -2085,6 +2148,7 @@
     },
     {
       "name": "daughter (called on to bring axe)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": "none",
@@ -2092,6 +2156,7 @@
     },
     {
       "name": "Claude Martin (husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": "none",
@@ -2099,6 +2164,7 @@
     },
     {
       "name": "surgeon",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "none",
       "relationship_to_witness": "none",
@@ -2106,6 +2172,7 @@
     },
     {
       "name": "sergent",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "arrested her",
       "relationship_to_witness": "none",

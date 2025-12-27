@@ -1,0 +1,1334 @@
+{
+  "trial_id": "w248",
+  "archive_ref": "B 8702 no 9",
+  "location": "la Neuveville-les-Raon",
+  "language_region": "french",
+  "dates": {
+    "start": "1609-11-19",
+    "end": "1609-12-14",
+    "duration_days": 25
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Pierron Geliat",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "veterinary", "charms_amulets"],
+      "occupation": ["laboureur", "animal healer"],
+      "origin": "Blairville in ban d'Etival",
+      "residence": "la Neuveville-les-Raon",
+      "marital_status": "married",
+      "spouse_name": "Jehenne (veuve Colin Jalley)",
+      "parents": {
+        "father": "Jean Gerard Gelliat",
+        "mother": "Fleuratte"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "devil_name": "Jolybois",
+        "devil_appearance": "big man in black",
+        "seduction_date": "4 years earlier",
+        "seduction_context": "After losing lawsuit with miller from Baccarat, was distressed about losses. First encountered black dog with wind outside La Chapelle, 2 weeks later approached by man in black called Jolybois who promised to help win case",
+        "powder_types": ["black powder (to kill)", "red powder (to cause languishing)", "white powder (to heal)"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["unspecified location"],
+        "sabbat_activities": ["dancing", "feasting", "talk of spoiling crops and doing harm"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Didier Chottey",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "la Neuveville-les-Raon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Unknown male witness",
+      "person_id": null,
+      "gender": "male",
+      "age": 65,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Zabel femme Demenge Ganaire",
+      "person_id": null,
+      "gender": "female",
+      "age": 33,
+      "relationship_to_accused": "client (hired him to cure horses)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Payment for failing to cure sick horse",
+        "threat_received": true,
+        "threat_quote": "told servant he had not been paid",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness and husband",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "initially died after long treatment"
+          },
+          {
+            "type": "animal_illness",
+            "target": "second horse",
+            "target_relationship": "owned by witness and husband",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "next day after threat to servant"
+          },
+          {
+            "type": "human_death",
+            "target": "maid Fleuratte",
+            "target_relationship": "servant of witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "fell ill suddenly and died a week after telling accused to remove pigs"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Forgeat",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jean de Sainct Pierre",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "la Neuveville-les-Raon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Economic resentment - accused said in contempt 'one can see those who have money, for his part he could not build a house and had no money'",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean de Sainct Pierre",
+            "target_relationship": "self",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "next day"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 6,
+      "name": "Catherine femme Jean de Sainct Pierre",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "la Neuveville-les-Raon",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "sickened next day after he touched it, died after 10 or 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Mongeon Jacat",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Annon veuve Bastien Piernille",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "relationship_to_accused": "debtor (husband owed rent)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband owed him rent for house",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband Bastien Piernille",
+            "target_relationship": "husband of witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "husband fell suddenly ill after encountering accused while carting wine, died within a week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Unknown femme Didier Ganat",
+      "person_id": null,
+      "gender": "female",
+      "age": 37,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Estienne Pescheur",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Marguitte veuve Claudon Estienne",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel over a fence",
+        "threat_received": true,
+        "threat_quote": "accused said those responsible should be burned; husband replied 'he was a nigromancien and sorcier and that he and his wife should be burned'",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "owned by witness and husband",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "lost milk for rest of year"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jennon femme Demenge des Boeufs",
+      "person_id": null,
+      "gender": "female",
+      "age": 65,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over going to fetch wheat - they took another person instead of accused",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 cows",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "4 years before - cows languished miserably"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudon Houchart",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Chretien Brabant",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Various quarrels, some ten years earlier",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "various animals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "unspecified"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Demenge Ganaire",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "relationship_to_accused": "client and antagonist",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Payment for failing to cure horse",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Pierron Geliat and his wife",
+            "time_after_quarrel": "died outside house of accused"
+          },
+          {
+            "type": "human_death",
+            "target": "chambermaid",
+            "target_relationship": "servant of witness",
+            "attributed_to": "Jean Pierron Geliat or his wife",
+            "time_after_quarrel": "unspecified"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Idoul Bon Temps de Blainville",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Blainville",
+      "relationship_to_accused": "former co-worker (tithe collectors together)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness took accused's 'paulx de disme' (tithe tools)",
+        "threat_received": true,
+        "threat_quote": "wished witness might have it 'au creu du ventre'",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Idoul Bon Temps",
+            "target_relationship": "self",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "immediately afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Colas Charey",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "George Colin Mongeat",
+      "person_id": null,
+      "gender": "male",
+      "age": 42,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Colas Blasat le jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Demenge Gros Demenge de Vazenal",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Vazenal",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Pacquat femme Adam Vaulthier marchand de Raon",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "location": "Raon",
+      "occupation": "merchant's wife",
+      "relationship_to_accused": "client",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Complained he had been badly paid for treating horses",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse with farcin",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "after Easter treatment"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Francois Mongeat",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first wife of witness",
+            "target_relationship": "wife of witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "a year earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Jean Cuguin de la Chapelle",
+      "person_id": null,
+      "gender": "male",
+      "location": "la Chapelle",
+      "relationship_to_accused": "client",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Payment for treating horse with farin",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse with farin",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Jean Pierron Geliat",
+            "time_after_quarrel": "shortly after accused asked to see horse and was told falsely it was away"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1609-11-19",
+      "event": "informations_preparatoires",
+      "subject": "Jean Pierron Geliat",
+      "details": "Preliminary witness depositions begin"
+    },
+    {
+      "date": "1609-11-20",
+      "event": "informations_preparatoires",
+      "subject": "Jean Pierron Geliat",
+      "details": "Additional witnesses deposed"
+    },
+    {
+      "date": "1609-11-26",
+      "event": "informations_preparatoires",
+      "subject": "Jean Pierron Geliat",
+      "details": "Final witnesses deposed"
+    },
+    {
+      "date": "1609-12-01",
+      "event": "confrontation",
+      "subject": "Jean Pierron Geliat",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1609-12-02",
+      "event": "other",
+      "subject": "Jean Pierron Geliat",
+      "details": "Voluntary confession given - confrontations were to continue but accused wanted to confess"
+    },
+    {
+      "date": "1609-12-03",
+      "event": "interrogation",
+      "subject": "Jean Pierron Geliat",
+      "details": "Additional interrogation, renewed earlier confessions and added more malefices"
+    },
+    {
+      "date": "1609-12-09",
+      "event": "sentence",
+      "subject": "Jean Pierron Geliat",
+      "details": "Death sentence from Change de Nancy"
+    },
+    {
+      "date": "1609-12-14",
+      "event": "execution",
+      "subject": "Jean Pierron Geliat",
+      "details": "Execution has taken place"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [],
+  "prior_accusations": [],
+  "notable_quotes": [
+    {
+      "speaker": "Witness 2 (male, 65)",
+      "french": "que lors qu'il faict du temps et tempest, ledict Jean est ordinairement au champ, ou par chemin, au contraire que les autres Gens revienent en ville, mesme qu'il faict estat de guarir le bestail comme un devin",
+      "context": "Witness describing accused's suspicious behavior during storms and his healing practice"
+    },
+    {
+      "speaker": "Jean de Sainct Pierre (witness 5)",
+      "french": "en desdain qu'on voyoit bien ceulx qui avoient de l'argent que de sa part il ne pouvoit faire cela pour bastir la sienne et qu'il n'avoit point de deniers",
+      "context": "Accused expressing resentment about witness's wealth while building house"
+    },
+    {
+      "speaker": "Jean de Sainct Pierre (witness 5)",
+      "french": "un chacun peut juger qu'assurement c'est de sortillege",
+      "context": "Witness describing his mysterious illness and paralysis"
+    },
+    {
+      "speaker": "Claudon Estienne (husband of witness 11)",
+      "french": "qu'il estoit ung nigromancien et ung sorcier et que luy et sa femme ilz les failloient brusler",
+      "context": "Husband calling accused and his wife nigromancer and witch who should be burned"
+    },
+    {
+      "speaker": "Chretien Brabant (witness 14)",
+      "french": "que comme il se mesle de guarir le bestail ca et la, il deposant luy a ouy dire qu'il prenoit des jours pour cueillir des herbes et des heures, et qu'il faict beaucoup de ceremonies a l'entour du bestail",
+      "context": "Describing accused's healing practices involving specific days and hours for gathering herbs and ceremonies around animals"
+    },
+    {
+      "speaker": "Demenge Gros Demenge de Vazenal (witness 20)",
+      "french": "qu'il scavoit bien comme les années pouvoient advenir, et quant il y auroit année de bled et de paxon",
+      "context": "Accused claiming to know how years would turn out and when there would be years of wheat and peace"
+    },
+    {
+      "speaker": "Judges",
+      "french": "pour se venger de ses ennemis, parce que ce n'est le propre de Satan de les laisser en repos sans faire mal",
+      "context": "Judges insisting devil would have given powder to revenge enemies, as it is not Satan's nature to leave people in peace without doing evil"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Pierron Geliat",
+      "person2": "Jehenne (veuve Colin Jalley)",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had lived at la Neufville since marriage 16 years earlier with Jehenne, veuve Colin Jalley"
+    },
+    {
+      "person1": "Jean Gerard Gelliat",
+      "person2": "Jean Pierron Geliat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "father was Jean Gerard Gelliat"
+    },
+    {
+      "person1": "Fleuratte",
+      "person2": "Jean Pierron Geliat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "mother Fleuratte"
+    },
+    {
+      "person1": "Zabel femme Demenge Ganaire",
+      "person2": "Demenge Ganaire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Zabel femme Demenge Ganaire (witness 3) and Demenge Ganaire (witness 15)"
+    },
+    {
+      "person1": "Fleuratte (maid)",
+      "person2": "Demenge Ganaire",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "witness sent her maid Fleuratte"
+    },
+    {
+      "person1": "Catherine femme Jean de Sainct Pierre",
+      "person2": "Jean de Sainct Pierre",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme du precedent (witness 6) referring to Jean de Sainct Pierre (witness 5)"
+    },
+    {
+      "person1": "Annon veuve Bastien Piernille",
+      "person2": "Bastien Piernille",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Annon veuve Bastien Piernille (witness 8)"
+    },
+    {
+      "person1": "Marguitte veuve Claudon Estienne",
+      "person2": "Claudon Estienne",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte veuve Claudon Estienne (witness 11)"
+    },
+    {
+      "person1": "Jennon femme Demenge des Boeufs",
+      "person2": "Demenge des Boeufs",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Demenge des Boeufs (witness 12)"
+    },
+    {
+      "person1": "Pacquat femme Adam Vaulthier",
+      "person2": "Adam Vaulthier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Pacquat femme Adam Vaulthier marchand de Raon (witness 21)"
+    },
+    {
+      "person1": "Jean Pierron Geliat",
+      "person2": "Demenge Ganaire",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "contracted with her husband to cure their sick horse but complained he had not been paid"
+    },
+    {
+      "person1": "Jean Pierron Geliat",
+      "person2": "Jean de Sainct Pierre",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "neighbors in la Neuveville-les-Raon, accused commented on witness building house"
+    },
+    {
+      "person1": "Bastien Piernille",
+      "person2": "Jean Pierron Geliat",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "accused",
+      "evidence_text": "husband owed him some rent for house"
+    },
+    {
+      "person1": "Jean Pierron Geliat",
+      "person2": "Idoul Bon Temps de Blainville",
+      "relationship_type": "business_partner",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "they were tithe collectors together some 15 years earlier when accused lived at Blainville"
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "horse of Demenge Ganaire",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "sick horse contracted to cure, after long treatment no better, subsequently died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Payment dispute - accused complained he had not been paid although received a franc and had not cured it as promised",
+      "time_between_quarrel_and_harm": "6 years before testimony",
+      "method_alleged": "witchcraft through failed healing",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "second horse of Demenge Ganaire",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "horse went lame and remained so for a long time, temporarily recovered when taken to accused, then lameness returned and it died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Accused told servant he had not been paid and made threats",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "witchcraft following threat",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Fleuratte (maid)",
+      "victim_relationship_to_witness": "servant of witness",
+      "harm_category": "human_death",
+      "harm_description": "girl suddenly fell ill and died a week later",
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "His pigs got into their garden, maid sent to tell him to remove them",
+      "time_between_quarrel_and_harm": "2 months before testimony, fell ill after telling him",
+      "method_alleged": "witchcraft",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Idoult",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "human_injury",
+      "harm_description": "caused to fall from a tree",
+      "attributed_to": "Jean Pierron Geliat",
+      "time_between_quarrel_and_harm": "when living in Nompatelize",
+      "method_alleged": "witchcraft",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jean de Sainct Pierre",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "bad hand, then whole body became swollen, became paralyzed and bedridden (perclus et en chartre), still in pitiable state",
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Economic resentment - accused said in contempt one could see those who had money, he could not build house and had no money",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "sortillege (witchcraft)",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "cow of Catherine femme Jean de Sainct Pierre",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died after 10 or 12 weeks",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "none specific",
+      "time_between_quarrel_and_harm": "2 years before testimony, touched cow as she took them to drink, sickened next day",
+      "method_alleged": "touch",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Chrestien",
+      "victim_relationship_to_witness": "third party",
+      "harm_category": "other",
+      "harm_description": "harm related to fetching wood - accused said 'he thought he could do everything but would be prevented'",
+      "attributed_to": "Jean Pierron Geliat",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Bastien Piernille",
+      "victim_relationship_to_witness": "husband of witness",
+      "harm_category": "human_death",
+      "harm_description": "frightened when met accused while carting wine, fell suddenly ill and died in a week, continued to say he suspected it was witchcraft",
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Husband owed accused rent for house",
+      "time_between_quarrel_and_harm": "14 weeks before testimony, fell ill after encounter",
+      "method_alleged": "witchcraft through encounter",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow of Claudon Estienne",
+      "victim_relationship_to_witness": "owned by witness's husband",
+      "harm_category": "animal_illness",
+      "harm_description": "cow lost milk for rest of year",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Quarrel over a fence, accused angry and said those responsible should be burned, husband called him nigromancien and sorcier",
+      "time_between_quarrel_and_harm": "7 years before testimony, after quarrel",
+      "method_alleged": "witchcraft",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "2 cows of Demenge des Boeufs",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "cows languished miserably and died",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Dispute over going to fetch wheat - they took another person instead of accused",
+      "time_between_quarrel_and_harm": "4 years before testimony",
+      "method_alleged": "witchcraft",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "various animals of Chretien Brabant",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_illness",
+      "harm_description": "made various animals ill",
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Some quarrels between them about ten years earlier",
+      "method_alleged": "witchcraft",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "chambermaid of Demenge Ganaire",
+      "victim_relationship_to_witness": "servant of witness",
+      "harm_category": "human_death",
+      "harm_description": "death of chambermaid",
+      "attributed_to": "Jean Pierron Geliat or his wife",
+      "method_alleged": "witchcraft",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Idoul Bon Temps de Blainville",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "fell out of tree and injured himself on post of fence",
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Was angry witness took his 'paulx de disme' (tithe tools), wished he might have it 'au creu du ventre'",
+      "time_between_quarrel_and_harm": "immediately afterwards, 15 years before testimony",
+      "method_alleged": "curse/witchcraft",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "horse with farcin of Adam Vaulthier",
+      "victim_relationship_to_witness": "owned by witness's household",
+      "harm_category": "animal_death",
+      "harm_description": "two horses with farcin disease, one died, other had to be taken elsewhere after accused's cure failed",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Heard he complained he had been badly paid",
+      "time_between_quarrel_and_harm": "previous Easter, visited twice",
+      "method_alleged": "failed healing/witchcraft",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "first wife of Francois Mongeat",
+      "victim_relationship_to_witness": "wife of witness",
+      "harm_category": "human_death",
+      "harm_description": "death a year earlier",
+      "attributed_to": "Jean Pierron Geliat",
+      "time_between_quarrel_and_harm": "a year before testimony",
+      "method_alleged": "witchcraft",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "horse with farin of Jean Cuguin",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "horse died shortly after treatment",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Payment dispute and witness afraid to show horse to accused when he asked",
+      "time_between_quarrel_and_harm": "3 years before testimony, died shortly after accused asked to see it",
+      "method_alleged": "witchcraft through failed healing",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "own calf of Jean Pierron Geliat",
+      "harm_category": "animal_death",
+      "harm_description": "tried powder on his own calf, which died",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat (self)",
+      "method_alleged": "black powder from devil",
+      "witness_number": null
+    },
+    {
+      "victim_name": "cow of Demenge des Boeufs",
+      "harm_category": "animal_death",
+      "harm_description": "killed cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Asked him to cart grain, then used someone else",
+      "method_alleged": "powder from devil",
+      "witness_number": null
+    },
+    {
+      "victim_name": "cow of Jean de St Pierre",
+      "harm_category": "animal_death",
+      "harm_description": "killed cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "method_alleged": "powder from devil",
+      "witness_number": null
+    },
+    {
+      "victim_name": "calf of Chretien Brabant",
+      "harm_category": "animal_death",
+      "harm_description": "killed calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Quarrelled often about water for their fields, Brabant had 'pulled ears of his son'",
+      "method_alleged": "powder from devil",
+      "witness_number": null
+    },
+    {
+      "victim_name": "calf of Francois Colin Mongeat",
+      "harm_category": "animal_death",
+      "harm_description": "killed calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Regularly chased his animals away from his house",
+      "method_alleged": "powder from devil",
+      "witness_number": null
+    },
+    {
+      "victim_name": "two calves of maire",
+      "harm_category": "animal_death",
+      "harm_description": "killed two calves",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "attributed_to": "Jean Pierron Geliat",
+      "precipitating_quarrel": "Maire had told him off about damage done by his animals",
+      "method_alleged": "powder from devil",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "franc",
+      "context": "Payment received for attempting to cure horse",
+      "category": "money"
+    },
+    {
+      "object": "black powder",
+      "context": "Given by devil to kill animals",
+      "category": "magical"
+    },
+    {
+      "object": "red powder",
+      "context": "Given by devil to cause languishing",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "Given by devil to heal",
+      "category": "magical"
+    },
+    {
+      "object": "prayers for healing",
+      "context": "Accused used prayers to heal animals, knew at least 3 very good ones",
+      "category": "magical"
+    },
+    {
+      "object": "herbs",
+      "context": "Took specific days and hours for gathering herbs for healing",
+      "category": "magical"
+    },
+    {
+      "object": "breuvage (potion)",
+      "context": "Offered potion to wife of Chretien Brabant for 'mal de la mere' but warned she would have no more children",
+      "category": "magical"
+    },
+    {
+      "object": "paulx de disme",
+      "context": "Tithe collection tools that witness took from accused",
+      "category": "tools"
+    },
+    {
+      "object": "pigs",
+      "context": "Accused's pigs got into garden",
+      "category": "agricultural"
+    },
+    {
+      "object": "wine",
+      "context": "Bastien Piernille was carting wine when he encountered accused",
+      "category": "food"
+    },
+    {
+      "object": "wheat",
+      "context": "Dispute over going to fetch wheat",
+      "category": "food"
+    },
+    {
+      "object": "house",
+      "context": "Jean de Sainct Pierre building house, accused expressed resentment about not having money to build",
+      "category": "household"
+    },
+    {
+      "object": "fence",
+      "context": "Quarrel over fence",
+      "category": "agricultural"
+    },
+    {
+      "object": "timber",
+      "context": "Loading timber in woods",
+      "category": "agricultural"
+    },
+    {
+      "object": "hen",
+      "context": "Made annual offering of a hen to master so he did not have to go to sabbat more often",
+      "category": "food"
+    },
+    {
+      "object": "masks",
+      "context": "All people at sabbat were masked",
+      "category": "clothing"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neuveville-les-Raon",
+      "place_type": "village",
+      "context": "Primary location of trial, residence of accused for 16 years"
+    },
+    {
+      "place_name": "Blairville in ban d'Etival",
+      "place_type": "village",
+      "context": "Birthplace of accused"
+    },
+    {
+      "place_name": "Blainville",
+      "place_type": "village",
+      "context": "Where accused lived 15 years earlier, worked as tithe collector with Idoul Bon Temps"
+    },
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "Where Jean Forgeat lived when he heard story about Idoult falling from tree"
+    },
+    {
+      "place_name": "la Chapelle",
+      "place_type": "village",
+      "context": "Residence of Jean Cuguin; where accused encountered black dog outside"
+    },
+    {
+      "place_name": "la Fosse",
+      "place_type": "village",
+      "context": "Where surgeon was fetched from"
+    },
+    {
+      "place_name": "Vazenal",
+      "place_type": "village",
+      "context": "Location of witness Demenge Gros Demenge"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Location of merchant Adam Vaulthier"
+    },
+    {
+      "place_name": "Baccarat",
+      "place_type": "village",
+      "context": "Origin of miller in lawsuit with accused"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where accused was going when approached by devil Jolybois; where timber was being loaded"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "Accused ordinarily in fields during storms; disputes over water for fields"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Accused's pigs got into garden"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail", "thunder", "storms"],
+    "economic_hardship_indicators": ["debt disputes", "inability to build house", "poverty of accused", "lawsuits over small debts"]
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "debt",
+        "description": "Lawsuit at la Neufville with miller from Baccarat, condemned to pay money miller alleged he owed him although he had already paid",
+        "outcome": "Lost case - condemned to pay, which led to distress and seduction by devil"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Jean de Sainct Pierre paid fine to accused for calling him witch",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Forgeat",
+        "source": "unspecified",
+        "content": "heard story that accused caused Idoult to fall from tree when living in Nompatelize"
+      },
+      {
+        "reporter": "Francois Mongeat",
+        "source": "Chretien Brabant",
+        "content": "had been told that previous Sunday accused said witness suspected him of causing death of first wife"
+      },
+      {
+        "reporter": "Idoul Bon Temps",
+        "source": "surgeon's father from la Fosse",
+        "content": "told him accused was a witch"
+      }
+    ],
+    "oldest_accusation_years": 15,
+    "corroboration_groups": [
+      [3, 15]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "accused_witnesses_of_crimes", "challenged_witness_credibility"],
+    "emotional_state_notes": ["claimed to be comforted in prison by figure 'comme de la lumiere' which was his 'bon ange'", "admitted he had been frightened of torture", "insisted he was a good man"],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 23,
+        "objection": "Said he had heard that Jean Cuguin had killed horse himself in the woods"
+      },
+      {
+        "witness_number": 6,
+        "objection": "Catherine femme Jean de Saint Pierre spoke ill of others"
+      },
+      {
+        "witness_number": 15,
+        "objection": "Denied wrongdoing with Ganaire horses, said Ganaire had long wished him ill"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Fleuratte (maid)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none direct",
+      "relationship_to_witness": "servant of Zabel and Demenge Ganaire",
+      "context": "Sent to tell accused to remove pigs, fell ill and died a week later"
+    },
+    {
+      "name": "Idoult",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none stated",
+      "relationship_to_witness": "third party mentioned by Jean Forgeat",
+      "context": "Caused to fall from tree when accused lived in Nompatelize"
+    },
+    {
+      "name": "Chrestien",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none stated",
+      "relationship_to_witness": "third party mentioned by Mongeon Jacat",
+      "context": "Harmed while fetching wood"
+    },
+    {
+      "name": "Bastien Piernille",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "debtor - owed rent",
+      "relationship_to_witness": "husband of witness 8",
+      "context": "Died after encountering accused while carting wine, owed accused rent"
+    },
+    {
+      "name": "Claudon Estienne",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "antagonist",
+      "relationship_to_witness": "husband of witness 11",
+      "context": "Quarreled with accused over fence, called him nigromancien and sorcier"
+    },
+    {
+      "name": "Demenge des Boeufs",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "economic dispute",
+      "relationship_to_witness": "husband of witness 12",
+      "context": "Asked accused to cart grain, then used someone else; cows died"
+    },
+    {
+      "name": "Chretien Brabant's son",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "victim of assault by witness",
+      "relationship_to_witness": "son of witness 14",
+      "context": "Chretien Brabant 'pulled ears of his son' which angered accused"
+    },
+    {
+      "name": "Francois Colin Mongeat",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "antagonist",
+      "relationship_to_witness": "third party",
+      "context": "Regularly chased accused's animals away from his house; accused confessed to killing his calf"
+    },
+    {
+      "name": "maire (mayor)",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "authority figure",
+      "context": "Told accused off about damage done by his animals; accused confessed to killing two of his calves"
+    },
+    {
+      "name": "miller from Baccarat",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "legal adversary",
+      "context": "Won lawsuit against accused over alleged debt, which caused accused great distress and led to seduction by devil"
+    },
+    {
+      "name": "procureur of accused",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "legal representative",
+      "context": "Accused was returning from seeing his procureur when first encountered black dog"
+    },
+    {
+      "name": "surgeon from la Fosse",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "medical professional",
+      "context": "Fetched by accused to treat Idoul Bon Temps; surgeon's father told Idoul that accused was a witch"
+    },
+    {
+      "name": "Jehenne (veuve Colin Jalley)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife",
+      "context": "Wife of accused for 16 years; suspected by Demenge Ganaire of being witch as much as husband"
+    },
+    {
+      "name": "Colin Jalley",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife's former husband",
+      "context": "Jehenne was widow of Colin Jalley when she married accused"
+    },
+    {
+      "name": "Adam Vaulthier",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "client",
+      "relationship_to_witness": "husband of witness 21",
+      "context": "Merchant from Raon whose horses were treated by accused"
+    },
+    {
+      "name": "first wife of Francois Mongeat",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none stated",
+      "relationship_to_witness": "wife of witness 22",
+      "context": "Died a year earlier; accused allegedly spoke ill of her; witness then suspected him"
+    },
+    {
+      "name": "chambermaid of Demenge Ganaire",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none stated",
+      "relationship_to_witness": "servant of witness 15",
+      "context": "Died, suspected to have been killed by accused or his wife"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Accused practiced animal healing for payment, multiple disputes over payment for services. Lost lawsuit with miller over alleged debt he claimed to have already paid. Expressed resentment about wealth disparity when neighbor built house. Debtor (Bastien Piernille) owed him rent. Economic precarity evident - could not afford to build house, no money. Healing practice was source of income but also source of conflicts when treatments failed and payment disputes arose."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Trial demonstrates typical pattern of cunning folk/healer prosecution. Accused practiced veterinary healing using herbs, prayers, and ceremonies with specific timing. Economic disputes and payment conflicts over failed treatments feature prominently. Confessed voluntarily without torture, though admitted fear of torture. Attended sabbat but claimed reluctance and made offering to reduce attendance. Named accomplices through masks excuse. Execution expenses noted as 88 francs including confessor dinner due to absence of resident curé.",
+    "pdf_pages": 5
+  }
+}

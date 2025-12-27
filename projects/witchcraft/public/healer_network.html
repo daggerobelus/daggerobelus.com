@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Healer's Trap: Folk Medicine and Witch Accusations</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #1a1a2e;
+            color: #eee;
+            overflow: hidden;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #sidebar {
+            width: 320px;
+            background: #16213e;
+            padding: 20px;
+            overflow-y: auto;
+            border-right: 1px solid #0f3460;
+        }
+
+        h1 {
+            font-size: 1.4em;
+            margin-bottom: 5px;
+            color: #e94560;
+        }
+
+        .subtitle {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .stat-box {
+            background: #0f3460;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .stat-box h3 {
+            font-size: 0.85em;
+            color: #e94560;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .stat-value {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .cluster-legend {
+            margin-top: 10px;
+        }
+
+        .cluster-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .cluster-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .cluster-item.active {
+            background: rgba(233, 69, 96, 0.2);
+        }
+
+        .cluster-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .cluster-name {
+            flex: 1;
+        }
+
+        .cluster-count {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        #visualization {
+            flex: 1;
+            position: relative;
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .node {
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .node:hover {
+            opacity: 1 !important;
+        }
+
+        .node-circle {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .node-label {
+            font-size: 10px;
+            fill: #fff;
+            pointer-events: none;
+            text-anchor: middle;
+        }
+
+        .link {
+            fill: none;
+            stroke-opacity: 0.3;
+        }
+
+        .link-harm {
+            stroke: #9b59b6;
+        }
+
+        .link-healed {
+            stroke: #f1c40f;
+        }
+
+        .link-paradox {
+            stroke: url(#paradox-gradient);
+            stroke-width: 3px;
+            stroke-opacity: 0.7;
+        }
+
+        .link-testimony {
+            stroke: #7f8c8d;
+            stroke-dasharray: 3,3;
+        }
+
+        #tooltip {
+            position: absolute;
+            background: #16213e;
+            border: 1px solid #e94560;
+            border-radius: 8px;
+            padding: 15px;
+            max-width: 350px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        #tooltip.visible {
+            opacity: 1;
+        }
+
+        #tooltip h4 {
+            color: #e94560;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        #tooltip .detail-row {
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        #tooltip .label {
+            color: #888;
+        }
+
+        #tooltip .paradox-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #f1c40f, #9b59b6);
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        #tooltip .quote {
+            font-style: italic;
+            color: #aaa;
+            margin-top: 10px;
+            padding-left: 10px;
+            border-left: 2px solid #e94560;
+        }
+
+        .controls {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #0f3460;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        .control-group label {
+            display: block;
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .toggle-btn {
+            display: inline-block;
+            padding: 5px 12px;
+            margin: 2px;
+            background: #0f3460;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: background 0.2s;
+        }
+
+        .toggle-btn:hover {
+            background: #1a4a7a;
+        }
+
+        .toggle-btn.active {
+            background: #e94560;
+        }
+
+        #detail-panel {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 350px;
+            max-height: 80vh;
+            background: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-y: auto;
+            display: none;
+            z-index: 500;
+        }
+
+        #detail-panel.visible {
+            display: block;
+        }
+
+        #detail-panel h3 {
+            color: #e94560;
+            margin-bottom: 15px;
+        }
+
+        #detail-panel .close-btn {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            background: none;
+            border: none;
+            color: #888;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        #detail-panel .close-btn:hover {
+            color: #e94560;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h4 {
+            font-size: 0.9em;
+            color: #e94560;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .victim-item, .quote-item {
+            background: #0f3460;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+
+        .harm-type {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+
+        .harm-type.human_death { background: #c0392b; }
+        .harm-type.human_illness { background: #e67e22; }
+        .harm-type.animal_death { background: #8e44ad; }
+
+        /* Bar chart styles */
+        .bar-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            font-size: 0.85em;
+        }
+
+        .bar-label {
+            width: 90px;
+            flex-shrink: 0;
+            color: #aaa;
+            font-size: 0.8em;
+        }
+
+        .bar-container {
+            flex: 1;
+            height: 18px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.5s ease;
+        }
+
+        .bar-value {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.75em;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 3px rgba(0,0,0,0.5);
+        }
+
+        .bar-fill.death-high { background: linear-gradient(90deg, #c0392b, #e74c3c); }
+        .bar-fill.death-mid { background: linear-gradient(90deg, #d35400, #e67e22); }
+        .bar-fill.death-low { background: linear-gradient(90deg, #27ae60, #2ecc71); }
+
+        /* Economic status node indicators */
+        .econ-ring {
+            fill: none;
+            stroke-width: 2px;
+        }
+
+        .econ-poor { stroke: #e67e22; }
+        .econ-destitute { stroke: #c0392b; }
+        .econ-middling { stroke: #3498db; }
+        .econ-comfortable { stroke: #27ae60; }
+
+        .legend-box {
+            background: #0f3460;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .legend-box h3 {
+            font-size: 0.85em;
+            color: #e94560;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 0.85em;
+        }
+
+        .legend-line {
+            width: 30px;
+            height: 3px;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+
+        .legend-line.harm { background: #9b59b6; }
+        .legend-line.healed { background: #f1c40f; }
+        .legend-line.paradox { background: linear-gradient(90deg, #f1c40f, #9b59b6); }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>The Healer's Trap</h1>
+            <p class="subtitle">Folk Medicine and Witch Accusations in Lorraine</p>
+
+            <div class="stat-box">
+                <h3>Overview</h3>
+                <div class="stat-row">
+                    <span>Total Healers</span>
+                    <span class="stat-value" id="stat-total">-</span>
+                </div>
+                <div class="stat-row">
+                    <span>Trials with Healers</span>
+                    <span class="stat-value" id="stat-trials">-</span>
+                </div>
+                <div class="stat-row">
+                    <span>Paradox Cases</span>
+                    <span class="stat-value" id="stat-paradox">-</span>
+                </div>
+                <div class="stat-row">
+                    <span>Overall Death Rate</span>
+                    <span class="stat-value" id="stat-death">-</span>
+                </div>
+            </div>
+
+            <div class="stat-box" style="background: linear-gradient(135deg, rgba(241,196,15,0.2), rgba(155,89,182,0.2)); border: 1px solid #f1c40f;">
+                <h3 style="color: #f1c40f;">Death Rate Comparison</h3>
+                <div class="stat-row">
+                    <span>All Trials (baseline)</span>
+                    <span class="stat-value" id="stat-overall-death" style="color: #888;">-</span>
+                </div>
+                <div class="stat-row">
+                    <span>All Healers</span>
+                    <span class="stat-value" id="stat-healer-death">-</span>
+                </div>
+                <div class="stat-row" style="margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <span>Paradox Cases</span>
+                    <span class="stat-value" id="stat-paradox-death" style="color: #e74c3c;">-</span>
+                </div>
+                <div class="stat-row">
+                    <span>Non-Paradox Healers</span>
+                    <span class="stat-value" id="stat-non-paradox-death" style="color: #27ae60;">-</span>
+                </div>
+                <p style="font-size: 0.8em; color: #aaa; margin-top: 10px; line-height: 1.4;">
+                    Healers who were accused of harming someone they had healed faced worse outcomes than average. Non-paradox healers had the best survival rate.
+                </p>
+            </div>
+
+            <div class="stat-box" style="border-left: 3px solid #3498db;">
+                <h3>Gender Comparison</h3>
+                <div class="stat-row">
+                    <span>Female Healers</span>
+                    <span class="stat-value" id="stat-female-count">-</span>
+                </div>
+                <div class="stat-row">
+                    <span style="padding-left: 10px; color: #aaa;">Death rate</span>
+                    <span class="stat-value" id="stat-female-death" style="color: #27ae60;">-</span>
+                </div>
+                <div class="stat-row" style="margin-top: 8px;">
+                    <span>Male Healers</span>
+                    <span class="stat-value" id="stat-male-count">-</span>
+                </div>
+                <div class="stat-row">
+                    <span style="padding-left: 10px; color: #aaa;">Death rate</span>
+                    <span class="stat-value" id="stat-male-death" style="color: #e74c3c;">-</span>
+                </div>
+                <p style="font-size: 0.8em; color: #aaa; margin-top: 10px; line-height: 1.4;">
+                    Contrary to stereotype, male healers faced higher death rates than female healers.
+                </p>
+            </div>
+
+            <div class="stat-box">
+                <h3>Death Rate by Healing Type</h3>
+                <div id="healing-type-chart"></div>
+                <p style="font-size: 0.8em; color: #aaa; margin-top: 10px; line-height: 1.4;">
+                    Midwives faced 100% death rate. Touch healers and veterinary healers had better survival odds.
+                </p>
+            </div>
+
+            <div class="stat-box" style="border-left: 3px solid #f39c12;">
+                <h3>Economic Status</h3>
+                <div id="economic-chart"></div>
+                <p style="font-size: 0.8em; color: #aaa; margin-top: 10px; line-height: 1.4;">
+                    Wealth offered some protection. The two "comfortable" healers both survived.
+                </p>
+            </div>
+
+            <div class="stat-box">
+                <h3>Healing Type Clusters</h3>
+                <div class="cluster-legend" id="cluster-legend"></div>
+            </div>
+
+            <div class="controls">
+                <div class="control-group">
+                    <label>Show Edges</label>
+                    <button class="toggle-btn active" data-edge="harm">Harm</button>
+                    <button class="toggle-btn" data-edge="healed">Healed</button>
+                    <button class="toggle-btn active" data-edge="paradox">Paradox</button>
+                </div>
+
+                <div class="control-group">
+                    <label>Filter by Outcome</label>
+                    <button class="toggle-btn active" data-outcome="all">All</button>
+                    <button class="toggle-btn" data-outcome="death">Death</button>
+                    <button class="toggle-btn" data-outcome="released">Released</button>
+                </div>
+
+                <div class="control-group">
+                    <label>Highlight</label>
+                    <button class="toggle-btn" data-highlight="paradox">Paradox Cases</button>
+                    <button class="toggle-btn" data-highlight="male">Male Healers</button>
+                </div>
+
+                <div class="control-group">
+                    <label>Filter by Economic Status</label>
+                    <button class="toggle-btn active" data-econ="all">All</button>
+                    <button class="toggle-btn" data-econ="destitute">Destitute</button>
+                    <button class="toggle-btn" data-econ="poor">Poor</button>
+                    <button class="toggle-btn" data-econ="middling">Middling+</button>
+                </div>
+            </div>
+
+            <div class="legend-box">
+                <h3>Edge Legend</h3>
+                <div class="legend-item">
+                    <div class="legend-line harm"></div>
+                    <span>Allegedly harmed</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line healed"></div>
+                    <span>Healed / gave remedy</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line paradox"></div>
+                    <span>Paradox (healed then accused)</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="visualization">
+            <svg id="network-svg"></svg>
+            <div id="tooltip"></div>
+            <div id="detail-panel">
+                <button class="close-btn">&times;</button>
+                <div id="detail-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const CONFIG = {
+            clusterForce: 0.5,
+            chargeStrength: -100,
+            linkDistance: 50,
+            nodeRadius: {
+                min: 6,
+                max: 25
+            }
+        };
+
+        // Global state
+        let data = null;
+        let simulation = null;
+        let svg, g;
+        let nodes = [];
+        let links = [];
+        let activeCluster = null;
+        let visibleEdges = { harm: true, healed: false, paradox: true };
+        let outcomeFilter = 'all';
+        let econFilter = 'all';
+        let highlightParadox = false;
+        let highlightMale = false;
+
+        // Cluster positions (will be calculated)
+        const clusterCenters = {};
+
+        // Load data and initialize
+        async function init() {
+            try {
+                const response = await fetch('../outputs/healer_network.json');
+                data = await response.json();
+                console.log('Loaded data:', data);
+
+                updateStats();
+                buildClusterLegend();
+                buildVisualization();
+                setupControls();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('stat-total').textContent = 'Error loading data';
+            }
+        }
+
+        function updateStats() {
+            const stats = data.statistics;
+            document.getElementById('stat-total').textContent = stats.total_healers;
+            document.getElementById('stat-trials').textContent = data.metadata.trials_with_healers;
+            document.getElementById('stat-paradox').textContent = stats.paradox_count;
+
+            // Overall death rate across ALL trials (pre-calculated from full dataset)
+            const overallDeathRate = 76; // 272 deaths / 356 trials
+            document.getElementById('stat-overall-death').textContent = overallDeathRate + '%';
+
+            // Healer death rate
+            const healerDeathRate = (stats.by_outcome.death || 0) / stats.total_healers;
+            document.getElementById('stat-death').textContent = (healerDeathRate * 100).toFixed(0) + '%';
+            document.getElementById('stat-healer-death').textContent = (healerDeathRate * 100).toFixed(0) + '%';
+
+            // Calculate paradox vs non-paradox death rates
+            const paradoxHealers = data.healers.filter(h => h.has_paradox);
+            const nonParadoxHealers = data.healers.filter(h => !h.has_paradox);
+
+            const paradoxDeaths = paradoxHealers.filter(h => h.outcome === 'death').length;
+            const nonParadoxDeaths = nonParadoxHealers.filter(h => h.outcome === 'death').length;
+
+            const paradoxDeathRate = paradoxHealers.length > 0
+                ? (paradoxDeaths / paradoxHealers.length * 100).toFixed(0) + '%'
+                : '-';
+            const nonParadoxDeathRate = nonParadoxHealers.length > 0
+                ? (nonParadoxDeaths / nonParadoxHealers.length * 100).toFixed(0) + '%'
+                : '-';
+
+            document.getElementById('stat-paradox-death').textContent = paradoxDeathRate;
+            document.getElementById('stat-non-paradox-death').textContent = nonParadoxDeathRate;
+
+            // Gender comparison
+            const femaleHealers = data.healers.filter(h => h.gender === 'female');
+            const maleHealers = data.healers.filter(h => h.gender === 'male');
+            const femaleDeaths = femaleHealers.filter(h => h.outcome === 'death').length;
+            const maleDeaths = maleHealers.filter(h => h.outcome === 'death').length;
+
+            document.getElementById('stat-female-count').textContent = femaleHealers.length;
+            document.getElementById('stat-male-count').textContent = maleHealers.length;
+            document.getElementById('stat-female-death').textContent =
+                (femaleDeaths / femaleHealers.length * 100).toFixed(0) + '%';
+            document.getElementById('stat-male-death').textContent =
+                (maleDeaths / maleHealers.length * 100).toFixed(0) + '%';
+
+            // Build healing type death rate chart
+            buildHealingTypeChart();
+
+            // Build economic status chart
+            buildEconomicChart();
+        }
+
+        function buildHealingTypeChart() {
+            const healingTypes = {};
+
+            data.healers.forEach(h => {
+                h.healing_types.forEach(ht => {
+                    if (!healingTypes[ht]) {
+                        healingTypes[ht] = { total: 0, deaths: 0 };
+                    }
+                    healingTypes[ht].total++;
+                    if (h.outcome === 'death') healingTypes[ht].deaths++;
+                });
+            });
+
+            // Sort by death rate descending
+            const sorted = Object.entries(healingTypes)
+                .map(([type, data]) => ({
+                    type,
+                    total: data.total,
+                    deaths: data.deaths,
+                    rate: data.deaths / data.total * 100
+                }))
+                .filter(d => d.total >= 5) // Only show types with 5+ cases
+                .sort((a, b) => b.rate - a.rate);
+
+            const container = document.getElementById('healing-type-chart');
+            container.innerHTML = sorted.map(d => {
+                const rateClass = d.rate >= 80 ? 'death-high' : d.rate >= 70 ? 'death-mid' : 'death-low';
+                const label = d.type.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                return `
+                    <div class="bar-row">
+                        <span class="bar-label">${label}</span>
+                        <div class="bar-container">
+                            <div class="bar-fill ${rateClass}" style="width: ${d.rate}%"></div>
+                            <span class="bar-value">${d.rate.toFixed(0)}%</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function buildEconomicChart() {
+            const econStatus = {};
+
+            data.healers.forEach(h => {
+                const status = h.economic_status || 'unknown';
+                if (!econStatus[status]) {
+                    econStatus[status] = { total: 0, deaths: 0 };
+                }
+                econStatus[status].total++;
+                if (h.outcome === 'death') econStatus[status].deaths++;
+            });
+
+            // Order by severity
+            const order = ['comfortable', 'middling', 'poor', 'destitute'];
+            const sorted = order
+                .filter(s => econStatus[s] && econStatus[s].total > 0)
+                .map(status => ({
+                    status,
+                    total: econStatus[status].total,
+                    deaths: econStatus[status].deaths,
+                    rate: econStatus[status].deaths / econStatus[status].total * 100
+                }));
+
+            const container = document.getElementById('economic-chart');
+            container.innerHTML = sorted.map(d => {
+                const rateClass = d.rate >= 80 ? 'death-high' : d.rate >= 70 ? 'death-mid' : 'death-low';
+                const label = d.status.charAt(0).toUpperCase() + d.status.slice(1);
+                return `
+                    <div class="bar-row">
+                        <span class="bar-label">${label} (${d.total})</span>
+                        <div class="bar-container">
+                            <div class="bar-fill ${rateClass}" style="width: ${d.rate}%"></div>
+                            <span class="bar-value">${d.rate.toFixed(0)}%</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function buildClusterLegend() {
+            const legend = document.getElementById('cluster-legend');
+            legend.innerHTML = '';
+
+            data.clusters.forEach(cluster => {
+                const item = document.createElement('div');
+                item.className = 'cluster-item';
+                item.dataset.cluster = cluster.type;
+                item.innerHTML = `
+                    <div class="cluster-dot" style="background: ${cluster.color}"></div>
+                    <span class="cluster-name">${cluster.name}</span>
+                    <span class="cluster-count">${cluster.count}</span>
+                `;
+                item.addEventListener('click', () => toggleCluster(cluster.type));
+                legend.appendChild(item);
+            });
+        }
+
+        function toggleCluster(type) {
+            const items = document.querySelectorAll('.cluster-item');
+            items.forEach(item => {
+                if (item.dataset.cluster === type) {
+                    item.classList.toggle('active');
+                    activeCluster = item.classList.contains('active') ? type : null;
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+            updateVisualization();
+        }
+
+        function buildVisualization() {
+            const container = document.getElementById('visualization');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+
+            svg = d3.select('#network-svg')
+                .attr('width', width)
+                .attr('height', height);
+
+            // Add gradient for paradox edges
+            const defs = svg.append('defs');
+            const gradient = defs.append('linearGradient')
+                .attr('id', 'paradox-gradient')
+                .attr('x1', '0%').attr('y1', '0%')
+                .attr('x2', '100%').attr('y2', '0%');
+            gradient.append('stop').attr('offset', '0%').attr('stop-color', '#f1c40f');
+            gradient.append('stop').attr('offset', '100%').attr('stop-color', '#9b59b6');
+
+            g = svg.append('g');
+
+            // Setup zoom
+            const zoom = d3.zoom()
+                .scaleExtent([0.2, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                });
+            svg.call(zoom);
+
+            // Calculate cluster centers
+            const clusters = data.clusters;
+            const clusterCount = clusters.length;
+            const centerX = width / 2;
+            const centerY = height / 2;
+            const radius = Math.min(width, height) * 0.35;
+
+            clusters.forEach((cluster, i) => {
+                const angle = (i / clusterCount) * 2 * Math.PI - Math.PI / 2;
+                clusterCenters[cluster.type] = {
+                    x: centerX + radius * Math.cos(angle),
+                    y: centerY + radius * Math.sin(angle),
+                    color: cluster.color
+                };
+            });
+
+            // Build nodes
+            nodes = data.healers.map(healer => ({
+                id: healer.id,
+                healer: healer,
+                cluster: healer.primary_healing_type,
+                x: clusterCenters[healer.primary_healing_type]?.x + (Math.random() - 0.5) * 100,
+                y: clusterCenters[healer.primary_healing_type]?.y + (Math.random() - 0.5) * 100
+            }));
+
+            // Build links (just paradox edges for now)
+            links = data.edges
+                .filter(e => e.type === 'allegedly_harmed' && e.is_paradox)
+                .map(edge => ({
+                    source: edge.source,
+                    target: edge.source, // Self-loop to show paradox
+                    type: 'paradox',
+                    data: edge
+                }));
+
+            // Create simulation
+            simulation = d3.forceSimulation(nodes)
+                .force('charge', d3.forceManyBody().strength(CONFIG.chargeStrength))
+                .force('center', d3.forceCenter(centerX, centerY).strength(0.05))
+                .force('cluster', forceCluster())
+                .force('collision', d3.forceCollide().radius(d => getNodeRadius(d) + 2))
+                .on('tick', ticked);
+
+            // Draw
+            drawLinks();
+            drawNodes();
+        }
+
+        function forceCluster() {
+            const strength = CONFIG.clusterForce;
+
+            function force(alpha) {
+                nodes.forEach(node => {
+                    const cluster = clusterCenters[node.cluster];
+                    if (cluster) {
+                        node.vx -= (node.x - cluster.x) * alpha * strength;
+                        node.vy -= (node.y - cluster.y) * alpha * strength;
+                    }
+                });
+            }
+
+            return force;
+        }
+
+        function getNodeRadius(node) {
+            const healer = node.healer;
+            const witnessCount = healer.witness_count || 1;
+            const scale = d3.scaleSqrt()
+                .domain([1, 40])
+                .range([CONFIG.nodeRadius.min, CONFIG.nodeRadius.max]);
+            return scale(witnessCount);
+        }
+
+        function getNodeColor(node) {
+            const cluster = clusterCenters[node.cluster];
+            return cluster ? cluster.color : '#95a5a6';
+        }
+
+        function getEconColor(status) {
+            switch(status) {
+                case 'comfortable': return '#27ae60';
+                case 'middling': return '#3498db';
+                case 'poor': return '#e67e22';
+                case 'destitute': return '#c0392b';
+                default: return '#7f8c8d';
+            }
+        }
+
+        function drawNodes() {
+            const nodeGroups = g.selectAll('.node')
+                .data(nodes, d => d.id)
+                .join('g')
+                .attr('class', 'node')
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended))
+                .on('mouseover', showTooltip)
+                .on('mouseout', hideTooltip)
+                .on('click', showDetailPanel);
+
+            // Economic status outer ring
+            nodeGroups.append('circle')
+                .attr('class', 'econ-ring')
+                .attr('r', d => getNodeRadius(d) + 4)
+                .attr('fill', 'none')
+                .attr('stroke', d => getEconColor(d.healer.economic_status))
+                .attr('stroke-width', 2)
+                .attr('stroke-dasharray', d => d.healer.economic_status === 'destitute' ? '3,2' : 'none');
+
+            // Main node circle
+            nodeGroups.append('circle')
+                .attr('class', 'node-circle')
+                .attr('r', getNodeRadius)
+                .attr('fill', getNodeColor)
+                .attr('stroke', d => d.healer.has_paradox ? '#f1c40f' : '#fff')
+                .attr('stroke-width', d => d.healer.has_paradox ? 3 : 1.5);
+
+            // Gender indicator (small icon for male healers)
+            nodeGroups.filter(d => d.healer.gender === 'male')
+                .append('text')
+                .attr('class', 'gender-indicator')
+                .attr('x', 0)
+                .attr('y', 4)
+                .attr('text-anchor', 'middle')
+                .attr('font-size', d => Math.max(10, getNodeRadius(d) * 0.8))
+                .attr('fill', '#fff')
+                .text('♂');
+
+            // Add outcome indicator
+            nodeGroups.append('circle')
+                .attr('class', 'outcome-indicator')
+                .attr('r', 4)
+                .attr('cx', d => getNodeRadius(d) - 2)
+                .attr('cy', d => -getNodeRadius(d) + 2)
+                .attr('fill', d => {
+                    switch(d.healer.outcome) {
+                        case 'death': return '#c0392b';
+                        case 'released': return '#27ae60';
+                        case 'banished': return '#f39c12';
+                        default: return '#7f8c8d';
+                    }
+                });
+        }
+
+        function drawLinks() {
+            // For this version, we show paradox as a glow around the node
+            // rather than edges (since the paradox is self-referential)
+        }
+
+        function ticked() {
+            g.selectAll('.node')
+                .attr('transform', d => `translate(${d.x}, ${d.y})`);
+        }
+
+        function dragstarted(event) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+        }
+
+        function dragged(event) {
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
+        }
+
+        function dragended(event) {
+            if (!event.active) simulation.alphaTarget(0);
+            event.subject.fx = null;
+            event.subject.fy = null;
+        }
+
+        function showTooltip(event, d) {
+            const healer = d.healer;
+            const tooltip = document.getElementById('tooltip');
+
+            const genderIcon = healer.gender === 'male' ? ' ♂' : ' ♀';
+            const econColor = getEconColor(healer.economic_status);
+
+            let html = `
+                <h4>${healer.name}${genderIcon}</h4>
+                <div class="detail-row"><span class="label">Age:</span> ${healer.age || 'Unknown'}${healer.age_approximate ? ' (approx)' : ''}</div>
+                <div class="detail-row"><span class="label">Location:</span> ${healer.trial_location || 'Unknown'}</div>
+                <div class="detail-row"><span class="label">Economic status:</span> <span style="color: ${econColor}">${healer.economic_status || 'unknown'}</span></div>
+                <div class="detail-row"><span class="label">Healing:</span> ${healer.healing_types.join(', ')}</div>
+                <div class="detail-row"><span class="label">Witnesses:</span> ${healer.witness_count}</div>
+                <div class="detail-row"><span class="label">Victims alleged:</span> ${healer.victims.length}</div>
+                <div class="detail-row"><span class="label">Outcome:</span> ${healer.outcome}</div>
+            `;
+
+            if (healer.has_paradox) {
+                html += `<div class="paradox-badge">PARADOX CASE</div>`;
+                if (healer.paradox_cases.length > 0) {
+                    const p = healer.paradox_cases[0];
+                    html += `<div class="quote">Healed then accused by: ${p.person}</div>`;
+                }
+            }
+
+            tooltip.innerHTML = html;
+            tooltip.style.left = (event.pageX + 15) + 'px';
+            tooltip.style.top = (event.pageY - 10) + 'px';
+            tooltip.classList.add('visible');
+        }
+
+        function hideTooltip() {
+            document.getElementById('tooltip').classList.remove('visible');
+        }
+
+        function showDetailPanel(event, d) {
+            const healer = d.healer;
+            const panel = document.getElementById('detail-panel');
+            const content = document.getElementById('detail-content');
+
+            let html = `
+                <h3>${healer.name}</h3>
+
+                <div class="section">
+                    <h4>Personal Details</h4>
+                    <div class="detail-row"><span class="label">Age:</span> ${healer.age || 'Unknown'}${healer.age_approximate ? ' (approx)' : ''}</div>
+                    <div class="detail-row"><span class="label">Gender:</span> ${healer.gender || 'Unknown'}</div>
+                    <div class="detail-row"><span class="label">Residence:</span> ${healer.residence || healer.trial_location || 'Unknown'}</div>
+                    <div class="detail-row"><span class="label">Origin:</span> ${healer.origin || 'Unknown'}</div>
+                    <div class="detail-row"><span class="label">Economic status:</span> ${healer.economic_status || 'Unknown'}</div>
+                    <div class="detail-row"><span class="label">Marital status:</span> ${healer.marital_status || 'Unknown'}</div>
+                </div>
+
+                <div class="section">
+                    <h4>Healing Practice</h4>
+                    <div class="detail-row"><span class="label">Types:</span> ${healer.healing_types.join(', ')}</div>
+                    ${healer.occupation && healer.occupation.length ?
+                        `<div class="detail-row"><span class="label">Occupation:</span> ${healer.occupation.join(', ')}</div>` : ''}
+                </div>
+
+                <div class="section">
+                    <h4>Trial Details</h4>
+                    <div class="detail-row"><span class="label">Trial ID:</span> ${healer.trial_id}</div>
+                    <div class="detail-row"><span class="label">Year:</span> ${healer.trial_year || 'Unknown'}</div>
+                    <div class="detail-row"><span class="label">Location:</span> ${healer.trial_location}</div>
+                    <div class="detail-row"><span class="label">Witnesses:</span> ${healer.witness_count}</div>
+                    <div class="detail-row"><span class="label">Confessed:</span> ${healer.confessed ? 'Yes' : 'No'}${healer.confessed_under_torture ? ' (under torture)' : ''}</div>
+                    <div class="detail-row"><span class="label">Outcome:</span> <strong>${healer.outcome}</strong></div>
+                </div>
+            `;
+
+            if (healer.has_paradox) {
+                html += `
+                    <div class="section">
+                        <h4>Paradox Cases</h4>
+                        <p style="color: #f1c40f; margin-bottom: 10px;">This healer was accused of harming someone they also healed.</p>
+                `;
+                healer.paradox_cases.forEach(p => {
+                    html += `
+                        <div class="victim-item">
+                            <strong>${p.person}</strong><br>
+                            <span class="label">Healed:</span> ${p.healing_context || 'Unknown context'}<br>
+                            <span class="label">Accused of:</span> ${p.harm_type} - ${p.harm_description || 'unspecified'}
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+
+            if (healer.victims.length > 0) {
+                html += `
+                    <div class="section">
+                        <h4>Alleged Victims (${healer.victims.length})</h4>
+                `;
+                healer.victims.slice(0, 5).forEach(v => {
+                    html += `
+                        <div class="victim-item">
+                            <strong>${v.name}</strong>
+                            <span class="harm-type ${v.harm_type}">${v.harm_type}</span><br>
+                            ${v.quarrel ? `<span class="label">Quarrel:</span> ${v.quarrel}<br>` : ''}
+                            ${v.method ? `<span class="label">Method:</span> ${v.method}` : ''}
+                        </div>
+                    `;
+                });
+                if (healer.victims.length > 5) {
+                    html += `<p style="color: #888; font-size: 0.9em;">+ ${healer.victims.length - 5} more victims</p>`;
+                }
+                html += `</div>`;
+            }
+
+            if (healer.notable_quotes && healer.notable_quotes.length > 0) {
+                html += `
+                    <div class="section">
+                        <h4>Notable Quotes</h4>
+                `;
+                healer.notable_quotes.slice(0, 2).forEach(q => {
+                    html += `
+                        <div class="quote-item">
+                            <em>"${q.english || q.french}"</em><br>
+                            <span class="label">- ${q.speaker}, ${q.context}</span>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+
+            content.innerHTML = html;
+            panel.classList.add('visible');
+        }
+
+        function setupControls() {
+            // Close detail panel
+            document.querySelector('#detail-panel .close-btn').addEventListener('click', () => {
+                document.getElementById('detail-panel').classList.remove('visible');
+            });
+
+            // Edge toggles
+            document.querySelectorAll('[data-edge]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    btn.classList.toggle('active');
+                    visibleEdges[btn.dataset.edge] = btn.classList.contains('active');
+                    updateVisualization();
+                });
+            });
+
+            // Outcome filter
+            document.querySelectorAll('[data-outcome]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('[data-outcome]').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    outcomeFilter = btn.dataset.outcome;
+                    updateVisualization();
+                });
+            });
+
+            // Economic status filter
+            document.querySelectorAll('[data-econ]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('[data-econ]').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    econFilter = btn.dataset.econ;
+                    updateVisualization();
+                });
+            });
+
+            // Highlight paradox
+            document.querySelector('[data-highlight="paradox"]').addEventListener('click', function() {
+                this.classList.toggle('active');
+                highlightParadox = this.classList.contains('active');
+                // Turn off male highlight if paradox is on
+                if (highlightParadox) {
+                    highlightMale = false;
+                    document.querySelector('[data-highlight="male"]').classList.remove('active');
+                }
+                updateVisualization();
+            });
+
+            // Highlight male healers
+            document.querySelector('[data-highlight="male"]').addEventListener('click', function() {
+                this.classList.toggle('active');
+                highlightMale = this.classList.contains('active');
+                // Turn off paradox highlight if male is on
+                if (highlightMale) {
+                    highlightParadox = false;
+                    document.querySelector('[data-highlight="paradox"]').classList.remove('active');
+                }
+                updateVisualization();
+            });
+        }
+
+        function updateVisualization() {
+            g.selectAll('.node')
+                .attr('opacity', d => {
+                    // Outcome filter
+                    if (outcomeFilter !== 'all' && d.healer.outcome !== outcomeFilter) return 0.15;
+
+                    // Cluster filter
+                    if (activeCluster && d.cluster !== activeCluster) return 0.15;
+
+                    // Economic status filter
+                    if (econFilter !== 'all') {
+                        if (econFilter === 'middling') {
+                            // Middling+ includes middling and comfortable
+                            if (!['middling', 'comfortable'].includes(d.healer.economic_status)) return 0.15;
+                        } else if (d.healer.economic_status !== econFilter) {
+                            return 0.15;
+                        }
+                    }
+
+                    // Highlight filters
+                    if (highlightParadox && !d.healer.has_paradox) return 0.15;
+                    if (highlightMale && d.healer.gender !== 'male') return 0.15;
+
+                    return 1;
+                });
+        }
+
+        // Initialize
+        init();
+
+        // Handle resize
+        window.addEventListener('resize', () => {
+            const container = document.getElementById('visualization');
+            svg.attr('width', container.clientWidth).attr('height', container.clientHeight);
+        });
+    </script>
+</body>
+</html>

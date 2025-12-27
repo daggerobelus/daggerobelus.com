@@ -1,0 +1,1085 @@
+{
+  "trial_id": "w201",
+  "archive_ref": "B 8687 no 3",
+  "location": "Vieux Marché",
+  "court": "St Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Penthecoste femme Georgeon Didier Miette",
+    "person_id": null,
+    "relationship_to_accused": "prior accused who named her"
+  },
+  "dates": {
+    "start": "1601-06-07",
+    "end": "1601-07-27",
+    "duration_days": 50
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Claudette femme Claudon Jacquemin",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 44,
+      "age_approximate": true,
+      "occupation": ["herdsman", "day laborer"],
+      "origin": "St Jean",
+      "residence": "Vieux Marché",
+      "marital_status": "married",
+      "spouse_name": "Claudon Jacquemin",
+      "parents": {
+        "father": "Hanns le Mareschal"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "seduction_date": "20 years earlier",
+        "seduction_context": "They were living at Marzelay, and husband beat her badly for no good reason. Went to get water from spring outside village, crying and lamenting, when Persin appeared and seduced her",
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["Marzelay", "la Rochatte", "Vieux Marché"],
+        "sabbat_activities": ["dancing to sound of bombarde", "eating oysillons", "making hail", "making caterpillars in earthen pots"]
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Plaisance femme Thoussainct Waultrin",
+      "person_id": null,
+      "gender": "female",
+      "age": 48,
+      "location": "St Dié",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt of 2 francs for some bread",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "after court case"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Catherine femme Fleurent Bazelaire",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "payment for keeping animals, because she wanted a gros for each animal even though she was not keeping theirs",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Billon femme Jean du Sal",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "housing rental dispute - husband of accused rented whole house, forcing them to move out",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "2 sons of witness, aged 5 and 7",
+            "target_relationship": "witness's children",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "2 weeks later"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "2 years before trial"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claudon Besson",
+      "person_id": null,
+      "gender": "male",
+      "age": 54,
+      "location": "la Rochatte",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cows damaged his field",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jennon femme du precedent",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "relationship_to_accused": "wife of witness 4",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "animals (repeated husband's story) and another quarrel 10 years earlier",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "after quarrel 10 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudon du Haut",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "occupation": "herdsman of cows",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cows damaged her garden",
+        "threat_received": true,
+        "threat_quote": "he would not die, but would be ill for 6 months",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Mengeatte femme Colas Lorion",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel with daughter of accused",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "immediately"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jacquin Thiebault",
+      "person_id": null,
+      "gender": "male",
+      "age": 43,
+      "relationship_to_accused": "brother-in-law (husband of accused's late sister)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claudon Meschot",
+      "person_id": null,
+      "gender": "male",
+      "age": 52,
+      "occupation": "mayor",
+      "location": "St Dié",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cow which she and husband were guarding in herd died, and he deferred payment until they swore they had not harmed it",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "a few days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Mengeatte fille de feu Anthoine Abzey",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "occupation": "servant",
+      "location": "la Bolle, servante à Lienard Aymé",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Easter present - mistress only gave her 2 eggs when she expected more",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 bulls",
+            "target_relationship": "master and mistress's animals",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "within 2 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mengeatte femme Colas Hidoulf",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "one of their cows kept leaving herd and going back home",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by witness and husband",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "same day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Colas Martal",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "bullock failed to return with herd, told her and she set out to look for it, then ran after her to say it had come home - she was angry",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "bullock",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Claudette femme Claudon Jacquemin",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1601-06-07",
+      "event": "confrontation",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Confronted with Penthecoste femme Georgeon Didier Miette, who maintained accusation despite denials"
+    },
+    {
+      "date": "1601-06-07",
+      "event": "confrontation",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Second confrontation with Mengeatte femme Jacot Blaise, who also stuck by her charges"
+    },
+    {
+      "date": "1601-06-25",
+      "event": "informations_preparatoires",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "12 witnesses testified"
+    },
+    {
+      "date": "1601-06-29",
+      "event": "interrogation",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Denied all charges, though seemed on point of confessing at one moment"
+    },
+    {
+      "date": "1601-06-30",
+      "event": "confrontation",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "No reproaches to witnesses, but continued denials"
+    },
+    {
+      "date": "1601-06-30",
+      "event": "torture_requested",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Procureur for canons asks for question ordinaire"
+    },
+    {
+      "date": "1601-07-04",
+      "event": "torture_approved",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1601-07-23",
+      "event": "torture",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Put on rack and given tortillons, immediately started to confess"
+    },
+    {
+      "date": "1601-07-24",
+      "event": "interrogation",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Confirmed previous confessions, discharged Marguitte veuve Mengeon Jean Parmentier"
+    },
+    {
+      "date": "1601-07-25",
+      "event": "death_requested",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1601-07-27",
+      "event": "death_approved",
+      "subject": "Claudette femme Claudon Jacquemin",
+      "details": "Change de Nancy approves death sentence"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack", "tortillons"],
+    "requesting_official": "procureur for canons",
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Grand Demenge",
+      "location": "Marzelay",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Didielle wife of Grand Demenge",
+      "location": "Marzelay",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Marion du Prey",
+      "location": "Marzelay",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Gaixotte le vieux",
+      "location": "St Dié",
+      "context": "Seen at sabbat at la Rochatte",
+      "already_executed": false
+    },
+    {
+      "name": "Guillaume Thevenin alias Bonnetier",
+      "location": "St Dié",
+      "context": "Seen at sabbat at la Rochatte, promised her stockings if she would not accuse him",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Larmithe",
+      "location": "Trois Maisons",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "le gros Mathieu Blaise",
+      "location": "Ste Marguerite",
+      "context": "Seen at sabbat, told her he had already been arrested and would be so again if accused afresh - promised her some grain if she would not accuse him",
+      "already_executed": false
+    },
+    {
+      "name": "Colas Cayel",
+      "location": "le Faing",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Loudevic Thoussainct",
+      "location": "la Rochatte",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Mengeotte Lienard",
+      "location": "unspecified",
+      "context": "Seen at sabbat, in charge of making caterpillars",
+      "already_executed": true
+    },
+    {
+      "name": "Penthecoste",
+      "location": "unspecified",
+      "context": "Seen at sabbat, in charge of making caterpillars",
+      "already_executed": true
+    },
+    {
+      "name": "Dion femme Colas Babey",
+      "location": "unspecified",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Mengeotte des Woedz",
+      "location": "Vieux Marché",
+      "context": "Seen at sabbat",
+      "already_executed": true,
+      "trial_id": "w200"
+    },
+    {
+      "name": "Jean la Roinxe",
+      "location": "Vieux Marché",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Catherine wife of Jean la Roinxe",
+      "location": "Vieux Marché",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Marguitte veuve Mengeon Jean Parmentier",
+      "location": "Vieux Marché",
+      "context": "Initially named as seeing at sabbat, but later discharged",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Penthecoste femme Georgeon Didier Miette",
+      "context": "Named her as witch (as wife of Claudon Bandeça)",
+      "already_executed": true
+    },
+    {
+      "accuser_name": "Mengeatte femme Jacot Blaise",
+      "context": "Named her as witch",
+      "already_executed": true
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claudette femme Claudon Jacquemin",
+      "person2": "Claudon Jacquemin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Claudette femme Claudon Jacquemin"
+    },
+    {
+      "person1": "Claudette femme Claudon Jacquemin",
+      "person2": "Hanns le Mareschal",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Hanns le Mareschal of St Jean"
+    },
+    {
+      "person1": "Claudette femme Claudon Jacquemin",
+      "person2": "Benitte wife of Jacquin Thiebault",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Had killed her sister Benitte, wife of Jacquin Thiebault"
+    },
+    {
+      "person1": "Plaisance femme Thoussainct Waultrin",
+      "person2": "Thoussainct Waultrin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Plaisance femme Thoussainct Waultrin"
+    },
+    {
+      "person1": "Catherine femme Fleurent Bazelaire",
+      "person2": "Fleurent Bazelaire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme Fleurent Bazelaire"
+    },
+    {
+      "person1": "Billon femme Jean du Sal",
+      "person2": "Jean du Sal",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Billon femme Jean du Sal"
+    },
+    {
+      "person1": "Claudon Besson",
+      "person2": "Jennon femme du precedent",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme du precedent"
+    },
+    {
+      "person1": "Mengeatte femme Colas Lorion",
+      "person2": "Colas Lorion",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeatte femme Colas Lorion"
+    },
+    {
+      "person1": "Mengeatte fille de feu Anthoine Abzey",
+      "person2": "Anthoine Abzey",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeatte fille de feu Anthoine Abzey"
+    },
+    {
+      "person1": "Mengeatte fille de feu Anthoine Abzey",
+      "person2": "Lienard Aymé",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "servante à Lienard Aymé"
+    },
+    {
+      "person1": "Mengeatte femme Colas Hidoulf",
+      "person2": "Colas Hidoulf",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeatte femme Colas Hidoulf"
+    },
+    {
+      "person1": "Benitte",
+      "person2": "Jacquin Thiebault",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "wife of Jacquin Thiebault"
+    },
+    {
+      "person1": "Grand Demenge",
+      "person2": "Didielle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Grand Demenge and his wife Didielle"
+    },
+    {
+      "person1": "Jean la Roinxe",
+      "person2": "Catherine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Jean la Roinxe and his wife Catherine"
+    },
+    {
+      "person1": "Marguitte",
+      "person2": "Mengeon Jean Parmentier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Marguitte veuve Mengeon Jean Parmentier"
+    },
+    {
+      "person1": "Dion",
+      "person2": "Colas Babey",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Dion femme Colas Babey"
+    },
+    {
+      "person1": "wife of Loudevic Thoussainct",
+      "person2": "Loudevic Thoussainct",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "wife of Loudevic Thoussainct"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Witness 1 had to take accused to court over debt of 2 francs for bread. Witness 3's dispute involved housing rental conflict. Multiple witnesses mentioned disputes over payment for keeping animals in herd. Accused and husband worked as herdsmen, a low-status occupation, suggesting poor economic status."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Plaisance femme Thoussainct Waultrin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "very ill, losing use of limbs, still not fully recovered",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "debt of 2 francs for some bread, taken to court",
+      "time_between_quarrel_and_harm": "after court case",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "fine cow sickened and died in 10 days",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "payment for keeping animals, wanted a gros for each animal even though not keeping theirs",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "2 sons of Jean du Sal",
+      "victim_relationship_to_witness": "witness's children",
+      "harm_category": "human_death",
+      "harm_description": "aged 5 and 7, died within the week after given milk",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "housing rental - husband of accused rented whole house, forcing witness and family to move out, angry words passed",
+      "time_between_quarrel_and_harm": "2 weeks later",
+      "method_alleged": "gave them milk",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Billon femme Jean du Sal",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became ill for whole year, still not wholly recovered",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "refused invitation to work for her, preferred to work for someone else",
+      "time_between_quarrel_and_harm": "after refusal",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "lost a fine cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "cows she and husband were guarding damaged his field, sharp quarrel",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jennon femme Claudon Besson",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "great pain in feet, unable to walk for 2 years, still suffered to some extent",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "another quarrel",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Claudon du Haut",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "strange sickness, unable to eat for 9 weeks, then ill for 6 months as she predicted",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "she complained cows damaged her garden, he denied this",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Mengeatte femme Colas Lorion",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "bad leg, still had this, unable to find remedy",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "quarrel with daughter of accused",
+      "time_between_quarrel_and_harm": "immediately",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Claudon Meschot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "great pain in both knees, still unable to walk without great difficulty",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "cow which she and husband were guarding died, he deferred payment until they swore they had not harmed it",
+      "time_between_quarrel_and_harm": "a few days later",
+      "method_alleged": "powder on knees (confessed)",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "3 bulls",
+      "victim_relationship_to_witness": "master and mistress's animals",
+      "harm_category": "animal_death",
+      "harm_description": "died strangely",
+      "animal_type": "bull",
+      "animal_count": 3,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "angry when mistress only gave her 2 eggs for Easter present although they had more than 12 difficult animals in herd",
+      "time_between_quarrel_and_harm": "within 2 weeks",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "owned by witness and husband",
+      "harm_category": "animal_death",
+      "harm_description": "dead",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "cow kept leaving herd and going back home, accused was very angry",
+      "time_between_quarrel_and_harm": "same day",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "bullock",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "bullock failed to return, told her and she set out to look for it, then ran after her to say it had come home - she was angry and muttered",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "cat",
+      "victim_relationship_to_witness": "owned by accused",
+      "harm_category": "animal_death",
+      "harm_description": "died",
+      "animal_type": "cat",
+      "animal_count": 1,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "method_alleged": "powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Catherine femme Chretien Claudon Michiel",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "had stolen her cherries",
+      "method_alleged": "powder",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Catherine femme Jean le Rouyer",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "often said that she and all the other poor ought to be driven out of the village",
+      "method_alleged": "powder in her soup",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Benitte wife of Jacquin Thiebault",
+      "victim_relationship_to_witness": "accused's sister",
+      "harm_category": "human_death",
+      "harm_description": "killed her sister",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "she demanded payment of 2 francs she had earlier said she could keep",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "Mengeotte femme Demenge Voirotte",
+      "harm_category": "human_illness",
+      "harm_description": "made ill",
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "precipitating_quarrel": "did not pay her enough for keeping animals",
+      "time_between_quarrel_and_harm": "8 weeks earlier",
+      "method_alleged": "threw powder on her hands as she was cutting meat",
+      "witness_number": 0
+    },
+    {
+      "victim_name": "cow of Colas Hidoulf",
+      "harm_category": "animal_death",
+      "harm_description": "killed",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Claudette femme Claudon Jacquemin",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread",
+      "context": "debt of 2 francs for some bread",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "gave 2 sons some milk, and they died within the week",
+      "category": "food"
+    },
+    {
+      "object": "verjus",
+      "context": "told witness to fetch some verjus from her house",
+      "category": "food"
+    },
+    {
+      "object": "eggs",
+      "context": "traditional Easter present, mistress gave her 2 eggs although they had more than 12 animals in herd",
+      "category": "food"
+    },
+    {
+      "object": "money (horse dung)",
+      "context": "Persin gave her money which was horse dung",
+      "category": "money"
+    },
+    {
+      "object": "black powder",
+      "context": "magical powder given by Persin, used to cause harm",
+      "category": "magical"
+    },
+    {
+      "object": "earthen pots",
+      "context": "made caterpillars in earthen pots to eat flowers and leaves of trees",
+      "category": "household"
+    },
+    {
+      "object": "bombarde",
+      "context": "danced to sound of bombarde at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "oysillons",
+      "context": "ate oysillons at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "stockings",
+      "context": "Guillaume Bonnetier promised her stockings if she would not accuse him",
+      "category": "clothing"
+    },
+    {
+      "object": "grain",
+      "context": "Mathieu Blaise promised her some grain if she would not accuse him",
+      "category": "food"
+    },
+    {
+      "object": "soup",
+      "context": "put powder in her soup",
+      "category": "food"
+    },
+    {
+      "object": "cherries",
+      "context": "Catherine had stolen her cherries",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Vieux Marché",
+      "place_type": "village",
+      "context": "Residence of accused"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Location of trial, residence of several witnesses"
+    },
+    {
+      "place_name": "St Jean",
+      "place_type": "village",
+      "context": "Accused's place of origin"
+    },
+    {
+      "place_name": "la Rochatte",
+      "place_type": "village",
+      "context": "Faubourg of St Dié, where accused lived earlier, location of sabbat"
+    },
+    {
+      "place_name": "Marzelay",
+      "place_type": "village",
+      "context": "Where accused lived 20 years earlier, location of seduction and sabbat"
+    },
+    {
+      "place_name": "la Bolle",
+      "place_type": "village",
+      "context": "Origin of witness 10"
+    },
+    {
+      "place_name": "spring outside village",
+      "place_type": "water_body",
+      "context": "Where Persin seduced her"
+    },
+    {
+      "place_name": "field",
+      "place_type": "field",
+      "context": "Cows damaged Claudon Besson's field"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "field",
+      "context": "Cows damaged her garden"
+    },
+    {
+      "place_name": "Trois Maisons",
+      "place_type": "village",
+      "context": "Home of Jean Larmithe, accomplice"
+    },
+    {
+      "place_name": "Ste Marguerite",
+      "place_type": "village",
+      "context": "Home of Mathieu Blaise, accomplice"
+    },
+    {
+      "place_name": "le Faing",
+      "place_type": "village",
+      "context": "Home of Colas Cayel, accomplice"
+    }
+  ],
+  "historical_context": {
+    "economic_hardship_indicators": [
+      "Accused described as working as herdsman and day laborer, low-status occupations",
+      "Debt dispute over 2 francs for bread",
+      "Housing rental disputes suggesting precarious living situation",
+      "Multiple witnesses mention poor status",
+      "Confession: Catherine femme Jean le Rouyer 'often said that she and all the other poor ought to be driven out of the village'"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur for canons",
+        "role": "prosecutor_pg",
+        "location": "St Dié"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved"
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 11,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Mengeatte femme Colas Lorion",
+        "source": "late sister of accused",
+        "content": "Had heard late sister of accused, wife to Jacquin Thiebault, claim that she had bewitched her and was cause of her death"
+      }
+    ],
+    "oldest_accusation_years": 13
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all"],
+    "emotional_state_notes": [
+      "seemed to be on point of confessing",
+      "talking about great shame she would bring on her relatives if she was burned",
+      "saying she could not remember if she had been tempted",
+      "then repeated that she was innocent"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "daughter of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Witness 7 had quarrel with daughter of accused"
+    },
+    {
+      "name": "Catherine femme Chretien Claudon Michiel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Accused confessed to killing her with powder because she stole cherries (at Marzelay)"
+    },
+    {
+      "name": "Catherine femme Jean le Rouyer",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Accused confessed to killing her 18 years ago by putting powder in soup because she said poor people should be driven out"
+    },
+    {
+      "name": "Benitte wife of Jacquin Thiebault",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "sister",
+      "context": "Accused confessed to killing her sister 4 years earlier over 2 franc debt"
+    },
+    {
+      "name": "Mengeotte femme Demenge Voirotte",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Accused confessed to making her ill 8 weeks earlier by throwing powder on her hands while cutting meat"
+    },
+    {
+      "name": "Lienard Aymé",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_witness": "employer of witness 10",
+      "context": "Master of witness 10, 3 of his bulls died"
+    },
+    {
+      "name": "mistress of Lienard Aymé",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_witness": "employer of witness 10",
+      "context": "Gave witness 10 only 2 eggs for Easter present"
+    },
+    {
+      "name": "Demenge Voirotte",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Husband of victim, bouchier (butcher)"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "pdf_pages": 4,
+    "notes": "Trial record is clear and well-documented. Accused denied charges initially but confessed under torture. Multiple witnesses testified to long reputation and specific harms following quarrels, mostly related to her work as herdsman. Economic tensions evident throughout - debt disputes, payment disputes, housing conflicts. Confession under torture names many accomplices and confesses to multiple murders including her own sister."
+  }
+}

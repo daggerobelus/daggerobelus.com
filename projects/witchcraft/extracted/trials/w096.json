@@ -3,6 +3,14 @@
   "archive_ref": "B 5327 no 1",
   "location": "Mulcey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Petter Blosson",
+    "person_id": null,
+    "occupation": "cousturier",
+    "location": "Mulcey",
+    "relationship_to_accused": "community member who heard public accusations in tavern and made himself partie formelle"
+  },
   "dates": {
     "start": "1599-12-02",
     "end": "1600-02-10",
@@ -12,9 +20,12 @@
   "accused": [
     {
       "name": "Colas Hardier",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
       "occupation": ["herdsman", "cattle herdsman"],
       "origin": "Commerey, bishopric of Metz",
       "residence": "Mulcey",
@@ -53,6 +64,7 @@
     {
       "number": 1,
       "name": "Walter Adam",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "maire de Mulcey",
@@ -88,6 +100,7 @@
     {
       "number": 2,
       "name": "Lorentz Blosson",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "vigneron, herdsman for horses",
@@ -122,6 +135,7 @@
     {
       "number": 3,
       "name": "Estienne Cherrier",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": "laboureur",
@@ -148,6 +162,7 @@
     {
       "number": 4,
       "name": "Pierron Lienard",
+      "person_id": null,
       "gender": "male",
       "age": 18,
       "occupation": "jeune fils, manouvrier",
@@ -171,6 +186,7 @@
     {
       "number": 5,
       "name": "Mayette femme Viryot Didier",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "location": "Salm",
@@ -189,6 +205,7 @@
     {
       "number": 6,
       "name": "Culryo Petit Symon",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": "manouvrier",
@@ -205,6 +222,7 @@
     {
       "number": 7,
       "name": "Estienne Blosson",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "manouvrier",
@@ -220,6 +238,7 @@
     {
       "number": 8,
       "name": "Chrestien le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -251,6 +270,7 @@
     {
       "number": 9,
       "name": "Colas Phlippe",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "laboureur",
@@ -281,6 +301,7 @@
     {
       "number": 10,
       "name": "Michiel gendre Curien Charpentier",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "manouvrier",
@@ -296,6 +317,7 @@
     {
       "number": 11,
       "name": "Lienhard Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -316,6 +338,7 @@
     {
       "number": 12,
       "name": "Pelto Hardier dit Brayotte",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "previous herdsman",
@@ -330,6 +353,7 @@
     {
       "number": 13,
       "name": "Adam Peterquin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "mulnier au moulin de Back",
@@ -346,6 +370,7 @@
     {
       "number": 14,
       "name": "Claudon Mailly",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "moictrier of franc gaignage of Mr Champenois",
@@ -384,6 +409,7 @@
     {
       "number": 15,
       "name": "Jean Messain",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "hardier de Kierprich",
@@ -1130,7 +1156,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "repeatedly called witch publicly but never took legal action",
     "imprisonment_conditions": "imprisoned at Dieuze; devil visited him 3 times in prison advising him to admit nothing; during great wind prison tower seemed to shake",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "14 Jan 1600: approved torture. 24 Jan 1600: approved death sentence on condition that he repeats confessions without any threat of torture. 1 Feb 1600: approved second torture after retraction.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1178,84 +1209,98 @@
   "third_parties": [
     {
       "name": "Estienne Charrier (also witness 3)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "business partner - sold vineyard to Colas",
       "context": "Sold vineyard to Colas, quarreled over wine payment, lost horse"
     },
     {
       "name": "Chailley",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member",
       "context": "Had cow die, found two cats in stable, sent for Colas but cow was dead when he arrived"
     },
     {
       "name": "Pierre, son-in-law of Curien Champetre",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accuser",
       "context": "Said in tavern 'There is Colas Hardier, they say he is a sorcerer, he should be burned'"
     },
     {
       "name": "Curien Champetre",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "community member",
       "context": "Father-in-law of Pierre who accused Colas in tavern"
     },
     {
       "name": "Curien Charpentier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "community member",
       "context": "Told Colas in tavern that he was the person Petter Blosson meant when talking about burning witches"
     },
     {
       "name": "Petter Blosson, cousturier de Mulcey",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "accuser - made himself partie formelle",
       "context": "Made formal accusation against Colas, triggering arrest and trial. Said in tavern he would have Colas burned or be burned himself"
     },
     {
       "name": "Adam Marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "community member",
       "context": "Called Colas witch, threatened to burn him with house if he bought it"
     },
     {
       "name": "Chrestien le Clerc of Mulcey",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "community member",
       "context": "Called Colas witch without Colas taking action"
     },
     {
       "name": "Le Beau Pegnier, manouvrier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "taught prayers",
       "context": "From Haracourt, taught Colas 2 prayers against 'toutes mauvaises bestes et mauvaises rencontres'"
     },
     {
       "name": "old woman",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "taught prayers",
       "context": "Taught Colas prayer for cows 9 years earlier"
     },
     {
       "name": "petit vieux homme aged 30 to 40",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "taught prayers",
       "context": "From Putegny, taught Colas prayer for protecting herd 7-8 years earlier"
     },
     {
       "name": "previous herdsman",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "predecessor in job",
       "context": "Taught additional prayers, had learned them 35 years earlier from herdsman of Dolney"
     },
     {
       "name": "herdsman of Dolney",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "indirect - taught previous herdsman",
       "context": "Original source of some prayers, 35+ years before trial"
     },
     {
       "name": "butcher of Dieuze",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "indirect",
       "relationship_to_witness": "Lorentz Blosson leased cow from him",
@@ -1263,36 +1308,42 @@
     },
     {
       "name": "Mr Champenois",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_witness": "employer of Claudon Mailly",
       "context": "Owner of franc gaignage where Claudon Mailly worked as moictrier"
     },
     {
       "name": "Mayette femme Hanns d'Obrick",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "context": "Named as accomplice at sabbat, helped dig up stillborn child, made fog together. Her devil was called Hebin. Also witness 5 (Mayette femme Viryot Didier) - may be same person or different"
     },
     {
       "name": "Hanns d'Obrick",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "husband of accomplice",
       "context": "Husband of Mayette named as accomplice"
     },
     {
       "name": "stillborn child of Colas",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "child_of",
       "context": "Confessed to digging up his own stillborn child with Mayette to make powder"
     },
     {
       "name": "herdsman of lesser animals",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "fellow herdsman",
       "context": "Was having trouble with wolves killing animals, according to witness 7"
     },
     {
       "name": "servant of Colas Phlippe",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_witness": "servant of witness 9",
       "context": "Told Colas Phlippe about Colas Hardier predicting cows would be killed by wolves"

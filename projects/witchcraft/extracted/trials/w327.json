@@ -1,0 +1,1159 @@
+{
+  "trial_id": "w327",
+  "archive_ref": "B 8979 no 4",
+  "location": "St Nicolas",
+  "court": "St Nicolas",
+  "language_region": "french",
+  "formal_accuser": null,
+  "dates": {
+    "start": "1609-09-18",
+    "end": "1609-11-04",
+    "duration_days": 47
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Mengeotte Gourdot",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing"],
+      "age": 46,
+      "age_approximate": false,
+      "occupation": [],
+      "origin": "Donjulien",
+      "residence": "St Nicolas",
+      "marital_status": "married",
+      "spouse_name": "Jean Pierre Cordier",
+      "parents": {
+        "father": "Unknown (killed in woods of Tounry)",
+        "mother": "Unknown (executed as witch at Donjulien)"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Mre Dominique (first torture), Persin (second torture)",
+        "devil_appearance": "man in grey",
+        "seduction_date": "6 years before",
+        "seduction_context": "came to house when she was angry; second torture: when angry because husband chased her out",
+        "devil_mark": {
+          "present": false,
+          "location": "",
+          "description": ""
+        },
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "playing cards", "feasting"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Louis Sauceratte",
+      "person_id": null,
+      "gender": "male",
+      "age": null,
+      "occupation": "bouchier (butcher)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Barbe femme Thierion Thierion",
+      "person_id": null,
+      "gender": "female",
+      "age": null,
+      "occupation": "wife of cordonnier (shoemaker)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "sister-in-law of victim",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Mengeotte found in hayloft with child; witness's sister reported her to husband",
+        "threat_received": true,
+        "threat_quote": "she would repent having told him",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "sister of witness (wife of François Chartier)",
+            "target_relationship": "sister",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "later (premature birth after touch)"
+          },
+          {
+            "type": "human_death",
+            "target": "stillborn child",
+            "target_relationship": "sister's child",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Françoise femme Louis Sauceratte",
+      "person_id": null,
+      "gender": "female",
+      "age": 31,
+      "occupation": "wife of butcher",
+      "location": "St Nicolas",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "her daughter quarrelled with one of Mengeotte's daughters",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter aged 5",
+            "target_relationship": "daughter",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "shortly after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Margueritte veuve Nicolas Houel",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": "widow of harquebuttier (gun maker)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "neighbour",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Nicolas Houel (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "same night"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Claudon veuve Demenge Berniquel",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "widow of chartier (carter)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "did spinning work for accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute over payment for spinning work; later dispute over logs",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "same evening"
+          },
+          {
+            "type": "human_illness",
+            "target": "witness herself (second illness)",
+            "target_relationship": "self",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "following year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Alizon veuve Cugnin Aubertin",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "widow of chartier (carter)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "alerted husband when Mengeotte in hayloft",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "told husband about Mengeotte hiding in hayloft with child",
+        "threat_received": true,
+        "threat_quote": "threatened to throw child down unless he left",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of François Chartier",
+            "target_relationship": "other",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Claudon veuve Aubertin Laurent",
+      "person_id": null,
+      "gender": "female",
+      "age": 54,
+      "occupation": "widow",
+      "location": "St Nicolas",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of François Chartier",
+            "target_relationship": "other",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Marie femme Ottin la Mort",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "occupation": "wife of chartier (carter)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to give Mengeotte 3 eggs",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of François Chartier",
+            "target_relationship": "other",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": ""
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "after refusing eggs"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Bastienne femme Nicolas Grespin",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "wife of tisserand (weaver)",
+      "location": "St Nicolas",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel over words that were reported; Bastienne went to justify herself",
+        "threat_received": true,
+        "threat_quote": "que lors que sa femme seroit morte elle la feroit fendre (when your wife is dead she will have her split open)",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness herself",
+            "target_relationship": "self",
+            "attributed_to": "Mengeotte Gourdot",
+            "time_after_quarrel": "immediately"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1609-09-18",
+      "event": "informations_preparatoires",
+      "subject": "Mengeotte Gourdot",
+      "details": "First witness Louis Sauceratte missing; start of second witness Barbe femme Thierion Thierion also missing"
+    },
+    {
+      "date": "1609-09-19",
+      "event": "informations_preparatoires",
+      "subject": "Mengeotte Gourdot",
+      "details": "Witnesses 6-8 deposed"
+    },
+    {
+      "date": "1609-09-22",
+      "event": "informations_preparatoires",
+      "subject": "Mengeotte Gourdot",
+      "details": "Witness 9 (Bastienne femme Nicolas Grespin) deposed"
+    },
+    {
+      "date": "1609-09-28",
+      "event": "torture_requested",
+      "subject": "Mengeotte Gourdot",
+      "details": "C.M. Rémy asks for interrogation and confrontations"
+    },
+    {
+      "date": "1609-09-30",
+      "event": "torture_approved",
+      "subject": "Mengeotte Gourdot",
+      "details": "Change de Nancy approves interrogation and confrontations"
+    },
+    {
+      "date": "1609-10-09",
+      "event": "interrogation",
+      "subject": "Mengeotte Gourdot",
+      "details": "First interrogation; denied all charges"
+    },
+    {
+      "date": "1609-10-10",
+      "event": "confrontation",
+      "subject": "Mengeotte Gourdot",
+      "details": "Confrontations with witnesses; denied everything except called Bastienne 'une langarde'"
+    },
+    {
+      "date": "1609-10-13",
+      "event": "torture_requested",
+      "subject": "Mengeotte Gourdot",
+      "details": "PG asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1609-10-15",
+      "event": "torture_approved",
+      "subject": "Mengeotte Gourdot",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1609-10-17",
+      "event": "torture",
+      "subject": "Mengeotte Gourdot",
+      "details": "First torture session; maintained denials under thumbscrews, confessed when racked"
+    },
+    {
+      "date": "1609-10-21",
+      "event": "death_requested",
+      "subject": "Mengeotte Gourdot",
+      "details": "Substitut for PG asks for death sentence; Change de Nancy approves subject to free repetition"
+    },
+    {
+      "date": "1609-10-23",
+      "event": "interrogation",
+      "subject": "Mengeotte Gourdot",
+      "details": "Retracted all confessions; said would be happy to die a martyr but would confess nothing"
+    },
+    {
+      "date": "1609-10-31",
+      "event": "torture_requested",
+      "subject": "Mengeotte Gourdot",
+      "details": "Substitut asks for renewed torture; Change de Nancy approves"
+    },
+    {
+      "date": "1609-11-02",
+      "event": "torture",
+      "subject": "Mengeotte Gourdot",
+      "details": "Second torture session; renewed confessions when racked"
+    },
+    {
+      "date": "1609-11-03",
+      "event": "interrogation",
+      "subject": "Mengeotte Gourdot",
+      "details": "After hesitation confirmed confessions and named accomplices; later confronted with accused women and withdrew all accusations"
+    },
+    {
+      "date": "1609-11-03",
+      "event": "death_approved",
+      "subject": "Mengeotte Gourdot",
+      "details": "Substitut asks for death sentence, confirmed by Change de Nancy"
+    },
+    {
+      "date": "1609-11-04",
+      "event": "sentence",
+      "subject": "Mengeotte Gourdot",
+      "details": "Formal death sentence; confronted with named accomplices and withdrew accusations"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "PG (Procureur Général)",
+    "approving_court": "Change de Nancy",
+    "restrictions": ""
+  },
+  "accomplices_named": [
+    {
+      "name": "Jacqueline Manouvrier",
+      "location": "St Nicolas",
+      "context": "seen at sabbat during first torture",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Ydatte Marchal",
+      "location": "St Nicolas",
+      "context": "seen at sabbat during first torture",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "la belle Hostesse (Catherine Verrier)",
+      "location": "St Nicolas",
+      "context": "neighbour, recognized by scarf and pelisson at sabbat; accused during first torture, later named as Catherine femme Pierre Clement, hostellain à la Croix Blanche",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "la Contesse",
+      "location": "St Nicolas",
+      "context": "wife of draper, seen at sabbat during second torture; later identified as Catherine femme François le Comte le viel",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Alizon Sandriere",
+      "location": "le hault de Thiebly",
+      "context": "widow, named on Nov 3; Mengeotte later admitted accusation from hatred because Alizon deposed against her",
+      "already_executed": false,
+      "trial_id": ""
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jacqueline Manouvrier",
+      "accuser_location": "St Nicolas",
+      "context": "accused Mengeotte before trial; Mengeotte said they had done her wrong",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Ydatte Marchal",
+      "accuser_location": "St Nicolas",
+      "context": "accused Mengeotte before trial; Mengeotte said they had done her wrong",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Mengeotte Gourdot to sister of Barbe",
+      "french": "she would repent having told him",
+      "english": "she would repent having told him",
+      "context": "threat after being discovered in hayloft"
+    },
+    {
+      "speaker": "Mengeotte Gourdot to husband of Bastienne",
+      "french": "que lors que sa femme seroit morte elle la feroit fendre",
+      "english": "when your wife is dead she will have her split open",
+      "context": "threat made while begging mercy"
+    },
+    {
+      "speaker": "Bastienne femme Nicolas Grespin",
+      "french": "tu l'as dit, tu l'as dit",
+      "english": "you said it, you said it",
+      "context": "Mengeotte seizing and shaking Bastienne by shoulders"
+    },
+    {
+      "speaker": "Mengeotte Gourdot's husband",
+      "french": "un visage laid et affreux",
+      "english": "an ugly and frightful face",
+      "context": "what husband often said about Mengeotte according to witness testimony"
+    },
+    {
+      "speaker": "Claudon veuve Demenge Berniquel to Mengeotte",
+      "french": "que lors que les personnes sont irritez, ne peuvent estre autrement",
+      "english": "when people are irritated, they cannot be otherwise",
+      "context": "witness's response when Mengeotte asked if her husband truly said she had ugly face"
+    },
+    {
+      "speaker": "Mengeotte Gourdot",
+      "french": "",
+      "english": "would be happy to die a martyr, but would confess nothing",
+      "context": "retraction of confession on Oct 23, 1609"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Mengeotte Gourdot",
+      "person2": "Jean Pierre Cordier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "femme Jean Pierre Cordier de St Nicolas; married for 25 years",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe femme Thierion Thierion",
+      "person2": "wife of François Chartier",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "sister to witness",
+      "inferred": false
+    },
+    {
+      "person1": "Françoise",
+      "person2": "Louis Sauceratte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Françoise femme Louis Sauceratte",
+      "inferred": false
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Nicolas Houel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Margueritte veuve Nicolas Houel",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte Gourdot",
+      "person2": "Nicolas Houel",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "accused, who was neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon",
+      "person2": "Demenge Berniquel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudon veuve Demenge Berniquel",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon veuve Demenge Berniquel",
+      "person2": "Mengeotte Gourdot",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "had dispute after she did some spinning for accused",
+      "inferred": false
+    },
+    {
+      "person1": "Alizon",
+      "person2": "Cugnin Aubertin",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Alizon veuve Cugnin Aubertin",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon",
+      "person2": "Aubertin Laurent",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudon veuve Aubertin Laurent",
+      "inferred": false
+    },
+    {
+      "person1": "Marie",
+      "person2": "Ottin la Mort",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marie femme Ottin la Mort",
+      "inferred": false
+    },
+    {
+      "person1": "Bastienne",
+      "person2": "Nicolas Grespin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Bastienne femme Nicolas Grespin",
+      "inferred": false
+    },
+    {
+      "person1": "Barbe",
+      "person2": "Thierion Thierion",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Barbe femme Thierion Thierion",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine Verrier",
+      "person2": "Pierre Clement",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Catherine Verrier, femme Pierre Clement, hostellain à la Croix Blanche",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine",
+      "person2": "François le Comte le viel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Catherine femme François le Comte le viel",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte Gourdot",
+      "person2": "la belle Hostesse (Catherine Verrier)",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "la belle Hostesse, her neighbour",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Dispute over payment for spinning work witness did for Mengeotte; dispute over logs; witness refused to give Mengeotte 3 eggs suggesting poverty/begging; family had 11 children of whom only 3 survived suggesting economic hardship; husband beat her suggesting domestic stress"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "sister of Barbe femme Thierion Thierion (wife of François Chartier)",
+      "victim_relationship_to_witness": "sister",
+      "harm_category": "human_death",
+      "harm_description": "premature birth after 3 days labor; lost speech after secret visit from Mengeotte; died 3 days later with mark of hand on stomach",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "sister reported to husband that Mengeotte was hiding in hayloft with child",
+      "time_between_quarrel_and_harm": "later",
+      "method_alleged": "touched stomach of pregnant sister; later visited in secret",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "stillborn child of wife of François Chartier",
+      "victim_relationship_to_witness": "nephew/niece",
+      "harm_category": "human_death",
+      "harm_description": "born dead, all blackened, with mark of hand on stomach",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "hayloft incident",
+      "time_between_quarrel_and_harm": "later",
+      "method_alleged": "touch on pregnant stomach",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "daughter aged 5 of Françoise femme Louis Sauceratte",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "unknown sickness; emaciated with swollen stomach although eating and drinking normally; getting worse",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "daughter quarrelled with one of Mengeotte's daughters",
+      "time_between_quarrel_and_harm": "shortly after",
+      "method_alleged": "unspecified",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Nicolas Houel",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "mysteriously ill with limbs paralyzed for 3 years; able to eat only little bread until death; called it 'mal St Marcel'",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "none specified",
+      "time_between_quarrel_and_harm": "same night after supper",
+      "method_alleged": "food that didn't taste good; struck him on shoulder",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Claudon veuve Demenge Berniquel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "paralyzed arm for 9 weeks",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "dispute over payment for spinning work",
+      "time_between_quarrel_and_harm": "same evening",
+      "method_alleged": "struck her on shoulder",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Claudon veuve Demenge Berniquel (second illness)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "great pain at point where faces touched; ill for 6 months, passing 'ordure' by mouth",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "dispute over logs",
+      "time_between_quarrel_and_harm": "following year",
+      "method_alleged": "put face against hers",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "wife of François Chartier",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "human_death",
+      "harm_description": "premature birth, 3 days labor, stillborn blackened child with hand mark, loss of speech, death 3 days later with hand mark on stomach",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "hayloft incident",
+      "time_between_quarrel_and_harm": "later",
+      "method_alleged": "touch",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "wife of François Chartier",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "human_death",
+      "harm_description": "same story as witness 6",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "hayloft incident",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "touch",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "wife of François Chartier",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "human_death",
+      "harm_description": "same story; victim said if she recovered husband would kill Mengeotte or have her burned",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "hayloft incident",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "touch",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow of Marie femme Ottin la Mort",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "cow died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "refused to give Mengeotte 3 eggs",
+      "time_between_quarrel_and_harm": "after refusing",
+      "method_alleged": "unspecified",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Bastienne femme Nicolas Grespin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill as if troubled in mind; very ill for 3 years and still not fully recovered",
+      "animal_type": "",
+      "animal_count": 0,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot",
+      "precipitating_quarrel": "quarrel over words that were reported",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "seized by shoulders and shook her",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "sheep of Louis Sauceratte",
+      "victim_relationship_to_witness": "",
+      "harm_category": "animal_death",
+      "harm_description": "killed sheep (from confession)",
+      "animal_type": "sheep",
+      "animal_count": 1,
+      "economic_value": "",
+      "attributed_to": "Mengeotte Gourdot (confessed)",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "black powder",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "oak leaves",
+      "context": "devil gave her money which turned out to be oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "black powder",
+      "context": "devil gave her black powder to cause harm",
+      "category": "magical"
+    },
+    {
+      "object": "bread, salt, and lard",
+      "context": "Mengeotte brought these to cure Claudon's paralyzed arm",
+      "category": "food"
+    },
+    {
+      "object": "bruel (herb)",
+      "context": "Mengeotte advised Claudon to boil bruel in water and drink continuously",
+      "category": "food"
+    },
+    {
+      "object": "scarf",
+      "context": "Mengeotte recognized la belle Hostesse at sabbat by her scarf",
+      "category": "clothing"
+    },
+    {
+      "object": "pelisson",
+      "context": "Mengeotte recognized la belle Hostesse at sabbat by her pelisson (fur garment)",
+      "category": "clothing"
+    },
+    {
+      "object": "candles",
+      "context": "candles burning in hayloft where Mengeotte was hiding",
+      "category": "household"
+    },
+    {
+      "object": "cart",
+      "context": "husband of sister returned with cart when saw candles in hayloft",
+      "category": "agricultural"
+    },
+    {
+      "object": "eggs",
+      "context": "Marie refused to give Mengeotte 3 eggs",
+      "category": "food"
+    },
+    {
+      "object": "playing cards",
+      "context": "played cards at sabbat",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "St Nicolas",
+      "place_type": "village",
+      "context": "primary location of trial; Mengeotte lived there for 32 years"
+    },
+    {
+      "place_name": "Donjulien",
+      "place_type": "village",
+      "context": "Mengeotte's birthplace; her mother was executed as witch there"
+    },
+    {
+      "place_name": "Haut de Kiebly",
+      "place_type": "village",
+      "context": "where Mengeotte lived when hayloft incident occurred"
+    },
+    {
+      "place_name": "woods of Tounry",
+      "place_type": "forest",
+      "context": "where Mengeotte's father was killed more than 40 years before"
+    },
+    {
+      "place_name": "le hault de Thiebly",
+      "place_type": "village",
+      "context": "where widow Alizon Sandriere lived"
+    },
+    {
+      "place_name": "la Croix Blanche",
+      "place_type": "house",
+      "context": "inn where Pierre Clement (husband of Catherine Verrier) was hostellain"
+    },
+    {
+      "place_name": "hayloft",
+      "place_type": "other",
+      "context": "where Mengeotte fled with child; refuge from husband"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": "",
+    "weather_events": ["great storm came over (mentioned by husband 2-3 days before arrest)"],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "begging for eggs",
+      "dispute over payment for spinning work",
+      "11 children but only 3 survived",
+      "husband beat her",
+      "devil gave her money (oak leaves)"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "C.M. Rémy",
+        "role": "prosecutor_pg",
+        "location": "St Nicolas"
+      },
+      {
+        "name": "Jacques Arnoult",
+        "role": "other",
+        "location": "St Nicolas"
+      },
+      {
+        "name": "Charles Charles",
+        "role": "other",
+        "location": "St Nicolas"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": "",
+    "imprisonment_conditions": "",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "approved interrogation and confrontations (Sept 30); approved torture (Oct 15); approved death sentence subject to free repetition of confessions (Oct 21); approved renewed torture (Oct 31); confirmed death sentence (Nov 3)",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 5,
+    "hearsay_testimony_count": 4,
+    "hearsay_chains": [
+      {
+        "reporter": "Barbe femme Thierion Thierion",
+        "source": "sister (wife of François Chartier)",
+        "content": "sister told witness and others that accused had done her great wrong"
+      },
+      {
+        "reporter": "Barbe femme Thierion Thierion",
+        "source": "husband of sister",
+        "content": "husband met Mengeotte leaving and found wife had lost speech"
+      },
+      {
+        "reporter": "Françoise femme Louis Sauceratte",
+        "source": "husband Louis Sauceratte",
+        "content": "husband said 2-3 days before arrest Mengeotte spat in his face during storm"
+      },
+      {
+        "reporter": "Margueritte veuve Nicolas Houel",
+        "source": "husband Nicolas Houel",
+        "content": "husband always said she had given him illness; begged her to kill or cure him"
+      },
+      {
+        "reporter": "Claudon veuve Demenge Berniquel",
+        "source": "someone else who had been at supper with Mengeotte",
+        "content": "warned witness to beware"
+      },
+      {
+        "reporter": "Marie femme Ottin la Mort",
+        "source": "wife of François Chartier",
+        "content": "victim said if she recovered husband would kill Mengeotte or have her burned"
+      }
+    ],
+    "oldest_accusation_years": 12,
+    "corroboration_groups": [
+      [2, 6, 7, 8]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "fled to hayloft because husband beat her",
+      "threatened to throw child down from hayloft",
+      "angry when Bastienne came to justify herself",
+      "knelt and begged mercy from Bastienne and husband",
+      "said would be happy to die a martyr after retracting confession",
+      "long hesitation before confirming confessions on Nov 3",
+      "withdrew accusations against named accomplices saying they proceeded from hatred"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 9,
+        "objection": "called Bastienne femme Nicolas Grespin 'une langarde' (a gossip)"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "wife of François Chartier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "sister of witness 2 (Barbe)",
+      "context": "died with her stillborn child after Mengeotte touched her pregnant stomach; multiple witnesses testified about this death"
+    },
+    {
+      "name": "François Chartier",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "brother-in-law of witness 2",
+      "context": "husband of victim; allegedly would have killed Mengeotte if wife recovered"
+    },
+    {
+      "name": "husband of Mengeotte (Jean Pierre Cordier)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband",
+      "relationship_to_witness": "",
+      "context": "beat Mengeotte; she fled to hayloft; came to get her and child; said she had ugly face; chased her out leading to devil seduction"
+    },
+    {
+      "name": "daughter aged 5 of Françoise femme Louis Sauceratte",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "daughter of witness 3",
+      "context": "quarrelled with daughter of Mengeotte; fell ill afterward"
+    },
+    {
+      "name": "daughter of Mengeotte Gourdot",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "relationship_to_witness": "",
+      "context": "quarrelled with daughter of witness 3"
+    },
+    {
+      "name": "mother of Mengeotte Gourdot",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "relationship_to_witness": "",
+      "context": "died in prison at Donjulien; body burned in barrel as witch more than 25 years before"
+    },
+    {
+      "name": "father of Mengeotte Gourdot",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "relationship_to_witness": "",
+      "context": "killed more than 40 years earlier in woods of Tounry"
+    },
+    {
+      "name": "Catherine Verrier (la belle Hostesse)",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "neighbour",
+      "relationship_to_witness": "",
+      "context": "wife of Pierre Clement, hostellain à la Croix Blanche; accused by Mengeotte under torture; Mengeotte later withdrew accusation saying it proceeded from hatred over quarrels"
+    },
+    {
+      "name": "Pierre Clement",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "",
+      "context": "hostellain à la Croix Blanche; husband of Catherine Verrier who was accused"
+    },
+    {
+      "name": "Catherine femme François le Comte le viel",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "",
+      "context": "wife of draper called 'la Contesse'; accused by Mengeotte under torture; Mengeotte later withdrew accusation"
+    },
+    {
+      "name": "François le Comte le viel",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "",
+      "context": "draper; husband of Catherine who was accused"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Trial has complete documentation with detailed witness testimony and torture sessions. First witness (Louis Sauceratte, butcher) and start of second witness depositions are noted as missing in the document. The hayloft incident is central to multiple witnesses (2, 6, 7, 8) who all corroborate the death of wife of François Chartier. Mengeotte had clear pattern of confession under torture, retraction when torture stopped, and re-confession when tortured again. She ultimately withdrew accusations against named accomplices admitting they were motivated by hatred and desire for revenge. Her mother was previously executed as a witch, providing important family history context. Economic status assessed as 'poor' based on: dispute over spinning payment, begging for eggs, 11 children with only 3 surviving, domestic violence, and devil giving her worthless oak leaves as 'money'. Healing practice evidenced by bringing bread/salt/lard to cure paralysis and recommending herbal remedy (bruel). The trial shows extensive Change de Nancy involvement at every stage. Note: 'mal St Marcel' appears to be a disease name (possibly St. Marcellus disease/epilepsy). The phrase 'recognoissance' in witness 2's testimony is unclear in context - may refer to a legal obligation or acknowledgment.",
+    "pdf_pages": 4
+  }
+}

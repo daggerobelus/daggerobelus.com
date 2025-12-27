@@ -3,6 +3,8 @@
   "archive_ref": "B 4077 no 1",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1596-07-08",
     "end": "1596-08-06",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Barbe femme Jean Mallebarbe",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["other"],
       "occupation": ["day laborer (à jornée)", "beggar"],
       "origin": "Langley",
       "residence": "Charmes",
@@ -49,6 +55,7 @@
     {
       "number": 1,
       "name": "Laurent Rouelle",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "taillandier (metalworker/edge-tool maker)",
@@ -78,6 +85,7 @@
     {
       "number": 2,
       "name": "Mathieu Basle",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -107,6 +115,7 @@
     {
       "number": 3,
       "name": "Claudon Marlier",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -136,6 +145,7 @@
     {
       "number": 4,
       "name": "Claude Hullon",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -165,6 +175,7 @@
     {
       "number": 5,
       "name": "Nicolas Meschy",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "maire of Charmes",
@@ -862,7 +873,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Too poor to take Rouelle to court",
     "imprisonment_conditions": "Attempted to hang herself in prison from fear of torture",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -880,6 +896,7 @@
   "third_parties": [
     {
       "name": "Claudon Pallet",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow witch at sabbat",
       "relationship_to_witness": null,
@@ -887,6 +904,7 @@
     },
     {
       "name": "Claudon la vefue",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "host during flight",
       "relationship_to_witness": null,
@@ -894,6 +912,7 @@
     },
     {
       "name": "Jean Coureur",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "sergent who threatened her",
       "relationship_to_witness": null,
@@ -901,6 +920,7 @@
     },
     {
       "name": "late prévôt",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "intended to arrest her",
       "relationship_to_witness": null,
@@ -908,6 +928,7 @@
     },
     {
       "name": "receveur of Charmes",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "called her old witch",
       "relationship_to_witness": null,
@@ -915,6 +936,7 @@
     },
     {
       "name": "widow of ox owner",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "owner of killed ox",
       "relationship_to_witness": null,
@@ -922,6 +944,7 @@
     },
     {
       "name": "bourgeois women at sabbat",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "fellow witches",
       "relationship_to_witness": null,

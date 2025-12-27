@@ -3,6 +3,7 @@
   "archive_ref": "B 8260",
   "location": "Vilcey-sur-Trey",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1584-05-11",
     "end": "1584-06-21",
@@ -12,6 +13,7 @@
   "accused": [
     {
       "name": "Hillevix Magister",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -20,6 +22,9 @@
       "residence": "Vilcey-sur-Trey",
       "marital_status": "married",
       "spouse_name": "Cuguin Magister",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "other"],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -46,6 +51,7 @@
     {
       "number": 1,
       "name": "Didier Mairase",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "location": "Vilcey-sur-Trey",
@@ -90,6 +96,7 @@
     {
       "number": 2,
       "name": "Gigons Jacques",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Vilcey-sur-Trey",
@@ -114,6 +121,7 @@
     {
       "number": 3,
       "name": "Didier Michiel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "charpentier (carpenter)",
@@ -130,6 +138,7 @@
     {
       "number": 4,
       "name": "Colas Bourlier",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "location": "Vilcey-sur-Trey",
@@ -152,6 +161,7 @@
     {
       "number": 5,
       "name": "Jean Grassoye",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Vilcey-sur-Trey",
@@ -177,6 +187,7 @@
     {
       "number": 6,
       "name": "Jacquemin Tout Bon",
+      "person_id": null,
       "gender": "male",
       "age": 37,
       "location": "Vilcey-sur-Trey",
@@ -225,6 +236,7 @@
     {
       "number": 7,
       "name": "Didier Jacques",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "Mre echevin en la justice de Vilcey",
@@ -263,6 +275,7 @@
     {
       "number": 8,
       "name": "Colas Collin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Vilcey-sur-Trey",
@@ -304,6 +317,7 @@
     {
       "number": 9,
       "name": "Yzabel veuve Colas le Bourlier",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "location": "Vilcey-sur-Trey",
@@ -329,6 +343,7 @@
     {
       "number": 10,
       "name": "Laurent Pacquin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Vilcey-sur-Trey",
@@ -362,6 +377,7 @@
     {
       "number": 11,
       "name": "Pierrot le Mareschal",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Vilcey-sur-Trey",
@@ -405,6 +421,7 @@
     {
       "number": 12,
       "name": "Thiery fils Claudin Thiery",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Viéville",
@@ -415,6 +432,7 @@
     {
       "number": 13,
       "name": "Thiebault Robert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Vilcey-sur-Trey",
@@ -425,6 +443,7 @@
     {
       "number": 14,
       "name": "Marguitte Mengeot",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "location": "Vilcey-sur-Trey",
@@ -450,6 +469,7 @@
     {
       "number": 15,
       "name": "Bastienne Tanchot",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "location": "Vilcey-sur-Trey",
@@ -461,6 +481,7 @@
     {
       "number": 16,
       "name": "Colin Fillette dit Rengier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Neufmoulin proche Vilcey",
@@ -479,6 +500,7 @@
     {
       "number": 17,
       "name": "Mariotte Collin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Vilcey-sur-Trey",
@@ -499,6 +521,7 @@
     {
       "number": 18,
       "name": "Bastien Grassoye",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "location": "Rembacourt",
@@ -553,6 +576,7 @@
     {
       "number": 19,
       "name": "Pierresson Destain",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "mercier",
@@ -1251,7 +1275,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Multiple witnesses testified they called her witch publicly without her seeking reparation",
     "imprisonment_conditions": "Held at Preny",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Initially approved use of question extraordinaire if she continued to deny (1 June 1584); later approved death sentence in general pending final interrogation (15 June 1584); final approval of death sentence (18 June 1584)",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1303,84 +1332,99 @@
   "third_parties": [
     {
       "name": "le Grand Martin Jacques",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient who suspected her",
       "context": "Became ill 16-17 years earlier, suspected her, sent for her to heal him with soup; could not eat it and died with wife"
     },
     {
       "name": "wife of le Grand Martin Jacques",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Died with husband and buried together in 'une fosse'"
     },
     {
       "name": "Alizon femme Didier Maurize",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "attacker",
       "context": "Called accused witch and pulled out some of her hair in attack; accused said she was in such a state she did not know what she was doing"
     },
     {
       "name": "Babon (daughter-in-law of Jean Grassoye)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Claimed to have found accused beating water; said Hillevix was a witch and she would have her burned"
     },
     {
       "name": "Pierron Marchal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "leased sheep from her brother",
       "context": "She wanted the sheep but her brother Jean leased them to Pierron; she threatened him; sheep died; he called her witch several times"
     },
     {
       "name": "Jean Cuguin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "context": "Leased sheep to Pierron; in partnership dispute with Colas Collin over tilery"
     },
     {
       "name": "Mengeot Grassoye",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband's brother-in-law",
       "context": "Worked land in association; wife caused quarrel by dissuading wine customers"
     },
     {
       "name": "wife of Mengeot Grassoye",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "sister-in-law by marriage",
       "context": "Dissuaded wine customers saying they would be given 'boucots' to eat which would make them ill"
     },
     {
       "name": "Colas Collin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Advised witnesses in Colas Bourlier's illness"
     },
     {
       "name": "curé of Vilcey",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "confessor",
       "context": "Monk of St Marie, subsequently curé at Ley; accused confessed everything to him, after which devil did not appear to her"
     },
     {
       "name": "la Queprotte at La Va Nalbe, ban de Chenimont",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Had custom of divining illnesses; diagnosed Laurent Pacquin's mother-in-law with 'mal donné' from a woman"
     },
     {
       "name": "woman at Corny",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Told Pierrot le Mareschal he had evil neighbors"
     },
     {
       "name": "Cathin (daughter of Pierrot le Mareschal)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "daughter of witness",
       "context": "So ill wife said she was dying; recovered in half hour after Hillevix visited; now married at Thiaucourt"
     },
     {
       "name": "marchal (farrier)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Could do nothing for Bastien Grassoye's dying horses"
     },
     {
       "name": "Mre Martin (devil)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "master/devil",
       "context": "Man in black who seduced accused in garden, gave her powder and herbs, had intercourse with her twice, beat her"

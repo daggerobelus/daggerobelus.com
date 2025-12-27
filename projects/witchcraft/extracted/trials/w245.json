@@ -1,0 +1,1161 @@
+{
+  "trial_id": "w245",
+  "archive_ref": "B 8702 no 6",
+  "location": "Raves",
+  "language_region": "french",
+  "dates": {
+    "start": "1609-10-15",
+    "end": "1609-11-26",
+    "duration_days": 42
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jennon veuve Demenge Napuel",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "origin": "Quebrux",
+      "residence": "Raves",
+      "marital_status": "widowed",
+      "spouse_name": "Demenge Napuel",
+      "occupation": [],
+      "parents": {},
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Claudatte fille Girard Jacot Pechey",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "witness called the accused's son's actions inappropriate at a marriage feast; accused called witness a whore",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "father's animal",
+            "attributed_to": "Jennon veuve Demenge Napuel",
+            "time_after_quarrel": "within 2 hours of wind incident"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jacot Girard Pechey",
+      "person_id": null,
+      "gender": "male",
+      "age": 58,
+      "relationship_to_accused": "neighbor; wanted to marry accused when she was widowed",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "losses of animals blamed on accused",
+        "threat_received": true,
+        "threat_quote": "She told him he was 'un larron et meschant homme' (a thief and wicked man)",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 3,
+      "name": "Blaison Renolbin",
+      "person_id": null,
+      "gender": "male",
+      "relationship_to_accused": "community member; employer of servants who worked for accused",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "servants who went into her service",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Colas fils Jacot Girard Pechey",
+      "person_id": null,
+      "gender": "male",
+      "age": 24,
+      "relationship_to_accused": "neighbor; son of witness #2",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "father's animal",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ],
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jehennon femme Lyenard Heriet",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "relationship_to_accused": "neighbor; had quarreled with accused's son",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "had quarreled with son of accused, did not invite accused to baptism",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self and baby",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel",
+            "time_after_quarrel": "immediately after dream"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Nicolas Cointzelin",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "relationship_to_accused": "neighbor for 20+ years",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrels with accused's son",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "5 or 6 horses",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel",
+            "time_after_quarrel": "after quarrels with son"
+          },
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          },
+          {
+            "type": "animal_death",
+            "target": "two oxen",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jean Renouard",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father of Claudon Demenge Maimbourg",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ],
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Colin Jean Magdelaine",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "relationship_to_accused": "former servant 15-16 years earlier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wanted to leave her service",
+        "threat_received": true,
+        "threat_quote": "she said he might repent if he left",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel",
+            "time_after_quarrel": "immediately after leaving service"
+          },
+          {
+            "type": "animal_death",
+            "target": "multiple animals over years",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Colas Mandray",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father of Claudon Demenge Maimbourg",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudel Mengeon le Maimbourg",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "relationship_to_accused": "nephew (son of brother-in-law Mengeon le Maimbourg)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father (Mengeon le Maimbourg)",
+            "target_relationship": "father",
+            "attributed_to": "Jennon veuve Demenge Napuel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Nicolas le Maimbourg de Ginfosse",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "her animals escaped into his hayfield",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claude Jean Demenge Mengin",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his animals damaged her property",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 or 4 pigs",
+            "target_relationship": "self",
+            "attributed_to": "Jennon veuve Demenge Napuel",
+            "time_after_quarrel": "6 months after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Barbe femme Demenge le Maire",
+      "person_id": null,
+      "gender": "female",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20,
+        "quarrel_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jehennon, servante à Jacot Rolbé de Layegotte",
+      "person_id": null,
+      "gender": "female",
+      "age": 22,
+      "occupation": "servant",
+      "location": "Layegotte",
+      "relationship_to_accused": "former servant previous year",
+      "testimony": {
+        "reputation_mentioned": false,
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 15,
+      "name": "Dieudonné Jean Nicolas",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "hostelain (innkeeper)",
+      "relationship_to_accused": "close neighbor",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 16,
+      "name": "Didier Anthoine Laurent",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Entre-deux-Eaux",
+      "relationship_to_accused": "acquaintance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Colin Dieudonné",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Entre-deux-Eaux",
+      "relationship_to_accused": "acquaintance",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1609-10-15",
+      "event": "informations_preparatoires",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Preliminary interrogations of 17 witnesses"
+    },
+    {
+      "date": "1609-10-23",
+      "event": "interrogation",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "First interrogation of accused"
+    },
+    {
+      "date": "1609-10-28",
+      "event": "confrontation",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1609-11-06",
+      "event": "torture_requested",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Substitut for PG asks for question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1609-11-06",
+      "event": "torture_approved",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Change de Nancy rules she should only be threatened with torture unless accused by Claudatte femme Jean Claudel, when she should be given thumbscrews only"
+    },
+    {
+      "date": "1609-11-12",
+      "event": "interrogation",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Was shown thumbscrews and rack but continued to deny charges"
+    },
+    {
+      "date": "1609-11-18",
+      "event": "other",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Substitut suggests she be renvoyée (released)"
+    },
+    {
+      "date": "1609-11-19",
+      "event": "sentence",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Change de Nancy agrees to release"
+    },
+    {
+      "date": "1609-11-26",
+      "event": "other",
+      "subject": "Jennon veuve Demenge Napuel",
+      "details": "Released from prison"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "requesting_official": "substitut for PG",
+    "approving_court": "Change de Nancy",
+    "restrictions": "Only threatened with torture; if accused by Claudatte femme Jean Claudel, thumbscrews only"
+  },
+  "prior_accusations": [
+    {
+      "accuser_name": "moictrier of late escolatre of St Dié",
+      "context": "11 or 12 years before current trial; arose because he had lost numerous animals and went to devin at Avould who told him losses came from his closest neighbors",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Claudatte fille Gregoire Mathis de Bertrimoutier",
+      "context": "Accused her when Jennon was in prison during first trial",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Gregoire Mathis of Bertrimoutier",
+      "accuser_location": "Bertrimoutier",
+      "context": "Had confronted accused and 3 others before this trial and maintained allegations",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudatte fille Girard Jacot Pechey",
+      "french": "que c'estoit aussy bien à faire à elle, que son putier de fils, et s'elle vouloit dire qu'elle soit putain d'autre que de son fils, qu'elle avoit menty comme une sorciere",
+      "context": "Response to accused calling her a whore; witness had been seduced by accused's son under promise of marriage"
+    },
+    {
+      "speaker": "Jennon veuve Demenge Napuel",
+      "french": "que quant a elle, elle n'est pas de la race des sorcieres, mais que ledit Cointzelin en est",
+      "english": "that as for her, she was not of the race of witches, but that said Cointzelin was",
+      "context": "Accused's response during interrogation; noted that Nicolas Cointzelin's uncle had been executed"
+    },
+    {
+      "speaker": "Jennon veuve Demenge Napuel",
+      "french": "que l'on n'appelloit jamais une vache grebat, qu'elle n'en tienne des taches",
+      "english": "that one never called a cow spotted unless it had spots",
+      "context": "Remarking on execution of Barbeline, suggesting anyone called witch has some taint"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Demenge Napuel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "widow of Demenge Napuel"
+    },
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Jean Peteman",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "First husband had been Jean Peteman of Raves, about 40 years before"
+    },
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Claude (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son who was not married"
+    },
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Claudatte (daughter)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter Claudatte, married at Lubine"
+    },
+    {
+      "person1": "Claudatte fille Girard Jacot Pechey",
+      "person2": "Jacot Girard Pechey",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "daughter of Jacot Girard Pechey"
+    },
+    {
+      "person1": "Colas fils Jacot Girard Pechey",
+      "person2": "Jacot Girard Pechey",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "son of Jacot Girard Pechey"
+    },
+    {
+      "person1": "Claudatte fille Girard Jacot Pechey",
+      "person2": "Colas fils Jacot Girard Pechey",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "brother and sister of Jacot Girard Pechey"
+    },
+    {
+      "person1": "Claudatte fille Girard Jacot Pechey",
+      "person2": "Jehennon (sister)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "she and her sister Jehennon (now married at Provencheres)"
+    },
+    {
+      "person1": "Jehennon femme Lyenard Heriet",
+      "person2": "Lyenard Heriet",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "wife of Lyenard Heriet"
+    },
+    {
+      "person1": "Claudel Mengeon le Maimbourg",
+      "person2": "Mengeon le Maimbourg",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "son of Mengeon le Maimbourg"
+    },
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Mengeon le Maimbourg",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Claudel Mengeon le Maimbour had been her brother-in-law"
+    },
+    {
+      "person1": "Barbe femme Demenge le Maire",
+      "person2": "Demenge le Maire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "wife of Demenge le Maire"
+    },
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Jacot Girard Pechey",
+      "relationship_type": "godparent_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "they had acted as godparents to one another's children"
+    },
+    {
+      "person1": "Jennon veuve Demenge Napuel",
+      "person2": "Nicolas Cointzelin",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "neighbour for more than 20 years"
+    },
+    {
+      "person1": "Nicolas Cointzelin",
+      "person2": "le maire Colas of Develine",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his uncle, le maire Colas of Develine, had been executed"
+    },
+    {
+      "person1": "Colin Jean Magdelaine",
+      "person2": "Jennon veuve Demenge Napuel",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "had been in her service for 2 years, 15 or 16 years earlier"
+    },
+    {
+      "person1": "Didier Anthoine Laurent",
+      "person2": "Barbeline",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his second wife Barbeline had been executed as witch"
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "ox belonging to Jacot Girard Pechey",
+      "victim_relationship_to_witness": "father's animal",
+      "harm_category": "animal_death",
+      "harm_description": "ox became very sick after wind blew through house; died within 2 hours",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "general tensions with family",
+      "time_between_quarrel_and_harm": "within 2 hours of mysterious wind",
+      "method_alleged": "witchcraft through proximity/wind",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "calf belonging to Jacot Girard Pechey",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "death of calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "servants who entered accused's service",
+      "victim_relationship_to_witness": "others in community",
+      "harm_category": "human_illness",
+      "harm_description": "servants who went into her service soon became ill, although previously healthy, and had to leave",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jehennon femme Lyenard Heriet and baby",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "both witness and child became very ill after dream about accused",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "quarrel with accused's son; did not invite accused to baptism",
+      "time_between_quarrel_and_harm": "shortly after baptism",
+      "method_alleged": "counter-magic with bread, salt, and ashes obtained from accused's servant reportedly cured them",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "horses belonging to Nicolas Cointzelin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost 5 or 6 horses",
+      "animal_type": "horse",
+      "animal_count": 6,
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "quarrels with her son",
+      "time_between_quarrel_and_harm": "after quarrels",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Nicolas Cointzelin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "mysterious fall with horse which rolled on him; spur stuck in belly of horse showing violence of fall but he was unhurt",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "previous disputes",
+      "time_between_quarrel_and_harm": "about 4 years before testimony",
+      "method_alleged": "witchcraft",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "two oxen belonging to Nicolas Cointzelin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "killed by lightning without any visible injuries",
+      "animal_type": "ox",
+      "animal_count": 2,
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "problems with accused's son",
+      "time_between_quarrel_and_harm": "3 years before testimony",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "father of Claudon Demenge Maimbourg",
+      "victim_relationship_to_witness": "other community member",
+      "harm_category": "human_death",
+      "harm_description": "sickened and died after drinking milk given by accused while helping repair her roof",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "soon after drinking milk",
+      "method_alleged": "poisoned/bewitched milk",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Colin Jean Magdelaine",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became ill after leaving her service; for every day well had 6 or 7 weeks unable to work; illness lasted some 7 years",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "wanted to leave her service",
+      "time_between_quarrel_and_harm": "immediately after leaving",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "animals belonging to Colin Jean Magdelaine",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost more animals than he could remember after her release from first trial; had to sell property to move elsewhere",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Mengeon le Maimbourg (brother-in-law of accused)",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "after drinking plate of milk his face became so hot he could hardly see; became all swollen and died after 18 weeks or more",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "immediately after drinking milk",
+      "method_alleged": "bewitched milk",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "3 or 4 pigs belonging to Claude Jean Demenge Mengin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "lost 3 or 4 pigs",
+      "animal_type": "pig",
+      "animal_count": 4,
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "precipitating_quarrel": "his animals had done damage to her property",
+      "time_between_quarrel_and_harm": "6 months earlier",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Demenge Napuel (second husband)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "died from 'un fil chancrée' which began next to mouth and consumed his lips",
+      "attributed_to": "Jennon veuve Demenge Napuel",
+      "method_alleged": "allegedly gave him illness with an apple (according to additional testimony)",
+      "witness_number": 10
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "milk",
+      "context": "allegedly given to victims causing illness/death",
+      "category": "food"
+    },
+    {
+      "object": "bread, salt, and ashes",
+      "context": "used as counter-magic by witness #5 to cure herself and child",
+      "category": "magical"
+    },
+    {
+      "object": "apple",
+      "context": "allegedly used to give husband fatal illness",
+      "category": "food"
+    },
+    {
+      "object": "axe",
+      "context": "Jacot Girard Pechey took to her house after death of calf",
+      "category": "tools"
+    },
+    {
+      "object": "barrel of butter",
+      "context": "what Jacot Girard Pechey said he would give Grand Prévôt",
+      "category": "food"
+    },
+    {
+      "object": "un bichot de seigle",
+      "context": "payment allegedly given to Claude Mengin by moictrier for testimony in first trial",
+      "category": "food"
+    },
+    {
+      "object": "thumbscrews and rack",
+      "context": "shown to accused during interrogation",
+      "category": "tools"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Raves",
+      "place_type": "village",
+      "context": "primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "where accused had been taken on witchcraft charge in previous trial; where Barbeline was executed"
+    },
+    {
+      "place_name": "Provencheres",
+      "place_type": "village",
+      "context": "where witness's sister Jehennon married"
+    },
+    {
+      "place_name": "Bertrimoutier",
+      "place_type": "village",
+      "context": "home of Gregoire Mathis who confronted accused; origin of second husband"
+    },
+    {
+      "place_name": "Combrimont",
+      "place_type": "village",
+      "context": "home of one of the other women confronted with Gregoire Mathis"
+    },
+    {
+      "place_name": "Frapelle",
+      "place_type": "village",
+      "context": "home of wife of Jean du Prey, one of others confronted"
+    },
+    {
+      "place_name": "Lubine",
+      "place_type": "village",
+      "context": "where accused's daughter Claudatte married"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "where Claudel Mengeon le Maimbourg was working when called back for father's illness"
+    },
+    {
+      "place_name": "Ginfosse",
+      "place_type": "village",
+      "context": "home of Nicolas le Maimbourg"
+    },
+    {
+      "place_name": "Layegotte",
+      "place_type": "village",
+      "context": "where witness #14 worked as servant"
+    },
+    {
+      "place_name": "Entre-deux-Eaux",
+      "place_type": "village",
+      "context": "home of witnesses #16 and #17"
+    },
+    {
+      "place_name": "Quebrux",
+      "place_type": "village",
+      "context": "birthplace of accused"
+    },
+    {
+      "place_name": "Avould",
+      "place_type": "village",
+      "context": "where devin (diviner) lived who was consulted about animal losses"
+    },
+    {
+      "place_name": "la Croix",
+      "place_type": "other",
+      "context": "location Nicolas Cointzelin was returning from when he had mysterious fall"
+    },
+    {
+      "place_name": "Develine",
+      "place_type": "village",
+      "context": "where le maire Colas (uncle of Nicolas Cointzelin) who was executed came from"
+    },
+    {
+      "place_name": "Burgundy",
+      "place_type": "other",
+      "context": "origin of woman who lived in accused's ruined house"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "mysterious wind blowing through house",
+      "lightning killing two oxen without visible injuries"
+    ],
+    "animal_predation": [
+      "large animal (like bear or 'grosse beste') allegedly seen by accused's children; big black animal in house"
+    ],
+    "economic_hardship_indicators": [
+      "Lyenard Heriet's family described as 'very poor'",
+      "Colin Jean Magdelaine had to sell property to move elsewhere due to losses"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Bastien Grosmaire",
+        "role": "mayor",
+        "location": "Raves"
+      },
+      {
+        "name": "substitut for PG",
+        "role": "prosecutor_pg"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Jacot Girard Pechey started action against accused for calling him 'un larron et meschant homme' but friends advised difficulty proving; agreed to accord excluding charges from previous trial",
+        "outcome": "settled by accord"
+      },
+      {
+        "dispute_type": "assault",
+        "description": "Nicolas Cointzelin quarreled with accused's son at wedding feast of Claude Renouard, beating him and tearing off his collar",
+        "outcome": "son took Cointzelin to court and won case"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Claudatte fille Girard Jacot Pechey had long lawsuit claiming accused's son Claude fathered her bastard child and wanted him to marry her",
+        "outcome": "unknown"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Should only be threatened with torture unless accused by Claudatte femme Jean Claudel, when she should be given thumbscrews only",
+      "local_court_followed": true
+    },
+    "imprisonment_conditions": "held in prison from October 15 to November 26, 1609"
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Renouard",
+        "source": "Claudon Demenge Maimbourg",
+        "content": "accused gave milk to his father who was helping repair her roof, after which he sickened and died"
+      },
+      {
+        "reporter": "Colas Mandray",
+        "source": "others",
+        "content": "story about death of father of Claudon Demenge Maimbourg after drinking milk"
+      },
+      {
+        "reporter": "Barbe femme Demenge le Maire",
+        "source": "servant",
+        "content": "her son Claude had called accused witch 2 or 3 times"
+      },
+      {
+        "reporter": "Barbe femme Demenge le Maire",
+        "source": "woman from Burgundy",
+        "content": "big black animal appeared in house and caressed her like a dog"
+      }
+    ],
+    "oldest_accusation_years": 20
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "accused_witnesses_of_crimes",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "continued to assert innocence throughout",
+      "remained defiant, calling Nicolas Cointzelin a witch instead"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 2,
+        "objection": "Jacot Girard Pechey had wanted to marry her when widowed; they had acted as godparents to each other's children"
+      },
+      {
+        "witness_number": 4,
+        "objection": "said Colas was 'un larron de poisson' (a fish thief)"
+      },
+      {
+        "witness_number": 6,
+        "objection": "said Nicolas Cointzelin lied like a witch and was of the race of witches; his uncle had been executed"
+      },
+      {
+        "witness_number": 12,
+        "objection": "claimed moictrier had given him 'un bichot de seigle' for testimony in first trial; said he was a man of no value"
+      },
+      {
+        "witness_number": 1,
+        "objection": "denied calling Claudatte a whore but noted she had bastard child; family did her great wrong about footsteps in snow because they had not obtained what they wanted from her"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Claude (son of accused)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "context": "unmarried son; quarreled with various witnesses; Claudatte claimed he fathered her bastard child"
+    },
+    {
+      "name": "Claudatte (daughter of accused)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "married at Lubine; was marriageable when Colin Jean Magdelaine served accused"
+    },
+    {
+      "name": "Jehennon (sister of witness #1)",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "married at Provencheres; present during ox death incident"
+    },
+    {
+      "name": "Bastien Grosmaire",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "late maire of Raves",
+      "context": "called in to calm Jacot Girard Pechey after ox death; Colin Jean Magdelaine later entered his service"
+    },
+    {
+      "name": "Claudon Demenge Maimbourg",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "told Jean Renouard about his father's death after drinking accused's milk"
+    },
+    {
+      "name": "Mengeon le Maimbourg",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "brother-in-law",
+      "context": "allegedly died after drinking plate of milk from accused; visited her frequently"
+    },
+    {
+      "name": "le maire Colas of Develine",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_witness": "uncle of Nicolas Cointzelin",
+      "context": "had been executed as witch"
+    },
+    {
+      "name": "Barbeline",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_witness": "second wife of Didier Anthoine Laurent",
+      "context": "executed as witch at St Dié some 5 years before; accused remarked on her execution"
+    },
+    {
+      "name": "woman from Burgundy",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "weaver who lived in house owned by accused; saw big black animal; husband left her for another woman"
+    },
+    {
+      "name": "Jean Peteman",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "first husband",
+      "context": "of Raves; married about 40 years before; married for 17 years"
+    },
+    {
+      "name": "Demenge Napuel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "second husband",
+      "context": "from Bertrimoutier; married 7.5 years; died from 'un fil chancrée' consuming his lips; allegedly said she gave him illness with apple"
+    },
+    {
+      "name": "moictrier of late escolatre of St Dié",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "lost animals and consulted devin at Avould who blamed neighbors; initiated first trial"
+    },
+    {
+      "name": "devin at Avould",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "diviner consulted by moictrier; said losses came from closest neighbors"
+    },
+    {
+      "name": "Gregoire Mathis",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "of Bertrimoutier; confronted accused and 3 others; maintained allegations"
+    },
+    {
+      "name": "Claudatte fille Gregoire Mathis",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "of Bertrimoutier; accused Jennon when she was in prison during first trial"
+    },
+    {
+      "name": "Claudatte femme Jean Claudel",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "mentioned in Change de Nancy ruling; if she accused Jennon, thumbscrews could be used"
+    },
+    {
+      "name": "Claudatte femme Jean le Maimbourg",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "of Raves; one of 3 others confronted with Gregoire Mathis"
+    },
+    {
+      "name": "Marie femme Andreu Gerardin",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "of Combrimont; one of 3 others confronted with Gregoire Mathis"
+    },
+    {
+      "name": "wife of Jean du Prey",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "of Frapelle; one of 3 others confronted with Gregoire Mathis"
+    },
+    {
+      "name": "Claude Renouard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "at his wedding feast Nicolas Cointzelin quarreled with accused's son"
+    },
+    {
+      "name": "Jean Colin Dieudonné",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "went with Didier Anthoine Laurent to see Barbeline before execution"
+    }
+  ],
+  "accomplices_named": [],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple witnesses mentioned quarrels over property damage by animals; accused owned house (now ruined) and had employed servants, suggesting middling economic status; Jacot Girard Pechey wanted to marry her when widowed, suggesting she had some property"
+  },
+  "formal_accuser": {
+    "name": "Gregoire Mathis",
+    "person_id": null,
+    "location": "Bertrimoutier",
+    "relationship_to_accused": "maintained allegations after confrontation"
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Complete trial record with detailed witness testimony, interrogations, and appellate court involvement. Text damage noted in a few locations but overall very legible. This was accused's second trial; she was released from both. Notable for Change de Nancy's restrictive torture approval and ultimate recommendation for release.",
+    "pdf_pages": 6
+  }
+}

@@ -3,6 +3,7 @@
   "archive_ref": "B 4444",
   "location": "Rebeufville",
   "court": "Prévôt of Chatenoy",
+  "language_region": "french",
   "dates": {
     "start": "1553-07-18",
     "end": "1553-08-08",
@@ -12,9 +13,12 @@
   "accused": [
     {
       "name": "Margueritte Vaultrin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
       "occupation": [],
       "origin": "Rebeufville",
       "residence": "Rebeufville",
@@ -550,7 +554,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "held in prisons before confession",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": "unknown",
+      "modification_details": null,
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -571,12 +580,14 @@
   "third_parties": [
     {
       "name": "Didier Collard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "first husband (deceased)",
       "context": "died of plague after having five children with Margueritte; favored stepson Claudot over her"
     },
     {
       "name": "Claudot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "stepson",
       "relationship_to_witness": "son of first husband from previous marriage",
@@ -584,120 +595,140 @@
     },
     {
       "name": "Anthoine Vaultrin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "current husband",
       "context": "married 17 years earlier, knew nothing of her crime"
     },
     {
       "name": "Mengin (son)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "taken to sabbat by mother from age 14, seduced by master, killed two horses, later refused to attend sabbat after church blessing - 'recramé'"
     },
     {
       "name": "Ysabeau (la Royere)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor/acquaintance when widow",
       "context": "wife of Mengin Pelletier, died after long illness from powder poisoning following pear dispute"
     },
     {
       "name": "Mengin Pelletier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim",
       "context": "husband of Ysabeau la Royere"
     },
     {
       "name": "Jean Poiresson",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "from same village",
       "context": "killed with powder 16 years before trial after quarrel over garden"
     },
     {
       "name": "Jacquemin Malwauret",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "market neighbor",
       "context": "owner of sack that Margueritte took; his wife and daughter-in-law died after recovering it"
     },
     {
       "name": "Wife of Monsy de la Hure",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "market customer",
       "context": "insulted Margueritte at market, died after eating poisoned pears"
     },
     {
       "name": "Monsy de la Hure",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim",
       "context": "husband of woman who insulted Margueritte"
     },
     {
       "name": "Parisot Poiresson",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "from same village",
       "context": "made very ill with powder in drink after dispute over book"
     },
     {
       "name": "Demenge Waultrin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "horse seller",
       "context": "from Chatenoy, refused credit for horse, still ill at trial from powder"
     },
     {
       "name": "Thouvenin Parisot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "brother",
       "context": "died after 3 month illness from poisoned meat, was keeping land that should have been hers"
     },
     {
       "name": "Marie",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "acquaintance",
       "context": "wife of Jehan Brayette of Nuufchateau, became very ill after powder poisoning"
     },
     {
       "name": "Jehan Brayette",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim",
       "context": "husband of Marie, from Nuufchateau"
     },
     {
       "name": "Henry Nicolas",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "victim of son's witchcraft",
       "context": "beat Mengin for passing over oats, Mengin killed his two horses in revenge"
     },
     {
       "name": "Claudon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "market customer",
       "context": "wife of Anthoine Greffien of Nenfchateau, her two children died from poisoned milk"
     },
     {
       "name": "Anthoine Greffien",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim",
       "context": "husband of Claudon, father of two children who died"
     },
     {
       "name": "Mongea",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sabbat accomplice",
       "context": "from Rellamville, already burned, recognized at sabbat"
     },
     {
       "name": "Mariotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sabbat accomplice",
       "context": "from Landaville, already burned, recognized at sabbat"
     },
     {
       "name": "Parrain of Mengin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "godfather of son",
       "context": "took Mengin to church when suffragan blessed chapel, leading to his refusing sabbat"
     },
     {
       "name": "Suffragan",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "church official",
       "context": "blessed chapel, presence led to Mengin's reclamation from witchcraft"

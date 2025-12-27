@@ -3,6 +3,14 @@
   "archive_ref": "B 4098",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean Gros Jean",
+    "person_id": null,
+    "occupation": "apothecary",
+    "location": "Charmes",
+    "relationship_to_accused": "father of alleged victims"
+  },
   "dates": {
     "start": "1611-06-01",
     "end": "1611-06-30"
@@ -11,7 +19,11 @@
   "accused": [
     {
       "name": "Esdeline veuve Thoussainct Tarrion",
+      "person_id": null,
       "gender": "female",
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["charms_amulets"],
       "age": 33,
       "age_approximate": false,
       "occupation": ["servant", "beggar (former)"],
@@ -35,6 +47,7 @@
     {
       "number": 1,
       "name": "Idatte femme George Martin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "wife of carpenter",
@@ -314,7 +327,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "tortured on rack, bled from hands and feet",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "rejected",
+      "modification_details": "Change de Nancy rejected PG des Vosges' request for flogging and banishment, ordering instead that Esdeline be released (renvoyée) since she had 'suffisament purgée les indices, contre elle resultans par ladite procedure'",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -344,18 +362,21 @@
   "third_parties": [
     {
       "name": "Jean Gros Jean",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "apothecary whose children allegedly died",
       "context": "Father of three children who died after dancing incident; evidently incapable of curing his own daughter"
     },
     {
       "name": "Nicolas Masson",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "context": "Brother who was abandoned with Esdeline when they were children"
     },
     {
       "name": "George Martin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor (husband of witness)",
       "relationship_to_witness": "husband of Idatte",
@@ -363,18 +384,21 @@
     },
     {
       "name": "mother-in-law of Esdeline (unnamed)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother-in-law",
       "context": "Had been under suspicion as a witch, found dead in bed possibly strangled at moment when case might have been brought against her; Esdeline suspected of murdering her"
     },
     {
       "name": "child of Esdeline (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "child",
       "context": "Esdeline forced apothecary's children to take hands with her own child while dancing"
     },
     {
       "name": "stepmother of Esdeline (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "stepmother",
       "context": "Father remarried; Esdeline felt burdened by stepmother and was abandoned"

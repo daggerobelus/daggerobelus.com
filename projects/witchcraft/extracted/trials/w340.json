@@ -1,0 +1,2276 @@
+{
+  "trial_id": "w340",
+  "archive_ref": "Vosges 3 C 239",
+  "location": "Badonviller",
+  "court": "Unknown",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jacob le Heu dit Duchamois",
+    "person_id": null,
+    "occupation": "Unknown",
+    "location": "Badonviller",
+    "relationship_to_accused": "Community member"
+  },
+  "dates": {
+    "start": "1645-08-19",
+    "end": "1646-09-11",
+    "duration_days": 388
+  },
+  "outcome": "unknown",
+  "accused": [
+    {
+      "name": "Pierrotte Roy femme Nicolas Martin",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "herbal_remedies"],
+      "age": null,
+      "age_approximate": false,
+      "occupation": ["tavern keeper", "vivandiere"],
+      "origin": "Badonviller",
+      "residence": "Badonviller",
+      "marital_status": "married",
+      "spouse_name": "Nicolas Martin",
+      "parents": {
+        "father": "Jean Roy",
+        "mother": "Unknown"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mongeon Bernard femme Isaye Guerdon",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "occupation": "Unknown",
+      "location": "Nancy",
+      "relationship_to_accused": "Former neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Not invited to baptism",
+        "threat_received": true,
+        "threat_quote": "la grosse vache elle ne m'a pas appellée a son accouchement, et qu'elle en perdroit",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mongeon Bernard",
+            "target_relationship": "self",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "2 days"
+          },
+          {
+            "type": "human_death",
+            "target": "Jean Richard (first husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "Immediately after quarrel over tax farm"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Barbe Jean Pierçon",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "occupation": "jeune fille",
+      "location": "Nonhegny",
+      "relationship_to_accused": "Hosted accused's son",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Dominique Martin fils de la prevenue",
+      "person_id": null,
+      "gender": "male",
+      "age": 7,
+      "occupation": "child",
+      "location": "Badonviller",
+      "relationship_to_accused": "Son",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Barbe Petit",
+      "person_id": null,
+      "gender": "female",
+      "age": 21,
+      "occupation": "jeune fille",
+      "location": "Badonviller",
+      "relationship_to_accused": "Acquaintance of daughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Margueritte du Moulin",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "occupation": "jeune fille",
+      "location": "Badonviller",
+      "relationship_to_accused": "Acquaintance",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jacques Colin",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "occupation": "portier",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute with Jean Richard Cordier",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean Richard Cordier",
+            "target_relationship": "colleague",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "Immediately"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Anne Marie femme Dieudonné Louys",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 5,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Carting wood disputes",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Anne Marie",
+            "target_relationship": "self",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "Soon after"
+          },
+          {
+            "type": "animal_death",
+            "target": "13 horses",
+            "target_relationship": "husband's horses",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After second dispute"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Elizabeth Choppat veuve Didier Vaillant",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "François Vallet",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "Catherine femme Claudon Bieque",
+      "person_id": null,
+      "gender": "female",
+      "age": 33,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 11,
+      "name": "Claudon Bieque",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Claude Bricotte",
+      "person_id": null,
+      "gender": "male",
+      "age": 53,
+      "occupation": "Tabellion General du Comté de Salm",
+      "location": "Comté de Salm",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "André Gerardin (second husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "Soon after marriage"
+          },
+          {
+            "type": "human_death",
+            "target": "Child of Capitaine la Vervenne",
+            "target_relationship": "neighbor's child",
+            "attributed_to": "Pierrotte Roy"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Colotte femme Claudin Cugnin",
+      "person_id": null,
+      "gender": "female",
+      "age": 37,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jean Martin",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "occupation": "Unknown",
+      "location": "Pexonne",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claudin le Clerc",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "occupation": "Unknown",
+      "location": "Pexonne",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Gille Ferry",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "occupation": "chirurgien",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "André Gerardin (second husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Pierrotte Roy"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Anne veuve Nicolas de Lorette",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "sage femme",
+      "location": "Badonviller",
+      "relationship_to_accused": "Midwife",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claude de Lorette (her son)",
+            "target_relationship": "son",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After beatings"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Le sieur Bellard",
+      "person_id": null,
+      "gender": "male",
+      "age": 66,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Former maire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute with Jacob le Heu",
+        "threat_received": true,
+        "threat_quote": "j'en feray bien perdre d'autres",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Margueritte Martin femme Demenge Cuning",
+      "person_id": null,
+      "gender": "female",
+      "age": 23,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 20,
+      "name": "Elisabeth Colatte veuve Jacques Jean Demenge",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Jean Choppat",
+      "person_id": null,
+      "gender": "male",
+      "age": 80,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "Jeannon Gatties veuve Jean Jacquemin",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 23,
+      "name": "Catherine Mathieu femme Jean de Fribourg",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": "maire's wife",
+      "location": "St Maurice",
+      "relationship_to_accused": "Rival",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband's affair with accused",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Son of Catherine Mathieu",
+            "target_relationship": "son",
+            "attributed_to": "Pierrotte Roy"
+          }
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Guillaume Parmentier",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "occupation": "Unknown",
+      "location": "Neufviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "he would not be [portier] by the end of the week",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "André Gerardin",
+            "target_relationship": "portier",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "2-3 days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Guillaume Parmentier fils",
+      "person_id": null,
+      "gender": "male",
+      "age": 16,
+      "occupation": "Unknown",
+      "location": "Neufviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 26,
+      "name": "Elizabeth femme Claude Gueury",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Unknown",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Horse",
+            "target_relationship": "family horse",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 27,
+      "name": "Margueritte femme Hanso Simonin",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": "shopkeeper",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with Elizabeth Gueury",
+        "threat_received": true,
+        "threat_quote": "Elizabeth was blind in one eye, and should watch out she did not become so in the other",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 28,
+      "name": "Barbe femme Demenge le Clerc",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "occupation": "Unknown",
+      "location": "Nonguey",
+      "relationship_to_accused": "Hosted son Dominique",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 29,
+      "name": "Dieudonné Louys",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "occupation": "carter",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to cart goods",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "own horses",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After refusals"
+          }
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Chrestienne femme Demenge Bregeat",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "occupation": "Unknown",
+      "location": "Neuviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Husband sold nuts to accused",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 31,
+      "name": "Demenge Melline",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "bourgeois",
+      "location": "Parux",
+      "relationship_to_accused": "Customer/gambler",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Gambling in her tavern",
+        "threat_received": true,
+        "threat_quote": "que s'il se vouloit donner au diable qu'elle le croiroit",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 32,
+      "name": "Marie Gerardin",
+      "person_id": null,
+      "gender": "female",
+      "age": 16,
+      "occupation": "jeune fille",
+      "location": "Badonviller",
+      "relationship_to_accused": "Stepdaughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 33,
+      "name": "Anthoine Jean Roy",
+      "person_id": null,
+      "gender": "male",
+      "age": 41,
+      "occupation": "maire",
+      "location": "Brémesnil",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 34,
+      "name": "Hanzo Simonin",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 35,
+      "name": "Mongeotte femme Anthoine Jean Roy",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": "Unknown",
+      "location": "Brémesnil",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 36,
+      "name": "Demenge Bregeot",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "maire",
+      "location": "Neuviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Demenge Bregeot",
+            "target_relationship": "self",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After drinking in her house"
+          }
+        ]
+      }
+    },
+    {
+      "number": 37,
+      "name": "Suzanne Raguin veuve Jean Volf",
+      "person_id": null,
+      "gender": "female",
+      "age": 41,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Widow of portier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 38,
+      "name": "Jeannon du Rupt femme Philippe Renault",
+      "person_id": null,
+      "gender": "female",
+      "age": 43,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 39,
+      "name": "Annon Pacatte veuve Denys de la Cour",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Employer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 40,
+      "name": "Anthoine Valet",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "occupation": "Mre Echevin",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Property dispute with Gerardin's brother",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 41,
+      "name": "Anne Marie dite Lallemande",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 42,
+      "name": "Catherine Durand femme Pierre Picard",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Recipient of gifts",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Cow",
+            "target_relationship": "father's cow",
+            "attributed_to": "Mother of accused",
+            "time_after_quarrel": "2-3 days"
+          },
+          {
+            "type": "human_illness",
+            "target": "Sister of Catherine",
+            "target_relationship": "sister",
+            "attributed_to": "Pierrotte Roy"
+          }
+        ]
+      }
+    },
+    {
+      "number": 43,
+      "name": "Claude de Lorette",
+      "person_id": null,
+      "gender": "male",
+      "age": 14,
+      "occupation": "jeune fils",
+      "location": "Badonviller",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused beat him 3 times",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claude de Lorette",
+            "target_relationship": "self",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After beatings"
+          }
+        ]
+      }
+    },
+    {
+      "number": 44,
+      "name": "Claude de Serre",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "occupation": "carter",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to cart hay and wood",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Horse",
+            "target_relationship": "own horse",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "A week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 45,
+      "name": "Toussaince femme George Galtier",
+      "person_id": null,
+      "gender": "female",
+      "age": 33,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 46,
+      "name": "Magdelaine Mathis femme Demenge Guerre",
+      "person_id": null,
+      "gender": "female",
+      "age": 44,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 47,
+      "name": "Jehanne Ferry veuve Nicolas Jacquemin",
+      "person_id": null,
+      "gender": "female",
+      "age": 55,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 48,
+      "name": "Jehennon Gerardin veuve Thouvenin Recepveur",
+      "person_id": null,
+      "gender": "female",
+      "age": 54,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 49,
+      "name": "Margueritte femme Estienne Noiselle",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 50,
+      "name": "Elizabeth Choppat veuve",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": "widow",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 51,
+      "name": "Barbe veuve Nicolas Selamont",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "occupation": "widow",
+      "location": "Neufville",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 52,
+      "name": "Jacquë femme Jean Choppot",
+      "person_id": null,
+      "gender": "female",
+      "age": 54,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Employer of accused's daughter",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 53,
+      "name": "Jeannon du Rupt femme Philipe Renault",
+      "person_id": null,
+      "gender": "female",
+      "age": 43,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 54,
+      "name": "Catherine Durand femme Pierre Picard (second deposition)",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Saw accused with marguillier",
+        "threat_received": true,
+        "called_witch_publicly": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 55,
+      "name": "Isaacq Forest dit Jolicoeur",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "cobbler",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 7,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Window falling",
+        "threat_received": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 56,
+      "name": "Paul Bailly",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "Unknown",
+      "location": "Vexaincourt",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over horse payment",
+        "threat_received": true,
+        "threat_quote": "he would repent when he took it away",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "Horse",
+            "target_relationship": "own horse",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "18 weeks later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 57,
+      "name": "Philipe Renauld",
+      "person_id": null,
+      "gender": "male",
+      "age": 66,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 58,
+      "name": "Elizabeth femme Claude Guerry (second deposition)",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Wolff",
+            "target_relationship": "neighbor",
+            "attributed_to": "Pierrotte Roy"
+          }
+        ]
+      }
+    },
+    {
+      "number": 59,
+      "name": "Jacques femme Jean Chopot (second deposition)",
+      "person_id": null,
+      "gender": "female",
+      "age": 54,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 60,
+      "name": "Jacotte Rembour",
+      "person_id": null,
+      "gender": "female",
+      "age": 13,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 61,
+      "name": "Margueritte fille feu Jean Mulnier",
+      "person_id": null,
+      "gender": "female",
+      "age": 22,
+      "occupation": "servante",
+      "location": "Vexaincourt",
+      "relationship_to_accused": "Servant in household",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 62,
+      "name": "Alison Drouyn femme Simon Cunin",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 63,
+      "name": "Jacob jeune fils à Tante Sarra",
+      "person_id": null,
+      "gender": "male",
+      "age": 14,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Acquaintance of son",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 64,
+      "name": "Nicolas Alix",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "occupation": "maire",
+      "location": "Neufviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 65,
+      "name": "Marie femme Noel Marchal",
+      "person_id": null,
+      "gender": "female",
+      "age": 37,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Customer",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 66,
+      "name": "Thierry Louis",
+      "person_id": null,
+      "gender": "male",
+      "age": 66,
+      "occupation": "sergent en la justice",
+      "location": "Badonviller",
+      "relationship_to_accused": "Legal officer",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Payment demanded",
+        "threat_received": true,
+        "threat_quote": "que sy elle avoit ladite ordonnance elle en torcheroit son cul",
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 67,
+      "name": "Le sieur Belard (second deposition)",
+      "person_id": null,
+      "gender": "male",
+      "age": 66,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 68,
+      "name": "Jacob le Heu dit Duchamois",
+      "person_id": null,
+      "gender": "male",
+      "age": 63,
+      "occupation": "Unknown",
+      "location": "Badonviller",
+      "relationship_to_accused": "Formal accuser",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claims bewitchment after eating her food",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jacob le Heu",
+            "target_relationship": "self",
+            "attributed_to": "Pierrotte Roy",
+            "time_after_quarrel": "After eating cake"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1645-08-19",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Witness depositions begin"
+    },
+    {
+      "date": "1645-09-06",
+      "event": "confrontation",
+      "subject": "Pierrotte Roy",
+      "details": "First set of confrontations with Mongeon Bernard"
+    },
+    {
+      "date": "1645-09-30",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Additional witness depositions"
+    },
+    {
+      "date": "1645-10-02",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Continued witness depositions"
+    },
+    {
+      "date": "1645-10-03",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Continued witness depositions"
+    },
+    {
+      "date": "1645-10-06",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Continued witness depositions"
+    },
+    {
+      "date": "1645-10-10",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Continued witness depositions"
+    },
+    {
+      "date": "1645-10-11",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Continued witness depositions"
+    },
+    {
+      "date": "1645-10-12",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Additional witness depositions"
+    },
+    {
+      "date": "1645-10-13",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Final witness depositions"
+    },
+    {
+      "date": "1645-10-16",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Additional witnesses heard"
+    },
+    {
+      "date": "1645-10-21",
+      "event": "informations_preparatoires",
+      "subject": "Pierrotte Roy",
+      "details": "Final witnesses"
+    },
+    {
+      "date": "1645-10-24",
+      "event": "confrontation",
+      "subject": "Pierrotte Roy",
+      "details": "Confrontations with multiple witnesses"
+    },
+    {
+      "date": "1645-10-25",
+      "event": "confrontation",
+      "subject": "Pierrotte Roy",
+      "details": "Continued confrontations"
+    },
+    {
+      "date": "1645-10-26",
+      "event": "confrontation",
+      "subject": "Pierrotte Roy",
+      "details": "Continued confrontations"
+    },
+    {
+      "date": "1645-10-27",
+      "event": "confrontation",
+      "subject": "Pierrotte Roy",
+      "details": "Final confrontations, sent to Procureur Fiscal"
+    },
+    {
+      "date": "1646-09-11",
+      "event": "confrontation",
+      "subject": "Pierrotte Roy",
+      "details": "Additional confrontations with Sarra Grazy and Catherine Pelletier"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "restrictions": "Draft questions for torture prepared but no evidence of application"
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "Demenge Durand",
+      "accuser_location": "Badonviller",
+      "context": "Called her father Jean Roy a witch; father took him to court but couldn't afford costs",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jacob le Heu",
+      "french": "puis que je ne puis rien tirer de toy, je te feray perdre le corps et les biens",
+      "context": "Quarrel with accused"
+    },
+    {
+      "speaker": "Pierrotte Roy",
+      "french": "j'en feray bien perdre d'autres",
+      "context": "Response to Jacob le Heu's threat"
+    },
+    {
+      "speaker": "Mongeon Bernard (reported)",
+      "french": "la grosse vache elle ne m'a pas appellée a son accouchement, et qu'elle en perdroit",
+      "context": "Threat when not invited to baptism"
+    },
+    {
+      "speaker": "Husband of Pierrotte (to Philipe Renauld)",
+      "french": "que s'il scavoit que sa femme fut sorciere aussy bien comme elle estoit putain (a cause de la mauvaise vie qu'elle menoit avec Me Demenge Marguillier) qu'il la laisseroit",
+      "context": "Husband's statement about affair and suspicions"
+    },
+    {
+      "speaker": "Jacob le Heu",
+      "french": "qu'il estoit le prince des diables et le roy des genots et un nigromancien... c'estoit pour faire brusler les sorciers",
+      "context": "Jacob's self-description during confrontations"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Nicolas Martin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Pierrotte Roy femme Nicolas Martin"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "André Gerardin",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Second marriage with André Gerardin"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Jean Roy",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Her father Jean Roy"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Dominique Martin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Dominique Martin fils de la prevenue"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Nicolas Martin (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Her son Nicolas"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Claudatte Martin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Her daughter Claudatte"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Marie Gerardin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Stepdaughter from André Gerardin",
+      "inferred": true
+    },
+    {
+      "person1": "Mongeon Bernard",
+      "person2": "Isaye Guerdon",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mongeon Bernard femme Isaye Guerdon"
+    },
+    {
+      "person1": "Anne Marie",
+      "person2": "Dieudonné Louys",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Anne Marie femme Dieudonné Louys"
+    },
+    {
+      "person1": "Catherine",
+      "person2": "Claudon Bieque",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme Claudon Bieque"
+    },
+    {
+      "person1": "Catherine Mathieu",
+      "person2": "Jean de Fribourg",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine Mathieu femme Jean de Fribourg, maire de St Maurice"
+    },
+    {
+      "person1": "Jean de Fribourg",
+      "person2": "Pierrotte Roy",
+      "relationship_type": "other_social",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "Husband had 'une fort mauvaise frequentation' with Pierrotte over several years; commonly lived, ate, and slept in her house"
+    },
+    {
+      "person1": "Anne veuve Nicolas de Lorette",
+      "person2": "Claude de Lorette",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mother-son relationship"
+    },
+    {
+      "person1": "Pierrotte Roy",
+      "person2": "Marie Roy",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Her late sister Marie had good reputation"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple carting disputes; accused paid 600 francs for house in coin which astonished community given prior poverty; money allegedly earned 'estante vivandiere a la fleau du temps'; sold valuable items (silver belt buckle, gold and silver rings) after deaths of Adrian Barbier and André Gerardin; multiple witnesses testified to economic transactions"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Mongeon Bernard",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Severe illness with swollen stomach and thigh all blue and swollen after eating pears",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Not invited to baptism",
+      "time_between_quarrel_and_harm": "2 days",
+      "method_alleged": "Poisoned pears",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Richard Cordier",
+      "victim_relationship_to_witness": "first husband of Mongeon Bernard",
+      "harm_category": "human_death",
+      "harm_description": "Fatal illness lasting 28 weeks after taking tax farm from accused",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Took 'ferme des hostes' from her",
+      "time_between_quarrel_and_harm": "Immediately",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Anne Marie femme Dieudonné Louys",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Miscarriage",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Husband didn't cart wood soon enough",
+      "time_between_quarrel_and_harm": "Soon after",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Horses of Dieudonné Louys",
+      "victim_relationship_to_witness": "husband's property",
+      "harm_category": "animal_death",
+      "harm_description": "13 horses dead",
+      "animal_type": "horse",
+      "animal_count": 13,
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Husband refused carting",
+      "time_between_quarrel_and_harm": "After second dispute",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "André Gerardin",
+      "victim_relationship_to_witness": "second husband",
+      "harm_category": "human_death",
+      "harm_description": "Died within 24 hours or 2-3 days, sudden death after being joyful at supper",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Wanted to cease being portier",
+      "time_between_quarrel_and_harm": "2-3 days",
+      "method_alleged": "Given something to eat/drink",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Child of Capitaine la Vervenne",
+      "victim_relationship_to_witness": "neighbor's child",
+      "harm_category": "human_death",
+      "harm_description": "Death of child",
+      "attributed_to": "Pierrotte Roy",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Son of Catherine Mathieu",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "6 month illness with difficulty breathing",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Husband's affair with accused",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "Horse of Elizabeth Gueury",
+      "victim_relationship_to_witness": "family horse",
+      "harm_category": "animal_death",
+      "harm_description": "Horse died after quarrel",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Unknown quarrel",
+      "witness_number": 26
+    },
+    {
+      "victim_name": "Two horses of Dieudonné Louys",
+      "victim_relationship_to_witness": "self (own horses)",
+      "harm_category": "animal_death",
+      "harm_description": "2 horses dead on separate occasions",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Refused to cart cider and straw",
+      "witness_number": 29
+    },
+    {
+      "victim_name": "Demenge Bregeot",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Became ill after drinking to sale of horse in her house",
+      "attributed_to": "Pierrotte Roy",
+      "time_between_quarrel_and_harm": "Immediately after drinking",
+      "witness_number": 36
+    },
+    {
+      "victim_name": "Claude de Lorette",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Had 'foiblesses' in church after beatings",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Beat him 3 times for stealing gooseberries, throwing egg, driving him out",
+      "time_between_quarrel_and_harm": "After second beating",
+      "witness_number": 43
+    },
+    {
+      "victim_name": "Claude de Lorette (mother's testimony)",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "Often had 'foiblesses' in church after beatings",
+      "attributed_to": "Pierrotte Roy",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Horse of Claude de Serre",
+      "victim_relationship_to_witness": "self (own horse)",
+      "harm_category": "animal_death",
+      "harm_description": "Horse died",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Refused to continue carting wood; she threatened to take him to court",
+      "time_between_quarrel_and_harm": "A week later",
+      "witness_number": 44
+    },
+    {
+      "victim_name": "Horses of Claude de Serre",
+      "victim_relationship_to_witness": "self (own horses)",
+      "harm_category": "animal_illness",
+      "harm_description": "Horses refused to pull loaded cart after refusing to cart hay for her",
+      "animal_type": "horse",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Refused to cart hay because already committed to Mre Echevin",
+      "time_between_quarrel_and_harm": "Immediately",
+      "witness_number": 44
+    },
+    {
+      "victim_name": "Horse of Paul Bailly",
+      "victim_relationship_to_witness": "self (own horse)",
+      "harm_category": "animal_death",
+      "harm_description": "Horse sickened and died after 18 weeks",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Dispute over payment for vins when buying horse",
+      "time_between_quarrel_and_harm": "Soon after taking horse away",
+      "witness_number": 56
+    },
+    {
+      "victim_name": "Jean Wolff",
+      "victim_relationship_to_witness": "neighbor",
+      "harm_category": "human_death",
+      "harm_description": "Fatal illness began after feeling something prick his thigh while she talked with him",
+      "attributed_to": "Pierrotte Roy",
+      "method_alleged": "Pricking",
+      "witness_number": 58
+    },
+    {
+      "victim_name": "Cow of Catherine Durand's father",
+      "victim_relationship_to_witness": "father's cow",
+      "harm_category": "animal_death",
+      "harm_description": "Cow sickened and died in 2-3 days",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Mother of Pierrotte Roy",
+      "precipitating_quarrel": "Mother asked for milk and was refused",
+      "time_between_quarrel_and_harm": "2-3 days",
+      "witness_number": 42
+    },
+    {
+      "victim_name": "Sister of Catherine Durand",
+      "victim_relationship_to_witness": "sister",
+      "harm_category": "human_illness",
+      "harm_description": "Bad leg",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Stopped teaching accused's daughter",
+      "witness_number": 54
+    },
+    {
+      "victim_name": "Jacob le Heu",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Bewitched after eating her cake; has haunted him since; hated his wife and left house",
+      "attributed_to": "Pierrotte Roy",
+      "precipitating_quarrel": "Ate her cake",
+      "time_between_quarrel_and_harm": "Since eating",
+      "method_alleged": "Poisoned cake",
+      "witness_number": 68
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "pears (dried)",
+      "context": "Given to Mongeon Bernard after childbirth; suspected of poisoning",
+      "category": "food"
+    },
+    {
+      "object": "grease (healing)",
+      "context": "Made with olive oil, lard from stag, and brandy; used for healing",
+      "category": "magical"
+    },
+    {
+      "object": "flour sack",
+      "context": "Advised putting empty flour sack on sick horse's back",
+      "category": "magical"
+    },
+    {
+      "object": "silver belt buckle",
+      "context": "Sold by accused; bought by Magdelaine Mathis",
+      "category": "clothing"
+    },
+    {
+      "object": "gold and silver rings",
+      "context": "Sold by accused after deaths of Adrian Barbier and André Gerardin",
+      "category": "clothing"
+    },
+    {
+      "object": "linen and cloth",
+      "context": "Given as presents to Catherine Durand",
+      "category": "household"
+    },
+    {
+      "object": "pasté (meat pie)",
+      "context": "Gambling stake worth quarter of an écu",
+      "category": "food"
+    },
+    {
+      "object": "fricassé (stew)",
+      "context": "Meat that was very white with funny smell; suspected of being human flesh",
+      "category": "food"
+    },
+    {
+      "object": "pistolles (coins)",
+      "context": "2 pistolles hidden sewn into clothing",
+      "category": "money"
+    },
+    {
+      "object": "600 francs",
+      "context": "Large sum paid in coin for house, astonished community",
+      "category": "money"
+    },
+    {
+      "object": "bond for 50 francs",
+      "context": "Dispute with Guillaume Parmentier over bond",
+      "category": "money"
+    },
+    {
+      "object": "broom with note",
+      "context": "La Varenne used magical test with note on broom by fire",
+      "category": "magical"
+    },
+    {
+      "object": "vinegar",
+      "context": "Used to revive accused when she had seizures",
+      "category": "household"
+    },
+    {
+      "object": "holy water",
+      "context": "Attempted to wake unconscious accused with holy water",
+      "category": "religious"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Badonviller",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Residence of witness Mongeon Bernard"
+    },
+    {
+      "place_name": "Nonhegny",
+      "place_type": "village",
+      "context": "Where accused's son Dominique stayed"
+    },
+    {
+      "place_name": "Pexonne",
+      "place_type": "village",
+      "context": "Residence of several witnesses"
+    },
+    {
+      "place_name": "St Maurice",
+      "place_type": "village",
+      "context": "Residence of Catherine Mathieu and maire Jean de Fribourg"
+    },
+    {
+      "place_name": "Neufviller",
+      "place_type": "village",
+      "context": "Residence of Guillaume Parmentier and others"
+    },
+    {
+      "place_name": "Brémesnil",
+      "place_type": "village",
+      "context": "Carting location; residence of maire Anthoine Jean Roy"
+    },
+    {
+      "place_name": "Parux",
+      "place_type": "village",
+      "context": "Residence of Demenge Melline"
+    },
+    {
+      "place_name": "Vexaincourt",
+      "place_type": "village",
+      "context": "Residence of Paul Bailly"
+    },
+    {
+      "place_name": "Fenneviller",
+      "place_type": "village",
+      "context": "Where accused's father went to live after being told to leave Badonviller"
+    },
+    {
+      "place_name": "Salbourg",
+      "place_type": "village",
+      "context": "Region where accused claimed to have used healing grease successfully"
+    },
+    {
+      "place_name": "St Jean Laulne",
+      "place_type": "village",
+      "context": "Siege location mentioned"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "village",
+      "context": "Germany; mentioned in context of son straining himself with peas"
+    },
+    {
+      "place_name": "Meadow in lower faubourg",
+      "place_type": "field",
+      "context": "Son Dominique said he went to feast there"
+    },
+    {
+      "place_name": "Garden shed",
+      "place_type": "other",
+      "context": "Where accused allegedly seen with marguillier"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Extensive military references: soldiers billeted in houses; Capitaine la Vervenne; maréchal des logis Verenne; winter quarters; siege by Dequenfeld; town besieged and defended by bourgeois; women dressed as men during siege; time 'when people were eating human flesh'; references to soldiers stealing; 'fleau du temps' (scourge of the times)",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Time when people were eating human flesh",
+      "Accused previously very poor but later had 600 francs",
+      "Worked as vivandiere during wartime",
+      "Father couldn't afford legal costs",
+      "Multiple references to poverty and economic disputes"
+    ],
+    "religious_calendar_references": [
+      "St George's Day (April 23) - when accused gave birth",
+      "Easter - when Catherine Durand was recently married"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Claude Bricotte",
+        "role": "notary",
+        "location": "Comté de Salm"
+      },
+      {
+        "name": "Gille Ferry",
+        "role": "other",
+        "location": "Badonviller"
+      },
+      {
+        "name": "Le sieur Bellard",
+        "role": "other",
+        "location": "Badonviller"
+      },
+      {
+        "name": "Jean de Fribourg",
+        "role": "mayor",
+        "location": "St Maurice"
+      },
+      {
+        "name": "Anthoine Jean Roy",
+        "role": "mayor",
+        "location": "Brémesnil"
+      },
+      {
+        "name": "Demenge Bregeot",
+        "role": "mayor",
+        "location": "Neuviller"
+      },
+      {
+        "name": "Nicolas Alix",
+        "role": "mayor",
+        "location": "Neufviller"
+      },
+      {
+        "name": "Anthoine Valet",
+        "role": "other",
+        "location": "Badonviller"
+      },
+      {
+        "name": "Thierry Louis",
+        "role": "other",
+        "location": "Badonviller"
+      },
+      {
+        "name": "Daniel Messire",
+        "role": "other",
+        "location": "Badonviller"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "defamation",
+        "description": "Father Jean Roy called witch by Demenge Durand; took him to court but couldn't afford costs; left town",
+        "outcome": "Father ordered to leave town same day"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Accused sued Anthoine Valet for calling her witch; claimed he was not subject to local court",
+        "outcome": "She took no action despite witnesses (1637)"
+      },
+      {
+        "dispute_type": "other",
+        "description": "Catherine Durand's father called mother of accused a witch; summoned to audience; father 'cria mercy'",
+        "outcome": "Parents told to leave town"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Multiple instances: filed suit against Anthoine Valet but he claimed ducal jurisdiction; chased Catherine Durand with stones after being called witch",
+    "imprisonment_conditions": "Imprisoned during proceedings; worried about costs falling on her; sent daughter's clothing to be sold",
+    "change_de_nancy": {
+      "consulted": false
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 53,
+    "hearsay_chains": [
+      {
+        "reporter": "Barbe Jean Pierçon",
+        "source": "Dominique Martin (son)",
+        "content": "Stories about hell, mascarades, soldiers"
+      },
+      {
+        "reporter": "Barbe Petit",
+        "source": "Daughter of accused",
+        "content": "Trembled and shivered in church"
+      },
+      {
+        "reporter": "Margueritte du Moulin",
+        "source": "Mother talking to daughter",
+        "content": "Overheard talk about grease 9 years earlier"
+      },
+      {
+        "reporter": "Jacques Colin",
+        "source": "Jean Richard Cordier",
+        "content": "Never well since quarrelling with accused"
+      },
+      {
+        "reporter": "Gille Ferry",
+        "source": "Town gossip",
+        "content": "Story about death of second husband"
+      },
+      {
+        "reporter": "Margueritte Martin",
+        "source": "Rumors",
+        "content": "Daughter talked of grease, son talked of black goat"
+      },
+      {
+        "reporter": "Elisabeth Colatte",
+        "source": "Sons of accused",
+        "content": "Could charm 'chiques' to win; sister had shining lovers"
+      },
+      {
+        "reporter": "Jehennon Gerardin",
+        "source": "Valet of M. Descouture",
+        "content": "Horse fell when it saw accused"
+      },
+      {
+        "reporter": "Jacotte Rembour",
+        "source": "Le petit Jean (soldier's servant)",
+        "content": "What Dominique had said"
+      },
+      {
+        "reporter": "Margueritte Mulnier",
+        "source": "Claudatte (daughter)",
+        "content": "Stories told by Dominique at second hand"
+      }
+    ],
+    "oldest_accusation_years": 10,
+    "corroboration_groups": [
+      [12, 16, 24, 26, 32],
+      [7, 29],
+      [33, 35],
+      [10, 11]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "Sometimes sad, other times not",
+      "Said 'qu'elle remettoit le tout a la volonté de dieu qu'il mette le droict ou il debvoit estre'",
+      "Became ill when angry, throwing herself about",
+      "Had episodes of 'mal caducque' (epilepsy)",
+      "Found unconscious/motionless on multiple occasions"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 7,
+        "objection": "Subornée by Jacob le Heu; previously said she didn't suspect her"
+      },
+      {
+        "witness_number": 30,
+        "objection": "Was a whore before marriage"
+      },
+      {
+        "witness_number": 23,
+        "objection": "Heard she put something in cake to kill first husband; caused his death"
+      },
+      {
+        "witness_number": 26,
+        "objection": "Left town because of sexual relations with soldiers; lied like a whore"
+      },
+      {
+        "witness_number": 42,
+        "objection": "Stole money, slept 50+ times with Magnier, was whore before marriage"
+      },
+      {
+        "witness_number": 50,
+        "objection": "Slept with Simon Cunin while 'en promesses'"
+      },
+      {
+        "witness_number": 31,
+        "objection": "Dealt in stolen goods"
+      },
+      {
+        "witness_number": 41,
+        "objection": "Was whore during wars; soldier drove her away because she killed horses"
+      },
+      {
+        "witness_number": 33,
+        "objection": "Boasted of having 4 children by Marie Marchal; house was center for thieving soldiers"
+      },
+      {
+        "witness_number": 44,
+        "objection": "Suspected over death of Gaultier whom he abandoned when ill"
+      },
+      {
+        "witness_number": 68,
+        "objection": "'un voleur un laron et faux accusateur'; claimed to be 'prince des diables'; extorted money"
+      },
+      {
+        "witness_number": 43,
+        "objection": "Too young to depose; had 'tiré le membre viril' of her son"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean Richard Cordier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Community member, portier",
+      "context": "Died after quarrel with accused; first husband of witness Mongeon Bernard"
+    },
+    {
+      "name": "Capitaine la Vervenne",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Military officer",
+      "context": "Suspected accused of causing death of his child; accused him of causing her miscarriage"
+    },
+    {
+      "name": "Maréchal des logis Verenne",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Military officer",
+      "context": "Claimed she was witch and used magical test with broom"
+    },
+    {
+      "name": "Demenge Durand",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Called her father a witch",
+      "context": "Made himself partie formelle against her father Jean Roy"
+    },
+    {
+      "name": "Adrian Barbier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Tainturier (dyer)",
+      "context": "Died; after his death accused had money to buy house"
+    },
+    {
+      "name": "Me Demenge Vuiant/Marguillier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Alleged lover",
+      "context": "Church warden; allegedly having affair with accused; seen coming out of garden shed with her"
+    },
+    {
+      "name": "Jean Wolff",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Portier",
+      "context": "Died after feeling pricking in thigh while accused talked with him"
+    },
+    {
+      "name": "Claudatte Martin",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Daughter",
+      "context": "Talked about grease, trembled in church, said she was with the devil"
+    },
+    {
+      "name": "Le curé of Badonviller",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "Borrowed linen from accused",
+      "context": "Priest who borrowed linen from accused"
+    },
+    {
+      "name": "Mother of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Mother",
+      "context": "Called witch; caused death of cow; chased away from town"
+    },
+    {
+      "name": "Sarra Grazy femme Demenge Pierre",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Held accused's property during imprisonment",
+      "context": "Held cloth for accused during imprisonment"
+    },
+    {
+      "name": "Catherine Pelletier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Witness",
+      "context": "Mother imprisoned as witch but accuser condemned; defended town during siege dressed as man"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-27",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Large trial with 68 witnesses and extensive confrontations spanning over a year. Document includes only depositions, confrontations, and draft interrogation questions - no final verdict or sentence recorded. Key features: (1) Formal accuser Jacob le Heu claimed to be bewitched by accused's food; (2) Multiple witnesses testified to husband's long affair with accused; (3) Accused made vigorous defense, counter-accusing many witnesses of sexual misconduct, theft, and other crimes; (4) Both parents previously suspected as witches and forced to leave town; (5) Death of second husband André Gerardin highly suspicious (died 2-3 days after she said he wouldn't be portier much longer); (6) Accused practiced healing with grease (olive oil, stag lard, brandy); (7) Economic status: previously poor but acquired 600 francs to buy house, claimed as vivandiere earnings; (8) Military context pervasive throughout trial; (9) Accused had episodes of 'mal caducque' (epilepsy); (10) Multiple carting disputes with economic overtones. Missing pages noted in original document. No evidence of torture application despite draft questions prepared. Outcome unknown - trial appears incomplete.",
+    "pdf_pages": 15
+  }
+}

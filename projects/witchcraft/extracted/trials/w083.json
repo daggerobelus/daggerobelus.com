@@ -3,6 +3,14 @@
   "archive_ref": "B 4500 no 1",
   "location": "St. Prancher",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "PG des Vosges",
+    "person_id": null,
+    "occupation": "procureur général",
+    "location": "Vosges",
+    "relationship_to_accused": "official prosecutor"
+  },
   "dates": {
     "start": "1586-05-06",
     "end": "1586-08-09",
@@ -12,10 +20,17 @@
   "accused": [
     {
       "name": "Jean Aulbry",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "age_approximate": true,
-      "occupation": ["weaver", "agricultural laborer"],
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
+      "occupation": [
+        "weaver",
+        "agricultural laborer"
+      ],
       "origin": "St. Prancher",
       "residence": "St. Prancher",
       "marital_status": "married",
@@ -35,10 +50,22 @@
     },
     {
       "name": "Claudin Aulbry",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
-      "occupation": ["weaver", "retondeur", "laboureur", "herdsman"],
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "touch_healing",
+        "veterinary"
+      ],
+      "occupation": [
+        "weaver",
+        "retondeur",
+        "laboureur",
+        "herdsman"
+      ],
       "origin": "St. Prancher",
       "residence": "St. Prancher",
       "marital_status": "married",
@@ -61,6 +88,7 @@
     {
       "number": 1,
       "name": "Didier Pierrot",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "age_approximate": true,
@@ -98,6 +126,7 @@
     {
       "number": 2,
       "name": "Jean Collon",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -139,7 +168,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 4,
@@ -167,7 +197,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -196,7 +227,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -215,7 +247,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -251,7 +284,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -285,7 +319,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -312,7 +347,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 10,
@@ -339,7 +375,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -390,7 +427,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -418,7 +456,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 13,
@@ -438,7 +477,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -457,7 +497,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -492,7 +533,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -511,7 +553,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -530,7 +573,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -558,7 +602,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -578,7 +623,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -605,7 +651,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 21,
@@ -624,7 +671,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 22,
@@ -651,7 +699,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 23,
@@ -680,7 +729,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 24,
@@ -707,7 +757,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 25,
@@ -735,7 +786,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 26,
@@ -754,7 +806,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 27,
@@ -790,7 +843,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 28,
@@ -809,7 +863,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 29,
@@ -837,7 +892,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 30,
@@ -856,7 +912,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 31,
@@ -875,7 +932,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 32,
@@ -894,7 +952,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 33,
@@ -913,7 +972,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 34,
@@ -942,7 +1002,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 35,
@@ -961,7 +1022,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -1040,7 +1102,11 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["rack", "water torture", "strappado with 40 pound weight"],
+    "methods": [
+      "rack",
+      "water torture",
+      "strappado with 40 pound weight"
+    ],
     "requesting_official": "PG des Vosges",
     "approving_court": "Change de Nancy",
     "restrictions": ""
@@ -1988,8 +2054,13 @@
     "accused_sought_redress": false,
     "redress_outcome": "",
     "imprisonment_conditions": "Guarded in house of Andreu Jacquinot by five men; mysterious spirit visit with three loud knocks at midnight",
-    "appeal_to_change_de_nancy": true,
-    "property_confiscation_mentioned": true
+    "property_confiscation_mentioned": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Changed from execution to banishment ('renvoyé jusqu'au rappel'); ordered to conduct himself modestly",
+      "local_court_followed": false
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 25,
@@ -2023,10 +2094,23 @@
     ],
     "oldest_accusation_years": 40,
     "corroboration_groups": [
-      [11, 12, 13],
-      [8, 9],
-      [7, 15],
-      [24, 25]
+      [
+        11,
+        12,
+        13
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        24,
+        25
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -2056,126 +2140,144 @@
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "father of both accused",
       "relationship_to_witness": "various",
-      "context": "Father of accused, had reputation as witch, allegedly killed witness's father and bewitched Didier Pierrot's mother"
+      "context": "Father of accused, had reputation as witch, allegedly killed witness's father and bewitched Didier Pierrot's mother",
+      "person_id": null
     },
     {
       "name": "Jean Braconnier",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow suspected witch",
       "relationship_to_witness": "none",
-      "context": "Executed witch from Delaucourt 5 years before; Claudin present at execution; incident at well after execution when someone wished he had accused all witches including Claudin"
+      "context": "Executed witch from Delaucourt 5 years before; Claudin present at execution; incident at well after execution when someone wished he had accused all witches including Claudin",
+      "person_id": null
     },
     {
       "name": "Mengin Viriot",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "specialized in curing horses",
-      "context": "Specialist in curing horses, told Claude Marsellot her horse was hopeless"
+      "context": "Specialist in curing horses, told Claude Marsellot her horse was hopeless",
+      "person_id": null
     },
     {
       "name": "Toussainct Aulbry",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother of Jean",
       "relationship_to_witness": "none",
-      "context": "Another brother, Jean lived with him in Metz"
+      "context": "Another brother, Jean lived with him in Metz",
+      "person_id": null
     },
     {
       "name": "Francois Verrier",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "Claudin's master",
       "relationship_to_witness": "none",
-      "context": "Of Mirecourt, taught Claudin trade of retondeur"
+      "context": "Of Mirecourt, taught Claudin trade of retondeur",
+      "person_id": null
     },
     {
       "name": "Mongenot Gerel",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father-in-law of Claudin",
       "relationship_to_witness": "none",
-      "context": "Father of Claudin's wife Ysabel, from Dompmartin"
+      "context": "Father of Claudin's wife Ysabel, from Dompmartin",
+      "person_id": null
     },
     {
       "name": "Alix Goyon",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife of Jean",
       "relationship_to_witness": "none",
-      "context": "Jean's wife from Repel"
+      "context": "Jean's wife from Repel",
+      "person_id": null
     },
     {
       "name": "Demenge Guenot",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "creditor",
       "relationship_to_witness": "creditor to Viriot Petit Jean who stood guarantor",
-      "context": "Of Giecourt, lent 72 francs to Jean"
+      "context": "Of Giecourt, lent 72 francs to Jean",
+      "person_id": null
     },
     {
       "name": "Didier Didellot",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "uncle of Claudotte",
-      "context": "Uncle at Genaincourt who cared for Claudotte when she was ill"
+      "context": "Uncle at Genaincourt who cared for Claudotte when she was ill",
+      "person_id": null
     },
     {
       "name": "Claude Husson",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "intermediary in foal incident",
-      "context": "Alerted Claudin about Mongin Viriot's sick foal and threats"
+      "context": "Alerted Claudin about Mongin Viriot's sick foal and threats",
+      "person_id": null
     },
     {
       "name": "late wife of Pancras Vincenot",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "relationship_to_witness": "wife of mayor",
-      "context": "Had called father Bastien Aulbry a witch more than 20 years before"
+      "context": "Had called father Bastien Aulbry a witch more than 20 years before",
+      "person_id": null
     },
     {
       "name": "son of Jean Petit Jean",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "son of witness 8",
-      "context": "Was ploughing with Jean Collon as his associé when Claudin touched horse"
+      "context": "Was ploughing with Jean Collon as his associé when Claudin touched horse",
+      "person_id": null
     },
     {
       "name": "Ysabeau wife of Claudin",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife of Claudin",
       "relationship_to_witness": "none",
-      "context": "Interrogated about calf, defended husband, said never saw him have anything to do with witchcraft"
+      "context": "Interrogated about calf, defended husband, said never saw him have anything to do with witchcraft",
+      "person_id": null
     },
     {
       "name": "children of Claudin",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "relationship_to_witness": "none",
-      "context": "Called 'genots' by children of Jean Vincenot; Jean mentioned needing to feed his children"
+      "context": "Called 'genots' by children of Jean Vincenot; Jean mentioned needing to feed his children",
+      "person_id": null
     },
     {
       "name": "chambermaid of Mongin Variot",
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none",
       "relationship_to_witness": "servant of witness 11",
-      "context": "Told Mongin that Claudin had been threatening about the hay"
+      "context": "Told Mongin that Claudin had been threatening about the hay",
+      "person_id": null
     },
     {
       "name": "man who cut up calf",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "butcher",
-      "context": "Told Jean Vincenot he had never seen calf with side so damaged"
+      "context": "Told Jean Vincenot he had never seen calf with side so damaged",
+      "person_id": null
     },
     {
       "name": "five guards",
       "role_in_narrative": "official",
       "relationship_to_accused": "guards",
       "relationship_to_witness": "none",
-      "context": "Guarding brothers in house of Andreu Jacquinot when spirit visit occurred"
+      "context": "Guarding brothers in house of Andreu Jacquinot when spirit visit occurred",
+      "person_id": null
     },
     {
       "name": "devin at Blainville",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "healer consulted",
-      "context": "Consulted by Didier Pierrot's mother, made pilgrimage to St. Genot on her behalf"
+      "context": "Consulted by Didier Pierrot's mother, made pilgrimage to St. Genot on her behalf",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

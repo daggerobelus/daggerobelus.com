@@ -3,6 +3,8 @@
   "archive_ref": "B 8281 no 2",
   "location": "Vilcey-sur-Trey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1597-09-10",
     "end": "1600-05-02",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Margueritte veuve Claudin Hierosme",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "veterinary", "other"],
       "occupation": ["healer", "charcoal seller"],
       "origin": null,
       "residence": "Vilcey-sur-Trey",
@@ -47,6 +53,7 @@
     {
       "number": 1,
       "name": "Zacharye Ragot",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "jadis maire",
@@ -76,6 +83,7 @@
     {
       "number": 2,
       "name": "Didier Maurice",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "laboureur",
@@ -97,6 +105,7 @@
     {
       "number": 3,
       "name": "Laurent Pasquin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -126,6 +135,7 @@
     {
       "number": 4,
       "name": "Laurent Collon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -155,6 +165,7 @@
     {
       "number": 5,
       "name": "Cathin femme Robinet Ganard",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -191,6 +202,7 @@
     {
       "number": 6,
       "name": "Blaisotte veuve Pierron Gaignon",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -220,6 +232,7 @@
     {
       "number": 7,
       "name": "Pierron Fillotte",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -249,6 +262,7 @@
     {
       "number": 8,
       "name": "Coinctine femme Gerard Rouyer",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -278,6 +292,7 @@
     {
       "number": 9,
       "name": "Pasquin Vyon",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "manouvrier",
@@ -307,6 +322,7 @@
     {
       "number": 10,
       "name": "Martin Jeaugente",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "maire de Vilcey",
@@ -336,6 +352,7 @@
     {
       "number": 11,
       "name": "Claudin Humbert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier",
@@ -884,7 +901,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "She requested a certification when renouncing her citizenship and village rights, but was told that if she wanted one it would be according to her reputation, and that her deeds were the cause of her troubles. She then said she preferred not to have one.",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -910,6 +932,7 @@
   "third_parties": [
     {
       "name": "Marie",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -917,6 +940,7 @@
     },
     {
       "name": "Collas Hierosme",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law",
       "relationship_to_witness": null,
@@ -924,6 +948,7 @@
     },
     {
       "name": "Claudin Hierosme",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "relationship_to_witness": null,
@@ -931,6 +956,7 @@
     },
     {
       "name": "Jean",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness Didier Maurice",
@@ -938,6 +964,7 @@
     },
     {
       "name": "Barbe",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness #6, wife of witness #7, daughter-in-law of witness #8",
@@ -945,6 +972,7 @@
     },
     {
       "name": "Jennon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness Cathin femme Robinet Ganard",
@@ -952,6 +980,7 @@
     },
     {
       "name": "Mre Guillaume",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

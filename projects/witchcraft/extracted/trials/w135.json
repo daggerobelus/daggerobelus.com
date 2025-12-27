@@ -3,6 +3,14 @@
   "archive_ref": "B 8535 no 3",
   "location": "Rozieres",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Ydatte Vaultrin veuve Demenge le Moyne",
+    "person_id": null,
+    "occupation": "",
+    "location": "Rozieres",
+    "relationship_to_accused": "accuser and alleged sabbat accomplice"
+  },
   "dates": {
     "start": "1603-12-18",
     "end": "1604-02-09",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Zabel Tozel",
+      "person_id": null,
       "gender": "female",
       "age": 48,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": [],
       "origin": "Rozieres",
       "residence": "Rozieres",
@@ -55,6 +67,7 @@
     {
       "number": 1,
       "name": "Jacquatte femme Francois Atiatte",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Rozieres",
@@ -80,6 +93,7 @@
     {
       "number": 2,
       "name": "Martin Cugnin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "couturier (tailor)",
@@ -106,6 +120,7 @@
     {
       "number": 3,
       "name": "Chenne femme Martin Cugnin",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "location": "Rozieres",
@@ -131,6 +146,7 @@
     {
       "number": 4,
       "name": "Claude Micquel",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "location": "Rozieres",
@@ -162,6 +178,7 @@
     {
       "number": 5,
       "name": "Barbeline femme Claude Micquel",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Rozieres",
@@ -194,6 +211,7 @@
     {
       "number": 6,
       "name": "Jehenne femme Estienne Haxaire",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "location": "Rozieres",
@@ -226,6 +244,7 @@
     {
       "number": 7,
       "name": "Estienne Haxaire",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "location": "Rozieres",
@@ -242,6 +261,7 @@
     {
       "number": 8,
       "name": "Annon femme Mengin Regnault le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Rozieres",
@@ -746,7 +766,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Held in 'fond de fosse' (bottom of pit/dungeon) with Jean Lonard who heard mysterious scratchings on 3 or 4 consecutive nights while she was muttering",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -789,66 +814,77 @@
   "third_parties": [
     {
       "name": "Ydatte Vaultrin veuve Demenge le Moyne",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser and alleged sabbat accomplice",
       "context": "Initially accused Zabel on December 18, 1603; later named by Zabel as sabbat accomplice"
     },
     {
       "name": "Mengin Lamourou",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow accused who named her",
       "context": "Had confessed to witchcraft and claimed to have seen Zabel at sabbat; she called him a wicked man"
     },
     {
       "name": "Catherine Bernel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "made soup for wife of Claude Micquel",
       "context": "Made soup that Zabel told the sick woman not to eat"
     },
     {
       "name": "wife of Jean Vosgien marchal",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "thought Zabel killed her child",
       "context": "Spread reputation of Zabel as witch; moved to Vilacourt because of this belief"
     },
     {
       "name": "Jean Vosgien",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "marchal (blacksmith)",
       "context": "Husband of woman who accused Zabel of killing her child"
     },
     {
       "name": "Baliatte la Cresseniere",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "commere (godmother)",
       "context": "Already burned as witch; Zabel obtained herbs from her for making 'estuve'"
     },
     {
       "name": "Jean Lonard jeune fils",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "fellow prisoner",
       "context": "From Bar-le-Duc, in prison for stealing from a purse; held in fond de fosse with Zabel; testified about hearing mysterious scratchings and muttering"
     },
     {
       "name": "Francois Atiatte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "husband of witness 1",
       "context": "Husband of Jacquatte"
     },
     {
       "name": "Demenge le Moyne",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "deceased husband of Ydatte Vaultrin",
       "context": "Ydatte was his widow"
     },
     {
       "name": "Claudon Aubert",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "deceased husband of Catherine",
       "context": "Catherine was his widow; she was named as sabbat accomplice"
     },
     {
       "name": "Olry Go",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "From Housseville, married to Zabel for 22 years; called her witch in the vines which allegedly triggered her seduction by devil"

@@ -3,6 +3,14 @@
   "archive_ref": "B 2584",
   "location": "Val de Ramonchamp",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": {
+    "name": "Substitut of Arches",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Arches",
+    "relationship_to_accused": "prosecuting authority (ex officio, not partie formelle)"
+  },
   "dates": {
     "start": "1625-02-08",
     "end": "1625-04-28",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Anthoine Grevillon",
+      "person_id": null,
       "gender": "male",
       "age": 76,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "charms_amulets", "divination", "midwifery"],
       "occupation": ["mercier", "medecin", "healer"],
       "origin": "Melet in Burgundy",
       "residence": "Orbey in Allemaigne",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Jean Thiebauld Grand Claude dit Honin",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -682,7 +695,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "79 days in prison at cost of 2 gros per day (total 13 francs 2 gros)",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "11 April 1625: Change de Nancy approved torture request. 24 April 1625: Change de Nancy approved death sentence but disallowed further torture requested by PG des Vosges to obtain accomplice names.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -734,6 +752,7 @@
   "third_parties": [
     {
       "name": "wife of Delat Godel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient",
       "relationship_to_witness": "sent witness to fetch healer",
@@ -741,6 +760,7 @@
     },
     {
       "name": "Delat Godel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "client",
       "relationship_to_witness": null,
@@ -748,6 +768,7 @@
     },
     {
       "name": "daughter of Michel Bagrel (femme Martin Parmentier)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient",
       "relationship_to_witness": null,
@@ -755,6 +776,7 @@
     },
     {
       "name": "Michel Bagrel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "client",
       "relationship_to_witness": null,
@@ -762,6 +784,7 @@
     },
     {
       "name": "Martin Parmentier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -769,6 +792,7 @@
     },
     {
       "name": "servant of Bagrel (Burgundian)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -776,6 +800,7 @@
     },
     {
       "name": "Nicolas Lambolez",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "client/customer",
       "relationship_to_witness": null,
@@ -783,6 +808,7 @@
     },
     {
       "name": "Beurand",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -790,6 +816,7 @@
     },
     {
       "name": "Perry Fondault",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "sold him familiar spirit",
       "relationship_to_witness": null,
@@ -797,6 +824,7 @@
     },
     {
       "name": "Perrin Sadoul",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "business associate",
       "relationship_to_witness": null,
@@ -804,6 +832,7 @@
     },
     {
       "name": "le Gauchier",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "former master",
       "relationship_to_witness": null,
@@ -811,6 +840,7 @@
     },
     {
       "name": "doctor of Spire",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "alleged former master",
       "relationship_to_witness": null,
@@ -818,6 +848,7 @@
     },
     {
       "name": "German/allemant of Sernay",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "companion in ritual",
       "relationship_to_witness": null,
@@ -825,6 +856,7 @@
     },
     {
       "name": "André Valdenaire",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "acquaintance",
       "relationship_to_witness": null,
@@ -832,6 +864,7 @@
     },
     {
       "name": "fils Colas le Moictrier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -839,6 +872,7 @@
     },
     {
       "name": "Royne de la Gotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -846,6 +880,7 @@
     },
     {
       "name": "woman in labor at Sernay",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient",
       "relationship_to_witness": null,
@@ -853,6 +888,7 @@
     },
     {
       "name": "André Ferry",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -860,6 +896,7 @@
     },
     {
       "name": "servants at Godel's house",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -867,6 +904,7 @@
     },
     {
       "name": "unnamed woman at val de Ramonchamp",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

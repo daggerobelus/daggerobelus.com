@@ -3,18 +3,24 @@
   "archive_ref": "B 2199 no 4",
   "location": "Amance",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1616-02-04",
     "end": "1616-03-17",
     "duration_days": 41
   },
   "outcome": "death",
+  "formal_accuser": null,
   "accused": [
     {
       "name": "Mariette veuve Claude Malfourby",
+      "person_id": null,
       "gender": "female",
       "age": 66,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["mill worker", "day laborer"],
       "origin": "Warbach",
       "residence": "Amance",
@@ -50,6 +56,7 @@
     {
       "number": 1,
       "name": "Claude Ferquel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -79,6 +86,7 @@
     {
       "number": 2,
       "name": "Jeanne femme Claude Ferquel",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -108,6 +116,7 @@
     {
       "number": 3,
       "name": "Mongeatte femme Drowat Thiebault",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -129,6 +138,7 @@
     {
       "number": 4,
       "name": "Drowat Thiebault",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -150,6 +160,7 @@
     {
       "number": 5,
       "name": "Izabel veuve Didier Barizien",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -171,6 +182,7 @@
     {
       "number": 6,
       "name": "Margueritte femme Daniel Houin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -200,6 +212,7 @@
     {
       "number": 7,
       "name": "Melchior Bryant",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "portier",
@@ -229,6 +242,7 @@
     {
       "number": 8,
       "name": "Philippe femme Melchior Bryant",
+      "person_id": null,
       "gender": "female",
       "age": 42,
       "occupation": null,
@@ -258,6 +272,7 @@
     {
       "number": 9,
       "name": "Bietrix femme François Thierion",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -287,6 +302,7 @@
     {
       "number": 10,
       "name": "Claudin Caillatte",
+      "person_id": null,
       "gender": "male",
       "age": 75,
       "occupation": "vigneron",
@@ -308,6 +324,7 @@
     {
       "number": 11,
       "name": "Demenge Mengeot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "vigneron",
@@ -344,6 +361,7 @@
     {
       "number": 12,
       "name": "Catherine femme Demenge Mengeot",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -1082,7 +1100,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Goaler informed judges when she wanted to confess",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "First torture approved with moderation suitable to her age (24 Feb 1616); requested renewed torture about malefices and accomplices (12 March 1616); approved death sentence (15 March 1616)",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1163,6 +1186,7 @@
   "third_parties": [
     {
       "name": "la Vilaume",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow accused who named Mariette",
       "relationship_to_witness": null,
@@ -1170,6 +1194,7 @@
     },
     {
       "name": "Nicolas Martin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law",
       "relationship_to_witness": "source of hearsay for multiple witnesses",
@@ -1177,6 +1202,7 @@
     },
     {
       "name": "Pieron Boulengier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "suspected her of stealing flour",
       "relationship_to_witness": "father of witness 6",
@@ -1184,6 +1210,7 @@
     },
     {
       "name": "sieur Dattel",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "master of Claude and Jeanne Ferquel",
@@ -1191,6 +1218,7 @@
     },
     {
       "name": "la Bariziere",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "acquaintance",
       "relationship_to_witness": "informant to witnesses",
@@ -1198,6 +1226,7 @@
     },
     {
       "name": "Claude Tisselat dit Malfourby",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "relationship_to_witness": "uncle of Philippe femme Melchior Bryant",
@@ -1205,6 +1234,7 @@
     },
     {
       "name": "Mariette's father",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
@@ -1212,6 +1242,7 @@
     },
     {
       "name": "Mariette's mother",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1219,6 +1250,7 @@
     },
     {
       "name": "Mariette's grandmother",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "grandmother",
       "relationship_to_witness": null,
@@ -1226,6 +1258,7 @@
     },
     {
       "name": "Mariette's sister",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1233,6 +1266,7 @@
     },
     {
       "name": "Claude Gerard",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law",
       "relationship_to_witness": null,
@@ -1240,6 +1274,7 @@
     },
     {
       "name": "Bastien Conta",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1247,6 +1282,7 @@
     },
     {
       "name": "tante Barbe femme Bastien Conta",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1254,6 +1290,7 @@
     },
     {
       "name": "Daughter of Mariette",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1261,6 +1298,7 @@
     },
     {
       "name": "Grandson of Mariette",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "grandson",
       "relationship_to_witness": null,
@@ -1268,6 +1306,7 @@
     },
     {
       "name": "M. du Tillon",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "lord/employer of Demenge Mengeot",
@@ -1275,6 +1314,7 @@
     },
     {
       "name": "Daughter aged 9 of Demenge Mengeot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 11",
@@ -1282,6 +1322,7 @@
     },
     {
       "name": "Daughter aged 3 of Demenge Mengeot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 11",
@@ -1289,6 +1330,7 @@
     },
     {
       "name": "Persy (devil)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master",
       "relationship_to_witness": null,
@@ -1296,6 +1338,7 @@
     },
     {
       "name": "2 women already executed (unnamed)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplices",
       "relationship_to_witness": null,
@@ -1303,6 +1346,7 @@
     },
     {
       "name": "Miller's son",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

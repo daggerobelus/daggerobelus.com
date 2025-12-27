@@ -3,6 +3,14 @@
   "archive_ref": "B 7314 no 2",
   "location": "Ambacourt",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "PG des Vosges (Procureur Général)",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Vosges",
+    "relationship_to_accused": "none - official prosecution"
+  },
   "dates": {
     "start": "1624-07-10",
     "end": "1624-08-07",
@@ -12,10 +20,19 @@
   "accused": [
     {
       "name": "Margueritte veuve Barthelemin Liegey",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
-      "occupation": ["beggar"],
+      "occupation": [
+        "beggar"
+      ],
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": [
+        "touch_healing",
+        "other"
+      ],
       "origin": null,
       "residence": "Ambacourt",
       "marital_status": "widowed",
@@ -56,6 +73,7 @@
     {
       "number": 1,
       "name": "Didier Drouat",
+      "person_id": null,
       "gender": "male",
       "age": 31,
       "occupation": null,
@@ -92,6 +110,7 @@
     {
       "number": 2,
       "name": "Anne Marchal, veuve Mre Jean Chasquin, femme Jean Merlin",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -128,6 +147,7 @@
     {
       "number": 3,
       "name": "Colin Grandidier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -149,6 +169,7 @@
     {
       "number": 4,
       "name": "Demenge Cuinin le Bourdier et cordonnier",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "bourdier (staff maker?) and shoemaker",
@@ -170,6 +191,7 @@
     {
       "number": 5,
       "name": "Didon fille Jean Saulnier",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": null,
@@ -206,6 +228,7 @@
     {
       "number": 6,
       "name": "Philippe du Hault",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "mayor",
@@ -226,6 +249,7 @@
     },
     {
       "number": 7,
+      "person_id": null,
       "name": "Claudon femme Didier Drouot",
       "gender": "female",
       "age": 32,
@@ -262,6 +286,7 @@
     },
     {
       "number": 8,
+      "person_id": null,
       "name": "Jean Grandidier, charpentier",
       "gender": "male",
       "age": 45,
@@ -283,6 +308,7 @@
     },
     {
       "number": 9,
+      "person_id": null,
       "name": "Jean Vuillemin, dit Saulnier",
       "gender": "male",
       "age": 70,
@@ -312,6 +338,7 @@
     },
     {
       "number": 10,
+      "person_id": null,
       "name": "Claude du Hault",
       "gender": "male",
       "age": 32,
@@ -341,6 +368,7 @@
     },
     {
       "number": 11,
+      "person_id": null,
       "name": "Jean Petit Jean",
       "gender": "male",
       "age": 40,
@@ -362,6 +390,7 @@
     },
     {
       "number": 12,
+      "person_id": null,
       "name": "Joseph serviteur a Philippe du Hault",
       "gender": "male",
       "age": 22,
@@ -391,6 +420,7 @@
     },
     {
       "number": 13,
+      "person_id": null,
       "name": "Jehenne femme Jean Grandidier",
       "gender": "female",
       "age": 40,
@@ -420,6 +450,7 @@
     },
     {
       "number": 14,
+      "person_id": null,
       "name": "Demenge Saulnier",
       "gender": "male",
       "age": 50,
@@ -449,6 +480,7 @@
     },
     {
       "number": 15,
+      "person_id": null,
       "name": "Pieron Petit Jean",
       "gender": "male",
       "age": 60,
@@ -470,6 +502,7 @@
     },
     {
       "number": 16,
+      "person_id": null,
       "name": "Jean George, laboureur de Puysieux",
       "gender": "male",
       "age": 60,
@@ -499,6 +532,7 @@
     },
     {
       "number": 17,
+      "person_id": null,
       "name": "Mainne femme Didier Mongenot, de Bralleville",
       "gender": "female",
       "age": 40,
@@ -528,6 +562,7 @@
     },
     {
       "number": 18,
+      "person_id": null,
       "name": "Humbert Journel le jeune, de Hergugney",
       "gender": "male",
       "age": 23,
@@ -557,6 +592,7 @@
     },
     {
       "number": 19,
+      "person_id": null,
       "name": "Claudon femme Gerard Tisselot, de Hergugney",
       "gender": "female",
       "age": 22,
@@ -1370,7 +1406,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture on July 26, 1624; Asked on August 5 that before deciding on further action she be asked whether she actually renounced God, and how",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1415,9 +1456,19 @@
     ],
     "oldest_accusation_years": 20,
     "corroboration_groups": [
-      [5, 9],
-      [1, 7],
-      [8, 11, 17]
+      [
+        5,
+        9
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        11,
+        17
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1437,6 +1488,7 @@
   "third_parties": [
     {
       "name": "la Geline (nickname for Margueritte)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "same person",
       "relationship_to_witness": null,
@@ -1444,6 +1496,7 @@
     },
     {
       "name": "Claudon Mathieu",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "present when accused spoke to Didier Drouat",
@@ -1451,6 +1504,7 @@
     },
     {
       "name": "Pierot Cugnin/Cuinin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law",
       "relationship_to_witness": "debtor to witnesses 1 and 2",
@@ -1458,6 +1512,7 @@
     },
     {
       "name": "Lucye",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1465,6 +1520,7 @@
     },
     {
       "name": "Jean Chasquin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "first husband of witness 2; mentioned by witness 3",
@@ -1472,6 +1528,7 @@
     },
     {
       "name": "sister of Anne Marchal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 2",
@@ -1479,6 +1536,7 @@
     },
     {
       "name": "Jean George of Bujieux/Puzieux",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "mentioned by witness 3; testified as witness 16",
@@ -1486,6 +1544,7 @@
     },
     {
       "name": "Grand Humbert of Hergugney",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "told story to witness 8",
@@ -1493,6 +1552,7 @@
     },
     {
       "name": "Jean Friant le viel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "told witness 8 about incident",
@@ -1500,6 +1560,7 @@
     },
     {
       "name": "Phillebert Renault",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of afflicted son",
@@ -1507,6 +1568,7 @@
     },
     {
       "name": "Marie/Manne, femme Didier Mengenot of Bralleville",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "cousin of witness 11; niece of witness 15; testified as witness 17",
@@ -1514,6 +1576,7 @@
     },
     {
       "name": "Claude (wife of Jean George)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 16",
@@ -1521,6 +1584,7 @@
     },
     {
       "name": "wife of Humbert Journel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 18",
@@ -1528,6 +1592,7 @@
     },
     {
       "name": "Bartremin/Barthelemin Liegey",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "relationship_to_witness": null,
@@ -1535,6 +1600,7 @@
     },
     {
       "name": "drowned child of Margueritte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased child",
       "relationship_to_witness": null,
@@ -1542,6 +1608,7 @@
     },
     {
       "name": "Persy (devil/master)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil who seduced her",
       "relationship_to_witness": null,
@@ -1549,6 +1616,7 @@
     },
     {
       "name": "son of Grand Humbert of Hergugney",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1556,6 +1624,7 @@
     },
     {
       "name": "Demenge George of Puzieux",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "possibly same as Jean George",
@@ -1563,6 +1632,7 @@
     },
     {
       "name": "Margueritte Poirson",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "possibly confused identity",
       "relationship_to_witness": null,

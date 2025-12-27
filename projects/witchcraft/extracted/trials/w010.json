@@ -3,6 +3,8 @@
   "archive_ref": "B 2203 no 2",
   "location": "Champegnoult",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1618-05-02",
     "end": "1618-06-07",
@@ -12,10 +14,14 @@
   "accused": [
     {
       "name": "Jean Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "age_approximate": true,
       "occupation": ["couturier"],
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "origin": null,
       "residence": "Champegnoult",
       "marital_status": "married",
@@ -50,6 +56,7 @@
     {
       "number": 1,
       "name": "Martin Bourdon",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "laboureur",
@@ -79,6 +86,7 @@
     {
       "number": 2,
       "name": "Nicolas Boucher",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -100,6 +108,7 @@
     {
       "number": 3,
       "name": "Noel Warin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "manoeuvrier",
@@ -121,6 +130,7 @@
     {
       "number": 4,
       "name": "Epne Thouvenin",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": "jeune fils",
@@ -150,6 +160,7 @@
     {
       "number": 5,
       "name": "Nicolas Warin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manoeuvrier",
@@ -179,6 +190,7 @@
     {
       "number": 6,
       "name": "Mathiat Play Cesson",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -208,6 +220,7 @@
     {
       "number": 7,
       "name": "Françoise femme a Demenge Mauffrois",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": null,
@@ -229,6 +242,7 @@
     {
       "number": 8,
       "name": "Demenge Perey",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "occupation": "jeune fils",
@@ -250,6 +264,7 @@
     {
       "number": 9,
       "name": "Zabillon femme a Mathiat Play Cesson",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -271,6 +286,7 @@
     {
       "number": 10,
       "name": "Jacques Doyen",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -300,6 +316,7 @@
     {
       "number": 12,
       "name": "Laurent Mathieu",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "laboureur",
@@ -321,6 +338,7 @@
     {
       "number": 13,
       "name": "Bastien Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -350,6 +368,7 @@
     {
       "number": 14,
       "name": "Dion femme a Colas Mathiat",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": null,
@@ -379,6 +398,7 @@
     {
       "number": 15,
       "name": "Margueritte veuve de Demenge Gatton",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": null,
@@ -903,7 +923,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -936,6 +961,7 @@
   "third_parties": [
     {
       "name": "Bastien (paistre at Herbeviller)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "source for Nicolas Warin (witness 5)",
@@ -943,6 +969,7 @@
     },
     {
       "name": "Mre Francois Marchal",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -950,6 +977,7 @@
     },
     {
       "name": "Collan Thouvelin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member who refused to cart wood",
       "relationship_to_witness": null,
@@ -957,6 +985,7 @@
     },
     {
       "name": "Claudon Pierson",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "in-law (wife's brother's wife as second husband)",
       "relationship_to_witness": "mother of Bastien Pierson (witness 13); sister-in-law of Margueritte (witness 15)",
@@ -964,6 +993,7 @@
     },
     {
       "name": "Jean Parmentier's mother",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,

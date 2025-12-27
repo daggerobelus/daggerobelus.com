@@ -3,6 +3,14 @@
   "archive_ref": "B 3323 no 7",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Margueritte veuve Demenge Vaultrin (la Jobarde)",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": "prior accused witch who named Didier"
+  },
   "dates": {
     "start": "1602-05-30",
     "end": "1602-07-13",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Didier femme Nicolas le Vefue le Viel",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "charms_amulets", "divination"],
       "occupation": ["healer"],
       "origin": "Leintrey",
       "residence": "Leintrey",
@@ -55,6 +67,7 @@
     {
       "number": 1,
       "name": "Jennon femme Nicolas Colin",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -76,6 +89,7 @@
     {
       "number": 2,
       "name": "Catherine femme Claudon Thomas",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -97,6 +111,7 @@
     {
       "number": 3,
       "name": "Pierson Nicolle",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": "tixerand (weaver)",
@@ -126,6 +141,7 @@
     {
       "number": 4,
       "name": "Thouvenin Bergier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -147,6 +163,7 @@
     {
       "number": 5,
       "name": "Estienne Connot",
+      "person_id": null,
       "gender": "male",
       "age": 57,
       "occupation": null,
@@ -168,6 +185,7 @@
     {
       "number": 6,
       "name": "Claudon Thomas",
+      "person_id": null,
       "gender": "male",
       "age": 47,
       "occupation": "laboureur",
@@ -189,6 +207,7 @@
     {
       "number": 7,
       "name": "Jennon fille de feu la Grande Marye",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -225,6 +244,7 @@
     {
       "number": 8,
       "name": "Nicolas Geoffroy",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "maire",
@@ -246,6 +266,7 @@
     {
       "number": 9,
       "name": "Zabey femme Remy Grand Demenge",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "servant",
@@ -267,6 +288,7 @@
     {
       "number": 10,
       "name": "Margueritte femme Demenge Bon Claude",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -296,6 +318,7 @@
     {
       "number": 11,
       "name": "Hannix femme Demenge Martin",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -317,6 +340,7 @@
     {
       "number": 12,
       "name": "Zabel femme Claudon Ozenatte",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -338,6 +362,7 @@
     {
       "number": 13,
       "name": "Catherine femme Demenge Tocquart",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": null,
@@ -359,6 +384,7 @@
     {
       "number": 14,
       "name": "Jean Jobard",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": null,
@@ -380,6 +406,7 @@
     {
       "number": 15,
       "name": "Barbe veuve Jean Renard",
+      "person_id": null,
       "gender": "female",
       "age": 80,
       "occupation": null,
@@ -401,6 +428,7 @@
     {
       "number": 16,
       "name": "Colas Gadel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -1103,7 +1131,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Confessed to François Charier, sergent, while in prison",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture on 1 July 1602. When approving death sentence, asked for confirmation of confessions, which should have been obtained after gap of a day",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1157,6 +1190,7 @@
   "third_parties": [
     {
       "name": "Colas (son of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son (deceased)",
       "relationship_to_witness": "husband of witness 1; employer of witness 3",
@@ -1164,6 +1198,7 @@
     },
     {
       "name": "Nicolas le Vefue le Viel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": null,
@@ -1171,6 +1206,7 @@
     },
     {
       "name": "Nicolas (son/heir)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1178,6 +1214,7 @@
     },
     {
       "name": "Claude (son/heir)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1185,6 +1222,7 @@
     },
     {
       "name": "Jean Thomas",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": null,
@@ -1192,6 +1230,7 @@
     },
     {
       "name": "Barbelline wife of Grand Colas",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1199,6 +1238,7 @@
     },
     {
       "name": "Margueritte widow of Jean Thomas",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister-in-law (brother's widow)",
       "relationship_to_witness": "first wife of witness 16",
@@ -1206,6 +1246,7 @@
     },
     {
       "name": "daughter of Claudon Marchal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "niece of witness 7",
@@ -1213,6 +1254,7 @@
     },
     {
       "name": "daughter of Nicolas Geoffroy",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 8",
@@ -1220,6 +1262,7 @@
     },
     {
       "name": "Jean Thiebault (deceased)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1227,6 +1270,7 @@
     },
     {
       "name": "sergent at Blamont",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1234,6 +1278,7 @@
     },
     {
       "name": "reitres (soldiers)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "billeted in her house",
       "relationship_to_witness": null,
@@ -1241,6 +1286,7 @@
     },
     {
       "name": "Margueritte veuve Demenge Vaultrin (la Jobarde)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser; sabbat companion",
       "relationship_to_witness": null,
@@ -1248,6 +1294,7 @@
     },
     {
       "name": "Jenotte Thoussainct",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sabbat companion",
       "relationship_to_witness": null,
@@ -1255,6 +1302,7 @@
     },
     {
       "name": "Zabillon (mother of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1262,6 +1310,7 @@
     },
     {
       "name": "Persin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master",
       "relationship_to_witness": null,

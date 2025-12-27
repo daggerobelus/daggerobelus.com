@@ -3,6 +3,8 @@
   "archive_ref": "B 3755",
   "location": "Brouramont",
   "court": "Bruyères / Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1602-05-30",
     "end": "1602-10-09",
@@ -12,6 +14,7 @@
   "accused": [
     {
       "name": "Rollat Pivert",
+      "person_id": null,
       "gender": "male",
       "age": 75,
       "age_approximate": true,
@@ -20,6 +23,9 @@
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "Jannon Herdolby",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -37,6 +43,7 @@
     },
     {
       "name": "Jannon femme Rollat Pierat (Jannon Herdolby)",
+      "person_id": null,
       "gender": "female",
       "age": 72,
       "age_approximate": true,
@@ -45,6 +52,9 @@
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "Rollat Pivert",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -62,6 +72,7 @@
     },
     {
       "name": "George Pivert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -69,6 +80,9 @@
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "Margo",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Rollat Pivert",
         "mother": "Jannon Herdolby"
@@ -90,12 +104,16 @@
     },
     {
       "name": "Margo femme George Pierat",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": [],
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "George Pivert",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -112,6 +130,7 @@
     },
     {
       "name": "Demenge Pivert",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -119,6 +138,9 @@
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "Marion du Bois",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Rollat Pivert",
         "mother": "Jannon Herdolby"
@@ -139,6 +161,7 @@
     },
     {
       "name": "Marion femme Demenge Pierat (Marion du Bois)",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -147,6 +170,9 @@
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "Demenge Pivert",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Lienard Henry Gros George of Taintrux"
       },
@@ -157,6 +183,7 @@
     },
     {
       "name": "Jean Pierat",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -164,6 +191,9 @@
       "residence": "Brouramont",
       "marital_status": "married",
       "spouse_name": "Beniste from la Bolle",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Rollat Pivert",
         "mother": "Jannon Herdolby"
@@ -175,12 +205,16 @@
     },
     {
       "name": "George fils George Pivert (Georgel)",
+      "person_id": null,
       "gender": "male",
       "age": 11,
       "age_approximate": true,
       "occupation": ["keeping animals", "learning to play flute"],
       "residence": "Brouramont",
       "marital_status": "single",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "George Pivert",
         "mother": "Margo"
@@ -198,11 +232,15 @@
     },
     {
       "name": "Mongeotte fille Demenge Pivert",
+      "person_id": null,
       "gender": "female",
       "age": 9,
       "occupation": ["guarding animals/cows"],
       "residence": "Brouramont",
       "marital_status": "single",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Demenge Pivert",
         "mother": "Marion du Bois"
@@ -224,6 +262,7 @@
     {
       "number": 1,
       "name": "Nicolas Demenge le Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Brouramont",
@@ -250,6 +289,7 @@
     {
       "number": 2,
       "name": "Marion fille Nicolas Demenge le Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "location": "Brouramont",
@@ -264,6 +304,7 @@
     {
       "number": 2,
       "name": "Fleuratte soeur de Marion",
+      "person_id": null,
       "gender": "female",
       "age": 18,
       "location": "Brouramont",
@@ -278,6 +319,7 @@
     {
       "number": 3,
       "name": "Francoise femme Nicolas Jannel",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Taintrux",
@@ -1178,7 +1220,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Margo asked maire de la Coste for advice; he advised her to 'requerir partie formelle'",
     "imprisonment_conditions": "Mongeotte kept in prévôt's house because of her youth rather than regular prison. Six children supported while parents in prison.",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "13 July: Approved torture for Jennon and others, but specified Georgel to receive 3-4 lashes and only be threatened with rack, not actually racked. 3 August: Approved death sentence for Jennon (strangling then burning), whipping for Mongeotte and Georgel, others to be renvoyé. 9 September: Approved further torture for new charges. 25 September: Confirmed death sentences for Rollat and George. Later approved death for Demenge (strangling then burning).",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1249,65 +1296,77 @@
   "third_parties": [
     {
       "name": "Remy Richard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Was with Nicolas Demenge and George when George made threat"
     },
     {
       "name": "Colas de Brouramont",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Georgel claimed he made Mongeotte say stories about sabbat"
     },
     {
       "name": "Quirien Simonin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Person in bois de Mortagne to whom Jannon was taking cheeses"
     },
     {
       "name": "Collatte (servant)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "context": "Servant who fetched food and brought water at sabbat according to Mongeotte"
     },
     {
       "name": "Colas Jannel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Found snares; said Bagatte set them"
     },
     {
       "name": "Mengin le Maire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "context": "Rollat confessed to killing his cow in Chevry"
     },
     {
       "name": "Colin Richard of Chevry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "business relationship",
       "context": "Rollat confessed to killing him with powder in wine after dispute over ploughing"
     },
     {
       "name": "Colry le Cordonnier of Bruyères",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none stated",
       "context": "Jannon confessed to making him ill because he called her witch"
     },
     {
       "name": "Beniste wife of Jean",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter-in-law of Rollat and Jannon",
       "context": "Wife of Jean Pierat, from la Bolle, had one child"
     },
     {
       "name": "Wife of Nicolas Demenge (deceased)",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Margo saw apparition that might be her ghost; had masses said"
     },
     {
       "name": "Jean George's children by first marriage",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Often told Bagatte in quarrels that she went with devil"
     },
     {
       "name": "Executioner",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Whipped Georgel during interrogation"
     }

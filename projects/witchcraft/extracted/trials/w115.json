@@ -3,6 +3,14 @@
   "archive_ref": "B 7137 no 1",
   "location": "Villoncourt",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Dumenil",
+    "person_id": null,
+    "occupation": "PG des Vosges",
+    "location": "Vosges",
+    "relationship_to_accused": "none - official prosecution"
+  },
   "dates": {
     "start": "1625-06-23",
     "end": "1625-07-26",
@@ -23,6 +31,10 @@
       "parents": {
         "father": "Claudon Vuillemin"
       },
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "divination", "charms_amulets"],
+      "person_id": null,
       "confession": {
         "confessed": false,
         "under_torture": false,
@@ -40,6 +52,7 @@
       "gender": "male",
       "age": 45,
       "occupation": "locksmith",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -62,6 +75,7 @@
       "name": "Margueritte femme Georgeot Gerard Dol",
       "gender": "female",
       "age": 60,
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -84,6 +98,7 @@
       "name": "Claudon femme Claudon Borain",
       "gender": "female",
       "age": 25,
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -106,6 +121,7 @@
       "name": "Didon femme Didier Goudot",
       "gender": "female",
       "age": 50,
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -128,6 +144,7 @@
       "name": "Barbon femme Bastien Saulnier",
       "gender": "female",
       "age": 40,
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -145,6 +162,7 @@
       "age": 50,
       "location": "Mirecourt",
       "occupation": "bourgeois widow",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -169,6 +187,7 @@
       "age": 50,
       "location": "Mirecourt",
       "occupation": "draper's wife, bourgeois",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -193,6 +212,7 @@
       "age": 46,
       "location": "Mirecourt",
       "occupation": "blacksmith's widow",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -216,6 +236,7 @@
       "gender": "female",
       "age": 30,
       "location": "Mirecourt",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -240,6 +261,7 @@
       "age": 50,
       "location": "Mirecourt",
       "occupation": "draper's wife",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -264,6 +286,7 @@
       "age": 38,
       "location": "Mirecourt",
       "occupation": "bourgeois wife",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -287,6 +310,7 @@
       "gender": "female",
       "age": 33,
       "location": "Mirecourt",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -311,6 +335,7 @@
       "age": 80,
       "location": "Mirecourt",
       "occupation": "blacksmith's wife",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -334,6 +359,7 @@
       "gender": "female",
       "age": 44,
       "location": "Mirecourt",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -355,6 +381,7 @@
       "number": 15,
       "name": "Marie femme Demenge Lorrain",
       "gender": "female",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -379,6 +406,7 @@
       "age": 20,
       "occupation": "servant",
       "relationship_to_accused": "servant to witness 15's household",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -397,6 +425,7 @@
       "age": 55,
       "location": "Mirecourt",
       "occupation": "bourgeois widow",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -421,6 +450,7 @@
       "age": 50,
       "location": "Mirecourt",
       "occupation": "merchant bourgeois wife",
+      "person_id": null,
       "testimony": {
         "reputation_mentioned": false,
         "quarrel_mentioned": false,
@@ -1373,7 +1403,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "After recapture, surgeon advised life would be in danger if returned to prison due to injuries from escape, so she was put under guard of a woman near prison for 8 days",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "PG requested torture (question ordinaire) to investigate superstitions and possible witchcraft, but Change de Nancy rejected this and proceeded directly to sentence of whipping and perpetual banishment for superstitious actions, frauds and deceptions",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1406,12 +1441,14 @@
   "third_parties": [
     {
       "name": "Mme de Bouzellon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "context": "Jennon worked in her service for 6 years near Ramberviller; claimed she taught Jennon healing methods with ointments"
     },
     {
       "name": "Anne",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient",
       "relationship_to_witness": "daughter of witness 6",
@@ -1419,42 +1456,49 @@
     },
     {
       "name": "Jean Passans",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "host",
       "context": "Jennon was at his house when witness 6 consulted her; Jennon told his wife that one of his relatives wished her ill"
     },
     {
       "name": "Nicolas Lolbion, pasticier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "host",
       "context": "Jennon was at his house when witness 8 consulted her"
     },
     {
       "name": "Pierrot le Saulx",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "host",
       "context": "Jennon stayed at his house; multiple witnesses consulted her there; herbs found in his house; wife recommended Jennon to witness 11"
     },
     {
       "name": "Jean Ré of Nomexey",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "romantic partner/thief",
       "context": "Promised to marry Jennon and slept with her for 2 nights; she told Serrurier he was her brother; stole 2 écus from house; Jennon made chemises for him with cloth from witness 2"
     },
     {
       "name": "Jean Beurion",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient",
       "context": "His child at Porthsieux had bad leg requiring amputation; Jennon cured by drawing bone out with ointment"
     },
     {
       "name": "Demenge de Ville",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "client",
       "context": "Of Bazegney; came with horse to fetch Jennon at Christmas to treat his daughter's stomach complaint; she recovered"
     },
     {
       "name": "Jean Husson (dyer)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "host",
       "relationship_to_witness": "brother of witness 15",
@@ -1462,78 +1506,91 @@
     },
     {
       "name": "Genot",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "context": "Named by Jennon as witch who caused illness to witness 15 and to daughter of Jean Husson; Jennon called his name three times over cauldron"
     },
     {
       "name": "Anthoine Grevillon",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none",
       "context": "PG asked if Jennon knew him; she denied meeting him but knew he had been burned because Mre Nicolas told her"
     },
     {
       "name": "Mre Nicolas",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "acquaintance",
       "context": "Told Jennon that Grevillon had been burned"
     },
     {
       "name": "Nicolas Breton of Liepvre",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "context": "A doctor living at Ramberviller; hasty marriage over weekend; lived 5.5 years; had three sons who all died very young"
     },
     {
       "name": "Nicolas Vuillemin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "context": "Forester for duke at Tencey; Jennon's illegitimate son by unknown man lived with him"
     },
     {
       "name": "unknown man",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "father of illegitimate child",
       "context": "Promised to marry Jennon in presence of curé; never returned from pilgrimage to St Jacques; child born more than 3 years before trial"
     },
     {
       "name": "curé at Liepvre",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "none",
       "context": "Knew Jennon and Nicolas Breton were good people; allowed hasty marriage for 5 francs dispensing bans; witnessed promise of marriage from unknown man"
     },
     {
       "name": "curé at Mirecourt",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "opponent",
       "context": "Spoke to Jennon about treating witness 6's daughter, told her to retire discreetly, forbade treatment; forbade witness 7 from using crown of pimprenelle"
     },
     {
       "name": "curé of la Croix",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "none",
       "context": "Blessed chapelet, salt, bread and wine for witness 11; told her to take them over 9 day period"
     },
     {
       "name": "doctors, apothecaries, and surgeons",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "expert witnesses",
       "context": "Called in to judge whether herbs Jennon carried were genuine or counterfeit superstitious"
     },
     {
       "name": "surgeon (unnamed)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "none",
       "context": "Advised that Jennon's life would be in danger if returned to prison after recapture due to injuries"
     },
     {
       "name": "sergent and 2 men",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "captors",
       "context": "Searched for Jennon after escape; unsuccessful for 2 days; arrested her in village on third day and brought her back on cart"
     },
     {
       "name": "woman who lived near prison",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "guard",
       "context": "Jennon put under her guard for 8 days after recapture due to injuries"

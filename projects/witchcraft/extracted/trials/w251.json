@@ -1,0 +1,1377 @@
+{
+  "trial_id": "w251",
+  "archive_ref": "B 8704 no 1",
+  "location": "la Neuveville les Raon",
+  "language_region": "french",
+  "dates": {
+    "start": "1610-02-03",
+    "end": "1610-03-05",
+    "duration_days": 31
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Franceatte femme Nicolas Charier",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["midwifery"],
+      "occupation": ["midwife", "spinner"],
+      "origin": "la Chapelle",
+      "residence": "la Neuveville les Raon",
+      "marital_status": "married",
+      "spouse_name": "Nicolas Charier",
+      "parents": {
+        "father": "Jean Franceatte",
+        "mother": "Odille"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "Maitre Parsin",
+        "devil_appearance": "homme de moyen stature habillé de noir",
+        "seduction_date": "7 years before trial (c. 1603)",
+        "seduction_context": "Was extremely troubled and sad because her husband mistreated her and they were reduced to poverty. Behind their house, seized by evil thoughts, saw devil descend from a tree. He appeared three times before she yielded on the third occasion.",
+        "powder_types": ["black powder (to kill)", "red powder (to make languish)", "white powder (to cure)", "yellow powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing to minstrels", "eating small birds", "attempting to make hail (frustrated by church bells)"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "formal_accuser": {
+    "name": "Jennon veuve Jean Pieron",
+    "person_id": null,
+    "relationship_to_accused": "fellow accused witch who named her at sabbat"
+  },
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Mathiatte femme Demenge Vatin",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Franceatte complained witness was spinning at too low a price",
+        "threat_received": true,
+        "threat_quote": "Told her she would repent",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mathiatte herself",
+            "target_relationship": "self",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "human_illness",
+            "target": "her child",
+            "target_relationship": "child",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "at birth, 10 years before"
+          },
+          {
+            "type": "human_death",
+            "target": "first husband Gerardin",
+            "target_relationship": "former spouse",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "4 years before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Prevost",
+      "person_id": null,
+      "gender": "male",
+      "age": 28,
+      "occupation": "boulengier (baker)",
+      "location": "Raon",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "? de la Neufville",
+      "person_id": null,
+      "gender": "unknown",
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel between daughters of Franceatte and Jean Gelliat over illness and bad reputation of Franceatte",
+        "called_witch_publicly": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 4,
+      "name": "Nicolle femme Colas Mathiot",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over building house next to them - husband would not make concessions",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter Margueritte",
+            "target_relationship": "daughter",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "2 years after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Colas Mathiot",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Building dispute",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter Margueritte",
+            "target_relationship": "daughter",
+            "attributed_to": "Franceatte femme Nicolas Charier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jennon femme Jean Gelliat",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Angry that her daughter Barbeline was in service with Claudon Charier when she wanted her own daughter to have the place",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "daughter Barbeline",
+            "target_relationship": "daughter",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "after quarrel over service position"
+          },
+          {
+            "type": "human_death",
+            "target": "son Jean",
+            "target_relationship": "son",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "10 years before"
+          },
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Franceatte femme Nicolas Charier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Barbelline fille Jean Gelliat",
+      "person_id": null,
+      "gender": "female",
+      "age": 18,
+      "location": "la Neufville",
+      "relationship_to_accused": "servant in household where accused worked",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute while doing day work for Charier around St Remy",
+        "threat_received": true,
+        "threat_quote": "She would repent, and in a few days would see what happened",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Barbelline herself",
+            "target_relationship": "self",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "within a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Claudon Charier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "la Neufville",
+      "relationship_to_accused": "brother-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute over fruit they held jointly at Etival; he beat her and called her witch",
+        "called_witch_publicly": true,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife (Marie femme Claudon Charier)",
+            "target_relationship": "spouse",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "2 years after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Franceatte femme Nicolas Charier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Marie femme Claudon Charier",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "la Neufville",
+      "relationship_to_accused": "sister-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Dispute involving children; one child was beating another and driving it away",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "baby",
+            "target_relationship": "child",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "8 years before, died suddenly after Franceatte visited her in childbed"
+          },
+          {
+            "type": "human_death",
+            "target": "son Nicolas",
+            "target_relationship": "child",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "a year ago"
+          },
+          {
+            "type": "human_illness",
+            "target": "Marie herself",
+            "target_relationship": "self",
+            "attributed_to": "Franceatte femme Nicolas Charier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Colas Peltier",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mongeon Jacat",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "location": "la Neufville",
+      "relationship_to_accused": "brother-in-law (brother of Claudon Charier)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused her at supper of causing sister-in-law's illness",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "owned by brother Claudon Charier",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "12 years before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Mathiatte Vatin",
+      "person_id": null,
+      "gender": "female",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Chrestien Brabant",
+      "person_id": null,
+      "gender": "male",
+      "age": 33,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Turned her away from work; she came to door at night with what appeared to be a black pig",
+        "threat_received": true,
+        "threat_quote": "She would not walk straight again as long as she lived in her father's house",
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "daughter Margueritte",
+            "target_relationship": "daughter",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "after quarrel at spring"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jean Gelliat",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow and 2 calves",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "over last 3 years, one each year"
+          },
+          {
+            "type": "human_illness",
+            "target": "daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "same 3-year period"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Margo veuve Claudon Estienne",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "After watching execution on the wheel, quarrel over jest about having same build as executioner; ended in court case where Franceatte's husband had to pay 40 francs and sell house",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "late husband Claudon Estienne",
+            "target_relationship": "spouse (deceased)",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "died two and a half years earlier after 7+ years of illness"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jehenne femme Didier Xoudel",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Made remarks about accused having harmed her and her child",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "baby",
+            "target_relationship": "child",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "3 years before, when Franceatte visited her in childbed and touched her"
+          },
+          {
+            "type": "human_illness",
+            "target": "Jehenne herself",
+            "target_relationship": "self",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "after making remarks, fell ill for 18 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jenatte femme Didier Ganat",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "la Neufville",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel between husbands at harvest time while working for Claudon Charier",
+        "threat_received": true,
+        "threat_quote": "qu'on disoit qu'il ne scavoit chosser, mais qu'il scavoit bien picquer ses gens",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "husband Didier Ganat",
+            "target_relationship": "spouse",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "since the quarrel, had no rest"
+          },
+          {
+            "type": "human_illness",
+            "target": "daughter Claudatte",
+            "target_relationship": "daughter",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "since the quarrel"
+          },
+          {
+            "type": "human_illness",
+            "target": "grandson Jean",
+            "target_relationship": "grandson",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "since the quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Georgeatte veuve Colas Charpentier",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "la Neufville",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with daughter of accused",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "son Bernard",
+            "target_relationship": "son",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "three days after quarrel"
+          },
+          {
+            "type": "human_illness",
+            "target": "Georgeatte herself",
+            "target_relationship": "self",
+            "attributed_to": "Franceatte femme Nicolas Charier",
+            "time_after_quarrel": "after son's death, lasted 12 weeks"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1610-01-07",
+      "event": "other",
+      "details": "Jennon veuve Jean Pieron executed; had accused Franceatte"
+    },
+    {
+      "date": "1610-02-03",
+      "event": "informations_preparatoires",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "18 witnesses testified over 2 days"
+    },
+    {
+      "date": "1610-02-04",
+      "event": "informations_preparatoires",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Additional witnesses"
+    },
+    {
+      "date": "1610-02-07",
+      "event": "other",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Change de Nancy approves arrest, interrogation, and confrontations"
+    },
+    {
+      "date": "1610-02-16",
+      "event": "interrogation",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Initial interrogation; confessed in afternoon after resisting, then was brought back and made full confession"
+    },
+    {
+      "date": "1610-02-17",
+      "event": "interrogation",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Retracted confession, saying it was due to dreams and enchantments; judges believed her master was in her"
+    },
+    {
+      "date": "1610-02-19",
+      "event": "torture_approved",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Change de Nancy orders torture"
+    },
+    {
+      "date": "1610-02-26",
+      "event": "torture",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Renewed confessions when threatened with torture; given thumbscrews"
+    },
+    {
+      "date": "1610-02-27",
+      "event": "interrogation",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Confirmed confessions and added more details"
+    },
+    {
+      "date": "1610-03-01",
+      "event": "sentence",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Change de Nancy orders execution"
+    },
+    {
+      "date": "1610-03-05",
+      "event": "execution",
+      "subject": "Franceatte femme Nicolas Charier",
+      "details": "Execution carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "threat of torture"],
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon veuve Jean Pieron Gelliat",
+      "location": "la Neufville",
+      "context": "Only person she recognized at sabbat",
+      "already_executed": true
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jennon veuve Jean Pieron",
+      "context": "Said she had seen her several times at the sabbat",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Franceatte femme Nicolas Charier",
+      "french": "sy la justice luy demandoit qu'elle fut sorciere, sy elle le vouloit dire, dequoy il respondit qu'ouy, et qu'il falloit dire la verité sy elle estoit telle",
+      "context": "Allegedly asked Frere Estienne at convent if justice asked if she was a witch, should she say so; he said yes, tell the truth if that's what you are"
+    },
+    {
+      "speaker": "Franceatte femme Nicolas Charier",
+      "french": "qu'elle demeure, que de fait ledit Charier l'avoit appellé au ban d'Estival sorciere, et tant plus on remuoit la boue, tant plus seroit elle puante",
+      "context": "Response about being called witch by Claudon Charier: 'the more one stirs the mud, the more it will stink'"
+    },
+    {
+      "speaker": "Franceatte femme Nicolas Charier",
+      "french": "que ce n'estoit a elle qu'il parloit, qu'il le failloit laisser dire",
+      "context": "Response when accused at supper of causing illness: 'it's not to her he's speaking, let him say it'"
+    },
+    {
+      "speaker": "Margo veuve Claudon Estienne",
+      "french": "cause de leur ruine, de mode qu'il a esté plus de sept ans extremement affligé de maladie, diminuant de jour en jour de ses moyens",
+      "context": "About her late husband after court case: 'cause of their ruin, so that he was more than seven years extremely afflicted with illness, diminishing day by day in his means'"
+    },
+    {
+      "speaker": "Franceatte femme Nicolas Charier",
+      "french": "commenca a luy donner des beau propos, cela la retira de sa mauvaise volonté",
+      "context": "About brother who gave her kind words, which pulled her back from her evil intention to kill him and his family"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Nicolas Charier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Franceatte femme Nicolas Charier",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Jean Franceatte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father Jean Franceatte",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Odille",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother Odille",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Gerardin",
+      "relationship_type": "widow_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "first husband Gerardin",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Claudon Charier",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "brother-in-law Claudon Charier",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Mongeon Jacat",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Was brother of Claudon Charier",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Marie femme Claudon Charier",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "sister-in-law",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Dieudonné",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her brother Dieudonné",
+      "inferred": false
+    },
+    {
+      "person1": "Mathiatte femme Demenge Vatin",
+      "person2": "Demenge Vatin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mathiatte femme Demenge Vatin",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle femme Colas Mathiot",
+      "person2": "Colas Mathiot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Husband of previous witness",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle femme Colas Mathiot",
+      "person2": "Margueritte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Margueritte, aged 18",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Jean Gelliat",
+      "person2": "Jean Gelliat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme Jean Gelliat",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Jean Gelliat",
+      "person2": "Barbeline",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Barbeline",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Jean Gelliat",
+      "person2": "Jean (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her son Jean, aged 16",
+      "inferred": false
+    },
+    {
+      "person1": "Barbelline fille Jean Gelliat",
+      "person2": "Jean Gelliat",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Barbelline fille Jean Gelliat",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Charier",
+      "person2": "Marie femme Claudon Charier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "his wife",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Charier",
+      "person2": "Mongeon Jacat",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Was brother of Claudon Charier",
+      "inferred": false
+    },
+    {
+      "person1": "Marie femme Claudon Charier",
+      "person2": "Nicolas (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "3-year-old son Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "Chrestien Brabant",
+      "person2": "Margueritte (daughter)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his daughter Margueritte, now aged 18",
+      "inferred": false
+    },
+    {
+      "person1": "Margo veuve Claudon Estienne",
+      "person2": "Claudon Estienne",
+      "relationship_type": "widow_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "veuve Claudon Estienne",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne femme Didier Xoudel",
+      "person2": "Didier Xoudel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehenne femme Didier Xoudel",
+      "inferred": false
+    },
+    {
+      "person1": "Jenatte femme Didier Ganat",
+      "person2": "Didier Ganat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Jenatte femme Didier Ganat",
+      "inferred": false
+    },
+    {
+      "person1": "Jenatte femme Didier Ganat",
+      "person2": "Claudatte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "daughter Claudatte",
+      "inferred": false
+    },
+    {
+      "person1": "Jenatte femme Didier Ganat",
+      "person2": "Jean (grandson)",
+      "relationship_type": "grandparent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "grandson Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Georgeatte veuve Colas Charpentier",
+      "person2": "Colas Charpentier",
+      "relationship_type": "widow_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "veuve Colas Charpentier",
+      "inferred": false
+    },
+    {
+      "person1": "Georgeatte veuve Colas Charpentier",
+      "person2": "Bernard",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her son Bernard, aged about 10",
+      "inferred": false
+    },
+    {
+      "person1": "Franceatte femme Nicolas Charier",
+      "person2": "Nicolle femme Colas Mathiot",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "building house next to them",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Mathiatte femme Demenge Vatin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Lost use of limbs for 2 weeks, ill for 6 weeks total",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Complaint about spinning at too low a price",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Mathiatte's child",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Difficult birth, child had to be baptised at home; Franceatte put heated cloth on stomach",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "10 years before",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Gerardin",
+      "victim_relationship_to_witness": "first husband of Mathiatte",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "4 years before",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Margueritte",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Lump the size of a fist in stomach, lasted from All Saints to Easter, still not fully recovered",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Building dispute",
+      "time_between_quarrel_and_harm": "2 years after quarrel",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Barbeline",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Vomiting up stones and lizards with horns and several feet; lasted two months, cured at Beau Bernard at Vic",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Angry that Barbeline was in service with Claudon Charier when she wanted her own daughter to have the place",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jean",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Sudden illness lasting only 8 days",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "10 years before",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Various animals",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Barbeline fille Jean Gelliat",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Dispute while doing day work for Charier",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Marie femme Claudon Charier",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_illness",
+      "harm_description": "Fiebvre quart (quartan fever), resisted all attempts at cure, lasting 2 years",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Disputes with Claudon Charier",
+      "time_between_quarrel_and_harm": "2 years before",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Various animals",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Baby",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "Died very suddenly after Franceatte visited in childbed",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "8 years before",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Nicolas",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "Illness lasting only 6 days",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Child constantly going to their house; Franceatte angry because a child there was beating it",
+      "time_between_quarrel_and_harm": "a year ago",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Marie femme Claudon Charier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Strange illness lasting 6 months",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Cow",
+      "victim_relationship_to_witness": "owned by brother Claudon Charier",
+      "harm_category": "animal_death",
+      "harm_description": "Illness was clearly witchcraft; as soon as it died Franceatte came to ask for some meat",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "12 years before",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Margueritte",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_injury",
+      "harm_description": "Limp afflicting daughter for 4 years; previously very upstanding",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Quarrel at spring",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Cow and 2 calves",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "animal_type": "cow, calves",
+      "animal_count": 3,
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "over last 3 years, one each year",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Daughter",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "same 3-year period",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Claudon Estienne",
+      "victim_relationship_to_witness": "spouse (deceased)",
+      "harm_category": "human_death",
+      "harm_description": "More than 7 years extremely afflicted with illness, diminishing day by day in his means",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Court case over jest about build of executioner; Franceatte's husband had to pay 40 francs and sell house",
+      "time_between_quarrel_and_harm": "died two and a half years earlier",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Baby",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "Franceatte touched her in childbed and she felt great pain; baby died after being baptised on spot; hole appeared over grave",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "3 years before",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Jehenne femme Didier Xoudel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Gravely ill for 18 weeks",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Made remarks about accused having harmed her and her child",
+      "time_between_quarrel_and_harm": "after making remarks",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Didier Ganat",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_illness",
+      "harm_description": "Had no rest, all swollen and unable to find relief",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Quarrel at harvest time while working for Claudon Charier",
+      "time_between_quarrel_and_harm": "since the quarrel",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Claudatte",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "All swollen and unable to find relief",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "since the quarrel",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Jean",
+      "victim_relationship_to_witness": "grandson",
+      "harm_category": "human_illness",
+      "harm_description": "All swollen and unable to find relief",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "since the quarrel",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Bernard",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Became ill and died very suddenly",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Quarrel with daughter of accused",
+      "time_between_quarrel_and_harm": "three days later",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Georgeatte veuve Colas Charpentier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Strange illness lasting 12 weeks, very hard to cure",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "time_between_quarrel_and_harm": "after son's death",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Hen",
+      "victim_relationship_to_witness": "test subject",
+      "harm_category": "animal_death",
+      "animal_type": "hen",
+      "animal_count": 1,
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "method_alleged": "black powder"
+    },
+    {
+      "victim_name": "Calf of Jean Gelliat",
+      "victim_relationship_to_witness": "owned by Jean Gelliat",
+      "harm_category": "animal_death",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Quarrels with Jean Gelliat's people",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Small child of Jean Prevost's wife",
+      "victim_relationship_to_witness": "child of Jean Prevost's wife",
+      "harm_category": "human_death",
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Quarrel over towels 2 or 3 years earlier",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Cow of late Claudon Estienne",
+      "victim_relationship_to_witness": "owned by Claudon Estienne",
+      "harm_category": "animal_death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Franceatte femme Nicolas Charier"
+    },
+    {
+      "victim_name": "Cow of her brother",
+      "victim_relationship_to_witness": "owned by brother",
+      "harm_category": "animal_death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Franceatte femme Nicolas Charier",
+      "precipitating_quarrel": "Wife gave her nothing after she helped them"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "towels",
+      "context": "Quarrel with wife of Jean Prevost over towels",
+      "category": "household"
+    },
+    {
+      "object": "soup",
+      "context": "Put powder in soup to make Claudon Charier's wife ill",
+      "category": "food"
+    },
+    {
+      "object": "flowers",
+      "context": "Took round flowers sprinkled with white powder to cure Chrestien Brabant's wife",
+      "category": "other"
+    },
+    {
+      "object": "heated cloth",
+      "context": "Put heated cloth on stomach during childbirth",
+      "category": "household"
+    },
+    {
+      "object": "money (40 francs)",
+      "context": "Court case settlement; Franceatte's husband had to pay 40 francs and sell house",
+      "category": "money"
+    },
+    {
+      "object": "grass and leaves",
+      "context": "Devil's money turned to grass and leaves",
+      "category": "magical"
+    },
+    {
+      "object": "magical powders",
+      "context": "Black/kill, red/languish, white/cure, yellow powder",
+      "category": "magical"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neuveville les Raon",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "la Chapelle",
+      "place_type": "village",
+      "context": "Birthplace of Franceatte"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Residence of Jean Prevost"
+    },
+    {
+      "place_name": "Etival",
+      "place_type": "village",
+      "context": "Ban d'Etival where Claudon Charier called her witch; also abbot of Etival shared execution costs"
+    },
+    {
+      "place_name": "Vic",
+      "place_type": "village",
+      "context": "Location of Beau Bernard, healer who cured Barbeline"
+    },
+    {
+      "place_name": "the bridge",
+      "place_type": "other",
+      "context": "Where she met Jean Colas Peltier and asked if he had heard accusations against her"
+    },
+    {
+      "place_name": "the convent",
+      "place_type": "church",
+      "context": "Where she went to confession with Cordelier named Carbon and Frere Estienne"
+    },
+    {
+      "place_name": "the woods",
+      "place_type": "forest",
+      "context": "Where devil reappeared to her second time"
+    },
+    {
+      "place_name": "behind their house",
+      "place_type": "other",
+      "context": "Where she first saw devil descend from tree"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail (attempted to make at sabbat, frustrated by church bells)"],
+    "economic_hardship_indicators": [
+      "Reduced to poverty",
+      "Husband mistreated her",
+      "Could make nothing from own spinning",
+      "Had to sell house after 40 franc court fine",
+      "Too poor to pay sabbat dues, gave meat instead",
+      "Devil didn't value her as much as the rich"
+    ],
+    "religious_calendar_references": [
+      "jour des rois (Epiphany/Twelfth Night)",
+      "All Saints",
+      "Easter",
+      "St Remy"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Carbon",
+        "role": "other",
+        "location": "convent (Cordelier)"
+      },
+      {
+        "name": "Frere Estienne",
+        "role": "other",
+        "location": "convent"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "other",
+        "description": "Court case after quarrel at execution - Franceatte's husband had to pay 40 francs and sell house",
+        "outcome": "Franceatte's husband fined 40 francs"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Prevost",
+        "source": "Cordelier named Carbon",
+        "content": "After she confessed to him at convent, she went to Frere Estienne and asked if justice asked if she was a witch, should she say so"
+      },
+      {
+        "reporter": "Witness 3",
+        "source": "heard as neighbor",
+        "content": "Quarrel between daughters over illness and reputation"
+      }
+    ],
+    "oldest_accusation_years": 12,
+    "corroboration_groups": [
+      [4, 5],
+      [6, 7, 14],
+      [8, 9, 11]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "effrontée (impudent) when asked about confession",
+      "started to laugh when pressed",
+      "said she had tried to resist 'la force de la justice'",
+      "said God had given her grace and she wanted to save her soul",
+      "great regret and repentance for being abused and tricked",
+      "feared being discovered by village and especially her husband",
+      "devil was in her during retraction, could hardly speak",
+      "devil beat her so hard she didn't know where she was"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jennon veuve Jean Pieron Joliat",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "fellow accused who named her",
+      "context": "Already executed on 7 January 1610; accused Franceatte of being at sabbat"
+    },
+    {
+      "name": "Jean Gelliat's wife",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "official midwife",
+      "context": "Official midwife called when Franceatte was acting as midwife for Mathiatte"
+    },
+    {
+      "name": "Beau Bernard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "healer at Vic",
+      "context": "Healer who cured Barbeline after she vomited stones and lizards"
+    },
+    {
+      "name": "Dieudonné",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother",
+      "context": "Brother who gave her no help; she planned to kill him, his wife, and child but his kind words changed her mind"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Complete trial record with detailed witness testimony, confession, retraction, torture, and execution. Rich economic context showing poverty as major factor. Notable confession to religious figure before trial. Devil described as not valuing her because of poverty.",
+    "pdf_pages": 6
+  }
+}

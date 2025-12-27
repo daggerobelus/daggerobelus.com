@@ -1,0 +1,610 @@
+{
+  "trial_id": "w217",
+  "archive_ref": "B 8691 no 6",
+  "location": "la Neuveville-les-Raon",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
+  "dates": {
+    "start": "1602-12-21",
+    "end": "1603-01-06",
+    "duration_days": 17
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Claudatte femme Georges Mongeat",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
+      "age": 40,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "Vacqueville",
+      "residence": "la Neuveville-les-Raon",
+      "marital_status": "married",
+      "spouse_name": "Georges Mongeat",
+      "parents": {
+        "father": "Nicolas Baillé",
+        "mother": "Jenatte"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Parsin",
+        "devil_appearance": "",
+        "seduction_date": "10 years earlier",
+        "seduction_context": "angry at having to go to woods; offered her money, but first time she would not renounce God. Appeared again 3 days later and she yielded. Money was leaves",
+        "devil_mark": {
+          "present": false,
+          "location": "",
+          "description": ""
+        },
+        "powder_types": ["black powder (to kill)", "white powder (to cure)"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "feasting", "discussing ruining crops", "making hail", "made stinking mist which ruined crops"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Georges Mongeot",
+      "person_id": null,
+      "gender": "male",
+      "age": null,
+      "occupation": "",
+      "location": "la Neuveville-les-Raon",
+      "relationship_to_accused": "husband of accused",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "his own calf",
+            "attributed_to": "Claudatte femme Georges Mongeat",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Sr Xanrey",
+      "person_id": null,
+      "gender": "male",
+      "age": null,
+      "occupation": "",
+      "location": "Vacqueville",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child of Colas Masson",
+            "target_relationship": "heard from Colas Masson",
+            "attributed_to": "Claudatte femme Georges Mongeat",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jennon femme Lucas Brandeck",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "occupation": "",
+      "location": "",
+      "relationship_to_accused": "",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": "",
+        "threat_received": false,
+        "threat_quote": "",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her son",
+            "target_relationship": "her son",
+            "attributed_to": "Claudatte femme Georges Mongeat",
+            "time_after_quarrel": ""
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-12-21",
+      "event": "interrogation",
+      "subject": "Claudatte femme Georges Mongeat",
+      "details": "Initial interrogation; offered voluntary confession after confrontation with Marie veuve Martin Oudinat"
+    },
+    {
+      "date": "1602-12-23",
+      "event": "interrogation",
+      "subject": "Claudatte femme Georges Mongeat",
+      "details": "Confirmed earlier confessions"
+    },
+    {
+      "date": "1602-12-27",
+      "event": "interrogation",
+      "subject": "Claudatte femme Georges Mongeat",
+      "details": "Further confirmation; added names of accomplices"
+    },
+    {
+      "date": "1602-12-31",
+      "event": "other",
+      "subject": "Change de Nancy",
+      "details": "Change de Nancy requests depositions be taken to check her story, particularly about malefices"
+    },
+    {
+      "date": "1603-01-03",
+      "event": "informations_preparatoires",
+      "subject": "Witnesses",
+      "details": "Depositions from Georges Mongeot, Sr Xanrey, and Jennon femme Lucas Brandeck"
+    },
+    {
+      "date": "1603-01-04",
+      "event": "interrogation",
+      "subject": "Claudatte femme Georges Mongeat",
+      "details": "Denied having committed other crimes"
+    },
+    {
+      "date": "1603-01-06",
+      "event": "death_approved",
+      "subject": "Claudatte femme Georges Mongeat",
+      "details": "Death sentence approved by Change de Nancy"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": [],
+    "requesting_official": "",
+    "approving_court": "",
+    "restrictions": ""
+  },
+  "accomplices_named": [
+    {
+      "name": "Marie veuve Martin Oudinat",
+      "location": "",
+      "context": "Accused Claudatte as accomplice; seen at sabbat",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Zabel femme Didier Pescheur",
+      "location": "",
+      "context": "Accused Claudatte as accomplice; seen at sabbat",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Marguitte femme Dieudonné Marond",
+      "location": "",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Marguitte femme Mengeon Colas Jacquot",
+      "location": "",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Nicolas(?) femme Jean Gerardin",
+      "location": "",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Mengeotte femme Thoussainct Delence",
+      "location": "",
+      "context": "Named as accomplice on 27 December 1602",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Didier Grand Claudon",
+      "location": "",
+      "context": "Named as accomplice on 27 December 1602; occupation: boulengier (baker)",
+      "already_executed": false,
+      "trial_id": ""
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Marie veuve Martin Oudinat",
+      "accuser_location": "",
+      "context": "Accused Claudatte as accomplice just before trial",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Zabel femme Didier Pescheur",
+      "accuser_location": "",
+      "context": "Accused Claudatte as accomplice previous week at time of arrest",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [],
+  "relationships": [
+    {
+      "person1": "Claudatte femme Georges Mongeat",
+      "person2": "Georges Mongeat",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme Georges Mongeat; Georges Mongeot, mari de la prevenue",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Baillé",
+      "person2": "Claudatte femme Georges Mongeat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Nicolas Baillé and his wife Jenatte",
+      "inferred": false
+    },
+    {
+      "person1": "Jenatte",
+      "person2": "Claudatte femme Georges Mongeat",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "daughter of Nicolas Baillé and his wife Jenatte",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Georges Mongeat",
+      "person2": "married sister at Vacqueville",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "had visited married sister at Vacqueville",
+      "inferred": false
+    },
+    {
+      "person1": "married sister at Vacqueville",
+      "person2": "son aged 3",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "used powder to kill her son aged 3",
+      "inferred": false
+    },
+    {
+      "person1": "Lucas Brandeq",
+      "person2": "Jean fils Lucas Brandeq",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "Jean fils Lucas Brandeq",
+      "inferred": false
+    },
+    {
+      "person1": "Lucas Brandeck",
+      "person2": "Jennon femme Lucas Brandeck",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme Lucas Brandeck",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Lucas Brandeck",
+      "person2": "her son",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "4 years earlier her son had been strangely ill",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Masson",
+      "person2": "child",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "Colas Masson, de Vacqueville, whose child she was supposed to have killed",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Husband testified that his wife had taken great trouble trying to heal their sick calf, suggesting modest economic circumstances where loss of livestock was significant. Sister at Vacqueville was well furnished with linen, suggesting relative poverty of accused in comparison."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "her own hen",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died after testing powder",
+      "animal_type": "hen",
+      "animal_count": 1,
+      "economic_value": "",
+      "attributed_to": "Claudatte femme Georges Mongeat",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "powder (black)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "her own calf",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died after testing powder",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "economic_value": "",
+      "attributed_to": "Claudatte femme Georges Mongeat",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "powder (black)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "sister's son aged 3",
+      "victim_relationship_to_witness": "nephew",
+      "harm_category": "human_death",
+      "harm_description": "death of child aged 3",
+      "animal_type": "",
+      "animal_count": null,
+      "economic_value": "",
+      "attributed_to": "Claudatte femme Georges Mongeat",
+      "precipitating_quarrel": "angry because sister was well furnished with linen but offered her none",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "powder",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Jean fils Lucas Brandeq",
+      "victim_relationship_to_witness": "",
+      "harm_category": "human_death",
+      "harm_description": "butted by a sheep and died in 2 days",
+      "animal_type": "",
+      "animal_count": null,
+      "economic_value": "",
+      "attributed_to": "Claudatte femme Georges Mongeat",
+      "precipitating_quarrel": "angry with Jean fils Lucas Brandeq, aged 7, because he had beaten her son",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "sprinkled powder outside house",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "calf owned by Georges Mongeot",
+      "victim_relationship_to_witness": "witness's calf",
+      "harm_category": "animal_death",
+      "harm_description": "illness of 10 weeks before death",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "economic_value": "",
+      "attributed_to": "Claudatte femme Georges Mongeat",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "crops",
+      "victim_relationship_to_witness": "community",
+      "harm_category": "crop_damage",
+      "harm_description": "stinking mist which ruined crops",
+      "animal_type": "",
+      "animal_count": null,
+      "economic_value": "",
+      "attributed_to": "Claudatte femme Georges Mongeat",
+      "precipitating_quarrel": "",
+      "time_between_quarrel_and_harm": "",
+      "method_alleged": "made stinking mist at sabbat",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "powder (black and white)",
+      "context": "Given by devil; black to kill, white to cure",
+      "category": "magical"
+    },
+    {
+      "object": "money",
+      "context": "Devil offered money which turned to leaves",
+      "category": "money"
+    },
+    {
+      "object": "linen",
+      "context": "Sister was well furnished with linen",
+      "category": "household"
+    },
+    {
+      "object": "hen",
+      "context": "Used to test powder",
+      "category": "agricultural"
+    },
+    {
+      "object": "calf",
+      "context": "Used to test powder; husband lost calf after 10 weeks illness",
+      "category": "agricultural"
+    },
+    {
+      "object": "sheep",
+      "context": "Butted child who died",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neuveville-les-Raon",
+      "place_type": "village",
+      "context": "Residence of accused"
+    },
+    {
+      "place_name": "Vacqueville",
+      "place_type": "village",
+      "context": "Origin of accused; location of sister; location of Colas Masson"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where accused was angry about having to go when devil first appeared"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "military_details": "",
+    "weather_events": ["hail", "stinking mist"],
+    "animal_predation": [],
+    "economic_hardship_indicators": ["poverty of accused compared to sister", "significance of livestock loss"],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": "",
+    "imprisonment_conditions": "",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 2,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Sr Xanrey",
+        "source": "Colas Masson",
+        "content": "in view of arrest she might well have been cause of child's death"
+      }
+    ],
+    "oldest_accusation_years": null,
+    "corroboration_groups": []
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all"],
+    "emotional_state_notes": [],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Nicolas Baillé",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father (deceased)",
+      "relationship_to_witness": "",
+      "context": "Father of accused, from Vacqueville"
+    },
+    {
+      "name": "Jenatte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother (deceased)",
+      "relationship_to_witness": "",
+      "context": "Mother of accused"
+    },
+    {
+      "name": "married sister at Vacqueville",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "relationship_to_witness": "",
+      "context": "Sister who was well furnished with linen; her son aged 3 allegedly killed"
+    },
+    {
+      "name": "son aged 3",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "nephew",
+      "relationship_to_witness": "",
+      "context": "Son of accused's sister, allegedly killed with powder 4 or 5 years earlier"
+    },
+    {
+      "name": "Jean fils Lucas Brandeq",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "son of witness 3",
+      "context": "Aged 7, allegedly killed after beating accused's son; butted by sheep and died in 2 days"
+    },
+    {
+      "name": "son of accused",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "relationship_to_witness": "",
+      "context": "Beaten by Jean fils Lucas Brandeq"
+    },
+    {
+      "name": "Colas Masson",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "",
+      "context": "From Vacqueville; his child allegedly killed; not available for testimony"
+    },
+    {
+      "name": "Lucas Brandeq",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "",
+      "relationship_to_witness": "spouse of witness 3",
+      "context": "Father of Jean fils Lucas Brandeq"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Complete trial record with clear timeline. Voluntary confession without torture mentioned. Change de Nancy consulted and approved death sentence. Multiple accomplices named, including specific sabbat attendees.",
+    "pdf_pages": 2
+  }
+}

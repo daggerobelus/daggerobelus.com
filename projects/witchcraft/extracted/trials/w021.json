@@ -3,6 +3,8 @@
   "archive_ref": "B 2583 no 7",
   "location": "Ramonchamp",
   "court": "P.G. des Vosges",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1624-09-06",
     "end": "1624-09-24",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Royne veuve Dilan Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": null,
       "residence": "Ramonchamp",
@@ -46,6 +52,7 @@
     {
       "number": 1,
       "name": "Remy Jean Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -75,6 +82,7 @@
     {
       "number": 2,
       "name": "Jean Thiebault Gerard",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": null,
@@ -96,6 +104,7 @@
     {
       "number": 3,
       "name": "Remy Jandel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -125,6 +134,7 @@
     {
       "number": 4,
       "name": "Jean Micquel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -146,6 +156,7 @@
     {
       "number": 5,
       "name": "Maurice Clanne",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -167,6 +178,7 @@
     {
       "number": 6,
       "name": "Jacot Jean Jacot",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -188,6 +200,7 @@
     {
       "number": 7,
       "name": "Jean Haillant",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -209,6 +222,7 @@
     {
       "number": 8,
       "name": "Bastien Demenge Remy",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -230,6 +244,7 @@
     {
       "number": 9,
       "name": "Nicolas Jean Remy",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -251,6 +266,7 @@
     {
       "number": 10,
       "name": "Margueritte veuve Demenge Romain",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -272,6 +288,7 @@
     {
       "number": 11,
       "name": "Marie fille Remy Jeandel",
+      "person_id": null,
       "gender": "female",
       "age": 11,
       "occupation": null,
@@ -601,7 +618,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": null,
+      "modification_details": null,
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -650,6 +672,7 @@
   "third_parties": [
     {
       "name": "Dilan Parmentier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased husband",
       "relationship_to_witness": "late husband mentioned by witness 1",
@@ -657,6 +680,7 @@
     },
     {
       "name": "Mongeotte (granddaughter, aged 6-7)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "likely granddaughter",
       "relationship_to_witness": "granddaughter of witness 11 (Marie fille Remy Jeandel)",
@@ -664,6 +688,7 @@
     },
     {
       "name": "Jean",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "none stated",
@@ -671,6 +696,7 @@
     },
     {
       "name": "Mengeotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "possibly same as Mongeotte granddaughter",
       "relationship_to_witness": "none stated",
@@ -678,6 +704,7 @@
     },
     {
       "name": "Remy Lambert",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "nephew (she is his aunt)",
       "relationship_to_witness": "told witness 3 (Remy Jandel)",
@@ -685,6 +712,7 @@
     },
     {
       "name": "Demenge des Tertres",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "possibly related",
       "relationship_to_witness": "father-in-law of Remy Lambert",
@@ -692,6 +720,7 @@
     },
     {
       "name": "Mongeotte fille Demenge Thiebauld Rougieux",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "son-in-law of witness 11's family",
@@ -699,6 +728,7 @@
     },
     {
       "name": "Demenge Thiebauld Rougieux",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "son-in-law of Marie fille Remy Jandel (witness 11)",

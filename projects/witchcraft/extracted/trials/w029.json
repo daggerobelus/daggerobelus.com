@@ -3,6 +3,8 @@
   "archive_ref": "B 3323 no 5",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1602-03-22",
     "end": "1602-04-27",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Mathieu Margeron",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "age_approximate": false,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["laboureur"],
       "origin": "Manonviller",
       "residence": "Leintrey",
@@ -48,6 +54,7 @@
     {
       "number": 1,
       "name": "Allison femme Jean Claudon Claude",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "laboureur (husband)",
@@ -77,6 +84,7 @@
     {
       "number": 2,
       "name": "Nicolas Mongein, fils feu Claudon Mongin",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "location": "Leintrey",
@@ -111,6 +119,7 @@
     {
       "number": 3,
       "name": "Jean Claudon Claude",
+      "person_id": null,
       "gender": "male",
       "age": 49,
       "occupation": "laboureur",
@@ -139,6 +148,7 @@
     {
       "number": 4,
       "name": "François le gros Henry",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "location": "Leintrey",
@@ -176,6 +186,7 @@
     {
       "number": 5,
       "name": "Jean Barbe",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "laboureur",
@@ -204,6 +215,7 @@
     {
       "number": 6,
       "name": "Meline femme Pierson Hannix",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "laboureur (husband)",
@@ -257,6 +269,7 @@
     {
       "number": 7,
       "name": "Demenge Breton, natif de Leintrey",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "location": "Blamont",
@@ -285,6 +298,7 @@
     {
       "number": 8,
       "name": "Margueritte soeur Messire Dieudonné Claudon, curé de Leintrey",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "location": "Leintrey",
@@ -302,6 +316,7 @@
     {
       "number": 9,
       "name": "Jean Courtier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Leintrey",
@@ -330,6 +345,7 @@
     {
       "number": 10,
       "name": "Michiel Hellenix",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "occupation": "laboureur",
@@ -360,6 +376,7 @@
     {
       "number": 11,
       "name": "Jean Breton, fils feu Didier Jean Breton",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "location": "Leintrey",
@@ -387,6 +404,7 @@
     {
       "number": 12,
       "name": "Thoussainct Claudon Thoussainct",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -416,6 +434,7 @@
     {
       "number": 13,
       "name": "Remy Grand Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "location": "Leintrey",
@@ -433,6 +452,7 @@
     {
       "number": 14,
       "name": "Germain Hans Germain",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "maire de Leintrey",
@@ -1298,7 +1318,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Obtained reparation before officers at Blamont for accusations of Claudon Marie",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Required final repetition of confessions before execution",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1363,6 +1388,7 @@
   "third_parties": [
     {
       "name": "Colas fils Jean Claudon Claude",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's child",
       "relationship_to_witness": "son of witnesses 1 and 3",
@@ -1370,12 +1396,14 @@
     },
     {
       "name": "Colas (son of Mathieu)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "Made suspicious statements about hail, told story of black man visiting father"
     },
     {
       "name": "Claudon Mongin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "person who quarreled with accused",
       "relationship_to_witness": "father of witness 2",
@@ -1383,6 +1411,7 @@
     },
     {
       "name": "Nicolas Menusier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "wife's brother-in-law, lived in accused's house",
       "relationship_to_witness": "nephew/cousin of witness 4",
@@ -1390,6 +1419,7 @@
     },
     {
       "name": "mother of François le gros Henry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "related by marriage",
       "relationship_to_witness": "mother of witness 4",
@@ -1397,6 +1427,7 @@
     },
     {
       "name": "first husband of Meline",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "person who quarreled with accused",
       "relationship_to_witness": "husband of witness 6",
@@ -1404,6 +1435,7 @@
     },
     {
       "name": "Didier Jean Breton",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "person who quarreled with accused",
       "relationship_to_witness": "father of witnesses 7 and 11",
@@ -1411,41 +1443,48 @@
     },
     {
       "name": "Claudon Mathieu, son of la Grande Marie",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "person who quarreled with accused",
       "context": "Publicly offered to have biggest sorcerer in Leintrey arrested for money"
     },
     {
       "name": "Demenge le Grand Colas",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Present when Jean Courtier's offer to pay for Mathieu's arrest was discussed"
     },
     {
       "name": "Catherine (mother of Mathieu)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "context": "Died in prison at Herbeviller, exposed on fork near Manonviller after being accused as witch"
     },
     {
       "name": "Jennon femme Edmont de Herbeville",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sister",
       "context": "Executed as witch at Manonviller 5 or 6 years before trial"
     },
     {
       "name": "Allison (wife of Jean le Blanc)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "context": "Married to Jean le Blanc of Laudrange"
     },
     {
       "name": "2 brothers of Mathieu",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brothers",
       "context": "Died abroad"
     },
     {
       "name": "Margueritte Claudon Claude",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "quarreled with accused's wife",
       "relationship_to_witness": "first wife of witness 14",
@@ -1453,65 +1492,77 @@
     },
     {
       "name": "niece of Margueritte Claudon Claude",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "relative of person who quarreled with accused",
       "context": "Died same week as Mathieu's threat"
     },
     {
       "name": "Sebille femme Jean Pierson",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Mathieu was confronted with her but said he was too troubled to remember"
     },
     {
       "name": "Jean Bon Claude",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Previous case, Commandeur of Gelaucourt interrogated about his revelations"
     },
     {
       "name": "Commandeur of Gelaucourt",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Interrogated about revelations of Jean Bon Claude"
     },
     {
       "name": "Persin (devil)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil who seduced him",
       "context": "Name given to devil/master in confession"
     },
     {
       "name": "widow of Mathieu Margeron",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife",
       "context": "Applied on behalf of herself and 3 children for goods after execution"
     },
     {
       "name": "3 children of Mathieu Margeron",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "context": "Mentioned in widow's application for goods"
     },
     {
       "name": "Hector Huron",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Ducal gardener at Nancy, allowed 600 Fr from confiscated goods"
     },
     {
       "name": "Jean Maislart",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Valet de chambre, granted 150 Fr from confiscated goods"
     },
     {
       "name": "Nicolas Collegnon",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Archer des gardes, granted 130 Fr from confiscated goods"
     },
     {
       "name": "late uncle Jean (of François le gros Henry)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Told of finding Mathieu trying to kill fattening oxen"
     },
     {
       "name": "Jehenne (bride at wedding)",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Bride at François le Gros Henry's cousin's wedding, Mathieu touched her knee and made threat"
     }

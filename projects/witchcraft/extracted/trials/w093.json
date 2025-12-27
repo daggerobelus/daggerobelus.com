@@ -3,6 +3,14 @@
   "archive_ref": "B 5312 no 3",
   "location": "Bassing",
   "court": "Change de Nancy",
+  "language_region": "german",
+  "formal_accuser": {
+    "name": "la vieille mairesse de Biderstorff",
+    "person_id": null,
+    "occupation": "mayor's wife (former)",
+    "location": "Biderstorff",
+    "relationship_to_accused": "unknown - made denunciation at her own execution"
+  },
   "dates": {
     "start": "1594-05-09",
     "end": "1594-07-08",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Anon veuve Didier Vosgien",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
       "occupation": ["animal healer", "folk healer"],
       "origin": "Bassing",
       "residence": "Bassing",
@@ -58,6 +70,7 @@
     {
       "number": 1,
       "name": "Jenon femme Claudin Peletier",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": "vigneron's wife",
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Agnelle femme Petter Lorre",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -108,6 +122,7 @@
     {
       "number": 3,
       "name": "Jenon femme Jean Denys",
+      "person_id": null,
       "gender": "female",
       "age": 39,
       "occupation": null,
@@ -129,6 +144,7 @@
     {
       "number": 4,
       "name": "Marie femme Moritz manouvrier",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "manouvrier's wife",
@@ -150,6 +166,7 @@
     {
       "number": 5,
       "name": "Barbe femme du maire Francois",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": "mayor's wife",
@@ -171,6 +188,7 @@
     {
       "number": 6,
       "name": "Claudin Haman",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": null,
@@ -192,6 +210,7 @@
     {
       "number": 7,
       "name": "Petter Boulangier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -213,6 +232,7 @@
     {
       "number": 8,
       "name": "Petter Lore",
+      "person_id": null,
       "gender": "male",
       "age": 53,
       "occupation": null,
@@ -234,6 +254,7 @@
     {
       "number": 9,
       "name": "Loys Melenicque",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -255,6 +276,7 @@
     {
       "number": 10,
       "name": "Morise manouvrier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "manouvrier",
@@ -276,6 +298,7 @@
     {
       "number": 11,
       "name": "Claudin Peletier",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "vigneron",
@@ -305,6 +328,7 @@
     {
       "number": 12,
       "name": "Francoys Melenicque",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -326,6 +350,7 @@
     {
       "number": 13,
       "name": "Schlosspetter",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "Mre echevin de Bassing",
@@ -355,6 +380,7 @@
     {
       "number": 14,
       "name": "Noel Waultrin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "vaintre aux salines de Dieuze",
@@ -384,6 +410,7 @@
     {
       "number": 15,
       "name": "Bernhard Humbert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier",
@@ -405,6 +432,7 @@
     {
       "number": 16,
       "name": "Clemence femme Petter Berker",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": "basle de Bessing's wife",
@@ -441,6 +469,7 @@
     {
       "number": 17,
       "name": "Catherine veuve Francois Cousturier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "widow",
@@ -470,6 +499,7 @@
     {
       "number": 18,
       "name": "Mengin Finel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "couturier",
@@ -1172,7 +1202,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "obtained apology from Stoffel at Domnon",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1229,6 +1264,7 @@
   "third_parties": [
     {
       "name": "Catherine",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice, friend",
       "relationship_to_witness": null,
@@ -1236,6 +1272,7 @@
     },
     {
       "name": "la vieille mairesse de Biderstorff",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1243,6 +1280,7 @@
     },
     {
       "name": "Evatte femme Gros Jean",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "fellow suspect",
       "relationship_to_witness": null,
@@ -1250,6 +1288,7 @@
     },
     {
       "name": "Stoffel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1257,6 +1296,7 @@
     },
     {
       "name": "Klein Hans",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness 2",
@@ -1264,6 +1304,7 @@
     },
     {
       "name": "Messire Wirich",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "former sexual partner",
       "relationship_to_witness": null,
@@ -1271,6 +1312,7 @@
     },
     {
       "name": "Dom Jean",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1278,6 +1320,7 @@
     },
     {
       "name": "Anthoine (valet)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "servant of accused",
       "relationship_to_witness": null,
@@ -1285,6 +1328,7 @@
     },
     {
       "name": "Martin maire Anthoine",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1292,6 +1336,7 @@
     },
     {
       "name": "la Tarilloneresse",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "relationship_to_witness": null,
@@ -1299,6 +1344,7 @@
     },
     {
       "name": "Catherine la Heysseysen",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "relationship_to_witness": null,
@@ -1306,6 +1352,7 @@
     },
     {
       "name": "Clemence la basle",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "relationship_to_witness": null,
@@ -1313,6 +1360,7 @@
     },
     {
       "name": "Clemence la Bourguignotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "relationship_to_witness": null,
@@ -1320,6 +1368,7 @@
     },
     {
       "name": "Demel femme Welsch Antoine",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "relationship_to_witness": null,
@@ -1327,6 +1376,7 @@
     },
     {
       "name": "Jennatte la Tarilloneresse",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice",
       "relationship_to_witness": null,
@@ -1334,6 +1384,7 @@
     },
     {
       "name": "pasturelz (shepherds)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

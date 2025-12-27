@@ -1,0 +1,1394 @@
+{
+  "trial_id": "w263",
+  "archive_ref": "B 8708 no 2",
+  "location": "la Bolle",
+  "court": "Saint Dié",
+  "language_region": "french",
+  "dates": {
+    "start": "1611-02-01",
+    "end": "1611-03-29",
+    "duration_days": 56
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Clement Cheneviere",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "comfortable",
+      "practiced_healing": false,
+      "age": 40,
+      "age_approximate": true,
+      "occupation": ["laboureur"],
+      "origin": "ban de Taintrux",
+      "residence": "les Moictresses de la Bolle",
+      "marital_status": "married",
+      "parents": {
+        "father": "Cheneviere from le Paire de Taintrux (executed as witch)"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Percin",
+        "devil_appearance": "man in black",
+        "seduction_date": "after father's execution, when he left le Paire de Taintrux",
+        "seduction_context": "was cutting wood when man in black approached and promised 'il n'auroit plus affaire de rien'",
+        "devil_mark": {
+          "present": true,
+          "location": "forehead and between shoulders",
+          "description": "pinched on forehead and between shoulders"
+        },
+        "powder_types": [
+          "black powder (to kill)",
+          "grey powder (to make languish or cure)",
+          "money that was dead leaves and cowdung"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": ["Chaulmont"],
+        "sabbat_activities": [
+          "making hail and fog by beating water with sticks",
+          "master boiled pot on fire after adding powder",
+          "dancing to sound of 'guigues et violles'",
+          "feasted on unsalted meat and 'oysilons' for dessert",
+          "seated close to master for special honor"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Nicolle femme Claudon Michiel",
+      "person_id": null,
+      "gender": "female",
+      "age": 48,
+      "location": "la Rochatte",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "accused's horses straying on their land and causing damage",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "her husband's ox",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "next day sickened, died about a month later"
+          },
+          {
+            "type": "human_death",
+            "target": "young cousin (from Allemaigne)",
+            "target_relationship": "Clement's cousin, hired to her husband",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "shortly after quarrel over 30 gros payment"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jehennon femme Demenge de Mortaigne",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "la Bolle",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jehennon fille Demenge de Mortaigne",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "location": "la Bolle",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cattle",
+            "target_relationship": "animal trader's cattle",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "after cattle escaped into Clement's field"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge de Mortaigne",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "la Bolle",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "arrangement to cart manure",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "became ill for 6 weeks after eating two pears given by accused"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Henry Bergier le Jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 28,
+      "location": "du Vieulx Marché",
+      "relationship_to_accused": "business transaction",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "sale of mare for 12 ecus and 2 francs - accused made difficulties and called him a cheat, ended in court",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "mare",
+            "target_relationship": "his mare",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "about 6 months after quarrel"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudon Michiel",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "la Rochatte",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "horses strayed onto his land",
+        "threat_received": true,
+        "threat_quote": "que c'estoit une chere gaigere et qu'il s'en repentiroit",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "his ox",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "died after 3 weeks as if rabid"
+          },
+          {
+            "type": "animal_illness",
+            "target": "bull",
+            "target_relationship": "his bull",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "sick for a year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Mengeatte femme Urbain Sagaire",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Rougiville",
+      "relationship_to_accused": "worked cutting corn for him",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengin fils George Mengin",
+      "person_id": null,
+      "gender": "male",
+      "age": 18,
+      "location": "la Bolle",
+      "relationship_to_accused": "son of Claudatte femme George Mengin (who accused Clement)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jean Thoussainct",
+      "person_id": null,
+      "gender": "male",
+      "location": "la Bolle",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "cow escaped into field owned by accused",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "cow",
+            "target_relationship": "his cow",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "after escaping into accused's field"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Guenaye",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Rougiville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "his animals",
+            "attributed_to": "Clement Cheneviere",
+            "time_after_quarrel": "since calling him witch"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Mengeatte fille de feu Jean Gerard Noel",
+      "person_id": null,
+      "gender": "female",
+      "age": 28,
+      "location": "du Paire de Taintrux",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Colas Demenge Colas Noel",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "location": "Xainfain",
+      "relationship_to_accused": "worked threshing for him",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "George Demenge Colas",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "Xainfain",
+      "relationship_to_accused": "worked threshing for him",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-02-01",
+      "event": "confrontation",
+      "subject": "Clement Cheneviere",
+      "details": "Confronted with Claudatte femme George Mengin of la Bolle, already convicted, who claimed she had seen him at sabbat. He said she had lied 'comme une genaxe et une treuye'"
+    },
+    {
+      "date": "1611-03-01",
+      "event": "other",
+      "subject": "procureur d'office",
+      "details": "procureur d'office asks for investigation, to be followed by imprisonment if necessary"
+    },
+    {
+      "date": "1611-03-11",
+      "event": "informations_preparatoires",
+      "subject": "Clement Cheneviere",
+      "details": "Witness testimonies collected (witnesses 1-6)"
+    },
+    {
+      "date": "1611-03-15",
+      "event": "informations_preparatoires",
+      "subject": "Clement Cheneviere",
+      "details": "Additional witness testimonies (witnesses 7-8)"
+    },
+    {
+      "date": "1611-03-16",
+      "event": "informations_preparatoires",
+      "subject": "Clement Cheneviere",
+      "details": "Additional witness testimonies (witnesses 9-13)"
+    },
+    {
+      "date": "1611-03-17",
+      "event": "interrogation",
+      "subject": "Clement Cheneviere",
+      "details": "First interrogation - denied all charges, claimed to be good Christian"
+    },
+    {
+      "date": "1611-03-18",
+      "event": "confrontation",
+      "subject": "Clement Cheneviere",
+      "details": "Confronted with witnesses - attacked their credibility"
+    },
+    {
+      "date": "1611-03-19",
+      "event": "torture_requested",
+      "subject": "Clement Cheneviere",
+      "details": "procureur d'office asks for question ordinaire"
+    },
+    {
+      "date": "1611-03-21",
+      "event": "torture_approved",
+      "subject": "Clement Cheneviere",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1611-03-22",
+      "event": "torture",
+      "subject": "Clement Cheneviere",
+      "details": "Given thumbscrews then racked - did not confess, judges noted he did not seem to feel pain"
+    },
+    {
+      "date": "1611-03-24",
+      "event": "interrogation",
+      "subject": "Clement Cheneviere",
+      "details": "Confronted with Bastien Stablo who confirmed his confessions naming Clement as accomplice. Clement confessed after this confrontation and threat of further torture"
+    },
+    {
+      "date": "1611-03-26",
+      "event": "interrogation",
+      "subject": "Clement Cheneviere",
+      "details": "Confirmed earlier confessions twice during day"
+    },
+    {
+      "date": "1611-03-26",
+      "event": "death_requested",
+      "subject": "Clement Cheneviere",
+      "details": "procureur d'office asks for death sentence"
+    },
+    {
+      "date": "1611-03-27",
+      "event": "death_approved",
+      "subject": "Clement Cheneviere",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1611-03-29",
+      "event": "execution",
+      "subject": "Clement Cheneviere",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack", "tortillons (shown as threat)"],
+    "requesting_official": "procureur d'office",
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Claudatte femme George Mengin",
+      "location": "la Bolle",
+      "context": "Already convicted, accused Clement of being at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "wife of Colas le Clerc",
+      "location": "Rougiville",
+      "context": "Named during confession as accomplice at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Margo de Richarville",
+      "location": "Taintrux",
+      "context": "Named as accomplice",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Mathiatte",
+      "location": "Taintrux",
+      "context": "Named as accomplice",
+      "already_executed": true
+    },
+    {
+      "name": "Mengeon Schenault",
+      "location": "Taintrux",
+      "context": "Named as accomplice",
+      "already_executed": true
+    },
+    {
+      "name": "Bastien Stablo",
+      "location": null,
+      "context": "Confronted Clement during interrogation, confirmed his own confessions naming Clement",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Clement's sister",
+      "accuser_location": "ban d'Etival",
+      "context": "Sister on trial named him and brother Bernard",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Clement Cheneviere",
+      "french": "comme une genaxe et une treuye",
+      "context": "Response to Claudatte femme George Mengin's accusation of seeing him at sabbat"
+    },
+    {
+      "speaker": "Jean de la Moictresse (Clement's cousin)",
+      "french": "Ha le mal bien, ils l'auront assez, il me cottera la vie. et je ne vous servira gueres",
+      "context": "Said while dying of illness attributed to Clement"
+    },
+    {
+      "speaker": "Jean de la Moictresse",
+      "french": "le mal argent que Clement m'a donné",
+      "context": "Said constantly before death"
+    },
+    {
+      "speaker": "Claudon Michiel",
+      "french": "que c'estoit une chere gaigere et qu'il s'en repentiroit",
+      "context": "Threat made by Clement after quarrel over horses"
+    },
+    {
+      "speaker": "Clement Cheneviere",
+      "french": "que sy les années continuoyent leurs sterilité en bled, encor deux a trois ans, il ne faudroit que luy pour chasser hors tout le reste des habitans de la Bolle, tant estoient ils pauvres et luy riche",
+      "context": "Statement about his wealth compared to other villagers"
+    },
+    {
+      "speaker": "Clement Cheneviere",
+      "french": "que peult estre seroient ils sy bon que de le dire, et ainsy demeura le reste du jour sans mot dire, semblant bien vouloir avoir rachepté de qu'il avoit dit",
+      "context": "Response when Demenge de Mortaigne said they would call him witch if crop failures continued"
+    },
+    {
+      "speaker": "Colas Demenge Colas Noel",
+      "french": "des fumées qui se levoient sur la mer, plaines d'eaue, qui venoient tomber par terre",
+      "context": "Clement's explanation of what clouds were on rainy day"
+    },
+    {
+      "speaker": "Clement Cheneviere",
+      "french": "qu'il ne pensoit qu'il fut sorcier, et que s'il l'estoit il luy diroit, adjoustant estre impossible qu'un homme soit sorcier s'il ne le scait, ou au contraire que s'il l'estoit, il donneroit ses bien a ses enfans, et ne seroit jamais bruslé a Sainct Diez, d'aultant qu'il se retireroit en une chambre au Paire de Taintrux, ne tenant que deux vaches et un cheval",
+      "context": "Overheard conversation with wife after sister's execution"
+    },
+    {
+      "speaker": "Nicolas Bagaire (dying man)",
+      "french": "qu'au lieu de lui amener deux anges, on luy amenoit deux diables, et ausquels il n'avoit gueres de fiance, et qu'on les mit hors",
+      "context": "Said when Clement and his brother visited him during fatal illness"
+    },
+    {
+      "speaker": "Devil (Percin)",
+      "french": "il n'auroit plus affaire de rien",
+      "context": "Promise made during seduction"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Clement Cheneviere",
+      "person2": "Jean de la Moictresse",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "his young cousin",
+      "inferred": false
+    },
+    {
+      "person1": "Clement Cheneviere",
+      "person2": "Cheneviere father",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Father, who had been from le Paire de Taintrux, had been executed as a witch",
+      "inferred": false
+    },
+    {
+      "person1": "Clement Cheneviere",
+      "person2": "Clement's sister",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his sister had been on trial in ban d'Etival",
+      "inferred": false
+    },
+    {
+      "person1": "Clement Cheneviere",
+      "person2": "Bernard",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his brother Bernard",
+      "inferred": false
+    },
+    {
+      "person1": "Clement Cheneviere",
+      "person2": "Clement's wife",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "he and his wife came to demand reparation",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle",
+      "person2": "Claudon Michiel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Nicolle femme Claudon Michiel",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon",
+      "person2": "Demenge de Mortaigne",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jehennon femme Demenge de Mortaigne",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon fille Demenge de Mortaigne",
+      "person2": "Demenge de Mortaigne",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jehennon fille Demenge de Mortaigne",
+      "inferred": false
+    },
+    {
+      "person1": "Jehennon fille Demenge de Mortaigne",
+      "person2": "Clement Cheneviere",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "When in service of accused",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeatte",
+      "person2": "Urbain Sagaire",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengeatte femme Urbain Sagaire",
+      "inferred": false
+    },
+    {
+      "person1": "Mengin fils George Mengin",
+      "person2": "George Mengin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mengin fils George Mengin",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme George Mengin",
+      "person2": "George Mengin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Claudatte femme George Mengin",
+      "inferred": false
+    },
+    {
+      "person1": "Jean de la Moictresse",
+      "person2": "Jean Moictrier",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "other",
+      "evidence_text": "house of his tuteur, the late Jean Moictrier",
+      "inferred": false
+    },
+    {
+      "person1": "Jean de la Moictresse",
+      "person2": "Claudon Michiel",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "hired himself to her husband in order to learn to plough",
+      "inferred": false
+    },
+    {
+      "person1": "Bernard",
+      "person2": "Clement Cheneviere",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "his brother Bernard, who lived nearby",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeatte Gerard Noel",
+      "person2": "Clement Cheneviere",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "had been in his service",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "husband's ox",
+      "harm_category": "animal_death",
+      "harm_description": "sickened then died, died as if rabid",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": "50 ecus",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "horses strayed on land causing damage, fight between accused and Claudon Michiel",
+      "time_between_quarrel_and_harm": "next day sickened, died about a month later (witness 1) / 3 weeks (witness 6)",
+      "method_alleged": "witchcraft",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean de la Moictresse (young cousin from Allemaigne)",
+      "victim_relationship_to_witness": "cousin of accused, hired to witness's husband",
+      "harm_category": "human_death",
+      "harm_description": "illness starting with leg so he could hardly walk, spread so covered with spots as if smallpox",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "Clement wanted him to return to Allemaigne, he refused; asked for payment of 30 gros he owed, Clement told him to keep money until he was ill",
+      "time_between_quarrel_and_harm": "shortly afterwards became ill",
+      "method_alleged": "curse (told him to keep money until ill)",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "bull",
+      "victim_relationship_to_witness": "his bull",
+      "harm_category": "animal_illness",
+      "harm_description": "sick for a year",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "economic_value": "bought for 18 francs, had to sell for 9",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "quarrel over straying horses",
+      "time_between_quarrel_and_harm": "unspecified",
+      "method_alleged": "witchcraft",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "cattle",
+      "victim_relationship_to_witness": "animal trader's cattle",
+      "harm_category": "animal_illness",
+      "harm_description": "all scratched",
+      "animal_type": "cattle",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "cattle escaped into Clement's field",
+      "time_between_quarrel_and_harm": "after escaping",
+      "method_alleged": "witchcraft",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jean de la Moictresse",
+      "victim_relationship_to_witness": "cousin of accused",
+      "harm_category": "human_death",
+      "harm_description": "limping, fatal illness",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "unspecified",
+      "time_between_quarrel_and_harm": "9 or 10 years before trial",
+      "method_alleged": "witchcraft ('le mal argent que Clement m'a donné')",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Demenge de Mortaigne",
+      "victim_relationship_to_witness": "himself",
+      "harm_category": "human_illness",
+      "harm_description": "ill for 6 weeks",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "arrangement to cart manure",
+      "time_between_quarrel_and_harm": "2 years ago, after eating two pears",
+      "method_alleged": "poisoned pears, then cured by rubbing leg with coat in church",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "mare",
+      "victim_relationship_to_witness": "his mare",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill, blacksmiths unable to save it",
+      "animal_type": "mare",
+      "animal_count": 1,
+      "economic_value": "100 francs",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "sale of different mare for 12 ecus and 2 francs, accused made difficulties and called him cheat, ended in court",
+      "time_between_quarrel_and_harm": "about 6 months after quarrel",
+      "method_alleged": "witchcraft",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "his cow",
+      "harm_category": "animal_illness",
+      "harm_description": "lost its milk",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "cow escaped into field owned by accused, he was angry",
+      "time_between_quarrel_and_harm": "some years before",
+      "method_alleged": "witchcraft - recovered after pilgrimage to cross of Perrychamp",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "animals",
+      "victim_relationship_to_witness": "his animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost animals",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "witness called him witch several times and threatened to have him burned",
+      "time_between_quarrel_and_harm": "since then",
+      "method_alleged": "witchcraft",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "wife of late Jean Jeandel",
+      "victim_relationship_to_witness": "not specified",
+      "harm_category": "human_death",
+      "harm_description": "killed",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "she called him witch",
+      "time_between_quarrel_and_harm": "unspecified",
+      "method_alleged": "powder in soup (confessed)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "one of the children Xalaide",
+      "victim_relationship_to_witness": "not specified",
+      "harm_category": "human_death",
+      "harm_description": "drowned",
+      "attributed_to": "Clement Cheneviere (his master did it at his request)",
+      "precipitating_quarrel": "father was vagabond who angered him by several thefts of pears",
+      "time_between_quarrel_and_harm": "unspecified",
+      "method_alleged": "master drowned child (confessed)",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Bastien Stablo",
+      "victim_relationship_to_witness": "accomplice",
+      "harm_category": "human_injury",
+      "harm_description": "bad leg",
+      "attributed_to": "Clement Cheneviere",
+      "precipitating_quarrel": "had not paid for some animals",
+      "time_between_quarrel_and_harm": "unspecified",
+      "method_alleged": "witchcraft (confessed)",
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "horses",
+      "context": "straying on land causing damage",
+      "category": "agricultural"
+    },
+    {
+      "object": "barn",
+      "context": "took horses to barn",
+      "category": "agricultural"
+    },
+    {
+      "object": "ox",
+      "context": "worth 50 ecus",
+      "category": "agricultural"
+    },
+    {
+      "object": "30 gros",
+      "context": "owed to buy 'clouyns'",
+      "category": "money"
+    },
+    {
+      "object": "clouyns",
+      "context": "nails or similar",
+      "category": "tools"
+    },
+    {
+      "object": "cart",
+      "context": "brought sick cousin back on cart",
+      "category": "agricultural"
+    },
+    {
+      "object": "plough",
+      "context": "ploughing fields",
+      "category": "agricultural"
+    },
+    {
+      "object": "wood",
+      "context": "collecting wood",
+      "category": "household"
+    },
+    {
+      "object": "verge (stick)",
+      "context": "had in hand when wolf approached",
+      "category": "tools"
+    },
+    {
+      "object": "axe",
+      "context": "at edge of field",
+      "category": "tools"
+    },
+    {
+      "object": "mare",
+      "context": "sold for 12 ecus and 2 francs to drink",
+      "category": "agricultural"
+    },
+    {
+      "object": "bull",
+      "context": "bought for 18 francs, sold for 9",
+      "category": "agricultural"
+    },
+    {
+      "object": "corn",
+      "context": "cutting corn for accused",
+      "category": "agricultural"
+    },
+    {
+      "object": "pears",
+      "context": "gave two pears that made witness ill",
+      "category": "food"
+    },
+    {
+      "object": "stick",
+      "context": "went to mass with aid of stick",
+      "category": "household"
+    },
+    {
+      "object": "coat",
+      "context": "rubbed leg with end of coat",
+      "category": "clothing"
+    },
+    {
+      "object": "manure",
+      "context": "arrangement to cart manure",
+      "category": "agricultural"
+    },
+    {
+      "object": "oats",
+      "context": "guarding oats at night",
+      "category": "agricultural"
+    },
+    {
+      "object": "field",
+      "context": "buying a field",
+      "category": "agricultural"
+    },
+    {
+      "object": "two vaches and un cheval",
+      "context": "would only keep two cows and one horse if fled",
+      "category": "agricultural"
+    },
+    {
+      "object": "guigues et violles",
+      "context": "musical instruments at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "unsalted meat",
+      "context": "feast at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "oysilons",
+      "context": "dessert at sabbat",
+      "category": "food"
+    },
+    {
+      "object": "black and grey powder",
+      "context": "magical powder to kill or make languish or cure",
+      "category": "magical"
+    },
+    {
+      "object": "money (dead leaves and cowdung)",
+      "context": "devil gave false money",
+      "category": "magical"
+    },
+    {
+      "object": "soup",
+      "context": "put powder in soup to kill",
+      "category": "food"
+    },
+    {
+      "object": "sticks",
+      "context": "beat water with sticks to make hail",
+      "category": "magical"
+    },
+    {
+      "object": "pot",
+      "context": "master boiled pot on fire with powder",
+      "category": "household"
+    },
+    {
+      "object": "black ox",
+      "context": "traveled to sabbat on black ox (which was master transformed)",
+      "category": "magical"
+    },
+    {
+      "object": "thumbscrews",
+      "context": "torture device",
+      "category": "other"
+    },
+    {
+      "object": "rack",
+      "context": "torture device",
+      "category": "other"
+    },
+    {
+      "object": "tortillons",
+      "context": "torture device shown as threat",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Bolle",
+      "place_type": "village",
+      "context": "primary location of trial and residence"
+    },
+    {
+      "place_name": "les Moictresses de la Bolle",
+      "place_type": "village",
+      "context": "Clement's residence for 12 years"
+    },
+    {
+      "place_name": "ban de Taintrux",
+      "place_type": "village",
+      "context": "Clement's birthplace"
+    },
+    {
+      "place_name": "le Paire de Taintrux",
+      "place_type": "village",
+      "context": "father's origin, mother's residence"
+    },
+    {
+      "place_name": "la Rochatte",
+      "place_type": "village",
+      "context": "residence of Nicolle and Claudon Michiel"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "origin of young cousin who died"
+    },
+    {
+      "place_name": "ban d'Etival",
+      "place_type": "village",
+      "context": "where sister was on trial"
+    },
+    {
+      "place_name": "Rougiville",
+      "place_type": "village",
+      "context": "residence of several witnesses"
+    },
+    {
+      "place_name": "du Vieulx Marché",
+      "place_type": "village",
+      "context": "residence of Henry Bergier"
+    },
+    {
+      "place_name": "Xainfain",
+      "place_type": "village",
+      "context": "residence of two witnesses"
+    },
+    {
+      "place_name": "Plombieres",
+      "place_type": "village",
+      "context": "thermal spa mentioned for healing"
+    },
+    {
+      "place_name": "cross of Perrychamp",
+      "place_type": "other",
+      "context": "pilgrimage site for healing cow"
+    },
+    {
+      "place_name": "Chaulmont",
+      "place_type": "sabbat_location",
+      "context": "sabbat location"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "court location"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "various fields for farming and disputes"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "collecting wood, cutting wood when seduced"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "where accused touched witness to cure him"
+    },
+    {
+      "place_name": "stream",
+      "place_type": "water_body",
+      "context": "put powder in stream to harm mare"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [
+      "hail that did much damage around St Dié 3 years earlier",
+      "rain (threshing on rainy day)",
+      "fog (made at sabbat)"
+    ],
+    "animal_predation": [
+      "wolf following accused while ploughing",
+      "wolf approaching plough team and frightening animals",
+      "wolf on roof of house (claimed by animal trader)",
+      "boars threatening crops"
+    ],
+    "economic_hardship_indicators": [
+      "statement about crop sterility potentially driving out poor villagers",
+      "contrast between accused's wealth and other villagers' poverty",
+      "debt disputes",
+      "economic value of animals significant to witnesses"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur d'office",
+        "role": "prosecutor_pg",
+        "location": "Saint Dié"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "assault",
+        "description": "quarrel with Henry Bergier ended in court because accused called him a cheat",
+        "outcome": "unspecified"
+      },
+      {
+        "dispute_type": "defamation",
+        "description": "Jean Guenaye called him witch and threatened to have him burned, he obtained reparation",
+        "outcome": "obtained reparation"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "obtained reparation from Jean Guenaye who called him witch",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 5,
+    "hearsay_chains": [
+      {
+        "reporter": "Jean Guenaye",
+        "source": "Nicolas Bagaire's widow Anne",
+        "content": "dying man said 'qu'au lieu de lui amener deux anges, on luy amenoit deux diables' when accused and brother visited"
+      },
+      {
+        "reporter": "Jean Thoussainct",
+        "source": "Burgundian (animal trader)",
+        "content": "complained about witchcraft when cattle were scratched"
+      }
+    ],
+    "oldest_accusation_years": 10
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "returned crying after learning sister's fate",
+      "tout esbranlé, et a demy vaincu before confessing",
+      "did not seem to feel pain of torture (judges thought devil was helping him)"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 1,
+        "objection": "une ribaude"
+      },
+      {
+        "witness_number": 2,
+        "objection": "eaten meat in Lent"
+      },
+      {
+        "witness_number": 4,
+        "objection": "eaten meat in Lent"
+      },
+      {
+        "witness_number": 5,
+        "objection": "had taken some of his property"
+      },
+      {
+        "witness_number": 6,
+        "objection": "had two bastard children"
+      },
+      {
+        "witness_number": 7,
+        "objection": "reputed a 'ribaude'"
+      },
+      {
+        "witness_number": 10,
+        "objection": "homme qui injurie fort souvent les personnes et coustumier de faire reparation, non croyable et recepvable a serment"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Jean de la Moictresse",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "young cousin from Allemaigne",
+      "context": "died after illness attributed to accused"
+    },
+    {
+      "name": "Jean Moictrier (late)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "tuteur of cousin Jean de la Moictresse",
+      "context": "cousin went to his house when dying"
+    },
+    {
+      "name": "Claudatte femme George Mengin",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "neighbor, already convicted witch",
+      "context": "accused him of being at sabbat during her trial"
+    },
+    {
+      "name": "George Mengin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "father of witness 8, husband of Claudatte",
+      "context": "husband of woman who accused Clement"
+    },
+    {
+      "name": "Bernard (brother)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother, lived nearby",
+      "context": "named by sister in her trial, consulted after sister's execution"
+    },
+    {
+      "name": "Clement's wife",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "wife",
+      "context": "accompanied him to fields, reproached witnesses, worried about arrest"
+    },
+    {
+      "name": "Clement's sister",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "sister",
+      "context": "on trial in ban d'Etival, named him and brother Bernard, executed"
+    },
+    {
+      "name": "Clement's mother",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "still living at le Paire de Taintrux"
+    },
+    {
+      "name": "Clement's father",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "father",
+      "context": "executed as a witch from le Paire de Taintrux"
+    },
+    {
+      "name": "animal trader (Burgundian)",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "unknown",
+      "context": "found cattle scratched after escaping into Clement's field, claimed witchcraft, saw wolf on roof"
+    },
+    {
+      "name": "Urbain Sagaire",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "husband of witness 7",
+      "context": "cutting corn with wife for accused"
+    },
+    {
+      "name": "Grand Colas de la Bource",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "former employer",
+      "context": "taught Clement about clouds when in his service"
+    },
+    {
+      "name": "Nicolas Bagaire",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "during fatal illness called accused and brother 'two devils'"
+    },
+    {
+      "name": "Anne (widow of Nicolas Bagaire)",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": "neighbor",
+      "context": "told Jean Guenaye about husband's words before death"
+    },
+    {
+      "name": "Bastien Stablo",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "accomplice (according to confession)",
+      "context": "confronted Clement during interrogation, confirmed naming him as accomplice, accused him of giving bad leg"
+    },
+    {
+      "name": "wife of late Jean Jeandel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "Clement confessed to killing her with powder in soup because she called him witch"
+    },
+    {
+      "name": "Jean Jeandel (late)",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "husband of woman Clement confessed to killing"
+    },
+    {
+      "name": "father Xalaide",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "vagabond who angered Clement by stealing pears, his child drowned"
+    },
+    {
+      "name": "child of Xalaide",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "child of vagabond",
+      "context": "Clement confessed master drowned child at his request"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Accused was notably wealthier than other villagers - made statement that if crop failures continued 2-3 more years 'il ne faudroit que luy pour chasser hors tout le reste des habitans de la Bolle, tant estoient ils pauvres et luy riche'. After sister's execution, wife worried he would be arrested and he should not buy field. Dispute over 30 gros owed to cousin. Quarrel with Henry Bergier over payment for mare. Confessed he delayed confession 'in fear of losing his property'. Economic value of animals significant - ox worth 50 ecus, mare worth 100 francs, bull bought for 18 francs."
+  },
+  "formal_accuser": {
+    "name": "Claudatte femme George Mengin",
+    "person_id": null,
+    "location": "la Bolle",
+    "relationship_to_accused": "neighbor, already convicted witch"
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial shows interesting economic dimensions - accused was notably wealthier than neighbors. Multiple witnesses report wolf sightings associated with accused. Father already executed, sister named him before her execution. Resisted torture (judges thought devil was helping him not feel pain), finally confessed after confrontation with Bastien Stablo. Change de Nancy approved both torture and death sentence. Rich detail on sabbat activities and use of magical powder.",
+    "pdf_pages": 6
+  }
+}

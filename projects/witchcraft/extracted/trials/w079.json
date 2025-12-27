@@ -3,6 +3,14 @@
   "archive_ref": "B 4126 no 2",
   "location": "Brantigny",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Thomas Gerardin",
+    "person_id": null,
+    "occupation": "laboureur",
+    "location": "Brantigny",
+    "relationship_to_accused": "neighbor/victim (suffered harm to wife, children, and animals)"
+  },
   "dates": {
     "start": "1624-12-20",
     "end": "1625-02-11",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Claudon du Puy",
+      "person_id": null,
       "gender": "female",
       "age": 52,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": "Brantigny",
       "residence": "Brantigny",
@@ -51,6 +63,7 @@
     {
       "number": 1,
       "name": "Lucie fille de Claudon Mihiel dit Battillot",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": "lace maker",
@@ -87,6 +100,7 @@
     {
       "number": 2,
       "name": "Catherine fille de Claudon Mihiel",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": null,
@@ -116,6 +130,7 @@
     {
       "number": 3,
       "name": "Claude Batillot dit Michiel",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": null,
@@ -145,6 +160,7 @@
     {
       "number": 4,
       "name": "Francois Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "laboureur",
@@ -181,6 +197,7 @@
     {
       "number": 5,
       "name": "Nicolas Batillot",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": null,
@@ -210,6 +227,7 @@
     {
       "number": 6,
       "name": "Alix femme du maire Laurent Laurent",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": "mayor's wife",
@@ -239,6 +257,7 @@
     {
       "number": 7,
       "name": "Mengin Sauffroy",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "laboureur",
@@ -275,6 +294,7 @@
     {
       "number": 8,
       "name": "Demenge Sauffroy",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -304,6 +324,7 @@
     {
       "number": 9,
       "name": "Claudon Robert",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -333,6 +354,7 @@
     {
       "number": 10,
       "name": "Thomas Gerardin",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": null,
@@ -369,6 +391,7 @@
     {
       "number": 11,
       "name": "Francoise femme de Demenge Sauffroy",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -398,6 +421,7 @@
     {
       "number": 12,
       "name": "Demenge Laurent",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": "laboureur",
@@ -427,6 +451,7 @@
     {
       "number": 13,
       "name": "Francois Sauffroy",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -456,6 +481,7 @@
     {
       "number": 14,
       "name": "Claudon Batillot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -477,6 +503,7 @@
     {
       "number": 15,
       "name": "Idatte femme à Laurent Thiebault",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -506,6 +533,7 @@
     {
       "number": 16,
       "name": "Bastienne femme à Jean Sauffroy",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -527,6 +555,7 @@
     {
       "number": 17,
       "name": "Poirson Batillot",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -556,6 +585,7 @@
     {
       "number": 18,
       "name": "George Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "maitre d'escholle (schoolmaster)",
@@ -577,6 +607,7 @@
     {
       "number": 19,
       "name": "Vincent Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -1359,7 +1390,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Held in prison where she apparently confessed before formal interrogation; guarded in her house by three guards arranged by Thomas Gerardin before arrest order came",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1410,6 +1446,7 @@
   "third_parties": [
     {
       "name": "François Perin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
@@ -1417,6 +1454,7 @@
     },
     {
       "name": "Mongeotte (mother)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1424,6 +1462,7 @@
     },
     {
       "name": "Demenge Pasquin Daviller",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law",
       "relationship_to_witness": null,
@@ -1431,6 +1470,7 @@
     },
     {
       "name": "Margueritte (sister)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1438,6 +1478,7 @@
     },
     {
       "name": "Claudon Gerardin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother-in-law of witness 9; husband of witness 15",
@@ -1445,6 +1486,7 @@
     },
     {
       "name": "Claude (wife of Francois Marchal)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 4",
@@ -1452,6 +1494,7 @@
     },
     {
       "name": "miller's son",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 6's child",
@@ -1459,6 +1502,7 @@
     },
     {
       "name": "miller's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1466,6 +1510,7 @@
     },
     {
       "name": "Messire Adam (curé)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1473,6 +1518,7 @@
     },
     {
       "name": "Messire Maurice (curé)",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1480,6 +1526,7 @@
     },
     {
       "name": "late curé of Epinal",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1487,6 +1534,7 @@
     },
     {
       "name": "Jeannon wife of Grand Colas",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1494,6 +1542,7 @@
     },
     {
       "name": "Margueritte Sellier",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1501,6 +1550,7 @@
     },
     {
       "name": "maire Gaillat",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

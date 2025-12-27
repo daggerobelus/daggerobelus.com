@@ -3,6 +3,14 @@
   "archive_ref": "B 8281 no 1",
   "location": "Villers-sous-Preny",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Bastien Treuchot",
+    "person_id": null,
+    "occupation": null,
+    "location": "Villers-sous-Preny",
+    "relationship_to_accused": "Called her witch in public insult, triggering husband's complaint"
+  },
   "dates": {
     "start": "1599-03-12",
     "end": "1600-04-04",
@@ -12,10 +20,20 @@
   "accused": [
     {
       "name": "Jeanne femme Claudin Bigenel",
+      "person_id": null,
       "gender": "female",
       "age": 57,
       "age_approximate": true,
-      "occupation": ["animal herder", "herb collector"],
+      "occupation": [
+        "animal herder",
+        "herb collector"
+      ],
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies",
+        "charms_amulets"
+      ],
       "origin": "Vitry en Partoy",
       "residence": "Villers-sous-Preny",
       "marital_status": "married",
@@ -38,9 +56,14 @@
           "location": null,
           "description": null
         },
-        "powder_types": ["yellow powder (to kill)", "black powder (to cure)"],
+        "powder_types": [
+          "yellow powder (to kill)",
+          "black powder (to cure)"
+        ],
         "sabbat_attended": true,
-        "sabbat_locations": ["wood near Rembercourt"],
+        "sabbat_locations": [
+          "wood near Rembercourt"
+        ],
         "sabbat_activities": [
           "dancing",
           "all masked",
@@ -58,6 +81,7 @@
     {
       "number": 1,
       "name": "Claudin le Gaulx",
+      "person_id": null,
       "gender": "male",
       "age": 65,
       "occupation": "maire pour les Srs",
@@ -87,6 +111,7 @@
     {
       "number": 2,
       "name": "Anthoine Chantaire",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "mre echevin en la justice",
@@ -108,6 +133,7 @@
     {
       "number": 3,
       "name": "Blaison Vit",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -153,7 +179,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -174,7 +201,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -195,7 +223,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -216,7 +245,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -245,7 +275,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -266,7 +297,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 10,
@@ -287,7 +319,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -308,7 +341,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -337,7 +371,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -358,7 +393,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -394,7 +430,8 @@
         "theft_mentioned": true,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -437,7 +474,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -458,7 +496,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -487,7 +526,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -537,7 +577,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -566,7 +607,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 21,
@@ -587,7 +629,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -660,7 +703,9 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["rack or strappado (method not specified in detail)"],
+    "methods": [
+      "rack or strappado (method not specified in detail)"
+    ],
     "requesting_official": "Remy (procureur general)",
     "approving_court": "Change de Nancy",
     "restrictions": "with moderation appropriate to her age"
@@ -1398,7 +1443,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Multiple witnesses noted had not heard of her seeking redress for being called witch",
     "imprisonment_conditions": "Found dead in prison with no apparent reason; goaler said she had eaten well previous day and made no complaint about illness",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved arrest and interrogation (Dec 1599); Asked for separate interrogation on each charge and different confrontation (Feb 1600); Approved torture with moderation appropriate to age (Feb 1600); Approved death sentence subject to reiteration of confessions (Mar 1600)",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1433,9 +1483,17 @@
     ],
     "oldest_accusation_years": 56,
     "corroboration_groups": [
-      [18, 19],
-      [8, 16],
-      [1]
+      [
+        18,
+        19
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        1
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1477,189 +1535,216 @@
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
-      "context": "Called her 'vielle genosse, sorciere, coppon d'enfer' in public, triggering husband's complaint and trial; owned horse that died; his wife Lucye also mentioned"
+      "context": "Called her 'vielle genosse, sorciere, coppon d'enfer' in public, triggering husband's complaint and trial; owned horse that died; his wife Lucye also mentioned",
+      "person_id": null
     },
     {
       "name": "Babon (first wife of Claudin Bigenel)",
       "role_in_narrative": "victim",
       "relationship_to_accused": "predecessor as wife of current husband",
       "relationship_to_witness": null,
-      "context": "Died after being ill for 3+ months; on deathbed accused Jeanne of giving her fatal harm; was 'more beautiful' than Jeanne according to testimony"
+      "context": "Died after being ill for 3+ months; on deathbed accused Jeanne of giving her fatal harm; was 'more beautiful' than Jeanne according to testimony",
+      "person_id": null
     },
     {
       "name": "Pierre Masson (also called Anthoine Limousin Masson)",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "former betrothed",
       "relationship_to_witness": null,
-      "context": "Was betrothed to Jeanne but broke it off; reason given was her stepfather stripped dead animals, not her reputation"
+      "context": "Was betrothed to Jeanne but broke it off; reason given was her stepfather stripped dead animals, not her reputation",
+      "person_id": null
     },
     {
       "name": "Hanry Pinelle (Puinel)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "deceased first husband",
       "relationship_to_witness": null,
-      "context": "Manouvrier/servant who married Jeanne; they had two children together; lived together 14 years; died 4-5 years into marriage per one account, 14 years per Jeanne's account"
+      "context": "Manouvrier/servant who married Jeanne; they had two children together; lived together 14 years; died 4-5 years into marriage per one account, 14 years per Jeanne's account",
+      "person_id": null
     },
     {
       "name": "Drolbat",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "father of illegitimate child",
       "relationship_to_witness": null,
-      "context": "Charcoal burner who seduced Jeanne when young and accepted responsibility for child"
+      "context": "Charcoal burner who seduced Jeanne when young and accepted responsibility for child",
+      "person_id": null
     },
     {
       "name": "George Fourot",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law",
       "relationship_to_witness": null,
-      "context": "Husband of Jeanne's daughter, lived in Nolleray; was sick and daughter said mother unwilling to visit him"
+      "context": "Husband of Jeanne's daughter, lived in Nolleray; was sick and daughter said mother unwilling to visit him",
+      "person_id": null
     },
     {
       "name": "Daughter of Jeanne (unnamed, wife of George Fourot)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
-      "context": "Said at mill that mother unwilling to visit sick husband, feared she would cause dishonour"
+      "context": "Said at mill that mother unwilling to visit sick husband, feared she would cause dishonour",
+      "person_id": null
     },
     {
       "name": "Daughter of Jeanne (unmarried, sought by Jacques Barbillon)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
-      "context": "Was of marriageable age; Jacques Barbillon frequented house when courting her but married someone else"
+      "context": "Was of marriageable age; Jacques Barbillon frequented house when courting her but married someone else",
+      "person_id": null
     },
     {
       "name": "Barbe (daughter, wife of Fiacre Barbillon)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
-      "context": "Had dispute with miller Germain le Rond who told her not to make him speak out"
+      "context": "Had dispute with miller Germain le Rond who told her not to make him speak out",
+      "person_id": null
     },
     {
       "name": "Daughter who worked for Blaison Jeantaire",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
-      "context": "Was servant in house of Blaison Jeantaire; not renewed in service at end of year; came to fetch trunk when employment terminated"
+      "context": "Was servant in house of Blaison Jeantaire; not renewed in service at end of year; came to fetch trunk when employment terminated",
+      "person_id": null
     },
     {
       "name": "Cathin femme Drian Gigould",
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member",
       "relationship_to_witness": "wife of witness 15",
-      "context": "Fell ill after quarrel with Jeanne, worse than husband; now dead by time of torture interrogation"
+      "context": "Fell ill after quarrel with Jeanne, worse than husband; now dead by time of torture interrogation",
+      "person_id": null
     },
     {
       "name": "Lucye femme Bastien Treuchot",
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "community member",
       "relationship_to_witness": null,
-      "context": "Told Elizabeth that milk had been off for 6 weeks until she asked Jeanne about it"
+      "context": "Told Elizabeth that milk had been off for 6 weeks until she asked Jeanne about it",
+      "person_id": null
     },
     {
       "name": "Germain le Rond",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "miller who had dispute with daughter",
       "relationship_to_witness": null,
-      "context": "Miller; had dispute with Barbe (daughter); told her not to make him speak out; his child had been ill"
+      "context": "Miller; had dispute with Barbe (daughter); told her not to make him speak out; his child had been ill",
+      "person_id": null
     },
     {
       "name": "Mlle de Barisey",
       "role_in_narrative": "official",
       "relationship_to_accused": "landlord/employer",
       "relationship_to_witness": null,
-      "context": "Estate owner; Bigenel rented vines from her; ordered Jeanne to collect herbs for horse; Blaison Jeantaire worked at her house"
+      "context": "Estate owner; Bigenel rented vines from her; ordered Jeanne to collect herbs for horse; Blaison Jeantaire worked at her house",
+      "person_id": null
     },
     {
       "name": "Mr de Roussy",
       "role_in_narrative": "official",
       "relationship_to_accused": "château official",
       "relationship_to_witness": null,
-      "context": "At château; Jean Michault told him about illness; not pleased about accusation"
+      "context": "At château; Jean Michault told him about illness; not pleased about accusation",
+      "person_id": null
     },
     {
       "name": "Didier la Ruelle",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "former employer of first husband",
       "relationship_to_witness": null,
-      "context": "Hanry Puinel was servant in his house"
+      "context": "Hanry Puinel was servant in his house",
+      "person_id": null
     },
     {
       "name": "Martin Colas",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father (deceased)",
       "relationship_to_witness": null,
-      "context": "Father of Jeanne; drowned when bathing when she was 5 or 6; two godparents also drowned same time"
+      "context": "Father of Jeanne; drowned when bathing when she was 5 or 6; two godparents also drowned same time",
+      "person_id": null
     },
     {
       "name": "Barbe (mother)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
-      "context": "Wife of Martin Colas; came as beggar with Jeanne to Villers after husband drowned"
+      "context": "Wife of Martin Colas; came as beggar with Jeanne to Villers after husband drowned",
+      "person_id": null
     },
     {
       "name": "Uncle at Mongueville",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "uncle",
       "relationship_to_witness": null,
-      "context": "Jeanne went to visit him in 6th year of widowhood"
+      "context": "Jeanne went to visit him in 6th year of widowhood",
+      "person_id": null
     },
     {
       "name": "Percinet",
       "role_in_narrative": "other",
       "relationship_to_accused": "alleged devil/master",
       "relationship_to_witness": null,
-      "context": "Devil who allegedly seduced her, appeared as man in black, gave her powders and money (oak leaves), had intercourse with her, carried her to sabbat"
+      "context": "Devil who allegedly seduced her, appeared as man in black, gave her powders and money (oak leaves), had intercourse with her, carried her to sabbat",
+      "person_id": null
     },
     {
       "name": "3 masters at sabbat",
       "role_in_narrative": "other",
       "relationship_to_accused": "alleged devils at sabbat",
       "relationship_to_witness": null,
-      "context": "One was large and turned around the dance; one carried her on shoulders with noise like thunder"
+      "context": "One was large and turned around the dance; one carried her on shoulders with noise like thunder",
+      "person_id": null
     },
     {
       "name": "Many women and some men at sabbat",
       "role_in_narrative": "other",
       "relationship_to_accused": "alleged sabbat attendees",
       "relationship_to_witness": null,
-      "context": "All masked, dancing at wood near Rembercourt"
+      "context": "All masked, dancing at wood near Rembercourt",
+      "person_id": null
     },
     {
       "name": "Goaler",
       "role_in_narrative": "official",
       "relationship_to_accused": "jailer",
       "relationship_to_witness": null,
-      "context": "Reported she had taken food well previous day and made no complaint about illness before death"
+      "context": "Reported she had taken food well previous day and made no complaint about illness before death",
+      "person_id": null
     },
     {
       "name": "Butcher",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "examined dead horse",
       "relationship_to_witness": null,
-      "context": "Cut up dead horse and showed Blaison Jeantaire worms in lung and creatures like snails from testicles"
+      "context": "Cut up dead horse and showed Blaison Jeantaire worms in lung and creatures like snails from testicles",
+      "person_id": null
     },
     {
       "name": "Young man who went off with soldiers",
       "role_in_narrative": "other",
       "relationship_to_accused": "context for meeting Bigenel",
       "relationship_to_witness": null,
-      "context": "Bigenel was looking for him when he met Jeanne and other widow on road"
+      "context": "Bigenel was looking for him when he met Jeanne and other widow on road",
+      "person_id": null
     },
     {
       "name": "Another widow",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "traveling companion",
       "relationship_to_witness": null,
-      "context": "Went with Jeanne to visit uncle at Mongueville"
+      "context": "Went with Jeanne to visit uncle at Mongueville",
+      "person_id": null
     },
     {
       "name": "Stepfather (perattre)",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "stepfather",
       "relationship_to_witness": null,
-      "context": "Stripped dead animals; this occupation was reason Pierre Masson didn't marry Jeanne according to her account"
+      "context": "Stripped dead animals; this occupation was reason Pierre Masson didn't marry Jeanne according to her account",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

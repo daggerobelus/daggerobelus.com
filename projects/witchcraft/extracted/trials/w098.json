@@ -3,6 +3,8 @@
   "archive_ref": "B 5344 no 1",
   "location": "Amange",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": null,
   "dates": {
     "start": "1608-11-12",
     "end": "1609-01-08",
@@ -12,14 +14,22 @@
   "accused": [
     {
       "name": "Synnel Stumpff",
+      "person_id": null,
       "gender": "female",
       "age": 56,
       "age_approximate": true,
-      "occupation": ["miller's wife"],
+      "occupation": [
+        "miller's wife"
+      ],
       "origin": "Kerche in Luxembourg",
       "residence": "Amange (modern Insming, 17 km east of Morhange)",
       "marital_status": "married",
       "spouse_name": "Hans Stumpff",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies"
+      ],
       "parents": {
         "father": "Bernhard",
         "mother": "Marie"
@@ -38,9 +48,15 @@
           "location": null,
           "description": null
         },
-        "powder_types": ["horsedung", "powder made from burned unbaptised child's body"],
+        "powder_types": [
+          "horsedung",
+          "powder made from burned unbaptised child's body"
+        ],
         "sabbat_attended": true,
-        "sabbat_locations": ["mountain near Heyliguer", "near Nelling"],
+        "sabbat_locations": [
+          "mountain near Heyliguer",
+          "near Nelling"
+        ],
         "sabbat_activities": [
           "wedding feast with wine and meat but little bread and no salt",
           "noce de saba where grand-daughter of la Grosse Mairesse (aged about 10) was given to 'un beau jeune diable'",
@@ -56,6 +72,7 @@
     {
       "number": 1,
       "name": "Bingel femme Kutz Nickel",
+      "person_id": null,
       "gender": "female",
       "age": 21,
       "testimony": {
@@ -66,6 +83,7 @@
     {
       "number": 2,
       "name": "Odille femme Schwaben Mathis",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "testimony": {
@@ -84,6 +102,7 @@
     {
       "number": 3,
       "name": "Sybille femme Stoffel Schmidt",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "testimony": {
@@ -117,7 +136,8 @@
             "time_after_quarrel": null
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -133,7 +153,8 @@
             "time_after_quarrel": "immediately"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -151,7 +172,8 @@
             "time_after_quarrel": null
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -199,7 +221,8 @@
             "time_between_quarrel_and_harm": null
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -224,7 +247,8 @@
             "attributed_to": "Synnel Stumpff"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -247,7 +271,8 @@
             "time_between_quarrel_and_harm": "immediately"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 10,
@@ -276,7 +301,8 @@
             "harm_description": "heard mother-in-law say 'va, va en l'estable de la grosse Anne sur la noire vache'"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -286,7 +312,8 @@
       "testimony": {
         "reputation_mentioned": true,
         "reputation_duration_years": null
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -296,7 +323,8 @@
       "testimony": {
         "reputation_mentioned": true,
         "reputation_duration_years": null
-      }
+      },
+      "person_id": null
     },
     {
       "number": 13,
@@ -305,7 +333,8 @@
       "age": 28,
       "testimony": {
         "reputation_mentioned": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -314,7 +343,8 @@
       "age": 60,
       "testimony": {
         "reputation_mentioned": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -324,7 +354,8 @@
       "testimony": {
         "reputation_mentioned": true,
         "reputation_duration_years": null
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -354,7 +385,8 @@
             "harm_description": "taken out of stable and found dead next day as if roasted"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -375,7 +407,8 @@
             "time_between_quarrel_and_harm": "previous year"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -384,7 +417,8 @@
       "age": 42,
       "testimony": {
         "reputation_mentioned": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -396,7 +430,8 @@
         "reputation_duration_years": null,
         "threat_received": true,
         "threat_quote": "rien de bon (when asked what the weather would be)"
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -413,7 +448,8 @@
         "threat_quote": "Said she would take action if she had witnesses, adding 'qu'il luy feroit volontier perdre son bien d'aultant qu'il n'avoit rien a perdre'",
         "called_witch_publicly": true,
         "sought_legal_redress": true
-      }
+      },
+      "person_id": null
     },
     {
       "number": 21,
@@ -423,7 +459,8 @@
       "testimony": {
         "reputation_mentioned": true,
         "reputation_duration_years": null
-      }
+      },
+      "person_id": null
     },
     {
       "number": 22,
@@ -434,7 +471,8 @@
       "testimony": {
         "reputation_mentioned": true,
         "reputation_duration_years": null
-      }
+      },
+      "person_id": null
     },
     {
       "number": 23,
@@ -445,7 +483,8 @@
       "relationship_to_accused": "former servant",
       "testimony": {
         "reputation_mentioned": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 24,
@@ -456,7 +495,8 @@
         "reputation_mentioned": false,
         "threat_received": true,
         "threat_quote": "Que parle tu, ton pere s'en ressentira (to son of Thiebault Cordonnier)"
-      }
+      },
+      "person_id": null
     },
     {
       "number": 25,
@@ -476,7 +516,8 @@
             "time_between_quarrel_and_harm": "3 years earlier"
           }
         ]
-      }
+      },
+      "person_id": null
     },
     {
       "number": 26,
@@ -485,7 +526,8 @@
       "age": 39,
       "testimony": {
         "reputation_mentioned": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 27,
@@ -498,7 +540,8 @@
         "quarrel_subject": "had cows on lease from her which she took back before term - he was angry and called her witch",
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 28,
@@ -511,7 +554,8 @@
         "reputation_duration_years": 20,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -596,7 +640,9 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["strappado"],
+    "methods": [
+      "strappado"
+    ],
     "requesting_official": "C.M. Rémy",
     "approving_court": "Change de Nancy",
     "restrictions": "ordinary torture only (question ordinaire)"
@@ -1328,7 +1374,12 @@
     ],
     "accused_sought_redress": true,
     "redress_outcome": "When Schu Thiebault called her witch, she said she would take action if she had witnesses, but took no action. When Schur Adam called her witch, her servant pointed this out to her but she said he did not know what he was saying and took no action",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "remanded",
+      "modification_details": "The Change de Nancy objected to the improper torture procedure (repeating torture on consecutive days, Jan 2-3, 1609) and required further free confession before sentence could be confirmed. Rémy's marginal note warned local officials that it was not permitted to repeat torture at daily intervals and they must abstain from this under penalty of prosecution by the procureur general.",
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1383,9 +1434,21 @@
     ],
     "oldest_accusation_years": 20,
     "corroboration_groups": [
-      [5, 9, 10],
-      [8, 13, 14],
-      [7, 19, 20]
+      [
+        5,
+        9,
+        10
+      ],
+      [
+        8,
+        13,
+        14
+      ],
+      [
+        7,
+        19,
+        20
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1432,102 +1495,121 @@
     {
       "name": "schoolmaster",
       "role_in_narrative": "victim",
-      "context": "Had cow die, suspected accused, she asked why he had not sought drink from her earlier which might have healed it"
+      "context": "Had cow die, suspected accused, she asked why he had not sought drink from her earlier which might have healed it",
+      "person_id": null
     },
     {
       "name": "sons of Frantz and Thomas Colas",
       "role_in_narrative": "hearsay_source",
-      "context": "Reportedly saw accused riding a fork"
+      "context": "Reportedly saw accused riding a fork",
+      "person_id": null
     },
     {
       "name": "lame girl who lived with accused",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "lived with her",
-      "context": "Came to look at dead mare being cut up"
+      "context": "Came to look at dead mare being cut up",
+      "person_id": null
     },
     {
       "name": "Hanns fils Diebelt",
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "servant of Stephen Schwab",
-      "context": "Saw accused by his bed one night, could not speak; presently absent during trial"
+      "context": "Saw accused by his bed one night, could not speak; presently absent during trial",
+      "person_id": null
     },
     {
       "name": "woman healer at Riche",
       "role_in_narrative": "other",
-      "context": "Consulted about la grosse Anne's illness, diagnosed 'un mauvais vent', gave healing water"
+      "context": "Consulted about la grosse Anne's illness, diagnosed 'un mauvais vent', gave healing water",
+      "person_id": null
     },
     {
       "name": "Marie (sister-in-law of Jean Cordonnier)",
       "role_in_narrative": "victim",
       "relationship_to_witness": "sister-in-law of witness 11",
-      "context": "Claimed to have been frightened by seeing accused at foot of bed"
+      "context": "Claimed to have been frightened by seeing accused at foot of bed",
+      "person_id": null
     },
     {
       "name": "Nickel from Kigner",
       "role_in_narrative": "hearsay_source",
-      "context": "Told Jean Tixerant that accused had been seen up tree using birds to take grain to her loft"
+      "context": "Told Jean Tixerant that accused had been seen up tree using birds to take grain to her loft",
+      "person_id": null
     },
     {
       "name": "son of Schu Thiebault",
       "role_in_narrative": "hearsay_source",
       "relationship_to_witness": "son of witness 20",
-      "context": "Reportedly saw accused at foot of his bed by night; absent at present"
+      "context": "Reportedly saw accused at foot of his bed by night; absent at present",
+      "person_id": null
     },
     {
       "name": "son of Thiebault Cordonnier",
       "role_in_narrative": "victim",
-      "context": "Saw accused at foot of bed at night, used right thumb technique to speak, she threatened him"
+      "context": "Saw accused at foot of bed at night, used right thumb technique to speak, she threatened him",
+      "person_id": null
     },
     {
       "name": "Britz de Nelling",
       "role_in_narrative": "victim",
-      "context": "Owner of horse that drowned in shallow stream, suspected accused because he ceased to use her mill"
+      "context": "Owner of horse that drowned in shallow stream, suspected accused because he ceased to use her mill",
+      "person_id": null
     },
     {
       "name": "Capitaine Melon",
       "role_in_narrative": "other",
-      "context": "Was with René de Villiers when they encountered accused with pot containing oak leaves (now deceased)"
+      "context": "Was with René de Villiers when they encountered accused with pot containing oak leaves (now deceased)",
+      "person_id": null
     },
     {
       "name": "frère Pierre",
       "role_in_narrative": "hearsay_source",
-      "context": "Now curé at Munster, reportedly saw accused and Odille femme Henry Cousturier by his bed at priory of Amange, thought accused killed his horse worth 50 écus"
+      "context": "Now curé at Munster, reportedly saw accused and Odille femme Henry Cousturier by his bed at priory of Amange, thought accused killed his horse worth 50 écus",
+      "person_id": null
     },
     {
       "name": "Schect",
       "role_in_narrative": "other",
-      "context": "Named in confession as present when horse was killed, father of Else"
+      "context": "Named in confession as present when horse was killed, father of Else",
+      "person_id": null
     },
     {
       "name": "daughter of Hanns Schneider, wife of Nicklas Marchal",
       "role_in_narrative": "prior_accused",
-      "context": "Named as accomplice in confession"
+      "context": "Named as accomplice in confession",
+      "person_id": null
     },
     {
       "name": "Mayette daughter of Woitsche Thiebault of Nelling",
       "role_in_narrative": "prior_accused",
-      "context": "Named as present at sabbat wedding feast"
+      "context": "Named as present at sabbat wedding feast",
+      "person_id": null
     },
     {
       "name": "grand-daughter of la Grosse Mairesse",
       "role_in_narrative": "other",
-      "context": "Aged about 10, given to 'un beau jeune diable' at sabbat near Nelling"
+      "context": "Aged about 10, given to 'un beau jeune diable' at sabbat near Nelling",
+      "person_id": null
     },
     {
       "name": "Colmans Nickel",
       "role_in_narrative": "victim",
-      "context": "Owner of mare that witches killed according to confession"
+      "context": "Owner of mare that witches killed according to confession",
+      "person_id": null
     },
     {
       "name": "child of prévôt of Amange",
       "role_in_narrative": "victim",
-      "context": "Named in confession as killed by witches"
+      "context": "Named in confession as killed by witches",
+      "person_id": null
     },
     {
       "name": "unbaptised child",
       "role_in_narrative": "victim",
-      "context": "Body kept for 3 days and nights then burned to make powder"
+      "context": "Body kept for 3 days and nights then burned to make powder",
+      "person_id": null
     }
   ],
   "prior_accusations": [

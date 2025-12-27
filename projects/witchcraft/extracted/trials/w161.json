@@ -1,0 +1,1275 @@
+{
+  "trial_id": "w161",
+  "archive_ref": "B8677 no 7",
+  "location": "Entre-deux-Eaux",
+  "court": "St. Dié",
+  "language_region": "french",
+  "dates": {
+    "start": "1596-10-28",
+    "end": "1596-11-19",
+    "duration_days": 22
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Claudatte veuve Estienne Jean de Saulcy",
+      "person_id": null,
+      "gender": "female",
+      "age": 70,
+      "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "charms_amulets"],
+      "occupation": ["day laborer", "beggar"],
+      "origin": "Mandray",
+      "residence": "Entre-deux-Eaux",
+      "marital_status": "widowed",
+      "spouse_name": "Estienne Jean de Saulcy",
+      "parents": {
+        "father": "Jacquemin Henry Finance",
+        "mother": "Mengeotte"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Persin",
+        "devil_appearance": "two men dressed in black like priests",
+        "seduction_date": "23 years before trial",
+        "seduction_context": "appeared in her room when she was ill in bed after husband's death, promised her money knowing her poverty",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["unspecified powder for causing harm"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["dancing", "feasting"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Gerard",
+      "person_id": null,
+      "gender": "male",
+      "age": 29,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "pig",
+            "target_relationship": "his own",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "about a year after initial sighting"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Francois Mareschal",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Mengeon Jean le Roueyr jeune fils",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute about whether witches existed after execution of 3 witches at Moyenmoustier",
+        "threat_received": true,
+        "threat_quote": "qu'ilz auroient peut-estre autre chose à faire",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "immediately"
+          },
+          {
+            "type": "human_death",
+            "target": "Benite (daughter of Vincent le Rouyer)",
+            "target_relationship": "his cousin",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "18 months before testimony"
+          },
+          {
+            "type": "human_death",
+            "target": "Vincent le Rouyer",
+            "target_relationship": "his uncle",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "18 months before testimony"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Demenge fils de Dedier Grand Colin",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Claudatte touched his mother's shoulder in church at Easter, causing pain",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his mother",
+            "target_relationship": "mother",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "3 years ago, Easter to St. Remy, died 3 days after Claudatte's final visit"
+          },
+          {
+            "type": "human_illness",
+            "target": "Colas (his brother)",
+            "target_relationship": "brother",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "7 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 5,
+      "name": "Mengeotte femme de Vincent Jeandey",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to give milk to Claudatte; refused to give chemise",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean (her brother)",
+            "target_relationship": "brother",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "same day"
+          },
+          {
+            "type": "human_death",
+            "target": "Colatte (her sister)",
+            "target_relationship": "sister",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "a year ago last Easter"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jehenne femme a Dieudonne Jean Laurent",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "pig",
+            "target_relationship": "her and her mother's",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "10 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jehenne femme a Colin Dieudonne",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Claudey Laulney",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Marion femme a Claudon le Masson",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "a year ago at last harvest"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Barbelline femme a Dieudonne Jean de la Gotte",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Mandray",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "her daughter called Claudatte's son 'fils de genoxe' during quarrel while guarding animals",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "her daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "a few days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Jean Viole",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his pigs damaged her garden",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "some days later"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jean George Laulney",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 26,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "oak he cut down damaged roof of Claudatte's house",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "his own",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "less than a fortnight"
+          },
+          {
+            "type": "animal_death",
+            "target": "foal and three pigs",
+            "target_relationship": "his own",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "3 years ago"
+          },
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "around same time"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Marion veuve de Jean Demenge Lienard",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 25,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Didier Grand Colin",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "wife's illness and his calling Claudatte a witch",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his wife",
+            "target_relationship": "wife",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "3 years before"
+          },
+          {
+            "type": "human_illness",
+            "target": "his son",
+            "target_relationship": "son",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "7 years earlier"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 14,
+      "name": "Dieudonne Jean de la Gotte",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Mandray",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "his daughter",
+            "target_relationship": "daughter",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "7 or 8 years back"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jehenne femme a Claude Gabourel",
+      "person_id": null,
+      "gender": "female",
+      "age": 28,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to give butter and wood",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her newborn child",
+            "target_relationship": "child",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "at last Whitsun"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Marguitte femme a Claude Vincent",
+      "person_id": null,
+      "gender": "female",
+      "age": 46,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "her small son",
+            "target_relationship": "son",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "11 years before"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Marion veuve de Colas Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 64,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "dog",
+            "target_relationship": "her own",
+            "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+            "time_after_quarrel": "about a year before"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Demenge Mathis",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Entre-deux-Eaux",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "theft_mentioned": false,
+        "called_witch_publicly": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1596-10-28",
+      "event": "informations_preparatoires",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "18 witnesses testify before St. Dié court"
+    },
+    {
+      "date": "1596-10-29",
+      "event": "interrogation",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "First interrogation, admits temptation by two men in black"
+    },
+    {
+      "date": "1596-10-30",
+      "event": "confrontation",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Confronted with witnesses, admits sabbat attendance and names Jean Blaise"
+    },
+    {
+      "date": "1596-11-04",
+      "event": "torture_requested",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Procureur d'office for chapter requests torture with moderation suitable to her age"
+    },
+    {
+      "date": "1596-11-05",
+      "event": "torture_approved",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1596-11-07",
+      "event": "torture",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Tortured on rack, confesses to multiple malefices and names accomplices"
+    },
+    {
+      "date": "1596-11-08",
+      "event": "interrogation",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Repeats confessions from torture"
+    },
+    {
+      "date": "1596-11-11",
+      "event": "death_requested",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Procureur d'office asks for death sentence"
+    },
+    {
+      "date": "1596-11-13",
+      "event": "death_approved",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Change de Nancy agrees, subject to reinterrogation without duress"
+    },
+    {
+      "date": "1596-11-15",
+      "event": "interrogation",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Final interrogation without duress, repeats confessions, asks to be executed"
+    },
+    {
+      "date": "1596-11-19",
+      "event": "execution",
+      "subject": "Claudatte veuve Estienne Jean de Saulcy",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack"],
+    "requesting_official": "procureur d'office for chapter",
+    "approving_court": "Change de Nancy",
+    "restrictions": "with moderation suitable to her age"
+  },
+  "accomplices_named": [
+    {
+      "name": "Jean Blaise Laisney",
+      "location": "Entre-deux-Eaux",
+      "context": "Named during interrogation and torture as attending sabbat; had told her 4 weeks before arrest that if taken he would not accuse her",
+      "already_executed": false
+    },
+    {
+      "name": "la Grande Catellon",
+      "location": "Mandray",
+      "context": "Seen at sabbat, perhaps Catellon Jean Colin",
+      "already_executed": false
+    },
+    {
+      "name": "Jehenne wife of Claude Didier Martin",
+      "location": "Mandray",
+      "context": "Seen at sabbat, daughter of Jean Babey of Mandray",
+      "already_executed": false,
+      "trial_id": ""
+    },
+    {
+      "name": "Jean Babey",
+      "location": "Mandray",
+      "context": "Father of Jehenne wife of Claude Didier Martin",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudatte veuve Estienne Jean de Saulcy",
+      "french": "que le bruict couroit que l'on la vouloit apprehender pour une sorciere, mais que sy on la prenoit pour telle l'on en prendroit encor bien d'autres",
+      "english": "that rumor was circulating that they wanted to arrest her as a witch, but that if they took her as such they would take many others as well",
+      "context": "Statement made 3 weeks before arrest, reported by witness 2"
+    },
+    {
+      "speaker": "Claudatte veuve Estienne Jean de Saulcy",
+      "french": "Que sy elle estoit sorciere c'estoit à faulte de pretres",
+      "english": "That if she was a witch it was the fault of the priests",
+      "context": "Repeated statement about priestly responsibility for witchcraft, multiple witnesses"
+    },
+    {
+      "speaker": "Claudatte veuve Estienne Jean de Saulcy",
+      "french": "Que sy elle estoit sorciere cela ne provenoit de sa faulte mais plustost du prebtre qui ne l'auroit pas bien baptisée",
+      "english": "That if she was a witch it was not her fault but rather the priest who did not baptize her properly",
+      "context": "Variant of statement blaming priests, reported by witness 7"
+    },
+    {
+      "speaker": "Claudatte veuve Estienne Jean de Saulcy",
+      "french": "Qu'elle n'avoit rien que ce qu'elle avoit meritée",
+      "english": "That she had nothing but what she deserved",
+      "context": "Angry reply when sympathetic remark made as she left sick woman's chamber, reported by Gregoire Jean Don to witness 4"
+    },
+    {
+      "speaker": "Claudatte veuve Estienne Jean de Saulcy",
+      "french": "Et prie pour l'honneur dieu qu'on la fasse mourir le plustost qu'il sera possible pour le salut de son ame, et qu'elle vouldroit qu'il ny ait plus de sorciers ny sorcieres au monde, qu'elle soit la derniere Affin que les biens de dessus la terre viennent a plus grand perfection qu'ils ne sont, et que tant et sy longtemps qu'il y en aura que ce sera ung grand malheur pour le pauvre peuple. Et sur ce a prié d'avoir ung bon confesseur pour faire le salut de son ame, et prie a tout ceulx qu'elle a offencés de luy vouloir pardonner.",
+      "english": "And prays for the honor of God that they execute her as soon as possible for the salvation of her soul, and that she wishes there were no more witches in the world, that she be the last so that the goods of the earth come to greater perfection than they are, and that as long as there are any it will be a great misfortune for the poor people. And she has prayed to have a good confessor for the salvation of her soul, and prays all those she has offended to forgive her.",
+      "context": "Final statement before execution, 15 November 1596"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claudatte veuve Estienne Jean de Saulcy",
+      "person2": "Estienne Jean de Saulcy",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "widow of Estienne Jean de Saulcy, married 48 years before, lived together 24 years",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte veuve Estienne Jean de Saulcy",
+      "person2": "Jacquemin Henry Finance",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of Jacquemin Henry Finance of Mandray",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte veuve Estienne Jean de Saulcy",
+      "person2": "Mengeotte",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of his wife Mengeotte",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Jean le Roueyr jeune fils",
+      "person2": "Vincent le Rouyer",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his uncle Vincent le Rouyer, maire of village",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Jean le Roueyr jeune fils",
+      "person2": "Benite",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Benite, daughter of Vincent le Rouyer (witness's uncle)",
+      "inferred": true
+    },
+    {
+      "person1": "Vincent le Rouyer",
+      "person2": "Benite",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "victim",
+      "evidence_text": "spoke with his daughter Benite",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge fils de Dedier Grand Colin",
+      "person2": "Didier Grand Colin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Demenge fils de Dedier Grand Colin",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge fils de Dedier Grand Colin",
+      "person2": "Colas",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his brother Colas, now married at Scanrux",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Grand Colin",
+      "person2": "wife of Didier Grand Colin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Told of his wife's illness 3 years before",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte veuve Estienne Jean de Saulcy",
+      "person2": "wife of Didier Grand Colin",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "she came to see her 'commere'",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme de Vincent Jeandey",
+      "person2": "Jean (brother)",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her brother Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme de Vincent Jeandey",
+      "person2": "Benite",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her sister Benite",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme de Vincent Jeandey",
+      "person2": "Colatte",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "another sister, Colatte",
+      "inferred": false
+    },
+    {
+      "person1": "Barbelline femme a Dieudonne Jean de la Gotte",
+      "person2": "Dieudonne Jean de la Gotte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "wife of Dieudonne Jean de la Gotte",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne wife of Claude Didier Martin",
+      "person2": "Jean Babey",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "daughter of Jean Babey of Mandray, already executed",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "pig belonging to Jean Gerard",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "became ill after Claudatte passed hand along its back, recovered when she passed hand over it again",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "came to beg at his door",
+      "time_between_quarrel_and_harm": "about a year earlier",
+      "method_alleged": "touch",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Mengeon Jean le Roueyr jeune fils",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "strange illness with pains in legs, 18 holes appeared oozing something black as ink which burned him, lasted 2-3 weeks",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "disputed about existence of witches after seeing execution at Moyenmoustier",
+      "time_between_quarrel_and_harm": "immediately",
+      "method_alleged": "touch on shoulder",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Benite (daughter of Vincent le Rouyer)",
+      "victim_relationship_to_witness": "cousin",
+      "harm_category": "human_death",
+      "harm_description": "became as if demented, eyes turned strangely, would not eat, said only 'Jesus' two times, died in 18 hours",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "Claudatte visited house during Vincent's illness",
+      "time_between_quarrel_and_harm": "immediately as Claudatte left",
+      "method_alleged": "proximity, going around house together",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Vincent le Rouyer (maire)",
+      "victim_relationship_to_witness": "uncle",
+      "harm_category": "human_death",
+      "harm_description": "very ill, died 3 weeks after daughter Benite",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "18 months earlier",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "mother of witness 4",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_death",
+      "harm_description": "felt great pain around heart after Claudatte touched her shoulder in church at Easter, ill from Easter to St. Remy, died third day after Claudatte's final visit",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "touched shoulder in church, later called witch by husband",
+      "time_between_quarrel_and_harm": "3 years ago",
+      "method_alleged": "touch",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Colas (brother of witness 4)",
+      "victim_relationship_to_witness": "brother",
+      "harm_category": "human_illness",
+      "harm_description": "great pain in head, unable to work for 7 weeks",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "Claudatte passed hand over his head",
+      "time_between_quarrel_and_harm": "same hour",
+      "method_alleged": "touch - passed hand over head from back to forehead",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jean (brother of witness 5)",
+      "victim_relationship_to_witness": "brother",
+      "harm_category": "human_death",
+      "harm_description": "great pains throughout body, died in 8 days",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "refused to give milk",
+      "time_between_quarrel_and_harm": "same day",
+      "method_alleged": "threat/words",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Colatte (sister of witness 5)",
+      "victim_relationship_to_witness": "sister",
+      "harm_category": "human_death",
+      "harm_description": "headache which spread to rest of body, died three weeks later",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "promised chemise but did not give it due to soldiers coming",
+      "time_between_quarrel_and_harm": "a year ago last Easter",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "pig belonging to witness 6 and her mother",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "lost use of back legs, recovered after Claudatte passed baton over its back three times",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "10 years earlier",
+      "method_alleged": "touch with baton",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Claudey Laulney",
+      "harm_category": "human_injury",
+      "harm_description": "went blind",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Marion femme a Claudon le Masson",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "leg trouble, great pain for all next year, cured when Claudatte told her to be patient",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "worked together reaping",
+      "time_between_quarrel_and_harm": "a year ago at last harvest",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "daughter of witness 9",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "abscess on her side which could not be cured for 2 years despite spending much money, healed within fortnight after Claudatte visited",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "daughter called Claudatte's son 'fils de genoxe'",
+      "time_between_quarrel_and_harm": "a few days later",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Jean Viole",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "pain between shoulders, went to bed same day, became blind within two days, remained blind for about a year",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "his pigs damaged her garden, she told him off roundly",
+      "time_between_quarrel_and_harm": "some days later",
+      "method_alleged": "touch along length of face",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "cow belonging to Jean George Laulney",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_death",
+      "harm_description": "lost a cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "10 ecus",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "oak he cut damaged her roof",
+      "time_between_quarrel_and_harm": "less than a fortnight",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "foal and pigs belonging to Jean George Laulney",
+      "victim_relationship_to_witness": "own animals",
+      "harm_category": "animal_death",
+      "harm_description": "lost a foal and three pigs",
+      "animal_type": "foal and pigs",
+      "animal_count": 4,
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "another dispute",
+      "time_between_quarrel_and_harm": "3 years ago",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Jean George Laulney",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "ill and bedridden for 6 weeks, began to recover same day Claudatte visited and told him he would not die",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "around same time",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "wife of Didier Grand Colin",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "ill, Claudatte said no way to cure her because ill too long, got much worse and died third day after Claudatte left",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "called her witch",
+      "time_between_quarrel_and_harm": "3 years before",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "son of Didier Grand Colin",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "great pain in head, unable to work for 7 weeks",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "7 years earlier",
+      "method_alleged": "touch - passed hand over head",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "daughter of Dieudonne Jean de la Gotte",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "illness, recovered in fortnight after offering candle-end to St. Martin as Claudatte advised",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "7 or 8 years back",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "newborn child of Jehenne femme a Claude Gabourel",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "prolonged labor (2 days), child died after birth",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "precipitating_quarrel": "refused to give butter and wood, forgot to invite to birth",
+      "time_between_quarrel_and_harm": "at last Whitsun, 2 weeks after refusal",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "small son of Marguitte femme a Claude Vincent",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "became ill after receiving nuts, died 4 weeks later",
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "11 years before",
+      "method_alleged": "bewitched nuts",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "dog belonging to Marion veuve de Colas Henry",
+      "victim_relationship_to_witness": "own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "ill for 6 weeks, refusing to eat, after eating pears given by Claudatte",
+      "animal_type": "dog",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "about a year before",
+      "method_alleged": "bewitched pears",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "horse belonging to Jean George Laulney",
+      "harm_category": "animal_death",
+      "harm_description": "killed with powder from Mre Persin",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Estienne Jean de Saulcy",
+      "time_between_quarrel_and_harm": "20 years before",
+      "method_alleged": "powder",
+      "witness_number": 0
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread and lard",
+      "context": "given as alms to Claudatte",
+      "category": "food"
+    },
+    {
+      "object": "milk",
+      "context": "requested by Claudatte, refused",
+      "category": "food"
+    },
+    {
+      "object": "chemise",
+      "context": "requested by Claudatte, promised but not given",
+      "category": "clothing"
+    },
+    {
+      "object": "butter",
+      "context": "requested by Claudatte",
+      "category": "food"
+    },
+    {
+      "object": "wood",
+      "context": "requested by Claudatte for fuel",
+      "category": "household"
+    },
+    {
+      "object": "little baton",
+      "context": "Claudatte always carried, used to heal pig",
+      "category": "magical"
+    },
+    {
+      "object": "pears",
+      "context": "given by Claudatte, suspected of being bewitched",
+      "category": "food"
+    },
+    {
+      "object": "nuts",
+      "context": "given to child who later died",
+      "category": "food"
+    },
+    {
+      "object": "candle-end",
+      "context": "offered to St. Martin as cure",
+      "category": "religious"
+    },
+    {
+      "object": "powder",
+      "context": "received from devil, used to kill horse",
+      "category": "magical"
+    },
+    {
+      "object": "5 gros",
+      "context": "debt owed to Claudatte by Demenge Mathis",
+      "category": "money"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Entre-deux-Eaux",
+      "place_type": "village",
+      "context": "primary location of trial and residence of accused"
+    },
+    {
+      "place_name": "Mandray",
+      "place_type": "village",
+      "context": "birthplace of Claudatte, home of some witnesses and accomplices"
+    },
+    {
+      "place_name": "St. Dié",
+      "place_type": "village",
+      "context": "location of court"
+    },
+    {
+      "place_name": "Moyenmoustier",
+      "place_type": "village",
+      "context": "site of execution of 3 witches witnessed 10 years earlier"
+    },
+    {
+      "place_name": "Scanrux",
+      "place_type": "village",
+      "context": "where Colas (witness 4's brother) married"
+    },
+    {
+      "place_name": "St. Margarée",
+      "place_type": "village",
+      "context": "where Henry (companion of witness 3) was living"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "where Claudatte's children went to seek work and marry"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "where property moved when soldiers came, where illness started at Easter"
+    },
+    {
+      "place_name": "mountain",
+      "place_type": "other",
+      "context": "where women and black dog fled"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "company of soldiers coming to lodge in village, forcing people to move property to church for safety",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "accused lived on alms",
+      "accused described as destitute widow",
+      "9 children to support after husband's death",
+      "children went to work in Germany as soon as old enough",
+      "devil tempted her knowing her poverty"
+    ],
+    "religious_calendar_references": [
+      "Easter",
+      "St. Remy",
+      "Whitsun",
+      "St. Martin",
+      "Lent (implied - prescheur St. Humbert)"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Demenge fils de Dedier Grand Colin",
+        "source": "his late mother",
+        "content": "feared Claudatte might cause her illness due to reputation"
+      },
+      {
+        "reporter": "Demenge fils de Dedier Grand Colin",
+        "source": "Gregoire Jean Don",
+        "content": "angry remark Claudatte made when leaving sick woman's chamber"
+      },
+      {
+        "reporter": "Jehenne femme a Colin Dieudonne",
+        "source": "late Claudey Laulney",
+        "content": "claimed Claudatte caused his blindness"
+      }
+    ],
+    "oldest_accusation_years": 30,
+    "corroboration_groups": [
+      [1, 6],
+      [4, 13]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "hesitant during initial interrogation",
+      "ultimately cooperative under torture",
+      "requested quick execution for salvation of soul",
+      "asked for good confessor",
+      "asked forgiveness from those she offended"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Henry",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "companion of witness 3",
+      "context": "went with witness 3 to see execution at Moyenmoustier, now living at St. Margarée"
+    },
+    {
+      "name": "Gregoire Jean Don",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "accompanied Claudatte from sick woman's chamber, heard her angry remark"
+    },
+    {
+      "name": "Claudey Laulney",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "claimed Claudatte caused his blindness, maintained this until death"
+    },
+    {
+      "name": "Claude Vincent",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "employer who hired Claudatte and Marion to reap"
+    },
+    {
+      "name": "son of Claudatte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "child",
+      "context": "called 'fils de genoxe' by daughter of witness 9"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes arose from economic tensions: pigs damaging Claudatte's garden, oak damaging her roof, requests for food and clothing denied. Claudatte's extreme poverty (living on alms, no animals) appears central to community tensions."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Trial record is comprehensive with detailed witness testimony. 18 witnesses provide extensive evidence of alleged harms spanning 30 years. Claudatte's confession obtained under torture follows standard demonological patterns. Notable for her statements blaming priests for witchcraft and her final plea to be executed quickly. Economic desperation clearly central to case.",
+    "pdf_pages": 6
+  }
+}

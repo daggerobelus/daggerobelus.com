@@ -3,6 +3,7 @@
   "archive_ref": "B 8667 No 4",
   "location": "Le Paire d'Avould",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1592-07-30",
     "end": "1592-10-23",
@@ -12,6 +13,7 @@
   "accused": [
     {
       "name": "Mengette Estienne",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -23,6 +25,8 @@
       "parents": {
         "father": "Richard Didier Jean Michiel"
       },
+      "economic_status": "poor",
+      "practiced_healing": false,
       "confession": {
         "confessed": false,
         "under_torture": false,
@@ -36,6 +40,7 @@
     {
       "number": 1,
       "name": "Colas Didier Noel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -64,6 +69,7 @@
     {
       "number": 2,
       "name": "Didier Claude",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -104,6 +110,7 @@
     {
       "number": 3,
       "name": "Jean Claude Jehanel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -156,6 +163,7 @@
     {
       "number": 4,
       "name": "Parisot Bertremin",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "age_approximate": true,
@@ -174,6 +182,7 @@
     {
       "number": 5,
       "name": "Colas Claude Demenge Genay",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -192,6 +201,7 @@
     {
       "number": 6,
       "name": "Colin Jean Clement",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -232,6 +242,7 @@
     {
       "number": 7,
       "name": "Marguitte femme à Parisot Bertremin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -260,6 +271,7 @@
     {
       "number": 8,
       "name": "Colas Colin Demenge Ganay",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -290,6 +302,7 @@
     {
       "number": 9,
       "name": "Mathiotte de La Meix",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -309,6 +322,7 @@
     {
       "number": 10,
       "name": "Nicolas Petit Didier",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "age_approximate": true,
@@ -361,6 +375,7 @@
     {
       "number": 11,
       "name": "Marguitte femme à Claude Jehandel",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "age_approximate": true,
@@ -392,6 +407,7 @@
     {
       "number": 12,
       "name": "Catherine femme de Blaison Grand Colas de Clemecey",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "age_approximate": true,
@@ -432,6 +448,7 @@
     {
       "number": 13,
       "name": "Claude Bertremin Jacquemin",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "age_approximate": true,
@@ -464,6 +481,7 @@
     {
       "number": 14,
       "name": "Marguitte femme à Claude le Parmentier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -503,6 +521,7 @@
     {
       "number": 15,
       "name": "Claude Jehandel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -534,6 +553,7 @@
     {
       "number": 16,
       "name": "Claude Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -562,6 +582,7 @@
     {
       "number": 17,
       "name": "Mengel Claude Demenge Genay",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -594,6 +615,7 @@
     {
       "number": 18,
       "name": "Catherine femme à Mengel Genay",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "age_approximate": true,
@@ -641,6 +663,7 @@
     {
       "number": 19,
       "name": "Valentin Connis",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "age_approximate": true,
@@ -659,6 +682,7 @@
     {
       "number": 20,
       "name": "Collette femme à Jean Connis",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -688,6 +712,7 @@
     {
       "number": 21,
       "name": "Magdelaine femme de Demenge le Fevre",
+      "person_id": null,
       "gender": "female",
       "age": 43,
       "age_approximate": true,
@@ -719,6 +744,7 @@
     {
       "number": 22,
       "name": "Jean Connis",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -1624,7 +1650,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Never sought reparation despite being called witch publicly multiple times, which witnesses noted as suspicious",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Initially approved torture on September 26. After torture failed to produce confession, on October 13 approved Remy's order that she be released with stern warnings if she remained unwilling to confess and no new indices appeared",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1722,24 +1753,28 @@
   "third_parties": [
     {
       "name": "Colin Collenel",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "first husband",
       "context": "Mengette's first husband who died; marriage lasted 8 years some 20 years before trial"
     },
     {
       "name": "Richard Didier Jean Michiel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "Mengette's father from Mazeville in Ban de Fraisse"
     },
     {
       "name": "Mengette's mother",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "context": "Had strong rumor and reputation of being a witch; reputation originated from diviner's accusation after she borrowed fire"
     },
     {
       "name": "Catherine, daughter of Colas Pierel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "sister-in-law of witness 5",
       "relationship_to_witness": "sister-in-law",
@@ -1747,18 +1782,21 @@
     },
     {
       "name": "Catherine, widow of Jean Claudel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Called her 'genoxe' during quarrel over sharing fruit; accused of causing cow to lose milk"
     },
     {
       "name": "Poline, wife of Colas Claude Demenge Ganay",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "neighbor",
       "context": "Told witness 9 that cows lost milk if they passed before Mengette's house"
     },
     {
       "name": "Claude, son of Claude Brisard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none",
       "relationship_to_witness": "servant of witness 12",
@@ -1766,68 +1804,80 @@
     },
     {
       "name": "Claude Bertremin Jacquemin's mother",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "mother-in-law to first husband",
       "context": "Gave property to full sons instead of half-brother Colin Collenel; Mengette angry; lost animals afterwards"
     },
     {
       "name": "Expert visitor",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Man thought to know well about such things; declared animals of witness 13 were ensorceled"
     },
     {
       "name": "Claude Cuguin of Gerhandel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "youth companion",
       "context": "Kept animals with Mengette 30 years earlier; danced with her; would have wanted her for wife"
     },
     {
       "name": "Valentin Petit Didier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "employer of husband",
       "context": "Mengette's husband was his moictrier (steward/agent)"
     },
     {
       "name": "Michel Rabenel's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Owner of bachot (feeding trough) lent to witness 14"
     },
     {
       "name": "Merchant of Saint Dié",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Sold resal of wheat for about 9 francs to Mengette's husband"
     },
     {
       "name": "Colas le Maire of Saint Dié",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Master from whom witness 21 held cow that died"
     },
     {
       "name": "Claude Demenge Genay",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "grandfather of witness 11",
       "context": "Grandfather who told witness to drive animals rapidly past Mengette's house"
     },
     {
       "name": "Jean Connis's mother",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "opponent",
       "context": "Advised Colin Collenel against marrying Mengette; Mengette threatened to hate her and her race all her life"
     },
     {
       "name": "Vachiere (cowherd)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_witness": "employee of witness 10",
       "context": "Told Nicolas Petit Didier that Mengette passed among his herd"
     },
     {
       "name": "Chambriere (servant girl)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "employee of witness 12",
       "context": "Guarding herd when called away by Colas Colin Demenge Genay; animals then strayed"
     },
     {
       "name": "Lieutenant de prevost",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Did not sign document because he could not write"
     }

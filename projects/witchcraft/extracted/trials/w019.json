@@ -3,6 +3,8 @@
   "archive_ref": "B 2583 no 5",
   "location": "Xouarupt",
   "court": "PG des Vosges",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1624-09-06",
     "end": "1624-10-14",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Jean Brice George",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": false,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [],
       "origin": null,
       "residence": "Xouarupt",
@@ -50,6 +56,7 @@
     {
       "number": 1,
       "name": "Claude Remy Claude",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": null,
@@ -71,6 +78,7 @@
     {
       "number": 2,
       "name": "Remy Jean Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -92,6 +100,7 @@
     {
       "number": 3,
       "name": "Jean Thiebauld Gerard",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": null,
@@ -113,6 +122,7 @@
     {
       "number": 4,
       "name": "Henry Jandel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -134,6 +144,7 @@
     {
       "number": 5,
       "name": "Jean Micquel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -163,6 +174,7 @@
     {
       "number": 6,
       "name": "Dieudonné Laurent",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": null,
@@ -184,6 +196,7 @@
     {
       "number": 7,
       "name": "Maurice Clanne",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": null,
@@ -205,6 +218,7 @@
     {
       "number": 8,
       "name": "Colin Clanne",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -226,6 +240,7 @@
     {
       "number": 9,
       "name": "Jean Anthoine Maillot",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -247,6 +262,7 @@
     {
       "number": 10,
       "name": "Valentin Haillant",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -268,6 +284,7 @@
     {
       "number": 11,
       "name": "Jacot Jean Jacot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -289,6 +306,7 @@
     {
       "number": 12,
       "name": "Jean Haillant",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -318,6 +336,7 @@
     {
       "number": 13,
       "name": "Bastien Demenge Remy",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -339,6 +358,7 @@
     {
       "number": 14,
       "name": "Nicolas Jean Remy",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -360,6 +380,7 @@
     {
       "number": 15,
       "name": "Adam Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -381,6 +402,7 @@
     {
       "number": 16,
       "name": "Mre Pierre Roucelot",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "tabellion",
@@ -402,6 +424,7 @@
     {
       "number": 17,
       "name": "Anthoinette fille Nicolas Petit Jean",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": null,
@@ -423,6 +446,7 @@
     {
       "number": 18,
       "name": "Toussaine femme Jean Colé",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -444,6 +468,7 @@
     {
       "number": 19,
       "name": "Mathieu Mathieu",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "paticier",
@@ -465,6 +490,7 @@
     {
       "number": 20,
       "name": "Marguerite, veuve Demenge Romain",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -866,6 +892,12 @@
     "redress_outcome": null,
     "imprisonment_conditions": null,
     "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": null,
+      "modification_details": null,
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -941,6 +973,7 @@
   "third_parties": [
     {
       "name": "Remiere",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife",
       "relationship_to_witness": "cousin of witnesses Remy Jean Parmentier and Adam Parmentier",
@@ -948,6 +981,7 @@
     },
     {
       "name": "Demenge Romain",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "adversary in quarrel",
       "relationship_to_witness": "husband of witness Marguerite",
@@ -955,6 +989,7 @@
     },
     {
       "name": "Jean Brice George's father",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
@@ -962,6 +997,7 @@
     },
     {
       "name": "Jean Brice George's grandmother",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "grandmother",
       "relationship_to_witness": null,
@@ -969,6 +1005,7 @@
     },
     {
       "name": "relative in Allemaigne",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "relative (unspecified)",
       "relationship_to_witness": null,
@@ -976,6 +1013,7 @@
     },
     {
       "name": "unmarried children of Jean",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "relationship_to_witness": null,
@@ -983,6 +1021,7 @@
     },
     {
       "name": "son of Jean Brice George",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -990,6 +1029,7 @@
     },
     {
       "name": "Jean Colombain",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -997,6 +1037,7 @@
     },
     {
       "name": "Mengeotte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1004,6 +1045,7 @@
     },
     {
       "name": "daughter of Marguerite",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness Marguerite",

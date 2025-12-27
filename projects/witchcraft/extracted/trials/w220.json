@@ -1,0 +1,408 @@
+{
+  "trial_id": "w220",
+  "archive_ref": "B 8691 no 9",
+  "location": "Remémont",
+  "court": "St Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur for canons",
+    "person_id": null,
+    "occupation": "Prosecutor",
+    "location": "St Dié"
+  },
+  "dates": {
+    "start": "1603-01-15",
+    "end": "1603-02-16",
+    "duration_days": 32
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Claudel fils Claudon Jean Perrin",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "destitute",
+      "practiced_healing": false,
+      "age": 11,
+      "age_approximate": false,
+      "occupation": ["beggar", "animal guard"],
+      "origin": "Remémont",
+      "residence": "St Dié",
+      "marital_status": "single",
+      "parents": {
+        "father": "Claude Jean Perrin",
+        "mother": "unnamed mother"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "man in black",
+        "devil_appearance": "big man in black, with horns on head, cloven hoofs for feet, and gloves on hands",
+        "seduction_date": "3 years earlier",
+        "seduction_context": "Father took him to the sabbat while guarding animals, saying they should go to a wedding. Put him on shoulders and seemed to be jumping as they went.",
+        "powder_types": [
+          "black powder like gunpowder",
+          "white powder (for curing)"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "woods near Remémont",
+          "pierres du Faing"
+        ],
+        "sabbat_activities": [
+          "feast at two tables without cloths",
+          "dancing to musicians with tabourin and bombarde",
+          "wedding celebration for bride and groom"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Marie Thevenin",
+      "person_id": null,
+      "gender": "female",
+      "location": "St Dié",
+      "relationship_to_accused": "godmother of accused's sister",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to give him bread because of gout pains in her hands",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Marie Thevenin (self)",
+            "target_relationship": "self",
+            "attributed_to": "Claudel fils Claudon Jean Perrin",
+            "time_after_quarrel": "later, on way to meadow after giving him bread"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1603-01-15",
+      "event": "interrogation",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "First interrogation; confessed to attending sabbat with father, receiving powder from devil, and harming Marie Thevenin"
+    },
+    {
+      "date": "1603-01-16",
+      "event": "interrogation",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "Confirmed earlier confessions, said master told him he would give Marie a worm to cause pain, said more than four dozen people at first sabbat"
+    },
+    {
+      "date": "1603-01-21",
+      "event": "other",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "Check made with curé of Ste Marguerite showed he was baptised on 24 April 1592, confirming age of 11"
+    },
+    {
+      "date": "1603-01-22",
+      "event": "death_requested",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "Procureur asks that despite being only 11, he should be executed, having shown himself to be a witch"
+    },
+    {
+      "date": "1603-01-25",
+      "event": "death_approved",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "Change de Nancy approves execution, subject to repetition of confessions"
+    },
+    {
+      "date": "1603-02-05",
+      "event": "interrogation",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "Repeated earlier confessions and accusations"
+    },
+    {
+      "date": "1603-02-05",
+      "event": "confrontation",
+      "subject": "Claudel fils Claudon Jean Perrin and Catherine femme Didier Jean Charpentier",
+      "details": "Confronted with Catherine who was in prison; he maintained charges, she said he accused her out of hatred"
+    },
+    {
+      "date": "1603-02-16",
+      "event": "execution",
+      "subject": "Claudel fils Claudon Jean Perrin",
+      "details": "Execution carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Catherine femme Didier Jean Charpentier",
+      "location": "unknown",
+      "context": "Recognized her as the cook at sabbat; she was in prison when he was confronted with her",
+      "already_executed": false
+    },
+    {
+      "name": "Mathieu Balise",
+      "location": "Ste Marguerite",
+      "context": "Saw him at sabbat, saw him fall over while dancing",
+      "already_executed": false
+    },
+    {
+      "name": "Mengeatte fille Claude Malremmeix",
+      "location": "Ste Marguerite",
+      "context": "Saw her at sabbat",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "context": "Father Claude Jean Perrin had been executed as a witch 3 years earlier (circa 1600)",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudel fils Claudon Jean Perrin",
+      "french": "laneures d'escuelles",
+      "context": "Describing the soup at the sabbat"
+    },
+    {
+      "speaker": "Devil/master",
+      "context": "Threatening Claudel if he did not harm Marie Thevenin who refused him bread, saying he would kill him if he disobeyed"
+    },
+    {
+      "speaker": "Marie Thevenin",
+      "context": "Could feel a creature the size of an arm and as long as two handsbreadths, which was moving around stomach and tormenting her with such pain that she prayed God would soon deliver her by death"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claude Jean Perrin",
+      "person2": "Claudel fils Claudon Jean Perrin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "whose father Claude Jean Perrin had been executed as a witch 3 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Marie Thevenin",
+      "person2": "Claudel fils Claudon Jean Perrin's sister",
+      "relationship_type": "godparent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "she was feeding his sister because she was her god-daughter",
+      "inferred": false
+    },
+    {
+      "person1": "Claudel fils Claudon Jean Perrin",
+      "person2": "unnamed sister",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "she was feeding his sister because she was her god-daughter",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Marie Thevenin",
+      "harm_category": "human_illness",
+      "harm_description": "Illness with creature size of an arm and as long as two handsbreadths moving around stomach causing torment; illness lasted more than a year",
+      "attributed_to": "Claudel fils Claudon Jean Perrin",
+      "precipitating_quarrel": "Marie refused him bread because of gout pains in her hands",
+      "time_between_quarrel_and_harm": "later, on way to meadow after giving him bread the second time",
+      "method_alleged": "black powder like gunpowder mixed with ashes, thrown on her back",
+      "witness_number": 1
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "bread",
+      "context": "Claudel was begging for bread; Marie refused him initially, then gave him bread",
+      "category": "food"
+    },
+    {
+      "object": "black powder like gunpowder",
+      "context": "Devil gave him powder to harm Marie, quantity was a nutshell full",
+      "category": "magical"
+    },
+    {
+      "object": "white powder",
+      "context": "Devil gave him white powder to cure Marie but it did not work",
+      "category": "magical"
+    },
+    {
+      "object": "soup with onions and lard",
+      "context": "Claudel made this for Marie to try to heal her but it did no good",
+      "category": "food"
+    },
+    {
+      "object": "tabourin",
+      "context": "Musical instrument played at the sabbat",
+      "category": "other"
+    },
+    {
+      "object": "bombarde",
+      "context": "Musical instrument played at the sabbat",
+      "category": "other"
+    },
+    {
+      "object": "black soutanes and long robes",
+      "context": "Two men dressed like priests wore these at the sabbat",
+      "category": "clothing"
+    },
+    {
+      "object": "tables without cloths",
+      "context": "They sat at two tables without cloths at the sabbat feast",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Where Claudel was begging his bread"
+    },
+    {
+      "place_name": "Remémont",
+      "place_type": "village",
+      "context": "Where Claudel was from; where he and his father were guarding animals"
+    },
+    {
+      "place_name": "Ste Marguerite",
+      "place_type": "village",
+      "context": "Parish where inhabitants of Remémont were parishioners; location of some accomplices; where Claudel was beaten by another beggar boy"
+    },
+    {
+      "place_name": "pierres du Faing",
+      "place_type": "other",
+      "context": "Where Claudel met the devil on the way from St Dié to Ste Marguerite when he was very hungry"
+    },
+    {
+      "place_name": "woods near Remémont",
+      "place_type": "forest",
+      "context": "Location of sabbat, described as finding something like a house with a great fire"
+    },
+    {
+      "place_name": "Viel Marché",
+      "place_type": "village",
+      "context": "Home of Fleurent le Saulnier whose daughter was rumored to have been harmed by Claudel (he denied this)"
+    }
+  ],
+  "historical_context": {
+    "economic_hardship_indicators": [
+      "Claudel was begging his bread",
+      "Claudel described as very hungry when he met the devil"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Procureur for canons",
+        "role": "prosecutor_pg",
+        "location": "St Dié"
+      },
+      {
+        "name": "curé of Ste Marguerite",
+        "role": "other",
+        "location": "Ste Marguerite"
+      }
+    ],
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 1,
+    "hearsay_testimony_count": 0
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "Repeated all confessions several times without any variations",
+      "Denied harming daughter of Fleurent le Saulnier even when threatened with whipping and being put at bottom of tower"
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Claude Jean Perrin",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "Had been executed as a witch 3 years earlier; took Claudel to his first sabbat"
+    },
+    {
+      "name": "unnamed sister of Claudel",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "sister",
+      "relationship_to_witness": "god-daughter of Marie Thevenin",
+      "context": "Marie was feeding her because she was her god-daughter; Claudel confessed to her that he had made Marie ill"
+    },
+    {
+      "name": "unnamed mother of Claudel",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "Claudel did not tell mother anything when he went home from sabbat; both parents were dead by time of trial"
+    },
+    {
+      "name": "unnamed boy begging at Ste Marguerite",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Beat Claudel; master appeared to give Claudel powder to avenge himself but wind blew it away"
+    },
+    {
+      "name": "daughter of Fleurent le Saulnier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Rumored in town that Claudel had used powder on her; he denied this even under threat"
+    },
+    {
+      "name": "Fleurent le Saulnier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Of Viel Marché; his daughter was rumored to have been harmed by Claudel"
+    },
+    {
+      "name": "bride and groom at sabbat",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "Wedding feast was held in their honor at the sabbat"
+    },
+    {
+      "name": "two men dressed like priests",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "At head of table at sabbat, in black soutanes and long robes, talking to the man in black"
+    },
+    {
+      "name": "three or four small children",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "At sabbat but Claudel did not know them"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is a particularly tragic case involving an 11-year-old boy executed for witchcraft. His father had been executed as a witch 3 years earlier. The boy was destitute and begging for bread. The confession describes sabbat attendance as a young child with his father. No torture was used. The Change de Nancy approved the execution despite his young age. Catherine femme Didier Jean Charpentier was confronted with him while in prison.",
+    "pdf_pages": 2
+  }
+}

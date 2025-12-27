@@ -3,6 +3,14 @@
   "archive_ref": "B 7279",
   "location": "Azelot",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean Magnien",
+    "person_id": null,
+    "occupation": "schoolmaster",
+    "location": "Azelot",
+    "relationship_to_accused": "partie formelle allegedly coerced by maire Gergonne Roussel"
+  },
   "dates": {
     "start": "1583-07-16",
     "end": "1583-10-08",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Catherine Jean Claude",
+      "person_id": null,
       "gender": "female",
       "age": 82,
       "age_approximate": true,
@@ -19,6 +28,9 @@
       "residence": "Azelot",
       "marital_status": "widowed",
       "spouse_name": "Jean Claude (deceased)",
+      "economic_status": "comfortable",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "charms_amulets", "divination", "veterinary"],
       "confession": {
         "confessed": false,
         "under_torture": false,
@@ -33,6 +45,7 @@
     {
       "number": 1,
       "name": "Claudot Henry",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": "cousturier (tailor)",
@@ -48,6 +61,7 @@
     {
       "number": 2,
       "name": "Nicolas Guerlot",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -72,6 +86,7 @@
     {
       "number": 3,
       "name": "Mengeon femme Jean de Corbessault",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "location": "Loupcourt",
@@ -85,6 +100,7 @@
     {
       "number": 4,
       "name": "Mengeotte femme Gergonne Roussel",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Azelot",
@@ -99,6 +115,7 @@
     {
       "number": 5,
       "name": "Françoise femme Pierre Bonnet",
+      "person_id": null,
       "gender": "female",
       "age": 47,
       "location": "Azelot",
@@ -114,6 +131,7 @@
     {
       "number": 6,
       "name": "Philippe Grand Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -135,6 +153,7 @@
     {
       "number": 7,
       "name": "Odille veuve Jean de Beufville",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Azelot",
@@ -157,6 +176,7 @@
     {
       "number": 8,
       "name": "Marguerite femme Vincenot de la Rue",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "relationship_to_accused": "former daughter-in-law (married to her son)",
@@ -172,6 +192,7 @@
     {
       "number": 9,
       "name": "Girard Jean Girard",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "testimony": {
@@ -184,6 +205,7 @@
     {
       "number": 10,
       "name": "Mengin Regnard",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -207,6 +229,7 @@
     {
       "number": 11,
       "name": "Isabeau femme du precedent (wife of Mengin Regnard)",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "testimony": {
@@ -227,6 +250,7 @@
     {
       "number": 12,
       "name": "Belotte femme Jean Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "relationship_to_accused": "lived in same house",
@@ -256,6 +280,7 @@
     {
       "number": 13,
       "name": "Jean Rouyer",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Loupcourt",
@@ -271,6 +296,7 @@
     {
       "number": 14,
       "name": "Nicolas Petit Jean",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "testimony": {
@@ -300,6 +326,7 @@
     {
       "number": 15,
       "name": "François Guerlot",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "moictrier",
@@ -323,6 +350,7 @@
     {
       "number": 16,
       "name": "Gerard de Bedon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Loupcourt",
@@ -338,6 +366,7 @@
     {
       "number": 17,
       "name": "Jean Michelet",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "testimony": {
@@ -350,6 +379,7 @@
     {
       "number": 18,
       "name": "Clement l'Allemand",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Loupcourt",
@@ -363,6 +393,7 @@
     {
       "number": 19,
       "name": "Jean Voinchelin",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "testimony": {
@@ -383,6 +414,7 @@
     {
       "number": 20,
       "name": "Jean Pastel",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "location": "Loupcourt",
@@ -407,6 +439,7 @@
     {
       "number": 21,
       "name": "Demenge Jenniot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Burthecourt",
@@ -421,6 +454,7 @@
     {
       "number": 22,
       "name": "François Gerard (le maire)",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "maire",
@@ -1088,7 +1122,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Multiple witnesses noted she was called witch publicly but took no legal action for defamation",
     "imprisonment_conditions": "imprisoned alongside Jean Magnien; other prisoners heard noises and cries earlier in week (which Catherine denied)",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Change de Nancy issued final sentence: banishment for 10 years (rather than death), confiscation of 1/3 goods, payment of costs. Court found her 'suffisament attaincte et convaincue' of using charms, enchantments, and illicit means.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1148,18 +1187,21 @@
   "third_parties": [
     {
       "name": "Jean Magnien",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "partie formelle (legal accuser)",
       "context": "schoolmaster at Azelot from Mandre aux quatre tours; imprisoned alongside Catherine; allegedly coerced by maire into becoming partie formelle; later released"
     },
     {
       "name": "Gergonne Roussel",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "maire of Azelot",
       "context": "allegedly tried to convince multiple people to be partie formelle against Catherine; son Nicolas died during trial"
     },
     {
       "name": "Nicolas (son of maire)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "maire's son",
       "relationship_to_witness": "son",
@@ -1167,75 +1209,89 @@
     },
     {
       "name": "Jean Malherbe",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "teacher",
       "context": "old man at Fléville who taught Catherine healing prayer when she was young; told her not to use until his death (6 weeks later)"
     },
     {
       "name": "Esdeline",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "teacher",
       "context": "old woman of Azelot, now dead, who taught Catherine use of serviette and prayer for animals 40+ years ago"
     },
     {
       "name": "Jean Pateltangel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "allegedly offered 6 gros per inhabitant by maire to become partie formelle"
     },
     {
       "name": "Jean Gerard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "maire allegedly approached him to become partie formelle"
     },
     {
       "name": "Pierrot Hardier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "maire allegedly approached him to become partie formelle"
     },
     {
       "name": "Didier Tournoy",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "at whose house Magnien dined 2 weeks before arrest"
     },
     {
       "name": "Messire Hilaire",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "curé of Houdreville; father of bastard child that Catherine took to be baptised"
     },
     {
       "name": "Marguerite",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "mother of bastard child by curé"
     },
     {
       "name": "Domp Jean de Xanrey",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "at Niderhoff; consulted about who stole cloth and made prediction about first woman to enter house"
     },
     {
       "name": "Gros Claude",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "called Catherine witch after drinking, fell ill next day and died"
     },
     {
       "name": "Laurent Marchal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "uncle of Clement l'Allemand",
       "context": "died believing Catherine bewitched him"
     },
     {
       "name": "wife of Jean Doctrinal (sister of Jean Voinchelin)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "sister",
       "context": "died in childbed claiming Catherine responsible after touch on shoulder"
     },
     {
       "name": "Pierre Bonnet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "tisserand; husband of witness 5; visited Domp Jean de Xanrey about stolen cloth"
     },
     {
       "name": "9 children of Catherine",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "context": "all 9 children were dead at time of trial"

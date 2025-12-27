@@ -1,0 +1,976 @@
+{
+  "trial_id": "w314",
+  "archive_ref": "B 8736",
+  "location": "la Neufville les Raon",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
+  "dates": {
+    "start": "1626-08-11",
+    "end": "1626-08-29",
+    "duration_days": 18
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Sebille fille Didier Pescheur",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
+      "age": 40,
+      "age_approximate": true,
+      "occupation": ["servant", "housekeeper"],
+      "origin": "la Neufville les Raon",
+      "residence": "Epinal",
+      "marital_status": "single",
+      "parents": {
+        "father": "Didier Pescheur",
+        "mother": "unknown (executed as witch)"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Parsin",
+        "devil_appearance": "man in black",
+        "seduction_date": "30 years earlier",
+        "seduction_context": "out gathering raspberries with her mother",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": [
+          "black powder to kill",
+          "yellow powder to make languish",
+          "white powder to cure"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "Côte de Repy",
+          "la basse des moulotz"
+        ],
+        "sabbat_activities": [
+          "dancing to sound of oboe, flute, and drum",
+          "eating horrible food",
+          "sexual relations with devil",
+          "all participants masked"
+        ],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Tiriot Mathieu",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "cordonnier (shoemaker)",
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Sebille spoke ill of Jean Mourisot's wife before other women",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Jean Mourisot",
+            "target_relationship": "neighbor",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "soon after she helped winnowing millet"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Mourisot",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 14,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "confession to cleric that she was a witch became known; wife told neighbors",
+        "threat_received": true,
+        "threat_quote": "Sebille threatened his wife after she told neighbors about the confession",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his wife",
+            "target_relationship": "self",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "after eating millet from Sebille"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Rose veuve Didier Chotel",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": "widow",
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Nicolas Maurice told his wife he didn't want Sebille coming to his house to learn to read because she was a witch",
+        "threat_received": true,
+        "threat_quote": "qu'un plaisir n'estoit jamais perdu",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Nicolas Maurice",
+            "target_relationship": "neighbor",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "shortly after he refused to teach her; died in 3 days"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Bandeca",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "saw Sebille embracing a young man and told of this in village",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "himself",
+            "target_relationship": "self",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "fell very ill for 14 weeks after telling village"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Demenge Jacquot",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 27,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Chrestien Brabant",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 29,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his young sister Claudette's oxen damaged field belonging to Sebille's father; Sebille beat her severely",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claudette (his sister)",
+            "target_relationship": "sibling",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "died within a week after complaining of her legs"
+          },
+          {
+            "type": "human_death",
+            "target": "his father",
+            "target_relationship": "parent",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "after father reproached Sebille for being promiscuous"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Didier Mengin",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": "sergeant of local justice",
+      "location": "la Neufville",
+      "relationship_to_accused": "law enforcement",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge Mathieu",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "occupation": "cordonnier (shoemaker)",
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Chrestien Brandec",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 16,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Nicolas Blaisotte",
+      "person_id": null,
+      "gender": "male",
+      "age": 65,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Catherine femme Nicolas Blaisotte",
+      "person_id": null,
+      "gender": "female",
+      "age": 56,
+      "occupation": null,
+      "location": "la Neufville",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Fleurette fille Jean Musnier",
+            "target_relationship": "neighbor (from Bertrichamp)",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jehenne Barbier veuve Mathis Abel",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "occupation": "widow",
+      "location": "St. Marie",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "did not invite Sebille to be godmother or even present at birth due to her evil reputation for witchcraft and sexual promiscuity",
+        "threat_received": true,
+        "threat_quote": "made angry gesture when passing",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "herself and her child",
+            "target_relationship": "self",
+            "attributed_to": "Sebille fille Didier Pescheur",
+            "time_after_quarrel": "immediately after Sebille made angry gesture; illness lasted a year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1626-08-11",
+      "event": "informations_preparatoires",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Witness testimony collected; Sebille arrested after 10+ years absence"
+    },
+    {
+      "date": "1626-08-13",
+      "event": "informations_preparatoires",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Additional witness testimony (witnesses 10-11)"
+    },
+    {
+      "date": "1626-08-13",
+      "event": "interrogation",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "First interrogation; denied all accusations"
+    },
+    {
+      "date": "1626-08-13",
+      "event": "confrontation",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Confronted with witnesses; no reproaches or admissions; waved finger angrily at Jean Morisot"
+    },
+    {
+      "date": "1626-08-14",
+      "event": "informations_preparatoires",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Final witness testimony (witness 12)"
+    },
+    {
+      "date": "1626-08-18",
+      "event": "torture_approved",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Change de Nancy approves question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1626-08-20",
+      "event": "torture",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Interrogation under torture; confessed after thumbscrews, rack, and tortillons"
+    },
+    {
+      "date": "1626-08-21",
+      "event": "interrogation",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Interviewed twice, confirmed confessions; wept bitterly and asked for mercy and confessor"
+    },
+    {
+      "date": "1626-08-25",
+      "event": "death_approved",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Change de Nancy approves execution"
+    },
+    {
+      "date": "1626-08-29",
+      "event": "sentence",
+      "subject": "Sebille fille Didier Pescheur",
+      "details": "Final sentence read in her presence"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "thumbscrews on hands and feet",
+      "rack",
+      "tortillons"
+    ],
+    "requesting_official": null,
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [],
+  "prior_accusations": [
+    {
+      "accuser_name": "her mother",
+      "accuser_location": "la Neufville",
+      "context": "mother executed as witch; general reputation mentions mother accused her",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Jean Mourisot (witness)",
+      "french": "sy on vouloit bien faire on la debvoit apprehender pour luy faire et parfaire son proces",
+      "english": "if one wanted to do right, she should be apprehended to have her trial completed",
+      "context": "cleric told him Sebille confessed to being a witch"
+    },
+    {
+      "speaker": "Jean Mourisot's wife",
+      "french": "qu'elle estoit frappée a mort et que cela provenoit des sortileges de ladite prevenue",
+      "english": "that she was struck to death and that this came from the witchcraft of the said accused",
+      "context": "after eating millet from Sebille"
+    },
+    {
+      "speaker": "Didier Pescheur (father)",
+      "french": "qu'il s'en doutoit aucunement, et que sa mere cy devant executée l'avoit ja trompé de la sorte",
+      "english": "that he suspected as much, and that her mother executed before had already deceived him in the same manner",
+      "context": "when Jean Mourisot told him of suspicions about his daughter"
+    },
+    {
+      "speaker": "Sebille Pescheur (accused)",
+      "french": "qu'un plaisir n'estoit jamais perdu",
+      "english": "a pleasure is never lost",
+      "context": "threat to Nicolas Maurice after he refused to teach her to read"
+    },
+    {
+      "speaker": "Sebille Pescheur (witness 11 reports)",
+      "french": "que c'estoit bien peu de cas, qu'elle avoit heu tousjours cela en passant",
+      "english": "that it was very little matter, that she had always had that in passing",
+      "context": "commenting on death of Fleurette while working in fields"
+    },
+    {
+      "speaker": "Sebille Pescheur (accused)",
+      "french": "qu'elle ne s'en mette pas en peine qu'elle n'en mourroit mais qu'elle avoit du mal assez",
+      "english": "that she should not worry about it, that she would not die but that she had enough pain",
+      "context": "to Jehenne Barbier's sister who feared having to feed the baby"
+    },
+    {
+      "speaker": "Sebille Pescheur (accused)",
+      "french": "que quant il plaira a dieu elle est preste d'endurer la mort, suppliantz qu'on luy soit doulx et misericordieux, et luy envoyer un bon confesseur (en pleurant tres amerement)",
+      "english": "that when it pleases God she is ready to endure death, begging that they be gentle and merciful to her, and send her a good confessor (weeping very bitterly)",
+      "context": "during final interrogation before execution"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Sebille fille Didier Pescheur",
+      "person2": "Didier Pescheur",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Sebille daughter of the late Didier Pescheur",
+      "inferred": false
+    },
+    {
+      "person1": "Sebille fille Didier Pescheur",
+      "person2": "mother (executed as witch)",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother executed as witch",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Mourisot's wife",
+      "person2": "Rose veuve Didier Chotel",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "Jean Morisot's wife had been her sister",
+      "inferred": false
+    },
+    {
+      "person1": "Claudette",
+      "person2": "Chrestien Brabant",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "his young sister Claudette",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Nicolas Blaisotte",
+      "person2": "Nicolas Blaisotte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme Nicolas Blaisotte",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne Barbier",
+      "person2": "Mathis Abel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehenne Barbier veuve Mathis Abel",
+      "inferred": false
+    },
+    {
+      "person1": "Rose veuve Didier Chotel",
+      "person2": "Didier Chotel",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Rose veuve Didier Chotel",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Quarrel over oxen damaging field belonging to Sebille's father led to beating of Claudette. Sebille's reputation for sexual promiscuity ('luxure et paillardise') and poverty evident in her service work."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "wife of Jean Mourisot",
+      "victim_relationship_to_witness": "self (witness 2), neighbor (witness 1)",
+      "harm_category": "human_death",
+      "harm_description": "fell ill immediately after eating millet given by Sebille, died within a week",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "spoke ill of her before other women; wife told neighbors about confession to cleric",
+      "time_between_quarrel_and_harm": "after helping winnowing millet",
+      "method_alleged": "powder placed in millet",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "wife of Jean Mourisot",
+      "victim_relationship_to_witness": "spouse",
+      "harm_category": "human_death",
+      "harm_description": "fell backwards after second spoonful of millet, died",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "wife told neighbors about Sebille's confession to cleric; Sebille threatened her",
+      "time_between_quarrel_and_harm": "after eating millet",
+      "method_alleged": "powder in millet",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Nicolas Maurice",
+      "victim_relationship_to_witness": "neighbor",
+      "harm_category": "human_death",
+      "harm_description": "fell ill suddenly and died in 3 days",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "told his wife he didn't want Sebille coming to house to learn to read because she was a witch who killed Morisot's wife",
+      "time_between_quarrel_and_harm": "shortly after",
+      "method_alleged": null,
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jean Bandeca",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "fell very ill for 14 weeks, unable to eat or rest",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "saw her embracing a young man and told of this in village",
+      "time_between_quarrel_and_harm": "immediately after",
+      "method_alleged": "yellow powder placed where he would pass; later cured with white powder in cooked fish",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Claudette (sister of Chrestien Brabant)",
+      "victim_relationship_to_witness": "sibling",
+      "harm_category": "human_death",
+      "harm_description": "complained of her legs, died within a week",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "oxen did damage in field belonging to Sebille's father; Sebille beat Claudette severely",
+      "time_between_quarrel_and_harm": "after return from keeping oxen",
+      "method_alleged": "black powder",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "father of Chrestien Brabant",
+      "victim_relationship_to_witness": "parent",
+      "harm_category": "human_death",
+      "harm_description": "death (no details given)",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "father reproached Sebille for being promiscuous and involved with young men",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Fleurette fille Jean Musnier",
+      "victim_relationship_to_witness": "neighbor (from Bertrichamp)",
+      "harm_category": "human_death",
+      "harm_description": "death (no details)",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Jehenne Badelle (hearsay)",
+      "victim_relationship_to_witness": "told witness 11",
+      "harm_category": "human_illness",
+      "harm_description": "milk stopped after giving birth, thought she would die",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "not invited to be godmother",
+      "time_between_quarrel_and_harm": "after giving birth",
+      "method_alleged": null,
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Jehenne Barbier and her child",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "illness lasting a year; difficulty breastfeeding, milk became yellow, child too; thought both would die",
+      "attributed_to": "Sebille fille Didier Pescheur",
+      "precipitating_quarrel": "did not invite Sebille to be godmother or present at birth due to reputation for witchcraft and promiscuity",
+      "time_between_quarrel_and_harm": "immediately after Sebille made angry gesture",
+      "method_alleged": "later sent soup that began recovery",
+      "witness_number": 12
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "millet",
+      "context": "Jean Mourisot's wife helped Sebille winnowing millet, took some home, cooked and ate it, then died",
+      "category": "food"
+    },
+    {
+      "object": "cooked fish",
+      "context": "Jean Bandeca obtained cooked fish from Sebille which cured his illness",
+      "category": "food"
+    },
+    {
+      "object": "soup in earthenware pot",
+      "context": "Sebille sent soup to Jehenne Barbier which restored her appetite",
+      "category": "food"
+    },
+    {
+      "object": "holy water",
+      "context": "Sebille came to sprinkle holy water on body of Claudette after death",
+      "category": "religious"
+    },
+    {
+      "object": "axe",
+      "context": "Jean Bandeca threatened to attack Sebille with an axe",
+      "category": "tools"
+    },
+    {
+      "object": "milk",
+      "context": "Sebille often came to Jean Mourisot's house to ask for milk",
+      "category": "food"
+    },
+    {
+      "object": "cloth",
+      "context": "Sebille found a cloth under which she made her way to Epinal when fleeing",
+      "category": "clothing"
+    },
+    {
+      "object": "raspberries",
+      "context": "Sebille was gathering raspberries with her mother when seduced by devil",
+      "category": "food"
+    },
+    {
+      "object": "hen",
+      "context": "tried powder on a hen; gave master 4 or 5 hens a year to be dispensed from sabbat",
+      "category": "agricultural"
+    },
+    {
+      "object": "magical powders (black, yellow, white)",
+      "context": "devil gave three kinds of powder: black to kill, yellow to make languish, white to cure",
+      "category": "magical"
+    },
+    {
+      "object": "oboe, flute, and drum",
+      "context": "musical instruments played by devils at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "masks",
+      "context": "all participants at sabbat were masked",
+      "category": "other"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neufville les Raon",
+      "place_type": "village",
+      "context": "primary location of trial; where Sebille lived until age 27"
+    },
+    {
+      "place_name": "Donipaire",
+      "place_type": "village",
+      "context": "Sebille lived here for 6 months after leaving la Neufville"
+    },
+    {
+      "place_name": "Mirecourt",
+      "place_type": "village",
+      "context": "Sebille worked in service here"
+    },
+    {
+      "place_name": "Epinal",
+      "place_type": "village",
+      "context": "Sebille worked in service here; served as 'tante' for a curé; fled here to hide"
+    },
+    {
+      "place_name": "Brut",
+      "place_type": "village",
+      "context": "Sebille slept outside gate/door of this village on night of escape"
+    },
+    {
+      "place_name": "Bertrichamp",
+      "place_type": "village",
+      "context": "home of Fleurette fille Jean Musnier"
+    },
+    {
+      "place_name": "St. Marie",
+      "place_type": "village",
+      "context": "home of witness Jehenne Barbier"
+    },
+    {
+      "place_name": "bridge at la Neufville",
+      "place_type": "other",
+      "context": "where criminal proceedings were publicly read"
+    },
+    {
+      "place_name": "river behind father's house",
+      "place_type": "water_body",
+      "context": "Sebille hid in river up to her neck when authorities tried to arrest her"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "field belonging to Sebille's father damaged by oxen; women working in fields"
+    },
+    {
+      "place_name": "Côte de Repy",
+      "place_type": "sabbat_location",
+      "context": "sabbat location"
+    },
+    {
+      "place_name": "la basse des moulotz",
+      "place_type": "sabbat_location",
+      "context": "specific spot at Côte de Repy where sabbat was held"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Sebille worked as servant in multiple locations",
+      "asked for charity (cooked fish)",
+      "came to house to ask for milk",
+      "devil promised they would never want"
+    ],
+    "religious_calendar_references": []
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "maire (unnamed)",
+        "role": "mayor",
+        "location": "la Neufville"
+      },
+      {
+        "name": "regular cleric at convent (unnamed)",
+        "role": "other",
+        "location": "unknown"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": null,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 7,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Catherine femme Nicolas Blaisotte",
+        "source": "Jehenne Badelle",
+        "content": "believed Sebille caused her milk to stop after giving birth because not invited to be godmother"
+      },
+      {
+        "reporter": "Jean Mourisot",
+        "source": "regular cleric at convent",
+        "content": "Sebille made confession to cleric that she was a witch"
+      }
+    ],
+    "oldest_accusation_years": 29,
+    "corroboration_groups": [
+      [1, 2, 3]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "waved finger angrily at Jean Morisot during confrontation",
+      "closed eyes and 'quasi comme en extase' during torture",
+      "wept very bitterly (pleurant tres amerement) during final interrogation",
+      "asked for mercy and confessor"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Didier Pescheur (father)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "father",
+      "context": "told Jean Mourisot he suspected his daughter; said her mother had deceived him the same way"
+    },
+    {
+      "name": "mother (executed as witch)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "executed as witch; accused Sebille; was with Sebille gathering raspberries when devil seduced her"
+    },
+    {
+      "name": "wife of Nicolas Maurice",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "Nicolas Maurice told his wife he didn't want Sebille coming to house"
+    },
+    {
+      "name": "Nicolas Maurice",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "teaching Sebille to read; refused to continue; died in 3 days after Sebille's threat"
+    },
+    {
+      "name": "regular cleric at convent",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "confessor",
+      "context": "Sebille allegedly confessed to him that she was a witch; did not absolve her"
+    },
+    {
+      "name": "Jehenne Badelle",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "context": "believed Sebille caused her milk to stop after giving birth because not invited to be godmother"
+    },
+    {
+      "name": "Fleurette fille Jean Musnier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "from Bertrichamp",
+      "context": "death discussed by women working in fields; Sebille commented dismissively"
+    },
+    {
+      "name": "Jean Musnier",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "father of Fleurette",
+      "context": "father of victim Fleurette"
+    },
+    {
+      "name": "Claudette (sister of Chrestien Brabant)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "sister of witness 6",
+      "context": "keeping oxen that damaged field; beaten by Sebille; died within a week"
+    },
+    {
+      "name": "father of Chrestien Brabant",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "neighbor",
+      "relationship_to_witness": "father of witness 6",
+      "context": "reproached Sebille for being promiscuous; suspected dead from her witchcraft"
+    },
+    {
+      "name": "sister of Jehenne Barbier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "sister of witness 12",
+      "context": "complained might have to feed Jehenne's child; Sebille told her not to worry"
+    },
+    {
+      "name": "curé at Epinal",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "employer",
+      "context": "Sebille served as 'tante' (housekeeper) for this priest"
+    },
+    {
+      "name": "young man",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "romantic interest",
+      "context": "Jean Bandeca saw Sebille embracing a young man"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "This is a detailed trial record with substantial witness testimony. Key features: (1) Sebille fled for 10+ years before being arrested - unusual case of someone evading justice for extended period. (2) Her mother was executed as witch and allegedly accused her. (3) Strong reputation evidence spanning up to 29 years. (4) Confession includes interesting detail about trying to resist devil by throwing away powders and making sign of cross. (5) Pattern of harms related to quarrels over gossip, sexual reputation, and social slights (not being invited as godmother). (6) Healing element: used white powder to cure Jean Bandeca after making him ill. (7) Economic status indicators: worked as servant, asked for charity, reputation for sexual promiscuity. (8) Geographic mobility: worked in multiple towns (Donipaire, Mirecourt, Epinal). (9) Cleric's role interesting - allegedly heard her confession of witchcraft but did not absolve her. (10) Father's comment that mother had 'deceived him the same way' suggests family pattern. Sebille denied accusations during initial interrogation but confessed under torture. Witness 2 (Jean Mourisot) appears to be formal accuser though not explicitly identified as partie formelle.",
+    "pdf_pages": 4
+  }
+}

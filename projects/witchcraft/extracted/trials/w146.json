@@ -3,6 +3,8 @@
   "archive_ref": "B8667 no 8",
   "location": "Viel Marché",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1592-09-17",
     "end": "1592-10-26",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Claudatte veuve Michel Demenge Antoine",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": [],
       "origin": null,
       "residence": "Viel Marché",
@@ -54,6 +60,7 @@
     {
       "number": 1,
       "name": "George Tabourin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -83,6 +90,7 @@
     {
       "number": 2,
       "name": "Didier Bergier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "Bourgeois",
@@ -104,6 +112,7 @@
     {
       "number": 3,
       "name": "Jean Pierrat",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": null,
@@ -133,6 +142,7 @@
     {
       "number": 4,
       "name": "Jean Thierry",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -154,6 +164,7 @@
     {
       "number": 5,
       "name": "Mengeon Wanier",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": null,
@@ -197,6 +208,7 @@
     {
       "number": 6,
       "name": "Unknown witness",
+      "person_id": null,
       "gender": "unknown",
       "age": null,
       "occupation": null,
@@ -226,6 +238,7 @@
     {
       "number": 7,
       "name": "Claudon Durant",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -255,6 +268,7 @@
     {
       "number": 8,
       "name": "Jacot Bergier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "Bourgeois",
@@ -284,6 +298,7 @@
     {
       "number": 9,
       "name": "Mengeon Meschat",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": "Bourgeois",
@@ -313,6 +328,7 @@
     {
       "number": 10,
       "name": "Catherine femme a Mengeon Meschat",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -342,6 +358,7 @@
     {
       "number": 11,
       "name": "Catherine veuve de Nicolas Miclin",
+      "person_id": null,
       "gender": "female",
       "age": 37,
       "occupation": null,
@@ -378,6 +395,7 @@
     {
       "number": 12,
       "name": "Marguitte femme Daniel le Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -399,6 +417,7 @@
     {
       "number": 13,
       "name": "Bastien des Aulx",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -420,6 +439,7 @@
     {
       "number": 14,
       "name": "Marguitte femme Jean Cordier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -441,6 +461,7 @@
     {
       "number": 15,
       "name": "? George",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "bourgeois",
@@ -462,6 +483,7 @@
     {
       "number": 16,
       "name": "Jehennon femme Colas du Haud",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -483,6 +505,7 @@
     {
       "number": 17,
       "name": "Gilles Padoux",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "lieutenant de bailly à St Dié",
@@ -519,6 +542,7 @@
     {
       "number": 18,
       "name": "Annon femme a Gilles Padoux",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": null,
@@ -548,6 +572,7 @@
     {
       "number": 19,
       "name": "Francois Petit Demenge",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "substitut du Procureur General de Lorraine à St. Dié",
@@ -1453,7 +1478,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "would have taken action against curé Nicolas for accusations but he moved away from parish",
     "imprisonment_conditions": "son-in-law came to foot of tower by night and called out encouragement",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "2 October 1592: ordered torture but only so she should 'ung peu sentir les gresillons' (feel thumbscrews a little). 12 October 1592: passed death sentence subject to repetition of confessions. 17 October 1592: ordered further torture after retraction.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1517,6 +1547,7 @@
   "third_parties": [
     {
       "name": "le Petit Prevost",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "kept company with Claudatte",
       "relationship_to_witness": null,
@@ -1524,6 +1555,7 @@
     },
     {
       "name": "Claudon Demenge d'Epvre",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "kept company with Claudatte",
       "relationship_to_witness": null,
@@ -1531,6 +1563,7 @@
     },
     {
       "name": "Messieur Nicolas",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "curé who she said did evil",
       "relationship_to_witness": null,
@@ -1538,6 +1571,7 @@
     },
     {
       "name": "brother of curé Nicolas",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1545,6 +1579,7 @@
     },
     {
       "name": "devineresse at Ban de Sapt",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "identified Claudatte as cause of marital discord",
       "relationship_to_witness": "consulted by Claudon Durant",
@@ -1552,6 +1587,7 @@
     },
     {
       "name": "devineresse at Ban d'Estival",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "advised obtaining items from Claudatte's house",
       "relationship_to_witness": "consulted by Jacot Bergier",
@@ -1559,6 +1595,7 @@
     },
     {
       "name": "religieux de Haulteseille",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "identified her as cause of illness",
       "relationship_to_witness": "consulted by Nicolas Miclin",
@@ -1566,6 +1603,7 @@
     },
     {
       "name": "Noel des Aulx",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "Claudatte's husband stood caution for him",
       "relationship_to_witness": null,
@@ -1573,6 +1611,7 @@
     },
     {
       "name": "la Stablatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accused Claudatte as accomplice",
       "relationship_to_witness": null,
@@ -1580,6 +1619,7 @@
     },
     {
       "name": "Jean Diey",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "made accusation against her",
       "relationship_to_witness": null,
@@ -1587,6 +1627,7 @@
     },
     {
       "name": "Challatte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1594,6 +1635,7 @@
     },
     {
       "name": "Bastien Jean Myatte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1601,6 +1643,7 @@
     },
     {
       "name": "Colas Demenge Willaume",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1608,6 +1651,7 @@
     },
     {
       "name": "Jean Pierrat's chambermaid",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1615,6 +1659,7 @@
     },
     {
       "name": "wife of Bastien des Aulx",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

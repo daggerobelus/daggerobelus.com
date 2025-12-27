@@ -3,6 +3,8 @@
   "archive_ref": "B 7137 no 3",
   "location": "Parey-sous-Montfort",
   "court": "PG des Vosges",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1626-11-13",
     "end": "1626-11-28",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Margo femme Jean Georges",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "charms_amulets"],
       "occupation": [],
       "origin": null,
       "residence": "Parey-sous-Montfort",
@@ -50,6 +56,7 @@
     {
       "number": 1,
       "name": "Adrian le Blanc",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -71,6 +78,7 @@
     {
       "number": 2,
       "name": "Mengeotte femme Adrian le Blanc",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -100,6 +108,7 @@
     {
       "number": 3,
       "name": "Jean Forgeot",
+      "person_id": null,
       "gender": "male",
       "age": 66,
       "occupation": null,
@@ -129,6 +138,7 @@
     {
       "number": 4,
       "name": "Thomas Forgeot",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -158,6 +168,7 @@
     {
       "number": 5,
       "name": "Nicolas Forgeot, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "occupation": null,
@@ -187,6 +198,7 @@
     {
       "number": 6,
       "name": "Liegey Prout",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -216,6 +228,7 @@
     {
       "number": 7,
       "name": "Mengeotte femme Jean Forgeot",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -245,6 +258,7 @@
     {
       "number": 8,
       "name": "Dieudonnée femme Thomas Forgeot",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -281,6 +295,7 @@
     {
       "number": 9,
       "name": "Mengin François",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": null,
@@ -317,6 +332,7 @@
     {
       "number": 10,
       "name": "Jeannon femme Mengin François",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -338,6 +354,7 @@
     {
       "number": 11,
       "name": "Claudon fille François Pernot",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": "servant",
@@ -776,7 +793,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": null,
+      "modification_details": null,
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -816,6 +838,7 @@
   "third_parties": [
     {
       "name": "Claudon (sister of Margo, now dead)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -823,6 +846,7 @@
     },
     {
       "name": "unnamed mother of Margo",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -830,6 +854,7 @@
     },
     {
       "name": "Mengeotte fille Jean Forgeot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter (to witnesses 3,7), sister (to witnesses 4,5)",
@@ -837,6 +862,7 @@
     },
     {
       "name": "Mengette (niece)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "niece of Dieudonnée femme Thomas Forgeot",
@@ -844,6 +870,7 @@
     },
     {
       "name": "François Morquin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -851,6 +878,7 @@
     },
     {
       "name": "wife of François Morquin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -858,6 +886,7 @@
     },
     {
       "name": "Jean Georges",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": "worked ploughing with Thomas Forgeot",
@@ -865,6 +894,7 @@
     },
     {
       "name": "children of Margo (4 total: 2 boys, 2 girls)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "relationship_to_witness": null,

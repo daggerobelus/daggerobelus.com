@@ -3,6 +3,8 @@
   "archive_ref": "B 4077 no 3",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1596-08-09",
     "end": "1596-09-03",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Chesnon la Triffatte",
+      "person_id": null,
       "gender": "female",
       "age": 79,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["divination", "charms_amulets", "other"],
       "occupation": ["healer", "former prostitute"],
       "origin": "Charmes",
       "residence": "Charmes",
@@ -55,6 +61,7 @@
     {
       "number": 1,
       "name": "Margueritte Nicolas Cuyr",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "occupation": null,
@@ -84,6 +91,7 @@
     {
       "number": 2,
       "name": "Margueritte femme de Thierat Fournier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "wife of butcher",
@@ -120,6 +128,7 @@
     {
       "number": 3,
       "name": "Dieudonne Jean",
+      "person_id": null,
       "gender": "male",
       "age": 57,
       "occupation": "master baker",
@@ -156,6 +165,7 @@
     {
       "number": 4,
       "name": "Jennon femme de Dieudonné Jean",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -185,6 +195,7 @@
     {
       "number": 5,
       "name": "Mongeatte veuve de Aulbry Jean Aulbry",
+      "person_id": null,
       "gender": "female",
       "age": 54,
       "occupation": "wet nurse (nourrice)",
@@ -214,6 +225,7 @@
     {
       "number": 6,
       "name": "Claudon femme à Jean de Besange",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -243,6 +255,7 @@
     {
       "number": 7,
       "name": "Jean Morel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "locksmith (serrurier)",
@@ -264,6 +277,7 @@
     {
       "number": 8,
       "name": "George gros Jean",
+      "person_id": null,
       "gender": "male",
       "age": 58,
       "occupation": "draper (drappier)",
@@ -293,6 +307,7 @@
     {
       "number": 9,
       "name": "Jannon femme de George Gouvernat le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -314,6 +329,7 @@
     {
       "number": 10,
       "name": "Mongeatte femme de Jean Jacquat",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "innkeeper's wife (hostelain)",
@@ -343,6 +359,7 @@
     {
       "number": 11,
       "name": "Idatte femme de Jean Bourcy",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -364,6 +381,7 @@
     {
       "number": 12,
       "name": "Mongeatte femme de Cuevrin Dieudonne",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -385,6 +403,7 @@
     {
       "number": 13,
       "name": "Cuevrin Dieudonne",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": null,
@@ -1201,7 +1220,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Devil appeared in prison, tore off her chains and beat her when she decided to confess; feared accomplices would come beat her in prison",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Torture approved but to be very moderate in view of her age and health; death sentence approved",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1271,6 +1295,7 @@
   "third_parties": [
     {
       "name": "la Mallebarbe",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
@@ -1278,6 +1303,7 @@
     },
     {
       "name": "la Badellatte",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "shared house with accused",
       "relationship_to_witness": "told stories to witness 1",
@@ -1285,6 +1311,7 @@
     },
     {
       "name": "Margueritte Merciere",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "relative (according to Triffatte)",
       "relationship_to_witness": "community member",
@@ -1292,6 +1319,7 @@
     },
     {
       "name": "Catherine Pouffroy",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "refused her place in poisle",
       "relationship_to_witness": "mother of witness 2",
@@ -1299,6 +1327,7 @@
     },
     {
       "name": "Margueritte Colas Cuyr",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "accompanied witness 2 on neufiesme",
@@ -1306,6 +1335,7 @@
     },
     {
       "name": "son of Dieudonne Jean",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "quarreled with her, she made hostile remarks",
       "relationship_to_witness": "son of witnesses 3 and 4",
@@ -1313,6 +1343,7 @@
     },
     {
       "name": "Nicaise Bordon's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1320,6 +1351,7 @@
     },
     {
       "name": "Jacquat Corriere",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1327,6 +1359,7 @@
     },
     {
       "name": "child of clerc juré",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "charge of witness 5 (wet nurse)",
@@ -1334,6 +1367,7 @@
     },
     {
       "name": "Jean Regal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "friend of husband at school",
       "relationship_to_witness": null,
@@ -1341,6 +1375,7 @@
     },
     {
       "name": "Anne (wife of George gros Jean)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had great quarrel, called her witch dozen times",
       "relationship_to_witness": "wife of witness 8",
@@ -1348,6 +1383,7 @@
     },
     {
       "name": "Jean Marchal",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1355,6 +1391,7 @@
     },
     {
       "name": "Claudette wife of Jean Marchal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had been rude when both young",
       "relationship_to_witness": null,
@@ -1362,6 +1399,7 @@
     },
     {
       "name": "receveur",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "gave her alms",
       "relationship_to_witness": null,
@@ -1369,6 +1407,7 @@
     },
     {
       "name": "daughters of Petit Pain",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "gave her alms",
       "relationship_to_witness": null,
@@ -1376,6 +1415,7 @@
     },
     {
       "name": "daughters of Tailleur",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "gave her alms",
       "relationship_to_witness": null,
@@ -1383,6 +1423,7 @@
     },
     {
       "name": "two children gathering pears",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "showed kindness, shared food",
       "relationship_to_witness": null,
@@ -1390,6 +1431,7 @@
     },
     {
       "name": "Adeline Petit Maire (mother)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,

@@ -4,6 +4,14 @@
   "archive_ref": "B 4077 no 2",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Barbe Mallebarbe",
+    "person_id": null,
+    "occupation": "beggar",
+    "location": "Charmes",
+    "relationship_to_accused": "fellow beggar, enemy"
+  },
   "dates": {
     "start": "1596-08-09",
     "end": "1596-09-03",
@@ -13,9 +21,13 @@
   "accused": [
     {
       "name": "Claudon la Romaine",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "other"],
       "occupation": ["beggar", "day labourer", "spinner"],
       "origin": "Bar-le-Duc",
       "residence": "Charmes",
@@ -51,6 +63,7 @@
     {
       "number": 1,
       "name": "Mongeatte veuve de Aulbry Jean Aulbry",
+      "person_id": null,
       "gender": "female",
       "age": 54,
       "occupation": null,
@@ -80,6 +93,7 @@
     {
       "number": 2,
       "name": "Sebille fille de feu Harmant Aulbry",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "age_approximate": true,
@@ -117,6 +131,7 @@
     {
       "number": 3,
       "name": "Isabel femme de Jean Pordon",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -146,6 +161,7 @@
     {
       "number": 4,
       "name": "Idatte femme d'Aubry Perin tailleur",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -176,6 +192,7 @@
     {
       "number": 5,
       "name": "Claudon veuve de Jean Pelletier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -206,6 +223,7 @@
     {
       "number": 6,
       "name": "Nicolas Sellier",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": null,
@@ -227,6 +245,7 @@
     {
       "number": 7,
       "name": "Barbe Sellier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -249,6 +268,7 @@
     {
       "number": 8,
       "name": "Claude Rossel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -897,7 +917,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Used as evidence against her - authorities found it implausible she claimed to be too poor for justice but had pursued the dolbaire case",
     "imprisonment_conditions": "Shared cell with la Triffatte on first night",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -936,6 +961,7 @@
   "third_parties": [
     {
       "name": "Barbe Mallebarbe",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow beggar, enemy",
       "relationship_to_witness": null,
@@ -943,6 +969,7 @@
     },
     {
       "name": "Jean Regard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "landlord - Claudon lived in his house",
       "relationship_to_witness": null,
@@ -950,6 +977,7 @@
     },
     {
       "name": "Didier Colardot (deceased)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -957,6 +985,7 @@
     },
     {
       "name": "late prévôt",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -964,6 +993,7 @@
     },
     {
       "name": "Jean Faillon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "rich relative (merchant of Bar)",
       "relationship_to_witness": null,
@@ -971,6 +1001,7 @@
     },
     {
       "name": "Messire Mathieu Grec",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "employer in Rome",
       "relationship_to_witness": null,
@@ -978,6 +1009,7 @@
     },
     {
       "name": "Cardinal Rodolphe",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "employer in Rome",
       "relationship_to_witness": null,
@@ -985,6 +1017,7 @@
     },
     {
       "name": "Demenge Meschi (deceased)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "legal opponent",
       "relationship_to_witness": null,
@@ -992,6 +1025,7 @@
     },
     {
       "name": "la Triffatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow prisoner",
       "relationship_to_witness": null,
@@ -999,6 +1033,7 @@
     },
     {
       "name": "Bastien (Claudon's dead husband)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "deceased spouse",
       "relationship_to_witness": null,

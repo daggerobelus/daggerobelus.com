@@ -3,6 +3,14 @@
   "archive_ref": "B 2583 no 2",
   "location": "Le Thillot",
   "court": "Change de Nancy (appellate), Prévôt of Arches (local jurisdiction)",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Chretienne Parmentier",
+    "person_id": null,
+    "occupation": "servant",
+    "location": "Le Thillot",
+    "relationship_to_accused": "neighbor, former servant of François Claudel Anthoine"
+  },
   "dates": {
     "start": "1624-06-26",
     "end": "1624-08-19",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Remiere Beustal",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "charms_amulets", "veterinary"],
       "occupation": ["healer", "animal healer"],
       "residence": "Le Thillot",
       "marital_status": "widowed",
@@ -49,6 +61,7 @@
     {
       "number": 1,
       "name": "Nicolas Godel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "tabellion (notary)",
@@ -78,6 +91,7 @@
     {
       "number": 2,
       "name": "Delat Godel",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "occupation": null,
@@ -114,6 +128,7 @@
     {
       "number": 3,
       "name": "Philippe Godel",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": null,
@@ -143,6 +158,7 @@
     {
       "number": 4,
       "name": "Jean Mercier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "tailleur d'habitz (tailor)",
@@ -172,6 +188,7 @@
     {
       "number": 5,
       "name": "Magdellaine",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": "wife of Jean Mercier",
@@ -193,6 +210,7 @@
     {
       "number": 6,
       "name": "Nicolas fils de feu Mathieu la Breuche",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": null,
@@ -214,6 +232,7 @@
     {
       "number": 7,
       "name": "Claude Lambert dit Dany",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": null,
@@ -235,6 +254,7 @@
     {
       "number": 8,
       "name": "Remy Toussain Beustal",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -256,6 +276,7 @@
     {
       "number": 9,
       "name": "Jean Gerard Domecourt",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": "tisserand (weaver)",
@@ -277,6 +298,7 @@
     {
       "number": 10,
       "name": "Nicolas Laurent",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": null,
@@ -298,6 +320,7 @@
     {
       "number": 11,
       "name": "Barbe veuve Mathieu la Breuche",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "widow",
@@ -327,6 +350,7 @@
     {
       "number": 12,
       "name": "Mathieu Ongier",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": null,
@@ -348,6 +372,7 @@
     {
       "number": 13,
       "name": "François Claudel Anthoine",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "resident of La Meline",
@@ -377,6 +402,7 @@
     {
       "number": 14,
       "name": "Nicolas Martin Colé",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -398,6 +424,7 @@
     {
       "number": 15,
       "name": "Delatte femme Jean Martin Colé",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": "wife of Nicolas Martin Colé",
@@ -419,6 +446,7 @@
     {
       "number": 16,
       "name": "Estienne Lallemant",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "controlleur en la gruyerie du val de Ramonchamp",
@@ -469,6 +497,7 @@
     {
       "number": 17,
       "name": "Didier Boileau",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "meunier (miller)",
@@ -1151,7 +1180,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Successfully had Nicolas Martin Colé fined for calling her witch",
     "imprisonment_conditions": "Does not appear to have been imprisoned during interrogation - 'Does not sound as if she was in prison'",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "rejected",
+      "modification_details": "Change de Nancy rejected PG des Vosges' request for torture and recommended release unless additional evidence produced",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1206,6 +1240,7 @@
   "third_parties": [
     {
       "name": "Chretienne Parmentier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "neighbor, initial accuser",
       "relationship_to_witness": "was servant of François Claudel Anthoine",
@@ -1213,6 +1248,7 @@
     },
     {
       "name": "Claudon (son of Remiere)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1220,6 +1256,7 @@
     },
     {
       "name": "Claude (son of Remiere)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1227,6 +1264,7 @@
     },
     {
       "name": "Valentine",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "stepmother of Delat Godel",
@@ -1234,6 +1272,7 @@
     },
     {
       "name": "Nicolas Cosme",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -1241,6 +1280,7 @@
     },
     {
       "name": "wife of Nicolas Lambert",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "taught her healing prayers",
       "relationship_to_witness": null,
@@ -1248,6 +1288,7 @@
     },
     {
       "name": "Didier Boileau",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "reported threat to Estienne Lallemant",

@@ -3,6 +3,8 @@
   "archive_ref": "B 3327 no 4",
   "location": "Reillon",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1604-04-01",
     "end": "1604-05-03",
@@ -12,6 +14,7 @@
   "accused": [
     {
       "name": "Nicolas Raimbault",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -19,6 +22,9 @@
       "origin": "Reillon",
       "residence": "Reillon",
       "marital_status": "married",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
       "parents": {
         "father": "Nicolas de Domjevin",
         "mother": "Barbelline"
@@ -56,6 +62,7 @@
     {
       "number": 1,
       "name": "Dieudegnon Claude",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Reillon",
@@ -90,6 +97,7 @@
     {
       "number": 2,
       "name": "Jean Dieudenon",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -118,6 +126,7 @@
     {
       "number": 3,
       "name": "Nicolas Hachon",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -146,6 +155,7 @@
     {
       "number": 4,
       "name": "Nicolas Mariatte le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -173,6 +183,7 @@
     {
       "number": 5,
       "name": "Claudatte femme Aulbry Austett",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -201,6 +212,7 @@
     {
       "number": 6,
       "name": "Urbain Jean Colin",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "age_approximate": true,
@@ -250,6 +262,7 @@
     {
       "number": 7,
       "name": "George Guirien",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Reillon",
@@ -275,6 +288,7 @@
     {
       "number": 8,
       "name": "Chrestienne femme a Nicolas Hachon",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -294,6 +308,7 @@
     {
       "number": 9,
       "name": "Dieudonné Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -321,6 +336,7 @@
     {
       "number": 10,
       "name": "Jehenne femme Jean Dieudegnon",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "age_approximate": true,
@@ -341,6 +357,7 @@
     {
       "number": 11,
       "name": "Claudon Crolbesnier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -368,6 +385,7 @@
     {
       "number": 12,
       "name": "Zabel femme George Quirien",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Reillon",
@@ -394,6 +412,7 @@
     {
       "number": 13,
       "name": "Henry Houlatte",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -421,6 +440,7 @@
     {
       "number": 14,
       "name": "Virion Cherrier",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "age_approximate": true,
@@ -449,6 +469,7 @@
     {
       "number": 15,
       "name": "Claude Dieudegnon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -484,6 +505,7 @@
     {
       "number": 16,
       "name": "Didier Hachon",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -511,6 +533,7 @@
     {
       "number": 17,
       "name": "Claudon Hachon",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "age_approximate": true,
@@ -539,6 +562,7 @@
     {
       "number": 18,
       "name": "Claudon Jean Robin",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "age_approximate": true,
@@ -1556,7 +1580,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1603,6 +1632,7 @@
   "third_parties": [
     {
       "name": "Noel (son of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": "borrowed horse from witness 1; in service of Vaultrin per witness 5",
@@ -1610,6 +1640,7 @@
     },
     {
       "name": "Barbelline (daughter of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": "servant to witness 2; beaten by witness 14",
@@ -1617,6 +1648,7 @@
     },
     {
       "name": "sister executed at St. Clement",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1624,6 +1656,7 @@
     },
     {
       "name": "Claudatte (aunt)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": "aunt of witness 8",
@@ -1631,6 +1664,7 @@
     },
     {
       "name": "Vaultrin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "employer of accused's son",
       "relationship_to_witness": null,
@@ -1638,6 +1672,7 @@
     },
     {
       "name": "Waltin of Blesmerey",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "took accused's job",
       "relationship_to_witness": null,
@@ -1645,6 +1680,7 @@
     },
     {
       "name": "Jean Quirien",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father-in-law of witness 6",
@@ -1652,6 +1688,7 @@
     },
     {
       "name": "Quirien Marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother-in-law of witness 6",
@@ -1659,6 +1696,7 @@
     },
     {
       "name": "Claudon (brother)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother of witnesses 6 and 18",
@@ -1666,6 +1704,7 @@
     },
     {
       "name": "curé of Reillon",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "victim of theft",
       "relationship_to_witness": "employer",
@@ -1673,6 +1712,7 @@
     },
     {
       "name": "Demenge Jabellot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1680,6 +1720,7 @@
     },
     {
       "name": "Claudon de Vauernot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "employer of witness 14",
@@ -1687,6 +1728,7 @@
     },
     {
       "name": "Jean Febuay",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1694,6 +1736,7 @@
     },
     {
       "name": "Margueritte Francois",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice who accused him",
       "relationship_to_witness": null,
@@ -1701,6 +1744,7 @@
     },
     {
       "name": "Claudon de Benaumesnil",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "falsely accused as accomplice",
       "relationship_to_witness": null,
@@ -1708,6 +1752,7 @@
     },
     {
       "name": "Claude Marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "falsely accused as accomplice",
       "relationship_to_witness": null,
@@ -1715,6 +1760,7 @@
     },
     {
       "name": "Mre Parsin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master",
       "relationship_to_witness": null,

@@ -3,6 +3,14 @@
   "archive_ref": "B 7309 no 2",
   "location": "Einville",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Claude des Fours",
+    "person_id": null,
+    "occupation": "commercant",
+    "location": "Einville",
+    "relationship_to_accused": "creditor (owed wheat), victim of false accusation"
+  },
   "dates": {
     "start": "1593-09-13",
     "end": "1593-09-18",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Nicolas Fontaine",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": ["shepherd", "herder"],
       "origin": "Neufmaisons near Badonviller",
       "residence": "Einville",
@@ -461,7 +473,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Imprisoned for 8 weeks at Einville before appeal; personal property including cow confiscated",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Change de Nancy took over case from Einville court after Claude des Fours appealed to duke. Rémy ordered release of all falsely accused (des Fours family and others) on Sept 15, then approved death sentence on Sept 18.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -482,90 +499,105 @@
   "third_parties": [
     {
       "name": "Claude des Fours",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "creditor (owed wheat), victim of false accusation",
       "context": "Commercant of Einville who appealed to duke to bring case before Change de Nancy"
     },
     {
       "name": "Jean Hacquart",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former employer",
       "context": "Dismissed Nicolas from service; suspected of requesting his imprisonment; animals killed by Nicolas; wife falsely accused"
     },
     {
       "name": "Demenge Vieulxbois",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "employer or client",
       "context": "Owner of animals killed by Nicolas with black powder"
     },
     {
       "name": "Joannes de Dieuze / Joannes Messager",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "adversary",
       "context": "Prevented Nicolas from being admitted as bourgeois at Dieuze; daughter killed in revenge"
     },
     {
       "name": "Marie / Agnes Petit",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "wife of prévôt",
       "context": "Wife of prévôt of Einville; killed because she accused him of not looking after herd properly"
     },
     {
       "name": "Philbert le Boulengier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "creditor",
       "context": "Refused to give Nicolas wine on credit; child killed in revenge 2 years earlier"
     },
     {
       "name": "maire des Cailles of Einville",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "official",
       "context": "Wife killed because she would not let Nicolas stop outside her house with animals"
     },
     {
       "name": "Nicolas Toussainct",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member who called him witch",
       "context": "Falsely accused; accusation retracted"
     },
     {
       "name": "le gros Colas",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member who called him witch",
       "context": "Falsely accused; accusation retracted"
     },
     {
       "name": "Didier Marlier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "unknown",
       "context": "Wife falsely accused; accusation retracted"
     },
     {
       "name": "Jean Houart",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "pastor at Maixe",
       "context": "Pastre of Maixe; falsely accused; accusation retracted"
     },
     {
       "name": "Jean of Moyen",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "enemy",
       "context": "Horse killed with first powder given by devil"
     },
     {
       "name": "miller near Château-Salins",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "employer who blamed him",
       "context": "Cow killed after miller blamed Nicolas for not keeping animals better"
     },
     {
       "name": "Jean of Tarquimpol",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "official who fined animals",
       "context": "Fined Nicolas's animals; son made ill then cured with white powder"
     },
     {
       "name": "the duke",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "sovereign",
       "context": "Claude des Fours made request to duke to bring case before Change de Nancy"

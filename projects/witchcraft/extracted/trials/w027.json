@@ -3,6 +3,7 @@
   "archive_ref": "B 3323 no 3",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1602-03-20",
     "end": "1602-04-27",
@@ -12,9 +13,13 @@
   "accused": [
     {
       "name": "la Grande Marye",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "divination"],
       "occupation": [],
       "origin": "Leintrey",
       "residence": "Leintrey",
@@ -42,6 +47,7 @@
     {
       "number": 1,
       "name": "Nicolas le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": "manouvrier",
@@ -66,6 +72,7 @@
     {
       "number": 2,
       "name": "Nicolas Chastey",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": "manouvrier",
@@ -77,6 +84,7 @@
     {
       "number": 3,
       "name": "Allison, veuve Demenge Didier Gerard",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Leintrey",
@@ -100,6 +108,7 @@
     {
       "number": 4,
       "name": "Claude Thomas",
+      "person_id": null,
       "gender": "male",
       "age": 47,
       "occupation": "laboureur",
@@ -120,6 +129,7 @@
     {
       "number": 5,
       "name": "Hellenix femme Demenge Conna",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "manouvrier's wife",
@@ -145,6 +155,7 @@
     {
       "number": 6,
       "name": "Nicolas Mongenan",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "marechal",
@@ -169,6 +180,7 @@
     {
       "number": 7,
       "name": "Meline, femme Persin Hanry",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "laboureur's wife",
@@ -194,6 +206,7 @@
     {
       "number": 8,
       "name": "Sebille fille Didier de Vacory",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": "manouvrier's daughter",
@@ -215,6 +228,7 @@
     {
       "number": 9,
       "name": "Jennon femme Nicolas Mongenan",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Leintrey",
@@ -239,6 +253,7 @@
     {
       "number": 10,
       "name": "Jehenne Vannier, femme Henry de Frumesnil",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": "manouvrier's wife",
@@ -263,6 +278,7 @@
     {
       "number": 11,
       "name": "Anthoine Grand Anthoine",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "occupation": "tixerand",
@@ -294,6 +310,7 @@
     {
       "number": 12,
       "name": "Jean Breton",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "occupation": "jeune homme à marier",
@@ -315,6 +332,7 @@
     {
       "number": 13,
       "name": "Meline femme Anthoine Grand Anthoine",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Leintrey",
@@ -354,6 +372,7 @@
     {
       "number": 14,
       "name": "Odille, femme Claudon Grande Claude",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "location": "Leintrey",
@@ -378,6 +397,7 @@
     {
       "number": 15,
       "name": "Jean Godel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "manouvrier",
@@ -401,6 +421,7 @@
     {
       "number": 16,
       "name": "Michel Hellenix",
+      "person_id": null,
       "gender": "male",
       "age": 49,
       "occupation": "laboureur",
@@ -443,6 +464,7 @@
     {
       "number": 17,
       "name": "Mengeotte veuve Pierson Grand Michiel",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Leintrey",
@@ -1131,7 +1153,12 @@
     ],
     "accused_sought_redress": true,
     "redress_outcome": "Threatened to take Nicolas le Clerc's father to law for calling her witch, but he counter-threatened to have her burned",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture with discretion and moderation ('avec discretion et mediocrité requise'); approved death sentence subject to final confirmation of confessions",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1188,67 +1215,79 @@
   "third_parties": [
     {
       "name": "Demenge Didier Renard (Nicolas le Clerc's father)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "quarreled with Marye's husband",
       "context": "Called Marye witch; threatened to have her burned; lost cows"
     },
     {
       "name": "Didier, first wife of Gros Henry Margeron",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Marye said dismissively of her 'qu'elle est morte bien pauvrement et couroit apres les prestres et les gens de guerre'"
     },
     {
       "name": "la petite Didier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Pregnant neighbor who Marye quarreled with violently; became frantic after giving birth"
     },
     {
       "name": "Demenge Colbay",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "father of deceased daughter",
       "context": "Marye denied causing death of his daughter in confession"
     },
     {
       "name": "Nicolas Marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "His wife accused Marye of stealing an écu; Marye caused her eye trouble in revenge"
     },
     {
       "name": "Poirson Halbix (Poirson Halbry)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "father of deceased son",
       "context": "His son insulted Marye; she beat him and he died; Marye confessed to killing him"
     },
     {
       "name": "curé",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Poirson Halbry's son was going to church to see if curé was available to hear his mother's confession"
     },
     {
       "name": "son of Didier Colin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_witness": "employer of Jehenne Vannier",
       "context": "Jehenne was in service with him at Embermesnil"
     },
     {
       "name": "Jean Bon Claude",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "father of bride/groom",
       "context": "His daughter married late Nicolas Pierson; wedding feast Jehenne attended"
     },
     {
       "name": "Nicolas Pierson (late)",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Married daughter of Jean Bon Claude"
     },
     {
       "name": "Demenge Grand Colas",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_witness": "employer",
       "context": "His father employed Mengeotte and Marye for day labour"
     },
     {
       "name": "Jean Gadot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Marye accused him of stealing tithes"
     }

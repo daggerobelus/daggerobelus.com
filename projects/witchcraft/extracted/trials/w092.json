@@ -3,6 +3,14 @@
   "archive_ref": "B 5312 no 2",
   "location": "Domnon",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": {
+    "name": "Engel de Bidestroff and Christienne de Bidestroff",
+    "person_id": null,
+    "occupation": null,
+    "location": "Bidestroff",
+    "relationship_to_accused": "accused as accomplice (both recently executed)"
+  },
   "dates": {
     "start": "1594-06-03",
     "end": "1594-07-02",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Catherine veuve Jean Lhuillier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["midwifery", "veterinary"],
       "occupation": ["basle (midwife)", "beggar"],
       "origin": "Hennamesnil",
       "residence": "Domnon",
@@ -55,6 +67,7 @@
     {
       "number": 1,
       "name": "Mengeotte femme du maire Hannel",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -84,6 +97,7 @@
     {
       "number": 2,
       "name": "Colin Oudenot",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "manouvrier",
@@ -105,6 +119,7 @@
     {
       "number": 3,
       "name": "Hamans Petter",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -126,6 +141,7 @@
     {
       "number": 4,
       "name": "Barthelhans Huyllier",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": null,
@@ -147,6 +163,7 @@
     {
       "number": 5,
       "name": "Nickels Petter",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -168,6 +185,7 @@
     {
       "number": 6,
       "name": "Britz",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -197,6 +215,7 @@
     {
       "number": 7,
       "name": "Jean Mathieu",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "manouvrier",
@@ -218,6 +237,7 @@
     {
       "number": 8,
       "name": "Mathzen Hanns",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "guard",
@@ -720,7 +740,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Transferred to prison at Dieuze on 9 June after admitting she was a witch; guard appointed (Mathzen Hanns) because she had tried to flee several times",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "June 23: Local court requested death sentence, but Change de Nancy required torture first. June 30: After torture, Change approved death sentence without further modifications.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -767,6 +792,7 @@
   "third_parties": [
     {
       "name": "Appel femme Mathis Hannel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "community member",
@@ -774,6 +800,7 @@
     },
     {
       "name": "Mathis Hannel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of Appel",
@@ -781,6 +808,7 @@
     },
     {
       "name": "maire Hannel",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 1",
@@ -788,6 +816,7 @@
     },
     {
       "name": "sick child of Catherine",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "child of accused",
       "relationship_to_witness": null,
@@ -795,6 +824,7 @@
     },
     {
       "name": "Petter Britze",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "creditor",
       "relationship_to_witness": null,
@@ -802,6 +832,7 @@
     },
     {
       "name": "Britze (brother of Petter)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "demanding creditor",
       "relationship_to_witness": "possibly same as witness 6",
@@ -809,6 +840,7 @@
     },
     {
       "name": "unnamed vigneron",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -816,6 +848,7 @@
     },
     {
       "name": "another woman (unnamed)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -823,6 +856,7 @@
     },
     {
       "name": "servants of Britz",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "servants of witness 6",
@@ -830,6 +864,7 @@
     },
     {
       "name": "wife of Britz",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 6",
@@ -837,6 +872,7 @@
     },
     {
       "name": "vagabond with a limp",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

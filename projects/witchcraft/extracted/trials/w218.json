@@ -1,0 +1,839 @@
+{
+  "trial_id": "w218",
+  "archive_ref": "B 8691 no 8",
+  "location": "la Neuveville-les-Raon",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Zabel femme Didier Pescheur",
+    "person_id": null,
+    "relationship_to_accused": "accuser"
+  },
+  "dates": {
+    "start": "1602-12-23",
+    "end": "1603-01-08",
+    "duration_days": 17
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Marguitte femme Dieudonné Marond",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 50,
+      "age_approximate": true,
+      "occupation": [],
+      "origin": "Glonnille",
+      "residence": "la Neuveville-les-Raon",
+      "marital_status": "married",
+      "spouse_name": "Dieudonné Marond",
+      "parents": {
+        "father": "Demenge Gerard",
+        "mother": "Zabel"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Parsin",
+        "devil_appearance": "man with claws",
+        "seduction_date": "14 years before trial",
+        "seduction_context": "Met on road while crying about legal dispute with Jean Regnier over field and difficulty making a living. Parsin promised she would not have problems if she served him, gave her money (leaves) and black powder.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["usual location", "near Thiaville"],
+        "sabbat_activities": ["dancing", "feasting", "making hail"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Jean Regnier",
+      "person_id": null,
+      "gender": "male",
+      "location": "Thiaville",
+      "relationship_to_accused": "legal opponent over field dispute",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "He had taken a field from her and won lawsuit; she later won case against him",
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "his own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "after calling her witch several times"
+          },
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "his own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "after calling her witch"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Colas Saulsatte",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Faignoulx",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "many animals",
+            "target_relationship": "his own",
+            "attributed_to": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Le Grand Curien",
+      "person_id": null,
+      "gender": "male",
+      "location": "Thiaville",
+      "relationship_to_accused": "neighbor with pathway dispute",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "He had closed a pathway to her land",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 sheep",
+            "target_relationship": "his own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "after pathway dispute"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Didielle femme Anthoine du Bru",
+      "person_id": null,
+      "gender": "female",
+      "location": "Thiaville",
+      "relationship_to_accused": "wife of brother-in-law of Jean Regnier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "her own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "9 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Colas Jacquot",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Thiaville",
+      "relationship_to_accused": "neighbor with field boundary dispute",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Encroached on her field while reaping",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "his son aged 9",
+            "target_relationship": "his son",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "soon after quarrel over field"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Colas St Remy",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Thiaville",
+      "relationship_to_accused": "neighbor with property damage dispute",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "His horses caused damage, and he mocked her after accord was reached",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "foal",
+            "target_relationship": "his own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "4 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jean Claude",
+      "person_id": null,
+      "gender": "male",
+      "age": 42,
+      "location": "Thiaville",
+      "relationship_to_accused": "neighbor with shared field dispute",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Damage he caused as they sowed field of oats together",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "his own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "10 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Idoulx",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Thiaville",
+      "relationship_to_accused": "neighbor with property dispute",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "He took her pears and insulted her",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "heifer",
+            "target_relationship": "his own",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "died in a week"
+          },
+          {
+            "type": "human_death",
+            "target": "Claude Hamo (his father-in-law)",
+            "target_relationship": "his father-in-law",
+            "attributed_to": "Marguitte femme Dieudonné Marond",
+            "time_after_quarrel": "8 years earlier"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1602-12-23",
+      "event": "interrogation",
+      "subject": "Marguitte femme Dieudonné Marond",
+      "details": "Initial confession - said she wanted to confess and was brought from prison"
+    },
+    {
+      "date": "1602-12-27",
+      "event": "interrogation",
+      "subject": "Marguitte femme Dieudonné Marond",
+      "details": "Confirmed earlier confessions, but discharged wife of Chretien Tixerand from accusations"
+    },
+    {
+      "date": "1602-12-28",
+      "event": "interrogation",
+      "subject": "Marguitte femme Dieudonné Marond",
+      "details": "Further confirmation of confession"
+    },
+    {
+      "date": "1602-12-31",
+      "event": "other",
+      "subject": "Change de Nancy",
+      "details": "Appellate court asks for depositions"
+    },
+    {
+      "date": "1603-01-04",
+      "event": "informations_preparatoires",
+      "subject": "Witnesses",
+      "details": "8 witnesses gave testimony"
+    },
+    {
+      "date": "1603-01-04",
+      "event": "interrogation",
+      "subject": "Marguitte femme Dieudonné Marond",
+      "details": "Asked not to repeat confessions due to pain in ribs; gave simple list of victims"
+    },
+    {
+      "date": "1603-01-07",
+      "event": "sentence",
+      "subject": "Marguitte femme Dieudonné Marond",
+      "details": "Death sentence from Change de Nancy"
+    },
+    {
+      "date": "1603-01-08",
+      "event": "execution",
+      "subject": "Marguitte femme Dieudonné Marond",
+      "details": "Execution carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Zabel",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Marguitte de Magnieres",
+      "context": "Seen at sabbat, already deceased",
+      "already_executed": true
+    },
+    {
+      "name": "femme George Ganat",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Mongeatte femme Thoussainct de Leuce",
+      "location": "de Leuce",
+      "context": "Seen at sabbat as honored person sitting at high table in chairs, receiving reverence",
+      "already_executed": false
+    },
+    {
+      "name": "François Marion",
+      "context": "Seen at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jehenne veuve Jean Pescheur",
+      "location": "la Chapelle",
+      "context": "Seen at smaller sabbat near Thiaville",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Chretien Tixerant",
+      "location": "la Chapelle",
+      "context": "Initially thought recognized at sabbat by her stick (she was crippled), but later discharged saying she had not seen her properly",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Zabel femme Didier Pescheur",
+      "context": "Initial accuser who triggered this trial"
+    },
+    {
+      "accuser_name": "Colatte femme George Mongeat",
+      "context": "Initial accuser who triggered this trial"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Marguitte femme Dieudonné Marond",
+      "french": "ung bon gagne-pain",
+      "english": "a good bread-winner",
+      "context": "Describing her husband when Parsin told her to kill him and she refused"
+    },
+    {
+      "speaker": "Marguitte femme Dieudonné Marond",
+      "french": "y avoit des grosses personnes qui sont tousjours honorez tout de mesme que par icy et sont tousjours assis au haultz bout dans des chayre lesquels on leur faict la reverence et honneur, et entre autres estoit l'une ladite Mongeatte cy devant declairé",
+      "english": "there were important persons who are always honored just as they are here and are always seated at the high end in chairs where they are shown reverence and honor, and among others was the said Mongeatte previously mentioned",
+      "context": "Describing sabbat hierarchy and social status replicated at sabbat"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Marguitte femme Dieudonné Marond",
+      "person2": "Dieudonné Marond",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Second marriage 8 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Dieudonné Marond",
+      "person2": "Demenge Jean Mathieu",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "First husband had been Demenge Jean Mathieu of Thiaville",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Gerard",
+      "person2": "Marguitte femme Dieudonné Marond",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "father Demenge Gerard",
+      "inferred": false
+    },
+    {
+      "person1": "Zabel",
+      "person2": "Marguitte femme Dieudonné Marond",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "mother Zabel",
+      "inferred": false
+    },
+    {
+      "person1": "Jean de Cruveler",
+      "person2": "Marguitte femme Dieudonné Marond",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "accused",
+      "evidence_text": "brother-in-law Jean de Cruveler at Fagnon",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoine de Brut",
+      "person2": "Jean Regnier",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Anthoine de Brut, brother-in-law of Regnier",
+      "inferred": false
+    },
+    {
+      "person1": "Claude Hamo",
+      "person2": "Idoulx",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "victim",
+      "person2_role": "witness",
+      "evidence_text": "His father-in-law Claude Hamo",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Jacquot",
+      "person2": "son aged 9",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "killed his son aged 9",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Dieudonné Marond",
+      "person2": "Jean Regnier",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had been to law and won case against Jean Regnier of Thiaville, who had taken a field from her",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Dieudonné Marond",
+      "person2": "Le Grand Curien",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Grand Curien of Thiaville, who had closed a pathway to her land",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Dieudonné Marond",
+      "person2": "Claude Hamo",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "victim",
+      "evidence_text": "Claude Hamo of Thiaville, whose hens and geese were trespassing in her garden",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple property disputes central to accusations: won lawsuit against Jean Regnier over field he had taken from her; disputes over pathway closure, field boundaries during reaping and sowing, property damage from animals, theft of pears. Accused described herself as having difficulty making a living. Economic anxieties appear to be major factor in her seduction narrative."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Regnier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "pig",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "Legal dispute over field",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Jean Regnier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "He called her witch several times without reparation being sought",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "Colas Fasat",
+      "victim_relationship_to_witness": "other person",
+      "harm_category": "animal_death",
+      "harm_description": "calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond"
+    },
+    {
+      "victim_name": "Demenge Bada le vieux",
+      "victim_relationship_to_witness": "other person",
+      "harm_category": "animal_death",
+      "harm_description": "2 pigs",
+      "animal_type": "pig",
+      "animal_count": 2,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "He refused to cart some corn"
+    },
+    {
+      "victim_name": "Le Grand Curien",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "3 sheep",
+      "animal_type": "sheep",
+      "animal_count": 3,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "He had closed a pathway to her land",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Anthoine de Brut",
+      "victim_relationship_to_witness": "other person",
+      "harm_category": "animal_death",
+      "harm_description": "pig",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "Brother-in-law of Regnier, with whom she had many disputes"
+    },
+    {
+      "victim_name": "son of Colas Jacquat",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Death of 9-year-old boy",
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "Colas Jacquat encroached on her field while reaping",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Colas St Remy",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "foal",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "His horses caused damage, and he mocked her after accord was reached",
+      "time_between_quarrel_and_harm": "4 years earlier",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Jean Claude",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "horse worth 22 francs",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "22 francs",
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "Damage he caused as they sowed field of oats together",
+      "time_between_quarrel_and_harm": "10 years earlier",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "Grand Idoult",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "heifer",
+      "animal_type": "heifer",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "He took her pears and insulted her",
+      "time_between_quarrel_and_harm": "died in a week",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Claude Hamo",
+      "victim_relationship_to_witness": "father-in-law of witness",
+      "harm_category": "human_death",
+      "harm_description": "Death after brief illness",
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "precipitating_quarrel": "His hens and geese were trespassing in her garden, and he insulted her",
+      "time_between_quarrel_and_harm": "10 years earlier",
+      "method_alleged": "powder",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Didielle femme Anthoine du Bru",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "pig in strange fashion",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Marguitte femme Dieudonné Marond",
+      "time_between_quarrel_and_harm": "9 years earlier",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Colas Saulsatte",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "many animals, losses still continued",
+      "attributed_to": "unknown",
+      "witness_number": 2
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "black powder",
+      "context": "Given by Parsin at seduction, used to kill victims",
+      "category": "magical"
+    },
+    {
+      "object": "money (leaves)",
+      "context": "Given by Parsin at seduction, transformed into leaves",
+      "category": "money"
+    },
+    {
+      "object": "field",
+      "context": "Legal dispute with Jean Regnier over field he had taken from her",
+      "category": "agricultural"
+    },
+    {
+      "object": "corn",
+      "context": "Demenge Bada refused to cart some corn",
+      "category": "agricultural"
+    },
+    {
+      "object": "pears",
+      "context": "Grand Idoult took her pears",
+      "category": "food"
+    },
+    {
+      "object": "straw",
+      "context": "Was going to fetch straw when Parsin appeared",
+      "category": "agricultural"
+    },
+    {
+      "object": "holy water",
+      "context": "Parsin told her not to take holy water, but she took no notice",
+      "category": "religious"
+    },
+    {
+      "object": "stick",
+      "context": "Wife of Chretien Tixerant recognized by her stick (she was crippled)",
+      "category": "tools"
+    },
+    {
+      "object": "chairs",
+      "context": "Important persons at sabbat seated in chairs at high table",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "la Neuveville-les-Raon",
+      "place_type": "village",
+      "context": "Current residence of accused"
+    },
+    {
+      "place_name": "Glonnille",
+      "place_type": "village",
+      "context": "Birthplace of accused"
+    },
+    {
+      "place_name": "Thiaville",
+      "place_type": "village",
+      "context": "Location of first husband and many disputes; most witnesses from here"
+    },
+    {
+      "place_name": "Fagnon",
+      "place_type": "village",
+      "context": "Location of brother-in-law Jean de Cruveler; road to Fagnon where seduction occurred"
+    },
+    {
+      "place_name": "Faignon",
+      "place_type": "village",
+      "context": "Location of Colas Fasat"
+    },
+    {
+      "place_name": "Faignoulx",
+      "place_type": "village",
+      "context": "Location of witness Colas Saulsatte"
+    },
+    {
+      "place_name": "de Leuce",
+      "place_type": "village",
+      "context": "Location of Mongeatte femme Thoussainct"
+    },
+    {
+      "place_name": "la Chapelle",
+      "place_type": "village",
+      "context": "Location of Jehenne veuve Jean Pescheur and wife of Chretien Tixerant"
+    },
+    {
+      "place_name": "Baccarat",
+      "place_type": "village",
+      "context": "Important persons from Baccarat seen at sabbat"
+    },
+    {
+      "place_name": "near Thiaville",
+      "place_type": "sabbat_location",
+      "context": "Location of smaller sabbat"
+    },
+    {
+      "place_name": "pathway to her land",
+      "place_type": "road",
+      "context": "Le Grand Curien had closed pathway to her land"
+    },
+    {
+      "place_name": "her garden",
+      "place_type": "other",
+      "context": "Claude Hamo's hens and geese were trespassing in her garden"
+    },
+    {
+      "place_name": "church",
+      "place_type": "church",
+      "context": "Parsin told her not to go to church, but she took no notice"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["hail"],
+    "economic_hardship_indicators": ["difficulty making a living", "legal disputes over property", "refused to cart corn", "property damage disputes"]
+  },
+  "legal_context": {
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "property",
+        "description": "Won case against Jean Regnier of Thiaville, who had taken a field from her",
+        "outcome": "She won the case"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": "Was brought from prison for confession; complained of pains in ribs during interrogation of 4 January 1603"
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 8,
+    "hearsay_testimony_count": 0,
+    "oldest_accusation_years": 10
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all"],
+    "emotional_state_notes": ["miserable and crying when met Parsin", "tormented by pains in ribs during interrogation"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Colatte femme George Mongeat",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "initial accuser",
+      "context": "One of two initial accusers who triggered the trial"
+    },
+    {
+      "name": "Jean de Cruveler",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother-in-law",
+      "context": "Brother-in-law at Fagnon whom she planned to consult about legal dispute"
+    },
+    {
+      "name": "Colas Fasat",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Lost a calf that she confessed to killing"
+    },
+    {
+      "name": "Demenge Bada le vieux",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Lost 2 pigs after refusing to cart some corn"
+    },
+    {
+      "name": "Claude Hamo",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Killed 10 years earlier with powder after dispute over trespassing hens and geese; father-in-law of witness Idoulx"
+    },
+    {
+      "name": "son of Colas Jacquat aged 9",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Killed after his father encroached on her field while reaping"
+    },
+    {
+      "name": "Marguitte de Magnieres",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Described as 'the late' - already deceased when seen at sabbat"
+    },
+    {
+      "name": "femme George Ganat",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Seen at sabbat"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Complete trial record with confession, witness testimony, and execution. Clear pattern of property disputes and economic conflict underlying accusations. Notable social hierarchy replicated at sabbat. Trial moved swiftly from confession (23 Dec 1602) to execution (8 Jan 1603). No torture mentioned - voluntary confession.",
+    "pdf_pages": 3
+  }
+}

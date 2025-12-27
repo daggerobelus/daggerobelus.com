@@ -3,6 +3,14 @@
   "archive_ref": "B 8667 No 5 (1)",
   "location": "La Bolle",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jehenne Stablo",
+    "person_id": null,
+    "occupation": null,
+    "location": "Haillieulle",
+    "relationship_to_accused": "prior accusation (later withdrawn)"
+  },
   "dates": {
     "start": "1592-09-16",
     "end": "1592-10-15",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Jean Diez",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": ["laboureur", "forestier", "bread seller", "coffin maker"],
       "origin": null,
       "residence": "La Bolle",
@@ -47,6 +59,7 @@
     {
       "number": 1,
       "name": "Pierron Demenge d'Orbay",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -66,6 +79,7 @@
     {
       "number": 2,
       "name": "Marguitte veuve Jean Morel",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "age_approximate": true,
@@ -85,6 +99,7 @@
     {
       "number": 3,
       "name": "Georgeatte femme Claudon Prevost",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -122,6 +137,7 @@
     {
       "number": 4,
       "name": "Zabel femme Demenge Gillat",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -159,6 +175,7 @@
     {
       "number": 5,
       "name": "Jean Didier Jeandel",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "age_approximate": true,
@@ -181,6 +198,7 @@
     {
       "number": 6,
       "name": "Mengeon Jean Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -218,6 +236,7 @@
     {
       "number": 7,
       "name": "Jacot Hocley",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -240,6 +259,7 @@
     {
       "number": 8,
       "name": "Colas Gagaire",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -269,6 +289,7 @@
     {
       "number": 9,
       "name": "Toussainct Jean Fresse",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -291,6 +312,7 @@
     {
       "number": 10,
       "name": "Marion femme à Bastien le Hire",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "age_approximate": true,
@@ -321,6 +343,7 @@
     {
       "number": 11,
       "name": "Colas Gerard",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -343,6 +366,7 @@
     {
       "number": 12,
       "name": "Jean Mengin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -373,6 +397,7 @@
     {
       "number": 13,
       "name": "Marguitte femme à Jean Mengin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -392,6 +417,7 @@
     {
       "number": 14,
       "name": "Claudon Prevost",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -422,6 +448,7 @@
     {
       "number": 15,
       "name": "Jehennon veuve George Colas Bergier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -466,6 +493,7 @@
     {
       "number": 16,
       "name": "Demenge Gillat",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -487,6 +515,7 @@
     {
       "number": 17,
       "name": "George Mengin",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "age_approximate": true,
@@ -506,6 +535,7 @@
     {
       "number": 18,
       "name": "Mengeatte veuve Demenge Ban",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -536,6 +566,7 @@
     {
       "number": 19,
       "name": "Collatte femme Demenge Ferry",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -1344,7 +1375,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Jean admitted he might have been weak for not seeking reparation; judges suggested it was from fear someone would become 'partie formelle'",
     "imprisonment_conditions": "Imprisoned on 16 September 1592 after witness testimony",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture but restricted to 'mediocrement' (moderate torture only); approved death sentence",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1396,6 +1432,7 @@
   "third_parties": [
     {
       "name": "Jean Francois",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "debtor, neighbor",
       "relationship_to_witness": "first husband of witness 3",
@@ -1403,6 +1440,7 @@
     },
     {
       "name": "father of Jean Francois",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father-in-law of witness 3",
@@ -1410,6 +1448,7 @@
     },
     {
       "name": "Demenge Ban du Hapt",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor who refused to help",
       "relationship_to_witness": "husband of witness 18",
@@ -1417,6 +1456,7 @@
     },
     {
       "name": "daughter of Jean Diez",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1424,6 +1464,7 @@
     },
     {
       "name": "mother of Marion",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "cousin",
       "relationship_to_witness": "mother of witness 10",
@@ -1431,6 +1472,7 @@
     },
     {
       "name": "Gregoire Myotte",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "neighbor, mayor",
       "relationship_to_witness": null,
@@ -1438,6 +1480,7 @@
     },
     {
       "name": "Diaz Francois",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "creditor",
       "relationship_to_witness": "first husband of witness 19",
@@ -1445,6 +1488,7 @@
     },
     {
       "name": "wife of Henry le Saulnier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1452,6 +1496,7 @@
     },
     {
       "name": "Diey Francois",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1459,6 +1504,7 @@
     },
     {
       "name": "Grand George",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1466,6 +1512,7 @@
     },
     {
       "name": "Gros Colas",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "antagonist",
       "relationship_to_witness": null,
@@ -1473,6 +1520,7 @@
     },
     {
       "name": "Claudatte wife of Michiel de la Haulte Rue",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "named as accomplice",
       "relationship_to_witness": null,

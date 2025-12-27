@@ -3,6 +3,14 @@
   "archive_ref": "B 2197",
   "location": "Sallonne",
   "court": "court at Amance",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "François Tannaire",
+    "person_id": null,
+    "occupation": null,
+    "location": "Sallonne",
+    "relationship_to_accused": null
+  },
   "dates": {
     "start": "1615-09-26",
     "end": "1615-10-10",
@@ -12,7 +20,11 @@
   "accused": [
     {
       "name": "Catherine Dieudonnée",
+      "person_id": null,
       "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "age": null,
       "age_approximate": false,
       "occupation": [],
@@ -55,6 +67,7 @@
     {
       "number": null,
       "name": "François Tannaire",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -362,7 +375,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Had consulted a relative about being called witch, who advised her to let the matter pass",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Asked for further interrogation in view of gaps in first confession. Also stated that torture should not be renewed in afternoon without new indices, and court should abstain from this in future.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -393,6 +411,7 @@
   "third_parties": [
     {
       "name": "woman who called her witch a year earlier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -400,6 +419,7 @@
     },
     {
       "name": "relative",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "relative",
       "relationship_to_witness": null,
@@ -407,6 +427,7 @@
     },
     {
       "name": "Cezar Guillaumet (also Guillaume)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -414,6 +435,7 @@
     },
     {
       "name": "Chrestofle Austien",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -421,6 +443,7 @@
     },
     {
       "name": "son of Catherine Dieudonnée (aged 20)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -428,6 +451,7 @@
     },
     {
       "name": "le Gros Symon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -435,6 +459,7 @@
     },
     {
       "name": "Anne femme Anthoine Blaize",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,

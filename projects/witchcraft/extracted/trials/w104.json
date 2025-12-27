@@ -3,6 +3,14 @@
   "archive_ref": "B 8592",
   "location": "Bainville",
   "court": "Valfroicourt",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Didiere veuve Estienne Pelletier",
+    "person_id": null,
+    "occupation": null,
+    "location": "Valfroicourt area",
+    "relationship_to_accused": "community member, later recognized at sabbat by accused"
+  },
   "dates": {
     "start": "1596-04-17",
     "end": "1596-06-12",
@@ -12,10 +20,14 @@
   "accused": [
     {
       "name": "Nicolas David dit Mulnier de Bainville",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "age_approximate": true,
       "occupation": ["miller", "laboureur"],
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["other"],
       "origin": "Bainville",
       "residence": "Bainville",
       "marital_status": "married",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Jean Dizard",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "mulnier",
@@ -71,6 +84,7 @@
     {
       "number": 2,
       "name": "Didier Phorm",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -92,6 +106,7 @@
     {
       "number": 3,
       "name": "Jean Georgeot",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -761,7 +776,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "One successful reparation from Jean Dizard; procedure against Jean Dirand lapsed but was later settled through mediation",
     "imprisonment_conditions": "held in prison between interrogations",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": null,
+      "modification_details": null,
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -803,6 +823,7 @@
   "third_parties": [
     {
       "name": "Didiere veuve Estienne Pelletier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
@@ -810,6 +831,7 @@
     },
     {
       "name": "Jannon Blaise",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -817,6 +839,7 @@
     },
     {
       "name": "Marguerite veuve Didier Valentin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor/community member",
       "relationship_to_witness": "neighbor of Jean Georgeot",
@@ -824,6 +847,7 @@
     },
     {
       "name": "Thierosme de Vault",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -831,6 +855,7 @@
     },
     {
       "name": "Claude Martin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -838,6 +863,7 @@
     },
     {
       "name": "Jean Saigeot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "fellow miller",
       "relationship_to_witness": null,
@@ -845,6 +871,7 @@
     },
     {
       "name": "blacksmith of Dompaire",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -852,6 +879,7 @@
     },
     {
       "name": "Agnes Hurcier",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -859,6 +887,7 @@
     },
     {
       "name": "Martin Valentin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -866,6 +895,7 @@
     },
     {
       "name": "Nicolas Ballot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member, lieutenant de maire",
       "relationship_to_witness": null,
@@ -873,6 +903,7 @@
     },
     {
       "name": "Ballot's father-in-law",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -880,6 +911,7 @@
     },
     {
       "name": "Thiebault Vincent",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -887,6 +919,7 @@
     },
     {
       "name": "Guillaume Peu de Pain",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -894,6 +927,7 @@
     },
     {
       "name": "son of Didier veuve Francois Bernard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -901,6 +935,7 @@
     },
     {
       "name": "Agnes femme Jean Valentin Ballot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -908,6 +943,7 @@
     },
     {
       "name": "Didier Gros Bay",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "buyer of accused's land",
       "relationship_to_witness": null,
@@ -915,6 +951,7 @@
     },
     {
       "name": "son of Claude veuve Nicolas Vincent",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -922,6 +959,7 @@
     },
     {
       "name": "Demenge Rocant",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -929,6 +967,7 @@
     },
     {
       "name": "Demenge Demengeot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -936,6 +975,7 @@
     },
     {
       "name": "Noel Franquin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -943,6 +983,7 @@
     },
     {
       "name": "Nicolas Gerard Pierre",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -950,6 +991,7 @@
     },
     {
       "name": "Jean Demenge",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -957,6 +999,7 @@
     },
     {
       "name": "Nicolas Thouvenin l'Huillier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "initially accused as accomplice",
       "relationship_to_witness": null,
@@ -964,6 +1007,7 @@
     },
     {
       "name": "Nicolas David's mother",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,

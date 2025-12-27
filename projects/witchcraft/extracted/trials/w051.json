@@ -3,6 +3,14 @@
   "archive_ref": "B 3358 no 2",
   "location": "Autrepierre",
   "court": "Court at Blamont",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "procureur fiscal",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Blamont",
+    "relationship_to_accused": "official prosecutor"
+  },
   "dates": {
     "start": "1621-05-20",
     "end": "1621-06-12",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Jeannon Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
@@ -19,6 +28,9 @@
       "residence": "Autrepierre",
       "marital_status": "married",
       "spouse_name": "Gerardin Marchal",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["other"],
       "parents": {
         "father": null,
         "mother": null
@@ -53,6 +65,7 @@
     {
       "number": 1,
       "name": "Claude Bastien",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "occupation": null,
@@ -74,6 +87,7 @@
     {
       "number": 2,
       "name": "Claude Pacquet",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -95,6 +109,7 @@
     {
       "number": 3,
       "name": "Chrestienne femme Claude Pacquet",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -124,6 +139,7 @@
     {
       "number": 4,
       "name": "Barbeline veuve Demenge Henriatte",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": null,
@@ -145,6 +161,7 @@
     {
       "number": 5,
       "name": "Claude Dieudenon",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": null,
@@ -174,6 +191,7 @@
     {
       "number": 6,
       "name": "Catherine femme Claude Dieudenon",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -203,6 +221,7 @@
     {
       "number": 7,
       "name": "Jeannon veuve Jean Batho",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -232,6 +251,7 @@
     {
       "number": 8,
       "name": "Sibille veuve Germain Tabourin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -253,6 +273,7 @@
     {
       "number": 9,
       "name": "Demenge Aulbry",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": null,
@@ -282,6 +303,7 @@
     {
       "number": 10,
       "name": "Marguerite femme Demenge Bagrat",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -311,6 +333,7 @@
     {
       "number": 11,
       "name": "Catherine femme Bastien Charpentier",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -340,6 +363,7 @@
     {
       "number": 12,
       "name": "Bastien Charpentier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -361,6 +385,7 @@
     {
       "number": 13,
       "name": "Marguerite femme Demenge Colin",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "occupation": null,
@@ -390,6 +415,7 @@
     {
       "number": 14,
       "name": "Alizon femme Demenge Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -419,6 +445,7 @@
     {
       "number": 15,
       "name": "Catherine femme Toussaint Bastien",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -448,6 +475,7 @@
     {
       "number": 16,
       "name": "Toussaint Bastien (le maire)",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "mayor",
@@ -477,6 +505,7 @@
     {
       "number": 17,
       "name": "Demenge Bagrat",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "tax collector",
@@ -506,6 +535,7 @@
     {
       "number": 18,
       "name": "Dieudenon Maçon",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -527,6 +557,7 @@
     {
       "number": 19,
       "name": "Nicolas Guerard",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": null,
@@ -556,6 +587,7 @@
     {
       "number": 20,
       "name": "Louy Vincent",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -585,6 +617,7 @@
     {
       "number": 21,
       "name": "Chrestienne femme Jean Dieudenon",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -614,6 +647,7 @@
     {
       "number": 22,
       "name": "Marguerite femme Henry Zabey",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -1390,7 +1424,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Claimed that when she went to ask Bastien Charpentier if he had called her witch, he denied this in presence of curé",
     "imprisonment_conditions": "Asked to see greffier in prison to write to holy father at Nancy",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1489,6 +1528,7 @@
   "third_parties": [
     {
       "name": "Gerardin Marchal",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": null,
@@ -1496,6 +1536,7 @@
     },
     {
       "name": "Jean Batho",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 7",
@@ -1503,6 +1544,7 @@
     },
     {
       "name": "Demenge Marchal",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 14",
@@ -1510,6 +1552,7 @@
     },
     {
       "name": "daughter of witness 7",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of Jeannon veuve Jean Batho",
@@ -1517,6 +1560,7 @@
     },
     {
       "name": "god-daughter of Alizon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 14",
@@ -1524,6 +1568,7 @@
     },
     {
       "name": "niece of Toussaint Bastien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "niece of witnesses 15 and 16",
@@ -1531,6 +1576,7 @@
     },
     {
       "name": "Louys Vincent",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1538,6 +1584,7 @@
     },
     {
       "name": "first wife of Nicolas Guerard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 19",
@@ -1545,6 +1592,7 @@
     },
     {
       "name": "sister-in-law of Nicolas Guerard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister-in-law of witness 19",
@@ -1552,6 +1600,7 @@
     },
     {
       "name": "second wife of Nicolas Guerard",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 19",
@@ -1559,6 +1608,7 @@
     },
     {
       "name": "midwife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1566,6 +1616,7 @@
     },
     {
       "name": "curé",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1573,6 +1624,7 @@
     },
     {
       "name": "Jehenne femme Demenge Mercier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1580,6 +1632,7 @@
     },
     {
       "name": "holy father at Nancy",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1587,6 +1640,7 @@
     },
     {
       "name": "Chretienne (sister of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1594,6 +1648,7 @@
     },
     {
       "name": "nephew of accused (son of Chretienne)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "nephew",
       "relationship_to_witness": null,
@@ -1601,6 +1656,7 @@
     },
     {
       "name": "niece of accused (daughter of Chretienne)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "niece",
       "relationship_to_witness": null,
@@ -1608,6 +1664,7 @@
     },
     {
       "name": "Demenge Colin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 13",
@@ -1615,6 +1672,7 @@
     },
     {
       "name": "devineresse at Cueting",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1622,6 +1680,7 @@
     },
     {
       "name": "children of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "relationship_to_witness": null,
@@ -1629,6 +1688,7 @@
     },
     {
       "name": "child of second wife of Nicolas Guerard",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

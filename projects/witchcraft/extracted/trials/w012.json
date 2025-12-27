@@ -3,6 +3,14 @@
   "archive_ref": "B 2512",
   "location": "Seuche",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jannon femme d'Arnould Jacquel",
+    "person_id": null,
+    "occupation": null,
+    "location": "Moulin",
+    "relationship_to_accused": "neighbor/community member - accused of bewitching her with illness"
+  },
   "dates": {
     "start": "1594-01-13",
     "end": "1594-05-14",
@@ -12,9 +20,16 @@
   "accused": [
     {
       "name": "Jacotte Colin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "touch_healing",
+        "herbal_remedies"
+      ],
       "occupation": [],
       "residence": "Seuche",
       "marital_status": "married",
@@ -54,6 +69,7 @@
     {
       "number": 1,
       "name": "Jean Collusse",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -112,6 +128,7 @@
     {
       "number": 2,
       "name": "Jan Graniere",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -134,6 +151,7 @@
     {
       "number": 3,
       "name": "Pierot Blaise Andre",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -202,7 +220,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -246,7 +265,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -276,7 +296,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -306,7 +327,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -336,7 +358,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -365,7 +388,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 10,
@@ -394,7 +418,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -415,7 +440,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -436,7 +462,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 13,
@@ -457,7 +484,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -479,7 +507,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -509,7 +538,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -539,7 +569,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -569,7 +600,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -591,7 +623,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -628,7 +661,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -649,7 +683,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -1599,8 +1634,13 @@
     "accused_sought_redress": true,
     "redress_outcome": "Husband Demengeon Alix came before Prévôt on January 14, 1594 to demand reparation or proof; this led to formal investigation rather than clearing his wife's name",
     "imprisonment_conditions": "sent back to prison between interrogations",
-    "appeal_to_change_de_nancy": false,
-    "property_confiscation_mentioned": false
+    "property_confiscation_mentioned": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 12,
@@ -1649,11 +1689,35 @@
     ],
     "oldest_accusation_years": 30,
     "corroboration_groups": [
-      [1, 2, 3, 5, 6, 10, 13, 14, 15, 16],
-      [5, 19],
-      [8, 9],
-      [15, 16, 20],
-      [3, 17]
+      [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        16
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        15,
+        16,
+        20
+      ],
+      [
+        3,
+        17
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1697,105 +1761,120 @@
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
-      "context": "Jacotte's father, from Seuche"
+      "context": "Jacotte's father, from Seuche",
+      "person_id": null
     },
     {
       "name": "Mother of Jacotte (name unknown, deceased)",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
-      "context": "suspected as witch but not executed; reputation going back over 20 years"
+      "context": "suspected as witch but not executed; reputation going back over 20 years",
+      "person_id": null
     },
     {
       "name": "George Gilles Geoffroy",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband's brother",
       "relationship_to_witness": null,
-      "context": "called Jacotte witch"
+      "context": "called Jacotte witch",
+      "person_id": null
     },
     {
       "name": "Two stepdaughters",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "stepdaughters",
       "relationship_to_witness": null,
-      "context": "living in Allemaigne, fled after being chased by black beast; one married there; one returned temporarily and sent pears and nuts"
+      "context": "living in Allemaigne, fled after being chased by black beast; one married there; one returned temporarily and sent pears and nuts",
+      "person_id": null
     },
     {
       "name": "Nicolas Raon",
       "role_in_narrative": "victim",
       "relationship_to_accused": "son-in-law of Jean Collusse",
       "relationship_to_witness": "son-in-law of witness 1",
-      "context": "tormented by illness, cured when Jacotte made him soup"
+      "context": "tormented by illness, cured when Jacotte made him soup",
+      "person_id": null
     },
     {
       "name": "Claudon, son of Jacot Estiennon Petit Demenge",
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness 5",
-      "context": "died after illness following encounter at mill where Jacotte touched him and asked about marriage; asked for arquebus to shoot her"
+      "context": "died after illness following encounter at mill where Jacotte touched him and asked about marriage; asked for arquebus to shoot her",
+      "person_id": null
     },
     {
       "name": "Jacot (son of Marion witness 5)",
       "role_in_narrative": "victim",
       "relationship_to_accused": "guarded her husband's cows",
       "relationship_to_witness": "son of witness 5",
-      "context": "became ill after eating tart, recovered after receiving pears and nuts"
+      "context": "became ill after eating tart, recovered after receiving pears and nuts",
+      "person_id": null
     },
     {
       "name": "Marion (wife of Cury Jacot Michel)",
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 6",
-      "context": "died after eating apple given by Jacotte; described as harsh to poor people; Jacotte confessed to killing her"
+      "context": "died after eating apple given by Jacotte; described as harsh to poor people; Jacotte confessed to killing her",
+      "person_id": null
     },
     {
       "name": "Jacot Margo",
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "father-in-law of witness 8, father of witness 9",
-      "context": "died 4-5 months after honey bee incident; owner of mill where Claudon died"
+      "context": "died 4-5 months after honey bee incident; owner of mill where Claudon died",
+      "person_id": null
     },
     {
       "name": "Nicolas Margo",
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "owner of mill where incidents occurred; uncle of Claudon who died"
+      "context": "owner of mill where incidents occurred; uncle of Claudon who died",
+      "person_id": null
     },
     {
       "name": "Priest",
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "gave last rites to Marion wife of Cury Jacot Michel, heard her accusation of Jacotte"
+      "context": "gave last rites to Marion wife of Cury Jacot Michel, heard her accusation of Jacotte",
+      "person_id": null
     },
     {
       "name": "Colette/Collette femme Jean Paret (also wife of Jean Jacot Michel)",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "took Jacotte to sabbat",
       "relationship_to_witness": null,
-      "context": "executed at Arches 5-6 years before (or 8-10 years); previously accused Jacotte but withdrew accusation; introduced Jacotte to witchcraft according to confession"
+      "context": "executed at Arches 5-6 years before (or 8-10 years); previously accused Jacotte but withdrew accusation; introduced Jacotte to witchcraft according to confession",
+      "person_id": null
     },
     {
       "name": "Mre Persin",
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master",
       "relationship_to_witness": null,
-      "context": "seduced Jacotte, promised she would never lack anything, not fear anyone, and never fall into hands of justice; appeared as wolf; beat her for refusing intercourse and other malefices"
+      "context": "seduced Jacotte, promised she would never lack anything, not fear anyone, and never fall into hands of justice; appeared as wolf; beat her for refusing intercourse and other malefices",
+      "person_id": null
     },
     {
       "name": "Wife of Jean Collusse (deceased)",
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 1",
-      "context": "Jean Collusse believed Jacotte killed her"
+      "context": "Jean Collusse believed Jacotte killed her",
+      "person_id": null
     },
     {
       "name": "Child of Jean Collusse (deceased)",
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "child of witness 1",
-      "context": "wife of Jean Collusse believed Jacotte caused death"
+      "context": "wife of Jean Collusse believed Jacotte caused death",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

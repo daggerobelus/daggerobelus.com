@@ -3,6 +3,14 @@
   "archive_ref": "B 4093 (1)",
   "location": "Charmes",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Nicolas Fouesse",
+    "person_id": null,
+    "occupation": "porter of Moselle gate",
+    "location": "Charmes",
+    "relationship_to_accused": "porter who had conflict with Jean and his sons over bringing fruits into town"
+  },
   "dates": {
     "start": "1607-07-27",
     "end": "1607-09-04",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Jean Anthoine dit Jean de Socourt",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "age_approximate": false,
@@ -20,6 +29,9 @@
       "residence": "Charmes",
       "marital_status": "widowed",
       "spouse_name": null,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "other"],
       "parents": {
         "father": null,
         "mother": null
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Nicolas Thieriat",
+      "person_id": null,
       "gender": "male",
       "age": 49,
       "occupation": "drappier",
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Robert fils de Nicolas Thierat",
+      "person_id": null,
       "gender": "male",
       "age": 14,
       "occupation": null,
@@ -108,6 +122,7 @@
     {
       "number": 3,
       "name": "Alison femme à Nicolas Thieriat",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -129,6 +144,7 @@
     {
       "number": 4,
       "name": "Claude Didelot",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "charbonnier",
@@ -158,6 +174,7 @@
     {
       "number": 5,
       "name": "Alix veuve de Nicolas de Vaubexy",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": null,
@@ -187,6 +204,7 @@
     {
       "number": 6,
       "name": "Didier Morel",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": null,
@@ -223,6 +241,7 @@
     {
       "number": 7,
       "name": "Nicolas Barry",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "tailleur",
@@ -252,6 +271,7 @@
     {
       "number": 8,
       "name": "Francoise la Roche",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -281,6 +301,7 @@
     {
       "number": 9,
       "name": "Parisot Cugnin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -302,6 +323,7 @@
     {
       "number": 10,
       "name": "Agnez femme de Claude Vallon",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "occupation": null,
@@ -331,6 +353,7 @@
     {
       "number": 11,
       "name": "Jacques Bouchier",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "occupation": null,
@@ -352,6 +375,7 @@
     {
       "number": 12,
       "name": "Pierre Grand Jean",
+      "person_id": null,
       "gender": "male",
       "age": 31,
       "occupation": "bouchier",
@@ -373,6 +397,7 @@
     {
       "number": 13,
       "name": "Andreu Bouillon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "cordonnier",
@@ -402,6 +427,7 @@
     {
       "number": 14,
       "name": "Jacquatte femme de Didier Loys Rouyer",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "occupation": null,
@@ -431,6 +457,7 @@
     {
       "number": 15,
       "name": "Idatte femme de Claude Richard",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": null,
@@ -460,6 +487,7 @@
     {
       "number": 16,
       "name": "Didier Loys Rouyer",
+      "person_id": null,
       "gender": "male",
       "age": 47,
       "occupation": "Rouyer",
@@ -1533,7 +1561,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Had thought of taking Fouesse to court for calling him witch, but for lack of money or witnesses had preferred to endure it. Fouesse acted first.",
     "imprisonment_conditions": "Jean was unable to eat in prison; was held in 'ceps' (leg irons/stocks) which he found unbearable, offering 20 francs for release",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1604,6 +1637,7 @@
   "third_parties": [
     {
       "name": "la Triffatte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "had accused Jean of witchcraft 11-12 years before",
       "relationship_to_witness": null,
@@ -1611,6 +1645,7 @@
     },
     {
       "name": "la Romaine",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "had accused Jean of witchcraft; Jean said accusations were out of hatred from begging rivalry",
       "relationship_to_witness": null,
@@ -1618,6 +1653,7 @@
     },
     {
       "name": "Thiery",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother of Jean",
       "relationship_to_witness": null,
@@ -1625,6 +1661,7 @@
     },
     {
       "name": "Adam Briel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "employer of Mengien Didelot",
@@ -1632,6 +1669,7 @@
     },
     {
       "name": "Jean's fourth wife",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "wife of Jean",
       "relationship_to_witness": null,
@@ -1639,6 +1677,7 @@
     },
     {
       "name": "Pierre (Jean's son)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son of Jean",
       "relationship_to_witness": null,
@@ -1646,6 +1685,7 @@
     },
     {
       "name": "Nicolas (Jean's son)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son of Jean",
       "relationship_to_witness": null,
@@ -1653,6 +1693,7 @@
     },
     {
       "name": "Nicolas Claudrat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1660,6 +1701,7 @@
     },
     {
       "name": "Nicolas Meschy",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "compere (godparent relationship) of Jean",
       "relationship_to_witness": null,
@@ -1667,6 +1709,7 @@
     },
     {
       "name": "Nicolas Michiel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1674,6 +1717,7 @@
     },
     {
       "name": "Jean Simonin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1681,6 +1725,7 @@
     },
     {
       "name": "Colas Georgeot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1688,6 +1733,7 @@
     },
     {
       "name": "la Harmande",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1695,6 +1741,7 @@
     },
     {
       "name": "Grand Claude",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1702,6 +1749,7 @@
     },
     {
       "name": "le Rossel Bocquel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1709,6 +1757,7 @@
     },
     {
       "name": "Pierat Megnien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

@@ -1,0 +1,1556 @@
+{
+  "trial_id": "w258",
+  "archive_ref": "B 8707 no 6",
+  "location": "le Vivier",
+  "court": "Etival",
+  "language_region": "french",
+  "formal_accuser": null,
+  "dates": {
+    "start": "1611-04-08",
+    "end": "1611-05-04",
+    "duration_days": 26
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Nicolas Pairson",
+      "person_id": null,
+      "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "age": 40,
+      "age_approximate": true,
+      "occupation": ["herdsman"],
+      "origin": "le Mesnil",
+      "residence": "le Vivier",
+      "marital_status": "married",
+      "spouse_name": "Dieudonnée",
+      "parents": {
+        "father": "Jean Pairson",
+        "mother": "Jeannon"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Persin",
+        "devil_appearance": null,
+        "seduction_date": "12 years earlier",
+        "seduction_context": "angry because his aunt Curienne Poison and her children accused him wrongly of stealing fruit from a garden",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder (to kill)", "grey powder (to languish)", "white powder (to cure)"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["côte de Repy"],
+        "sabbat_activities": ["dancing", "masked gatherings"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Marguitte femme Jean Guanaire",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": null,
+      "relationship_to_accused": "neighbor who sheltered his wife",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 6,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "sheltered Nicolas's wife Dieudonnée after domestic quarrels",
+        "threat_received": true,
+        "threat_quote": "qu'il l'auroit avant qu'il fut peu de temps",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "one week"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jennon femme Jean Jacquot Claude Estienne",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "du Mesnil",
+      "relationship_to_accused": "employer (he was herdsman for her goats)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "she should sell them or the wolf would eat them",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "3 goats",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "following 3 days"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jennon femme Nicolas Girardin Haxo",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Barbon femme Mengeon Clerc",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "location": null,
+      "relationship_to_accused": "landlord",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 2,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "he owed them 3 thousand 'exandres' rent",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "after this"
+          },
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "after this"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Nicolas Didier Michiel le vieulx",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": null,
+      "relationship_to_accused": "employer (Nicolas was herdsman)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudon Colas Colin Dentandt",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": null,
+      "relationship_to_accused": "employer (hired him as herdsman)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "became discontented with pay and uttered curses",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sow",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a few days",
+            "economic_value": "4 écus"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Barbon veuve Jean Claude",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": null,
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "his daughter Mengeotte asked for 'pateneires' but he refused to pay 2 blancs",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "foal",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "same week",
+            "harm_description": "became ill and seemed beyond hope, recovered after sending gift"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengeotte femme Mengeon Bandeçay",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "du Mesnil",
+      "relationship_to_accused": "sister-in-law",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute about a place for soaking flax",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "child aged 2",
+            "target_relationship": "child",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "soon afterwards",
+            "harm_description": "sickened, ill for more than 3 months, became emaciated; recovered after witness accused him"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jennon femme Fleurent Jacquemin",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudatte femme Claudon Ferry",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "du Mesnil",
+      "relationship_to_accused": "neighbor who sheltered his wife",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "sheltered his wife Dieudonnée after he drove her out; he climbed chimney to spy on them",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 11,
+      "name": "Didion femme Jean Esclaire",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Mr d'Etival had him arrested",
+        "threat_received": true,
+        "threat_quote": "the late Mr d'Etival had had him arrested, but he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "belonging to abbey",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "soon after"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jacquot de la Ruelle",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": "de St Remy",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dispute at mill about who should go first when wife was in childbed",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "bull",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "next day",
+            "harm_description": "sickened and died as if rabid"
+          },
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "harm_description": "died after being sick for a year"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 horses",
+            "target_relationship": "at Etival where he was servant",
+            "attributed_to": "Nicolas Pairson"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudatte femme Claudon de la Ruelle",
+      "person_id": null,
+      "gender": "female",
+      "age": 37,
+      "location": "du Mesnil",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "herd damaged their field (evaluated at a bichot of oats)",
+        "threat_received": true,
+        "threat_quote": "he would repent",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 calves",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a few days",
+            "harm_description": "died in a strange fashion"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 cows",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a few days",
+            "harm_description": "died in a strange fashion"
+          },
+          {
+            "type": "animal_death",
+            "target": "3 horses",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a few days",
+            "harm_description": "died in a strange fashion"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": true
+      }
+    },
+    {
+      "number": 14,
+      "name": "Curienne veuve Jean Aulbry",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": null,
+      "relationship_to_accused": "he was living with her",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jean Esclaire",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "intended to burn the house of Mengeotte veuve Colas Chambliey",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Claudon de la Ruelle",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "du Mesnil",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "herd did damage to field",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "multiple animals (2 calves, 2 cows, 3 horses)",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Nicolas Berquey",
+      "person_id": null,
+      "gender": "male",
+      "age": 42,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Jennon femme Bastien Cuvelier",
+      "person_id": null,
+      "gender": "female",
+      "age": 32,
+      "location": "de St Remy",
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 goats",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Mongeatte femme Didier Michiel",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "pigs of Colas Jeandon did damage in his garden and she inspected it",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "harm_description": "wind threw her to ground, lay like dead person, ill for a week",
+            "time_after_quarrel": "as she entered garden"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean George",
+      "person_id": null,
+      "gender": "male",
+      "age": 70,
+      "location": "de Pajaille",
+      "relationship_to_accused": "rented garden from him",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "delayed paying rent after catching him stealing beans",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife",
+            "target_relationship": "wife",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a few days",
+            "harm_description": "sickened, dying after a week"
+          }
+        ],
+        "theft_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Mathiatte femme Jean Hanzo",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "et que sans doubte s'il estoit sorcier il le feroit mourrir",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Catherine femme Colas Menuzier",
+      "person_id": null,
+      "gender": "female",
+      "age": 55,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Mr d'Etival imprisoned him for thefts",
+        "threat_received": true,
+        "threat_quote": "que monsieur d'Etival avoit faict sa volonté de luy et le faict mettre en prison, mais qu'il s'en repentiroit, et que s'il estoit sorcier il la feroit mourrir",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "the abbot (Mr d'Etival)",
+            "target_relationship": "none",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a year"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "belonging to moictriere of Mallemaison",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "a week later",
+            "harm_description": "died as if rabid"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Marguitte femme Didier Baudrot",
+      "person_id": null,
+      "gender": "female",
+      "age": 27,
+      "occupation": "wife of mareschal (blacksmith)",
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "the abbot",
+            "target_relationship": "none",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "within a year"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 24,
+      "name": "Aley femme Claudon Thiriot",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "did not make customary Easter present as herdsman",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "beasts",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 25,
+      "name": "Jacquotte femme Claudon Phullepin",
+      "person_id": null,
+      "gender": "female",
+      "age": 34,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "Nicolas Didier Michiel had refused to lend him his cart, but would repent",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 26,
+      "name": "Jennon veuve Claudon Aulbry",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": null,
+      "relationship_to_accused": "debtor (owed him 5 blancs)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "animals bumped into one another at spring",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Nicolas Pairson",
+            "time_after_quarrel": "then",
+            "harm_description": "strange malady throughout body for 2 weeks"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 27,
+      "name": "Jennon femme Estienne Carriot",
+      "person_id": null,
+      "gender": "female",
+      "age": 46,
+      "location": null,
+      "relationship_to_accused": "community member",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": true,
+        "threat_quote": "que sy on le faisoit mourir de quelle mort se doibt estre, il adjourneroit devant le Grand Juge trois personnes du village du Vivier pour y comparoir au bout d'ung an",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-04-08",
+      "event": "informations_preparatoires",
+      "subject": "Nicolas Pairson",
+      "details": "27 witnesses testified"
+    },
+    {
+      "date": "1611-04-09",
+      "event": "interrogation",
+      "subject": "Nicolas Pairson",
+      "details": "interrogation and confrontations with witnesses; denied all charges"
+    },
+    {
+      "date": "1611-04-09",
+      "event": "torture_requested",
+      "subject": "Nicolas Pairson",
+      "details": "procureur for abbot requested question ordinaire et extraordinaire"
+    },
+    {
+      "date": "1611-04-12",
+      "event": "torture_approved",
+      "subject": "Nicolas Pairson",
+      "details": "Change de Nancy approved torture"
+    },
+    {
+      "date": "1611-04-21",
+      "event": "interrogation",
+      "subject": "Nicolas Pairson",
+      "details": "shaved and prepared for torture; confessed before torture was applied"
+    },
+    {
+      "date": "1611-04-22",
+      "event": "interrogation",
+      "subject": "Nicolas Pairson",
+      "details": "reiterated confessions, added thefts of food from gardens"
+    },
+    {
+      "date": "1611-04-23",
+      "event": "other",
+      "subject": "Nicolas Pairson",
+      "details": "brought before inhabitants of Etival who heard confessions and handed him over to duke for execution"
+    },
+    {
+      "date": "1611-04-27",
+      "event": "death_requested",
+      "subject": "Nicolas Pairson",
+      "details": "procureur for abbot asked for execution in normal form"
+    },
+    {
+      "date": "1611-04-27",
+      "event": "death_approved",
+      "subject": "Nicolas Pairson",
+      "details": "Change de Nancy approved execution"
+    },
+    {
+      "date": "1611-05-04",
+      "event": "execution",
+      "subject": "Nicolas Pairson",
+      "details": "sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "requesting_official": "procureur for abbot",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon femme Claudon Girardin",
+      "location": "St Remy",
+      "context": "saw at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Laurence femme Vincent Bandeça",
+      "location": "Pajaille",
+      "context": "saw at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Marie femme Colas Perrin",
+      "location": "Pajaille",
+      "context": "saw at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Jennon la Mourratte",
+      "location": "Nompatelize",
+      "context": "saw at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Sagaire",
+      "location": "Nompatelize",
+      "context": "saw at sabbat",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "multiple witnesses",
+      "context": "long-standing reputation as witch; mother already executed as witch 25 years earlier"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Nicolas Pairson",
+      "french": "qu'il l'auroit avant qu'il fut peu de temps",
+      "context": "threat to Marguitte femme Jean Guanaire after she sheltered his wife"
+    },
+    {
+      "speaker": "Dieudonnée (Nicolas's wife)",
+      "french": "qu'on le pouvoit bien craindre parce qu'il estoit ung sorcier",
+      "english": "one could well fear him because he was a witch",
+      "context": "wife telling witness when taking refuge with her"
+    },
+    {
+      "speaker": "Nicolas Pairson",
+      "french": "qu'il se repentoit de ce qu'il n'avoit bruslé la maison d'elle resposante lhors qu'elle avoit losgé sa femme",
+      "english": "that he regretted not having burned her house when she had lodged his wife",
+      "context": "threat during Holy Week"
+    },
+    {
+      "speaker": "Nicolas Pairson",
+      "french": "que monsieur d'Etival avoit faict sa volonté de luy et le faict mettre en prison, mais qu'il s'en repentiroit, et que s'il estoit sorcier il la feroit mourrir",
+      "english": "that Mr d'Etival had done his will with him and had him put in prison, but he would repent, and if he was a witch he would make him die",
+      "context": "threat after imprisonment for thefts"
+    },
+    {
+      "speaker": "Nicolas Pairson",
+      "french": "que loué soit dieu, puis qu'il estoit venu au bout de ses entreprinses, et que ledit Sr ne le feroit plus mettre en prison",
+      "english": "praise be to God, since he had come to the end of his undertakings, and said lord would no longer have him put in prison",
+      "context": "on hearing the abbot had been buried"
+    },
+    {
+      "speaker": "Nicolas Pairson",
+      "french": "que sy on le faisoit mourir de quelle mort se doibt estre, il adjourneroit devant le Grand Juge trois personnes du village du Vivier pour y comparoir au bout d'ung an",
+      "english": "that if they put him to death by whatever death it should be, he would summon before the Great Judge three persons from the village of le Vivier to appear after a year",
+      "context": "threat about summoning villagers before God"
+    },
+    {
+      "speaker": "Nicolas Pairson",
+      "french": "affin de faire la loy esgal",
+      "english": "in order to make the law equal",
+      "context": "saying all witches should be treated the same way"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Dieudonnée",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his wife Dieudonnée",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Jean Pairson",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son of Jean Pairson of le Menil",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Jeannon",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "and his wife Jeannon, the latter having been executed as a witch some 25 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Nicolas Pairson (cousin)",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "met accused and his late cousin (also Nicolas Pairson)",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Mengeotte femme Mengeon Bandeçay",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Nicolas, who was her brother-in-law",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Curienne Poison",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his aunt Curienne Poison",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolas Pairson",
+      "person2": "Mengeotte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his daughter Mengeotte",
+      "inferred": false
+    },
+    {
+      "person1": "Barbon veuve Jean Claude",
+      "person2": "Mengeotte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his daughter Mengeotte",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Colas Menuzier",
+      "person2": "Barbe",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her daughter Barbe, now at la Fosse",
+      "inferred": false
+    },
+    {
+      "person1": "Didier Baudrot",
+      "person2": "Marguitte femme Didier Baudrot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Marguitte femme Didier Baudrot, mareschal",
+      "inferred": false
+    },
+    {
+      "person1": "Jean George",
+      "person2": "wife",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife sickened, dying after a week",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeon Bandeçay",
+      "person2": "child aged 2",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "a child aged 2 sickened",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died suddenly",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "sheltered his wife Dieudonnée",
+      "time_between_quarrel_and_harm": "one week",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "3 goats",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "carried off by wolves",
+      "animal_type": "goat",
+      "animal_count": 3,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "he warned her to sell them or wolf would eat them",
+      "time_between_quarrel_and_harm": "following 3 days",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "owed rent of 3 thousand exandres",
+      "time_between_quarrel_and_harm": "after this",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "pig",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "owed rent",
+      "time_between_quarrel_and_harm": "after this",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "carried off by wolves, no trace found",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "sow",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "sow",
+      "animal_count": 1,
+      "economic_value": "4 écus",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "discontented with pay, uttered curses",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "foal",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_illness",
+      "harm_description": "became ill, seemed beyond hope, recovered after gift sent",
+      "animal_type": "foal",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "refused to pay 2 blancs for pateneires",
+      "time_between_quarrel_and_harm": "same week",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "child aged 2",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "sickened, ill for more than 3 months, became emaciated",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "dispute about place for soaking flax",
+      "time_between_quarrel_and_harm": "soon afterwards",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "fine cow",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "sheltered his wife, called him witch",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "2 horses",
+      "victim_relationship_to_witness": "belonging to abbey",
+      "harm_category": "animal_death",
+      "harm_description": "2 fine horses died",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "Mr d'Etival had him arrested",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "bull",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died as if rabid",
+      "animal_type": "bull",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "quarrel at mill about going first",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "cow",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died after being sick for a year",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "2 horses at Etival",
+      "victim_relationship_to_witness": "at Etival where he was servant",
+      "harm_category": "animal_death",
+      "harm_description": "died strangely",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Pairson",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "2 calves",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died in a strange fashion",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "herd damaged field (a bichot of oats damage)",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "2 cows",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died in a strange fashion",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "herd damaged field",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "3 horses",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "harm_description": "died in a strange fashion",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "herd damaged field",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "2 goats",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "animal_type": "goat",
+      "animal_count": 2,
+      "attributed_to": "Nicolas Pairson",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "Mongeatte femme Didier Michiel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "wind threw her to ground, lay like dead person, ill for a week",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "inspecting damage from pigs in his garden",
+      "time_between_quarrel_and_harm": "as she entered garden",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "wife of Jean George",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_death",
+      "harm_description": "sickened, dying after a week",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "delayed paying rent after catching him stealing beans",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "the abbot (Mr d'Etival)",
+      "harm_category": "human_death",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "imprisoned him for thefts",
+      "time_between_quarrel_and_harm": "within a year",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "belonging to moictriere of Mallemaison",
+      "harm_category": "animal_death",
+      "harm_description": "died as if rabid",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "moictriere refused to give milk",
+      "time_between_quarrel_and_harm": "a week later",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "beasts",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "animal_death",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "did not make customary Easter present as herdsman",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "Jennon veuve Claudon Aulbry",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "strange malady throughout body for 2 weeks",
+      "attributed_to": "Nicolas Pairson",
+      "precipitating_quarrel": "animals bumped into one another at spring",
+      "time_between_quarrel_and_harm": "then",
+      "witness_number": 26
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "pateneires",
+      "context": "daughter Mengeotte asked for some, dispute over payment of 2 blancs",
+      "category": "other"
+    },
+    {
+      "object": "busche",
+      "context": "given to confirm election as herdsman",
+      "category": "other"
+    },
+    {
+      "object": "beans",
+      "context": "Nicolas caught stealing from garden",
+      "category": "food"
+    },
+    {
+      "object": "magical powder",
+      "context": "black powder to kill, grey powder to languish, white powder to cure",
+      "category": "magical"
+    },
+    {
+      "object": "oak leaves",
+      "context": "devil gave him money which turned out to be oak leaves",
+      "category": "magical"
+    },
+    {
+      "object": "chicken or kid",
+      "context": "payment to Persin at Martinmas to avoid frequent sabbat attendance",
+      "category": "food"
+    },
+    {
+      "object": "knife",
+      "context": "Jennon veuve Claudon Aulbry threatened him with knife she had by her",
+      "category": "household"
+    },
+    {
+      "object": "cart",
+      "context": "Nicolas Didier Michiel refused to lend him his cart",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "le Vivier",
+      "place_type": "village",
+      "context": "primary location of trial and Nicolas's residence"
+    },
+    {
+      "place_name": "le Mesnil",
+      "place_type": "village",
+      "context": "Nicolas's birthplace; several witnesses from du Mesnil"
+    },
+    {
+      "place_name": "Pajaille",
+      "place_type": "village",
+      "context": "Nicolas lived there at times"
+    },
+    {
+      "place_name": "Etival",
+      "place_type": "village",
+      "context": "location of abbey, court; Nicolas worked as servant there"
+    },
+    {
+      "place_name": "St Remy",
+      "place_type": "village",
+      "context": "location of several witnesses"
+    },
+    {
+      "place_name": "Epinal",
+      "place_type": "village",
+      "context": "witness returning from making confession there"
+    },
+    {
+      "place_name": "côte de Repy",
+      "place_type": "sabbat_location",
+      "context": "location of sabbat gatherings"
+    },
+    {
+      "place_name": "Rambervillier",
+      "place_type": "village",
+      "context": "Mr d'Etival returning from there"
+    },
+    {
+      "place_name": "Void des Dames",
+      "place_type": "other",
+      "context": "passed by on way back from Rambervillier"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Petit Pain of Raon executed as witch"
+    },
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "location of accomplices named"
+    },
+    {
+      "place_name": "Mallemaison",
+      "place_type": "other",
+      "context": "moictriere of Mallemaison refused milk"
+    },
+    {
+      "place_name": "la Fosse",
+      "place_type": "village",
+      "context": "Barbe now living there"
+    },
+    {
+      "place_name": "spring",
+      "place_type": "water_body",
+      "context": "animals bumped into one another at spring"
+    },
+    {
+      "place_name": "bridge",
+      "place_type": "other",
+      "context": "found Mr d'Etival walking by bridge"
+    },
+    {
+      "place_name": "mill",
+      "place_type": "other",
+      "context": "quarrel about going first at mill"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": ["wolves carried off goats", "wolves carried off cow"],
+    "economic_hardship_indicators": ["debt of 3 thousand exandres", "disputes over customary payments", "herdsman pay disputes"],
+    "religious_calendar_references": ["Holy Week", "Carnival", "Easter Day", "Martinmas"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur for abbot",
+        "role": "prosecutor_pg",
+        "location": "Etival"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "imprisoned 4 years earlier by Mr d'Etival for thefts; confessed to stealing beans and food from gardens",
+        "outcome": "imprisonment"
+      }
+    ],
+    "accused_sought_redress": false,
+    "imprisonment_conditions": null,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 24,
+    "hearsay_testimony_count": 3,
+    "hearsay_chains": [
+      {
+        "reporter": "Jennon femme Nicolas Girardin Haxo",
+        "source": "Marguitte femme Didier Baudrot, mareschal",
+        "content": "heard him say the late Mr d'Etival had had him imprisoned, but would repent"
+      },
+      {
+        "reporter": "Marguitte femme Jean Guanaire",
+        "source": "Jacquot de la Ruelle of St Rémy",
+        "content": "heard claim he had killed his bull by witchcraft"
+      },
+      {
+        "reporter": "Jean George",
+        "source": "wife of Colas Piers",
+        "content": "heard he asked how his wife was, then said it was well employed"
+      }
+    ],
+    "oldest_accusation_years": 14,
+    "corroboration_groups": [
+      [3, 11, 21, 22, 23],
+      [13, 16, 17, 18]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all", "natural_explanations"],
+    "emotional_state_notes": ["silent for long time when asked about threats to Mr d'Etival", "violent toward wife (beat her very hard)"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jeannon",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "mother",
+      "context": "executed as witch 25 years earlier"
+    },
+    {
+      "name": "Mr d'Etival (late abbot)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "had imprisoned him",
+      "context": "died after Nicolas threatened him; confessed to killing him"
+    },
+    {
+      "name": "Petit Pain",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "none",
+      "context": "of Raon, recently executed as witch; Nicolas discussed his case"
+    },
+    {
+      "name": "Curienne Poison",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "aunt",
+      "context": "accused him wrongly of stealing fruit from garden, triggering seduction by devil"
+    },
+    {
+      "name": "Jean Marquis",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "neighbor",
+      "context": "intervened when Nicolas was beating his wife and might have killed her"
+    },
+    {
+      "name": "Colas Piers",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "his wife told about Jean George's wife illness"
+    },
+    {
+      "name": "moictriere of Mallemaison",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "refused to give milk; her ox died as if rabid"
+    },
+    {
+      "name": "Mengeotte veuve Colas Chambliey",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Nicolas threatened to burn her house"
+    },
+    {
+      "name": "Colas Jeandon",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "his pigs did damage in Nicolas's garden"
+    },
+    {
+      "name": "Nicolas Didier Michiel",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "refused to lend cart to Nicolas"
+    },
+    {
+      "name": "Didier Baudrot",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "occupation": "mareschal (blacksmith)",
+      "context": "neighbor, quarrels with Nicolas's wife"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial of Nicolas Pairson, male herdsman accused primarily of causing animal deaths and human illnesses/deaths through witchcraft. Notable for: (1) extensive testimony about threats following quarrels, especially regarding Mr d'Etival's death; (2) economic disputes central to accusations (debts, wages, customary payments); (3) domestic violence context (wife repeatedly fled, called him witch); (4) mother previously executed as witch; (5) confessed before torture was applied; (6) named 5 accomplices at sabbat; (7) wolf predation on livestock attributed to his witchcraft as herdsman; (8) prior imprisonment for theft. 27 witnesses testified.",
+    "pdf_pages": 6
+  }
+}

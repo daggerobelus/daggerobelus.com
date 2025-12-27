@@ -3,6 +3,14 @@
   "archive_ref": "B 3358",
   "location": "Nutting",
   "court": "Blamont",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Denis Louis (Louy Denys)",
+    "person_id": null,
+    "occupation": null,
+    "location": "Nutting",
+    "relationship_to_accused": "neighbor/community member"
+  },
   "dates": {
     "start": "1621-05-03",
     "end": "1621-06-12",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Jehenne femme Joseph de la Moictresse",
+      "person_id": null,
       "gender": "female",
       "age": 42,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["midwifery"],
       "occupation": ["servant", "day laborer", "spinner"],
       "origin": "Autrepierre",
       "residence": "Nutting",
@@ -46,6 +58,7 @@
     {
       "number": 1,
       "name": "Barbeline veuve Demenge Henriot",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": "midwife",
@@ -75,6 +88,7 @@
     {
       "number": 2,
       "name": "Jean Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "maire",
@@ -104,6 +118,7 @@
     {
       "number": 3,
       "name": "Annon femme Remys Masson",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -133,6 +148,7 @@
     {
       "number": 4,
       "name": "Remys Masson",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": null,
@@ -154,6 +170,7 @@
     {
       "number": 5,
       "name": "Jacques Gerard",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -183,6 +200,7 @@
     {
       "number": 6,
       "name": "Mongeate femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -212,6 +230,7 @@
     {
       "number": 7,
       "name": "Nicolas Charier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "sergent",
@@ -233,6 +252,7 @@
     {
       "number": 8,
       "name": "Jehenne veuve Louy Denys",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -262,6 +282,7 @@
     {
       "number": 9,
       "name": "Jean Pellerin",
+      "person_id": null,
       "gender": "male",
       "age": 57,
       "occupation": null,
@@ -291,6 +312,7 @@
     {
       "number": 10,
       "name": "Barbe femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 52,
       "occupation": null,
@@ -320,6 +342,7 @@
     {
       "number": 11,
       "name": "Claudatte femme Anthoine du Prey",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -349,6 +372,7 @@
     {
       "number": 12,
       "name": "Chrestienne femme Nicolas Macon",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": "servant (former)",
@@ -378,6 +402,7 @@
     {
       "number": 13,
       "name": "Jehenne femme Demenge la Forge",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -407,6 +432,7 @@
     {
       "number": 14,
       "name": "Thiery Faltin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -428,6 +454,7 @@
     {
       "number": 15,
       "name": "Anthoine du Prey",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": null,
@@ -1203,7 +1230,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "First request for ordinaire et extraordinaire approved as thumbscrews only (18 May 1621). Second request for ordinaire et extraordinaire approved as ordinaire only (7 June 1621). Death sentence approved subject to final repetition of confessions (11 June 1621).",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1266,6 +1298,7 @@
   "third_parties": [
     {
       "name": "Denis Louis (Louy Denys)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser",
       "relationship_to_witness": null,
@@ -1273,6 +1306,7 @@
     },
     {
       "name": "gros Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "warned Jean Pellerin",
@@ -1280,6 +1314,7 @@
     },
     {
       "name": "Ms Caba",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former employer",
       "relationship_to_witness": null,
@@ -1287,6 +1322,7 @@
     },
     {
       "name": "wife of Jean le Fort",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1294,6 +1330,7 @@
     },
     {
       "name": "Jean le Fort",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law",
       "relationship_to_witness": null,
@@ -1301,6 +1338,7 @@
     },
     {
       "name": "la grande Babillon",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sabbat accomplice",
       "relationship_to_witness": null,
@@ -1308,6 +1346,7 @@
     },
     {
       "name": "la Pancée (or le Pancré)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sabbat accomplice",
       "relationship_to_witness": null,
@@ -1315,6 +1354,7 @@
     },
     {
       "name": "Jean Didier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "named as sabbat accomplice",
       "relationship_to_witness": null,
@@ -1322,6 +1362,7 @@
     },
     {
       "name": "Alison (sister of Jean Didier)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "named as sabbat accomplice",
       "relationship_to_witness": null,
@@ -1329,6 +1370,7 @@
     },
     {
       "name": "Rose (sister of Jean Didier)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "named as sabbat accomplice",
       "relationship_to_witness": null,
@@ -1336,6 +1378,7 @@
     },
     {
       "name": "Gerardin Marchal",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "husband of prison cellmate",
       "relationship_to_witness": null,
@@ -1343,6 +1386,7 @@
     },
     {
       "name": "Claude Jean Clerc",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "deceased husband of victim",
@@ -1350,6 +1394,7 @@
     },
     {
       "name": "mother of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,

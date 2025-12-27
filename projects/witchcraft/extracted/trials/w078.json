@@ -3,6 +3,8 @@
   "archive_ref": "B 4126 no 1",
   "location": "Rugney",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1624-09-05",
     "end": "1624-12-18",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "François Perin",
+      "person_id": null,
       "gender": "male",
       "age": 72,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "occupation": [
         "manouvrier",
         "vigneron",
@@ -58,6 +64,7 @@
     {
       "number": 1,
       "name": "Husson Eurat",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "ancien maire de Rugney",
@@ -87,6 +94,7 @@
     {
       "number": 2,
       "name": "Estienne Chastelain",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "laboureur",
@@ -116,6 +124,7 @@
     {
       "number": 3,
       "name": "Claude fils Estienne Chastelain",
+      "person_id": null,
       "gender": "male",
       "age": 14,
       "occupation": null,
@@ -145,6 +154,7 @@
     {
       "number": 4,
       "name": "Thomas Genin dit Phillipe",
+      "person_id": null,
       "gender": "male",
       "age": 63,
       "occupation": "laboureur",
@@ -174,6 +184,7 @@
     {
       "number": 5,
       "name": "Remy Philippe",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -203,6 +214,7 @@
     {
       "number": 6,
       "name": "Idatte veuve de Didier Gregy",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "occupation": "widow",
@@ -232,6 +244,7 @@
     {
       "number": 7,
       "name": "Alix fille d'Idatte veuve Didier Gregy",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": null,
@@ -261,6 +274,7 @@
     {
       "number": 8,
       "name": "Mre Francois Villemin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "maitre d'escolle moderne de Rugney",
@@ -282,6 +296,7 @@
     {
       "number": 9,
       "name": "Margueritte femme de Remy Phillippe",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -318,6 +333,7 @@
     {
       "number": 10,
       "name": "Anthoine Gerardin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "jadis maieur de Rugney",
@@ -347,6 +363,7 @@
     {
       "number": 11,
       "name": "Claudatte femme de Laurence Thoussain",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "occupation": null,
@@ -376,6 +393,7 @@
     {
       "number": 12,
       "name": "Jean Grandidier",
+      "person_id": null,
       "gender": "male",
       "age": 65,
       "occupation": "ancien maire de Rugney",
@@ -405,6 +423,7 @@
     {
       "number": 13,
       "name": "Nicolas Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -434,6 +453,7 @@
     {
       "number": 14,
       "name": "Didier Husson",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -463,6 +483,7 @@
     {
       "number": 15,
       "name": "Remy Eurat",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "occupation": "vigneron",
@@ -499,6 +520,7 @@
     {
       "number": 16,
       "name": "Didier Guoguette",
+      "person_id": null,
       "gender": "male",
       "age": 51,
       "occupation": null,
@@ -520,6 +542,7 @@
     {
       "number": 17,
       "name": "Toussaint Redoutte",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -1244,7 +1267,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "guarded in his house before formal arrest",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "PG des Vosges requested question ordinaire et extraordinaire, but Change de Nancy approved only question ordinaire (moderate torture). Local court followed this ruling.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1308,6 +1336,7 @@
   "third_parties": [
     {
       "name": "Nicolas Bel Jean",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "former husband of Perin's third wife Isabel",
       "relationship_to_witness": null,
@@ -1315,6 +1344,7 @@
     },
     {
       "name": "Jean Mathieu",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "sold garden to Perin",
       "relationship_to_witness": null,
@@ -1322,6 +1352,7 @@
     },
     {
       "name": "Perin's wife (first)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "former spouse",
       "relationship_to_witness": null,
@@ -1329,6 +1360,7 @@
     },
     {
       "name": "Perin's wife (second)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "former spouse",
       "relationship_to_witness": null,
@@ -1336,6 +1368,7 @@
     },
     {
       "name": "Perin's daughter (from first marriage)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1343,6 +1376,7 @@
     },
     {
       "name": "Perin's two sons (from second marriage)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sons",
       "relationship_to_witness": null,
@@ -1350,6 +1384,7 @@
     },
     {
       "name": "Perin's daughter (living with him)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1357,6 +1392,7 @@
     },
     {
       "name": "owner of house (unnamed)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "property seller",
       "relationship_to_witness": null,
@@ -1364,6 +1400,7 @@
     },
     {
       "name": "surgeons (unnamed)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

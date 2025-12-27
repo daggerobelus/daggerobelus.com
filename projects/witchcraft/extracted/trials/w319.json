@@ -1,0 +1,1756 @@
+{
+  "trial_id": "w319",
+  "archive_ref": "B 8945",
+  "location": "Saint Nicolas",
+  "court": "Court at St Nicolas",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Mongeatte femme Jean Recouvreur",
+    "person_id": null,
+    "occupation": null,
+    "location": "Saint Nicolas",
+    "relationship_to_accused": "Neighbor/former patient"
+  },
+  "dates": {
+    "start": "1582-07-10",
+    "end": "1582-09-12",
+    "duration_days": 64
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Nicole veuve Mengin Nigal",
+      "person_id": null,
+      "gender": "female",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies",
+        "touch_healing"
+      ],
+      "age": 60,
+      "age_approximate": true,
+      "occupation": [
+        "healer",
+        "domestic servant (former)"
+      ],
+      "origin": "Romey-sur-Meuse",
+      "residence": "Saint Nicolas",
+      "marital_status": "widowed",
+      "spouse_name": "Mengin Nigal (gisseur - second husband, deceased)",
+      "parents": {
+        "father": "Jean de Mallein",
+        "mother": "unknown (never knew her)"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "maitre Persin",
+        "devil_appearance": "Man in black with a circle around his hat",
+        "seduction_date": "Two years before trial (approximately 1580), on last day of la Magdellaine",
+        "seduction_context": "Gathering wood by fontaine de Saulcy, muttering curses about the German doctor who had called her a witch. Devil appeared and offered her powder to harm and heal people.",
+        "devil_mark": {
+          "present": false,
+          "location": null,
+          "description": null
+        },
+        "powder_types": [
+          "powder to kill or make ill",
+          "powder in warm ashes to cure"
+        ],
+        "sabbat_attended": true,
+        "sabbat_locations": [
+          "Around large oak (first meeting, 8 days after seduction)",
+          "Another place (mentioned for second meeting)"
+        ],
+        "sabbat_activities": [
+          "Danced rondeau around large oak to tune of 'Amour, amour my moine'"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Catherine Humbert veuve Jean Humbert",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Former housemate (lived in same house for 4 years)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 2,
+      "name": "Jean Cordier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Patient",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": true,
+        "threat_quote": "Je scay bien qu'il a heu beaucoup de mal et qu'il n'a guieres repose",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jean Cordier (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Catherine femme Jean Cordier",
+      "person_id": null,
+      "gender": "female",
+      "age": 28,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Wife of patient",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": "tante Nicole vous avez les mains bien douce",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Catherine femme Jean Cordier (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": "Same evening"
+          },
+          {
+            "type": "human_illness",
+            "target": "Jean Cordier (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Mongeatte des Woirel (suspected more than Nicole)",
+            "time_after_quarrel": null
+          },
+          {
+            "type": "human_illness",
+            "target": "child of Jean Cordier",
+            "target_relationship": "child",
+            "attributed_to": "uncertain",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Mongeatte femme Jean Recouvreur",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor/patient",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Goose incident and speaking ill of Nicole to sergent",
+        "threat_received": true,
+        "threat_quote": "meschante femme, je ne te vis jamais et ne t'a cognu",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mongeatte femme Jean Recouvreur (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": "Same day as fall"
+          },
+          {
+            "type": "human_illness",
+            "target": "small child of Mongeatte",
+            "target_relationship": "child",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": "After fall"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Marie femme Colin Bourlier",
+      "person_id": null,
+      "gender": "female",
+      "age": 38,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Former housemate (18 years before)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Nicolas Gergonne",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Current housemate (last year)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jehanne femme Guillaume des Mazieres",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jehannon femme Nicolas Gergonne",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Current housemate",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": "Que l'on l'avoit appellée Genaixe, pourquoy aymoit mieulx estre noyée que bruslée, et qu'elle n'estoit genaixe",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Jehenne femme Pierre Perrin Warier",
+      "person_id": null,
+      "gender": "female",
+      "age": 34,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Patient",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Jehenne femme Pierre Perrin Warier (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": null
+          },
+          {
+            "type": "human_illness",
+            "target": "child aged 3",
+            "target_relationship": "child",
+            "attributed_to": "unknown",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Villermin l'Huillier",
+      "person_id": null,
+      "gender": "male",
+      "age": 56,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Patient (known 30 years)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 30,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Doctor called her witch; payment disputes",
+        "threat_received": false,
+        "threat_quote": "que l'on avoit beau a faire de luy donner des medicines, qu'il ne seroit guery s'elle n'y mectoit la main",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Villermin l'Huillier (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": "After forgetting to pay her"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Bastienne femme Didier Regnaudin",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Didier de Vilerne",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "boulangier",
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Unknown",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Claudon Voyrien",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "drappier",
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor/employer (daughter attended veillée at their house)",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Insufficient payment for healing daughter; lack of hospitality (wine)",
+        "threat_received": true,
+        "threat_quote": "qu'il s'en retourne, car le coeur de sa fille monteroit en haute et mourroit la nuict, comme ung poullet",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Alizon (daughter, age 6)",
+            "target_relationship": "daughter",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": "Same day as failed payment/hospitality"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Marguerite femme Claudon Voirian",
+      "person_id": null,
+      "gender": "female",
+      "age": null,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Alizon (daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jean Jour le Jeusne",
+      "person_id": null,
+      "gender": "male",
+      "age": 22,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Patient's husband",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "wife of Jean Jour",
+            "target_relationship": "wife",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Nicole femme Jean Jour le Jeusne",
+      "person_id": null,
+      "gender": "female",
+      "age": 21,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Patient",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Insufficient payment (gave 7 gros, Nicole wanted 30)",
+        "threat_received": true,
+        "threat_quote": "qu'elle avisa la guerir, car elle luy avoit donné le mal, autrement elle s'en resentiroit",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Nicole femme Jean Jour (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean Coureur",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 20,
+      "name": "Claudon femme Jean Coureur",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "occupation": null,
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": false,
+        "threat_quote": null,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 21,
+      "name": "Michiel Bonniller",
+      "person_id": null,
+      "gender": "male",
+      "age": 44,
+      "occupation": "sergent du mayeur de St Nicolas",
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Late wife was patient",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "quarrel_subject": null,
+        "threat_received": true,
+        "threat_quote": "ny vouloir venir, pour ce que sy elle y alloit, il Bonniller peult estre feroit comme Pierrat Gorgelat aussy sergent feit de la gastade et qu'il pourroit dire, qu'elle estoit genaixe, et la faire brusler",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Halbix femme Goery Lymousin",
+      "person_id": null,
+      "gender": "female",
+      "age": 39,
+      "occupation": "wife of bouchier",
+      "location": "Saint Nicolas",
+      "relationship_to_accused": "Patient",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Accused of maintaining illness",
+        "threat_received": true,
+        "threat_quote": "que c'estoit elle qui entretenoit son mal",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Halbix femme Goery Lymousin (self)",
+            "target_relationship": "self",
+            "attributed_to": "Nicole veuve Mengin Nigal",
+            "time_after_quarrel": null
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1582-07-10",
+      "event": "other",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Publicly accused of witchcraft by Mongeatte femme Jean Recouvreur, who was going about streets and gardens 'comme forcenée'. Nicole threw herself down a well."
+    },
+    {
+      "date": "1582-07-24",
+      "event": "informations_preparatoires",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Informations (witness depositions) begin"
+    },
+    {
+      "date": "1582-07-26",
+      "event": "informations_preparatoires",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Additional informations"
+    },
+    {
+      "date": "1582-07-27",
+      "event": "interrogation",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Interrogation - admitted throwing self in well due to despair after being called witch"
+    },
+    {
+      "date": "1582-07-28",
+      "event": "confrontation",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1582-08-08",
+      "event": "interrogation",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Interrogation - judges pressed her hard, alleging healing was cover for witchcraft"
+    },
+    {
+      "date": "1582-08-10",
+      "event": "torture_requested",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Procureur général de Lorraine (Maimbourg) asks for question extraordinaire"
+    },
+    {
+      "date": "1582-08-12",
+      "event": "torture_approved",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1582-08-22",
+      "event": "torture",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Interrogation under torture - confessed when severely racked, immediately retracted, varied between confessing and denying"
+    },
+    {
+      "date": "1582-08-24",
+      "event": "interrogation",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Interrogation - sergent reported she was ready to confess. Gave detailed confession of devil pact and maleficia"
+    },
+    {
+      "date": "1582-08-25",
+      "event": "interrogation",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Interrogation - confirmed earlier confessions"
+    },
+    {
+      "date": "1582-08-27",
+      "event": "informations_preparatoires",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Additional depositions from new witnesses to maléfices she confessed"
+    },
+    {
+      "date": "1582-08-31",
+      "event": "death_requested",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "PG asks for death sentence, preceded by further torture to extract complete confession with names of accomplices"
+    },
+    {
+      "date": "1582-09-04",
+      "event": "death_approved",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Change de Nancy approves death sentence if she confirms earlier confessions; no mention of further torture"
+    },
+    {
+      "date": "1582-09-12",
+      "event": "execution",
+      "subject": "Nicole veuve Mengin Nigal",
+      "details": "Death sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": [
+      "rack"
+    ],
+    "requesting_official": "Procureur général de Lorraine (Maimbourg)",
+    "approving_court": "Change de Nancy",
+    "restrictions": null
+  },
+  "accomplices_named": [
+    {
+      "name": "4 unknown women",
+      "location": "Thought to be from Lenoncourt and La Neufville",
+      "context": "Met at sabbat 8 days after seduction by devil, danced around large oak",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "la Bourguinatte (aunt of Marie femme Colin Bourlier)",
+      "accuser_location": "Saint Nicolas",
+      "context": "Aunt had been executed as a witch - mentioned as part of Nicole's reputation",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Nicole veuve Mengin Nigal",
+      "french": "et voudroit estre morte",
+      "english": "and wished she were dead",
+      "context": "When asked why she was in prison"
+    },
+    {
+      "speaker": "Nicole veuve Mengin Nigal",
+      "french": "maladieuse qu'elle est, et desja surexigé, ne desire que rendre a Dieu l'ame qu'il luy at preste",
+      "english": "being sick as she is, and already aged, desires only to return to God the soul he has lent her",
+      "context": "Responding to suggestion she intended suicide"
+    },
+    {
+      "speaker": "Nicole veuve Mengin Nigal",
+      "french": "Interrogée pour quelle maladie - A dict que pour le mal de la mere, elle recueille ladite graine quant elle est meure, entre les deux notre dame, puis la mect sur ung peu de brasier, et de la fumée en forme d'estuve se guarissent les patientes",
+      "english": "Asked what illness - Said for mal de la mere, she collects the seed when it is ripe, between the two Notre Dames, then puts it on a small brazier, and from the smoke in form of steam the patients are cured",
+      "context": "Describing her herbal healing technique using herb St Gegoult"
+    },
+    {
+      "speaker": "Claudon Voyrien",
+      "french": "qu'il s'en retourne, car le coeur de sa fille monteroit en haute et mourroit la nuict, comme ung poullet",
+      "english": "that he should go home, for his daughter's heart would rise up high and she would die in the night, like a chicken",
+      "context": "Nicole's prophecy about death of Alizon, daughter of Claudon Voyrien"
+    },
+    {
+      "speaker": "Jehannon femme Nicolas Gergonne",
+      "french": "Que l'on l'avoit appellée Genaixe, pourquoy aymoit mieulx estre noyée que bruslée, et qu'elle n'estoit genaixe",
+      "english": "That she had been called a witch, therefore she preferred to be drowned than burned, and that she was not a witch",
+      "context": "Nicole's statement after being rescued from well"
+    },
+    {
+      "speaker": "Nicole veuve Mengin Nigal (confession)",
+      "french": "Le larron, le poltron, le grand Diable le puisse confondre, il m'appelle genaixe, et ne le suis poinct, continuant ainsy ses maudisssons et propos de Diable",
+      "english": "The thief, the coward, may the great Devil confound him, he calls me a witch, and I am not one, continuing thus her curses and devil's speech",
+      "context": "Muttering at fontaine de Saulcy when devil appeared to seduce her"
+    },
+    {
+      "speaker": "Nicole veuve Mengin Nigal",
+      "french": "estant qu'elle est pauvre seulette et destituée d'avis pour se justifier",
+      "english": "being that she is poor, alone, and destitute of counsel to justify herself",
+      "context": "Responding to judges' pressure during interrogation"
+    },
+    {
+      "speaker": "Nicole veuve Mengin Nigal",
+      "french": "sy l'on veut adjouster foidz aux faulx tesmoings qui deposent contre elle de choses que ne furent jamais elle ayme tout aultant moyrir",
+      "english": "if they want to give faith to false witnesses who testify against her of things that never happened, she would just as soon die",
+      "context": "Interrogation about alleged maleficia"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "Jean Lescabelle",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "First marriage had been to chartier named Jean Lescabelle, and had lasted 14 years",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "Mengin Nigal",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Nicole veuve Mengin Nigal - widow of a gisseur",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "Jean de Mallein",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "father named Jean de Mallein, but had never known father or mother",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "child in Allemaigne",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had two children, who had been absent long since; one was in Allemaigne",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "second child (location unknown)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "did not know where other was",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine Humbert",
+      "person2": "Jean Humbert",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine Humbert veuve Jean Humbert",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Jean Cordier",
+      "person2": "Jean Cordier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Catherine femme Jean Cordier",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte femme Jean Recouvreur",
+      "person2": "Jean Recouvreur",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mongeatte femme Jean Recouvreur",
+      "inferred": false
+    },
+    {
+      "person1": "Mongeatte femme Jean Recouvreur",
+      "person2": "Didier Regnaudin",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Subsequently Nicole had been to see her neighbour, wife of Didier Regnaudin",
+      "inferred": false
+    },
+    {
+      "person1": "Marie femme Colin Bourlier",
+      "person2": "Colin Bourlier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marie femme Colin Bourlier",
+      "inferred": false
+    },
+    {
+      "person1": "Marie femme Colin Bourlier",
+      "person2": "la Bourguinatte",
+      "relationship_type": "nephew_niece_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Her aunt 'la Bourguinatte' had been executed as a witch",
+      "inferred": false
+    },
+    {
+      "person1": "Jehannon femme Nicolas Gergonne",
+      "person2": "Nicolas Gergonne",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jehannon femme Nicolas Gergonne",
+      "inferred": false
+    },
+    {
+      "person1": "Jehanne femme Guillaume des Mazieres",
+      "person2": "Guillaume des Mazieres",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehanne femme Guillaume des Mazieres",
+      "inferred": false
+    },
+    {
+      "person1": "Jehenne femme Pierre Perrin Warier",
+      "person2": "Pierre Perrin Warier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jehenne femme Pierre Perrin Warier",
+      "inferred": false
+    },
+    {
+      "person1": "Bastienne femme Didier Regnaudin",
+      "person2": "Didier Regnaudin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Bastienne femme Didier Regnaudin",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite femme Claudon Voirian",
+      "person2": "Claudon Voyrien",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Marguerite femme Claudon Voirian",
+      "inferred": false
+    },
+    {
+      "person1": "Marguerite femme Claudon Voirian",
+      "person2": "Alizon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "their daughter Alizon",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Voyrien",
+      "person2": "Alizon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "their daughter Alizon",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole femme Jean Jour le Jeusne",
+      "person2": "Jean Jour le Jeusne",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Nicole femme Jean Jour le Jeusne",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon femme Jean Coureur",
+      "person2": "Jean Coureur",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudon femme Jean Coureur",
+      "inferred": false
+    },
+    {
+      "person1": "Halbix femme Goery Lymousin",
+      "person2": "Goery Lymousin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Halbix femme Goery Lymousin bouchier",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "Dame Meline femme au Sr Hanry Go de Neufchastel",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had learned technique from Dame Meline femme au Sr Hanry Go de Neufchastel, elle detenue estant jeusne garse pour berser leurs enffans",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "Catherine Humbert",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Said they had lived in same house (in different rooms) for four years",
+      "inferred": false
+    },
+    {
+      "person1": "Nicole veuve Mengin Nigal",
+      "person2": "Nicolas Gergonne",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Had lived in same house for last year",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine femme Jean Cordier",
+      "person2": "Nicole veuve Mengin Nigal",
+      "relationship_type": "other_social",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "tante Nicole vous avez les mains bien douce - addressed her as 'tante'",
+      "inferred": false
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": false,
+    "details": "Nicole was economically vulnerable - a poor widow who practiced healing for income. Her husband had left for war during a period of dearth, leaving her alone and destitute. She relied on healing fees but often faced payment disputes. Evidence of poverty: lived in rented rooms, was evicted from lodging, charged modest fees (a franc, 6 deniers, 7 gros), sometimes asked for payment in kind (journal of wheat, bread and wine). Her economic desperation is central to her story - the interrogation explicitly asked if being 'pauvre et necessiteuse' when her husband left had led her to turn to witchcraft."
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Jean Cordier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Very painful leg, looked normal but felt hot to touch, strange lump in thigh",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal",
+      "precipitating_quarrel": "Being put out of house where she was living because treating him",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Treatment - decoction d'herbes, graisse de chartier; possibly powder in confession",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Child of Jean Cordier",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Covered with red spots",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Uncertain - witness thought Mongeatte des Woirelz",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 2
+    },
+    {
+      "victim_name": "Catherine femme Jean Cordier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Red spot appeared on skin",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": "Same evening after Nicole put hand on her skin",
+      "method_alleged": "Touch - Nicole put hand on her skin",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Mongeatte femme Jean Recouvreur",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Fell on flat road with child face down beneath her, became chilled, arm and thigh twisted, could hardly walk",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal",
+      "precipitating_quarrel": "Goose incident (Nicole's goose jumped on drying sheets), spoken ill to sergent",
+      "time_between_quarrel_and_harm": "15 days after goose incident, fall on day of fete at Rozieres",
+      "method_alleged": "Threw cone of paper (that had contained powder) on road (per confession)",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Small child of Mongeatte",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Legs twisted",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal",
+      "precipitating_quarrel": "Same as mother's illness",
+      "time_between_quarrel_and_harm": "After fall",
+      "method_alleged": null,
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Jehenne femme Pierre Perrin Warier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Very ill, spent much money at Nancy seeking cure in vain",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": "Much money spent at Nancy and elsewhere",
+      "attributed_to": "Nicole veuve Mengin Nigal (suspected)",
+      "precipitating_quarrel": "Called Nicole witch while ill herself (per confession)",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Powder (per confession) - made ill when Nicole was ill herself and witness called her witch",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Child aged 3 of Pierre Perrin Warier",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Diarrhoea and vomiting",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Unknown",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 9
+    },
+    {
+      "victim_name": "Villermin l'Huillier",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness, pain went down into feet, still afflicted",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal (per confession)",
+      "precipitating_quarrel": "They had forgotten her after cure, doctor called her witch, wife asked for journal of wheat",
+      "time_between_quarrel_and_harm": "Illness returned for 6 weeks after he had been cured",
+      "method_alleged": "Powder (per confession) - made ill and cured, made ill again when discontented",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Alizon (daughter of Claudon Voyrien)",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_death",
+      "harm_description": "Fell very ill after Nicole threatened her with finger, died same night",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal",
+      "precipitating_quarrel": "Failed to recompense properly (gave 6 deniers), failed to offer wine, came too late to call her for supper",
+      "time_between_quarrel_and_harm": "Same day",
+      "method_alleged": "Threatened with finger, powder (per confession)",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "Wife of Jean Jour le Jeusne",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "Illness, became worse after insufficient payment",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal",
+      "precipitating_quarrel": "Insufficient payment (7 gros when Nicole wanted 30)",
+      "time_between_quarrel_and_harm": "After payment dispute",
+      "method_alleged": "Powder (per confession) - went out too soon after childbirth, called Nicole witch",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Halbix femme Goery Lymousin",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness, vomited violently after herbal drink",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal (suspected)",
+      "precipitating_quarrel": "Accused Nicole of maintaining her illness",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Treatment - felt better only when Nicole did the massage herself",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Viel Jean (Jean Mathieu)",
+      "victim_relationship_to_witness": "third party mentioned in confession",
+      "harm_category": "human_illness",
+      "harm_description": "Made ill then cured (per confession)",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal (per confession)",
+      "precipitating_quarrel": "Dispute over firewood she bought from him",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Wife of Nicolas Lambo",
+      "victim_relationship_to_witness": "third party mentioned in confession",
+      "harm_category": "human_illness",
+      "harm_description": "Made to believe it was mal de mere (per confession)",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal (per confession)",
+      "precipitating_quarrel": "Did not let Nicole go first at well on very cold day",
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": "Powder",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Son of Jean de Biche",
+      "victim_relationship_to_witness": "third party mentioned in confession",
+      "harm_category": "human_death",
+      "harm_description": "Child died after languishing 4-5 weeks, seemed asleep for 3 days",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Nicole veuve Mengin Nigal (per confession)",
+      "precipitating_quarrel": "Dispute with wife, not invited to baptism",
+      "time_between_quarrel_and_harm": "Child died after languishing",
+      "method_alleged": "Powder, touched child in cradle",
+      "witness_number": null
+    },
+    {
+      "victim_name": "Late wife of Michiel Bonniller",
+      "victim_relationship_to_witness": "late wife",
+      "harm_category": "human_illness",
+      "harm_description": "Mal de mere, treated and better for 3 years then relapsed",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Unclear",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": 21
+    },
+    {
+      "victim_name": "Child of Nicolas Lambo",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_illness",
+      "harm_description": "Child very ill, told it was tenu de mauvais gens",
+      "animal_type": null,
+      "animal_count": null,
+      "economic_value": null,
+      "attributed_to": "Unclear",
+      "precipitating_quarrel": null,
+      "time_between_quarrel_and_harm": null,
+      "method_alleged": null,
+      "witness_number": null
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "graines de l'herbe St Gegoult",
+      "context": "Seeds from herb St Gegoult, collected when ripe between the two Notre Dames, used for treating mal de mere",
+      "category": "magical"
+    },
+    {
+      "object": "brasier (brazier)",
+      "context": "Used to burn seeds to create healing steam/smoke",
+      "category": "household"
+    },
+    {
+      "object": "huile de chamenel",
+      "context": "Oil used for treating swelling and illness",
+      "category": "magical"
+    },
+    {
+      "object": "graisse de chartier",
+      "context": "Grease used in treatments",
+      "category": "magical"
+    },
+    {
+      "object": "graisse d'Allemaigne",
+      "context": "German grease used to treat Jean Cordier",
+      "category": "magical"
+    },
+    {
+      "object": "fromageon",
+      "context": "Herb cooked in water to bathe sick child",
+      "category": "magical"
+    },
+    {
+      "object": "morvelle, senson camomille",
+      "context": "Ingredients cooked with white wine for treating injuries",
+      "category": "magical"
+    },
+    {
+      "object": "vin blanc (white wine)",
+      "context": "Used in cooking herbal remedies",
+      "category": "food"
+    },
+    {
+      "object": "honey and wax",
+      "context": "Items Mongeatte was told to obtain from neighbor for healing",
+      "category": "magical"
+    },
+    {
+      "object": "oil from lamps before saints",
+      "context": "Used to rub on affected parts for those advised to make pilgrimages",
+      "category": "religious"
+    },
+    {
+      "object": "hard-boiled eggs with vinegar",
+      "context": "Remedy suggested for illness",
+      "category": "food"
+    },
+    {
+      "object": "sac de fer (iron sack)",
+      "context": "The size of waist, to be taken to saints on pilgrimage",
+      "category": "religious"
+    },
+    {
+      "object": "cercle de fer (iron circle)",
+      "context": "Part of pilgrimage remedy",
+      "category": "religious"
+    },
+    {
+      "object": "milk of black cow",
+      "context": "Used in ointment with graisse de chartiers",
+      "category": "food"
+    },
+    {
+      "object": "powder from devil",
+      "context": "Given by devil, could kill or make ill, or cure when put in warm ashes",
+      "category": "magical"
+    },
+    {
+      "object": "oak leaves",
+      "context": "Money from devil turned to oak leaves when she got home",
+      "category": "other"
+    },
+    {
+      "object": "holy water",
+      "context": "Used to wash face after renouncing devil",
+      "category": "religious"
+    },
+    {
+      "object": "fouchieres (ferns)",
+      "context": "Five branches to place en croisée dans le trans du lict for healing",
+      "category": "magical"
+    },
+    {
+      "object": "franc",
+      "context": "Payment - Jean Cordier's wife gave her a franc",
+      "category": "money"
+    },
+    {
+      "object": "teston",
+      "context": "Payment - Nicole tried to give back a teston",
+      "category": "money"
+    },
+    {
+      "object": "6 deniers",
+      "context": "Payment to Nicole by Claudon Voyrien",
+      "category": "money"
+    },
+    {
+      "object": "7 gros",
+      "context": "Insufficient payment given by Nicole femme Jean Jour",
+      "category": "money"
+    },
+    {
+      "object": "30 gros",
+      "context": "Amount Nicole said poorest gave her",
+      "category": "money"
+    },
+    {
+      "object": "blanc",
+      "context": "Payment given to Nicole at baptism",
+      "category": "money"
+    },
+    {
+      "object": "journal of wheat",
+      "context": "Nicole asked wife of Villermin l'Huillier for this payment",
+      "category": "food"
+    },
+    {
+      "object": "bread and wine",
+      "context": "Villermin said she could always have these at his house",
+      "category": "food"
+    },
+    {
+      "object": "livre (book)",
+      "context": "Dame Meline found healing technique in a book",
+      "category": "other"
+    },
+    {
+      "object": "goose",
+      "context": "Nicole was looking after a goose that jumped on drying sheets",
+      "category": "agricultural"
+    },
+    {
+      "object": "cat",
+      "context": "In garden behind Nicole when Mongeatte came to her house",
+      "category": "other"
+    },
+    {
+      "object": "bucket",
+      "context": "Used in well where Nicole threw herself",
+      "category": "household"
+    },
+    {
+      "object": "chain",
+      "context": "Used to rescue Nicole from well, her arms too weak to hold it",
+      "category": "tools"
+    },
+    {
+      "object": "bed",
+      "context": "Nicole took bed out into sun, knew best how to make it for healing",
+      "category": "household"
+    },
+    {
+      "object": "sheets",
+      "context": "Drying sheets that goose jumped on",
+      "category": "household"
+    },
+    {
+      "object": "table",
+      "context": "Mongeatte sat on table as part of healing ritual",
+      "category": "household"
+    },
+    {
+      "object": "towel",
+      "context": "Put around head as part of healing ritual",
+      "category": "household"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Saint Nicolas",
+      "place_type": "village",
+      "context": "Primary location of trial, where Nicole lived for 50 years"
+    },
+    {
+      "place_name": "Romey-sur-Meuse",
+      "place_type": "village",
+      "context": "Nicole's birthplace"
+    },
+    {
+      "place_name": "Allemaigne (Germany)",
+      "place_type": "other",
+      "context": "Where one of Nicole's children was living"
+    },
+    {
+      "place_name": "Nancy",
+      "place_type": "village",
+      "context": "Where Jehenne femme Pierre Perrin Warier spent much money seeking cure"
+    },
+    {
+      "place_name": "Bellihesse",
+      "place_type": "other",
+      "context": "Where Mongeatte fell, looking for husband"
+    },
+    {
+      "place_name": "Rozieres",
+      "place_type": "village",
+      "context": "Location of fete, where Mongeatte feared husband might go"
+    },
+    {
+      "place_name": "St Maixel",
+      "place_type": "church",
+      "context": "Where Nicole told patient to make a neufiesme pilgrimage"
+    },
+    {
+      "place_name": "St Quentin de Saplay (Saclay)",
+      "place_type": "church",
+      "context": "Pilgrimage destination mentioned multiple times for healing"
+    },
+    {
+      "place_name": "St Godgrand",
+      "place_type": "church",
+      "context": "Pilgrimage destination"
+    },
+    {
+      "place_name": "fontaine de Saulcy",
+      "place_type": "water_body",
+      "context": "Where Nicole was gathering wood when devil appeared to seduce her"
+    },
+    {
+      "place_name": "Lenoncourt",
+      "place_type": "village",
+      "context": "Where Nicole thought some sabbat participants were from"
+    },
+    {
+      "place_name": "La Neufville",
+      "place_type": "village",
+      "context": "Where Nicole thought some sabbat participants were from"
+    },
+    {
+      "place_name": "Large oak (sabbat location)",
+      "place_type": "sabbat_location",
+      "context": "Where they danced rondeau at first sabbat meeting"
+    },
+    {
+      "place_name": "Neufchastel",
+      "place_type": "village",
+      "context": "Home of Dame Meline who taught Nicole healing technique"
+    },
+    {
+      "place_name": "Well",
+      "place_type": "water_body",
+      "context": "Where Nicole threw herself after being called witch"
+    },
+    {
+      "place_name": "Woods",
+      "place_type": "forest",
+      "context": "Where Villermin l'Huillier went when recovering"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Nicole's husband left for war during the dearth (period of food scarcity). This military mobilization coincided with economic hardship and left Nicole destitute.",
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "Dearth (food scarcity) mentioned when husband left for war",
+      "Nicole described as 'pauvre et necessiteuse' (poor and destitute)",
+      "Nicole worked as domestic servant in 5 households before marriages",
+      "Lived in rented rooms, was evicted from lodging",
+      "Relied on healing fees for survival",
+      "Payment disputes suggest economic tensions",
+      "Asked for payment in kind (wheat, bread, wine)"
+    ],
+    "religious_calendar_references": [
+      "la Magdellaine (feast of Mary Magdalene, July 22)",
+      "entre les deux notre dame (between the two Notre Dames - likely Assumption Aug 15 and Nativity Sept 8)",
+      "Lent mentioned in threat: 'qu'il fut sept ans de Caresmes ils s'en repentiroient'"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Procureur général of duchy",
+        "role": "prosecutor_pg",
+        "location": "Duchy of Lorraine"
+      },
+      {
+        "name": "Maimbourg",
+        "role": "prosecutor_pg",
+        "location": "Lorraine"
+      },
+      {
+        "name": "Michiel Bonniller",
+        "role": "other",
+        "location": "Saint Nicolas"
+      },
+      {
+        "name": "Pierrat Gorgelat",
+        "role": "other",
+        "location": "Saint Nicolas"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "redress_outcome": null,
+    "imprisonment_conditions": "Held prisoner on orders of Procureur général after suicide attempt in well",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "PG requested death preceded by further torture to extract accomplice names on Aug 31. Change de Nancy approved death on Sept 4 if she confirmed earlier confessions, but made no mention of further torture - appears to have rejected that aspect of PG's request.",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Catherine femme Jean Cordier",
+        "source": "la grande barbe",
+        "content": "How Nicole had used same remedy"
+      },
+      {
+        "reporter": "Jean Cordier",
+        "source": "wife had been told",
+        "content": "That Nicole gave many remedies"
+      }
+    ],
+    "oldest_accusation_years": 30,
+    "corroboration_groups": [
+      [6, 8],
+      [15, 16],
+      [17, 18],
+      [19, 20]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Suicidal - threw herself down well",
+      "Despairing - said she wished she were dead",
+      "Defiant - called witnesses false",
+      "Resigned - said she would rather die than be believed false witnesses",
+      "Muttering/murmuring in sleep",
+      "Crying out loudly in sleep"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 4,
+        "objection": "Denied healing Mongeatte, but admitted attending her"
+      },
+      {
+        "witness_number": 15,
+        "objection": "Blamed stepmother for feeding child 'choux a l'huile', disputed timing of pilgrimages"
+      },
+      {
+        "witness_number": 12,
+        "objection": "Said doctor had been using worthless 'estuves', what was needed was pilgrimage"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Dame Meline femme au Sr Hanry Go de Neufchastel",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Former employer who taught her healing technique",
+      "relationship_to_witness": null,
+      "context": "Taught Nicole the herbal healing technique for mal de mere, found it in a book"
+    },
+    {
+      "name": "German doctor",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Professional rival/antagonist",
+      "relationship_to_witness": null,
+      "context": "Was distributing waters for illnesses, quarreled with Nicole, called her witch, told Villermin he had 'mal donné'. His accusation triggered Nicole's seduction by devil (per confession)."
+    },
+    {
+      "name": "Mongeatte des Woirelz (Woirel)",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Possible rival healer",
+      "relationship_to_witness": null,
+      "context": "Catherine femme Jean Cordier suspected Mongeatte more than Nicole for her husband's illness. Mongeatte healed Cordier's child immediately with herbs."
+    },
+    {
+      "name": "la grande barbe",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "Told Catherine femme Jean Cordier about Nicole's remedies",
+      "context": "Source of information about Nicole's healing methods"
+    },
+    {
+      "name": "la Chadellatte",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": null,
+      "context": "Advised Catherine femme Jean Cordier on remedy using milk of black cow"
+    },
+    {
+      "name": "la Bourguinatte",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "Aunt of Marie femme Colin Bourlier (witness 5)",
+      "context": "Had been executed as a witch - part of Nicole's reputation context"
+    },
+    {
+      "name": "Pierrat Gorgelat",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "relationship_to_accused": "Evicted Nicole from lodging",
+      "relationship_to_witness": null,
+      "context": "Sergent who evicted Nicole from her room when she was treating Jean Cordier"
+    },
+    {
+      "name": "Nicolas Jacqueminot",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Neighbor",
+      "relationship_to_witness": null,
+      "context": "Wife was in childbed, Nicole was having supper at their house"
+    },
+    {
+      "name": "Urbaine",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": null,
+      "relationship_to_witness": "Accompanied Nicole femme Jean Jour to confront Nicole",
+      "context": "Another woman who went with witness to Nicole's house"
+    },
+    {
+      "name": "Goery Cordonnier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient",
+      "relationship_to_witness": null,
+      "context": "Too ill to testify, had been treated with strange medicines"
+    },
+    {
+      "name": "Wife of Goery Cordonnier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "Patient",
+      "relationship_to_witness": null,
+      "context": "Too ill to testify, had been treated with strange medicines. Nicole confessed to making them ill and leaving threat about '7 years of Lent'"
+    },
+    {
+      "name": "Demenge Bourlier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "Neighbor",
+      "relationship_to_witness": null,
+      "context": "His daughter called Nicole witch after a quarrel"
+    },
+    {
+      "name": "maitre Persin",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "Devil/seducer",
+      "relationship_to_witness": null,
+      "context": "Name given to devil who seduced Nicole and gave her powder"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "This is an exceptionally detailed trial record with complete witness depositions, confession narrative, and procedural timeline. Key uncertainties: (1) Several witness depositions noted but not included in full (witnesses 10-11 were too ill to testify; witnesses 13-14 knew nothing). (2) Initial interrogation has no date specified. (3) The confession mentions 4 unknown women at sabbat but Nicole could not identify them - only thought they were from Lenoncourt and La Neufville. (4) Economic status assessed as 'poor' based on extensive evidence: widow of gisseur, former servant, lived in rented rooms, evicted from lodging, payment disputes, husband left her destitute during dearth, described as 'pauvre et necessiteuse'. (5) The Change de Nancy's ruling on Sept 4 approved death but did NOT mention further torture, which the PG had requested on Aug 31 - this appears to be a modification rejecting that aspect. (6) This trial is particularly significant for understanding the intersection of folk healing, economic vulnerability, and witchcraft accusations. Nicole's healing practice using herbal fumigation for 'mal de mere' was learned from an elite household and practiced for 10 years. The trial shows how payment disputes and professional rivalry (with German doctor and possibly Mongeatte des Woirel) contributed to accusations.",
+    "pdf_pages": 9
+  }
+}

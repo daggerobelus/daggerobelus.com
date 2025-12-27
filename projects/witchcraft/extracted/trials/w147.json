@@ -3,6 +3,14 @@
   "archive_ref": "B8667 no 9",
   "location": "Sainte Margaree",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Procureur Général",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Sainte Margaree",
+    "relationship_to_accused": "Based on informations preparatoires (preliminary investigation) following community complaints"
+  },
   "dates": {
     "start": "1592-07-04",
     "end": "1592-08-18",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Laurence femme George Jolbay",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": ["laboureur (wife of)"],
       "residence": "Sainte Margaree",
       "marital_status": "married",
@@ -54,6 +66,7 @@
     {
       "number": 1,
       "name": "Magdalaine servante au Sr curé de Ste Margarée",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -84,6 +97,7 @@
     {
       "number": 2,
       "name": "Catherine femme Mengeon Valentin",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -118,6 +132,7 @@
     {
       "number": 3,
       "name": "Mengeon Valentin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "age_approximate": true,
@@ -146,6 +161,7 @@
     {
       "number": 4,
       "name": "Demenge Violle",
+      "person_id": null,
       "gender": "male",
       "age": 54,
       "age_approximate": true,
@@ -174,6 +190,7 @@
     {
       "number": 5,
       "name": "Simon Honguey",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "age_approximate": true,
@@ -201,6 +218,7 @@
     {
       "number": 6,
       "name": "Catherine veuve Jean Aulbert",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -228,6 +246,7 @@
     {
       "number": 7,
       "name": "Colas Demenge Henry",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -255,6 +274,7 @@
     {
       "number": 8,
       "name": "Diez George le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "age_approximate": true,
@@ -289,6 +309,7 @@
     {
       "number": 9,
       "name": "Demenge Simonel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -315,6 +336,7 @@
     {
       "number": 10,
       "name": "Claude le Bailly",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -334,6 +356,7 @@
     {
       "number": 11,
       "name": "Colas Henriot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -367,6 +390,7 @@
     {
       "number": 12,
       "name": "Colas Andreu",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -385,6 +409,7 @@
     {
       "number": 13,
       "name": "Jeniste femme Didier George le Clerc",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "age_approximate": true,
@@ -418,6 +443,7 @@
     {
       "number": 14,
       "name": "Didielle femme au jeune Colas Demenge Henry",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -445,6 +471,7 @@
     {
       "number": 15,
       "name": "Demenge fils Demenge Pecry",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "age_approximate": true,
@@ -464,6 +491,7 @@
     {
       "number": 16,
       "name": "Colas Henry",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -490,6 +518,7 @@
     {
       "number": 17,
       "name": "Nicolas Hougney",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -524,6 +553,7 @@
     {
       "number": 18,
       "name": "Jean le Clerc",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -552,6 +582,7 @@
     {
       "number": 19,
       "name": "Jean Bourguignon",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -579,6 +610,7 @@
     {
       "number": 20,
       "name": "Colas Gros Didier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -605,6 +637,7 @@
     {
       "number": 21,
       "name": "Catherine veuve Claude Malremmeix",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -1456,7 +1489,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Never sought reparation because she lacked the means to go to law; if she had used the little she had, afterwards she would have been a 'cocquine'",
     "imprisonment_conditions": "Persin visited her in prison to encourage her; costillon taken from her",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture 'mediocrement' (moderate) on 16 July 1592; passed death sentence on 24 July 1592",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1518,6 +1556,7 @@
   "third_parties": [
     {
       "name": "Sr curé de Ste Margarée",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "employer of witness 1",
       "relationship_to_witness": "master of witness 1",
@@ -1525,62 +1564,73 @@
     },
     {
       "name": "chambermaid of Catherine femme Mengeon Valentin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "servant of witness 2",
       "context": "Asked to tell Laurence they suspected her"
     },
     {
       "name": "daughter of Demenge Violle by earlier marriage",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_witness": "daughter of witness 4",
       "context": "Told father that Laurence had been heard to say he would repent for not giving fish"
     },
     {
       "name": "Jean Vanier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "owed money to Laurence",
       "context": "Child suffocated in cradle after failure to pay money owed"
     },
     {
       "name": "Mengeon Ferry",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Called Laurence witch and said she should be burned"
     },
     {
       "name": "Claudon Raquel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "late 'serorge' of witness 9",
       "context": "Suffered great harm to livestock after refusing hay or straw"
     },
     {
       "name": "Jean Musnier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "miller",
       "context": "Afflicted with leg trouble, recovered after receiving food"
     },
     {
       "name": "devin d'Anould",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Diviner consulted by Jean Bourguignon, identified Laurence as cause of illness and prescribed cure"
     },
     {
       "name": "Nicolas Demenge Henry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "father-in-law of witness 11",
       "context": "Bull died after quarrel"
     },
     {
       "name": "Monsieur de Polleviller",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Burned Ramberviller (used to date Laurence's marriage)"
     },
     {
       "name": "Marquis de Baden",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Commander of regiment billeted in area"
     },
     {
       "name": "Persin (Mre Persin)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master",
       "context": "Devil who seduced Laurence, gave her powder, forced her to do malefices, beat her, appeared as 'bon ange', visited her in prison"

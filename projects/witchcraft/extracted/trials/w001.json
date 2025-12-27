@@ -3,6 +3,14 @@
   "archive_ref": "B 2148",
   "location": "Mazerulles",
   "court": "Amance",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "",
+    "person_id": null,
+    "occupation": "",
+    "location": "",
+    "relationship_to_accused": ""
+  },
   "dates": {
     "start": "1591-05-22",
     "end": "1591-07-16",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Jean Bulme",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "Mazerulles",
       "marital_status": "married",
       "spouse_name": "Didiere",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["other"],
       "parents": {
         "father": "Jean Bulme",
         "mother": "Sibille"
@@ -47,6 +59,7 @@
     },
     {
       "name": "Didiere Bulme",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -55,6 +68,9 @@
       "residence": "Mazerulles",
       "marital_status": "married",
       "spouse_name": "Jean Bulme",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Didier Thierion",
         "mother": "Barbelline"
@@ -85,6 +101,7 @@
     {
       "number": 1,
       "name": "Nicolas Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "occupation": "",
@@ -113,6 +130,7 @@
     {
       "number": 2,
       "name": "Odille femme Claudin Thieriat",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": "",
@@ -134,6 +152,7 @@
     {
       "number": 3,
       "name": "Catherine veuve Mongenot Gerard",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "",
@@ -168,6 +187,7 @@
     {
       "number": 4,
       "name": "Barbellon femme Nicolas Mulnier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "",
@@ -202,6 +222,7 @@
     {
       "number": 5,
       "name": "Catherine femme Didier Moictrier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "",
@@ -230,6 +251,7 @@
     {
       "number": 6,
       "name": "Claude Guerard, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": "",
@@ -258,6 +280,7 @@
     {
       "number": 7,
       "name": "Laurent Doullat",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "herdsman (bestes blanches)",
@@ -286,6 +309,7 @@
     {
       "number": 8,
       "name": "Jean Hangney",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -320,6 +344,7 @@
     {
       "number": 9,
       "name": "Dyon femme Jean Vosgien",
+      "person_id": null,
       "gender": "female",
       "age": 39,
       "occupation": "",
@@ -348,6 +373,7 @@
     {
       "number": 10,
       "name": "Jean Vosgien",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "",
@@ -382,6 +408,7 @@
     {
       "number": 11,
       "name": "Anthoine Rougier",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "occupation": "laboureur",
@@ -416,6 +443,7 @@
     {
       "number": 12,
       "name": "Claudin Thienat alias Mallenoy",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -437,6 +465,7 @@
     {
       "number": 13,
       "name": "Mengin Cuysenier",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "",
@@ -471,6 +500,7 @@
     {
       "number": 14,
       "name": "Didier Moictrier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "",
@@ -499,6 +529,7 @@
     {
       "number": 15,
       "name": "Nicolas Musnier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "herdsman",
@@ -527,6 +558,7 @@
     {
       "number": 16,
       "name": "Demange Rougier",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "laboureur",
@@ -561,6 +593,7 @@
     {
       "number": 17,
       "name": "Magdellaine femme Warin Cherrier",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "",
@@ -589,6 +622,7 @@
     {
       "number": 18,
       "name": "Le maire Nicolas Aubert",
+      "person_id": null,
       "gender": "male",
       "age": 63,
       "occupation": "mayor",
@@ -617,6 +651,7 @@
     {
       "number": 19,
       "name": "Barbon femme Demenge Rougier",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": "",
@@ -645,6 +680,7 @@
     {
       "number": 20,
       "name": "Damien Boullengier",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": "",
@@ -673,6 +709,7 @@
     {
       "number": 21,
       "name": "Demange Rougier, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 15,
       "occupation": "",
@@ -701,6 +738,7 @@
     {
       "number": 22,
       "name": "Catherine femme Colin Douche",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": "",
@@ -729,6 +767,7 @@
     {
       "number": 23,
       "name": "Jean Symonin",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "",
@@ -929,7 +968,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "intended but failed to pursue in most cases; one accord made by relative with Jean Hangney",
     "imprisonment_conditions": "PG reprimanded prevot because prisoners allowed to communicate with only one sergent to guard",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture with condition that Didiere be tortured only moderately; approved death sentence",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -961,13 +1005,13 @@
     ]
   },
   "third_parties": [
-    {"name": "Jacquotte Charpentier", "role_in_narrative": "prior_accused", "relationship_to_accused": "", "relationship_to_witness": "", "context": "arrested on similar charge, told witness 1 about hens"},
-    {"name": "Vincent Epnon", "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "", "context": "made accusations against Jean that led to accord"},
-    {"name": "Claudin Barbier (late)", "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "", "context": "dissuaded Jean from taking action against Vosgien"},
-    {"name": "Demenge Herdier", "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "told witness 19 they were witches", "context": "fled because also suspected"},
-    {"name": "Urban (son of Barbellon)", "role_in_narrative": "hearsay_source", "relationship_to_accused": "", "relationship_to_witness": "son", "context": "called Didiere witch"},
-    {"name": "Jean de Moullin", "role_in_narrative": "hearsay_source", "relationship_to_accused": "", "relationship_to_witness": "", "context": "told witness 8 that Didiere killed his child"},
-    {"name": "Symonin Mulnier", "role_in_narrative": "victim", "relationship_to_accused": "", "relationship_to_witness": "", "context": "said Didiere should eat Jean's cows, then died suddenly a week before trial"}
+    {"name": "Jacquotte Charpentier", "person_id": null, "role_in_narrative": "prior_accused", "relationship_to_accused": "", "relationship_to_witness": "", "context": "arrested on similar charge, told witness 1 about hens"},
+    {"name": "Vincent Epnon", "person_id": null, "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "", "context": "made accusations against Jean that led to accord"},
+    {"name": "Claudin Barbier (late)", "person_id": null, "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "", "context": "dissuaded Jean from taking action against Vosgien"},
+    {"name": "Demenge Herdier", "person_id": null, "role_in_narrative": "community_member", "relationship_to_accused": "", "relationship_to_witness": "told witness 19 they were witches", "context": "fled because also suspected"},
+    {"name": "Urban (son of Barbellon)", "person_id": null, "role_in_narrative": "hearsay_source", "relationship_to_accused": "", "relationship_to_witness": "son", "context": "called Didiere witch"},
+    {"name": "Jean de Moullin", "person_id": null, "role_in_narrative": "hearsay_source", "relationship_to_accused": "", "relationship_to_witness": "", "context": "told witness 8 that Didiere killed his child"},
+    {"name": "Symonin Mulnier", "person_id": null, "role_in_narrative": "victim", "relationship_to_accused": "", "relationship_to_witness": "", "context": "said Didiere should eat Jean's cows, then died suddenly a week before trial"}
   ],
   "extraction_metadata": {
     "extracted_date": "2024-12-15",

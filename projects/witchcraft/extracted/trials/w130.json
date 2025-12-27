@@ -3,6 +3,12 @@
   "archive_ref": "B 8275 no 3",
   "location": "Preny",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Chrestaille",
+    "person_id": null,
+    "relationship_to_accused": "prior accused - claimed Bonne attended sabbat with her"
+  },
   "dates": {
     "start": "1597-05-13",
     "end": "1597-07-03",
@@ -12,9 +18,13 @@
   "accused": [
     {
       "name": "Bonne Bricholet",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing"],
       "occupation": ["servant", "housewife"],
       "residence": "Preny",
       "marital_status": "married",
@@ -58,6 +68,7 @@
     {
       "number": 1,
       "name": "Collignon Chandelot",
+      "person_id": null,
       "gender": "male",
       "location": "Preny",
       "relationship_to_accused": "tax collector (collected taille from her)",
@@ -443,7 +454,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "imprisoned during trial",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -467,36 +483,42 @@
   "third_parties": [
     {
       "name": "Parrotte femme Conictin le Treixe",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "context": "arrested for stealing linen from church and as witch, suffocated herself in prison; Bonne said she had been wronged"
     },
     {
       "name": "Conictin le Treixe",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "stepfather or mother's husband",
       "context": "husband of Parrotte"
     },
     {
       "name": "Chrestaille",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "unknown - accused her",
       "context": "accused Bonne of attending sabbat with her; Bonne denied this initially"
     },
     {
       "name": "Martin Mathiot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "business partner",
       "context": "bought cow from Bonne and husband with condition they keep first calf"
     },
     {
       "name": "Mengeot Bricholet",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "husband; nearly drowned in millstream; went to sell bread to pay taxes"
     },
     {
       "name": "Jean Huielle",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "context": "quarreled with Bonne over small house; she made him ill with greased pears, then cured him; asked to buy dog for wine"

@@ -3,6 +3,14 @@
   "archive_ref": "B 8535 no 4",
   "location": "Rozieres",
   "court": "Court at Rozieres",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Ydatte Vaultrin",
+    "person_id": null,
+    "occupation": null,
+    "location": null,
+    "relationship_to_accused": "prior accused who claimed to have seen Mengin at sabbat"
+  },
   "dates": {
     "start": "1603-12-18",
     "end": "1604-01-26",
@@ -12,7 +20,11 @@
   "accused": [
     {
       "name": "Mengin Lamourou (also Mengin Meriatte dit Lamourou)",
+      "person_id": null,
       "gender": "male",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "age": null,
       "age_approximate": false,
       "occupation": ["paistre (herdsman)", "former salt worker at salines"],
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Claude Thomas",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "maitre salineur a la saline de Rozieres",
@@ -71,6 +84,7 @@
     {
       "number": 2,
       "name": "Nicolas Brabant",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "former valet to accused",
@@ -92,6 +106,7 @@
     {
       "number": 3,
       "name": "Demenge Gouhier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -121,6 +136,7 @@
     {
       "number": 4,
       "name": "Lucye femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "wife of laboureur",
@@ -142,6 +158,7 @@
     {
       "number": 5,
       "name": "Vincent Henry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "paistre des bestes rouges du faulbourg",
@@ -192,6 +209,7 @@
     {
       "number": 6,
       "name": "Yollan femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "wife of herdsman",
@@ -221,6 +239,7 @@
     {
       "number": 7,
       "name": "Didier Malenser",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": null,
@@ -250,6 +269,7 @@
     {
       "number": 8,
       "name": "Nicolle femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 39,
       "occupation": "wife of witness 7",
@@ -271,6 +291,7 @@
     {
       "number": 9,
       "name": "Didier Lallemant",
+      "person_id": null,
       "gender": "male",
       "age": 58,
       "occupation": "Controlleur",
@@ -300,6 +321,7 @@
     {
       "number": 10,
       "name": "Catherine jeune fille de Claudon Dran de Venexey",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "servant to sieur prevot de Rozieres (previous year)",
@@ -329,6 +351,7 @@
     {
       "number": 11,
       "name": "Annette femme honnorable homme Claude Vaultrin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "wife of valet de chambre a monseigneur le duc",
@@ -358,6 +381,7 @@
     {
       "number": 12,
       "name": "Damoiselle Anne Magnien",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": "femme du sieur Abraham Clignon tailleur aux salines de Rozieres",
@@ -1041,7 +1065,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Had not pursued action because too poor - admitted being called witch by Jean Coutasse and Vincent Henry but did not pursue legal action due to poverty",
     "imprisonment_conditions": "Had irons on legs during imprisonment",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1086,6 +1115,7 @@
   "third_parties": [
     {
       "name": "Ydatte Vaultrin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": "possibly related to Claude Vaultrin (witness 11's husband)",
@@ -1093,6 +1123,7 @@
     },
     {
       "name": "Jean Coutasse",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "ancien garde des salines",
       "relationship_to_witness": null,
@@ -1100,6 +1131,7 @@
     },
     {
       "name": "Claude Vaultrin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 11",
@@ -1107,6 +1139,7 @@
     },
     {
       "name": "Abraham Clignon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "husband of witness 12",
@@ -1114,6 +1147,7 @@
     },
     {
       "name": "son of Mengin Lamourou",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": "employed by Demenge Gouhier (witness 3)",
@@ -1121,6 +1155,7 @@
     },
     {
       "name": "the curé (uncle of Didier Malenser)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "owner of cow kept by Malenser",
       "relationship_to_witness": "uncle of witness 7",
@@ -1128,6 +1163,7 @@
     },
     {
       "name": "Claude Gayrei",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1135,6 +1171,7 @@
     },
     {
       "name": "sieur prevot de Rozieres",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "official who instructed Vincent Henry about meadow rights; owned calf that died",
       "relationship_to_witness": "employer of witness 10",
@@ -1142,6 +1179,7 @@
     },
     {
       "name": "maire Anthoine Villemin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "owed money to accused for grain",
       "relationship_to_witness": null,
@@ -1149,6 +1187,7 @@
     },
     {
       "name": "son-in-law of maire Anthoine Villemin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "owed money to accused for grain",
       "relationship_to_witness": null,
@@ -1156,6 +1195,7 @@
     },
     {
       "name": "Symonatte la Pauvrasse",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice at sabbat",
       "relationship_to_witness": null,
@@ -1163,6 +1203,7 @@
     },
     {
       "name": "Margueritte la Cuvrasse",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice at sabbat",
       "relationship_to_witness": null,
@@ -1170,6 +1211,7 @@
     },
     {
       "name": "Zabel femme Olry Go",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice at sabbat",
       "relationship_to_witness": null,
@@ -1177,6 +1219,7 @@
     },
     {
       "name": "Claudon Dran",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 10",
@@ -1184,6 +1227,7 @@
     },
     {
       "name": "devil/master called Persil",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil master",
       "relationship_to_witness": null,

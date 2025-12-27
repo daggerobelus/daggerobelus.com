@@ -3,6 +3,7 @@
   "archive_ref": "B 3363",
   "location": "Autrepierre",
   "court": "Court at Blamont",
+  "language_region": "french",
   "dates": {
     "start": "1623-03-18",
     "end": "1623-04-10",
@@ -12,6 +13,7 @@
   "accused": [
     {
       "name": "Rose femme Louis Vincent",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -20,6 +22,9 @@
       "residence": "Autrepierre",
       "marital_status": "married",
       "spouse_name": "Louis Vincent",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "parents": {
         "father": "Didier Aulbry",
         "mother": "Didie"
@@ -37,6 +42,7 @@
     {
       "number": 1,
       "name": "Margueritte femme Courard Bergier",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Repas",
@@ -63,6 +69,7 @@
     {
       "number": 2,
       "name": "Chrestienne François femme Jean Dieudenon",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Repas",
@@ -89,6 +96,7 @@
     {
       "number": 3,
       "name": "Marie femme Jean François",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "location": "Repas",
@@ -114,6 +122,7 @@
     {
       "number": 4,
       "name": "Alison femme Demenge Vincent",
+      "person_id": null,
       "gender": "female",
       "age": 37,
       "location": "Igney",
@@ -132,6 +141,7 @@
     {
       "number": 5,
       "name": "Margueritte femme Demenge Boigot",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Autrepierre",
@@ -159,6 +169,7 @@
     {
       "number": 6,
       "name": "Annon femme Remy Masson",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Autrepierre",
@@ -177,6 +188,7 @@
     {
       "number": 7,
       "name": "Catherine femme Bastien Baillet",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "location": "Amenoncourt",
@@ -194,6 +206,7 @@
     {
       "number": 8,
       "name": "Demenge Mercier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Autrepierre",
@@ -221,6 +234,7 @@
     {
       "number": 9,
       "name": "Remy Masson",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "location": "Autrepierre",
@@ -239,6 +253,7 @@
     {
       "number": 10,
       "name": "Jean André",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Autrepierre",
@@ -266,6 +281,7 @@
     {
       "number": 11,
       "name": "Bastien Jean Bastien",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Autrepierre",
@@ -738,7 +754,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "not shaved properly before torture according to procureur fiscal",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Change de Nancy approved torture on 1 April 1623, then recommended release (renvoyée) on 6 April 1623 after she confessed nothing under torture",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -787,6 +808,7 @@
   "third_parties": [
     {
       "name": "Mathellon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "none stated",
       "relationship_to_witness": "sister of witnesses 1 and 2",
@@ -794,63 +816,74 @@
     },
     {
       "name": "Didier Aulbry",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "late father of Rose from Autrepierre"
     },
     {
       "name": "Didie",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "context": "mother of Rose, executed as a witch"
     },
     {
       "name": "three aunts of Rose",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "aunts",
       "context": "executed as witches"
     },
     {
       "name": "uncle of Rose",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "uncle",
       "context": "executed as witch"
     },
     {
       "name": "mother of Margueritte femme Demenge Boigot",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "executed as a witch; Rose suspected since this execution"
     },
     {
       "name": "wife of Demenge Mercier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "executed as a witch; Rose came to borrow serier a few days after execution"
     },
     {
       "name": "Jean Didier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_witness": "brother of witness 7",
       "context": "pursued as a witch"
     },
     {
       "name": "Louis Vincent (husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "had dispute with witness Jean André over agreement to cut hay"
     },
     {
       "name": "wife of Bastien Jean Bastien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "wife of witness 11",
       "context": "suffered illness for 14 weeks allegedly caused by Rose; refused Rose some milk"
     },
     {
       "name": "cock belonging to Rose",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "ate cabbages in Margueritte's garden; suspected to be Rose shapeshifted"
     },
     {
       "name": "echevins",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "present during torture; Rose said to one that he would give her pleasure if he killed her with a knife"
     }

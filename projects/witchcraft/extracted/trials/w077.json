@@ -3,6 +3,14 @@
   "archive_ref": "B 4103 no 3",
   "location": "Gripport",
   "court": "Court at Charmes, approved by Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "PG des Vosges",
+    "person_id": null,
+    "occupation": "prosecutor general",
+    "location": "Vosges",
+    "relationship_to_accused": "state prosecutor following Bietrix's accusation"
+  },
   "dates": {
     "start": "1615-05-12",
     "end": "1615-06-06",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Nicolas George dit Sermemont",
+      "person_id": null,
       "gender": "male",
       "age": 72,
       "age_approximate": false,
@@ -20,6 +29,9 @@
       "residence": "Gripport",
       "marital_status": "married",
       "spouse_name": "Isabel Bourguignon (deceased)",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "father": "Claudon George",
         "mother": "Nicolle"
@@ -53,6 +65,7 @@
     {
       "number": 1,
       "name": "Claudon Chastelain",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "manouvrier",
@@ -88,6 +101,7 @@
     {
       "number": 2,
       "name": "Marie veuve Nicolas Moyne",
+      "person_id": null,
       "gender": "female",
       "age": 58,
       "occupation": null,
@@ -124,6 +138,7 @@
     {
       "number": 3,
       "name": "Pentecoste veuve Estienne Moyne",
+      "person_id": null,
       "gender": "female",
       "age": 65,
       "occupation": null,
@@ -159,6 +174,7 @@
     {
       "number": 4,
       "name": "Margueritte femme Claudon Chastellain",
+      "person_id": null,
       "gender": "female",
       "age": 66,
       "occupation": null,
@@ -187,6 +203,7 @@
     {
       "number": 5,
       "name": "Francoise veuve Demenge Maillard",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -216,6 +233,7 @@
     {
       "number": 6,
       "name": "Jean Moine",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "ancien maire",
@@ -235,6 +253,7 @@
     {
       "number": 7,
       "name": "Jean Aulbry le vieux",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -278,6 +297,7 @@
     {
       "number": 8,
       "name": "Claude Coinat jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": null,
@@ -297,6 +317,7 @@
     {
       "number": 9,
       "name": "Jean Coinat",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "ancien maire",
@@ -337,6 +358,7 @@
     {
       "number": 10,
       "name": "Jean Aulbry le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -373,6 +395,7 @@
     {
       "number": 11,
       "name": "Aulbry Aulbry",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "ancien maire",
@@ -392,6 +415,7 @@
     {
       "number": 12,
       "name": "Jacquat Jacquat",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -441,6 +465,7 @@
     {
       "number": 13,
       "name": "Laurent Simonin",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "occupation": "ancien maire",
@@ -460,6 +485,7 @@
     {
       "number": 14,
       "name": "Francois Renauldin",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "le maire",
@@ -479,6 +505,7 @@
     {
       "number": 15,
       "name": "Remy Grand Remy",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier",
@@ -498,6 +525,7 @@
     {
       "number": 16,
       "name": "Denis Barbel",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "ancien maire",
@@ -533,6 +561,7 @@
     {
       "number": 17,
       "name": "Jannatte femme Nicolas Jean Nicolas",
+      "person_id": null,
       "gender": "female",
       "age": 38,
       "occupation": null,
@@ -587,6 +616,7 @@
     {
       "number": 18,
       "name": "Hannix Masson, femme Francois Cuguin de Marainville",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -636,6 +666,7 @@
     {
       "number": 19,
       "name": "Martin Maillard",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "bourgeois drappier de Charmes",
@@ -676,6 +707,7 @@
     {
       "number": 20,
       "name": "Colin Rembault",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur de Girecourt",
@@ -695,6 +727,7 @@
     {
       "number": 21,
       "name": "Isabel femme du maire Gerard du Hault, de Vaudigny",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "occupation": null,
@@ -1833,7 +1866,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Asked why he had not taken brother-in-law Husson to court if he called his wife witch, said he did not have the means, and did not want to proceed against relative",
     "imprisonment_conditions": "Called to speak to prévôt on 27 May while in prison; fell into ecstasy and became black",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1914,24 +1952,28 @@
   "third_parties": [
     {
       "name": "Bietrix",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice at sabbat",
       "context": "Just before execution on 12 May 1615, confronted Nicolas and urged him to confess. Named as accomplice at sabbat"
     },
     {
       "name": "Didelon",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accomplice at sabbat",
       "context": "Seen at sabbat, master was Percy"
     },
     {
       "name": "Percy",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "devil/master at sabbat",
       "context": "Master of Bietrix and Didelon, was also at sabbat"
     },
     {
       "name": "Husson Bourguignon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law, husband's brother",
       "relationship_to_witness": null,
@@ -1939,6 +1981,7 @@
     },
     {
       "name": "Didier Jacquat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbour, enemy",
       "relationship_to_witness": "father of witness 12, stepfather of witness 16",
@@ -1946,36 +1989,42 @@
     },
     {
       "name": "Gerard Remy",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "context": "Prévôt at Charmes; Husson Bourguignon said he ought to have had Isabel burned"
     },
     {
       "name": "Denis Parisot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "context": "Was exchanging mares with witness's father; Nicolas wanted to make exchange himself. Denis refused, was told he would repent, then both mares died"
     },
     {
       "name": "Marie (devineresse at Bainville sur Illon)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "context": "Showed witness 12 in a mirror Nicolas, Isabel, Magdelaine and the devil. Advised protection using bread and salt from Nicolas's house"
     },
     {
       "name": "Claudon, smith of Chamagne",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "context": "Came to see bewitched horse, sprinkled holy water on it, said it had been bewitched, advised sprinkling 4 corners of house with holy water"
     },
     {
       "name": "smith of Xarounal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "context": "Tended horse but it still died"
     },
     {
       "name": "Villemin Masson",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbour",
       "relationship_to_witness": "father of witness 17, uncle of witness 19",
@@ -1983,6 +2032,7 @@
     },
     {
       "name": "Pieron Thiebault",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "first husband of witness 18",
@@ -1990,6 +2040,7 @@
     },
     {
       "name": "Alizon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "mother of witness 19",
@@ -1997,6 +2048,7 @@
     },
     {
       "name": "Mengin Rembault",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 20",
@@ -2004,6 +2056,7 @@
     },
     {
       "name": "Demenge Masson",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 21",
@@ -2011,6 +2064,7 @@
     },
     {
       "name": "Magdelaine",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister of Nicolas",
       "relationship_to_witness": "sister of witness 4",
@@ -2018,18 +2072,21 @@
     },
     {
       "name": "Jean (son of Nicolas)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "Wanted to marry witness 18, witness and her father were hostile to the suit; witness fell and twisted knee after seeing Nicolas and his people leaving vines"
     },
     {
       "name": "Claudon (son of Nicolas)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "Nicolas begged judges to do no harm to his son Claudon, saying he was 'un bon enfant' (a good boy)"
     },
     {
       "name": "Mengeotte",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 12",
@@ -2037,24 +2094,28 @@
     },
     {
       "name": "Claudon Regnauldin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "context": "Maire; Nicolas confessed under torture to killing his mare"
     },
     {
       "name": "Husson Aulbry",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "context": "Nicolas confessed under torture to killing his mare"
     },
     {
       "name": "Francois Noirchamps",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "context": "Nicolas confessed under torture to killing his mares"
     },
     {
       "name": "Demenge Coinat",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "context": "Nicolas confessed under torture to killing his mares"

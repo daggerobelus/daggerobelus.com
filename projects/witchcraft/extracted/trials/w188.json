@@ -1,0 +1,968 @@
+{
+  "trial_id": "w188",
+  "archive_ref": "B 8684 no 1",
+  "location": "Hurbache",
+  "court": "St Dié",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Valentin le Souche",
+    "person_id": null,
+    "location": "La Chapelle",
+    "relationship_to_accused": "unknown"
+  },
+  "dates": {
+    "start": "1599-01-25",
+    "end": "1600-09-02",
+    "duration_days": 586
+  },
+  "outcome": "released",
+  "accused": [
+    {
+      "name": "Jean Demenge le Clerc dit Mandray",
+      "person_id": null,
+      "gender": "male",
+      "age": 80,
+      "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["veterinary", "other"],
+      "occupation": ["laboureur"],
+      "origin": "St Jean d'Ormont",
+      "residence": "Hurbache",
+      "marital_status": "married",
+      "parents": {
+        "mother": "from St Jean d'Ormont",
+        "father": "from Mandray"
+      },
+      "confession": {
+        "confessed": false,
+        "under_torture": false,
+        "retracted": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Demenge Curé",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Hurbache",
+      "relationship_to_accused": "neighbour for 20 years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with Claudette Thierry - accused called her witch, she replied 'beau Jean beau Jean taisé vous et je me tairay'",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Demenge le Clerc dit Mandray",
+            "time_after_quarrel": "unspecified"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 3,
+      "name": "Colas Demenge le petit Nicolas",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 4,
+      "name": "Catherine veuve Berthremin Rembault le drappier",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "Hurbache",
+      "relationship_to_accused": "near neighbour",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Someone begged from accused, he refused, beggar called him 'genax'",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "son of Barbelline",
+            "target_relationship": "community member",
+            "attributed_to": "Jean Demenge le Clerc dit Mandray",
+            "time_after_quarrel": "during thunderstorm"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 5,
+      "name": "Marguitte femme Colas Jeannel",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "husband had 'evil meeting' with accused on way to woods",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Colas Jeannel (husband)",
+            "target_relationship": "husband of witness",
+            "attributed_to": "Jean Demenge le Clerc dit Mandray",
+            "time_after_quarrel": "soon after meeting"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Claudon Benifosse",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Hurbache",
+      "relationship_to_accused": "known him 24 years, nearest neighbour for 5",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with Claudette Thierry - accused threatened to have her burned",
+        "threat_received": false,
+        "threat_quote": "beau Jean beau Jean taisé vous et je me tairay",
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Demenge le petit Nicolas",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Hurbache",
+      "relationship_to_accused": "known him 24 years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 9,
+      "name": "Nicolas de la Rolbe le jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Hurbache",
+      "relationship_to_accused": "known him 20 years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "Michiel Holbin",
+      "person_id": null,
+      "gender": "male",
+      "age": 26,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 1,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jean Ralbes",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "location": "Hurbache",
+      "relationship_to_accused": "ploughing partner",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jean Alloffs",
+      "person_id": null,
+      "gender": "male",
+      "age": 34,
+      "location": "Hurbache",
+      "relationship_to_accused": "ploughing partner",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 2,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Estienne le grand Claude",
+      "person_id": null,
+      "gender": "male",
+      "age": 45,
+      "location": "Hurbache",
+      "relationship_to_accused": "ploughing partner",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 16,
+      "name": "Estienne Olry",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "Nicolas le petit Nicolas",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Estienne le Menant",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Hurbache",
+      "relationship_to_accused": "ploughing partner",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 19,
+      "name": "Phelice femme Girardin Didier Masson",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Hurbache",
+      "relationship_to_accused": "creditor (owed for oats during wars)",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "various animals",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Demenge le Clerc dit Mandray",
+            "time_after_quarrel": "while debt unpaid"
+          }
+        ],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 22,
+      "name": "Claudatte femme Jean Ralbes",
+      "person_id": null,
+      "gender": "female",
+      "age": 34,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 23,
+      "name": "Mathillon veuve Jean Piarion",
+      "person_id": null,
+      "gender": "female",
+      "age": 34,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 24,
+      "name": "Mengette femme Estienne le Menant",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Hurbache",
+      "relationship_to_accused": "known him 20 years",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 25,
+      "name": "Nicolle femme Nicolas le petit Nicolas",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "location": "Hurbache",
+      "relationship_to_accused": "village resident",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [],
+        "theft_mentioned": false,
+        "called_witch_publicly": false,
+        "sought_legal_redress": false
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1599-01-25",
+      "event": "other",
+      "subject": "Valentin le Souche",
+      "details": "Valentin le Souche of La Chapelle accuses Jean Mandray and others of being at sabbat"
+    },
+    {
+      "date": "1599-03-24",
+      "event": "informations_preparatoires",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Witness depositions taken"
+    },
+    {
+      "date": "1599-03-31",
+      "event": "informations_preparatoires",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Additional witness depositions"
+    },
+    {
+      "date": "1599-04-15",
+      "event": "confrontation",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Confrontations held; accused made no reproaches and denied all charges"
+    },
+    {
+      "date": "1599-04-24",
+      "event": "torture_requested",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Rémy asks that accused be presented to torture and tortured if he makes damaging admissions"
+    },
+    {
+      "date": "1599-06-25",
+      "event": "sentence",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "After escape and failure to answer summonses, Rémy declared him banished in perpetuity with goods confiscated"
+    },
+    {
+      "date": "1599-06-26",
+      "event": "sentence",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Change de Nancy approved banishment"
+    },
+    {
+      "date": "1600-06-08",
+      "event": "other",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Accused returned voluntarily to St Dié to purge himself of charges"
+    },
+    {
+      "date": "1600-06-14",
+      "event": "interrogation",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Interrogation after voluntary return"
+    },
+    {
+      "date": "1600-06-24",
+      "event": "torture_requested",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Rémy repeats earlier advice"
+    },
+    {
+      "date": "1600-06-28",
+      "event": "torture_approved",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Change de Nancy approved"
+    },
+    {
+      "date": "1600-07-24",
+      "event": "torture",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Placed on rack and tied for quarter of an hour but not actually tortured; continued to deny charges"
+    },
+    {
+      "date": "1600-07-26",
+      "event": "sentence",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Rémy proposes that accused be renvoyé (released), Change de Nancy agrees"
+    },
+    {
+      "date": "1600-07-29",
+      "event": "other",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Released from prison"
+    },
+    {
+      "date": "1600-09-02",
+      "event": "other",
+      "subject": "Jean Demenge le Clerc dit Mandray",
+      "details": "Settlement of expenses for case of 'pretendue sorcellerie' - 35 francs total, accused paid 18"
+    }
+  ],
+  "torture": {
+    "used": false,
+    "methods": ["rack"],
+    "requesting_official": "Rémy",
+    "approving_court": "Change de Nancy",
+    "restrictions": "placed on rack and tied but not actually tortured for quarter of an hour"
+  },
+  "accomplices_named": [
+    {
+      "name": "Colas Anthoine",
+      "location": "Denipaire",
+      "context": "Named by Valentin le Souche as being at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "those of la Chapelle",
+      "location": "La Chapelle",
+      "context": "Named by Valentin le Souche as being at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Dediel wife of Ydoult Willaumé",
+      "location": "le Paire",
+      "context": "Named by Valentin le Souche as being at sabbat",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Claudette Thierry",
+      "context": "Quarrel with accused who called her witch; she replied 'beau Jean beau Jean taisé vous et je me tairay'; later accused threatened to have her burned",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudette Thierry",
+      "french": "beau Jean beau Jean taisé vous et je me tairay",
+      "context": "Response to accused calling her a witch"
+    },
+    {
+      "speaker": "Valentin le Souche",
+      "french": "qu'il en auroit souvenance quelque jour",
+      "context": "Threat after accused refused him alms when begging"
+    },
+    {
+      "speaker": "Jean Demenge le Clerc dit Mandray",
+      "french": "qu'il ne se donneroit guerre de peine d'en afire venir une par devant son lict et la feroit deshabiller tout nue mais qu'il seroit plus honteux qu'elle",
+      "context": "Accused's alleged boast about being able to bring a naked woman before his bed"
+    },
+    {
+      "speaker": "Mathillon veuve Jean Piarion",
+      "french": "honne de bonne recouvrance, que quand on avoit necessité de luy pour guarir quelques enffans ou bestes il estoit assez tost prest",
+      "context": "Witness testimony praising accused's readiness to help heal children or animals"
+    },
+    {
+      "speaker": "Nicolle femme Nicolas le petit Nicolas",
+      "french": "et sy on eut heu affaire de luy a minuit il eut secouru les personnes",
+      "context": "Witness testimony praising accused's willingness to help people even at midnight"
+    },
+    {
+      "speaker": "Claudon Benifosse",
+      "french": "par fois il en estoit hay du peuple, parce qu'il prevoioit que mal arriveroit",
+      "context": "Witness testimony about accused's predictions of crop failures and how people sometimes hated him for foreseeing bad things"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Demenge le Clerc dit Mandray",
+      "person2": "wife (4th)",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Had been married 4 times, last time just before previous Christmas",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Demenge le Clerc dit Mandray",
+      "person2": "3 children",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "only children were 3 by third wife",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Curé",
+      "person2": "Jean Demenge le Clerc dit Mandray",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Neighbour for 20 years",
+      "inferred": false
+    },
+    {
+      "person1": "Demenge Curé",
+      "person2": "Jean Demenge le Clerc dit Mandray",
+      "relationship_type": "creditor_debtor",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "they owed him money they could not pay",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve Berthremin Rembault le drappier",
+      "person2": "Jean Demenge le Clerc dit Mandray",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "As near neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve Berthremin Rembault le drappier",
+      "person2": "Berthremin Rembault le drappier",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Catherine veuve Berthremin Rembault le drappier",
+      "inferred": false
+    },
+    {
+      "person1": "Marguitte femme Colas Jeannel",
+      "person2": "Colas Jeannel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Marguitte femme Colas Jeannel",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Benifosse",
+      "person2": "Jean Demenge le Clerc dit Mandray",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "been nearest neighbour for 5",
+      "inferred": false
+    },
+    {
+      "person1": "Claudatte femme Jean Ralbes",
+      "person2": "Jean Ralbes",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme Jean Ralbes",
+      "inferred": false
+    },
+    {
+      "person1": "Mathillon veuve Jean Piarion",
+      "person2": "Jean Piarion",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mathillon veuve Jean Piarion",
+      "inferred": false
+    },
+    {
+      "person1": "Mengette femme Estienne le Menant",
+      "person2": "Estienne le Menant",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mengette femme Estienne le Menant",
+      "inferred": false
+    },
+    {
+      "person1": "Nicolle femme Nicolas le petit Nicolas",
+      "person2": "Nicolas le petit Nicolas",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Nicolle femme Nicolas le petit Nicolas",
+      "inferred": false
+    },
+    {
+      "person1": "Phelice femme Girardin Didier Masson",
+      "person2": "Girardin Didier Masson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Phelice femme Girardin Didier Masson",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "various animals",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "Lost various animals",
+      "attributed_to": "Jean Demenge le Clerc dit Mandray",
+      "precipitating_quarrel": "debt owed to accused that could not be paid",
+      "time_between_quarrel_and_harm": "while debt unpaid",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "son of Barbelline",
+      "victim_relationship_to_witness": "community member",
+      "harm_category": "human_death",
+      "harm_description": "killed by lightning during thunderstorm",
+      "attributed_to": "Jean Demenge le Clerc dit Mandray",
+      "precipitating_quarrel": "none mentioned",
+      "time_between_quarrel_and_harm": "during thunderstorm when accused and witness were returning to village together",
+      "method_alleged": "lightning",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Colas Jeannel",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_injury",
+      "harm_description": "tree rolled on him while sawing, still bedridden from accident and age",
+      "attributed_to": "Jean Demenge le Clerc dit Mandray",
+      "precipitating_quarrel": "evil meeting on way to woods",
+      "time_between_quarrel_and_harm": "soon after meeting",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "various animals",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "Lost various animals",
+      "attributed_to": "Jean Demenge le Clerc dit Mandray",
+      "precipitating_quarrel": "debt for oats purchased during wars",
+      "time_between_quarrel_and_harm": "while debt unpaid",
+      "witness_number": 19
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "oats",
+      "context": "Purchased from accused for horses of soldiers billeted during previous wars",
+      "category": "agricultural"
+    },
+    {
+      "object": "money/debt",
+      "context": "Multiple witnesses owed accused money they could not pay",
+      "category": "money"
+    },
+    {
+      "object": "stick",
+      "context": "Accused said beggar should be given a beating with a stick",
+      "category": "other"
+    },
+    {
+      "object": "rope",
+      "context": "Used rope to escape down from walls of town",
+      "category": "tools"
+    },
+    {
+      "object": "grain, beans, hay",
+      "context": "Accused predicted dearth of these crops at 'corraille'",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Hurbache",
+      "place_type": "village",
+      "context": "Residence of accused"
+    },
+    {
+      "place_name": "La Chapelle",
+      "place_type": "village",
+      "context": "Home of Valentin le Souche who made accusation"
+    },
+    {
+      "place_name": "Denipaire",
+      "place_type": "village",
+      "context": "Home of Colas Anthoine, named as accomplice"
+    },
+    {
+      "place_name": "le Paire",
+      "place_type": "village",
+      "context": "Home of Dediel wife of Ydoult Willaumé, named as accomplice"
+    },
+    {
+      "place_name": "St Jean d'Ormont",
+      "place_type": "village",
+      "context": "Birthplace of accused and his mother"
+    },
+    {
+      "place_name": "Mandray",
+      "place_type": "village",
+      "context": "Birthplace of accused's father"
+    },
+    {
+      "place_name": "Raurux",
+      "place_type": "village",
+      "context": "Where accused worked as laboureur for 42 years after marriage"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Location of court; accused went there seeking people who could remedy sick animals"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where Colas Jeannel had 'evil meeting' with accused before accident"
+    },
+    {
+      "place_name": "corraille",
+      "place_type": "other",
+      "context": "Place where accused made predictions about crop failures"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "During previous wars soldiers were billeted on witnesses; witness Phelice bought oats from accused for soldiers' horses",
+    "weather_events": ["thunderstorm", "lightning"],
+    "economic_hardship_indicators": [
+      "multiple witnesses unable to pay debts",
+      "accused predicted dearth of grain, beans, hay",
+      "accused said it was bad year because reaped less than sown"
+    ],
+    "religious_calendar_references": ["Christmas", "Easter"]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "St Dié"
+      },
+      {
+        "name": "prévôt",
+        "role": "prevot",
+        "location": "St Dié"
+      },
+      {
+        "name": "sergent",
+        "role": "other",
+        "location": "St Dié"
+      }
+    ],
+    "accused_sought_redress": true,
+    "redress_outcome": "Refused to make reparation to Claudette Thierry for calling her witch",
+    "imprisonment_conditions": "Initially held prisoner in house; escaped by climbing over two roofs and using rope to descend from town walls",
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 4,
+    "hearsay_testimony_count": 15,
+    "oldest_accusation_years": 1,
+    "corroboration_groups": [
+      [4, 5]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "challenged_witness_credibility",
+      "natural_explanations"
+    ],
+    "emotional_state_notes": [
+      "sans s'estonner aulcunement de telles menaces (showed no fear of torture threats)"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Claudette Thierry",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "quarrel - accused called her witch, threatened to have her burned",
+      "context": "Previously executed witch with whom accused had quarrel"
+    },
+    {
+      "name": "son of Barbelline",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Killed by lightning during thunderstorm"
+    },
+    {
+      "name": "Barbelline",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "context": "Mother of boy killed by lightning; husband also injured"
+    },
+    {
+      "name": "husband of Barbelline",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Injured during thunderstorm when son was killed"
+    },
+    {
+      "name": "Colas Jeannel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "husband of witness 5",
+      "context": "Had accident with tree after 'evil meeting' with accused; still bedridden"
+    },
+    {
+      "name": "3 children by third wife",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "children",
+      "context": "Only children of accused"
+    },
+    {
+      "name": "Girardin Didier Masson",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "husband of witness 19",
+      "context": "Husband told to pay debt to accused"
+    },
+    {
+      "name": "lad who served at Raurux",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "context": "According to accused, this person (not accused) had boasted 50 years earlier about bringing naked woman to bed"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": false,
+    "details": "Multiple witnesses owed accused money they could not pay, particularly for oats during wars; witness 1 feared accused because of unpaid debt; witness 19 lost animals while owing debt for oats. Accused's goods were confiscated when banished, later recovered when released."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Trial notable for accused's escape and voluntary return; unusual outcome of release after formal charges. Strong defensive evidence from community witnesses. Prosecutor Rémy appears to have gone through formalities but court ultimately released accused. Several witness testimonies damaged/missing (numbers 7, 11, 15, 20, 21). Accused practiced veterinary healing and was well-regarded in community despite some predictions of crop failures that made him unpopular. Trial occurred during time of economic hardship and military presence.",
+    "pdf_pages": 4
+  }
+}

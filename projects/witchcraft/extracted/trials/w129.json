@@ -3,6 +3,7 @@
   "archive_ref": "B 8275 no 2",
   "location": "Preny",
   "court": "Court at Preny",
+  "language_region": "french",
   "dates": {
     "start": "1597-05-30",
     "end": "1597-07-03",
@@ -12,7 +13,11 @@
   "accused": [
     {
       "name": "Babon femme Willaume Laboureur",
+      "person_id": null,
       "gender": "female",
+      "economic_status": "destitute",
+      "practiced_healing": false,
+      "healing_types": [],
       "age": 40,
       "age_approximate": true,
       "occupation": ["domestic servant", "wife"],
@@ -41,6 +46,7 @@
     {
       "number": 1,
       "name": "Mariotte femme Pierresson Vaixe",
+      "person_id": null,
       "gender": "female",
       "location": "Preny",
       "relationship_to_accused": "neighbor, widow of victim Nicolas Harmant",
@@ -74,6 +80,7 @@
     {
       "number": 2,
       "name": "Mariotte femme Jean Lambert",
+      "person_id": null,
       "gender": "female",
       "location": "Preny",
       "relationship_to_accused": "neighbor, attended Nicolas Harmant during illness",
@@ -404,7 +411,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Not specified",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -428,32 +440,38 @@
   "third_parties": [
     {
       "name": "Chrestaille",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "co-conspirator in maleficia, step-sibling or cousin of Colas Harmant",
       "context": "Previously executed, had accused Babon and 3 other women at point of death. Conspired with Babon to kill Colas Harmant and his horses."
     },
     {
       "name": "le Grand Gillot",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Killed 18-20 years earlier by grease in milk because he was debauching Babon's husband. Left no relatives."
     },
     {
       "name": "Colas Harmant",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Step-sibling or cousin ('frere non germain') of Chrestaille. In dispute with Chrestaille over inheritance. Owed Babon money for wine. Killed along with his 2 horses 10-12 years earlier."
     },
     {
       "name": "Nicolas Harmant",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Husband of witness Mariotte femme Pierresson Vaixe. Made loan of seedcorn to Willaume le Laboureur. Quarreled with Babon over repayment. Lost 2 horses and died at Christmas some 12 years earlier."
     },
     {
       "name": "Jeannotte Pierron",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Babon thought she might have seen her at sabbat because she walked stiffly and had a limp, but was uncertain"
     },
     {
       "name": "Mre Jolly",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Devil/master who seduced Babon 22 years earlier in hayloft, gave her grease, had intercourse with her (cold as marble)"
     }

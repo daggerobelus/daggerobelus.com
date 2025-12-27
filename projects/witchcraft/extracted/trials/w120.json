@@ -3,6 +3,14 @@
   "archive_ref": "B 7309 no 1",
   "location": "Nancy",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Mengeon femme Jacques Vosgien",
+    "person_id": null,
+    "occupation": "wife of esprouvier (hawk keeper)",
+    "location": "Nancy",
+    "relationship_to_accused": "neighbor"
+  },
   "dates": {
     "start": "1593-06-22",
     "end": "1593-07-14",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Nicolas Noel dit le Bragard",
+      "person_id": null,
       "gender": "male",
       "age": 65,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "charms_amulets", "divination", "bone_setting"],
       "occupation": ["soldier", "cobbler", "folk healer"],
       "origin": "Petincourt in prévôté of Montignon",
       "residence": "Nancy (quarters of porter at porte St Nicolas)",
@@ -46,6 +58,7 @@
     {
       "number": 1,
       "name": "Jean Montaigne",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": "soldier in company of Comte de Palin",
@@ -89,6 +102,7 @@
     {
       "number": 2,
       "name": "Claude Pieron",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "tonnelier (barrel maker)",
@@ -139,6 +153,7 @@
     {
       "number": 3,
       "name": "Mengeon femme Claude Pieron",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -189,6 +204,7 @@
     {
       "number": 4,
       "name": "Jean Guillemart",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "harquebuzier a cheval (mounted arquebusier)",
@@ -218,6 +234,7 @@
     {
       "number": 5,
       "name": "Mre Jean Racaillon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "marchal de l'estat de Mgr de Vaudemont (farrier in service of Lord of Vaudemont)",
@@ -247,6 +264,7 @@
     {
       "number": 6,
       "name": "Marguerite femme Jean Guillemart",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -283,6 +301,7 @@
     {
       "number": 7,
       "name": "Peirecte Maillart femme Jean Racaillon",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -312,6 +331,7 @@
     {
       "number": 8,
       "name": "Catherine femme François Colas",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -341,6 +361,7 @@
     {
       "number": 9,
       "name": "Jean Gillet",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "tailleur d'habits (tailor)",
@@ -370,6 +391,7 @@
     {
       "number": 10,
       "name": "François Colat (also Colas)",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "soldier",
@@ -399,6 +421,7 @@
     {
       "number": 11,
       "name": "Marguerite Valliere veuve Renel Gratil",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "hostellain (innkeeper) of l'Ange",
@@ -1204,7 +1227,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Wife Cunatte and daughter Mariotte were arrested with him but not executed",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved death sentence and added that books and magical materials should be burned in his presence in a special fire",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -1266,6 +1294,7 @@
   "third_parties": [
     {
       "name": "Mengeon femme Jacques Vosgien",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -1273,6 +1302,7 @@
     },
     {
       "name": "Jacques Vosgien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "neighbor to multiple witnesses",
@@ -1280,6 +1310,7 @@
     },
     {
       "name": "Guillemart (child of witness 1)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "child of harquebuzier",
@@ -1287,6 +1318,7 @@
     },
     {
       "name": "Mengin Pouchardin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "fellow soldier",
       "relationship_to_witness": null,
@@ -1294,6 +1326,7 @@
     },
     {
       "name": "Cunatte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "wife",
       "relationship_to_witness": null,
@@ -1301,6 +1334,7 @@
     },
     {
       "name": "Mariotte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1308,6 +1342,7 @@
     },
     {
       "name": "Jean Marchal",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "taught Bragard magic",
       "relationship_to_witness": null,
@@ -1315,6 +1350,7 @@
     },
     {
       "name": "Jacques Louys",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "showed Bragard magical books",
       "relationship_to_witness": null,
@@ -1322,6 +1358,7 @@
     },
     {
       "name": "Guillaume Collignon",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "gave Bragard magical book",
       "relationship_to_witness": null,
@@ -1329,6 +1366,7 @@
     },
     {
       "name": "Sr de Precicourt Haulton",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "bought magical books from Bragard",
       "relationship_to_witness": null,
@@ -1336,6 +1374,7 @@
     },
     {
       "name": "Eldest son of late sieur Baruet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "showed Bragard book",
       "relationship_to_witness": null,
@@ -1343,6 +1382,7 @@
     },
     {
       "name": "Claudine des Prunes",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "target of love magic",
       "relationship_to_witness": null,
@@ -1350,6 +1390,7 @@
     },
     {
       "name": "Bigouy de Bar",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "gave Bragard magical objects",
       "relationship_to_witness": null,
@@ -1357,6 +1398,7 @@
     },
     {
       "name": "Daniel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "practiced magic with Bragard",
       "relationship_to_witness": null,
@@ -1364,6 +1406,7 @@
     },
     {
       "name": "Bragard's son",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1371,6 +1414,7 @@
     },
     {
       "name": "Nicolas Bourbon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "client",
       "relationship_to_witness": null,
@@ -1378,6 +1422,7 @@
     },
     {
       "name": "Pierrot (late guard at barrier)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "gave Bragard charms",
       "relationship_to_witness": null,
@@ -1385,6 +1430,7 @@
     },
     {
       "name": "Sr de la Ferté",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "superior officer",
       "relationship_to_witness": null,
@@ -1392,6 +1438,7 @@
     },
     {
       "name": "Comte de Palin",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "commander",
       "relationship_to_witness": null,
@@ -1399,6 +1446,7 @@
     },
     {
       "name": "Late captain d'Ailly",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "superior",
       "relationship_to_witness": null,
@@ -1406,6 +1454,7 @@
     },
     {
       "name": "Jacques Collignon",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "taught Bragard healing technique",
       "relationship_to_witness": null,
@@ -1413,6 +1462,7 @@
     },
     {
       "name": "Penthecoste femme Jean Poinselet",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "patient",
       "relationship_to_witness": null,
@@ -1420,6 +1470,7 @@
     },
     {
       "name": "Rousel (apothecary)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1427,6 +1478,7 @@
     },
     {
       "name": "Alix (Guillemart's daughter)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 4",
@@ -1434,6 +1486,7 @@
     },
     {
       "name": "Marguerite (Guillemart's daughter)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 4",
@@ -1441,6 +1494,7 @@
     },
     {
       "name": "Two surgeons",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

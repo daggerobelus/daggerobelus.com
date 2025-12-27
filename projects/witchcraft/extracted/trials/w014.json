@@ -3,6 +3,8 @@
   "archive_ref": "B 2574",
   "location": "Bussang",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1617-10-04",
     "end": "1617-12-16",
@@ -12,10 +14,14 @@
   "accused": [
     {
       "name": "Claude Hocquart",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "age_approximate": false,
       "occupation": ["Chastellier (church officer, later removed)"],
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "origin": "Bussang",
       "residence": "Bussang",
       "marital_status": "married",
@@ -47,10 +53,14 @@
     },
     {
       "name": "Mengeotte Hocquart",
+      "person_id": null,
       "gender": "female",
       "age": 47,
       "age_approximate": true,
       "occupation": [],
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "origin": "Bussang",
       "residence": "Bussang",
       "marital_status": "married",
@@ -82,10 +92,14 @@
     },
     {
       "name": "Catherine Hocquart",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
       "occupation": [],
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "origin": "Bussang",
       "residence": "Bussang",
       "marital_status": "widowed",
@@ -120,6 +134,7 @@
     {
       "number": 1,
       "name": "Michel Baguel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "notary clerk (commis)",
@@ -149,6 +164,7 @@
     {
       "number": 2,
       "name": "Nicolas Blaise Ribelet",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": null,
@@ -178,6 +194,7 @@
     {
       "number": 3,
       "name": "Nicolas Henry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -207,6 +224,7 @@
     {
       "number": 4,
       "name": "Jean Demengeon Jacot",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "peltre (pewter worker)",
@@ -236,6 +254,7 @@
     {
       "number": 5,
       "name": "Demenge Gané",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": "laboureur",
@@ -265,6 +284,7 @@
     {
       "number": 6,
       "name": "Brice Thiebauld Grand Claude",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": null,
@@ -286,6 +306,7 @@
     {
       "number": 7,
       "name": "Jean Colin",
+      "person_id": null,
       "gender": "male",
       "age": 76,
       "occupation": null,
@@ -307,6 +328,7 @@
     {
       "number": 8,
       "name": "Pierre Simonin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -343,6 +365,7 @@
     {
       "number": 9,
       "name": "Demengeon Nicolas Jacot",
+      "person_id": null,
       "gender": "male",
       "age": 90,
       "occupation": null,
@@ -364,6 +387,7 @@
     {
       "number": 10,
       "name": "Jean Simonin",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "occupation": null,
@@ -400,6 +424,7 @@
     {
       "number": 11,
       "name": "Claudon Xalley",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": null,
@@ -421,6 +446,7 @@
     {
       "number": 12,
       "name": "Catherine veuve de Vincent Xalley",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -442,6 +468,7 @@
     {
       "number": 13,
       "name": "Adrienne femme de Jean Colin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -471,6 +498,7 @@
     {
       "number": 14,
       "name": "Jean Thiebauld Colin",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": null,
@@ -1183,7 +1211,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "Never sought legal redress despite being repeatedly and publicly called witches. This failure to defend reputation was taken as evidence of guilt. Pastor and inhabitants removed Claude from church office of Chastellier specifically because he did not seek redress.",
     "imprisonment_conditions": "37 days in prison at Arches. Gaoler paid 2 gros per person per day. Record notes they needed special treatment 'because of their old age' and because it was winter.",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1233,6 +1266,7 @@
   "third_parties": [
     {
       "name": "Jean Feltin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "servant of Michel Baguel",
@@ -1240,6 +1274,7 @@
     },
     {
       "name": "Jeanotte Germain",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother of Mengeotte and Catherine",
       "relationship_to_witness": null,
@@ -1247,6 +1282,7 @@
     },
     {
       "name": "Hocquart's grandmother",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "grandmother",
       "relationship_to_witness": null,
@@ -1254,6 +1290,7 @@
     },
     {
       "name": "Demenge Hocquart",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father of Catherine",
       "relationship_to_witness": null,
@@ -1261,6 +1298,7 @@
     },
     {
       "name": "Romain Hocquart",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband of Catherine",
       "relationship_to_witness": null,
@@ -1268,6 +1306,7 @@
     },
     {
       "name": "Colas Blaise",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1275,6 +1314,7 @@
     },
     {
       "name": "Brice Grand Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1282,6 +1322,7 @@
     },
     {
       "name": "Messire Anthoine Serre",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1289,6 +1330,7 @@
     },
     {
       "name": "Demenge Grand Demenge",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1296,6 +1338,7 @@
     },
     {
       "name": "son of Claude Hocquart",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1303,6 +1346,7 @@
     },
     {
       "name": "son of Demenge Gané",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of witness 5",
@@ -1310,6 +1354,7 @@
     },
     {
       "name": "wife of Pierre Simonin",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 8",
@@ -1317,6 +1362,7 @@
     },
     {
       "name": "father of Jean Simonin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 10",
@@ -1324,6 +1370,7 @@
     },
     {
       "name": "Jeannon femme de Colin Blaise",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1331,6 +1378,7 @@
     },
     {
       "name": "Collatte fille de Jeannon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1338,6 +1386,7 @@
     },
     {
       "name": "Marie femme de Colas douillat",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1345,6 +1394,7 @@
     },
     {
       "name": "Collatte femme de Jean Thiebault",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1352,6 +1402,7 @@
     },
     {
       "name": "Magdalene femme de Mengeon Collatte",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1359,6 +1410,7 @@
     },
     {
       "name": "Demenge Gamel",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1366,6 +1418,7 @@
     },
     {
       "name": "Colas de la Reine",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

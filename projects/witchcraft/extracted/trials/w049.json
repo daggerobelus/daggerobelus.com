@@ -3,6 +3,14 @@
   "archive_ref": "B 3347 no 2",
   "location": "Domjevin",
   "court": "Blamont",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "procureur fiscal",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Blamont",
+    "relationship_to_accused": "Named by executed witch Genin Margeron; prosecuted ex officio"
+  },
   "dates": {
     "start": "1614-05-24",
     "end": "1614-07-05",
@@ -12,10 +20,14 @@
   "accused": [
     {
       "name": "Jean Godot",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
       "occupation": [],
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
       "origin": "Domjevin",
       "residence": "Domjevin",
       "marital_status": "married",
@@ -56,6 +68,7 @@
     {
       "number": 1,
       "name": "Margueritte femme Henry Virion",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "location": "Domjevin",
@@ -83,6 +96,7 @@
     {
       "number": 2,
       "name": "Claudatte femme du maire Nicolas Thirion",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Domjevin",
@@ -110,6 +124,7 @@
     {
       "number": 3,
       "name": "Claudon Cherrier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Domjevin",
@@ -128,6 +143,7 @@
     {
       "number": 6,
       "name": "Fiacre Estienne",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "location": "Domjevin",
@@ -155,6 +171,7 @@
     {
       "number": 7,
       "name": "Mengin Jean Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "location": "Domjevin",
@@ -190,6 +207,7 @@
     {
       "number": 8,
       "name": "Pierson André",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "location": "Domjevin",
@@ -219,6 +237,7 @@
     {
       "number": 9,
       "name": "Jean Henry",
+      "person_id": null,
       "gender": "male",
       "age": 82,
       "location": "Domjevin",
@@ -236,6 +255,7 @@
     {
       "number": 10,
       "name": "Le maire Jean Dediat",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "mayor",
@@ -254,6 +274,7 @@
     {
       "number": 11,
       "name": "Claudon Jean Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "location": "Domjevin",
@@ -271,6 +292,7 @@
     {
       "number": 12,
       "name": "Bastienne femme Nicolas Simonotte",
+      "person_id": null,
       "gender": "female",
       "age": 44,
       "location": "Domjevin",
@@ -288,6 +310,7 @@
     {
       "number": 13,
       "name": "Zabel femme Demenge Pierson",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Domjevin",
@@ -306,6 +329,7 @@
     {
       "number": 14,
       "name": "Jean Mongeay",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "location": "Domjevin",
@@ -323,6 +347,7 @@
     {
       "number": 15,
       "name": "Colas Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Domjevin",
@@ -349,6 +374,7 @@
     {
       "number": 16,
       "name": "Nicolas Goussat",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Domjevin",
@@ -367,6 +393,7 @@
     {
       "number": 17,
       "name": "Demenge Fiacre, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "location": "Domjevin",
@@ -394,6 +421,7 @@
     {
       "number": 18,
       "name": "Demenge Voinot",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Domjevin",
@@ -411,6 +439,7 @@
     {
       "number": 19,
       "name": "Arrambourg femme Nicolas Goussat",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "location": "Domjevin",
@@ -429,6 +458,7 @@
     {
       "number": 20,
       "name": "Zabey femme Didier Doyen",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Domjevin",
@@ -446,6 +476,7 @@
     {
       "number": 21,
       "name": "Gerardin Thiriat",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Domjevin",
@@ -463,6 +494,7 @@
     {
       "number": 22,
       "name": "Jehenne femme Jean Mongeay",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Domjevin",
@@ -480,6 +512,7 @@
     {
       "number": 23,
       "name": "Jean Odille",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "location": "Domjevin",
@@ -497,6 +530,7 @@
     {
       "number": 24,
       "name": "Jehenne veuve Mongenot Galla",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "location": "Domjevin",
@@ -515,6 +549,7 @@
     {
       "number": 25,
       "name": "Le maire Nicolas Thirion",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "mayor",
@@ -542,6 +577,7 @@
     {
       "number": 26,
       "name": "Demenge Blaise",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Domjevin",
@@ -559,6 +595,7 @@
     {
       "number": 27,
       "name": "Jean Jean Jean",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Domjevin",
@@ -576,6 +613,7 @@
     {
       "number": 28,
       "name": "Nicolas Anoulx",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Domjevin",
@@ -593,6 +631,7 @@
     {
       "number": 29,
       "name": "Claudon Mongeay, jeune fils",
+      "person_id": null,
       "gender": "male",
       "age": 19,
       "location": "Domjevin",
@@ -1284,7 +1323,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Jean claimed he received satisfaction from taking Henry Thirion to court at Haussonville",
     "imprisonment_conditions": "Not specified in detail",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture on 17 June 1614; approved death sentence on 25 June 1614 subject to repetition of confessions; approved renewed torture on 28 June 1614; gave final approval for death sentence on 2 July 1614",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1348,91 +1392,109 @@
   "third_parties": [
     {
       "name": "Genin Margeron",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Executed as witch at Domjevin on 15 May 1614; named Jean as accomplice and was confronted with him before execution"
     },
     {
       "name": "la Boudenotte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "From Reillon, executed some 11 years earlier; had accused Jean"
     },
     {
       "name": "Margo Bergier, femme Nicolas le Comte",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Executed 9-10 years earlier; told executioner 5 years before execution that Jean and Genin Margeron were witches"
     },
     {
       "name": "Mengin Lours",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Executed 18-20 years earlier; had accused Jean; reputation of Jean started after this execution for many witnesses"
     },
     {
       "name": "Mongin Lours",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Executed; Jean's reputation as witch started after this execution according to witness 12"
     },
     {
       "name": "Jean Genin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Executed at Benamesnil; had accused Jean"
     },
     {
       "name": "Nicolas Raimbault",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "From Reillon, executed 10 years earlier; Jean's reputation started after this execution for some witnesses"
     },
     {
       "name": "Barbelline",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Jean's mother, burned as witch with her sister Chretienne about 10-11 years earlier; her execution cemented Jean's reputation"
     },
     {
       "name": "Chretienne",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Barbelline's sister, wife of maire Nicolas Barret; burned as witch with Barbelline"
     },
     {
       "name": "Nicolas le Comte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "context": "Husband of Margo Bergier who was executed as witch"
     },
     {
       "name": "Nicolas Huguet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "From Lunéville, controlled land lease; warned Mengin Jean Claudon about Jean's reputation"
     },
     {
       "name": "Aulbertin le Grand Vaultrin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "From Domjevin, witnessed execution; claimed Jean had told him before arrest that even if he confessed something he would finally deny it"
     },
     {
       "name": "Parsin",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Devil/master who allegedly seduced Jean; gave him black powder to kill animals and red powder to cure them; sat on stool at sabbat"
     },
     {
       "name": "Henry Virion",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "context": "Husband of witness 1; brother-in-law of Jean; had cut hay dispute; his horse died"
     },
     {
       "name": "Jean's 2 brothers",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "context": "Had provisional division of goods with Jean 3 years earlier; took turns looking after father"
     },
     {
       "name": "Genin's brother",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Jean had recently heard that Genin's brother was also suspected of witchcraft"
     },
     {
       "name": "executioner",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Margo Bergier told executioner that Jean and Genin Margeron were witches"
     },
     {
       "name": "two persons from Reillon",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Executed about 10 years earlier; Jean said he was angry about accusations by these two when Parsin seduced him"
     }

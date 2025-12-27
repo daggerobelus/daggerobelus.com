@@ -3,6 +3,8 @@
   "archive_ref": "B 3789 no 1",
   "location": "Docelles",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1615-08-17",
     "end": "1615-11-10",
@@ -12,9 +14,13 @@
   "accused": [
     {
       "name": "Fleuratte femme Jean Maurice",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "charms_amulets"],
       "occupation": [],
       "origin": "Bonmesnil",
       "residence": "Docelles",
@@ -55,6 +61,7 @@
     {
       "number": 1,
       "name": "Judith femme Nicolas Huguenin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -106,6 +113,7 @@
     {
       "number": 2,
       "name": "Claudatte femme Mengel Barbay",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -128,6 +136,7 @@
     {
       "number": 3,
       "name": "Jean Thouvelin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -158,6 +167,7 @@
     {
       "number": 4,
       "name": "Nicolle veuve Mathieu Aubry",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "age_approximate": true,
@@ -188,6 +198,7 @@
     {
       "number": 5,
       "name": "Jean Jacat Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 43,
       "occupation": null,
@@ -224,6 +235,7 @@
     {
       "number": 6,
       "name": "Jacote veuve Mathieu Marion",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -254,6 +266,7 @@
     {
       "number": 7,
       "name": "Demenge Miche",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -291,6 +304,7 @@
     {
       "number": 8,
       "name": "Didier Villaume",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -321,6 +335,7 @@
     {
       "number": 9,
       "name": "Nicolas Estienne",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -351,6 +366,7 @@
     {
       "number": 10,
       "name": "Mongel Barbay",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -381,6 +397,7 @@
     {
       "number": 11,
       "name": "Honorable Nicolas Demengeon",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "age_approximate": true,
@@ -411,6 +428,7 @@
     {
       "number": 12,
       "name": "Yolent femme honorable Hilaire Mirpot",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -454,6 +472,7 @@
     {
       "number": 13,
       "name": "Anne femme Didier Villaume",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "age_approximate": true,
@@ -476,6 +495,7 @@
     {
       "number": 14,
       "name": "Nicolas Mairote",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "age_approximate": true,
@@ -506,6 +526,7 @@
     {
       "number": 15,
       "name": "Jannon femme Nicolas Estienne",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -536,6 +557,7 @@
     {
       "number": 16,
       "name": "Claudon Mongin",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "occupation": "moictrier (miller/tenant farmer) at Claudon Andreu's grange at Sebarup",
@@ -572,6 +594,7 @@
     {
       "number": 17,
       "name": "Jean Marion",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "age_approximate": true,
@@ -594,6 +617,7 @@
     {
       "number": 18,
       "name": "Claudate veuve Jean Nancey",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -624,6 +648,7 @@
     {
       "number": 19,
       "name": "Judith veuve Mongeon Jean Jacot",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -1685,7 +1710,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Held at château where she made confession on October 4th",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1755,6 +1785,7 @@
   "third_parties": [
     {
       "name": "Jean Maurice",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband (second marriage); carpenter",
       "relationship_to_witness": null,
@@ -1762,6 +1793,7 @@
     },
     {
       "name": "Claudon Houatte",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "first husband (deceased)",
       "relationship_to_witness": null,
@@ -1769,6 +1801,7 @@
     },
     {
       "name": "Two daughters aged 18 and 17",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughters from first marriage",
       "relationship_to_witness": null,
@@ -1776,6 +1809,7 @@
     },
     {
       "name": "Jennon (daughter of Fleuratte)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1783,6 +1817,7 @@
     },
     {
       "name": "Bernard Rouyer",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father (deceased 36 years earlier)",
       "relationship_to_witness": null,
@@ -1790,6 +1825,7 @@
     },
     {
       "name": "Marguerite Alix Thomas",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1797,6 +1833,7 @@
     },
     {
       "name": "Curien Simonin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1804,6 +1841,7 @@
     },
     {
       "name": "Mongeote (wife of Jean Jacot Gegoulf)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 6",
@@ -1811,6 +1849,7 @@
     },
     {
       "name": "Jacote (daughter of Judith femme Nicolas Huguenin)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 1",
@@ -1818,6 +1857,7 @@
     },
     {
       "name": "Jannon (wife of Jean Jacat Demenge)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 5",
@@ -1825,6 +1865,7 @@
     },
     {
       "name": "Chambermaid of Judith femme Nicolas Huguenin",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "servant of witness 1",
@@ -1832,6 +1873,7 @@
     },
     {
       "name": "Small shepherdess of Yolent femme Hilaire Mirpot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "servant of witness 12",
@@ -1839,6 +1881,7 @@
     },
     {
       "name": "Servant of Didier Villaume",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "servant of witnesses 8 and 13",
@@ -1846,6 +1889,7 @@
     },
     {
       "name": "Un particulier qui est coustumier de traiter le bestail",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "consulted by witness 18",
@@ -1853,6 +1897,7 @@
     },
     {
       "name": "Wife of Mongel Barbay",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 10",
@@ -1860,6 +1905,7 @@
     },
     {
       "name": "Bartremin Jacquel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "accompanied witness 10",
@@ -1867,6 +1913,7 @@
     },
     {
       "name": "Pierron Biol",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "accompanied witness 10",
@@ -1874,6 +1921,7 @@
     },
     {
       "name": "Judict wife of Nicolas Jean Begel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "healed by Fleuratte",
       "relationship_to_witness": null,
@@ -1881,6 +1929,7 @@
     },
     {
       "name": "Jannon Ancel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "healed by Fleuratte",
       "relationship_to_witness": null,
@@ -1888,6 +1937,7 @@
     },
     {
       "name": "Devil/Persin/petit chouchoux",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "seducer/master",
       "relationship_to_witness": null,
@@ -1895,6 +1945,7 @@
     },
     {
       "name": "Bel Bernard",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1902,6 +1953,7 @@
     },
     {
       "name": "St. Maurix",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1909,6 +1961,7 @@
     },
     {
       "name": "St. Hidoult",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1916,6 +1969,7 @@
     },
     {
       "name": "Monsieur St Dele",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1923,6 +1977,7 @@
     },
     {
       "name": "Monsieur Saint Desair",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1930,6 +1985,7 @@
     },
     {
       "name": "Sieurs Gruyers et Controleurs d'Arches",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1937,6 +1993,7 @@
     },
     {
       "name": "Claudon Andreu",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "employer of witness 16",

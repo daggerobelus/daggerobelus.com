@@ -3,6 +3,7 @@
   "archive_ref": "B 3792 no 3",
   "location": "Dompierre",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1615-12-08",
     "end": "1616-02-18",
@@ -12,9 +13,13 @@
   "accused": [
     {
       "name": "Claudate femme Jacquat George",
+      "person_id": null,
       "gender": "female",
       "age": 66,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary", "charms_amulets"],
       "occupation": ["wife of shepherd", "guardian of red beasts"],
       "origin": "Girecourt",
       "residence": "Dompierre",
@@ -36,6 +41,7 @@
     {
       "number": 1,
       "name": "Demenge Antoine",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -62,6 +68,7 @@
     {
       "number": 2,
       "name": "Nicolas le Maire le Vieux alias Petit Homme",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -87,6 +94,7 @@
     {
       "number": 3,
       "name": "Nicolas fils au precedent temoin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -114,6 +122,7 @@
     {
       "number": 4,
       "name": "Dieudonnée veuve Jean Baulche",
+      "person_id": null,
       "gender": "female",
       "age": 52,
       "location": "Dompierre",
@@ -138,6 +147,7 @@
     {
       "number": 5,
       "name": "Claudate femme a Didier Borion",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "age_approximate": true,
@@ -164,6 +174,7 @@
     {
       "number": 6,
       "name": "Florentin Cole",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -205,6 +216,7 @@
     {
       "number": 7,
       "name": "Adam Micquay",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -238,6 +250,7 @@
     {
       "number": 8,
       "name": "Jennon femme de Dieudonne Alix",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -266,6 +279,7 @@
     {
       "number": 9,
       "name": "Jean Vaulthier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -291,6 +305,7 @@
     {
       "number": 10,
       "name": "Bastien Phulpin",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "age_approximate": true,
@@ -317,6 +332,7 @@
     {
       "number": 11,
       "name": "Adam Colas Antoine",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -884,7 +900,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Died in prison on 15 February 1616; burial costs included in case costs",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": true
   },
   "evidence_quality": {
@@ -925,18 +946,21 @@
   "third_parties": [
     {
       "name": "Thomasse femme Jean Poirot",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "co-accused initially",
       "context": "Also suspected as witch from Dompierre in initial order; no further mention in this trial record"
     },
     {
       "name": "Jacquat George (Jacot George)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "Paistre du troupeau rouge; guardian of red beasts; involved in several incidents (cow killed by wolf, bull left in fields, communal woodland dispute)"
     },
     {
       "name": "Georgeon George",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "brother-in-law",
       "relationship_to_witness": "first husband of witness 8",
@@ -944,41 +968,48 @@
     },
     {
       "name": "Didier Borion",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "husband of witness 5",
       "context": "Husband of witness 5 who also suspected Claudate of causing baby's death"
     },
     {
       "name": "wife of Jean Gerardin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Advised Bastien Phulpin to make offering to St. Blaise at Bruyères"
     },
     {
       "name": "Jean Baulche",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "deceased husband of witness 4",
       "context": "Dieudonnée was his widow"
     },
     {
       "name": "Claudon Vaulthier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "Father of Claudate; from Girecourt"
     },
     {
       "name": "Jannon (daughter of Adam Micquay)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "daughter of witness 7",
       "context": "Aged 15 or 16; given strange-tasting picquette by Claudate; was still ill"
     },
     {
       "name": "Mother of Jean Vaulthier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "mother of witness 9",
       "context": "Died 20 years before; claimed Claudate made her ill by touching"
     },
     {
       "name": "Dieudonne Alix",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "current husband of witness 8",
       "context": "From Girecourt; married witness 8 after death of Georgeon George"

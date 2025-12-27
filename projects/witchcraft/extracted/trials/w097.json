@@ -3,6 +3,14 @@
   "archive_ref": "B 5327 no 2",
   "location": "Assenoncourt",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": {
+    "name": "Jean Blanchar",
+    "person_id": null,
+    "occupation": "manouvrier",
+    "location": "Assenoncourt",
+    "relationship_to_accused": "neighbor/partie formelle"
+  },
   "dates": {
     "start": "1599-12-20",
     "end": "1600-02-10",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Odile femme Martin Claude",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "Assenoncourt",
       "marital_status": "married",
       "spouse_name": "Martin Claude",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
       "parents": {
         "father": "Schrempen Nickel",
         "mother": "Guele"
@@ -63,6 +75,7 @@
     {
       "number": 1,
       "name": "Le maire Conradt",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "maire",
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Gaspar Cousturier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "serrurier",
@@ -106,6 +120,7 @@
     {
       "number": 3,
       "name": "Didier Chatron",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -146,6 +161,7 @@
     {
       "number": 4,
       "name": "George Crenelé",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "manouvrier",
@@ -163,6 +179,7 @@
     {
       "number": 5,
       "name": "Hans Grand Bernard",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "occupation": "laboureur",
@@ -192,6 +209,7 @@
     {
       "number": 6,
       "name": "Claus Arnolt",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -208,6 +226,7 @@
     {
       "number": 7,
       "name": "Wirych Grand Jean",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -224,6 +243,7 @@
     {
       "number": 8,
       "name": "Didier Tixerant",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -253,6 +273,7 @@
     {
       "number": 9,
       "name": "Jean Gigoux",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": "lodger, wood cutter for salines",
@@ -280,6 +301,7 @@
     {
       "number": 10,
       "name": "Estienne Garsonnet",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -296,6 +318,7 @@
     {
       "number": 11,
       "name": "Colas Barron",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "fagotteur",
@@ -312,6 +335,7 @@
     {
       "number": 12,
       "name": "Jacquot Colas le Maire",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": "maire de Fribourg",
@@ -340,6 +364,7 @@
     {
       "number": 13,
       "name": "Didier Colas le Maire",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier de Fribourg",
@@ -384,6 +409,7 @@
     {
       "number": 14,
       "name": "Warin Manouvrier",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "manouvrier",
@@ -411,6 +437,7 @@
     {
       "number": 15,
       "name": "Thiebault Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -438,6 +465,7 @@
     {
       "number": 16,
       "name": "Jean Blanchar",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier",
@@ -1208,7 +1236,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "When maire of Fribourg called her witch publicly, her husband said 'if it seems to you that she is such, have her burned' but took no action. Odile explained during interrogation that 'the woman is not master and that it belongs to the husband to take revenge for it'",
     "imprisonment_conditions": "Vision in prison morning after Christmas; disturbance in prison noted",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1261,6 +1294,7 @@
   "third_parties": [
     {
       "name": "wife of Gaspar Cousturier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 2",
@@ -1268,6 +1302,7 @@
     },
     {
       "name": "wife of Didier Chatron",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 3",
@@ -1275,6 +1310,7 @@
     },
     {
       "name": "daughter Alizon of Hans Grand Bernard",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 5",
@@ -1282,6 +1318,7 @@
     },
     {
       "name": "companions of Colas Barron",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "lodgers",
       "relationship_to_witness": "companions of witness 11",
@@ -1289,6 +1326,7 @@
     },
     {
       "name": "wife of Jacquot Colas le Maire",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 12",
@@ -1296,6 +1334,7 @@
     },
     {
       "name": "Odile's mother (executed witch)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1303,6 +1342,7 @@
     },
     {
       "name": "wife of Didier Colas le Maire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 13",
@@ -1310,6 +1350,7 @@
     },
     {
       "name": "wife of Warin Manouvrier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 14",
@@ -1317,6 +1358,7 @@
     },
     {
       "name": "wife of Thiebault Parmentier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 15",
@@ -1324,6 +1366,7 @@
     },
     {
       "name": "Odile's niece",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "niece",
       "relationship_to_witness": null,
@@ -1331,6 +1374,7 @@
     },
     {
       "name": "Conradt Boutler",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1338,6 +1382,7 @@
     },
     {
       "name": "Jean Tixerand",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1345,6 +1390,7 @@
     },
     {
       "name": "Odile's daughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1352,6 +1398,7 @@
     },
     {
       "name": "neighbor who asked Odile about Warin's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1359,6 +1406,7 @@
     },
     {
       "name": "Bauren Michiel",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1366,6 +1414,7 @@
     },
     {
       "name": "big man she did not know",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1373,6 +1422,7 @@
     },
     {
       "name": "two women in white pelisses",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

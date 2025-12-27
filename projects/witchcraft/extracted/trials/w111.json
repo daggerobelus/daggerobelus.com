@@ -3,6 +3,8 @@
   "archive_ref": "B 7122",
   "location": "Mesnil les Gircourt",
   "court": "Prevot of Mirecourt",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1619-06-04",
     "end": "1619-08-17",
@@ -12,6 +14,7 @@
   "accused": [
     {
       "name": "Claudatte Moinel",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -20,6 +23,9 @@
       "residence": "Mesnil les Gircourt",
       "marital_status": "married",
       "spouse_name": "Nicolas du Val",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "charms_amulets"],
       "parents": {
         "father": "Colas Jean Moinel"
       },
@@ -36,6 +42,7 @@
     {
       "number": 1,
       "name": "Claude Jean Potier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -64,6 +71,7 @@
     {
       "number": 2,
       "name": "Nicolas Cuguin",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "masson",
@@ -92,6 +100,7 @@
     {
       "number": 3,
       "name": "Anne veuve Claudon l'Huillier",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "widow",
@@ -121,6 +130,7 @@
     {
       "number": 4,
       "name": "Demenge Simon",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "paistre des bestes blanches",
@@ -147,6 +157,7 @@
     {
       "number": 5,
       "name": "Demenge Beurard",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "bouchier",
@@ -175,6 +186,7 @@
     {
       "number": 6,
       "name": "Nicolas l'Huillier",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": null,
@@ -202,6 +214,7 @@
     {
       "number": 7,
       "name": "Jannon femme Demenge Simon",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -229,6 +242,7 @@
     {
       "number": 8,
       "name": "Ysabel veuve Demenge Jean Trop",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": "widow",
@@ -249,6 +263,7 @@
     {
       "number": 9,
       "name": "Anne femme Claude Aulbry",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -267,6 +282,7 @@
     {
       "number": 10,
       "name": "Jean Trop",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "rouyer",
@@ -286,6 +302,7 @@
     {
       "number": 11,
       "name": "Idatte femme Claude Didier Aulbry",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -313,6 +330,7 @@
     {
       "number": 12,
       "name": "Jean Febuatte",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -340,6 +358,7 @@
     {
       "number": 13,
       "name": "Jeannon femme Jean Barnardin",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -367,6 +386,7 @@
     {
       "number": 14,
       "name": "Barbe femme Jean Robert",
+      "person_id": null,
       "gender": "female",
       "age": 38,
       "occupation": null,
@@ -393,6 +413,7 @@
     {
       "number": 15,
       "name": "Martinotte femme Claude Potier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -419,6 +440,7 @@
     {
       "number": 16,
       "name": "Jean Robert",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -445,6 +467,7 @@
     {
       "number": 17,
       "name": "Demenge Aulbry",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "laboureur",
@@ -473,6 +496,7 @@
     {
       "number": 18,
       "name": "Jeannette fille Jean Febuatte",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -507,6 +531,7 @@
     {
       "number": 19,
       "name": "Alix soeur de la precedente",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -1197,7 +1222,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Would have taken witnesses to court for calling her witch, but said she had no witnesses. Also said 'qu'elle radresse il fault avoir patience' (for redress one must have patience)",
     "imprisonment_conditions": "Previously imprisoned at Mirecourt about 9 years earlier; subjected to question (torture) at that time",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1298,12 +1328,14 @@
   "third_parties": [
     {
       "name": "Jeanotte femme Bastien Laurent dit Balozel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "context": "Also accused of witchcraft, subject of same investigation. General reputation as witch."
     },
     {
       "name": "Jean Potier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "brother of witness 1",
@@ -1311,6 +1343,7 @@
     },
     {
       "name": "Claudon l'Huillier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "husband of witness 3",
@@ -1318,84 +1351,98 @@
     },
     {
       "name": "Jannotte (daughter of Claudatte)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "context": "Was to be godmother to Nicolas Cuguin's child but was refused because of reputation"
     },
     {
       "name": "la Bourguignotte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "antagonist",
       "context": "Called Claudatte a witch, cried out 'Va te faire donner la question' after quarrel"
     },
     {
       "name": "Mengeotte la Ruelle (femme Bastien de la Ruelle)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accuser",
       "context": "Called Claudatte witch, said she had killed le Gros Claudon and Jean Potier. Remarkably, Claudatte did not take offense and cherished her more afterwards."
     },
     {
       "name": "Ysabel Guerin",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accuser",
       "context": "Burned at Savigny 9 or 10 years earlier. Had accused Claudatte and her sister. When going to stake, Claudatte took her hand to see if she would maintain accusation, but Ysabel turned her head away and refused to reply."
     },
     {
       "name": "le Gros Claudon",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "alleged victim",
       "context": "Mengeotte accused Claudatte of killing him"
     },
     {
       "name": "la Chevriere",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "community member",
       "context": "At escraigne, told Claudatte that Claudon l'Huillier said he was ill from strain or lifting too much"
     },
     {
       "name": "Nicolas du Val",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "Husband of Claudatte. Had contract with Demenge Beurard for ploughing and carting wood. Spread rumor about Beurard."
     },
     {
       "name": "Bouzeval",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged relative of witness",
       "context": "Claudatte claimed he was burned as witch and was uncle of witness's mother. Witness denied this, said he died 'homme de bien' and was buried in consecrated ground at Charmes."
     },
     {
       "name": "Nicolas Belot's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Claudatte accused Alix of stealing her garderobe"
     },
     {
       "name": "Claude Amatte",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Claudatte accused Alix of stealing couvrechef from her house"
     },
     {
       "name": "curé of Girecourt",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "none",
       "context": "Claudatte accused Jean Trop of stealing his belt (ceincture)"
     },
     {
       "name": "Jean de Rapey's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Claudatte accused Nicolas l'Huillier of helping to break her door"
     },
     {
       "name": "surgeon at mill of Avillers",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
       "context": "Consulted by Nicolas l'Huillier about his wife's illness; said she was poisoned and he could not cure her"
     },
     {
       "name": "girl at Mirecourt (godmother of Idatte's child)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "antagonist",
       "context": "Said 'Le diable soit qui te ramene' when Claudatte was released from prison, possibly triggering revenge"

@@ -3,6 +3,14 @@
   "archive_ref": "B 7354",
   "location": "Vandeuvre",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "C. M. Remy",
+    "person_id": null,
+    "occupation": "unknown",
+    "location": "Vandeuvre",
+    "relationship_to_accused": "official initiating prosecution"
+  },
   "dates": {
     "start": "1608-08-13",
     "end": "1608-09-06",
@@ -12,9 +20,12 @@
   "accused": [
     {
       "name": "Barbe veuve Mengin Remicourt",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": false,
       "occupation": [],
       "residence": "Vandeuvre",
       "marital_status": "widowed",
@@ -48,6 +59,7 @@
     {
       "number": 1,
       "name": "Bastien Mangeot",
+      "person_id": null,
       "gender": "male",
       "age": 31,
       "occupation": "tailleur d'habitz",
@@ -78,6 +90,7 @@
     {
       "number": 2,
       "name": "Didier Symonin",
+      "person_id": null,
       "gender": "male",
       "age": 47,
       "occupation": "laboureur",
@@ -91,6 +104,7 @@
     {
       "number": 3,
       "name": "Claudin Hylaire",
+      "person_id": null,
       "gender": "male",
       "age": 54,
       "occupation": "fournier du four banal",
@@ -116,6 +130,7 @@
     {
       "number": 4,
       "name": "Claudin Burthecourt",
+      "person_id": null,
       "gender": "male",
       "age": 54,
       "occupation": "laboureur",
@@ -140,6 +155,7 @@
     {
       "number": 5,
       "name": "Isabelle veuve Didier Rouyer",
+      "person_id": null,
       "gender": "female",
       "age": 56,
       "marital_status": "widowed",
@@ -167,6 +183,7 @@
     {
       "number": 6,
       "name": "Nicolas Chany",
+      "person_id": null,
       "gender": "male",
       "age": 57,
       "occupation": "vigneron",
@@ -190,6 +207,7 @@
     {
       "number": 7,
       "name": "Claudin Galbain",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "vigneron",
@@ -203,6 +221,7 @@
     {
       "number": 8,
       "name": "Cler femme Nicolas Chany",
+      "person_id": null,
       "gender": "female",
       "relationship_to_accused": "none specified",
       "testimony": {
@@ -223,6 +242,7 @@
     {
       "number": 9,
       "name": "Claude Thomas",
+      "person_id": null,
       "gender": "male",
       "occupation": "sergent",
       "testimony": {
@@ -246,6 +266,7 @@
     {
       "number": 10,
       "name": "Dieudonnée femme Claudin Gaulbain le jeune",
+      "person_id": null,
       "gender": "female",
       "testimony": {
         "reputation_mentioned": false,
@@ -269,6 +290,7 @@
     {
       "number": 11,
       "name": "Francoise veuve Didier Riston",
+      "person_id": null,
       "gender": "female",
       "marital_status": "widowed",
       "spouse_name": "Didier Riston",
@@ -282,6 +304,7 @@
     {
       "number": 12,
       "name": "Andreu Cougnot",
+      "person_id": null,
       "gender": "male",
       "testimony": {
         "reputation_mentioned": false,
@@ -293,6 +316,7 @@
     {
       "number": 13,
       "name": "la veuve Lourand Jacquot",
+      "person_id": null,
       "gender": "female",
       "marital_status": "widowed",
       "spouse_name": "Lourand Jacquot",
@@ -321,6 +345,7 @@
     {
       "number": 14,
       "name": "Barbe veuve Anthoine Petit Jean",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "marital_status": "widowed",
@@ -352,6 +377,7 @@
     {
       "number": 15,
       "name": "Didier Rouyer",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "testimony": {
@@ -367,6 +393,7 @@
     {
       "number": 16,
       "name": "Barbe Caillet veuve Anthoine Petit Jean",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "marital_status": "widowed",
@@ -403,6 +430,7 @@
     {
       "number": 17,
       "name": "Nicolle veuve Jean Piedmontoy",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "marital_status": "widowed",
@@ -426,6 +454,7 @@
     {
       "number": 18,
       "name": "Nicolas Thouvenin",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "testimony": {
@@ -451,6 +480,7 @@
     {
       "number": 19,
       "name": "Barbe femme Nicolas Hanry",
+      "person_id": null,
       "gender": "female",
       "age": 56,
       "testimony": {
@@ -463,6 +493,7 @@
     {
       "number": 20,
       "name": "Dieudonnée femme Claudin Galbin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "testimony": {
@@ -484,6 +515,7 @@
     {
       "number": 21,
       "name": "Lucye veuve Jean Galbin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "vigneron",
@@ -510,6 +542,7 @@
     {
       "number": 22,
       "name": "Nicolas Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "echevin en la justice de Vendeuvre",
@@ -1223,7 +1256,12 @@
     ],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Barbe told sergent on way to prison previous day that she had been witch for 30 years",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1298,11 +1336,13 @@
   "third_parties": [
     {
       "name": "Pacquotte fille Nicolas Chenion",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Died 7 years before from fatal illness allegedly caused by Barbe after quarrel"
     },
     {
       "name": "Gauthien",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son-in-law (married to Barbe's daughter)",
       "relationship_to_witness": "son-in-law of witness 1 (Bastien Mangeot)",
@@ -1310,41 +1350,49 @@
     },
     {
       "name": "Dame d'Armacourt",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Landlord who leased house to Claudin Hylaire, displacing Barbe"
     },
     {
       "name": "Demenge Collet",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Was throwing water at Barbe's granddaughter at spring; called her 'fille de genoxe'"
     },
     {
       "name": "curé's servant",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Accused Claire of stealing 'joutte'"
     },
     {
       "name": "curé",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Said son of witness 17 would die from illness"
     },
     {
       "name": "Nicolas Parmentier's wife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Put pastry on top of Claire's in the oven, causing dispute"
     },
     {
       "name": "Mre Didier",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Name of Barbe's devil/master"
     },
     {
       "name": "Bastien Mengeot's son",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Multiple illnesses allegedly caused by Barbe and her daughter"
     },
     {
       "name": "Barbe's granddaughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "granddaughter",
       "context": "Daughter of witness 5 refused to dance with her; involved in water-throwing incident at spring"

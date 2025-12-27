@@ -3,6 +3,8 @@
   "archive_ref": "B 7394",
   "location": "Malzeville",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1618-09-19",
     "end": "1618-11-12",
@@ -12,6 +14,7 @@
   "accused": [
     {
       "name": "Jeannotte Cosson",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "age_approximate": true,
@@ -19,6 +22,9 @@
       "residence": "Malzeville",
       "marital_status": "married",
       "spouse_name": "Pierrot Cosson",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "touch_healing", "charms_amulets"],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -46,6 +52,7 @@
     },
     {
       "name": "Pierrot Cosson",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "age_approximate": false,
@@ -53,6 +60,9 @@
       "residence": "Malzeville",
       "marital_status": "married",
       "spouse_name": "Jeannotte Cosson",
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "healing_types": [],
       "confession": {
         "confessed": false,
         "under_torture": false,
@@ -79,6 +89,7 @@
     {
       "number": 1,
       "name": "Claude Thoussainct",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "vigneron",
@@ -100,6 +111,7 @@
     {
       "number": 2,
       "name": "Mengeotte",
+      "person_id": null,
       "gender": "female",
       "age": 27,
       "occupation": null,
@@ -129,6 +141,7 @@
     {
       "number": 3,
       "name": "Paul Jenin",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "vigneron",
@@ -158,6 +171,7 @@
     {
       "number": 4,
       "name": "Isabillon",
+      "person_id": null,
       "gender": "female",
       "age": 45,
       "occupation": null,
@@ -179,6 +193,7 @@
     {
       "number": 5,
       "name": "François André",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "vigneron",
@@ -208,6 +223,7 @@
     {
       "number": 6,
       "name": "Jean Perrin dit Rechamps",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": "archer du garde de S.A.",
@@ -237,6 +253,7 @@
     {
       "number": 7,
       "name": "Nicolas Jean Henry",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "vigneron",
@@ -258,6 +275,7 @@
     {
       "number": 8,
       "name": "Chrestofle Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": "bouchier",
@@ -287,6 +305,7 @@
     {
       "number": 9,
       "name": "Demenge Vosgien",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "vigneron",
@@ -316,6 +335,7 @@
     {
       "number": 10,
       "name": "Renée",
+      "person_id": null,
       "gender": "female",
       "age": 22,
       "occupation": null,
@@ -345,6 +365,7 @@
     {
       "number": 11,
       "name": "Barbeline",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -374,6 +395,7 @@
     {
       "number": 12,
       "name": "Arnauld",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "vigneron",
@@ -395,6 +417,7 @@
     {
       "number": 13,
       "name": "Jeanne",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -416,6 +439,7 @@
     {
       "number": 14,
       "name": "Jean Vinot",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "serviteur au Sr de Chandenier",
@@ -445,6 +469,7 @@
     {
       "number": 15,
       "name": "Noel Parisot",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -466,6 +491,7 @@
     {
       "number": 16,
       "name": "Nicolas Perrin",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "menuisier",
@@ -487,6 +513,7 @@
     {
       "number": 17,
       "name": "Claudin Houchelot Cosson",
+      "person_id": null,
       "gender": "male",
       "age": 75,
       "occupation": null,
@@ -516,6 +543,7 @@
     {
       "number": 18,
       "name": "Gerardine Noel",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": "jeune fille",
@@ -537,6 +565,7 @@
     {
       "number": 19,
       "name": "Claudin Burtin",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": "vigneron",
@@ -1227,10 +1256,15 @@
         "outcome": "he said that if they had forgotten their honour this was not his doing, nor in his house"
       }
     ],
+    "imprisonment_conditions": "Nicolas Perrin guarded her when she was taken to Condé",
     "accused_sought_redress": false,
     "redress_outcome": null,
-    "imprisonment_conditions": "Nicolas Perrin guarded her when she was taken to Condé",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1297,6 +1331,7 @@
   "third_parties": [
     {
       "name": "late curé",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "none",
       "relationship_to_witness": "employer or local priest",
@@ -1304,6 +1339,7 @@
     },
     {
       "name": "Mre Jean Solier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "employer of Paul Jenin",
@@ -1311,6 +1347,7 @@
     },
     {
       "name": "wife of Mre Jean Solier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had quarrel with Jeannotte",
       "relationship_to_witness": "mistress of Paul Jenin",
@@ -1318,6 +1355,7 @@
     },
     {
       "name": "vagabond woman from Metz",
+      "person_id": null,
       "role_in_narrative": "healer",
       "relationship_to_accused": "none",
       "relationship_to_witness": "advised François André's father",
@@ -1325,6 +1363,7 @@
     },
     {
       "name": "previous duke",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "none",
       "relationship_to_witness": "none",
@@ -1332,6 +1371,7 @@
     },
     {
       "name": "Jean l'huillier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "none",
       "relationship_to_witness": "Chrestofle Pierson sat outside his house",
@@ -1339,6 +1379,7 @@
     },
     {
       "name": "Nicolas Galletier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "Pierrot's cousin",
       "relationship_to_witness": "none",
@@ -1346,6 +1387,7 @@
     },
     {
       "name": "Catherine",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had quarrel with Jeannotte",
       "relationship_to_witness": "wife of Claudin Houchelot Cosson",
@@ -1353,6 +1395,7 @@
     },
     {
       "name": "Idotte Michault",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accused them of witchcraft",
       "relationship_to_witness": "none",
@@ -1360,6 +1403,7 @@
     },
     {
       "name": "François Cordier",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "accused Pierrot",
       "relationship_to_witness": "none",

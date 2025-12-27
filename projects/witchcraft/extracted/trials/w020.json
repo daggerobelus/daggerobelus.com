@@ -2,6 +2,7 @@
   "trial_id": "w020",
   "archive_ref": "B 2583 no 6",
   "location": "l'Estraye",
+  "language_region": "french",
   "dates": {
     "start": "1624-08-09",
     "end": "1624-09-09",
@@ -11,9 +12,12 @@
   "accused": [
     {
       "name": "Jean fils Nicolas Colombain",
+      "person_id": null,
       "gender": "male",
       "age": 12,
       "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
       "residence": "l'Estraye",
       "marital_status": "single",
       "parents": {
@@ -483,18 +487,21 @@
   "third_parties": [
     {
       "name": "Nicolas fils de Demenge Lamouratte",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "companion/friend who could understand Jean's speech",
       "context": "Served as interpreter during interrogation because Jean's severe facial disfigurement made him difficult to understand"
     },
     {
       "name": "Claudon Jean Demenge",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "peer who beat Jean",
       "context": "Jean made threats against him; Jean claimed to have made him ill using snake and rat; said 'par diable' to Jean 3 times"
     },
     {
       "name": "other children with apples",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "companions",
       "context": "Jean threatened to burn their apples if they wouldn't let him cook his 4 apples; they took him by legs and dragged him after he scattered their apples"
@@ -526,7 +533,10 @@
     "officials_named": [],
     "accused_sought_redress": false,
     "property_confiscation_mentioned": false,
-    "imprisonment_conditions": "Jean required interpreter due to severe facial disfigurement from being bitten as infant in cradle - could only open mouth halfway, lips destroyed so teeth showed"
+    "imprisonment_conditions": "Jean required interpreter due to severe facial disfigurement from being bitten as infant in cradle - could only open mouth halfway, lips destroyed so teeth showed",
+    "change_de_nancy": {
+      "consulted": false
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 0,

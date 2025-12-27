@@ -1,0 +1,1586 @@
+{
+  "trial_id": "w197",
+  "archive_ref": "B 8684 no 10",
+  "location": "La Croix",
+  "language_region": "french",
+  "dates": {
+    "start": "1600-10-02",
+    "end": "1600-12-13",
+    "duration_days": 72
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Claudatte veuve Mengeon Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 70,
+      "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
+      "marital_status": "widowed",
+      "spouse_name": "Mengeon Henry",
+      "parents": {
+        "father": "Demenge Robin"
+      },
+      "origin": "Laveline",
+      "residence": "La Croix",
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Joly",
+        "devil_appearance": "man in black with goat",
+        "seduction_date": "15 years ago",
+        "seduction_context": "While looking for lost animals, approached by man in black with goat who offered to make her rich and tell her where animals were. Resisted initially but yielded on third visit.",
+        "devil_mark": {
+          "present": true,
+          "location": "shoulder",
+          "description": "Executioner pushed pin right in without her feeling any pain"
+        },
+        "powder_types": ["black powder", "red powder", "ashes"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [],
+        "sexual_relations_with_devil": true
+      }
+    },
+    {
+      "name": "Dieudonnée femme Mengeon Henry le Jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "age_approximate": false,
+      "economic_status": "poor",
+      "practiced_healing": false,
+      "marital_status": "married",
+      "spouse_name": "Mengeon Henry le Jeune",
+      "parents": {
+        "father": "Claude des Pasquis"
+      },
+      "origin": "St Lienard",
+      "residence": "La Croix",
+      "occupation": ["baker", "servant"],
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": true,
+        "retraction_renewed": true,
+        "devil_name": "maitre Hu",
+        "devil_appearance": "man in black on black horse",
+        "seduction_date": "2 years before",
+        "seduction_context": "Had been angry about bad bargains husband made over horses, and a man in black on black horse appeared to her. Persuaded her to renounce God and have intercourse with him.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["diabolical powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": ["wine and roast meat, with goblets and plates of pewter"],
+        "sexual_relations_with_devil": true
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Benignot Gillot",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "cordonnier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Benignot Gillot",
+            "target_relationship": "self (witness's wife)",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "time_after_quarrel": "3 years after moving to house"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Marguitte femme David Pierre Guillemin",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jehennon veuve Oswald Treschey le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused Claudatte salt",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "self",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "animal_type": "ox",
+            "animal_count": 1,
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Claudotte femme Laurent Bormes",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "husband of Didielle femme Jean Mathis",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jehennon femme Mengeon Didier Girard dit Choste",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 6,
+      "name": "Laurent Bormes",
+      "person_id": null,
+      "gender": "male",
+      "age": 38,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jacob Willemin",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "time_after_quarrel": "9 months later",
+            "precipitating_quarrel": "House purchase dispute"
+          },
+          {
+            "type": "human_illness",
+            "target": "Laurent Bormes",
+            "target_relationship": "self",
+            "harm_description": "great pain in leg for 3 days, could only move on knees",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "time_after_quarrel": "5 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Nicolas Willaume Thirion",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true,
+        "threat_received": true,
+        "threat_quote": "qu'il se taise, et qu'elle en auroit bien sa raison sans beaucoup courir",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals of Blaise Fresse",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Nicolas Lyenard Gaulthier",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 9,
+      "name": "Pieron Mengeon Henry",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "relationship_to_accused": "cousin germain to Mengeon Henry le viel, husband of Claudatte",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 10,
+      "name": "Lyenard Jean Mareschal",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "La Croix but living at Chippal",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Payment for bread",
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "threat_received": true,
+        "threat_quote": "Je t'ay desia cousté je te cousteray encor",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "time_after_quarrel": "2 days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Demenge Pauline de la Bolle",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 12,
+      "name": "Nicolas Colin Urbain",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "occupation": "cousturier",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "harm_description": "found dead in the morning, strangled in a strange fashion"
+          },
+          {
+            "type": "human_illness",
+            "target": "3 brothers and sisters",
+            "target_relationship": "siblings",
+            "harm_description": "strange illness affecting legs and feet, still on crutches",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "precipitating_quarrel": "Pig dispute - she took and killed pig claiming it was her own",
+            "time_after_quarrel": "after quarrel"
+          }
+        ],
+        "theft_mentioned": true
+      }
+    },
+    {
+      "number": 13,
+      "name": "Claudotte femme Hannezo Gadel dit le Maire",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "relationship_to_accused": "Sister of Dieudonnée's husband",
+      "testimony": {
+        "reputation_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claudotte femme Hannezo Gadel",
+            "target_relationship": "self",
+            "harm_description": "very ill, bedridden for 6 weeks",
+            "attributed_to": "Claudatte veuve Mengeon Henry"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jehennon veuve Gregoire Demenge Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "overcharged for bread",
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jehennon veuve Pieron Belmont",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Suzanne first wife of Dieudonné Claude Henry",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "time_after_quarrel": "died after 5 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Rozon femme Colin Urbain",
+      "person_id": null,
+      "gender": "female",
+      "testimony": {
+        "reputation_mentioned": true,
+        "threat_received": true,
+        "threat_quote": "Voila l'argent aultant vault que je le jecté a la riviere",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "2 sons who were miners and another brother and sister",
+            "target_relationship": "children",
+            "harm_description": "became strangely ill, had to go on crutches and have a leg cut off",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "precipitating_quarrel": "Lost pig found dead near her house, forced to pay 2 francs compensation"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "[Name not given]",
+      "person_id": null,
+      "gender": "unknown",
+      "testimony": {
+        "reputation_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "Charles Claude Pierre",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 19,
+      "name": "Honn. Homme",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first wife",
+            "target_relationship": "self (witness's wife)",
+            "harm_description": "became ill for 6 months after hedge dispute",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "precipitating_quarrel": "dispute about a hedge",
+            "time_after_quarrel": "immediately after"
+          },
+          {
+            "type": "human_illness",
+            "target": "maid",
+            "harm_description": "ill for a week",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "precipitating_quarrel": "refused her some lard"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean Lienard",
+      "person_id": null,
+      "gender": "male",
+      "age": 24,
+      "occupation": "serviteur",
+      "testimony": {}
+    },
+    {
+      "number": 21,
+      "name": "Claudatte soeur au precedent",
+      "person_id": null,
+      "gender": "female",
+      "age": 23,
+      "occupation": "servant of Dieudonné Claude Henry",
+      "relationship_to_accused": "sister of previous witness",
+      "testimony": {}
+    },
+    {
+      "number": 22,
+      "name": "Didielle femme Jean Mathis",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "house purchase disputes",
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jacob Willemin (first husband)",
+            "target_relationship": "self (witness's husband)",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Colin Colas Michiel alias Urban",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "occupation": "cousturier",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 24,
+      "name": "Catherine femme Jean Bon Temps",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "wife of Dieudonné Claude Henry",
+            "attributed_to": "Claudatte veuve Mengeon Henry"
+          },
+          {
+            "type": "human_illness",
+            "target": "Catherine femme Jean Bon Temps",
+            "target_relationship": "self",
+            "harm_description": "pain in stomach, hardly able to eat for 3 weeks",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "precipitating_quarrel": "refused soup, ungrateful for bread",
+            "time_after_quarrel": "2 days later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Nicolas Noel",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 26,
+      "name": "Claudatte femme Demenge Saffroy",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horses, cows, and pigs",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "animal_type": "horses, cows, pigs",
+            "animal_count": 9,
+            "harm_description": "4 or 5 horses, 2 cows, and some pigs - deaths were very sudden"
+          }
+        ]
+      }
+    },
+    {
+      "number": 27,
+      "name": "Mengeon Didier Girard dit l'Hoste",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "pigs doing damage in his garden",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mengeon Didier Girard",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune"
+          }
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "Annon femme Noel Collardat",
+      "person_id": null,
+      "gender": "female",
+      "age": 55,
+      "relationship_to_accused": "sister-in-law of Dieudonnée",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Annon femme Noel Collardat",
+            "target_relationship": "self",
+            "harm_description": "became so ill she expected to die",
+            "attributed_to": "Claudatte veuve Mengeon Henry",
+            "precipitating_quarrel": "refused her a glass of wine"
+          }
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Germaine femme Jacques Anthoine du Chippal",
+      "person_id": null,
+      "gender": "female",
+      "age": 35,
+      "location": "Chippal",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt for bread",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "animal_type": "cow",
+            "animal_count": 1,
+            "time_after_quarrel": "evening of same day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Pieron Jean Pieron",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune"
+          }
+        ]
+      }
+    },
+    {
+      "number": 31,
+      "name": "[Name not given]",
+      "person_id": null,
+      "gender": "male",
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "first wife",
+            "target_relationship": "self (witness's wife)",
+            "harm_description": "fell suddenly ill and died in 6 days",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+            "precipitating_quarrel": "called her witch during a quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 32,
+      "name": "Lucas Saffroy",
+      "person_id": null,
+      "gender": "male",
+      "age": 27,
+      "occupation": "bourgeois de St Dié",
+      "location": "St Dié",
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "dissatisfaction over horse exchange",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "animals",
+            "target_relationship": "self",
+            "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1600-10-02",
+      "event": "informations_preparatoires",
+      "details": "Initial witness testimonies begin"
+    },
+    {
+      "date": "1600-10-09",
+      "event": "informations_preparatoires",
+      "details": "Additional witness testimony"
+    },
+    {
+      "date": "1600-10-19",
+      "event": "interrogation",
+      "subject": "Claudatte and Dieudonnée",
+      "details": "Initial interrogation of both accused"
+    },
+    {
+      "date": "1600-10-26",
+      "event": "confrontation",
+      "subject": "Claudatte and Dieudonnée",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1600-11-06",
+      "event": "torture_requested",
+      "details": "Substitute for procureur général requests question ordinaire and extraordinaire"
+    },
+    {
+      "date": "1600-11-06",
+      "event": "torture_approved",
+      "details": "Change de Nancy approves, suggests Dieudonnée be presented to torture only unless appears on point of confessing"
+    },
+    {
+      "date": "1600-11-14",
+      "event": "torture",
+      "subject": "Claudatte",
+      "details": "Interrogation under torture - confessed"
+    },
+    {
+      "date": "1600-11-15",
+      "event": "interrogation",
+      "subject": "Claudatte",
+      "details": "Further interrogation, elaborated confession"
+    },
+    {
+      "date": "1600-11-15",
+      "event": "torture",
+      "subject": "Dieudonnée",
+      "details": "Interrogation under torture - confessed"
+    },
+    {
+      "date": "1600-11-16",
+      "event": "interrogation",
+      "subject": "Claudatte",
+      "details": "Renewed earlier confessions"
+    },
+    {
+      "date": "1600-11-16",
+      "event": "interrogation",
+      "subject": "Dieudonnée",
+      "details": "Renewed earlier confessions"
+    },
+    {
+      "date": "1600-11-22",
+      "event": "interrogation",
+      "subject": "Dieudonnée",
+      "details": "Withdrew all confessions except that about Sottrel"
+    },
+    {
+      "date": "1600-11-25",
+      "event": "death_requested",
+      "subject": "Claudatte",
+      "details": "Rémy asks for death sentence"
+    },
+    {
+      "date": "1600-11-25",
+      "event": "torture_requested",
+      "subject": "Dieudonnée",
+      "details": "Rémy asks that she be tortured again"
+    },
+    {
+      "date": "1600-11-26",
+      "event": "death_approved",
+      "subject": "Claudatte",
+      "details": "Change de Nancy agrees to death sentence"
+    },
+    {
+      "date": "1600-11-26",
+      "event": "torture_approved",
+      "subject": "Dieudonnée",
+      "details": "Change de Nancy agrees to additional torture"
+    },
+    {
+      "date": "1600-12-04",
+      "event": "torture",
+      "subject": "Dieudonnée",
+      "details": "Second torture session - immediately confessed when placed on rack"
+    },
+    {
+      "date": "1600-12-10",
+      "event": "death_requested",
+      "subject": "Dieudonnée",
+      "details": "Rémy asks for death sentence"
+    },
+    {
+      "date": "1600-12-10",
+      "event": "death_approved",
+      "subject": "Dieudonnée",
+      "details": "Change de Nancy approves"
+    },
+    {
+      "date": "1600-12-13",
+      "event": "sentence",
+      "subject": "Dieudonnée",
+      "details": "Final reiteration of confessions"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "requesting_official": "substitute for procureur général",
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "la comtesse de la Croix",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat, very well dressed in black"
+    },
+    {
+      "name": "wife of Colas Vomisson",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "Leonard le Marschal",
+      "location": "Chippal",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "wife of Jacquot du Chippal",
+      "location": "Chippal",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "Didielle femme Jean Mathis",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat (witness 22 in this trial)"
+    },
+    {
+      "name": "Catherine femme Colas le Criecq",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "Nicolas de la Chievre",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat (played flute)"
+    },
+    {
+      "name": "Jandrette",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "wife of Hieric",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "Lienard du Chippal",
+      "location": "Chippal",
+      "context": "Named by Dieudonnée as being at sabbat"
+    },
+    {
+      "name": "Germaine femme Jacquot Anthoine",
+      "location": "Chippal",
+      "context": "Named by Dieudonnée as being at sabbat (witness 29 in this trial)"
+    },
+    {
+      "name": "Blanche Fresse",
+      "location": "La Croix",
+      "context": "Named by Dieudonnée as being at sabbat"
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "sister at Wissembach",
+      "context": "Claudatte's sister, burned as witch some 10 years earlier"
+    },
+    {
+      "accuser_name": "sister of Dieudonnée",
+      "context": "Died in prison when accused of witchcraft"
+    },
+    {
+      "accuser_name": "uncle of Dieudonnée",
+      "context": "Burned as witch"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Dieudonnée (in threat to Blaise Fresse)",
+      "french": "qu'il se taise, et qu'elle en auroit bien sa raison sans beaucoup courir",
+      "context": "After son was fined by Blaise Fresse"
+    },
+    {
+      "speaker": "Claudatte (to husband)",
+      "french": "Mon bel Mongeon, je n'en scaurois que faire, sy tu m'y mene j'ay y mener jusques a cinq ou six",
+      "context": "When husband threatened to take her to St Dié to be tried"
+    },
+    {
+      "speaker": "Dieudonnée",
+      "french": "Je t'ay desia cousté je te cousteray encor",
+      "context": "To Lyenard Jean Mareschal after he called her witch"
+    },
+    {
+      "speaker": "Jacob Willemin (to Dieudonnée's husband)",
+      "french": "foutteur de genaxe, je tay vendue une maison et tu ne la veulx pas prendre, mais tu la prendras et tiendras ton marché, l'on m'a rapporté que ta femme avoit dit que cy tost que tu serois dedans je ne demeureray guerre a la mienne, nous verrons ce qui en sera",
+      "context": "House purchase dispute"
+    },
+    {
+      "speaker": "Claudatte",
+      "french": "je suis bien malheureuse en ce monde",
+      "context": "When Laurent Bormes thought he saw her fall from sky"
+    },
+    {
+      "speaker": "wife of Jean Jacques Claude",
+      "french": "Genaxe tu as esté jeune putain tu seras viellle genaxe",
+      "context": "Quarreling with Dieudonnée"
+    },
+    {
+      "speaker": "Claudatte (to Claudotte femme Hannezo Gadel)",
+      "french": "Genaxe tu as mangé mon coeur et m'as donné ce mal, tu me l'osteras",
+      "context": "When treating her illness"
+    },
+    {
+      "speaker": "Dieudonnée",
+      "french": "qu'il falloit qu'elle face quelquefois ung maulvais coup parce que l'on l'appelloit sorciere",
+      "context": "General statement about being called witch"
+    },
+    {
+      "speaker": "Dieudonnée",
+      "french": "Voila l'argent aultant vault que je le jecté a la riviere",
+      "context": "When paying compensation for pig"
+    },
+    {
+      "speaker": "Dieudonnée (in dispute)",
+      "french": "diable viens moy querre",
+      "context": "Opened window and shouted when husband would not help her"
+    },
+    {
+      "speaker": "Dieudonné Claude Henry (to Claudatte)",
+      "french": "qu'il n'avoit affaire d'elle sy elle ne vouloit donner la santé a sa femme qu'estoit malade, et qu'elle allast hors de sa maison que c'estoit une sorciere",
+      "context": "Confronting Claudatte about his wife's illness"
+    },
+    {
+      "speaker": "Catherine femme Jean Bon Temps (to Claudatte)",
+      "french": "qu'elle advisast de luy donner sa santé, et qu'elle avoit ja faict des choses en la maison dudit Dieudonné, que le tout viendroit ensemble",
+      "context": "Threatening Claudatte to cure her"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Claudatte veuve Mengeon Henry",
+      "person2": "Mengeon Henry",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other"
+    },
+    {
+      "person1": "Claudatte veuve Mengeon Henry",
+      "person2": "Nicolas Voiry",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "First husband was Nicolas Voiry of Velipaire, to whom she was married for 25 years"
+    },
+    {
+      "person1": "Claudatte veuve Mengeon Henry",
+      "person2": "Demenge Robin",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other"
+    },
+    {
+      "person1": "Dieudonnée femme Mengeon Henry le Jeune",
+      "person2": "Mengeon Henry le Jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other"
+    },
+    {
+      "person1": "Dieudonnée femme Mengeon Henry le Jeune",
+      "person2": "Claude des Pasquis",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other"
+    },
+    {
+      "person1": "Dieudonnée femme Mengeon Henry le Jeune",
+      "person2": "Claudotte femme Hannezo Gadel dit le Maire",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Sister of Dieudonnée's husband"
+    },
+    {
+      "person1": "Dieudonnée femme Mengeon Henry le Jeune",
+      "person2": "Annon femme Noel Collardat",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Was sister-in-law of Dieudonnée"
+    },
+    {
+      "person1": "Pieron Mengeon Henry",
+      "person2": "Mengeon Henry le viel",
+      "relationship_type": "cousin_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Cousin germain to Mengeon Henry le viel, husband of Claudatte"
+    },
+    {
+      "person1": "Claudotte femme Laurent Bormes",
+      "person2": "Laurent Bormes",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Rozon femme Colin Urbain",
+      "person2": "Nicolas Colin Urbain",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    },
+    {
+      "person1": "Jehennon veuve Gregoire Demenge Henry",
+      "person2": "Claudotte femme Hannezo Gadel dit le Maire",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "witness had been caring for her stepdaughter (previous witness)"
+    },
+    {
+      "person1": "Claudatte soeur au precedent",
+      "person2": "Jean Lienard",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness"
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "wife of Benignot Gillot",
+      "victim_relationship_to_witness": "self (wife)",
+      "harm_category": "human_death",
+      "harm_description": "became ill after 3 years in house, finally died saying Dieudonnée had given her illness",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "ox fell ill, dying two days later",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "refused salt when asked",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jacob Willemin",
+      "harm_category": "human_death",
+      "harm_description": "died 9 months after house purchase dispute",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "house purchase dispute",
+      "time_between_quarrel_and_harm": "9 months later",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "Laurent Bormes",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "great pain in leg for 3 days, could only move on knees",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "method_alleged": "witchcraft, then cured by her",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "animals of Blaise Fresse",
+      "harm_category": "animal_death",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "Blaise Fresse fined her horse",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "fine cow",
+      "harm_category": "animal_death",
+      "harm_description": "sickened, dying after languishing for weeks",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "argument over payment for bread, called her witch",
+      "time_between_quarrel_and_harm": "2 days later",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "cow",
+      "harm_category": "animal_death",
+      "harm_description": "found dead in the morning, strangled in a strange fashion, had to be cut up to be removed",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "time_between_quarrel_and_harm": "after 6 months living in her house",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "3 brothers and sisters of witness",
+      "harm_category": "human_illness",
+      "harm_description": "strange illness affecting legs and feet, still on crutches",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "pig dispute - she took and killed pig claiming it was her own",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Claudotte femme Hannezo Gadel",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "very ill, bedridden for 6 weeks, then cured by Claudatte",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Suzanne first wife of Dieudonné Claude Henry",
+      "harm_category": "human_death",
+      "harm_description": "became ill after quarrel, died after 5 weeks",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "quarrel",
+      "time_between_quarrel_and_harm": "5 weeks",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "2 sons (miners) and another brother and sister",
+      "harm_category": "human_illness",
+      "harm_description": "became strangely ill, had to go on crutches and have a leg cut off",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "lost pig found dead near her house, forced to pay 2 francs compensation",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "first wife of witness 19",
+      "harm_category": "human_death",
+      "harm_description": "became ill for 6 months after hedge dispute, died within 12 hours of Claudatte visiting",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "dispute about a hedge",
+      "time_between_quarrel_and_harm": "immediately after",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "maid",
+      "harm_category": "human_illness",
+      "harm_description": "ill for a week",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "refused her some lard",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "wife of Dieudonné Claude Henry",
+      "harm_category": "human_death",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "Catherine femme Jean Bon Temps",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "pain in stomach, hardly able to eat for 3 weeks",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "refused soup, ungrateful for bread",
+      "time_between_quarrel_and_harm": "2 days later",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "4 or 5 horses, 2 cows, and some pigs",
+      "harm_category": "animal_death",
+      "harm_description": "deaths were very sudden",
+      "animal_type": "horses, cows, pigs",
+      "animal_count": 9,
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "horse sale dispute, quarrelled with Lucas using curses",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 26
+    },
+    {
+      "victim_name": "Mengeon Didier Girard dit l'Hoste",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "fell ill, cured after she gave him cake",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "dispute over pigs doing damage in garden",
+      "witness_number": 27
+    },
+    {
+      "victim_name": "Annon femme Noel Collardat",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "became so ill she expected to die, recovered after Claudatte visited",
+      "attributed_to": "Claudatte veuve Mengeon Henry",
+      "precipitating_quarrel": "refused her a glass of wine",
+      "witness_number": 28
+    },
+    {
+      "victim_name": "cow",
+      "harm_category": "animal_death",
+      "harm_description": "sickened and died",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "made great fuss about small debt for bread on market-day",
+      "time_between_quarrel_and_harm": "evening of same day",
+      "witness_number": 29
+    },
+    {
+      "victim_name": "first wife of witness 31",
+      "harm_category": "human_death",
+      "harm_description": "fell suddenly ill and died in 6 days",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "precipitating_quarrel": "called her witch during a quarrel",
+      "time_between_quarrel_and_harm": "shortly after",
+      "witness_number": 31
+    },
+    {
+      "victim_name": "wife of Hantzo Gadel",
+      "harm_category": "human_death",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "method_alleged": "diabolical powder",
+      "evidence_text": "Confessed malefice"
+    },
+    {
+      "victim_name": "cow of Lienard le Marchal of Chippal",
+      "harm_category": "animal_death",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "method_alleged": "diabolical powder",
+      "evidence_text": "Confessed malefice"
+    },
+    {
+      "victim_name": "poor beggar woman",
+      "harm_category": "human_death",
+      "harm_description": "killed a poor beggar woman who was already ill",
+      "attributed_to": "Dieudonnée femme Mengeon Henry le Jeune",
+      "method_alleged": "diabolical powder",
+      "evidence_text": "Confessed malefice"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "salt",
+      "context": "Claudatte asked Jehennon for some salt",
+      "category": "food"
+    },
+    {
+      "object": "bread",
+      "context": "Dieudonnée sold bread",
+      "category": "food"
+    },
+    {
+      "object": "beans",
+      "context": "Laurent Bormes gave Claudatte plate of beans",
+      "category": "food"
+    },
+    {
+      "object": "mouxons de mouxatte",
+      "context": "Claudatte used to make estuve for leg",
+      "category": "magical"
+    },
+    {
+      "object": "axe",
+      "context": "Nicolas la Gaixe went to Claudatte's house with an axe",
+      "category": "tools"
+    },
+    {
+      "object": "chapelet",
+      "context": "Devil tried to make Claudatte burn her chapelet; Dieudonnée used chapelet in prison",
+      "category": "religious"
+    },
+    {
+      "object": "powder (black and red)",
+      "context": "Diabolical powder for malefices",
+      "category": "magical"
+    },
+    {
+      "object": "ashes",
+      "context": "Given something like ashes by devil",
+      "category": "magical"
+    },
+    {
+      "object": "piece of glass",
+      "context": "Money given by devil that was piece of glass",
+      "category": "magical"
+    },
+    {
+      "object": "wine",
+      "context": "Annon was selling wine, refused Claudatte a glass",
+      "category": "food"
+    },
+    {
+      "object": "lard",
+      "context": "Servant refused Claudatte some lard",
+      "category": "food"
+    },
+    {
+      "object": "bocquet dambre",
+      "context": "Claudatte brought to dying woman",
+      "category": "food"
+    },
+    {
+      "object": "soup",
+      "context": "Claudatte gave to cure illness; Catherine refused to give to Claudatte",
+      "category": "food"
+    },
+    {
+      "object": "apples",
+      "context": "Claudatte gave apples to cure illness",
+      "category": "food"
+    },
+    {
+      "object": "cake",
+      "context": "Dieudonnée gave cake to cure Mengeon Didier Girard",
+      "category": "food"
+    },
+    {
+      "object": "goblets and plates of pewter",
+      "context": "At sabbat",
+      "category": "household"
+    },
+    {
+      "object": "roast meat",
+      "context": "At sabbat",
+      "category": "food"
+    },
+    {
+      "object": "crutches",
+      "context": "Used by those with leg injuries",
+      "category": "other"
+    },
+    {
+      "object": "rake",
+      "context": "Claudatte took a rake when sent to haymaking",
+      "category": "agricultural"
+    },
+    {
+      "object": "sword",
+      "context": "Husband outside house with sword during supernatural encounter",
+      "category": "other"
+    },
+    {
+      "object": "2 francs",
+      "context": "Compensation for lost pig",
+      "category": "money"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "La Croix",
+      "place_type": "village",
+      "context": "Main location of trial"
+    },
+    {
+      "place_name": "Chippal",
+      "place_type": "village",
+      "context": "Several witnesses from or living in Chippal"
+    },
+    {
+      "place_name": "Laveline",
+      "place_type": "village",
+      "context": "Claudatte's origin, where relative was accused"
+    },
+    {
+      "place_name": "Velipaire",
+      "place_type": "village",
+      "context": "Origin of Claudatte's first husband"
+    },
+    {
+      "place_name": "St Lienard",
+      "place_type": "village",
+      "context": "Dieudonnée's origin, where she was baptized"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Mentioned as potential place for trial; Lucas Saffroy was bourgeois there"
+    },
+    {
+      "place_name": "Val de Liepvre",
+      "place_type": "village",
+      "context": "Where Dieudonnée was in service for 10 years before marriage"
+    },
+    {
+      "place_name": "la Bolle",
+      "place_type": "village",
+      "context": "Origin of witness Demenge Pauline"
+    },
+    {
+      "place_name": "Wissembach",
+      "place_type": "village",
+      "context": "Where Claudatte's sister was burned as witch"
+    }
+  ],
+  "historical_context": {
+    "religious_calendar_references": [
+      "last Twelfth Night",
+      "last Easter",
+      "Holy Week"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Nicolas la Gaixe",
+        "role": "clerc_jure",
+        "location": "La Croix"
+      },
+      {
+        "name": "Rémy",
+        "role": "prosecutor_pg",
+        "location": "Nancy"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    }
+  },
+  "formal_accuser": null,
+  "evidence_quality": {
+    "firsthand_testimony_count": 20,
+    "hearsay_testimony_count": 12,
+    "hearsay_chains": [
+      {
+        "reporter": "Claudotte femme Laurent Bormes",
+        "source": "Didielle femme Jean Mathis",
+        "content": "Didielle told witness that after Dieudonnée threatened them she had lost her husband"
+      },
+      {
+        "reporter": "Laurent Bormes",
+        "source": "Didielle femme Jean Mathis",
+        "content": "Didielle said Dieudonnée had killed her first husband Jacob Willemin"
+      },
+      {
+        "reporter": "Jehennon veuve Oswald Treschey le jeune",
+        "source": "wife of Leonard Walther",
+        "content": "Heard wife of Leonard Walther call Dieudonnée witch during a quarrel"
+      },
+      {
+        "reporter": "Demenge Pauline de la Bolle",
+        "source": "father-in-law",
+        "content": "Father-in-law told him that when quarrelling with his son Dieudonnée told him if she was pregnant the child was not his but the devil's"
+      },
+      {
+        "reporter": "Nicolas Lyenard Gaulthier",
+        "source": "unknown",
+        "content": "Had heard story about Claudatte always making 3 turns round tree on way to church"
+      },
+      {
+        "reporter": "Pieron Jean Pieron",
+        "source": "father-in-law",
+        "content": "Father-in-law said they should curse the hour when someone cut the rope with which Dieudonnée was hanging herself"
+      }
+    ],
+    "oldest_accusation_years": 20
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "Claudatte begged to be released, offered to leave goods for costs",
+      "Dieudonnée said she would put her knife into stomach of anyone who called her witch in future",
+      "Dieudonnée noted to look in good health with no marks on body after retracting confession"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Blaise Fresse",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Fined Dieudonnée's horse, later lost animals"
+    },
+    {
+      "name": "Nicolas la Gaixe",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "context": "Clerc juré who suggested Laurent Bormes send for Claudatte to cure his leg"
+    },
+    {
+      "name": "Claude Saldey",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Had died from illness like Laurent Bormes's leg ailment"
+    },
+    {
+      "name": "Hannezo le Maire",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "husband's sister's husband",
+      "context": "Wife had called Dieudonnée witch during a quarrel"
+    },
+    {
+      "name": "Jacob Willemin",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "First husband of Didielle femme Jean Mathis, allegedly killed by Dieudonnée"
+    },
+    {
+      "name": "Jean de Saldey",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Had dispute over account with Dieudonnée"
+    },
+    {
+      "name": "wife of Jean Jacques Claude",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Quarreled with Dieudonnée"
+    },
+    {
+      "name": "Jacob le Fromy",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Claudatte's first husband",
+      "context": "Charles Claude Pierre was in his service"
+    },
+    {
+      "name": "Jacquot Villermin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Father of daughter who experienced supernatural events with Dieudonnée's son"
+    },
+    {
+      "name": "Dieudonné Claude Henry",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "brother of Dieudonnée's husband",
+      "context": "His wives allegedly bewitched by Claudatte"
+    },
+    {
+      "name": "Suzanne first wife of Dieudonné Claude Henry",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Allegedly killed by Claudatte after quarrel"
+    },
+    {
+      "name": "Jehennon femme Bernard Walther",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Called Dieudonnée witch"
+    },
+    {
+      "name": "Colas Robinet",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Claudatte's brother",
+      "context": "Still alive at Laveline"
+    },
+    {
+      "name": "sister at Wissembach",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "Claudatte's sister",
+      "context": "Burned as witch some 10 years earlier"
+    },
+    {
+      "name": "sister of Dieudonnée",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "Dieudonnée's sister",
+      "context": "Died in prison when accused of witchcraft"
+    },
+    {
+      "name": "uncle of Dieudonnée",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "Dieudonnée's uncle",
+      "context": "Burned as witch"
+    },
+    {
+      "name": "Babillon",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "Dieudonnée's daughter",
+      "context": "Heard mother's remark about compensation money"
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes over payments, house purchases, and animal sales. Claudatte lived by begging after becoming widow. Several quarrels over food items refused (salt, wine, lard, soup). Dieudonnée sold bread and had disputes over payment."
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (AI)",
+    "confidence": "high",
+    "notes": "Trial of two accused women, both related to the Henry family. Rich detail on witness testimony, healing practices by Claudatte, extensive confession details under torture. Dieudonnée retracted confession once but renewed it under second torture session. Both sentenced to death with Change de Nancy approval.",
+    "pdf_pages": 9
+  }
+}

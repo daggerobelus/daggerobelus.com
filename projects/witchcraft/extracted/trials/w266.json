@@ -1,0 +1,1338 @@
+{
+  "trial_id": "w266",
+  "archive_ref": "B 8708 no 5",
+  "location": "St Remy",
+  "language_region": "french",
+  "dates": {
+    "start": "1611-05-18",
+    "end": "1611-06-22",
+    "duration_days": 35
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jennon femme Claudon Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "occupation": ["cheese maker"],
+      "origin": "Nompatelize",
+      "residence": "St Remy",
+      "marital_status": "married",
+      "spouse_name": "Claudon Girard",
+      "parents": {
+        "father": "Colin de Belmont"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "devil_name": "Persin",
+        "devil_appearance": "man in black",
+        "seduction_date": "18 years before trial",
+        "seduction_context": "Her husband lost his purse and thought Mengin Colas Mengin had it. She was sent to ask for it back, but he denied having it and they quarrelled. Next day man in black appeared behind house offering vengeance if she would renounce God and serve him. She agreed out of anger.",
+        "powder_types": ["black powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["between 'les gemelz'", "strange and deserted places"],
+        "sabbat_activities": ["eating unsalted meat", "passing before Persin seated on stone or wood and bowing"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Phelippe Phillepin",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 2,
+      "name": "Colas Ferry",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": null,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 3,
+      "name": "Bastien Cuvelier",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "St Remy",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 8,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refusal to sell land",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 fine cows",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Jean Cesar de Bru",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jennon veuve Jean Marion",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "St Remy",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "animals damaged field",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine cow",
+            "target_relationship": "her own",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "within a week"
+          },
+          {
+            "type": "human_death",
+            "target": "George (son, aged 20)",
+            "target_relationship": "her son",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after quarrel 2 years ago"
+          },
+          {
+            "type": "human_illness",
+            "target": "her late husband Jean Marion",
+            "target_relationship": "her husband",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after quarrel 4 years ago"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Jennon veuve Valentin Girard",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Remy",
+      "relationship_to_accused": "widow of relative",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 7,
+      "name": "Jennon femme Claudon Ferry",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 10,
+        "quarrel_mentioned": false,
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mengeotte femme Jean Fallajeulx le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "bought cow from someone else",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "3 or 4 days after birth"
+          },
+          {
+            "type": "animal_death",
+            "target": "small calf",
+            "attributed_to": "Jennon femme Claudon Girard"
+          },
+          {
+            "type": "animal_injury",
+            "target": "mother cow",
+            "attributed_to": "Jennon femme Claudon Girard"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Catherine femme Jean Demenge Charrier le jeune",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Remy",
+      "relationship_to_accused": "former servant",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 11,
+        "quarrel_mentioned": false
+      }
+    },
+    {
+      "number": 10,
+      "name": "? femme Jean Hanna",
+      "person_id": null,
+      "gender": "female",
+      "age": 32,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 11,
+      "name": "Jean Fallajeulx le vieux",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": false
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jean Girard",
+      "person_id": null,
+      "gender": "male",
+      "age": 54,
+      "location": "St Remy",
+      "relationship_to_accused": "relative",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "debt",
+        "threat_received": true,
+        "threat_quote": "le mettroit sy bas veoire jusques a la besasse ou qu'il luy prendroit jusques aux cendres du feu",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "several animals",
+            "attributed_to": "Jennon femme Claudon Girard"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jean Hanna",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refused to lease sows; horse sale dispute",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine sow with 6 piglets",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "within a week"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Marguitte veuve Florentin Maron",
+      "person_id": null,
+      "gender": "female",
+      "age": 70,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "piglet",
+            "attributed_to": "Jennon femme Claudon Girard"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jennon femme Demenge Colas Aulbert",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refusal to share field",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "2 calves (attacked by wolves)",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jennon veuve Jean Henry",
+      "person_id": null,
+      "gender": "female",
+      "age": 53,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fight on way back from festival",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Jean Henry (her husband)",
+            "target_relationship": "her husband",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Jennon femme Bastien Cuvelier",
+      "person_id": null,
+      "gender": "female",
+      "age": 36,
+      "location": "St Remy",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "refusal to sell land; dispute over pears",
+        "threat_received": true,
+        "threat_quote": "qu'ilz n'avoient donc encore bien faim",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "4 cows",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "human_death",
+            "target": "Pieratte (Jennon's daughter)",
+            "target_relationship": "witness's connection",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "soon afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Colas Henry",
+      "person_id": null,
+      "gender": "male",
+      "age": 28,
+      "location": "St Remy",
+      "relationship_to_accused": "business associate",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "animals escaped into field; business dealings",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "sow",
+            "attributed_to": "Jennon femme Claudon Girard"
+          },
+          {
+            "type": "animal_death",
+            "target": "pig (neck swollen)",
+            "attributed_to": "Jennon femme Claudon Girard"
+          },
+          {
+            "type": "human_death",
+            "target": "his father",
+            "target_relationship": "his father",
+            "attributed_to": "Jennon femme Claudon Girard"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Jean de la Ruelle",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Saint Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "fought with husband; cow sale dispute; debt payment difficulty",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow (swollen leg)",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "6 months after purchase"
+          },
+          {
+            "type": "animal_death",
+            "target": "ox worth 14 ecus",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "within a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Jean Florentin Maron",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "land purchase dispute",
+        "called_witch_publicly": true,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "pig",
+            "attributed_to": "Jennon femme Claudon Girard"
+          },
+          {
+            "type": "animal_death",
+            "target": "3 cows with strange illnesses",
+            "attributed_to": "Jennon femme Claudon Girard",
+            "time_after_quarrel": "since Christmas"
+          }
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Mengeon Moullot",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "St Remy",
+      "occupation": "churchwarden",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "Jean Fallajeulx le jeune",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "St Remy",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "bought cow elsewhere",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "attributed_to": "Jennon femme Claudon Girard"
+          },
+          {
+            "type": "animal_injury",
+            "target": "cow",
+            "attributed_to": "Jennon femme Claudon Girard"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1611-05-18",
+      "event": "informations_preparatoires",
+      "subject": "Jennon femme Claudon Girard",
+      "details": "22 witnesses testify"
+    },
+    {
+      "date": "1611-05-20",
+      "event": "interrogation",
+      "subject": "Jennon femme Claudon Girard",
+      "details": "First interrogation; confessed to witchcraft with devil Persin"
+    },
+    {
+      "date": "1611-05-21",
+      "event": "interrogation",
+      "subject": "Jennon femme Claudon Girard",
+      "details": "Persisted in earlier confessions"
+    },
+    {
+      "date": "1611-05-28",
+      "event": "death_requested",
+      "subject": "Jennon femme Claudon Girard",
+      "details": "Procureur d'office asks for death sentence"
+    },
+    {
+      "date": "1611-06-01",
+      "event": "death_approved",
+      "subject": "Jennon femme Claudon Girard",
+      "details": "Change de Nancy approves death sentence"
+    },
+    {
+      "date": "1611-06-22",
+      "event": "execution",
+      "subject": "Jennon femme Claudon Girard",
+      "details": "Execution carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Jennon la Mourratte",
+      "location": "Nompatelize",
+      "context": "Seen at sabbat; had also accused Jennon Girard 6 weeks before trial",
+      "already_executed": false
+    },
+    {
+      "name": "Marguitte Laurent",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Jean Sagaire",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    },
+    {
+      "name": "Asnel femme Demenge Bourrotte",
+      "context": "Seen at sabbat",
+      "already_executed": true
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Mengin Colas Mengin",
+      "accuser_location": "St Remy",
+      "context": "Accused 12 years earlier",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Claudon Moullot",
+      "accuser_location": "St Remy",
+      "context": "Prior accusation",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Didielle femme Jean Lalande",
+      "accuser_location": "Pajaille",
+      "context": "Prior accusation",
+      "already_executed": false
+    },
+    {
+      "accuser_name": "Jennon la Mourratte",
+      "accuser_location": "Nompatelize",
+      "context": "Accused 6 weeks before this trial",
+      "already_executed": false
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Claudon Girard (husband)",
+      "french": "le mettroit sy bas veoire jusques a la besasse ou qu'il luy prendroit jusques aux cendres du feu",
+      "context": "Threat to Jean Girard over debt dispute 12 years earlier"
+    },
+    {
+      "speaker": "Claudon Girard (husband)",
+      "french": "qu'ilz n'avoient donc encore bien faim",
+      "context": "After refusing to sell land to Bastien Cuvelier"
+    },
+    {
+      "speaker": "Jennon femme Claudon Girard",
+      "french": "que les gens de bien, comme elle est, ilz craindent tousjours la justice et la prison pour laquelle eviter elle s'estoit ainsy cachée, mais en fin elle a bien esté retrouvée",
+      "context": "Explaining why she hid from authorities if innocent"
+    },
+    {
+      "speaker": "Jennon femme Claudon Girard",
+      "french": "que quant il seroit mort, il seroit quicte de ne plus disputer contre son marit, mais que de sa part elle ne le voulloit faire mourrir",
+      "context": "Her response when Persin offered to kill Jean Henry"
+    },
+    {
+      "speaker": "Jean Florentin Maron",
+      "french": "sy elle estoit telle qu'on l'estimoit qu'il avoit oppinion qu'elle avoit faict mourrir sondit porcq, et que celuy qui estoit malade s'il mourroit qu'il en yroit parler a des autres gens",
+      "context": "Confronting her at her house about his dead pig"
+    },
+    {
+      "speaker": "Jennon femme Claudon Girard (accused)",
+      "french": "Belle vierge Marie qu'est ce que tu dis",
+      "context": "Her response to Jean Florentin Maron's accusation"
+    },
+    {
+      "speaker": "Jennon femme Claudon Girard",
+      "french": "Bref que c'est une grande pitié que tant de pauvres gens qui se sont ainsy laissés tanter et abbuser du diable, qu'ilz ne s'y trouvent ausdites assemblées pour y faire du bien, mais du mal",
+      "context": "Reflection on sabbat attendees"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jennon femme Claudon Girard",
+      "person2": "Claudon Girard",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Claudon Girard",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Claudon Girard",
+      "person2": "Colin de Belmont",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of late Colin de Belmont",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Claudon Girard",
+      "person2": "Jean Girard",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "witness",
+      "evidence_text": "Jean Girard relative",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon femme Claudon Girard",
+      "person2": "Valentin Girard",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "late Valentin Girard",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon veuve Valentin Girard",
+      "person2": "Valentin Girard",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve Valentin Girard",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Jean Marion",
+      "person2": "Jean Marion",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon veuve Jean Marion",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon veuve Jean Marion",
+      "person2": "George",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her son George, aged 20",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Marion",
+      "person2": "George",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "her son George",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon veuve Jean Henry",
+      "person2": "Jean Henry",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Jennon veuve Jean Henry",
+      "inferred": false
+    },
+    {
+      "person1": "Colas Henry",
+      "person2": "Jean Henry",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his late father",
+      "inferred": true
+    },
+    {
+      "person1": "Marguitte veuve Florentin Maron",
+      "person2": "Florentin Maron",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marguitte veuve Florentin Maron",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Florentin Maron",
+      "person2": "Florentin Maron",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jean Florentin Maron",
+      "inferred": true
+    },
+    {
+      "person1": "Catherine femme Jean Demenge Charrier le jeune",
+      "person2": "Jennon femme Claudon Girard",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Had been servant in her house 11 or 12 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Bastien Cuvelier",
+      "person2": "Bastien Cuvelier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Jennon femme Bastien Cuvelier",
+      "inferred": false
+    },
+    {
+      "person1": "Mengeotte femme Jean Fallajeulx le jeune",
+      "person2": "Jean Fallajeulx le jeune",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Mengeotte femme Jean Fallajeulx le jeune",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Fallajeulx le jeune",
+      "person2": "Jean Fallajeulx le vieux",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "le jeune / le vieux",
+      "inferred": true
+    },
+    {
+      "person1": "Jennon femme Demenge Colas Aulbert",
+      "person2": "Demenge Colas Aulbert",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Demenge Colas Aulbert",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Claudon Ferry",
+      "person2": "Claudon Ferry",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jennon femme Claudon Ferry",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Florentin Maron",
+      "person2": "Jean Choppat",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "his relative Jean Choppat",
+      "inferred": false
+    },
+    {
+      "person1": "Claudon Girard",
+      "person2": "Jean (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "her husband bought it in name of his son Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Claudon Girard",
+      "person2": "Jean (son)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her son Jean",
+      "inferred": false
+    },
+    {
+      "person1": "Jennon femme Claudon Girard",
+      "person2": "Pieratte (daughter)",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Jennon's daughter Pieratte",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "fine cow",
+      "victim_relationship_to_witness": "owned by witness",
+      "harm_category": "animal_death",
+      "harm_description": "leg became swollen, died in 2 or 3 days",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "animals of accused damaged field, recompense dispute",
+      "time_between_quarrel_and_harm": "within a week",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "George",
+      "victim_relationship_to_witness": "her son",
+      "harm_category": "human_death",
+      "harm_description": "aged 20, died suddenly",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "quarrel between late husband and Jennon's husband over field damage",
+      "time_between_quarrel_and_harm": "2 years ago",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Jean Marion (late husband)",
+      "victim_relationship_to_witness": "her husband",
+      "harm_category": "human_illness",
+      "harm_description": "became paralysed down one side while out sowing, died 2 years later",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "quarrel with Girard couple over field damage",
+      "time_between_quarrel_and_harm": "4 years ago",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "4 fine cows",
+      "harm_category": "animal_death",
+      "harm_description": "became ill and died in strange fashion one after another, one with head twisted strangely backwards",
+      "animal_type": "cow",
+      "animal_count": 4,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "refused to sell land",
+      "time_between_quarrel_and_harm": "soon after previous Christmas",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "calf",
+      "harm_category": "animal_death",
+      "harm_description": "found dead in stable after 3 or 4 days",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "angry because they bought cow from someone else",
+      "time_between_quarrel_and_harm": "3 or 4 days",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "small calf",
+      "harm_category": "animal_death",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "mother cow",
+      "harm_category": "animal_injury",
+      "harm_description": "injured out with the herd",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "2 calves",
+      "harm_category": "animal_death",
+      "harm_description": "attacked by wolves, died of injuries within a few days",
+      "animal_type": "calf",
+      "animal_count": 2,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "not allowed to put calves in field",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "fine sow with 6 piglets",
+      "harm_category": "animal_death",
+      "harm_description": "sow became blind then died, 3 piglets disappeared when out in field",
+      "animal_type": "pig",
+      "animal_count": 4,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "dispute over leasing sows",
+      "time_between_quarrel_and_harm": "5 or 6 years before",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill, dying 5 weeks later",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "horse sale dispute, she was furious about compensation",
+      "time_between_quarrel_and_harm": "within a week",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "piglet",
+      "harm_category": "animal_death",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "time_between_quarrel_and_harm": "shortly after first accusation 12 years earlier",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Jean Henry",
+      "victim_relationship_to_witness": "her husband",
+      "harm_category": "human_death",
+      "harm_description": "sickened and died after languishing for six months with strange illness",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "quarrelled and fought on way back from festival at Moyenmoustier",
+      "time_between_quarrel_and_harm": "soon after, 5 years ago on next St Idoult's day",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "Pieratte (daughter of Jennon Girard)",
+      "harm_category": "human_death",
+      "harm_description": "taken ill and died in 6 days",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "dispute over pears taken by Pieratte, told off by witness's mother",
+      "time_between_quarrel_and_harm": "soon afterwards, 5 years earlier",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "sow",
+      "harm_category": "animal_death",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "pig",
+      "harm_category": "animal_death",
+      "harm_description": "died in 24 hours with neck all swollen",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "business dealings with husband, she was hostile",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "father of Colas Henry",
+      "harm_category": "human_death",
+      "harm_description": "strange malady",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "quarrel on way back from Moyenmoustier",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "cow",
+      "harm_category": "animal_death",
+      "harm_description": "leg became swollen after 6 months, had to be killed, only profit was leather",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "25 ecus",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "unable to agree price for cow from him, bought elsewhere",
+      "time_between_quarrel_and_harm": "6 months",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "ox",
+      "harm_category": "animal_death",
+      "harm_description": "died in 24 hours",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "economic_value": "14 ecus",
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "difficulty getting payment of money her husband owed",
+      "time_between_quarrel_and_harm": "within a few days, previous Easter",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "pig",
+      "harm_category": "animal_death",
+      "animal_type": "pig",
+      "animal_count": 1,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "time_between_quarrel_and_harm": "soon after accusation 9 years earlier",
+      "witness_number": 20
+    },
+    {
+      "victim_name": "3 cows",
+      "harm_category": "animal_death",
+      "harm_description": "strange illnesses",
+      "animal_type": "cow",
+      "animal_count": 3,
+      "attributed_to": "Jennon femme Claudon Girard",
+      "precipitating_quarrel": "land purchase dispute with Jean Choppat, her husband bought it instead",
+      "time_between_quarrel_and_harm": "since previous Christmas",
+      "witness_number": 20
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "cheese",
+      "context": "accused made two sorts of cheese",
+      "category": "food"
+    },
+    {
+      "object": "apples",
+      "context": "hat full of apples hidden under straw",
+      "category": "food"
+    },
+    {
+      "object": "oats",
+      "context": "recompense of 2 or 3 sheaves of oats",
+      "category": "agricultural"
+    },
+    {
+      "object": "black powder",
+      "context": "given by devil for causing harm",
+      "category": "magical"
+    },
+    {
+      "object": "chicken",
+      "context": "annual payment to devil",
+      "category": "food"
+    },
+    {
+      "object": "purse",
+      "context": "husband lost his purse",
+      "category": "money"
+    },
+    {
+      "object": "pears",
+      "context": "dispute over pears taken by daughter",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "St Remy",
+      "place_type": "village",
+      "context": "Primary location of trial and residence of most witnesses"
+    },
+    {
+      "place_name": "Nompatelize",
+      "place_type": "village",
+      "context": "Birthplace of accused"
+    },
+    {
+      "place_name": "Moyenmoustier",
+      "place_type": "village",
+      "context": "Festival location, site of quarrels on return journey"
+    },
+    {
+      "place_name": "Allemaigne",
+      "place_type": "other",
+      "context": "Travel destination after wine harvest"
+    },
+    {
+      "place_name": "l'Hoste du Bois",
+      "place_type": "other",
+      "context": "Location where bribe offer was made"
+    },
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "St Luke's day festival location; debtor location"
+    },
+    {
+      "place_name": "la Salle",
+      "place_type": "other",
+      "context": "Where agreement made for bribe"
+    },
+    {
+      "place_name": "St Dié",
+      "place_type": "village",
+      "context": "Market location"
+    },
+    {
+      "place_name": "Pajaille",
+      "place_type": "village",
+      "context": "Location of prior accuser Didielle"
+    },
+    {
+      "place_name": "Domfaing",
+      "place_type": "village",
+      "context": "Where accused hid for a few days"
+    },
+    {
+      "place_name": "les gemelz",
+      "place_type": "sabbat_location",
+      "context": "Sabbat location"
+    }
+  ],
+  "historical_context": {
+    "religious_calendar_references": [
+      "Christmas",
+      "Easter",
+      "St Remy day",
+      "St Idoult's day",
+      "St Luke's day"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "George de Taintrux",
+        "role": "other",
+        "location": "St Remy"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "debt",
+        "description": "Great quarrel 12 years earlier over debt owed to Girard couple by Jean Girard",
+        "outcome": "unknown"
+      }
+    ],
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved"
+    }
+  },
+  "economic_context": {
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes over land sales, debts, animal leasing, and compensation. Husband's threat about debt: 'would not only make him pay, but reduce him to beggary or take even the ashes from his fire.' Land purchase disputes with neighbors. Economic value of animals frequently mentioned (25 ecus, 14 ecus, 6 ecus, 300 francs mentioned for cows). Bribe offer of 20 ecus debt remission plus 20 francs to prevent accusation."
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 7,
+    "hearsay_chains": [
+      {
+        "reporter": "Phelippe Phillepin",
+        "source": "Epnatte femme Jean Tixerand",
+        "content": "accused took milk from others, caused heart trouble by witchcraft"
+      },
+      {
+        "reporter": "Colas Ferry",
+        "source": "late Valentin Girard",
+        "content": "accused appeared in chamber and tried to strangle him"
+      },
+      {
+        "reporter": "Jean Cesar de Bru",
+        "source": "late Valentin Girard",
+        "content": "husband offered bribe not to accuse her"
+      },
+      {
+        "reporter": "Jennon femme Claudon Ferry",
+        "source": "Jean Florentin Maron",
+        "content": "claimed she caused loss of many animals, went to house calling her witch"
+      },
+      {
+        "reporter": "Jean Girard",
+        "source": "Valentin Girard",
+        "content": "offer of 20 francs not to accuse her"
+      },
+      {
+        "reporter": "Mengeon Moullot",
+        "source": "curé George de Taintrux",
+        "content": "Jean Henry suspected she had bewitched him during illness"
+      },
+      {
+        "reporter": "? femme Jean Hanna",
+        "source": "Demenge Colas Aulbert",
+        "content": "calves attacked by wolves"
+      }
+    ],
+    "oldest_accusation_years": 12
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all"
+    ],
+    "emotional_state_notes": [
+      "hid from authorities for 9 days",
+      "arrested at night in bed with husband",
+      "initially denied, then confessed",
+      "asked to speak to husband and children",
+      "feared shaming her children if burned",
+      "asked not to feel the fire",
+      "expressed 'merveilleux regret' after Jean Henry's death"
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Epnatte femme Jean Tixerand",
+      "person_id": null,
+      "role_in_narrative": "hearsay_source",
+      "context": "Claimed accused took milk from others and caused her heart trouble"
+    },
+    {
+      "name": "Valentin Girard (late)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "relative by marriage",
+      "context": "Claimed accused tried to strangle him; died; his death attributed to her; husband allegedly offered bribe on his behalf"
+    },
+    {
+      "name": "Nicolas Jeandey's wife",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Accused together with Jennon 11-12 years earlier"
+    },
+    {
+      "name": "Demenge Colas Aulbert",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Was pasturing calves attacked by wolves"
+    },
+    {
+      "name": "Jean Tixerand",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Husband of Epnatte"
+    },
+    {
+      "name": "Ysabel veuve Jean de la Ruelle",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Owed money to accused; accused allegedly killed her calf"
+    },
+    {
+      "name": "Nicolas Claudon Noel",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Quarrelled with accused's husband; his ox died 16-18 years ago"
+    },
+    {
+      "name": "Jean Choppat",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_witness": "relative of Jean Florentin Maron",
+      "context": "Was selling land, accused's husband bought it instead"
+    },
+    {
+      "name": "curé George de Taintrux",
+      "person_id": null,
+      "role_in_narrative": "official",
+      "context": "Visited Jean Henry during illness, told churchwarden about suspicions"
+    },
+    {
+      "name": "Jean (son of Jennon and Claudon Girard)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "son",
+      "context": "Land purchased in his name; told mother about horse sale compensation"
+    },
+    {
+      "name": "Pieratte (daughter of Jennon and Claudon Girard)",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Took pears, told off, then died in 6 days"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Trial shows extensive economic disputes (land, debts, animal sales) as context for accusations. Accused confessed without torture. Long-standing reputation (12 years). Multiple allegations of animal deaths following quarrels. Bribe attempt by husband mentioned by multiple witnesses. Accused's confession includes making annual payment (chicken) to devil to avoid sabbat attendance and killing. Change de Nancy approved death sentence.",
+    "pdf_pages": 6
+  }
+}

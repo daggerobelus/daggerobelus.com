@@ -4,6 +4,14 @@
   "archive_ref": "B8667 no 7",
   "location": "Saint Remy",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Demenge Neise de Welacourt (le Salpetrier)",
+    "person_id": null,
+    "occupation": "salpetrier pour la service de son altesse",
+    "location": "Welacourt",
+    "relationship_to_accused": "lodged nearby; story of healing visit triggered trial"
+  },
   "dates": {
     "start": "1591-11-28",
     "end": "1592-03-01",
@@ -13,6 +21,7 @@
   "accused": [
     {
       "name": "Colas Mengin",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "age_approximate": false,
@@ -20,6 +29,9 @@
       "origin": "Saint Remy",
       "residence": "Saint Remy",
       "marital_status": "married",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "charms_amulets"],
       "parents": {
         "father": "Nicolas Mengin",
         "mother": "Margo"
@@ -42,6 +54,7 @@
     {
       "number": 1,
       "name": "Colas Claude Jardel",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -57,6 +70,7 @@
     {
       "number": 2,
       "name": "Jean Marion",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -88,6 +102,7 @@
     {
       "number": 3,
       "name": "Jean Colas Henry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -111,6 +126,7 @@
     {
       "number": 4,
       "name": "Cesar Colas de Brux",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -127,6 +143,7 @@
     {
       "number": 5,
       "name": "Claudon Colas Marion",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -141,6 +158,7 @@
     {
       "number": 6,
       "name": "[Unknown female witness - page damaged]",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "location": "Saint Remy",
@@ -181,6 +199,7 @@
     {
       "number": 7,
       "name": "[Unknown witness - later identified as Jean Jacquot]",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "location": "Saint Remy",
@@ -194,6 +213,7 @@
     {
       "number": 8,
       "name": "Jean Didier Cherier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -217,6 +237,7 @@
     {
       "number": 9,
       "name": "Colas Ferry",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -231,6 +252,7 @@
     {
       "number": 10,
       "name": "[Unknown female witness]",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "location": "Saint Remy",
@@ -255,6 +277,7 @@
     {
       "number": 11,
       "name": "Jean Hanna",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -270,6 +293,7 @@
     {
       "number": 12,
       "name": "[Unknown witness]",
+      "person_id": null,
       "gender": "unknown",
       "age": null,
       "location": "Saint Remy",
@@ -283,6 +307,7 @@
     {
       "number": 13,
       "name": "Margueritte femme de Fleurentin Marron",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -298,6 +323,7 @@
     {
       "number": 15,
       "name": "Jennon femme a Jean Henry de la Salle",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -313,6 +339,7 @@
     {
       "number": 16,
       "name": "Colas Hanna",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "age_approximate": true,
@@ -336,6 +363,7 @@
     {
       "number": 17,
       "name": "Jennon femme a Jean Salleneix",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -350,6 +378,7 @@
     {
       "number": 18,
       "name": "Mariette femme a Mengin Gerard",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -365,6 +394,7 @@
     {
       "number": 20,
       "name": "Jean Colas Didier Cherrier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -380,6 +410,7 @@
     {
       "number": 21,
       "name": "Claudon Claude Andreu",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -395,6 +426,7 @@
     {
       "number": 22,
       "name": "Jennon femme à Jean Marron",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -419,6 +451,7 @@
     {
       "number": 23,
       "name": "Mathiette veuve de Colas Marion",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -434,6 +467,7 @@
     {
       "number": 24,
       "name": "Claudatte veuve de Nicolas Chordey",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -449,6 +483,7 @@
     {
       "number": 25,
       "name": "Margueritte femme a Mengeon Moulin",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -464,6 +499,7 @@
     {
       "number": 26,
       "name": "Claudon Colas Marion",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "age_approximate": true,
@@ -479,6 +515,7 @@
     {
       "number": 27,
       "name": "Jennon femme a Colas Didier Cherrier",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "age_approximate": true,
@@ -494,6 +531,7 @@
     {
       "number": 28,
       "name": "Demenge Neise de Welacourt",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "age_approximate": true,
@@ -529,6 +567,7 @@
     {
       "number": 29,
       "name": "Jean Jacquot",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "location": "Saint Remy",
@@ -559,6 +598,7 @@
     {
       "number": 30,
       "name": "Mengeon Moulat",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -573,6 +613,7 @@
     {
       "number": 31,
       "name": "Chrepien Cesar Chrepien",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "age_approximate": true,
@@ -597,6 +638,7 @@
     {
       "number": 32,
       "name": "[Unknown female witness]",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "location": "Saint Remy",
@@ -621,6 +663,7 @@
     {
       "number": 33,
       "name": "[Unknown witness]",
+      "person_id": null,
       "gender": "unknown",
       "age": null,
       "location": "Saint Remy",
@@ -643,6 +686,7 @@
     {
       "number": 34,
       "name": "Colas Colin Gerardin de Nompatelize",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "age_approximate": true,
@@ -1313,7 +1357,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Colas complained that witness 22 had accused him of causing her husband's death; denied being cause",
     "imprisonment_conditions": "Kept in prisons of abbey of Estival",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "First approved torture (18 Jan 1592), then death sentence subject to further interrogation (3 Feb 1592), approved renewed torture (18 Feb 1592), and renewed death sentence (25 Feb 1592)",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1416,95 +1465,112 @@
   "third_parties": [
     {
       "name": "Margo",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "context": "Dead for 14 years; had been reputed and feared as a witch; when there was rumor she would be arrested, begged witness not to help in arresting her"
     },
     {
       "name": "Mengin (brother of Colas)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "context": "Told Colas Declain they had another master than God; fled when asked to repeat remark"
     },
     {
       "name": "Wife of Gerard des Dames",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Fugitive from Ban d'Estivay for same crime; consulted about bewitched cow; identified Colas as 'one of the most perfect' witches"
     },
     {
       "name": "Jean Jacques Diez",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "community member",
       "context": "Suspected Colas of causing his illness 5 years before"
     },
     {
       "name": "Demenge le Salpetrier's wife (deceased)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "wife of witness 28",
       "context": "Died within fortnight saying she was bewitched; family had just arrived in village"
     },
     {
       "name": "Demenge le Salpetrier's mother",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_witness": "mother of witness 28",
       "context": "Was so upset she publicly threatened to have witches arrested by people of Monsieur de Haracourt; overheard at fountain by wife of accused"
     },
     {
       "name": "12-year old girl",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Guarded animals for witness 13; had bad dream about wolf, next morning dream came true (text damaged)"
     },
     {
       "name": "Jean Marron",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Appointed to office previously held by Colas at Christmas; suddenly died during Lent two years ago; widow believed Colas killed him"
     },
     {
       "name": "Nicolas Jean Arnoult",
+      "person_id": null,
       "role_in_narrative": "victim",
       "context": "Seized Colas' wheat against payment of debt; Colas confessed to causing his death under torture (later denied)"
     },
     {
       "name": "Colas Declain",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Maire d'Estinay; reported that Colas' brother Mengin said they had another master than God"
     },
     {
       "name": "Anthoine Chrepien",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "context": "Named by Colas during confession as being seen at sabbat with his brother; already arrested on suspicion of witchcraft; had been tortured 3 times"
     },
     {
       "name": "Chrepien (brother of Anthoine)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "context": "Named as being at sabbat with Anthoine"
     },
     {
       "name": "Colas Cougnolle",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Demenge le Salpetrier lodged in his house, which was close to Colas Mengin's house"
     },
     {
       "name": "Nicolas Mengin",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "Father of Colas; died some 20 years before; lived by 'labouraige'"
     },
     {
       "name": "Les bons hommes of Ban d'Estival",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Carrying out ancient right of jurisdiction; Colas produced before them on three different days"
     },
     {
       "name": "Mre Persin",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Name of devil/master who allegedly seduced Colas at Repy 8 years before"
     },
     {
       "name": "Two unidentified companions",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Accompanied Colas during night visit to Demenge le Salpetrier; kept their backs turned so couldn't be recognized"
     }

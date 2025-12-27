@@ -4,6 +4,8 @@
   "archive_ref": "B 2199 no 1",
   "location": "Bourget d'Amance",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1616-02-03",
     "end": "1616-03-10",
@@ -13,6 +15,7 @@
   "accused": [
     {
       "name": "Jacquotte femme Nicolas Tixerand",
+      "person_id": null,
       "gender": "female",
       "age": 58,
       "age_approximate": true,
@@ -21,6 +24,9 @@
       "residence": "Bourget d'Amance",
       "marital_status": "married",
       "spouse_name": "Nicolas Tixerand",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["other"],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -52,6 +58,7 @@
     {
       "number": 1,
       "name": "Demenge Anguevin dit Barbier",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "huillier (oil merchant)",
@@ -95,6 +102,7 @@
     {
       "number": 2,
       "name": "Landry Jehennel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "vigneron (wine grower)",
@@ -116,6 +124,7 @@
     {
       "number": 3,
       "name": "Jeanne femme Michiel Godar",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -145,6 +154,7 @@
     {
       "number": 4,
       "name": "Marguerite veuve Claude Hersault",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -166,6 +176,7 @@
     {
       "number": 5,
       "name": "Michiel Godar",
+      "person_id": null,
       "gender": "male",
       "age": 31,
       "occupation": "manouvrier (day laborer)",
@@ -187,6 +198,7 @@
     {
       "number": 6,
       "name": "Bastienne femme Nicolas Mercier",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -208,6 +220,7 @@
     {
       "number": 7,
       "name": "Gerard Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "vigneron (wine grower)",
@@ -229,6 +242,7 @@
     {
       "number": 8,
       "name": "Barbe femme Demenge Anguevin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -258,6 +272,7 @@
     {
       "number": 9,
       "name": "Demenge Anguevin le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 22,
       "occupation": "laboureur (farmer)",
@@ -287,6 +302,7 @@
     {
       "number": 10,
       "name": "George Guyart",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "vigneron (wine grower)",
@@ -323,6 +339,7 @@
     {
       "number": 11,
       "name": "Jacquatte femme Didier Martin",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "occupation": "paistre (shepherd's wife)",
@@ -344,6 +361,7 @@
     {
       "number": 12,
       "name": "Barbe veuve Demenge Pouignon",
+      "person_id": null,
       "gender": "female",
       "age": 56,
       "occupation": null,
@@ -373,6 +391,7 @@
     {
       "number": 13,
       "name": "Françoise femme George Guyart",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -394,6 +413,7 @@
     {
       "number": 14,
       "name": "Urbaine veuve Demenge Hermant le jeune",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -962,7 +982,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "imprisoned with Mariette",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1021,6 +1046,7 @@
   "third_parties": [
     {
       "name": "Nicolas Colin",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "debtor to George Guyart for whom Nicolas Tixerand stood caution",
       "relationship_to_witness": "debtor to George Guyart",
@@ -1028,6 +1054,7 @@
     },
     {
       "name": "Nicolas Tixerand",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": null,
@@ -1035,6 +1062,7 @@
     },
     {
       "name": "Tante Anne",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": "neighbor of Barbe Pouignon",
@@ -1042,6 +1070,7 @@
     },
     {
       "name": "midwife",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "attended Jeanne Godar's childbirth",
@@ -1049,6 +1078,7 @@
     },
     {
       "name": "accused's son",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1056,6 +1086,7 @@
     },
     {
       "name": "accused's daughter",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "relationship_to_witness": null,
@@ -1063,6 +1094,7 @@
     },
     {
       "name": "Demenge Hermant le jeune",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "late husband of Urbaine",

@@ -3,6 +3,8 @@
   "archive_ref": "B 3323 no 4",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1602-03-21",
     "end": "1602-04-27",
@@ -12,7 +14,11 @@
   "accused": [
     {
       "name": "Marguerite Jobarde",
+      "person_id": null,
       "gender": "female",
+      "economic_status": "wealthy",
+      "practiced_healing": false,
+      "healing_types": [],
       "age": 60,
       "age_approximate": true,
       "occupation": [],
@@ -52,6 +58,7 @@
     {
       "number": 1,
       "name": "Nicolas Chartey",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": "manouvrier",
@@ -73,6 +80,7 @@
     {
       "number": 2,
       "name": "Bastien Bacourt",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -102,6 +110,7 @@
     {
       "number": 3,
       "name": "Michiel Hellenix",
+      "person_id": null,
       "gender": "male",
       "age": 49,
       "occupation": "laboureur",
@@ -138,6 +147,7 @@
     {
       "number": 4,
       "name": "Nicolas Mongeron",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": "marechal",
@@ -159,6 +169,7 @@
     {
       "number": 5,
       "name": "Nicolas Demenge Mongin",
+      "person_id": null,
       "gender": "male",
       "age": 66,
       "occupation": "tailleur d'habitz",
@@ -188,6 +199,7 @@
     {
       "number": 6,
       "name": "Marguerite veuve Demenge Jacquemin",
+      "person_id": null,
       "gender": "female",
       "age": 64,
       "occupation": null,
@@ -217,6 +229,7 @@
     {
       "number": 7,
       "name": "Estienne Cougnat",
+      "person_id": null,
       "gender": "male",
       "age": 56,
       "occupation": "laboureur, maire",
@@ -260,6 +273,7 @@
     {
       "number": 8,
       "name": "Nicolas Hardier",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "tixerand",
@@ -281,6 +295,7 @@
     {
       "number": 9,
       "name": "Allison femme Mre Estienne Cougnat",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -324,6 +339,7 @@
     {
       "number": 10,
       "name": "Mre Germain Haut Germain",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "maire",
@@ -345,6 +361,7 @@
     {
       "number": 11,
       "name": "Nicolas Estienne",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "marchal",
@@ -366,6 +383,7 @@
     {
       "number": 12,
       "name": "Jennon veuve Claudon Jacquemin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -395,6 +413,7 @@
     {
       "number": 13,
       "name": "Demenge Grand Colas",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "parmentier",
@@ -424,6 +443,7 @@
     {
       "number": 14,
       "name": "Jehenne Vannier",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": "chambermaid",
@@ -453,6 +473,7 @@
     {
       "number": 15,
       "name": "Michiel Breton",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "laboureur",
@@ -474,6 +495,7 @@
     {
       "number": 16,
       "name": "Nicolas Barbe",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "laboureur",
@@ -503,6 +525,7 @@
     {
       "number": 17,
       "name": "Jean Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -539,6 +562,7 @@
     {
       "number": 18,
       "name": "Jean Courtier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -1518,7 +1542,13 @@
     "redress_outcome": null,
     "imprisonment_conditions": "Locked up at Gelaucourt; released by Michiel Breton who drew bolt of door from outside",
     "appeal_to_change_de_nancy": false,
-    "property_confiscation_mentioned": true
+    "property_confiscation_mentioned": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture with moderation for age; approved death sentence",
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 16,
@@ -1547,9 +1577,18 @@
     ],
     "oldest_accusation_years": 30,
     "corroboration_groups": [
-      [7, 9],
-      [13, 14],
-      [1, 10]
+      [
+        7,
+        9
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        1,
+        10
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1588,224 +1627,256 @@
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow accused witch who denounced her",
       "relationship_to_witness": null,
-      "context": "Banished for witchcraft 7 years before trial; denounced Marguerite Jobarde and Mathieu Margeron to Commandeur of Gelaucourt as two particularly bad witches deserving burning more than him"
+      "context": "Banished for witchcraft 7 years before trial; denounced Marguerite Jobarde and Mathieu Margeron to Commandeur of Gelaucourt as two particularly bad witches deserving burning more than him",
+      "person_id": null
     },
     {
       "name": "Mathieu Margeron",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "co-denounced by Jean Bon Claude",
       "relationship_to_witness": null,
-      "context": "Identified by Jean Bon Claude as one of two particularly bad witches at Leintrey ('le gros Mathieu Margueron')"
+      "context": "Identified by Jean Bon Claude as one of two particularly bad witches at Leintrey ('le gros Mathieu Margueron')",
+      "person_id": null
     },
     {
       "name": "Jenatte Thoussainct",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Initially suggested as one of three witches identified by Jean Bon Claude ('femme au dessoubz d'icelle [eglise]')"
+      "context": "Initially suggested as one of three witches identified by Jean Bon Claude ('femme au dessoubz d'icelle [eglise]')",
+      "person_id": null
     },
     {
       "name": "le Grand Vaultrin",
       "role_in_narrative": "other",
       "relationship_to_accused": "former master, father-in-law",
       "relationship_to_witness": null,
-      "context": "Accused spent last 3 years of service in his household at Leintrey before marrying his son Demenge Vaultrin"
+      "context": "Accused spent last 3 years of service in his household at Leintrey before marrying his son Demenge Vaultrin",
+      "person_id": null
     },
     {
       "name": "Estienne Marchal's wife",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "told information to accused",
-      "context": "Told la Jobarde that Estienne Cougnat was in danger of death during his illness"
+      "context": "Told la Jobarde that Estienne Cougnat was in danger of death during his illness",
+      "person_id": null
     },
     {
       "name": "Jean Mongeat",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "victim of her interference",
       "relationship_to_witness": null,
-      "context": "Sought hand of daughter of Nicolas Florentin but refused because accused advised against him; has a chambermaid who reported to accused"
+      "context": "Sought hand of daughter of Nicolas Florentin but refused because accused advised against him; has a chambermaid who reported to accused",
+      "person_id": null
     },
     {
       "name": "Nicolas Florentin",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Father at Amenoncourt who refused Jean Mongeat's suit for his daughter's hand on advice of accused"
+      "context": "Father at Amenoncourt who refused Jean Mongeat's suit for his daughter's hand on advice of accused",
+      "person_id": null
     },
     {
       "name": "Jean Mongeat's chambermaid",
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "informant",
       "relationship_to_witness": null,
-      "context": "Reported remarks of Estienne Cougnat and companion to la Jobarde"
+      "context": "Reported remarks of Estienne Cougnat and companion to la Jobarde",
+      "person_id": null
     },
     {
       "name": "Mre Jean Dommerey, curé of Reillon",
       "role_in_narrative": "official",
       "relationship_to_accused": "suspected her",
       "relationship_to_witness": "employer of witness 8",
-      "context": "During final illness sent servant with herbs to get accused to recognize and touch them; saw accused and another woman dancing in fields"
+      "context": "During final illness sent servant with herbs to get accused to recognize and touch them; saw accused and another woman dancing in fields",
+      "person_id": null
     },
     {
       "name": "Jean Gadel",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "In his house when accused came wanting to try perry; witness 9 was there"
+      "context": "In his house when accused came wanting to try perry; witness 9 was there",
+      "person_id": null
     },
     {
       "name": "young brother of 'trompette de Colbay'",
       "role_in_narrative": "victim",
       "relationship_to_accused": "guest in her house",
       "relationship_to_witness": null,
-      "context": "Money stolen from him outside Leintrey when staying in Jobarde's house"
+      "context": "Money stolen from him outside Leintrey when staying in Jobarde's house",
+      "person_id": null
     },
     {
       "name": "trompette de Colbay",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Brother whose money was stolen; Jean Marchal objected to him about being accused by witches"
+      "context": "Brother whose money was stolen; Jean Marchal objected to him about being accused by witches",
+      "person_id": null
     },
     {
       "name": "Claudon Marie",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "initially accused by her of theft",
       "relationship_to_witness": null,
-      "context": "Accused by Jobarde of stealing money; Jean Bon Claude and la Grande Marye appeared to declare him innocent"
+      "context": "Accused by Jobarde of stealing money; Jean Bon Claude and la Grande Marye appeared to declare him innocent",
+      "person_id": null
     },
     {
       "name": "la Grande Marye",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "rival/enemy; later named as accomplice",
       "relationship_to_witness": null,
-      "context": "Sister of Jean Bon Claude; defended Claudon Marie against accusation; all three called one another witches; later named by accused as seen at sabbat"
+      "context": "Sister of Jean Bon Claude; defended Claudon Marie against accusation; all three called one another witches; later named by accused as seen at sabbat",
+      "person_id": null
     },
     {
       "name": "Mengin Claude",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
-      "context": "Neighbor whose house Nicolas Demenge Mongin was working outside when accused approached"
+      "context": "Neighbor whose house Nicolas Demenge Mongin was working outside when accused approached",
+      "person_id": null
     },
     {
       "name": "Colin l'escorcheur de Blamont",
       "role_in_narrative": "official",
       "relationship_to_accused": "advised her about dog's head",
       "relationship_to_witness": null,
-      "context": "Told her about 2 years before trial that she should get a dog's head for swellings in animals and have it blessed"
+      "context": "Told her about 2 years before trial that she should get a dog's head for swellings in animals and have it blessed",
+      "person_id": null
     },
     {
       "name": "Colas Foudré",
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Young man of Brouville from whom accused claimed to have heard gossip about Nicolas Demenge Mongin's parentage and sabbat activities"
+      "context": "Young man of Brouville from whom accused claimed to have heard gossip about Nicolas Demenge Mongin's parentage and sabbat activities",
+      "person_id": null
     },
     {
       "name": "Demenge Waultrin",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "late husband",
       "relationship_to_witness": null,
-      "context": "Died 4 or 5 years before trial; had lawsuit with community over path through field; his horse beat Jean Marchal's in race"
+      "context": "Died 4 or 5 years before trial; had lawsuit with community over path through field; his horse beat Jean Marchal's in race",
+      "person_id": null
     },
     {
       "name": "Vaultrin (son)",
       "role_in_narrative": "victim",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
-      "context": "Confessed under torture to killing him because he failed to repay loan of 100 francs"
+      "context": "Confessed under torture to killing him because he failed to repay loan of 100 francs",
+      "person_id": null
     },
     {
       "name": "Colas (son)",
       "role_in_narrative": "victim",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
-      "context": "Confessed under torture to killing a cow and 6 lambs belonging to him because he had also borrowed money from her"
+      "context": "Confessed under torture to killing a cow and 6 lambs belonging to him because he had also borrowed money from her",
+      "person_id": null
     },
     {
       "name": "Nicolas Vaultin dit Jobard",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
-      "context": "Ex-maire of Leintrey; applied for remission of confiscated goods on behalf of himself and his niece Claude; paid costs and 1,283 Fr"
+      "context": "Ex-maire of Leintrey; applied for remission of confiscated goods on behalf of himself and his niece Claude; paid costs and 1,283 Fr",
+      "person_id": null
     },
     {
       "name": "Claude, fille pupille of late Vaultrin Jobard",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "granddaughter",
       "relationship_to_witness": null,
-      "context": "Aged 7; beneficiary with Nicolas Vaultin of property remission"
+      "context": "Aged 7; beneficiary with Nicolas Vaultin of property remission",
+      "person_id": null
     },
     {
       "name": "Claude Seard",
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Prévôt of Blamont; applied for allocation of confiscated property; allowed 600 Fr"
+      "context": "Prévôt of Blamont; applied for allocation of confiscated property; allowed 600 Fr",
+      "person_id": null
     },
     {
       "name": "Jean Thenon",
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Jardinier de la maison de son altesse à Blamont; applied for property allocation; allowed 200 Fr"
+      "context": "Jardinier de la maison de son altesse à Blamont; applied for property allocation; allowed 200 Fr",
+      "person_id": null
     },
     {
       "name": "Demenge le Clerc",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "relationship_to_witness": null,
-      "context": "Laboureur; father of accused; from Colbay"
+      "context": "Laboureur; father of accused; from Colbay",
+      "person_id": null
     },
     {
       "name": "Sebille",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
-      "context": "Mother of accused"
+      "context": "Mother of accused",
+      "person_id": null
     },
     {
       "name": "femme Michiel Didier Breton",
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
-      "context": "Sister of accused; seen with her in fields by Jean Marchal"
+      "context": "Sister of accused; seen with her in fields by Jean Marchal",
+      "person_id": null
     },
     {
       "name": "Clemence (wife of Mre Germain Hautz Germain)",
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "wife of witness 10",
-      "context": "Object of romantic attention from Nicolas Barbe and Nicolas Jobard when of marriageable age"
+      "context": "Object of romantic attention from Nicolas Barbe and Nicolas Jobard when of marriageable age",
+      "person_id": null
     },
     {
       "name": "abbé of Dompierre",
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
-      "context": "Shared tithes with curé of Leintrey"
+      "context": "Shared tithes with curé of Leintrey",
+      "person_id": null
     },
     {
       "name": "curé of Leintrey",
       "role_in_narrative": "official",
       "relationship_to_accused": "subject of quarrel",
       "relationship_to_witness": null,
-      "context": "Made agreement with Michiel Hellenix to cart tithes; shared them with abbé of Dompierre; community complained he had cost too much to build his house"
+      "context": "Made agreement with Michiel Hellenix to cart tithes; shared them with abbé of Dompierre; community complained he had cost too much to build his house",
+      "person_id": null
     },
     {
       "name": "Messire Dieudonné",
       "role_in_narrative": "official",
       "relationship_to_accused": "refused to bless dog's head",
       "relationship_to_witness": null,
-      "context": "Curé who refused to bless dog's head"
+      "context": "Curé who refused to bless dog's head",
+      "person_id": null
     },
     {
       "name": "Messire François",
       "role_in_narrative": "official",
       "relationship_to_accused": "refused to bless dog's head",
       "relationship_to_witness": null,
-      "context": "Chaplain who refused to bless dog's head"
+      "context": "Chaplain who refused to bless dog's head",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

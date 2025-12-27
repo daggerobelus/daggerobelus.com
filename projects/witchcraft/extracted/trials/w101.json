@@ -3,6 +3,14 @@
   "archive_ref": "B 5344 no 4",
   "location": "Amange (Insming)",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": {
+    "name": "C.M. Rémy",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Dieuze/Nancy region",
+    "relationship_to_accused": "prosecuting official"
+  },
   "dates": {
     "start": "1608-11-12",
     "end": "1609-01-31",
@@ -12,9 +20,17 @@
   "accused": [
     {
       "name": "Synnelle femme Schur Adam",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "charms_amulets",
+        "veterinary",
+        "touch_healing"
+      ],
       "occupation": [
         "healer",
         "butter maker"
@@ -39,6 +55,7 @@
     {
       "number": 1,
       "name": "Sybille femme Stoffel Marchal",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Amange (Insming)",
@@ -53,6 +70,7 @@
     {
       "number": 2,
       "name": "Mathis Schwab",
+      "person_id": null,
       "gender": "male",
       "age": 62,
       "location": "Amange (Insming)",
@@ -67,6 +85,7 @@
     {
       "number": 3,
       "name": "Stoffel Marchal",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "location": "Amange (Insming)",
@@ -81,6 +100,7 @@
     {
       "number": 4,
       "name": "Luc Reise",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "location": "Amange (Insming)",
@@ -107,6 +127,7 @@
     {
       "number": 5,
       "name": "Synnelle femme Gaspar Cherrier",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "location": "Amange (Insming)",
@@ -120,6 +141,7 @@
     {
       "number": 6,
       "name": "Estienne Schwab",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Amange (Insming)",
@@ -133,6 +155,7 @@
     {
       "number": 7,
       "name": "Jean Cordonnier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Amange (Insming)",
@@ -146,6 +169,7 @@
     {
       "number": 8,
       "name": "Nicolas Pescheur",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "location": "Amange (Insming)",
@@ -159,6 +183,7 @@
     {
       "number": 9,
       "name": "Guillaume Thomas",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Amange (Insming)",
@@ -172,6 +197,7 @@
     {
       "number": 10,
       "name": "Jean Cailla",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "location": "Amange (Insming)",
@@ -185,6 +211,7 @@
     {
       "number": 11,
       "name": "Synnelle femme Nicolas Pescheur",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Amange (Insming)",
@@ -199,6 +226,7 @@
     {
       "number": 12,
       "name": "Bingel femme Luc Reise",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Amange (Insming)",
@@ -220,6 +248,7 @@
     {
       "number": 13,
       "name": "Fritsche Cordonnier",
+      "person_id": null,
       "gender": "male",
       "age": 29,
       "location": "Amange (Insming)",
@@ -233,6 +262,7 @@
     {
       "number": 14,
       "name": "Simon Barbier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "bangard (field guard)",
@@ -247,6 +277,7 @@
     {
       "number": 15,
       "name": "Clement Thiebault",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "paticier",
@@ -273,6 +304,7 @@
     {
       "number": 16,
       "name": "Dimenche Welsche",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "location": "Amange (Insming)",
@@ -286,6 +318,7 @@
     {
       "number": 17,
       "name": "Jean Cousturier",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "location": "Amange (Insming)",
@@ -300,6 +333,7 @@
     {
       "number": 18,
       "name": "Nicolas Leuffer",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "location": "Amange (Insming)",
@@ -313,6 +347,7 @@
     {
       "number": 19,
       "name": "Jehanne femme François Oudat",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "location": "Amange (Insming)",
@@ -745,6 +780,12 @@
     "redress_outcome": "Settlement reached before prévôt regarding Clement Thiebault calling her a witch",
     "imprisonment_conditions": null,
     "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Rémy requested 'question ordinaire mediocre' (moderate torture) on 14 January 1609. Change de Nancy rejected this and instead ordered more confrontations with witnesses and specific questioning about healing methods. On 28 January 1609, Change ordered she be shown instruments of torture only, and if no confession, to be released with warning not to use prayers again.",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -809,6 +850,7 @@
   "third_parties": [
     {
       "name": "Schuin Hanns",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "community member who allegedly asked about butter-making secrets",
       "context": "Currently absent during trial. Allegedly asked Synnelle how she made more butter; she offered to teach him 'la science' by collecting May dew; he saw a black man/devil and fled. Synnelle accused him of being a thief who stole barley and fled to avoid corporal punishment.",
@@ -816,48 +858,56 @@
     },
     {
       "name": "Synnelle femme Hanns Schneider",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "another witch, already executed; Synnelle claimed she hated her over butter sale refusal",
       "context": "Already executed for witchcraft. Asked if Synnelle had been with her at festival or to kill animals. Synnelle denied and said this woman hated her because she refused to sell her butter."
     },
     {
       "name": "Elisabet femme Barthelemin Cousturier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor/acquaintance who told story about magical hair braid",
       "context": "Told Synnelle about her father finding a hair braid (tresse des cheveulx) in fields that was full of knots and could be hidden in a hole to produce abundant butter"
     },
     {
       "name": "Laurent Andreu",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "Father of Synnelle; was a laboureur (farmer); from Fribourg"
     },
     {
       "name": "Odille",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "mother",
       "context": "Mother of Synnelle; from Fribourg"
     },
     {
       "name": "Schnur Adam",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "context": "Married Synnelle at Fribourg; lived with her ever since. According to witness 16, he told people about her extraordinary butter production."
     },
     {
       "name": "woman who no longer lived there (unnamed)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "former community member",
       "context": "Her husband criticized her for not getting as much butter as Synnelle; allegedly told by Synnelle to collect May dew; she and husband encountered the devil in the meadow and fled"
     },
     {
       "name": "wife of Schuin Hanns",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "community member",
       "context": "Her husband told her he had seen the devil and if he had taken the dew he would have learned witchcraft"
     },
     {
       "name": "Barthelemin Cousturier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "community member",
       "relationship_to_witness": "husband of Elisabet",
@@ -865,12 +915,14 @@
     },
     {
       "name": "father of Elisabet femme Barthelemin Cousturier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "indirect (through Elisabet)",
       "context": "Allegedly found the magical hair braid (tresse a lier les cheveulx) in fields that was full of knots"
     },
     {
       "name": "unnamed woman (now dead)",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "teacher of healing prayers",
       "context": "Woman from whom Synnelle learned the healing prayers; now dead. Synnelle noted prayers rhymed better in German than French since she was German."

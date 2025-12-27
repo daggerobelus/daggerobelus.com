@@ -1,0 +1,1265 @@
+{
+  "trial_id": "w181",
+  "archive_ref": "B 8682 no 3",
+  "location": "Moriviller",
+  "language_region": "french",
+  "dates": {
+    "start": "1598-03-12",
+    "end": "1598-04-07",
+    "duration_days": 26
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Jean Pelisson",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["other"],
+      "occupation": ["rouyer"],
+      "origin": "Moriviller",
+      "residence": "Moriviller",
+      "marital_status": "married",
+      "spouse_name": "Catherine",
+      "confession": {
+        "confessed": true,
+        "under_torture": false,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Jolibois",
+        "devil_appearance": "man in black; later appeared in black robe like a priest",
+        "seduction_date": "7 years earlier (1591)",
+        "seduction_context": "Passing woods on way back from market at Gerbeviller, angry about property dispute with Didier Galand over 'retraite' rights to fields sold by nephew Claudon Ferry for 27-28 francs. Galand threw money on dungheap. Man in black called Jolibois appeared and persuaded him to renounce God.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["grey powder (to kill)", "black powder (to cause languishing)", "healing powder"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["near Gerbeviller"],
+        "sabbat_activities": ["dancing without music", "eating cooked meat that vanished", "making hail"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Pierre Chrestien",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "finest calf",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Thoussainct Gomay",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "location": "Moriviller",
+      "relationship_to_accused": "nearest neighbour",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean claimed witness had stolen a rope from him",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "2 cows",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "3 horses",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "after quarrel"
+          },
+          {
+            "type": "animal_death",
+            "target": "6 calves",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "after quarrel"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Clemence fille Parisot Goeury",
+      "person_id": null,
+      "gender": "female",
+      "age": 25,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean had beaten her brother Didier twice for no serious reason; mother went to tell him off",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "witness's mother",
+            "target_relationship": "mother",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "human_injury",
+            "target": "Clemence",
+            "target_relationship": "self",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "afterwards"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 4,
+      "name": "Dieudonnée femme Pierre Chrestien",
+      "person_id": null,
+      "gender": "female",
+      "age": 56,
+      "location": "Moriviller",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "calf",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "after he was seen looking at animals"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Catherine veuve Demenge Perrise",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "marital_status": "widowed",
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Demenge Perrise",
+            "target_relationship": "husband",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "within a week of borrowing tools"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Colas Guezey",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "called_witch_publicly": true,
+        "sought_legal_redress": false
+      }
+    },
+    {
+      "number": 7,
+      "name": "Anthoinette femme Claudon Poirresson",
+      "person_id": null,
+      "gender": "female",
+      "age": 70,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 8,
+      "name": "Parisot Goeury",
+      "person_id": null,
+      "gender": "male",
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "witness's wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Catherine fille feu Demenge Perrise",
+      "person_id": null,
+      "gender": "female",
+      "age": 22,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Demenge Perrise",
+            "target_relationship": "father",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "same night when he had been to ask for loan of tools"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Claudatte femme Thoussainct Gornay",
+      "person_id": null,
+      "gender": "female",
+      "location": "Moriviller",
+      "relationship_to_accused": "neighbor",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel with Jean's wife over hen he had killed",
+        "threat_received": true,
+        "threat_quote": "wished devil might kill him as he had the hen",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "several cattle",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "afterwards"
+          },
+          {
+            "type": "animal_death",
+            "target": "horses",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "afterwards"
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Dieudonné Galand",
+      "person_id": null,
+      "gender": "male",
+      "age": 56,
+      "occupation": "maire",
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "unspecified quarrel",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "several horses",
+            "target_relationship": "witness's own animals",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "after quarrel"
+          },
+          {
+            "type": "animal_illness",
+            "target": "fine horse",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "6 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Jean Guezey",
+      "person_id": null,
+      "gender": "male",
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_injury",
+            "target": "Jean Guezey",
+            "target_relationship": "self",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "before he got home"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Jean Masson",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false
+      }
+    },
+    {
+      "number": 14,
+      "name": "Jean Serainville",
+      "person_id": null,
+      "gender": "male",
+      "age": 80,
+      "occupation": "maire",
+      "location": "Claeures",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Jean as tithe collector approached witness while harvesting barley",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "other",
+            "target": "unknown",
+            "target_relationship": "unknown",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "12 years before"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Nicolas Saulnier",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "quarrel when collecting a tax",
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "witness's own animal",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "a week later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Jean Claude Felippé",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "witness's wife",
+            "target_relationship": "wife",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "13 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Estienne Brouvellant",
+      "person_id": null,
+      "gender": "male",
+      "location": "Moriviller",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "threat_received": false,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "children",
+            "target_relationship": "witness's children",
+            "attributed_to": "Jean Pelisson",
+            "time_after_quarrel": "unknown"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1598-03-12",
+      "event": "informations_preparatoires",
+      "subject": "Jean Pelisson",
+      "details": "17 witnesses testified"
+    },
+    {
+      "date": "1598-03-12",
+      "event": "interrogation",
+      "subject": "Jean Pelisson",
+      "details": "Denied all charges"
+    },
+    {
+      "date": "1598-03-13",
+      "event": "confrontation",
+      "subject": "Jean Pelisson",
+      "details": "No reproaches to witnesses, mostly simple denials"
+    },
+    {
+      "date": "1598-03-16",
+      "event": "confrontation",
+      "subject": "Jean Pelisson",
+      "details": "Confronted with daughter Georgeatte who insisted she had seen him at sabbats"
+    },
+    {
+      "date": "1598-03-16",
+      "event": "interrogation",
+      "subject": "Jean Pelisson",
+      "details": "After confrontation with daughter, began to confess. Described seduction 7 years earlier, receiving powder, attending sabbat, causing harms."
+    },
+    {
+      "date": "1598-03-20",
+      "event": "interrogation",
+      "subject": "Jean Pelisson",
+      "details": "Additional confession details, admitted killing son of Colas Cunin"
+    },
+    {
+      "date": "1598-03-24",
+      "event": "death_requested",
+      "subject": "Jean Pelisson",
+      "details": "Procureur asks for death sentence"
+    },
+    {
+      "date": "1598-03-28",
+      "event": "death_approved",
+      "subject": "Jean Pelisson",
+      "details": "Change de Nancy approves, subject to final confirmation of confessions"
+    },
+    {
+      "date": "1598-04-04",
+      "event": "interrogation",
+      "subject": "Jean Pelisson",
+      "details": "Confirmed his confessions"
+    },
+    {
+      "date": "1598-04-07",
+      "event": "execution",
+      "subject": "Jean Pelisson",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": false
+  },
+  "accomplices_named": [
+    {
+      "name": "Georgeatte",
+      "location": "Moriviller",
+      "context": "Jean's daughter; recognized at sabbat; she had accused him during trial",
+      "already_executed": false
+    },
+    {
+      "name": "Parisot Goeury",
+      "location": "Moriviller",
+      "context": "Recognized at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "Didielle",
+      "location": "Moriviller",
+      "context": "Recognized at sabbat; lived in house of Jean Masson",
+      "already_executed": false
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Jennon",
+      "accuser_location": "Moriviller",
+      "context": "Jean's first wife, executed as witch 10 years earlier",
+      "already_executed": true
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Pierre Chrestien",
+      "french": "que s'il est sorcier il a faict beaucoup de mal, et est l'ung des fins et rusez sorciers qui se puisse veoir",
+      "english": "that if he is a witch he has done much harm, and is one of the most cunning and clever witches that one could see",
+      "context": "Witness testimony about Jean's reputation"
+    },
+    {
+      "speaker": "Jean Pelisson",
+      "french": "qu'il cognoist asseurement maintenant, estre aussy difficile de cognoistre les hommes de bien, entre les meschans, comme il est difficile de discerner entre cent corbeaux les femelles d'avec les masles",
+      "english": "that he now knows for certain, it is as difficult to recognize good men among the wicked, as it is difficult to distinguish between a hundred crows the females from the males",
+      "context": "Jean's comment about his daughter accusing him"
+    },
+    {
+      "speaker": "Jean Pelisson",
+      "french": "qu'il prioit dieu qu'il fut sorcier",
+      "english": "that he prayed to God that he was a witch",
+      "context": "Said previous evening, explained he wished to be able to confess"
+    },
+    {
+      "speaker": "Jean Pelisson",
+      "french": "qu'il n'y a poinct de plus dangereuses maladies que celles qui saisissent les personnes au lict ou a l'eglise",
+      "english": "that there are no more dangerous illnesses than those which seize people in bed or at church",
+      "context": "Response to Catherine fille Demenge Perrise during confrontation"
+    },
+    {
+      "speaker": "Jean Pelisson",
+      "french": "sy ce n'est avec une bonne devotion et ferme foid envers dieu",
+      "english": "unless it is with good devotion and firm faith toward God",
+      "context": "Explaining that sign of cross alone not enough protection"
+    },
+    {
+      "speaker": "Jean Pelisson",
+      "french": "il en mourroit plus librement",
+      "english": "he would die more freely",
+      "context": "If he knew something would be done for his wife and children"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Jean Pelisson",
+      "person2": "Jennon",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Married for 17 years to first wife Jennon, executed as witch 10 years earlier",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Pelisson",
+      "person2": "Catherine",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "married for 7 years to present wife Catherine",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Pelisson",
+      "person2": "Georgeatte",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his daughter Georgeatte; daughter from first marriage",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Pelisson",
+      "person2": "Claudon Ferry",
+      "relationship_type": "uncle_aunt_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "his nephew Claudon Ferry",
+      "inferred": false
+    },
+    {
+      "person1": "Pierre Chrestien",
+      "person2": "Dieudonnée femme Pierre Chrestien",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Dieudonnée femme Pierre Chrestien",
+      "inferred": false
+    },
+    {
+      "person1": "Thoussainct Gomay",
+      "person2": "Jean Pelisson",
+      "relationship_type": "neighbor_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "accused",
+      "evidence_text": "Jean, his nearest neighbour",
+      "inferred": false
+    },
+    {
+      "person1": "Thoussainct Gomay",
+      "person2": "Claudatte femme Thoussainct Gornay",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Claudatte femme Thoussainct Gornay",
+      "inferred": false
+    },
+    {
+      "person1": "Clemence fille Parisot Goeury",
+      "person2": "Parisot Goeury",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Clemence fille Parisot Goeury",
+      "inferred": false
+    },
+    {
+      "person1": "Clemence fille Parisot Goeury",
+      "person2": "Didier",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her brother Didier",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve Demenge Perrise",
+      "person2": "Demenge Perrise",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Catherine veuve Demenge Perrise",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine fille feu Demenge Perrise",
+      "person2": "Demenge Perrise",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Catherine fille feu Demenge Perrise",
+      "inferred": false
+    },
+    {
+      "person1": "Catherine veuve Demenge Perrise",
+      "person2": "Catherine fille feu Demenge Perrise",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Same story as mother",
+      "inferred": false
+    },
+    {
+      "person1": "Anthoinette femme Claudon Poirresson",
+      "person2": "Claudon Poirresson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anthoinette femme Claudon Poirresson",
+      "inferred": false
+    },
+    {
+      "person1": "Jean Claude Felippé",
+      "person2": "Jean Claude Felippé's wife",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his wife had been ill for 3 years",
+      "inferred": false
+    },
+    {
+      "person1": "Dieudonné Galand",
+      "person2": "Sibille",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "sent daughter Sibille",
+      "inferred": false
+    },
+    {
+      "person1": "Dieudonné Galand",
+      "person2": "Didier Galand",
+      "relationship_type": "other_kin",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Didier Galand purchased fields; likely son or brother",
+      "inferred": true
+    },
+    {
+      "person1": "Colas Cunin",
+      "person2": "son of Colas Cunin",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "victim",
+      "evidence_text": "killing son of Colas Cunin",
+      "inferred": false
+    },
+    {
+      "person1": "Didielle",
+      "person2": "Jean Masson",
+      "relationship_type": "servant_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "witness",
+      "evidence_text": "Didielle, who lived in house of Jean Masson",
+      "inferred": false
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "finest calf",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "lost finest calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean found leaning on post looking at animals",
+      "time_between_quarrel_and_harm": "afterwards",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "ox",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "judged to be bewitched",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean accused witness of stealing rope; witness struck him 3-4 blows across back",
+      "time_between_quarrel_and_harm": "7 years earlier",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "cows",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "judged to be bewitched",
+      "animal_type": "cow",
+      "animal_count": 2,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean accused witness of stealing rope; witness struck him 3-4 blows across back",
+      "time_between_quarrel_and_harm": "7 years earlier",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "judged to be bewitched",
+      "animal_type": "horse",
+      "animal_count": 3,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean accused witness of stealing rope; witness struck him 3-4 blows across back",
+      "time_between_quarrel_and_harm": "7 years earlier",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "calves",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "judged to be bewitched",
+      "animal_type": "calf",
+      "animal_count": 6,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean accused witness of stealing rope; witness struck him 3-4 blows across back",
+      "time_between_quarrel_and_harm": "7 years earlier",
+      "witness_number": 2
+    },
+    {
+      "victim_name": "mother of Clemence",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_death",
+      "harm_description": "fell ill, surgeons and doctors could do nothing, said she was bewitched, died after languishing for 19 weeks",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean had beaten witness's brother Didier twice; mother went to tell him off, said he was 'glorieux et superbe'",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Clemence fille Parisot Goeury",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "fall from hayloft",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "quarrelled with him when she found him beating one of her brothers; reminded him of mother's death",
+      "time_between_quarrel_and_harm": "afterwards",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "calf",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "lost calf",
+      "animal_type": "calf",
+      "animal_count": 1,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "Jean found looking at animals to see if their calves were finer than his own",
+      "time_between_quarrel_and_harm": "afterwards",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Demenge Perrise",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_death",
+      "harm_description": "fell ill and died within a week, believing he was bewitched",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "jealousy because both practised same trade (rouyer)",
+      "time_between_quarrel_and_harm": "within a week of borrowing tools",
+      "method_alleged": "powder",
+      "witness_number": 5
+    },
+    {
+      "victim_name": "Demenge Perrise",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "illness came on same night when he had been to ask for loan of tools",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "asking to borrow tools to make yoke for oxen",
+      "time_between_quarrel_and_harm": "same night",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "cattle",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "died in strange fashion",
+      "animal_type": "cattle",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "quarrel with his wife over hen he had killed; witness wished devil might kill him",
+      "time_between_quarrel_and_harm": "afterwards",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "died in strange fashion",
+      "animal_type": "horse",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "quarrel with his wife over hen he had killed",
+      "time_between_quarrel_and_harm": "afterwards",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "horses",
+      "victim_relationship_to_witness": "witness's own animals",
+      "harm_category": "animal_death",
+      "harm_description": "died as if rabid after quarrel",
+      "animal_type": "horse",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "quarrel",
+      "time_between_quarrel_and_harm": "after quarrel",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "fine horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_illness",
+      "harm_description": "sick, smoking like a furnace",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Pelisson",
+      "time_between_quarrel_and_harm": "6 years earlier",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "Jean Guezey",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "lost use of an eye in strange fashion",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "had passed Jean in woods without saying anything",
+      "time_between_quarrel_and_harm": "before he got home",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "horse",
+      "victim_relationship_to_witness": "witness's own animal",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill, finally had to be killed",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "quarrel when collecting a tax",
+      "time_between_quarrel_and_harm": "a week later",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "wife of Jean Claude Felippé",
+      "victim_relationship_to_witness": "wife",
+      "harm_category": "human_illness",
+      "harm_description": "had been ill for 3 years",
+      "attributed_to": "Jean Pelisson",
+      "time_between_quarrel_and_harm": "13 years earlier",
+      "witness_number": 16
+    },
+    {
+      "victim_name": "children of Estienne Brouvellant",
+      "victim_relationship_to_witness": "witness's children",
+      "harm_category": "human_death",
+      "harm_description": "death of children as if rabid",
+      "attributed_to": "Jean Pelisson",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "2 horses belonging to maire Galand",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "animal_death",
+      "harm_description": "killed by putting powder in drinking trough",
+      "animal_type": "horse",
+      "animal_count": 2,
+      "attributed_to": "Jean Pelisson",
+      "method_alleged": "powder in drinking trough"
+    },
+    {
+      "victim_name": "animals of Thoussainct Gomay",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "animal_death",
+      "harm_description": "admitted killing after quarrels",
+      "attributed_to": "Jean Pelisson",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "animals of Nicolas Saulnier",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "animal_death",
+      "harm_description": "admitted killing after quarrels",
+      "attributed_to": "Jean Pelisson",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "wife of Jean Claude Phelippe",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "human_illness",
+      "harm_description": "made ill 'pour quelque envie', then after 3 months felt pity and healed her with different kind of powder in a pear",
+      "attributed_to": "Jean Pelisson",
+      "method_alleged": "powder, later healed with powder in pear"
+    },
+    {
+      "victim_name": "son of Colas Cunin",
+      "victim_relationship_to_witness": "other",
+      "harm_category": "human_death",
+      "harm_description": "pretended to help boy water horses, and put some powder on his leg",
+      "attributed_to": "Jean Pelisson",
+      "precipitating_quarrel": "wife told him Cunin had tried to seduce her on way back from market",
+      "method_alleged": "powder on leg"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "rope",
+      "context": "Jean claimed witness had stolen a rope from him and was using it to harness his horses",
+      "category": "tools"
+    },
+    {
+      "object": "tools for making yoke",
+      "context": "Demenge Perrise asked to borrow tools from Jean to make yoke for oxen",
+      "category": "tools"
+    },
+    {
+      "object": "hen",
+      "context": "quarrel with his wife over hen he had killed",
+      "category": "food"
+    },
+    {
+      "object": "magical powder - grey",
+      "context": "grey powder to kill",
+      "category": "magical"
+    },
+    {
+      "object": "magical powder - black",
+      "context": "black powder to cause languishing",
+      "category": "magical"
+    },
+    {
+      "object": "healing powder",
+      "context": "different kind of powder used to heal Jean Claude Phelippe's wife, placed in a pear",
+      "category": "magical"
+    },
+    {
+      "object": "pear",
+      "context": "used to deliver healing powder to Jean Claude Phelippe's wife",
+      "category": "food"
+    },
+    {
+      "object": "chicken",
+      "context": "tested black powder on chicken, which remained ill for a year; killed it and gave it to children to eat",
+      "category": "food"
+    },
+    {
+      "object": "cooked meat on big platter",
+      "context": "meat at sabbat on 'un grand plat bigairé', which vanished when they went to eat it",
+      "category": "food"
+    },
+    {
+      "object": "money - 27 or 28 francs",
+      "context": "price for 2 fields sold by Claudon Ferry to Didier Galand; Galand threw money on dungheap",
+      "category": "money"
+    },
+    {
+      "object": "resal of oats",
+      "context": "Jean said it was a matter of a resal of oats to obtain healing for Jean Claude Felippé's wife",
+      "category": "agricultural"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Moriviller",
+      "place_type": "village",
+      "context": "Primary location of trial; residence of accused and most witnesses"
+    },
+    {
+      "place_name": "Gerbeviller",
+      "place_type": "village",
+      "context": "Market town; Jean was returning from market at Gerbeviller when seduced; sabbat held near Gerbeviller"
+    },
+    {
+      "place_name": "near Gerbeviller",
+      "place_type": "sabbat_location",
+      "context": "Location of sabbat attended by Jean and his daughter Georgeatte"
+    },
+    {
+      "place_name": "Lunéville",
+      "place_type": "village",
+      "context": "Great hailstorm did much damage around Lunéville 4 years earlier"
+    },
+    {
+      "place_name": "Claeures",
+      "place_type": "village",
+      "context": "Residence of witness Jean Serainville, maire"
+    },
+    {
+      "place_name": "Chamontoy",
+      "place_type": "village",
+      "context": "Location where prévôt came from before visiting Moriviller"
+    },
+    {
+      "place_name": "woods",
+      "place_type": "forest",
+      "context": "Where Jean was passing on way back from market when devil appeared; where Jean Guezey passed Jean Pelisson"
+    },
+    {
+      "place_name": "fields",
+      "place_type": "field",
+      "context": "2 fields sold by Claudon Ferry to Didier Galand; flax fields where Jean and first wife were stealing"
+    },
+    {
+      "place_name": "vines",
+      "place_type": "field",
+      "context": "Where devil appeared to Jean dressed in black robe and gave him powder"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": ["great hailstorm around Lunéville 4 years earlier"],
+    "economic_hardship_indicators": ["Jean begged for something to be done for wife and 4 small children who would otherwise have to go begging; wife had no property of her own"],
+    "religious_calendar_references": ["Easter"]
+  },
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Jean worked as 'rouyer' (wheelwright); Demenge Perrise also worked as rouyer, suggesting occupational jealousy. Jean was involved in property dispute over 'retraite' rights to 2 fields sold by nephew Claudon Ferry to Didier Galand for 27-28 francs. Jean also served as tithe collector. Economic status appears middling but with vulnerability - wife had no property of her own, 4 small children under 7."
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Dieudonné Galand",
+        "role": "mayor",
+        "location": "Moriviller"
+      },
+      {
+        "name": "Jean Serainville",
+        "role": "mayor",
+        "location": "Claeures"
+      },
+      {
+        "name": "prévôt of Chamontoy",
+        "role": "prevot",
+        "location": "Chamontoy"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "subject to final confirmation of earlier confessions",
+      "local_court_followed": true
+    }
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 2,
+    "hearsay_chains": [
+      {
+        "reporter": "Parisot Goeury",
+        "source": "wife and neighbours",
+        "content": "said Jean had bewitched his wife"
+      },
+      {
+        "reporter": "Thoussainct Gomay",
+        "source": "his maid",
+        "content": "Jean was claiming witness had stolen a rope"
+      }
+    ],
+    "oldest_accusation_years": 13
+  },
+  "defense_and_behavior": {
+    "defense_strategies": ["denied_all"],
+    "emotional_state_notes": ["asked if possible to be a witch without knowing it", "asked if he would be damned if he confessed falsely", "begged not to be tortured to make him confess more", "begged for pity on wife and children multiple times"],
+    "reproaches_to_witnesses": []
+  },
+  "third_parties": [
+    {
+      "name": "Jennon",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "relationship_to_accused": "first wife",
+      "context": "Jean's first wife, executed as witch 10 years earlier; Jean suspected her after discovering she was hairy above the knees"
+    },
+    {
+      "name": "Georgeatte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "daughter",
+      "context": "Jean's daughter who accused him; he saw her at sabbat; witnesses suspected her along with Jean"
+    },
+    {
+      "name": "Claudon Ferry",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_accused": "nephew",
+      "context": "Sold 2 fields to Didier Galand; Jean claimed rights of retraite as nearest heir"
+    },
+    {
+      "name": "Didier Galand",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "adversary in property dispute",
+      "context": "Purchased fields from Claudon Ferry; refused Jean's claim of retraite rights and threw money on dungheap"
+    },
+    {
+      "name": "Didier",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none direct",
+      "relationship_to_witness": "brother of Clemence",
+      "context": "Brother beaten by Jean twice for no serious reason"
+    },
+    {
+      "name": "Demenge Perrise",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "rival in same trade",
+      "relationship_to_witness": "husband and father of witnesses 5 and 9",
+      "context": "Rouyer who died within week of borrowing tools from Jean; believed himself bewitched"
+    },
+    {
+      "name": "mother of Clemence",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none direct",
+      "relationship_to_witness": "mother of Clemence",
+      "context": "Died after languishing 19 weeks; doctors said she was bewitched"
+    },
+    {
+      "name": "Colas Cunin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "adversary",
+      "context": "Jean's wife told him Cunin had tried to seduce her; Jean killed Cunin's son in revenge"
+    },
+    {
+      "name": "son of Colas Cunin",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_accused": "none direct",
+      "context": "Killed by Jean who put powder on his leg while pretending to help water horses"
+    },
+    {
+      "name": "Sibille",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "none direct",
+      "relationship_to_witness": "daughter of maire Dieudonné Galand",
+      "context": "Sent to fetch Jean to see bewitched horse"
+    },
+    {
+      "name": "Didielle",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "accomplice at sabbat",
+      "context": "Lived in house of Jean Masson; recognized at sabbat"
+    },
+    {
+      "name": "Jolibois",
+      "person_id": null,
+      "role_in_narrative": "other",
+      "relationship_to_accused": "devil/master",
+      "context": "Jean's devil, appeared as man in black; gave him powder; carried him to sabbat"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude (Anthropic AI)",
+    "confidence": "high",
+    "notes": "Trial includes detailed confession after confrontation with daughter. Some document damage noted in witness 11 and 14 testimony. Jean confessed without torture after daughter confronted him. Notable for economic disputes (property retraite rights, occupational rivalry), healing practices (both harming and healing with powder), and family dynamics (first wife executed, daughter accused him). Jean worked as rouyer (wheelwright), suggesting middling economic status.",
+    "pdf_pages": 5
+  }
+}

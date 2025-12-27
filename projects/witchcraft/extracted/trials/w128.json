@@ -3,6 +3,14 @@
   "archive_ref": "B 8275 no 1",
   "location": "Preny",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Cathin femme Michiel Perrin",
+    "person_id": null,
+    "occupation": null,
+    "location": "Limeix",
+    "relationship_to_accused": "former neighbor at Preny"
+  },
   "dates": {
     "start": "1597-01-10",
     "end": "1597-05-05",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Chrestaille femme Jean Wathot",
+      "person_id": null,
       "gender": "female",
       "age": 33,
       "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": ["grain seller"],
       "origin": "Preny",
       "residence": "Preny",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Cathin femme Michiel Perrin",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": null,
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Jeanne femme Bastien Claudin",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": null,
@@ -108,6 +122,7 @@
     {
       "number": 3,
       "name": "Barbe Wathot",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": "servant (former)",
@@ -137,6 +152,7 @@
     {
       "number": 4,
       "name": "Lambert Jean Lambert",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -166,6 +182,7 @@
     {
       "number": 5,
       "name": "Magot",
+      "person_id": null,
       "gender": "female",
       "age": 19,
       "age_approximate": true,
@@ -196,6 +213,7 @@
     {
       "number": 6,
       "name": "Claudotte femme Laurent Mathiot",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": null,
@@ -225,6 +243,7 @@
     {
       "number": 7,
       "name": "François Vieville",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": null,
@@ -254,6 +273,7 @@
     {
       "number": 8,
       "name": "Jeanne veuve Claudin Millot dit Champel",
+      "person_id": null,
       "gender": "female",
       "age": null,
       "occupation": null,
@@ -937,7 +957,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "unable to take action against Lambert Jean Lambert since she had no witnesses to his threat",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -988,6 +1013,7 @@
   "third_parties": [
     {
       "name": "Tante Parrotte of Preny",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -995,6 +1021,7 @@
     },
     {
       "name": "la Trougnotte of Paigny",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1002,6 +1029,7 @@
     },
     {
       "name": "one from Champel",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1009,6 +1037,7 @@
     },
     {
       "name": "le vieux Colas Golsey",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1016,6 +1045,7 @@
     },
     {
       "name": "devineresse",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": "advised François Vieville",
@@ -1023,6 +1053,7 @@
     },
     {
       "name": "Claude Landreville",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "allegedly slept with accused (slander)",
       "relationship_to_witness": null,
@@ -1030,6 +1061,7 @@
     },
     {
       "name": "Jean de Maye",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "allegedly slept with accused (slander)",
       "relationship_to_witness": null,
@@ -1037,6 +1069,7 @@
     },
     {
       "name": "Sieur de Bonnigny",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1044,6 +1077,7 @@
     },
     {
       "name": "sieur capittaine",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": "threatened to arrest her",
       "relationship_to_witness": null,
@@ -1051,6 +1085,7 @@
     },
     {
       "name": "Jeannotte's mother",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

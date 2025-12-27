@@ -3,6 +3,8 @@
   "archive_ref": "B 3323 no 9",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1602-06-11",
     "end": "1602-07-01",
@@ -12,9 +14,12 @@
   "accused": [
     {
       "name": "Jennon fille feu le Petit Poirson",
+      "person_id": null,
       "gender": "female",
       "age": 46,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
       "occupation": [
         "servant",
         "widow"
@@ -41,6 +46,7 @@
     {
       "number": 1,
       "name": "Elizabeth femme a Colas Grand Demenge",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -60,6 +66,7 @@
     {
       "number": 2,
       "name": "Colas Grand Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -88,6 +95,7 @@
     {
       "number": 3,
       "name": "Jean de Benamesnil",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "age_approximate": true,
@@ -115,6 +123,7 @@
     {
       "number": 4,
       "name": "Jennon femme Jean de Benaumesnil",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -142,6 +151,7 @@
     {
       "number": 5,
       "name": "Demenge Daval",
+      "person_id": null,
       "gender": "male",
       "age": 26,
       "age_approximate": true,
@@ -161,6 +171,7 @@
     {
       "number": 6,
       "name": "Claudatte femme Colas Jean Mongeatte",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Gondrexon",
@@ -187,6 +198,7 @@
     {
       "number": 7,
       "name": "Jehenne femme Colas Petit Claude",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "location": "Gondrexon",
@@ -214,6 +226,7 @@
     {
       "number": 8,
       "name": "Jean Mongeotte",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "age_approximate": true,
@@ -232,6 +245,7 @@
     {
       "number": 9,
       "name": "Chrestienne veuve de Guillaumin Jean Vatrix",
+      "person_id": null,
       "gender": "female",
       "location": "Gondrexon",
       "relationship_to_accused": "neighbor and friend",
@@ -248,6 +262,7 @@
     {
       "number": 10,
       "name": "Colas Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 70,
       "location": "Gondrexon",
@@ -666,7 +681,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "Not specified in document",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "rejected",
+      "modification_details": "Change de Nancy rejected the procureur fiscal's request for torture and ordered the accused to be released (renvoyée)",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -728,12 +748,14 @@
   "third_parties": [
     {
       "name": "Messire Jean Donnerey",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "curé (priest) of Gondrexon when she lived there",
       "context": "Late curé who witnessed or whose boy witnessed the dancing incident; primary source for reputation of witchcraft; reportedly said he never believed in witches until he saw the dancing"
     },
     {
       "name": "Jennon Bailly",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "companion in alleged dancing incident",
       "relationship_to_witness": "lived in Gondrexon",
@@ -741,39 +763,46 @@
     },
     {
       "name": "Nicolas Bailly",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of alleged accomplice Jennon Bailly",
       "context": "Husband of Jennon Bailly who was suspected of witchcraft"
     },
     {
       "name": "Nicolas du Vaulx",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "former employer",
       "context": "Master in Gondrexon where accused served for a year before marrying"
     },
     {
       "name": "Bastien",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_witness": "son of witness 7 (Jehenne)",
       "context": "Son born to witness who experienced milk loss attributed to accused"
     },
     {
       "name": "la Jobarde",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Witness 7 thought dancing had been with la Jobarde rather than Jennon Bailly - variant account"
     },
     {
       "name": "curé's boy",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "context": "Son of curé Messire Jean Donnerey who reportedly first saw the two women dancing in fields"
     },
     {
       "name": "butcher",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Examined cow that couldn't stand and found no natural reason for inability to stand"
     },
     {
       "name": "father-in-law (of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father-in-law",
       "context": "Identified the other woman dancing as Jennon (accused) whom Jennon Bailly had visited at Leintrey"

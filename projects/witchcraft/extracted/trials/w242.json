@@ -1,0 +1,1564 @@
+{
+  "trial_id": "w242",
+  "archive_ref": "B 8702 no 3",
+  "location": "Raon",
+  "language_region": "french",
+  "dates": {
+    "start": "1609-07-21",
+    "end": "1609-08-14",
+    "duration_days": 24
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Marie femme Gabriel Ozelle",
+      "person_id": null,
+      "gender": "female",
+      "age": 53,
+      "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["other"],
+      "marital_status": "married",
+      "spouse_name": "Gabriel Ozelle",
+      "residence": "Raon",
+      "origin": "Raon",
+      "parents": {
+        "father": "Clement Adam",
+        "mother": "Barbellon Henry Chrestien"
+      },
+      "occupation": [],
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "devil_name": "Parsin",
+        "devil_appearance": "little dog",
+        "seduction_date": "22 years earlier",
+        "seduction_context": "She was very sad because she had young children to support, and was too poor to do so with wheat at 30 francs the resal. Bewailing this in garden one evening when she was approached by Parsin, who promised to help her so she would no longer be in need.",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["black powder (to kill)", "white powder (to heal)"],
+        "sabbat_attended": true,
+        "sabbat_locations": ["côte de Repy"],
+        "sabbat_activities": ["dancing", "eating unsalted meat"],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "formal_accuser": null,
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Alizon femme Demenge Mathiat",
+      "person_id": null,
+      "gender": "female",
+      "age": 46,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 20
+      }
+    },
+    {
+      "number": 2,
+      "name": "Thomas Jean Jacat",
+      "person_id": null,
+      "gender": "male",
+      "age": 70,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 12
+      }
+    },
+    {
+      "number": 3,
+      "name": "Jehenne veuve Honn homme Claude Brabant",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Marie's husband refused grain to Claude Brabant",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "Claude Brabant",
+            "target_relationship": "husband",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "soon after"
+          },
+          {
+            "type": "human_injury",
+            "target": "Jehenne (witness herself)",
+            "target_relationship": "self",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Saulmonatte femme Martin Sachot",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness would not marry Marie's son Nicolas",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "child of witness",
+            "target_relationship": "child",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "9 years after quarrel"
+          },
+          {
+            "type": "human_death",
+            "target": "another child of witness",
+            "target_relationship": "child",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "6 months before testimony"
+          },
+          {
+            "type": "human_illness",
+            "target": "Saulmonatte (witness herself)",
+            "target_relationship": "self",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Margueritte femme Adam Rocq",
+      "person_id": null,
+      "gender": "female",
+      "age": 53,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 6,
+      "name": "Anthoine Arnoul",
+      "person_id": null,
+      "gender": "male",
+      "age": 36,
+      "testimony": {
+        "reputation_mentioned": true,
+        "reputation_duration_years": 15
+      }
+    },
+    {
+      "number": 7,
+      "name": "Marie femme Estienne Jacques",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel between sons-in-law; wine refused",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother of witness (widow of Joseph Marchand)",
+            "target_relationship": "mother",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Mongeatte femme Honneste Homme Nicolas Huel",
+      "person_id": null,
+      "gender": "female",
+      "age": 26,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel over hay",
+        "threat_received": true,
+        "threat_quote": "her husband would see what he gained",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "fine ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "next day"
+          },
+          {
+            "type": "animal_death",
+            "target": "another ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "next day after St Martin visit"
+          },
+          {
+            "type": "animal_death",
+            "target": "third ox",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "after asking for money during Lent"
+          }
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Colatte veuve Idoul Vigneron",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Witness's husband and son-in-law had quarrel with Marie's son, who was in same trade as son-in-law, and beat him up",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Martine (daughter of witness)",
+            "target_relationship": "daughter",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "in that hour"
+          },
+          {
+            "type": "human_illness",
+            "target": "son of witness",
+            "target_relationship": "son",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          }
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Barbon femme Mre Pierre Barbas",
+      "person_id": null,
+      "gender": "female",
+      "age": 34,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Daughter of accused was working in house sewing; became angry about rocking the child",
+        "threat_received": true,
+        "threat_quote": "she would not do this much longer",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "baby son aged 4 months",
+            "target_relationship": "son",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "soon after; died next day after Marie's visit"
+          }
+        ],
+        "called_witch_publicly": true
+      }
+    },
+    {
+      "number": 11,
+      "name": "Martine fille Idoul Vigneron",
+      "person_id": null,
+      "gender": "female",
+      "age": 20,
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel between her brother and son-in-law of accused",
+        "threat_received": true,
+        "threat_quote": "she or the devil would have her",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Martine (witness herself)",
+            "target_relationship": "self",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "followed by illness"
+          }
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Fleurence femme Anthoine Sachot",
+      "person_id": null,
+      "gender": "female",
+      "age": 18,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel with Marie's daughter Jennon",
+        "threat_received": true,
+        "threat_quote": "they would not keep it long (referring to horse)",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "fine and expensive horse",
+            "target_relationship": "owned by witness",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Plaisance veuve Claudon Tout Blanc",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Son Colas had been apprentice as blacksmith but left before expiry of contract",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Claudon Tout Blanc (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          },
+          {
+            "type": "human_death",
+            "target": "Claudon Tout Blanc (husband)",
+            "target_relationship": "husband",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "died 2 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Adam Vaulthier",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Refused to sell her wheat",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father-in-law",
+            "target_relationship": "father-in-law",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "6 or 7 years earlier"
+          },
+          {
+            "type": "human_death",
+            "target": "child",
+            "target_relationship": "child",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "a year later"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Margueritte femme Chrestofle l'Huillier",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Margueritte (witness herself)",
+            "target_relationship": "self",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          }
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Nicolas Moictrier",
+      "person_id": null,
+      "gender": "male",
+      "age": 35,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 17,
+      "name": "Demenge Potier",
+      "person_id": null,
+      "gender": "male",
+      "age": 40,
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father of witness",
+            "target_relationship": "father",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          }
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Mre Anthoine Clauderot",
+      "person_id": null,
+      "gender": "male",
+      "age": 46,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Marie's daughter had dispute with his wife; Marie made threats about those who had taken part in play in town",
+        "threat_received": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Mre Anthoine Clauderot (witness himself)",
+            "target_relationship": "self",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "within a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Claudon femme Nicolas Clement",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Mother quarrelled with daughter of accused",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother (wife of Joseph Marchant)",
+            "target_relationship": "mother",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "2 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Annon femme Mre Anthoine Clauderot",
+      "person_id": null,
+      "gender": "female",
+      "age": 45,
+      "testimony": {
+        "reputation_mentioned": true
+      }
+    },
+    {
+      "number": 21,
+      "name": "Pasquatte femme Adam Vaulthier",
+      "person_id": null,
+      "gender": "female",
+      "age": 30,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Hated her father over business he transacted as tabellion and refusal of grain",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father",
+            "target_relationship": "father",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "6 years back"
+          },
+          {
+            "type": "human_death",
+            "target": "small son",
+            "target_relationship": "son",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "following year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Anne femme Nicolas Leusse",
+      "person_id": null,
+      "gender": "female",
+      "age": 22,
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Quarrel over wine",
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "mother",
+            "target_relationship": "mother",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "2 years earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Pierre fils Demenge Piernille",
+      "person_id": null,
+      "gender": "male",
+      "age": 20,
+      "testimony": {
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Pierre (witness himself)",
+            "target_relationship": "self",
+            "attributed_to": "Marie femme Gabriel Ozelle",
+            "time_after_quarrel": "previous year"
+          }
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Chrestail Potier",
+      "person_id": null,
+      "gender": "male",
+      "age": 28,
+      "occupation": "messager",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_death",
+            "target": "father",
+            "target_relationship": "father",
+            "attributed_to": "Marie femme Gabriel Ozelle"
+          }
+        ]
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1609-07-21",
+      "event": "informations_preparatoires",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Witness testimony on common repute"
+    },
+    {
+      "date": "1609-07-28",
+      "event": "other",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Change de Nancy approves arrest and interrogation"
+    },
+    {
+      "date": "1609-08-03",
+      "event": "interrogation",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "First interrogation without torture"
+    },
+    {
+      "date": "1609-08-04",
+      "event": "confrontation",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Confrontations with witnesses"
+    },
+    {
+      "date": "1609-08-05",
+      "event": "torture_approved",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Change de Nancy approves torture"
+    },
+    {
+      "date": "1609-08-07",
+      "event": "torture",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Interrogation under torture; confessed"
+    },
+    {
+      "date": "1609-08-08",
+      "event": "interrogation",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Repeated confessions with some modifications"
+    },
+    {
+      "date": "1609-08-11",
+      "event": "sentence",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Death sentence from Change de Nancy; to be strangled after feeling fire"
+    },
+    {
+      "date": "1609-08-14",
+      "event": "execution",
+      "subject": "Marie femme Gabriel Ozelle",
+      "details": "Sentence carried out"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["thumbscrews", "rack"],
+    "approving_court": "Change de Nancy"
+  },
+  "accomplices_named": [
+    {
+      "name": "Didier Grand Claudon",
+      "location": "Raon",
+      "context": "Seen at sabbat; always the master, first to dance and jump",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Barbeline la Bertrichaude",
+      "location": "Raon",
+      "context": "Seen at sabbat; mother of Didier Grand Claudon; currently fugitive",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Francois Marion",
+      "location": "Raon",
+      "context": "Seen at sabbat",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Plaisance veuve Claudon Tout Blanc",
+      "location": "Raon",
+      "context": "Seen at sabbat; currently prisoner",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Babelon",
+      "location": "Raon",
+      "context": "Seen at sabbat; Marie's mother; dead",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Jennon femme Jean Petit",
+      "location": "Raon",
+      "context": "Seen at sabbat; executed",
+      "already_executed": true,
+      "trial_id": null
+    },
+    {
+      "name": "Alixe veuve Demenge Marond",
+      "location": "Raon",
+      "context": "Seen at sabbat; fugitive",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Melline dite la Poirchesse",
+      "location": "Raon",
+      "context": "Seen at sabbat; fugitive",
+      "already_executed": false,
+      "trial_id": null
+    },
+    {
+      "name": "Jennon femme Jean Colin",
+      "location": "Raon",
+      "context": "Initially named at sabbat, but accusation later withdrawn",
+      "already_executed": false,
+      "trial_id": null
+    }
+  ],
+  "harms_catalog": [
+    {
+      "victim_name": "Claude Brabant",
+      "victim_relationship_to_witness": "husband of witness 3",
+      "harm_category": "human_death",
+      "harm_description": "Died from strange illness",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Marie's husband refused to give him grain",
+      "time_between_quarrel_and_harm": "7 years before testimony",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "Jehenne (witness 3)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_injury",
+      "harm_description": "Fell in river while washing laundry after Marie passed behind her several times",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "child of witness 4",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "Languished then died",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Witness would not marry Marie's son Nicolas",
+      "time_between_quarrel_and_harm": "9 years before testimony",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "another child of witness 4",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "Languished then died",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Long-standing hatred since refused to marry son",
+      "time_between_quarrel_and_harm": "6 months before testimony",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "Saulmonatte femme Martin Sachot (witness 4)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Suffering from illness for 7 years",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "mother of witness 7 (widow of Joseph Marchand)",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_death",
+      "harm_description": "Sickened and died after 11-week illness",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Daughter of accused came to ask for wine, refused on grounds of quarrel between sons-in-law",
+      "time_between_quarrel_and_harm": "soon after",
+      "witness_number": 7
+    },
+    {
+      "victim_name": "fine ox",
+      "victim_relationship_to_witness": "owned by witness 8",
+      "harm_category": "animal_death",
+      "harm_description": "Died suddenly",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrel over hay",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "threats",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "another ox",
+      "victim_relationship_to_witness": "owned by witness 8",
+      "harm_category": "animal_death",
+      "harm_description": "Died next day without warning after Marie visited stable",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "time_between_quarrel_and_harm": "next day after St Martin visit",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "third ox",
+      "victim_relationship_to_witness": "owned by witness 8",
+      "harm_category": "animal_death",
+      "harm_description": "Died after Marie asked for money",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Asked her for money during Lent",
+      "witness_number": 8
+    },
+    {
+      "victim_name": "Martine (daughter of witness 9)",
+      "victim_relationship_to_witness": "daughter",
+      "harm_category": "human_illness",
+      "harm_description": "Became strangely ill for 3 months",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrel between witness's husband/son-in-law and Marie's son",
+      "time_between_quarrel_and_harm": "in that hour",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "son of witness 9",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_illness",
+      "harm_description": "Arm out of use for some time",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrel between witness's husband/son-in-law and Marie's son",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "baby son of witness 10",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Fell ill and died next day; aged 4 months",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Marie's daughter became angry about rocking child",
+      "time_between_quarrel_and_harm": "soon after",
+      "method_alleged": "Marie threw ashes from fire over stomach and around cradle",
+      "witness_number": 10
+    },
+    {
+      "victim_name": "Martine fille Idoul Vigneron (witness 11)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Illness lasting 3 months",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrel between brother and son-in-law of accused",
+      "time_between_quarrel_and_harm": "followed by illness",
+      "witness_number": 11
+    },
+    {
+      "victim_name": "fine and expensive horse",
+      "victim_relationship_to_witness": "owned by witness 12",
+      "harm_category": "animal_illness",
+      "harm_description": "Sickened and became very thin; sold for half cost",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "economic_value": "45 ecus cost, sold for half",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrel with Marie's daughter Jennon",
+      "time_between_quarrel_and_harm": "previous year",
+      "witness_number": 12
+    },
+    {
+      "victim_name": "Claudon Tout Blanc (husband of witness 13)",
+      "victim_relationship_to_witness": "husband",
+      "harm_category": "human_illness",
+      "harm_description": "Went into despair and was constantly beating wife for no reason",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Dispute over apprenticeship of son Colas",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "Claudon Tout Blanc",
+      "victim_relationship_to_witness": "husband of witness 13",
+      "harm_category": "human_death",
+      "harm_description": "Died after strange illness",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "time_between_quarrel_and_harm": "died 2 years earlier",
+      "witness_number": 13
+    },
+    {
+      "victim_name": "father-in-law of witness 14",
+      "victim_relationship_to_witness": "father-in-law",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Refused to sell wheat to Marie",
+      "time_between_quarrel_and_harm": "6 or 7 years earlier",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "child of witness 14",
+      "victim_relationship_to_witness": "child",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "time_between_quarrel_and_harm": "a year later",
+      "witness_number": 14
+    },
+    {
+      "victim_name": "Margueritte femme Chrestofle l'Huillier (witness 15)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Strange illness that lasted a long time; vomited up some 50 little creatures",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "method_alleged": "Marie touched her on arm in market",
+      "time_between_quarrel_and_harm": "5 years before",
+      "witness_number": 15
+    },
+    {
+      "victim_name": "father of witness 17",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "Died miserably; became frightened he was mad",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "witness_number": 17
+    },
+    {
+      "victim_name": "Mre Anthoine Clauderot (witness 18)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Fell ill as if out of his mind; recovered without knowing how",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Dispute between Marie's daughter and witness's wife; quarrel over threats about play in town",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 18
+    },
+    {
+      "victim_name": "mother of witness 19 (wife of Joseph Marchant)",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_death",
+      "harm_description": "Became strangely ill and died",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrelled with daughter of accused",
+      "time_between_quarrel_and_harm": "2 years earlier",
+      "witness_number": 19
+    },
+    {
+      "victim_name": "father of witness 21",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "Fell suddenly ill and died",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Business transacted as tabellion and refusal of grain",
+      "time_between_quarrel_and_harm": "6 years back",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "small son of witness 21",
+      "victim_relationship_to_witness": "son",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "time_between_quarrel_and_harm": "following year after father's death",
+      "witness_number": 21
+    },
+    {
+      "victim_name": "mother of witness 22",
+      "victim_relationship_to_witness": "mother",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "precipitating_quarrel": "Quarrel over wine",
+      "time_between_quarrel_and_harm": "2 years earlier",
+      "witness_number": 22
+    },
+    {
+      "victim_name": "Pierre fils Demenge Piernille (witness 23)",
+      "victim_relationship_to_witness": "self",
+      "harm_category": "human_illness",
+      "harm_description": "Ill for 6 weeks, unable to walk after eating apple given by Marie",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "time_between_quarrel_and_harm": "previous year",
+      "method_alleged": "gave him an apple at the mill",
+      "witness_number": 23
+    },
+    {
+      "victim_name": "father of witness 24",
+      "victim_relationship_to_witness": "father",
+      "harm_category": "human_death",
+      "harm_description": "Died miserably; needed several people to hold him",
+      "attributed_to": "Marie femme Gabriel Ozelle",
+      "witness_number": 24
+    },
+    {
+      "victim_name": "cat of Marie",
+      "victim_relationship_to_witness": "owned by accused",
+      "harm_category": "animal_death",
+      "harm_description": "Killed by Marie using powder",
+      "animal_type": "cat",
+      "animal_count": 1,
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "child of Didier Lassus",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Didier Lassus refused her grain",
+      "time_between_quarrel_and_harm": "about a year after seduction",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "first husband of Marie",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Very angry with husband who went drinking without regard for family when grain was costly",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "small daughter of Marie",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "time_between_quarrel_and_harm": "a year after first husband's death",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Lucas Mongin le viel",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Refused late husband a horseshoe (both were smiths)",
+      "time_between_quarrel_and_harm": "15 years before",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Claudon Tout Blanc",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Quarrels over apprenticeship of son",
+      "time_between_quarrel_and_harm": "2 years earlier",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Sebille dite la Brodée",
+      "harm_category": "human_death",
+      "harm_description": "Death; lived at hospital",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Refused to help with washtub",
+      "time_between_quarrel_and_harm": "18 months before",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Jennon (sister of Sebille)",
+      "harm_category": "human_death",
+      "harm_description": "Death; lived at hospital",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Refused to help with washtub",
+      "time_between_quarrel_and_harm": "18 months before",
+      "method_alleged": "powder"
+    },
+    {
+      "victim_name": "Demenge Potier le viel",
+      "harm_category": "human_death",
+      "harm_description": "Death",
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Called her witch when drunk",
+      "method_alleged": "threw powder over him as he sat outside house"
+    },
+    {
+      "victim_name": "ox belonging to Nicolas Bernard",
+      "harm_category": "animal_death",
+      "harm_description": "Died next day",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Marie femme Gabriel Ozelle (confessed)",
+      "precipitating_quarrel": "Angry over deals husband was making about land with Nicolas Bernard",
+      "time_between_quarrel_and_harm": "a year earlier; died next day",
+      "method_alleged": "powder suggested by devil in form of little dog"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "Gabriel Ozelle",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Marie femme Gabriel Ozelle; husband was 'kiesfre'"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "Clement Adam",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Father Clement Adam"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "Barbellon Henry Chrestien",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "mother Barbellon Henry Chrestien"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "Nicolas",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her son Nicolas (witness 4 would not marry him)"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "daughter who worked sewing",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "daughter of the accused was coming to work in house, sewing"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "Jennon",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "her daughter Jennon (witness 12 quarreled with)"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "daughter-in-law",
+      "relationship_type": "in_law_of",
+      "direction": "undirected",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Admitted quarrels with daughter-in-law, who had called her witch"
+    },
+    {
+      "person1": "Marie femme Gabriel Ozelle",
+      "person2": "Babelon",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "Babelon her mother (dead)"
+    },
+    {
+      "person1": "Jehenne",
+      "person2": "Claude Brabant",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Jehenne veuve Honn homme Claude Brabant, tabellion"
+    },
+    {
+      "person1": "Saulmonatte",
+      "person2": "Martin Sachot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Saulmonatte femme Martin Sachot"
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Adam Rocq",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme Adam Rocq"
+    },
+    {
+      "person1": "Marie",
+      "person2": "Estienne Jacques",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Marie femme Estienne Jacques"
+    },
+    {
+      "person1": "Marie femme Estienne Jacques",
+      "person2": "widow of Joseph Marchand",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "witness was with her mother (widow of Joseph Marchand)"
+    },
+    {
+      "person1": "Mongeatte",
+      "person2": "Nicolas Huel",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Mongeatte femme Honneste Homme Nicolas Huel"
+    },
+    {
+      "person1": "Colatte",
+      "person2": "Idoul Vigneron",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Colatte veuve Idoul Vigneron"
+    },
+    {
+      "person1": "Colatte veuve Idoul Vigneron",
+      "person2": "Martine",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her daughter Martine"
+    },
+    {
+      "person1": "Barbon",
+      "person2": "Pierre Barbas",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Barbon femme Mre Pierre Barbas, chirurgien"
+    },
+    {
+      "person1": "Martine fille Idoul Vigneron",
+      "person2": "Idoul Vigneron",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Martine fille Idoul Vigneron"
+    },
+    {
+      "person1": "Fleurence",
+      "person2": "Anthoine Sachot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Fleurence femme Anthoine Sachot"
+    },
+    {
+      "person1": "Plaisance",
+      "person2": "Claudon Tout Blanc",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "Plaisance veuve Claudon Tout Blanc"
+    },
+    {
+      "person1": "Plaisance veuve Claudon Tout Blanc",
+      "person2": "Colas",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "her son Colas"
+    },
+    {
+      "person1": "Margueritte",
+      "person2": "Chrestofle l'Huillier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Margueritte femme Chrestofle l'Huillier"
+    },
+    {
+      "person1": "Demenge Potier",
+      "person2": "father",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "his late father"
+    },
+    {
+      "person1": "Claudon",
+      "person2": "Nicolas Clement",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Claudon femme Nicolas Clement"
+    },
+    {
+      "person1": "Claudon femme Nicolas Clement",
+      "person2": "wife of Joseph Marchant",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "victim",
+      "evidence_text": "her mother, wife of Joseph Marchant"
+    },
+    {
+      "person1": "Annon",
+      "person2": "Mre Anthoine Clauderot",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Annon femme Mre Anthoine Clauderot"
+    },
+    {
+      "person1": "Pasquatte",
+      "person2": "Adam Vaulthier",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Pasquatte femme Adam Vaulthier"
+    },
+    {
+      "person1": "Anne",
+      "person2": "Nicolas Leusse",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Anne femme Nicolas Leusse tabellion"
+    },
+    {
+      "person1": "Pierre",
+      "person2": "Demenge Piernille",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Pierre fils Demenge Piernille"
+    },
+    {
+      "person1": "Didier Grand Claudon",
+      "person2": "Barbeline la Bertrichaude",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Barbeline la Bertrichaude his mother"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "son-in-law of Marie",
+      "french": "qu'il n'y pouvoit empescher, qu'il scavoit bien que ce n'estoit pas grand chose, qu'elle avoit faict desesperer sa mere de Blamont",
+      "context": "Reply when warned not to kill any more animals"
+    },
+    {
+      "speaker": "Marie femme Gabriel Ozelle",
+      "french": "sy pauvrement tantée et abusée",
+      "english": "so poorly tempted and abused",
+      "context": "Expressing regret during confession under torture"
+    },
+    {
+      "speaker": "Marie femme Gabriel Ozelle",
+      "french": "ung trompeur et abuseur",
+      "english": "a deceiver and abuser",
+      "context": "Referring to the devil who promised to help her resist torture"
+    },
+    {
+      "speaker": "Marie femme Gabriel Ozelle",
+      "french": "neanmoins elle n'eust le pouvoir sur elle, et ne devient aucunement malade",
+      "english": "nevertheless she had no power over her, and she did not become sick at all",
+      "context": "Explaining why her attempt to kill daughter-in-law failed"
+    }
+  ],
+  "third_parties": [
+    {
+      "name": "Jennon femme Jean Petit",
+      "person_id": null,
+      "role_in_narrative": "prior_accused",
+      "context": "Accused Marie out of hatred; described as whore and wicked woman; already executed"
+    },
+    {
+      "name": "Colas",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "was apprentice to accused as blacksmith",
+      "relationship_to_witness": "son of witness 13",
+      "context": "Left apprenticeship before expiry of contract, causing dispute"
+    },
+    {
+      "name": "Didier Lassus",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Refused Marie grain; his child allegedly killed by Marie"
+    },
+    {
+      "name": "Lucas Mongin le viel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Refused Marie's late husband a horseshoe (both were smiths); allegedly killed by Marie"
+    },
+    {
+      "name": "Sebille dite la Brodée",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Lived at hospital; refused to help with washtub; allegedly killed by Marie"
+    },
+    {
+      "name": "Jennon (sister of Sebille)",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "Lived at hospital; refused to help with washtub; allegedly killed by Marie"
+    },
+    {
+      "name": "Demenge Potier le viel",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "relationship_to_witness": "father of witness 17",
+      "context": "Called Marie witch when drunk; allegedly killed by Marie"
+    },
+    {
+      "name": "Nicolas Bernard",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "Hostellain; Marie's husband drinking at his house making deals about land; his ox allegedly killed"
+    }
+  ],
+  "material_culture": [
+    {
+      "object": "grain",
+      "context": "Multiple disputes over refusal to provide grain",
+      "category": "food"
+    },
+    {
+      "object": "wheat",
+      "context": "Wheat at 30 francs the resal when Marie was seduced; refusal to sell wheat to Marie",
+      "category": "food"
+    },
+    {
+      "object": "wine",
+      "context": "Daughter of accused asked for wine, refused on grounds of quarrel",
+      "category": "food"
+    },
+    {
+      "object": "hay",
+      "context": "Quarrel over hay between witness 8 and Marie",
+      "category": "agricultural"
+    },
+    {
+      "object": "horseshoe",
+      "context": "Lucas Mongin le viel refused Marie's husband a horseshoe (both were smiths)",
+      "category": "tools"
+    },
+    {
+      "object": "washtub",
+      "context": "Women at hospital refused to help Marie with washtub",
+      "category": "household"
+    },
+    {
+      "object": "apple",
+      "context": "Marie gave Pierre an apple at the mill, after which he became ill",
+      "category": "food"
+    },
+    {
+      "object": "ashes",
+      "context": "Marie threw ashes from fire over stomach of dying child and around cradle",
+      "category": "household"
+    },
+    {
+      "object": "magical powder",
+      "context": "Black powder to kill, white powder to heal; given by devil",
+      "category": "magical"
+    },
+    {
+      "object": "money (leaves)",
+      "context": "Devil gave her money which turned out to be leaves",
+      "category": "money"
+    },
+    {
+      "object": "chicken",
+      "context": "Had given devil a chicken every year so she did not have to go to sabbat so often",
+      "category": "food"
+    },
+    {
+      "object": "unsalted meat",
+      "context": "Eaten at sabbat",
+      "category": "food"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Raon",
+      "place_type": "village",
+      "context": "Location of trial and residence of accused"
+    },
+    {
+      "place_name": "côte de Repy",
+      "place_type": "sabbat_location",
+      "context": "Location of sabbat"
+    },
+    {
+      "place_name": "Blamont",
+      "place_type": "village",
+      "context": "Son-in-law mentioned Marie had made his mother from Blamont despair"
+    },
+    {
+      "place_name": "river",
+      "place_type": "water_body",
+      "context": "Witness washing laundry in river when Marie passed behind her and she fell in"
+    },
+    {
+      "place_name": "garden",
+      "place_type": "other",
+      "context": "Where Marie was bewailing poverty when approached by devil"
+    },
+    {
+      "place_name": "market",
+      "place_type": "market",
+      "context": "Marie touched witness on arm in market"
+    },
+    {
+      "place_name": "mill",
+      "place_type": "other",
+      "context": "Where Marie gave Pierre an apple"
+    },
+    {
+      "place_name": "hospital",
+      "place_type": "other",
+      "context": "Where Sebille and Jennon lived who refused to help with washtub"
+    },
+    {
+      "place_name": "stable",
+      "place_type": "other",
+      "context": "Marie went into stable on pretext of looking for grandson; ox died next day"
+    }
+  ],
+  "historical_context": {
+    "military_presence": true,
+    "military_details": "Marie said 17 or 18 years before had been very angry with present husband for not doing enough to feed them in time of war",
+    "economic_hardship_indicators": [
+      "Wheat at 30 francs the resal during Marie's seduction",
+      "Too poor to support young children",
+      "Husband went drinking without regard for family when grain was costly",
+      "Multiple disputes over grain refusal",
+      "Economic costs of illnesses mentioned"
+    ],
+    "religious_calendar_references": [
+      "St Martin",
+      "Lent"
+    ]
+  },
+  "economic_context": {
+    "accused_occupation_disputes": true,
+    "debt_disputes": true,
+    "property_disputes": true,
+    "details": "Multiple disputes over grain and wheat; business transaction as tabellion mentioned; dispute over land deals; apprenticeship contract dispute; Marie described as very poor, unable to support children during high grain prices"
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "Pierre Barbas",
+        "role": "other",
+        "location": "Raon"
+      }
+    ],
+    "prior_legal_disputes": [],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "to be strangled after feeling fire",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": true
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 15,
+    "hearsay_testimony_count": 3,
+    "oldest_accusation_years": 25,
+    "hearsay_chains": [
+      {
+        "reporter": "Margueritte femme Adam Rocq (witness 5)",
+        "source": "various women",
+        "content": "15 or 16 children stillborn over previous year"
+      }
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "Expressed great regret at being 'so poorly tempted and abused'",
+      "Said she prayed to God, Virgin, and St Anne for help in resisting devil's demands"
+    ],
+    "reproaches_to_witnesses": []
+  },
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Opus 4.5",
+    "confidence": "high",
+    "notes": "Trial shows extensive testimony with multiple accusations spanning 25+ years. Marie confessed under torture to multiple killings including her first husband, daughter, and various community members. Economic hardship and wartime context clearly mentioned. Change de Nancy modified sentence to include 'feeling fire' before strangulation.",
+    "pdf_pages": 6
+  }
+}

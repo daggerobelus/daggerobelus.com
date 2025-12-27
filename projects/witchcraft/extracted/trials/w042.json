@@ -3,6 +3,14 @@
   "archive_ref": "B 3333",
   "location": "Domjevin",
   "court": "Court at Blamont, with appeals to Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Jean du Pont",
+    "person_id": null,
+    "occupation": "maire",
+    "location": "Domjevin",
+    "relationship_to_accused": "village mayor, initiated case via placet"
+  },
   "dates": {
     "start": "1607-06-15",
     "end": "1607-09-04",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Chretienne Simon",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "Domjevin",
       "marital_status": "married",
       "spouse_name": "Demenge Fennay",
+      "economic_status": "middling",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "parents": {
         "father": "le maire Simon",
         "mother": "Chretienne"
@@ -59,6 +71,7 @@
     {
       "number": 1,
       "name": "Nicolas Nicklauss",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -95,6 +108,7 @@
     {
       "number": 2,
       "name": "Demenge Nicklauss (le maire)",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "occupation": "maire",
@@ -131,6 +145,7 @@
     {
       "number": 3,
       "name": "Lucie veuve Claudon Nicolle",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -151,6 +166,7 @@
     },
     {
       "number": 4,
+      "person_id": null,
       "name": "Jehenne fille Demenge Nicklauss",
       "gender": "female",
       "age": 17,
@@ -181,6 +197,7 @@
     },
     {
       "number": 5,
+      "person_id": null,
       "name": "Catherine femme Demenge Nicklauss",
       "gender": "female",
       "age": 50,
@@ -217,6 +234,7 @@
     },
     {
       "number": 6,
+      "person_id": null,
       "name": "Jean Nicklauss",
       "gender": "male",
       "age": 25,
@@ -253,6 +271,7 @@
     },
     {
       "number": 7,
+      "person_id": null,
       "name": "Henry Mulnier dit le Clerc",
       "gender": "male",
       "age": 30,
@@ -296,6 +315,7 @@
     },
     {
       "number": 8,
+      "person_id": null,
       "name": "Jean le Clerc",
       "gender": "male",
       "age": 36,
@@ -332,6 +352,7 @@
     },
     {
       "number": 9,
+      "person_id": null,
       "name": "Annon femme Henry Mulnier",
       "gender": "female",
       "age": 30,
@@ -361,6 +382,7 @@
     },
     {
       "number": 10,
+      "person_id": null,
       "name": "Pierson Nicolle",
       "gender": "male",
       "age": 30,
@@ -390,6 +412,7 @@
     },
     {
       "number": 11,
+      "person_id": null,
       "name": "Demenge de Chesnoy, dit Marchal",
       "gender": "male",
       "age": null,
@@ -411,6 +434,7 @@
     },
     {
       "number": 12,
+      "person_id": null,
       "name": "Jennon femme au maire Jean Dediat",
       "gender": "female",
       "age": 50,
@@ -432,6 +456,7 @@
     },
     {
       "number": 13,
+      "person_id": null,
       "name": "Franceatte femme Didier Estienne",
       "gender": "female",
       "age": null,
@@ -461,6 +486,7 @@
     },
     {
       "number": 14,
+      "person_id": null,
       "name": "Jean Henry",
       "gender": "male",
       "age": 80,
@@ -490,6 +516,7 @@
     },
     {
       "number": 15,
+      "person_id": null,
       "name": "Laurent Bouzenotte",
       "gender": "male",
       "age": 33,
@@ -519,6 +546,7 @@
     },
     {
       "number": 16,
+      "person_id": null,
       "name": "Didier Hocquarre",
       "gender": "male",
       "age": 28,
@@ -540,6 +568,7 @@
     },
     {
       "number": 17,
+      "person_id": null,
       "name": "Bastienne femme Nicolas Simonatte",
       "gender": "female",
       "age": 40,
@@ -576,6 +605,7 @@
     },
     {
       "number": 18,
+      "person_id": null,
       "name": "Vaultrin Louy",
       "gender": "male",
       "age": 51,
@@ -605,6 +635,7 @@
     },
     {
       "number": 19,
+      "person_id": null,
       "name": "Jean Dediat",
       "gender": "male",
       "age": 50,
@@ -1615,7 +1646,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Unable to take Demenge Nicklauss to court for defamation because couldn't prove what he said; went before procureur fiscal who made accord",
     "imprisonment_conditions": "Guards in room; attempted escape on August 24 by bolting door at bottom of stairs at 4am",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture (11 Aug 1607) and death sentence (22 Aug 1607) subject to confirmation of confessions away from torture chamber before execution",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1722,6 +1758,7 @@
   "third_parties": [
     {
       "name": "Chretienne (mother of accused)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -1729,6 +1766,7 @@
     },
     {
       "name": "Jean Simon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": "was courting daughter of Demenge Nicklauss",
@@ -1736,6 +1774,7 @@
     },
     {
       "name": "Catherine (daughter of Demenge Nicklauss)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "potential sister-in-law",
       "relationship_to_witness": "daughter of witness 2",
@@ -1743,6 +1782,7 @@
     },
     {
       "name": "Claudon Bennay (Benay)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former servant",
       "relationship_to_witness": "stepson of witness 15",
@@ -1750,6 +1790,7 @@
     },
     {
       "name": "Demenge Fennay",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband",
       "relationship_to_witness": "had disputes with witnesses",
@@ -1757,6 +1798,7 @@
     },
     {
       "name": "wife of Toussaint Henry Toussaint",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -1764,6 +1806,7 @@
     },
     {
       "name": "Ambrosian fathers at St Nicolas",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "exorcised Jehenne",
@@ -1771,6 +1814,7 @@
     },
     {
       "name": "Claudon fils Claudon Marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1778,6 +1822,7 @@
     },
     {
       "name": "Claudon Marchal (mother)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1785,6 +1830,7 @@
     },
     {
       "name": "wife of Nicolas Gossat",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "working near witness 13",
@@ -1792,6 +1838,7 @@
     },
     {
       "name": "Sebille femme Nicolas Estienne",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "sister of witness 13",
@@ -1799,6 +1846,7 @@
     },
     {
       "name": "Pierron Courrexier (?)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1806,6 +1854,7 @@
     },
     {
       "name": "Jennon veuve le Gal",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,
@@ -1813,6 +1862,7 @@
     },
     {
       "name": "Didier Pierson",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1820,6 +1870,7 @@
     },
     {
       "name": "Mre Jean du Pont",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1827,6 +1878,7 @@
     },
     {
       "name": "German soldier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1834,6 +1886,7 @@
     },
     {
       "name": "eldest son of accused (aged 7 or 8)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1841,6 +1894,7 @@
     },
     {
       "name": "Mengin Saba (Caba)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "relative of husband",
       "relationship_to_witness": null,
@@ -1848,6 +1902,7 @@
     },
     {
       "name": "Demenge Jean Jean",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1855,6 +1910,7 @@
     },
     {
       "name": "Lucie veuve Claudon Nicolle",
+      "person_id": null,
       "role_in_narrative": "witness",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": "witness 3",
@@ -1862,6 +1918,7 @@
     },
     {
       "name": "Claudon de Benamesnil",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "companion of witness 18",

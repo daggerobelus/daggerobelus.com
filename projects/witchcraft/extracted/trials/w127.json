@@ -3,6 +3,7 @@
   "archive_ref": "B 8272",
   "location": "Pargny",
   "court": "Court at Preny",
+  "language_region": "french",
   "dates": {
     "start": "1594-06-10",
     "end": "1594-07-11",
@@ -12,6 +13,7 @@
   "accused": [
     {
       "name": "Jeannon femme Didier Collignon",
+      "person_id": null,
       "gender": "female",
       "age": 75,
       "age_approximate": true,
@@ -20,6 +22,9 @@
       "residence": "Pargny",
       "marital_status": "married",
       "spouse_name": "Didier Collignon",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["touch_healing", "herbal_remedies"],
       "parents": {
         "father": "Symon Broche",
         "mother": "Yzabel"
@@ -60,6 +65,7 @@
     {
       "number": 1,
       "name": "Françoise femme Chrestofle Thirion",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "testimony": {
@@ -84,6 +90,7 @@
     {
       "number": 2,
       "name": "Chrestofle Thirion",
+      "person_id": null,
       "gender": "male",
       "age": 48,
       "relationship_to_accused": "Husband of witness 1",
@@ -117,6 +124,7 @@
     {
       "number": 3,
       "name": "Françoise veuve Humbert Jouenot",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "marital_status": "widowed",
@@ -141,6 +149,7 @@
     {
       "number": 4,
       "name": "Cathin femme Claudin Laurent",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "testimony": {
@@ -164,6 +173,7 @@
     {
       "number": 5,
       "name": "Jeannon veuve Mengeot Brichelot",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "marital_status": "widowed",
@@ -180,6 +190,7 @@
     {
       "number": 6,
       "name": "Lucye femme Mengin Saulvaige",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "testimony": {
@@ -203,6 +214,7 @@
     {
       "number": 7,
       "name": "Mengin Couillot",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "relationship_to_accused": "Neighbor",
@@ -228,6 +240,7 @@
     {
       "number": 8,
       "name": "Lucye femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "relationship_to_accused": "Neighbor, wife of witness 7",
@@ -252,6 +265,7 @@
     {
       "number": 9,
       "name": "Mengeotte femme Estienne Thuillier",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "testimony": {
@@ -275,6 +289,7 @@
     {
       "number": 10,
       "name": "Mariotte femme Gergonne Mengin",
+      "person_id": null,
       "gender": "female",
       "age": 48,
       "relationship_to_accused": "Tenant of accused's husband",
@@ -301,6 +316,7 @@
     {
       "number": 11,
       "name": "Gergonne Mengin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "relationship_to_accused": "Landlord, husband of witness 10",
@@ -325,6 +341,7 @@
     {
       "number": 12,
       "name": "Allix le Gardens, veuve Jean Maire Mengin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "marital_status": "widowed",
@@ -350,6 +367,7 @@
     {
       "number": 13,
       "name": "Jehanne femme Jacquot Maulvais",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "testimony": {
@@ -396,6 +414,7 @@
     {
       "number": 14,
       "name": "Agnelz femme Bastien Pieton",
+      "person_id": null,
       "gender": "female",
       "age": 37,
       "testimony": {
@@ -421,6 +440,7 @@
     {
       "number": 15,
       "name": "Toinotte femme Colas Collin",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "Former servant in house of Martin Boeuvelot",
@@ -438,6 +458,7 @@
     {
       "number": 16,
       "name": "Mengeon femme Collignon Bouchier",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "testimony": {
@@ -463,6 +484,7 @@
     {
       "number": 17,
       "name": "Laurent Holbin",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "testimony": {
@@ -1095,7 +1117,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Devil claimed to have been with her throughout time in prison, preventing her confessing",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1145,64 +1172,75 @@
   "third_parties": [
     {
       "name": "Mengin Estienne",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "First husband (deceased)",
       "context": "Had been echevin in the justice of St Gergonne at Arnaville; died 27 years before trial"
     },
     {
       "name": "Surgeon (unnamed)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_witness": "Medical professional",
       "context": "Helped deliver Thirion's wife's child; thought there were twins; said he thought she was bewitched"
     },
     {
       "name": "Witch at la Vanolbe",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_witness": "Consulted by Gergonne Mengin",
       "context": "Since convicted as a witch; told Mengin his wife's illness was 'mal donné' from someone she had dispute with"
     },
     {
       "name": "Parrotte femme Voictrin le Treixe",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "Fellow witch (according to confession)",
       "context": "Seen at sabbat in May 1594; was already dead at time of trial"
     },
     {
       "name": "Didier (Jeannon's husband)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "Husband",
       "context": "Mentioned in quote about being hated though never did harm to anyone"
     },
     {
       "name": "Daughter-in-law of Jeannon",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "Daughter-in-law",
       "context": "Jeannon complained about her always being in the house"
     },
     {
       "name": "Martin Boeuvelot",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "Employer of witness 15",
       "context": "Jeannon came to his house at dawn asking for fire"
     },
     {
       "name": "Smith (unnamed)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "His door was open when Jeannon claimed no other door was open"
     },
     {
       "name": "Apothecaries (unnamed)",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Recommended treatments for Mariotte that were unsuccessful"
     },
     {
       "name": "Girl sent by Jeannon",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "Servant or associate",
       "context": "Sent round with drink like yellow milk to Mariotte"
     },
     {
       "name": "Brother of sick Thirion's wife",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_witness": "Brother of witness 1",
       "context": "Jeannon claimed he had asked her to come visit his sick sister"

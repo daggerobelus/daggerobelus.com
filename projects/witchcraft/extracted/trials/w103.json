@@ -3,6 +3,14 @@
   "archive_ref": "B 5354 no 2",
   "location": "Assenoncourt",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Nicolas Melletz",
+    "person_id": null,
+    "occupation": "marchal",
+    "location": "Assenoncourt",
+    "relationship_to_accused": "villager/community member - feared harm from accused"
+  },
   "dates": {
     "start": "1613-07-12",
     "end": "1613-08-14",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Jeanne le Schrempt",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies"],
       "occupation": ["manouvrier"],
       "origin": "Assenoncourt",
       "residence": "Assenoncourt",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Crisman Lampert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -74,6 +87,7 @@
     {
       "number": 2,
       "name": "Michiel Laboureur",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -112,6 +126,7 @@
     {
       "number": 3,
       "name": "George Villermin",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "laboureur",
@@ -136,6 +151,7 @@
     {
       "number": 4,
       "name": "Demenge Colas le maire",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "maire",
@@ -170,6 +186,7 @@
     {
       "number": 5,
       "name": "Nicolle",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "wife of Demenge Colas le maire",
@@ -196,6 +213,7 @@
     {
       "number": 6,
       "name": "Austien le Maire",
+      "person_id": null,
       "gender": "male",
       "age": 27,
       "occupation": "laboureur",
@@ -221,6 +239,7 @@
     {
       "number": 7,
       "name": "Hans le petit Benet",
+      "person_id": null,
       "gender": "male",
       "age": 46,
       "occupation": "laboureur",
@@ -237,6 +256,7 @@
     {
       "number": 8,
       "name": "Marguerite",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": "wife of Hans le petit Benet",
@@ -252,6 +272,7 @@
     {
       "number": 9,
       "name": "Michiel Beze Michel",
+      "person_id": null,
       "gender": "male",
       "age": 42,
       "occupation": "laboureur",
@@ -277,6 +298,7 @@
     {
       "number": 10,
       "name": "Didier Chatron",
+      "person_id": null,
       "gender": "male",
       "age": 80,
       "occupation": "manouvrier",
@@ -303,6 +325,7 @@
     {
       "number": 11,
       "name": "Cretaille Estienne",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "manouvrier",
@@ -329,6 +352,7 @@
     {
       "number": 12,
       "name": "Jeannon femme Colas le Maire",
+      "person_id": null,
       "gender": "female",
       "age": 29,
       "location": "Assenoncourt",
@@ -344,6 +368,7 @@
     {
       "number": 13,
       "name": "Cretienne femme de Couret le petit Feltin",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "location": "Assenoncourt",
@@ -368,6 +393,7 @@
     {
       "number": 14,
       "name": "Mayetté femme Krieer Hans",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "location": "Assenoncourt",
@@ -382,6 +408,7 @@
     {
       "number": 15,
       "name": "Simon Lampert",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "tisserand",
@@ -398,6 +425,7 @@
     {
       "number": 16,
       "name": "Blaisse Pierre",
+      "person_id": null,
       "gender": "male",
       "age": 24,
       "occupation": "laboureur",
@@ -421,6 +449,7 @@
     {
       "number": 17,
       "name": "Claudin Genin",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "boulengier",
@@ -447,6 +476,7 @@
     {
       "number": 18,
       "name": "Mongeatte femme Petteman Austien",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": "laboureur (wife of)",
@@ -1133,7 +1163,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Accused said she and husband called witness witch without any action following, though accused said they did her great wrong and it was a great sin",
     "imprisonment_conditions": "Nicolas Melletz asked that he not be imprisoned since this would cause hardship in harvest season",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1194,83 +1229,97 @@
   "third_parties": [
     {
       "name": "le Baleux (also called Demenge Collas)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "person who quarreled with her and called her witch",
       "context": "Seduction story begins with quarrel with this person; later identified as Demenge Collas whose horse was allegedly poisoned"
     },
     {
       "name": "Demenge Ballou",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "called her names",
       "context": "Once called her 'noir gipsine, noir diable ou noir sorciere' but no witnesses"
     },
     {
       "name": "wife of Demenge Ballou",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "hostile",
       "context": "Said she wished accused were burned like 'la Gaidste'"
     },
     {
       "name": "la Gaidste",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "context": "Previously executed witch mentioned as comparison"
     },
     {
       "name": "Schneider",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer",
       "context": "Accused was in service of Schneider 23 years earlier around time of mother's execution"
     },
     {
       "name": "wife of Schneider",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "former employer",
       "context": "In habit of taking light into room where she had lot of candlewax; accused suspected witchcraft"
     },
     {
       "name": "nephew of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "nephew",
       "context": "Had quarrel with Demenge Collas (Baleux)"
     },
     {
       "name": "brother of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sibling",
       "context": "Had fist fight with Didier Chatron who called him 'fils de sorcier'"
     },
     {
       "name": "daughter of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "context": "Found with other children who had 3 hats full of pears"
     },
     {
       "name": "sister-in-law of Cretienne",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "sister-in-law of witness 13",
       "context": "Suspicions about accused were passed to her, then to accused"
     },
     {
       "name": "father of accused",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "father",
       "context": "Died of plague; had used same root remedy for eyes"
     },
     {
       "name": "mother of accused",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "context": "Executed as witch about 20 years before (circa 1593)"
     },
     {
       "name": "sister of accused",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "sibling",
       "context": "Already executed as witch"
     },
     {
       "name": "le vieux marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Accused allegedly said if they arrested him he might tell about hail damage at Assenoncourt"
     }
@@ -1279,7 +1328,7 @@
     "extracted_date": "2025-12-15",
     "extractor": "Claude (Sonnet 4.5)",
     "confidence": "high",
-    "notes": "Very detailed trial record with extensive witness testimony (18 witnesses), clear timeline, confession under torture, and execution. Notable for accused's ambiguous statements about witches that were used against her, family history of execution (mother and sister), healing activities, and final retraction at execution. Confession obtained under threat of strappado; accused confessed when presented to torture but retracted accusations of accomplices at execution. Rich detail on economic disputes, material culture, and social relationships.",
+    "notes": "Very detailed trial record with extensive witness testimony (18 witnesses), clear timeline, confession under torture, and execution. Notable for accused's ambiguous statements about witches that were used against her, family history of execution (mother and sister), healing activities, and final retraction at execution. Confession obtained under threat of strappado; accused confessed when presented to torture but retracted accusations of accomplices at execution. Rich detail on economic disputes, material culture, and social relationships. Updated 2025-12-25 to backfill new schema fields: language_region, formal_accuser, economic_status, practiced_healing, healing_types, person_id fields, and expanded change_de_nancy object.",
     "pdf_pages": 5
   }
 }

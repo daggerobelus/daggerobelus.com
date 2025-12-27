@@ -3,6 +3,7 @@
   "archive_ref": "B 8667 No 6",
   "location": "Mouriviller",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1592-06-12",
     "end": "1592-07-22",
@@ -12,9 +13,13 @@
   "accused": [
     {
       "name": "Zabel du Sambois",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "charms_amulets"],
       "occupation": [],
       "origin": "Mouriviller",
       "residence": "Mouriviller",
@@ -47,6 +52,7 @@
     {
       "number": 1,
       "name": "Pairson Grand Jean",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "age_approximate": true,
@@ -70,6 +76,7 @@
     {
       "number": 2,
       "name": "Jean Lyenard",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "age_approximate": true,
@@ -89,6 +96,7 @@
     {
       "number": 3,
       "name": "Dieudonne Galand",
+      "person_id": null,
       "gender": "male",
       "age": 53,
       "age_approximate": true,
@@ -123,6 +131,7 @@
     {
       "number": 4,
       "name": "Barbey veuve Demenge Masson",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "age_approximate": true,
@@ -147,6 +156,7 @@
     {
       "number": 5,
       "name": "Jeannon femme Jean Gerardat",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "age_approximate": true,
@@ -170,6 +180,7 @@
     {
       "number": 6,
       "name": "Jean Vicaire",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -196,6 +207,7 @@
     {
       "number": 7,
       "name": "Demenge Buriat",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -212,6 +224,7 @@
     {
       "number": 8,
       "name": "Jean Masson",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "age_approximate": true,
@@ -235,6 +248,7 @@
     {
       "number": 9,
       "name": "Thiebauld Vicaire",
+      "person_id": null,
       "gender": "male",
       "age": 20,
       "age_approximate": true,
@@ -279,6 +293,7 @@
     {
       "number": 10,
       "name": "Colas Curien",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -309,6 +324,7 @@
     {
       "number": 11,
       "name": "Georgeatte femme Didier Claude Phle",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -333,6 +349,7 @@
     {
       "number": 12,
       "name": "Barbe femme Jean Chadat",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -344,6 +361,7 @@
     {
       "number": 13,
       "name": "Catherine Vicaire",
+      "person_id": null,
       "gender": "female",
       "age": 18,
       "age_approximate": true,
@@ -368,6 +386,7 @@
     {
       "number": 14,
       "name": "Didier Claude Phle",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
@@ -391,6 +410,7 @@
     {
       "number": 15,
       "name": "Demenge Vicaire",
+      "person_id": null,
       "gender": "male",
       "age": 65,
       "age_approximate": true,
@@ -412,6 +432,7 @@
     {
       "number": 16,
       "name": "Idatte femme Jean Claude Phle",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "age_approximate": true,
@@ -434,6 +455,7 @@
     {
       "number": 17,
       "name": "Jean Waré",
+      "person_id": null,
       "gender": "male",
       "age": 35,
       "age_approximate": true,
@@ -1063,6 +1085,12 @@
     "accused_sought_redress": false,
     "redress_outcome": "She had been publicly called a witch many times but never sought legal reparation",
     "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "First approved moderate torture on 28 June 1592; then approved execution on 9 July 1592 subject to repetition of confessions",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1113,51 +1141,60 @@
   "third_parties": [
     {
       "name": "Hidatte wife of Jean Claudon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "Asked to intervene on Zabel's behalf with Galand",
       "context": "Galand's 'serorge' (brother-in-law)"
     },
     {
       "name": "curé of Mouriviller",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Persuaded Zabel to apologize to maire Galand, telling her 'the poor must bend for the rich'; present at Easter reconciliation"
     },
     {
       "name": "son of maire Curien of St. Hilaire",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Was with Demenge Buriat keeping pigs during quarrel with Zabel"
     },
     {
       "name": "Babey widow of Demenge Masson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Called in to treat Catherine Vicaire's leg; her ointment made it worse, then said it was 'mal donné' (given illness)"
     },
     {
       "name": "Claudon Vicaire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "Father of Catherine; quarrelled with Zabel",
       "context": "Lost an eye 5-6 years before; died Easter 1592 from head illness; Zabel confessed to killing him"
     },
     {
       "name": "daughters of Zabel",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughters",
       "context": "Involved in multiple quarrels (picking apples, collecting nuts); were ill and asked for pears and cheese; one refused to hold Idatte's baby"
     },
     {
       "name": "child of Zabel and maire Galand",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "child",
       "context": "Conceived during widowhood with maire Claudon Chadat (also called Galand); still living at time of trial"
     },
     {
       "name": "daughters of Dieudonne Galand",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "daughters of witness 3",
       "context": "Refused to give pears and cheese to Zabel's daughters"
     },
     {
       "name": "garson (servant) of Dieudonne Galand",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Was leading horses to pasture when Zabel warned him"
     }

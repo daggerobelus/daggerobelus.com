@@ -3,6 +3,14 @@
   "archive_ref": "B 7301",
   "location": "Jarville",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Bastien Aubertin",
+    "person_id": null,
+    "occupation": "marchand tainturier",
+    "location": "St Nicolas",
+    "relationship_to_accused": "Patient's father; sought cure for son François from Barbe"
+  },
   "dates": {
     "start": "1591-06-24",
     "end": "1591-08-05",
@@ -12,10 +20,23 @@
   "accused": [
     {
       "name": "Barbe la grosse gorge",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
-      "occupation": ["healer", "folk medicine practitioner", "beggar"],
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies",
+        "charms_amulets",
+        "divination",
+        "midwifery"
+      ],
+      "occupation": [
+        "healer",
+        "folk medicine practitioner",
+        "beggar"
+      ],
       "origin": "Ville-sur-Illon",
       "residence": "Jarville",
       "marital_status": "widowed",
@@ -36,7 +57,11 @@
         "devil_mark": {
           "present": false
         },
-        "powder_types": ["herbs called 'gloriate finate'", "poisonous herbs", "mercury"],
+        "powder_types": [
+          "herbs called 'gloriate finate'",
+          "poisonous herbs",
+          "mercury"
+        ],
         "sabbat_attended": true,
         "sabbat_locations": [],
         "sabbat_activities": [],
@@ -48,6 +73,7 @@
     {
       "number": 1,
       "name": "Philippe la Tour",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "doyen d'Art-sur-Meurthe",
@@ -77,6 +103,7 @@
     {
       "number": 2,
       "name": "Barthelemy Jacques",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "location": "Loupcourt",
@@ -115,7 +142,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 4,
@@ -143,7 +171,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 5,
@@ -193,7 +222,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 6,
@@ -211,7 +241,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 7,
@@ -236,7 +267,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 8,
@@ -261,7 +293,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 9,
@@ -279,7 +312,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 10,
@@ -295,7 +329,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 11,
@@ -323,7 +358,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 12,
@@ -342,7 +378,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 13,
@@ -360,7 +397,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 14,
@@ -385,7 +423,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 15,
@@ -404,7 +443,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": true,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 16,
@@ -422,7 +462,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 17,
@@ -456,7 +497,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 18,
@@ -473,7 +515,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 19,
@@ -491,7 +534,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     },
     {
       "number": 20,
@@ -509,7 +553,8 @@
         "theft_mentioned": false,
         "called_witch_publicly": false,
         "sought_legal_redress": false
-      }
+      },
+      "person_id": null
     }
   ],
   "timeline": [
@@ -612,7 +657,9 @@
   ],
   "torture": {
     "used": true,
-    "methods": ["rack"],
+    "methods": [
+      "rack"
+    ],
     "requesting_official": "procureur for seigneurs of Lenoncourt",
     "approving_court": "Change de Nancy",
     "restrictions": "briefly racked"
@@ -1265,7 +1312,9 @@
   "historical_context": {
     "military_presence": true,
     "military_details": "German soldiers passed by pont St Vincent at harvest time; affected horses became ill",
-    "weather_events": ["bad weather prevented pilgrimage"],
+    "weather_events": [
+      "bad weather prevented pilgrimage"
+    ],
     "animal_predation": [],
     "economic_hardship_indicators": [
       "Barbe left Ville-sur-Illon because of poverty",
@@ -1308,7 +1357,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Barbe said she was ready to endure any pain and demanded vengeance against Aubertin",
     "imprisonment_conditions": "Not specified",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": "Approved torture on July 24, 1591; approved death sentence on July 29, 1591 subject to repetition of confessions",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1343,8 +1397,14 @@
     ],
     "oldest_accusation_years": 9,
     "corroboration_groups": [
-      [7, 8],
-      [9, 10]
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1377,304 +1437,353 @@
       "name": "Bastien Aubertin",
       "role_in_narrative": "other",
       "relationship_to_accused": "Made formal complaint; accused sought his son's cure",
-      "context": "marchand tainturier of St Nicolas; made himself partie formelle on 24 June"
+      "context": "marchand tainturier of St Nicolas; made himself partie formelle on 24 June",
+      "person_id": null
     },
     {
       "name": "François Aubertin",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Patient she attempted to cure",
       "relationship_to_witness": "son of Bastien Aubertin",
-      "context": "Unable to walk and almost without speech; Barbe attempted various cures"
+      "context": "Unable to walk and almost without speech; Barbe attempted various cures",
+      "person_id": null
     },
     {
       "name": "sieur Controlleur de Desme",
       "role_in_narrative": "other",
       "relationship_to_accused": "Patient she successfully cured",
-      "context": "Cured of fever along with 3 of his maids using herbs and moss"
+      "context": "Cured of fever along with 3 of his maids using herbs and moss",
+      "person_id": null
     },
     {
       "name": "Symon le Boulengier",
       "role_in_narrative": "other",
       "relationship_to_accused": "Wife was patient",
-      "context": "of la Neufville; wife cured of fever"
+      "context": "of la Neufville; wife cured of fever",
+      "person_id": null
     },
     {
       "name": "Claude des Seurs",
       "role_in_narrative": "other",
       "relationship_to_accused": "Daughters were patients",
-      "context": "baker of la Neufville; 2 young daughters cured of fever"
+      "context": "baker of la Neufville; 2 young daughters cured of fever",
+      "person_id": null
     },
     {
       "name": "captain Vatollet",
       "role_in_narrative": "other",
       "relationship_to_accused": "Maid was patient",
-      "context": "Barbe treated his maid for fever but did not know outcome"
+      "context": "Barbe treated his maid for fever but did not know outcome",
+      "person_id": null
     },
     {
       "name": "Didellot (Didier Rayeux)",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Patient who died",
       "relationship_to_witness": "husband of witness 4",
-      "context": "recouvreur de haute ouvraige; had 'cancre' in mouth; died after Barbe's treatment"
+      "context": "recouvreur de haute ouvraige; had 'cancre' in mouth; died after Barbe's treatment",
+      "person_id": null
     },
     {
       "name": "Magdellaine femme Demenge of Jarville",
       "role_in_narrative": "other",
       "relationship_to_accused": "Intermediary",
-      "context": "Brought bottle of wine from Didellot's wife to Barbe"
+      "context": "Brought bottle of wine from Didellot's wife to Barbe",
+      "person_id": null
     },
     {
       "name": "Jean Blucotte",
       "role_in_narrative": "other",
       "relationship_to_accused": "Patient she cured",
-      "context": "cook of Mgr le Marquis; cured with 'contrepoison'"
+      "context": "cook of Mgr le Marquis; cured with 'contrepoison'",
+      "person_id": null
     },
     {
       "name": "le sieur des Fours",
       "role_in_narrative": "other",
       "relationship_to_accused": "Called her to treat wife",
-      "context": "of Mont; wife had fallen on back outside Grey Sisters house"
+      "context": "of Mont; wife had fallen on back outside Grey Sisters house",
+      "person_id": null
     },
     {
       "name": "Mre Bastien",
       "role_in_narrative": "other",
-      "context": "Barbe claimed she returned 3 francs to him at his house"
+      "context": "Barbe claimed she returned 3 francs to him at his house",
+      "person_id": null
     },
     {
       "name": "la demoiselle de Viller",
       "role_in_narrative": "other",
       "relationship_to_accused": "Employer; mother of patient",
-      "context": "Sent cart for Barbe to treat son Colignon who had lost sight"
+      "context": "Sent cart for Barbe to treat son Colignon who had lost sight",
+      "person_id": null
     },
     {
       "name": "Colignon",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Patient",
       "relationship_to_witness": "son of demoiselle de Viller",
-      "context": "Lost his sight; Barbe claimed to cure him over 6 weeks with water"
+      "context": "Lost his sight; Barbe claimed to cure him over 6 weeks with water",
+      "person_id": null
     },
     {
       "name": "Two Grey Sisters from convent at la Neufville",
       "role_in_narrative": "other",
       "relationship_to_accused": "Patients cured of fever",
-      "context": "Successfully treated by Barbe"
+      "context": "Successfully treated by Barbe",
+      "person_id": null
     },
     {
       "name": "Henry de la Cave",
       "role_in_narrative": "other",
       "relationship_to_accused": "Patient not cured",
-      "context": "baker at St Nicolas; had longstanding leg problem; not cured"
+      "context": "baker at St Nicolas; had longstanding leg problem; not cured",
+      "person_id": null
     },
     {
       "name": "Mason at St Nicolas",
       "role_in_narrative": "other",
       "relationship_to_accused": "Patient cured",
-      "context": "Eyes cured with waters Barbe made"
+      "context": "Eyes cured with waters Barbe made",
+      "person_id": null
     },
     {
       "name": "Richis Humbert",
       "role_in_narrative": "other",
       "relationship_to_accused": "Wife called Barbe to treat daughter",
-      "context": "of Lenoncourt; daughter troubled in mind"
+      "context": "of Lenoncourt; daughter troubled in mind",
+      "person_id": null
     },
     {
       "name": "la grande Françoise",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "Intermediary who brought Barbe to patients",
-      "context": "Brought Barbe to multiple patients in Nancy"
+      "context": "Brought Barbe to multiple patients in Nancy",
+      "person_id": null
     },
     {
       "name": "la Grande Mengeon, wife of Jean Tropessaulx",
       "role_in_narrative": "other",
       "relationship_to_accused": "Asked for help finding lost money",
-      "context": "of Loupcourt; Barbe took money for pilgrimage but never returned"
+      "context": "of Loupcourt; Barbe took money for pilgrimage but never returned",
+      "person_id": null
     },
     {
       "name": "apothecary la Ratte",
       "role_in_narrative": "other",
       "relationship_to_accused": "Threatened her for practicing medicine",
-      "context": "Told Didellot his illness came from sorcery after Barbe treated him"
+      "context": "Told Didellot his illness came from sorcery after Barbe treated him",
+      "person_id": null
     },
     {
       "name": "demoiselle de Champy",
       "role_in_narrative": "other",
       "relationship_to_accused": "Employer who dismissed Barbe's son",
-      "context": "at Montel; told servants to dismiss boy because of mother's reputation"
+      "context": "at Montel; told servants to dismiss boy because of mother's reputation",
+      "person_id": null
     },
     {
       "name": "Paul Petit",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Former employer; later died",
       "relationship_to_witness": "first husband of witness 5",
-      "context": "moictrier for demoiselle de Champy; hired Barbe's son; later died with 3 children"
+      "context": "moictrier for demoiselle de Champy; hired Barbe's son; later died with 3 children",
+      "person_id": null
     },
     {
       "name": "Nicolas Charier",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Accused of speaking ill; died after her threat",
       "relationship_to_witness": "son of witness 5",
-      "context": "Died saying Barbe bewitched him"
+      "context": "Died saying Barbe bewitched him",
+      "person_id": null
     },
     {
       "name": "Jean Masselin",
       "role_in_narrative": "other",
       "relationship_to_accused": "Husband of patient who died",
-      "context": "concierge of château of Pont-à-Mousson; drove Barbe away with threats"
+      "context": "concierge of château of Pont-à-Mousson; drove Barbe away with threats",
+      "person_id": null
     },
     {
       "name": "Margueritte, wife of Jean Masselin",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Patient who died",
       "relationship_to_witness": "sister of witnesses 7 and 8",
-      "context": "Long illness; said she was bewitched up to death"
+      "context": "Long illness; said she was bewitched up to death",
+      "person_id": null
     },
     {
       "name": "Mengin Florentin",
       "role_in_narrative": "other",
       "relationship_to_accused": "Father who called Barbe to treat daughter",
-      "context": "Father of Margueritte who died; witness 15 was servant in his house"
+      "context": "Father of Margueritte who died; witness 15 was servant in his house",
+      "person_id": null
     },
     {
       "name": "Poiresson le Clerc alias le Roucel",
       "role_in_narrative": "community_member",
       "relationship_to_accused": "Landlord who sheltered her",
-      "context": "Curé threatened to expel him if he continued to shelter Barbe"
+      "context": "Curé threatened to expel him if he continued to shelter Barbe",
+      "person_id": null
     },
     {
       "name": "wife of Grand Didier",
       "role_in_narrative": "other",
       "relationship_to_accused": "Recommended Barbe to patients",
-      "context": "Advised Jeanne Collignon to consult Barbe"
+      "context": "Advised Jeanne Collignon to consult Barbe",
+      "person_id": null
     },
     {
       "name": "Jean Thomas",
       "role_in_narrative": "other",
       "relationship_to_accused": "Asked for gambling luck",
-      "context": "son-in-law of witness 13; given 'graines de fouchere' for gambling"
+      "context": "son-in-law of witness 13; given 'graines de fouchere' for gambling",
+      "person_id": null
     },
     {
       "name": "Mengeotte wife of Jean Thomas",
       "role_in_narrative": "other",
       "relationship_to_accused": "Exposed her fraud",
       "relationship_to_witness": "wife of Jean Thomas, related to witness 13",
-      "context": "Called Barbe 'abuzeresse' when exposing wheat grains as fake fern seeds"
+      "context": "Called Barbe 'abuzeresse' when exposing wheat grains as fake fern seeds",
+      "person_id": null
     },
     {
       "name": "Aubertin Lausson",
       "role_in_narrative": "other",
       "relationship_to_accused": "First husband of witness 18",
       "relationship_to_witness": "first husband of witness 18",
-      "context": "Witness lived at Tonnoy during this marriage"
+      "context": "Witness lived at Tonnoy during this marriage",
+      "person_id": null
     },
     {
       "name": "Poiresson",
       "role_in_narrative": "other",
       "relationship_to_accused": "Patient's husband",
-      "context": "of St Marc; wife treated by Barbe; he called her 'orde et idotte cuseniere'"
+      "context": "of St Marc; wife treated by Barbe; he called her 'orde et idotte cuseniere'",
+      "person_id": null
     },
     {
       "name": "wife of Poiresson",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Patient who remained ill",
-      "context": "Remained ill for long time after Barbe's treatment"
+      "context": "Remained ill for long time after Barbe's treatment",
+      "person_id": null
     },
     {
       "name": "Noel Gerard",
       "role_in_narrative": "other",
       "relationship_to_accused": "Husband of witness",
       "relationship_to_witness": "husband of witness 16",
-      "context": "menusier de Nancy"
+      "context": "menusier de Nancy",
+      "person_id": null
     },
     {
       "name": "Remey Bastien",
       "role_in_narrative": "other",
       "relationship_to_accused": "Husband of witness",
       "relationship_to_witness": "husband of witness 17",
-      "context": "marchal de Nancy"
+      "context": "marchal de Nancy",
+      "person_id": null
     },
     {
       "name": "widow of Jean Cordonnier",
       "role_in_narrative": "other",
       "relationship_to_accused": "Recommended Barbe",
-      "context": "Told witness 17 about Barbe being born on Good Friday"
+      "context": "Told witness 17 about Barbe being born on Good Friday",
+      "person_id": null
     },
     {
       "name": "Jean Ferry",
       "role_in_narrative": "other",
       "relationship_to_accused": "Husband of witness",
       "relationship_to_witness": "husband of witness 18",
-      "context": "de St Nicolas"
+      "context": "de St Nicolas",
+      "person_id": null
     },
     {
       "name": "wife of Bastien Aubertin",
       "role_in_narrative": "other",
       "relationship_to_accused": "Sought cure for son",
-      "context": "Brought son François to Barbe multiple times"
+      "context": "Brought son François to Barbe multiple times",
+      "person_id": null
     },
     {
       "name": "Chastellain",
       "role_in_narrative": "other",
       "relationship_to_accused": "Uncle who taught her about fern seeds",
-      "context": "prévôt of canons of Metz; died 7 or 8 years earlier; gave her 'graines de fouchere'"
+      "context": "prévôt of canons of Metz; died 7 or 8 years earlier; gave her 'graines de fouchere'",
+      "person_id": null
     },
     {
       "name": "Mre Augustin",
       "role_in_narrative": "other",
       "relationship_to_accused": "Alleged devil/seducer",
-      "context": "Seduced her near Jametz 7 or 8 years earlier; taught her about herbs"
+      "context": "Seduced her near Jametz 7 or 8 years earlier; taught her about herbs",
+      "person_id": null
     },
     {
       "name": "Demenge Voyant",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Nephew she confessed to killing",
-      "context": "of le Grand Frizon; Barbe confessed to killing with poisonous herbs in soup"
+      "context": "of le Grand Frizon; Barbe confessed to killing with poisonous herbs in soup",
+      "person_id": null
     },
     {
       "name": "Claudon Barthelemy",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Man she confessed to killing",
-      "context": "of Ville-sur-Illon; Barbe confessed he broke her leg falling from tree; she killed him with powder"
+      "context": "of Ville-sur-Illon; Barbe confessed he broke her leg falling from tree; she killed him with powder",
+      "person_id": null
     },
     {
       "name": "la belle Alix",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Woman she confessed to killing",
-      "context": "of Ville-sur-Illon; Barbe confessed to killing with mercury in soup because she caused bad relations with husband"
+      "context": "of Ville-sur-Illon; Barbe confessed to killing with mercury in soup because she caused bad relations with husband",
+      "person_id": null
     },
     {
       "name": "Claudin Petit Homme",
       "role_in_narrative": "other",
       "relationship_to_accused": "Neighbor; quarreled with Barbe",
-      "context": "of Jarville; husband of Poinsotte"
+      "context": "of Jarville; husband of Poinsotte",
+      "person_id": null
     },
     {
       "name": "Poinsotte, wife of Claudin Petit Homme",
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "Woman Barbe accused of witchcraft",
-      "context": "of Jarville; Barbe claimed she appeared with flaming candles and tried to strangle her; confronted with Barbe"
+      "context": "of Jarville; Barbe claimed she appeared with flaming candles and tried to strangle her; confronted with Barbe",
+      "person_id": null
     },
     {
       "name": "la grande Margueritte femme Thierry",
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "Told Barbe about Poinsotte",
-      "context": "of Jarville; said Poinsotte touched her on shoulder and she was ill for a year"
+      "context": "of Jarville; said Poinsotte touched her on shoulder and she was ill for a year",
+      "person_id": null
     },
     {
       "name": "vagabond who made profession of pilgrimages",
       "role_in_narrative": "other",
       "relationship_to_accused": "Substitute pilgrim",
-      "context": "Barbe sent him to St Genoil in her stead when bad weather prevented her going"
+      "context": "Barbe sent him to St Genoil in her stead when bad weather prevented her going",
+      "person_id": null
     },
     {
       "name": "curé of St Genoil",
       "role_in_narrative": "official",
-      "context": "Provided vinegar and instructions for sick man"
+      "context": "Provided vinegar and instructions for sick man",
+      "person_id": null
     },
     {
       "name": "servant at inn la Chatte et Epinal",
       "role_in_narrative": "victim",
       "relationship_to_accused": "Barbe confessed to making her ill",
-      "context": "Would not give Barbe wine on credit; made ill then cured"
+      "context": "Would not give Barbe wine on credit; made ill then cured",
+      "person_id": null
     }
   ],
   "extraction_metadata": {

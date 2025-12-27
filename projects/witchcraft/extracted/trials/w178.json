@@ -1,0 +1,870 @@
+{
+  "trial_id": "w178",
+  "archive_ref": "B 8680 no 8",
+  "location": "Sarupt",
+  "court": "Change de Nancy",
+  "language_region": "french",
+  "dates": {
+    "start": "1597-09-12",
+    "end": "1597-10-21",
+    "duration_days": 39
+  },
+  "outcome": "death",
+  "accused": [
+    {
+      "name": "Colas François",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "age_approximate": true,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "occupation": ["laboureur"],
+      "origin": "Sarupt",
+      "residence": "Sarupt",
+      "marital_status": "married",
+      "parents": {
+        "father": "François Thieriat"
+      },
+      "confession": {
+        "confessed": true,
+        "under_torture": true,
+        "retracted": false,
+        "retraction_renewed": false,
+        "devil_name": "Mre Navel",
+        "devil_appearance": "sometimes mounted on a black horse, sometimes on an animal like a black dog, which he made jump and gambol, behaving like a drunken man",
+        "seduction_date": "9 years earlier",
+        "seduction_context": "when out ploughing and angry about loss of a horse; he promised to make him rich",
+        "devil_mark": {
+          "present": false
+        },
+        "powder_types": ["grey powder to kill men and beasts"],
+        "sabbat_attended": true,
+        "sabbat_locations": [],
+        "sabbat_activities": [
+          "feasting and dancing",
+          "musicians were 2 or 3 little devils who made noises with their mouths",
+          "devil assembled them to tell them it was more beautiful in his hell than in paradise",
+          "devil told them not to make sign of cross nor use holy water",
+          "devil beat several who disobeyed"
+        ],
+        "sexual_relations_with_devil": false
+      }
+    }
+  ],
+  "witnesses": [
+    {
+      "number": 1,
+      "name": "Barbelline veuve Jean le maire",
+      "person_id": null,
+      "gender": "female",
+      "age": 60,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "told off her daughter Colatte, who was guarding animals, saying that within 3 days she would not return to that place",
+        "threat_received": true,
+        "threat_quote": "within 3 days she would not return to that place",
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "Colatte (daughter)",
+            "target_relationship": "daughter",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Colatte fille Jean le maire",
+      "person_id": null,
+      "gender": "female",
+      "age": 24,
+      "location": "Girompaire",
+      "relationship_to_accused": "daughter of witness 1",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "self",
+            "target_relationship": "self",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Georgeatte femme Jean Colatte",
+      "person_id": null,
+      "gender": "female",
+      "age": 50,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "common land",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "ox",
+            "target_relationship": "husband's ox",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "soon after"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Mengeon Lienard",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": false,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "Colas had pushed mare of witness",
+        "threat_received": true,
+        "threat_quote": "the person who had pushed his mare should put her right, otherwise he would bring her to him",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "target_relationship": "own mare",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "3 weeks earlier"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Jacquot Jean, maire de Girompaire",
+      "person_id": null,
+      "gender": "male",
+      "age": 32,
+      "occupation": "maire",
+      "location": "Girompaire",
+      "relationship_to_accused": "brother of witness 2",
+      "testimony": {
+        "reputation_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "human_illness",
+            "target": "sister (Colatte)",
+            "target_relationship": "sister",
+            "attributed_to": "Colas François"
+          }
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Lienard Adam",
+      "person_id": null,
+      "gender": "male",
+      "age": 25,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "horse",
+            "target_relationship": "own horse",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "same evening"
+          }
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Georgeon Demenge Babel",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": false,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 8,
+      "name": "Jacquotte femme Mengeon Martin",
+      "person_id": null,
+      "gender": "female",
+      "age": 40,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "Claude maire Aulbry",
+      "person_id": null,
+      "gender": "male",
+      "age": 30,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "threat_received": true,
+        "threat_quote": "que s'il la pouvoit avoir il l'auroit",
+        "harms_alleged": [
+          {
+            "type": "animal_illness",
+            "target": "mare",
+            "target_relationship": "Mengeatte la veuve's mare",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "within a few days"
+          }
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "George Aulbry",
+      "person_id": null,
+      "gender": "male",
+      "age": 60,
+      "location": "Girompaire",
+      "testimony": {
+        "reputation_mentioned": true,
+        "quarrel_mentioned": true,
+        "quarrel_subject": "angry with his servant who was pasturing beasts on common land",
+        "harms_alleged": [
+          {
+            "type": "animal_death",
+            "target": "cow",
+            "target_relationship": "own cow",
+            "attributed_to": "Colas François",
+            "time_after_quarrel": "next day"
+          }
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Jacques Hugo",
+      "person_id": null,
+      "gender": "male",
+      "age": 50,
+      "location": "St Lienard",
+      "testimony": {
+        "reputation_mentioned": true,
+        "harms_alleged": []
+      }
+    }
+  ],
+  "prior_accusations": [
+    {
+      "accuser_name": "Didier Pierrat de Saulcy",
+      "accuser_location": "Saulcy",
+      "context": "denounced by witch 177",
+      "already_executed": true
+    }
+  ],
+  "accomplices_named": [
+    {
+      "name": "Didier Pierrat",
+      "location": "Saulcy",
+      "context": "saw at sabbat, maintained accusation throughout",
+      "already_executed": true,
+      "trial_id": "w177"
+    },
+    {
+      "name": "wife of Mengeon Renardin",
+      "location": "Contramolin",
+      "context": "saw at sabbat",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Lienard Laurence",
+      "location": "Contramolin",
+      "context": "saw at sabbat on another occasion",
+      "already_executed": false
+    },
+    {
+      "name": "widow of Jean le maire",
+      "location": "Girompaire",
+      "context": "named as accomplice, later withdrew",
+      "already_executed": false
+    },
+    {
+      "name": "Lienard (son of widow Jean le maire)",
+      "location": "Girompaire",
+      "context": "named as accomplice, later withdrew",
+      "already_executed": false
+    },
+    {
+      "name": "wife of Jean Cosson",
+      "location": "Contramolin",
+      "context": "named as accomplice, later withdrew",
+      "already_executed": false
+    },
+    {
+      "name": "Dieudonné Jean Dieudonné",
+      "location": "le Souche d'Anould",
+      "context": "named as accomplice, maintained accusation",
+      "already_executed": false
+    },
+    {
+      "name": "2 sons of le Gros Didier",
+      "location": "Voinchieres",
+      "context": "named as accomplice, maintained accusation",
+      "already_executed": false
+    },
+    {
+      "name": "Adam Jean Lienard",
+      "location": "Sarupt",
+      "context": "named as accomplice, later withdrew",
+      "already_executed": false
+    },
+    {
+      "name": "Jean Colas Lienard",
+      "location": "Sarupt",
+      "context": "named as accomplice out of hatred, quickly withdrew",
+      "already_executed": false
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1597-09-12",
+      "event": "informations_preparatoires",
+      "subject": "Colas François",
+      "details": "15 witnesses testified"
+    },
+    {
+      "date": "1597-09-20",
+      "event": "interrogation",
+      "subject": "Colas François",
+      "details": "denied all charges, said he had long been suspected as witch but it was false"
+    },
+    {
+      "date": "1597-09-24",
+      "event": "confrontation",
+      "subject": "Colas François",
+      "details": "confronted with witnesses, accused them of theft, continued to deny charges"
+    },
+    {
+      "date": "1597-09-28",
+      "event": "torture_requested",
+      "subject": "Colas François",
+      "details": "procureur for chapter requested torture"
+    },
+    {
+      "date": "1597-10-03",
+      "event": "torture_approved",
+      "subject": "Colas François",
+      "details": "Change de Nancy approved torture"
+    },
+    {
+      "date": "1597-10-16",
+      "event": "torture",
+      "subject": "Colas François",
+      "details": "given rack but would confess nothing, made difficulties about renouncing devil"
+    },
+    {
+      "date": "1597-10-17",
+      "event": "interrogation",
+      "subject": "Colas François",
+      "details": "threatened with further torture, confessed to seduction by devil, malefices, and sabbat attendance"
+    },
+    {
+      "date": "1597-10-18",
+      "event": "interrogation",
+      "subject": "Colas François",
+      "details": "renewed confessions, withdrew many accusations saying made in hatred"
+    },
+    {
+      "date": "1597-10-19",
+      "event": "sentence",
+      "subject": "Colas François",
+      "details": "death sentence from Change de Nancy"
+    },
+    {
+      "date": "1597-10-21",
+      "event": "execution",
+      "subject": "Colas François",
+      "details": "confirmed confessions, said only Didier Pierrat could be identified as accomplice, then executed"
+    }
+  ],
+  "torture": {
+    "used": true,
+    "methods": ["rack"],
+    "requesting_official": "procureur for chapter",
+    "approving_court": "Change de Nancy"
+  },
+  "harms_catalog": [
+    {
+      "victim_name": "Colatte fille Jean le maire",
+      "victim_relationship_to_witness": "daughter (witness 1), self (witness 2)",
+      "harm_category": "human_illness",
+      "harm_description": "feet seemed to be burning, cried continually, lost most of toes, remained 'pauvre impotent'",
+      "attributed_to": "Colas François",
+      "precipitating_quarrel": "told off daughter for damaging his wheat, she wished him to the devil",
+      "time_between_quarrel_and_harm": "next day",
+      "method_alleged": "cursed that hell fire would burn her feet",
+      "witness_number": 1
+    },
+    {
+      "victim_name": "ox of Jean Colatte",
+      "victim_relationship_to_witness": "husband's ox",
+      "harm_category": "animal_death",
+      "harm_description": "fell ill with great swelling on neck, died after a year",
+      "animal_type": "ox",
+      "animal_count": 1,
+      "attributed_to": "Colas François",
+      "precipitating_quarrel": "quarrelled over common land",
+      "time_between_quarrel_and_harm": "2 years before",
+      "witness_number": 3
+    },
+    {
+      "victim_name": "mare of Mengeon Lienard",
+      "victim_relationship_to_witness": "own mare",
+      "harm_category": "animal_illness",
+      "harm_description": "sickened, then recovered after counter-threat",
+      "animal_type": "mare",
+      "animal_count": 1,
+      "attributed_to": "Colas François",
+      "precipitating_quarrel": "Colas pushed mare",
+      "time_between_quarrel_and_harm": "3 weeks earlier",
+      "witness_number": 4
+    },
+    {
+      "victim_name": "horse of Lienard Adam",
+      "victim_relationship_to_witness": "own horse",
+      "harm_category": "animal_death",
+      "harm_description": "was frightened, sickened same evening, died next day as if rabid",
+      "animal_type": "horse",
+      "animal_count": 1,
+      "attributed_to": "Colas François",
+      "precipitating_quarrel": "Colas approached horse around St Jean",
+      "time_between_quarrel_and_harm": "same evening",
+      "witness_number": 6
+    },
+    {
+      "victim_name": "mare of Mengeatte la veuve",
+      "victim_relationship_to_witness": "Mengeatte's mare",
+      "harm_category": "animal_illness",
+      "harm_description": "became ill and useless",
+      "animal_type": "mare",
+      "animal_count": 1,
+      "attributed_to": "Colas François",
+      "precipitating_quarrel": "threatened her 'que s'il la pouvoit avoir il l'auroit'",
+      "time_between_quarrel_and_harm": "within a few days",
+      "witness_number": 9
+    },
+    {
+      "victim_name": "cow of George Aulbry",
+      "victim_relationship_to_witness": "own cow",
+      "harm_category": "animal_death",
+      "harm_description": "lost cow worth more than 10 ecus",
+      "animal_type": "cow",
+      "animal_count": 1,
+      "economic_value": "more than 10 ecus",
+      "attributed_to": "Colas François",
+      "precipitating_quarrel": "angry with his servant who was pasturing beasts on common land",
+      "time_between_quarrel_and_harm": "next day",
+      "witness_number": 14
+    }
+  ],
+  "notable_quotes": [
+    {
+      "speaker": "Colas François",
+      "french": "il conviendriot bien mal que ceux qui usent de telz propos soient tous sorciers",
+      "english": "it would be very bad if those who use such words were all witches",
+      "context": "during interrogation, defending himself by saying if wishing harm makes one a witch, many would be witches"
+    },
+    {
+      "speaker": "Mengeatte la veuve",
+      "french": "s'il la pouvoit avoir il l'auroit",
+      "english": "if he could have her he would have her",
+      "context": "threat allegedly made by Colas"
+    },
+    {
+      "speaker": "Mre Navel (devil)",
+      "french": "comme il faisoit beaucoup plus beau, en son enfer, qu'en paradis, et qu'ils seroient bien heureux d'estre audit enfer avec luy",
+      "english": "it was much more beautiful in his hell than in paradise, and that they would be very happy to be in said hell with him",
+      "context": "devil's speech at sabbat"
+    },
+    {
+      "speaker": "Mre Navel (devil)",
+      "french": "avec beaucoup d'autres propos, tousjours pour tascher de les abuser davantage",
+      "english": "with many other words, always trying to deceive them further",
+      "context": "devil's instructions at sabbat about not making sign of cross or using holy water"
+    }
+  ],
+  "relationships": [
+    {
+      "person1": "Barbelline veuve Jean le maire",
+      "person2": "Colatte fille Jean le maire",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "her daughter Colatte"
+    },
+    {
+      "person1": "Barbelline veuve Jean le maire",
+      "person2": "Jean le maire",
+      "relationship_type": "widow_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Barbelline veuve Jean le maire"
+    },
+    {
+      "person1": "Jacquot Jean, maire de Girompaire",
+      "person2": "Colatte fille Jean le maire",
+      "relationship_type": "sibling_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "witness",
+      "evidence_text": "Another version of story of his sister (witness 2)"
+    },
+    {
+      "person1": "Georgeatte femme Jean Colatte",
+      "person2": "Jean Colatte",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Georgeatte femme Jean Colatte"
+    },
+    {
+      "person1": "Jacquotte femme Mengeon Martin",
+      "person2": "Mengeon Martin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "Jacquotte femme Mengeon Martin"
+    },
+    {
+      "person1": "Colas François",
+      "person2": "François Thieriat",
+      "relationship_type": "child_of",
+      "direction": "directed",
+      "person1_role": "accused",
+      "person2_role": "other",
+      "evidence_text": "son of François Thieriat of Sarupt"
+    },
+    {
+      "person1": "widow of Jean le maire",
+      "person2": "Lienard",
+      "relationship_type": "parent_of",
+      "direction": "directed",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "Widow of Jean le maire of Girompaire and her son Lienard",
+      "inferred": false
+    },
+    {
+      "person1": "wife of Mengeon Renardin",
+      "person2": "Mengeon Renardin",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "wife of Mengeon Renardin of Contramolin"
+    },
+    {
+      "person1": "wife of Lienard Laurence",
+      "person2": "Lienard Laurence",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "wife of Lienard Laurence of Contramolin"
+    },
+    {
+      "person1": "wife of Jean Cosson",
+      "person2": "Jean Cosson",
+      "relationship_type": "spouse_of",
+      "direction": "undirected",
+      "person1_role": "other",
+      "person2_role": "other",
+      "evidence_text": "wife of Jean Cosson of Contramolin"
+    },
+    {
+      "person1": "George Aulbry",
+      "person2": "servant of George Aulbry",
+      "relationship_type": "employer_of",
+      "direction": "directed",
+      "person1_role": "witness",
+      "person2_role": "other",
+      "evidence_text": "angry with his servant who was pasturing beasts on common land",
+      "inferred": true
+    }
+  ],
+  "economic_context": {
+    "accused_occupation_disputes": false,
+    "debt_disputes": false,
+    "property_disputes": true,
+    "details": "Multiple disputes over common land for pasturing animals. Witness 3 testified about quarrel over common land. Witness 14 testified about anger over servant pasturing beasts on common land."
+  },
+  "material_culture": [
+    {
+      "object": "axe",
+      "context": "Colas claimed Georgeatte femme Jean Colatte had stolen an axe from him",
+      "category": "tools"
+    },
+    {
+      "object": "shoes (pair)",
+      "context": "Colas said Jean Colatte was reputed to have stolen a pair of shoes",
+      "category": "clothing"
+    },
+    {
+      "object": "wheat",
+      "context": "Colas said George Claudey had stolen some wheat found on the road",
+      "category": "agricultural"
+    },
+    {
+      "object": "money (horse-dung)",
+      "context": "devil gave him money which proved to be horse-dung",
+      "category": "money"
+    },
+    {
+      "object": "grey powder",
+      "context": "devil gave him powder to kill men and beasts",
+      "category": "magical"
+    },
+    {
+      "object": "2 hens",
+      "context": "made pact to give master 2 hens each year to be excused sabbat attendance",
+      "category": "agricultural"
+    },
+    {
+      "object": "black horse",
+      "context": "devil was sometimes mounted on a black horse at sabbat",
+      "category": "other"
+    },
+    {
+      "object": "hats",
+      "context": "they took their hats off and made reverence to devil at sabbat",
+      "category": "clothing"
+    }
+  ],
+  "spatial_references": [
+    {
+      "place_name": "Sarupt",
+      "place_type": "village",
+      "context": "residence of accused"
+    },
+    {
+      "place_name": "Girompaire",
+      "place_type": "village",
+      "context": "location of most witnesses"
+    },
+    {
+      "place_name": "Saulcy",
+      "place_type": "village",
+      "context": "location of Didier Pierrat who denounced accused"
+    },
+    {
+      "place_name": "St Lienard",
+      "place_type": "village",
+      "context": "location of witness Jacques Hugo"
+    },
+    {
+      "place_name": "Contramolin",
+      "place_type": "village",
+      "context": "location of several accused accomplices"
+    },
+    {
+      "place_name": "le Souche d'Anould",
+      "place_type": "village",
+      "context": "location of accused accomplice Dieudonné Jean Dieudonné"
+    },
+    {
+      "place_name": "Voinchieres",
+      "place_type": "village",
+      "context": "location of accused accomplices (sons of le Gros Didier)"
+    },
+    {
+      "place_name": "common land",
+      "place_type": "field",
+      "context": "site of disputes over pasturing animals"
+    },
+    {
+      "place_name": "la Ruelle",
+      "place_type": "other",
+      "context": "Colas referred to Didier as 'Didier de la Ruelle'"
+    },
+    {
+      "place_name": "field (ploughing)",
+      "place_type": "field",
+      "context": "where devil seduced accused while ploughing"
+    }
+  ],
+  "historical_context": {
+    "military_presence": false,
+    "weather_events": [],
+    "animal_predation": [],
+    "economic_hardship_indicators": [
+      "disputes over common land for animal pasture",
+      "economic value of animals emphasized (10 ecus for cow)",
+      "victim described as 'pauvre impotent' after injury"
+    ],
+    "religious_calendar_references": [
+      "St Jean"
+    ]
+  },
+  "legal_context": {
+    "officials_named": [
+      {
+        "name": "procureur for chapter",
+        "role": "prosecutor_pg",
+        "location": "unknown"
+      }
+    ],
+    "prior_legal_disputes": [
+      {
+        "dispute_type": "theft",
+        "description": "Colas accused several witnesses of theft (axe, shoes, wheat) during confrontations",
+        "outcome": "witnesses denied"
+      }
+    ],
+    "accused_sought_redress": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "local_court_followed": true
+    },
+    "property_confiscation_mentioned": false
+  },
+  "evidence_quality": {
+    "firsthand_testimony_count": 6,
+    "hearsay_testimony_count": 1,
+    "hearsay_chains": [
+      {
+        "reporter": "Claude maire Aulbry",
+        "source": "heard him threaten Mengeatte",
+        "content": "threat to Mengeatte and subsequent harm to her mare"
+      }
+    ],
+    "oldest_accusation_years": 6,
+    "corroboration_groups": [
+      [1, 2, 5]
+    ]
+  },
+  "defense_and_behavior": {
+    "defense_strategies": [
+      "denied_all",
+      "accused_witnesses_of_crimes",
+      "challenged_witness_credibility"
+    ],
+    "emotional_state_notes": [
+      "expressed pity for Colatte during interrogation"
+    ],
+    "reproaches_to_witnesses": [
+      {
+        "witness_number": 3,
+        "objection": "claimed Georgeatte femme Jean Colatte had stolen an axe from him"
+      },
+      {
+        "witness_number": 11,
+        "objection": "said Jean Colatte was reputed to have stolen a pair of shoes"
+      },
+      {
+        "witness_number": 14,
+        "objection": "said George Claudey had stolen some wheat found on the road"
+      },
+      {
+        "witness_number": 6,
+        "objection": "said Adam Jean Lienard had lied like a witch, and was reputed such"
+      }
+    ]
+  },
+  "third_parties": [
+    {
+      "name": "Mengeatte la veuve",
+      "person_id": null,
+      "role_in_narrative": "victim",
+      "context": "threatened by accused, her mare became ill"
+    },
+    {
+      "name": "Jean le maire",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "deceased husband of witness 1",
+      "context": "widow of Jean le maire testified"
+    },
+    {
+      "name": "Jean Colatte",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "husband of witness 3",
+      "context": "quarrelled with accused over common land"
+    },
+    {
+      "name": "Mengeon Martin",
+      "person_id": null,
+      "role_in_narrative": "family_member",
+      "relationship_to_witness": "husband of witness 8",
+      "context": "husband of witness Jacquotte"
+    },
+    {
+      "name": "George Claudey",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "accused of finding wheat on the road during confrontations"
+    },
+    {
+      "name": "Mengeon Renardin",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "husband of accused accomplice",
+      "context": "wife seen at sabbat"
+    },
+    {
+      "name": "Lienard Laurence",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "husband of accused accomplice",
+      "context": "wife seen at sabbat"
+    },
+    {
+      "name": "Jean Cosson",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "husband of accused accomplice",
+      "context": "wife named as accomplice, later withdrawn"
+    },
+    {
+      "name": "le Gros Didier",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "relationship_to_accused": "father of accused accomplices",
+      "context": "two sons accused as accomplices"
+    },
+    {
+      "name": "servant of George Aulbry",
+      "person_id": null,
+      "role_in_narrative": "community_member",
+      "context": "pasturing beasts on common land, caused quarrel"
+    }
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-12-23",
+    "extractor": "Claude Code (Sonnet 4.5)",
+    "confidence": "high",
+    "notes": "Witnesses 10-13 noted as missing in document (not photographed). Witness 10 identified as Mengeatte veuve Lienard Demenge Lienard, witness 11 as Jean Colatte, witness 13 as Jean Colas Lienard. Complete trial record with clear procedural timeline. Accused initially resisted torture but confessed when threatened with further torture. Notable pattern of retracting many accusations of accomplices, finally maintaining only Didier Pierrat as confirmed accomplice.",
+    "pdf_pages": 4
+  }
+}

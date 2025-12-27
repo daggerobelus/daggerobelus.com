@@ -3,6 +3,14 @@
   "archive_ref": "B 2583 no 3",
   "location": "l'Estraye",
   "court": "Remiremont (prévôtal jurisdiction)",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Mongeotte femme Nicolas Colombain",
+    "person_id": null,
+    "occupation": null,
+    "location": "Arches (imprisoned)",
+    "relationship_to_accused": "adversary in prior legal dispute"
+  },
   "dates": {
     "start": "1624-07-31",
     "end": "1624-09-24",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "George Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "age_approximate": true,
@@ -20,6 +29,9 @@
       "residence": "l'Estraye",
       "marital_status": "unknown",
       "spouse_name": null,
+      "economic_status": "middling",
+      "practiced_healing": false,
+      "healing_types": [],
       "parents": {
         "mother": "Jeannon Garnise"
       },
@@ -49,6 +61,7 @@
     {
       "number": 1,
       "name": "Nicolas Thouvenin",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "sergent prévôtal de Remiremont",
@@ -70,6 +83,7 @@
     {
       "number": 2,
       "name": "Mongeotte femme Nicolas Cosme",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -91,6 +105,7 @@
     {
       "number": 3,
       "name": "Mre Pierre Roucelot",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "tabellion de l'Estraye",
@@ -112,6 +127,7 @@
     {
       "number": 4,
       "name": "Remy Jandel",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -133,6 +149,7 @@
     {
       "number": 5,
       "name": "Anthoinette fille Nicolas Petit Jean",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": "servante de Jean Parmentier",
@@ -154,6 +171,7 @@
     {
       "number": 6,
       "name": "Chrestienne fille feu Demenge Collenot",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": "servant",
@@ -175,6 +193,7 @@
     {
       "number": 7,
       "name": "Catherine veuve Delon Vincent",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -204,6 +223,7 @@
     {
       "number": 8,
       "name": "Mathieu Mathieu",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -578,7 +598,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Guarded at Arches; expressed suicidal despair to guard",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": false,
+      "ruling": null,
+      "modification_details": null,
+      "local_court_followed": null
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -610,6 +635,7 @@
   "third_parties": [
     {
       "name": "Jeannon Garnise",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "mother",
       "relationship_to_witness": null,
@@ -617,6 +643,7 @@
     },
     {
       "name": "Chretienne (niece)",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "niece",
       "relationship_to_witness": null,
@@ -624,6 +651,7 @@
     },
     {
       "name": "Mongeotte femme Nicolas Colombain",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "adversary in prior legal dispute",
       "relationship_to_witness": null,
@@ -631,6 +659,7 @@
     },
     {
       "name": "Nicolas (son of Mengeotte Colombain)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "son of Mongeotte Colombain",
@@ -638,6 +667,7 @@
     },
     {
       "name": "Jean Parmentier",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother",
       "relationship_to_witness": "employer of witness 5",
@@ -645,6 +675,7 @@
     },
     {
       "name": "Delon Vincent (late)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "late husband of witness 7",
@@ -652,6 +683,7 @@
     },
     {
       "name": "clerc juré",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -659,6 +691,7 @@
     },
     {
       "name": "Demenge Collenot (late)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "father of witness 6",
@@ -666,6 +699,7 @@
     },
     {
       "name": "Mathieu Mathieu",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,

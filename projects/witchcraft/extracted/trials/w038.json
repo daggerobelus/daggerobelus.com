@@ -3,15 +3,18 @@
   "archive_ref": "B 3327 no 2",
   "location": "Domjevin",
   "court": "Change de Nancy",
+  "language_region": "french",
   "dates": {
     "start": "1603-12-18",
     "end": "1604-02-16",
     "duration_days": 60
   },
   "outcome": "death",
+  "formal_accuser": null,
   "accused": [
     {
       "name": "Barbelline femme Jean Goudot",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
@@ -20,6 +23,11 @@
       "residence": "Domjevin",
       "marital_status": "married",
       "spouse_name": "Jean Goudot",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "touch_healing"
+      ],
       "parents": {
         "father": "Mengin le Xeru",
         "mother": "Allison Loure"
@@ -54,6 +62,7 @@
     {
       "number": 1,
       "name": "Didier Thirion de Domjevin",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -83,6 +92,7 @@
     {
       "number": 2,
       "name": "Jennon femme Jean Mongeot de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 35,
       "occupation": null,
@@ -119,6 +129,7 @@
     {
       "number": 3,
       "name": "Yzabel femme Didier Doyen de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -148,6 +159,7 @@
     {
       "number": 4,
       "name": "Jean Claudon de Domjevin",
+      "person_id": null,
       "gender": "male",
       "age": 60,
       "occupation": null,
@@ -177,6 +189,7 @@
     {
       "number": 5,
       "name": "Catherine femme Didier Thirion",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -206,6 +219,7 @@
     {
       "number": 6,
       "name": "Zabel femme Didier Pierson de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -227,6 +241,7 @@
     {
       "number": 7,
       "name": "Annel veuve Virion Bergier de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -248,6 +263,7 @@
     {
       "number": 8,
       "name": "Jehenne veuve Jean Colas de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "occupation": null,
@@ -277,6 +293,7 @@
     {
       "number": 9,
       "name": "Bastienne femme Nicolas Simonatte de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -313,6 +330,7 @@
     {
       "number": 10,
       "name": "Jehenne fille Jean Claudon de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 28,
       "occupation": null,
@@ -342,6 +360,7 @@
     {
       "number": 11,
       "name": "Jean Henry de Domjevin",
+      "person_id": null,
       "gender": "male",
       "age": 72,
       "occupation": null,
@@ -363,6 +382,7 @@
     {
       "number": 12,
       "name": "Nicolas Simonatte de Domjevin",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -392,6 +412,7 @@
     {
       "number": 13,
       "name": "Catherine fille au maire Jean Odediat of Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": null,
@@ -413,6 +434,7 @@
     {
       "number": 14,
       "name": "Barbelline fille a Colas Goudat de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 16,
       "occupation": null,
@@ -434,6 +456,7 @@
     {
       "number": 15,
       "name": "Roze veuve de feu le maire Mongenot Estienne de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -463,6 +486,7 @@
     {
       "number": 16,
       "name": "Eve femme Nicolas Bon Demenge de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -492,6 +516,7 @@
     {
       "number": 17,
       "name": "Catherine femme Jean Loure de Domjevin",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -521,6 +546,7 @@
     {
       "number": 18,
       "name": "Colas Mongenot de Domjevin",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -1364,7 +1390,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "consulted with père confesseur while imprisoned",
-    "appeal_to_change_de_nancy": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "First approved subject to confirmation of avowals without torture or sight of instruments (14 Jan 1604). Second approval was without modification (12 Feb 1604).",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1428,6 +1459,7 @@
   "third_parties": [
     {
       "name": "Barbelline's son",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "son",
       "relationship_to_witness": null,
@@ -1435,6 +1467,7 @@
     },
     {
       "name": "Didier Thirion's son",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "witness's son",
@@ -1442,6 +1475,7 @@
     },
     {
       "name": "Conjurateur of Vergaville",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1449,6 +1483,7 @@
     },
     {
       "name": "Jehenne Cherrier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "daughter-in-law",
       "relationship_to_witness": "daughter-in-law to witness 2",
@@ -1456,6 +1491,7 @@
     },
     {
       "name": "Chrestienne (sister of accused)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1463,6 +1499,7 @@
     },
     {
       "name": "maire Pierron",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1470,6 +1507,7 @@
     },
     {
       "name": "Dom Jean de Xanrey at Niderhoff",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1477,6 +1515,7 @@
     },
     {
       "name": "femme de Hardouviller",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1484,6 +1523,7 @@
     },
     {
       "name": "Mengin Lours",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1491,6 +1531,7 @@
     },
     {
       "name": "Anne's husband",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1498,6 +1539,7 @@
     },
     {
       "name": "Zabey Pierron",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "relationship_to_witness": null,

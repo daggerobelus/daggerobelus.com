@@ -3,6 +3,14 @@
   "archive_ref": "B 3335 no 1",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "substitut for procureur fiscal",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Leintrey/Blamont",
+    "relationship_to_accused": "official prosecutor"
+  },
   "dates": {
     "start": "1608-03-20",
     "end": "1608-06-20",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Jennon veuve Jean Zabey",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -20,6 +29,11 @@
       "residence": "Leintrey",
       "marital_status": "widowed",
       "spouse_name": "Jean Zabey",
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "veterinary"
+      ],
       "parents": {
         "father": "Henry Mongeat",
         "mother": "Jehenne"
@@ -38,6 +52,7 @@
     {
       "number": 1,
       "name": "Nicolas Laube",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -79,6 +94,7 @@
     {
       "number": 2,
       "name": "Clemence femme Nicolas Laube",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -105,6 +121,7 @@
     {
       "number": 3,
       "name": "Jean Hellenix",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "laboureur",
@@ -133,6 +150,7 @@
     {
       "number": 4,
       "name": "Chrestienne femme Jean Hellenix",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": null,
@@ -158,6 +176,7 @@
     {
       "number": 5,
       "name": "Mesenne femme Demenge Vannier",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": null,
@@ -184,6 +203,7 @@
     {
       "number": 6,
       "name": "Remy Grand Demenge",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": null,
@@ -224,6 +244,7 @@
     {
       "number": 7,
       "name": "Sebille veuve Nicolas Bourdemont",
+      "person_id": null,
       "gender": "female",
       "age": 48,
       "occupation": null,
@@ -250,6 +271,7 @@
     {
       "number": 8,
       "name": "Jennon femme Jean Goudel",
+      "person_id": null,
       "gender": "female",
       "age": 24,
       "occupation": null,
@@ -283,6 +305,7 @@
     {
       "number": 9,
       "name": "Jennon veuve Grand Demenge",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -310,6 +333,7 @@
     {
       "number": 10,
       "name": "Jennon veuve Demenge Vannier",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "occupation": null,
@@ -327,6 +351,7 @@
     {
       "number": 11,
       "name": "Henry Claudon",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": "collector of lesser tithes",
@@ -367,6 +392,7 @@
     {
       "number": 12,
       "name": "Catherine femme Henry Claudon",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -391,6 +417,7 @@
     {
       "number": 13,
       "name": "Jennon femme Didier Jobard",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": null,
@@ -425,6 +452,7 @@
     {
       "number": 14,
       "name": "Margueritte femme Michel Hellenix",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -442,6 +470,7 @@
     {
       "number": 15,
       "name": "Demenge Breton",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": null,
@@ -469,6 +498,7 @@
     {
       "number": 16,
       "name": "Jehenne femme Henry de Frusmesnil",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -486,6 +516,7 @@
     {
       "number": 17,
       "name": "Jean Barbe",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -520,6 +551,7 @@
     {
       "number": 18,
       "name": "Demenge Mongeat Vergier",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": null,
@@ -555,6 +587,7 @@
     {
       "number": 19,
       "name": "Jean Loys",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "bourgeois de Blamont",
@@ -572,6 +605,7 @@
     {
       "number": 20,
       "name": "Francois Charier",
+      "person_id": null,
       "gender": "male",
       "age": null,
       "occupation": "sergent en la justice de Blamont",
@@ -1358,7 +1392,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "Took no action over accusations of being witch because she had no witnesses",
     "imprisonment_conditions": "Jennon said she was tired of being in prison; gaolers tried to persuade her to confess; she wished she was by a warm fire",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "17 May 1608: Approved torture with moderation for age. 4 June 1608: Rejected request for further torture on grounds that indices were not sufficient, and recommended she be renvoyée (released). However, local court tortured her again on 18 June before finally releasing her on 20 June.",
+      "local_court_followed": false
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1418,90 +1457,105 @@
   "third_parties": [
     {
       "name": "Jean Zabey",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "husband (deceased 9 or 10 weeks before interrogation)",
       "context": "Married Jennon 70 years earlier; involved in property dispute"
     },
     {
       "name": "son of Jennon Zabey",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "context": "Took horse which strayed into field back to house; asked for cooked meat for his mother; present when Nicolas Laube called Jennon witch"
     },
     {
       "name": "Michel Hellenix",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of witness 14 who was aunt to both witness 3 and accused",
       "context": "Owner of cow on which Jennon used healing prayer 6 months earlier, but it still died"
     },
     {
       "name": "Demenge le Petit Didier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "son-in-law of witness 7",
       "context": "Refused to take grain to mill for Jennon; grandson died after eating her tart"
     },
     {
       "name": "la Jobarde",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow accused witch from Leintrey",
       "context": "Executed at Blamont 6-7 years earlier; Jennon said she did not fear her"
     },
     {
       "name": "widow of Rudepoil",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "alleged accomplice",
       "context": "Voice identified as one of 3 cats in Mesenne's vision"
     },
     {
       "name": "wife of Claudon Marchal",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "alleged accomplice",
       "context": "Voice identified as one of 3 cats in Mesenne's vision"
     },
     {
       "name": "Sebille Pierson",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "comparison example",
       "context": "Recently executed at Blamont; Remy Grand Demenge advised Jennon to confess freely like her"
     },
     {
       "name": "wife of Demenge Sernay",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "contemporary suspect",
       "context": "Trial at Domjevin disturbed Jennon; rumor that if she was executed Jennon would be taken to Blamont"
     },
     {
       "name": "Nicolas Babey",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "accuser",
       "context": "His small son called Jennon witch, saying his father called her that"
     },
     {
       "name": "Catherine le Renard",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Jennon said this person also used the prayer for healing animals"
     },
     {
       "name": "Anthoine Barthelemy",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Jennon said this person also used the prayer for healing animals"
     },
     {
       "name": "Catherine Claudon",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "neighbor",
       "context": "Jennon said this person also used the prayer for healing animals"
     },
     {
       "name": "father of Remy Grand Demenge (deceased)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "had property dispute",
       "context": "Quarrelled over house share, became ill for 12-16 years, voiced suspicions of Jennon several times"
     },
     {
       "name": "Henry de Frusmesnil",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_witness": "husband of witness 16",
       "context": "Was absent when his wife became ill at night and Jennon came to help"

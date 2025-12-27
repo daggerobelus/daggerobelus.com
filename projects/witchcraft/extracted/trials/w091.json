@@ -3,6 +3,14 @@
   "archive_ref": "B 5312 no 1",
   "location": "Bassing",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": {
+    "name": "Anne vieille mairesse",
+    "person_id": null,
+    "occupation": "mairesse",
+    "location": "Bidestroff",
+    "relationship_to_accused": "fellow accused witch (already executed)"
+  },
   "dates": {
     "start": "1594-05-09",
     "end": "1594-06-11",
@@ -12,6 +20,7 @@
   "accused": [
     {
       "name": "Catherine femme Adam Tarillon",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "age_approximate": true,
@@ -21,6 +30,11 @@
       "marital_status": "married",
       "spouse_name": "Adam Tarillon",
       "parents": {},
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": [
+        "herbal_remedies"
+      ],
       "confession": {
         "confessed": true,
         "under_torture": true,
@@ -59,6 +73,7 @@
     {
       "number": 1,
       "name": "Jenon femme Claudin Peletier",
+      "person_id": null,
       "gender": "female",
       "age": 26,
       "occupation": "vigneron (wife of)",
@@ -80,6 +95,7 @@
     {
       "number": 2,
       "name": "Agnelle femme Petter Lhore",
+      "person_id": null,
       "gender": "female",
       "age": 32,
       "occupation": null,
@@ -101,6 +117,7 @@
     {
       "number": 3,
       "name": "Jenon femme Jean Denys",
+      "person_id": null,
       "gender": "female",
       "age": 39,
       "occupation": null,
@@ -122,6 +139,7 @@
     {
       "number": 4,
       "name": "Marie femme Morise Manouvrier",
+      "person_id": null,
       "gender": "female",
       "age": 25,
       "occupation": "manouvrier (wife of)",
@@ -143,6 +161,7 @@
     {
       "number": 5,
       "name": "Barbe femme du maire Frantz",
+      "person_id": null,
       "gender": "female",
       "age": 20,
       "occupation": "maire (wife of)",
@@ -164,6 +183,7 @@
     {
       "number": 6,
       "name": "Claudin Hamon",
+      "person_id": null,
       "gender": "male",
       "age": 52,
       "occupation": "laboureur",
@@ -193,6 +213,7 @@
     {
       "number": 7,
       "name": "Petter Boulengier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -222,6 +243,7 @@
     {
       "number": 8,
       "name": "Petter Lhore",
+      "person_id": null,
       "gender": "male",
       "age": 53,
       "occupation": null,
@@ -251,6 +273,7 @@
     {
       "number": 9,
       "name": "Loys Melanicq",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -272,6 +295,7 @@
     {
       "number": 10,
       "name": "Moritz Manouvrier",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "manouvrier",
@@ -293,6 +317,7 @@
     {
       "number": 11,
       "name": "Claudin Peletier",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "vigneron",
@@ -322,6 +347,7 @@
     {
       "number": 12,
       "name": "Francois Melenicque",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": null,
@@ -343,6 +369,7 @@
     {
       "number": 13,
       "name": "Schlosspetter",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "Mre echevin",
@@ -379,6 +406,7 @@
     {
       "number": 14,
       "name": "Noel Waultrin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "mre faxemeur",
@@ -429,6 +457,7 @@
     {
       "number": 15,
       "name": "Rose femme Colas Tixerand",
+      "person_id": null,
       "gender": "female",
       "age": 58,
       "occupation": "devineresse",
@@ -450,6 +479,7 @@
     {
       "number": 16,
       "name": "Bernhard Humbert",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manouvrier",
@@ -1176,8 +1206,13 @@
     "accused_sought_redress": true,
     "redress_outcome": "Accord made by maire of Cutting acting as maire of 5 villages in dispute with Kyne Stoffel; also ordered by curé to seek reparation after fight behind church",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": false,
-    "property_confiscation_mentioned": false
+    "property_confiscation_mentioned": false,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved death sentence if she confirms her confessions under threat of torture",
+      "local_court_followed": true
+    }
   },
   "evidence_quality": {
     "firsthand_testimony_count": 11,
@@ -1211,9 +1246,18 @@
     ],
     "oldest_accusation_years": 30,
     "corroboration_groups": [
-      [6, 11],
-      [6, 15],
-      [4, 16]
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        4,
+        16
+      ]
     ]
   },
   "defense_and_behavior": {
@@ -1237,6 +1281,7 @@
   "third_parties": [
     {
       "name": "Anne vieille mairesse",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "fellow accused",
       "relationship_to_witness": null,
@@ -1244,6 +1289,7 @@
     },
     {
       "name": "Annon Blomstein veuve Didier Vosgien",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "close associate, arrested same day",
       "relationship_to_witness": "mentioned by multiple witnesses",
@@ -1251,6 +1297,7 @@
     },
     {
       "name": "Kyne Stoffel",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "quarreled with Catherine",
       "relationship_to_witness": null,
@@ -1258,6 +1305,7 @@
     },
     {
       "name": "Stoffel of Binstorff",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "alleged victim",
       "relationship_to_witness": "brother-in-law of witness Claudin Hamon",
@@ -1265,6 +1313,7 @@
     },
     {
       "name": "la teinturiere de Bernestorff",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "devineresse consulted about Catherine",
       "relationship_to_witness": "consulted by Claudin Hamon",
@@ -1272,6 +1321,7 @@
     },
     {
       "name": "monk at Niderhoff",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "diviner consulted about Catherine",
       "relationship_to_witness": "consulted by Noel Waultrin",
@@ -1279,6 +1329,7 @@
     },
     {
       "name": "Gran Hans",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "only son",
       "relationship_to_witness": null,
@@ -1286,6 +1337,7 @@
     },
     {
       "name": "Mengin (son of Noel Waultrin)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's son, alleged victim",
       "relationship_to_witness": "son of witness 14",
@@ -1293,6 +1345,7 @@
     },
     {
       "name": "daughter of Noel Waultrin, aged 7",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "alleged victim",
       "relationship_to_witness": "daughter of witness 14",
@@ -1300,6 +1353,7 @@
     },
     {
       "name": "wife of Mathis Fiacre",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "healer",
       "relationship_to_witness": "healed Mengin, son of witness 14",
@@ -1307,6 +1361,7 @@
     },
     {
       "name": "Mathis Fiacre",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "his wife healed Mengin",
@@ -1314,6 +1369,7 @@
     },
     {
       "name": "Barbe femme Schlosspetter",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1321,6 +1377,7 @@
     },
     {
       "name": "Clemence la Baste",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1328,6 +1385,7 @@
     },
     {
       "name": "Evatte femme Rodtsix",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1335,6 +1393,7 @@
     },
     {
       "name": "Demel femme Welsch Anthoine",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice",
       "relationship_to_witness": null,
@@ -1342,6 +1401,7 @@
     },
     {
       "name": "Scher Austien",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "alleged accomplice/leader",
       "relationship_to_witness": null,
@@ -1349,6 +1409,7 @@
     },
     {
       "name": "la moictresse at Bassing",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1356,6 +1417,7 @@
     },
     {
       "name": "Sr Chastellain d'Albestroff",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": "mentioned in relation to Claudin Hamon",
@@ -1363,6 +1425,7 @@
     },
     {
       "name": "Mgr le Marquis",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1370,6 +1433,7 @@
     },
     {
       "name": "curé at Bassing",
+      "person_id": null,
       "role_in_narrative": "official",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1377,6 +1441,7 @@
     },
     {
       "name": "daughter of Rose femme Colas Tixerand",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "daughter of witness 15",

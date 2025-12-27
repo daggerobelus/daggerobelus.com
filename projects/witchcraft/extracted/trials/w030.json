@@ -3,6 +3,8 @@
   "archive_ref": "B 3323 no 6",
   "location": "Leintrey",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": null,
   "dates": {
     "start": "1602-05-30",
     "end": "1602-07-01",
@@ -12,9 +14,12 @@
   "accused": [
     {
       "name": "Pierson fils Petit Pierson",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": false,
       "occupation": [
         "laboureur",
         "servant",
@@ -41,6 +46,7 @@
     {
       "number": 1,
       "name": "Nicolas Vaultrin",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "laboureur",
@@ -60,6 +66,7 @@
     {
       "number": 2,
       "name": "Mengin Godot",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "location": "Leintrey",
@@ -77,6 +84,7 @@
     {
       "number": 3,
       "name": "Claudon Thoussainct",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -104,6 +112,7 @@
     {
       "number": 4,
       "name": "Jean Hellenix",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "jeune fils",
@@ -447,7 +456,12 @@
       }
     ],
     "accused_sought_redress": false,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "rejected",
+      "modification_details": "Change de Nancy rejected the procureur fiscal's request for torture and recommended accused be released (renvoyé)",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -504,6 +518,7 @@
   "third_parties": [
     {
       "name": "la Jobarde",
+      "person_id": null,
       "role_in_narrative": "prior_accused",
       "relationship_to_accused": "made allegations against him",
       "relationship_to_witness": "mother of witness Nicolas Vaultrin",
@@ -511,11 +526,13 @@
     },
     {
       "name": "Jean Cartier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Owner of cart from which rope was allegedly stolen"
     },
     {
       "name": "Claudon Grand Demenge",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law (husband of accused's sister Jennon)",
       "context": "Deceased husband of accused's sister"

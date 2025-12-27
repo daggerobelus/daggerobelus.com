@@ -3,6 +3,14 @@
   "archive_ref": "B 8669 no 2",
   "location": "Viel Marche",
   "court": "Change de Nancy",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "Claudatte Haulte Rolbe",
+    "person_id": null,
+    "occupation": null,
+    "location": "Viel Marche",
+    "relationship_to_accused": "accused Mengeatte before her execution"
+  },
   "dates": {
     "start": "1593-07-21",
     "end": "1593-08-24",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Mengeatte femme Jean Lallemand",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["herbal_remedies", "charms_amulets", "other"],
       "occupation": ["hospitaliere", "healer"],
       "origin": "Sarupt",
       "residence": "l'hopital de St Die (Viel Marche)",
@@ -49,6 +61,7 @@
     {
       "number": 1,
       "name": "Claudon Jean",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "marchal (blacksmith)",
@@ -70,6 +83,7 @@
     {
       "number": 2,
       "name": "Claudon Dollemaire",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -99,6 +113,7 @@
     {
       "number": 3,
       "name": "Georgeatte femme Jean Hardier",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -128,6 +143,7 @@
     {
       "number": 4,
       "name": "Anthenatte femme Claudon Jean marchal",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -157,6 +173,7 @@
     {
       "number": 5,
       "name": "Fleurent Bazelaire",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -193,6 +210,7 @@
     {
       "number": 6,
       "name": "Catherine femme du precedent (wife of Fleurent Bazelaire)",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": null,
@@ -243,6 +261,7 @@
     {
       "number": 7,
       "name": "Pierron George",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -279,6 +298,7 @@
     {
       "number": 8,
       "name": "Toussainct Aulbertin",
+      "person_id": null,
       "gender": "male",
       "age": 38,
       "occupation": null,
@@ -300,6 +320,7 @@
     {
       "number": 9,
       "name": "Henry le Saulnier",
+      "person_id": null,
       "gender": "male",
       "age": 55,
       "occupation": "saulnier (salt worker)",
@@ -321,6 +342,7 @@
     {
       "number": 10,
       "name": "Jeanatte femme Colas Colin",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -350,6 +372,7 @@
     {
       "number": 11,
       "name": "Claudon Dion",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": null,
@@ -379,6 +402,7 @@
     {
       "number": 12,
       "name": "Demenge Pajay",
+      "person_id": null,
       "gender": "male",
       "age": 32,
       "occupation": null,
@@ -408,6 +432,7 @@
     {
       "number": 13,
       "name": "Mengeon Parmentier",
+      "person_id": null,
       "gender": "male",
       "age": 25,
       "occupation": "parmentier (cloth merchant)",
@@ -429,6 +454,7 @@
     {
       "number": 14,
       "name": "Catherine femme Nicolas Goury",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -450,6 +476,7 @@
     {
       "number": 15,
       "name": "Marion femme Bastien la Hiere",
+      "person_id": null,
       "gender": "female",
       "age": 23,
       "occupation": null,
@@ -1369,7 +1396,12 @@
     "accused_sought_redress": false,
     "redress_outcome": null,
     "imprisonment_conditions": "Accused mentioned being 'prise' (imprisoned) while accusers were 'à delivre' (free)",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved",
+      "modification_details": null,
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1427,6 +1459,7 @@
   "third_parties": [
     {
       "name": "Gregoire Myotte (late maire)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "person she treated; principal farmer for hospital who owed wood deliveries",
       "relationship_to_witness": "father of witness 15, father-in-law of witness 12, patient of witness 4",
@@ -1434,6 +1467,7 @@
     },
     {
       "name": "Collatte Marlier",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "taught her water ritual",
       "relationship_to_witness": null,
@@ -1441,6 +1475,7 @@
     },
     {
       "name": "fromagier of St Nicolas",
+      "person_id": null,
       "role_in_narrative": "hearsay_source",
       "relationship_to_accused": "allegedly taught her treatment",
       "relationship_to_witness": null,
@@ -1448,6 +1483,7 @@
     },
     {
       "name": "surgeon(s)",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "treated various witnesses' illnesses",
@@ -1455,6 +1491,7 @@
     },
     {
       "name": "apothecary",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "sold medicines",
@@ -1462,6 +1499,7 @@
     },
     {
       "name": "moictresse de l'hopital",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "employer",
       "relationship_to_witness": null,
@@ -1469,6 +1507,7 @@
     },
     {
       "name": "Dion Chastenoy",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer/host",
       "relationship_to_witness": null,
@@ -1476,6 +1515,7 @@
     },
     {
       "name": "le maire Hanns",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer/host",
       "relationship_to_witness": null,
@@ -1483,6 +1523,7 @@
     },
     {
       "name": "le Grand Cellier",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_accused": "former employer/host",
       "relationship_to_witness": null,
@@ -1490,6 +1531,7 @@
     },
     {
       "name": "late wife of Claudon Dollemaire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor; alleged victim",
       "relationship_to_witness": "wife of witness 2",
@@ -1497,6 +1539,7 @@
     },
     {
       "name": "daughter of Claudon Dollemaire (deceased)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's daughter; alleged victim",
       "relationship_to_witness": "daughter of witness 2",
@@ -1504,6 +1547,7 @@
     },
     {
       "name": "younger daughter of Claudon Dollemaire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "neighbor's daughter; victim",
       "relationship_to_witness": "daughter of witness 2",
@@ -1511,6 +1555,7 @@
     },
     {
       "name": "son-in-law of Claudon Dollemaire",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "alleged victim",
       "relationship_to_witness": "son-in-law of witness 2",
@@ -1518,6 +1563,7 @@
     },
     {
       "name": "mother-in-law of Marion femme Bastien la Hiere",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "mother-in-law of witness 15",
@@ -1525,6 +1571,7 @@
     },
     {
       "name": "Jean Hardier",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": "husband of victim",
       "relationship_to_witness": "husband of witness 3",
@@ -1532,6 +1579,7 @@
     },
     {
       "name": "neighbors who saw dead child",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": null,

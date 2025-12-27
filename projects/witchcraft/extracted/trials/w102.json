@@ -3,6 +3,14 @@
   "archive_ref": "B 5354 no 1",
   "location": "Blanche Eglise",
   "court": "Change de Nancy",
+  "language_region": "mixed",
+  "formal_accuser": {
+    "name": "substitut for PG de Lorraine at Dieuze",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": "Dieuze",
+    "relationship_to_accused": "official prosecutor"
+  },
   "dates": {
     "start": "1613-06-27",
     "end": "1613-08-17",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Jennon femme Lux Barquel",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "age_approximate": true,
+      "economic_status": "poor",
+      "practiced_healing": true,
+      "healing_types": ["veterinary"],
       "occupation": ["herdsman", "servant"],
       "origin": "Chateaux Houé",
       "residence": "Blanche Eglise",
@@ -37,6 +49,7 @@
     {
       "number": 1,
       "name": "Mathieu Thiery",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "manoeuvrier (herdsman for calves)",
@@ -66,6 +79,7 @@
     {
       "number": 2,
       "name": "Double Hans",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "laboureur",
@@ -94,6 +108,7 @@
     {
       "number": 3,
       "name": "Francois Adam",
+      "person_id": null,
       "gender": "male",
       "age": 47,
       "occupation": "manoeuvrier",
@@ -122,6 +137,7 @@
     {
       "number": 4,
       "name": "Dieudonné",
+      "person_id": null,
       "gender": "male",
       "age": 17,
       "occupation": "paistre des vaches du moctrier de Boreche",
@@ -150,6 +166,7 @@
     {
       "number": 5,
       "name": "Collas de Chazaille",
+      "person_id": null,
       "gender": "male",
       "age": 34,
       "occupation": "paistre des rouges bestes",
@@ -178,6 +195,7 @@
     {
       "number": 6,
       "name": "Jean Granchier",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "laboureur",
@@ -213,6 +231,7 @@
     {
       "number": 7,
       "name": "Clemance femme Collas Moictrier",
+      "person_id": null,
       "gender": "female",
       "age": 60,
       "occupation": "unknown",
@@ -231,6 +250,7 @@
     {
       "number": 8,
       "name": "Bastien veuve le Gros Feltien",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": "unknown",
@@ -258,6 +278,7 @@
     {
       "number": 9,
       "name": "Meclon veuve Didier Lhuilier",
+      "person_id": null,
       "gender": "female",
       "age": 34,
       "occupation": "unknown",
@@ -285,6 +306,7 @@
     {
       "number": 10,
       "name": "Adloff Collin",
+      "person_id": null,
       "gender": "male",
       "age": 45,
       "occupation": "moictrier à Boreche",
@@ -311,6 +333,7 @@
     {
       "number": 11,
       "name": "Colas Chalain le jeune",
+      "person_id": null,
       "gender": "male",
       "age": 23,
       "occupation": "unknown",
@@ -330,6 +353,7 @@
     {
       "number": 12,
       "name": "Claude Cloppestein",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "bouchier de Marsal",
@@ -372,6 +396,7 @@
     {
       "number": 13,
       "name": "Colas Cuisenier",
+      "person_id": null,
       "gender": "male",
       "age": 33,
       "occupation": "laboureur",
@@ -399,6 +424,7 @@
     {
       "number": 14,
       "name": "Zenelle femme du precedent",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": "unknown",
@@ -418,6 +444,7 @@
     {
       "number": 15,
       "name": "Henry Lorentz",
+      "person_id": null,
       "gender": "male",
       "age": 28,
       "occupation": "serviteur à Colas Lenfan de la Basse Lindre",
@@ -1007,7 +1034,12 @@
     "prior_legal_disputes": [],
     "accused_sought_redress": false,
     "imprisonment_conditions": "imprisoned during trial from June 30 to August 17, 1613",
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture initially (July 20, 1613), but after executioner exceeded approved methods and torture was illegally repeated, the Change ordered her release (August 6, 1613) with stern warning that Dieuze court should not repeat torture without new evidence and approval from Change",
+      "local_court_followed": true
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1046,50 +1078,59 @@
   "third_parties": [
     {
       "name": "Jennon's daughter (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter",
       "context": "Told her mother that Mathieu Thiery was calling her a witch"
     },
     {
       "name": "servant girl (unnamed)",
+      "person_id": null,
       "role_in_narrative": "other",
       "relationship_to_witness": "worked for witness 10",
       "context": "Wished those who had given the cow sickness might have it themselves; Jennon responded with warning about wishing harm"
     },
     {
       "name": "Gros Claude",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Called accused witch the previous year without her taking legal action"
     },
     {
       "name": "Hanzo Buisson",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "context": "Warned accused to leave because they were going to arrest her"
     },
     {
       "name": "surgeon (unnamed)",
+      "person_id": null,
       "role_in_narrative": "other",
       "context": "Treated her husband who had been 'taillé' (cut/operated on); said he went back to work too soon"
     },
     {
       "name": "executioner (unnamed)",
+      "person_id": null,
       "role_in_narrative": "official",
       "context": "Administered torture; criticized for giving jolts contrary to advice of Change de Nancy"
     },
     {
       "name": "Lux Barquel's parents (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "parents-in-law",
       "context": "Hostile to marriage, claiming her parents had been chased out of La Motte as 'mauvaises gens' and that she had no property while their son did"
     },
     {
       "name": "husband's nieces (unnamed, plural)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "nieces by marriage",
       "context": "Had called her witch according to witness 7"
     },
     {
       "name": "Didier Lhuilier",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "husband's nephew",
       "relationship_to_witness": "husband of witness 9",

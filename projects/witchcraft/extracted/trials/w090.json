@@ -3,6 +3,14 @@
   "archive_ref": "B 4998",
   "location": "Condé (Custines)",
   "court": "Val de Faulx",
+  "language_region": "french",
+  "formal_accuser": {
+    "name": "substitut for PG de Lorraine",
+    "person_id": null,
+    "occupation": "prosecutor",
+    "location": null,
+    "relationship_to_accused": "none - initiated on basis of common reputation"
+  },
   "dates": {
     "start": "1626-08-05",
     "end": "1626-09-07",
@@ -12,9 +20,13 @@
   "accused": [
     {
       "name": "Gillette Ticquet",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "age_approximate": true,
+      "economic_status": "destitute",
+      "practiced_healing": true,
+      "healing_types": ["charms_amulets", "other"],
       "occupation": [],
       "origin": null,
       "residence": "Condé",
@@ -50,6 +62,7 @@
     {
       "number": 1,
       "name": "Francois Naville",
+      "person_id": null,
       "gender": "male",
       "age": 37,
       "occupation": "paistre des menues bestes",
@@ -79,6 +92,7 @@
     {
       "number": 2,
       "name": "Claudon des Chiens",
+      "person_id": null,
       "gender": "female",
       "age": 42,
       "occupation": null,
@@ -100,6 +114,7 @@
     {
       "number": 3,
       "name": "Mengeon Francois",
+      "person_id": null,
       "gender": "female",
       "age": 36,
       "occupation": null,
@@ -129,6 +144,7 @@
     {
       "number": 4,
       "name": "Claudon Vincent",
+      "person_id": null,
       "gender": "female",
       "age": 70,
       "occupation": null,
@@ -158,6 +174,7 @@
     {
       "number": 5,
       "name": "Jean Renesson Vigenberg",
+      "person_id": null,
       "gender": "male",
       "age": 44,
       "occupation": null,
@@ -179,6 +196,7 @@
     {
       "number": 6,
       "name": "Jean Vaulthier",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": "paistre des bestes rouges",
@@ -208,6 +226,7 @@
     {
       "number": 7,
       "name": "Marguerite",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -237,6 +256,7 @@
     {
       "number": 8,
       "name": "Mengin Bailly",
+      "person_id": null,
       "gender": "male",
       "age": 68,
       "occupation": null,
@@ -258,6 +278,7 @@
     {
       "number": 9,
       "name": "Claude Louis",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "vigneron",
@@ -279,6 +300,7 @@
     {
       "number": 10,
       "name": "Noel Roussel",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -308,6 +330,7 @@
     {
       "number": 11,
       "name": "Jean Genereux",
+      "person_id": null,
       "gender": "male",
       "age": 50,
       "occupation": null,
@@ -337,6 +360,7 @@
     {
       "number": 12,
       "name": "Nicolas Mathelin",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "vigneron",
@@ -358,6 +382,7 @@
     {
       "number": 13,
       "name": "Odille",
+      "person_id": null,
       "gender": "female",
       "age": 50,
       "occupation": null,
@@ -387,6 +412,7 @@
     {
       "number": 14,
       "name": "Bastienne",
+      "person_id": null,
       "gender": "female",
       "age": 40,
       "occupation": null,
@@ -423,6 +449,7 @@
     {
       "number": 15,
       "name": "Gegoult Gandremel",
+      "person_id": null,
       "gender": "male",
       "age": 40,
       "occupation": "passager",
@@ -452,6 +479,7 @@
     {
       "number": 16,
       "name": "Francoise",
+      "person_id": null,
       "gender": "female",
       "age": 30,
       "occupation": null,
@@ -481,6 +509,7 @@
     {
       "number": 17,
       "name": "Barthelemy Francois",
+      "person_id": null,
       "gender": "male",
       "age": 30,
       "occupation": "serrurier",
@@ -510,6 +539,7 @@
     {
       "number": 18,
       "name": "Claude Bracconnier",
+      "person_id": null,
       "gender": "male",
       "age": 36,
       "occupation": "bouchier",
@@ -539,6 +569,7 @@
     {
       "number": 19,
       "name": "Maizon",
+      "person_id": null,
       "gender": "female",
       "age": 55,
       "occupation": null,
@@ -560,6 +591,7 @@
     {
       "number": 20,
       "name": "Margueritte",
+      "person_id": null,
       "gender": "female",
       "age": 13,
       "occupation": null,
@@ -1302,7 +1334,12 @@
     "accused_sought_redress": true,
     "redress_outcome": "unable to avenge herself because of poverty",
     "imprisonment_conditions": null,
-    "appeal_to_change_de_nancy": true,
+    "change_de_nancy": {
+      "consulted": true,
+      "ruling": "approved_with_modification",
+      "modification_details": "Approved torture with moderation suitable to her age (Aug 20); later recommended renvoyée jusqu'a rappel (released until recalled) rather than banishment (Sep 4)",
+      "local_court_followed": false
+    },
     "property_confiscation_mentioned": false
   },
   "evidence_quality": {
@@ -1361,6 +1398,7 @@
   "third_parties": [
     {
       "name": "Simonette",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "daughter-in-law",
       "relationship_to_witness": "daughter-in-law (witness 4's son's wife)",
@@ -1368,6 +1406,7 @@
     },
     {
       "name": "Claude",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "son",
       "relationship_to_witness": "son of witness 4",
@@ -1375,6 +1414,7 @@
     },
     {
       "name": "niece aged 7",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": "niece of witness 6",
@@ -1382,6 +1422,7 @@
     },
     {
       "name": "Martin Mengeat",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "hostelain where Barthelemin Francois was dining",
@@ -1389,6 +1430,7 @@
     },
     {
       "name": "Claudon (wife of Noel Roussel)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "former employer's wife",
       "relationship_to_witness": "wife of witness 10",
@@ -1396,6 +1438,7 @@
     },
     {
       "name": "wife of Claude Valois",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": null,
       "relationship_to_witness": null,
@@ -1403,6 +1446,7 @@
     },
     {
       "name": "Francoise (wife of Jean Gros Jean)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "sister",
       "relationship_to_witness": null,
@@ -1410,6 +1454,7 @@
     },
     {
       "name": "Jean Gros Jean",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law",
       "relationship_to_witness": null,
@@ -1417,6 +1462,7 @@
     },
     {
       "name": "Gros Jean",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "brother-in-law",
       "relationship_to_witness": null,
@@ -1424,6 +1470,7 @@
     },
     {
       "name": "Nicolas Francois",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "brother-in-law of witness 15",
@@ -1431,6 +1478,7 @@
     },
     {
       "name": "Alizon Chambrey",
+      "person_id": null,
       "role_in_narrative": "community_member",
       "relationship_to_accused": null,
       "relationship_to_witness": "working with witness 16 harvesting flax",
@@ -1438,6 +1486,7 @@
     },
     {
       "name": "children at Bouxieres-aux-Dames",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "children",
       "relationship_to_witness": null,
@@ -1445,6 +1494,7 @@
     },
     {
       "name": "daughter-in-law (unnamed)",
+      "person_id": null,
       "role_in_narrative": "family_member",
       "relationship_to_accused": "daughter-in-law",
       "relationship_to_witness": null,
@@ -1452,6 +1502,7 @@
     },
     {
       "name": "child in cradle (daughter-in-law's)",
+      "person_id": null,
       "role_in_narrative": "victim",
       "relationship_to_accused": "grandchild",
       "relationship_to_witness": null,
