@@ -118,7 +118,8 @@
         }
 
         /* Browse landing (no type selected) - show cards, hide detail content */
-        .dashboard.view-detail.browse-landing .browse-detail-only {
+        .dashboard.view-detail.browse-landing .browse-detail-only,
+        .dashboard.view-detail.browse-landing .detail-only {
             display: none;
         }
 
@@ -1877,12 +1878,18 @@
         </aside>
 
         <main class="main-content">
-            <div class="types-overview overview-only" id="types-overview">
+            <!-- Overview content: About Dataset + Healer's Paradox -->
+            <div class="overview-content overview-only" id="overview-content">
                 <!-- Populated by JS -->
             </div>
 
             <h3 class="subsection-header overview-only">Voices from the Archive</h3>
             <div class="featured-quote overview-only" id="featured-quote">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Browse landing content: Type cards -->
+            <div class="browse-landing-content browse-landing-only" id="browse-landing-content">
                 <!-- Populated by JS -->
             </div>
 
@@ -2073,12 +2080,17 @@
 
             // Update dashboard class
             const dashboard = document.querySelector('.dashboard');
-            dashboard.classList.remove('view-overview', 'view-detail', 'subview-summary', 'subview-table');
+            dashboard.classList.remove('view-overview', 'view-detail', 'subview-summary', 'subview-table', 'browse-landing');
             dashboard.classList.add(`view-${currentView}`);
 
-            // Add subview class for detail view
+            // Add subview and browse-landing classes for detail view
             if (currentView === 'detail') {
                 dashboard.classList.add(`subview-${subview}`);
+                // If no healing type selected, show browse landing (cards)
+                // Note: 'all' is a valid type that shows all trials in detail view
+                if (!healingType) {
+                    dashboard.classList.add('browse-landing');
+                }
             }
 
             // Update tab buttons
@@ -2092,13 +2104,13 @@
             });
 
             // Apply filter based on route
-            if (currentView === 'detail' && healingType && healingType !== 'all') {
+            if (currentView === 'detail' && healingType) {
+                // Set filter to the healing type (including 'all' which shows all trials)
                 filters.healingType = healingType;
-            } else if (currentView === 'overview') {
-                // Reset healing type filter when going to overview
+            } else {
+                // Reset healing type filter when on overview or browse landing
                 filters.healingType = 'all';
             }
-            // For detail without type, keep existing filter
 
             syncSidebarButtons();
             applyFilters();
@@ -2132,9 +2144,8 @@
                     if (view === 'overview') {
                         navigateTo('overview');
                     } else {
-                        // Navigate to detail, keeping current filter if set
-                        const healingType = filters.healingType !== 'all' ? filters.healingType : null;
-                        navigateTo('detail', healingType);
+                        // Always navigate to browse landing (cards) when clicking Browse Trials tab
+                        navigateTo('detail', null);
                     }
                 });
             });
@@ -2708,8 +2719,9 @@
                 </div>
             `;
 
-            const container = document.getElementById('types-overview');
-            container.innerHTML = `
+            // Populate overview content (About Dataset + Healer's Paradox)
+            const overviewContainer = document.getElementById('overview-content');
+            overviewContainer.innerHTML = `
                 <h3 class="subsection-header">About The Dataset</h3>
                 <p class="overview-text">
                     The Lorraine witch trial archive contains ${BASELINE.totalTrials} trials documenting ${BASELINE.totalAccused} accused individuals
@@ -2724,9 +2736,19 @@
                 <ul class="overview-list">
                     <li>A mother might seek a healer's help for her sick child, only to later accuse that same healer of causing the illness when the child failed to recover</li>
                     <li>The intimate knowledge healers gained through treatment—of family tensions, vulnerabilities, and fears—became evidence of malice rather than care</li>
-                    <li>Each card below shows the paradox rate for that healing type, highlighting how certain practices carried greater risk of this tragic reversal</li>
+                    <li>Certain healing practices carried greater risk of this tragic reversal—explore the data to see how the paradox manifested across different types</li>
                 </ul>
-                <h3 class="subsection-header">Browse by Type</h3>
+            `;
+
+            // Populate browse landing content (type cards)
+            const browseContainer = document.getElementById('browse-landing-content');
+            browseContainer.innerHTML = `
+                <h3 class="subsection-header">Browse by Healing Type</h3>
+                <p class="overview-text">
+                    Folk healers practiced many different forms of healing—from herbalism to midwifery to spiritual remedies.
+                    Each practice carried its own risks in the eyes of accusers. Select a type below to explore how
+                    these healers were targeted, or view all trials together.
+                </p>
                 <div class="type-cards">
                     ${allTrialsCard}
                     ${cardsHtml}
@@ -2741,8 +2763,9 @@
 
                     const type = card.dataset.type;
 
-                    // Navigate to detail view with this filter applied (null for "all")
-                    navigateTo('detail', type === 'all' ? null : type);
+                    // Navigate to detail view with this filter applied
+                    // 'all' shows all trials in detail view, other types filter by that type
+                    navigateTo('detail', type);
                 });
             });
 
