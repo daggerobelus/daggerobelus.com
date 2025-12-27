@@ -21,8 +21,8 @@
 
         .dashboard {
             display: grid;
-            grid-template-columns: 280px 1fr;
-            grid-template-rows: auto 1fr;
+            grid-template-columns: 1fr 280px;
+            grid-template-rows: auto auto auto 1fr;
             min-height: 100vh;
         }
 
@@ -30,54 +30,23 @@
         header {
             grid-column: 1 / -1;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            padding: 25px 30px;
+            padding: 12px 30px;
             border-bottom: 1px solid #2a2a4a;
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
         header h1 {
-            font-size: 1.8em;
+            font-size: 1.2em;
             font-weight: 600;
             color: #fff;
-            margin-bottom: 5px;
+            margin-bottom: 2px;
         }
 
         header .subtitle {
             color: #888;
-            font-size: 1em;
-        }
-
-        /* Header Navigation */
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .header-nav {
-            display: flex;
-            gap: 8px;
-        }
-
-        .header-nav a {
-            color: #888;
-            text-decoration: none;
-            font-size: 0.85em;
-            padding: 8px 14px;
-            border-radius: 20px;
-            background: #2a2a4a;
-            border: 1px solid #3a3a5a;
-            transition: all 0.2s;
-        }
-
-        .header-nav a:hover {
-            background: #3a3a5a;
-            color: #fff;
-        }
-
-        .header-nav a.active {
-            background: #e94560;
-            border-color: #e94560;
-            color: #fff;
+            font-size: 0.8em;
         }
 
         /* Smooth scrolling */
@@ -94,8 +63,174 @@
         .sidebar {
             background: #1a1a2e;
             padding: 20px;
-            border-right: 1px solid #2a2a4a;
+            border-left: 1px solid #2a2a4a;
+            order: 2;
+            position: sticky;
+            top: 168px; /* Below header + view-tabs + tertiary-nav */
+            height: fit-content;
+            max-height: calc(100vh - 168px);
             overflow-y: auto;
+        }
+
+        .sidebar-header {
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #e94560;
+            margin-bottom: 8px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #2a2a4a;
+            font-weight: 600;
+        }
+
+        .showing-count-display {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .showing-count-display span {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .main-content {
+            order: 1;
+        }
+
+        /* View-based visibility */
+        .dashboard.view-overview .sidebar {
+            display: none;
+        }
+
+        .dashboard.view-overview .detail-only,
+        .dashboard.view-overview .browse-landing-only,
+        .dashboard.view-overview .browse-detail-only {
+            display: none;
+        }
+
+        .dashboard.view-detail .overview-only {
+            display: none;
+        }
+
+        /* Browse landing (no type selected) - show cards, hide detail content */
+        .dashboard.view-detail.browse-landing .browse-detail-only {
+            display: none;
+        }
+
+        .dashboard.view-detail.browse-landing .sidebar {
+            display: none;
+        }
+
+        .dashboard.view-detail.browse-landing .tertiary-nav {
+            display: none;
+        }
+
+        /* Browse detail (type selected) - hide landing content */
+        .dashboard.view-detail:not(.browse-landing) .browse-landing-only {
+            display: none;
+        }
+
+        .dashboard.view-overview,
+        .dashboard.view-detail.browse-landing {
+            grid-template-columns: 1fr;
+        }
+
+        /* Submenu tabs - block below header */
+        .view-tabs {
+            grid-column: 1 / -1;
+            display: flex;
+            gap: 4px;
+            background: #0f0f1a;
+            padding: 8px 30px;
+            border-bottom: 1px solid #2a2a4a;
+            position: sticky;
+            top: 70px; /* Below header */
+            z-index: 99;
+        }
+
+        .view-tab {
+            padding: 10px 24px;
+            background: transparent;
+            border: none;
+            border-radius: 6px;
+            color: #888;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .view-tab:hover {
+            color: #fff;
+            background: #2a2a4a;
+        }
+
+        .view-tab.active {
+            background: #e94560;
+            color: #fff;
+        }
+
+        /* Tertiary nav - only in detail view */
+        .tertiary-nav {
+            display: none;
+            grid-column: 1 / -1;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 30px;
+            background: #0f0f1a;
+            border-bottom: 1px solid #2a2a4a;
+            position: sticky;
+            top: 114px; /* Below header + view-tabs */
+            z-index: 98;
+        }
+
+        .dashboard.view-detail .tertiary-nav {
+            display: flex;
+        }
+
+        .tertiary-tabs {
+            display: flex;
+            gap: 4px;
+        }
+
+        .tertiary-nav .active-filters {
+            margin: 0;
+            padding: 0;
+            background: none;
+            border: none;
+        }
+
+        .tertiary-tab {
+            padding: 8px 16px;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid transparent;
+            color: #888;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tertiary-tab:hover {
+            color: #fff;
+        }
+
+        .tertiary-tab.active {
+            color: #fff;
+            border-bottom-color: #e94560;
+        }
+
+        /* Sub-view visibility */
+        .dashboard.view-detail.subview-table .summary-only {
+            display: none;
+        }
+
+        .dashboard.view-detail.subview-summary .table-only {
+            display: none;
         }
 
         .filter-section {
@@ -159,7 +294,6 @@
         /* Main Content */
         .main-content {
             padding: 25px;
-            overflow-y: auto;
             background: #12121f;
         }
 
@@ -236,7 +370,6 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
             overflow: visible;
-            padding-bottom: 200px;
         }
 
         .type-card {
@@ -426,8 +559,17 @@
             border-left: 4px solid #e94560;
             border-radius: 8px;
             padding: 20px 25px;
+            margin-top: 20px;
             margin-bottom: 20px;
             position: relative;
+        }
+
+        .featured-quote-context {
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .featured-quote-text {
@@ -522,6 +664,44 @@
 
         .section-header .filter-context {
             color: #e94560;
+        }
+
+        /* Subsection headers */
+        .subsection-header {
+            font-size: 1em;
+            font-weight: 600;
+            color: #888;
+            margin: 20px 0 12px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .overview-text {
+            color: #aaa;
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .overview-list {
+            color: #aaa;
+            font-size: 0.9em;
+            line-height: 1.6;
+            margin: 0 0 25px 20px;
+            padding: 0;
+        }
+
+        .overview-list li {
+            margin-bottom: 8px;
+        }
+
+        /* Detail page main header - larger, no hairline */
+        #section-trial {
+            font-size: 1.6em;
+            border-bottom: none;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 0;
         }
 
         /* Active Filters Bar */
@@ -1302,8 +1482,52 @@
         }
 
         .table-container {
-            max-height: 400px;
-            overflow-y: auto;
+        }
+
+        .table-pagination {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            border-top: 1px solid #2a2a4a;
+            background: #1e1e32;
+        }
+
+        .pagination-info {
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        .pagination-controls {
+            display: flex;
+            gap: 4px;
+        }
+
+        .pagination-btn {
+            padding: 6px 12px;
+            background: #2a2a4a;
+            border: 1px solid #3a3a5a;
+            border-radius: 4px;
+            color: #aaa;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .pagination-btn:hover:not(:disabled) {
+            background: #3a3a5a;
+            color: #fff;
+        }
+
+        .pagination-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .pagination-btn.active {
+            background: #e94560;
+            border-color: #e94560;
+            color: #fff;
         }
 
         table {
@@ -1523,6 +1747,42 @@
             }
         }
 
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 44px;
+            height: 44px;
+            background: #2a2a4a;
+            border: 1px solid #3a3a5a;
+            border-radius: 50%;
+            color: #888;
+            font-size: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 90;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .back-to-top:hover {
+            background: #3a3a5a;
+            color: #fff;
+            border-color: #e94560;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
         /* Scrollbar styling */
         ::-webkit-scrollbar {
             width: 8px;
@@ -1543,23 +1803,34 @@
     </style>
 </head>
 <body>
-    <div class="dashboard">
+    <div class="dashboard view-overview subview-summary">
         <header>
             <div class="header-content">
                 <div>
                     <h1>The Healer's Trap</h1>
                     <p class="subtitle">Folk Medicine and Witch Accusations in Lorraine, 1580-1630</p>
                 </div>
-                <nav class="header-nav">
-                    <a href="#section-healers">The Healers</a>
-                    <a href="#section-trial">The Trial</a>
-                    <a href="#section-outcomes">Outcomes</a>
-                    <a href="#section-data">Data</a>
-                </nav>
             </div>
         </header>
 
+        <div class="view-tabs">
+            <button class="view-tab active" data-view="overview">Overview</button>
+            <button class="view-tab" data-view="detail">Browse Trials</button>
+        </div>
+
+        <div class="tertiary-nav">
+            <div class="tertiary-tabs">
+                <button class="tertiary-tab active" data-subview="summary">Summary</button>
+                <button class="tertiary-tab" data-subview="table">Data Table</button>
+            </div>
+            <div class="active-filters" id="active-filters" style="display: none;">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
         <aside class="sidebar">
+            <h2 class="sidebar-header">Filtering Trials</h2>
+            <div class="showing-count-display">Showing <span id="showing-count">-</span></div>
             <div class="filter-section">
                 <h3>Healing Type</h3>
                 <div class="filter-group" id="filter-healing-type">
@@ -1603,28 +1874,21 @@
                 </div>
             </div>
 
-            <div class="filter-section">
-                <div class="stat-card-mini">
-                    <div class="label">Showing</div>
-                    <div class="value" id="showing-count">-</div>
-                </div>
-            </div>
         </aside>
 
         <main class="main-content">
-            <div class="featured-quote" id="featured-quote">
+            <div class="types-overview overview-only" id="types-overview">
                 <!-- Populated by JS -->
             </div>
 
-            <h2 class="section-header section-anchor" id="section-healers" style="margin-top: 0;">Who Were the Healers?</h2>
-
-            <div class="types-overview" id="types-overview">
+            <h3 class="subsection-header overview-only">Voices from the Archive</h3>
+            <div class="featured-quote overview-only" id="featured-quote">
                 <!-- Populated by JS -->
             </div>
 
-            <h2 class="section-header section-anchor" id="section-trial">The Trial</h2>
+            <h2 class="section-header section-anchor detail-only summary-only" id="section-trial">The Trial</h2>
 
-            <div class="trial-section">
+            <div class="trial-section detail-only summary-only">
                 <p class="trial-intro" id="trial-intro">
                     <!-- Populated by JS -->
                 </p>
@@ -1651,26 +1915,22 @@
                 </div>
             </div>
 
-            <h2 class="section-header section-anchor" id="section-outcomes">What Happened to Them?</h2>
+            <h2 class="section-header section-anchor detail-only summary-only" id="section-outcomes">What Happened to Them?</h2>
 
-            <p class="intro-text" id="outcomes-intro">
+            <p class="intro-text detail-only summary-only" id="outcomes-intro">
                 <!-- Populated by JS -->
             </p>
 
-            <div class="active-filters" id="active-filters" style="display: none;">
-                <!-- Populated by JS -->
-            </div>
-
-            <div class="chart-card outcomes-chart">
+            <div class="chart-card outcomes-chart detail-only summary-only">
                 <h3>Trial Outcomes</h3>
                 <div id="chart-outcomes"></div>
             </div>
 
-            <div class="stat-cards" id="stat-cards">
+            <div class="stat-cards detail-only summary-only" id="stat-cards">
                 <!-- Populated by JS -->
             </div>
 
-            <div class="charts-section">
+            <div class="charts-section detail-only summary-only">
                 <div class="chart-card">
                     <h3>Death Rate by Healing Type</h3>
                     <div id="chart-healing-type"></div>
@@ -1697,9 +1957,9 @@
                 </div>
             </div>
 
-            <h2 class="section-header section-anchor" id="section-data">All Healers</h2>
+            <h2 class="section-header section-anchor detail-only table-only" id="section-data">All Healers</h2>
 
-            <div class="table-section">
+            <div class="table-section detail-only table-only">
                 <div class="table-header">
                     <div class="table-search">
                         <input type="text" id="search-input" placeholder="Search by name...">
@@ -1723,9 +1983,15 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="table-pagination" id="table-pagination">
+                    <span class="pagination-info" id="pagination-info"></span>
+                    <div class="pagination-controls" id="pagination-controls"></div>
+                </div>
             </div>
         </main>
     </div>
+
+    <button class="back-to-top" id="back-to-top" title="Back to top">↑</button>
 
     <div class="detail-panel" id="detail-panel">
         <button class="detail-close" id="detail-close">&times;</button>
@@ -1762,6 +2028,9 @@
         let sortColumn = 'name';
         let sortDirection = 'asc';
         let featuredHealers = new Set(); // Track healers already featured in tooltips
+        let currentView = 'overview'; // 'overview' or 'detail'
+        let currentPage = 1;
+        const PAGE_SIZE = 20;
         let filters = {
             healingType: 'all',
             gender: 'all',
@@ -1771,6 +2040,70 @@
             search: ''
         };
 
+        // Routing functions
+        function parseHash() {
+            const hash = window.location.hash.slice(1) || 'overview';
+            const parts = hash.split('/');
+            const view = parts[0] || 'overview';
+            const healingType = parts[1] || null;
+            const subview = parts[2] || 'summary'; // default to summary
+            return { view, healingType, subview };
+        }
+
+        function navigateTo(view, healingType = null, subview = null) {
+            let hash = view;
+            if (view === 'detail') {
+                if (healingType) {
+                    hash = `${view}/${healingType}`;
+                    if (subview && subview !== 'summary') {
+                        hash += `/${subview}`;
+                    }
+                } else if (subview && subview !== 'summary') {
+                    hash = `${view}/all/${subview}`;
+                }
+            }
+            window.location.hash = hash;
+        }
+
+        function handleRouteChange() {
+            const { view, healingType, subview } = parseHash();
+
+            // Update current view
+            currentView = (view === 'detail') ? 'detail' : 'overview';
+
+            // Update dashboard class
+            const dashboard = document.querySelector('.dashboard');
+            dashboard.classList.remove('view-overview', 'view-detail', 'subview-summary', 'subview-table');
+            dashboard.classList.add(`view-${currentView}`);
+
+            // Add subview class for detail view
+            if (currentView === 'detail') {
+                dashboard.classList.add(`subview-${subview}`);
+            }
+
+            // Update tab buttons
+            document.querySelectorAll('.view-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.view === currentView);
+            });
+
+            // Update tertiary tab buttons
+            document.querySelectorAll('.tertiary-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.subview === subview);
+            });
+
+            // Apply filter based on route
+            if (currentView === 'detail' && healingType && healingType !== 'all') {
+                filters.healingType = healingType;
+            } else if (currentView === 'overview') {
+                // Reset healing type filter when going to overview
+                filters.healingType = 'all';
+            }
+            // For detail without type, keep existing filter
+
+            syncSidebarButtons();
+            applyFilters();
+        }
+
         // Initialize
         async function init() {
             try {
@@ -1779,13 +2112,44 @@
                 console.log('Loaded', data.healers.length, 'healers');
 
                 buildHealingTypeFilters();
-                applyFilters();
                 setupEventListeners();
+                setupRouting();
                 startQuoteRotation();
                 window.addEventListener('resize', positionTooltips);
             } catch (error) {
                 console.error('Error loading data:', error);
             }
+        }
+
+        function setupRouting() {
+            // Listen for hash changes (back/forward buttons)
+            window.addEventListener('hashchange', handleRouteChange);
+
+            // Set up tab button clicks
+            document.querySelectorAll('.view-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const view = tab.dataset.view;
+                    if (view === 'overview') {
+                        navigateTo('overview');
+                    } else {
+                        // Navigate to detail, keeping current filter if set
+                        const healingType = filters.healingType !== 'all' ? filters.healingType : null;
+                        navigateTo('detail', healingType);
+                    }
+                });
+            });
+
+            // Set up tertiary tab clicks
+            document.querySelectorAll('.tertiary-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const subview = tab.dataset.subview;
+                    const healingType = filters.healingType !== 'all' ? filters.healingType : null;
+                    navigateTo('detail', healingType, subview);
+                });
+            });
+
+            // Handle initial route
+            handleRouteChange();
         }
 
         function buildHealingTypeFilters() {
@@ -1880,21 +2244,21 @@
         function renderFeaturedQuote() {
             const container = document.getElementById('featured-quote');
             if (featuredQuotes.length === 0) {
-                container.style.display = 'none';
+                container.classList.add('hidden');
                 return;
             }
 
-            container.style.display = 'block';
+            container.classList.remove('hidden');
             const quote = featuredQuotes[currentQuoteIndex];
             const typeLabel = quote.type.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
             const typeColor = (typeInfo[quote.type] || typeInfo['other']).color;
 
             container.innerHTML = `
+                ${quote.context ? `<div class="featured-quote-context">${quote.context}</div>` : ''}
                 <div class="featured-quote-text">${quote.text}</div>
                 <div class="featured-quote-attribution">
                     <span class="healer-name healer-link" onclick="jumpToHealer('${quote.healer.replace(/'/g, "\\'")}')" title="Click to view healer details">— ${quote.healer}</span>
                     <span class="healer-type" style="border-left: 3px solid ${typeColor}; padding-left: 8px;">${typeLabel}</span>
-                    ${quote.context ? `<span class="quote-context">${quote.context}</span>` : ''}
                 </div>
                 <div class="featured-quote-nav">
                     <button onclick="pauseQuoteRotation(); prevQuote()" title="Previous quote">‹</button>
@@ -1939,6 +2303,7 @@
         }
 
         function applyFilters() {
+            currentPage = 1; // Reset to first page when filters change
             filteredData = data.healers.filter(h => {
                 // Healing type filter
                 if (filters.healingType !== 'all' && !h.healing_types.includes(filters.healingType)) {
@@ -2055,7 +2420,7 @@
             if (activeFilters.length === 0) {
                 container.style.display = 'none';
                 outcomesHeader.innerHTML = 'What Happened to Them?';
-                trialHeader.innerHTML = 'The Trial';
+                trialHeader.innerHTML = 'Trial Details for <span class="filter-context">All Trials</span>';
             } else {
                 container.style.display = 'flex';
 
@@ -2075,7 +2440,7 @@
                 }
 
                 outcomesHeader.innerHTML = `What Happened to ${subjectText}?`;
-                trialHeader.innerHTML = `The Trial: ${subjectText}`;
+                trialHeader.innerHTML = `Trial Details for ${subjectText}`;
 
                 // Build filter tags
                 const tagsHtml = activeFilters.map((f, i) => `
@@ -2313,20 +2678,57 @@
                 `;
             }).join('');
 
-            // Calculate paradox stats for intro (always from full data)
-            const paradoxCount = data.healers.filter(h => h.has_paradox).length;
-            const paradoxPercent = (paradoxCount / data.healers.length * 100).toFixed(0);
+            // Calculate overall stats (always from full data)
+            const totalHealers = data.healers.length;
+            const totalFemale = data.healers.filter(h => h.gender === 'female').length;
+            const totalParadox = data.healers.filter(h => h.has_paradox).length;
+            const totalFemalePercent = (totalFemale / totalHealers * 100).toFixed(0);
+            const totalParadoxPercent = (totalParadox / totalHealers * 100).toFixed(0);
+
+            // Build "All Trials" card
+            const isAllSelected = filters.healingType === 'all';
+            const allTrialsCard = `
+                <div class="type-card ${isAllSelected ? 'selected' : ''}" data-type="all">
+                    <div class="type-card-header">
+                        <span class="type-color" style="background: #e94560"></span>
+                        <span class="type-name">All Trials</span>
+                        <span class="type-count">${totalHealers}</span>
+                    </div>
+                    <div class="type-card-desc">View all folk healers across all healing practices in the archive.</div>
+                    <div class="type-card-stats">
+                        <div class="type-card-stat">
+                            <div class="stat-value">${totalParadoxPercent}%</div>
+                            <div class="stat-label">Paradox</div>
+                        </div>
+                        <div class="type-card-stat">
+                            <div class="stat-value">${totalFemalePercent}%</div>
+                            <div class="stat-label">Female</div>
+                        </div>
+                    </div>
+                </div>
+            `;
 
             const container = document.getElementById('types-overview');
             container.innerHTML = `
-                <p class="intro-text">
+                <h3 class="subsection-header">About The Dataset</h3>
+                <p class="overview-text">
                     The Lorraine witch trial archive contains ${BASELINE.totalTrials} trials documenting ${BASELINE.totalAccused} accused individuals
-                    between 1580-1630. Among them, ${data.healers.length} (${(data.healers.length / BASELINE.totalAccused * 100).toFixed(0)}%) were folk healers—people
+                    between 1580-1630. Among them, ${totalHealers} (${(totalHealers / BASELINE.totalAccused * 100).toFixed(0)}%) were folk healers—people
                     who provided essential medical care in their communities. Yet their skills made them
-                    uniquely vulnerable to witchcraft accusations. In ${paradoxPercent}% of cases, healers were accused of harming
-                    the very people they had once treated—a pattern we call the "Healer's Paradox."
+                    uniquely vulnerable to witchcraft accusations.
                 </p>
+                <h3 class="subsection-header">The Healer's Paradox</h3>
+                <p class="overview-text">
+                    <strong>In ${totalParadoxPercent}% of cases, healers were accused of harming the very people they had once treated</strong>—we call this the "Healer's Paradox."
+                </p>
+                <ul class="overview-list">
+                    <li>A mother might seek a healer's help for her sick child, only to later accuse that same healer of causing the illness when the child failed to recover</li>
+                    <li>The intimate knowledge healers gained through treatment—of family tensions, vulnerabilities, and fears—became evidence of malice rather than care</li>
+                    <li>Each card below shows the paradox rate for that healing type, highlighting how certain practices carried greater risk of this tragic reversal</li>
+                </ul>
+                <h3 class="subsection-header">Browse by Type</h3>
                 <div class="type-cards">
+                    ${allTrialsCard}
                     ${cardsHtml}
                 </div>
             `;
@@ -2339,19 +2741,8 @@
 
                     const type = card.dataset.type;
 
-                    // Toggle selection
-                    if (filters.healingType === type) {
-                        filters.healingType = 'all';
-                    } else {
-                        filters.healingType = type;
-                    }
-
-                    // Update sidebar button state
-                    document.querySelectorAll('#filter-healing-type .filter-btn').forEach(btn => {
-                        btn.classList.toggle('active', btn.dataset.value === filters.healingType);
-                    });
-
-                    applyFilters();
+                    // Navigate to detail view with this filter applied (null for "all")
+                    navigateTo('detail', type === 'all' ? null : type);
                 });
             });
 
@@ -3212,8 +3603,15 @@
                 return sortDirection === 'asc' ? aVal - bVal : bVal - aVal;
             });
 
+            // Pagination
+            const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+            if (currentPage > totalPages) currentPage = Math.max(1, totalPages);
+            const startIdx = (currentPage - 1) * PAGE_SIZE;
+            const endIdx = startIdx + PAGE_SIZE;
+            const pageData = sorted.slice(startIdx, endIdx);
+
             const tbody = document.getElementById('healer-table-body');
-            tbody.innerHTML = sorted.map(h => {
+            tbody.innerHTML = pageData.map(h => {
                 const outcomeBadge = h.outcome === 'death' ? 'badge-death' :
                                      h.outcome === 'released' ? 'badge-released' :
                                      h.outcome === 'banished' ? 'badge-banished' : 'badge-other';
@@ -3240,6 +3638,53 @@
                     th.classList.add(sortDirection === 'asc' ? 'sorted-asc' : 'sorted-desc');
                 }
             });
+
+            // Update pagination
+            updatePagination(sorted.length, totalPages);
+        }
+
+        function updatePagination(totalItems, totalPages) {
+            const info = document.getElementById('pagination-info');
+            const controls = document.getElementById('pagination-controls');
+
+            if (totalItems === 0) {
+                info.textContent = 'No results';
+                controls.innerHTML = '';
+                return;
+            }
+
+            const startItem = (currentPage - 1) * PAGE_SIZE + 1;
+            const endItem = Math.min(currentPage * PAGE_SIZE, totalItems);
+            info.textContent = `${startItem}-${endItem} of ${totalItems}`;
+
+            let controlsHtml = `
+                <button class="pagination-btn" onclick="goToPage(1)" ${currentPage === 1 ? 'disabled' : ''}>«</button>
+                <button class="pagination-btn" onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>‹</button>
+            `;
+
+            // Show page numbers
+            const maxVisible = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+            if (endPage - startPage < maxVisible - 1) {
+                startPage = Math.max(1, endPage - maxVisible + 1);
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                controlsHtml += `<button class="pagination-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+            }
+
+            controlsHtml += `
+                <button class="pagination-btn" onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>›</button>
+                <button class="pagination-btn" onclick="goToPage(${totalPages})" ${currentPage === totalPages ? 'disabled' : ''}>»</button>
+            `;
+
+            controls.innerHTML = controlsHtml;
+        }
+
+        function goToPage(page) {
+            currentPage = page;
+            updateTable();
         }
 
         function showDetail(healerId) {
@@ -3443,6 +3888,21 @@
                 if (e.key === 'Escape') {
                     document.getElementById('detail-panel').classList.remove('open');
                 }
+            });
+
+            // Back to top button
+            const backToTop = document.getElementById('back-to-top');
+            window.addEventListener('scroll', () => {
+                const scrollPercent = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+                if (scrollPercent > 0.15) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            });
+
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         }
 
