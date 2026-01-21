@@ -2067,7 +2067,7 @@
         // Initialize
         async function init() {
             try {
-                const response = await fetch('../outputs/healer_network.json');
+                const response = await fetch('./outputs/healer_network.json');
                 data = await response.json();
                 console.log('Loaded', data.healers.length, 'healers');
 
