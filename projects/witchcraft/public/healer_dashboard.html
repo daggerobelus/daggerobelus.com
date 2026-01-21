@@ -31,6 +31,8 @@
             --color-text: var(--color-ink);
             --color-text-muted: rgba(18, 18, 18, 0.6);
             --color-text-subtle: rgba(18, 18, 18, 0.4);
+            --color-text-light: rgba(255, 255, 255, 0.95);
+            --color-text-light-muted: rgba(255, 255, 255, 0.7);
 
             /* Data visualization colors */
             --color-death: #c0392b;
@@ -133,11 +135,14 @@
             background: var(--color-bg-subtle);
             padding: 20px;
             border-right: 1px solid var(--color-border);
+            position: sticky;
+            top: 0;
+            height: 100vh;
             overflow-y: auto;
         }
 
         .filter-section {
-            margin-bottom: 25px;
+            margin-bottom: 18px;
         }
 
         .filter-section h3 {
@@ -156,12 +161,13 @@
         }
 
         .filter-btn {
-            padding: 6px 12px;
+            padding: 3px 6px;
             background: var(--color-bg-card);
             border: 1px solid var(--color-border);
             border-radius: 4px;
-            color: var(--color-text-muted);
-            font-size: 0.85em;
+            color: var(--color-text-subtle);
+            font-size: 0.8em;
+            font-weight: 600;
             font-family: var(--font-ui);
             cursor: pointer;
             transition: all 0.2s;
@@ -179,11 +185,8 @@
         }
 
         .stat-card-mini {
-            background: var(--color-bg-card);
-            border-radius: 6px;
-            padding: 12px;
+            padding: 12px 0;
             margin-bottom: 10px;
-            border: 1px solid var(--color-border);
         }
 
         .stat-card-mini .label {
@@ -200,6 +203,7 @@
         /* Main Content */
         .main-content {
             padding: 25px;
+            padding-bottom: 5rem;
             overflow-y: auto;
             background: var(--color-bg);
         }
@@ -208,16 +212,14 @@
         .stat-cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-            margin-bottom: 40px;
+            gap: 2em;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--color-border);
         }
 
         .stat-card {
-            background: var(--color-bg-card);
-            border-radius: 10px;
-            padding: 20px;
-            border: 1px solid var(--color-border);
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            padding: 10px 0;
         }
 
         .stat-card .label {
@@ -245,13 +247,10 @@
             color: var(--color-text-muted);
             font-style: italic;
             margin-top: 8px;
-            padding-top: 6px;
-            border-top: 1px solid var(--color-border);
         }
 
         .stat-card.highlight {
-            border-color: var(--color-accent);
-            background: rgba(0, 159, 218, 0.05);
+            /* highlight through color only, no box */
         }
 
         .stat-card.highlight .value {
@@ -276,7 +275,6 @@
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
             overflow: visible;
-            padding-bottom: 80px;
         }
 
         .type-card {
@@ -557,12 +555,29 @@
 
         /* Section Headers */
         .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             font-size: 1.1em;
             font-weight: 600;
             color: var(--color-text);
             margin: 40px 0 20px 0;
-            padding-bottom: 10px;
             border-bottom: 1px solid var(--color-border);
+        }
+
+        .section-header input {
+            padding: 10px 14px;
+            background: var(--color-bg-subtle);
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: var(--color-text);
+            font-family: var(--font-ui);
+            margin-bottom: 8px;
+        }
+
+        .section-header input::placeholder {
+            color: var(--color-text-muted);
         }
 
         .section-header .filter-context {
@@ -915,12 +930,8 @@
         }
 
         .chart-card {
-            background: var(--color-bg-card);
-            border-radius: 10px;
-            padding: 20px;
-            border: 1px solid var(--color-border);
+            padding: 20px 0;
             overflow: visible;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
         .chart-card h3 {
@@ -1050,7 +1061,11 @@
             transform: translateY(-50%);
             font-size: 0.8em;
             font-weight: 600;
-            color: #fff;
+            color: var(--color-ink);
+        }
+
+        .chart-bar .bar-fill.bar-death-100 ~ .bar-value {
+            color: var(--color-text-light);
         }
 
         .chart-bar .bar-count {
@@ -1069,35 +1084,11 @@
 
         /* Baseline comparison indicator */
         .baseline-marker {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: var(--color-ink);
-            opacity: 0.7;
-            z-index: 5;
-        }
-
-        .baseline-marker::after {
-            content: '';
-            position: absolute;
-            top: -4px;
-            left: -3px;
-            width: 8px;
-            height: 8px;
-            background: var(--color-ink);
-            border-radius: 50%;
+            display: none;
         }
 
         .chart-baseline-legend {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-top: 12px;
-            padding-top: 10px;
-            border-top: 1px solid var(--color-border);
-            font-size: 0.8em;
-            color: var(--color-text-muted);
+            display: none;
         }
 
         .baseline-legend-marker {
@@ -1145,12 +1136,8 @@
         }
 
         .trial-stat {
-            background: var(--color-bg-card);
-            border-radius: 8px;
-            padding: 15px;
-            border: 1px solid var(--color-border);
+            padding: 15px 10px;
             text-align: center;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
         .trial-stat .stat-value {
@@ -1194,7 +1181,7 @@
             margin-bottom: 8px;
             padding: 8px 12px;
             background: var(--color-bg-subtle);
-            border-radius: 6px;
+            border-radius: 0 6px 6px 0;
             border-left: 4px solid;
         }
 
@@ -1307,11 +1294,7 @@
 
         /* Table Section */
         .table-section {
-            background: var(--color-bg-card);
-            border-radius: 10px;
-            border: 1px solid var(--color-border);
             overflow: hidden;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
         .table-header {
@@ -1373,22 +1356,38 @@
             letter-spacing: 1px;
             color: var(--color-text-muted);
             border-bottom: 1px solid var(--color-border);
+            border-left: 1px solid var(--color-border);
             cursor: pointer;
             user-select: none;
             font-family: var(--font-ui);
+            white-space: nowrap;
+        }
+
+        th:first-child {
+            border-left: none;
         }
 
         th:hover {
             color: var(--color-text);
         }
 
-        th.sorted-asc::after { content: ' ▲'; }
-        th.sorted-desc::after { content: ' ▼'; }
+        th.sorted-asc::after,
+        th.sorted-desc::after {
+            display: inline;
+            margin-left: 4px;
+        }
+        th.sorted-asc::after { content: '▲'; }
+        th.sorted-desc::after { content: '▼'; }
 
         td {
             padding: 12px 15px;
             font-size: 0.9em;
             border-bottom: 1px solid var(--color-border);
+            border-left: 1px solid var(--color-border);
+        }
+
+        td:first-child {
+            border-left: none;
         }
 
         tr:hover {
@@ -1403,6 +1402,7 @@
             font-size: 0.75em;
             font-weight: 600;
             font-family: var(--font-ui);
+            white-space: nowrap;
         }
 
         .badge-death { background: #c0392b; color: #fff; }
@@ -1414,7 +1414,7 @@
         .badge-male { background: #3498db; color: #fff; }
 
         .badge-paradox {
-            background: linear-gradient(90deg, #d4a017, #9b59b6);
+            background: var(--color-accent);
             color: #fff;
         }
 
@@ -1434,9 +1434,9 @@
         /* Detail Panel */
         .detail-panel {
             position: fixed;
-            right: -450px;
+            right: -520px;
             top: 0;
-            width: 450px;
+            width: 520px;
             height: 100vh;
             background: var(--color-bg-card);
             border-left: 1px solid var(--color-border);
@@ -1527,9 +1527,7 @@
         }
 
         .victim-card {
-            background: var(--color-bg-subtle);
-            padding: 12px;
-            border-radius: 5px;
+            padding: 12px 0 12px 12px;
             margin-bottom: 10px;
             border-left: 3px solid var(--color-accent);
         }
@@ -1546,9 +1544,7 @@
         }
 
         .quote-card {
-            background: var(--color-bg-subtle);
-            padding: 15px;
-            border-radius: 5px;
+            padding: 15px 0 15px 15px;
             margin-bottom: 10px;
             border-left: 3px solid var(--color-banished);
             font-style: italic;
@@ -1621,7 +1617,6 @@
             background: var(--color-bg-card);
             border-top: 1px solid var(--color-border);
             padding: 2.5rem;
-            margin-top: 5rem;
         }
 
         .site-footer .footer-content {
@@ -1868,21 +1863,19 @@
                 </div>
             </div>
 
-            <h2 class="section-header section-anchor" id="section-data">All Healers</h2>
+            <h2 class="section-header section-anchor" id="section-data">
+                <span>All Healers</span>
+                <input type="text" id="search-input" placeholder="Search by name...">
+            </h2>
 
             <div class="table-section">
-                <div class="table-header">
-                    <div class="table-search">
-                        <input type="text" id="search-input" placeholder="Search by name...">
-                    </div>
-                </div>
                 <div class="table-container">
                     <table>
                         <thead>
                             <tr>
                                 <th data-sort="name">Name</th>
-                                <th data-sort="age">Age</th>
-                                <th data-sort="gender">Gender</th>
+                                <th data-sort="age" style="text-align: right;">Age</th>
+                                <th data-sort="gender" style="width: 1px;">Sex</th>
                                 <th data-sort="healing">Healing Type</th>
                                 <th data-sort="economic">Status</th>
                                 <th data-sort="outcome">Outcome</th>
@@ -3394,11 +3387,11 @@
 
                 return `
                     <tr data-id="${h.id}">
-                        <td>${h.name}</td>
-                        <td>${h.age || '-'}${h.age_approximate ? '~' : ''}</td>
-                        <td><span class="badge ${genderBadge}">${h.gender === 'female' ? 'F' : 'M'}</span></td>
+                        <td style="max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${h.name}">${h.name}</td>
+                        <td style="text-align: right;">${h.age || '-'}</td>
+                        <td style="width: 1px; white-space: nowrap;"><span class="badge ${genderBadge}">${h.gender === 'female' ? 'F' : 'M'}</span></td>
                         <td>${formatLabel(h.primary_healing_type)}</td>
-                        <td><span class="econ-indicator ${econClass}"></span>${formatLabel(h.economic_status || 'unknown')}</td>
+                        <td style="white-space: nowrap;"><span class="econ-indicator ${econClass}"></span>${formatLabel(h.economic_status || 'unknown')}</td>
                         <td><span class="badge ${outcomeBadge}">${formatLabel(h.outcome || 'unknown')}</span></td>
                         <td>${h.has_paradox ? '<span class="badge badge-paradox">Yes</span>' : '-'}</td>
                     </tr>
