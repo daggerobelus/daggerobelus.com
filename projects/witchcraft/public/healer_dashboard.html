@@ -142,7 +142,7 @@
         }
 
         .filter-section {
-            margin-bottom: 18px;
+            margin-bottom: 24px;
         }
 
         .filter-section h3 {
@@ -150,38 +150,61 @@
             text-transform: uppercase;
             letter-spacing: 1.5px;
             color: var(--color-text-muted);
-            margin-bottom: 12px;
+            margin-bottom: 6px;
             font-family: var(--font-ui);
         }
 
         .filter-group {
             display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
+            flex-direction: column;
+            gap: 1px;
         }
 
         .filter-btn {
-            padding: 3px 6px;
-            background: var(--color-bg-card);
-            border: 1px solid var(--color-border);
-            border-radius: 4px;
-            color: var(--color-text-subtle);
-            font-size: 0.8em;
-            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 0;
+            background: transparent;
+            border: none;
+            color: var(--color-text-muted);
+            font-size: 0.85em;
             font-family: var(--font-ui);
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.15s;
+            text-align: left;
+        }
+
+        .filter-btn::before {
+            content: '';
+            width: 14px;
+            height: 14px;
+            border: 1.5px solid var(--color-border-strong);
+            border-radius: 3px;
+            flex-shrink: 0;
+            transition: all 0.15s;
         }
 
         .filter-btn:hover {
-            background: var(--color-border-strong);
             color: var(--color-text);
         }
 
+        .filter-btn:hover::before {
+            border-color: var(--color-accent);
+        }
+
         .filter-btn.active {
+            color: var(--color-accent);
+            font-weight: 600;
+        }
+
+        .filter-btn.active::before {
             background: var(--color-accent);
             border-color: var(--color-accent);
-            color: #fff;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+            background-size: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .stat-card-mini {
@@ -202,7 +225,7 @@
 
         /* Main Content */
         .main-content {
-            padding: 25px;
+            padding: 25px 2em;
             padding-bottom: 5rem;
             overflow-y: auto;
             background: var(--color-bg);
