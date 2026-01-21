@@ -61,7 +61,7 @@
 
         .dashboard {
             display: grid;
-            grid-template-columns: 280px 1fr;
+            grid-template-columns: 280px 1fr 200px;
             grid-template-rows: auto 1fr;
             min-height: 100vh;
         }
@@ -128,6 +128,98 @@
         /* Scroll margin for sections */
         .section-anchor {
             scroll-margin-top: 100px;
+        }
+
+        /* Table of Contents */
+        .toc {
+            background: var(--color-bg);
+            padding: 20px;
+            border-left: 1px solid var(--color-border);
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .toc h4 {
+            font-size: 0.7em;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--color-text-muted);
+            margin-bottom: 12px;
+            font-family: var(--font-ui);
+        }
+
+        .filter-summary {
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .filter-summary h5 {
+            font-size: 0.7em;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--color-text-muted);
+            margin-bottom: 8px;
+            font-family: var(--font-ui);
+            font-weight: 600;
+        }
+
+        .filter-summary p {
+            font-size: 0.9em;
+            color: var(--color-text);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .filter-summary .highlight {
+            color: var(--color-accent);
+            font-weight: 600;
+        }
+
+        .filter-summary .clear-link {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 0.8em;
+            color: var(--color-accent);
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .filter-summary .clear-link:hover {
+            text-decoration: underline;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 0;
+        }
+
+        .toc-list a {
+            display: block;
+            padding: 6px 0;
+            padding-left: 12px;
+            color: var(--color-text-muted);
+            text-decoration: none;
+            font-size: 0.85em;
+            border-left: 2px solid transparent;
+            transition: all 0.15s;
+        }
+
+        .toc-list a:hover {
+            color: var(--color-text);
+        }
+
+        .toc-list a.active {
+            color: var(--color-accent);
+            border-left-color: var(--color-accent);
+            font-weight: 600;
         }
 
         /* Sidebar */
@@ -578,14 +670,17 @@
 
         /* Section Headers */
         .section-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             font-size: 1.1em;
             font-weight: 600;
             color: var(--color-text);
             margin: 40px 0 20px 0;
             border-bottom: 1px solid var(--color-border);
+        }
+
+        .section-header:has(input) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .section-header input {
@@ -609,11 +704,7 @@
 
         /* Active Filters Bar */
         .active-filters {
-            background: rgba(0, 159, 218, 0.05);
-            border: 1px solid var(--color-accent);
-            border-radius: 8px;
-            padding: 12px 15px;
-            margin-bottom: 15px;
+            display: none !important;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -948,7 +1039,7 @@
         .charts-section {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            gap: 1em 2.5em;
             margin-bottom: 40px;
         }
 
@@ -1161,6 +1252,9 @@
         .trial-stat {
             padding: 15px 10px;
             text-align: center;
+            background: var(--color-bg-card);
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
         }
 
         .trial-stat .stat-value {
@@ -1202,9 +1296,7 @@
             display: flex;
             align-items: center;
             margin-bottom: 8px;
-            padding: 8px 12px;
-            background: var(--color-bg-subtle);
-            border-radius: 0 6px 6px 0;
+            padding: 8px 0 8px 12px;
             border-left: 4px solid;
         }
 
@@ -1269,10 +1361,8 @@
         .confession-item {
             display: flex;
             align-items: center;
-            padding: 10px 12px;
+            padding: 10px 0;
             margin-bottom: 6px;
-            background: var(--color-bg-subtle);
-            border-radius: 6px;
         }
 
         .confession-item .confession-icon {
@@ -1694,6 +1784,15 @@
         }
 
         /* Responsive */
+        @media (max-width: 1100px) {
+            .dashboard {
+                grid-template-columns: 280px 1fr;
+            }
+            .toc {
+                display: none;
+            }
+        }
+
         @media (max-width: 900px) {
             .dashboard {
                 grid-template-columns: 1fr;
@@ -1743,12 +1842,6 @@
                     <h1>The Healer's Trap</h1>
                     <p class="subtitle">Folk Medicine and Witch Accusations in Lorraine, 1580-1630</p>
                 </div>
-                <nav class="header-nav">
-                    <a href="#section-healers">The Healers</a>
-                    <a href="#section-trial">The Trial</a>
-                    <a href="#section-outcomes">Outcomes</a>
-                    <a href="#section-data">Data</a>
-                </nav>
             </div>
         </header>
 
@@ -1912,6 +2005,19 @@
                 </div>
             </div>
         </main>
+
+        <aside class="toc">
+            <div class="filter-summary" id="filter-summary">
+                <p>Viewing all healers</p>
+            </div>
+            <h4>On This Page</h4>
+            <ul class="toc-list">
+                <li><a href="#section-healers" data-section="section-healers">Who Were the Healers?</a></li>
+                <li><a href="#section-trial" data-section="section-trial">The Trial</a></li>
+                <li><a href="#section-outcomes" data-section="section-outcomes">What Happened?</a></li>
+                <li><a href="#section-data" data-section="section-data">All Healers</a></li>
+            </ul>
+        </aside>
     </div>
 
     <div class="detail-panel" id="detail-panel">
@@ -2166,6 +2272,7 @@
             });
 
             updateActiveFilters();
+            updateFilterSummary();
             updateFeaturedQuote();
             updateTypesOverview();
             updateStatCards();
@@ -2173,6 +2280,76 @@
             updateTable();
             document.getElementById('showing-count').textContent =
                 `${filteredData.length} of ${data.healers.length}`;
+        }
+
+        function updateFilterSummary() {
+            const container = document.getElementById('filter-summary');
+            if (!container) return;
+
+            // Check if any filters are active
+            const hasFilters = filters.healingType !== 'all' ||
+                              filters.gender !== 'all' ||
+                              filters.economic !== 'all' ||
+                              filters.outcome !== 'all' ||
+                              filters.paradox;
+
+            if (!hasFilters) {
+                container.innerHTML = `<h5>Filtered by</h5><p>All ${data.healers.length} cases</p>`;
+                return;
+            }
+
+            // Build description parts
+            const parts = [];
+
+            // Healing type
+            if (filters.healingType !== 'all') {
+                const typeLabel = filters.healingType.replace(/_/g, ' ');
+                parts.push(`<span class="highlight">${typeLabel}</span>`);
+            }
+
+            // Gender
+            if (filters.gender !== 'all') {
+                parts.push(filters.gender);
+            }
+
+            // Economic status
+            if (filters.economic !== 'all') {
+                parts.push(filters.economic);
+            }
+
+            // Outcome
+            if (filters.outcome !== 'all') {
+                const outcomeLabels = {
+                    'death': 'executed',
+                    'released': 'released',
+                    'banished': 'banished'
+                };
+                parts.push(outcomeLabels[filters.outcome] || filters.outcome);
+            }
+
+            // Paradox
+            if (filters.paradox) {
+                parts.push('paradox');
+            }
+
+            // Construct sentence: "X cases that are Y"
+            const description = parts.join(', ');
+            const summary = `${filteredData.length} cases that are ${description}`;
+
+            container.innerHTML = `<h5>Filtered by</h5><p>${summary}</p><a class="clear-link" id="toc-clear-filters">Clear all</a>`;
+
+            // Add event listener for clear link
+            document.getElementById('toc-clear-filters').addEventListener('click', () => {
+                filters.healingType = 'all';
+                filters.gender = 'all';
+                filters.economic = 'all';
+                filters.outcome = 'all';
+                filters.paradox = false;
+                filters.search = '';
+                document.getElementById('search-input').value = '';
+                syncSidebarButtons();
+                applyFilters();
+            });
         }
 
         function updateActiveFilters() {
@@ -3634,8 +3811,31 @@
             });
         }
 
+        // Scroll spy for TOC
+        function setupScrollSpy() {
+            const sections = document.querySelectorAll('.section-anchor');
+            const tocLinks = document.querySelectorAll('.toc-list a');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.id;
+                        tocLinks.forEach(link => {
+                            link.classList.toggle('active', link.dataset.section === id);
+                        });
+                    }
+                });
+            }, {
+                rootMargin: '-20% 0px -70% 0px',
+                threshold: 0
+            });
+
+            sections.forEach(section => observer.observe(section));
+        }
+
         // Start
         init();
+        setupScrollSpy();
     </script>
 
     <!-- Site Footer -->
