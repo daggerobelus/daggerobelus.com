@@ -31,8 +31,8 @@ const formatDate = (date: Date) => {
         src={image}
         alt={imageAlt || title}
         class:list={[
-          'w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]',
-          featured ? 'aspect-[4/3]' : 'aspect-[16/9]'
+          'w-full transition-transform duration-500 group-hover:scale-[1.02]',
+          featured ? 'object-contain' : 'object-cover aspect-[16/9]'
         ]}
       />
     </a>

@@ -1,7 +1,7 @@
 ---
 title: "Lorraine Witch Trials"
 description: "Social network analysis of 16th-17th century witch trial records from the Lorraine region"
-publishDate: 2024-12-18
+publishDate: 2025-12-18
 status: in-progress
 tags: ["network-analysis", "early-modern", "history"]
 featured: true
