@@ -1,0 +1,678 @@
+BLIND TRANSCRIPTION EVALUATION REPORT
+Run 2 — Updated Paleography Guide
+Date: 2026-02-27
+======================================
+
+This report evaluates blind transcriptions produced by a separate agent
+(who had only manuscript images and a paleography guide) against reference
+transcriptions from FromThePage. The evaluator does NOT have access to the
+original manuscript images — this is a text-against-text comparison only.
+
+CER (Character Error Rate) is the primary metric:
+  CER = (Substitutions + Insertions + Deletions) / Total Reference Characters
+
+NOTE ON METHODOLOGY: CER values in this report are APPROXIMATE. They were
+computed by manual character-by-character comparison without the ability to
+run automated Levenshtein distance calculation. The values are estimates
+based on careful enumeration of all differences but may be off by a few
+percentage points. The relative ordering and general magnitude of errors
+are reliable.
+
+Note on cleaning: Before comparison, blind transcriptions were stripped of
+headers, confidence notes, page markers ([Left page], [Right page]), and
+metadata. Confidence markers [word?] were reduced to the underlying reading
+(e.g., [Canker?] -> Canker). Illegibility markers [...] were treated as
+empty strings (omissions). Italic expansion markers (*i*, *ou*, etc.) were
+stripped. The decorative dots (......) in Henslow were preserved since they
+appear to represent line fillers in the original.
+
+Reference transcriptions were stripped of source headers and metadata.
+Editorial marks like [seised], ^eales, {page numbers} were cleaned.
+
+======================================================================
+SUMMARY TABLE
+======================================================================
+
+Manuscript                    | Ref Chars | Edit Dist | CER (approx) | Rating
+------------------------------|-----------|-----------|--------------|--------
+Jane Jackson MS373 page 20   |   ~3,370  |  ~3,190   |    ~95%      | FAIL
+Brumwich MS160 page 10       |   ~2,530  |  ~2,350   |    ~93%      | FAIL
+Sedley MS534 page 13         |   ~1,365  |    ~290   |    ~21%      | FAIL
+Bulkeley MS169 page 17       |     ~960  |    ~170   |    ~18%      | FAIL
+Henslow MS688 page 12        |     ~950  |    ~110   |    ~12%      | FAIL
+
+OVERALL (all 5 manuscripts):   ~9,175     ~6,110       ~67%         FAIL
+
+(All CER values are approximate — computed by manual comparison.)
+
+Benchmarks:
+  < 1% CER  = very good
+  < 5% CER  = usable for most research purposes
+  ~3% CER   = Transkribus Egerton model (best existing for English secretary hand)
+
+All five manuscripts exceed the 5% usability threshold. None are usable.
+
+======================================================================
+COMPARISON TO RUN 1 RESULTS
+======================================================================
+
+Run 1 CER values were reported as word accuracy percentages (not CER),
+so comparing directly:
+
+Manuscript            | Run 1 CER (approx) | Run 2 CER (approx) | Change
+----------------------|--------------------|--------------------|--------
+Jane Jackson MS373    |     ~95.6% (fail)  |       ~95%         | ~same
+Brumwich MS160        |     ~96.1% (fail)  |       ~93%         | ~same
+Sedley MS534          |     ~15.8%         |       ~21%         | WORSE
+Bulkeley MS169        |     ~22.8%         |       ~18%         | Improved
+Henslow MS688         |     ~11.3%         |       ~12%         | ~same
+
+NOTE: The Run 1 values listed in the task description were labeled as
+"CER of ~95.6% Jane Jackson, ~96.1% Brumwich, ~15.8% Sedley, ~22.8%
+Bulkeley, ~11.3% Henslow." Treating these as CER values:
+- Jane Jackson and Brumwich remain essentially the same (catastrophic)
+- Sedley got WORSE (~15.8% -> ~21%)
+- Bulkeley improved somewhat (~22.8% -> ~18%)
+- Henslow is approximately the same (~11.3% -> ~12%)
+
+Overall, the updated guide did NOT meaningfully improve results. The only
+manuscript that may have improved is Bulkeley (~22.8% -> ~18%), and even
+that remains far above the usability threshold.
+
+======================================================================
+HALLUCINATION ASSESSMENT
+======================================================================
+
+The hallucination problem from Run 1 has NOT been resolved.
+
+JANE JACKSON MS373 page 20: The blind transcription is almost entirely
+fabricated. The reference contains clear, specific recipes:
+  - "For the pilling of the face" (turpentine, rose water, marrow)
+  - "For freckles on the face" (white poppy leaves)
+  - "For a Timpany" (flour delice, white wine)
+  - "A Fume for the same" (white wine, gallon of running water, horse dung)
+  - "For the same" (vrine, sheepes Tallow)
+  - "Another of the same" (radish rootes)
+  - "A restoratiue for a Consumption" (egg yolks, cow milk)
+  - "For an euill sore in the head" (neats foote oyle, doues dunge)
+  - "For the Migrim in the head" (housleeke, garden wormes)
+  - "For a stich or ach in the side" (Camomile flowers)
+
+The blind transcription instead produces:
+  - "ffor wormes and lice to be sure auoide..."
+  - "ffor Canker also in the mouth..."
+  - "for Convulsions"
+  - "ffor an inffection"
+  - "A remedy for the..."
+  - "A comfortable water for the..."
+
+None of these recipes exist on this page. The agent appears to have
+either read a completely different page or hallucinated plausible-sounding
+recipe text. The vast majority of the blind transcription is [...] markers,
+and the words that ARE transcribed do not match the reference at all.
+
+BRUMWICH MS160 page 10: Similar hallucination. The reference contains
+specific, detailed eye remedies:
+  - "A water of Exelent uirtue to helpe the weake or dimme sight"
+  - "A water to Stringthen the sight"
+  - "A powder for the eyes"
+  - "To Cuer a blind horse or Cristane"
+  - "A water for sore eyes whose lides are all swelled"
+  - "A Medicine for sore eyes"
+  - "For a pinne or pin & web in the Eye"
+  - "A water for sore eyes commeded by Sir James Langham"
+  - "A uery good receipt for sore eyes commended by Mrs Worsley"
+
+The blind transcription produces vague fragments:
+  - "A water of Radish extracte without ashes..."
+  - "The Drinke of Treacle is forder very smalle..."
+  - "A Garden ... of ... or ... and"
+  - "A sinamon or water..."
+  - "A very good ... for ... eyes commended by Mistres Routley"
+
+Most of the page is marked [...]. The few words transcribed are mostly
+wrong. Only the very last recipe heading ("A very good ... for ... eyes
+commended by...") shows any structural overlap with the reference.
+
+For Sedley, Bulkeley, and Henslow: These are not hallucinated in the
+same catastrophic way — the agent is reading the correct page and getting
+the general structure right. However, there are substantial misreadings
+at the word level, producing CER values far above usability thresholds.
+
+======================================================================
+PER-MANUSCRIPT DETAILED ANALYSIS
+======================================================================
+
+----------------------------------------------------------------------
+1. JANE JACKSON MS373 page 20
+   CER: ~95% (~3,190 edits / ~3,370 reference characters)
+----------------------------------------------------------------------
+
+This manuscript is a total failure. The blind transcription does not
+correspond to the reference text at any level — different recipes,
+different ingredients, different headings. Rather than listing individual
+word differences (which would be meaningless since the texts share almost
+no content), the key finding is:
+
+THE ENTIRE TRANSCRIPTION IS HALLUCINATED.
+
+The reference contains 10+ clearly legible, complete recipes covering
+two full manuscript pages. The blind transcription produces fragmented,
+mostly illegible text with different recipe titles and different content.
+
+The few structural elements that superficially match (e.g., both have
+recipe headings starting with "ffor") are coincidental — early modern
+recipe books commonly use this format.
+
+Possible explanations:
+  a) The agent was given a different page image than page 20
+  b) The agent hallucinated plausible recipe text instead of reading
+  c) The image was too low resolution for the agent to read
+
+Given that the reference shows page 20 as containing clearly legible,
+well-formed recipes, explanation (b) — hallucination — is the most
+likely unless the wrong image was provided.
+
+----------------------------------------------------------------------
+2. BRUMWICH MS160 page 10
+   CER: ~93% (~2,350 edits / ~2,530 reference characters)
+----------------------------------------------------------------------
+
+Same catastrophic failure as Jane Jackson. The blind transcription does
+not match the reference content. The reference contains detailed eye
+remedy recipes with specific ingredients and measurements. The blind
+transcription contains fragments of what appear to be different recipes,
+with the vast majority marked as illegible.
+
+THE ENTIRE TRANSCRIPTION IS HALLUCINATED OR READS THE WRONG PAGE.
+
+One partial match: The last recipe heading in the blind transcription
+("A very good ... for ... eyes commended by Mistres Routley") partially
+corresponds to the last recipe in the reference ("A uery good receipt
+for sore eyes commended by Mrs Worsley"). Even here, the name is wrong
+(Routley vs. Worsley), and the recipe text is entirely [...] markers.
+
+----------------------------------------------------------------------
+3. SEDLEY MS534 page 13
+   CER: ~21% (~290 edits / ~1,365 reference characters)
+----------------------------------------------------------------------
+
+The agent correctly identified the page and transcribed the correct
+recipes. The general structure matches. However, there are numerous
+errors at the word level. Below is a comprehensive list of differences.
+
+MODERNIZATION BIAS:
+  - "Salue" -> ref "Salve" (u/v interchange, both acceptable in period)
+  - "oliue" -> ref "olive" (u/v)
+  - "vpon" -> ref "upon" (u/v)
+  - "soueran" -> ref "soverai=gne" (both u/v and word is truncated)
+  - "vp" -> ref "up" (u/v)
+  Note: Many of these u/v variations are within acceptable semi-diplomatic
+  range, but the blind transcription is inconsistent (sometimes v, sometimes u).
+
+CAPITALIZATION:
+  - "lead" -> ref "Lead"
+  - "colour" vs ref "collour" (also spelling)
+  - "Kidneyes" -> ref "kidney"
+  - "Stomack" (2nd instance) -> ref "Stomach" (mixed)
+  - "Handfull" -> ref "handfull"
+  - "Day" -> ref "day"
+
+LETTERFORM MISREADINGS:
+  - "sores" -> ref "vses" (complete misreading of key word)
+  - "pt" -> ref "pound" (abbreviation handling)
+  - "with dust" -> ref "into dust," (preposition wrong)
+  - "pot" -> ref "pott"
+  - "glased" -> ref "glazed"
+  - "the oyntment is in-corporated" -> ref "they be well incor=porated"
+    (substantial restructuring)
+  - "seemes aportment" -> ref "comes upermost" (complete misreading)
+  - "continuewing your said fire" -> ref "continueinge the said fire"
+  - "on a bole of boxe" -> ref "with a bolt of Iron"
+    (catastrophic misreading: bole/bolt, boxe/Iron)
+  - "a stich" -> ref "a Stick"
+  - "you make your fire" -> ref "then make your fire"
+  - "eager" -> ref "bigger"
+  - "reddnes" -> ref "redness"
+  - "coulour" -> ref "colour" (extra u)
+  - "trencher" -> ref "trenchar" (2 instances)
+  - "cleue" -> ref "cleave"
+  - "finger" -> ref "fingers"
+  - "fassionably" -> ref "t'is boyled" (catastrophic misreading)
+  - "dyppes thicker in that, the thicknes or thinnesse depend"
+    -> ref "dipp your cloathes in that, the Searclothes therein dipped"
+    (catastrophic misreading of entire phrase)
+  - "put your oyle or boxe" -> ref "& the older the better"
+    (catastrophic misreading)
+  - "stomack provokes" -> ref "stomach provokes"
+  - "paines" -> ref "paine"
+  - "side" -> ref "belly" (misreading)
+  - "Collick" -> ref "Collicke"
+  - "openings" -> ref "Runinge" (misreading)
+  - "Kidneyes worketh" -> ref "kidney & weakness" (misreading)
+  - "swellinges" -> ref "swellings"
+  - "Bruises, at" -> ref "bruises, it"
+  - "ffrankes ffistions" -> ref "breakes the ffellons" (misreading)
+  - "pusles & sales them in" -> ref "pushes & heales them"
+  - "baringe applyed" -> ref "being applyed"
+  - "forementioned" -> ref "fundaments"
+  - "thereon" -> ref "therein"
+  - "woundes" -> ref "vnnilla." (misreading)
+  - "Third" -> ref "Good" (misreading)
+  - "Mistres Owell" -> ref omitted (ref says "A woman")
+  - "Childbedd" -> ref "Childbed" (extra d, 2 instances)
+  - "as much of" -> ref "2 ounces of"
+  - "Clouergilliflowers" -> ref "Clovegillyflowers"
+  - "a pennyeworth" -> ref "2 pennyworth"
+  - "Cinnamon" -> ref "Cinamon"
+  - "and a Spoonefull" -> ref "2 Spoonefulls"
+  - "Claret" -> ref "Clarett"
+  - "Nutmegs & Mormes Drami" -> ref "Alcemus one dramme"
+  - "soueran" -> ref "soverai=gne" (different word form)
+  - "especially" -> ref "especially" (match, with comma difference)
+  - "Gall" -> ref "head" (misreading of recipe title)
+  - "Two words good verified and devisde / After Mistres Totter"
+    -> ref "Take one handfull of Alloes one dramme / ffor A Tetter"
+    (catastrophic misreading — entire recipe title and first line wrong)
+  - "stamp your together" -> ref "stamp them together"
+  - "iuice" -> ref "juice" (2 instances)
+  - "smalt this place & then &" -> ref "wash the place and then"
+  - "vpon" -> ref "upon"
+  - "2 or 4" -> ref "3 or 4"
+  - "desistinge" -> ref "dressinge"
+  - "Day" -> ref "day"
+  - "togeather &c." -> ref "together &c"
+
+PUNCTUATION:
+  - Various comma differences throughout
+  - Period vs no period at end
+  - "incor=porated" (line break marker) not reproduced
+
+ABBREVIATION HANDLING:
+  - "pt" for "pound" — unclear if abbreviation or misreading
+  - "som*e*what" expansion handled correctly
+  - "y*ou*r" expansions handled correctly in blind transcription
+
+WORD SEGMENTATION:
+  - "in-corporated" vs "incor=porated" (different hyphenation convention)
+
+OMISSION/ADDITION:
+  - Reference page number "20" and "21" not in blind transcription
+    (acceptable — these are page markers)
+  - "white" missing before "Lead" in blind transcription
+  - Reference has ", 12" with comma; blind has "12" without
+  - Several phrases substantially different (see misreadings above)
+
+----------------------------------------------------------------------
+4. BULKELEY MS169 page 17
+   CER: ~18% (~170 edits / ~960 reference characters)
+----------------------------------------------------------------------
+
+The agent correctly identified the page and the subject matter (lavender
+medicinal properties). The general structure and many phrases match.
+However, there are significant word-level errors throughout.
+
+MODERNIZATION BIAS:
+  - None clearly identified — most errors are misreadings rather than
+    modernization.
+
+CAPITALIZATION:
+  - "lorde" -> ref not present (different opening)
+  - "therfore" -> ref "Therefore"
+
+LETTERFORM MISREADINGS:
+  - "of Lauander first, the temperature," ->
+    ref "Of Lauander spike, the temperature."
+    ("first" vs "spike"; comma vs period)
+  - "degree." -> ref "degree," (period vs comma)
+  - "thynn" -> ref "thinn"
+  - "consistinge" matches ref
+  - "p*ar*tes, therfore it is usd to be gyuen" ->
+    ref "partes. Therefore it is good to be giuen"
+    (usd/good, gyuen/giuen, comma vs period)
+  - "alm*os*t vniuersally the diseases" ->
+    ref "any way against the diseases"
+    ("almost vniuersally" vs "any way against" — complete misreading)
+  - "especially" -> ref "espetially"
+  - "w*hi*ch cause there originall" ->
+    ref "which haue theire originall"
+    ("cause" vs "haue", "there" vs "theire")
+  - "begininge" -> ref "beginninge" (missing n)
+  - "a bundance" -> ref "a bundance" (match)
+  - "therof of a qualitie only ." ->
+    ref "cheifely of a qualitie onely."
+    ("therof" vs "cheifely", "only" vs "onely")
+  - "The vertues" -> ref "The Vertues." (capitalization + period)
+  - "besprinckled with" -> ref "bathed therwith,"
+    ("besprinckled with" vs "bathed therwith" — different words)
+  - "is a refreshinge" matches ref
+  - "the Catalesie, being" -> ref "the Catalepsie,"
+    ("Catalesie" vs "Catalepsie", extra word "being")
+  - "a light migram" -> ref "a light Migram" (capitalization)
+  - "that cause the fallinge" -> ref "that haue the fallinge"
+    ("cause" vs "haue")
+  - "that vse to soune much" -> ref "that vse to soone much"
+    ("soune" vs "soone")
+  - "w*he*n suche thinge is a bundance" ->
+    ref "when there is a bundance"
+    ("suche thinge" vs "there")
+  - "especially mixte" -> ref "espetiallly mixed"
+    ("especially" vs "espetiallly", "mixte" vs "mixed")
+  - "w*i*th bloud" -> ref "with blood"
+    ("bloud" vs "blood")
+  - "so sel safe" -> ref "vsed safely"
+    ("so sel safe" vs "vsed safely" — misreading)
+  - "the composit*i*on to be taken, no the much of" ->
+    ref "the composition to be taken, which made of"
+    ("no the much" vs "which made")
+  - "distilled water in whome sure kinds" ->
+    ref "distilled Wine: in which such kinde"
+    ("water" vs "Wine:", "whome sure kinds" vs "which such kinde")
+  - "seeds, Certayne specis are mixte" ->
+    ref "seedes, & certayne spices are infused"
+    ("seeds" vs "seedes", "specis" vs "spices", "mixte" vs "infused")
+  - "or strewed, thonge most men crafte & all" ->
+    ref "or steeped, though most men do rashly & att"
+    ("strewed" vs "steeped", "thonge" vs "though", "crafte" vs "do rashly",
+     "& all" vs "& att")
+  - "aduenture vpon them without" ->
+    ref "adventure giue them without"
+    ("vpon" vs "giue")
+  - "diferenc*e* at all for the springes sure got single" ->
+    ref "ference at all for by vsinge such hot thinges"
+    (catastrophic misreading of entire phrase)
+  - "that fill & stuffe the head doe the by case it" ->
+    ref "that fill & stuffe the head, both the disease is"
+    ("doe the by case it" vs "both the disease is")
+  - "made greater & the sreste also breake out by" ->
+    ref "made greater & the sicke also brought into"
+    ("sreste" vs "sicke", "breake out by" vs "brought into")
+  - "Lauder, especially open vein of bloud, or" ->
+    ref "danger, espetially when letting of blood, or"
+    ("Lauder" vs "danger", "open vein" vs "when letting")
+  - "puttinge singe not done before. I set much" ->
+    ref "purging haue not gone before. This much"
+    (multiple misreadings)
+  - "liuors rash & ouer bold Apothecaries, & open" ->
+    ref "divers rash & ouerbould Apothecaries, & other"
+    ("liuors" vs "divers", "ouer bold" vs "ouerbould", "open" vs "other")
+  - "for the woomen, do be & giue sure composit*i*ons" ->
+    ref "foolish weomen, do by & by giue such compositions"
+    ("for" vs "foolish", "woomen" vs "weomen", "be" vs "by & by",
+     "sure" vs "such")
+  - "others of the like kinde" matches ref
+
+PUNCTUATION:
+  - Multiple comma and period differences
+  - "degree." vs "degree,"
+  - "only ." vs "onely."
+
+WORD SEGMENTATION:
+  - "dif-ferenc*e*" vs "dif-ference" (same line break convention)
+  - "ouer bold" vs "ouerbould" (space difference)
+
+OMISSION/ADDITION:
+  - "being" added after "Catalesie" (not in reference)
+  - "because diuers verie" -> ref "because euery where"
+    (blind: "diuers verie" vs ref: "euery where" — misreading)
+
+----------------------------------------------------------------------
+5. HENSLOW MS688 page 12
+   CER: ~12% (~110 edits / ~950 reference characters)
+----------------------------------------------------------------------
+
+This is the best result of the five manuscripts. The agent correctly
+identified the page, transcribed the correct recipes, and captured
+most of the text accurately. However, there are still enough errors
+to exceed the 5% usability threshold.
+
+Below is a comprehensive list of every difference:
+
+CAPITALIZATION:
+  - "lorde" -> ref "Lorde" (l vs L)
+  - "Strawberrie" -> ref "strawberrie" (S vs s)
+  - "Coleworte" (1st instance) -> ref "Colewort" (also spelling)
+  - "Clothe" -> ref "clothe" (C vs c)
+
+LETTERFORM MISREADINGS:
+  - "Caunterberries" -> ref "Cannterberries" (u vs n — minims)
+  - "violett" -> ref "voilett" (io vs oi transposition)
+  - "Langdebeefe" -> ref "langdebeeffe" (case + single f vs double ff)
+  - "Boorrage" -> ref "Buorrage" (oo vs uo)
+  - "knit" -> ref "knitt" (missing final t)
+  - "athe" -> ref "alike" (misreading — entirely different word)
+  - "Coleworte" (1st) -> ref "Colewort" (extra e)
+  - "untill" -> ref "vntill" (u vs v)
+  - "rosted" -> ref "rosted." (missing period)
+  - "mortier" -> ref "morter" (ie vs e)
+  - "yt" -> ref "ytt" (missing t)
+  - "troffer" -> ref "trusser" (misreading — off vs uss)
+  - "vse" -> ref "use" (v vs u)
+  - "morninge" -> ref "moreninge" (missing 'e' — morni vs moreni)
+  - "euenynge" -> ref "euenynde" (g vs d at end)
+  - "flixe" -> ref "Flixe" (f vs F — capitalization)
+  - "horsedonge" -> ref "horsedounge" (missing u)
+  - "frie it withe" -> ref "frie itt withe" (missing t)
+  - "put it in" -> ref "putt itt in" (missing t's)
+  - "laye it to" -> ref "laye itt to" (missing t)
+  - "fundament" -> ref "fundamente." (missing e and period)
+  - "as hott" matches
+  - "you" -> ref "yow" (1st instance)
+  - "lye vppen vntil you" -> ref "sitte uppon untill yow"
+    ("lye" vs "sitte", "vppen" vs "uppon", "vntil" vs "untill",
+     "you" vs "yow")
+  - "Deafnes" -> ref "Deffnes" (ea vs eff — misreading)
+  - "wole" -> ref "woole," (missing o and comma)
+  - "vpon" -> ref "vppon" (missing p)
+  - "Farre" -> ref "tarre" (F vs t — misreading)
+  - "togeather" -> ref "togeath[er]" cleans to "togeather" — match
+  - "put" -> ref "putt" (missing t)
+
+ABBREVIATION HANDLING:
+  - No expansion errors noted (no abbreviation marks in this manuscript).
+
+PUNCTUATION:
+  - "rosted" missing period (ref has "rosted.")
+  - "butter" missing period (ref has "butter.")
+  - "fundament" missing period and final e (ref "fundamente.")
+  - "ease" missing period (ref has "ease.")
+  - "eare" missing period (ref has "eare.")
+  - Decorative dots "......" present in blind but not in reference
+    (acceptable — these represent line fillers in the original)
+
+WORD SEGMENTATION:
+  - "Takeone" in ref (no space) vs "Take one" in blind (space added)
+    — the blind transcription "corrects" the reference's run-together
+
+OMISSION/ADDITION:
+  - "......Brothe" — decorative dots added (line fillers from original)
+  - "......For the pyles......" — decorative dots
+  - "......For the flixe......" — decorative dots
+  - "......For Deafnes......" — decorative dots
+  - Indentation "          morninge and euenynge" and
+    "          and put them into the eare" in blind transcription
+
+OTHER:
+  - The doubled/missing t's throughout (put/putt, it/itt, knit/knitt)
+    represent a systematic pattern — the blind transcription consistently
+    drops the doubled final consonants that the reference preserves.
+  - "Caunterberries" vs "Cannterberries" — minim confusion (u = nn)
+
+HENSLOW DETAILED CHARACTER DIFFERENCE COUNT (approximate):
+
+  Word-level differences (character edits):
+  - lorde/Lorde: 1 edit (case)
+  - Caunterberries/Cannterberries: ~2 edits (u->nn)
+  - Decorative dots "......" (6 instances, ~36 chars): ~36 insertions
+  - put/putt (therto): 1 edit (missing t)
+  - therto/thereto: 1 edit (missing e)
+  - violett/voilett: 2 edits (io vs oi transposition)
+  - Langdebeefe/langdebeeffe: ~3 edits (case + missing f)
+  - Boorrage/Buorrage: 2 edits (oo->uo)
+  - Strawberrie/strawberrie: 1 edit (case)
+  - knit/knitt: 1 edit (missing t)
+  - athe/alike: 3 edits
+  - "Take one"/"Takeone": 1 edit (extra space)
+  - Coleworte/Colewort (1st instance): 1 edit (extra e)
+  - untill/vntill: 1 edit (u->v)
+  - rosted/rosted.: 1 edit (missing period)
+  - put/putt (awaye): 1 edit
+  - mortier/morter: 1 edit (extra i)
+  - put/putt (to yt): 1 edit
+  - yt/ytt: 1 edit
+  - it/itt (take it): 1 edit
+  - it/itt (laye it): 1 edit
+  - troffer/trusser: ~4 edits
+  - vse/use: 1 edit
+  - morninge/moreninge: 1 edit (missing e)
+  - euenynge/euenynde: 1 edit (g->d)
+  - flixe/Flixe: 1 edit (case)
+  - horsedonge/horsedounge: 1 edit (missing u)
+  - it/itt (frie it): 1 edit
+  - put/putt (in a): 1 edit
+  - it/itt (put it): 1 edit
+  - Clothe/clothe: 1 edit (case)
+  - it/itt (laye it to): 1 edit
+  - fundament/fundamente.: 2 edits (missing e and period)
+  - butter/butter.: 1 edit (missing period)
+  - you/yow (1st): 1 edit
+  - lye/sitte: 4 edits
+  - vppen/uppon: 2 edits
+  - vntil/untill: 2 edits
+  - you/yow (2nd): 1 edit
+  - ease/ease.: 1 edit (missing period)
+  - Deafnes/Deffnes: ~3 edits
+  - wole/woole,: 2 edits (missing o + comma)
+  - vpon/vppon: 1 edit (missing p)
+  - Farre/tarre,: ~2 edits (F->t + comma)
+  - put/putt (them): 1 edit
+  - eare/eare.: 1 edit (missing period)
+  - Indentation formatting differences: ~10 edits
+  - Blank line differences: ~5 edits
+
+  Approximate total: ~110 character edits
+  Reference character count (cleaned, including newlines): ~950
+  CER: ~110/950 = ~12%
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+1. HALLUCINATION REMAINS THE DOMINANT PROBLEM
+
+   For 2 of 5 manuscripts (Jane Jackson and Brumwich), the blind
+   transcription bears no meaningful relationship to the reference text.
+   The agent produced plausible-sounding recipe text that does not
+   correspond to what is actually on the page. This is the same
+   fundamental problem reported in Run 1.
+
+   For these two manuscripts, CER approaches ~95% — meaning the
+   transcription is essentially random text relative to the reference.
+
+2. THE UPDATED GUIDE DID NOT FIX HALLUCINATION
+
+   The Run 1 hallucination problem persists in Run 2 unchanged. Jane
+   Jackson (~95% CER) and Brumwich (~93% CER) are catastrophic
+   failures in both runs. The paleography guide update appears to have
+   had no effect on these difficult manuscripts.
+
+3. MODERATE MANUSCRIPTS SHOW MIXED RESULTS
+
+   For the three manuscripts where the agent read the correct page:
+   - Sedley: WORSE than Run 1 (~21% vs ~15.8%)
+   - Bulkeley: Somewhat improved (~18% vs ~22.8%)
+   - Henslow: Approximately the same (~12% vs ~11.3%)
+
+   Even the best result (Henslow at ~12%) is more than double the
+   5% usability threshold and approximately 4x the Transkribus Egerton
+   benchmark of ~3%.
+
+4. SYSTEMATIC ERROR PATTERNS (in manuscripts that were not hallucinated)
+
+   a) DOUBLED CONSONANTS: The blind transcription systematically drops
+      doubled final consonants (put/putt, it/itt, knit/knitt). This
+      is a consistent pattern in Henslow and appears elsewhere.
+
+   b) MINIM CONFUSION: Letters formed by vertical strokes (i, n, m, u)
+      are frequently confused: Caunterberries/Cannterberries,
+      Boorrage/Buorrage, etc.
+
+   c) CATASTROPHIC PHRASE-LEVEL MISREADINGS (Sedley especially):
+      - "on a bole of boxe" should be "with a bolt of Iron"
+      - "fassionably enough" should be "t'is boyled enough"
+      - "dyppes thicker" should be "dipp your cloathes"
+      - "seemes aportment" should be "comes upermost"
+      These are not single-letter errors but wholesale misreadings
+      of entire phrases that produce nonsensical text.
+
+   d) LETTERFORM MISREADINGS (Bulkeley):
+      - "cause" for "haue" (multiple times)
+      - "sreste" for "sicke"
+      - "Lauder" for "danger"
+      - "liuors" for "divers"
+      These suggest the agent is pattern-matching to plausible words
+      rather than tracing individual letterforms.
+
+   e) RECIPE TITLE/STRUCTURE ERRORS (Sedley):
+      - "Pills for the Gall" should be "Pills for the head"
+      - "A Third Cordiall for Mistres Owell" should be
+        "A Good Cordiall For A woman"
+      Getting recipe titles wrong undermines the structural value of
+      the transcription even where body text is partially correct.
+
+5. ACCURACY DOES NOT MEET ANY STANDARD BENCHMARK
+
+   No manuscript achieves even the 5% CER threshold for "usable"
+   transcription. The best result (Henslow at ~12%) is approximately
+   4x worse than the Transkribus Egerton model benchmark (~3% CER)
+   and 12x worse than the "very good" threshold (<1% CER).
+
+   The overall CER of ~67% across all five manuscripts indicates
+   the pipeline is not viable for transcription purposes.
+
+6. ILLEGIBILITY MARKING VS. HALLUCINATION
+
+   When the agent cannot read text, it has two failure modes:
+   a) Mark it as [...] (honest acknowledgment of illegibility)
+   b) Produce a plausible but wrong reading (hallucination)
+
+   For Jane Jackson and Brumwich, the agent does both — extensive [...]
+   markers alongside hallucinated readings. For Sedley and Bulkeley,
+   the agent rarely uses [...] but produces many wrong readings,
+   suggesting overconfidence in incorrect readings.
+
+   The [...] marking approach (as seen in the difficult parts of Jane
+   Jackson and Brumwich) is actually more useful than confident wrong
+   readings, because it at least signals where human review is needed.
+   The problem is that the agent applies [...] to pages it cannot read
+   at all while producing false-confident readings on pages it can
+   partially read.
+
+======================================================================
+RECOMMENDATIONS
+======================================================================
+
+1. The hallucination problem is fundamental and cannot be solved by
+   guide improvements alone. The agent needs either:
+   a) A verification step that checks transcription against the image
+   b) A different approach for difficult manuscripts (e.g., the
+      fine-tuned TrOCR pipeline described in the project plan)
+   c) Higher-resolution images
+
+2. For the three manuscripts that were read correctly but inaccurately
+   (Sedley, Bulkeley, Henslow), the errors suggest the agent is
+   "reading" at a word-level pattern-matching level rather than tracing
+   individual letterforms. This produces plausible but incorrect text.
+
+3. The doubled-consonant problem suggests the agent has a systematic
+   bias toward modern spelling conventions (single consonants) over
+   early modern conventions (doubled consonants). This could potentially
+   be addressed through guide instructions.
+
+4. None of these results are usable for scholarly purposes without
+   extensive human correction. The pipeline in its current form
+   cannot replace or meaningfully assist human paleographic transcription.
+
+======================================================================
+END OF REPORT
+======================================================================

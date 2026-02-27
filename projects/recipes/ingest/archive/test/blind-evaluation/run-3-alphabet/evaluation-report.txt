@@ -1,0 +1,287 @@
+BLIND TRANSCRIPTION EVALUATION REPORT
+Alphabet-First Method
+======================================
+
+Manuscript: Henslow MS 688, Page 12
+Blind transcription: alphabet-method/henslow-ms688-page12-transcription.txt
+Reference: FromThePage transcription (test-page-reference.txt)
+Date: 2026-02-27
+
+======================================
+CER CALCULATION
+======================================
+
+CER = (Substitutions + Insertions + Deletions) / Total Reference Characters
+
+Total reference characters: 948 (including newlines between lines)
+Total edit operations: 58
+  - Substitutions: 35
+  - Insertions: 1
+  - Deletions: 22
+
+CER = 58 / 948 = 6.12%
+
+Note: Ornamental dot patterns (". . . .") in the blind transcription were
+stripped before comparison. Confidence markers ([embers?] -> embers) and
+italic markers (*letters*) were also stripped. Editorial brackets in the
+reference ([er] -> er) were stripped.
+
+======================================
+COMPLETE LIST OF DIFFERENCES
+======================================
+
+Legend:
+  REF = FromThePage reference transcription
+  BLIND = Blind transcription (alphabet method)
+  Sub = substitution, Ins = insertion, Del = deletion
+
+----------------------------------------------------------------------
+LETTERFORM MISREADING (31 edits)
+----------------------------------------------------------------------
+
+1. REF: "Cannterberries" -> BLIND: "Caunteberries"
+   The first 'n' was read as 'u', and the 'r' before 'b' was missed.
+   Edits: 1 sub (n->u) + 1 del (r) = 2
+
+2. REF: "Consumptione" -> BLIND: "Consumpshone"
+   The 'ti' was read as 'sh'. The long-s + h combination was plausible
+   but the reference has 't' + 'i'.
+   Edits: 2 sub (t->s, i->h) = 2
+
+3. REF: "voilett" -> BLIND: "violett"
+   Letters 'o' and 'i' transposed. Both are plausible spellings of
+   "violet" but the manuscript has 'oi' not 'io'.
+   Edits: 2 sub (o->i, i->o) = 2
+
+4. REF: "langdebeeffe" -> BLIND: "and buglosse"
+   Complete misreading of the word. The reference reads "langdebeeffe"
+   (langdebeef / ox-tongue, a plant in the borage family). The blind
+   transcription read "and buglosse" (bugloss, a related plant). Both
+   are plausible ingredients but the letterforms are entirely different.
+   This is the single largest error in the transcription.
+   Edits: 9 (computed via Levenshtein DP table)
+
+5. REF: "Buorrage" -> BLIND: "Boorrage"
+   The 'u' after 'B' was read as 'o'.
+   Edits: 1 sub (u->o) = 1
+
+6. REF: "mollett" -> BLIND: "violett"
+   Complete misreading. The reference has "mollett" (a plant), the blind
+   transcription read "violett" (violet). The initial 'm' was read as
+   'vi' and 'oll' as 'ole'. The transcription may have been influenced
+   by "violett" appearing in the previous recipe.
+   Edits: 3 sub (m->v, o->i, l->o) = 3
+
+7. REF: "rake" -> BLIND: "bake"
+   Initial 'r' read as 'b'. Both words make sense in context (baking
+   in embers vs. raking in embers), but the reference has 'rake'.
+   Edits: 1 sub (r->b) = 1
+
+8. REF: "trusser" -> BLIND: "trosser"
+   The 'u' was read as 'o'.
+   Edits: 1 sub (u->o) = 1
+
+9. REF: "euenynde" -> BLIND: "euenynge"
+   The 'd' was read as 'g'. Both are plausible readings in secretary
+   hand where 'd' and 'g' can look similar.
+   Edits: 1 sub (d->g) = 1
+
+10. REF: "sitte" -> BLIND: "laye it"
+    Complete misreading. The reference has "sitte" (sit), the blind
+    transcription read "laye it" (lay it). This changes the meaning
+    of the remedy instruction (sit upon vs. lay it upon). The blind
+    reading also split one word into two.
+    Edits: 7 (computed via Levenshtein DP table)
+
+11. REF: "Deffnes" -> BLIND: "Deafnes"
+    The second 'f' was read as 'a'. "Deffnes" is the scribal spelling;
+    "Deafnes" looks more modern.
+    Edits: 1 sub (f->a) = 1
+
+12. REF: "woole" -> BLIND: "wolle"
+    The second 'o' was read as 'l'.
+    Edits: 1 sub (o->l) = 1
+
+13. REF: "yow" (1st occurrence) -> BLIND: "you"
+    The 'w' was read as 'u'. "Yow" is a common early modern spelling.
+    Edits: 1 sub (w->u) = 1
+
+14. REF: "yow" (2nd occurrence) -> BLIND: "you"
+    Same as above.
+    Edits: 1 sub (w->u) = 1
+
+----------------------------------------------------------------------
+DOUBLE-LETTER OMISSION (8 edits)
+----------------------------------------------------------------------
+
+The blind transcription consistently missed doubled consonants that
+appear in the reference. This is a systematic pattern.
+
+15. REF: "putt" -> BLIND: "put" (recipe 1, line 3) -- 1 del
+16. REF: "ytt" -> BLIND: "yt" (recipe 2, line 4) -- 1 del
+17. REF: "itt" -> BLIND: "it" (recipe 2, line 5, 1st) -- 1 del
+18. REF: "itt" -> BLIND: "it" (recipe 2, line 5, 2nd) -- 1 del
+19. REF: "itt" -> BLIND: "it" (recipe 3, line 1) -- 1 del
+20. REF: "putt" -> BLIND: "put" (recipe 3, line 2) -- 1 del
+21. REF: "itt" -> BLIND: "it" (recipe 3, line 2, 1st) -- 1 del
+22. REF: "itt" -> BLIND: "it" (recipe 3, line 2, 2nd) -- 1 del
+
+----------------------------------------------------------------------
+CAPITALIZATION (5 edits)
+----------------------------------------------------------------------
+
+23. REF: "Lorde" -> BLIND: "lorde" -- 1 sub (L->l)
+24. REF: "strawberrie" -> BLIND: "Strawberrie" -- 1 sub (s->S)
+25. REF: "Imbers" -> BLIND: "embers" -- 1 sub (I->e)
+    Note: This is both a capitalization and a letterform issue. The
+    reference capitalizes "Imbers" while the blind reads lowercase
+    "embers". The capital I vs lowercase e distinction may also
+    reflect a different letterform reading.
+26. REF: "Flixe" -> BLIND: "flixe" -- 1 sub (F->f)
+27. REF: "tarre" -> BLIND: "Tarre" -- 1 sub (t->T)
+
+----------------------------------------------------------------------
+U/V CONVENTION (3 edits)
+----------------------------------------------------------------------
+
+In early modern English, 'v' was used word-initially and 'u' medially.
+The blind transcription applied this convention in places where the
+reference did not, or vice versa.
+
+28. REF: "use" -> BLIND: "vse" -- 1 sub (u->v)
+29. REF: "uppon" -> BLIND: "vppon" -- 1 sub (u->v)
+30. REF: "untill" -> BLIND: "vntill" -- 1 sub (u->v)
+
+Note: In all three cases, the blind transcription uses the word-initial
+'v' form, which is actually the expected early modern convention. The
+reference transcription uses 'u'. Without examining the manuscript
+directly, it is unclear which reading is more faithful to the letterforms.
+
+----------------------------------------------------------------------
+OMISSION OF LETTERS (4 edits)
+----------------------------------------------------------------------
+
+31. REF: "handefull" -> BLIND: "handfull" -- 1 del (e after 'hand')
+32. REF: "Coleworte" -> BLIND: "Colewort" -- 1 del (terminal e)
+33. REF: "moreninge" -> BLIND: "morninge" -- 1 del (e after 'or')
+34. REF: "fundamente" -> BLIND: "fundament" -- 1 del (terminal e)
+
+----------------------------------------------------------------------
+PUNCTUATION (4 edits)
+----------------------------------------------------------------------
+
+35. REF: "rosted." -> BLIND: "rosted" -- 1 del (period)
+36. REF: "butter." -> BLIND: "butter" -- 1 del (period)
+37. REF: "fundamente." -> BLIND: "fundament" -- 1 del (period)
+    (The missing 'e' is counted under Omission above; the period
+    is counted here.)
+38. REF: "woole," -> BLIND: "wolle" -- 1 del (comma)
+    (The o->l substitution is counted under Letterform above;
+    the comma is counted here.)
+
+----------------------------------------------------------------------
+WORD SEGMENTATION (1 edit)
+----------------------------------------------------------------------
+
+39. REF: "Takeone" -> BLIND: "Take one" -- 1 ins (space)
+    The reference runs these together; the blind transcription
+    separated them. The blind reading is arguably more natural
+    but does not match the manuscript.
+
+======================================
+COMPARISON TO PREVIOUS RESULTS
+======================================
+
+  Run 1 (no alphabet, original guide):      ~11.3% CER
+  Run 2 (updated guide, no alphabet):       ~12.0% CER
+  Run 3 (alphabet-first method):             6.12% CER   <-- this run
+
+  Benchmarks:
+    < 1% CER   = very good
+    < 5% CER   = usable for most research purposes
+    Transkribus Egerton model              ~  3% CER
+    Claude full Sedley MS534 test          0.45% CER
+
+======================================
+ASSESSMENT
+======================================
+
+THE ALPHABET-FIRST APPROACH IMPROVED RESULTS SIGNIFICANTLY
+
+The alphabet-first method reduced CER by roughly half compared to the
+previous two runs on this manuscript (from ~11-12% to ~6.1%). This is a
+substantial improvement, though the result still falls short of the <5%
+"usable" threshold and remains well above the 0.45% CER achieved on the
+Sedley manuscript.
+
+However, this manuscript (Henslow MS 688) is written in a notably more
+difficult hand than the Sedley, so direct comparison of the CER numbers
+across manuscripts is misleading. The relevant comparison is across the
+three runs on THIS same manuscript page, where the alphabet method cut
+the error rate nearly in half.
+
+KEY ERROR PATTERNS
+
+1. COMPLETE WORD MISREADINGS (16 of 58 edits, 28%)
+   The three largest errors are complete word misreadings:
+   - "langdebeeffe" -> "and buglosse" (9 edits)
+   - "sitte" -> "laye it" (7 edits)
+   - "mollett" -> "violett" (3 edits, likely influenced by
+     "violett" appearing in the previous recipe)
+   These three errors alone account for 19 edits -- a third of all
+   errors. Eliminating them would drop CER to ~4.1%.
+
+2. SYSTEMATIC DOUBLE-LETTER OMISSION (8 of 58 edits, 14%)
+   The blind transcription consistently missed doubled consonants:
+   itt->it (5x), putt->put (2x), ytt->yt (1x). This is a systematic
+   bias, not random error. The AI appears to normalize doubled
+   consonants toward single ones. If corrected, CER would improve
+   further.
+
+3. CAPITALIZATION INCONSISTENCY (5 of 58 edits, 9%)
+   Mixed direction: some capitals were lowered (Lorde->lorde,
+   Flixe->flixe), others were raised (strawberrie->Strawberrie,
+   tarre->Tarre). No systematic pattern.
+
+4. TERMINAL 'E' OMISSION (4 of 58 edits, 7%)
+   The blind transcription dropped terminal 'e' from several words
+   (handefull->handfull, Coleworte->Colewort, moreninge->morninge,
+   fundamente->fundament). This may reflect modernization bias,
+   since modern English has dropped many of these terminal 'e' forms.
+
+5. U/V CONVENTION DISAGREEMENT (3 of 58 edits, 5%)
+   The blind transcription used 'v' word-initially (vse, vppon,
+   vntill) where the reference used 'u'. The blind reading actually
+   follows the expected early modern convention more closely,
+   suggesting the reference transcriber may have modernized here.
+   These may not be true errors.
+
+6. PUNCTUATION (4 of 58 edits, 7%)
+   Three missing periods and one missing comma. Minor but systematic
+   under-reporting of punctuation marks.
+
+WHAT THE ALPHABET METHOD IMPROVED
+
+Compared to ~11-12% CER in previous runs, the ~6% CER suggests the
+alphabet helped with routine letterform identification. The basic
+letter-by-letter reading is substantially better. The remaining errors
+are concentrated in:
+- A few catastrophic word misreadings (ambiguous or compressed letter
+  sequences where context led the AI astray)
+- Systematic patterns (double-letter omission, terminal 'e' omission)
+  that could potentially be addressed through prompt refinement
+
+RECOMMENDATIONS FOR FURTHER IMPROVEMENT
+
+1. Add explicit instruction to preserve doubled consonants (itt, putt,
+   ytt) rather than normalizing to single consonants.
+2. Add instruction to preserve terminal 'e' on words even when the
+   modern form omits it.
+3. For difficult passages, consider a two-pass approach: first a
+   letter-by-letter decoding, then a contextual reading, comparing
+   the two to flag discrepancies.
+4. The complete word misreadings ("langdebeeffe", "sitte", "mollett")
+   suggest the AI is sometimes substituting contextually plausible
+   words rather than faithfully decoding letterforms. A stricter
+   instruction to report what the letters show, even when the result
+   is an unfamiliar word, might help.

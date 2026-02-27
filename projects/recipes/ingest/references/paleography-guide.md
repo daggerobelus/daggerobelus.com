@@ -22,8 +22,39 @@ A transcription:
 - Records deletions, insertions, and marginal notes
 - Reproduces errors in the original — transcribe what is *there*, not what was *meant*
 - Flags illegible or uncertain readings rather than guessing
+- **Preserves scribal errors exactly as written.** Do NOT silently correct:
+  - Dittography (repeated words): "make make" stays "make make" — do not change to "may make"
+  - Transposed letters: "littly" stays "littly" — do not change to "little"
+  - Omitted letters: "presciption" stays "presciption" — do not change to "prescription"
+  - False starts: "th the" stays "th the" — do not delete the false start
+  - Unusual spellings: "Spoondull" stays "Spoondull" — do not change to "Spoonfull"
+- **Preserves apostrophes** in possessives and contractions exactly as written (Sheep's, kil'd, approv'd)
 
 Transcription requires **paleographic skill** (the ability to read historical handwriting) but does **not** require interpretation of meaning.
+
+### The Cardinal Rule: Never Fabricate Text
+
+**If you cannot read it, do not write it.** Mark it as illegible and move on.
+
+This is the single most important principle in this guide. Producing a plausible-sounding word that is not actually on the page is **worse than leaving a gap**. A gap tells the reader "this could not be read." A fabricated word tells the reader nothing — it silently replaces the historical record with fiction.
+
+Specifically:
+
+- **Never generate text from context alone.** If surrounding words suggest a recipe for coughs, that does not tell you what the illegible word says. Do not fill it in.
+- **Never let your knowledge of English override your reading of letterforms.** If you cannot trace the individual pen strokes that form a word, you cannot transcribe it — regardless of what word would "make sense" there.
+- **A transcription full of [...] gaps is more valuable than a transcription full of [guesses?].** Gaps are honest. Guesses that happen to be wrong corrupt the record permanently.
+- **If most of a line or passage is illegible, mark the entire passage as illegible.** Do not reconstruct it word by word from fragments and context.
+- **The [word?] flag is for words you CAN read but are not certain about** — where you can see the letterforms but they are ambiguous. It is NOT a license to guess at words you cannot see.
+
+To be explicit about the threshold:
+
+| What you can see | What to do |
+|---|---|
+| Clear letterforms, unambiguous reading | Transcribe normally |
+| Visible letterforms but ambiguous (could be two different words) | Use [word?] flag |
+| Partial letterforms, some strokes visible | Use [b....es] notation (letters you can see + dots for what you cannot) |
+| Ink faded, water damage, no letterforms distinguishable | Use [...] — do NOT attempt a reading |
+| Entire passage illegible | Mark as [passage illegible] and move on |
 
 ### Translation (Separate, Optional Step)
 
@@ -205,28 +236,41 @@ Make the statement as concise and clear as possible.
 
 ## Part 5: Confidence Flagging
 
-When transcribing, every word or passage should be assigned a confidence level:
+When transcribing, every word or passage should be assigned a confidence level. **The key question is always: can I see the letterforms?** If the answer is no, the reading is illegible — not uncertain.
 
 ### High Confidence
-The reading is clear and unambiguous. No flag needed.
+The reading is clear and unambiguous. You can trace the pen strokes of every letter. No flag needed.
 
 ### Medium Confidence
-The reading is probable but not certain — perhaps the letterforms are ambiguous, the ink is faded, or the word is unfamiliar. Flag with a question mark in brackets:
+You CAN see the letterforms, but they are ambiguous — the word could be one of two or three readings. Flag with a question mark in brackets:
 ```
 Take the [iuice?] of roses
 ```
+Use this ONLY when you can point to specific letterforms that support your reading. "This looks like it could be an i or an l" is a valid reason. "This word is probably 'juice' because it's a recipe" is NOT — that is contextual guessing, not paleographic reading.
 
-### Low Confidence
-The reading is a guess at best, or the text is largely illegible. Flag with square brackets and dots for estimated missing letters:
+### Low Confidence / Illegible
+You CANNOT see enough letterforms to identify the word. Use square brackets with dots for estimated missing letters:
 ```
 Take [......] and mix with [.......]
 ```
 
+**This is the correct response for:**
+- Faded ink where pen strokes are not visible
+- Water or mold damage obscuring the text
+- Any passage where you are constructing words from context rather than reading letterforms
+- Any word where you would not be able to justify your reading by pointing to specific pen strokes
+
+**If more than half the words in a passage would need [...] markers, mark the entire passage as illegible rather than attempting a word-by-word reconstruction:**
+```
+[Passage illegible — approximately 3 lines, heavy water damage]
+```
+
 ### Contextual Notes
-When a reading depends on context (e.g., you recognize a word because of surrounding recipe vocabulary rather than being able to read every letter), note this:
+When a reading is supported by context in addition to (not instead of) letterforms, note this:
 ```
 Take the iuice of roses {context: common recipe ingredient; letterforms partially obscured}
 ```
+The letterforms must come first. Context can raise your confidence in an ambiguous reading, but it cannot substitute for being able to see the writing.
 
 ---
 
