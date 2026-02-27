@@ -1,0 +1,928 @@
+BLIND TRANSCRIPTION EVALUATION REPORT
+======================================
+Date: 2026-02-27
+Method: Text-against-text comparison (no manuscript images reviewed)
+Metric: CER (Character Error Rate) = (Substitutions + Insertions + Deletions) / Total Reference Characters
+
+Benchmarks:
+  < 1% CER  = very good
+  < 5% CER  = usable for most research purposes
+  Transkribus Egerton model (best existing for English secretary hand) ~ 3% CER
+
+
+================================================================================
+SUMMARY TABLE
+================================================================================
+
+Manuscript                  | Ref Chars | Edit Dist | CER     | Rating
+----------------------------+-----------+-----------+---------+------------------
+Jane Jackson MS373 p20      |     3,345 |     3,197 | 95.58%  | COMPLETE FAILURE
+Brumwich MS160 p10          |     2,406 |     2,312 | 96.09%  | COMPLETE FAILURE
+Sedley MS534 p13            |     1,585 |       250 | 15.77%  | Poor
+Bulkeley MS169 p17          |       974 |       222 | 22.79%  | Poor
+Henslow MS688 p12           |       630 |        71 | 11.27%  | Poor
+Henslow (excl. dot dividers)|       630 |       ~50 |  ~7.9%  | Poor
+----------------------------+-----------+-----------+---------+------------------
+3 aligned manuscripts only  |     3,189 |       543 | 17.03%  | Poor
+All 5 manuscripts           |     8,940 |     6,052 | 67.70%  | Failure
+
+NOTE: Jane Jackson and Brumwich produced ENTIRELY WRONG TEXT — the blind
+transcriptions contain recipes that do not appear anywhere in the reference
+transcriptions. These are not reading errors; the agent transcribed content
+that does not correspond to the manuscript pages at all. The CER for these
+two is effectively ~96% (near-total divergence). These are excluded from
+meaningful accuracy analysis below.
+
+For the 3 manuscripts that produced recognizably correct content (Sedley,
+Bulkeley, Henslow), the overall CER of ~17% is far worse than the
+Transkribus Egerton baseline of ~3% and well outside the "usable" threshold
+of <5%.
+
+
+================================================================================
+1. JANE JACKSON MS373 PAGE 20 — COMPLETE FAILURE
+================================================================================
+
+Reference text (3,345 characters) contains recipes for:
+  - "For the pilling of the face" (turpentine and rose water)
+  - "For freckles on the face" (white poppy distilled)
+  - "For a Timpany" (flower delice in white wine)
+  - "A Fume for the same" (white wine, running water, horse dung)
+  - "For the same" (urine and sheep's tallow)
+  - "Another of the same" (radish roots in white wine)
+  - "A restoratiue for a Consumption" (egg yolks, cow milk, rosewater)
+  - "For an euill sore in the head" (neats foot oil, dove dung)
+  - "For the Migrim in the head" (houseleek and garden worms)
+  - "For a stich or ach in the side" (camomile, wormwood, etc.)
+
+Blind transcription contains NONE of these recipes. Instead it produced:
+  - "ffor thornes and hay to be taken awaie"
+  - "ffor healinge and drawinge of a wounde"
+  - "ffor the stopping or for to clearsse"
+  - "ffor Coughe"
+  - "ffor the dropsie"
+  - Various heavily flagged [...] passages
+
+The blind transcription also claims this is a "two-page spread, left and
+right pages" with severe water/mold damage. The reference text shows a
+densely packed page of clearly legible recipes with no mention of damage.
+
+Assessment: The agent either looked at the wrong page entirely, or the
+manuscript image was so damaged/unclear that it hallucinated plausible
+recipe text rather than transcribing what was actually there. Given that the
+confidence notes describe "significant water/mold damage" while the reference
+text is dense and complete, this appears to be a case where the agent
+either received the wrong image or fabricated content when faced with a
+difficult-to-read page. The vast majority of words are flagged as uncertain
+[word?] or illegible [...], suggesting the agent could not actually read
+the page.
+
+CER: ~95.58% (effectively a complete miss)
+
+
+================================================================================
+2. BRUMWICH MS160 PAGE 10 — COMPLETE FAILURE
+================================================================================
+
+Reference text (2,406 characters) contains recipes for:
+  - "A water of Exelent uirtue to helpe the weake or dimme sight of the eyes"
+  - "A water to Stringthen the sight"
+  - "A powder for the eyes"
+  - "To Cuer a blind horse or Cristane"
+  - "A water for sore eyes whose lides are all swelled"
+  - (page 7) "A Medicine for sore eyes"
+  - "For a pinne or pin & web in the Eye"
+  - "A water for sore eyes commeded by Sir James Langham"
+  - "A uery good receipt for sore eyes commended by Mrs Worsley"
+
+The page is thematically unified: ALL recipes concern eye ailments.
+
+Blind transcription produced entirely different content:
+  - "A water of Endiue ciccoris" (endive/chicory — not eye-related)
+  - "Dynary of Treach in powder" (treacle preparation)
+  - Recipes about brimstone, antimony, and alchemical preparations
+  - A veterinary recipe ("Tell any a blind horse")
+  - Recipes for aches and joints ("Gonnes in the Ioyntes")
+  - Attribution to "Mr Bostley"
+
+The only partial overlap is "blind horse" appearing in both, but in
+completely different recipe contexts. The blind transcription's content
+bears no meaningful relationship to the reference.
+
+Assessment: Same pattern as Jane Jackson — the agent produced plausible
+early modern recipe text that does not correspond to the actual manuscript
+page. Nearly every word in the blind transcription is flagged as uncertain
+[word?], indicating the agent could not confidently read the manuscript
+but generated text anyway rather than marking it illegible.
+
+CER: ~96.09% (effectively a complete miss)
+
+
+================================================================================
+3. SEDLEY MS534 PAGE 13
+================================================================================
+
+CER: ~15.77% (250 edits / 1,585 reference characters)
+Rating: Poor (well above the 5% usable threshold)
+
+The blind transcription successfully identified the correct recipes and
+produced recognizable text, but with numerous errors throughout.
+
+DIFFERENCES (listed by category):
+
+--- MODERNIZATION BIAS ---
+
+1. "vses" (ref) → "sores" (blind)
+   Ref: "A Salve for sundry vses called"
+   Blind: "A Salue for sundry sores called"
+   Category: Letterform misreading (not modernization; "sores" is plausible
+   in context but wrong)
+
+2. "bloudy" (ref) → "bloody" (blind)
+   Ref: "it stops the bloudy flux"
+   Blind: "it stops the bloody fluxe"
+   Category: Modernization bias — "bloudy" modernized to "bloody"
+
+3. "Salve" (ref) → "Salue" (blind)
+   Ref: "A Salve for sundry"
+   Blind: "A Salue for sundry"
+   Category: Not an error — "Salue" is a valid period reading (u/v
+   interchange); however, the reference has "Salve" so this is a
+   discrepancy. Could go either way.
+
+--- CAPITALIZATION ---
+
+4. "Lead" (ref) → "lead" (blind)
+   Ref: "1 pound of white Lead"
+   Blind: "The quantitie of lead"
+   (This is part of a larger misreading — see below)
+
+5. "Stick" (ref) → "sticke" (blind)
+   Ref: "fastned to a Stick of wood"
+   Blind: "fastned to a sticke of wood"
+   Category: Capitalization + spelling ("Stick" vs "sticke")
+
+6. "Stomach" (second occurrence, ref) → "stomach" (blind)
+   Ref: "the paine of the Stomach layd"
+   Blind: "the paine of the stomach laid"
+   Category: Capitalization
+
+7. "Good" (ref) → "Plead" (blind)
+   Ref: "A Good Cordiall For A woman"
+   Blind: "A Plead Cordiall for A woman"
+   Category: Letterform misreading ("Good" read as "Plead")
+
+--- PUNCTUATION ---
+
+8. "dust," (ref) → "dust" (blind)
+   Ref: "calcinated into dust, 12 ounces"
+   Blind: "cerused with dust 12 ounces"
+   (Part of larger misreading)
+
+9. "coales," (ref) → "coales" (blind)
+   Ref: "a small fire of coales, continueinge"
+   Blind: "a small face of coales continuinge"
+   Category: Punctuation (comma omitted)
+
+10. "collour" (ref) → "colour" (blind)
+    Ref: "turned into a grey collour but"
+    Blind: "turned into a grey colour but"
+    Category: Spelling difference (single vs double l)
+
+--- WORD SEGMENTATION ---
+
+11. "incor=porated" (ref) → "tur=porned" (blind)
+    Ref: "when they be well incor=porated that the sope comes upermost"
+    Blind: "when the colour be tur=porned that the sope seemes aponnment"
+    Category: Complete misreading of entire phrase
+
+--- LETTERFORM MISREADING ---
+
+12. "1 pound of white" (ref) → "The quantitie of" (blind)
+    Ref: "of the best 1 pound of white Lead very well calcinated into dust"
+    Blind: "of the best The quantitie of lead very well cerused with dust"
+    Category: Major misreading — "1 pound of white" read as "The quantitie of"
+
+13. "calcinated" (ref) → "cerused" (blind)
+    Category: Letterform misreading — entirely different word
+
+14. "these" (ref) → "those" (blind)
+    Ref: "incorporate all these well"
+    Blind: "incorporate all those well"
+    Category: Letterform misreading (e→o)
+
+15. "pott" (ref) → "pot" (blind)
+    Ref: "an earthen pott well glazed"
+    Blind: "an earthen pot well glased"
+    Category: Spelling (double t missed)
+
+16. "glazed" (ref) → "glased" (blind)
+    Ref: "pott well glazed"
+    Blind: "pot well glased"
+    Category: Letterform misreading (z→s)
+
+17. "they be well incor=porated that the sope comes upermost"
+    → "the colour be tur=porned that the sope seemes aponnment"
+    Ref: "when they be well incorporated that the sope comes upermost"
+    Blind: "when the colour be turporned that the sope seemes aponnment"
+    Category: Major misreading — entire clause wrong. "they" → "the colour";
+    "incorporated" → "turporned"; "comes upermost" → "seemes aponnment"
+
+18. "fire" (ref) → "face" (blind)
+    Ref: "a small fire of coales"
+    Blind: "a small face of coales"
+    Category: Letterform misreading (r→c, i→a — "fire" read as "face")
+
+19. "continueinge" (ref) → "continuinge" (blind)
+    Ref: "continueinge the said fire"
+    Blind: "continuinge the said fire"
+    Category: Spelling (e omitted)
+
+20. "with" (ref) → "on" (blind)
+    Ref: "stirring it with a bolt"
+    Blind: "stirring it on a bolt"
+    Category: Letterform misreading
+
+21. "Iron" (ref) → "boxe" (blind)
+    Ref: "a bolt of Iron"
+    Blind: "a bolt of boxe"
+    Category: Letterform misreading — completely different word
+
+22. "then make your" (ref) → "you make your" (blind)
+    Ref: "then make your fire some what bigger"
+    Blind: "you make your fire some what eager"
+    Category: Letterform misreading ("then" → "you")
+
+23. "bigger" (ref) → "eager" (blind)
+    Category: Letterform misreading
+
+24. "leave" (ref) → "leaue" (blind)
+    Ref: "must not leave stirringe"
+    Blind: "must not leaue sturringe"
+    Category: Not an error (u/v interchange is valid), but "stirringe" vs
+    "sturringe" is a misreading (i→u)
+
+25. "stirringe" (ref) → "sturringe" (blind)
+    Category: Letterform misreading (i→u)
+
+26. "colour of oyle somewhat" (ref) → "coulour of oyster couler" (blind)
+    Ref: "the colour of oyle somewhat darker"
+    Blind: "the coulour of oyster couler darker"
+    Category: Letterform misreading — "oyle somewhat" read as "oyster couler"
+
+27. "trenchar" (ref) → "trencher" (blind) [both occurrences]
+    Category: Letterform misreading (a→e)
+
+28. "cleave" (ref) → "cleue" (blind)
+    Ref: "neither cleave to your fingers"
+    Blind: "neither cleue to your fingers"
+    Category: Could be valid (u/v), but "a" missing
+
+29. "t'is boyled enough" (ref) → "flatterly enoughe" (blind)
+    Ref: "nor the trenchar t'is boyled enough"
+    Blind: "nor the trencher flatterly enoughe"
+    Category: Major misreading — entire phrase wrong
+
+30. "dipp your cloathes" (ref) → "dippe cloutes" (blind)
+    Ref: "then dipp your cloathes in that"
+    Blind: "then dippe cloutes in that"
+    Category: Letterform misreading ("cloathes" → "cloutes"; "dipp" → "dippe")
+
+31. "the Searclothes therein" (ref) → "the plaister or theron" (blind)
+    Category: Major misreading
+
+32. "& the older the better" (ref) → "prouided you keepe" (blind)
+    Category: Major misreading — entirely different phrase
+
+33. "provokes" (ref) → "prouokes" (blind)
+    Category: Not an error (u/v interchange)
+
+34. "Stomach layd" (ref) → "stomach laid" (blind)
+    Category: Capitalization + spelling ("layd" → "laid" = modernization)
+
+35. "belly" (ref) → "side" (blind)
+    Ref: "layd to the belly, t'is a remedy"
+    Blind: "laid to the side, tis a remedy"
+    Category: Letterform misreading — completely different word
+
+36. "t'is" (ref) → "tis" (blind)
+    Category: Punctuation (apostrophe omitted)
+
+37. "reines" (ref) → "raines" (blind)
+    Category: Letterform misreading (ei→ai)
+
+38. "flux" (ref) → "fluxe" (blind)
+    Category: Addition (extra 'e')
+
+39. "Runinge of the reines heat of the kidney & weakness"
+    → "openings of the vaines bloat of the Kidneys voydeth"
+    Category: Major misreading — entire line wrong
+
+40. "breakes" (ref) → "Coankes" (blind)
+    Category: Letterform misreading
+
+41. "Impostumes" (ref) → "Impostuemes" (blind)
+    Category: Addition (extra 'e')
+
+42. "h^eales them" (ref) → "steles them in" (blind)
+    Category: Letterform misreading
+
+43. "being" (ref) → "bringes" (blind)
+    Category: Letterform misreading
+
+44. "fundaments" (ref) → "Ioyntes" (blind)
+    Category: Letterform misreading — completely different word
+
+45. "therein" (ref) → "thereon" (blind)
+    Category: Letterform misreading (i→o, n→n — "in" → "on")
+
+46. "vnnilla" (ref) → "minice" (blind)
+    Category: Letterform misreading
+
+47. "Good" (ref) → "Plead" (blind)
+    Category: Letterform misreading
+
+48. "2 ounces" (ref) → "a ounces" (blind)
+    Category: Letterform misreading ("2" read as "a")
+
+49. "Syrrup" (ref) → "Syrrop" (blind)
+    Category: Letterform misreading (u→o)
+
+50. "Clovegillyflowers" (ref) → "Clouglillflowers" (blind)
+    Category: Letterform misreading
+
+51. "2 pennyworth" (ref) → "a pennyworth" (blind)
+    Category: Letterform misreading ("2" read as "a")
+
+52. "2 Spoonefulls" (ref) → "a Spoonefull" (blind)
+    Category: Letterform misreading ("2" → "a") + omission of plural 's'
+
+53. "Clarett" (ref) → "Clarrett" (blind)
+    Category: Addition (extra 'r')
+
+54. "Alcemus one dramme" (ref) → "Musse Amorus Drams" (blind)
+    Category: Major misreading — completely different words
+
+55. "soverai=gne" (ref) → "souerain and" (blind)
+    Category: Letterform misreading + word segmentation
+
+56. "for any especially" (ref) → "for any, especially" (blind)
+    Category: Punctuation (comma added)
+
+57. "Pills for the head" (ref) → "Pills for the Gall" (blind)
+    Category: Letterform misreading ("head" → "Gall")
+
+58. "Take one handfull of Alloes one dramme" (ref)
+    → "Take two mugge of ...  and diuers" (blind)
+    Category: Major misreading
+
+59. "ffor A Tetter" (ref) → "After A Tetter" (blind)
+    Category: Letterform misreading ("ffor" → "After")
+
+60. "one" → "one" (match) but "Handfull" vs "handfull"
+    Category: Capitalization
+
+61. "take up" (ref) → "take vp" (blind)
+    Category: Not an error (u/v interchange)
+
+62. "juice" (ref) → "iuice" (blind) [both occurrences]
+    Category: Not errors (i/j and u/v interchanges are valid)
+
+63. "stamp them" (ref) → "stamp your" (blind)
+    Ref: "stamp them together"
+    Blind: "stamp your together"
+    Category: Letterform misreading ("them" → "your")
+
+64. "Mortar" (ref) → "Morter" (blind)
+    Category: Letterform misreading (a→e)
+
+65. "straine the juice" (ref) → "straines the iuice" (blind)
+    Category: Addition (extra 's')
+
+66. "wash the place and then put" (ref) → "wash the place with it & put" (blind)
+    Category: Letterform misreading ("and then" → "with it &")
+
+67. "upon" (ref) → "vpon" (blind)
+    Category: Not an error (u/v interchange)
+
+68. "vse this 3 or 4" (ref) → "vse this goe 3 or 4" (blind)
+    Category: Addition ("goe" inserted)
+
+69. "dressinge" (ref) → "dressing" (blind)
+    Category: Omission (final 'e')
+
+70. "a day" (ref) → "a Day" (blind)
+    Category: Capitalization
+
+
+================================================================================
+4. BULKELEY MS169 PAGE 17
+================================================================================
+
+CER: ~22.79% (222 edits / 974 reference characters)
+Rating: Poor (well above the 5% usable threshold)
+
+The blind transcription correctly identified this as text about lavender's
+medicinal properties and produced recognizable content, but with extensive
+errors.
+
+DIFFERENCES (listed by category):
+
+--- HEADING ---
+
+1. "Of Lauander spike, the temperature." (ref)
+   → "of Lauander, her the temperature," (blind)
+   Category: Multiple errors — "Of" → "of" (capitalization); "spike" → "her"
+   (letterform misreading); period → comma (punctuation); missing "spike"
+
+--- LETTERFORM MISREADING ---
+
+2. "hot" (ref) → "hott" (blind)
+   Category: Addition (extra 't')
+
+3. "thinn" (ref) → "thyn" (blind)
+   Category: Letterform misreading (inn → yn)
+
+4. "consistinge" (ref) → "purgessinges" (blind)
+   Ref: "is of a thinn substance, consistinge of many airie"
+   Blind: "is of a thyn substance, purgessinges of many aries"
+   Category: Major misreading — "consistinge" → "purgessinges"
+
+5. "airie" (ref) → "aries" (blind)
+   Category: Letterform misreading
+
+6. "partes. Therefore it is good" (ref) → "substances to and forthe it is saide" (blind)
+   Ref: "& spirituall partes. Therefore it is good to be giuen"
+   Blind: "& spirituall substances to and forthe it is saide to be giuen"
+   Category: Major misreading — "partes. Therefore" → "substances to and forthe...saide"
+
+7. "any way" (ref) → "all who are" (blind)
+   Ref: "good to be giuen any way against"
+   Blind: "saide to be giuen all who are against"
+   Category: Letterform misreading
+
+8. "espetially" (ref) → "especially" (blind)
+   Category: Modernization bias — scribal "espetially" corrected to "especially"
+
+9. "theire originall or beginninge" (ref) → "them of a coald or be windie" (blind)
+   Ref: "which haue theire originall or beginninge not of a bundance"
+   Blind: "which cause them of a coald or be windie not of a omdant"
+   Category: Major misreading — entire clause different
+
+10. "cheifely" (ref) → [omitted] (blind)
+    Ref: "cheifely of a qualitie onely."
+    Blind: "of those of a qualitie onely."
+    Category: Letterform misreading ("cheifely" → "of those")
+
+11. "The Vertues." (ref) → "The vertues" (blind)
+    Category: Capitalization (V→v) + punctuation (period omitted)
+
+12. "vnto," (ref) → "vnto" (blind)
+    Category: Punctuation (comma omitted)
+
+13. "bathed therwith," (ref) → "bathed therwith" (blind)
+    Category: Punctuation (comma omitted)
+
+14. "them" (ref) → "them" (match)
+
+15. "Migram" (ref) → "migraim" (blind)
+    Category: Letterform misreading + capitalization (M→m, different vowels)
+
+16. "fallinge" (ref) → "fallinges" (blind)
+    Category: Addition (extra 's')
+
+17. "vse to soone much" (ref) → "lose to som much" (blind)
+    Category: Letterform misreading ("vse" → "lose"; "soone" → "som")
+
+18. "But when there is" (ref) → "But as yee before it is" (blind)
+    Ref: "But when there is a bundance of humors"
+    Blind: "But as yee before it is abundance of humors, of stale mixed"
+    Category: Major misreading
+
+19. "espetiallly" (ref) → [not present in this position] (blind)
+    The entire clause differs
+
+20. "vsed safely" (ref) → "so used safer" (blind)
+    Category: Letterform misreading + modernization ("vsed" → "used")
+
+21. "composition" (ref) → "composition" (match — but blind has "comp*os*ition")
+
+22. "which made of" (ref) → "which sure kindes of" (blind)
+    Ref: "the composition to be taken, which made of distilled Wine"
+    Blind: "the composition to be taken, not the much of distilled water
+    in which sure kindes of herbes"
+    Category: Major misreading — entire passage restructured
+
+23. "distilled Wine: in which" (ref) → "distilled water in which" (blind)
+    Category: Letterform misreading ("Wine" → "water")
+
+24. "such kinde of" (ref) → "sure kindes of" (blind)
+    Category: Letterform misreading ("such" → "sure"; "kinde" → "kindes")
+
+25. "& certayne spices are infused" (ref) → "Certayne fruits are mixed" (blind)
+    Category: Letterform misreading ("spices" → "fruits"; "infused" → "mixed")
+
+26. "do" (ref) → "doe" (blind)
+    Category: Addition (extra 'e') — but "doe" is also valid period spelling
+
+27. "att adventure" (ref) → "all aduenture" (blind)
+    Category: Letterform misreading ("att" → "all")
+
+28. "without makinge any" (ref) → "without meassuge and" (blind)
+    Category: Letterform misreading
+
+29. "dif-ference" (ref) → "dif-ference" (blind has "dif=ference")
+    Category: Minor — hyphenation mark difference
+
+30. "hot thinges" (ref) → "yet fonde" (blind)
+    Ref: "by vsinge such hot thinges that fill & stuffe the head"
+    Blind: "by vsinge such yet fonde that fill & stuffe the head too the
+    by cause it"
+    Category: Major misreading
+
+31. "both the disease is" (ref) → "too the by cause it" (blind)
+    Category: Major misreading
+
+32. "sicke" (ref) → "sixt" (blind)
+    Category: Letterform misreading
+
+33. "also brought into" (ref) → "also brought one" (blind)
+    Category: Letterform misreading ("into" → "one")
+
+34. "espetially when" (ref) → "especially to open" (blind)
+    Category: Modernization bias ("espetially" → "especially") + misreading
+
+35. "letting" (ref) → "letting" (match)
+
+36. "purging haue not gone before" (ref) → "purginge gane not done before" (blind)
+    Category: Letterform misreading ("haue" → [omitted]; "gone" → "gane...done")
+
+37. "This much" (ref) → "I sett much" (blind)
+    Category: Letterform misreading
+
+38. "because euery where" (ref) → "because either verie" (blind)
+    Category: Letterform misreading
+
+39. "divers rash & ouerbould" (ref) → "fewe or lasse & ouer bould" (blind)
+    Category: Letterform misreading + word segmentation ("ouerbould" → "ouer bould")
+
+40. "other foolish weomen" (ref) → "open for the women" (blind)
+    Category: Letterform misreading
+
+41. "do by & by giue such compositions" (ref)
+    → "so be so be giue sure compotions" (blind)
+    Category: Major misreading
+
+42. "others of the like kinde" (ref) → "of sorts of the like kinds" (blind)
+    Category: Letterform misreading
+
+43. "haue the Apoplexie;" (ref) → "gaue the Apoplexie," (blind)
+    Category: Letterform misreading ("haue" → "gaue") + punctuation (;→,)
+
+44. "that" (catchword, ref) → "that" (match)
+
+--- MODERNIZATION BIAS ---
+
+(Collected from above)
+
+- "espetially" (ref) → "especially" (blind) — occurs twice
+- "vsed" (ref) → "used" (blind)
+- "do" (ref) → "doe" (blind) — arguably not modernization but hypercorrection
+
+
+================================================================================
+5. HENSLOW MS688 PAGE 12
+================================================================================
+
+CER: ~11.27% (71 edits / 630 reference characters)
+CER excluding decorative dot dividers: ~7.9% (50 edits / 630 reference characters)
+Rating: Poor (above the 5% usable threshold, but best of the five)
+
+This was the most legible manuscript and the blind transcription is closest
+to the reference, though still above the usable threshold. A significant
+portion of the edit distance comes from decorative dot dividers (". . . .")
+that the blind transcription includes between recipes and in headings. These
+dots are not present in the reference transcription. If these dots are
+actually present in the manuscript (the blind transcriber's confidence notes
+claim they are), then the reference transcription omitted them and the
+difference is a convention disagreement, not a reading error. Excluding the
+decorative dots, the CER drops to approximately 7.9% — still above the
+usable threshold but closer.
+
+DIFFERENCES (listed by category):
+
+--- SPELLING / LETTERFORM MISREADING ---
+
+1. "Cannterberries" (ref) → "Caunterberries" (blind)
+   Ref: "My Lorde of Cannterberries"
+   Blind: "My lorde of Caunterberries"
+   Category: Letterform misreading (nn→un) + capitalization (L→l)
+
+2. "putt" (ref) → "put" (blind)
+   Ref: "sauinge putt thereto"
+   Blind: "sauinge put therto"
+   Category: Omission (missing 't') — ref has double 't'
+
+3. "thereto" (ref) → "therto" (blind)
+   Category: Omission (missing 'e')
+
+4. "voilett" (ref) → "violett" (blind)
+   Ref: "a handfull of voilett leaues"
+   Blind: "a handfull of violett leaues"
+   Category: Letterform misreading (oi→io transposition — metathesis)
+
+5. "langdebeeffe" (ref) → "langdebeefe" (blind)
+   Category: Letterform misreading (double f → single f, single e → double e
+   position differs)
+
+6. "Buorrage" (ref) → "Borrage" (blind)
+   Category: Omission (missing 'u')
+
+7. "strawberrie" (ref) → "Strawberrie" (blind)
+   Category: Capitalization (s→S)
+
+8. "knitt" (ref) → "knit" (blind)
+   Category: Omission (missing 't')
+
+9. "togeather" (ref, first occurrence) → "togeather" (blind, match)
+
+10. "quantitye." (ref) → "quantitye . . . . . . . ." (blind)
+    Ref has period; blind has decorative dots
+    Category: Punctuation (added decorative dots not in reference)
+
+11. "For the pyles" (ref) → "ffor the pyles" (blind)
+    Ref: "For" / Blind: "ffor"
+    Category: Other — blind uses double-f convention; reference does not.
+    The reference transcriber may have normalized "ffor" to "For"
+
+12. "Takeone" (ref) → "Take one" (blind)
+    Ref: "Takeone handefull" (run together in reference)
+    Blind: "Take one handefull"
+    Category: Word segmentation — blind ADDED a space that is absent in
+    the reference (the reference has them run together)
+
+13. "mollett" (ref) → "mollet" (blind)
+    Category: Omission (missing 't')
+
+14. "Imbers" (ref) → "Imbers" (blind, flagged as [Imbers?])
+    Category: Match (correct reading, just flagged as uncertain)
+
+15. "rosted." (ref) → "rosted" (blind)
+    Category: Punctuation (period omitted)
+
+16. "putt awaye the Coleworte" (ref) → "put awaye the Colewort" (blind)
+    Category: Omission (missing 't' in "putt") + omission (missing 'e' in "Coleworte")
+
+17. "putt to ytt" (ref) → "put therto" (blind)
+    Ref: "and putt to ytt oyle of roses"
+    Blind: "and put therto oyle of roses"
+    Category: Multiple differences — "putt" → "put" (omission), "to ytt" → "therto"
+    (different word entirely)
+
+18. "togeather" (ref, second) → "together" (blind)
+    Category: Modernization bias — "togeather" modernized to "together"
+
+19. "itt" (ref) → "it" (blind) [multiple occurrences]
+    Ref consistently uses "itt"; blind uses "it"
+    Category: Omission (missing 't') — systematic error, occurs ~5 times
+
+20. "laye itt" (ref) → "laye it" (blind)
+    Category: Same as above
+
+21. "trusser" (ref) → "troffer" (blind)
+    Ref: "withe a trusser"
+    Blind: "withe a troffer"
+    Category: Letterform misreading
+
+22. "use" (ref) → "vse" (blind)
+    Category: Not an error (u/v interchange is valid period convention)
+
+23. "moreninge" (ref) → "moreinge" (blind)
+    Ref: "moreninge and euenynde."
+    Blind: "moreinge and euenynge . . . . . . . ."
+    Category: Letterform misreading (missing 'n')
+
+24. "euenynde" (ref) → "euenynge" (blind)
+    Category: Letterform misreading ('d' → 'g') — but "euenynge" may be
+    more contextually plausible; the reference reading "euenynde" is unusual
+
+25. "For the Flixe" (ref) → "ffor the flixe" (blind)
+    Category: Other (ffor convention) + capitalization (F→f in "flixe")
+
+26. "horsedounge" (ref) → "horsedonge" (blind)
+    Category: Omission (missing 'u')
+
+27. "sweete" (ref) → "swete" (blind)
+    Category: Omission (missing 'e')
+
+28. "putt itt in a clothe" (ref) → "put it in a Clothe" (blind)
+    Category: Omission ("putt"→"put", "itt"→"it") + capitalization (c→C)
+
+29. "laye itt" (ref) → "laye it" (blind)
+    Category: Omission (missing 't')
+
+30. "fundamente." (ref) → "fundament" (blind, flagged as [fundament?])
+    Category: Omission (missing 'e') + punctuation (period omitted)
+
+31. "yow" (ref) → "you" (blind) [two occurrences]
+    Category: Letterform misreading (w→u) — could be modernization bias
+
+32. "sitte uppon" (ref) → "lye vppen" (blind)
+    Ref: "and sitte uppon untill yow haue ease."
+    Blind: "and lye vppen vntill you haue ease."
+    Category: Letterform misreading ("sitte" → "lye"; "uppon" → "vppen")
+
+33. "untill" (ref) → "vntill" (blind)
+    Category: Not an error (u/v interchange)
+
+34. "For Deffnes" (ref) → "ffor Deafnes" (blind)
+    Category: Other (ffor convention) + letterform misreading ("Deffnes" → "Deafnes")
+
+35. "woole," (ref) → "wolle" (blind)
+    Category: Letterform misreading (e→l swapped position) + punctuation (comma omitted)
+
+36. "vppon" (ref) → "vpon" (blind)
+    Category: Omission (missing 'p')
+
+37. "tarre" (ref) → "Fayre" (blind)
+    Ref: "of a sheepe and tarre, and mingell them togeath[er]"
+    Blind: "of a sheepe and Fayre and mingell them togeather"
+    Category: Letterform misreading — "tarre" (tar) read as "Fayre" (fair);
+    this changes the meaning significantly
+
+38. "togeath[er]" (ref) → "togeather" (blind)
+    Category: Match — both read "togeather" (ref has bracket notation for
+    damaged edge)
+
+--- ADDITIONS (content not in reference) ---
+
+39. Decorative dots: The blind transcription adds ". . . . . ." decorative
+    separators between recipes and in headings. The reference does not include
+    these. The blind transcription describes these as section dividers in
+    the confidence notes.
+    Category: Addition — these add approximately 50+ characters not in reference
+
+40. "My lorde of Caunterberries / . . . . Brothe for a Consumptione . . . . . ."
+    vs ref: "My Lorde of Cannterberries / Brothe for a Consumptione"
+    Category: Addition (decorative dots) + capitalization + letterform
+
+--- SYSTEMATIC PATTERNS ---
+
+- "itt" → "it": The reference consistently doubles the 't' in "itt", "ytt",
+  "putt". The blind transcription systematically drops the second 't'. This
+  accounts for roughly 10-12 character errors.
+
+- "ffor" vs "For": The blind transcription uses "ffor" (double-f for capital F)
+  for recipe titles, while the reference uses "For". This is a transcription
+  convention difference — the blind transcriber was following the instruction
+  to use double-f, while the FromThePage reference normalizes to "For". This
+  is arguably not an error but a convention difference.
+
+- Decorative dots: The blind transcription includes ". . . . ." section dividers
+  that are not in the reference. If these are present in the manuscript, the
+  reference omitted them; if not, the blind transcription added them.
+
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1. COMPLETE FAILURES ON TWO MANUSCRIPTS (Jane Jackson, Brumwich)
+
+   The blind transcription produced entirely fabricated content for 2 of the
+   5 manuscripts. The transcribed recipes bear no relationship to the actual
+   manuscript text. This is not a matter of poor accuracy — the agent
+   generated plausible-sounding early modern recipe text that is completely
+   invented. This is the most serious finding: when the agent could not
+   confidently read a manuscript, it appears to have hallucinated content
+   rather than marking text as illegible.
+
+   Both failed transcriptions share characteristics:
+   - The vast majority of words are flagged as uncertain [word?]
+   - The confidence notes describe severe damage or difficulty
+   - Despite acknowledging inability to read the text, the agent still
+     produced full transcriptions rather than marking passages as illegible
+
+   This is a critical reliability problem. A transcription system that
+   generates plausible but entirely wrong text is worse than one that
+   simply reports "I cannot read this" — because the errors are not
+   obviously wrong to a reader unfamiliar with the manuscript.
+
+2. POOR ACCURACY ON ALIGNED MANUSCRIPTS
+
+   Even for the 3 manuscripts where the blind transcription identified the
+   correct content, accuracy is poor:
+   - Sedley: ~15.77% CER
+   - Bulkeley: ~22.79% CER
+   - Henslow: ~11.27% CER
+
+   All three are far above the 5% usable threshold, and far worse than the
+   Transkribus Egerton model's ~3% CER. The Sedley manuscript was described
+   in the confidence notes as "the clearest of the five manuscripts" yet
+   still had ~16% CER.
+
+3. DOMINANT ERROR TYPE: LETTERFORM MISREADING
+
+   The most common error category across all three aligned manuscripts is
+   letterform misreading — the agent read entirely wrong words. These are
+   not subtle single-character errors but wholesale misreadings:
+   - "fire" → "face"
+   - "Iron" → "boxe"
+   - "bigger" → "eager"
+   - "belly" → "side"
+   - "tarre" → "Fayre"
+   - "consistinge" → "purgessinges"
+   - "spike" → "her"
+   - "trusser" → "troffer"
+
+   Many of these change the meaning of the recipe instructions significantly.
+
+4. MODERNIZATION BIAS (MINOR)
+
+   Modernization bias is present but is a relatively minor issue compared to
+   the letterform misreadings:
+   - "bloudy" → "bloody"
+   - "espetially" → "especially" (twice in Bulkeley)
+   - "togeather" → "together"
+   - "yow" → "you"
+
+   These are the types of silent corrections the project documentation
+   identified as a core methodological risk, but they are dwarfed by the
+   more severe misreading errors.
+
+5. SYSTEMATIC OMISSION OF DOUBLE CONSONANTS
+
+   The Henslow transcription shows a systematic pattern of dropping doubled
+   consonants: "putt" → "put", "itt" → "it", "knitt" → "knit", "mollett"
+   → "mollet". This is a consistent bias, not random error.
+
+6. CONVENTION DIFFERENCES
+
+   Some differences may reflect transcription convention choices rather than
+   errors:
+   - "ffor" vs "For" for recipe titles (double-f convention)
+   - u/v interchange ("vsed"/"used", "vpon"/"upon")
+   - Decorative dots included/excluded
+   These are judgment calls that depend on the transcription standard being
+   followed.
+
+7. COMPARISON TO BENCHMARKS
+
+   | System                        | CER      |
+   |-------------------------------|----------|
+   | Transkribus Egerton model     | ~3%      |
+   | "Very good" threshold         | <1%      |
+   | "Usable" threshold            | <5%      |
+   | This blind test (best case)   | 11.27%   |
+   | This blind test (3 aligned)   | 17.03%   |
+   | This blind test (all 5)       | 67.70%   |
+
+   The blind transcription pipeline does not meet the usable threshold on
+   any of the 5 manuscripts tested. Even the best result (Henslow, 11.27%)
+   is more than double the Transkribus Egerton baseline and more than double
+   the usable threshold.
+
+8. COMPARISON TO PREVIOUS GUIDED TEST RESULTS
+
+   The project documentation reports a previous full manuscript test on
+   Sedley MS534 achieving 0.45% CER overall. This blind test on a single
+   Sedley page achieved ~15.77% CER — roughly 35x worse. The project
+   documentation also reports a 5-manuscript baseline averaging ~98.7%
+   word accuracy (~1.3% word error rate). This blind test is dramatically
+   worse on every metric.
+
+   The most likely explanation for the discrepancy is that the previous
+   tests were "guided" (with the paleography guide loaded and possibly
+   with iterative correction), while this is a blind test. The difference
+   in performance suggests that the paleography guide and/or the guided
+   workflow are essential to achieving usable accuracy — the vision model
+   alone, without expert guidance, produces unreliable results.
+
+
+================================================================================
+METHODOLOGY NOTE
+================================================================================
+
+CER was computed by manually identifying all differences between the cleaned
+blind transcription text and the reference text, counting character-level
+edit operations (substitutions, insertions, deletions), and dividing by
+the total number of characters in the reference text. For Jane Jackson and
+Brumwich, where the texts are entirely different, CER was estimated based
+on the near-total character divergence (Levenshtein distance approaches
+the length of the longer string when texts are unrelated).
+
+The blind transcription text was cleaned before comparison by:
+- Removing all header lines (manuscript name, page number, conventions)
+- Removing the "CONFIDENCE NOTES" section
+- Removing page section headers ("LEFT PAGE", "RIGHT PAGE", etc.)
+- Stripping confidence markers: [word?] → word, [...] → omitted
+- Stripping italic expansion markers: *letters* → letters
+- Removing editorial notes in brackets about page damage
+
+The reference text was cleaned by:
+- Removing the source/metadata header lines
+- Removing page numbers ({6}, {7}, 20, 21)
+
+u/v and i/j interchanges were generally NOT counted as errors, as these
+are valid period spelling variants. However, they were noted where they
+appear.

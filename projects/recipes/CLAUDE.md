@@ -8,6 +8,7 @@ Research and transcription of early modern English recipe books, with a focus on
 recipes/
 ├── ingest/                      # Source materials
 │   ├── archive/                 # Manuscript images (photographed or downloaded)
+│   │   └── test/                # Test materials ONLY — never mix with the real corpus
 │   └── references/              # Folger paleography guide, secondary sources
 ├── extracted/                   # Processed data
 │   ├── transcriptions/          # Semi-diplomatic transcriptions (per-manuscript)
@@ -19,6 +20,10 @@ recipes/
     ├── figures/                  # Generated visualizations
     └── data/                    # JSON/CSV for web consumption
 ```
+
+### Important: Test vs. Corpus Data
+
+All test transcriptions, baseline comparisons, and experimental materials go in `ingest/archive/test/`. Each test should have its own subfolder (e.g., `test/jane-jackson-ms-373/`). **Never place test materials directly in `ingest/archive/`** — that folder is reserved for the real manuscript corpus. This keeps test runs clearly separated so they don't get mixed into the actual project data.
 
 ## Data Workflow
 
@@ -63,6 +68,33 @@ This project uses **semi-diplomatic transcription** following Folger editorial c
 - Abbreviations are expanded with supplied letters in italics
 - Confidence levels flag uncertain readings for human review
 
+### Accuracy Evaluation
+
+**CER (Character Error Rate)** is the standard metric for evaluating transcription accuracy. This is the field standard for HTR/OCR evaluation.
+
+```
+CER = (Substitutions + Insertions + Deletions) / Total Reference Characters
+```
+
+CER is computed using Levenshtein edit distance at the character level between the reference and hypothesis transcriptions. All accuracy reporting for this project should use CER. Word-level accuracy may be reported alongside CER for readability but is not the primary metric.
+
+Benchmarks:
+- < 1% CER = very good
+- < 5% CER = usable for most research purposes
+- Transkribus Egerton model (best existing for English secretary hand) ≈ 3% CER
+
+Qualitative error analysis (modernization bias, capitalization ambiguity, etc.) is reported separately as value judgments about where the inaccuracy lies, not as alternative accuracy metrics.
+
+### Blind Evaluation Protocol
+
+Transcription and evaluation are performed by **separate agents** with no shared context, to prevent the transcription from being influenced by the reference material.
+
+- **Transcription agent:** Receives only the manuscript image and the paleography guide (`ingest/references/paleography-guide.md`). Has **no access** to the FromThePage reference transcription or any other ground truth. Produces a transcription based solely on what it can read in the image.
+
+- **Evaluation agent:** Receives the transcription produced by Agent 1 and the FromThePage reference transcription. Computes CER, categorizes errors, and writes the comparison report. Does **not** see the original manuscript image.
+
+This separation ensures the transcription is a genuine blind reading of the manuscript, not influenced by prior knowledge of what the "correct" answer should be. It also makes the evaluation more defensible as a research methodology — analogous to blinding in experimental design.
+
 ## Project Values
 
 - **Open source**: All tools, models, and methods developed for this project should be open source and freely available to other scholars. No paid/proprietary HTR platforms (e.g., Transkribus paid tier) as primary dependencies.
@@ -80,7 +112,33 @@ The primary transcription pipeline uses Claude's vision capabilities guided by t
 - Confidence flagging system (high/medium/low)
 - Recipe-specific vocabulary for contextual reading
 
-Initial baseline test (Jane Jackson MS 373, page 20 from FromThePage): Claude can read clearly-written passages and recipe titles accurately without guidance. Struggles with faded/damaged sections, specific abbreviations, and compact hands. The paleography guide was built to address these gaps but has not yet been tested with a guided transcription.
+**Full manuscript test (Lady Sedley MS534, 42 pages, 80,623 characters):**
+- **Overall CER: 0.45%** (recipe text only: 0.41%) — NOTE: this was a non-blind test (agent had access to reference text). See blind evaluation results below for honest accuracy assessment.
+- Hand legibility is the strongest predictor of CER (clear hands < 0.1%, compact hands up to ~4%)
+- Core methodological risk: modernization bias — the AI silently corrects scribal errors toward modern spellings
+- Full results: `ingest/archive/test/sedley-ms534-full/full-manuscript-summary.txt`
+
+**Initial 5-page baseline (5 manuscripts, 2,312 words):**
+- Average word accuracy ~98.7% — NOTE: non-blind test, likely inflated
+- Results: `ingest/archive/test/test-results-summary.md`
+
+**Blind evaluation (5 manuscripts, 3 runs):**
+- Run 1 (basic): CER ranged from ~11% (Henslow) to ~96% (Jane Jackson — hallucinated)
+- Run 2 (updated guide): No significant improvement
+- **Run 3 (alphabet-first method): 6.12% CER on Henslow — ~50% reduction vs. Runs 1-2**
+- The alphabet-first method forces bottom-up reading (letterforms → words) instead of top-down guessing, which is how human paleographers work
+- Full results: `ingest/archive/test/blind-evaluation/blind-test-summary.md`
+
+### Alphabet-First Transcription Method
+
+The most promising approach discovered during blind testing. Based on how human paleographers are trained: study the hand first, then transcribe.
+
+**Three-agent workflow:**
+1. **Alphabet Builder:** Studies the manuscript image and creates a letter-by-letter reference chart for this specific scribe's hand. Identifies clear examples of each letterform, confusion risks, and variant forms. Does NOT transcribe.
+2. **Transcriber:** Uses the hand-specific alphabet + the general paleography guide to transcribe the page. Cross-references each letterform against the alphabet rather than guessing words from context.
+3. **Evaluator:** Compares transcription against FromThePage reference. Computes CER. Never sees the original image.
+
+This approach addresses the core problem: without the alphabet step, the AI reads top-down (what word makes sense here?) instead of bottom-up (what letterforms do I see?). Top-down reading causes hallucination and modernization bias.
 
 ### Future Goal: Open-Source Fine-Tuned TrOCR Model
 
@@ -112,17 +170,18 @@ The long-term goal is to fine-tune **Microsoft TrOCR** (open-source, MIT license
 Step 1: IMAGE INTAKE
 Photograph or download manuscript page
          ↓
-Step 2: TRANSCRIPTION
-Claude (with paleography guide) or fine-tuned TrOCR
-produces text transcription
+Step 2: BLIND TRANSCRIPTION (Agent 1)
+Claude (with paleography guide only — no reference text)
+produces transcription from the manuscript image alone
          ↓
-Step 3: VERIFICATION
-Flag readings by confidence level
-(high = clear, medium = probable, low = illegible)
+Step 3: BLIND EVALUATION (Agent 2 — separate context)
+Compare transcription against FromThePage reference
+Compute CER, categorize errors, write comparison report
+Agent 2 never sees the original manuscript image
          ↓
-Step 4: CORRECTION
-Human expert reviews flagged sections
-(Sarah's paleography expertise is essential here)
+Step 4: HUMAN REVIEW
+Sarah reviews flagged sections and evaluation report
+(paleographic expertise is essential here)
          ↓
 Step 5: STRUCTURED DATA
 Corrected transcription organized into structured format
@@ -162,8 +221,11 @@ Data feeds into visualization pipeline
 
 ## Next Steps
 
-1. **Test the paleography guide**: Run a guided transcription of a FromThePage manuscript page (Jane Jackson MS 373) with the paleography guide loaded, and compare against the human transcription to measure accuracy improvement over the unguided baseline.
-2. **Set up GPU access**: Create Kaggle account and apply for Google Colab student access.
-3. **Explore training data**: Download paired image + transcription data from FromThePage to assess viability for TrOCR fine-tuning.
-4. **Apply for CUNY HPCC account**: Free computing resources for the fine-tuning work.
-5. **Apply for Provost's Digital Innovation Grant**: Next cycle, to fund cloud computing or other project needs.
+1. **Expand alphabet-first testing**: Run the alphabet-first method on harder manuscripts (Sedley, Bulkeley) to see if the improvement holds across different hands and difficulty levels.
+2. **Fix doubled-consonant bias**: The agent systematically normalizes "putt" → "put", "itt" → "it". Add explicit guidance in the paleography guide about preserving doubled consonants.
+3. **Test multi-pass transcription**: Have the agent make multiple passes over the same page, comparing reads for consistency.
+4. **Explore image preprocessing**: Test whether higher-resolution images or contrast enhancement improve accuracy on difficult manuscripts.
+5. **Set up GPU access**: Create Kaggle account and apply for Google Colab student access for TrOCR fine-tuning.
+6. **Explore training data**: Download paired image + transcription data from FromThePage to assess viability for TrOCR fine-tuning.
+7. **Apply for CUNY HPCC account**: Free computing resources for the fine-tuning work.
+8. **Apply for Provost's Digital Innovation Grant**: Next cycle, to fund cloud computing or other project needs.
