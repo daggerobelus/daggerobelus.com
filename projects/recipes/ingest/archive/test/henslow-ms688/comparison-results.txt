@@ -1,0 +1,193 @@
+COMPARISON REPORT: Guided Transcription vs. Reference Transcription
+====================================================================
+
+Manuscript: MS688 (Mistress Honore Henslow), Page 12
+Test type: Guided semi-diplomatic transcription (Claude with paleography guide)
+
+METHODOLOGY
+-----------
+Comparison is line-by-line and word-by-word, restricted to the transcription
+body (everything after the "---" header). Punctuation attached to words is
+included as part of that word token. The reference transcription from
+FromThePage is treated as ground truth.
+
+WORD-BY-WORD ALIGNMENT
+-----------------------
+
+Line: My Lorde of Cannterberries
+  Reference: My Lorde of Cannterberries
+  Result: MATCH (4/4 words)
+
+Line: Brothe for a Consumptione
+  Reference: Brothe for a Consumptione
+  Result: MATCH (4/4 words)
+
+Line: Take like as before sauinge putt thereto a handfull of vio/voilett leaues
+  Reference: Take like as before sauinge putt thereto a handfull of voilett leaues
+  Guided:    Take like as before sauinge putt thereto a handfull of violett leaues
+  Difference: "voilett" (ref) vs "violett" (guided) -- letter order transposition
+  Result: 10/11 words match
+
+Line: langdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt
+  Reference: langdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt
+  Result: MATCH (8/8 words)
+
+Line: togeather of euerie one alike quantitye.
+  Reference: togeather of euerie one alike quantitye.
+  Result: MATCH (6/6 words)
+
+Line: For the pyles
+  Reference: For the pyles
+  Result: MATCH (3/3 words)
+
+Line: Take/Takeone handefull of mollett leaues...
+  Reference: Takeone handefull of mollett leaues, and wrappe them in a Colewort
+  Guided:    Take one handefull of mollett leaues, and wrappe them in a Colewort
+  Difference: "Takeone" (ref, single token, no space) vs "Take one" (guided, two tokens)
+  Note: In the manuscript, "Take" and "one" appear to run together without a clear
+  word break. The reference treats them as a single token. This may be a transcription
+  choice in the reference rather than a true error in the guided transcription, but
+  we score against the reference as ground truth.
+  Result: Word count mismatch -- guided has 12 words, reference has 11. Counting as
+  1 difference (the split/join of Takeone).
+
+Line: leafe, and rake them in the Imbers vntill they bee well rosted.
+  Reference: leafe, and rake them in the Imbers vntill they bee well rosted.
+  Result: MATCH (12/12 words)
+
+Line: then take them, and putt awaye the Coleworte leafe, and grinde
+  Reference: then take them, and putt awaye the Coleworte leafe, and grinde
+  Result: MATCH (10/10 words)
+
+Line: them in a morter, and putt to ytt oyle of roses, and grinde them togeather
+  Reference: them in a morter, and putt to ytt oyle of roses, and grinde them togeather
+  Result: MATCH (14/14 words)
+
+Line: then take itt and laye itt to the pyles withe a trusser, and vse/use this
+  Reference: then take itt and laye itt to the pyles withe a trusser, and use this
+  Guided:    then take itt and laye itt to the pyles withe a trusser, and vse this
+  Difference: "use" (ref) vs "vse" (guided) -- u/v orthographic choice
+  Result: 13/14 words match
+
+Line: moreninge and euenynde/euenynge.
+  Reference: moreninge and euenynde.
+  Guided:    moreninge and euenynge.
+  Difference: "euenynde." (ref) vs "euenynge." (guided) -- misread 'd' as 'g'
+  Result: 2/3 words match
+
+Line: For the Flixe
+  Reference: For the Flixe
+  Result: MATCH (3/3 words)
+
+Line: Take horsedounge new made and frie itt withe sweete butter.
+  Reference: Take horsedounge new made and frie itt withe sweete butter.
+  Result: MATCH (10/10 words)
+
+Line: and putt itt in a clothe and laye itt to the fundamente. as hott
+  Reference: and putt itt in a clothe and laye itt to the fundamente. as hott
+  Result: MATCH (14/14 words)
+
+Line: as yow maye suffer ytt, and sitte vppon/uppon vntill/untill yow haue ease.
+  Reference: as yow maye suffer ytt, and sitte uppon untill yow haue ease.
+  Guided:    as yow maye suffer ytt, and sitte vppon vntill yow haue ease.
+  Differences:
+    "uppon" (ref) vs "vppon" (guided) -- u/v orthographic choice
+    "untill" (ref) vs "vntill" (guided) -- u/v orthographic choice
+  Result: 10/12 words match
+
+Line: For Deffnes
+  Reference: For Deffnes
+  Result: MATCH (2/2 words)
+
+Line: Take blacke woole, whiche growes vppon the flanke
+  Reference: Take blacke woole, whiche growes vppon the flanke
+  Result: MATCH (8/8 words)
+
+Line: of a sheepe and tarre, and mingell them togeath[er]
+  Reference: of a sheepe and tarre, and mingell them togeath[er]
+  Result: MATCH (9/9 words)
+
+Line: and putt them into the eare.
+  Reference: and putt them into the eare.
+  Result: MATCH (6/6 words)
+
+SUMMARY
+-------
+Total words in reference transcription: 163
+Total words correctly matching reference: 156
+Total differences: 6
+Accuracy: 95.7% (156/163)
+
+LIST OF ALL DIFFERENCES
+-----------------------
+1. "voilett" (ref) vs "violett" (guided)
+   Type: Letter-order transposition (oi vs io)
+   Location: Line 3 of body (first recipe, ingredient list)
+
+2. "Takeone" (ref) vs "Take one" (guided)
+   Type: Word segmentation (reference joins, guided splits)
+   Location: Line 7 of body (pyles recipe, opening)
+
+3. "use" (ref) vs "vse" (guided)
+   Type: u/v orthographic choice
+   Location: Line 11 of body (pyles recipe, closing instruction)
+
+4. "euenynde." (ref) vs "euenynge." (guided)
+   Type: Letter misread (d vs g)
+   Location: Line 12 of body (pyles recipe, closing)
+
+5. "uppon" (ref) vs "vppon" (guided)
+   Type: u/v orthographic choice
+   Location: Line 16 of body (flixe recipe, closing instruction)
+
+6. "untill" (ref) vs "vntill" (guided)
+   Type: u/v orthographic choice
+   Location: Line 16 of body (flixe recipe, closing instruction)
+
+ERROR ANALYSIS
+--------------
+The 6 differences fall into three categories:
+
+1. U/V ORTHOGRAPHIC CHOICES (3 errors: "use"/"vse", "uppon"/"vppon", "untill"/"vntill")
+   The paleography guide notes that u and v were used interchangeably in this
+   period, with v typically at the start of a word and u in the middle. The
+   guided transcription applied this convention more consistently (using v at
+   word-initial position), while the reference transcription uses u in some
+   word-initial positions ("use", "uppon", "untill"). This is a genuine
+   ambiguity in secretary hand: the letterforms for initial u and v can be
+   nearly identical, and different transcribers may resolve them differently.
+   These are debatable rather than clear-cut errors.
+
+2. LETTER TRANSPOSITION (1 error: "voilett"/"violett")
+   The reference reads "voilett" while the guided transcription reads "violett".
+   In secretary hand, the letters i and o can look very similar (the secretary
+   'e' is often confused with 'o', and minim strokes for 'i' can be ambiguous).
+   The reference reading "voilett" preserves a less-standard spelling; "violett"
+   may reflect modern bias toward the familiar spelling "violet".
+
+3. LETTER MISREAD (1 error: "euenynde"/"euenynge")
+   The reference reads "euenynde" (with a 'd') where the guided transcription
+   reads "euenynge" (with a 'g'). In secretary hand, 'd' and 'g' can be
+   confused because both have descenders and similar bowl shapes. The reference
+   reading "euenynde" is the more unusual spelling, which suggests careful
+   paleographic reading rather than modernization. This is a genuine misread.
+
+4. WORD SEGMENTATION (1 error: "Takeone"/"Take one")
+   The reference transcribes "Takeone" as a single run-together token, while
+   the guided transcription separates them as "Take one". In the manuscript,
+   the two words appear to run together without a clear space. The reference
+   preserves this feature of the original. This reflects the semi-diplomatic
+   convention of reproducing what appears on the page.
+
+OVERALL ASSESSMENT
+------------------
+Accuracy: 95.7% (156/163 words correct)
+
+The guided transcription with the paleography reference performed well on this
+clearly-written page. Most of the content was read correctly, including recipe
+titles, ingredient lists, and instructions. The errors are relatively minor:
+three are u/v ambiguities that reasonable transcribers could disagree on, one
+is a genuine letter misread (d/g), one is a letter-order transposition (oi/io),
+and one is a word-segmentation choice. The most substantive paleographic error
+is "euenynge" for "euenynde", where familiarity with the modern word "evening"
+may have biased the reading.
