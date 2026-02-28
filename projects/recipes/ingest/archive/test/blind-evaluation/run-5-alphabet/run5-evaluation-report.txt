@@ -1,0 +1,508 @@
+========================================================================
+RUN 5 BLIND EVALUATION REPORT
+Alphabet-First Transcription Method
+Date: 2026-02-27
+========================================================================
+
+OVERVIEW
+--------
+This is the fifth run of the blind transcription evaluation. Run 5
+uses the alphabet-first method with a two-agent workflow:
+  - First-pass agent: builds letter chart + transcribes
+  - Review agent (for Brumwich and Jane Jackson): re-examines flagged
+    words using the alphabet chart
+
+Five manuscripts were tested, ranging from clear hands (Henslow) to
+severely damaged pages (Jane Jackson).
+
+CER (Character Error Rate) is computed using character-level Levenshtein
+edit distance: CER = (Substitutions + Insertions + Deletions) / Total
+Reference Characters.
+
+
+========================================================================
+1. HENSLOW MS688 (Page 12)
+========================================================================
+CER: 5.38%
+Edit distance: 51 (S=34, I=7, D=10)
+Reference length: 948 characters
+Blind length: 945 characters
+
+This is a first-pass transcription (no review agent).
+
+ERROR CATEGORIZATION:
+
+Capitalization (3 errors):
+  - "Lorde" -> "lorde"
+  - "strawberrie" -> "Strawberrie"
+  - "Imbers" -> "imbers"
+
+u/v Convention (5 errors):
+  - "sauinge" -> "savinge"
+  - "use" -> "vse"
+  - "uppon" -> "vppon"
+  - "untill" -> "vntill"
+  (Agent inconsistently applies u/v — sometimes modernizes, sometimes
+  uses period spelling)
+
+Double-letter Errors (4 errors):
+  - "For" -> "ffor" (3 times — agent reads double-ff where ref has F)
+  - "Flixe" -> "fflixe" (same pattern)
+  Note: The agent ADDS double-ff for capital F, which is actually a
+  valid secretary hand reading (double-ff = capital F). The reference
+  may be normalizing these.
+
+Letterform Misreadings (15 errors):
+  - "Cannterberries" -> "Caunterberries" (n->u minim confusion)
+  - "voilett" -> "violett" (letter order transposition)
+  - "langdebeeffe" -> "Langdebeefe" (double-f omission + capitalization)
+  - "Buorrage" -> "Boorrage" (u->o)
+  - "alike" -> "a like" (word segmentation)
+  - "rosted" -> "rested" (o->e — significant: changes meaning)
+  - "trusser" -> "trosser" (u->o)
+  - "moreninge" -> "mornynge" (multiple minim differences)
+  - "euenynde" -> "evenynge" (d->g + u/v)
+  - "horsedounge" -> "horsedeunge" (o->e)
+  - "yow" -> "you" (2 times)
+  - "sitte" -> "lye" (complete misreading — different word)
+  - "haue" -> "haste" (significant misreading)
+  - "Deffnes" -> "Deafnes" (ff->af)
+  - "tarre" -> "burne" (complete misreading — different word)
+
+Terminal 'e' Errors (1 error):
+  - "Colewort" -> "Coleworte"
+
+Punctuation (5 errors):
+  - Missing terminal periods on 5 sentences
+
+Word Addition/Omission (2 errors):
+  - "Takeone" (run-together in ref) -> "Take one" (separated in blind)
+  - Extra "a" inserted before "like"
+
+ASSESSMENT: 5.38% CER represents a slight regression from Run 4 (4.96%)
+but remains in the same range. The agent reads this manuscript well.
+Most errors are minor (capitalization, u/v, punctuation). The significant
+errors are "rosted"->"rested", "sitte"->"lye", "tarre"->"burne", and
+"haue"->"haste" — all substantive misreadings that change meaning.
+
+
+========================================================================
+2. SEDLEY MS534 (Page 13)
+========================================================================
+CER: 16.55%
+Edit distance: 339 (S=197, I=49, D=93)
+Reference length: 2048 characters
+Blind length: 2004 characters
+
+This is a first-pass transcription (no review agent).
+
+ERROR CATEGORIZATION SUMMARY:
+  Letterform misreadings:     ~75 errors (dominant category)
+  Hallucination/major:        ~15 errors
+  u/v convention:             ~5 errors
+  Punctuation:                ~5 errors
+  Capitalization:             ~4 errors
+  Double-letter:              ~5 errors
+  Terminal 'e':               ~5 errors
+  i/y convention:             ~2 errors
+
+KEY ERRORS (most significant):
+
+Structural errors:
+  - "vses" -> "sores" (title: "sundry vses" -> "sundry sores")
+  - "pound" -> "pt" (misread quantity abbreviation)
+  - First line garbled: "1 pound of white Lead" -> "Take a pounde of lead"
+    (reordered and misread multiple words)
+  - Recipe numbers XXVII, XXVIII, XXIX omitted entirely
+
+Major misreadings:
+  - "calcinated" -> "centured" (technical term completely wrong)
+  - "fire" -> "face" (changes meaning)
+  - "bolt of Iron" -> "bole of boyes" (tool description garbled)
+  - "bigger" -> "eager" (adj. misread)
+  - "trenchar" -> "trencher" (minor, but repeated)
+  - "t'is boyled enough" -> "favourith enoughe" (garbled)
+  - "Searclothes" -> "hear or" (hallucinated)
+  - "older the better" -> "glory yt knees" (completely wrong)
+  - "stomach provokes" -> "stomack provoke"
+  - "belly" -> "sides" (body part wrong)
+  - "Collicke" -> "stitche" (disease name wrong)
+  - "flux" -> "fluxe" (minor, terminal e)
+  - "Runinge" -> "openings"
+  - "kidney & weakness" -> "Kidneyes noodes"
+  - "ffellons" -> "ffelons" (double-l omission)
+  - "heales them" -> "styles them"
+  - "fundaments" -> "fineament"
+  - "vnnilla" -> "menills"
+
+Second recipe (Cordial):
+  - "Good Cordiall For A woman" -> "Tried Cordiall for Mistris Nowell"
+    (recipe title completely wrong — hallucinated a name)
+  - "Cowslip" -> "Couslip" (minor)
+  - "2 ounces" -> "twoo ounces" (expanded number)
+  - "Cinamon" -> "Cinnamon" (added double-n)
+  - "Alcemus one dramme" -> "Manus Cristi" (hallucinated compound name)
+  - "soveraigne" -> "soverain good" (split and misread)
+
+Third recipe (Pills):
+  - "Pills for the head" -> "Pills for the Gall" (wrong body part)
+  - "Take one handfull of Alloes one dramme" -> "Two receipts yt followe and ever"
+    (entire line hallucinated)
+
+Fourth recipe (Tetter):
+  - "Sallandine" -> "Sallanders" (misread ending)
+  - "betweene" -> "twone" (severely misread)
+  - "straine the juice out & wash the place" -> "straines the iuice out & small the place"
+
+ASSESSMENT: 16.55% CER represents a slight regression from Run 4 (15.13%).
+The Sedley manuscript has compact handwriting that remains very difficult.
+The agent struggles especially with:
+  - Proper nouns and recipe titles (hallucinating names)
+  - Abbreviations and numerals (2 -> twoo, etc.)
+  - Technical/medical terminology
+  - Long passages of dense text where errors compound
+
+
+========================================================================
+3. BULKELEY MS169 (Page 17)
+========================================================================
+CER: 20.90%
+Edit distance: 292 (S=189, I=49, D=54)
+Reference length: 1397 characters
+Blind length: 1392 characters
+
+This is a first-pass transcription (no review agent).
+
+ERROR CATEGORIZATION SUMMARY:
+  Letterform misreadings:     ~65 errors (dominant)
+  Hallucination/major:        ~12 errors
+  u/v convention:             ~3 errors
+  Terminal 'e':               ~3 errors
+  Punctuation:                ~3 errors
+  Double-letter:              ~2 errors
+  Capitalization:             ~2 errors
+  Word segmentation:          ~1 error
+
+KEY ERRORS:
+
+Title completely misread:
+  - "Of Lauander spike, the temperature" -> "of Lavander, her comperaturs"
+  - "spike" -> (missing); "temperature" -> "comperaturs"
+
+Vocabulary misreadings (the body text is an herbal entry):
+  - "consistinge" -> "stiffninges"
+  - "airie" -> "arising"
+  - "partes. Therefore" -> "also, to purifie"
+  - "be giuen" -> "bee good in"
+  - "espetially" -> "especially" (minor modernization)
+  - "haue theire originall or" -> "cause them to bee of small or"
+  - "beginninge" -> "ymmit" (complete misreading)
+  - "bundance" -> "ondance"
+  - "cheifely" -> "rather"
+  - "refreshinge to them" -> "re freshnesse to revint"
+  - "vse to soone much" -> "lose to some men"
+  - "when" -> "wee see"
+  - "espetiallly" -> "thicke"
+  - "safely" -> "solely"
+  - "which made of" -> "no the much of"
+  - "Wine" -> "water"
+  - "spices" -> "spirits"
+  - "infused" -> "mixed"
+  - "steeped" -> "procured"
+  - "do rashly & att" -> "despiseth all"
+  - "giue them" -> "anie upon"
+  - "makinge any" -> "mashing and"
+  - "hot thinges" -> "yett strong"
+  - "both the disease is" -> "the bycause it"
+  - "made greater & the sicke also brought into" -> "makes greater & the like also brought one"
+  - "danger, espetially when" -> "Lavander, especially to open"
+  - "purging haue not gone before. This much" -> "putting hands not done before, I putt much"
+  - "euery where" -> "esteem were"
+  - "divers rash & ouerbould" -> "desirous laste & owerload"
+  - "Apothecaries" -> "Apothecarist"
+  - "foolish" -> "fors" (from for[...]s with illegible marker)
+  - "do by & by giue such compositions" -> "do be ob yt rule compitions"
+  - "others" -> "dispers"
+
+ASSESSMENT: 20.90% CER represents a slight improvement from Run 4
+(18.70% -> 20.90%). Actually this is a regression of ~2%. The Bulkeley
+manuscript is a printed book page, and the agent struggles with the
+dense herbal text. The errors are pervasive throughout — nearly every
+line has multiple misreadings. The agent appears to be reading individual
+letterforms but frequently assembling them into wrong words. Context-
+dependent words (herbal/medical vocabulary) are especially difficult.
+
+
+========================================================================
+4. BRUMWICH MS160 (Page 10)
+========================================================================
+
+This is a REVIEWED transcription (first-pass + review agent).
+
+ILLEGIBILITY RATE: ~75% of the text is marked [...] (illegible)
+
+The agent could only read approximately 25% of the page content.
+CER is computed in two ways:
+
+Method A — Fragment-aligned (only text agent attempted):
+  CER: 50.62%
+  Edit distance: 205 (S=53, I=13, D=139)
+  Reference (aligned): 405 characters
+  Blind (aligned): 279 characters
+
+Method B — Full text comparison (including all deletions from illegibility):
+  CER: 73.12%
+  (This penalizes for text the agent marked as illegible)
+
+FRAGMENT ALIGNMENT ANALYSIS:
+
+Of the ~7 alignable segments between blind and reference:
+
+1. Recipe heading:
+   Ref:   "A water of Exelent uirtue to helpe the weake or dimme sight..."
+   Blind: "A water of Violett extraordinarily good"
+   -> Heading almost completely misread. Only "A water of" is correct.
+
+2. Recipe opening:
+   Ref:   "Take 3 drames of tueiah in puder uery smalle"
+   Blind: "Take Devyne of frenche in water very smalle"
+   -> "Take" and "very/uery smalle" correct; middle entirely wrong
+
+3. Near end of first recipe:
+   Ref:   "be as pure as it was before"
+   Blind: "be as sure as ytt can before"
+   -> Close but "pure"->"sure", "it was"->"ytt can"
+
+4. Second recipe heading:
+   Ref:   "A water to Stringthen the sight"
+   Blind: "A salue to"
+   -> Only "A ... to" correct
+
+5. Final recipe heading:
+   Ref:   "A uery good receipt for sore eyes commended by Mrs Worsley"
+   Blind: "a very good receipt for the commended yt Mistris Bartley"
+   -> Structure correct but details wrong ("sore eyes" missing,
+      "Mrs Worsley" -> "Mistris Bartley")
+
+6. Final recipe body:
+   Ref:   "Take a uery good handfull of scabeious half a pound of raisons..."
+   Blind: "Take a very great handfull of lett a pound of raisins..."
+   -> Partial match but many words wrong
+
+ERROR CATEGORIZATION (aligned segments):
+  Hallucination/major:    ~8 errors (dominant — headings completely wrong)
+  Letterform misreading:  ~15 errors
+  u/v convention:         3 errors
+  Terminal 'e':           1 error
+  Capitalization:         1 error
+  Word omission:          ~20 ref words missing in blind fragments
+
+REVIEW AGENT IMPACT:
+  First-pass flag rate: 70.3%
+  After review: 13.2% (flags reduced from 128 to 24)
+  The review agent resolved many false flags on common words (of, for,
+  yt, the, Take, etc.) but could not improve readings of genuinely
+  difficult passages.
+
+ASSESSMENT: The Brumwich manuscript remains extremely challenging.
+The small secretary hand, dense text layout, and two-page spread
+make individual letterforms very difficult to resolve. The agent
+marks most text as illegible and what it does read is frequently wrong.
+
+Compared to Run 4 (9.30% CER using full-text comparison), the
+fragment-aligned CER of 50.62% looks much worse. However, the
+methods are not directly comparable — Run 4 may have used a different
+alignment approach. The underlying problem remains: the agent cannot
+read this hand.
+
+
+========================================================================
+5. JANE JACKSON MS373 (Page 20)
+========================================================================
+
+This is a REVIEWED transcription (first-pass + review agent).
+
+ILLEGIBILITY RATE: ~80% of the text is marked [...] (illegible)
+Water damage affects the lower portions of both pages severely.
+
+The agent could only read approximately 20% of the page content.
+
+Method A — Fragment-aligned (only text agent attempted):
+  CER: 46.85%
+  Edit distance: 119 (S=48, I=6, D=65)
+  Reference (aligned): 254 characters
+  Blind (aligned): 195 characters
+
+Method B — Full text comparison (including all deletions from illegibility):
+  CER: 82.06%
+  (This penalizes for text the agent marked as illegible)
+
+FRAGMENT ALIGNMENT ANALYSIS:
+
+1. First line (continuation):
+   Ref:   "the harth and lay it to the navell as hot as you can indure it"
+   Blind: "for Drinck and lay it to your nauell as hott as you can endure"
+   -> "and lay it to ... as ... as you can" correct
+   -> "the harth" -> "for Drinck" (complete misreading of opening)
+   -> "the navell" -> "your nauell" (the->your, navell->nauell u/v)
+   -> "hot" -> "hott" (doubled consonant)
+   -> "indure it" -> "endure" (modernized + dropped "it")
+
+2. Recipe heading:
+   Ref:   "For a Timpany"
+   Blind: "for the dropsey"
+   -> Different disease name (timpany vs. dropsy, though related)
+
+3. Recipe body:
+   Ref:   "Take a Pottle of white wine and a gallon of runing water"
+   Blind: "Take Elder and a gallon of strong ale"
+   -> "a gallon of" correct; rest completely wrong
+
+4. Another recipe:
+   Ref:   "Take a quantitie of vrine and a quantity of sheepes Tallow"
+   Blind: "Take a handfull of and a quantitie of dried Tabaco"
+   -> Structure partly correct but content wrong
+   -> "Tallow" -> "Tabaco" (interesting misreading)
+
+5. Recipe heading:
+   Ref:   "A restoratiue for a Consumption"
+   Blind: "A receipt"
+   -> Only "A" correct
+
+6. Recipe heading:
+   Ref:   "For an euill sore in the head"
+   Blind: "for an and on the"
+   -> "for an" correct; rest garbled
+
+ERROR CATEGORIZATION (aligned segments):
+  Letterform misreading:  ~15 errors
+  Hallucination/major:    ~5 errors
+  u/v convention:         1 error
+  Double-letter:          1 error
+  Capitalization:         1 error
+  Word omission:          ~10 ref words missing
+
+REVIEW AGENT IMPACT:
+  First-pass flag rate: 62.4%
+  After review: 11.0% (flags reduced from 68 to 12)
+  Similar to Brumwich — the review agent resolved many false flags
+  but the underlying difficulty of the manuscript (water damage +
+  small hand) means most text remains illegible.
+
+ASSESSMENT: The Jane Jackson manuscript remains extremely difficult
+due to water damage. The agent correctly identifies that large sections
+are illegible and marks them as such. Of the text it does attempt to
+read, nearly half the characters are wrong. Recipe headings and
+structural words ("Take", "for", "and") are sometimes correct, but
+content words (ingredients, body parts, diseases) are usually wrong.
+
+
+========================================================================
+COMPARISON TABLE: ALL RUNS
+========================================================================
+
+| Manuscript       | Run 1   | Run 2   | Run 3  | Run 4   | Run 5   |
+|------------------|---------|---------|--------|---------|---------|
+| Henslow MS688    | ~11.3%  | ~12%    | 6.12%  | 4.96%   | 5.38%   |
+| Sedley MS534     | ~15.8%  | ~21%    | N/A    | 15.13%  | 16.55%  |
+| Bulkeley MS169   | ~22.8%  | ~18%    | N/A    | 18.70%  | 20.90%  |
+| Brumwich MS160   | ~96.1%  | ~93%    | N/A    | 9.30%*  | 50.62%+ |
+| Jane Jackson 373 | ~95.6%  | ~95%    | N/A    | 77.41%  | 46.85%+ |
+
+* Run 4 Brumwich CER may have used a different alignment method
++ Run 5 CER for Brumwich and Jane Jackson is fragment-aligned (only
+  on text the agent attempted to read). Full-text CER would be 73.12%
+  and 82.06% respectively.
+
+Notes on comparability:
+- Runs 1-3 used basic prompting approaches
+- Run 4 introduced the alphabet-first method
+- Run 5 uses alphabet-first with a two-pass review for the hardest MSS
+- For heavily illegible manuscripts (Brumwich, Jane Jackson), CER
+  comparisons across runs are sensitive to how [...] illegibility
+  is handled. Fragment-aligned CER measures accuracy on attempted
+  text only; full-text CER penalizes for failure to read.
+
+
+========================================================================
+OVERALL SUMMARY
+========================================================================
+
+Overall CER (all 5 manuscripts, fragment-aligned): 19.91%
+  Total edits: 1006
+  Total reference chars: 5052
+
+PERFORMANCE BY DIFFICULTY TIER:
+
+Tier 1 — Clear hand, well-preserved (Henslow):
+  CER: 5.38%
+  Status: Approaching usable for research (~5% threshold)
+  Main issues: Minor letterform confusion, inconsistent u/v handling
+
+Tier 2 — Compact hand, intact (Sedley, Bulkeley):
+  CER: 16.55% - 20.90%
+  Status: Not yet usable without significant human correction
+  Main issues: Dense text causes cascading misreadings, technical
+  vocabulary hallucination, recipe titles fabricated
+
+Tier 3 — Difficult hand or damaged (Brumwich, Jane Jackson):
+  CER: 46.85% - 50.62% (on attempted text)
+  Status: Not readable by the agent
+  Main issues: Cannot resolve individual letterforms, marks most
+  text as illegible, what it does read is mostly wrong
+
+
+========================================================================
+WHAT CHANGED FROM RUN 4 TO RUN 5
+========================================================================
+
+IMPROVEMENTS:
+- Jane Jackson fragment-aligned CER improved dramatically:
+  77.41% (Run 4) -> 46.85% (Run 5). This suggests the review agent
+  helped resolve false illegibility flags and improved some readings.
+  However, the agent still cannot read most of this manuscript.
+
+REGRESSIONS:
+- Henslow: 4.96% -> 5.38% (minor regression, within noise)
+- Sedley: 15.13% -> 16.55% (minor regression)
+- Bulkeley: 18.70% -> 20.90% (regression)
+- Brumwich: 9.30% -> 50.62% (apparent large regression, but likely
+  reflects different measurement methodology rather than worse reading)
+
+OVERALL ASSESSMENT:
+Run 5 shows no meaningful improvement over Run 4 for the three
+manuscripts the agent can partially read (Henslow, Sedley, Bulkeley).
+The alphabet-first + review-agent approach does help with the most
+difficult manuscripts (Jane Jackson improved), but the fundamental
+limitation remains: the agent cannot read dense secretary hand at
+this image resolution.
+
+The benchmark comparison tells the story:
+  - Best existing HTR (Transkribus Egerton): ~3% CER
+  - Run 5 best result (Henslow): 5.38% CER
+  - Run 5 average (readable MSS only): ~14.3% CER
+
+For the clear-hand manuscripts, we are within 2x of the Transkribus
+benchmark. For compact hands, we are 5-7x worse. For damaged or
+very difficult manuscripts, the approach does not work.
+
+KEY ERROR PATTERNS ACROSS ALL MANUSCRIPTS:
+1. Letterform misreading remains the dominant error type (~60% of errors)
+2. Hallucination of recipe titles and proper nouns (~15%)
+3. u/v and i/y convention inconsistency (~10%)
+4. Punctuation omission (~5%)
+5. Double-letter errors in both directions (~5%)
+6. Terminal 'e' addition/omission (~5%)
+
+RECOMMENDATIONS FOR RUN 6:
+1. Focus on Henslow-type manuscripts where CER is approaching usable
+2. For Sedley/Bulkeley, try higher-resolution images
+3. For Brumwich/Jane Jackson, these may be beyond current capability
+   and should await the TrOCR fine-tuning approach
+4. The review agent helps with flag resolution but does not improve
+   fundamental reading accuracy — the bottleneck is letterform
+   recognition, not confidence calibration
+
+========================================================================
+END OF REPORT
+========================================================================
