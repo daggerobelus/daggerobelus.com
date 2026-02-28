@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  note: CollectionEntry<'field-notes'>;
+}
+
+const { note } = Astro.props;
+const { title, description, publishDate, updatedDate, tags } = note.data;
+
+const displayDate = updatedDate || publishDate;
+const dateLabel = updatedDate ? 'Updated' : 'Published';
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+---
+
+<article class="group">
+  <div class="flex flex-col">
+    <a href={`/field-notes/${note.slug}/`} class="group/title">
+      <h2 class="text-2xl font-serif leading-tight transition-opacity group-hover/title:opacity-70">
+        {title}
+      </h2>
+    </a>
+
+    <p class="mt-4 text-ink/70 leading-relaxed line-clamp-3">
+      {description}
+    </p>
+
+    <div class="mt-6 flex items-center gap-4 text-sm text-ink/50">
+      <time datetime={displayDate.toISOString()} class="font-mono">
+        {formatDate(displayDate)}
+      </time>
+
+      {tags && tags.length > 0 && (
+        <>
+          <span class="opacity-30">&middot;</span>
+          <div class="flex gap-2">
+            {tags.slice(0, 3).map(tag => (
+              <span class="font-mono text-xs">{tag}</span>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+
+    <a
+      href={`/field-notes/${note.slug}/`}
+      class="mt-6 inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity"
+    >
+      Read more
+      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+  </div>
+</article>

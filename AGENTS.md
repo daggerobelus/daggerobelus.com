@@ -73,3 +73,8 @@ Projects may incorporate:
 
 - Each project in `/projects/` is self-contained with its own data and analysis
 - See `/ai/context/project-structure.md` for project folder conventions and site integration
+
+## Content Policy
+
+- **All written content on the site must be authored by a human, not an AI agent.** This includes blog posts (field notes), project write-ups, about page text, and any other prose that appears on the site. Agents may build features, templates, and infrastructure, but must never generate placeholder or sample content that will be published on the site.
+- When creating new content sections (collections, page types, etc.), leave them empty rather than writing starter posts or filler text.
