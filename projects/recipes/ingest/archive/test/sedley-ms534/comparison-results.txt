@@ -1,0 +1,112 @@
+Comparison Report: Guided Transcription vs. Reference Transcription
+====================================================================
+
+Manuscript: Royal College of Physicians: The Lady Sedley, her Receipt book, 1686 (MS534)
+Page: 13 of 45 (folio pages 20-21)
+Reference source: FromThePage (human transcription, completed 2021-06-14)
+Guided transcription method: Claude vision with paleography guide
+Date of comparison: 2026-02-27
+
+--------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------
+
+Total words (reference):    396
+Total words (guided):       396
+Matching words:             394
+Differences:                  2
+Accuracy:                  99.5%
+
+--------------------------------------------------------------------
+LIST OF DIFFERENCES
+--------------------------------------------------------------------
+
+1. Word position 14:
+   Reference: "pound"
+   Guided:    "pd"
+   Context:   "Take one [pound/pd] of oyle olive of the best"
+
+   Analysis: This is the first occurrence of the word in the opening
+   line of Recipe XXVII. At the image resolution available, the word
+   appeared to be abbreviated as "pd" (a common abbreviation for
+   "pound" in early modern manuscripts). However, the reference
+   transcription reads it as "pound" written out in full. The
+   reference transcribers likely had access to a higher-resolution
+   image. This is a misreading of an abbreviated vs. spelled-out
+   word.
+
+   Error type: Misreading (abbreviation vs. full word)
+
+2. Word position 231:
+   Reference: "h^eales"
+   Guided:    "heales"
+   Context:   "pushes & [h^eales/heales] them"
+
+   Analysis: The reference transcription marks this word with a caret
+   (h^eales) to indicate an interlineal insertion -- the letters
+   "eales" were added above the line after the initial "h". This is
+   an editorial notation following the semi-diplomatic convention for
+   insertions (per the paleography guide, Part 4: "Interlineal
+   insertions remain superscript and are marked by a caret symbol (^)
+   if a caret is present in the original"). The guided transcription
+   read the word correctly but failed to note the physical layout
+   feature of the interlineal insertion.
+
+   Error type: Missed editorial notation (interlineal insertion)
+
+--------------------------------------------------------------------
+ERROR ANALYSIS
+--------------------------------------------------------------------
+
+The two errors fall into distinct categories:
+
+1. MISREADING (1 instance): Reading "pd" where the manuscript
+   actually says "pound" in full. This type of error involves
+   misidentifying letterforms, likely due to image resolution
+   limitations. At the resolution available, the word was ambiguous.
+
+2. MISSED CODICOLOGICAL FEATURE (1 instance): Failing to note that
+   "heales" was written as an interlineal insertion (h^eales). The
+   word itself was read correctly, but the physical layout detail --
+   that part of the word was inserted above the line -- was not
+   captured. This type of error does not affect the textual content
+   but does lose information about how the manuscript was physically
+   composed (which can be significant for understanding scribal
+   corrections and revisions).
+
+Neither error involved:
+- Misreading secretary hand letterforms (e/o confusion, long-s/f, etc.)
+- Missed or incorrect abbreviation expansion
+- Wrong word boundaries or line breaks
+- Missed or invented words
+- Spelling modernization (which would violate transcription principles)
+
+--------------------------------------------------------------------
+ASSESSMENT
+--------------------------------------------------------------------
+
+At 99.5% word-level accuracy, the guided transcription using the
+paleography guide performs very well on this manuscript page. The
+Lady Sedley manuscript (1686) is written in a clear, relatively
+late hand that is more legible than many earlier secretary hand
+manuscripts. Key factors in the high accuracy:
+
+- The hand is neat and consistent
+- The ink is generally dark and well-preserved
+- The text is a series of recipes with predictable vocabulary
+- The paleography guide provided useful context for recipe-specific
+  terms, abbreviations, and secretary hand conventions
+
+Limitations observed:
+- Image resolution constrains the ability to distinguish between
+  abbreviated and fully spelled-out words
+- Codicological features (insertions, deletions, changes of hand)
+  require very careful attention to physical layout details that
+  can be hard to discern at lower resolutions
+- A higher-resolution image would likely resolve both errors
+
+This result suggests the paleography guide is effective for guiding
+transcription of clearly-written late 17th-century manuscripts.
+Further testing on more challenging pages (faded ink, cramped hand,
+heavy abbreviation, earlier date) would provide a fuller picture of
+the guide's effectiveness.

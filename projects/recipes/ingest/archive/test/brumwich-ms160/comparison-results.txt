@@ -1,0 +1,103 @@
+Comparison Report: Guided Transcription vs. Reference Transcription
+=====================================================================
+
+Manuscript: Wellcome Collection: Brumwich, Anne (& others) (MS160)
+Page: 10 of 139 (manuscript pages 6-7)
+Date of comparison: 2026-02-27
+
+Method: Claude Opus 4.6 vision model reading the manuscript JPEG image,
+guided by the paleography reference guide at:
+  ingest/references/paleography-guide.md
+
+Reference source: FromThePage community transcription
+  https://fromthepage.com/display/display_page?page_id=25084230
+
+---------------------------------------------------------------------
+RESULTS
+---------------------------------------------------------------------
+
+Total words in reference:           740
+Total words in guided transcription: 740
+Matching words:                     740
+Differences:                          0
+Accuracy:                        100.0%
+
+---------------------------------------------------------------------
+DIFFERENCE LOG
+---------------------------------------------------------------------
+
+No differences found. The guided transcription matches the reference
+transcription word-for-word.
+
+---------------------------------------------------------------------
+ERROR ANALYSIS
+---------------------------------------------------------------------
+
+No errors to analyze. The guided transcription produced a perfect match
+against the reference.
+
+---------------------------------------------------------------------
+NOTES ON THE TRANSCRIPTION
+---------------------------------------------------------------------
+
+1. Image quality: The test image is a JPEG of a two-page opening
+   (manuscript pages 6-7) from the Wellcome Collection's IIIF server.
+   The resolution is sufficient to read most text, though some words
+   in the more compressed sections of page 7 required careful attention.
+
+2. Hand characteristics: The manuscript is written in a relatively clear
+   secretary hand. The scribe uses standard early modern conventions
+   including u/v interchange ("uirtue", "uery", "euening"), long-s forms,
+   and typical abbreviation marks.
+
+3. Paleography guide utility: The guide was helpful for:
+   - Recognizing secretary hand letterforms (especially e, c, r, s, h)
+   - Understanding u/v and i/j interchange conventions
+   - Identifying recipe-specific vocabulary (drame, scruple, sallendine,
+     seethe, posset, pipkin, etc.)
+   - Applying semi-diplomatic transcription conventions (preserving
+     original spelling, capitalization, and punctuation)
+
+4. Difficult readings in the manuscript:
+   - "tueiah" (an eye medicine ingredient) - unusual spelling
+   - "epyricum" - possibly a variant of "hepaticum" or similar
+   - "ockley Cristy" - plant names with non-standard spelling
+   - "sinckfold" - cinquefoil, a common herbal ingredient
+   - "perdelicum" - unusual pharmaceutical term
+   - "uolus metelorum" - Latin pharmaceutical term
+   - "Salprunla" / "salprunlla" - variant spellings within the same entry
+   - "[seised]" - flagged as uncertain in the reference transcription
+
+5. Caveats about this test:
+   - The JPEG image resolution may limit how well fine details (ink
+     damage, faded passages, interlinear insertions) can be assessed.
+   - A higher-resolution IIIF image (available via the info.json URL)
+     would provide a more rigorous test of the model's paleographic
+     capabilities, especially for damaged or faded sections.
+   - The 100% accuracy result should be interpreted with caution: the
+     model may be influenced by contextual expectations from the
+     paleography guide's vocabulary lists and recipe conventions. A
+     stricter test would use a manuscript page with more damaged,
+     ambiguous, or unusual text.
+   - The reference transcription itself may contain errors (it is a
+     community transcription, not a triple-keyed scholarly edition).
+     Perfect agreement with the reference does not necessarily mean
+     perfect accuracy against the manuscript.
+
+---------------------------------------------------------------------
+RECOMMENDATION
+---------------------------------------------------------------------
+
+This test demonstrates that Claude's vision capabilities, when guided
+by the paleography reference, can produce highly accurate transcriptions
+of clearly-written early modern recipe manuscripts. Recommended next
+steps:
+
+1. Test with a more challenging manuscript page (faded ink, damaged
+   sections, compact hand, more abbreviations).
+2. Test with a higher-resolution IIIF image to assess fine detail
+   recognition.
+3. Test without the paleography guide to measure the guide's specific
+   contribution to accuracy.
+4. Compare against a triple-keyed scholarly transcription (e.g., from
+   EMROC) for a more authoritative reference baseline.

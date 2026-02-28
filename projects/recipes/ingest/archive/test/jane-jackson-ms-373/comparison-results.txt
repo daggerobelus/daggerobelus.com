@@ -1,0 +1,137 @@
+Transcription Accuracy Comparison
+==================================
+Date: 2026-02-27
+Manuscript: Jane Jackson, MS V.a.373 (Wellcome Collection / Folger Shakespeare Library)
+Page: 20
+Reference source: FromThePage human transcription
+Test source: Claude vision with paleography guide (guided transcription)
+
+Summary
+-------
+Total words in reference:        800
+Total words in guided:           800
+Exact word matches:              799
+Words differing:                   1
+Raw accuracy (exact match):    99.9%
+Adjusted accuracy*:           100.0%
+
+*Adjusted accuracy strips confidence markers (e.g., [qantity?] -> qantity)
+ to evaluate whether the underlying word was read correctly.
+
+
+The Single Difference
+---------------------
+  Position:   Word 109 of 800
+  Reference:  qantity
+  Guided:     [qantity?]
+  Context:    "...vergins wax more then the qantity of the suett..."
+
+  Analysis: The guided transcription read the word correctly as "qantity"
+  but flagged it with a confidence marker [?] because the spelling seemed
+  unusual (missing "u" from "quantity"). The reference transcription from
+  FromThePage records it without any flag -- it is simply the original
+  manuscript spelling. The underlying reading is identical. This is not
+  a misread; it is an extra annotation.
+
+
+Editorial Markers
+-----------------
+Both transcriptions use identical editorial conventions for damaged or
+obscured text. Every marker in the reference appears identically in the
+guided transcription:
+
+  Marker          Meaning                           Ref  Guided  Match?
+  --------------- --------------------------------- ---- ------  ------
+  of[.....]       ~5 chars obscured after "of"      Yes  Yes     Yes
+  [w[...]]        Partially legible, likely "with"  Yes  Yes     Yes
+  [...]           Single word obscured by damage     Yes  Yes     Yes
+  {the}           Catchword at page bottom           Yes  Yes     Yes
+
+The guided transcription adds one additional marker not in the reference:
+  [qantity?]  -- flagging an unusual spelling as uncertain (medium confidence)
+
+
+Special Characters and Abbreviations
+-------------------------------------
+All apothecary symbols and Roman numeral abbreviations were transcribed
+correctly:
+
+  Symbol/Abbr     Meaning              Ref  Guided  Match?
+  --------------- -------------------- ---- ------  ------
+  xxiiij          24 (Roman numeral)   Yes  Yes     Yes
+  ix              9 (Roman numeral)    Yes  Yes     Yes
+  xxx             30 (Roman numeral)   Yes  Yes     Yes
+  mj              1 (apothecary)       Yes  Yes     Yes
+  ij              2 (apothecary)       Yes  Yes     Yes
+  jd              1.5 (apothecary)     Yes  Yes     Yes
+  (U+0292) dram   dram symbol          Yes  Yes     Yes
+  (U+2125) ounce  ounce symbol         Yes  Yes     Yes
+  Cumminseede     (original spelling)  Yes  Yes     Yes
+  semgreke        (original spelling)  Yes  Yes     Yes
+  powlder         (original spelling)  Yes  Yes     Yes
+  medle           (original spelling)  Yes  Yes     Yes
+
+
+Confidence Flag Assessment
+--------------------------
+The guided transcription includes a "Confidence Notes" section with six
+flags. Here is an evaluation of each:
+
+1. [qantity?] -- Medium confidence
+   Verdict: APPROPRIATE but unnecessary. The word IS "qantity" in the
+   manuscript (early modern spelling). The flag correctly identifies an
+   unusual spelling and asks for human review. This is exactly what the
+   confidence system is designed to do -- better to flag and be wrong
+   than to silently normalize. The human reviewer (you!) can confirm
+   that "qantity" is correct as written.
+
+2. of[.....] -- Low confidence (obscured text)
+   Verdict: APPROPRIATE. Matches the reference exactly. The text is
+   genuinely obscured in the manuscript.
+
+3. [w[...]] -- Low confidence (partially legible)
+   Verdict: APPROPRIATE. Matches the reference exactly.
+
+4. [...] -- Medium confidence (obscured word)
+   Verdict: APPROPRIATE. Matches the reference exactly. The confidence
+   note suggests the obscured word is likely "hot" or "hott" based on
+   recipe context, which is a reasonable guess for human review.
+
+5. {the} -- Catchword notation
+   Verdict: APPROPRIATE. Correctly identified as a catchword at the
+   bottom of the page that continues onto the next page. Matches the
+   reference convention exactly.
+
+6. Apothecary symbols note
+   Verdict: APPROPRIATE. Documents the Unicode character choices, which
+   is useful metadata for downstream processing.
+
+
+Overall Assessment
+------------------
+The guided transcription is essentially a perfect match to the human
+reference transcription from FromThePage. At 99.9% raw accuracy (100%
+when confidence markers are stripped), the paleography guide enabled
+Claude to produce a transcription that is word-for-word identical to
+the human-produced reference.
+
+Key observations:
+
+- ZERO misreadings: Not a single word was read incorrectly. The only
+  "difference" is an added confidence flag on a correctly-read word.
+
+- All editorial conventions match: Damaged/obscured text markers,
+  catchword notation, and special characters are all identical.
+
+- Appropriate confidence flagging: The system flagged things that
+  genuinely could benefit from human review without introducing any
+  false readings.
+
+- Challenging features handled correctly: Apothecary symbols, Roman
+  numerals, early modern spellings, and abbreviations were all
+  transcribed accurately.
+
+This result validates the paleography guide approach for clearly-written
+secretary hand manuscripts. The next step would be to test on more
+difficult pages -- those with heavier damage, more compact hands, or
+more extensive abbreviation -- to find the limits of this approach.
