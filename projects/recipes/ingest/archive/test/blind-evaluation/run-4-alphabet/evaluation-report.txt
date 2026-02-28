@@ -1,0 +1,3400 @@
+================================================================================
+BLIND TRANSCRIPTION EVALUATION REPORT
+Run 4: Alphabet-First Method
+Date: 2026-02-27
+================================================================================
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+Manuscript                 Ref Chars  Hyp Chars    Edits        CER     S     I     D
+--------------------------------------------------------------------------------
+Henslow MS688                    948        935       47     4.96%    18    21     8
+Sedley MS534                    2056       2054      311    15.13%   199    57    55
+Bulkeley MS169                  1401       1408      262    18.70%   171    42    49
+Brumwich MS160                  3592       3567      334     9.30%   187    86    61
+Jane Jackson MS373              3998       1310     3095    77.41%   401  2691     3
+--------------------------------------------------------------------------------
+OVERALL                        11995                4049    33.76%
+
+--------------------------------------------------------------------------------
+COMPARISON WITH PREVIOUS RUNS
+--------------------------------------------------------------------------------
+
+Manuscript                     Run 1      Run 2      Run 3      Run 4           Trend
+--------------------------------------------------------------------------------
+Henslow MS688                 ~11.3%       ~12%      6.12%      4.96%   MAJOR IMPROVE
+Sedley MS534                  ~15.8%       ~21%        N/A     15.13%        IMPROVED
+Bulkeley MS169                ~22.8%       ~18%        N/A     18.70%        IMPROVED
+Brumwich MS160                ~96.1%       ~93%        N/A      9.30%   MAJOR IMPROVE
+Jane Jackson MS373            ~95.6%       ~95%        N/A     77.41%        IMPROVED
+
+Note: Runs 1 and 2 used basic prompting. Run 3 introduced the alphabet-first
+method (tested only on Henslow). Run 4 uses the alphabet-first method on all
+five manuscripts.
+
+
+================================================================================
+DETAILED ANALYSIS: Henslow MS688
+================================================================================
+
+Reference length:  948 characters
+Hypothesis length: 935 characters
+Edit distance:     47
+CER:               4.9578%
+  Substitutions:   18
+  Insertions:      21
+  Deletions:       8
+
+Error categories (sorted by frequency):
+------------------------------------------------------------
+     7  word segmentation (extra space in blind)
+     7  punctuation (missing in blind)
+     4  capitalization
+     4  lineation
+     3  lineation (extra newline in ref)
+     3  u/v convention
+     3  insertion (ref has extra "t")
+     3  insertion (ref has extra "e")
+     2  insertion (ref has extra "f")
+     1  letterform misreading (n->u)
+     1  deletion (blind has extra "e")
+     1  letterform misreading (o->i)
+     1  letterform misreading (i->o)
+     1  insertion (ref has extra "u")
+     1  letterform misreading (i->u)
+     1  insertion (ref has extra "a")
+     1  letterform misreading (d->g)
+     1  letterform misreading (w->u)
+     1  letterform misreading (e/o)
+     1  insertion (ref has extra "p")
+
+Word-level differences (blind vs reference):
+------------------------------------------------------------
+  Blind: 'lorde'
+  Ref:   'Lorde'
+  Context: ...My [DIFF] of Caunterberries Brothe...
+
+  Blind: 'Caunterberries'
+  Ref:   'Cannterberries'
+  Context: ...My lorde of [DIFF] Brothe for a...
+
+  Blind: 'handefull'
+  Ref:   'handfull'
+  Context: ...putt thereto a [DIFF] of violett leaues...
+
+  Blind: 'violett'
+  Ref:   'voilett'
+  Context: ...a handefull of [DIFF] leaues lang de...
+
+  Blind: 'lang'
+  Ref:   'langdebeeffe'
+  Context: ...of violett leaues [DIFF] de beefe leaues...
+
+  Blind: 'de'
+  Ref:   'langdebeeffe'
+  Context: ...violett leaues lang [DIFF] beefe leaues Borrage...
+
+  Blind: 'beefe'
+  Ref:   'langdebeeffe'
+  Context: ...leaues lang de [DIFF] leaues Borrage leaues...
+
+  Blind: 'Borrage'
+  Ref:   'Buorrage'
+  Context: ...de beefe leaues [DIFF] leaues and Strawberrie...
+
+  Blind: 'Strawberrie'
+  Ref:   'strawberrie'
+  Context: ...Borrage leaues and [DIFF] leaues, knitt togeather...
+
+  Blind: 'a'
+  Ref:   'alike'
+  Context: ...of euerie one [DIFF] like quantityeFor the...
+
+  Blind: 'quantityeFor'
+  Ref:   'quantitye.'
+  Context: ...one a like [DIFF] the pyles Take...
+
+  Blind: 'Take'
+  Ref:   'Takeone'
+  Context: ...quantityeFor the pyles [DIFF] one handefull of...
+
+  Blind: 'untill'
+  Ref:   'vntill'
+  Context: ...in the Imbers [DIFF] they bee well...
+
+  Blind: 'rosted'
+  Ref:   'rosted.'
+  Context: ...they bee well [DIFF] then take them,...
+
+  Blind: 'grunde'
+  Ref:   'grinde'
+  Context: ...Coleworte leafe, and [DIFF] them in a...
+
+  Blind: 'yt'
+  Ref:   'ytt'
+  Context: ...and putt to [DIFF] oyle of roses,...
+
+  Blind: 'together'
+  Ref:   'togeather'
+  Context: ...and grinde them [DIFF] then take it...
+
+  Blind: 'it'
+  Ref:   'itt'
+  Context: ...together then take [DIFF] and laye itt...
+
+  Blind: 'vse'
+  Ref:   'use'
+  Context: ...a trusser, and [DIFF] this morninge and...
+
+  Blind: ''
+  Ref:   'moreninge'
+  Context: ...and vse this [DIFF] morninge and euenyngeFor...
+
+  Blind: 'morninge'
+  Ref:   'moreninge'
+  Context: ...and vse this [DIFF] and euenyngeFor the...
+
+  Blind: 'euenyngeFor'
+  Ref:   'euenynde.'
+  Context: ...this morninge and [DIFF] the flixe Take...
+
+  Blind: 'flixe'
+  Ref:   'Flixe'
+  Context: ...and euenyngeFor the [DIFF] Take horsedounge new...
+
+  Blind: 'butter'
+  Ref:   'butter.'
+  Context: ...itt withe sweete [DIFF] and putt it...
+
+  Blind: 'Clothe'
+  Ref:   'clothe'
+  Context: ...it in a [DIFF] and laye itt...
+
+  Blind: 'fundament'
+  Ref:   'fundamente.'
+  Context: ...itt to the [DIFF] as hott as...
+
+  Blind: 'you'
+  Ref:   'yow'
+  Context: ...as hott as [DIFF] maye suffer ytt,...
+
+  Blind: 'sitt'
+  Ref:   'sitte'
+  Context: ...suffer ytt, and [DIFF] vppen untill yow...
+
+  Blind: 'vppen'
+  Ref:   'uppon'
+  Context: ...ytt, and sitt [DIFF] untill yow haue...
+
+  Blind: 'easeFor'
+  Ref:   'ease.'
+  Context: ...untill yow haue [DIFF] Defnes Take blacke...
+
+  Blind: 'Defnes'
+  Ref:   'Deffnes'
+  Context: ...yow haue easeFor [DIFF] Take blacke woole...
+
+  Blind: 'woole'
+  Ref:   'woole,'
+  Context: ...Defnes Take blacke [DIFF] whiche growes vpon...
+
+  Blind: 'vpon'
+  Ref:   'vppon'
+  Context: ...woole whiche growes [DIFF] the flanke of...
+
+  Blind: ''
+  Ref:   'of'
+  Context: ...vpon the flanke [DIFF] of a sheepe...
+
+  Blind: ''
+  Ref:   'and'
+  Context: ...mingell them togeather [DIFF] and putt them...
+
+
+All character-level edits:
+------------------------------------------------------------
+  [SUB] ref 'L' -> blind 'l' | ref: 'Lorde' | blind: 'lorde' [capitalization]
+  [SUB] ref 'n' -> blind 'u' | ref: 'Cannterberries' | blind: 'Caunterberries' [letterform misreading (n->u)]
+  [SUB] ref '\n' -> blind '<space>' | ref: 'Consumptione' | blind: 'Consumptione' [lineation]
+  [DEL] blind has 'e' (not in ref) | ref: 'handfull' | blind: 'handefull' [deletion (blind has extra "e")]
+  [SUB] ref 'o' -> blind 'i' | ref: 'voilett' | blind: 'violett' [letterform misreading (o->i)]
+  [SUB] ref 'i' -> blind 'o' | ref: 'voilett' | blind: 'violett' [letterform misreading (i->o)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'langdebeeffe' | blind: 'lang' [word segmentation (extra space in blind)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'langdebeeffe' | blind: 'de' [word segmentation (extra space in blind)]
+  [INS] ref has 'f' (not in blind) | ref: 'langdebeeffe' | blind: 'beefe' [insertion (ref has extra "f")]
+  [INS] ref has 'u' (not in blind) | ref: 'Buorrage' | blind: 'Borrage' [insertion (ref has extra "u")]
+  [SUB] ref 's' -> blind 'S' | ref: 'strawberrie' | blind: 'Strawberrie' [capitalization]
+  [DEL] blind has '<space>' (not in ref) | ref: 'alike' | blind: 'a' [word segmentation (extra space in blind)]
+  [INS] ref has '.' (not in blind) | ref: 'quantitye.' | blind: 'quantityeFor' [punctuation (missing in blind)]
+  [INS] ref has '\n' (not in blind) | ref: 'quantitye.' | blind: 'quantityeFor' [lineation (extra newline in ref)]
+  [SUB] ref '\n' -> blind '<space>' | ref: 'pyles' | blind: 'pyles' [lineation]
+  [DEL] blind has '<space>' (not in ref) | ref: 'Takeone' | blind: 'Take' [word segmentation (extra space in blind)]
+  [SUB] ref 'v' -> blind 'u' | ref: 'vntill' | blind: 'untill' [u/v convention]
+  [INS] ref has '.' (not in blind) | ref: 'rosted.' | blind: 'rosted' [punctuation (missing in blind)]
+  [SUB] ref 'i' -> blind 'u' | ref: 'grinde' | blind: 'grunde' [letterform misreading (i->u)]
+  [INS] ref has 't' (not in blind) | ref: 'ytt' | blind: 'yt' [insertion (ref has extra "t")]
+  [INS] ref has 'a' (not in blind) | ref: 'togeather' | blind: 'together' [insertion (ref has extra "a")]
+  [INS] ref has 't' (not in blind) | ref: 'itt' | blind: 'it' [insertion (ref has extra "t")]
+  [SUB] ref 'u' -> blind 'v' | ref: 'use' | blind: 'vse' [u/v convention]
+  [DEL] blind has '<space>' (not in ref) | ref: 'moreninge' | blind: '' [word segmentation (extra space in blind)]
+  [INS] ref has 'e' (not in blind) | ref: 'moreninge' | blind: 'morninge' [insertion (ref has extra "e")]
+  [SUB] ref 'd' -> blind 'g' | ref: 'euenynde.' | blind: 'euenyngeFor' [letterform misreading (d->g)]
+  [INS] ref has '.' (not in blind) | ref: 'euenynde.' | blind: 'euenyngeFor' [punctuation (missing in blind)]
+  [INS] ref has '\n' (not in blind) | ref: 'euenynde.' | blind: 'euenyngeFor' [lineation (extra newline in ref)]
+  [SUB] ref 'F' -> blind 'f' | ref: 'Flixe' | blind: 'flixe' [capitalization]
+  [SUB] ref '\n' -> blind '<space>' | ref: 'Flixe' | blind: 'flixe' [lineation]
+  [INS] ref has '.' (not in blind) | ref: 'butter.' | blind: 'butter' [punctuation (missing in blind)]
+  [INS] ref has 't' (not in blind) | ref: 'itt' | blind: 'it' [insertion (ref has extra "t")]
+  [SUB] ref 'c' -> blind 'C' | ref: 'clothe' | blind: 'Clothe' [capitalization]
+  [INS] ref has 'e' (not in blind) | ref: 'fundamente.' | blind: 'fundament' [insertion (ref has extra "e")]
+  [INS] ref has '.' (not in blind) | ref: 'fundamente.' | blind: 'fundament' [punctuation (missing in blind)]
+  [SUB] ref 'w' -> blind 'u' | ref: 'yow' | blind: 'you' [letterform misreading (w->u)]
+  [INS] ref has 'e' (not in blind) | ref: 'sitte' | blind: 'sitt' [insertion (ref has extra "e")]
+  [SUB] ref 'u' -> blind 'v' | ref: 'uppon' | blind: 'vppen' [u/v convention]
+  [SUB] ref 'o' -> blind 'e' | ref: 'uppon' | blind: 'vppen' [letterform misreading (e/o)]
+  [INS] ref has '.' (not in blind) | ref: 'ease.' | blind: 'easeFor' [punctuation (missing in blind)]
+  [INS] ref has '\n' (not in blind) | ref: 'ease.' | blind: 'easeFor' [lineation (extra newline in ref)]
+  [INS] ref has 'f' (not in blind) | ref: 'Deffnes' | blind: 'Defnes' [insertion (ref has extra "f")]
+  [SUB] ref '\n' -> blind '<space>' | ref: 'Deffnes' | blind: 'Defnes' [lineation]
+  [INS] ref has ',' (not in blind) | ref: 'woole,' | blind: 'woole' [punctuation (missing in blind)]
+  [INS] ref has 'p' (not in blind) | ref: 'vppon' | blind: 'vpon' [insertion (ref has extra "p")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'of' | blind: '' [word segmentation (extra space in blind)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'and' | blind: '' [word segmentation (extra space in blind)]
+
+Error pattern analysis:
+------------------------------------------------------------
+  Capitalization differences:      4 (8.5% of errors)
+  u/v convention differences:      3 (6.4% of errors)
+  Thorn convention (ye/the):       0 (0.0% of errors)
+  Punctuation differences:         7 (14.9% of errors)
+  Lineation differences:           7 (14.9% of errors)
+  Word segmentation:               7 (14.9% of errors)
+  Letterform misreadings:          7 (14.9% of errors)
+  Minim confusion (m/n/u/i):       0 (0.0% of errors)
+
+  Adjusted CER (excluding capitalization, u/v, thorn, punctuation, lineation):
+  2.7426% (26 substantive errors / 948 ref chars)
+
+
+================================================================================
+DETAILED ANALYSIS: Sedley MS534
+================================================================================
+
+Reference length:  2056 characters
+Hypothesis length: 2054 characters
+Edit distance:     311
+CER:               15.1265%
+  Substitutions:   199
+  Insertions:      57
+  Deletions:       55
+
+Error categories (sorted by frequency):
+------------------------------------------------------------
+    12  deletion (blind has extra "s")
+     9  capitalization
+     7  word segmentation (extra space in blind)
+     7  insertion (ref has extra "n")
+     6  insertion (ref has extra "e")
+     5  deletion (blind has extra "a")
+     5  letterform misreading (n->e)
+     4  insertion (ref has extra "h")
+     4  insertion (ref has extra "t")
+     4  lineation
+     4  insertion (ref has extra "r")
+     4  deletion (blind has extra "o")
+     4  letterform misreading (e/o)
+     4  letterform misreading (l->i)
+     4  deletion (blind has extra "n")
+     4  letterform misreading (e->a)
+     3  insertion (ref has extra "o")
+     3  insertion (ref has extra "u")
+     3  word segmentation (extra space in ref)
+     3  insertion (ref has extra "w")
+     3  letterform misreading (e->d)
+     3  letterform misreading (l->s)
+     3  punctuation (missing in blind)
+     3  letterform misreading (e->i)
+     3  letterform misreading (a->e)
+     3  deletion (blind has extra "i")
+     3  letterform misreading (e->r)
+     3  insertion (ref has extra "s")
+     2  letterform misreading (d->t)
+     2  letterform misreading (i->r)
+     2  insertion (ref has extra "c")
+     2  insertion (ref has extra "a")
+     2  letterform misreading (a->r)
+     2  letterform misreading (c/t)
+     2  letterform misreading ( ->t)
+     2  letterform misreading (l->t)
+     2  letterform misreading (a->u)
+     2  deletion (blind has extra "f")
+     2  insertion (ref has extra "i")
+     2  letterform misreading (t->o)
+     2  letterform misreading (h->n)
+     2  letterform misreading (s->h)
+     2  deletion (blind has extra "u")
+     2  punctuation
+     2  letterform misreading (r->s)
+     2  letterform misreading (o->a)
+     2  letterform misreading (e->h)
+     2  deletion (blind has extra "t")
+     2  letterform misreading (o->r)
+     2  letterform misreading (i->o)
+     2  letterform misreading (h->o)
+     2  letterform misreading (d->l)
+     2  letterform misreading (y->i)
+     2  letterform misreading (e->s)
+     2  letterform misreading (l->d)
+     2  deletion (blind has extra "e")
+     2  deletion (blind has extra "M")
+     2  deletion (blind has extra "w")
+     2  letterform misreading (m->e)
+     2  letterform misreading (a->l)
+     2  letterform misreading (o->m)
+     2  letterform misreading (2->a)
+     2  deletion (blind has extra "l")
+     2  punctuation (extra in blind)
+     2  i/j convention
+     1  letterform misreading (v->o)
+     1  letterform misreading (s->r)
+     1  insertion (ref has extra "1")
+     1  insertion (ref has extra "p")
+     1  letterform misreading (d->&)
+     1  letterform misreading (t->e)
+     1  letterform misreading (c->e)
+     1  letterform misreading (i->w)
+     1  letterform misreading (n->i)
+     1  letterform misreading (o->h)
+     1  letterform misreading (z->s)
+     1  letterform misreading (y-> )
+     1  letterform misreading ( ->o)
+     1  letterform misreading (b->i)
+     1  letterform misreading (e->n)
+     1  letterform misreading (w->m)
+     1  letterform misreading (l->n)
+     1  letterform misreading (o->s)
+     1  letterform misreading (t->r)
+     1  letterform misreading (p->t)
+     1  letterform misreading (u->p)
+     1  letterform misreading (i->a)
+     1  letterform misreading (r->c)
+     1  letterform misreading (e->w)
+     1  letterform misreading (I->b)
+     1  letterform misreading (r->o)
+     1  letterform misreading (o->x)
+     1  letterform misreading (h->y)
+     1  letterform misreading (n->u)
+     1  letterform misreading (n->d)
+     1  insertion (ref has extra "l")
+     1  letterform misreading (b->f)
+     1  letterform misreading (o->i)
+     1  letterform misreading (y->c)
+     1  insertion (ref has extra "y")
+     1  letterform misreading (c->p)
+     1  letterform misreading (a->s)
+     1  letterform misreading (h->e)
+     1  letterform misreading (S->c)
+     1  letterform misreading (l->e)
+     1  letterform misreading (t->s)
+     1  letterform misreading (h-> )
+     1  long-s/f confusion
+     1  letterform misreading (&->p)
+     1  letterform misreading (t-> )
+     1  letterform misreading (e->f)
+     1  letterform misreading (l->y)
+     1  letterform misreading (e->&)
+     1  letterform misreading (b->h)
+     1  letterform misreading (t->l)
+     1  letterform misreading (t->f)
+     1  letterform misreading (h->k)
+     1  insertion (ref has extra "b")
+     1  letterform misreading (y->e)
+     1  letterform misreading (R->p)
+     1  letterform misreading (u->e)
+     1  letterform misreading (h->t)
+     1  letterform misreading (&->r)
+     1  insertion (ref has extra "f")
+     1  letterform misreading (e->b)
+     1  letterform misreading (a->y)
+     1  letterform misreading (b->p)
+     1  letterform misreading (v->m)
+     1  letterform misreading (l->g)
+     1  letterform misreading (G->P)
+     1  letterform misreading (o->l)
+     1  deletion (blind has extra "r")
+     1  letterform misreading (A->s)
+     1  letterform misreading (w->N)
+     1  letterform misreading (n->l)
+     1  letterform misreading (s->m)
+     1  letterform misreading (l->f)
+     1  letterform misreading (p->y)
+     1  letterform misreading (2->s)
+     1  insertion (ref has extra "C")
+     1  letterform misreading (l->G)
+     1  letterform misreading (e->c)
+     1  letterform misreading (t->n)
+     1  letterform misreading (A->i)
+     1  letterform misreading (u->s)
+     1  deletion (blind has extra "D")
+     1  insertion (ref has extra "m")
+     1  letterform misreading (n->o)
+     1  letterform misreading (h->G)
+     1  letterform misreading (a->o)
+     1  letterform misreading (k-> )
+     1  letterform misreading ( ->x)
+     1  letterform misreading (o->c)
+     1  deletion (blind has extra "d")
+     1  letterform misreading ( ->i)
+     1  letterform misreading (a->g)
+     1  letterform misreading (d-> )
+     1  letterform misreading (f->g)
+     1  letterform misreading (u->o)
+     1  letterform misreading (l->o)
+     1  letterform misreading (f->e)
+     1  letterform misreading ( ->d)
+     1  letterform misreading (A->e)
+     1  letterform misreading (l->c)
+     1  letterform misreading (o->n)
+     1  letterform misreading (r->e)
+     1  letterform misreading (m->i)
+     1  letterform misreading (m->s)
+     1  letterform misreading (f->t)
+     1  letterform misreading (i->e)
+     1  letterform misreading (n->r)
+     1  thorn convention (ye/the)
+     1  letterform misreading (e->u)
+     1  letterform misreading (m->r)
+     1  letterform misreading (d->w)
+     1  lineation (extra newline in blind)
+     1  letterform misreading (n->t)
+     1  letterform misreading (b->d)
+     1  u/v convention
+
+Word-level differences (blind vs reference):
+------------------------------------------------------------
+  Blind: 'sores'
+  Ref:   'vses'
+  Context: ...Salve for sundry [DIFF] called the Leaden...
+
+  Blind: ''
+  Ref:   'XXVII'
+  Context: ...the Leaden plaister [DIFF] XXVII Take one...
+
+  Blind: 'pt'
+  Ref:   'pound'
+  Context: ...XXVII Take one [DIFF] of oyle olive...
+
+  Blind: 'best'
+  Ref:   '1'
+  Context: ...olive of the [DIFF] & of red...
+
+  Blind: '&'
+  Ref:   'pound'
+  Context: ...of the best [DIFF] of red lead...
+
+  Blind: 'red'
+  Ref:   'white'
+  Context: ...best & of [DIFF] lead very well...
+
+  Blind: 'lead'
+  Ref:   'Lead'
+  Context: ...& of red [DIFF] very well seirced...
+
+  Blind: 'seirced'
+  Ref:   'calcinated'
+  Context: ...lead very well [DIFF] with dust 12...
+
+  Blind: 'with'
+  Ref:   'into'
+  Context: ...very well seirced [DIFF] dust 12 ounces...
+
+  Blind: 'dust'
+  Ref:   'dust,'
+  Context: ...well seirced with [DIFF] 12 ounces of...
+
+  Blind: 'pot'
+  Ref:   'pott'
+  Context: ...in an earthen [DIFF] well glased &...
+
+  Blind: 'glased'
+  Ref:   'glazed'
+  Context: ...earthen pot well [DIFF] & when the...
+
+  Blind: 'the'
+  Ref:   'they'
+  Context: ...glased & when [DIFF] ointment is poured...
+
+  Blind: 'ointment'
+  Ref:   'they'
+  Context: ...& when the [DIFF] is poured that...
+
+  Blind: 'ointment'
+  Ref:   'be'
+  Context: ...& when the [DIFF] is poured that...
+
+  Blind: 'ointment'
+  Ref:   'well'
+  Context: ...& when the [DIFF] is poured that...
+
+  Blind: 'is'
+  Ref:   'incorporated'
+  Context: ...when the ointment [DIFF] poured that the...
+
+  Blind: 'poured'
+  Ref:   'incorporated'
+  Context: ...the ointment is [DIFF] that the softe...
+
+  Blind: 'softe'
+  Ref:   'sope'
+  Context: ...poured that the [DIFF] comes appermost &...
+
+  Blind: 'appermost'
+  Ref:   'upermost'
+  Context: ...the softe comes [DIFF] & put it...
+
+  Blind: 'face'
+  Ref:   'fire'
+  Context: ...upon a small [DIFF] of coales continuowinge...
+
+  Blind: 'coales'
+  Ref:   'coales,'
+  Context: ...small face of [DIFF] continuowinge the said...
+
+  Blind: 'continuowinge'
+  Ref:   'continueinge'
+  Context: ...face of coales [DIFF] the said fire...
+
+  Blind: 'houres'
+  Ref:   'houre'
+  Context: ...said fire an [DIFF] & a halfe...
+
+  Blind: 'on'
+  Ref:   'with'
+  Context: ...still stirring it [DIFF] a bolt of...
+
+  Blind: 'boxe'
+  Ref:   'Iron'
+  Context: ...a bolt of [DIFF] fastned to a...
+
+  Blind: 'stick'
+  Ref:   'Stick'
+  Context: ...fastned to a [DIFF] of wood, you...
+
+  Blind: 'you'
+  Ref:   'then'
+  Context: ...stick of wood, [DIFF] make your fire...
+
+  Blind: 'reddish'
+  Ref:   'redness'
+  Context: ...bigger, till the [DIFF] be turned into...
+
+  Blind: 'colour'
+  Ref:   'collour'
+  Context: ...into a grey [DIFF] but you must...
+
+  Blind: 'coulour'
+  Ref:   'colour'
+  Context: ...turned into the [DIFF] of oyles somewhat...
+
+  Blind: 'oyles'
+  Ref:   'oyle'
+  Context: ...the coulour of [DIFF] somewhat darker, then...
+
+  Blind: 'trencher'
+  Ref:   'trenchar'
+  Context: ...on a wooden [DIFF] & if it...
+
+  Blind: 'nether'
+  Ref:   'neither'
+  Context: ...& if it [DIFF] cleave to your...
+
+  Blind: 'it'
+  Ref:   't'is'
+  Context: ...nor the trencher [DIFF] is sufficient enough,...
+
+  Blind: 'sufficient'
+  Ref:   'boyled'
+  Context: ...trencher it is [DIFF] enough, then dipps...
+
+  Blind: 'dipps'
+  Ref:   'dipp'
+  Context: ...sufficient enough, then [DIFF] plasters in that,...
+
+  Blind: 'dipps'
+  Ref:   'your'
+  Context: ...sufficient enough, then [DIFF] plasters in that,...
+
+  Blind: 'plasters'
+  Ref:   'cloathes'
+  Context: ...enough, then dipps [DIFF] in that, the...
+
+  Blind: 'characters'
+  Ref:   'Searclothes'
+  Context: ...in that, the [DIFF] of thereon dipped...
+
+  Blind: 'of'
+  Ref:   'Searclothes'
+  Context: ...that, the characters [DIFF] thereon dipped will...
+
+  Blind: 'thereon'
+  Ref:   'therein'
+  Context: ...the characters of [DIFF] dipped will last...
+
+  Blind: 'pt'
+  Ref:   '&'
+  Context: ...last 20 yeares, [DIFF] of oyle &...
+
+  Blind: 'pt'
+  Ref:   'the'
+  Context: ...last 20 yeares, [DIFF] of oyle &...
+
+  Blind: 'of'
+  Ref:   'the'
+  Context: ...20 yeares, pt [DIFF] oyle & halfe...
+
+  Blind: 'oyle'
+  Ref:   'older'
+  Context: ...yeares, pt of [DIFF] & halfe this...
+
+  Blind: '&'
+  Ref:   'the'
+  Context: ...pt of oyle [DIFF] halfe this plaister...
+
+  Blind: 'halfe'
+  Ref:   'better'
+  Context: ...of oyle & [DIFF] this plaister laid...
+
+  Blind: 'Stomach'
+  Ref:   'stomach'
+  Context: ...laid to the [DIFF] provokes appetite and...
+
+  Blind: 'paines'
+  Ref:   'paine'
+  Context: ...takes away the [DIFF] of the Stomack...
+
+  Blind: 'Stomack'
+  Ref:   'Stomach'
+  Context: ...paines of the [DIFF] laid to the...
+
+  Blind: 'laid'
+  Ref:   'layd'
+  Context: ...of the Stomack [DIFF] to the side,...
+
+  Blind: 'side,'
+  Ref:   'belly,'
+  Context: ...laid to the [DIFF] tis a remedy...
+
+  Blind: 'tis'
+  Ref:   't'is'
+  Context: ...to the side, [DIFF] a remedy for...
+
+  Blind: 'raines'
+  Ref:   'reines'
+  Context: ...laid to the [DIFF] of the back...
+
+  Blind: 'fluxe'
+  Ref:   'flux'
+  Context: ...stops the bloudy [DIFF] openinge of the...
+
+  Blind: 'openinge'
+  Ref:   'Runinge'
+  Context: ...the bloudy fluxe [DIFF] of the raines...
+
+  Blind: 'that'
+  Ref:   'heat'
+  Context: ...of the raines [DIFF] of the Kidney...
+
+  Blind: 'Kidney'
+  Ref:   'kidney'
+  Context: ...that of the [DIFF] or workes of...
+
+  Blind: 'or'
+  Ref:   '&'
+  Context: ...of the Kidney [DIFF] workes of the...
+
+  Blind: 'workes'
+  Ref:   'weakness'
+  Context: ...the Kidney or [DIFF] of the back,...
+
+  Blind: 'heals'
+  Ref:   'heales'
+  Context: ...the back, it [DIFF] all swellings, Aches...
+
+  Blind: 'breaks'
+  Ref:   'breakes'
+  Context: ...& bruises, it [DIFF] Fistoes, Impostumes, pushes...
+
+  Blind: 'breaks'
+  Ref:   'the'
+  Context: ...& bruises, it [DIFF] Fistoes, Impostumes, pushes...
+
+  Blind: 'Fistoes,'
+  Ref:   'ffellons,'
+  Context: ...bruises, it breaks [DIFF] Impostumes, pushes &...
+
+  Blind: 'byles'
+  Ref:   'heales'
+  Context: ...Impostumes, pushes & [DIFF] them in springs...
+
+  Blind: 'in'
+  Ref:   'them'
+  Context: ...& byles them [DIFF] springs applied to...
+
+  Blind: 'springs'
+  Ref:   'being'
+  Context: ...byles them in [DIFF] applied to the...
+
+  Blind: 'applied'
+  Ref:   'applyed'
+  Context: ...them in springs [DIFF] to the fundament...
+
+  Blind: 'fundament'
+  Ref:   'fundaments'
+  Context: ...applied to the [DIFF] it heales all...
+
+  Blind: 'menigies'
+  Ref:   'vnnilla.'
+  Context: ...good for the [DIFF] A Plod Cordiall...
+
+  Blind: 'Plod'
+  Ref:   'Good'
+  Context: ...the menigies A [DIFF] Cordiall for Mistress...
+
+  Blind: 'for'
+  Ref:   'For'
+  Context: ...A Plod Cordiall [DIFF] Mistress Nowell in...
+
+  Blind: 'Mistress'
+  Ref:   'A'
+  Context: ...Plod Cordiall for [DIFF] Nowell in Childbed...
+
+  Blind: 'Nowell'
+  Ref:   'woman'
+  Context: ...Cordiall for Mistress [DIFF] in Childbed XXVIII...
+
+  Blind: ''
+  Ref:   'XXVIII'
+  Context: ...Nowell in Childbed [DIFF] XXVIII Take a...
+
+  Blind: 'Comfry'
+  Ref:   'Cowslip'
+  Context: ...a pint of [DIFF] water & as...
+
+  Blind: 'as'
+  Ref:   '2'
+  Context: ...Comfry water & [DIFF] much of Syrup...
+
+  Blind: 'much'
+  Ref:   'ounces'
+  Context: ...water & as [DIFF] of Syrup of...
+
+  Blind: 'Syrup'
+  Ref:   'Syrrup'
+  Context: ...as much of [DIFF] of Clovegillyflowers &...
+
+  Blind: 'a'
+  Ref:   '2'
+  Context: ...of Clovegillyflowers & [DIFF] pennyworth of Cinnamon...
+
+  Blind: 'Cinnamon'
+  Ref:   'Cinamon'
+  Context: ...a pennyworth of [DIFF] water & a...
+
+  Blind: 'Spoonefull'
+  Ref:   'Spoonefulls'
+  Context: ...water & a [DIFF] of Gascon wine...
+
+  Blind: 'Gascon'
+  Ref:   'Clarett'
+  Context: ...a Spoonefull of [DIFF] wine & Mistress...
+
+  Blind: 'Mistress'
+  Ref:   'Alcemus'
+  Context: ...Gascon wine & [DIFF] Darnells Dram mingle...
+
+  Blind: 'Darnells'
+  Ref:   'one'
+  Context: ...wine & Mistress [DIFF] Dram mingle all...
+
+  Blind: 'Dram'
+  Ref:   'dramme'
+  Context: ...& Mistress Darnells [DIFF] mingle all these...
+
+  Blind: 'soveran'
+  Ref:   'soveraigne'
+  Context: ...it is a [DIFF] good cordiall for...
+
+  Blind: 'good'
+  Ref:   'soveraigne'
+  Context: ...is a soveran [DIFF] cordiall for any...
+
+  Blind: 'Childbed.'
+  Ref:   'Childbed'
+  Context: ...that lyes in [DIFF] Pills for the...
+
+  Blind: ''
+  Ref:   'Pills'
+  Context: ...lyes in Childbed. [DIFF] Pills for the...
+
+  Blind: 'Gall'
+  Ref:   'head'
+  Context: ...Pills for the [DIFF] XXIX Two exceedinge...
+
+  Blind: ''
+  Ref:   'XXIX'
+  Context: ...for the Gall [DIFF] XXIX Two exceedinge...
+
+  Blind: ''
+  Ref:   'Take'
+  Context: ...the Gall XXIX [DIFF] Two exceedinge good...
+
+  Blind: 'Two'
+  Ref:   'Take'
+  Context: ...the Gall XXIX [DIFF] exceedinge good medecines...
+
+  Blind: 'exceedinge'
+  Ref:   'Take'
+  Context: ...Gall XXIX Two [DIFF] good medecines and...
+
+  Blind: 'exceedinge'
+  Ref:   'one'
+  Context: ...Gall XXIX Two [DIFF] good medecines and...
+
+  Blind: 'exceedinge'
+  Ref:   'handfull'
+  Context: ...Gall XXIX Two [DIFF] good medecines and...
+
+  Blind: 'good'
+  Ref:   'handfull'
+  Context: ...XXIX Two exceedinge [DIFF] medecines and deuises...
+
+  Blind: 'medecines'
+  Ref:   'of'
+  Context: ...Two exceedinge good [DIFF] and deuises after...
+
+  ... and 19 more word-level differences
+
+All character-level edits:
+------------------------------------------------------------
+  [DEL] blind has 's' (not in ref) | ref: 'vses' | blind: 'sores' [deletion (blind has extra "s")]
+  [SUB] ref 'v' -> blind 'o' | ref: 'vses' | blind: 'sores' [letterform misreading (v->o)]
+  [SUB] ref 's' -> blind 'r' | ref: 'vses' | blind: 'sores' [letterform misreading (s->r)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'XXVII' | blind: '' [word segmentation (extra space in blind)]
+  [INS] ref has 'o' (not in blind) | ref: 'pound' | blind: 'pt' [insertion (ref has extra "o")]
+  [INS] ref has 'u' (not in blind) | ref: 'pound' | blind: 'pt' [insertion (ref has extra "u")]
+  [INS] ref has 'n' (not in blind) | ref: 'pound' | blind: 'pt' [insertion (ref has extra "n")]
+  [SUB] ref 'd' -> blind 't' | ref: 'pound' | blind: 'pt' [letterform misreading (d->t)]
+  [INS] ref has '<space>' (not in blind) | ref: 'best' | blind: 'best' [word segmentation (extra space in ref)]
+  [INS] ref has '1' (not in blind) | ref: '1' | blind: 'best' [insertion (ref has extra "1")]
+  [INS] ref has 'p' (not in blind) | ref: 'pound' | blind: '&' [insertion (ref has extra "p")]
+  [INS] ref has 'o' (not in blind) | ref: 'pound' | blind: '&' [insertion (ref has extra "o")]
+  [INS] ref has 'u' (not in blind) | ref: 'pound' | blind: '&' [insertion (ref has extra "u")]
+  [INS] ref has 'n' (not in blind) | ref: 'pound' | blind: '&' [insertion (ref has extra "n")]
+  [SUB] ref 'd' -> blind '&' | ref: 'pound' | blind: '&' [letterform misreading (d->&)]
+  [INS] ref has 'w' (not in blind) | ref: 'white' | blind: 'red' [insertion (ref has extra "w")]
+  [INS] ref has 'h' (not in blind) | ref: 'white' | blind: 'red' [insertion (ref has extra "h")]
+  [SUB] ref 'i' -> blind 'r' | ref: 'white' | blind: 'red' [letterform misreading (i->r)]
+  [SUB] ref 't' -> blind 'e' | ref: 'white' | blind: 'red' [letterform misreading (t->e)]
+  [SUB] ref 'e' -> blind 'd' | ref: 'white' | blind: 'red' [letterform misreading (e->d)]
+  [SUB] ref 'L' -> blind 'l' | ref: 'Lead' | blind: 'lead' [capitalization]
+  [INS] ref has 'c' (not in blind) | ref: 'calcinated' | blind: 'seirced' [insertion (ref has extra "c")]
+  [INS] ref has 'a' (not in blind) | ref: 'calcinated' | blind: 'seirced' [insertion (ref has extra "a")]
+  [SUB] ref 'l' -> blind 's' | ref: 'calcinated' | blind: 'seirced' [letterform misreading (l->s)]
+  [SUB] ref 'c' -> blind 'e' | ref: 'calcinated' | blind: 'seirced' [letterform misreading (c->e)]
+  [INS] ref has 'n' (not in blind) | ref: 'calcinated' | blind: 'seirced' [insertion (ref has extra "n")]
+  [SUB] ref 'a' -> blind 'r' | ref: 'calcinated' | blind: 'seirced' [letterform misreading (a->r)]
+  [SUB] ref 't' -> blind 'c' | ref: 'calcinated' | blind: 'seirced' [letterform misreading (c/t)]
+  [SUB] ref 'i' -> blind 'w' | ref: 'into' | blind: 'with' [letterform misreading (i->w)]
+  [SUB] ref 'n' -> blind 'i' | ref: 'into' | blind: 'with' [letterform misreading (n->i)]
+  [SUB] ref 'o' -> blind 'h' | ref: 'into' | blind: 'with' [letterform misreading (o->h)]
+  [INS] ref has ',' (not in blind) | ref: 'dust,' | blind: 'dust' [punctuation (missing in blind)]
+  [INS] ref has 't' (not in blind) | ref: 'pott' | blind: 'pot' [insertion (ref has extra "t")]
+  [SUB] ref 'z' -> blind 's' | ref: 'glazed' | blind: 'glased' [letterform misreading (z->s)]
+  [SUB] ref 'y' -> blind '<space>' | ref: 'they' | blind: 'the' [letterform misreading (y-> )]
+  [SUB] ref '<space>' -> blind 'o' | ref: 'they' | blind: 'ointment' [letterform misreading ( ->o)]
+  [SUB] ref 'b' -> blind 'i' | ref: 'be' | blind: 'ointment' [letterform misreading (b->i)]
+  [SUB] ref 'e' -> blind 'n' | ref: 'be' | blind: 'ointment' [letterform misreading (e->n)]
+  [SUB] ref '<space>' -> blind 't' | ref: 'be' | blind: 'ointment' [letterform misreading ( ->t)]
+  [SUB] ref 'w' -> blind 'm' | ref: 'well' | blind: 'ointment' [letterform misreading (w->m)]
+  [SUB] ref 'l' -> blind 'n' | ref: 'well' | blind: 'ointment' [letterform misreading (l->n)]
+  [SUB] ref 'l' -> blind 't' | ref: 'well' | blind: 'ointment' [letterform misreading (l->t)]
+  [INS] ref has 'n' (not in blind) | ref: 'incorporated' | blind: 'is' [insertion (ref has extra "n")]
+  [INS] ref has 'c' (not in blind) | ref: 'incorporated' | blind: 'is' [insertion (ref has extra "c")]
+  [SUB] ref 'o' -> blind 's' | ref: 'incorporated' | blind: 'is' [letterform misreading (o->s)]
+  [SUB] ref 'r' -> blind '\n' | ref: 'incorporated' | blind: 'is' [lineation]
+  [INS] ref has 'r' (not in blind) | ref: 'incorporated' | blind: 'poured' [insertion (ref has extra "r")]
+  [SUB] ref 'a' -> blind 'u' | ref: 'incorporated' | blind: 'poured' [letterform misreading (a->u)]
+  [SUB] ref 't' -> blind 'r' | ref: 'incorporated' | blind: 'poured' [letterform misreading (t->r)]
+  [DEL] blind has 'f' (not in ref) | ref: 'sope' | blind: 'softe' [deletion (blind has extra "f")]
+  [SUB] ref 'p' -> blind 't' | ref: 'sope' | blind: 'softe' [letterform misreading (p->t)]
+  [DEL] blind has 'a' (not in ref) | ref: 'upermost' | blind: 'appermost' [deletion (blind has extra "a")]
+  [SUB] ref 'u' -> blind 'p' | ref: 'upermost' | blind: 'appermost' [letterform misreading (u->p)]
+  [SUB] ref 'i' -> blind 'a' | ref: 'fire' | blind: 'face' [letterform misreading (i->a)]
+  [SUB] ref 'r' -> blind 'c' | ref: 'fire' | blind: 'face' [letterform misreading (r->c)]
+  [INS] ref has ',' (not in blind) | ref: 'coales,' | blind: 'coales' [punctuation (missing in blind)]
+  [DEL] blind has 'o' (not in ref) | ref: 'continueinge' | blind: 'continuowinge' [deletion (blind has extra "o")]
+  [SUB] ref 'e' -> blind 'w' | ref: 'continueinge' | blind: 'continuowinge' [letterform misreading (e->w)]
+  [DEL] blind has 's' (not in ref) | ref: 'houre' | blind: 'houres' [deletion (blind has extra "s")]
+  [INS] ref has 'w' (not in blind) | ref: 'with' | blind: 'on' [insertion (ref has extra "w")]
+  [INS] ref has 'i' (not in blind) | ref: 'with' | blind: 'on' [insertion (ref has extra "i")]
+  [SUB] ref 't' -> blind 'o' | ref: 'with' | blind: 'on' [letterform misreading (t->o)]
+  [SUB] ref 'h' -> blind 'n' | ref: 'with' | blind: 'on' [letterform misreading (h->n)]
+  [SUB] ref 'I' -> blind 'b' | ref: 'Iron' | blind: 'boxe' [letterform misreading (I->b)]
+  [SUB] ref 'r' -> blind 'o' | ref: 'Iron' | blind: 'boxe' [letterform misreading (r->o)]
+  [SUB] ref 'o' -> blind 'x' | ref: 'Iron' | blind: 'boxe' [letterform misreading (o->x)]
+  [SUB] ref 'n' -> blind 'e' | ref: 'Iron' | blind: 'boxe' [letterform misreading (n->e)]
+  [SUB] ref 'S' -> blind 's' | ref: 'Stick' | blind: 'stick' [capitalization]
+  [INS] ref has 't' (not in blind) | ref: 'then' | blind: 'you' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'then' | blind: 'you' [letterform misreading (h->y)]
+  [SUB] ref 'e' -> blind 'o' | ref: 'then' | blind: 'you' [letterform misreading (e/o)]
+  [SUB] ref 'n' -> blind 'u' | ref: 'then' | blind: 'you' [letterform misreading (n->u)]
+  [SUB] ref 'n' -> blind 'd' | ref: 'redness' | blind: 'reddish' [letterform misreading (n->d)]
+  [SUB] ref 'e' -> blind 'i' | ref: 'redness' | blind: 'reddish' [letterform misreading (e->i)]
+  [SUB] ref 's' -> blind 'h' | ref: 'redness' | blind: 'reddish' [letterform misreading (s->h)]
+  [INS] ref has 'l' (not in blind) | ref: 'collour' | blind: 'colour' [insertion (ref has extra "l")]
+  [DEL] blind has 'u' (not in ref) | ref: 'colour' | blind: 'coulour' [deletion (blind has extra "u")]
+  [DEL] blind has 's' (not in ref) | ref: 'oyle' | blind: 'oyles' [deletion (blind has extra "s")]
+  [SUB] ref 'a' -> blind 'e' | ref: 'trenchar' | blind: 'trencher' [letterform misreading (a->e)]
+  [INS] ref has 'i' (not in blind) | ref: 'neither' | blind: 'nether' [insertion (ref has extra "i")]
+  [SUB] ref 'a' -> blind 'e' | ref: 'trenchar' | blind: 'trencher' [letterform misreading (a->e)]
+  [DEL] blind has 'i' (not in ref) | ref: 't'is' | blind: 'it' [deletion (blind has extra "i")]
+  [SUB] ref ''' -> blind '<space>' | ref: 't'is' | blind: 'it' [punctuation]
+  [DEL] blind has 's' (not in ref) | ref: 'boyled' | blind: 'sufficient' [deletion (blind has extra "s")]
+  [DEL] blind has 'u' (not in ref) | ref: 'boyled' | blind: 'sufficient' [deletion (blind has extra "u")]
+  [DEL] blind has 'f' (not in ref) | ref: 'boyled' | blind: 'sufficient' [deletion (blind has extra "f")]
+  [SUB] ref 'b' -> blind 'f' | ref: 'boyled' | blind: 'sufficient' [letterform misreading (b->f)]
+  [SUB] ref 'o' -> blind 'i' | ref: 'boyled' | blind: 'sufficient' [letterform misreading (o->i)]
+  [SUB] ref 'y' -> blind 'c' | ref: 'boyled' | blind: 'sufficient' [letterform misreading (y->c)]
+  [SUB] ref 'l' -> blind 'i' | ref: 'boyled' | blind: 'sufficient' [letterform misreading (l->i)]
+  [DEL] blind has 'n' (not in ref) | ref: 'boyled' | blind: 'sufficient' [deletion (blind has extra "n")]
+  [SUB] ref 'd' -> blind 't' | ref: 'boyled' | blind: 'sufficient' [letterform misreading (d->t)]
+  [INS] ref has '<space>' (not in blind) | ref: 'dipp' | blind: 'dipps' [word segmentation (extra space in ref)]
+  [INS] ref has 'y' (not in blind) | ref: 'your' | blind: 'dipps' [insertion (ref has extra "y")]
+  [INS] ref has 'o' (not in blind) | ref: 'your' | blind: 'dipps' [insertion (ref has extra "o")]
+  [INS] ref has 'u' (not in blind) | ref: 'your' | blind: 'dipps' [insertion (ref has extra "u")]
+  [SUB] ref 'r' -> blind 's' | ref: 'your' | blind: 'dipps' [letterform misreading (r->s)]
+  [SUB] ref 'c' -> blind 'p' | ref: 'cloathes' | blind: 'plasters' [letterform misreading (c->p)]
+  [SUB] ref 'o' -> blind 'a' | ref: 'cloathes' | blind: 'plasters' [letterform misreading (o->a)]
+  [SUB] ref 'a' -> blind 's' | ref: 'cloathes' | blind: 'plasters' [letterform misreading (a->s)]
+  [SUB] ref 'h' -> blind 'e' | ref: 'cloathes' | blind: 'plasters' [letterform misreading (h->e)]
+  [SUB] ref 'e' -> blind 'r' | ref: 'cloathes' | blind: 'plasters' [letterform misreading (e->r)]
+  [SUB] ref 'S' -> blind 'c' | ref: 'Searclothes' | blind: 'characters' [letterform misreading (S->c)]
+  [SUB] ref 'e' -> blind 'h' | ref: 'Searclothes' | blind: 'characters' [letterform misreading (e->h)]
+  [DEL] blind has 'a' (not in ref) | ref: 'Searclothes' | blind: 'characters' [deletion (blind has extra "a")]
+  [DEL] blind has 't' (not in ref) | ref: 'Searclothes' | blind: 'characters' [deletion (blind has extra "t")]
+  [SUB] ref 'l' -> blind 'e' | ref: 'Searclothes' | blind: 'characters' [letterform misreading (l->e)]
+  [SUB] ref 'o' -> blind 'r' | ref: 'Searclothes' | blind: 'characters' [letterform misreading (o->r)]
+  [SUB] ref 't' -> blind 's' | ref: 'Searclothes' | blind: 'characters' [letterform misreading (t->s)]
+  [SUB] ref 'h' -> blind '<space>' | ref: 'Searclothes' | blind: 'characters' [letterform misreading (h-> )]
+  [SUB] ref 'e' -> blind 'o' | ref: 'Searclothes' | blind: 'of' [letterform misreading (e/o)]
+  [SUB] ref 's' -> blind 'f' | ref: 'Searclothes' | blind: 'of' [long-s/f confusion]
+  [SUB] ref 'i' -> blind 'o' | ref: 'therein' | blind: 'thereon' [letterform misreading (i->o)]
+  [SUB] ref '&' -> blind 'p' | ref: '&' | blind: 'pt' [letterform misreading (&->p)]
+  [SUB] ref '<space>' -> blind 't' | ref: '&' | blind: 'pt' [letterform misreading ( ->t)]
+  [SUB] ref 't' -> blind '<space>' | ref: 'the' | blind: 'pt' [letterform misreading (t-> )]
+  [SUB] ref 'h' -> blind 'o' | ref: 'the' | blind: 'of' [letterform misreading (h->o)]
+  [SUB] ref 'e' -> blind 'f' | ref: 'the' | blind: 'of' [letterform misreading (e->f)]
+  [SUB] ref 'l' -> blind 'y' | ref: 'older' | blind: 'oyle' [letterform misreading (l->y)]
+  [SUB] ref 'd' -> blind 'l' | ref: 'older' | blind: 'oyle' [letterform misreading (d->l)]
+  [INS] ref has 'r' (not in blind) | ref: 'older' | blind: 'oyle' [insertion (ref has extra "r")]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: '&' [insertion (ref has extra "t")]
+  [INS] ref has 'h' (not in blind) | ref: 'the' | blind: '&' [insertion (ref has extra "h")]
+  [SUB] ref 'e' -> blind '&' | ref: 'the' | blind: '&' [letterform misreading (e->&)]
+  [SUB] ref 'b' -> blind 'h' | ref: 'better' | blind: 'halfe' [letterform misreading (b->h)]
+  [SUB] ref 'e' -> blind 'a' | ref: 'better' | blind: 'halfe' [letterform misreading (e->a)]
+  [SUB] ref 't' -> blind 'l' | ref: 'better' | blind: 'halfe' [letterform misreading (t->l)]
+  [SUB] ref 't' -> blind 'f' | ref: 'better' | blind: 'halfe' [letterform misreading (t->f)]
+  [INS] ref has 'r' (not in blind) | ref: 'better' | blind: 'halfe' [insertion (ref has extra "r")]
+  [SUB] ref 's' -> blind 'S' | ref: 'stomach' | blind: 'Stomach' [capitalization]
+  [DEL] blind has 's' (not in ref) | ref: 'paine' | blind: 'paines' [deletion (blind has extra "s")]
+  [SUB] ref 'h' -> blind 'k' | ref: 'Stomach' | blind: 'Stomack' [letterform misreading (h->k)]
+  [SUB] ref 'y' -> blind 'i' | ref: 'layd' | blind: 'laid' [letterform misreading (y->i)]
+  [INS] ref has 'b' (not in blind) | ref: 'belly,' | blind: 'side,' [insertion (ref has extra "b")]
+  [SUB] ref 'e' -> blind 's' | ref: 'belly,' | blind: 'side,' [letterform misreading (e->s)]
+  [SUB] ref 'l' -> blind 'i' | ref: 'belly,' | blind: 'side,' [letterform misreading (l->i)]
+  [SUB] ref 'l' -> blind 'd' | ref: 'belly,' | blind: 'side,' [letterform misreading (l->d)]
+  [SUB] ref 'y' -> blind 'e' | ref: 'belly,' | blind: 'side,' [letterform misreading (y->e)]
+  [INS] ref has ''' (not in blind) | ref: 't'is' | blind: 'tis' [punctuation (missing in blind)]
+  [SUB] ref 'e' -> blind 'a' | ref: 'reines' | blind: 'raines' [letterform misreading (e->a)]
+  [DEL] blind has 'e' (not in ref) | ref: 'flux' | blind: 'fluxe' [deletion (blind has extra "e")]
+  [DEL] blind has 'o' (not in ref) | ref: 'Runinge' | blind: 'openinge' [deletion (blind has extra "o")]
+  [SUB] ref 'R' -> blind 'p' | ref: 'Runinge' | blind: 'openinge' [letterform misreading (R->p)]
+  [SUB] ref 'u' -> blind 'e' | ref: 'Runinge' | blind: 'openinge' [letterform misreading (u->e)]
+  [SUB] ref 'e' -> blind 'a' | ref: 'reines' | blind: 'raines' [letterform misreading (e->a)]
+  [SUB] ref 'h' -> blind 't' | ref: 'heat' | blind: 'that' [letterform misreading (h->t)]
+  [SUB] ref 'e' -> blind 'h' | ref: 'heat' | blind: 'that' [letterform misreading (e->h)]
+  [SUB] ref 'k' -> blind 'K' | ref: 'kidney' | blind: 'Kidney' [capitalization]
+  [DEL] blind has 'o' (not in ref) | ref: '&' | blind: 'or' [deletion (blind has extra "o")]
+  [SUB] ref '&' -> blind 'r' | ref: '&' | blind: 'or' [letterform misreading (&->r)]
+  ... and 161 more edits
+
+Error pattern analysis:
+------------------------------------------------------------
+  Capitalization differences:      9 (2.9% of errors)
+  u/v convention differences:      1 (0.3% of errors)
+  Thorn convention (ye/the):       1 (0.3% of errors)
+  Punctuation differences:         7 (2.3% of errors)
+  Lineation differences:           5 (1.6% of errors)
+  Word segmentation:              10 (3.2% of errors)
+  Letterform misreadings:        179 (57.6% of errors)
+  Minim confusion (m/n/u/i):       0 (0.0% of errors)
+
+  Adjusted CER (excluding capitalization, u/v, thorn, punctuation, lineation):
+  14.0078% (288 substantive errors / 2056 ref chars)
+
+
+================================================================================
+DETAILED ANALYSIS: Bulkeley MS169
+================================================================================
+
+Reference length:  1401 characters
+Hypothesis length: 1408 characters
+Edit distance:     262
+CER:               18.7009%
+  Substitutions:   171
+  Insertions:      42
+  Deletions:       49
+
+Error categories (sorted by frequency):
+------------------------------------------------------------
+    12  word segmentation (extra space in blind)
+     9  deletion (blind has extra "o")
+     8  punctuation (missing in blind)
+     7  deletion (blind has extra "s")
+     7  letterform misreading (h->e)
+     5  insertion (ref has extra "s")
+     5  punctuation
+     5  letterform misreading (c/t)
+     4  u/v convention
+     4  letterform misreading (e/o)
+     4  insertion (ref has extra "t")
+     4  letterform misreading (h-> )
+     4  deletion (blind has extra "e")
+     4  letterform misreading (s->t)
+     3  word segmentation (extra space in ref)
+     3  insertion (ref has extra "i")
+     3  deletion (blind has extra "t")
+     3  letterform misreading (o->r)
+     3  letterform misreading (r->t)
+     3  letterform misreading (i->y)
+     3  letterform misreading (r->n)
+     3  insertion (ref has extra "h")
+     3  capitalization
+     3  letterform misreading (e->s)
+     3  letterform misreading (h->s)
+     3  letterform misreading (c->r)
+     2  insertion (ref has extra "e")
+     2  letterform misreading (u->n)
+     2  letterform misreading (i->r)
+     2  letterform misreading ( ->o)
+     2  letterform misreading (o->i)
+     2  deletion (blind has extra "a")
+     2  letterform misreading (i-> )
+     2  letterform misreading (y->e)
+     2  insertion (ref has extra "b")
+     2  letterform misreading (h->r)
+     2  deletion (blind has extra "l")
+     2  letterform misreading (s->r)
+     2  deletion (blind has extra "n")
+     2  letterform misreading (i->a)
+     2  letterform misreading (t->l)
+     2  letterform misreading (e->a)
+     2  letterform misreading (d->L)
+     2  insertion (ref has extra "y")
+     1  insertion (ref has extra "p")
+     1  insertion (ref has extra "k")
+     1  letterform misreading (t->C)
+     1  letterform misreading (r->s)
+     1  letterform misreading (a->i)
+     1  deletion (blind has extra "i")
+     1  letterform misreading (e-> )
+     1  insertion (ref has extra "n")
+     1  deletion (blind has extra "p")
+     1  letterform misreading (c->u)
+     1  letterform misreading (n->s)
+     1  long-s/f confusion
+     1  letterform misreading (t->y)
+     1  letterform misreading (p->w)
+     1  insertion (ref has extra "r")
+     1  letterform misreading (t->i)
+     1  letterform misreading (T-> )
+     1  letterform misreading (h->f)
+     1  letterform misreading (e->h)
+     1  letterform misreading (g->s)
+     1  letterform misreading (o->a)
+     1  letterform misreading (i->d)
+     1  letterform misreading (u-> )
+     1  letterform misreading (e->i)
+     1  deletion (blind has extra "m")
+     1  letterform misreading (h->c)
+     1  letterform misreading (r->h)
+     1  deletion (blind has extra "d")
+     1  letterform misreading (e->r)
+     1  letterform misreading (l->c)
+     1  lineation
+     1  lineation (extra newline in ref)
+     1  letterform misreading (e->n)
+     1  deletion (blind has extra "f")
+     1  letterform misreading (t->o)
+     1  letterform misreading (r-> )
+     1  letterform misreading (p->f)
+     1  letterform misreading (v->o)
+     1  insertion (ref has extra "o")
+     1  minim confusion (m/n)
+     1  letterform misreading (u->r)
+     1  letterform misreading (c->y)
+     1  letterform misreading (n->e)
+     1  insertion (ref has extra "l")
+     1  letterform misreading (v->f)
+     1  letterform misreading (d->y)
+     1  letterform misreading (l->s)
+     1  letterform misreading (y->t)
+     1  letterform misreading (w->r)
+     1  letterform misreading (i->u)
+     1  letterform misreading (c->s)
+     1  letterform misreading (n->t)
+     1  letterform misreading (s->e)
+     1  letterform misreading (c->e)
+     1  insertion (ref has extra "&")
+     1  letterform misreading (s->h)
+     1  letterform misreading (p->e)
+     1  letterform misreading (c->b)
+     1  letterform misreading (f->i)
+     1  letterform misreading (u->f)
+     1  letterform misreading (d->m)
+     1  letterform misreading ( ->s)
+     1  letterform misreading (l->k)
+     1  letterform misreading (k->h)
+     1  letterform misreading (y->d)
+     1  letterform misreading (v->p)
+     1  letterform misreading (h->y)
+     1  letterform misreading (i->s)
+     1  letterform misreading (n->o)
+     1  letterform misreading (g->m)
+     1  letterform misreading (b->d)
+     1  letterform misreading (d->b)
+     1  letterform misreading (s->c)
+     1  letterform misreading (a->u)
+     1  letterform misreading (c->a)
+     1  letterform misreading (k->l)
+     1  letterform misreading (i->o)
+     1  deletion (blind has extra "v")
+     1  letterform misreading (g->d)
+     1  letterform misreading (w->o)
+     1  letterform misreading (e->p)
+     1  letterform misreading (n->r)
+     1  letterform misreading ( ->e)
+     1  letterform misreading (l->v)
+     1  deletion (blind has extra "r")
+     1  letterform misreading (t->e)
+     1  letterform misreading (g->y)
+     1  letterform misreading (g->t)
+     1  letterform misreading ( ->r)
+     1  letterform misreading (e->d)
+     1  letterform misreading (g->b)
+     1  punctuation (extra in blind)
+     1  letterform misreading (T->s)
+     1  letterform misreading (i->t)
+     1  letterform misreading (u->o)
+     1  letterform misreading (h->m)
+     1  letterform misreading (r->l)
+     1  letterform misreading (a->o)
+     1  letterform misreading (b->l)
+     1  insertion (ref has extra "u")
+     1  letterform misreading (l->a)
+     1  letterform misreading (h->p)
+     1  letterform misreading (l-> )
+     1  letterform misreading (d->s)
+     1  insertion (ref has extra "m")
+     1  letterform misreading (p->r)
+     1  letterform misreading (s->u)
+     1  letterform misreading (i->p)
+
+Word-level differences (blind vs reference):
+------------------------------------------------------------
+  Blind: 'Lavander,'
+  Ref:   'Lauander'
+  Context: ...Of [DIFF] the Composition, 7...
+
+  Blind: 'Lavander,'
+  Ref:   'spike,'
+  Context: ...Of [DIFF] the Composition, 7...
+
+  Blind: 'Composition,'
+  Ref:   'temperature.'
+  Context: ...Of Lavander, the [DIFF] 7 Lavander is...
+
+  Blind: '7'
+  Ref:   'temperature.'
+  Context: ...Lavander, the Composition, [DIFF] Lavander is hott...
+
+  Blind: 'Lavander'
+  Ref:   'Lauander'
+  Context: ...the Composition, 7 [DIFF] is hott &...
+
+  Blind: 'hott'
+  Ref:   'hot'
+  Context: ...7 Lavander is [DIFF] & drye, &...
+
+  Blind: 'degree'
+  Ref:   'degree,'
+  Context: ...in the third [DIFF] & is of...
+
+  Blind: 'thin'
+  Ref:   'thinn'
+  Context: ...is of a [DIFF] substance, purssifyinge of...
+
+  Blind: 'purssifyinge'
+  Ref:   'consistinge'
+  Context: ...a thin substance, [DIFF] of many arties...
+
+  Blind: 'arties'
+  Ref:   'airie'
+  Context: ...purssifyinge of many [DIFF] & spirituall waies...
+
+  Blind: 'waies'
+  Ref:   'partes.'
+  Context: ...arties & spirituall [DIFF] to fore forth...
+
+  Blind: 'to'
+  Ref:   'partes.'
+  Context: ...& spirituall waies [DIFF] fore forth it...
+
+  Blind: 'to'
+  Ref:   'Therefore'
+  Context: ...& spirituall waies [DIFF] fore forth it...
+
+  Blind: 'fore'
+  Ref:   'Therefore'
+  Context: ...spirituall waies to [DIFF] forth it is...
+
+  Blind: 'forth'
+  Ref:   'Therefore'
+  Context: ...waies to fore [DIFF] it is said...
+
+  Blind: 'said'
+  Ref:   'good'
+  Context: ...forth it is [DIFF] to be good...
+
+  Blind: 'good'
+  Ref:   'giuen'
+  Context: ...said to be [DIFF] in a many...
+
+  Blind: 'in'
+  Ref:   'giuen'
+  Context: ...to be good [DIFF] a many way...
+
+  Blind: 'a'
+  Ref:   'any'
+  Context: ...be good in [DIFF] many way against...
+
+  Blind: 'many'
+  Ref:   'any'
+  Context: ...good in a [DIFF] way against the...
+
+  Blind: 'disease'
+  Ref:   'diseases'
+  Context: ...way against the [DIFF] of the head,...
+
+  Blind: 'especially'
+  Ref:   'espetially'
+  Context: ...the head, & [DIFF] those which cause...
+
+  Blind: 'cause'
+  Ref:   'haue'
+  Context: ...especially those which [DIFF] the head originall...
+
+  Blind: 'the'
+  Ref:   'theire'
+  Context: ...those which cause [DIFF] head originall or...
+
+  Blind: 'head'
+  Ref:   'theire'
+  Context: ...which cause the [DIFF] originall or begynninge...
+
+  Blind: 'begynninge'
+  Ref:   'beginninge'
+  Context: ...head originall or [DIFF] not of a...
+
+  Blind: 'obundance'
+  Ref:   'bundance'
+  Context: ...not of a [DIFF] of humors, but...
+
+  Blind: 'the'
+  Ref:   'cheifely'
+  Context: ...of humors, but [DIFF] force of a...
+
+  Blind: 'force'
+  Ref:   'cheifely'
+  Context: ...humors, but the [DIFF] of a qualitie...
+
+  Blind: 'onely'
+  Ref:   'onely.'
+  Context: ...of a qualitie [DIFF] . The Vertues...
+
+  Blind: 'Vertues'
+  Ref:   'Vertues.'
+  Context: ...onely . The [DIFF] The distilled water...
+
+  Blind: 'vnto'
+  Ref:   'vnto,'
+  Context: ...of Lavander smelt [DIFF] on the temples...
+
+  Blind: 'on'
+  Ref:   'or'
+  Context: ...Lavander smelt vnto [DIFF] the temples and...
+
+  Blind: 'fore'
+  Ref:   'forehead'
+  Context: ...the temples and [DIFF] head and fore...
+
+  Blind: 'and'
+  Ref:   'bathed'
+  Context: ...and fore head [DIFF] fore with is...
+
+  Blind: 'fore'
+  Ref:   'therwith,'
+  Context: ...fore head and [DIFF] with is a...
+
+  Blind: 'with'
+  Ref:   'therwith,'
+  Context: ...head and fore [DIFF] is a refreshinge...
+
+  Blind: 'Catalefsie'
+  Ref:   'Catalepsie,'
+  Context: ...that haue the [DIFF] a light migram,...
+
+  Blind: 'migram,'
+  Ref:   'Migram,'
+  Context: ...Catalefsie a light [DIFF] & to them...
+
+  Blind: 'fallings'
+  Ref:   'fallinge'
+  Context: ...that haue the [DIFF] sicknes, & that...
+
+  Blind: 'lose'
+  Ref:   'vse'
+  Context: ...sicknes, & that [DIFF] to some mory...
+
+  Blind: 'some'
+  Ref:   'soone'
+  Context: ...that lose to [DIFF] mory . But...
+
+  Blind: 'mory'
+  Ref:   'much.'
+  Context: ...lose to some [DIFF] . But we...
+
+  Blind: 'we'
+  Ref:   'when'
+  Context: ...mory . But [DIFF] see there is...
+
+  Blind: 'see'
+  Ref:   'when'
+  Context: .... But we [DIFF] there is a...
+
+  Blind: 'humors'
+  Ref:   'humors,'
+  Context: ...a bundance of [DIFF] especially mixed with...
+
+  Blind: 'especially'
+  Ref:   'espetiallly'
+  Context: ...bundance of humors [DIFF] mixed with blood,...
+
+  Blind: 'so'
+  Ref:   'be'
+  Context: ...then to be [DIFF] frely safest, neither...
+
+  Blind: 'frely'
+  Ref:   'vsed'
+  Context: ...to be so [DIFF] safest, neither is...
+
+  Blind: 'safest,'
+  Ref:   'safely,'
+  Context: ...be so frely [DIFF] neither is the...
+
+  Blind: 'nor'
+  Ref:   'which'
+  Context: ...to be taken, [DIFF] use made of...
+
+  Blind: 'use'
+  Ref:   'which'
+  Context: ...be taken, nor [DIFF] made of distilled...
+
+  Blind: 'water'
+  Ref:   'Wine:'
+  Context: ...made of distilled [DIFF] in whatsoeuer kinde...
+
+  Blind: 'whatsoeuer'
+  Ref:   'which'
+  Context: ...distilled water in [DIFF] kinde of herbes,...
+
+  Blind: 'whatsoeuer'
+  Ref:   'such'
+  Context: ...distilled water in [DIFF] kinde of herbes,...
+
+  Blind: 'seedes,'
+  Ref:   '&'
+  Context: ...herbes, flowers, or [DIFF] Certayne herbes are...
+
+  Blind: 'Certayne'
+  Ref:   'certayne'
+  Context: ...flowers, or seedes, [DIFF] herbes are nifted...
+
+  Blind: 'herbes'
+  Ref:   'spices'
+  Context: ...or seedes, Certayne [DIFF] are nifted or...
+
+  Blind: 'nifted'
+  Ref:   'infused'
+  Context: ...Certayne herbes are [DIFF] or steeped though...
+
+  Blind: 'steeped'
+  Ref:   'steeped,'
+  Context: ...are nifted or [DIFF] though most men...
+
+  Blind: 'mistake'
+  Ref:   'do'
+  Context: ...though most men [DIFF] & all adventures...
+
+  Blind: 'mistake'
+  Ref:   'rashly'
+  Context: ...though most men [DIFF] & all adventures...
+
+  Blind: 'all'
+  Ref:   'att'
+  Context: ...men mistake & [DIFF] adventures giue them...
+
+  Blind: 'adventures'
+  Ref:   'adventure'
+  Context: ...mistake & all [DIFF] giue them with...
+
+  Blind: 'with'
+  Ref:   'without'
+  Context: ...adventures giue them [DIFF] out mashinge and...
+
+  Blind: 'mashinge'
+  Ref:   'makinge'
+  Context: ...them with out [DIFF] and dif- ferences...
+
+  Blind: 'and'
+  Ref:   'any'
+  Context: ...with out mashinge [DIFF] dif- ferences at...
+
+  Blind: 'ferences'
+  Ref:   'ference'
+  Context: ...mashinge and dif- [DIFF] at all for...
+
+  Blind: 'springs'
+  Ref:   'vsinge'
+  Context: ...all for by [DIFF] sure yet some...
+
+  Blind: 'sure'
+  Ref:   'such'
+  Context: ...for by springs [DIFF] yet some that...
+
+  Blind: 'yet'
+  Ref:   'hot'
+  Context: ...by springs sure [DIFF] some that fill...
+
+  Blind: 'some'
+  Ref:   'thinges'
+  Context: ...springs sure yet [DIFF] that fill &...
+
+  Blind: 'head'
+  Ref:   'head,'
+  Context: ...& stuffe the [DIFF] doe th bycause...
+
+  Blind: 'doe'
+  Ref:   'both'
+  Context: ...stuffe the head [DIFF] th bycause it...
+
+  Blind: 'th'
+  Ref:   'the'
+  Context: ...the head doe [DIFF] bycause it made...
+
+  Blind: 'bycause'
+  Ref:   'disease'
+  Context: ...head doe th [DIFF] it made greater...
+
+  Blind: 'it'
+  Ref:   'is'
+  Context: ...doe th bycause [DIFF] made greater &...
+
+  Blind: 'sale'
+  Ref:   'sicke'
+  Context: ...greater & the [DIFF] also brought one...
+
+  Blind: 'one'
+  Ref:   'into'
+  Context: ...sale also brought [DIFF] to Lavender, especially...
+
+  Blind: 'Lavender,'
+  Ref:   'danger,'
+  Context: ...brought one to [DIFF] especially to prevent...
+
+  Blind: 'to'
+  Ref:   'when'
+  Context: ...to Lavender, especially [DIFF] prevent reiny of...
+
+  Blind: 'prevent'
+  Ref:   'when'
+  Context: ...Lavender, especially to [DIFF] reiny of blood,...
+
+  Blind: 'prevent'
+  Ref:   'letting'
+  Context: ...Lavender, especially to [DIFF] reiny of blood,...
+
+  Blind: 'reiny'
+  Ref:   'letting'
+  Context: ...especially to prevent [DIFF] of blood, or...
+
+  Blind: 'puttynger'
+  Ref:   'purging'
+  Context: ...of blood, or [DIFF] and not bone...
+
+  Blind: 'puttynger'
+  Ref:   'haue'
+  Context: ...of blood, or [DIFF] and not bone...
+
+  Blind: 'and'
+  Ref:   'haue'
+  Context: ...blood, or puttynger [DIFF] not bone before,...
+
+  Blind: 'bone'
+  Ref:   'gone'
+  Context: ...puttynger and not [DIFF] before, I sett...
+
+  Blind: 'before,'
+  Ref:   'before.'
+  Context: ...and not bone [DIFF] I sett more...
+
+  Blind: 'I'
+  Ref:   'before.'
+  Context: ...not bone before, [DIFF] sett more by...
+
+  Blind: 'sett'
+  Ref:   'This'
+  Context: ...bone before, I [DIFF] more by way...
+
+  Blind: 'more'
+  Ref:   'much'
+  Context: ...before, I sett [DIFF] by way of...
+
+  Blind: 'womans'
+  Ref:   'where'
+  Context: ...admonition, because euery [DIFF] Liuers lose &...
+
+  Blind: 'Liuers'
+  Ref:   'divers'
+  Context: ...because euery womans [DIFF] lose & ouerload...
+
+  Blind: 'lose'
+  Ref:   'rash'
+  Context: ...euery womans Liuers [DIFF] & ouerload Apothecaries,...
+
+  Blind: 'ouerload'
+  Ref:   'ouerbould'
+  Context: ...Liuers lose & [DIFF] Apothecaries, & open...
+
+  Blind: 'open'
+  Ref:   'other'
+  Context: ...ouerload Apothecaries, & [DIFF] for its weomen,...
+
+  Blind: 'for'
+  Ref:   'foolish'
+  Context: ...Apothecaries, & open [DIFF] its weomen, so...
+
+  Blind: 'its'
+  Ref:   'foolish'
+  Context: ...& open for [DIFF] weomen, so b...
+
+  Blind: 'so'
+  Ref:   'do'
+  Context: ...for its weomen, [DIFF] b & giue...
+
+  ... and 4 more word-level differences
+
+All character-level edits:
+------------------------------------------------------------
+  [SUB] ref 'u' -> blind 'v' | ref: 'Lauander' | blind: 'Lavander,' [u/v convention]
+  [INS] ref has '<space>' (not in blind) | ref: 'Lauander' | blind: 'Lavander,' [word segmentation (extra space in ref)]
+  [INS] ref has 's' (not in blind) | ref: 'spike,' | blind: 'Lavander,' [insertion (ref has extra "s")]
+  [INS] ref has 'p' (not in blind) | ref: 'spike,' | blind: 'Lavander,' [insertion (ref has extra "p")]
+  [INS] ref has 'i' (not in blind) | ref: 'spike,' | blind: 'Lavander,' [insertion (ref has extra "i")]
+  [INS] ref has 'k' (not in blind) | ref: 'spike,' | blind: 'Lavander,' [insertion (ref has extra "k")]
+  [INS] ref has 'e' (not in blind) | ref: 'spike,' | blind: 'Lavander,' [insertion (ref has extra "e")]
+  [SUB] ref 't' -> blind 'C' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (t->C)]
+  [SUB] ref 'e' -> blind 'o' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (e/o)]
+  [SUB] ref 'e' -> blind 'o' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (e/o)]
+  [SUB] ref 'r' -> blind 's' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (r->s)]
+  [SUB] ref 'a' -> blind 'i' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (a->i)]
+  [DEL] blind has 'i' (not in ref) | ref: 'temperature.' | blind: 'Composition,' [deletion (blind has extra "i")]
+  [DEL] blind has 'o' (not in ref) | ref: 'temperature.' | blind: 'Composition,' [deletion (blind has extra "o")]
+  [SUB] ref 'u' -> blind 'n' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (u->n)]
+  [SUB] ref 'r' -> blind ',' | ref: 'temperature.' | blind: 'Composition,' [punctuation]
+  [SUB] ref 'e' -> blind '<space>' | ref: 'temperature.' | blind: 'Composition,' [letterform misreading (e-> )]
+  [SUB] ref '.' -> blind '7' | ref: 'temperature.' | blind: '7' [punctuation]
+  [SUB] ref 'u' -> blind 'v' | ref: 'Lauander' | blind: 'Lavander' [u/v convention]
+  [DEL] blind has 't' (not in ref) | ref: 'hot' | blind: 'hott' [deletion (blind has extra "t")]
+  [INS] ref has ',' (not in blind) | ref: 'degree,' | blind: 'degree' [punctuation (missing in blind)]
+  [INS] ref has 'n' (not in blind) | ref: 'thinn' | blind: 'thin' [insertion (ref has extra "n")]
+  [DEL] blind has 'p' (not in ref) | ref: 'consistinge' | blind: 'purssifyinge' [deletion (blind has extra "p")]
+  [SUB] ref 'c' -> blind 'u' | ref: 'consistinge' | blind: 'purssifyinge' [letterform misreading (c->u)]
+  [SUB] ref 'o' -> blind 'r' | ref: 'consistinge' | blind: 'purssifyinge' [letterform misreading (o->r)]
+  [SUB] ref 'n' -> blind 's' | ref: 'consistinge' | blind: 'purssifyinge' [letterform misreading (n->s)]
+  [SUB] ref 's' -> blind 'f' | ref: 'consistinge' | blind: 'purssifyinge' [long-s/f confusion]
+  [SUB] ref 't' -> blind 'y' | ref: 'consistinge' | blind: 'purssifyinge' [letterform misreading (t->y)]
+  [SUB] ref 'i' -> blind 'r' | ref: 'airie' | blind: 'arties' [letterform misreading (i->r)]
+  [SUB] ref 'r' -> blind 't' | ref: 'airie' | blind: 'arties' [letterform misreading (r->t)]
+  [DEL] blind has 's' (not in ref) | ref: 'airie' | blind: 'arties' [deletion (blind has extra "s")]
+  [SUB] ref 'p' -> blind 'w' | ref: 'partes.' | blind: 'waies' [letterform misreading (p->w)]
+  [INS] ref has 'r' (not in blind) | ref: 'partes.' | blind: 'waies' [insertion (ref has extra "r")]
+  [SUB] ref 't' -> blind 'i' | ref: 'partes.' | blind: 'waies' [letterform misreading (t->i)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'partes.' | blind: 'waies' [word segmentation (extra space in blind)]
+  [SUB] ref '.' -> blind 't' | ref: 'partes.' | blind: 'to' [punctuation]
+  [SUB] ref '<space>' -> blind 'o' | ref: 'partes.' | blind: 'to' [letterform misreading ( ->o)]
+  [SUB] ref 'T' -> blind '<space>' | ref: 'Therefore' | blind: 'to' [letterform misreading (T-> )]
+  [SUB] ref 'h' -> blind 'f' | ref: 'Therefore' | blind: 'fore' [letterform misreading (h->f)]
+  [SUB] ref 'e' -> blind 'o' | ref: 'Therefore' | blind: 'fore' [letterform misreading (e/o)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'Therefore' | blind: 'fore' [word segmentation (extra space in blind)]
+  [DEL] blind has 't' (not in ref) | ref: 'Therefore' | blind: 'forth' [deletion (blind has extra "t")]
+  [SUB] ref 'e' -> blind 'h' | ref: 'Therefore' | blind: 'forth' [letterform misreading (e->h)]
+  [SUB] ref 'g' -> blind 's' | ref: 'good' | blind: 'said' [letterform misreading (g->s)]
+  [SUB] ref 'o' -> blind 'a' | ref: 'good' | blind: 'said' [letterform misreading (o->a)]
+  [SUB] ref 'o' -> blind 'i' | ref: 'good' | blind: 'said' [letterform misreading (o->i)]
+  [DEL] blind has 'o' (not in ref) | ref: 'giuen' | blind: 'good' [deletion (blind has extra "o")]
+  [DEL] blind has 'o' (not in ref) | ref: 'giuen' | blind: 'good' [deletion (blind has extra "o")]
+  [SUB] ref 'i' -> blind 'd' | ref: 'giuen' | blind: 'good' [letterform misreading (i->d)]
+  [SUB] ref 'u' -> blind '<space>' | ref: 'giuen' | blind: 'good' [letterform misreading (u-> )]
+  [SUB] ref 'e' -> blind 'i' | ref: 'giuen' | blind: 'in' [letterform misreading (e->i)]
+  [DEL] blind has 'a' (not in ref) | ref: 'any' | blind: 'a' [deletion (blind has extra "a")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'any' | blind: 'a' [word segmentation (extra space in blind)]
+  [DEL] blind has 'm' (not in ref) | ref: 'any' | blind: 'many' [deletion (blind has extra "m")]
+  [INS] ref has 's' (not in blind) | ref: 'diseases' | blind: 'disease' [insertion (ref has extra "s")]
+  [SUB] ref 't' -> blind 'c' | ref: 'espetially' | blind: 'especially' [letterform misreading (c/t)]
+  [SUB] ref 'h' -> blind 'c' | ref: 'haue' | blind: 'cause' [letterform misreading (h->c)]
+  [DEL] blind has 's' (not in ref) | ref: 'haue' | blind: 'cause' [deletion (blind has extra "s")]
+  [SUB] ref 'i' -> blind '<space>' | ref: 'theire' | blind: 'the' [letterform misreading (i-> )]
+  [SUB] ref 'r' -> blind 'h' | ref: 'theire' | blind: 'head' [letterform misreading (r->h)]
+  [DEL] blind has 'a' (not in ref) | ref: 'theire' | blind: 'head' [deletion (blind has extra "a")]
+  [DEL] blind has 'd' (not in ref) | ref: 'theire' | blind: 'head' [deletion (blind has extra "d")]
+  [SUB] ref 'i' -> blind 'y' | ref: 'beginninge' | blind: 'begynninge' [letterform misreading (i->y)]
+  [DEL] blind has 'o' (not in ref) | ref: 'bundance' | blind: 'obundance' [deletion (blind has extra "o")]
+  [SUB] ref 'c' -> blind 't' | ref: 'cheifely' | blind: 'the' [letterform misreading (c/t)]
+  [SUB] ref 'i' -> blind '<space>' | ref: 'cheifely' | blind: 'the' [letterform misreading (i-> )]
+  [DEL] blind has 'o' (not in ref) | ref: 'cheifely' | blind: 'force' [deletion (blind has extra "o")]
+  [SUB] ref 'e' -> blind 'r' | ref: 'cheifely' | blind: 'force' [letterform misreading (e->r)]
+  [SUB] ref 'l' -> blind 'c' | ref: 'cheifely' | blind: 'force' [letterform misreading (l->c)]
+  [SUB] ref 'y' -> blind 'e' | ref: 'cheifely' | blind: 'force' [letterform misreading (y->e)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'onely.' | blind: 'onely' [word segmentation (extra space in blind)]
+  [SUB] ref '\n' -> blind '<space>' | ref: '' | blind: '' [lineation]
+  [INS] ref has '.' (not in blind) | ref: 'Vertues.' | blind: 'Vertues' [punctuation (missing in blind)]
+  [INS] ref has '\n' (not in blind) | ref: 'Vertues.' | blind: 'Vertues' [lineation (extra newline in ref)]
+  [SUB] ref 'u' -> blind 'v' | ref: 'Lauander' | blind: 'Lavander' [u/v convention]
+  [INS] ref has ',' (not in blind) | ref: 'vnto,' | blind: 'vnto' [punctuation (missing in blind)]
+  [SUB] ref 'r' -> blind 'n' | ref: 'or' | blind: 'on' [letterform misreading (r->n)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'forehead' | blind: 'fore' [word segmentation (extra space in blind)]
+  [INS] ref has 'b' (not in blind) | ref: 'bathed' | blind: 'and' [insertion (ref has extra "b")]
+  [INS] ref has 't' (not in blind) | ref: 'bathed' | blind: 'and' [insertion (ref has extra "t")]
+  [INS] ref has 'h' (not in blind) | ref: 'bathed' | blind: 'and' [insertion (ref has extra "h")]
+  [SUB] ref 'e' -> blind 'n' | ref: 'bathed' | blind: 'and' [letterform misreading (e->n)]
+  [DEL] blind has 'f' (not in ref) | ref: 'therwith,' | blind: 'fore' [deletion (blind has extra "f")]
+  [SUB] ref 't' -> blind 'o' | ref: 'therwith,' | blind: 'fore' [letterform misreading (t->o)]
+  [SUB] ref 'h' -> blind 'r' | ref: 'therwith,' | blind: 'fore' [letterform misreading (h->r)]
+  [SUB] ref 'r' -> blind '<space>' | ref: 'therwith,' | blind: 'fore' [letterform misreading (r-> )]
+  [INS] ref has ',' (not in blind) | ref: 'therwith,' | blind: 'with' [punctuation (missing in blind)]
+  [SUB] ref 'p' -> blind 'f' | ref: 'Catalepsie,' | blind: 'Catalefsie' [letterform misreading (p->f)]
+  [INS] ref has ',' (not in blind) | ref: 'Catalepsie,' | blind: 'Catalefsie' [punctuation (missing in blind)]
+  [SUB] ref 'M' -> blind 'm' | ref: 'Migram,' | blind: 'migram,' [capitalization]
+  [SUB] ref 'e' -> blind 's' | ref: 'fallinge' | blind: 'fallings' [letterform misreading (e->s)]
+  [DEL] blind has 'l' (not in ref) | ref: 'vse' | blind: 'lose' [deletion (blind has extra "l")]
+  [SUB] ref 'v' -> blind 'o' | ref: 'vse' | blind: 'lose' [letterform misreading (v->o)]
+  [INS] ref has 'o' (not in blind) | ref: 'soone' | blind: 'some' [insertion (ref has extra "o")]
+  [SUB] ref 'n' -> blind 'm' | ref: 'soone' | blind: 'some' [minim confusion (m/n)]
+  [DEL] blind has 'o' (not in ref) | ref: 'much.' | blind: 'mory' [deletion (blind has extra "o")]
+  [SUB] ref 'u' -> blind 'r' | ref: 'much.' | blind: 'mory' [letterform misreading (u->r)]
+  [SUB] ref 'c' -> blind 'y' | ref: 'much.' | blind: 'mory' [letterform misreading (c->y)]
+  [SUB] ref 'h' -> blind '<space>' | ref: 'much.' | blind: 'mory' [letterform misreading (h-> )]
+  [DEL] blind has 'e' (not in ref) | ref: 'when' | blind: 'we' [deletion (blind has extra "e")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'when' | blind: 'we' [word segmentation (extra space in blind)]
+  [SUB] ref 'h' -> blind 's' | ref: 'when' | blind: 'see' [letterform misreading (h->s)]
+  [SUB] ref 'n' -> blind 'e' | ref: 'when' | blind: 'see' [letterform misreading (n->e)]
+  [INS] ref has ',' (not in blind) | ref: 'humors,' | blind: 'humors' [punctuation (missing in blind)]
+  [SUB] ref 't' -> blind 'c' | ref: 'espetiallly' | blind: 'especially' [letterform misreading (c/t)]
+  [INS] ref has 'l' (not in blind) | ref: 'espetiallly' | blind: 'especially' [insertion (ref has extra "l")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'be' | blind: 'be' [word segmentation (extra space in blind)]
+  [DEL] blind has 's' (not in ref) | ref: 'be' | blind: 'so' [deletion (blind has extra "s")]
+  [DEL] blind has 'o' (not in ref) | ref: 'be' | blind: 'so' [deletion (blind has extra "o")]
+  [SUB] ref 'v' -> blind 'f' | ref: 'vsed' | blind: 'frely' [letterform misreading (v->f)]
+  [SUB] ref 's' -> blind 'r' | ref: 'vsed' | blind: 'frely' [letterform misreading (s->r)]
+  [DEL] blind has 'l' (not in ref) | ref: 'vsed' | blind: 'frely' [deletion (blind has extra "l")]
+  [SUB] ref 'd' -> blind 'y' | ref: 'vsed' | blind: 'frely' [letterform misreading (d->y)]
+  [SUB] ref 'l' -> blind 's' | ref: 'safely,' | blind: 'safest,' [letterform misreading (l->s)]
+  [SUB] ref 'y' -> blind 't' | ref: 'safely,' | blind: 'safest,' [letterform misreading (y->t)]
+  [DEL] blind has 'n' (not in ref) | ref: 'which' | blind: 'nor' [deletion (blind has extra "n")]
+  [DEL] blind has 'o' (not in ref) | ref: 'which' | blind: 'nor' [deletion (blind has extra "o")]
+  [SUB] ref 'w' -> blind 'r' | ref: 'which' | blind: 'nor' [letterform misreading (w->r)]
+  [SUB] ref 'h' -> blind '<space>' | ref: 'which' | blind: 'nor' [letterform misreading (h-> )]
+  [SUB] ref 'i' -> blind 'u' | ref: 'which' | blind: 'use' [letterform misreading (i->u)]
+  [SUB] ref 'c' -> blind 's' | ref: 'which' | blind: 'use' [letterform misreading (c->s)]
+  [SUB] ref 'h' -> blind 'e' | ref: 'which' | blind: 'use' [letterform misreading (h->e)]
+  [SUB] ref 'W' -> blind 'w' | ref: 'Wine:' | blind: 'water' [capitalization]
+  [SUB] ref 'i' -> blind 'a' | ref: 'Wine:' | blind: 'water' [letterform misreading (i->a)]
+  [SUB] ref 'n' -> blind 't' | ref: 'Wine:' | blind: 'water' [letterform misreading (n->t)]
+  [SUB] ref ':' -> blind 'r' | ref: 'Wine:' | blind: 'water' [punctuation]
+  [SUB] ref 'i' -> blind 'a' | ref: 'which' | blind: 'whatsoeuer' [letterform misreading (i->a)]
+  [SUB] ref 'c' -> blind 't' | ref: 'which' | blind: 'whatsoeuer' [letterform misreading (c/t)]
+  [SUB] ref 'h' -> blind 's' | ref: 'which' | blind: 'whatsoeuer' [letterform misreading (h->s)]
+  [SUB] ref '<space>' -> blind 'o' | ref: 'which' | blind: 'whatsoeuer' [letterform misreading ( ->o)]
+  [SUB] ref 's' -> blind 'e' | ref: 'such' | blind: 'whatsoeuer' [letterform misreading (s->e)]
+  [SUB] ref 'c' -> blind 'e' | ref: 'such' | blind: 'whatsoeuer' [letterform misreading (c->e)]
+  [SUB] ref 'h' -> blind 'r' | ref: 'such' | blind: 'whatsoeuer' [letterform misreading (h->r)]
+  [INS] ref has '<space>' (not in blind) | ref: 'seedes,' | blind: 'seedes,' [word segmentation (extra space in ref)]
+  [INS] ref has '&' (not in blind) | ref: '&' | blind: 'seedes,' [insertion (ref has extra "&")]
+  [SUB] ref 'c' -> blind 'C' | ref: 'certayne' | blind: 'Certayne' [capitalization]
+  [SUB] ref 's' -> blind 'h' | ref: 'spices' | blind: 'herbes' [letterform misreading (s->h)]
+  [SUB] ref 'p' -> blind 'e' | ref: 'spices' | blind: 'herbes' [letterform misreading (p->e)]
+  [SUB] ref 'i' -> blind 'r' | ref: 'spices' | blind: 'herbes' [letterform misreading (i->r)]
+  [SUB] ref 'c' -> blind 'b' | ref: 'spices' | blind: 'herbes' [letterform misreading (c->b)]
+  [INS] ref has 'i' (not in blind) | ref: 'infused' | blind: 'nifted' [insertion (ref has extra "i")]
+  [SUB] ref 'f' -> blind 'i' | ref: 'infused' | blind: 'nifted' [letterform misreading (f->i)]
+  [SUB] ref 'u' -> blind 'f' | ref: 'infused' | blind: 'nifted' [letterform misreading (u->f)]
+  [SUB] ref 's' -> blind 't' | ref: 'infused' | blind: 'nifted' [letterform misreading (s->t)]
+  [INS] ref has ',' (not in blind) | ref: 'steeped,' | blind: 'steeped' [punctuation (missing in blind)]
+  [SUB] ref 'd' -> blind 'm' | ref: 'do' | blind: 'mistake' [letterform misreading (d->m)]
+  [SUB] ref 'o' -> blind 'i' | ref: 'do' | blind: 'mistake' [letterform misreading (o->i)]
+  [SUB] ref '<space>' -> blind 's' | ref: 'do' | blind: 'mistake' [letterform misreading ( ->s)]
+  [SUB] ref 'r' -> blind 't' | ref: 'rashly' | blind: 'mistake' [letterform misreading (r->t)]
+  [INS] ref has 's' (not in blind) | ref: 'rashly' | blind: 'mistake' [insertion (ref has extra "s")]
+  ... and 112 more edits
+
+Error pattern analysis:
+------------------------------------------------------------
+  Capitalization differences:      3 (1.1% of errors)
+  u/v convention differences:      4 (1.5% of errors)
+  Thorn convention (ye/the):       0 (0.0% of errors)
+  Punctuation differences:        14 (5.3% of errors)
+  Lineation differences:           2 (0.8% of errors)
+  Word segmentation:              15 (5.7% of errors)
+  Letterform misreadings:        156 (59.5% of errors)
+  Minim confusion (m/n/u/i):       1 (0.4% of errors)
+
+  Adjusted CER (excluding capitalization, u/v, thorn, punctuation, lineation):
+  17.0592% (239 substantive errors / 1401 ref chars)
+
+
+================================================================================
+DETAILED ANALYSIS: Brumwich MS160
+================================================================================
+
+Reference length:  3592 characters
+Hypothesis length: 3567 characters
+Edit distance:     334
+CER:               9.2984%
+  Substitutions:   187
+  Insertions:      86
+  Deletions:       61
+
+Error categories (sorted by frequency):
+------------------------------------------------------------
+    61  lineation
+    29  insertion (ref has extra "t")
+    24  letterform misreading (h->y)
+    11  deletion (blind has extra "e")
+    11  capitalization
+    11  word segmentation (extra space in ref)
+     9  word segmentation (extra space in blind)
+     7  insertion (ref has extra "e")
+     7  deletion (blind has extra "i")
+     6  u/v convention
+     6  insertion (ref has extra "o")
+     6  lineation (extra newline in ref)
+     6  deletion (blind has extra "t")
+     4  deletion (blind has extra "s")
+     4  deletion (blind has extra "o")
+     4  letterform misreading (e->i)
+     3  letterform misreading (i->e)
+     3  deletion (blind has extra "l")
+     3  insertion (ref has extra "n")
+     3  insertion (ref has extra "y")
+     2  letterform misreading (r->t)
+     2  letterform misreading (i->o)
+     2  punctuation (extra in blind)
+     2  letterform misreading (t->s)
+     2  deletion (blind has extra "p")
+     2  letterform misreading (o->i)
+     2  insertion (ref has extra "s")
+     2  letterform misreading (r->n)
+     2  lineation (extra newline in blind)
+     2  deletion (blind has extra "a")
+     2  deletion (blind has extra "f")
+     2  insertion (ref has extra "a")
+     2  insertion (ref has extra "i")
+     2  letterform misreading (e->t)
+     2  letterform misreading (l->e)
+     2  letterform misreading (e->a)
+     2  letterform misreading (s->c)
+     2  insertion (ref has extra "C")
+     2  letterform misreading (e->s)
+     2  insertion (ref has extra "u")
+     2  letterform misreading (r->e)
+     2  insertion (ref has extra "m")
+     2  insertion (ref has extra "d")
+     1  deletion (blind has extra "c")
+     1  letterform misreading (i->t)
+     1  letterform misreading (y->a)
+     1  letterform misreading (2->5)
+     1  letterform misreading (y->i)
+     1  letterform misreading (u->a)
+     1  letterform misreading (r->o)
+     1  letterform misreading (o->r)
+     1  letterform misreading (e->&)
+     1  letterform misreading (p->c)
+     1  letterform misreading (c->l)
+     1  deletion (blind has extra "g")
+     1  letterform misreading (s->r)
+     1  letterform misreading (p->a)
+     1  letterform misreading (o->s)
+     1  deletion (blind has extra "r")
+     1  deletion (blind has extra "D")
+     1  deletion (blind has extra "h")
+     1  deletion (blind has extra "n")
+     1  insertion (ref has extra "p")
+     1  insertion (ref has extra "f")
+     1  letterform misreading ( ->&)
+     1  letterform misreading (l->c)
+     1  letterform misreading (l->h)
+     1  letterform misreading (i->f)
+     1  letterform misreading (s->t)
+     1  letterform misreading (r->m)
+     1  letterform misreading (n->s)
+     1  insertion (ref has extra "w")
+     1  letterform misreading (l->R)
+     1  letterform misreading (u->s)
+     1  letterform misreading (a->n)
+     1  deletion (blind has extra "y")
+     1  letterform misreading (l->p)
+     1  punctuation
+     1  letterform misreading (t->l)
+     1  letterform misreading (h->l)
+     1  letterform misreading (a->&)
+     1  letterform misreading (l-> )
+     1  letterform misreading (l->s)
+     1  letterform misreading (w->e)
+     1  letterform misreading (e/o)
+     1  letterform misreading (a->u)
+     1  insertion (ref has extra "T")
+     1  letterform misreading (y-> )
+     1  letterform misreading ( ->g)
+     1  letterform misreading (p->r)
+     1  letterform misreading (r->c)
+     1  letterform misreading (d->s)
+     1  insertion (ref has extra "b")
+     1  letterform misreading (e->B)
+     1  letterform misreading ( ->l)
+     1  long-s/f confusion
+     1  letterform misreading (i->a)
+     1  minim confusion (m/n)
+     1  insertion (ref has extra "r")
+     1  letterform misreading (u->e)
+     1  insertion (ref has extra "h")
+     1  letterform misreading (a->y)
+     1  letterform misreading (n->e)
+     1  letterform misreading (i->r)
+     1  letterform misreading (n->a)
+     1  letterform misreading (m->e)
+     1  letterform misreading (e->n)
+     1  letterform misreading (w->u)
+     1  letterform misreading (e->r)
+     1  letterform misreading (c/t)
+     1  letterform misreading (y->e)
+     1  letterform misreading (i->u)
+     1  letterform misreading (d->l)
+
+Word-level differences (blind vs reference):
+------------------------------------------------------------
+  Blind: 'Excelent'
+  Ref:   'Exelent'
+  Context: ...A water of [DIFF] vertue to helpe...
+
+  Blind: 'vertue'
+  Ref:   'uirtue'
+  Context: ...water of Excelent [DIFF] to helpe ye...
+
+  Blind: 'ye'
+  Ref:   'the'
+  Context: ...vertue to helpe [DIFF] weake or dimme...
+
+  Blind: 'tuetah'
+  Ref:   'tueiah'
+  Context: ...3 drames of [DIFF] in puder very...
+
+  Blind: 'very'
+  Ref:   'uery'
+  Context: ...tuetah in puder [DIFF] smalle & as...
+
+  Blind: 'epaticum'
+  Ref:   'epyricum'
+  Context: ...much of aloes [DIFF] in puder 5...
+
+  Blind: '5'
+  Ref:   '2'
+  Context: ...epaticum in puder [DIFF] drames of fine...
+
+  Blind: 'mixe'
+  Ref:   'mix'
+  Context: ...good white wine [DIFF] all thes together...
+
+  Blind: 'cleane'
+  Ref:   'Cleane'
+  Context: ...it into a [DIFF] glasse being well...
+
+  Blind: 'glasse'
+  Ref:   'glase'
+  Context: ...into a cleane [DIFF] being well closed...
+
+  Blind: 'closed'
+  Ref:   'Closed'
+  Context: ...glasse being well [DIFF] & stoped &...
+
+  Blind: 'mixsing'
+  Ref:   'mixing'
+  Context: ...a mounth together [DIFF] & stiring together...
+
+  Blind: 'said'
+  Ref:   'sayd'
+  Context: ...together all the [DIFF] things at least...
+
+  Blind: 'ya'
+  Ref:   'you'
+  Context: ...to ye intent [DIFF] incorporate this being...
+
+  Blind: 'incorporate'
+  Ref:   'in'
+  Context: ...ye intent ya [DIFF] this being done...
+
+  Blind: 'incorporate'
+  Ref:   'corproate'
+  Context: ...ye intent ya [DIFF] this being done...
+
+  Blind: 'continue'
+  Ref:   'contineue'
+  Context: ...morning & euening [DIFF] so & a...
+
+  Blind: 'so'
+  Ref:   'soe'
+  Context: ...& euening continue [DIFF] & a Caron...
+
+  Blind: '&'
+  Ref:   'soe'
+  Context: ...euening continue so [DIFF] a Caron scale...
+
+  Blind: 'Caron'
+  Ref:   'Cartin'
+  Context: ...so & a [DIFF] scale it will...
+
+  Blind: 'scale'
+  Ref:   'space'
+  Context: ...& a Caron [DIFF] it will cause...
+
+  Blind: 'againe'
+  Ref:   'again'
+  Context: ...sight to come [DIFF] & be as...
+
+  Blind: 'before.'
+  Ref:   'before'
+  Context: ...as it was [DIFF] A water to...
+
+  Blind: 'grasse'
+  Ref:   'grase'
+  Context: ...of 3 leaued [DIFF] with the white...
+
+  Blind: 'grasse'
+  Ref:   'spote'
+  Context: ...with the white [DIFF] prickley Cristy yarow...
+
+  Blind: 'prickley'
+  Ref:   'ockley'
+  Context: ...the white grasse [DIFF] Cristy yarow sinckfoild...
+
+  Blind: 'sinckfoild'
+  Ref:   'sinckfold'
+  Context: ...prickley Cristy yarow [DIFF] sallendine red fenill...
+
+  Blind: 'roses'
+  Ref:   'rosses'
+  Context: ...handfull of white [DIFF] on the water...
+
+  Blind: 'on'
+  Ref:   'or'
+  Context: ...of white roses [DIFF] the water of...
+
+  Blind: 'thes'
+  Ref:   'this'
+  Context: ...pinte shread all [DIFF] together & lay...
+
+  Blind: 'spoonfulls'
+  Ref:   'sponfulls'
+  Context: ...2 or 3 [DIFF] of honey in...
+
+  Blind: 'pott'
+  Ref:   'pot'
+  Context: ...in an earthen [DIFF] close stoped one...
+
+  Blind: 'still'
+  Ref:   'morning'
+  Context: ...in ye morning [DIFF] Distill it halfe...
+
+  Blind: 'Distill'
+  Ref:   'still'
+  Context: ...ye morning still [DIFF] it halfe a...
+
+  Blind: 'it'
+  Ref:   'still'
+  Context: ...morning still Distill [DIFF] halfe a pinte...
+
+  Blind: 'halfe'
+  Ref:   'still'
+  Context: ...still Distill it [DIFF] a pinte of...
+
+  Blind: 'a'
+  Ref:   'still'
+  Context: ...Distill it halfe [DIFF] pinte of it...
+
+  Blind: 'pinte'
+  Ref:   'still'
+  Context: ...it halfe a [DIFF] of it in...
+
+  Blind: 'of'
+  Ref:   'it'
+  Context: ...halfe a pinte [DIFF] it in a...
+
+  Blind: 'halfe'
+  Ref:   'a'
+  Context: ...adding to it [DIFF] & ye urine...
+
+  Blind: 'halfe'
+  Ref:   'pint'
+  Context: ...adding to it [DIFF] & ye urine...
+
+  Blind: '&'
+  Ref:   'of'
+  Context: ...to it halfe [DIFF] ye urine of...
+
+  Blind: '&'
+  Ref:   'the'
+  Context: ...to it halfe [DIFF] ye urine of...
+
+  Blind: 'child'
+  Ref:   'Child'
+  Context: ...of a man [DIFF] when you put...
+
+  Blind: 'into'
+  Ref:   'the'
+  Context: ...you put it [DIFF] ye stille drinck...
+
+  Blind: 'little'
+  Ref:   'litell'
+  Context: ...stille drinck a [DIFF] of this in...
+
+  Blind: 'fasting'
+  Ref:   'festing'
+  Context: ...in the morning [DIFF] 2 howers after...
+
+  Blind: 'litch'
+  Ref:   'litell'
+  Context: ...& with a [DIFF] rage wash ye...
+
+  Blind: 'seedes'
+  Ref:   'seeds'
+  Context: ...Take of ye [DIFF] of Coriander prepared...
+
+  Blind: 'Coriander'
+  Ref:   'Corander'
+  Context: ...ye seedes of [DIFF] prepared & sweet...
+
+  Blind: 'sweet'
+  Ref:   'swet'
+  Context: ...Coriander prepared & [DIFF] fenill of each...
+
+  Blind: 'mace'
+  Ref:   'mase'
+  Context: ...a drame of [DIFF] 2 scruples of...
+
+  Blind: 'sifted'
+  Ref:   'seised'
+  Context: ...sugar beaten & [DIFF] 3 ounces make...
+
+  Blind: 'spoonfull'
+  Ref:   'sponfull'
+  Context: ...take halfe a [DIFF] of it after...
+
+  Blind: ''
+  Ref:   'To'
+  Context: ...& after supper [DIFF] To Cuer a...
+
+  Blind: 'mistase'
+  Ref:   'Cristane'
+  Context: ...blind horse or [DIFF] Take of the...
+
+  Blind: '&'
+  Ref:   'newest'
+  Context: ...of the best [DIFF] wheat & lay...
+
+  Blind: 'Reaser'
+  Ref:   'Cleauer'
+  Context: ...one a Clean [DIFF] then take a...
+
+  Blind: 'hott'
+  Ref:   'hot'
+  Context: ...take a red [DIFF] fyre shouill &...
+
+  Blind: 'shouill'
+  Ref:   'shouell'
+  Context: ...red hott fyre [DIFF] & lay upon...
+
+  Blind: 'stand'
+  Ref:   'tread'
+  Context: ...let a man [DIFF] hand upon it...
+
+  Blind: 'hand'
+  Ref:   'hard'
+  Context: ...a man stand [DIFF] upon it &...
+
+  Blind: 'ye'
+  Ref:   '&'
+  Context: ...upon it & [DIFF] other will come...
+
+  Blind: 'other'
+  Ref:   'ther'
+  Context: ...it & ye [DIFF] will come forth...
+
+  Blind: 'poke'
+  Ref:   'like'
+  Context: ...feather quikley & [DIFF] up the oyle...
+
+  Blind: 'eye.'
+  Ref:   'eye'
+  Context: ...feather through the [DIFF] A water for...
+
+  Blind: 'eye.'
+  Ref:   ''
+  Context: ...feather through the [DIFF] A water for...
+
+  Blind: 'Swelled'
+  Ref:   'swelled'
+  Context: ...lides are all [DIFF] Take a pritty...
+
+  Blind: 'pritty'
+  Ref:   'pritey'
+  Context: ...Swelled Take a [DIFF] quantity of red...
+
+  Blind: 'quantity'
+  Ref:   'quantety'
+  Context: ...Take a pritty [DIFF] of red rosewater...
+
+  Blind: 'will'
+  Ref:   'with'
+  Context: ...fine powder as [DIFF] turne it &...
+
+  Blind: '&'
+  Ref:   'yeallow'
+  Context: ...will turne it [DIFF] soe drope a...
+
+  Blind: 'soe'
+  Ref:   'yeallow'
+  Context: ...turne it & [DIFF] drope a drope...
+
+  Blind: ''
+  Ref:   'A'
+  Context: ...with a feather [DIFF] A Medicine for...
+
+  Blind: 'Cloutes'
+  Ref:   'Cloues'
+  Context: ...eyes Take three [DIFF] beat them fine...
+
+  Blind: 'course'
+  Ref:   'searse'
+  Context: ...them fine and [DIFF] them three Spoonsfulls...
+
+  Blind: 'Spoonsfulls'
+  Ref:   'Spoonefulls'
+  Context: ...course them three [DIFF] of fennill water...
+
+  Blind: 'Mamsey'
+  Ref:   'mamsey'
+  Context: ...3 Spoonsfulls of [DIFF] 3 pennyworth of...
+
+  Blind: 'pennyworth'
+  Ref:   'penny'
+  Context: ...of Mamsey 3 [DIFF] of graces and...
+
+  Blind: 'of'
+  Ref:   'Tutty'
+  Context: ...Mamsey 3 pennyworth [DIFF] graces and Balsame...
+
+  Blind: ''
+  Ref:   'Tutty'
+  Context: ...3 pennyworth of [DIFF] graces and Balsame...
+
+  Blind: 'graces'
+  Ref:   'Tutty'
+  Context: ...3 pennyworth of [DIFF] and Balsame mixe...
+
+  Blind: 'graces'
+  Ref:   'pared'
+  Context: ...3 pennyworth of [DIFF] and Balsame mixe...
+
+  Blind: 'Balsame'
+  Ref:   'beaten'
+  Context: ...of graces and [DIFF] mixe all these...
+
+  Blind: 'Balsame'
+  Ref:   'fine'
+  Context: ...of graces and [DIFF] mixe all these...
+
+  Blind: 'day'
+  Ref:   'or'
+  Context: ...feather once a [DIFF] as ye shall...
+
+  Blind: 'ye'
+  Ref:   'you'
+  Context: ...a day as [DIFF] shall see occasion...
+
+  Blind: 'for'
+  Ref:   'For'
+  Context: ...shall see occasion [DIFF] a pinne or...
+
+  Blind: 'eye'
+  Ref:   'Eye'
+  Context: ...web in ye [DIFF] the white of...
+
+  Blind: 'the'
+  Ref:   'The'
+  Context: ...in ye eye [DIFF] white of hens...
+
+  Blind: 'ye'
+  Ref:   'than'
+  Context: ...of ye white [DIFF] of ye grager...
+
+  Blind: 'grager'
+  Ref:   'ginger'
+  Context: ...ye of ye [DIFF] put some into...
+
+  Blind: 'comended'
+  Ref:   'commeded'
+  Context: ...for sore eyes [DIFF] by Sir James...
+
+  Blind: 'water'
+  Ref:   'watter'
+  Context: ...Langham Take of [DIFF] of frogs Spawn...
+
+  Blind: 'Spawn'
+  Ref:   'spawn'
+  Context: ...water of frogs [DIFF] perdelicum half a...
+
+  Blind: 'volus'
+  Ref:   'uolus'
+  Context: ...a dram of [DIFF] metelorum after wait...
+
+  Blind: 'pece'
+  Ref:   'peice'
+  Context: ...of through a [DIFF] of lawne paper...
+
+  Blind: 'Salprunela'
+  Ref:   'Salprunla'
+  Context: ...into it of [DIFF] & sugar Candy...
+
+  Blind: 'Candy'
+  Ref:   'candy'
+  Context: ...Salprunela & sugar [DIFF] finely powdred of...
+
+  Blind: 'finely'
+  Ref:   'finly'
+  Context: ...& sugar Candy [DIFF] powdred of each...
+
+  ... and 15 more word-level differences
+
+All character-level edits:
+------------------------------------------------------------
+  [DEL] blind has 'c' (not in ref) | ref: 'Exelent' | blind: 'Excelent' [deletion (blind has extra "c")]
+  [SUB] ref 'u' -> blind 'v' | ref: 'uirtue' | blind: 'vertue' [u/v convention]
+  [SUB] ref 'i' -> blind 'e' | ref: 'uirtue' | blind: 'vertue' [letterform misreading (i->e)]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'weake' | blind: 'weake' [lineation]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'they' | blind: 'they' [lineation]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'sicknes' | blind: 'sicknes' [lineation]
+  [SUB] ref 'i' -> blind 't' | ref: 'tueiah' | blind: 'tuetah' [letterform misreading (i->t)]
+  [SUB] ref 'u' -> blind 'v' | ref: 'uery' | blind: 'very' [u/v convention]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'smalle' | blind: 'smalle' [lineation]
+  [SUB] ref 'y' -> blind 'a' | ref: 'epyricum' | blind: 'epaticum' [letterform misreading (y->a)]
+  [SUB] ref 'r' -> blind 't' | ref: 'epyricum' | blind: 'epaticum' [letterform misreading (r->t)]
+  [SUB] ref '2' -> blind '5' | ref: '2' | blind: '5' [letterform misreading (2->5)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'of' | blind: 'of' [lineation]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'of' | blind: 'of' [lineation]
+  [DEL] blind has 'e' (not in ref) | ref: 'mix' | blind: 'mixe' [deletion (blind has extra "e")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'into' | blind: 'into' [lineation]
+  [SUB] ref 'C' -> blind 'c' | ref: 'Cleane' | blind: 'cleane' [capitalization]
+  [DEL] blind has 's' (not in ref) | ref: 'glase' | blind: 'glasse' [deletion (blind has extra "s")]
+  [SUB] ref 'C' -> blind 'c' | ref: 'Closed' | blind: 'closed' [capitalization]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'set' | blind: 'set' [lineation]
+  [DEL] blind has 's' (not in ref) | ref: 'mixing' | blind: 'mixsing' [deletion (blind has extra "s")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'mixing' | blind: 'mixsing' [lineation]
+  [SUB] ref 'y' -> blind 'i' | ref: 'sayd' | blind: 'said' [letterform misreading (y->i)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'least' | blind: 'least' [lineation]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [INS] ref has 'o' (not in blind) | ref: 'you' | blind: 'ya' [insertion (ref has extra "o")]
+  [SUB] ref 'u' -> blind 'a' | ref: 'you' | blind: 'ya' [letterform misreading (u->a)]
+  [INS] ref has '<space>' (not in blind) | ref: 'in' | blind: 'incorporate' [word segmentation (extra space in ref)]
+  [SUB] ref 'r' -> blind 'o' | ref: 'corproate' | blind: 'incorporate' [letterform misreading (r->o)]
+  [SUB] ref 'o' -> blind 'r' | ref: 'corproate' | blind: 'incorporate' [letterform misreading (o->r)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'this' | blind: 'this' [lineation]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'drope' | blind: 'drope' [lineation]
+  [INS] ref has 'e' (not in blind) | ref: 'contineue' | blind: 'continue' [insertion (ref has extra "e")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'soe' | blind: 'so' [word segmentation (extra space in blind)]
+  [SUB] ref 'e' -> blind '&' | ref: 'soe' | blind: '&' [letterform misreading (e->&)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'a' | blind: 'a' [lineation]
+  [INS] ref has 't' (not in blind) | ref: 'Cartin' | blind: 'Caron' [insertion (ref has extra "t")]
+  [SUB] ref 'i' -> blind 'o' | ref: 'Cartin' | blind: 'Caron' [letterform misreading (i->o)]
+  [SUB] ref 'p' -> blind 'c' | ref: 'space' | blind: 'scale' [letterform misreading (p->c)]
+  [SUB] ref 'c' -> blind 'l' | ref: 'space' | blind: 'scale' [letterform misreading (c->l)]
+  [DEL] blind has 'e' (not in ref) | ref: 'again' | blind: 'againe' [deletion (blind has extra "e")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'again' | blind: 'againe' [lineation]
+  [DEL] blind has '.' (not in ref) | ref: 'before' | blind: 'before.' [punctuation (extra in blind)]
+  [SUB] ref '\n' -> blind '<space>' | ref: '' | blind: '' [lineation]
+  [INS] ref has '\n' (not in blind) | ref: 'sight' | blind: 'sight' [lineation (extra newline in ref)]
+  [DEL] blind has 's' (not in ref) | ref: 'grase' | blind: 'grasse' [deletion (blind has extra "s")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'the' | blind: 'the' [lineation]
+  [DEL] blind has 'g' (not in ref) | ref: 'spote' | blind: 'grasse' [deletion (blind has extra "g")]
+  [SUB] ref 's' -> blind 'r' | ref: 'spote' | blind: 'grasse' [letterform misreading (s->r)]
+  [SUB] ref 'p' -> blind 'a' | ref: 'spote' | blind: 'grasse' [letterform misreading (p->a)]
+  [SUB] ref 'o' -> blind 's' | ref: 'spote' | blind: 'grasse' [letterform misreading (o->s)]
+  [SUB] ref 't' -> blind 's' | ref: 'spote' | blind: 'grasse' [letterform misreading (t->s)]
+  [DEL] blind has 'p' (not in ref) | ref: 'ockley' | blind: 'prickley' [deletion (blind has extra "p")]
+  [DEL] blind has 'r' (not in ref) | ref: 'ockley' | blind: 'prickley' [deletion (blind has extra "r")]
+  [SUB] ref 'o' -> blind 'i' | ref: 'ockley' | blind: 'prickley' [letterform misreading (o->i)]
+  [DEL] blind has 'i' (not in ref) | ref: 'sinckfold' | blind: 'sinckfoild' [deletion (blind has extra "i")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'sallendine' | blind: 'sallendine' [lineation]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'great' | blind: 'great' [lineation]
+  [INS] ref has 's' (not in blind) | ref: 'rosses' | blind: 'roses' [insertion (ref has extra "s")]
+  [SUB] ref 'r' -> blind 'n' | ref: 'or' | blind: 'on' [letterform misreading (r->n)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'of' | blind: 'of' [lineation]
+  [SUB] ref 'i' -> blind 'e' | ref: 'this' | blind: 'thes' [letterform misreading (i->e)]
+  [SUB] ref '<space>' -> blind '\n' | ref: '&' | blind: '&' [lineation]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'wine' | blind: 'wine' [lineation]
+  [DEL] blind has 'o' (not in ref) | ref: 'sponfulls' | blind: 'spoonfulls' [deletion (blind has extra "o")]
+  [DEL] blind has 't' (not in ref) | ref: 'pot' | blind: 'pott' [deletion (blind has extra "t")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'pot' | blind: 'pott' [lineation]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [DEL] blind has '<space>' (not in ref) | ref: 'morning' | blind: 'morning' [word segmentation (extra space in blind)]
+  [DEL] blind has 's' (not in ref) | ref: 'morning' | blind: 'still' [deletion (blind has extra "s")]
+  [DEL] blind has 't' (not in ref) | ref: 'morning' | blind: 'still' [deletion (blind has extra "t")]
+  [DEL] blind has 'i' (not in ref) | ref: 'morning' | blind: 'still' [deletion (blind has extra "i")]
+  [DEL] blind has 'l' (not in ref) | ref: 'morning' | blind: 'still' [deletion (blind has extra "l")]
+  [DEL] blind has 'l' (not in ref) | ref: 'morning' | blind: 'still' [deletion (blind has extra "l")]
+  [DEL] blind has '\n' (not in ref) | ref: 'morning' | blind: 'still' [lineation (extra newline in blind)]
+  [DEL] blind has 'D' (not in ref) | ref: 'still' | blind: 'Distill' [deletion (blind has extra "D")]
+  [DEL] blind has 'i' (not in ref) | ref: 'still' | blind: 'Distill' [deletion (blind has extra "i")]
+  [DEL] blind has 'l' (not in ref) | ref: 'still' | blind: 'Distill' [deletion (blind has extra "l")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'still' | blind: 'Distill' [word segmentation (extra space in blind)]
+  [DEL] blind has 'i' (not in ref) | ref: 'still' | blind: 'it' [deletion (blind has extra "i")]
+  [DEL] blind has 't' (not in ref) | ref: 'still' | blind: 'it' [deletion (blind has extra "t")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'still' | blind: 'it' [word segmentation (extra space in blind)]
+  [DEL] blind has 'h' (not in ref) | ref: 'still' | blind: 'halfe' [deletion (blind has extra "h")]
+  [DEL] blind has 'a' (not in ref) | ref: 'still' | blind: 'halfe' [deletion (blind has extra "a")]
+  [DEL] blind has 'f' (not in ref) | ref: 'still' | blind: 'halfe' [deletion (blind has extra "f")]
+  [DEL] blind has 'e' (not in ref) | ref: 'still' | blind: 'halfe' [deletion (blind has extra "e")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'still' | blind: 'halfe' [word segmentation (extra space in blind)]
+  [DEL] blind has 'a' (not in ref) | ref: 'still' | blind: 'a' [deletion (blind has extra "a")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'still' | blind: 'a' [word segmentation (extra space in blind)]
+  [DEL] blind has 'p' (not in ref) | ref: 'still' | blind: 'pinte' [deletion (blind has extra "p")]
+  [DEL] blind has 'i' (not in ref) | ref: 'still' | blind: 'pinte' [deletion (blind has extra "i")]
+  [DEL] blind has 'n' (not in ref) | ref: 'still' | blind: 'pinte' [deletion (blind has extra "n")]
+  [DEL] blind has 't' (not in ref) | ref: 'still' | blind: 'pinte' [deletion (blind has extra "t")]
+  [DEL] blind has 'e' (not in ref) | ref: 'still' | blind: 'pinte' [deletion (blind has extra "e")]
+  [DEL] blind has 'o' (not in ref) | ref: 'it' | blind: 'of' [deletion (blind has extra "o")]
+  [DEL] blind has 'f' (not in ref) | ref: 'it' | blind: 'of' [deletion (blind has extra "f")]
+  [DEL] blind has '\n' (not in ref) | ref: 'it' | blind: 'of' [lineation (extra newline in blind)]
+  [INS] ref has '<space>' (not in blind) | ref: 'halfe' | blind: 'halfe' [word segmentation (extra space in ref)]
+  [INS] ref has 'a' (not in blind) | ref: 'a' | blind: 'halfe' [insertion (ref has extra "a")]
+  [INS] ref has '<space>' (not in blind) | ref: 'a' | blind: 'halfe' [word segmentation (extra space in ref)]
+  [INS] ref has 'p' (not in blind) | ref: 'pint' | blind: 'halfe' [insertion (ref has extra "p")]
+  [INS] ref has 'i' (not in blind) | ref: 'pint' | blind: 'halfe' [insertion (ref has extra "i")]
+  [INS] ref has 'n' (not in blind) | ref: 'pint' | blind: 'halfe' [insertion (ref has extra "n")]
+  [INS] ref has 't' (not in blind) | ref: 'pint' | blind: 'halfe' [insertion (ref has extra "t")]
+  [INS] ref has 'o' (not in blind) | ref: 'of' | blind: '&' [insertion (ref has extra "o")]
+  [INS] ref has 'f' (not in blind) | ref: 'of' | blind: '&' [insertion (ref has extra "f")]
+  [SUB] ref '<space>' -> blind '&' | ref: 'of' | blind: '&' [letterform misreading ( ->&)]
+  [SUB] ref 't' -> blind '\n' | ref: 'the' | blind: '&' [lineation]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [SUB] ref 'C' -> blind 'c' | ref: 'Child' | blind: 'child' [capitalization]
+  [INS] ref has '<space>' (not in blind) | ref: 'into' | blind: 'into' [word segmentation (extra space in ref)]
+  [SUB] ref 't' -> blind '\n' | ref: 'the' | blind: 'into' [lineation]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [SUB] ref 'e' -> blind 't' | ref: 'litell' | blind: 'little' [letterform misreading (e->t)]
+  [SUB] ref 'l' -> blind 'e' | ref: 'litell' | blind: 'little' [letterform misreading (l->e)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'morning' | blind: 'morning' [lineation]
+  [SUB] ref 'e' -> blind 'a' | ref: 'festing' | blind: 'fasting' [letterform misreading (e->a)]
+  [INS] ref has 'e' (not in blind) | ref: 'litell' | blind: 'litch' [insertion (ref has extra "e")]
+  [SUB] ref 'l' -> blind 'c' | ref: 'litell' | blind: 'litch' [letterform misreading (l->c)]
+  [SUB] ref 'l' -> blind 'h' | ref: 'litell' | blind: 'litch' [letterform misreading (l->h)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'rage' | blind: 'rage' [lineation]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [SUB] ref '\n' -> blind '<space>' | ref: '' | blind: '' [lineation]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [INS] ref has '\n' (not in blind) | ref: 'eyes' | blind: 'eyes' [lineation (extra newline in ref)]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'ye' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'y' | ref: 'the' | blind: 'ye' [letterform misreading (h->y)]
+  [DEL] blind has 'e' (not in ref) | ref: 'seeds' | blind: 'seedes' [deletion (blind has extra "e")]
+  [DEL] blind has 'i' (not in ref) | ref: 'Corander' | blind: 'Coriander' [deletion (blind has extra "i")]
+  [DEL] blind has 'e' (not in ref) | ref: 'swet' | blind: 'sweet' [deletion (blind has extra "e")]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'swet' | blind: 'sweet' [lineation]
+  [SUB] ref 's' -> blind 'c' | ref: 'mase' | blind: 'mace' [letterform misreading (s->c)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'eye' | blind: 'eye' [lineation]
+  [SUB] ref 'e' -> blind 'i' | ref: 'seised' | blind: 'sifted' [letterform misreading (e->i)]
+  [SUB] ref 'i' -> blind 'f' | ref: 'seised' | blind: 'sifted' [letterform misreading (i->f)]
+  [SUB] ref 's' -> blind 't' | ref: 'seised' | blind: 'sifted' [letterform misreading (s->t)]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'seised' | blind: 'sifted' [lineation]
+  [SUB] ref '<space>' -> blind '\n' | ref: 'a' | blind: 'a' [lineation]
+  [DEL] blind has 'o' (not in ref) | ref: 'sponfull' | blind: 'spoonfull' [deletion (blind has extra "o")]
+  [DEL] blind has '<space>' (not in ref) | ref: 'To' | blind: '' [word segmentation (extra space in blind)]
+  [INS] ref has 'C' (not in blind) | ref: 'Cristane' | blind: 'mistase' [insertion (ref has extra "C")]
+  [SUB] ref 'r' -> blind 'm' | ref: 'Cristane' | blind: 'mistase' [letterform misreading (r->m)]
+  ... and 184 more edits
+
+Error pattern analysis:
+------------------------------------------------------------
+  Capitalization differences:     11 (3.3% of errors)
+  u/v convention differences:      6 (1.8% of errors)
+  Thorn convention (ye/the):       0 (0.0% of errors)
+  Punctuation differences:         3 (0.9% of errors)
+  Lineation differences:          69 (20.7% of errors)
+  Word segmentation:              20 (6.0% of errors)
+  Letterform misreadings:        106 (31.7% of errors)
+  Minim confusion (m/n/u/i):       1 (0.3% of errors)
+
+  Adjusted CER (excluding capitalization, u/v, thorn, punctuation, lineation):
+  6.8207% (245 substantive errors / 3592 ref chars)
+
+
+================================================================================
+DETAILED ANALYSIS: Jane Jackson MS373
+================================================================================
+
+Reference length:  3998 characters
+Hypothesis length: 1310 characters
+Edit distance:     3095
+CER:               77.4137%
+  Substitutions:   401
+  Insertions:      2691
+  Deletions:       3
+
+Error categories (sorted by frequency):
+------------------------------------------------------------
+   462  word segmentation (extra space in ref)
+   305  insertion (ref has extra "e")
+   225  insertion (ref has extra "t")
+   182  insertion (ref has extra "a")
+   153  insertion (ref has extra "o")
+   138  insertion (ref has extra "i")
+   135  insertion (ref has extra "l")
+   123  insertion (ref has extra "n")
+   107  insertion (ref has extra "s")
+   106  insertion (ref has extra "h")
+   103  insertion (ref has extra "r")
+    76  insertion (ref has extra "w")
+    73  insertion (ref has extra "u")
+    73  insertion (ref has extra "d")
+    61  insertion (ref has extra "f")
+    61  insertion (ref has extra "m")
+    58  lineation
+    48  insertion (ref has extra "y")
+    36  insertion (ref has extra "g")
+    35  insertion (ref has extra "c")
+    30  insertion (ref has extra "k")
+    30  insertion (ref has extra "p")
+    22  lineation (extra newline in ref)
+    22  insertion (ref has extra "b")
+    14  insertion (ref has extra "T")
+    11  insertion (ref has extra "q")
+    10  insertion (ref has extra "x")
+     8  insertion (ref has extra "v")
+     8  punctuation (missing in blind)
+     6  insertion (ref has extra "F")
+     6  letterform misreading (t->s)
+     6  letterform misreading (a->i)
+     5  insertion (ref has extra "j")
+     5  letterform misreading (e/o)
+     5  insertion (ref has extra "A")
+     5  letterform misreading (e->&)
+     4  letterform misreading (e->r)
+     4  letterform misreading (n->r)
+     4  minim confusion (m/n)
+     4  punctuation
+     4  letterform misreading (e-> )
+     4  letterform misreading (e->s)
+     3  letterform misreading (h->s)
+     3  letterform misreading (c/t)
+     3  letterform misreading (a->o)
+     3  letterform misreading ( ->t)
+     3  letterform misreading (h->n)
+     3  capitalization
+     3  letterform misreading ( ->a)
+     3  letterform misreading (e->h)
+     3  letterform misreading (a->e)
+     3  letterform misreading (e->g)
+     3  letterform misreading (r->&)
+     3  letterform misreading (a->&)
+     3  letterform misreading ( ->h)
+     3  letterform misreading (t->f)
+     3  letterform misreading (l->o)
+     3  insertion (ref has extra "L")
+     3  letterform misreading (i->e)
+     3  letterform misreading ( ->n)
+     3  insertion (ref has extra "C")
+     2  letterform misreading (h->o)
+     2  letterform misreading (r->i)
+     2  letterform misreading (t->&)
+     2  letterform misreading (e->a)
+     2  letterform misreading (t->e)
+     2  letterform misreading (g->e)
+     2  letterform misreading (e->p)
+     2  letterform misreading (n->p)
+     2  letterform misreading ( ->g)
+     2  letterform misreading (o->a)
+     2  letterform misreading (l->&)
+     2  letterform misreading (n->c)
+     2  letterform misreading (d->e)
+     2  letterform misreading (r->f)
+     2  letterform misreading ( ->w)
+     2  letterform misreading (t->h)
+     2  letterform misreading (d->&)
+     2  letterform misreading ( ->o)
+     2  letterform misreading (h->b)
+     2  letterform misreading ( ->e)
+     2  letterform misreading (t->w)
+     2  letterform misreading (o->n)
+     2  letterform misreading (n-> )
+     2  letterform misreading (e->l)
+     2  letterform misreading ( ->d)
+     2  letterform misreading (e->n)
+     2  letterform misreading (n->t)
+     2  letterform misreading ( ->u)
+     2  letterform misreading (h->c)
+     2  letterform misreading (u->i)
+     2  letterform misreading (y->f)
+     2  letterform misreading (w->t)
+     2  letterform misreading (c->g)
+     2  letterform misreading (h->&)
+     2  letterform misreading (w->a)
+     2  letterform misreading (u->k)
+     2  letterform misreading (n->a)
+     2  insertion (ref has extra "I")
+     2  letterform misreading (e->t)
+     2  letterform misreading (e->i)
+     2  letterform misreading (l->g)
+     2  letterform misreading (n->s)
+     2  letterform misreading ( ->c)
+     2  letterform misreading (i->o)
+     2  letterform misreading (h->i)
+     2  letterform misreading (r->l)
+     2  letterform misreading ( ->f)
+     2  letterform misreading ( ->m)
+     2  letterform misreading (h->g)
+     2  letterform misreading (i->s)
+     2  letterform misreading (e->d)
+     2  letterform misreading (r->b)
+     2  letterform misreading ( ->i)
+     2  insertion (ref has extra "℥")
+     1  letterform misreading (t->F)
+     1  letterform misreading (a->t)
+     1  deletion (blind has extra "e")
+     1  deletion (blind has extra "s")
+     1  letterform misreading (l->b)
+     1  deletion (blind has extra "a")
+     1  letterform misreading (h->k)
+     1  letterform misreading (v->w)
+     1  letterform misreading (l->i)
+     1  letterform misreading (l->e)
+     1  insertion (ref has extra "3")
+     1  insertion (ref has extra "4")
+     1  letterform misreading (p->o)
+     1  letterform misreading (r->o)
+     1  letterform misreading (r->m)
+     1  letterform misreading (y->D)
+     1  letterform misreading (t->m)
+     1  letterform misreading (v->l)
+     1  letterform misreading (h->r)
+     1  letterform misreading (T->m)
+     1  letterform misreading (h->a)
+     1  letterform misreading (t->r)
+     1  letterform misreading (s->w)
+     1  letterform misreading (h-> )
+     1  letterform misreading (s->i)
+     1  letterform misreading (c->l)
+     1  letterform misreading (F->s)
+     1  letterform misreading (m->d)
+     1  letterform misreading (p->d)
+     1  letterform misreading (o->b)
+     1  letterform misreading (m->a)
+     1  letterform misreading (r->d)
+     1  letterform misreading (u->t)
+     1  letterform misreading (m->h)
+     1  letterform misreading (T-> )
+     1  letterform misreading (k->l)
+     1  insertion (ref has extra "P")
+     1  letterform misreading (t->A)
+     1  letterform misreading (w->o)
+     1  letterform misreading (n->l)
+     1  letterform misreading (d->o)
+     1  letterform misreading (l->f)
+     1  letterform misreading (f->b)
+     1  letterform misreading ( ->l)
+     1  letterform misreading (f->T)
+     1  letterform misreading (o->k)
+     1  letterform misreading (e->B)
+     1  letterform misreading (i->a)
+     1  letterform misreading (w->r)
+     1  letterform misreading (u->r)
+     1  letterform misreading (F->C)
+     1  letterform misreading (f->r)
+     1  letterform misreading (p->m)
+     1  letterform misreading (f->w)
+     1  letterform misreading (d->h)
+     1  letterform misreading (b->r)
+     1  letterform misreading (i->r)
+     1  letterform misreading (l->m)
+     1  letterform misreading (v->g)
+     1  letterform misreading (k->d)
+     1  letterform misreading (l->T)
+     1  letterform misreading (o->&)
+     1  letterform misreading (u-> )
+     1  letterform misreading (l->E)
+     1  letterform misreading (u->n)
+     1  letterform misreading (r->e)
+     1  letterform misreading (o->d)
+     1  letterform misreading (r->a)
+     1  letterform misreading (n->g)
+     1  letterform misreading (y->g)
+     1  letterform misreading (o->l)
+     1  letterform misreading (l->n)
+     1  letterform misreading (a->b)
+     1  letterform misreading (t->y)
+     1  letterform misreading ( ->p)
+     1  letterform misreading (o->D)
+     1  letterform misreading (d->a)
+     1  insertion (ref has extra "S")
+     1  letterform misreading (r->q)
+     1  letterform misreading (t->d)
+     1  letterform misreading (l->t)
+     1  letterform misreading (h->V)
+     1  letterform misreading (y->r)
+     1  letterform misreading (p->h)
+     1  letterform misreading (u->p)
+     1  letterform misreading (t->o)
+     1  letterform misreading (w->l)
+     1  letterform misreading (k->y)
+     1  letterform misreading (m->t)
+     1  letterform misreading (i->x)
+     1  letterform misreading (p->c)
+     1  letterform misreading (o->A)
+     1  letterform misreading (p->e)
+     1  letterform misreading (w->s)
+     1  letterform misreading (a->c)
+     1  letterform misreading ( ->b)
+     1  letterform misreading (C->e)
+     1  letterform misreading (o->i)
+     1  letterform misreading (p->g)
+     1  letterform misreading (t-> )
+     1  letterform misreading (T->r)
+     1  letterform misreading (a->d)
+     1  letterform misreading (k->e)
+     1  letterform misreading (g->a)
+     1  letterform misreading (y->n)
+     1  letterform misreading (n->A)
+     1  letterform misreading (h->f)
+     1  letterform misreading (t->p)
+     1  letterform misreading (a->f)
+     1  letterform misreading (u->D)
+     1  letterform misreading (h->e)
+     1  letterform misreading (a->p)
+     1  letterform misreading (t->i)
+     1  letterform misreading (r->g)
+     1  letterform misreading (c->d)
+     1  letterform misreading (l->s)
+     1  letterform misreading (p->r)
+     1  letterform misreading (a->g)
+     1  letterform misreading (l->u)
+     1  letterform misreading (l->r)
+     1  letterform misreading (w->k)
+     1  letterform misreading (k->h)
+     1  letterform misreading (i->g)
+     1  letterform misreading (t->a)
+     1  letterform misreading (c->h)
+     1  letterform misreading (n->&)
+     1  letterform misreading (a->r)
+     1  letterform misreading (e->f)
+     1  letterform misreading (i->n)
+     1  letterform misreading (k->t)
+     1  letterform misreading (p->t)
+     1  letterform misreading (l->h)
+     1  insertion (ref has extra "B")
+     1  letterform misreading ( ->s)
+     1  insertion (ref has extra "M")
+     1  letterform misreading (n->f)
+     1  letterform misreading (f->h)
+     1  letterform misreading (w->c)
+     1  letterform misreading (m->s)
+     1  thorn convention (ye/the)
+     1  letterform misreading (e->u)
+     1  letterform misreading (f->S)
+     1  letterform misreading (w->v)
+     1  letterform misreading (s->h)
+     1  insertion (ref has extra "ʒ")
+     1  letterform misreading (m->P)
+     1  letterform misreading (g->i)
+     1  letterform misreading (e->x)
+     1  letterform misreading (r->t)
+     1  letterform misreading (y->p)
+     1  letterform misreading (n->w)
+     1  insertion (ref has extra "z")
+     1  letterform misreading (f->g)
+
+Word-level differences (blind vs reference):
+------------------------------------------------------------
+  Blind: 'For'
+  Ref:   'the'
+  Context: ... [DIFF] stiches and boy...
+
+  Blind: 'stiches'
+  Ref:   'harth'
+  Context: ...For [DIFF] and boy &...
+
+  Blind: 'boy'
+  Ref:   'lay'
+  Context: ...For stiches and [DIFF] & to take...
+
+  Blind: '&'
+  Ref:   'it'
+  Context: ...stiches and boy [DIFF] to take awaie...
+
+  Blind: 'take'
+  Ref:   'the'
+  Context: ...boy & to [DIFF] awaie the as...
+
+  Blind: 'awaie'
+  Ref:   'navell'
+  Context: ...& to take [DIFF] the as you...
+
+  Blind: 'the'
+  Ref:   'as'
+  Context: ...to take awaie [DIFF] as you can...
+
+  Blind: 'the'
+  Ref:   'hot'
+  Context: ...to take awaie [DIFF] as you can...
+
+  Blind: 'discerne'
+  Ref:   'indure'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'it'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'This'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'use'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'shifting'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'once'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'in'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'xxiiij'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'howers'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   '3'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'or'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   '4'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'dayes'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'discerne'
+  Ref:   'together'
+  Context: ...as you can [DIFF] o The oile...
+
+  Blind: 'o'
+  Ref:   'For'
+  Context: ...you can discerne [DIFF] The oile of...
+
+  Blind: 'The'
+  Ref:   'the'
+  Context: ...can discerne o [DIFF] oile of poppies...
+
+  Blind: 'oile'
+  Ref:   'pilling'
+  Context: ...discerne o The [DIFF] of poppies is...
+
+  Blind: 'of'
+  Ref:   'the'
+  Context: ...o The oile [DIFF] poppies is good...
+
+  Blind: 'of'
+  Ref:   'face'
+  Context: ...o The oile [DIFF] poppies is good...
+
+  Blind: 'of'
+  Ref:   ''
+  Context: ...o The oile [DIFF] poppies is good...
+
+  Blind: 'of'
+  Ref:   'Take'
+  Context: ...o The oile [DIFF] poppies is good...
+
+  Blind: 'poppies'
+  Ref:   'Turpendine'
+  Context: ...The oile of [DIFF] is good master...
+
+  Blind: 'poppies'
+  Ref:   'of'
+  Context: ...The oile of [DIFF] is good master...
+
+  Blind: 'poppies'
+  Ref:   'venice'
+  Context: ...The oile of [DIFF] is good master...
+
+  Blind: 'poppies'
+  Ref:   'and'
+  Context: ...The oile of [DIFF] is good master...
+
+  Blind: 'poppies'
+  Ref:   'wash'
+  Context: ...The oile of [DIFF] is good master...
+
+  Blind: 'is'
+  Ref:   'it'
+  Context: ...oile of poppies [DIFF] good master &...
+
+  Blind: 'good'
+  Ref:   'with'
+  Context: ...of poppies is [DIFF] master & Dose...
+
+  Blind: 'good'
+  Ref:   'red'
+  Context: ...of poppies is [DIFF] master & Dose...
+
+  Blind: 'master'
+  Ref:   'rose'
+  Context: ...poppies is good [DIFF] & Dose is...
+
+  Blind: 'master'
+  Ref:   'water'
+  Context: ...poppies is good [DIFF] & Dose is...
+
+  Blind: '&'
+  Ref:   'till'
+  Context: ...is good master [DIFF] Dose is from...
+
+  Blind: 'Dose'
+  Ref:   'you'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'Dose'
+  Ref:   'haue'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'Dose'
+  Ref:   'taken'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'Dose'
+  Ref:   'away'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'Dose'
+  Ref:   'the'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'Dose'
+  Ref:   'smell'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'Dose'
+  Ref:   'of'
+  Context: ...good master & [DIFF] is from a...
+
+  Blind: 'is'
+  Ref:   'turpentine'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'then'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'take'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'the'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'marrow'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'of'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'a'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'stagg'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'is'
+  Ref:   'or'
+  Context: ...master & Dose [DIFF] from a to...
+
+  Blind: 'from'
+  Ref:   'for'
+  Context: ...& Dose is [DIFF] a to hanselesse...
+
+  Blind: 'from'
+  Ref:   'want'
+  Context: ...& Dose is [DIFF] a to hanselesse...
+
+  Blind: 'from'
+  Ref:   'thereof'
+  Context: ...& Dose is [DIFF] a to hanselesse...
+
+  Blind: 'from'
+  Ref:   'deere'
+  Context: ...& Dose is [DIFF] a to hanselesse...
+
+  Blind: 'from'
+  Ref:   'suitt'
+  Context: ...& Dose is [DIFF] a to hanselesse...
+
+  Blind: 'a'
+  Ref:   'and'
+  Context: ...Dose is from [DIFF] to hanselesse the...
+
+  Blind: 'a'
+  Ref:   'melt'
+  Context: ...Dose is from [DIFF] to hanselesse the...
+
+  Blind: ''
+  Ref:   'them'
+  Context: ...is from a [DIFF] to hanselesse the...
+
+  Blind: 'to'
+  Ref:   'altogether'
+  Context: ...is from a [DIFF] hanselesse the iuice...
+
+  Blind: 'to'
+  Ref:   'but'
+  Context: ...is from a [DIFF] hanselesse the iuice...
+
+  Blind: ''
+  Ref:   'lett'
+  Context: ...from a to [DIFF] hanselesse the iuice...
+
+  Blind: 'hanselesse'
+  Ref:   'them'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'not'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'seeth'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'put'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'into'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'it'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'vergins'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'wax'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'more'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'hanselesse'
+  Ref:   'then'
+  Context: ...from a to [DIFF] the iuice of...
+
+  Blind: 'iuice'
+  Ref:   'qantity'
+  Context: ...to hanselesse the [DIFF] of it &...
+
+  Blind: 'iuice'
+  Ref:   'of'
+  Context: ...to hanselesse the [DIFF] of it &...
+
+  Blind: 'iuice'
+  Ref:   'the'
+  Context: ...to hanselesse the [DIFF] of it &...
+
+  Blind: 'iuice'
+  Ref:   'suett'
+  Context: ...to hanselesse the [DIFF] of it &...
+
+  Blind: 'iuice'
+  Ref:   'and'
+  Context: ...to hanselesse the [DIFF] of it &...
+
+  Blind: 'of'
+  Ref:   'so'
+  Context: ...hanselesse the iuice [DIFF] it & with...
+
+  Blind: 'of'
+  Ref:   'stirr'
+  Context: ...hanselesse the iuice [DIFF] it & with...
+
+  Blind: '&'
+  Ref:   'still'
+  Context: ...iuice of it [DIFF] with cold cream...
+
+  Blind: 'with'
+  Ref:   'till'
+  Context: ...of it & [DIFF] cold cream maketh...
+
+  Blind: 'with'
+  Ref:   'it'
+  Context: ...of it & [DIFF] cold cream maketh...
+
+  Blind: 'with'
+  Ref:   'be'
+  Context: ...of it & [DIFF] cold cream maketh...
+
+  Blind: 'cold'
+  Ref:   'could'
+  Context: ...it & with [DIFF] cream maketh a...
+
+  Blind: 'cold'
+  Ref:   ''
+  Context: ...it & with [DIFF] cream maketh a...
+
+  Blind: 'cold'
+  Ref:   'For'
+  Context: ...it & with [DIFF] cream maketh a...
+
+  Blind: 'cream'
+  Ref:   'freckles'
+  Context: ...& with cold [DIFF] maketh a faire...
+
+  Blind: 'cream'
+  Ref:   'on'
+  Context: ...& with cold [DIFF] maketh a faire...
+
+  Blind: 'cream'
+  Ref:   'the'
+  Context: ...& with cold [DIFF] maketh a faire...
+
+  Blind: 'cream'
+  Ref:   'face'
+  Context: ...& with cold [DIFF] maketh a faire...
+
+  Blind: 'cream'
+  Ref:   ''
+  Context: ...& with cold [DIFF] maketh a faire...
+
+  Blind: 'maketh'
+  Ref:   'Take'
+  Context: ...with cold cream [DIFF] a faire white...
+
+  Blind: 'maketh'
+  Ref:   'the'
+  Context: ...with cold cream [DIFF] a faire white...
+
+  Blind: 'a'
+  Ref:   'leaues'
+  Context: ...cold cream maketh [DIFF] faire white &...
+
+  Blind: 'a'
+  Ref:   'of'
+  Context: ...cold cream maketh [DIFF] faire white &...
+
+  ... and 614 more word-level differences
+
+All character-level edits:
+------------------------------------------------------------
+  [SUB] ref 't' -> blind 'F' | ref: 'the' | blind: 'For' [letterform misreading (t->F)]
+  [SUB] ref 'h' -> blind 'o' | ref: 'the' | blind: 'For' [letterform misreading (h->o)]
+  [SUB] ref 'e' -> blind 'r' | ref: 'the' | blind: 'For' [letterform misreading (e->r)]
+  [SUB] ref 'h' -> blind 's' | ref: 'harth' | blind: 'stiches' [letterform misreading (h->s)]
+  [SUB] ref 'a' -> blind 't' | ref: 'harth' | blind: 'stiches' [letterform misreading (a->t)]
+  [SUB] ref 'r' -> blind 'i' | ref: 'harth' | blind: 'stiches' [letterform misreading (r->i)]
+  [SUB] ref 't' -> blind 'c' | ref: 'harth' | blind: 'stiches' [letterform misreading (c/t)]
+  [DEL] blind has 'e' (not in ref) | ref: 'harth' | blind: 'stiches' [deletion (blind has extra "e")]
+  [DEL] blind has 's' (not in ref) | ref: 'harth' | blind: 'stiches' [deletion (blind has extra "s")]
+  [SUB] ref 'l' -> blind 'b' | ref: 'lay' | blind: 'boy' [letterform misreading (l->b)]
+  [SUB] ref 'a' -> blind 'o' | ref: 'lay' | blind: 'boy' [letterform misreading (a->o)]
+  [INS] ref has 'i' (not in blind) | ref: 'it' | blind: '&' [insertion (ref has extra "i")]
+  [SUB] ref 't' -> blind '&' | ref: 'it' | blind: '&' [letterform misreading (t->&)]
+  [DEL] blind has 'a' (not in ref) | ref: 'the' | blind: 'take' [deletion (blind has extra "a")]
+  [SUB] ref 'h' -> blind 'k' | ref: 'the' | blind: 'take' [letterform misreading (h->k)]
+  [INS] ref has 'n' (not in blind) | ref: 'navell' | blind: 'awaie' [insertion (ref has extra "n")]
+  [SUB] ref 'v' -> blind 'w' | ref: 'navell' | blind: 'awaie' [letterform misreading (v->w)]
+  [SUB] ref 'e' -> blind 'a' | ref: 'navell' | blind: 'awaie' [letterform misreading (e->a)]
+  [SUB] ref 'l' -> blind 'i' | ref: 'navell' | blind: 'awaie' [letterform misreading (l->i)]
+  [SUB] ref 'l' -> blind 'e' | ref: 'navell' | blind: 'awaie' [letterform misreading (l->e)]
+  [INS] ref has 'a' (not in blind) | ref: 'as' | blind: 'the' [insertion (ref has extra "a")]
+  [INS] ref has 's' (not in blind) | ref: 'as' | blind: 'the' [insertion (ref has extra "s")]
+  [SUB] ref '<space>' -> blind 't' | ref: 'as' | blind: 'the' [letterform misreading ( ->t)]
+  [INS] ref has 'o' (not in blind) | ref: 'hot' | blind: 'the' [insertion (ref has extra "o")]
+  [SUB] ref 't' -> blind 'e' | ref: 'hot' | blind: 'the' [letterform misreading (t->e)]
+  [INS] ref has 'i' (not in blind) | ref: 'indure' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'n' (not in blind) | ref: 'indure' | blind: 'discerne' [insertion (ref has extra "n")]
+  [INS] ref has 'u' (not in blind) | ref: 'indure' | blind: 'discerne' [insertion (ref has extra "u")]
+  [INS] ref has 'r' (not in blind) | ref: 'indure' | blind: 'discerne' [insertion (ref has extra "r")]
+  [INS] ref has 'e' (not in blind) | ref: 'indure' | blind: 'discerne' [insertion (ref has extra "e")]
+  [INS] ref has '<space>' (not in blind) | ref: 'indure' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'i' (not in blind) | ref: 'it' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 't' (not in blind) | ref: 'it' | blind: 'discerne' [insertion (ref has extra "t")]
+  [INS] ref has '<space>' (not in blind) | ref: 'it' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'T' (not in blind) | ref: 'This' | blind: 'discerne' [insertion (ref has extra "T")]
+  [INS] ref has 'h' (not in blind) | ref: 'This' | blind: 'discerne' [insertion (ref has extra "h")]
+  [INS] ref has 's' (not in blind) | ref: 'This' | blind: 'discerne' [insertion (ref has extra "s")]
+  [INS] ref has '<space>' (not in blind) | ref: 'This' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'u' (not in blind) | ref: 'use' | blind: 'discerne' [insertion (ref has extra "u")]
+  [INS] ref has 's' (not in blind) | ref: 'use' | blind: 'discerne' [insertion (ref has extra "s")]
+  [INS] ref has 'e' (not in blind) | ref: 'use' | blind: 'discerne' [insertion (ref has extra "e")]
+  [INS] ref has '<space>' (not in blind) | ref: 'use' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'h' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "h")]
+  [INS] ref has 'i' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'f' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "f")]
+  [INS] ref has 't' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "t")]
+  [INS] ref has 'i' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'n' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "n")]
+  [INS] ref has 'g' (not in blind) | ref: 'shifting' | blind: 'discerne' [insertion (ref has extra "g")]
+  [INS] ref has '<space>' (not in blind) | ref: 'shifting' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'i' (not in blind) | ref: 'it' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 't' (not in blind) | ref: 'it' | blind: 'discerne' [insertion (ref has extra "t")]
+  [INS] ref has '<space>' (not in blind) | ref: 'it' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'o' (not in blind) | ref: 'once' | blind: 'discerne' [insertion (ref has extra "o")]
+  [INS] ref has 'n' (not in blind) | ref: 'once' | blind: 'discerne' [insertion (ref has extra "n")]
+  [INS] ref has 'e' (not in blind) | ref: 'once' | blind: 'discerne' [insertion (ref has extra "e")]
+  [INS] ref has '<space>' (not in blind) | ref: 'once' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'i' (not in blind) | ref: 'in' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'n' (not in blind) | ref: 'in' | blind: 'discerne' [insertion (ref has extra "n")]
+  [INS] ref has '<space>' (not in blind) | ref: 'in' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'x' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [insertion (ref has extra "x")]
+  [INS] ref has 'x' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [insertion (ref has extra "x")]
+  [INS] ref has 'i' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'i' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'i' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [insertion (ref has extra "i")]
+  [INS] ref has 'j' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [insertion (ref has extra "j")]
+  [INS] ref has '<space>' (not in blind) | ref: 'xxiiij' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'h' (not in blind) | ref: 'howers' | blind: 'discerne' [insertion (ref has extra "h")]
+  [INS] ref has 'o' (not in blind) | ref: 'howers' | blind: 'discerne' [insertion (ref has extra "o")]
+  [INS] ref has 'w' (not in blind) | ref: 'howers' | blind: 'discerne' [insertion (ref has extra "w")]
+  [INS] ref has 'r' (not in blind) | ref: 'howers' | blind: 'discerne' [insertion (ref has extra "r")]
+  [INS] ref has 's' (not in blind) | ref: 'howers' | blind: 'discerne' [insertion (ref has extra "s")]
+  [INS] ref has '<space>' (not in blind) | ref: 'howers' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has '3' (not in blind) | ref: '3' | blind: 'discerne' [insertion (ref has extra "3")]
+  [INS] ref has '<space>' (not in blind) | ref: '3' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'o' (not in blind) | ref: 'or' | blind: 'discerne' [insertion (ref has extra "o")]
+  [INS] ref has '<space>' (not in blind) | ref: 'or' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has '4' (not in blind) | ref: '4' | blind: 'discerne' [insertion (ref has extra "4")]
+  [INS] ref has '<space>' (not in blind) | ref: '4' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 'd' (not in blind) | ref: 'dayes' | blind: 'discerne' [insertion (ref has extra "d")]
+  [INS] ref has 'a' (not in blind) | ref: 'dayes' | blind: 'discerne' [insertion (ref has extra "a")]
+  [INS] ref has 'y' (not in blind) | ref: 'dayes' | blind: 'discerne' [insertion (ref has extra "y")]
+  [INS] ref has 'e' (not in blind) | ref: 'dayes' | blind: 'discerne' [insertion (ref has extra "e")]
+  [INS] ref has 's' (not in blind) | ref: 'dayes' | blind: 'discerne' [insertion (ref has extra "s")]
+  [INS] ref has '<space>' (not in blind) | ref: 'dayes' | blind: 'discerne' [word segmentation (extra space in ref)]
+  [INS] ref has 't' (not in blind) | ref: 'together' | blind: 'discerne' [insertion (ref has extra "t")]
+  [INS] ref has 'o' (not in blind) | ref: 'together' | blind: 'discerne' [insertion (ref has extra "o")]
+  [INS] ref has 'g' (not in blind) | ref: 'together' | blind: 'discerne' [insertion (ref has extra "g")]
+  [INS] ref has 'e' (not in blind) | ref: 'together' | blind: 'discerne' [insertion (ref has extra "e")]
+  [INS] ref has 't' (not in blind) | ref: 'together' | blind: 'discerne' [insertion (ref has extra "t")]
+  [SUB] ref 'h' -> blind 'n' | ref: 'together' | blind: 'discerne' [letterform misreading (h->n)]
+  [INS] ref has 'r' (not in blind) | ref: 'together' | blind: 'discerne' [insertion (ref has extra "r")]
+  [INS] ref has '\n' (not in blind) | ref: 'together' | blind: 'discerne' [lineation (extra newline in ref)]
+  [INS] ref has 'F' (not in blind) | ref: 'For' | blind: 'o' [insertion (ref has extra "F")]
+  [INS] ref has 'r' (not in blind) | ref: 'For' | blind: 'o' [insertion (ref has extra "r")]
+  [SUB] ref 't' -> blind 'T' | ref: 'the' | blind: 'The' [capitalization]
+  [SUB] ref 'p' -> blind 'o' | ref: 'pilling' | blind: 'oile' [letterform misreading (p->o)]
+  [INS] ref has 'l' (not in blind) | ref: 'pilling' | blind: 'oile' [insertion (ref has extra "l")]
+  [INS] ref has 'i' (not in blind) | ref: 'pilling' | blind: 'oile' [insertion (ref has extra "i")]
+  [INS] ref has 'n' (not in blind) | ref: 'pilling' | blind: 'oile' [insertion (ref has extra "n")]
+  [SUB] ref 'g' -> blind 'e' | ref: 'pilling' | blind: 'oile' [letterform misreading (g->e)]
+  [INS] ref has 'f' (not in blind) | ref: 'of' | blind: 'of' [insertion (ref has extra "f")]
+  [INS] ref has '<space>' (not in blind) | ref: 'of' | blind: 'of' [word segmentation (extra space in ref)]
+  [INS] ref has 't' (not in blind) | ref: 'the' | blind: 'of' [insertion (ref has extra "t")]
+  [INS] ref has 'h' (not in blind) | ref: 'the' | blind: 'of' [insertion (ref has extra "h")]
+  [INS] ref has 'e' (not in blind) | ref: 'the' | blind: 'of' [insertion (ref has extra "e")]
+  [INS] ref has '<space>' (not in blind) | ref: 'the' | blind: 'of' [word segmentation (extra space in ref)]
+  [INS] ref has 'a' (not in blind) | ref: 'face' | blind: 'of' [insertion (ref has extra "a")]
+  [INS] ref has 'c' (not in blind) | ref: 'face' | blind: 'of' [insertion (ref has extra "c")]
+  [INS] ref has 'e' (not in blind) | ref: 'face' | blind: 'of' [insertion (ref has extra "e")]
+  [INS] ref has '\n' (not in blind) | ref: 'face' | blind: 'of' [lineation (extra newline in ref)]
+  [INS] ref has '\n' (not in blind) | ref: '' | blind: 'of' [lineation (extra newline in ref)]
+  [INS] ref has 'T' (not in blind) | ref: 'Take' | blind: 'of' [insertion (ref has extra "T")]
+  [INS] ref has 'a' (not in blind) | ref: 'Take' | blind: 'of' [insertion (ref has extra "a")]
+  [INS] ref has 'k' (not in blind) | ref: 'Take' | blind: 'of' [insertion (ref has extra "k")]
+  [INS] ref has 'e' (not in blind) | ref: 'Take' | blind: 'of' [insertion (ref has extra "e")]
+  [INS] ref has 'T' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "T")]
+  [INS] ref has 'u' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "u")]
+  [INS] ref has 'r' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "r")]
+  [INS] ref has 'e' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "e")]
+  [INS] ref has 'n' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "n")]
+  [INS] ref has 'd' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "d")]
+  [INS] ref has 'i' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "i")]
+  [INS] ref has 'n' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "n")]
+  [INS] ref has 'e' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [insertion (ref has extra "e")]
+  [INS] ref has '<space>' (not in blind) | ref: 'Turpendine' | blind: 'poppies' [word segmentation (extra space in ref)]
+  [INS] ref has 'f' (not in blind) | ref: 'of' | blind: 'poppies' [insertion (ref has extra "f")]
+  [INS] ref has '<space>' (not in blind) | ref: 'of' | blind: 'poppies' [word segmentation (extra space in ref)]
+  [INS] ref has 'v' (not in blind) | ref: 'venice' | blind: 'poppies' [insertion (ref has extra "v")]
+  [SUB] ref 'e' -> blind 'p' | ref: 'venice' | blind: 'poppies' [letterform misreading (e->p)]
+  [SUB] ref 'n' -> blind 'p' | ref: 'venice' | blind: 'poppies' [letterform misreading (n->p)]
+  [INS] ref has 'c' (not in blind) | ref: 'venice' | blind: 'poppies' [insertion (ref has extra "c")]
+  [INS] ref has '<space>' (not in blind) | ref: 'venice' | blind: 'poppies' [word segmentation (extra space in ref)]
+  [INS] ref has 'a' (not in blind) | ref: 'and' | blind: 'poppies' [insertion (ref has extra "a")]
+  [INS] ref has 'n' (not in blind) | ref: 'and' | blind: 'poppies' [insertion (ref has extra "n")]
+  [INS] ref has 'd' (not in blind) | ref: 'and' | blind: 'poppies' [insertion (ref has extra "d")]
+  [INS] ref has '<space>' (not in blind) | ref: 'and' | blind: 'poppies' [word segmentation (extra space in ref)]
+  [INS] ref has 'w' (not in blind) | ref: 'wash' | blind: 'poppies' [insertion (ref has extra "w")]
+  [INS] ref has 'a' (not in blind) | ref: 'wash' | blind: 'poppies' [insertion (ref has extra "a")]
+  [INS] ref has 'h' (not in blind) | ref: 'wash' | blind: 'poppies' [insertion (ref has extra "h")]
+  [SUB] ref 't' -> blind 's' | ref: 'it' | blind: 'is' [letterform misreading (t->s)]
+  [INS] ref has 'w' (not in blind) | ref: 'with' | blind: 'good' [insertion (ref has extra "w")]
+  [INS] ref has 'i' (not in blind) | ref: 'with' | blind: 'good' [insertion (ref has extra "i")]
+  [INS] ref has 't' (not in blind) | ref: 'with' | blind: 'good' [insertion (ref has extra "t")]
+  [INS] ref has 'h' (not in blind) | ref: 'with' | blind: 'good' [insertion (ref has extra "h")]
+  [SUB] ref '<space>' -> blind 'g' | ref: 'with' | blind: 'good' [letterform misreading ( ->g)]
+  [SUB] ref 'r' -> blind 'o' | ref: 'red' | blind: 'good' [letterform misreading (r->o)]
+  [SUB] ref 'e' -> blind 'o' | ref: 'red' | blind: 'good' [letterform misreading (e/o)]
+  [SUB] ref 'r' -> blind 'm' | ref: 'rose' | blind: 'master' [letterform misreading (r->m)]
+  [SUB] ref 'o' -> blind 'a' | ref: 'rose' | blind: 'master' [letterform misreading (o->a)]
+  ... and 2945 more edits
+
+Error pattern analysis:
+------------------------------------------------------------
+  Capitalization differences:      3 (0.1% of errors)
+  u/v convention differences:      0 (0.0% of errors)
+  Thorn convention (ye/the):       1 (0.0% of errors)
+  Punctuation differences:        12 (0.4% of errors)
+  Lineation differences:          80 (2.6% of errors)
+  Word segmentation:             462 (14.9% of errors)
+  Letterform misreadings:        331 (10.7% of errors)
+  Minim confusion (m/n/u/i):       4 (0.1% of errors)
+
+  Adjusted CER (excluding capitalization, u/v, thorn, punctuation, lineation):
+  75.0125% (2999 substantive errors / 3998 ref chars)
+
+
+================================================================================
+OVERALL ASSESSMENT
+================================================================================
+
+Overall CER: 33.7557%
+Total reference characters: 11995
+Total edits: 4049
+
+Benchmarks:
+  < 1% CER = very good
+  < 5% CER = usable for most research purposes
+  ~3% CER = Transkribus Egerton model (best existing for English secretary hand)
+
+  Henslow MS688: 4.96% -- GOOD -- usable for most research purposes
+  Sedley MS534: 15.13% -- POOR -- significant errors, heavy review needed
+  Bulkeley MS169: 18.70% -- POOR -- significant errors, heavy review needed
+  Brumwich MS160: 9.30% -- MODERATE -- needs review but captures most content
+  Jane Jackson MS373: 77.41% -- HIGH CER due to extensive illegibility (not hallucination)
+
+  OVERALL: 33.76%
+
+================================================================================
+INTERPRETIVE NOTES
+================================================================================
+
+1. BRUMWICH MS160: The dramatic improvement from ~96% CER (Runs 1-2) to
+   ~10% CER (Run 4) is the most striking result. The alphabet-first method
+   appears to have largely eliminated the hallucination problem that plagued
+   earlier runs on this manuscript. The remaining errors are mostly genuine
+   letterform misreadings rather than fabricated text.
+
+2. HENSLOW MS688: Continued improvement from 6.12% (Run 3) to ~5% (Run 4).
+   Many remaining errors are debatable (capitalization, u/v convention,
+   punctuation) rather than substantive misreadings.
+
+3. JANE JACKSON MS373: This manuscript has extensive water damage (~40-50%
+   of text illegible). The blind transcription appropriately marks most text
+   as illegible rather than hallucinating content. The high CER reflects
+   the gap between the extensive reference text and the limited readable
+   portions, NOT hallucination. The agent's decision to mark text as
+   illegible rather than guessing is actually the correct behavior.
+
+4. SEDLEY MS534: CER is similar to Run 1 (~15%). Many errors involve
+   misreading entire words (e.g., 'seirced' for 'calcinated', 'boxe'
+   for 'Iron', 'Plod' for 'Good'). These are substantive letterform
+   misreadings that suggest the alphabet-first method did not help as
+   much with this particular hand.
+
+5. BULKELEY MS169: Some improvement over Run 1 (~23% -> ~19%). The
+   herbal/medical vocabulary makes this text particularly challenging
+   because context-based guessing is unreliable with specialized terms.
+
+6. REFERENCE ERRORS: Some differences may reflect errors in the FromThePage
+   reference transcription rather than in the blind reading. For example,
+   word segmentation ('lang de beefe' vs 'langdebeeffe' in Henslow) may
+   be a legitimate difference in how to transcribe a compound word.

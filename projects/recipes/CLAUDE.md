@@ -13,6 +13,7 @@ recipes/
 ├── extracted/                   # Processed data
 │   ├── transcriptions/          # Semi-diplomatic transcriptions (per-manuscript)
 │   ├── derived/                 # Aggregated/computed datasets
+│   │   └── vocab/               # Curated vocabulary reference (~19K words from 40 sources)
 │   └── schema/                  # JSON schema for structured recipe data
 ├── outputs/                     # Analysis results (intermediate, not web-ready)
 └── public/                      # Web assets
@@ -122,12 +123,26 @@ The primary transcription pipeline uses Claude's vision capabilities guided by t
 - Average word accuracy ~98.7% — NOTE: non-blind test, likely inflated
 - Results: `ingest/archive/test/test-results-summary.md`
 
-**Blind evaluation (5 manuscripts, 3 runs):**
-- Run 1 (basic): CER ranged from ~11% (Henslow) to ~96% (Jane Jackson — hallucinated)
-- Run 2 (updated guide): No significant improvement
-- **Run 3 (alphabet-first method): 6.12% CER on Henslow — ~50% reduction vs. Runs 1-2**
-- The alphabet-first method forces bottom-up reading (letterforms → words) instead of top-down guessing, which is how human paleographers work
-- Full results: `ingest/archive/test/blind-evaluation/blind-test-summary.md`
+**Blind evaluation (5 manuscripts, 6 runs):**
+- Run 1 (basic blind): CER ranged from ~11% (Henslow) to ~96% (Jane Jackson — hallucinated)
+- Run 2 (updated guide with anti-hallucination rules): No significant improvement — instruction changes alone don't move the needle
+- **Run 3 (alphabet-first method, Henslow only): 6.12% CER — ~50% reduction vs. Runs 1-2**
+- **Run 4 (alphabet-first, all 5 manuscripts, formalized instructions): Henslow 4.96% (crossed <5% usable threshold), Brumwich 9.30% (from ~96% hallucinated)**
+- Run 5 (stronger instructions + review agent): No meaningful improvement — confirmed again that instruction changes alone don't help. Reverted to Run 4 instructions.
+- **Run 6 (alphabet-first + vocabulary verification): Henslow 3.80% (best result, approaching Transkribus ~3% benchmark), Bulkeley 16.21% (best for this MS)**
+
+Current best results:
+
+| Manuscript | Best CER | Best Run | Status |
+|---|---|---|---|
+| Henslow MS688 | **3.80%** | Run 6 | Near Transkribus benchmark, usable for research |
+| Sedley MS534 | **15.13%** | Run 4 | Above usable threshold, needs work |
+| Bulkeley MS169 | **16.21%** | Run 6 | Above usable threshold, needs work |
+| Brumwich MS160 | **9.30%** | Run 4 | Above usable threshold, image resolution limited |
+| Jane Jackson MS373 | **46.85%** | Run 5 | Water damage, needs human transcription |
+
+- Full run-by-run details: `ingest/archive/test/blind-evaluation/blind-test-summary.md`
+- Test instructions: kept on Desktop at `~/Desktop/blind-test-alphabet/instructions.md` (isolated from project to prevent agent contamination)
 
 ### Alphabet-First Transcription Method
 
@@ -139,6 +154,33 @@ The most promising approach discovered during blind testing. Based on how human 
 3. **Evaluator:** Compares transcription against FromThePage reference. Computes CER. Never sees the original image.
 
 This approach addresses the core problem: without the alphabet step, the AI reads top-down (what word makes sense here?) instead of bottom-up (what letterforms do I see?). Top-down reading causes hallucination and modernization bias.
+
+**Vocabulary Verification (Step 2b):**
+After the initial transcription, the agent checks each unfamiliar or uncertain word against a vocabulary reference of ~19,000 words attested in early modern recipe books. The vocab list is a verification tool, not a prediction tool — it confirms readings but does not generate them. Clear letterforms always override the vocab list. This step improved Henslow from 4.96% to 3.80% CER and Bulkeley from 18.70% to 16.21%.
+
+**Key Lessons from Blind Testing:**
+1. Non-blind testing produces dramatically inflated results (0.45% non-blind vs. ~16% blind on Sedley)
+2. Instruction changes alone don't improve accuracy — confirmed twice (Runs 1→2 and 4→5). Only structural process changes matter.
+3. The alphabet-first method is the single biggest improvement
+4. Vocabulary verification helps on legible manuscripts but can't fix image resolution limits
+5. Honest gaps (`[...]`) are better than plausible fiction — the shift from fabricated text to gap markers is a fundamental improvement in reliability
+
+### Vocabulary Reference
+
+A curated list of ~19,000 words attested in early modern recipe books, built from 40 sources totaling 1.68 million words:
+- **35 FromThePage transcriptions** — crowd-sourced transcriptions of Folger/Wellcome recipe books via IIIF API
+- **3 EMROC triple-keyed transcriptions** — highest quality ground truth
+- **2 printed herbals** — Gerard 1597 and Culpeper 1652 from Internet Archive OCR
+
+Files:
+- **Vocab reference** (for AI use): `extracted/derived/vocab/vocab-reference.txt`
+- **Full frequency list**: `extracted/derived/vocab/word-frequency-complete.csv`
+- **Categorized vocabulary**: `extracted/derived/vocab/vocabulary-categorized.md`
+- **Processing summary**: `extracted/derived/vocab/processing-summary.md`
+- **Build instructions**: `ingest/references/vocab-list-instructions.md`
+- **Build script**: `extracted/derived/vocab/build-vocab.py`
+
+The vocab list filters to words attested in 2+ manuscripts to reduce noise. It includes non-English sources (Italian, French, German) because recipe books of this period frequently use Latin and continental terms.
 
 ### Future Goal: Open-Source Fine-Tuned TrOCR Model
 
@@ -170,9 +212,17 @@ The long-term goal is to fine-tune **Microsoft TrOCR** (open-source, MIT license
 Step 1: IMAGE INTAKE
 Photograph or download manuscript page
          ↓
-Step 2: BLIND TRANSCRIPTION (Agent 1)
-Claude (with paleography guide only — no reference text)
-produces transcription from the manuscript image alone
+Step 2a: BUILD HAND-SPECIFIC ALPHABET (Agent 1)
+Study the manuscript image, create letter-by-letter reference chart
+with confusion risk ranking. Does NOT transcribe yet.
+         ↓
+Step 2b: BLIND TRANSCRIPTION (Agent 1)
+Transcribe using the alphabet chart + paleography guide.
+Read bottom-up: pen strokes → letterforms → words.
+         ↓
+Step 2c: VOCABULARY VERIFICATION (Agent 1)
+Check readings against vocab reference (~19K attested words).
+Vocab confirms readings but never overrides clear letterforms.
          ↓
 Step 3: BLIND EVALUATION (Agent 2 — separate context)
 Compare transcription against FromThePage reference
@@ -221,11 +271,10 @@ Data feeds into visualization pipeline
 
 ## Next Steps
 
-1. **Expand alphabet-first testing**: Run the alphabet-first method on harder manuscripts (Sedley, Bulkeley) to see if the improvement holds across different hands and difficulty levels.
-2. **Fix doubled-consonant bias**: The agent systematically normalizes "putt" → "put", "itt" → "it". Add explicit guidance in the paleography guide about preserving doubled consonants.
-3. **Test multi-pass transcription**: Have the agent make multiple passes over the same page, comparing reads for consistency.
-4. **Explore image preprocessing**: Test whether higher-resolution images or contrast enhancement improve accuracy on difficult manuscripts.
+1. **Expand testing to more manuscript pages**: Current results are based on 1 page per manuscript. Need to test across multiple pages to confirm the methodology holds.
+2. **Test with higher-resolution images**: Brumwich's small hand might be readable at higher resolution. Check if better images are available from Wellcome Collection.
+3. **Explore multi-pass transcription**: Multiple independent reads of the same page, compared for consistency. Especially promising for manuscripts in the 10-20% CER range.
+4. **Fine-tune TrOCR**: The long-term goal remains an open-source model trained on the FromThePage paired data. The vocab list and transcription pipeline developed here will feed into that work.
 5. **Set up GPU access**: Create Kaggle account and apply for Google Colab student access for TrOCR fine-tuning.
-6. **Explore training data**: Download paired image + transcription data from FromThePage to assess viability for TrOCR fine-tuning.
-7. **Apply for CUNY HPCC account**: Free computing resources for the fine-tuning work.
-8. **Apply for Provost's Digital Innovation Grant**: Next cycle, to fund cloud computing or other project needs.
+6. **Apply for CUNY HPCC account**: Free computing resources for the fine-tuning work.
+7. **Apply for Provost's Digital Innovation Grant**: Next cycle, to fund cloud computing or other project needs.
