@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FieldNoteCard from '../../components/FieldNoteCard.astro';
+
+const allNotes = await getCollection('field-notes', ({ data }) => {
+  return data.status !== 'draft';
+});
+
+// Sort by publishDate descending (newest first)
+const sortedNotes = allNotes.sort((a, b) =>
+  b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+<BaseLayout title="Field Notes" description="Preliminary findings, thoughts, and observations from early modern recipe book research">
+  <section class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
+    <div class="max-w-3xl mb-16">
+      <h1 class="text-4xl md:text-5xl font-serif leading-tight mb-6">
+        Field Notes
+      </h1>
+      <p class="text-xl text-ink/70 leading-relaxed">
+        Preliminary findings, thoughts, and observations from the archive.
+      </p>
+    </div>
+
+    {sortedNotes.length > 0 && (
+      <div class="border-t border-ink/10 pt-12">
+        <div class="grid gap-12 md:gap-16">
+          {sortedNotes.map(note => (
+            <FieldNoteCard note={note} />
+          ))}
+        </div>
+      </div>
+    )}
+
+    {sortedNotes.length === 0 && (
+      <div class="text-center py-20 text-ink/50">
+        <p>No field notes yet. Check back soon.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>

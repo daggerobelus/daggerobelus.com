@@ -15,4 +15,16 @@ const projects = defineCollection({
   }),
 });
 
-export const collections = { projects };
+const fieldNotes = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    publishDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    status: z.enum(['draft', 'published']).default('published'),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
+export const collections = { projects, 'field-notes': fieldNotes };
