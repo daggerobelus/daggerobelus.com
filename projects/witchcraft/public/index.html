@@ -40,6 +40,15 @@
             --color-banished: #d4a017;
             --color-fled: #2980b9;
             --color-unknown: #7f8c8d;
+
+            /* Demographics colors */
+            --color-econ-comfortable: #27ae60;
+            --color-econ-middling: #f1c40f;
+            --color-econ-poor: #e67e22;
+            --color-econ-destitute: #c0392b;
+            --color-econ-unknown: #7f8c8d;
+            --color-gender-female: #8e44ad;
+            --color-gender-male: #2980b9;
         }
 
         * {
@@ -395,98 +404,21 @@
         .type-card {
             background: var(--color-bg-card);
             border-radius: 10px;
-            padding: 22px;
+            padding: 22px 22px 22px 26px;
             border: 1px solid var(--color-border);
+            border-left: 4px solid var(--color-border);
             cursor: pointer;
             transition: all 0.2s;
             position: relative;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
         }
 
         .type-card:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             z-index: 50;
-        }
-
-        .type-card .card-tooltip {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 280px;
-            background: var(--color-bg-card);
-            border: 1px solid var(--color-border-strong);
-            border-radius: 8px;
-            padding: 15px;
-            font-size: 0.85em;
-            line-height: 1.5;
-            color: var(--color-text);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.2s, visibility 0.2s;
-            z-index: 1000;
-            pointer-events: auto;
-            margin-top: 10px;
-        }
-
-        .type-card .card-tooltip::before {
-            content: '';
-            position: absolute;
-            bottom: 100%;
-            left: 20px;
-            border: 8px solid transparent;
-            border-bottom-color: var(--color-border-strong);
-        }
-
-        /* Right-aligned tooltip for cards on the right side */
-        .type-card.tooltip-right .card-tooltip {
-            left: auto;
-            right: 0;
-        }
-
-        .type-card.tooltip-right .card-tooltip::before {
-            left: auto;
-            right: 20px;
-        }
-
-        .type-card:hover .card-tooltip {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .type-card .card-tooltip strong {
-            color: var(--color-accent);
-        }
-
-        .type-card .card-tooltip .tooltip-quote {
-            font-size: 1.1em;
-            font-style: italic;
-            color: var(--color-accent);
-            margin-bottom: 12px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid var(--color-border);
-            line-height: 1.4;
-        }
-
-        .type-card .card-tooltip .tooltip-narrative {
-            font-size: 0.9em;
-            color: var(--color-text-muted);
-        }
-
-        .type-card .card-tooltip .tooltip-citation {
-            margin-top: 12px;
-            padding-top: 10px;
-            border-top: 1px solid var(--color-border);
-            font-size: 0.85em;
-            color: var(--color-accent);
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-
-        .type-card .card-tooltip .tooltip-citation:hover {
-            color: var(--color-link);
-            text-decoration: underline;
         }
 
         .type-card.selected {
@@ -499,13 +431,6 @@
             align-items: center;
             gap: 12px;
             margin-bottom: 14px;
-        }
-
-        .type-card-header .type-color {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            flex-shrink: 0;
         }
 
         .type-card-header .type-name {
@@ -532,35 +457,25 @@
             min-height: 42px;
         }
 
-        .type-card-stats {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
+        .type-card-quote {
+            font-family: var(--font-heading);
+            font-style: italic;
+            font-size: 0.85em;
+            line-height: 1.5;
+            color: var(--color-text-muted);
+            margin-bottom: 14px;
         }
 
-        .type-card-stat {
-            background: var(--color-bg-subtle);
-            padding: 8px;
-            border-radius: 6px;
-            text-align: center;
+        .type-card-healer {
+            margin-top: auto;
+            padding-top: 10px;
+            border-top: 1px solid var(--color-border);
+            font-size: 0.8em;
+            color: var(--color-accent);
         }
 
-        .type-card-stat .stat-value {
-            font-size: 1.1em;
-            font-weight: 600;
-            color: var(--color-text);
-        }
-
-        .type-card-stat .stat-value.high-death {
-            color: var(--color-death);
-        }
-
-        .type-card-stat .stat-label {
-            font-size: 0.65em;
-            color: var(--color-text-subtle);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-family: var(--font-ui);
+        .type-card-healer:hover {
+            text-decoration: underline;
         }
 
         .type-card-examples {
@@ -1783,6 +1698,18 @@
             max-width: 75ch;
         }
 
+        .intro-text .highlight {
+            color: var(--color-accent);
+            font-weight: 600;
+        }
+
+        .demo-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
         /* Responsive */
         @media (max-width: 1100px) {
             .dashboard {
@@ -1904,6 +1831,44 @@
                 <!-- Populated by JS -->
             </div>
 
+            <h2 class="section-header section-anchor" id="section-demographics">Who Were They?</h2>
+            <p class="intro-text" id="demographics-intro"><!-- JS populated --></p>
+
+            <div class="demo-stats" id="demo-stats">
+                <!-- JS populated: 4 summary stat cards -->
+            </div>
+
+            <div class="charts-section" id="demographics-charts">
+                <div class="chart-card">
+                    <h3>Gender Breakdown</h3>
+                    <div id="chart-demo-gender"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>Economic Status</h3>
+                    <div id="chart-demo-economic"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>Age at Trial</h3>
+                    <div id="chart-demo-age"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>Marital Status</h3>
+                    <div id="chart-demo-marital"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>Range of Practice</h3>
+                    <div id="chart-demo-practice"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>Occupation</h3>
+                    <div id="chart-demo-occupation"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>The Healer's Paradox by Type</h3>
+                    <div id="chart-demo-paradox"></div>
+                </div>
+            </div>
+
             <h2 class="section-header section-anchor" id="section-trial">The Trial</h2>
 
             <div class="trial-section">
@@ -2013,6 +1978,7 @@
             <h4>On This Page</h4>
             <ul class="toc-list">
                 <li><a href="#section-healers" data-section="section-healers">Who Were the Healers?</a></li>
+                <li><a href="#section-demographics" data-section="section-demographics">Who Were They?</a></li>
                 <li><a href="#section-trial" data-section="section-trial">The Trial</a></li>
                 <li><a href="#section-outcomes" data-section="section-outcomes">What Happened?</a></li>
                 <li><a href="#section-data" data-section="section-data">All Healers</a></li>
@@ -2105,6 +2071,7 @@
         }
 
         function formatLabel(str) {
+            if (typeInfo[str]?.displayName) return typeInfo[str].displayName;
             return str.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
         }
 
@@ -2275,6 +2242,7 @@
             updateFilterSummary();
             updateFeaturedQuote();
             updateTypesOverview();
+            updateDemographicsSection();
             updateStatCards();
             updateCharts();
             updateTable();
@@ -2508,10 +2476,65 @@
             });
         }
 
+        // Occupation grouping for demographics chart
+        const HEALING_OCCUPATIONS = new Set([
+            'healer', 'folk healer', 'healer (folk)', 'folk medicine practitioner',
+            'healer/folk medicine', 'healer using garter divination', 'animal healer',
+            'midwife', 'basle (midwife)', 'herbalist', 'herb collector',
+            'diviner', 'divineresse', 'nurse', 'remanderesse'
+        ]);
+
+        const OCCUPATION_GROUPS = {
+            'Day Labor & Begging': [
+                'day laborer', 'day labourer', 'day labour', 'day-labourer',
+                'day laborer (à jornée)', 'day laborer (manoeuvrier\'s wife)',
+                'manouvrier', 'manouvrier_wife', 'mainouvrier',
+                'beggar', 'beggar (former)', 'beggar/vagabond',
+                'poor recipient of alms', 'seasonal harvest worker', 'field worker'
+            ],
+            'Agricultural': [
+                'laboureur', 'laboureur (wife of)', 'herdsman', 'herdsman\'s wife',
+                'shepherd', 'wife of shepherd', 'farmer', 'vineyard worker',
+                'vigneron\'s wife', 'herder', 'animal herder', 'cattle keeper',
+                'guardian of red beasts', 'paistre', 'paistre of horse herd',
+                'labouraige', 'smallholder', 'cultivating land', 'laborer'
+            ],
+            'Textile': [
+                'spinner', 'spinning', 'weaver', 'weaver (husband)',
+                'seamstress', 'making cloth', 'parmentier', 'cousturier'
+            ],
+            'Domestic': [
+                'servant', 'domestic servant', 'domestic servant (former)',
+                'domestic worker', 'maid', 'housewife'
+            ],
+            'Trades & Crafts': [
+                'cobbler', 'cordonnier', 'shoemaker', 'blacksmith', 'smith',
+                'marechal', 'carpenter', 'miller', 'miller\'s wife', 'potter\'s wife',
+                'retondeur', 'rouyer', 'maker of traineux de bois (wooden sleds)',
+                'skin preparation', 'butter maker', 'chartier\'s wife'
+            ],
+            'Food & Drink': [
+                'tavern keeper', 'wine seller', 'wine trader', 'grain seller',
+                'charcoal seller', 'mercier', 'vivandiere', 'revenderesse'
+            ],
+            'Other': [
+                'soldier', 'hermit', 'former prostitute', 'hospitaliere',
+                'landlord (renting property)', 'maker of pilgrimages',
+                'pilgrimage maker', 'medecin'
+            ]
+        };
+
+        // Build reverse lookup: occupation string → group name
+        const OCCUPATION_TO_GROUP = {};
+        Object.entries(OCCUPATION_GROUPS).forEach(([group, occs]) => {
+            occs.forEach(occ => { OCCUPATION_TO_GROUP[occ] = group; });
+        });
+
         // Store type info globally for reuse
         const typeInfo = {
             'midwifery': {
                 color: '#e74c3c',
+                displayName: 'Midwives',
                 desc: 'Women who assisted with childbirth and infant care. When births went wrong, midwives were often blamed.',
                 quote: '"Herbs that could make ill or heal as she chose."',
                 narrative: 'Barbe "la grosse gorge" (1591) was a destitute widow who wandered between villages offering herbal cures and midwifery. Starving near Jametz, she met a figure who taught her these herbs. Those she healed with soups later accused her of poisoning them with mercury. Executed after confessing under torture.',
@@ -2519,6 +2542,7 @@
             },
             'herbal_remedies': {
                 color: '#27ae60',
+                displayName: 'Herbalists',
                 desc: 'Healers using plants, herbs, and natural preparations to treat illness. The line between medicine and magic was thin.',
                 quote: '"You would have to bring the great devil to fix it."',
                 narrative: 'Didelon l\'Huillier (1615) was a 70-year-old cattle keeper who cured sick cows by blowing pepper and ginger into their eyes. When animals later fell ill, the same villagers he\'d helped accused him. One witness, furious at his sick horse, spoke these words to Didelon. Executed.',
@@ -2526,6 +2550,7 @@
             },
             'veterinary': {
                 color: '#8e44ad',
+                displayName: 'Veterinary Healers',
                 desc: 'Those who treated sick livestock. Animal deaths were economically devastating and often attributed to witchcraft.',
                 quote: '"May God not let them live long enough to do such things."',
                 narrative: 'Jean Colas Claude Martin (1593) was a carpenter-smith who healed sick animals using vegetables from his garden. Neighbors whose livestock recovered later blamed him when other animals died. Unlike most accused healers, he never confessed—even under pressure—and was released after 38 days. A rare survivor.',
@@ -2533,6 +2558,7 @@
             },
             'touch_healing': {
                 color: '#f39c12',
+                displayName: 'Touch Healers',
                 desc: 'Healing through laying on of hands, massage, or physical manipulation. Often associated with supernatural power.',
                 quote: '"He threatened that he would repent."',
                 narrative: 'Jean Anthoine dit Jean de Socourt (1607) was a shoemaker whose touch and black ointment cured some patients—then condemned him when others fell ill. Robert Thieriat, healed after sitting near Jean on a bench and receiving "something to eat," later testified against him at trial. Executed.',
@@ -2540,6 +2566,7 @@
             },
             'charms_amulets': {
                 color: '#3498db',
+                displayName: 'Charm Makers',
                 desc: 'Using spoken words, prayers, written charms, or blessed objects for healing. Blurred the boundary with religious practice.',
                 quote: '"She remembered anger for seven years without showing it."',
                 narrative: 'Mengeotte Lausson (1620) made healing soups from bread, salt, and ashes. Those who ate her remedies and recovered later accused her when family members fell ill years afterward. Executed.',
@@ -2547,6 +2574,7 @@
             },
             'other': {
                 color: '#95a5a6',
+                displayName: 'Other Healers',
                 desc: 'Various folk healing practices not fitting other categories.',
                 quote: '"She was a witch or there were none in the world."',
                 narrative: 'Barbelline femme Didier Antoine (1604)—neighbors spoke these words about her. Her healing soup, laced with powder according to her confession, first cured Claude Anthoine, then allegedly made him ill. Executed.',
@@ -2554,6 +2582,7 @@
             },
             'unspecified': {
                 color: '#bdc3c7',
+                displayName: 'Unspecified',
                 desc: 'Healing practice mentioned but specific type not recorded in trial documents.',
                 quote: '"Defamed by common rumor of people who communicate among themselves."',
                 narrative: 'Margueritte femme Didier Perisc (1628) was a 36-year-old domestic servant whose healing methods weren\'t recorded in detail. She testified that she did not know why she was defamed except by this common rumor. Executed.',
@@ -2561,6 +2590,7 @@
             },
             'divination': {
                 color: '#1abc9c',
+                displayName: 'Diviners',
                 desc: 'Practices involving prediction or finding lost objects, sometimes used alongside healing.',
                 quote: '"Familiar spirits the size of flies, growing and shrinking."',
                 narrative: 'Anthoine Grevillon (1625) was a 76-year-old traveling healer who confessed to owning these spirits, bought on a bridge in Lyon for five sols. He carried them in small boxes. He learned this from a soldier who carried one in a silver box during the siege of Ostend. Executed.',
@@ -2568,6 +2598,7 @@
             },
             'bone_setting': {
                 color: '#7f8c8d',
+                displayName: 'Bone Setters',
                 desc: 'Setting broken bones and treating injuries, a valued skill in rural communities.',
                 quote: '"When I have healed your child you will say I am a witch and have me burned."',
                 narrative: 'Nicolas Noel dit le Bragard (1593) was a 65-year-old former soldier and cobbler who practiced multiple healing arts. He confessed to making people ill with curses so they would consult him. When asked to heal a child, he cried these words. Executed.',
@@ -2622,12 +2653,10 @@
 
             const cardsHtml = sortedTypes.map(type => {
                 const info = typeInfo[type] || typeInfo['other'];
-                const label = type.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                const label = formatLabel(type);
                 const stats = typeStats[type] || { healers: [], deaths: 0, female: 0, male: 0, paradox: 0 };
                 const count = stats.healers.length;
                 const totalCount = allTypeStats[type];
-                const paradoxPercent = count > 0 ? (stats.paradox / count * 100).toFixed(0) : 0;
-                const femalePercent = count > 0 ? (stats.female / count * 100).toFixed(0) : 0;
 
                 // Check if this type is currently selected
                 const isSelected = filters.healingType === type;
@@ -2650,30 +2679,14 @@
                     : `${count}`;
 
                 return `
-                    <div class="type-card ${isSelected ? 'selected' : ''}" data-type="${type}">
-                        ${info.narrative ? `
-                            <div class="card-tooltip" data-healer="${info.exampleHealer || ''}">
-                                ${info.quote ? `<div class="tooltip-quote">${info.quote}</div>` : ''}
-                                <div class="tooltip-narrative">${info.narrative}</div>
-                                ${info.exampleHealer ? `<div class="tooltip-citation">View trial record for ${info.exampleHealer} →</div>` : ''}
-                            </div>
-                        ` : ''}
+                    <div class="type-card ${isSelected ? 'selected' : ''}" data-type="${type}" style="border-left-color: ${info.color}; background: linear-gradient(135deg, ${info.color}08 0%, transparent 60%);">
                         <div class="type-card-header">
-                            <span class="type-color" style="background: ${info.color}"></span>
                             <span class="type-name">${label}</span>
                             <span class="type-count">${countDisplay}</span>
                         </div>
                         <div class="type-card-desc">${info.desc}</div>
-                        <div class="type-card-stats">
-                            <div class="type-card-stat">
-                                <div class="stat-value">${paradoxPercent}%</div>
-                                <div class="stat-label">Paradox</div>
-                            </div>
-                            <div class="type-card-stat">
-                                <div class="stat-value">${femalePercent}%</div>
-                                <div class="stat-label">Female</div>
-                            </div>
-                        </div>
+                        ${info.quote ? `<div class="type-card-quote">${info.quote}</div>` : ''}
+                        ${info.exampleHealer ? `<div class="type-card-healer" data-healer="${info.exampleHealer}">Read about ${info.exampleHealer} →</div>` : ''}
                     </div>
                 `;
             }).join('');
@@ -2699,8 +2712,8 @@
             // Add click handlers to cards
             document.querySelectorAll('.type-card').forEach(card => {
                 card.addEventListener('click', (e) => {
-                    // Don't trigger card filter if clicking on tooltip
-                    if (e.target.closest('.card-tooltip')) return;
+                    // Don't trigger card filter if clicking healer link
+                    if (e.target.closest('.type-card-healer')) return;
 
                     const type = card.dataset.type;
 
@@ -2720,12 +2733,11 @@
                 });
             });
 
-            // Add click handlers to tooltip citations
-            document.querySelectorAll('.tooltip-citation').forEach(citation => {
-                citation.addEventListener('click', (e) => {
+            // Add click handlers to healer links on cards
+            document.querySelectorAll('.type-card-healer').forEach(link => {
+                link.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    const tooltip = citation.closest('.card-tooltip');
-                    const healerName = tooltip.dataset.healer;
+                    const healerName = link.dataset.healer;
                     if (healerName) {
                         jumpToHealer(healerName);
                     }
@@ -2737,17 +2749,6 @@
 
         // Position tooltips - flip alignment based on screen position (global function)
         function positionTooltips() {
-            // Position type card tooltips
-            document.querySelectorAll('.type-card').forEach(card => {
-                const rect = card.getBoundingClientRect();
-                const cardRight = rect.left + 280; // card position + tooltip width
-                if (cardRight > window.innerWidth - 20) {
-                    card.classList.add('tooltip-right');
-                } else {
-                    card.classList.remove('tooltip-right');
-                }
-            });
-
             // Position outcome tooltips
             document.querySelectorAll('.outcome-item').forEach(item => {
                 const rect = item.getBoundingClientRect();
@@ -2766,6 +2767,324 @@
                     item.classList.add('tooltip-left');
                 }
             });
+        }
+
+        function updateDemographicsSection() {
+            const total = filteredData.length;
+            const demoStats = document.getElementById('demo-stats');
+
+            if (total === 0) {
+                document.getElementById('demographics-intro').textContent = 'No healers match the current filters.';
+                demoStats.innerHTML = '';
+                document.getElementById('chart-demo-gender').innerHTML = '';
+                document.getElementById('chart-demo-economic').innerHTML = '';
+                document.getElementById('chart-demo-age').innerHTML = '';
+                document.getElementById('chart-demo-marital').innerHTML = '';
+                document.getElementById('chart-demo-practice').innerHTML = '';
+                document.getElementById('chart-demo-occupation').innerHTML = '';
+                document.getElementById('chart-demo-paradox').innerHTML = '';
+                return;
+            }
+
+            // Compute stats
+            const femaleCount = filteredData.filter(h => h.gender === 'female').length;
+            const femalePct = (femaleCount / total * 100).toFixed(0);
+            const poorCount = filteredData.filter(h => h.economic_status === 'poor' || h.economic_status === 'destitute').length;
+            const poorPct = (poorCount / total * 100).toFixed(0);
+            const withAge = filteredData.filter(h => h.age);
+            const avgAge = withAge.length > 0 ? Math.round(withAge.reduce((sum, h) => sum + h.age, 0) / withAge.length) : 0;
+            const ages = withAge.map(h => h.age);
+            const minAge = ages.length > 0 ? Math.min(...ages) : 0;
+            const maxAge = ages.length > 0 ? Math.max(...ages) : 0;
+            const multiPractice = filteredData.filter(h => h.healing_types && h.healing_types.length >= 2).length;
+            const multiPct = (multiPractice / total * 100).toFixed(0);
+            const paradoxCount = filteredData.filter(h => h.has_paradox).length;
+            const paradoxPct = (paradoxCount / total * 100).toFixed(0);
+
+            // Narrative intro with highlighted numbers
+            document.getElementById('demographics-intro').innerHTML =
+                `Of the <span class="highlight">${total}</span> healers shown, <span class="highlight">${femalePct}%</span> were women and <span class="highlight">${poorPct}%</span> were poor or destitute. The average age at trial was <span class="highlight">${avgAge}</span>, and <span class="highlight">${paradoxPct}%</span> were accused of harming someone they had previously healed.`;
+
+            // Summary stat cards
+            demoStats.innerHTML = `
+                <div class="trial-stat">
+                    <div class="stat-value">${femalePct}%</div>
+                    <div class="stat-label">Female</div>
+                    <div class="stat-context">${femaleCount} of ${total}</div>
+                </div>
+                <div class="trial-stat highlight-red">
+                    <div class="stat-value">${poorPct}%</div>
+                    <div class="stat-label">Poor or Destitute</div>
+                    <div class="stat-context">${poorCount} of ${total}</div>
+                </div>
+                <div class="trial-stat">
+                    <div class="stat-value">${avgAge > 0 ? avgAge : '—'}</div>
+                    <div class="stat-label">Average Age</div>
+                    <div class="stat-context">${ages.length > 0 ? `range ${minAge}–${maxAge}` : 'no age data'}</div>
+                </div>
+                <div class="trial-stat">
+                    <div class="stat-value">${multiPct}%</div>
+                    <div class="stat-label">Multi-Practice</div>
+                    <div class="stat-context">${multiPractice} practiced 2+ types</div>
+                </div>
+            `;
+
+            updateDemoGenderChart();
+            updateDemoEconomicChart();
+            updateDemoAgeChart();
+            updateDemoMaritalChart();
+            updateDemoPracticeChart();
+            updateDemoOccupationChart();
+            updateDemoParadoxChart();
+        }
+
+        function updateDemoGenderChart() {
+            const container = document.getElementById('chart-demo-gender');
+            const femaleCount = filteredData.filter(h => h.gender === 'female').length;
+            const maleCount = filteredData.filter(h => h.gender === 'male').length;
+            const maxCount = Math.max(femaleCount, maleCount, 1);
+            const total = filteredData.length;
+
+            const rows = [
+                { label: 'Female', count: femaleCount, color: 'linear-gradient(90deg, #7d3c98, #a569bd)' },
+                { label: 'Male', count: maleCount, color: 'linear-gradient(90deg, #2471a3, #5dade2)' }
+            ];
+
+            container.innerHTML = rows.map(r => `
+                <div class="chart-bar">
+                    <span class="bar-label">${r.label}</span>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: ${r.color};"></div>
+                        <span class="bar-value">${total > 0 ? (r.count / total * 100).toFixed(0) : 0}%</span>
+                    </div>
+                    <span class="bar-count">${r.count}</span>
+                </div>
+            `).join('');
+        }
+
+        function updateDemoEconomicChart() {
+            const container = document.getElementById('chart-demo-economic');
+            const statusCounts = {};
+            filteredData.forEach(h => {
+                const s = h.economic_status || 'unknown';
+                statusCounts[s] = (statusCounts[s] || 0) + 1;
+            });
+
+            const order = ['comfortable', 'middling', 'poor', 'destitute', 'unknown'];
+            const labels = { comfortable: 'Comfortable', middling: 'Middling', poor: 'Poor', destitute: 'Destitute', unknown: 'Unknown' };
+            const colors = {
+                comfortable: 'linear-gradient(90deg, #1e8449, #2ecc71)',
+                middling: 'linear-gradient(90deg, #d4ac0d, #f4d03f)',
+                poor: 'linear-gradient(90deg, #ca6f1e, #f0b27a)',
+                destitute: 'linear-gradient(90deg, #a93226, #e74c3c)',
+                unknown: 'linear-gradient(90deg, #707b7c, #aab7b8)'
+            };
+            const rows = order.filter(s => statusCounts[s]).map(s => ({
+                label: labels[s] || s,
+                count: statusCounts[s],
+                color: colors[s] || 'var(--color-accent)'
+            }));
+
+            const maxCount = Math.max(...rows.map(r => r.count), 1);
+            const total = filteredData.length;
+
+            container.innerHTML = rows.map(r => `
+                <div class="chart-bar">
+                    <span class="bar-label">${r.label}</span>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: ${r.color};"></div>
+                        <span class="bar-value">${total > 0 ? (r.count / total * 100).toFixed(0) : 0}%</span>
+                    </div>
+                    <span class="bar-count">${r.count}</span>
+                </div>
+            `).join('');
+        }
+
+        function updateDemoAgeChart() {
+            const container = document.getElementById('chart-demo-age');
+            const withAge = filteredData.filter(h => h.age);
+
+            if (withAge.length === 0) {
+                container.innerHTML = '<p style="color: var(--color-text-muted); font-style: italic;">No age data available for current filters.</p>';
+                return;
+            }
+
+            const bands = { '20s': 0, '30s': 0, '40s': 0, '50s': 0, '60s': 0, '70s': 0, '80+': 0 };
+            withAge.forEach(h => {
+                const decade = Math.floor(h.age / 10) * 10;
+                if (decade < 20) bands['20s']++;
+                else if (decade >= 80) bands['80+']++;
+                else bands[decade + 's']++;
+            });
+
+            const rows = Object.entries(bands).filter(([, count]) => count > 0).map(([label, count]) => ({ label, count }));
+            const maxCount = Math.max(...rows.map(r => r.count), 1);
+            const ageTotal = withAge.length;
+
+            container.innerHTML = rows.map(r => `
+                <div class="chart-bar">
+                    <span class="bar-label">${r.label}</span>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <span class="bar-value">${(r.count / ageTotal * 100).toFixed(0)}%</span>
+                    </div>
+                    <span class="bar-count">${r.count}</span>
+                </div>
+            `).join('');
+        }
+
+        function updateDemoMaritalChart() {
+            const container = document.getElementById('chart-demo-marital');
+            const statusCounts = {};
+            filteredData.forEach(h => {
+                const s = h.marital_status || 'unknown';
+                statusCounts[s] = (statusCounts[s] || 0) + 1;
+            });
+
+            const order = ['married', 'widowed', 'single', 'unknown'];
+            const labels = { married: 'Married', widowed: 'Widowed', single: 'Single', unknown: 'Unknown' };
+            const rows = order.filter(s => statusCounts[s]).map(s => ({
+                label: labels[s] || formatLabel(s),
+                count: statusCounts[s]
+            }));
+
+            const maxCount = Math.max(...rows.map(r => r.count), 1);
+            const total = filteredData.length;
+
+            container.innerHTML = rows.map(r => `
+                <div class="chart-bar">
+                    <span class="bar-label">${r.label}</span>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <span class="bar-value">${total > 0 ? (r.count / total * 100).toFixed(0) : 0}%</span>
+                    </div>
+                    <span class="bar-count">${r.count}</span>
+                </div>
+            `).join('');
+        }
+
+        function updateDemoPracticeChart() {
+            const container = document.getElementById('chart-demo-practice');
+            const practiceCount = { 'One type': 0, 'Two types': 0, 'Three types': 0, 'Four or more': 0 };
+
+            filteredData.forEach(h => {
+                const n = h.healing_types ? h.healing_types.length : 0;
+                if (n <= 1) practiceCount['One type']++;
+                else if (n === 2) practiceCount['Two types']++;
+                else if (n === 3) practiceCount['Three types']++;
+                else practiceCount['Four or more']++;
+            });
+
+            const rows = Object.entries(practiceCount).filter(([, count]) => count > 0).map(([label, count]) => ({ label, count }));
+            const maxCount = Math.max(...rows.map(r => r.count), 1);
+            const total = filteredData.length;
+
+            container.innerHTML = rows.map(r => `
+                <div class="chart-bar">
+                    <span class="bar-label">${r.label}</span>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <span class="bar-value">${total > 0 ? (r.count / total * 100).toFixed(0) : 0}%</span>
+                    </div>
+                    <span class="bar-count">${r.count}</span>
+                </div>
+            `).join('');
+        }
+
+        function updateDemoOccupationChart() {
+            const container = document.getElementById('chart-demo-occupation');
+            const groupCounts = {};
+            let withKnownOcc = 0;
+            let healingOnlyCount = 0;
+
+            filteredData.forEach(h => {
+                const occs = h.occupation || [];
+                if (occs.length === 0) return;
+
+                const nonHealing = occs.filter(o => !HEALING_OCCUPATIONS.has(o));
+                const hasHealing = occs.some(o => HEALING_OCCUPATIONS.has(o));
+
+                if (nonHealing.length === 0 && hasHealing) {
+                    healingOnlyCount++;
+                    withKnownOcc++;
+                    return;
+                }
+
+                if (nonHealing.length > 0) {
+                    withKnownOcc++;
+                    // Track which groups this healer falls into (count each group once per healer)
+                    const groups = new Set();
+                    nonHealing.forEach(occ => {
+                        const group = OCCUPATION_TO_GROUP[occ] || 'Other';
+                        groups.add(group);
+                    });
+                    groups.forEach(group => {
+                        groupCounts[group] = (groupCounts[group] || 0) + 1;
+                    });
+                }
+            });
+
+            if (withKnownOcc === 0) {
+                container.innerHTML = '<p style="color: var(--color-text-muted); font-style: italic;">No occupation data available for current filters.</p>';
+                return;
+            }
+
+            const rows = Object.entries(groupCounts)
+                .sort((a, b) => b[1] - a[1])
+                .map(([label, count]) => ({ label, count }));
+
+            const maxCount = Math.max(...rows.map(r => r.count), 1);
+
+            container.innerHTML = rows.map(r => `
+                <div class="chart-bar">
+                    <span class="bar-label">${r.label}</span>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <span class="bar-value">${(r.count / withKnownOcc * 100).toFixed(0)}%</span>
+                    </div>
+                    <span class="bar-count">${r.count}</span>
+                </div>
+            `).join('') + `
+                <p style="color: var(--color-text-subtle); font-size: 0.85em; font-style: italic; margin-top: 12px;">
+                    Excludes healing occupations. Of ${withKnownOcc} healers with known occupations, ${healingOnlyCount} listed healing as their only work.
+                </p>
+            `;
+        }
+
+        function updateDemoParadoxChart() {
+            const container = document.getElementById('chart-demo-paradox');
+            const typeParadox = {};
+            filteredData.forEach(h => {
+                h.healing_types.forEach(type => {
+                    if (!typeParadox[type]) typeParadox[type] = { total: 0, paradox: 0 };
+                    typeParadox[type].total++;
+                    if (h.has_paradox) typeParadox[type].paradox++;
+                });
+            });
+
+            const sorted = Object.keys(typeParadox)
+                .filter(t => typeParadox[t].total > 0)
+                .sort((a, b) => {
+                    const rateA = typeParadox[a].paradox / typeParadox[a].total;
+                    const rateB = typeParadox[b].paradox / typeParadox[b].total;
+                    return rateB - rateA;
+                });
+
+            container.innerHTML = sorted.map(type => {
+                const info = typeInfo[type] || typeInfo['other'];
+                const s = typeParadox[type];
+                const rate = (s.paradox / s.total * 100).toFixed(0);
+                return `
+                    <div class="chart-bar">
+                        <span class="bar-label">${formatLabel(type)}</span>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: ${rate}%; background: ${info.color};"></div>
+                            <span class="bar-value">${rate}%</span>
+                        </div>
+                        <span class="bar-count">${s.paradox}/${s.total}</span>
+                    </div>
+                `;
+            }).join('');
         }
 
         function jumpToHealer(healerName) {
