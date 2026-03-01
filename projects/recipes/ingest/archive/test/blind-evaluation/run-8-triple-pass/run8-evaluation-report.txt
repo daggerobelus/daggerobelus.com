@@ -1,0 +1,517 @@
+================================================================================
+BLIND TRANSCRIPTION EVALUATION REPORT -- RUN 8
+Triple-Pass Consensus Method with Vocabulary Verification
+Date: 2026-02-28
+================================================================================
+
+METHOD
+--------------------------------------------------------------------------------
+Run 8 uses a triple-pass consensus approach inspired by EMROC triple-keying:
+  1. Three independent agents each transcribed all 5 manuscripts using the
+     alphabet-first method (Run 4 style — NO vocabulary list)
+  2. A fourth reconciliation agent merged the three passes into a consensus
+     reading using majority rule
+  3. Vocabulary verification was applied ONLY to the final consensus
+
+This combines Run 4's confident reading (no vocab distraction during
+transcription) with Run 6's vocab verification (on a strong consensus base).
+
+CER = (Substitutions + Insertions + Deletions) / Total Reference Characters
+
+TWO CER METRICS ARE REPORTED:
+  1. FULL CER: vs entire reference, penalizes for unread sections
+  2. ATTEMPTED CER: only on text actually transcribed
+
+================================================================================
+INDIVIDUAL MANUSCRIPT RESULTS
+================================================================================
+
+--- Henslow MS688 ---
+
+  [...] markers in transcription: 0
+  Coverage: 948/948 reference chars (100.0% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  948 characters
+    Blind length:      939 characters
+    Edit distance:     43
+      Substitutions:   26
+      Insertions:      13
+      Deletions:       4
+    CER:               4.54%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  948 characters
+    Blind length:      939 characters
+    Edit distance:     43
+      Substitutions:   26
+      Insertions:      13
+      Deletions:       4
+    CER:               4.54%
+
+  Word-level error categorization:
+    letterform_misreading: 11
+      "Caunterberries" -> "Cannterberries"
+      "handsfull" -> "handfull"
+      "violett" -> "voilett"
+      "Borrage" -> "Buorrage"
+      "handsfull" -> "handefull"
+      "morninge" -> "moreninge"
+    double_letter: 8
+      "Langdebeefe" -> "langdebeeffe"
+      "ffor" -> "For"
+      "yt" -> "ytt"
+      "it" -> "itt"
+      "ffor" -> "For"
+      "fflixe" -> "Flixe"
+    punctuation: 7
+      "quantitye" -> "quantitye."
+      "rosted" -> "rosted."
+      "butter" -> "butter."
+      "fundamente" -> "fundamente."
+      "ease" -> "ease."
+      "tarre" -> "tarre,"
+    capitalization: 3
+      "lorde" -> "Lorde"
+      "Strawberrie" -> "strawberrie"
+      "imbers" -> "Imbers"
+    uv_convention: 3
+      "untill" -> "vntill"
+      "vse" -> "use"
+      "vppon" -> "uppon"
+    terminal_e: 2
+      "Coleworte" -> "Colewort"
+      "sitt" -> "sitte"
+    extra_word: 1
+      "Take" -> (not in ref)
+    hallucination: 1
+      "one" -> "Takeone"
+
+  Attempted blind text (first 250 chars):
+    My lorde of Caunterberries Brothe for a Consumptione Take like as before sauinge putt thereto a handsfull of violett leaues Langdebeefe leaues Borrage leaues and Strawberrie leaues, knitt togeather of euerie one alike quantitye ffor the pyles Take on
+  Attempted reference text (first 250 chars):
+    My Lorde of Cannterberries Brothe for a Consumptione Take like as before sauinge putt thereto a handfull of voilett leaues langdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt togeather of euerie one alike quantitye. For the pyles Takeon
+
+
+--- Sedley MS534 ---
+
+  [...] markers in transcription: 2
+  Coverage: 2047/2058 reference chars (99.5% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  2058 characters
+    Blind length:      1979 characters
+    Edit distance:     328
+      Substitutions:   173
+      Insertions:      117
+      Deletions:       38
+    CER:               15.94%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  2047 characters
+    Blind length:      1979 characters
+    Edit distance:     318
+      Substitutions:   174
+      Insertions:      106
+      Deletions:       38
+    CER:               15.53%
+
+  Word-level error categorization:
+    hallucination: 32
+      "pt" -> "pound"
+      "&" -> "pound"
+      "colour" -> "well"
+      "eporenett" -> "upermost"
+      "boxe" -> "Iron"
+      "you" -> "then"
+    letterform_misreading: 25
+      "calcined" -> "calcinated"
+      "glased" -> "glazed"
+      "parted" -> "porated"
+      "fyre" -> "fire"
+      "contineweinge" -> "continueinge"
+      "fyre" -> "fire"
+    other_spelling: 19
+      "sores" -> "vses"
+      "with" -> "into"
+      "the" -> "be"
+      "seemes" -> "comes"
+      "what" -> "somewhat"
+      "put" -> "&"
+    missing_word: 17
+      (missing) -> "1"
+      (missing) -> "they"
+      (missing) -> "trenchar"
+      (missing) -> "dipp"
+      (missing) -> "flux"
+      (missing) -> "reines"
+    uv_convention: 7
+      "Salue" -> "Salve"
+      "oliue" -> "olive"
+      "vpon" -> "upon"
+      "leaue" -> "leave"
+      "prouokes" -> "provokes"
+      "vp" -> "up"
+    terminal_e: 7
+      "leade" -> "Lead"
+      "stirringe" -> "stirring"
+      "sticke" -> "Stick"
+      "som" -> "some"
+      "remedye" -> "remedy"
+      "Dramm" -> "dramme"
+    double_letter: 6
+      "reddnes" -> "redness"
+      "colour" -> "collour"
+      "Childbedd" -> "Childbed"
+      "Cinnamon" -> "Cinamon"
+      "Claret" -> "Clarett"
+      "Childbedd" -> "Childbed"
+    punctuation: 5
+      "dust" -> "dust,"
+      "coales" -> "coales,"
+      "bigger" -> "bigger,"
+      "enough" -> "enough,"
+      "tis" -> "t'is"
+    extra_word: 5
+      "some" -> (not in ref)
+      "character" -> (not in ref)
+      "in" -> (not in ref)
+      "Clove" -> (not in ref)
+      "of" -> (not in ref)
+    capitalization: 3
+      "for" -> "For"
+      "a" -> "A"
+      "Day" -> "day"
+    word_segmentation: 2
+      "is" -> "incor="
+      "soueraigne" -> "soverai="
+
+  Attempted blind text (first 250 chars):
+    20 A Salue for sundry sores called the Leaden plaister XXVII Take one pt of oyle oliue of the best & of white leade very well calcined with dust 12 ounces of Spanish sope incorporate all these well together in an earthen pott well glased & when the c
+  Attempted reference text (first 250 chars):
+    20 A Salve for sundry vses called the Leaden plaister XXVII Take one pound of oyle olive of the best 1 pound of white Lead very well calcinated into dust, 12 ounces of Spanish sope incorporate all these well together in an earthen pott well glazed & 
+
+
+--- Bulkeley MS169 ---
+
+  [...] markers in transcription: 0
+  Coverage: 1400/1400 reference chars (100.0% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  1400 characters
+    Blind length:      1418 characters
+    Edit distance:     256
+      Substitutions:   162
+      Insertions:      38
+      Deletions:       56
+    CER:               18.29%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  1400 characters
+    Blind length:      1418 characters
+    Edit distance:     256
+      Substitutions:   162
+      Insertions:      38
+      Deletions:       56
+    CER:               18.29%
+
+  Word-level error categorization:
+    hallucination: 31
+      "hir" -> "spike,"
+      "temperature," -> "the"
+      "7" -> "temperature."
+      "&" -> "partes."
+      "saied" -> "good"
+      "good" -> "giuen"
+    letterform_misreading: 24
+      "Lavander," -> "Lauander"
+      "alay" -> "any"
+      "especially" -> "espetially"
+      "begynninge" -> "beginninge"
+      "aboundance" -> "bundance"
+      "only." -> "onely."
+    other_spelling: 16
+      "the" -> "haue"
+      "heart" -> "theire"
+      "vertude" -> "Vertues."
+      "anie" -> "made"
+      "what" -> "which"
+      "call" -> "att"
+    extra_word: 9
+      "partes," -> (not in ref)
+      "a" -> (not in ref)
+      "cause" -> (not in ref)
+      "so" -> (not in ref)
+      "nether" -> (not in ref)
+      "water" -> (not in ref)
+    missing_word: 6
+      (missing) -> "7"
+      (missing) -> "a"
+      (missing) -> "&"
+      (missing) -> "do"
+      (missing) -> "rashly"
+      (missing) -> "other"
+    punctuation: 6
+      "vnto" -> "vnto,"
+      "therwith" -> "therwith,"
+      "herbes" -> "herbes,"
+      "head" -> "head,"
+      "compositions" -> "compositions,"
+      "Apoplexie," -> "Apoplexie;"
+    terminal_e: 4
+      "thinne" -> "thinn"
+      "heade," -> "head,"
+      "foreheade" -> "forehead"
+      "lettinge" -> "letting"
+    capitalization: 3
+      "of" -> "Of"
+      "therefore" -> "Therefore"
+      "Certayne" -> "certayne"
+    uv_convention: 3
+      "Lavander" -> "Lauander"
+      "Lavander" -> "Lauander"
+      "aduenture" -> "adventure"
+    double_letter: 1
+      "hott" -> "hot"
+
+  Attempted blind text (first 250 chars):
+    of Lavander, hir temperature, 7 Lavander is hott & drye, & that in the third degree, & is of a thinne substance, consistinge of many airie & spirituall partes, & therefore it is saied to be a good alay vpon against the diseases of the heade, & especi
+  Attempted reference text (first 250 chars):
+    7 Of Lauander spike, the temperature. Lauander is hot & drye, & that in the third degree, & is of a thinn substance, consistinge of many airie & spirituall partes. Therefore it is good to be giuen any way against the diseases of the head, & espetiall
+
+
+--- Brumwich MS160 ---
+
+  [...] markers in transcription: 216
+  Coverage: 2469/3575 reference chars (69.1% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  3575 characters
+    Blind length:      920 characters
+    Edit distance:     2853
+      Substitutions:   186
+      Insertions:      2661
+      Deletions:       6
+    CER:               79.80%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  2469 characters
+    Blind length:      920 characters
+    Edit distance:     1812
+      Substitutions:   247
+      Insertions:      1557
+      Deletions:       8
+    CER:               73.39%
+
+  Word-level error categorization:
+    missing_word: 324
+      (missing) -> "other"
+      (missing) -> "&"
+      (missing) -> "as"
+      (missing) -> "much"
+      (missing) -> "of"
+      (missing) -> "aloes"
+    hallucination: 63
+      "merueilous" -> "Exelent"
+      "safe" -> "uirtue"
+      "sweete" -> "helpe"
+      "hearbes" -> "dimme"
+      "dipped" -> "decayed"
+      "finders" -> "sicknes"
+    other_spelling: 35
+      "&" -> "to"
+      "&" -> "the"
+      "made" -> "weake"
+      "your" -> "of"
+      "The" -> "3"
+      "of" -> "the"
+    letterform_misreading: 8
+      "the" -> "age"
+      "sure" -> "pure"
+      "can" -> "was"
+      "of" -> "one"
+      "third" -> "thick"
+      "pepper" -> "paper"
+    uv_convention: 3
+      "very" -> "uery"
+      "very" -> "uery"
+      "very" -> "uery"
+    terminal_e: 2
+      "halfe" -> "half"
+      "pounde" -> "pound"
+    extra_word: 1
+      "violett" -> (not in ref)
+    double_letter: 1
+      "water" -> "watter"
+
+  Attempted blind text (first 250 chars):
+    A water of violett merueilous safe & sweete & made or hearbes your when they are dipped by the finders or The Drinke of Treacle in fasting very smalle be as sure as it can before grase which medlinge a handfull them in halfe a of a a morning of oyle 
+  Attempted reference text (first 250 chars):
+    A water of Exelent uirtue to helpe the weake or dimme of when they are decayed by age sicknes or other 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in puder 2 drames of fine sugar 6 ounces of red rose water 6 ounces of good whi
+
+
+--- Jane Jackson MS373 ---
+
+  [...] markers in transcription: 211
+  Coverage: 2876/3978 reference chars (72.3% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  3978 characters
+    Blind length:      471 characters
+    Edit distance:     3551
+      Substitutions:   44
+      Insertions:      3507
+      Deletions:       0
+    CER:               89.27%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  2876 characters
+    Blind length:      471 characters
+    Edit distance:     2467
+      Substitutions:   58
+      Insertions:      2407
+      Deletions:       2
+    CER:               85.78%
+
+  Word-level error categorization:
+    missing_word: 466
+      (missing) -> "the"
+      (missing) -> "indure"
+      (missing) -> "it"
+      (missing) -> "This"
+      (missing) -> "use"
+      (missing) -> "shifting"
+    hallucination: 38
+      "ffor" -> "the"
+      "endure" -> "into"
+      "ffor" -> "the"
+      "Coughe" -> "to"
+      "breake" -> "same"
+      "Impostume" -> "a"
+    other_spelling: 20
+      "&" -> "the"
+      "an" -> "Take"
+      "&" -> "and"
+      "&" -> "of"
+      "&" -> "on"
+      "&" -> "you"
+    capitalization: 2
+      "The" -> "the"
+      "Day" -> "day"
+    letterform_misreading: 2
+      "ffor" -> "from"
+      "to" -> "the"
+    double_letter: 2
+      "ffor" -> "for"
+      "ffor" -> "For"
+
+  Attempted blind text (first 250 chars):
+    ffor and it to as as you can endure it The of & ffor of the ffor a Coughe and ffor to breake an Impostume & a of strong vinegar & a and & a & & in the Day by the space of Dayes and it is a & a of and a quantitie of Treacle and & together and A for an
+  Attempted reference text (first 250 chars):
+    the and it to the as as you can indure it This use shifting it once in xxiiij howers 3 or 4 dayes together For the pilling of the face Take Turpendine of venice and wash it with red rose water till you haue taken away the smell of the turpentine then
+
+================================================================================
+OVERALL RESULTS
+================================================================================
+  Full CER (all text):              58.79%
+    Total edit distance:             7031
+    Total reference chars:           11959
+
+  Attempted CER (attempted only):   50.27%
+    Total edit distance:             4896
+    Total reference chars:           9740
+
+================================================================================
+COMPARISON ACROSS ALL RUNS (Full CER)
+================================================================================
+
+Manuscript                  R1      R2      R3      R4      R5      R6      R7      R8    Best
+----------------------------------------------------------------------------------------------
+Henslow MS688            11.3%   12.0%   6.12%   4.96%   5.38%   3.80%   7.59%   4.54%   3.80%
+Sedley MS534             15.8%   21.0%     N/A  15.13%  16.55%  16.96%  16.42%  15.94%  15.13%
+Bulkeley MS169           22.8%   18.0%     N/A  18.70%  20.90%  16.21%  18.29%  18.29%  16.21%
+Brumwich MS160           96.1%   93.0%     N/A   9.30%  50.62%  69.29%  62.49%  79.80%   9.30%
+Jane Jackson MS373       95.6%   95.0%     N/A  77.41%  46.85%  80.62%  67.22%  89.27%  46.85%
+
+* = new best result for this manuscript
+
+================================================================================
+CURRENT BEST RESULTS (updated with Run 8)
+================================================================================
+
+Manuscript               Best CER   Best Run
+--------------------------------------------
+Henslow MS688               3.80%      Run 6
+Sedley MS534               15.13%      Run 4
+Bulkeley MS169             16.21%      Run 6
+Brumwich MS160              9.30%      Run 4
+Jane Jackson MS373         46.85%      Run 5
+
+================================================================================
+RUN 8 vs PREVIOUS BEST (per manuscript)
+================================================================================
+
+  Henslow MS688: 4.54% vs 3.80% (Run 6) = WORSE (+0.74pp)
+  Sedley MS534: 15.94% vs 15.13% (Run 4) = WORSE (+0.81pp)
+  Bulkeley MS169: 18.29% vs 16.21% (Run 6) = WORSE (+2.08pp)
+  Brumwich MS160: 79.80% vs 9.30% (Run 4) = WORSE (+70.50pp)
+  Jane Jackson MS373: 89.27% vs 46.85% (Run 5) = WORSE (+42.42pp)
+
+================================================================================
+ASSESSMENT
+================================================================================
+
+  Manuscripts improved: 0/5
+  Manuscripts same:     0/5
+  Manuscripts worse:    5/5
+
+  Henslow MS688:
+    Full CER: 4.54%  |  Attempted CER: 4.54%  |  Coverage: 100%
+    Previous best: 3.80% (Run 6)
+    [...] markers: 0
+
+  Sedley MS534:
+    Full CER: 15.94%  |  Attempted CER: 15.53%  |  Coverage: 99%
+    Previous best: 15.13% (Run 4)
+    [...] markers: 2
+
+  Bulkeley MS169:
+    Full CER: 18.29%  |  Attempted CER: 18.29%  |  Coverage: 100%
+    Previous best: 16.21% (Run 6)
+    [...] markers: 0
+
+  Brumwich MS160:
+    Full CER: 79.80%  |  Attempted CER: 73.39%  |  Coverage: 69%
+    Previous best: 9.30% (Run 4)
+    [...] markers: 216
+
+  Jane Jackson MS373:
+    Full CER: 89.27%  |  Attempted CER: 85.78%  |  Coverage: 72%
+    Previous best: 46.85% (Run 5)
+    [...] markers: 211
+
+================================================================================
+BENCHMARK COMPARISON
+================================================================================
+  < 1% CER  = Very good
+  < 5% CER  = Usable for most research purposes
+  ~3% CER   = Transkribus Egerton model (best for English secretary hand)
+
+  Henslow MS688:
+    Full CER: 4.54% -- USABLE (research quality)
+    Attempted CER: 4.54% (on 100% of page)
+  Sedley MS534:
+    Full CER: 15.94% -- POOR (heavy editing needed)
+    Attempted CER: 15.53% (on 99% of page)
+  Bulkeley MS169:
+    Full CER: 18.29% -- POOR (heavy editing needed)
+    Attempted CER: 18.29% (on 100% of page)
+  Brumwich MS160:
+    Full CER: 79.80% -- NOT USABLE (requires retranscription)
+    Attempted CER: 73.39% (on 69% of page)
+  Jane Jackson MS373:
+    Full CER: 89.27% -- NOT USABLE (requires retranscription)
+    Attempted CER: 85.78% (on 72% of page)
+
+  Overall Full CER: 58.79%
+  Overall Attempted CER: 50.27%

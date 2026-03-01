@@ -1,0 +1,687 @@
+================================================================================
+BLIND TRANSCRIPTION EVALUATION REPORT -- RUN 7
+Alphabet-First Method with Vocabulary Verification
+Date: 2026-02-28
+================================================================================
+
+METHOD
+--------------------------------------------------------------------------------
+Run 7 uses the alphabet-first transcription method with vocabulary
+verification (same methodology as Run 6). The transcription agent:
+  1. Built a hand-specific alphabet from the manuscript image
+  2. Transcribed the page using that alphabet + paleography guide
+  3. Verified readings against a vocabulary reference of attested
+     early modern recipe terms (~19K words from 40 sources)
+
+CER = (Substitutions + Insertions + Deletions) / Total Reference Characters
+Computed using character-level Levenshtein edit distance.
+
+TWO CER METRICS ARE REPORTED:
+
+  1. FULL CER: Standard CER comparing blind text (with [...] removed)
+     against the full reference. Penalizes for unread sections.
+
+  2. ATTEMPTED CER: CER computed only on text the agent attempted to read.
+     [...] markers are aligned with reference words and those sections
+     are excluded from both sides. This measures accuracy of what was
+     actually transcribed.
+
+For manuscripts with few/no [...] markers, these are nearly identical.
+For manuscripts with heavy [...] usage, they differ substantially.
+
+Normalization applied to blind text:
+  - Headers, confidence notes, and metadata stripped
+  - Decorative dot patterns stripped
+  - Confidence markers [word?] -> word
+  - Italic markers *letters* -> letters
+  - Section labels stripped ([LEFT PAGE - VERSO], etc.)
+  - [...] illegibility markers handled via alignment exclusion
+
+Normalization applied to reference text:
+  - Source metadata header stripped
+  - Editorial brackets stripped ([er] -> er, etc.)
+  - Superscript markers ^ stripped
+  - Page numbers in braces {6} stripped
+  - Whitespace normalized
+
+================================================================================
+INDIVIDUAL MANUSCRIPT RESULTS
+================================================================================
+
+--- Henslow MS688 ---
+
+  [...] markers in transcription: 0
+  Coverage: 948/948 reference chars (100.0% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  948 characters
+    Blind length:      932 characters
+    Edit distance:     72
+      Substitutions:   46
+      Insertions:      21
+      Deletions:       5
+    CER:               7.59%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  948 characters
+    Blind length:      932 characters
+    Edit distance:     72
+      Substitutions:   46
+      Insertions:      21
+      Deletions:       5
+    CER:               7.59%
+
+  Word-level error categorization:
+    letterform_misreading: 15
+      "Caunterberries" vs ref "Cannterberries"
+      "violett" vs ref "voilett"
+      "Borrages" vs ref "Buorrage"
+      "knit-" vs ref "knitt"
+      "tegeathor" vs ref "togeather"
+      "Imbres" vs ref "Imbers"
+      "Colwortte" vs ref "Coleworte"
+      "drinke" vs ref "grinde"
+    double_letter: 10
+      "put" vs ref "putt"
+      "ffor" vs ref "For"
+      "put" vs ref "putt"
+      "it" vs ref "itt"
+      "ffor" vs ref "For"
+      "fflixe" vs ref "Flixe"
+      "put" vs ref "putt"
+      "it" vs ref "itt"
+    punctuation: 6
+      "quantitye" vs ref "quantitye."
+      "rosted" vs ref "rosted."
+      "butter" vs ref "butter."
+      "ease" vs ref "ease."
+      "Tarre" vs ref "tarre,"
+      "eare" vs ref "eare."
+    capitalization: 3
+      "lorde" vs ref "Lorde"
+      "Strawberrie" vs ref "strawberrie"
+      "Clothe" vs ref "clothe"
+    extra_word: 3
+      "and" (not in ref)
+      "a" (not in ref)
+      "Take" (not in ref)
+    hallucination: 3
+      "gresse" vs ref "langdebeeffe"
+      "one" vs ref "Takeone"
+      "therto" vs ref "ytt"
+    other_spelling: 2
+      "athe" vs ref "alike"
+      "put" vs ref "to"
+    uv_convention: 2
+      "vse" vs ref "use"
+      "vntill" vs ref "untill"
+    terminal_e: 2
+      "fundament" vs ref "fundamente."
+      "sitt" vs ref "sitte"
+    missing_word: 1
+      (missing) vs ref "putt"
+
+  Attempted blind text (first 300 chars):
+    My lorde of Caunterberries Brothe for a Consumptione Take like as before sauinge put thereto a handfull of violett leaues and a gresse leaues Borrages leaues and Strawberrie leaues, knit- tegeathor of euerie one athe quantitye ffor the pyles Take one handefull of mollett leaues, and wrappe them in a
+  Attempted reference text (first 300 chars):
+    My Lorde of Cannterberries Brothe for a Consumptione Take like as before sauinge putt thereto a handfull of voilett leaues langdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt togeather of euerie one alike quantitye. For the pyles Takeone handefull of mollett leaues, and wrappe them in 
+
+
+--- Sedley MS534 ---
+
+  [...] markers in transcription: 2
+  Coverage: 2044/2058 reference chars (99.3% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  2058 characters
+    Blind length:      2011 characters
+    Edit distance:     338
+      Substitutions:   197
+      Insertions:      94
+      Deletions:       47
+    CER:               16.42%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  2044 characters
+    Blind length:      2011 characters
+    Edit distance:     328
+      Substitutions:   199
+      Insertions:      81
+      Deletions:       48
+    CER:               16.05%
+
+  Word-level error categorization:
+    letterform_misreading: 36
+      "glased" vs ref "glazed"
+      "the" vs ref "they"
+      "softe" vs ref "sope"
+      "fyre" vs ref "fire"
+      "contynuinge" vs ref "continueinge"
+      "fyre" vs ref "fire"
+      "houres" vs ref "houre"
+      "rednys" vs ref "redness"
+    hallucination: 35
+      "pt" vs ref "pound"
+      "Tr" vs ref "pound"
+      "palm" vs ref "white"
+      "cerused" vs ref "calcinated"
+      "not" vs ref "well"
+      "ceruse" vs ref "be"
+      "is" vs ref "well"
+      "on" vs ref "with"
+    other_spelling: 26
+      "sores" vs ref "vses"
+      "with" vs ref "into"
+      "abouermost" vs ref "upermost"
+      "ye" vs ref "then"
+      "ye" vs ref "your"
+      "eager," vs ref "bigger,"
+      "ye" vs ref "your"
+      "floaters" vs ref "cloathes"
+    missing_word: 9
+      (missing) vs ref "20"
+      (missing) vs ref "1"
+      (missing) vs ref "trenchar"
+      (missing) vs ref "dipp"
+      (missing) vs ref "&"
+      (missing) vs ref "bloudy"
+      (missing) vs ref "kidney"
+      (missing) vs ref "breakes"
+    terminal_e: 6
+      "stirringe" vs ref "stirring"
+      "sticke" vs ref "Stick"
+      "som=" vs ref "some"
+      "enoughe," vs ref "enough,"
+      "awaye" vs ref "away"
+      "backe," vs ref "back,"
+    uv_convention: 5
+      "Salue" vs ref "Salve"
+      "oliue" vs ref "olive"
+      "vpon" vs ref "upon"
+      "leaue" vs ref "leave"
+      "vpon" vs ref "upon"
+    punctuation: 5
+      "dust" vs ref "dust,"
+      "coales" vs ref "coales,"
+      "tis" vs ref "t'is"
+      "water," vs ref "water"
+      "any," vs ref "any"
+    capitalization: 4
+      "lead" vs ref "Lead"
+      "for" vs ref "For"
+      "Handfull" vs ref "handfull"
+      "Day" vs ref "day"
+    double_letter: 4
+      "pot" vs ref "pott"
+      "colour" vs ref "collour"
+      "Cinnamon" vs ref "Cinamon"
+      "betwene" vs ref "betweene"
+    extra_word: 4
+      "duracion" (not in ref)
+      "in-" (not in ref)
+      "&" (not in ref)
+      "goe" (not in ref)
+    word_segmentation: 2
+      "some=" vs ref "somewhat"
+      "soueraigne" vs ref "soverai="
+
+  Attempted blind text (first 300 chars):
+    A Salue for sundry sores called the Leaden plaister XXVII Take one pt of oyle oliue of the best Tr of palm lead very well cerused with dust 12 ounces of Spanish sope incorporate all these well together in an earthen pot not glased & when the ceruse is incor= porated that the softe comes abouermost &
+  Attempted reference text (first 300 chars):
+    20 A Salve for sundry vses called the Leaden plaister XXVII Take one pound of oyle olive of the best 1 pound of white Lead very well calcinated into dust, 12 ounces of Spanish sope incorporate all these well together in an earthen pott well glazed & when they be well incor= porated that the sope com
+
+
+--- Bulkeley MS169 ---
+
+  [...] markers in transcription: 0
+  Coverage: 1400/1400 reference chars (100.0% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  1400 characters
+    Blind length:      1396 characters
+    Edit distance:     256
+      Substitutions:   174
+      Insertions:      43
+      Deletions:       39
+    CER:               18.29%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  1400 characters
+    Blind length:      1396 characters
+    Edit distance:     256
+      Substitutions:   174
+      Insertions:      43
+      Deletions:       39
+    CER:               18.29%
+
+  Word-level error categorization:
+    hallucination: 34
+      "her" vs ref "spike,"
+      "Composition," vs ref "the"
+      "7" vs ref "temperature."
+      "purifyinge" vs ref "consistinge"
+      "to" vs ref "partes."
+      "profitt" vs ref "Therefore"
+      "head" vs ref "theire"
+      "ynmote" vs ref "beginninge"
+    letterform_misreading: 27
+      "Lavander," vs ref "Lauander"
+      "arise" vs ref "airie"
+      "almy" vs ref "any"
+      "especially" vs ref "espetially"
+      "abundance" vs ref "bundance"
+      "therewith," vs ref "therwith,"
+      "catalefsie" vs ref "Catalepsie,"
+      "lose" vs ref "vse"
+    other_spelling: 16
+      "said" vs ref "good"
+      "the" vs ref "haue"
+      "forepart" vs ref "forehead"
+      "is" vs ref "a"
+      "abundans" vs ref "bundance"
+      "water" vs ref "Wine:"
+      "mishinge" vs ref "makinge"
+      "fferinge" vs ref "ference"
+    extra_word: 7
+      "was," (not in ref)
+      "cause" (not in ref)
+      "bee" (not in ref)
+      "onely" (not in ref)
+      "swoune" (not in ref)
+      "on" (not in ref)
+      "done" (not in ref)
+    terminal_e: 6
+      "thinne" vs ref "thinn"
+      "bee" vs ref "be"
+      "bee" vs ref "be"
+      "bee" vs ref "be"
+      "lettinge" vs ref "letting"
+      "purginge" vs ref "purging"
+    missing_word: 4
+      (missing) vs ref "7"
+      (missing) vs ref "&"
+      (missing) vs ref "do"
+      (missing) vs ref "other"
+    punctuation: 4
+      "degree" vs ref "degree,"
+      "vertues" vs ref "Vertues."
+      "herbes" vs ref "herbes,"
+      "head" vs ref "head,"
+    capitalization: 3
+      "of" vs ref "Of"
+      "migram," vs ref "Migram,"
+      "Certayne" vs ref "certayne"
+    uv_convention: 3
+      "Lavander" vs ref "Lauander"
+      "Lavander" vs ref "Lauander"
+      "aduenture" vs ref "adventure"
+    double_letter: 1
+      "hott" vs ref "hot"
+    word_segmentation: 1
+      "dis=" vs ref "dif-"
+
+  Attempted blind text (first 300 chars):
+    of Lavander, her Composition, 7 Lavander is hott & drye, & that in the third degree & is of a thinne substance, purifyinge of many arise & spirituall was, to profitt it is said to bee giuen almy way against the diseases of the head, & especially those which cause the head originall or bee ynmote not
+  Attempted reference text (first 300 chars):
+    7 Of Lauander spike, the temperature. Lauander is hot & drye, & that in the third degree, & is of a thinn substance, consistinge of many airie & spirituall partes. Therefore it is good to be giuen any way against the diseases of the head, & espetially those which haue theire originall or beginninge 
+
+
+--- Brumwich MS160 ---
+
+  [...] markers in transcription: 65
+  Coverage: 3235/3575 reference chars (90.5% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  3575 characters
+    Blind length:      2223 characters
+    Edit distance:     2234
+      Substitutions:   818
+      Insertions:      1384
+      Deletions:       32
+    CER:               62.49%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  3235 characters
+    Blind length:      2223 characters
+    Edit distance:     1960
+      Substitutions:   878
+      Insertions:      1047
+      Deletions:       35
+    CER:               60.59%
+
+  Word-level error categorization:
+    missing_word: 213
+      (missing) vs ref "Exelent"
+      (missing) vs ref "way"
+      (missing) vs ref "&"
+      (missing) vs ref "as"
+      (missing) vs ref "much"
+      (missing) vs ref "of"
+      (missing) vs ref "aloes"
+      (missing) vs ref "epyricum"
+    hallucination: 197
+      "Violett" vs ref "uirtue"
+      "extreame" vs ref "to"
+      "moste" vs ref "weake"
+      "names" vs ref "dimme"
+      "vsed" vs ref "sight"
+      "dusked" vs ref "decayed"
+      "Dietery" vs ref "drames"
+      "Troothe" vs ref "tueiah"
+    other_spelling: 87
+      "&" vs ref "the"
+      "of" vs ref "or"
+      "for" vs ref "of"
+      "sore" vs ref "Take"
+      "The" vs ref "3"
+      "orders" vs ref "puder"
+      "fine" vs ref "the"
+      "with" vs ref "water"
+    letterform_misreading: 40
+      "ye" vs ref "the"
+      "eye" vs ref "age"
+      "hickes" vs ref "sicknes"
+      "the" vs ref "eye"
+      "sure" vs ref "pure"
+      "the" vs ref "this"
+      "by" vs ref "lay"
+      "washid" vs ref "wash"
+    terminal_e: 4
+      "halfe" vs ref "half"
+      "halfe" vs ref "half"
+      "Receipte" vs ref "receipt"
+      "halfe" vs ref "half"
+    uv_convention: 3
+      "very" vs ref "uery"
+      "very" vs ref "uery"
+      "very" vs ref "uery"
+    extra_word: 3
+      "composition" (not in ref)
+      "common" (not in ref)
+      "frog" (not in ref)
+    double_letter: 2
+      "water" vs ref "watter"
+      "comended" vs ref "commended"
+    punctuation: 1
+      "helpe," vs ref "helpe"
+    word_segmentation: 1
+      "rub=" vs ref "each"
+    capitalization: 1
+      "The" vs ref "the"
+
+  Attempted blind text (first 300 chars):
+    A water of Violett extreame helpe, & moste of names vsed for ye eyes when they are dusked by eye hickes or other sore The Dietery of Troothe in orders very smalle & sithence confiture the salte & meanning this moste that from this fluxe fine blood with fresh driede of in the eare & enough, possible 
+  Attempted reference text (first 300 chars):
+    A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way Take 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in puder 2 drames of fine sugar 6 ounces of red rose water 6 ounces of good white wine mix all thes toget
+
+
+--- Jane Jackson MS373 ---
+
+  [...] markers in transcription: 75
+  Coverage: 3597/3978 reference chars (90.4% of page attempted)
+
+  FULL CER (vs entire reference):
+    Reference length:  3978 characters
+    Blind length:      2277 characters
+    Edit distance:     2674
+      Substitutions:   905
+      Insertions:      1735
+      Deletions:       34
+    CER:               67.22%
+
+  ATTEMPTED CER (only on attempted text):
+    Reference length:  3597 characters
+    Blind length:      2277 characters
+    Edit distance:     2382
+      Substitutions:   994
+      Insertions:      1354
+      Deletions:       34
+    CER:               66.22%
+
+  Word-level error categorization:
+    hallucination: 250
+      "ffor" vs ref "the"
+      "awaie" vs ref "navell"
+      "of" vs ref "shifting"
+      "Cloues" vs ref "it"
+      "is" vs ref "once"
+      "good" vs ref "in"
+      "&" vs ref "xxiiij"
+      "sure" vs ref "howers"
+    missing_word: 240
+      (missing) vs ref "it"
+      (missing) vs ref "turpentine"
+      (missing) vs ref "stagg"
+      (missing) vs ref "or"
+      (missing) vs ref "for"
+      (missing) vs ref "want"
+      (missing) vs ref "thereof"
+      (missing) vs ref "deere"
+    other_spelling: 112
+      "Teeth" vs ref "harth"
+      "ache" vs ref "and"
+      "&" vs ref "it"
+      "fast" vs ref "hot"
+      "oile" vs ref "use"
+      "&" vs ref "or"
+      "ffor" vs ref "of"
+      "Teethe" vs ref "the"
+    letterform_misreading: 20
+      "lye" vs ref "lay"
+      "take" vs ref "the"
+      "endure" vs ref "indure"
+      "ache" vs ref "face"
+      "are" vs ref "haue"
+      "be" vs ref "but"
+      "quarter" vs ref "quart"
+      "with" vs ref "white"
+    double_letter: 2
+      "ffor" vs ref "For"
+      "ffor" vs ref "for"
+    punctuation: 1
+      "it." vs ref "it"
+    capitalization: 1
+      "a" vs ref "A"
+
+  Attempted blind text (first 300 chars):
+    ffor Teeth ache lye & to take awaie as fast as you can endure it. This oile of Cloues is good & sure & yt ffor Teethe ache Seeth plantes of rosemary & wash out maiden of haue them that are & the ius maketh of the same olde fynde nettinge of a thinge to be neither where nor neither of the the the too
+  Attempted reference text (first 300 chars):
+    the harth and lay it to the navell as hot as you can indure it This use shifting it once in xxiiij howers or together of the face Take Turpendine of venice and wash it with red rose water till you haue taken away the smell of the turpentine then take the marrow of a stagg or for want thereof deere s
+
+================================================================================
+OVERALL RESULTS
+================================================================================
+  Full CER (all text):             46.61%
+    Total edit distance:            5574
+    Total reference chars:          11959
+
+  Attempted CER (attempted only):  44.53%
+    Total edit distance:            4998
+    Total reference chars:          11224
+
+================================================================================
+COMPARISON ACROSS ALL RUNS (1-7)
+================================================================================
+
+Note: Runs 1-5 used a single CER metric. Runs 6-7 report both Full and
+Attempted CER. The 'Full CER' column is comparable across all runs.
+'Best Previous' shows the best CER achieved in Runs 1-6 for each manuscript.
+
+Manuscript                Run 1    Run 2    Run 3    Run 4    Run 5    Run 6  R7 Full  R7 Attm   Best<7
+-------------------------------------------------------------------------------------------------------
+Henslow MS688            ~11.3%     ~12%    6.12%    4.96%    5.38%    3.80%    7.59%    7.59%    3.80%
+Sedley MS534             ~15.8%     ~21%      N/A   15.13%   16.55%   17.05%   16.42%   16.05%   15.13%
+Bulkeley MS169           ~22.8%     ~18%      N/A   18.70%   20.90%   16.21%   18.29%   18.29%   16.21%
+Brumwich MS160           ~96.1%     ~93%      N/A    9.30%   50.62%   31.09%   62.49%   60.59%    9.30%
+Jane Jackson MS373       ~95.6%     ~95%      N/A   77.41%   46.85%   61.72%   67.22%   66.22%   46.85%
+
+================================================================================
+RUN 7 vs BEST PREVIOUS RESULT (Full CER)
+================================================================================
+
+  Henslow MS688:
+    Run 7: 7.59%  vs  Best previous: 3.80% (Run 6)
+    Difference: +3.79pp  (WORSE)
+
+  Sedley MS534:
+    Run 7: 16.42%  vs  Best previous: 15.13% (Run 4)
+    Difference: +1.29pp  (WORSE)
+
+  Bulkeley MS169:
+    Run 7: 18.29%  vs  Best previous: 16.21% (Run 6)
+    Difference: +2.08pp  (WORSE)
+
+  Brumwich MS160:
+    Run 7: 62.49%  vs  Best previous: 9.30% (Run 4)
+    Difference: +53.19pp  (WORSE)
+
+  Jane Jackson MS373:
+    Run 7: 67.22%  vs  Best previous: 46.85% (Run 5)
+    Difference: +20.37pp  (WORSE)
+
+  Summary: 0 improved, 0 roughly same, 5 worse
+
+================================================================================
+RUN 7 vs RUN 6 (same methodology, tests reproducibility)
+================================================================================
+
+  Henslow MS688: R7 7.59% vs R6 3.80% (WORSE, +3.79pp)
+  Sedley MS534: R7 16.42% vs R6 17.05% (IMPROVED, -0.63pp)
+  Bulkeley MS169: R7 18.29% vs R6 16.21% (WORSE, +2.08pp)
+  Brumwich MS160: R7 62.49% vs R6 31.09% (WORSE, +31.40pp)
+  Jane Jackson MS373: R7 67.22% vs R6 61.72% (WORSE, +5.50pp)
+
+================================================================================
+DETAILED ANALYSIS BY MANUSCRIPT
+================================================================================
+
+--- Henslow MS688 ---
+
+  Full CER: 7.59%  |  Attempted CER: 7.59%
+  [...] markers: 0
+  Page coverage: 100.0%
+  Best previous: 3.80% (Run 6)
+  vs best previous: +3.79pp
+
+  Commentary:
+  The easiest manuscript (large, clear secretary hand). Minimal [...]
+  markers expected. This is the benchmark test -- consistently the best
+  performing manuscript across all runs. The Run 6 result of 3.80%
+  was close to the Transkribus Egerton benchmark (~3% CER).
+  Result (7.59%) differs from Run 6 (3.80%), indicating
+  variability in the method even on this legible manuscript.
+
+--- Sedley MS534 ---
+
+  Full CER: 16.42%  |  Attempted CER: 16.05%
+  [...] markers: 2
+  Page coverage: 99.3%
+  Best previous: 15.13% (Run 4)
+  vs best previous: +1.29pp
+
+  Commentary:
+  Clear italic hand, dense text with abbreviations. Two-page opening.
+  Main challenge: abbreviations and compressed spacing.
+  Run 4 achieved the previous best (15.13%).
+  Result: 16.42% vs best 15.13% (Run 4).
+
+--- Bulkeley MS169 ---
+
+  Full CER: 18.29%  |  Attempted CER: 18.29%
+  [...] markers: 0
+  Page coverage: 100.0%
+  Best previous: 16.21% (Run 6)
+  vs best previous: +2.08pp
+
+  Commentary:
+  Secretary hand, moderate difficulty. Herbal/medical text about lavender.
+  Run 6 achieved the previous best (16.21%).
+  Result: 18.29% vs best 16.21% (Run 6).
+
+--- Brumwich MS160 ---
+
+  Full CER: 62.49%  |  Attempted CER: 60.59%
+  [...] markers: 65
+  Page coverage: 90.5%
+  Best previous: 9.30% (Run 4)
+  vs best previous: +53.19pp
+
+  Commentary:
+  Very difficult manuscript. Small, closely-spaced hand with water damage.
+  Two-page opening. Run 4 achieved the previous best (9.30%) but with
+  a different methodology. The alphabet-first method tends to make the
+  agent more conservative on this manuscript (more [...] markers).
+  [65] illegible markers indicate the agent's
+  honesty about what it cannot read.
+
+--- Jane Jackson MS373 ---
+
+  Full CER: 67.22%  |  Attempted CER: 66.22%
+  [...] markers: 75
+  Page coverage: 90.4%
+  Best previous: 46.85% (Run 5)
+  vs best previous: +20.37pp
+
+  Commentary:
+  Most difficult manuscript. Compact hand with severe water damage.
+  Two-page opening. Run 5 achieved the previous best (46.85%).
+  High density of [...] markers expected. This manuscript likely
+  requires higher-resolution imaging for meaningful improvement.
+
+================================================================================
+BENCHMARK COMPARISON
+================================================================================
+  < 1% CER  = Very good
+  < 5% CER  = Usable for most research purposes
+  ~3% CER   = Transkribus Egerton model (best for English secretary hand)
+  5-10%     = Moderate (needs review)
+  10-20%    = Poor (heavy editing needed)
+  > 20%     = Not usable (requires retranscription)
+
+  Henslow MS688:
+    Full CER: 7.59% -- MODERATE (needs review)
+    Attempted CER: 7.59% (on 100% of page)
+
+  Sedley MS534:
+    Full CER: 16.42% -- POOR (heavy editing needed)
+    Attempted CER: 16.05% (on 99% of page)
+
+  Bulkeley MS169:
+    Full CER: 18.29% -- POOR (heavy editing needed)
+    Attempted CER: 18.29% (on 100% of page)
+
+  Brumwich MS160:
+    Full CER: 62.49% -- NOT USABLE (requires retranscription)
+    Attempted CER: 60.59% (on 90% of page)
+
+  Jane Jackson MS373:
+    Full CER: 67.22% -- NOT USABLE (requires retranscription)
+    Attempted CER: 66.22% (on 90% of page)
+
+  Overall Full CER: 46.61%
+  Overall Attempted CER: 44.53%
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+No new best CER results in this run.
+
+REPRODUCIBILITY:
+Run 7 uses the same methodology as Run 6 (alphabet-first + vocab
+verification). Comparing the two runs tests whether the method produces
+consistent results or shows significant stochastic variation.
+
+  Henslow MS688: R7=7.59% vs R6=3.80% -- HIGH VARIATION (diff 3.79pp)
+  Sedley MS534: R7=16.42% vs R6=17.05% -- CONSISTENT (diff 0.63pp)
+  Bulkeley MS169: R7=18.29% vs R6=16.21% -- MODERATE VARIATION (diff 2.08pp)
+  Brumwich MS160: R7=62.49% vs R6=31.09% -- HIGH VARIATION (diff 31.40pp)
+  Jane Jackson MS373: R7=67.22% vs R6=61.72% -- HIGH VARIATION (diff 5.50pp)
+
+ACCURACY-COVERAGE TRADEOFF:
+Manuscripts with many [...] markers show honest uncertainty. This
+penalizes Full CER (because reference chars stay in the denominator)
+but the Attempted CER shows the accuracy of what was actually read.
+
+  Brumwich MS160: 65 [...] markers, 90% coverage, Attempted CER 60.59%
+  Jane Jackson MS373: 75 [...] markers, 90% coverage, Attempted CER 66.22%

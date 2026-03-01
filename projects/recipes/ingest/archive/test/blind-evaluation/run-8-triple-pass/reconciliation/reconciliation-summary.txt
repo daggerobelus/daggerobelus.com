@@ -1,0 +1,197 @@
+RECONCILIATION SUMMARY
+Blind Transcription Test — Run 8
+===================================
+
+METHODOLOGY:
+Three independent agents each transcribed the same five manuscript pages
+without seeing each other's work. This reconciliation compared all three
+passes line by line, word by word, using majority rule to produce a
+consensus transcription. After all five manuscripts were reconciled,
+the vocabulary reference (~19,000 attested early modern recipe words) was
+used to verify uncertain readings.
+
+==========================================================================
+
+MANUSCRIPT 1: HENSLOW MS 688, Page 12
+--------------------------------------
+3-way agreements:   128 words
+2-way agreements:    23 words
+3-way disagreements:  6 words
+Flagged for review:   3 words
+
+Inter-pass consistency: HIGH
+This manuscript produced the strongest agreement across all three passes.
+The hand is relatively clear and the recipe structure is straightforward.
+Disagreements were mostly minor spelling variations (euenynge/eueninge/
+evenynge; horsedounge/horsedeunge/horsedonge). Only one substantive
+3-way disagreement required flagging: "sitt/lay/soe vppon" — resolved
+to "sitt" via vocabulary verification.
+
+Vocab verification changes: 1
+- "[sitt/lay/soe?]" resolved to "sitt" (vocab confirmed)
+
+Final output: henslow-final.txt
+
+==========================================================================
+
+MANUSCRIPT 2: SEDLEY MS 534, Page 13
+--------------------------------------
+3-way agreements:   148 words
+2-way agreements:    38 words
+3-way disagreements: 42 words
+Flagged for review:  28 words
+
+Inter-pass consistency: MEDIUM
+This is a longer manuscript (two-page spread with three recipes plus a
+right-margin continuation). The main recipe text (Recipe XXVII) had
+moderate agreement, but the cramped middle section and the right-margin
+continuation were difficult for all three passes. Recipe XXVIII (the
+cordial) and Recipe XXIX were somewhat more consistent. The name in the
+Recipe XXVIII heading was a notable 3-way disagreement (Cownsill/Nowell/
+Covill).
+
+Vocab verification changes: 3
+- "[cerused/calcined/battered?]" resolved to "calcined" (vocab confirmed)
+- "[Dramm/Drawe?]" resolved to "Dramm" (vocab confirmed)
+- "[Nutmegs?]" flag removed (vocab confirmed)
+
+Final output: sedley-final.txt
+
+==========================================================================
+
+MANUSCRIPT 3: BULKELEY MS 169, Page 17
+--------------------------------------
+3-way agreements:    72 words
+2-way agreements:    34 words
+3-way disagreements: 56 words
+Flagged for review:  38 words
+
+Inter-pass consistency: MEDIUM-LOW
+The first half of this page (through the "vertude" subheading and the
+opening of the passage on distilled water) had reasonable agreement across
+all three passes. The bottom half, where the scribe's hand becomes
+increasingly rapid, produced extensive disagreement. Many lines in the
+lower portion have more flagged words than confident readings. The medical
+vocabulary and the dense, hurried handwriting combine to make this section
+extremely challenging.
+
+Vocab verification changes: 2
+- "[discouering/disflouering/discrecion?]" resolved to "discrecion" (vocab confirmed "discretion")
+- "[sowne?]" flag removed (vocab confirmed)
+
+Notes: "vertude" (consensus reading) is not in the vocab reference;
+"vertue" is. However, the 2-way agreement on "vertude" was not overridden
+per instructions. "migram" (P2) is attested but the 2-way "migraime"
+(P1+P3) was retained.
+
+Final output: bulkeley-final.txt
+
+==========================================================================
+
+MANUSCRIPT 4: BRUMWICH MS 160, Page 10
+--------------------------------------
+3-way agreements:    31 words
+2-way agreements:    28 words
+3-way disagreements: 87 words
+Illegible (2+ passes): 64 instances
+Flagged for review:  52 words
+
+Inter-pass consistency: VERY LOW
+This is the most difficult manuscript in the set. The extremely small,
+dense handwriting and water damage on the left page resulted in the
+lowest inter-pass agreement of any manuscript. Only common function words
+("the," "of," "&," "Take"), recipe structural elements, and a handful of
+recognizable ingredient names (Treacle, violetts, Cowslipps, sugar)
+achieved reliable consensus. Large portions of both pages could not be
+reconciled because all three passes either marked the text as illegible
+or produced completely different readings.
+
+Vocab verification changes: 4
+- "goute" flag removed (vocab confirmed)
+- "pouder" flag removed (vocab confirmed)
+- "[Mirre?] & [Mastick?]" adopted from P3 (both vocab confirmed; other passes read "mace/honny" or "mace/woman's")
+- "vertue" flag removed (vocab confirmed)
+
+Final output: brumwich-final.txt
+
+==========================================================================
+
+MANUSCRIPT 5: JANE JACKSON MS 373, Page 20
+--------------------------------------------
+3-way agreements:    24 words
+2-way agreements:    22 words
+3-way disagreements: 68 words
+Illegible (2+ passes): 91 instances
+Flagged for review:  41 words
+
+Inter-pass consistency: VERY LOW
+The second most difficult manuscript. Water damage on the bottom third
+of both pages renders those sections completely unrecoverable, and the
+upper portions have a rapid hand that produced extensive disagreement.
+The left page has several recipe headings visible ("ffor a Coughe,"
+"ffor to breake an Impostume") but the body text of the recipes is
+largely irreconcilable. The right page is even more difficult, with
+almost no substantive agreement between the three passes.
+
+A notable issue: P1 of Jane Jackson contains material (lines about a
+"garden ornament," horse remedy, nostril treatment) that closely
+parallels P1 of Brumwich but does not appear in P2 or P3 of Jane Jackson.
+This duplicated material was excluded from the consensus.
+
+Vocab verification changes: 0
+- No changes from vocab verification. The few confirmed words (Impostume,
+  Apothecaries, Treacle) were already in the consensus.
+
+Final output: jane-jackson-consensus.txt (no changes needed; no final version created)
+
+==========================================================================
+
+OVERALL STATISTICS:
+===================
+
+Total 3-way agreements across all manuscripts:  403
+Total 2-way agreements across all manuscripts:  145
+Total 3-way disagreements across all manuscripts: 259
+Total vocab verification changes:                  10
+
+TOTAL WORDS WHERE VOCAB VERIFICATION CHANGED THE READING: 10
+- Henslow: 1 (resolved "sitt")
+- Sedley: 3 (resolved "calcined," "Dramm," removed "Nutmegs" flag)
+- Bulkeley: 2 (resolved "discrecion," removed "sowne" flag)
+- Brumwich: 4 (removed "goute" and "pouder" flags, adopted "Mirre" and "Mastick," removed "vertue" flag)
+- Jane Jackson: 0
+
+RANKING BY INTER-PASS CONSISTENCY (most to least consistent):
+1. Henslow MS 688 — HIGH consistency (clear hand, simple layout)
+2. Sedley MS 534 — MEDIUM consistency (longer text, some cramped areas)
+3. Bulkeley MS 169 — MEDIUM-LOW consistency (rapid hand deteriorates)
+4. Jane Jackson MS 373 — VERY LOW consistency (water damage + rapid hand)
+5. Brumwich MS 160 — VERY LOW consistency (extreme difficulty throughout)
+
+Note: Jane Jackson and Brumwich are very close in difficulty; Brumwich has
+slightly more total disagreements but Jane Jackson has more completely
+illegible passages due to water damage.
+
+OBSERVATIONS:
+=============
+
+1. Manuscript difficulty is the dominant factor in inter-pass agreement.
+   The three passes agree readily on well-written, clearly laid out text
+   (Henslow) but diverge dramatically on small, cramped, or damaged text
+   (Brumwich, Jane Jackson).
+
+2. The vocabulary reference was most useful for resolving specific 3-way
+   disagreements where one pass's reading could be confirmed by the word
+   list (e.g., "calcined," "Dramm," "Mirre," "Mastick"). It was less
+   useful for the most damaged passages, which had too little agreement
+   to work with.
+
+3. Recipe structural words ("Take," "of," "and," "&," "halfe," "ounces")
+   and well-known ingredient names (violetts, Cowslipps, Treacle, sugar,
+   Cinnamon, pepper) are the most robust readings across all manuscripts,
+   even in very difficult hands.
+
+4. The 3-pass approach with majority rule works well for moderately difficult
+   manuscripts (Henslow, Sedley, upper Bulkeley) but reaches its limits
+   with extremely challenging material. For Brumwich and Jane Jackson,
+   the original manuscript images would be essential for further progress.
