@@ -66,9 +66,9 @@ const formatDate = (date: Date) => {
       {tags && tags.length > 0 && (
         <>
           <span class="opacity-30">·</span>
-          <div class="flex gap-2">
-            {tags.slice(0, 3).map(tag => (
-              <span class="font-mono text-xs">{tag}</span>
+          <div class="flex gap-2 flex-wrap">
+            {tags.map(tag => (
+              <a href={`/?tag=${tag}`} class="font-mono text-xs hover:text-ink transition-colors">{tag}</a>
             ))}
           </div>
         </>

@@ -4,13 +4,21 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
   const projects = await getCollection('projects');
-  return projects.map(project => ({
-    params: { slug: project.slug },
-    props: { project },
-  }));
+  const allChapters = await getCollection('chapters');
+
+  return projects.map(project => {
+    const projectChapters = allChapters
+      .filter(ch => ch.data.project === project.slug && ch.data.status !== 'draft')
+      .sort((a, b) => a.data.order - b.data.order);
+
+    return {
+      params: { slug: project.slug },
+      props: { project, chapters: projectChapters },
+    };
+  });
 }
 
-const { project } = Astro.props;
+const { project, chapters } = Astro.props;
 const { title, description, publishDate, updatedDate, image, imageAlt, status, tags } = project.data;
 const { Content } = await project.render();
 
@@ -36,9 +44,9 @@ const formatDate = (date: Date) => {
           </span>
         )}
         {tags && tags.length > 0 && (
-          <div class="flex gap-2">
+          <div class="flex gap-2 flex-wrap">
             {tags.map(tag => (
-              <span class="text-xs font-mono text-ink/50">{tag}</span>
+              <a href={`/?tag=${tag}`} class="text-xs font-mono text-ink/50 hover:text-ink transition-colors">{tag}</a>
             ))}
           </div>
         )}
@@ -70,6 +78,34 @@ const formatDate = (date: Date) => {
     <div class="prose prose-lg max-w-3xl prose-headings:font-serif prose-headings:font-normal prose-a:underline prose-a:decoration-ink/30 hover:prose-a:decoration-ink">
       <Content />
     </div>
+
+    {chapters.length > 0 && (
+      <nav class="max-w-3xl mt-16 pt-12 border-t border-ink/10">
+        <h2 class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8">Chapters</h2>
+        <ol class="space-y-6">
+          {chapters.map((chapter, i) => (
+            <li>
+              <a
+                href={`/projects/${project.slug}/${chapter.slug}/`}
+                class="group block"
+              >
+                <div class="flex items-baseline gap-4">
+                  <span class="text-sm font-mono text-ink/30 w-6">{(i + 1).toString().padStart(2, '0')}</span>
+                  <div>
+                    <span class="text-lg font-serif group-hover:opacity-70 transition-opacity">
+                      {chapter.data.title}
+                    </span>
+                    <p class="text-sm text-ink/50 mt-1 leading-relaxed">
+                      {chapter.data.description}
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
   </article>
 </BaseLayout>
 

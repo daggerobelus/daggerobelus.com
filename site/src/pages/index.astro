@@ -12,6 +12,9 @@ const sortedProjects = allProjects.sort((a, b) =>
   b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
 
+// Collect all unique tags
+const allTags = [...new Set(sortedProjects.flatMap(p => p.data.tags || []))].sort();
+
 // Featured project (first featured one, or first project)
 const featuredProject = sortedProjects.find(p => p.data.featured) || sortedProjects[0];
 const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slug);
@@ -25,8 +28,16 @@ const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slu
       </h1>
     </div>
 
+    <div id="tag-filter" class="hidden border-t border-ink/10 pt-8 mb-8">
+      <div class="flex items-center gap-3">
+        <span class="text-xs font-mono text-ink/40">Filtered by</span>
+        <span id="active-tag" class="text-xs font-mono text-ink/80 px-2 py-1 border border-ink/20 rounded"></span>
+        <a href="/" class="text-xs font-mono text-ink/40 hover:text-ink transition-colors">clear</a>
+      </div>
+    </div>
+
     {featuredProject && (
-      <div class="border-t border-ink/10 pt-12 mb-16">
+      <div class="border-t border-ink/10 pt-12 mb-16" data-project-card data-tags={JSON.stringify(featuredProject.data.tags || [])}>
         <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">Featured</span>
         <ProjectCard project={featuredProject} featured />
       </div>
@@ -37,7 +48,9 @@ const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slu
         <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">All Projects</span>
         <div class="grid gap-12 md:gap-16">
           {otherProjects.map(project => (
-            <ProjectCard project={project} />
+            <div data-project-card data-tags={JSON.stringify(project.data.tags || [])}>
+              <ProjectCard project={project} />
+            </div>
           ))}
         </div>
       </div>
@@ -50,3 +63,27 @@ const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slu
     )}
   </section>
 </BaseLayout>
+
+<script>
+  function filterByTag() {
+    const params = new URLSearchParams(window.location.search);
+    const tag = params.get('tag');
+    const filterEl = document.getElementById('tag-filter');
+    const activeTagEl = document.getElementById('active-tag');
+    const cards = document.querySelectorAll('[data-project-card]');
+
+    if (!tag || !filterEl || !activeTagEl) return;
+
+    filterEl.classList.remove('hidden');
+    activeTagEl.textContent = tag;
+
+    cards.forEach(card => {
+      const tags = JSON.parse(card.getAttribute('data-tags') || '[]');
+      if (!tags.includes(tag)) {
+        (card as HTMLElement).style.display = 'none';
+      }
+    });
+  }
+
+  filterByTag();
+</script>
