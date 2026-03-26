@@ -1,14 +1,31 @@
-# Early Modern Recipe Books Research Project
+# Teaching Machines to Read
 
-Research and transcription of early modern English recipe books, with a focus on gendered knowledge production, domestic medicine, and the construction of the recipe book genre.
+A digital humanities research project investigating what AI agents' learning processes reveal about the cognitive demands of reading early modern handwriting. By teaching AI to read secretary hand manuscripts — and observing where it fails, what interventions help, and how its learning mirrors human students — this project uses AI as a lens for understanding paleographic pedagogy itself.
+
+## Research Direction
+
+The process of teaching AI agents to read early modern handwriting closely mirrors how human students learn paleography. The same pedagogical interventions that work in the classroom — studying examples, building alphabets, error analysis, reflection, taking your own notes — produce analogous effects on AI performance. This project investigates what those parallels reveal about the cognitive demands of paleographic reading itself.
+
+The transcription pipeline (Claude vision + paleography guide + blind evaluation) is the experimental apparatus, not the end goal. The research contribution is what the experiments reveal about how reading works.
+
+Key findings:
+- **Agents learn from examples like students do.** Studying paired manuscript images + correct transcriptions, agents independently discover the same core rules taught in paleography courses (u/v interchange, long-s, minim confusion, secretary d).
+- **There's a learning curve with a sweet spot.** Too few examples (1 page) produces poor results; too many (10 pages) causes information overload. 5 pages is optimal — enough to generalize, not enough to overwhelm.
+- **Taking your own notes beats reading someone else's.** Agents that study examples and write their own guide in the same session produce more consistent results than agents reading a guide written by a different agent (0.84 vs 2.11 spread). This mirrors the "generation effect" in cognitive science.
+- **Reflection improves consistency, not accuracy.** Asking agents to plan before transcribing produces the most reliable results (tightest spread) but doesn't improve the best-case outcome. Consistency and accuracy are separate problems requiring different interventions.
+- **Error analysis generalizes across manuscripts.** Studying an agent's specific mistakes on one manuscript and writing targeted warnings improves performance on a different, unseen manuscript. The lessons transfer because the error patterns (normalization bias, long-s/l confusion, vocabulary gaps) are general early modern paleography problems.
+- **Post-hoc revision doesn't work.** Giving agents better tools after they've transcribed doesn't help — they rubber-stamp their own work. Changes must affect the first reading, not come after. (Confirmed twice: Runs 5 and 9.)
+- **Agents cheat when they can.** Shared output folders, access to reference transcriptions, or proximity to other agents' work silently inflates results. Strict isolation is essential for honest evaluation.
+
+These findings draw on Sarah's 6+ years of experience teaching writing to college and graduate students, and her expertise in early modern literature. The project is a humanities investigation — using AI experiments as a method — not a data science project about the humanities.
 
 ## Project Structure
 
 ```
-recipes/
+teaching-machines-to-read/
 ├── ingest/                      # Source materials
 │   ├── archive/                 # Manuscript images (photographed or downloaded)
-│   │   └── test/                # Test materials ONLY — never mix with the real corpus
+│   │   └── test/                # Test materials and blind evaluation runs
 │   └── references/              # Folger paleography guide, secondary sources
 ├── extracted/                   # Processed data
 │   ├── transcriptions/          # Semi-diplomatic transcriptions (per-manuscript)
@@ -96,6 +113,10 @@ Transcription and evaluation are performed by **separate agents** with no shared
 
 This separation ensures the transcription is a genuine blind reading of the manuscript, not influenced by prior knowledge of what the "correct" answer should be. It also makes the evaluation more defensible as a research methodology — analogous to blinding in experimental design.
 
+**Test folder isolation:** All blind test runs MUST be set up on the Desktop (`~/Desktop/`), NOT inside the project directory. Agents browse their environment — if test folders are inside the project, agents can navigate to reference transcriptions, previous run results, or other agents' work. This is a contamination risk that invalidates results for scholarly use.
+
+Each agent MUST run in a completely clean, isolated folder containing ONLY the materials that agent is authorized to access. Never place multiple agents' outputs in the same folder. Create a fresh folder per agent, and verify it contains nothing extra before launching. This was learned the hard way: accumulating outputs in a shared folder silently inflated CER results by 1-2 percentage points in Run 9.
+
 ## Project Values
 
 - **Open source**: All tools, models, and methods developed for this project should be open source and freely available to other scholars. No paid/proprietary HTR platforms (e.g., Transkribus paid tier) as primary dependencies.
@@ -136,13 +157,14 @@ Current best results:
 | Manuscript | Best CER | Best Run | Status |
 |---|---|---|---|
 | Henslow MS688 | **3.80%** | Run 6 | Near Transkribus benchmark, usable for research |
-| Sedley MS534 | **15.13%** | Run 4 | Above usable threshold, needs work |
+| Sedley MS534 | **13.65%** | Run 10 | Improved via error analysis protocol |
 | Bulkeley MS169 | **16.21%** | Run 6 | Above usable threshold, needs work |
 | Brumwich MS160 | **9.30%** | Run 4 | Above usable threshold, image resolution limited |
 | Jane Jackson MS373 | **46.85%** | Run 5 | Water damage, needs human transcription |
 
 - Full run-by-run details: `ingest/archive/test/blind-evaluation/blind-test-summary.md`
-- Test instructions: kept on Desktop at `~/Desktop/blind-test-alphabet/instructions.md` (isolated from project to prevent agent contamination)
+- Run 9 (self-taught method) + Run 10 (error analysis protocol): `ingest/archive/test/blind-evaluation/run-9-self-taught/run-9-results.md`
+- Test instructions: kept on Desktop, isolated per-agent folders to prevent contamination
 
 ### Alphabet-First Transcription Method
 
@@ -182,30 +204,6 @@ Files:
 
 The vocab list filters to words attested in 2+ manuscripts to reduce noise. It includes non-English sources (Italian, French, German) because recipe books of this period frequently use Latin and continental terms.
 
-### Future Goal: Open-Source Fine-Tuned TrOCR Model
-
-The long-term goal is to fine-tune **Microsoft TrOCR** (open-source, MIT license) on paired image + transcription data from the Folger/EMROC collections to build an open-source model specifically for early modern English recipe manuscripts. No such model currently exists — this would fill a gap in the field.
-
-**What TrOCR is**: An encoder-decoder model (vision transformer + language model) that reads an image of a single line of handwriting and outputs text. The base model (`microsoft/trocr-base-handwritten`) is trained on modern handwriting and can be fine-tuned for historical scripts.
-
-**What fine-tuning requires**:
-- Paired training data: manuscript line images + their correct transcriptions (available from FromThePage/EMROC)
-- Line segmentation: full pages must be split into individual text lines first (Kraken can do this)
-- GPU access: a GPU with 16 GB VRAM is sufficient (T4 or P100), using mixed-precision training
-- The result would be published on HuggingFace as an open-source model
-
-### HTR Models Evaluated
-
-| Model | Open Source | Languages | Period | Notes |
-|-------|-----------|-----------|--------|-------|
-| **TrOCR base** (Microsoft) | Yes (MIT) | Modern English | Modern | Foundation model for fine-tuning. Best path for building our own model. |
-| **TRIDIS v2** (HuggingFace) | Yes | Latin, French, Spanish, German | 11th–16th c. | Good architecture but not trained on English. Could serve as reference. |
-| **Egerton Model** (Transkribus) | No (freemium) | English | 16th–17th c. | Best existing model for English secretary hand (~97% accuracy). Useful as benchmark with free tier (50 pages/month) but not open source. |
-| **B2022 English Model** (Transkribus) | No (freemium) | English | 17th–19th c. | Broader date range. Same Transkribus limitation. |
-| **Kraken + eScriptorium** | Yes | Any | Any | Fully open-source HTR platform. Could train a custom model. Full model portability. |
-| **Kansallisarkisto multicentury** (HuggingFace) | Yes | Finnish/Swedish | 16th–20th c. | Shows TrOCR can be fine-tuned for multi-century historical documents. |
-| **Riksarkivet Swedish** (HuggingFace) | Yes | Swedish | 1600–1900 | Date range overlaps. Good reference for pipeline design (HTRflow). |
-
 ### Transcription Pipeline Design
 
 ```
@@ -242,39 +240,34 @@ Data feeds into visualization pipeline
 (same approach as witchcraft project)
 ```
 
-## Computing Resources
+## Funding & Resources
 
-### Immediate (Free, No Application)
-
-- **Google Colab** — Free T4 GPU (16 GB VRAM). Students can get free Colab Pro at https://colab.research.google.com/signup (verify via SheerID). Sufficient for TrOCR fine-tuning.
-- **Kaggle Notebooks** — 30 free GPU hours/week (P100, 16 GB VRAM). No application needed, just create an account at kaggle.com.
-
-### CUNY Resources
-
-- **CUNY High Performance Computing Center (HPCC)** — Supercomputing cluster at College of Staten Island. Every CUNY grad student is entitled to an account. Apply at https://hpcreg1.csi.cuny.edu/forms/application.php. Contact: hpchelp@csi.cuny.edu. Ask about current GPU inventory (older K20m GPUs may have been upgraded).
-- **Provost's Digital Innovation Grants (PDIGs)** — Up to $2,000 for GC doctoral students. Favors open-source tools and publicly accessible work. Could fund cloud GPU time. Watch GCDI website for next deadline.
-- **GC Digital Initiatives (GCDI)** — Workshops, consultations, Digital Fellows program. Good for networking and finding others with similar computing needs. https://gcdi.commons.gc.cuny.edu/
-- **Early Research Initiative (ERI)** — Internal funding sources page lists multiple awards: https://www.gc.cuny.edu/fellowships-and-financial-aid/doctoral-student-funding/early-research-initiative/internal-funding-sources
-
-### Cloud Credits (Application Required)
-
-- **Google Cloud Research Credits** — $1,000/year, rolling applications, 4-6 week decisions. https://edu.google.com/intl/ALL_us/programs/credits/research/
-- **AWS Cloud Credit for Research** — Up to $5,000, needs research proposal. https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/
-- **Microsoft Azure for Students** — $100 in credits, no credit card. https://azure.microsoft.com/en-us/free/students
-
-### Larger Grants
-
-- **NSF ACCESS (Explore tier)** — Free national supercomputing (A100s, H100s). Grad students can apply as PI with advisor letter. Humanities research explicitly supported. https://access-ci.org/
-- **NVIDIA Academic Grants** — Up to 30,000 H100 GPU hours. Deadline: June 30. https://academicgrants.nvidia.com/
-- **Lambda Labs Research Grant** — Up to $5,000 in cloud credits. Rolling applications. https://lambdalabs.com/research
+- **Provost's Digital Innovation Grants (PDIGs)** — Up to $2,000 for GC doctoral students. Favors open-source tools and publicly accessible work. Watch GCDI website for next deadline.
+- **GC Digital Initiatives (GCDI)** — Workshops, consultations, Digital Fellows program. https://gcdi.commons.gc.cuny.edu/
+- **Early Research Initiative (ERI)** — Internal funding sources: https://www.gc.cuny.edu/fellowships-and-financial-aid/doctoral-student-funding/early-research-initiative/internal-funding-sources
 - **NEH Digital Humanities Advancement Grants** — Major funding. Has previously funded OCR/HTR projects. Offered twice yearly. https://www.neh.gov/grants/odh/digital-humanities-advancement-grants
 
 ## Next Steps
 
-1. **Expand testing to more manuscript pages**: Current results are based on 1 page per manuscript. Need to test across multiple pages to confirm the methodology holds.
-2. **Test with higher-resolution images**: Brumwich's small hand might be readable at higher resolution. Check if better images are available from Wellcome Collection.
-3. **Explore multi-pass transcription**: Multiple independent reads of the same page, compared for consistency. Especially promising for manuscripts in the 10-20% CER range.
-4. **Fine-tune TrOCR**: The long-term goal remains an open-source model trained on the FromThePage paired data. The vocab list and transcription pipeline developed here will feed into that work.
-5. **Set up GPU access**: Create Kaggle account and apply for Google Colab student access for TrOCR fine-tuning.
-6. **Apply for CUNY HPCC account**: Free computing resources for the fine-tuning work.
-7. **Apply for Provost's Digital Innovation Grant**: Next cycle, to fund cloud computing or other project needs.
+### Blog Post
+Write up the project story so far — what the project set out to do, what it discovered, and where it's going. This frames the research direction before the final experiments.
+
+### Follow-Up Experiments (4 runs, 2 questions)
+
+**Generation Effect — what makes self-generated notes work?**
+
+1. **Convergence test:** Two agents independently study the same manuscript and write their own guides. Do they converge on the same observations (the manuscript teaches) or diverge (learning is idiosyncratic)? In reading theory terms: does the manuscript impose a bottom-up reading (Gough), or does each agent bring its own top-down schema (Goodman)?
+2. **Rewrite vs. generate from source:** One agent reads another agent's guide and rewrites it before transcribing. Isolates whether the effect comes from the act of writing or from writing *while looking at the manuscript*. (Cf. Slamecka & Graf 1978 on generation effect; Wong 2023 on deliberate erring — personally engaging with material matters more than observing someone else's work.)
+
+**Error Analysis Transfer — what kind of knowledge transfers?**
+
+3. **Reverse direction:** Build error protocol from Sedley mistakes, test on Henslow. Does transfer only work one way? Stanovich's compensatory model (1980) predicts the protocol should help *less* on more legible manuscripts (less need to compensate for poor decoding). If it helps equally, that's interesting.
+4. **Cumulative protocol:** Build error protocol from Henslow, add Sedley's errors, test on a third manuscript. Does paleographic knowledge accumulate, or does more experience just add noise? (Cf. Perkins & Salomon 1988 on high-road transfer.)
+
+### Writing Plan
+
+Lead with the experimental evidence. Layer in secondary sources (reading theory, cognitive science, educational psychology) where they contextualize findings or show what's new — but the results drive the structure, not the bibliography. Literature review compiled March 2026: `~/Desktop/teaching-machines-to-read-literature-review.docx`.
+
+### Future: Recipe Books Project
+
+The recipe book content itself (mapping ingredients, networks, knowledge production — similar to the witchcraft project) will eventually be a separate project under `projects/`. No work started yet.

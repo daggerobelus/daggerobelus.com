@@ -15,16 +15,17 @@ const projects = defineCollection({
   }),
 });
 
-const fieldNotes = defineCollection({
+const chapters = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    project: z.string(),
+    order: z.number(),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     status: z.enum(['draft', 'published']).default('published'),
-    tags: z.array(z.string()).optional(),
   }),
 });
 
-export const collections = { projects, 'field-notes': fieldNotes };
+export const collections = { projects, chapters };
