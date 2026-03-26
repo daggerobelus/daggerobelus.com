@@ -1,0 +1,219 @@
+---
+/**
+ * Interactive "try reading this yourself" exercise.
+ * Shows a cropped manuscript image and lets readers attempt to read it
+ * before revealing the answer.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption } = Astro.props;
+---
+
+<figure class="try-reading not-prose my-12">
+  <div id="try-reading-widget" class="max-w-3xl mx-auto"></div>
+  {caption && (
+    <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+      {caption}
+    </figcaption>
+  )}
+</figure>
+
+<script>
+  const exercises = [
+    {
+      id: 'henslow',
+      title: 'Henslow MS688',
+      difficulty: 'Approachable',
+      difficultyColor: '#2d8a4e',
+      image: '/images/manuscripts/henslow-crop-pyles.jpg',
+      fullImage: '/images/manuscripts/henslow-ms688-p12.jpg',
+      prompt: 'This is from a 1620s recipe book written in English secretary hand — the standard handwriting of early modern England. Can you read it?',
+      answer: [
+        '· · · · For the pyles · · · ·',
+        '',
+        'Take one handefull of mollet leaues, and wrappe them in a Colewort',
+        'leafe, and rake them in the Imbers vntill they bee well rosted',
+        'then take them, and put awaye the Coleworte leafe, and grinde',
+      ],
+      hints: [
+        { label: 'Long s', explanation: 'The tall letter that looks like an "f" without the crossbar is actually a long s (ſ). "pyles" = piles, "leaues" = leaves.' },
+        { label: 'Secretary d', explanation: 'The letter that loops back to the left is a secretary d — it looks nothing like a modern d. See "handefull" and "and".' },
+        { label: 'Imbers', explanation: '"Imbers" means embers — you\'re wrapping mallow leaves in a cabbage leaf and roasting them in the coals. This is a recipe for treating hemorrhoids.' },
+      ],
+      aiResult: 'The AI read this at 3.80% CER in its best run — nearly as accurate as the leading commercial tool (Transkribus, ~3%).',
+    },
+    {
+      id: 'jane-jackson',
+      title: 'Jane Jackson MS373',
+      difficulty: 'Very hard',
+      difficultyColor: '#c44040',
+      image: '/images/manuscripts/jane-jackson-crop-top.jpg',
+      fullImage: '/images/manuscripts/jane-jackson-ms373-p20.jpg',
+      prompt: 'This is from a different recipe book, written in a more compact hand. Even this relatively clean section is challenging. Can you make out any words?',
+      answer: [
+        'the harth and lay it to the navell as hot as you can indure',
+        'it This use shifting it once in xxiiij howers 3 or 4 dayes together',
+        'For the pilling of the face',
+        '',
+        'Take Turpendine of venice and wash it with red rose water till you',
+        'haue taken away the smell of the turpentine then take the',
+        'marrow of a stagg or for want thereof deere suitt and melt them',
+        'altogether but lett them not seeth put into it vergins wax more',
+        'then the qantity of the suett and so stirr it still till it be could',
+        'For freckles on the face',
+      ],
+      hints: [
+        { label: 'Pilling', explanation: '"Pilling" means peeling — this recipe treats peeling or flaking skin on the face. The treatment uses turpentine of Venice (a tree resin), rose water, deer suet, and virgin\'s wax.' },
+        { label: 'Abbreviations', explanation: 'Notice "ye" (the), "yt" (that) — these use the old letter thorn (þ) which looks like a y in this hand.' },
+        { label: 'Water damage', explanation: 'Scroll down in the full image to see why the AI scored 46.85% CER — the bottom third is consumed by water stains, making the text physically impossible to read.' },
+      ],
+      aiResult: 'The AI scored 46.85% CER at best on this page. In its first attempt, it hallucinated entirely different recipes — inventing wound treatments and cough cures that don\'t appear anywhere in the manuscript.',
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('try-reading-widget');
+    if (!container) return;
+    container.innerHTML = '';
+
+    exercises.forEach((ex, idx) => {
+      const section = document.createElement('div');
+      section.style.cssText = `margin-bottom: ${idx < exercises.length - 1 ? '56px' : '0'};`;
+
+      // Header
+      const header = document.createElement('div');
+      header.style.cssText = 'display: flex; align-items: baseline; gap: 12px; margin-bottom: 8px;';
+
+      const title = document.createElement('h3');
+      title.style.cssText = 'font-family: Georgia, serif; font-size: 20px; margin: 0; color: #121212;';
+      title.textContent = ex.title;
+
+      const badge = document.createElement('span');
+      badge.style.cssText = `
+        font-family: 'SF Mono', Monaco, monospace; font-size: 11px;
+        padding: 2px 8px; border-radius: 10px;
+        background: ${ex.difficultyColor}18; color: ${ex.difficultyColor}; font-weight: 600;
+      `;
+      badge.textContent = ex.difficulty;
+
+      header.appendChild(title);
+      header.appendChild(badge);
+
+      // Prompt
+      const prompt = document.createElement('p');
+      prompt.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0 0 16px 0; line-height: 1.6;';
+      prompt.textContent = ex.prompt;
+
+      // Image
+      const imgWrap = document.createElement('div');
+      imgWrap.style.cssText = 'border: 1px solid rgba(18,18,18,0.15); border-radius: 6px; overflow: hidden; margin-bottom: 16px;';
+
+      const img = document.createElement('img');
+      img.src = ex.image;
+      img.alt = `${ex.title} manuscript section`;
+      img.style.cssText = 'width: 100%; height: auto; display: block;';
+      img.loading = 'lazy';
+      imgWrap.appendChild(img);
+
+      // Reveal button
+      const revealBtn = document.createElement('button');
+      revealBtn.style.cssText = `
+        font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+        padding: 10px 24px; border: 2px solid #121212; background: none;
+        color: #121212; cursor: pointer; border-radius: 4px;
+        transition: all 0.2s; display: block; margin: 0 auto 16px auto;
+      `;
+      revealBtn.textContent = 'Reveal transcription';
+      revealBtn.addEventListener('mouseover', () => {
+        revealBtn.style.background = '#121212';
+        revealBtn.style.color = '#fff7f4';
+      });
+      revealBtn.addEventListener('mouseout', () => {
+        revealBtn.style.background = 'none';
+        revealBtn.style.color = '#121212';
+      });
+
+      // Answer panel (hidden initially)
+      const answerPanel = document.createElement('div');
+      answerPanel.style.cssText = 'display: none;';
+
+      // Transcription text
+      const textBlock = document.createElement('div');
+      textBlock.style.cssText = `
+        font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+        line-height: 1.8; padding: 16px 20px;
+        background: rgba(18,18,18,0.03);
+        border-left: 3px solid ${ex.difficultyColor};
+        border-radius: 0 4px 4px 0;
+        white-space: pre-wrap; color: #121212;
+        margin-bottom: 16px;
+      `;
+      textBlock.textContent = ex.answer.join('\n');
+
+      // Hints
+      const hintsWrap = document.createElement('div');
+      hintsWrap.style.cssText = 'margin-bottom: 12px;';
+
+      ex.hints.forEach(hint => {
+        const hintEl = document.createElement('details');
+        hintEl.style.cssText = 'margin-bottom: 8px; border: 1px solid rgba(18,18,18,0.08); border-radius: 4px; overflow: hidden;';
+
+        const summary = document.createElement('summary');
+        summary.style.cssText = `
+          font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+          padding: 8px 14px; cursor: pointer; color: ${ex.difficultyColor};
+          font-weight: 600; user-select: none;
+        `;
+        summary.textContent = hint.label;
+
+        const detail = document.createElement('div');
+        detail.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; padding: 0 14px 10px 14px; line-height: 1.6;';
+        detail.textContent = hint.explanation;
+
+        hintEl.appendChild(summary);
+        hintEl.appendChild(detail);
+        hintsWrap.appendChild(hintEl);
+      });
+
+      // AI result note
+      const aiNote = document.createElement('p');
+      aiNote.style.cssText = `
+        font-family: 'SF Mono', Monaco, monospace; font-size: 12px;
+        color: #888; margin: 12px 0 0 0; line-height: 1.5;
+        padding: 10px 14px; background: rgba(18,18,18,0.02);
+        border-radius: 4px;
+      `;
+      aiNote.textContent = ex.aiResult;
+
+      answerPanel.appendChild(textBlock);
+      answerPanel.appendChild(hintsWrap);
+      answerPanel.appendChild(aiNote);
+
+      // Toggle reveal
+      revealBtn.addEventListener('click', () => {
+        answerPanel.style.display = 'block';
+        revealBtn.style.display = 'none';
+      });
+
+      section.appendChild(header);
+      section.appendChild(prompt);
+      section.appendChild(imgWrap);
+      section.appendChild(revealBtn);
+      section.appendChild(answerPanel);
+      container.appendChild(section);
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .try-reading details summary::-webkit-details-marker {
+    color: #888;
+  }
+  .try-reading details[open] summary {
+    border-bottom: 1px solid rgba(18,18,18,0.06);
+    margin-bottom: 4px;
+  }
+</style>

@@ -1,0 +1,323 @@
+---
+/**
+ * Interactive side-by-side comparison of hallucinated vs honest vs reference text.
+ * Readers toggle between three versions to see what the AI fabricated vs what's real.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption } = Astro.props;
+---
+
+<figure class="hallucination-explorer not-prose my-12">
+  <div id="hallucination-widget" class="max-w-4xl mx-auto"></div>
+  {caption && (
+    <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+      {caption}
+    </figcaption>
+  )}
+</figure>
+
+<script>
+  const examples = [
+    {
+      manuscript: 'Brumwich MS160',
+      manuscriptId: 'brumwich',
+      page: 10,
+      difficulty: 'Hard — small, dense hand',
+      image: '/images/manuscripts/brumwich-ms160-p10-thumb.jpg',
+      imageFull: '/images/manuscripts/brumwich-ms160-p10.jpg',
+      summary: 'The AI invented recipes about brimstone and garden snakes. The real page contains eye remedies.',
+      versions: [
+        {
+          key: 'hallucinated',
+          label: 'Hallucinated (Run 1)',
+          sublabel: '96.1% CER',
+          color: '#c44040',
+          description: 'The AI fabricated entire recipes — ingredients, measurements, and ailments that don\'t exist on this page.',
+          lines: [
+            'A water of Endiue ciccoris [soliz?] of each',
+            'of thease lyke quantitie of eche [plant?] [they?]',
+            'are [boyled?] by [the?] [Stillars?]',
+            '  or [stilled?] ouer',
+            '',
+            'Take [Dynary?] of [Treach?] in [powder?] very smalle',
+            '[...] a [dose?] euermore the valer [of?] [a?] [penning?]',
+            '[with?] [mithridate?] [fasten?] them the [bredthe?] of',
+            'three [grose?] [being?] [...] soper [stroke?] of',
+            '[...] of [each?] a [handfull?] or [more?] [ample?] [...]',
+            '',
+            'Take of [fixed?] [brimstone?] of [...] good [gold?] [fyle?]',
+            'of [siluer?] [while?] [crude?] antimony of each [halfe an?]',
+            '[ounce?] [amber?] [beades?] of [elke?] [borne?] of [stagge?]',
+          ]
+        },
+        {
+          key: 'honest',
+          label: 'Honest gaps (Run 4)',
+          sublabel: '9.30% CER',
+          color: '#2d8a4e',
+          description: 'After the alphabet-first method, the AI reads real words and marks what it can\'t read with [...] instead of inventing.',
+          lines: [
+            'A water of Excelent vertue to helpe ye weake',
+            'or dimme sight of ye eyes when they',
+            'are decayed by age sicknes',
+            'or other way',
+            '',
+            'Take 3 drames of tuetah in puder very smalle',
+            '& as much of aloes epaticum in puder 5 drames of',
+            'fine sugar 6 ounces of red rose water 6 ounces of',
+            'good white wine mixe all thes together & put it into',
+            'a cleane glasse being well closed & stoped & set',
+            'it in the sune a mounth together mixsing',
+            '& stiring together all the said things at least',
+            'ons a day to ye intent ya incorporate this',
+          ]
+        },
+        {
+          key: 'reference',
+          label: 'Ground truth',
+          sublabel: 'Human transcription',
+          color: '#2878b5',
+          description: 'The actual text, transcribed by volunteers on FromThePage. A recipe for eye wash with tuetah, aloes, sugar, and rose water.',
+          lines: [
+            'A water of Exelent uirtue to helpe the weake',
+            'or dimme sight of the eyes when they',
+            'are decayed by age sicknes',
+            'or other way',
+            '',
+            'Take 3 drames of tueiah in puder uery smalle',
+            '& as much of aloes epyricum in puder 2 drames of',
+            'fine sugar 6 ounces of red rose water 6 ounces of',
+            'good white wine mix all thes together & put it into',
+            'a Cleane glase being well Closed & stoped & set',
+            'it in the sune a mounth together mixing',
+            '& stiring together all the sayd things at least',
+            'ons a day to the intent you in corproate this',
+          ]
+        }
+      ]
+    },
+    {
+      manuscript: 'Jane Jackson MS373',
+      manuscriptId: 'jane-jackson',
+      page: 20,
+      difficulty: 'Very hard — water damage',
+      image: '/images/manuscripts/jane-jackson-ms373-p20-thumb.jpg',
+      imageFull: '/images/manuscripts/jane-jackson-ms373-p20.jpg',
+      summary: 'The AI invented wound-healing and cough remedies. The real page is about skincare and a timpany.',
+      versions: [
+        {
+          key: 'hallucinated',
+          label: 'Hallucinated (Run 1)',
+          sublabel: '95.6% CER',
+          color: '#c44040',
+          description: 'The AI fabricated wound treatments, cough cures, and a dropsie remedy — none of which appear on this page.',
+          lines: [
+            'ffor thornes and hay to be taken awaie',
+            'as fast as you can deuise',
+            'or The old saying is true a soure mouth',
+            'for a [soure?] stomack or [...] a weeke',
+            '',
+            'ffor healinge and drawinge of a wounde',
+            'and one ounce of faire water and half a [dram?]',
+            'and one ounce and halfe of honie mingle with',
+            'and [let?] them order then take the',
+            '[oyntment?] of [frogge?] or [franche?] incens',
+            '',
+            '         ffor [...] [Coughe?]',
+            '',
+            'Take halfe a [pound?] and take an ounce',
+            'and [a?] [wafer?] and a quart of ale [...]',
+          ]
+        },
+        {
+          key: 'honest',
+          label: 'Honest gaps (Run 4)',
+          sublabel: '46.85% CER',
+          color: '#d4712a',
+          description: 'Even with the right method, water damage makes this page genuinely hard. But the AI now honestly admits what it can\'t read.',
+          lines: [
+            '[For?] [stiches?] and [boy..?] & to [take?]',
+            '[awaie?] [the?] [..?] as you can [discerne?]',
+            '[o..?] The oile of [poppies?] is [good?]',
+            '[master?] [..?] [& ..?] [Dose?] [is from?] a [..?]',
+            '[...] to [...] [...] [...]',
+            '',
+            '     [An?] [oile?] to [...] [...]',
+            '     [for?] [burning?] or [scalding?]',
+            '',
+            '[The?] [kno...?] [...] [and?] [...] then',
+            '[in?] [Bromes?] and [...] [stone?] [mortar?]',
+            '',
+            '     ffor [Cornes?]',
+            '',
+            '[Take?] [...] and [...] or [melte?] [with?]',
+            '[...] [roote?] [from?] a [great?] [...]',
+          ]
+        },
+        {
+          key: 'reference',
+          label: 'Ground truth',
+          sublabel: 'Human transcription',
+          color: '#2878b5',
+          description: 'Recipes for pilling of the face, freckles, a timpany (abdominal swelling), and a restorative — entirely different content from the hallucination.',
+          lines: [
+            'the harth and lay it to the navell as hot',
+            'as you can indure it This use shifting it',
+            'once in xxiiij howers 3 or 4 dayes together',
+            '',
+            'For the pilling of the face',
+            '',
+            'Take Turpendine of venice and wash it with',
+            'red rose water till you haue taken away',
+            'the smell of the turpentine then take',
+            'the marrow of a stagg or for want thereof',
+            'deere suitt and melt them altogether but',
+            'lett them not seeth put into it vergins wax',
+            'more then the qantity of the suett and so',
+            'stirr it still till it be could',
+          ]
+        }
+      ]
+    }
+  ];
+
+  function render() {
+    const container = document.getElementById('hallucination-widget');
+    if (!container) return;
+    container.innerHTML = '';
+
+    examples.forEach((example, exIdx) => {
+      const section = document.createElement('div');
+      section.style.cssText = 'margin-bottom: 48px;';
+
+      // Header with manuscript image
+      const header = document.createElement('div');
+      header.style.cssText = 'display: flex; gap: 16px; align-items: start; margin-bottom: 16px;';
+
+      const thumbLink = document.createElement('a');
+      thumbLink.href = example.imageFull;
+      thumbLink.target = '_blank';
+      const thumb = document.createElement('img');
+      thumb.src = example.image;
+      thumb.alt = example.manuscript;
+      thumb.style.cssText = 'width: 80px; height: 100px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(18,18,18,0.15); cursor: zoom-in;';
+      thumb.loading = 'lazy';
+      thumbLink.appendChild(thumb);
+
+      const headerText = document.createElement('div');
+      const title = document.createElement('h3');
+      title.style.cssText = 'font-family: Georgia, serif; font-size: 20px; margin: 0 0 4px 0; color: #121212;';
+      title.textContent = `${example.manuscript}, p. ${example.page}`;
+      const subtitle = document.createElement('div');
+      subtitle.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 12px; color: #888; margin-bottom: 6px;";
+      subtitle.textContent = example.difficulty;
+      const summaryEl = document.createElement('p');
+      summaryEl.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0; line-height: 1.5;';
+      summaryEl.textContent = example.summary;
+
+      headerText.appendChild(title);
+      headerText.appendChild(subtitle);
+      headerText.appendChild(summaryEl);
+      header.appendChild(thumbLink);
+      header.appendChild(headerText);
+
+      // Tab buttons
+      const tabs = document.createElement('div');
+      tabs.style.cssText = 'display: flex; gap: 0; margin-bottom: 0; border-bottom: 2px solid rgba(18,18,18,0.1);';
+
+      const panels = document.createElement('div');
+
+      example.versions.forEach((version, vIdx) => {
+        // Tab button
+        const tab = document.createElement('button');
+        tab.style.cssText = `
+          font-family: 'SF Mono', Monaco, monospace;
+          font-size: 13px;
+          padding: 10px 16px;
+          border: none;
+          background: none;
+          cursor: pointer;
+          color: ${vIdx === 0 ? version.color : '#888'};
+          border-bottom: 2px solid ${vIdx === 0 ? version.color : 'transparent'};
+          margin-bottom: -2px;
+          transition: all 0.2s;
+          white-space: nowrap;
+        `;
+        tab.innerHTML = `<strong>${version.label}</strong><br><span style="font-size:11px">${version.sublabel}</span>`;
+
+        // Panel
+        const panel = document.createElement('div');
+        panel.style.cssText = `
+          display: ${vIdx === 0 ? 'block' : 'none'};
+          padding: 16px 0;
+        `;
+
+        const desc = document.createElement('p');
+        desc.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0 0 12px 0; line-height: 1.5; font-style: italic;';
+        desc.textContent = version.description;
+
+        const textBlock = document.createElement('div');
+        textBlock.style.cssText = `
+          font-family: 'SF Mono', Monaco, monospace;
+          font-size: 13px;
+          line-height: 1.7;
+          padding: 16px 20px;
+          background: rgba(18,18,18,0.03);
+          border-left: 3px solid ${version.color};
+          border-radius: 0 4px 4px 0;
+          white-space: pre-wrap;
+          color: #121212;
+          overflow-x: auto;
+        `;
+
+        // Highlight [...] markers and [word?] markers
+        const highlightedText = version.lines.join('\n')
+          .replace(/\[\.\.\.\]/g, '<span style="background:#c4404020;color:#c44040;padding:0 2px;border-radius:2px">[...]</span>')
+          .replace(/\[([^\]]+)\?\]/g, '<span style="background:#d4712a20;color:#d4712a;padding:0 2px;border-radius:2px">[$1?]</span>');
+
+        textBlock.innerHTML = highlightedText;
+
+        panel.appendChild(desc);
+        panel.appendChild(textBlock);
+        panels.appendChild(panel);
+
+        // Tab click handler
+        tab.addEventListener('click', () => {
+          // Deactivate all tabs
+          tabs.querySelectorAll('button').forEach((t, i) => {
+            t.style.color = '#888';
+            t.style.borderBottomColor = 'transparent';
+          });
+          // Hide all panels
+          panels.querySelectorAll(':scope > div').forEach(p => {
+            p.style.display = 'none';
+          });
+          // Activate clicked tab
+          tab.style.color = version.color;
+          tab.style.borderBottomColor = version.color;
+          panel.style.display = 'block';
+        });
+
+        tabs.appendChild(tab);
+      });
+
+      section.appendChild(header);
+      section.appendChild(tabs);
+      section.appendChild(panels);
+      container.appendChild(section);
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .hallucination-explorer {
+    position: relative;
+  }
+  .hallucination-explorer button:hover {
+    background: rgba(18,18,18,0.03);
+  }
+</style>

@@ -1,0 +1,65 @@
+{
+  "errorData": [
+    {
+      "run": 4,
+      "manuscript": "henslow",
+      "label": "Henslow, Run 4 (4.96%)",
+      "cer": 4.96,
+      "totalEdits": 47,
+      "categories": {
+        "letterformMisreading": 7,
+        "wordSegmentation": 7,
+        "punctuation": 7,
+        "capitalization": 4,
+        "lineation": 4,
+        "uvConvention": 3,
+        "other": 15
+      }
+    },
+    {
+      "run": 6,
+      "manuscript": "henslow",
+      "label": "Henslow, Run 6 (3.80%)",
+      "cer": 3.80,
+      "totalEdits": 36,
+      "categories": {
+        "letterformMisreading": 12,
+        "doubleLetter": 5,
+        "punctuation": 4,
+        "capitalization": 3,
+        "terminalE": 3,
+        "uvConvention": 3,
+        "other": 6
+      }
+    },
+    {
+      "run": 6,
+      "manuscript": "sedley",
+      "label": "Sedley, Run 6 (16.96%)",
+      "cer": 16.96,
+      "totalEdits": 104,
+      "categories": {
+        "letterformMisreading": 36,
+        "hallucination": 31,
+        "otherSpelling": 24,
+        "missingWord": 7,
+        "punctuation": 6
+      }
+    }
+  ],
+  "categoryDescriptions": {
+    "letterformMisreading": "Reading one letter as another (n↔u, o↔i, long-s↔l, minim confusion)",
+    "doubleLetter": "Dropping or adding doubled consonants (put→putt, langdebeefe→langdebeeffe)",
+    "hallucination": "Fabricating plausible but incorrect words or phrases",
+    "punctuation": "Missing or added periods, commas, apostrophes",
+    "capitalization": "Case variations (both raising and lowering)",
+    "uvConvention": "Period-specific u/v interchange (both acceptable readings)",
+    "terminalE": "Dropping or adding final -e from early modern words",
+    "wordSegmentation": "Incorrect spacing (split vs. run-together words)",
+    "lineation": "Line break differences between blind and reference",
+    "modernizationBias": "Silently correcting scribal errors toward modern spellings",
+    "missingWord": "Omitted text sections",
+    "otherSpelling": "Legitimate period spelling differences",
+    "other": "Miscellaneous errors not fitting other categories"
+  }
+}

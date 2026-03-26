@@ -1,0 +1,233 @@
+---
+/**
+ * Shows the hand-specific alphabet chart the AI agent built by studying
+ * a manuscript — what it "learned" before attempting to transcribe.
+ * Displays key letterforms with confusion risks highlighted.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'The alphabet chart the AI built by studying Henslow MS688 — what it learned before reading a single word' } = Astro.props;
+---
+
+<figure class="alphabet-viewer not-prose my-12">
+  <div id="alphabet-widget" class="max-w-3xl mx-auto"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  // Key letterforms from the agent's Henslow alphabet chart (Run 6)
+  // These are the ones that matter most for paleographic reading
+  const letterforms = [
+    {
+      category: 'The Tricky Ones',
+      description: 'Letters that look nothing like their modern equivalents',
+      letters: [
+        {
+          letter: 'd',
+          modern: 'd',
+          name: 'Secretary d',
+          description: 'Looped ascender curving to the left — the most distinctive secretary hand feature. Looks nothing like a modern d.',
+          examples: '"handfull", "and", "Deafnes"',
+          risk: 'low',
+          riskNote: 'Very clear in this hand',
+        },
+        {
+          letter: 'e',
+          modern: 'e',
+          name: 'Secretary e',
+          description: 'A backward-facing loop — like a reversed modern e. Has a clear angular left side in this hand.',
+          examples: '"the", "leaues", "euerie"',
+          risk: 'medium',
+          riskNote: 'Can be confused with o',
+        },
+        {
+          letter: 'ſ',
+          modern: 's',
+          name: 'Long s',
+          description: 'Tall letter with a descender, looks like an f without the crossbar. Used at the start and middle of words; round s only at the end.',
+          examples: '"sauinge", "roses", "vse"',
+          risk: 'high',
+          riskNote: 'Easily confused with f — the crossbar is the key difference',
+        },
+      ]
+    },
+    {
+      category: 'The Confusing Pairs',
+      description: 'Letters that look alike and trip up both humans and AI',
+      letters: [
+        {
+          letter: 'n / u',
+          modern: 'n, u',
+          name: 'Minim confusion',
+          description: 'Both n and u are made of identical vertical strokes (minims). The only difference is context. Three minims could be "in", "ni", "un", "nu", or even "m".',
+          examples: '"in", "vntill", "fundament"',
+          risk: 'high',
+          riskNote: 'The most common error type across all runs',
+        },
+        {
+          letter: 'f / ſ',
+          modern: 'f, s',
+          name: 'Long s vs. f',
+          description: 'Nearly identical — both have tall ascenders. The f has a crossbar, the long s does not. But when the crossbar is faint, they\'re indistinguishable.',
+          examples: '"for" vs "sauinge", "of" vs "roses"',
+          risk: 'high',
+          riskNote: 'Clear in this hand because the crossbar is prominent',
+        },
+        {
+          letter: 'u / v',
+          modern: 'u, v',
+          name: 'u/v interchange',
+          description: 'In secretary hand, u and v are the same letter — "v" at the start of a word, "u" in the middle. "vse" = use, "euerie" = every, "vntill" = until.',
+          examples: '"vse" (use), "euerie" (every), "vntill" (until)',
+          risk: 'low',
+          riskNote: 'Not really an error — a spelling convention of the period',
+        },
+      ]
+    },
+    {
+      category: 'What the Agent Got Right',
+      description: 'The agent\'s notes on this hand — observations a paleography student would recognize',
+      letters: [
+        {
+          letter: '—',
+          modern: '',
+          name: 'General assessment',
+          description: '"This is a large, decorative secretary hand, likely from the mid-to-late 16th century. The writing is very well-formed and highly legible. The scribe uses large decorative capitals at the start of recipe headings and the word \'Take.\'"',
+          examples: '',
+          risk: 'none',
+          riskNote: 'Accurate — this is one of the clearest secretary hands in the collection',
+        },
+        {
+          letter: 'T',
+          modern: 'T',
+          name: 'Decorative capital T',
+          description: 'The agent noted the ornamental capital T in "Take" — a signature feature of this scribe. The elaborate form is easy to identify but could confuse automated systems.',
+          examples: '"Take" (appears in every recipe)',
+          risk: 'low',
+          riskNote: 'Highly distinctive — the agent recognized it consistently',
+        },
+      ]
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('alphabet-widget');
+    if (!container) return;
+    container.innerHTML = '';
+
+    // Intro
+    const intro = document.createElement('div');
+    intro.style.cssText = 'margin-bottom: 24px; padding: 16px 20px; background: rgba(18,18,18,0.03); border-radius: 6px;';
+    intro.innerHTML = `
+      <p style="font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0; line-height: 1.6;">
+        Before transcribing, the AI studied the manuscript and built this letter-by-letter reference chart.
+        This is the key insight of the project: <strong style="color:#121212">studying the hand first</strong> — identifying each
+        letterform before trying to read words — cut the error rate in half. It's how human paleographers
+        are trained, and it works for AI too.
+      </p>
+    `;
+    container.appendChild(intro);
+
+    const riskColors = {
+      high: '#c44040',
+      medium: '#d4712a',
+      low: '#2d8a4e',
+      none: '#888',
+    };
+
+    letterforms.forEach(category => {
+      // Category header
+      const catHeader = document.createElement('div');
+      catHeader.style.cssText = 'margin: 28px 0 8px 0;';
+      catHeader.innerHTML = `
+        <h4 style="font-family: Georgia, serif; font-size: 18px; color: #121212; margin: 0 0 4px 0;">${category.category}</h4>
+        <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 12px; color: #888; margin: 0;">${category.description}</p>
+      `;
+      container.appendChild(catHeader);
+
+      category.letters.forEach(lf => {
+        const card = document.createElement('div');
+        card.style.cssText = `
+          display: grid;
+          grid-template-columns: 60px 1fr;
+          gap: 16px;
+          padding: 14px 0;
+          border-bottom: 1px solid rgba(18,18,18,0.06);
+          align-items: start;
+        `;
+
+        // Letter display
+        const letterEl = document.createElement('div');
+        letterEl.style.cssText = `
+          font-family: Georgia, serif;
+          font-size: ${lf.letter.length > 3 ? '18px' : '32px'};
+          color: #121212;
+          text-align: center;
+          line-height: 1.2;
+          padding-top: 4px;
+        `;
+        letterEl.textContent = lf.letter;
+
+        // Info
+        const info = document.createElement('div');
+
+        // Name + risk badge
+        const nameRow = document.createElement('div');
+        nameRow.style.cssText = 'display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;';
+
+        const nameEl = document.createElement('strong');
+        nameEl.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 13px; color: #121212;";
+        nameEl.textContent = lf.name;
+        nameRow.appendChild(nameEl);
+
+        if (lf.risk !== 'none') {
+          const riskBadge = document.createElement('span');
+          riskBadge.style.cssText = `
+            font-family: 'SF Mono', Monaco, monospace; font-size: 10px;
+            padding: 1px 6px; border-radius: 8px;
+            background: ${riskColors[lf.risk]}15; color: ${riskColors[lf.risk]};
+            font-weight: 600;
+          `;
+          riskBadge.textContent = `${lf.risk} confusion risk`;
+          nameRow.appendChild(riskBadge);
+        }
+
+        const descEl = document.createElement('p');
+        descEl.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0 0 4px 0; line-height: 1.5;';
+        descEl.textContent = lf.description;
+
+        info.appendChild(nameRow);
+        info.appendChild(descEl);
+
+        if (lf.examples) {
+          const exEl = document.createElement('div');
+          exEl.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: #888;";
+          exEl.textContent = lf.examples;
+          info.appendChild(exEl);
+        }
+
+        if (lf.riskNote && lf.risk !== 'none') {
+          const noteEl = document.createElement('div');
+          noteEl.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: ${riskColors[lf.risk]}; margin-top: 2px;`;
+          noteEl.textContent = lf.riskNote;
+          info.appendChild(noteEl);
+        }
+
+        card.appendChild(letterEl);
+        card.appendChild(info);
+        container.appendChild(card);
+      });
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .alphabet-viewer {
+    position: relative;
+  }
+</style>

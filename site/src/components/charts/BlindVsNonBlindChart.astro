@@ -1,0 +1,191 @@
+---
+/**
+ * D3 bar chart showing the dramatic gap between non-blind and blind CER results.
+ * The "reality check" moment — 0.45% vs ~15% on Sedley.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Non-blind testing produced dramatically inflated results' } = Astro.props;
+---
+
+<figure class="blind-comparison not-prose my-12">
+  <div id="blind-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  const data = [
+    {
+      manuscript: 'Henslow MS688',
+      subtitle: 'Easiest — large, neat hand',
+      nonBlind: 4.3,
+      blind: 3.80,
+      blindRun: 6,
+      note: 'Agent can genuinely read this hand',
+      inflated: false,
+    },
+    {
+      manuscript: 'Sedley MS534',
+      subtitle: 'Moderate — italic hand',
+      nonBlind: 0.45,
+      blind: 15.13,
+      blindRun: 4,
+      note: 'Agent was copying from the reference, not reading',
+      inflated: true,
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('blind-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    const isMobile = containerWidth < 500;
+
+    const margin = { top: 30, right: 30, bottom: 40, left: isMobile ? 50 : 60 };
+    const width = Math.min(containerWidth, 650) - margin.left - margin.right;
+    const height = 280;
+
+    const svg = d3.select('#blind-chart')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Scales
+    const x0 = d3.scaleBand()
+      .domain(data.map(d => d.manuscript))
+      .range([0, width])
+      .padding(0.35);
+
+    const x1 = d3.scaleBand()
+      .domain(['nonBlind', 'blind'])
+      .range([0, x0.bandwidth()])
+      .padding(0.12);
+
+    const y = d3.scaleLinear()
+      .domain([0, 18])
+      .range([height, 0]);
+
+    // Usable threshold
+    svg.append('line')
+      .attr('x1', 0).attr('x2', width)
+      .attr('y1', y(5)).attr('y2', y(5))
+      .attr('stroke', '#2d8a4e').attr('stroke-dasharray', '6,4')
+      .attr('stroke-width', 1).attr('opacity', 0.5);
+
+    svg.append('text')
+      .attr('x', width).attr('y', y(5) - 6)
+      .attr('text-anchor', 'end')
+      .attr('fill', '#2d8a4e').attr('opacity', 0.6)
+      .attr('font-size', '11px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .text('< 5% usable');
+
+    // Axes
+    svg.append('g')
+      .attr('transform', `translate(0,${height})`)
+      .call(d3.axisBottom(x0).tickSize(0))
+      .selectAll('text')
+      .attr('font-size', '13px')
+      .attr('font-family', 'Georgia, serif');
+
+    svg.append('g')
+      .call(d3.axisLeft(y).tickFormat(d => `${d}%`))
+      .selectAll('text')
+      .attr('font-size', '12px')
+      .attr('font-family', 'SF Mono, Monaco, monospace');
+
+    const barColors = {
+      nonBlind: '#c44040',
+      blind: '#2878b5',
+    };
+
+    // Bars
+    data.forEach(d => {
+      const g = svg.append('g')
+        .attr('transform', `translate(${x0(d.manuscript)},0)`);
+
+      // Non-blind bar
+      g.append('rect')
+        .attr('x', x1('nonBlind'))
+        .attr('y', y(d.nonBlind))
+        .attr('width', x1.bandwidth())
+        .attr('height', height - y(d.nonBlind))
+        .attr('fill', barColors.nonBlind)
+        .attr('rx', 2);
+
+      // Non-blind label
+      g.append('text')
+        .attr('x', x1('nonBlind') + x1.bandwidth() / 2)
+        .attr('y', y(d.nonBlind) - 8)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '14px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', barColors.nonBlind)
+        .text(`${d.nonBlind}%`);
+
+      // Blind bar
+      g.append('rect')
+        .attr('x', x1('blind'))
+        .attr('y', y(d.blind))
+        .attr('width', x1.bandwidth())
+        .attr('height', height - y(d.blind))
+        .attr('fill', barColors.blind)
+        .attr('rx', 2);
+
+      // Blind label
+      g.append('text')
+        .attr('x', x1('blind') + x1.bandwidth() / 2)
+        .attr('y', y(d.blind) - 8)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '14px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', barColors.blind)
+        .text(`${d.blind}%`);
+
+      // Annotation for Sedley
+      if (d.inflated) {
+        const midX = x1('nonBlind') + x1.bandwidth() / 2;
+        const arrowY = y(d.nonBlind) - 22;
+
+        g.append('text')
+          .attr('x', (x1('nonBlind') + x1.bandwidth() / 2 + x1('blind') + x1.bandwidth() / 2) / 2)
+          .attr('y', y(d.blind) - 28)
+          .attr('text-anchor', 'middle')
+          .attr('font-size', '12px')
+          .attr('font-family', 'Georgia, serif')
+          .attr('font-style', 'italic')
+          .attr('fill', '#666')
+          .text('33x inflation');
+      }
+    });
+
+    // Legend
+    const legend = svg.append('g')
+      .attr('transform', `translate(0, -10)`);
+
+    legend.append('rect').attr('x', 0).attr('y', 0).attr('width', 14).attr('height', 14).attr('fill', barColors.nonBlind).attr('rx', 2);
+    legend.append('text').attr('x', 20).attr('y', 11).attr('font-size', '12px').attr('font-family', 'SF Mono, Monaco, monospace').attr('fill', '#444').text('Non-blind (agent sees reference)');
+
+    legend.append('rect').attr('x', isMobile ? 0 : 280).attr('y', isMobile ? 22 : 0).attr('width', 14).attr('height', 14).attr('fill', barColors.blind).attr('rx', 2);
+    legend.append('text').attr('x', isMobile ? 20 : 300).attr('y', isMobile ? 33 : 11).attr('font-size', '12px').attr('font-family', 'SF Mono, Monaco, monospace').attr('fill', '#444').text('Blind (honest evaluation)');
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .blind-comparison {
+    position: relative;
+  }
+</style>
