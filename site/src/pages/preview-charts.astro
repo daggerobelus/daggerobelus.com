@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CERProgressionChart from '../components/charts/CERProgressionChart.astro';
+import BlindVsNonBlindChart from '../components/charts/BlindVsNonBlindChart.astro';
+import MethodTimelineChart from '../components/charts/MethodTimelineChart.astro';
+import ErrorBreakdownChart from '../components/charts/ErrorBreakdownChart.astro';
+import ManuscriptDifficultyChart from '../components/charts/ManuscriptDifficultyChart.astro';
+import HallucinationExplorer from '../components/charts/HallucinationExplorer.astro';
+import CERResultsTable from '../components/charts/CERResultsTable.astro';
+import TryReadingThis from '../components/charts/TryReadingThis.astro';
+import AlphabetViewer from '../components/charts/AlphabetViewer.astro';
+import WordDiffViewer from '../components/charts/WordDiffViewer.astro';
+---
+
+<BaseLayout title="Chart Preview" description="Preview of blog post visualizations">
+  <article class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
+    <h1 class="text-4xl font-serif mb-4">Chart Preview</h1>
+    <p class="text-ink/60 font-mono text-sm mb-16">Preview of interactive visualizations for the Teaching Machines to Read blog post</p>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">1. CER Progression</h2>
+      <p class="text-ink/70 mb-6">Henslow MS688 — the clearest success story — across eight runs.</p>
+      <CERProgressionChart />
+      <CERResultsTable />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">2. Non-Blind vs. Blind</h2>
+      <p class="text-ink/70 mb-6">The reality check: how much non-blind testing inflated results.</p>
+      <BlindVsNonBlindChart />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">3. What Worked vs. What Didn't</h2>
+      <p class="text-ink/70 mb-6">A timeline of methodological experiments.</p>
+      <MethodTimelineChart />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">4. Error Type Breakdown</h2>
+      <p class="text-ink/70 mb-6">What kinds of mistakes the AI makes.</p>
+      <ErrorBreakdownChart />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">5. Manuscript Difficulty</h2>
+      <p class="text-ink/70 mb-6">The five test manuscripts, ranked by difficulty with actual images.</p>
+      <ManuscriptDifficultyChart />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">6. Hallucination Explorer</h2>
+      <p class="text-ink/70 mb-6">Compare what the AI fabricated vs. what the manuscript actually says.</p>
+      <HallucinationExplorer />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">7. Try Reading This</h2>
+      <p class="text-ink/70 mb-6">Can you read early modern handwriting? Try before revealing the answer.</p>
+      <TryReadingThis />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">8. Word-Level Diff</h2>
+      <p class="text-ink/70 mb-6">The AI's best transcription vs. the reference — every error highlighted and explained.</p>
+      <WordDiffViewer />
+    </section>
+
+    <section class="mb-20">
+      <h2 class="text-2xl font-serif mb-2">9. The Alphabet the Agent Built</h2>
+      <p class="text-ink/70 mb-6">What the AI learned by studying the hand before transcribing.</p>
+      <AlphabetViewer />
+    </section>
+  </article>
+</BaseLayout>

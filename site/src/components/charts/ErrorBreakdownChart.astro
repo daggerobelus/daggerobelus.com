@@ -1,0 +1,235 @@
+---
+/**
+ * D3 grouped bar chart showing error type breakdown for key runs.
+ * Shows what kinds of mistakes the AI makes.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Error types for Henslow MS688 — letterform misreading dominates as method improves' } = Astro.props;
+---
+
+<figure class="error-breakdown not-prose my-12">
+  <div id="error-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  // Error data from evaluation reports
+  const errorData = [
+    {
+      label: 'Henslow, Run 4\n4.96%',
+      run: 4,
+      cer: 4.96,
+      total: 47,
+      categories: [
+        { name: 'Letterform', count: 7, color: '#c44040' },
+        { name: 'Segmentation', count: 7, color: '#d4712a' },
+        { name: 'Punctuation', count: 7, color: '#7b4fae' },
+        { name: 'Capitalization', count: 4, color: '#2878b5' },
+        { name: 'Lineation', count: 4, color: '#5ba3cf' },
+        { name: 'u/v convention', count: 3, color: '#2d8a4e' },
+        { name: 'Other', count: 15, color: '#bbb' },
+      ]
+    },
+    {
+      label: 'Henslow, Run 6\n3.80%',
+      run: 6,
+      cer: 3.80,
+      total: 36,
+      categories: [
+        { name: 'Letterform', count: 12, color: '#c44040' },
+        { name: 'Double letter', count: 5, color: '#d4712a' },
+        { name: 'Punctuation', count: 4, color: '#7b4fae' },
+        { name: 'Capitalization', count: 3, color: '#2878b5' },
+        { name: 'Terminal -e', count: 3, color: '#5ba3cf' },
+        { name: 'u/v convention', count: 3, color: '#2d8a4e' },
+        { name: 'Other', count: 6, color: '#bbb' },
+      ]
+    },
+  ];
+
+  // Sedley for comparison — different error profile
+  const sedleyData = {
+    label: 'Sedley, Run 6\n16.96%',
+    run: 6,
+    cer: 16.96,
+    categories: [
+      { name: 'Letterform', count: 36, color: '#c44040' },
+      { name: 'Hallucination', count: 31, color: '#991111' },
+      { name: 'Spelling variant', count: 24, color: '#d4712a' },
+      { name: 'Missing word', count: 7, color: '#7b4fae' },
+      { name: 'Punctuation', count: 6, color: '#2878b5' },
+    ]
+  };
+
+  function render() {
+    const container = document.getElementById('error-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    const isMobile = containerWidth < 500;
+
+    const margin = { top: 30, right: 20, bottom: 90, left: 50 };
+    const chartWidth = Math.min(containerWidth, 700) - margin.left - margin.right;
+    const chartHeight = 300;
+
+    const svg = d3.select('#error-chart')
+      .append('svg')
+      .attr('width', chartWidth + margin.left + margin.right)
+      .attr('height', chartHeight + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // All three datasets combined
+    const allData = [...errorData, sedleyData];
+
+    // Scales
+    const x0 = d3.scaleBand()
+      .domain(allData.map(d => d.label))
+      .range([0, chartWidth])
+      .padding(0.25);
+
+    const maxCount = d3.max(allData, d => d3.max(d.categories, c => c.count));
+    const y = d3.scaleLinear()
+      .domain([0, maxCount + 3])
+      .range([chartHeight, 0]);
+
+    // Y axis
+    svg.append('g')
+      .call(d3.axisLeft(y).ticks(6))
+      .selectAll('text')
+      .attr('font-size', '12px')
+      .attr('font-family', 'SF Mono, Monaco, monospace');
+
+    svg.append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('y', -40).attr('x', -chartHeight / 2)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#121212').attr('font-size', '13px')
+      .attr('font-family', 'Georgia, serif')
+      .text('Error count');
+
+    // Tooltip
+    const tooltip = d3.select('#error-chart')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#fff7f4')
+      .style('border', '1px solid #121212')
+      .style('padding', '8px 12px')
+      .style('font-size', '12px')
+      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('pointer-events', 'none')
+      .style('opacity', 0)
+      .style('z-index', 10);
+
+    // Draw stacked bars for each run
+    allData.forEach(runData => {
+      const barWidth = x0.bandwidth();
+      let cumY = 0;
+
+      // Draw stacked segments from bottom up
+      runData.categories.forEach(cat => {
+        svg.append('rect')
+          .attr('x', x0(runData.label))
+          .attr('y', y(cumY + cat.count))
+          .attr('width', barWidth)
+          .attr('height', y(cumY) - y(cumY + cat.count))
+          .attr('fill', cat.color)
+          .attr('stroke', '#fff7f4')
+          .attr('stroke-width', 1)
+          .attr('rx', 1)
+          .attr('cursor', 'pointer')
+          .on('mouseover', function(event) {
+            d3.select(this).attr('opacity', 0.8);
+            tooltip.html(`<strong>${cat.name}</strong>: ${cat.count} errors`)
+              .style('opacity', 1);
+          })
+          .on('mousemove', function(event) {
+            const chartRect = container.getBoundingClientRect();
+            tooltip
+              .style('left', (event.clientX - chartRect.left + 10) + 'px')
+              .style('top', (event.clientY - chartRect.top - 30) + 'px');
+          })
+          .on('mouseout', function() {
+            d3.select(this).attr('opacity', 1);
+            tooltip.style('opacity', 0);
+          });
+
+        cumY += cat.count;
+      });
+    });
+
+    // X axis labels (horizontal, multi-line)
+    const xAxisG = svg.append('g')
+      .attr('transform', `translate(0,${chartHeight})`)
+      .call(d3.axisBottom(x0).tickSize(0));
+
+    // Remove default text and replace with multi-line
+    xAxisG.selectAll('text').remove();
+    xAxisG.select('.domain').attr('stroke', '#ddd');
+
+    allData.forEach(d => {
+      const lines = d.label.split('\n');
+      const cx = x0(d.label) + x0.bandwidth() / 2;
+      lines.forEach((line, i) => {
+        svg.append('text')
+          .attr('x', cx)
+          .attr('y', chartHeight + 16 + i * 16)
+          .attr('text-anchor', 'middle')
+          .attr('font-size', i === 0 ? '12px' : '11px')
+          .attr('font-weight', i === 0 ? '600' : '400')
+          .attr('font-family', i === 0 ? 'Georgia, serif' : 'SF Mono, Monaco, monospace')
+          .attr('fill', i === 0 ? '#121212' : '#888')
+          .text(line);
+      });
+    });
+
+    // Legend
+    const allCategories = [
+      { name: 'Letterform', color: '#c44040' },
+      { name: 'Hallucination', color: '#991111' },
+      { name: 'Double letter', color: '#d4712a' },
+      { name: 'Punctuation', color: '#7b4fae' },
+      { name: 'Capitalization', color: '#2878b5' },
+      { name: 'u/v convention', color: '#2d8a4e' },
+      { name: 'Other', color: '#bbb' },
+    ];
+
+    const legendY = chartHeight + 52;
+    const legendCols = isMobile ? 2 : 3;
+    const colWidth = chartWidth / legendCols;
+
+    allCategories.forEach((cat, i) => {
+      const col = i % legendCols;
+      const row = Math.floor(i / legendCols);
+      const lx = col * colWidth;
+      const ly = legendY + row * 18;
+
+      svg.append('rect')
+        .attr('x', lx).attr('y', ly - 5)
+        .attr('width', 10).attr('height', 10)
+        .attr('fill', cat.color).attr('rx', 1);
+      svg.append('text')
+        .attr('x', lx + 14).attr('y', ly + 3)
+        .attr('font-size', '10px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', '#555')
+        .text(cat.name);
+    });
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .error-breakdown {
+    position: relative;
+  }
+</style>

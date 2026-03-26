@@ -1,0 +1,205 @@
+---
+/**
+ * Visual display of the five test manuscripts ranked by difficulty,
+ * with thumbnail images so readers can see WHY some are harder.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'The five test manuscripts, ranked by difficulty — readers can see why Jane Jackson is nearly impossible' } = Astro.props;
+---
+
+<figure class="manuscript-difficulty not-prose my-12">
+  <div id="difficulty-chart" class="max-w-3xl mx-auto"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  const manuscripts = [
+    {
+      id: 'henslow',
+      name: 'Henslow MS688',
+      page: 'p. 12',
+      difficulty: 'Easiest',
+      description: 'Large, neat secretary hand',
+      source: 'Royal College of Physicians',
+      bestCER: 3.80,
+      bestRun: 6,
+      thumb: '/images/manuscripts/henslow-ms688-p12-thumb.jpg',
+      full: '/images/manuscripts/henslow-ms688-p12.jpg',
+      color: '#2d8a4e',
+      barWidth: 3.80,
+    },
+    {
+      id: 'sedley',
+      name: 'Sedley MS534',
+      page: 'p. 13',
+      difficulty: 'Moderate',
+      description: 'Clear italic hand',
+      source: 'Royal College of Physicians',
+      bestCER: 15.13,
+      bestRun: 4,
+      thumb: '/images/manuscripts/sedley-ms534-p13-thumb.jpg',
+      full: '/images/manuscripts/sedley-ms534-p13.jpg',
+      color: '#2878b5',
+      barWidth: 15.13,
+    },
+    {
+      id: 'bulkeley',
+      name: 'Bulkeley MS169',
+      page: 'p. 17',
+      difficulty: 'Moderate',
+      description: 'Herbal text, specialized vocabulary',
+      source: 'Wellcome Collection',
+      bestCER: 16.21,
+      bestRun: 6,
+      thumb: '/images/manuscripts/bulkeley-ms169-p17-thumb.jpg',
+      full: '/images/manuscripts/bulkeley-ms169-p17.jpg',
+      color: '#7b4fae',
+      barWidth: 16.21,
+    },
+    {
+      id: 'brumwich',
+      name: 'Brumwich MS160',
+      page: 'p. 10',
+      difficulty: 'Hard',
+      description: 'Small, dense hand, two-page spread',
+      source: 'Wellcome Collection',
+      bestCER: 9.30,
+      bestRun: 4,
+      thumb: '/images/manuscripts/brumwich-ms160-p10-thumb.jpg',
+      full: '/images/manuscripts/brumwich-ms160-p10.jpg',
+      color: '#d4712a',
+      barWidth: 9.30,
+    },
+    {
+      id: 'jane-jackson',
+      name: 'Jane Jackson MS373',
+      page: 'p. 20',
+      difficulty: 'Very Hard',
+      description: 'Water damage + compact hand',
+      source: 'Wellcome Collection',
+      bestCER: 46.85,
+      bestRun: 5,
+      thumb: '/images/manuscripts/jane-jackson-ms373-p20-thumb.jpg',
+      full: '/images/manuscripts/jane-jackson-ms373-p20.jpg',
+      color: '#c44040',
+      barWidth: 46.85,
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('difficulty-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    manuscripts.forEach(ms => {
+      const card = document.createElement('div');
+      card.className = 'ms-card';
+      card.style.cssText = `
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        gap: 16px;
+        padding: 16px 0;
+        border-bottom: 1px solid rgba(18,18,18,0.1);
+        align-items: start;
+      `;
+
+      // Thumbnail
+      const imgWrap = document.createElement('a');
+      imgWrap.href = ms.full;
+      imgWrap.target = '_blank';
+      imgWrap.style.cssText = 'display: block; border-radius: 4px; overflow: hidden; border: 1px solid rgba(18,18,18,0.15);';
+
+      const img = document.createElement('img');
+      img.src = ms.thumb;
+      img.alt = `${ms.name} ${ms.page}`;
+      img.loading = 'lazy';
+      img.style.cssText = 'width: 100%; height: auto; display: block; cursor: zoom-in;';
+      imgWrap.appendChild(img);
+
+      // Info
+      const info = document.createElement('div');
+
+      // Header row
+      const header = document.createElement('div');
+      header.style.cssText = 'display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px;';
+
+      const name = document.createElement('strong');
+      name.style.cssText = `font-family: Georgia, serif; font-size: 16px; color: ${ms.color};`;
+      name.textContent = `${ms.name}, ${ms.page}`;
+
+      const badge = document.createElement('span');
+      badge.style.cssText = `
+        font-family: 'SF Mono', Monaco, monospace;
+        font-size: 11px;
+        padding: 2px 8px;
+        border-radius: 10px;
+        background: ${ms.color}18;
+        color: ${ms.color};
+        font-weight: 600;
+      `;
+      badge.textContent = ms.difficulty;
+
+      header.appendChild(name);
+      header.appendChild(badge);
+
+      // Description
+      const desc = document.createElement('div');
+      desc.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin-bottom: 8px;';
+      desc.textContent = `${ms.description} — ${ms.source}`;
+
+      // CER bar
+      const barWrap = document.createElement('div');
+      barWrap.style.cssText = 'display: flex; align-items: center; gap: 10px;';
+
+      const barLabel = document.createElement('span');
+      barLabel.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 13px; color: #121212; font-weight: 600; min-width: 55px;";
+      barLabel.textContent = `${ms.bestCER}%`;
+
+      const barOuter = document.createElement('div');
+      barOuter.style.cssText = 'flex: 1; height: 12px; background: rgba(18,18,18,0.06); border-radius: 6px; overflow: hidden;';
+
+      const barInner = document.createElement('div');
+      barInner.style.cssText = `
+        width: ${Math.min(ms.barWidth, 100)}%;
+        height: 100%;
+        background: ${ms.color};
+        border-radius: 6px;
+        transition: width 0.8s ease;
+      `;
+      barOuter.appendChild(barInner);
+
+      const runLabel = document.createElement('span');
+      runLabel.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: #888;";
+      runLabel.textContent = `Run ${ms.bestRun}`;
+
+      barWrap.appendChild(barLabel);
+      barWrap.appendChild(barOuter);
+      barWrap.appendChild(runLabel);
+
+      info.appendChild(header);
+      info.appendChild(desc);
+      info.appendChild(barWrap);
+
+      card.appendChild(imgWrap);
+      card.appendChild(info);
+      container.appendChild(card);
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .manuscript-difficulty {
+    position: relative;
+  }
+  @media (max-width: 500px) {
+    .ms-card {
+      grid-template-columns: 80px 1fr !important;
+    }
+  }
+</style>

@@ -1,0 +1,91 @@
+{
+  "examples": [
+    {
+      "manuscript": "Brumwich MS160",
+      "manuscriptId": "brumwich",
+      "page": 10,
+      "difficulty": "hard",
+      "image": "/images/manuscripts/brumwich-ms160-p10.jpg",
+      "description": "A page of eye remedies in a cramped secretary hand. The AI fabricated entirely different recipes in Runs 1-2, inventing ingredients, measurements, and ailments that don't appear in the manuscript. After learning the alphabet-first method in Run 4, it marked what it couldn't read instead of making things up.",
+      "versions": {
+        "hallucinated": {
+          "run": 1,
+          "cer": 96.1,
+          "label": "Run 1: Hallucinated",
+          "description": "The AI fabricated entire recipes that don't exist in the manuscript. It invented ingredients like 'Dynary of Treach,' veterinary recipes ('Tell any a blind horse'), and alchemical preparations with brimstone and antimony — none of which appear on this page.",
+          "text": "A water of Endiue ciccoris [soliz?] of each\nof thease lyke quantitie of eche [plant?] [they?]\nare [boyled?] by [the?] [Stillars?]\n  or [stilled?] ouer\n\nTake [Dynary?] of [Treach?] in [powder?] very smalle\n[...] a [dose?] euermore the valer [of?] [a?] [penning?]\n[with?] [mithridate?] [fasten?] them the [bredthe?] of\nthree [grose?] [being?] [...] soper [stroke?] of\n[...] of [each?] a [handfull?] or [more?] [ample?] [...]\nin as [much?] of [muskatt?] [or?] [claret?] [wine?] [as?]\n[you?] [will?] [to?] [present?] [or?] the [consumption?] [...] of\n[this?] [...] [...]\n\n    to [be?] as [sure?] as [it?] [can?] before\n\nTake of [fixed?] [brimstone?] of [...]  good [gold?] [fyle?]\nof [siluer?] [while?] [crude?] antimony of each [halfe an?]\n[ounce?] [amber?] [beades?] of [elke?] [borne?] of [stagge?] [harte?]\n[...]be a [bushell?] [and?] [a?] [diuers?] of the [...] [harte?]\n[...]e [then?] in [stamps?] [like?] a paste [grind?] with an\n[eye?] of [...]\nof [good?] [...]  the [...] in a [mortar?] [...] and\n[rolle?] it in a [lemon?] [...]  This is a plaine [...]  put it vnto\nthe [...] [Smoak?] a [closet?] or [...] in the [mornings?]\n[...]\n\n    of [Garden?] [salt?] or [...]\n\nThe [...] of a [Garden?] [snaker?] [or?] [of?]\n[snakes?] in a [...] of [neate?] or [...] [foote?]"
+        },
+        "honest": {
+          "run": 4,
+          "cer": 9.30,
+          "label": "Run 4: Honest gaps",
+          "description": "After learning the alphabet-first method, the AI marks what it can't read with [...] instead of inventing text. It correctly identifies the page as containing eye remedies and reads real words like 'tuetah,' 'aloes,' and 'red rose water.'",
+          "text": "A water of Excelent vertue to helpe ye weake\nor dimme sight of ye eyes when they\nare decayed by age sicknes\nor other way\n\nTake 3 drames of tuetah in puder very smalle\n& as much of aloes epaticum in puder 5 drames of\nfine sugar 6 ounces of red rose water 6 ounces of\ngood white wine mixe all thes together & put it into\na cleane glasse being well closed & stoped & set\nit in the sune a mounth together mixsing\n& stiring together all the said things at least\nons a day to ye intent ya incorporate this\nbeing done take of the same water & put one drope\nin each eye morning & euening continue so & a\n[Caron?] [scale?] it will cause the sight to come againe\n& be as pure as it was before.\n     + A water to Stringthen the sight\nTake of wood bettony of 3 leaued grasse with the\nwhite grasse prickley [Cristy?] yarow sinckfoild sallendine\nred fenill of each a good handfull of eye bright 2 great\nhandfulls a handfull of white roses on the water of\nthem a quarter of a pinte shread all thes together &\nlay them in steepe in halfe a pinte of white wine\n& 2 or 3 spoonfulls of honey in an earthen pott\nclose stoped one whole night in ye morning still\n[...] Distill it [halfe?] a pinte of\nit in a common still adding to it [halfe?] [...]"
+        },
+        "reference": {
+          "label": "Ground truth (FromThePage)",
+          "description": "The actual text, transcribed by human volunteers on FromThePage. The page contains recipes for eye ailments: a wash for weak sight, a water to strengthen sight, a powder for the eyes, a cure for a blind horse, and a water for swollen eyelids.",
+          "text": "A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way\n\nTake 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in puder 2 drames of fine sugar 6 ounces of red rose water 6 ounces of good white wine mix all thes together & put it into a Cleane glase being well Closed & stoped & set it in the sune a mounth together mixing & stiring together all the sayd things at least ons a day to the intent you in corproate this being done take of the same water & put one drope in each eye morning & euening contineue soe a Cartin space it will cause the sight to come again & be as pure as it was before\n\nA water to Stringthen the sight\n\nTake of wood bettony of 3 leaued grase with the white spote ockley Cristy yarow sinckfold sallendine red fenill of each a good handfull of eye bright 2 great handfulls a handfull of white rosses or the water of them a quarter of a pinte shread all this together & lay them in steepe in halfe a pinte of white wine & 2 or 3 sponfulls of honey in an earthen pot close stoped one whole night in the morning still it in a common still adding to it halfe a pint of the urine of a man Child when you put it into the stille drinck a litell of this in the morning festing 2 howers after it & with a litell rage wash the eyes"
+        }
+      }
+    },
+    {
+      "manuscript": "Jane Jackson MS373",
+      "manuscriptId": "jane-jackson",
+      "page": 20,
+      "difficulty": "very hard",
+      "image": "/images/manuscripts/jane-jackson-ms373-p20.jpg",
+      "description": "A water-damaged page with severe staining across the bottom third. The actual text contains recipes for skin conditions, a timpany (abdominal swelling), and a restorative for consumption. The AI invented completely different content in both Runs 1 and 2, and even Run 4 struggled with the physical damage.",
+      "versions": {
+        "hallucinated": {
+          "run": 1,
+          "cer": 96.1,
+          "label": "Run 1: Hallucinated",
+          "description": "The AI fabricated wound-healing recipes, cough remedies, and a 'dropsie' cure — none of which appear on this page. It invented plausible-sounding early modern medical text, complete with period-appropriate language, that has no connection to the actual manuscript.",
+          "text": "ffor thornes and hay to be taken awaie as fast as you can deuise\nor The old saying is true a soure mouth for a [soure?] stomack or\n[...] a weeke\n\nffor healinge and drawinge of a wounde and one ounce of\nfaire water and half a [dram?] and one ounce and halfe of\nhonie mingle with and [let?] them order then take the\n[oyntment?] of [frogge?] or [franche?] incens [allum?] and [oyle?]\nof [Roses?] or [the?] [cammomile?] allowed and also add\nthe [oyle?] of [...] and the durte of old [sallet?] oyle [also?]\n\n                for [the?] stopping [or?]\n        [for?] to clearsse\n\nthe [humors?] coming out [there?] then [...] and\nmake thereof [a?] [sirropp?]\n\n                ffor [...] [Coughe?]\n\nTake halfe a [pound?] and take an ounce and [a?] [wafer?] and a quart\nof ale [...] [boyle?] [it?] [together?]\n\n         ffor [the?] [dropsie?]\n\nTake [Celondine?] with roote and a gallon of strong wort [and?]\n[boyle?] it a [night?] [short?] and then it [will?] [come?] and\n[...] and [drinke?] thereof a good draught [first?] in the\nmorninge once in the day by the [grace?] of God [and?] it\n[cures?] it it [bee?] in the [first?] yr [or?]"
+        },
+        "honest": {
+          "run": 4,
+          "cer": 46.85,
+          "label": "Run 4: Honest gaps",
+          "description": "Even with the alphabet-first method, this page remains very difficult due to water damage. But the AI now honestly marks most text as illegible rather than inventing content. The high CER reflects real physical damage to the manuscript, not fabrication.",
+          "text": "[For?] [stiches?] and [boy..?] & to [take?] [awaie?] [the?] [..?] as you can [discerne?]\n[o..?] The oile of [poppies?] is [good?] [master?] [..?] [& ..?] [Dose?] [is from?] a [..?]\n[...] to [...] [...] [...]\n\n[..?]hanselesse [the?] [iuice?] of [it?] [...] & [with?] [cold?] [cream?] [maketh a?]\n[faire?] [white?] [...] & [it?] [...] [other?] [thin?] [...] [oile?]\n[sodden?] of [it?] [being?] in [...] [beaten?] [where?] [...] and [in?] [other?]\n[...] the [...] & the [...] & [...] all [...] & [...] ed\n\n     [An?] [oile?] to [...] [...]\n     [for?] [burning?] or [scalding?]\n\n[The?] [kno...?] [...] [and?] [...] then [in?] [Bromes?] and\n[...] [stone?] [mortar?]\n\n     ffor [Cornes?]\n\n[Take?] [...] and [...] or [melte?] [with?] [...] [roote?] [from?] a [great?]\n[...] & [a?] [night?] [..?] and [...] [...]\n\n     To [...] [&?] [...] [...]\n\n[...] [Elayne?] [...] add a [gallon?] of [strong?] [vineger?] [&..?]\n[..?] & a [night?] [alone?] and [take?] a [...] well [...] a\n[...] once in the day by the [space?] of [..?] Dayes [...] a\n[...] & [...] in [...]"
+        },
+        "reference": {
+          "label": "Ground truth (FromThePage)",
+          "description": "The actual text includes recipes for the pilling (peeling) of the face, freckles, a timpany (abdominal swelling), and a restorative for consumption. The content is completely different from what the AI fabricated.",
+          "text": "the harth and lay it to the navell as hot as you can indure it This use shifting it once in xxiiij howers 3 or 4 dayes together\n\nFor the pilling of the face\n\nTake Turpendine of venice and wash it with red rose water till you haue taken away the smell of the turpentine then take the marrow of a stagg or for want thereof deere suitt and melt them altogether but lett them not seeth put into it vergins wax more then the qantity of the suett and so stirr it still till it be could\n\nFor freckles on the face\n\nTake the leaues of white poppy and distill them and with the water thereof wash your face\n\nFor a Timpany\n\nTake flouer delice and seeth them in white wine from a quart to a pinte and drinke that next your heart ix mornings together\n\nA Fume for the same\n\nTake a Pottle of white wine and a gallon of runing water and the dung of a ston'd horse and lett it seeth a while then sitt ouer it on a close stoole alwayes as hott as you can suffer it of[.....] times in the day by the space of ix dayes half an hower at a time or an hower if you can"
+        }
+      }
+    },
+    {
+      "manuscript": "Henslow MS688",
+      "manuscriptId": "henslow",
+      "page": 12,
+      "difficulty": "easy",
+      "image": "/images/manuscripts/henslow-ms688-p12.jpg",
+      "description": "A success story. This page is written in a large, clear hand — a 'fair copy' meant to be read easily. Even Run 1 got the gist right, and by Run 6, the AI was approaching the accuracy of existing commercial tools like Transkribus.",
+      "versions": {
+        "baseline": {
+          "run": 1,
+          "cer": 11.0,
+          "label": "Run 1: Baseline",
+          "description": "Even without special training, the AI read this legible manuscript reasonably well. Most errors are minor: 'Imbers' for 'embers,' 'Fayre' for 'tarre,' and small spelling differences. The content is recognizably correct.",
+          "text": "My lorde of Caunterberries\n  . . . . Brothe for a Consumptione . . . . . .\n\nTake like as before sauinge put therto a handfull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knit\ntogeather of euerie one alike quantitye . . . . . . . .\n\n   . . . . ffor the pyles . . . .\n\nTake one handefull of mollet leaues, and wrappe them in a Colewort\nleafe, and rake them in the [Imbers?] vntill they bee well rosted\nthen take them, and put awaye the Colewort leafe, and grinde\nthem in a morter, and put therto oyle of roses, and grinde them together\nthen take it and laye it to the pyles withe a troffer, and vse this\n    moreinge and euenynge . . . . . . . .\n\n   . . . . ffor the flixe . . . . . . .\n\nTake horsedonge new made and frie it withe swete butter\nand put it in a Clothe and laye it to the [fundament?] as hott\nas you maye suffer ytt, and lye vppen vntill you haue ease.\n\n   . . . . . ffor Deafnes . . . . .\n\nTake blacke wolle whiche growes vpon the flanke\n  of a sheepe and [Fayre?] and mingell them togeather\n    and putt them into the eare"
+        },
+        "best": {
+          "run": 6,
+          "cer": 3.80,
+          "label": "Run 6: Best result",
+          "description": "After learning the alphabet-first method and vocabulary verification, the AI achieves 3.80% CER — approaching the ~3% benchmark of Transkribus, the leading commercial tool for historical handwriting. Nearly every word is correct.",
+          "text": "My lorde of Caunterberries\n.........Brothe for a Consumptione..........\nTake like as before sauinge putt thereto a handfull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knitt\ntogeather of euerie one a like quantitye...........\n\n..........For the pyles..........\nTake one handefull of mollet leaues, and wrappe them in a Coleworte\nleafe, and rake them in the [embers?] vntill they bee well rosted\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a morter, and putt to yt oyle of roses, and grinde them togeather\nthen take it and laye itt to the pyles withe a trusser, and vse this\nmorninge and euenynge...........\n\n...........For the flixe...........\nTake horsedounge new made and frie itt withe sweete butter\nand putt it in a clothe and laye itt to the fundament: as hott\nas you maye suffer ytt, and sitt vppon vntill you haste ease.\n\n...........For Deafnes..........\nTake blacke woole whiche growes vppon the flanke\nof a sheepe and [hare?], and mingell them togeather\nand putt them into the eare."
+        },
+        "reference": {
+          "label": "Ground truth (FromThePage)",
+          "description": "The human-transcribed reference. Four recipes attributed to 'My Lorde of Cannterberries' (the Archbishop of Canterbury): a broth for consumption, a treatment for piles, a cure for the flux, and a remedy for deafness.",
+          "text": "My Lorde of Cannterberries\nBrothe for a Consumptione\nTake like as before sauinge putt thereto a handfull of voilett leaues\nlangdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt\ntogeather of euerie one alike quantitye.\nFor the pyles\nTakeone handefull of mollett leaues, and wrappe them in a Colewort\nleafe, and rake them in the Imbers vntill they bee well rosted.\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a morter, and putt to ytt oyle of roses, and grinde them togeather\nthen take itt and laye itt to the pyles withe a trusser, and use this\nmoreninge and euenynde.\nFor the Flixe\nTake horsedounge new made and frie itt withe sweete butter.\nand putt itt in a clothe and laye itt to the fundamente. as hott\nas yow maye suffer ytt, and sitte uppon untill yow haue ease.\nFor Deffnes\nTake blacke woole, whiche growes vppon the flanke\nof a sheepe and tarre, and mingell them togeath[er]\nand putt them into the eare."
+        }
+      }
+    }
+  ]
+}

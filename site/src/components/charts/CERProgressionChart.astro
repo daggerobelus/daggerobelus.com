@@ -1,0 +1,246 @@
+---
+/**
+ * Interactive D3 line chart showing Henslow CER progression across Runs 1-8,
+ * with method labels and benchmark lines. Focused on the clearest success story.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Henslow MS688 — Character Error Rate across eight blind evaluation runs' } = Astro.props;
+---
+
+<figure class="cer-progression not-prose my-12">
+  <div id="cer-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  const runs = [
+    { id: 1, name: 'Basic blind', method: 'Single agent, original paleography guide', category: 'baseline', cer: 11.3 },
+    { id: 2, name: 'Anti-hallucination instructions', method: 'Added "Never Fabricate Text" rule', category: 'instruction', cer: 12.0 },
+    { id: 3, name: 'Alphabet-first', method: 'Study the hand first, then transcribe', category: 'structural', cer: 6.12 },
+    { id: 4, name: 'Alphabet-first (formalized)', method: 'Written instructions, all 5 manuscripts', category: 'structural', cer: 4.96 },
+    { id: 5, name: 'Stronger instructions + review', method: '"Read Letters Not Words" + review agent', category: 'instruction', cer: 5.38 },
+    { id: 6, name: 'Alphabet + vocabulary', method: '+ 19K-word vocab verification', category: 'structural', cer: 3.80 },
+    { id: 7, name: 'Visual reference charts', method: '+ Folger visual alphabet charts', category: 'more-input', cer: 7.59 },
+    { id: 8, name: 'Triple-pass consensus', method: 'Three agents + reconciliation', category: 'structural', cer: 4.54 },
+  ];
+
+  const categoryColors = {
+    baseline: '#888',
+    instruction: '#c44040',
+    structural: '#2d8a4e',
+    'more-input': '#d4712a',
+  };
+
+  function render() {
+    const container = document.getElementById('cer-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    const isMobile = containerWidth < 600;
+
+    const margin = { top: 20, right: 30, bottom: 50, left: 55 };
+    const width = containerWidth - margin.left - margin.right;
+    const height = isMobile ? 300 : 380;
+
+    const svg = d3.select('#cer-chart')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Scales — zoomed to 0-14% so the improvements are visible
+    const x = d3.scaleLinear().domain([1, 8]).range([0, width]);
+    const y = d3.scaleLinear().domain([0, 14]).range([height, 0]);
+
+    // Shaded zone: usable range (0-5%)
+    svg.append('rect')
+      .attr('x', 0).attr('y', y(5))
+      .attr('width', width).attr('height', height - y(5))
+      .attr('fill', '#2d8a4e').attr('opacity', 0.04);
+
+    // Usable threshold line
+    svg.append('line')
+      .attr('x1', 0).attr('x2', width)
+      .attr('y1', y(5)).attr('y2', y(5))
+      .attr('stroke', '#2d8a4e').attr('stroke-dasharray', '6,4')
+      .attr('stroke-width', 1).attr('opacity', 0.5);
+
+    svg.append('text')
+      .attr('x', 6).attr('y', y(5) + 16)
+      .attr('fill', '#2d8a4e').attr('opacity', 0.6)
+      .attr('font-size', '11px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .text('< 5% usable for research');
+
+    // Transkribus benchmark
+    svg.append('line')
+      .attr('x1', 0).attr('x2', width)
+      .attr('y1', y(3)).attr('y2', y(3))
+      .attr('stroke', '#888').attr('stroke-dasharray', '3,3')
+      .attr('stroke-width', 1).attr('opacity', 0.4);
+
+    svg.append('text')
+      .attr('x', 6).attr('y', y(3) - 6)
+      .attr('fill', '#888').attr('opacity', 0.5)
+      .attr('font-size', '11px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .text('~3% Transkribus (best commercial tool)');
+
+    // Grid lines
+    y.ticks(7).forEach(tick => {
+      if (tick === 0) return;
+      svg.append('line')
+        .attr('x1', 0).attr('x2', width)
+        .attr('y1', y(tick)).attr('y2', y(tick))
+        .attr('stroke', '#ddd').attr('stroke-width', 0.5);
+    });
+
+    // Axes
+    const xAxis = d3.axisBottom(x)
+      .ticks(8).tickFormat(d => `${d}`);
+    svg.append('g')
+      .attr('transform', `translate(0,${height})`)
+      .call(xAxis)
+      .selectAll('text')
+      .attr('font-size', '13px')
+      .attr('font-family', 'SF Mono, Monaco, monospace');
+
+    // X axis label
+    svg.append('text')
+      .attr('x', width / 2).attr('y', height + 35)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#666').attr('font-size', '13px')
+      .attr('font-family', 'Georgia, serif')
+      .text('Run');
+
+    const yAxis = d3.axisLeft(y)
+      .ticks(7).tickFormat(d => `${d}%`);
+    svg.append('g')
+      .call(yAxis)
+      .selectAll('text')
+      .attr('font-size', '12px')
+      .attr('font-family', 'SF Mono, Monaco, monospace');
+
+    // Y axis label
+    svg.append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('y', -42).attr('x', -height / 2)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#121212').attr('font-size', '13px')
+      .attr('font-family', 'Georgia, serif')
+      .text('Character Error Rate');
+
+    // Line
+    const line = d3.line()
+      .x(d => x(d.id))
+      .y(d => y(d.cer))
+      .curve(d3.curveMonotoneX);
+
+    svg.append('path')
+      .datum(runs)
+      .attr('fill', 'none')
+      .attr('stroke', '#121212')
+      .attr('stroke-width', 2.5)
+      .attr('d', line);
+
+    // Tooltip
+    const tooltip = d3.select('#cer-chart')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#fff7f4')
+      .style('border', '1px solid #121212')
+      .style('padding', '10px 14px')
+      .style('font-size', '13px')
+      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('pointer-events', 'none')
+      .style('opacity', 0)
+      .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
+      .style('z-index', 10)
+      .style('max-width', '280px')
+      .style('line-height', '1.5');
+
+    // Dots — color-coded by method category
+    runs.forEach(run => {
+      const color = categoryColors[run.category];
+
+      svg.append('circle')
+        .attr('cx', x(run.id))
+        .attr('cy', y(run.cer))
+        .attr('r', 6)
+        .attr('fill', color)
+        .attr('stroke', '#fff7f4')
+        .attr('stroke-width', 2.5)
+        .attr('cursor', 'pointer')
+        .on('mouseover', function(event) {
+          d3.select(this).attr('r', 8);
+          tooltip.html(`
+            <strong>Run ${run.id}: ${run.name}</strong><br>
+            CER: <strong>${run.cer}%</strong><br>
+            <span style="color:#666;font-size:11px">${run.method}</span>
+          `)
+          .style('opacity', 1);
+        })
+        .on('mousemove', function(event) {
+          const chartRect = container.getBoundingClientRect();
+          tooltip
+            .style('left', (event.clientX - chartRect.left + 15) + 'px')
+            .style('top', (event.clientY - chartRect.top - 10) + 'px');
+        })
+        .on('mouseout', function() {
+          d3.select(this).attr('r', 6);
+          tooltip.style('opacity', 0);
+        });
+
+      // CER label next to each dot
+      const labelOffset = run.cer > 6 ? -12 : (run.id === 5 ? 16 : -12);
+      svg.append('text')
+        .attr('x', x(run.id))
+        .attr('y', y(run.cer) + labelOffset)
+        .attr('text-anchor', 'middle')
+        .attr('fill', color)
+        .attr('font-size', '12px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .text(`${run.cer}%`);
+    });
+
+    // Legend for dot colors
+    const legendItems = [
+      { label: 'Structural change', color: categoryColors.structural },
+      { label: 'Instruction change', color: categoryColors.instruction },
+      { label: 'More input', color: categoryColors['more-input'] },
+    ];
+    let legendX = 0;
+    legendItems.forEach(item => {
+      svg.append('circle')
+        .attr('cx', legendX + 5).attr('cy', height + 42)
+        .attr('r', 4).attr('fill', item.color);
+      svg.append('text')
+        .attr('x', legendX + 14).attr('y', height + 42)
+        .attr('dy', '0.35em')
+        .attr('font-size', '11px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', '#666')
+        .text(item.label);
+      legendX += item.label.length * 7 + 28;
+    });
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .cer-progression {
+    position: relative;
+  }
+  .cer-progression svg {
+    overflow: visible;
+  }
+</style>

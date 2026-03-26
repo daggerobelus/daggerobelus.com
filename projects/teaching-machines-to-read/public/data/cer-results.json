@@ -1,0 +1,31 @@
+{
+  "runs": [
+    { "id": 1, "name": "Basic Blind Transcription", "date": "2026-02-27", "method": "Single agent with original paleography guide, no special methodology", "category": "baseline", "improved": false },
+    { "id": 2, "name": "Anti-Hallucination Instructions", "date": "2026-02-27", "method": "Updated guide with 'Cardinal Rule: Never Fabricate Text' section", "category": "instruction", "improved": false },
+    { "id": 3, "name": "Alphabet-First (Henslow Only)", "date": "2026-02-27", "method": "Three-agent workflow: alphabet builder → transcriber → evaluator", "category": "structural", "improved": true },
+    { "id": 4, "name": "Alphabet-First (All Manuscripts)", "date": "2026-02-27", "method": "Formalized alphabet-first with written instructions, all 5 manuscripts, isolated environment", "category": "structural", "improved": true },
+    { "id": 5, "name": "Stronger Instructions + Review Agent", "date": "2026-02-27", "method": "'Read Letters Not Words' principle + separate review agent for flagged passages", "category": "instruction", "improved": false },
+    { "id": 6, "name": "Alphabet-First + Vocabulary Verification", "date": "2026-02-27", "method": "Alphabet-first plus verification against 19,000-word vocabulary reference from 40 early modern sources", "category": "structural", "improved": true },
+    { "id": 7, "name": "Visual Reference Charts", "date": "2026-02-28", "method": "Run 6 methodology plus Folger visual alphabet charts showing secretary hand letterform variants", "category": "more-input", "improved": false },
+    { "id": 8, "name": "Triple-Pass Consensus", "date": "2026-02-28", "method": "Three independent transcription agents merged by fourth reconciliation agent using majority rule (EMROC-style)", "category": "structural", "improved": false }
+  ],
+  "manuscripts": [
+    { "id": "henslow", "name": "Henslow MS688", "page": 12, "difficulty": "easiest", "difficultyRank": 1, "description": "Large, neat secretary hand", "source": "Royal College of Physicians" },
+    { "id": "sedley", "name": "Sedley MS534", "page": 13, "difficulty": "moderate", "difficultyRank": 2, "description": "Clear italic hand", "source": "Royal College of Physicians" },
+    { "id": "bulkeley", "name": "Bulkeley MS169", "page": 17, "difficulty": "moderate", "difficultyRank": 3, "description": "Herbal text, specialized vocabulary", "source": "Wellcome Collection" },
+    { "id": "brumwich", "name": "Brumwich MS160", "page": 10, "difficulty": "hard", "difficultyRank": 4, "description": "Small, dense hand, two-page spread", "source": "Wellcome Collection" },
+    { "id": "jane-jackson", "name": "Jane Jackson MS373", "page": 20, "difficulty": "very hard", "difficultyRank": 5, "description": "Water damage + compact hand", "source": "Wellcome Collection" }
+  ],
+  "scores": {
+    "henslow":      [11.3, 12.0, 6.12, 4.96, 5.38, 3.80, 7.59, 4.54],
+    "sedley":       [15.8, 21.0, null, 15.13, 16.55, 16.96, 16.42, 15.94],
+    "bulkeley":     [22.8, 18.0, null, 18.70, 20.90, 16.21, 18.29, 18.29],
+    "brumwich":     [96.1, 93.0, null, 9.30, 50.62, 69.29, 62.49, 79.80],
+    "jane-jackson": [95.6, 95.0, null, 77.41, 46.85, 80.62, 67.22, 89.27]
+  },
+  "benchmarks": {
+    "veryGood": 1,
+    "usable": 5,
+    "transkribus": 3
+  }
+}

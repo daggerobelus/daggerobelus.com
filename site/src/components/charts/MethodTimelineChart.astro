@@ -1,0 +1,178 @@
+---
+/**
+ * D3 visual timeline showing what each run tried and whether it worked.
+ * Color-coded: green = structural change that improved results,
+ * red = instruction/input change that didn't.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Only structural process changes improved accuracy — better instructions never helped' } = Astro.props;
+---
+
+<figure class="method-timeline not-prose my-12">
+  <div id="timeline-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  const runs = [
+    {
+      id: 1, name: 'Basic blind transcription',
+      what: 'Single agent with paleography guide',
+      result: 'Henslow 11.3% — two manuscripts hallucinated (~96%)',
+      improved: false, category: 'baseline',
+      highlight: 'Exposed non-blind inflation'
+    },
+    {
+      id: 2, name: 'Anti-hallucination instructions',
+      what: 'Added "Never Fabricate Text" cardinal rule',
+      result: 'No improvement. Brumwich and Jane Jackson still hallucinated.',
+      improved: false, category: 'instruction',
+      highlight: 'Instructions alone don\'t work'
+    },
+    {
+      id: 3, name: 'Alphabet-first method',
+      what: 'Study the hand first, build letter chart, then transcribe',
+      result: 'Henslow 6.12% — cut errors in half',
+      improved: true, category: 'structural',
+      highlight: 'Key discovery: bottom-up reading'
+    },
+    {
+      id: 4, name: 'Alphabet-first (all MSS)',
+      what: 'Formalized method with written instructions for all manuscripts',
+      result: 'Henslow 4.96%, Brumwich 9.30% (from 96% — stopped hallucinating)',
+      improved: true, category: 'structural',
+      highlight: 'Crossed < 5% usable threshold'
+    },
+    {
+      id: 5, name: 'Stronger instructions + review',
+      what: '"Read Letters Not Words" principle + separate review agent',
+      result: 'No improvement on any manuscript. Reverted to Run 4 instructions.',
+      improved: false, category: 'instruction',
+      highlight: 'Confirmed: instructions don\'t help'
+    },
+    {
+      id: 6, name: 'Alphabet + vocabulary',
+      what: 'Added 19K-word vocab verification from 40 early modern sources',
+      result: 'Henslow 3.80% — best result, near Transkribus benchmark',
+      improved: true, category: 'structural',
+      highlight: 'New best: approaching 3%'
+    },
+    {
+      id: 7, name: 'Visual reference charts',
+      what: 'Added Folger alphabet charts showing letterform variants',
+      result: 'All five manuscripts worse. More input ≠ better results.',
+      improved: false, category: 'more-input',
+      highlight: 'More reference ≠ better reading'
+    },
+    {
+      id: 8, name: 'Triple-pass consensus',
+      what: 'Three agents transcribe independently, fourth reconciles',
+      result: 'No improvement. Merging failures amplifies uncertainty.',
+      improved: false, category: 'structural',
+      highlight: 'Consensus fails on hard text'
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('timeline-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    const rowHeight = 80;
+    const margin = { top: 10, right: 20, bottom: 10, left: 20 };
+    const width = containerWidth - margin.left - margin.right;
+    const height = runs.length * rowHeight;
+
+    const svg = d3.select('#timeline-chart')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const colors = {
+      improved: '#2d8a4e',
+      notImproved: '#c44040',
+      neutral: '#888',
+    };
+
+    // Central line
+    const lineX = 40;
+    svg.append('line')
+      .attr('x1', lineX).attr('x2', lineX)
+      .attr('y1', 0).attr('y2', height)
+      .attr('stroke', '#ddd').attr('stroke-width', 2);
+
+    runs.forEach((run, i) => {
+      const y = i * rowHeight + rowHeight / 2;
+      const color = run.category === 'baseline' ? colors.neutral :
+                    run.improved ? colors.improved : colors.notImproved;
+
+      // Circle on timeline
+      svg.append('circle')
+        .attr('cx', lineX).attr('cy', y)
+        .attr('r', 14)
+        .attr('fill', color)
+        .attr('stroke', '#fff7f4')
+        .attr('stroke-width', 3);
+
+      // Run number
+      svg.append('text')
+        .attr('x', lineX).attr('y', y)
+        .attr('text-anchor', 'middle')
+        .attr('dy', '0.35em')
+        .attr('fill', '#fff7f4')
+        .attr('font-size', '12px')
+        .attr('font-weight', '700')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .text(run.id);
+
+      // Content
+      const textX = lineX + 30;
+      const maxTextWidth = width - textX;
+
+      // Run name
+      svg.append('text')
+        .attr('x', textX).attr('y', y - 20)
+        .attr('fill', '#121212')
+        .attr('font-size', '15px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'Georgia, serif')
+        .text(run.name);
+
+      // What was tried
+      svg.append('text')
+        .attr('x', textX).attr('y', y)
+        .attr('fill', '#555')
+        .attr('font-size', '13px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .text(run.what.length > maxTextWidth / 7 ? run.what.slice(0, Math.floor(maxTextWidth / 7)) + '…' : run.what);
+
+      // Highlight/result
+      svg.append('text')
+        .attr('x', textX).attr('y', y + 20)
+        .attr('fill', color)
+        .attr('font-size', '13px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'Georgia, serif')
+        .attr('font-style', 'italic')
+        .text(run.highlight);
+    });
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .method-timeline {
+    position: relative;
+  }
+</style>

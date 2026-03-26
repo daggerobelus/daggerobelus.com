@@ -1,0 +1,22 @@
+{
+  "comparisons": [
+    {
+      "manuscript": "Henslow MS688",
+      "manuscriptId": "henslow",
+      "nonBlindCER": 4.3,
+      "blindBestCER": 3.80,
+      "blindBestRun": 6,
+      "inflation": "minimal",
+      "note": "Non-blind result close to blind — agent can genuinely read this hand"
+    },
+    {
+      "manuscript": "Sedley MS534",
+      "manuscriptId": "sedley",
+      "nonBlindCER": 0.45,
+      "blindBestCER": 15.13,
+      "blindBestRun": 4,
+      "inflation": "dramatic",
+      "note": "Agent was copying from the reference, not reading the manuscript — 33x inflation"
+    }
+  ]
+}

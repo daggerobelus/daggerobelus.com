@@ -1,0 +1,137 @@
+---
+/**
+ * Clean results table showing CER for all manuscripts across runs.
+ * Best result per manuscript highlighted. Hover on run headers for method details.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Best CER results for all five test manuscripts' } = Astro.props;
+
+const runs = [
+  { id: 1, name: 'Basic blind', method: 'Single agent, original paleography guide' },
+  { id: 2, name: 'Anti-hallucination instructions', method: 'Added "Never Fabricate Text" rule' },
+  { id: 3, name: 'Alphabet-first (Henslow only)', method: 'Study the hand first, then transcribe' },
+  { id: 4, name: 'Alphabet-first (all MSS)', method: 'Formalized instructions, all 5 manuscripts' },
+  { id: 5, name: 'Stronger instructions + review', method: '"Read Letters Not Words" + review agent' },
+  { id: 6, name: 'Alphabet + vocabulary', method: '+ 19K-word vocab verification' },
+  { id: 7, name: 'Visual reference charts', method: '+ Folger visual alphabet charts' },
+  { id: 8, name: 'Triple-pass consensus', method: 'Three agents + reconciliation' },
+];
+
+const manuscripts = [
+  { name: 'Sedley MS534', difficulty: 'Moderate', best: 15.13, bestRun: 4, scores: [15.8, 21.0, '—', 15.13, 16.55, 16.96, 16.42, 15.94], color: '#2878b5' },
+  { name: 'Bulkeley MS169', difficulty: 'Moderate', best: 16.21, bestRun: 6, scores: [22.8, 18.0, '—', 18.70, 20.90, 16.21, 18.29, 18.29], color: '#7b4fae' },
+  { name: 'Brumwich MS160', difficulty: 'Hard', best: 9.30, bestRun: 4, scores: [96.1, 93.0, '—', 9.30, 50.62, 69.29, 62.49, 79.80], color: '#d4712a' },
+  { name: 'Jane Jackson MS373', difficulty: 'Very hard', best: 46.85, bestRun: 5, scores: [95.6, 95.0, '—', 77.41, 46.85, 80.62, 67.22, 89.27], color: '#c44040' },
+];
+---
+
+<figure class="cer-table not-prose my-12">
+  <div class="overflow-x-auto" style="position: relative;">
+    <table class="w-full text-sm" style="border-collapse: collapse;">
+      <thead>
+        <tr style="border-bottom: 2px solid rgba(18,18,18,0.15);">
+          <th class="text-left py-3 pr-4 font-serif font-normal text-base">Manuscript</th>
+          {runs.map(run => (
+            <th
+              class="text-right py-3 px-2 font-mono font-normal text-xs text-ink/50 run-header"
+              style="min-width: 52px; cursor: help; position: relative;"
+              data-run-name={run.name}
+              data-run-method={run.method}
+            >
+              Run {run.id}
+            </th>
+          ))}
+          <th class="text-right py-3 pl-4 font-mono font-semibold text-xs">Best</th>
+        </tr>
+      </thead>
+      <tbody>
+        {manuscripts.map(ms => (
+          <tr style="border-bottom: 1px solid rgba(18,18,18,0.08);">
+            <td class="py-3 pr-4">
+              <span class="font-serif text-sm" style={`color: ${ms.color};`}>{ms.name}</span>
+              <br />
+              <span class="font-mono text-xs text-ink/40">{ms.difficulty}</span>
+            </td>
+            {ms.scores.map((score, i) => {
+              const isBest = score === ms.best;
+              return (
+                <td
+                  class="text-right py-3 px-2 font-mono text-xs"
+                  style={isBest
+                    ? `color: ${ms.color}; font-weight: 700; background: ${ms.color}10;`
+                    : score === '—'
+                      ? 'color: rgba(18,18,18,0.2);'
+                      : typeof score === 'number' && score > 50
+                        ? 'color: rgba(18,18,18,0.3);'
+                        : 'color: rgba(18,18,18,0.6);'
+                  }
+                >
+                  {typeof score === 'number' ? `${score}%` : score}
+                </td>
+              );
+            })}
+            <td class="text-right py-3 pl-4 font-mono text-sm font-bold" style={`color: ${ms.color};`}>
+              {ms.best}%
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <div id="table-tooltip"></div>
+  </div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  const tooltip = document.getElementById('table-tooltip');
+  if (tooltip) {
+    tooltip.style.cssText = `
+      position: absolute;
+      background: #fff7f4;
+      border: 1px solid #121212;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-family: 'SF Mono', Monaco, monospace;
+      pointer-events: none;
+      opacity: 0;
+      box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
+      z-index: 10;
+      max-width: 240px;
+      line-height: 1.5;
+      transition: opacity 0.15s;
+    `;
+
+    document.querySelectorAll('.run-header').forEach(header => {
+      header.addEventListener('mouseover', (e) => {
+        const name = header.getAttribute('data-run-name');
+        const method = header.getAttribute('data-run-method');
+        tooltip.innerHTML = `<strong>${name}</strong><br><span style="color:#666">${method}</span>`;
+        tooltip.style.opacity = '1';
+      });
+
+      header.addEventListener('mousemove', (e) => {
+        const container = tooltip.parentElement;
+        const rect = container.getBoundingClientRect();
+        tooltip.style.left = (e.clientX - rect.left + 10) + 'px';
+        tooltip.style.top = (e.clientY - rect.top - 40) + 'px';
+      });
+
+      header.addEventListener('mouseout', () => {
+        tooltip.style.opacity = '0';
+      });
+    });
+  }
+</script>
+
+<style>
+  .cer-table table {
+    font-variant-numeric: tabular-nums;
+  }
+  .run-header:hover {
+    color: #121212 !important;
+  }
+</style>

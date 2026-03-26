@@ -1,0 +1,396 @@
+---
+/**
+ * Word-level diff viewer comparing the AI's best transcription against the
+ * reference, with errors highlighted and color-coded by type.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Henslow MS688, Run 6 (3.80% CER) — the AI\'s best transcription compared word-by-word against the reference' } = Astro.props;
+---
+
+<figure class="word-diff not-prose my-12">
+  <div id="diff-widget" class="max-w-3xl mx-auto"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  // Word-by-word comparison: Henslow Run 6 (best) vs reference
+  // Each entry: { ref, blind, type? }
+  // type: null = match, 'letterform' = letterform error, 'double' = double letter,
+  // 'case' = capitalization, 'uv' = u/v convention, 'punctuation', 'spelling'
+  const lines = [
+    {
+      ref: 'My Lorde of Cannterberries',
+      blind: 'My lorde of Caunterberries',
+      diffs: [
+        { word: 'My', match: true },
+        { ref: 'Lorde', blind: 'lorde', type: 'case', note: 'Capitalization difference' },
+        { word: 'of', match: true },
+        { ref: 'Cannterberries', blind: 'Caunterberries', type: 'letterform', note: 'nn → un — minim confusion (n and u are identical strokes)' },
+      ]
+    },
+    {
+      ref: 'Brothe for a Consumptione',
+      blind: 'Brothe for a Consumptione',
+      diffs: [
+        { word: 'Brothe', match: true },
+        { word: 'for', match: true },
+        { word: 'a', match: true },
+        { word: 'Consumptione', match: true },
+      ]
+    },
+    {
+      ref: 'Take like as before sauinge putt thereto a handfull of voilett leaues',
+      blind: 'Take like as before sauinge putt thereto a handfull of violett leaues',
+      diffs: [
+        { word: 'Take', match: true },
+        { word: 'like', match: true },
+        { word: 'as', match: true },
+        { word: 'before', match: true },
+        { word: 'sauinge', match: true },
+        { word: 'putt', match: true },
+        { word: 'thereto', match: true },
+        { word: 'a', match: true },
+        { word: 'handfull', match: true },
+        { word: 'of', match: true },
+        { ref: 'voilett', blind: 'violett', type: 'letterform', note: 'voi → vio — letter order transposition' },
+        { word: 'leaues', match: true },
+      ]
+    },
+    {
+      ref: 'langdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt',
+      blind: 'langdebeefe leaues Borrage leaues and Strawberrie leaues, knitt',
+      diffs: [
+        { ref: 'langdebeeffe', blind: 'langdebeefe', type: 'double', note: 'ff → f — dropped double letter' },
+        { word: 'leaues', match: true },
+        { ref: 'Buorrage', blind: 'Borrage', type: 'letterform', note: 'Buorrage → Borrage — missed the u after B' },
+        { word: 'leaues', match: true },
+        { word: 'and', match: true },
+        { ref: 'strawberrie', blind: 'Strawberrie', type: 'case', note: 'Capitalization difference' },
+        { word: 'leaues,', match: true },
+        { word: 'knitt', match: true },
+      ]
+    },
+    {
+      ref: 'togeather of euerie one alike quantitye.',
+      blind: 'togeather of euerie one a like quantitye',
+      diffs: [
+        { word: 'togeather', match: true },
+        { word: 'of', match: true },
+        { word: 'euerie', match: true },
+        { word: 'one', match: true },
+        { ref: 'alike', blind: 'a like', type: 'segmentation', note: 'One word read as two' },
+        { word: 'quantitye', match: true },
+      ]
+    },
+    {
+      ref: 'For the pyles',
+      blind: 'For the pyles',
+      diffs: [
+        { word: 'For', match: true },
+        { word: 'the', match: true },
+        { word: 'pyles', match: true },
+      ]
+    },
+    {
+      ref: 'Takeone handefull of mollett leaues, and wrappe them in a Colewort',
+      blind: 'Take one handefull of mollet leaues, and wrappe them in a Coleworte',
+      diffs: [
+        { ref: 'Takeone', blind: 'Take one', type: 'segmentation', note: 'Reference has no space; AI added correct spacing' },
+        { word: 'handefull', match: true },
+        { word: 'of', match: true },
+        { ref: 'mollett', blind: 'mollet', type: 'double', note: 'tt → t — dropped double letter' },
+        { word: 'leaues,', match: true },
+        { word: 'and', match: true },
+        { word: 'wrappe', match: true },
+        { word: 'them', match: true },
+        { word: 'in', match: true },
+        { word: 'a', match: true },
+        { ref: 'Colewort', blind: 'Coleworte', type: 'terminal-e', note: 'Added terminal -e' },
+      ]
+    },
+    {
+      ref: 'leafe, and rake them in the Imbers vntill they bee well rosted.',
+      blind: 'leafe, and rake them in the [embers?] vntill they bee well rosted',
+      diffs: [
+        { word: 'leafe,', match: true },
+        { word: 'and', match: true },
+        { word: 'rake', match: true },
+        { word: 'them', match: true },
+        { word: 'in', match: true },
+        { word: 'the', match: true },
+        { ref: 'Imbers', blind: '[embers?]', type: 'letterform', note: 'Read I as e and flagged as uncertain — actually correct reading but with modernized spelling' },
+        { word: 'vntill', match: true },
+        { word: 'they', match: true },
+        { word: 'bee', match: true },
+        { word: 'well', match: true },
+        { word: 'rosted', match: true },
+      ]
+    },
+    {
+      ref: 'then take them, and putt awaye the Coleworte leafe, and grinde',
+      blind: 'then take them, and putt awaye the Coleworte leafe, and grinde',
+      diffs: [
+        { word: 'then', match: true },
+        { word: 'take', match: true },
+        { word: 'them,', match: true },
+        { word: 'and', match: true },
+        { word: 'putt', match: true },
+        { word: 'awaye', match: true },
+        { word: 'the', match: true },
+        { word: 'Coleworte', match: true },
+        { word: 'leafe,', match: true },
+        { word: 'and', match: true },
+        { word: 'grinde', match: true },
+      ]
+    },
+    {
+      ref: 'them in a morter, and putt to ytt oyle of roses, and grinde them togeather',
+      blind: 'them in a morter, and putt to yt oyle of roses, and grinde them togeather',
+      diffs: [
+        { word: 'them', match: true },
+        { word: 'in', match: true },
+        { word: 'a', match: true },
+        { word: 'morter,', match: true },
+        { word: 'and', match: true },
+        { word: 'putt', match: true },
+        { word: 'to', match: true },
+        { ref: 'ytt', blind: 'yt', type: 'double', note: 'tt → t — dropped double letter' },
+        { word: 'oyle', match: true },
+        { word: 'of', match: true },
+        { word: 'roses,', match: true },
+        { word: 'and', match: true },
+        { word: 'grinde', match: true },
+        { word: 'them', match: true },
+        { word: 'togeather', match: true },
+      ]
+    },
+    {
+      ref: 'then take itt and laye itt to the pyles withe a trusser, and use this',
+      blind: 'then take it and laye itt to the pyles withe a trusser, and vse this',
+      diffs: [
+        { word: 'then', match: true },
+        { word: 'take', match: true },
+        { ref: 'itt', blind: 'it', type: 'double', note: 'tt → t — dropped double letter' },
+        { word: 'and', match: true },
+        { word: 'laye', match: true },
+        { word: 'itt', match: true },
+        { word: 'to', match: true },
+        { word: 'the', match: true },
+        { word: 'pyles', match: true },
+        { word: 'withe', match: true },
+        { word: 'a', match: true },
+        { word: 'trusser,', match: true },
+        { word: 'and', match: true },
+        { ref: 'use', blind: 'vse', type: 'uv', note: 'u/v convention — "vse" is correct period spelling' },
+        { word: 'this', match: true },
+      ]
+    },
+    {
+      ref: 'moreninge and euenynde.',
+      blind: 'morninge and euenynge',
+      diffs: [
+        { ref: 'moreninge', blind: 'morninge', type: 'letterform', note: 'moreninge → morninge — dropped an e' },
+        { word: 'and', match: true },
+        { ref: 'euenynde.', blind: 'euenynge', type: 'letterform', note: 'd → g — letterform misreading + missing period' },
+      ]
+    },
+  ];
+
+  const errorColors = {
+    'letterform': { bg: '#c4404018', border: '#c44040', label: 'Letterform' },
+    'double': { bg: '#d4712a18', border: '#d4712a', label: 'Double letter' },
+    'case': { bg: '#2878b518', border: '#2878b5', label: 'Capitalization' },
+    'uv': { bg: '#2d8a4e18', border: '#2d8a4e', label: 'u/v convention' },
+    'segmentation': { bg: '#7b4fae18', border: '#7b4fae', label: 'Segmentation' },
+    'terminal-e': { bg: '#5ba3cf18', border: '#5ba3cf', label: 'Terminal -e' },
+  };
+
+  function render() {
+    const container = document.getElementById('diff-widget');
+    if (!container) return;
+    container.innerHTML = '';
+
+    // Legend
+    const legend = document.createElement('div');
+    legend.style.cssText = 'display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; padding: 12px 16px; background: rgba(18,18,18,0.02); border-radius: 6px;';
+
+    Object.entries(errorColors).forEach(([key, val]) => {
+      const item = document.createElement('span');
+      item.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 11px; display: flex; align-items: center; gap: 4px;`;
+      item.innerHTML = `<span style="width:10px;height:10px;border-radius:2px;background:${val.border};display:inline-block;"></span> ${val.label}`;
+      legend.appendChild(item);
+    });
+    container.appendChild(legend);
+
+    // Mode toggle
+    const toggleWrap = document.createElement('div');
+    toggleWrap.style.cssText = 'display: flex; gap: 0; margin-bottom: 16px; border: 1px solid rgba(18,18,18,0.15); border-radius: 4px; overflow: hidden; width: fit-content;';
+
+    let showMode = 'blind'; // 'blind' or 'side-by-side'
+
+    const btnBlind = document.createElement('button');
+    btnBlind.textContent = 'AI transcription';
+    btnBlind.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 12px; padding: 6px 14px; border: none; cursor: pointer; background: #121212; color: #fff7f4;`;
+
+    const btnSide = document.createElement('button');
+    btnSide.textContent = 'Side by side';
+    btnSide.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 12px; padding: 6px 14px; border: none; cursor: pointer; background: none; color: #666;`;
+
+    toggleWrap.appendChild(btnBlind);
+    toggleWrap.appendChild(btnSide);
+    container.appendChild(toggleWrap);
+
+    // Text display
+    const display = document.createElement('div');
+    display.style.cssText = 'font-family: "SF Mono", Monaco, monospace; font-size: 13px; line-height: 2.2; padding: 16px 20px; background: rgba(18,18,18,0.02); border-radius: 6px;';
+    container.appendChild(display);
+
+    // Tooltip
+    const tooltip = document.createElement('div');
+    tooltip.style.cssText = `
+      position: fixed; background: #fff7f4; border: 1px solid #121212;
+      padding: 8px 12px; font-size: 12px; font-family: 'SF Mono', Monaco, monospace;
+      pointer-events: none; opacity: 0; z-index: 100; max-width: 300px;
+      box-shadow: 2px 2px 0 rgba(0,0,0,0.08); line-height: 1.5;
+      transition: opacity 0.15s;
+    `;
+    document.body.appendChild(tooltip);
+
+    function renderText() {
+      display.innerHTML = '';
+
+      if (showMode === 'blind') {
+        // Show AI transcription with errors highlighted inline
+        lines.forEach(line => {
+          const lineEl = document.createElement('div');
+          lineEl.style.cssText = 'margin-bottom: 2px;';
+
+          line.diffs.forEach(d => {
+            const span = document.createElement('span');
+            if (d.match) {
+              span.textContent = d.word + ' ';
+              span.style.color = '#121212';
+            } else {
+              const colors = errorColors[d.type] || { bg: '#eee', border: '#999' };
+              span.textContent = d.blind + ' ';
+              span.style.cssText = `
+                background: ${colors.bg};
+                border-bottom: 2px solid ${colors.border};
+                padding: 1px 3px; margin: 0 1px; border-radius: 2px;
+                cursor: help;
+              `;
+              span.addEventListener('mouseover', (e) => {
+                tooltip.innerHTML = `<strong>${d.ref}</strong> → <strong>${d.blind}</strong><br><span style="color:#666">${d.note}</span>`;
+                tooltip.style.opacity = '1';
+              });
+              span.addEventListener('mousemove', (e) => {
+                tooltip.style.left = (e.clientX + 12) + 'px';
+                tooltip.style.top = (e.clientY - 40) + 'px';
+              });
+              span.addEventListener('mouseout', () => {
+                tooltip.style.opacity = '0';
+              });
+            }
+            lineEl.appendChild(span);
+          });
+
+          display.appendChild(lineEl);
+        });
+      } else {
+        // Side by side: reference on left, blind on right
+        display.style.fontSize = '12px';
+        display.style.lineHeight = '2';
+
+        const table = document.createElement('div');
+        table.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 0;';
+
+        // Headers
+        const hRef = document.createElement('div');
+        hRef.style.cssText = 'font-weight: 600; padding: 4px 8px; border-bottom: 2px solid rgba(18,18,18,0.15); color: #2878b5;';
+        hRef.textContent = 'Reference (human)';
+        const hBlind = document.createElement('div');
+        hBlind.style.cssText = 'font-weight: 600; padding: 4px 8px; border-bottom: 2px solid rgba(18,18,18,0.15); color: #121212;';
+        hBlind.textContent = 'AI transcription (Run 6)';
+        table.appendChild(hRef);
+        table.appendChild(hBlind);
+
+        lines.forEach(line => {
+          const refCell = document.createElement('div');
+          refCell.style.cssText = 'padding: 2px 8px; border-bottom: 1px solid rgba(18,18,18,0.04);';
+
+          const blindCell = document.createElement('div');
+          blindCell.style.cssText = 'padding: 2px 8px; border-bottom: 1px solid rgba(18,18,18,0.04);';
+
+          line.diffs.forEach(d => {
+            if (d.match) {
+              refCell.appendChild(document.createTextNode(d.word + ' '));
+              blindCell.appendChild(document.createTextNode(d.word + ' '));
+            } else {
+              const colors = errorColors[d.type] || { bg: '#eee', border: '#999' };
+
+              const refSpan = document.createElement('span');
+              refSpan.textContent = d.ref + ' ';
+              refSpan.style.cssText = `background: ${colors.bg}; padding: 1px 3px; border-radius: 2px;`;
+              refCell.appendChild(refSpan);
+
+              const blindSpan = document.createElement('span');
+              blindSpan.textContent = d.blind + ' ';
+              blindSpan.style.cssText = `background: ${colors.bg}; border-bottom: 2px solid ${colors.border}; padding: 1px 3px; border-radius: 2px; cursor: help;`;
+              blindSpan.addEventListener('mouseover', (e) => {
+                tooltip.innerHTML = `<strong>${d.ref}</strong> → <strong>${d.blind}</strong><br><span style="color:#666">${d.note}</span>`;
+                tooltip.style.opacity = '1';
+              });
+              blindSpan.addEventListener('mousemove', (e) => {
+                tooltip.style.left = (e.clientX + 12) + 'px';
+                tooltip.style.top = (e.clientY - 40) + 'px';
+              });
+              blindSpan.addEventListener('mouseout', () => {
+                tooltip.style.opacity = '0';
+              });
+              blindCell.appendChild(blindSpan);
+            }
+          });
+
+          table.appendChild(refCell);
+          table.appendChild(blindCell);
+        });
+
+        display.appendChild(table);
+      }
+    }
+
+    btnBlind.addEventListener('click', () => {
+      showMode = 'blind';
+      btnBlind.style.background = '#121212';
+      btnBlind.style.color = '#fff7f4';
+      btnSide.style.background = 'none';
+      btnSide.style.color = '#666';
+      display.style.fontSize = '13px';
+      display.style.lineHeight = '2.2';
+      renderText();
+    });
+
+    btnSide.addEventListener('click', () => {
+      showMode = 'side-by-side';
+      btnSide.style.background = '#121212';
+      btnSide.style.color = '#fff7f4';
+      btnBlind.style.background = 'none';
+      btnBlind.style.color = '#666';
+      renderText();
+    });
+
+    renderText();
+  }
+
+  render();
+</script>
+
+<style>
+  .word-diff {
+    position: relative;
+  }
+</style>
