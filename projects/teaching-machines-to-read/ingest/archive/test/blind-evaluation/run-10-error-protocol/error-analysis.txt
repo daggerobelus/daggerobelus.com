@@ -1,0 +1,402 @@
+ERROR ANALYSIS: BLIND TRANSCRIPTION TEST (HENSLOW MS688, PAGE 12)
+================================================================================
+Five agents independently transcribed one page using only the self-taught guide.
+This analysis compares their output against the reference transcription.
+================================================================================
+
+NOTE ON METHODOLOGY
+--------------------
+The reference transcription includes metadata headers (Source, Manuscript, Page,
+IIIF URL) that agents did not reproduce. Comparison is limited to the body text
+beginning with "My Lorde of Cannterberries." Line numbers below refer to
+content lines of the reference.
+
+================================================================================
+SECTION A: SYSTEMATIC ERRORS (4-5 agents)
+================================================================================
+These errors appear in nearly every transcription and reveal fundamental gaps.
+
+A1. "langdebeeffe" misread by ALL 5 agents
+    REFERENCE: "langdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt"
+    Agent 1: "and a greate leaues Borrage leaues and Strawberrie leaues, knitt"
+    Agent 2: "Langdebeefe leaues Boorrage leaues and Strawberrie leaues, knitt"
+    Agent 3: "land a goose leaues Borrage leaues and Strawberrie leaues, knit"
+    Agent 4: "and a greete leaues Boorrage leaues and Strawberrie leaues, knit"
+    Agent 5: "land a goose leaues Boorrage leaues and Strawberrie leaues, knit"
+
+    What happened: "langdebeeffe" (= langdebeef/bugloss, a common herbal
+    ingredient) was not in any agent's vocabulary. Without knowing this word,
+    agents tried to parse the letterforms into familiar words. Two agents read
+    it as "and a greate/greete" (misreading the 'l' as part of previous text
+    and the unfamiliar word as common ones); two read it as "land a goose"
+    (pure confabulation from unrecognized letterforms); one got closest with
+    "Langdebeefe" but still misspelled it.
+    ROOT CAUSE: Vocabulary gap. The self-taught guide does not include
+    "langdebeef" in its vocabulary. Without knowing this herb name, agents
+    could not decode the letterforms. Agent 2 came closest, suggesting
+    partial letter recognition was possible.
+
+A2. "Buorrage" misread by ALL 5 agents
+    REFERENCE: "Buorrage"
+    Agent 1: "Borrage"    Agent 2: "Boorrage"    Agent 3: "Borrage"
+    Agent 4: "Boorrage"   Agent 5: "Boorrage"
+
+    What happened: The "uo" digraph in "Buorrage" was read as either "o" or
+    "oo". None got the "uo" spelling. This is a minor spelling error (the word
+    is still recognizable as borage), but it reveals that the "u" before "o"
+    was not distinguished in the hand.
+    ROOT CAUSE: Minim confusion (u read as part of adjacent letters) combined
+    with agents normalizing toward a more familiar spelling ("Borrage" or
+    "Boorrage").
+
+A3. "Cannterberries" -> "Caunterberries" (ALL 5 agents)
+    REFERENCE: "Cannterberries"
+    All agents: "Caunterberries"
+
+    What happened: The double-n ("nn") in "Cannterberries" was universally
+    read as "un". This is classic minim confusion: "nn" = 4 minims, and
+    "un" is also 4 minims. Agents chose "un" because "Canterbury" starts
+    with "Caun-/Caunt-" in many early modern spellings.
+    ROOT CAUSE: Minim letter confusion (nn vs un). Agents defaulted to the
+    more familiar spelling. Since both readings are plausible early modern
+    spellings, this is a judgment call, but the reference has "nn".
+
+A4. "putt" -> "put" (ALL 5 agents in multiple locations)
+    REFERENCE uses "putt" consistently (lines 3, 9, 10, 15, 20).
+    All agents write "put" in most or all instances.
+
+    What happened: Agents normalized the double-t to single-t. The manuscript
+    appears to write "putt" with a doubled final t, but agents either couldn't
+    distinguish the doubled letter or defaulted to the more common spelling.
+    ROOT CAUSE: Normalization bias. Agents may also have had difficulty
+    seeing the second t if it was formed as a connected stroke.
+
+A5. "ytt" / "itt" -> "yt" / "it" (ALL 5 agents)
+    REFERENCE: "ytt" (lines 10, 15, 16), "itt" (lines 11, 14, 15)
+    All agents: "yt" or "it" throughout.
+
+    What happened: Same as A4 — agents consistently dropped the doubled
+    final consonant. Every instance of "itt" and "ytt" was reduced.
+    ROOT CAUSE: Same normalization bias as A4. The doubled consonant pattern
+    is consistent in the reference, suggesting the scribe has a strong habit
+    of doubling final t.
+
+A6. "voilett" -> "violett" (ALL 5 agents)
+    REFERENCE: "voilett" (v-o-i-l-e-t-t)
+    All agents: "violett"
+
+    What happened: The reference has "voilett" (with "oi" order), but all
+    agents read "violett" (with "io" order). This is likely because "violet"
+    is the known word, and "vi-" is the expected opening. The manuscript may
+    have "voi-" but agents normalized to the familiar spelling.
+    ROOT CAUSE: Familiarity bias / possible minim confusion between o and i
+    adjacency.
+
+A7. "strawberrie" -> "Strawberrie" (4/5 agents capitalized it)
+    REFERENCE: "strawberrie" (lowercase)
+    Agents 1-5: "Strawberrie" (4 agents capitalized, 1 lowercase)
+
+    ROOT CAUSE: Over-capitalization of ingredient nouns. The guide notes that
+    ingredients are "frequently capitalized" which may have biased agents to
+    capitalize even when the manuscript doesn't.
+
+A8. "horsedounge" misread (4/5 agents)
+    REFERENCE: "horsedounge"
+    Agent 1: "horsedonge"    Agent 2: "horselounge"   Agent 3: "horselounge"
+    Agent 4: "horselounge"   Agent 5: "horsedeunge"
+
+    What happened: Three agents read "horselounge" (misreading d as l, and/or
+    reordering letters). Agent 1 dropped the "u". Only Agent 5 was close with
+    "horsedeunge" (just e/o swap). The word is "horse dung" — a common remedy
+    ingredient — but the specific early modern spelling tripped up most agents.
+    ROOT CAUSE: Letterform confusion (d/l, minim issues with ou/un/on) and
+    unfamiliarity with the specific spelling "dounge".
+
+A9. "fundamente" -> "fundament" (ALL 5 agents)
+    REFERENCE: "fundamente."  (with final -e and period)
+    All agents: "fundament" (no final e)
+
+    ROOT CAUSE: Final-e deletion, another form of normalization.
+
+A10. "sitte" -> "lye" or "lie" (4/5 agents)
+     REFERENCE: "and sitte uppon untill yow haue ease."
+     Agent 1: "and lye vppon vntill you haste ease."
+     Agent 2: "and lye vppon vntill you haue ease."
+     Agent 3: "and lie vppon vntill yow haate ease."
+     Agent 4: "and lie vppon vntill yow haste ease."
+     Agent 5: "and lie vppon vntill you haiste ease."
+
+     What happened: 4 out of 5 agents read "sitte" as "lye" or "lie." The
+     long-s at the beginning of "sitte" was misread as "l", and the double-t
+     was misread as "y/ie" (minim confusion). This is a dramatic misreading
+     that changes the meaning.
+     ROOT CAUSE: Long-s / l confusion combined with minim confusion (tt vs y).
+     The guide warns about long-s/f confusion but does NOT specifically warn
+     about long-s/l confusion. This is a gap in the guide.
+
+A11. "Deffnes" misread by ALL 5 agents
+     REFERENCE: "For Deffnes"
+     Agent 1: "For Deafnes"   Agent 2: "for Diues"    Agent 3: "For Difues"
+     Agent 4: "for Difues"    Agent 5: "ffor Dflues"
+
+     What happened: "Deffnes" (= Deafness) was read wildly differently by
+     each agent. The double-f was particularly problematic — agents read it
+     as "ea", "iu", "ifu", "flu". Only Agent 1 got a recognizable word
+     ("Deafnes") though it doesn't match the manuscript spelling.
+     ROOT CAUSE: The double-f ("ff") in the middle of the word was not
+     recognized. The guide discusses "ff" as a capital-F convention at word
+     beginnings but does not discuss medial "ff". Combined with the preceding
+     "e" which may look like other letters, this created chaos.
+
+A12. "moreninge" -> "morninge" (ALL 5 agents)
+     REFERENCE: "moreninge and euenynde."
+     All agents: "morninge"
+
+     ROOT CAUSE: Normalization to the more familiar "morning" spelling. The
+     manuscript has "moreninge" with an extra e, which all agents dropped.
+
+A13. "euenynde" -> "euenynge" (ALL 5 agents)
+     REFERENCE: "euenynde."
+     All agents: "euenynge."
+
+     What happened: The final "d" in "euenynde" was read as "g" by every
+     agent. This is significant because "euenynde" is an unusual/archaic
+     spelling. Agents normalized to the more expected "evening" form.
+     ROOT CAUSE: Letterform confusion (d vs g in this hand) combined with
+     strong expectation bias toward "evening."
+
+A14. "alike" -> "a like" (4/5 agents)
+     REFERENCE: "togeather of euerie one alike quantitye."
+     Agent 1: "togeather of euerie one athe quantitye." (different error)
+     Agents 2-5: "a like" (two words)
+
+     ROOT CAUSE: Word-boundary confusion. "alike" was split into "a like"
+     by most agents.
+
+A15. "Takeone" (run together) -> "Take one" (ALL 5 agents)
+     REFERENCE: "Takeone handefull of mollett leaues"
+     All agents: "Take one"
+
+     What happened: The reference has "Takeone" as one word (the scribe ran
+     them together). All agents split this into two words. This suggests
+     agents were normalizing word boundaries.
+     ROOT CAUSE: Word-boundary normalization. The reference preserves the
+     manuscript's spacing exactly; agents imposed modern spacing.
+
+A16. "knitt" -> "knit" (4/5 agents)
+     REFERENCE: "knitt"
+     Agents 1-2: "knitt"   Agents 3-5: "knit"
+
+     ROOT CAUSE: Same doubled-consonant normalization as A4/A5.
+
+A17. "use" -> "vse" (ALL 5 agents)
+     REFERENCE: "and use this"
+     All agents: "and vse this"
+
+     What happened: All agents applied the u/v positional rule (v at start
+     of word) and wrote "vse." But the reference has "use" — suggesting the
+     scribe wrote a "u" here, not a "v." Agents over-applied the convention.
+     ROOT CAUSE: Over-application of the u/v positional rule from the guide.
+     The guide teaches that v appears at word beginnings, causing agents to
+     "correct" what may have actually been a "u".
+
+A18. "uppon" -> "vppon" (4/5 agents)
+     REFERENCE: "and sitte uppon untill yow haue ease."
+     Agents 1-5: "vppon" (all five actually)
+
+     ROOT CAUSE: Same as A17 — over-application of v/u rule.
+
+A19. "untill" -> "vntill" or "untill" (split: 4 agents wrote "vntill")
+     REFERENCE: "untill" (with u)
+     Agent 2: "untill"  Others: "vntill"
+
+     ROOT CAUSE: Same u/v over-correction.
+
+A20. "tarre" misread by 3/5 agents
+     REFERENCE: "of a sheepe and tarre, and mingell them togeath[er]"
+     Agent 1: "and burne"    Agent 2: "and tarre,"    Agent 3: "and burne"
+     Agent 4: "and bare"     Agent 5: "and burne"
+
+     3 agents read "tarre" as "burne" — a plausible recipe verb but wrong.
+     One read "bare." Only Agent 2 got it right.
+     ROOT CAUSE: Letterform confusion (t/b in this hand) combined with
+     context-driven substitution — "burn" makes sense in a recipe context,
+     so agents substituted a familiar word.
+
+A21. "woole" -> "wolle" (4/5 agents)
+     REFERENCE: "Take blacke woole, whiche growes vppon the flanke"
+     Agent 1: "wolle"   Agent 2: "wolle"   Agent 3: "wole"
+     Agent 4: "wolle"   Agent 5: "wolle"
+
+     ROOT CAUSE: Minim confusion (o vs l) or normalization. The "oo" in
+     "woole" was read as "ol" by most agents.
+
+A22. "togeath[er]" -> "togeather" or "together" (varied)
+     REFERENCE: "togeath[er]" (brackets indicate uncertain/damaged text)
+     Agents varied: "togeather" (2), "together" (3)
+
+     The agents who wrote "together" normalized the spelling. Those who
+     wrote "togeather" preserved an early modern form but didn't note the
+     uncertain ending.
+
+A23. "Flixe" -> "flixe" (ALL 5 agents lowercase)
+     REFERENCE: "For the Flixe"
+     All agents: "flixe" (lowercase f)
+
+     ROOT CAUSE: Failed to recognize the capital F, possibly due to the
+     "ff = capital F" convention confusing expectations.
+
+A24. "yow" -> "you" (3/5 agents)
+     REFERENCE: "yow" (appears twice in line 16)
+     Agents 1, 2, 5: "you"    Agents 3, 4: "yow"
+
+     ROOT CAUSE: Normalization of "yow" to the more familiar "you."
+
+A25. Period/punctuation dropping (ALL 5 agents in multiple places)
+     REFERENCE has periods after: "rosted." "fundamente." "ease." "eare."
+     Many agents dropped periods throughout.
+
+     ROOT CAUSE: Inconsistent attention to punctuation marks in the manuscript.
+
+
+================================================================================
+SECTION B: COMMON ERRORS (2-3 agents)
+================================================================================
+
+B1. "Colewort/Coleworte" inconsistency
+    Reference line 7: "Colewort" / line 9: "Coleworte"
+    Agents varied in which form they used where. Some normalized both to
+    one spelling.
+
+B2. "trosser" for "trusser" (2 agents)
+    REFERENCE: "trusser"
+    Agents 2, 3: "trosser" (u -> o confusion)
+
+B3. "haue" -> "haste" or "haate" or "haiste" (3 agents)
+    REFERENCE: "yow haue ease"
+    Agent 1: "haste"   Agent 3: "haate"   Agent 4: "haste"   Agent 5: "haiste"
+
+    ROOT CAUSE: Minim confusion in "haue" — the "u" read as other letters.
+
+B4. "For" -> "for" or "ffor" (multiple agents)
+    Reference has "For" (capital F) at recipe headings.
+    Some agents wrote lowercase "for"; Agents 5 wrote "ffor" (applying the
+    ff = capital F convention incorrectly here).
+
+B5. "clothe" -> "cloathe" (1 agent) or "clothe" (correct, 4 agents)
+    Agent 1: "cloathe" — inserted extra 'a'
+
+B6. "mollett" -> "mollet" (2 agents)
+    REFERENCE: "mollett"
+    Agents 3, 5: "mollet" (dropped one t)
+
+B7. "athe" for "alike" (Agent 1 only — see A14)
+    Unique misreading — "alike" became "athe"
+
+B8. Missing comma after "woole" (4/5 agents)
+    REFERENCE: "Take blacke woole, whiche"
+    Most agents: "Take blacke wolle whiche" (no comma)
+
+
+================================================================================
+SECTION C: STOCHASTIC ERRORS (1 agent only)
+================================================================================
+
+C1. Agent 2: "Diues" for "Deffnes" (unique misreading)
+C2. Agent 5: "Dflues" for "Deffnes" (unique misreading)
+C3. Agent 5: "Colewotte" for "Coleworte" (t for r)
+C4. Agent 1: "athe" for "alike" (unique)
+C5. Agent 5: "horsedeunge" (close but e/o transposition)
+C6. Agent 3: "haate" for "haue" (unique form)
+C7. Agent 5: "haiste" for "haue" (unique form)
+C8. Agent 1: "Colewort" consistently (normalized both instances)
+
+
+================================================================================
+SECTION D: WHAT AGENTS GOT RIGHT THAT WAS HARD
+================================================================================
+
+D1. "Imbers" — ALL 5 agents correctly read this unusual word (= embers/hot
+    ashes). Good letterform recognition despite the unfamiliar word.
+
+D2. "morter" — ALL 5 agents read this correctly.
+
+D3. "pyles" — ALL 5 agents read this correctly (= piles/hemorrhoids).
+
+D4. "Consumptione" — ALL 5 agents read this correctly.
+
+D5. "sauinge" — ALL 5 agents read this correctly (= saving/except).
+
+D6. "oyle of roses" — ALL 5 agents got this phrase correct.
+
+D7. "wrappe" — ALL 5 agents read this correctly.
+
+D8. "grinde" — ALL 5 agents read this in all occurrences.
+
+D9. "sweete butter" — ALL 5 agents got this right.
+
+D10. "mingell" — ALL 5 agents read this correctly.
+
+D11. "flanke" — ALL 5 agents got this right.
+
+D12. "euerie" — ALL 5 agents preserved the early modern spelling.
+
+D13. "Brothe for a Consumptione" — Perfect across all agents.
+
+D14. Recipe structure was well-preserved — all agents correctly identified
+     recipe titles and body text divisions.
+
+
+================================================================================
+SECTION E: PATTERN ANALYSIS
+================================================================================
+
+E1. DOMINANT ERROR TYPE: Normalization / familiarity bias
+    The single biggest category of error is agents "correcting" unusual
+    spellings to more familiar ones. This includes:
+    - Doubled consonants reduced (putt->put, itt->it, ytt->yt, knitt->knit)
+    - Unusual vowel sequences normalized (voilett->violett, moreninge->morninge)
+    - Archaic forms modernized (euenynde->euenynge, woole->wolle)
+    - Word boundaries regularized (Takeone -> Take one, alike -> a like)
+
+    This is the most fixable category because it's a BEHAVIORAL pattern,
+    not a reading-ability problem.
+
+E2. SECOND MAJOR TYPE: Minim confusion
+    - nn vs un (Cannterberries -> Caunterberries)
+    - u vs o (Buorrage -> Borrage/Boorrage, trusser -> trosser)
+    - oo vs ol (woole -> wolle)
+    - tt vs y (sitte -> lye — the worst misreading)
+
+E3. THIRD MAJOR TYPE: Vocabulary gaps
+    - langdebeeffe: completely unknown word, causing catastrophic misreadings
+    - Deffnes: medial ff not recognized, causing wild variation
+    - horsedounge: known concept but unfamiliar spelling
+
+E4. FOURTH MAJOR TYPE: u/v over-correction
+    The guide's teaching about v-initial/u-medial convention caused agents
+    to "correct" genuine u-initial words to v-initial:
+    - use -> vse, uppon -> vppon, untill -> vntill
+    The scribe apparently used "u" in these positions, but agents imposed
+    the convention.
+
+E5. FIFTH TYPE: Long-s confusion (not with f, but with l)
+    The guide warns extensively about long-s vs f confusion, but the actual
+    error was long-s vs l (sitte -> lye). The guide has a gap here.
+
+E6. LETTERFORMS THAT CONSISTENTLY CAUSED PROBLEMS:
+    - Double-f (ff) in medial position: not covered by guide
+    - Long-s when it looks like l (not just f)
+    - d vs g at word endings (euenynde -> euenynge)
+    - t vs b at word starts (tarre -> burne/bare)
+    - oo vs ol vs uo (minim-adjacent confusion)
+
+E7. WHAT A HUMAN PALEOGRAPHER WOULD DO DIFFERENTLY:
+    - Preserve exact spelling without normalizing, even when it looks "wrong"
+    - Recognize herbal vocabulary (langdebeef, bugloss, borage, mallow, etc.)
+    - Distinguish between "this is an unusual spelling I should preserve" vs.
+      "I'm misreading a letter" — agents defaulted to changing the spelling
+    - Note the scribe's personal habits (this scribe doubles final consonants
+      consistently) and USE that pattern to inform readings
+    - Not over-apply paleographic "rules" — recognize that scribes are
+      inconsistent and the manuscript is the authority, not the rule
