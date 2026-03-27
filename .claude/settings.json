@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(echo:*)",
+      "Bash(sort:*)",
+      "Bash(diff:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(pip3:*)",
+      "Bash(pip:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git show:*)",
+      "Bash(git config:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(rm /tmp/:*)",
+      "Bash(rm -r /tmp/:*)",
+      "Bash(rm -rf /tmp/:*)",
+      "Read(/tmp/**)",
+      "Write(/tmp/manuscript-runs/**)",
+      "Edit(/tmp/manuscript-runs/**)",
+      "Write(/tmp/skill-tests/**)",
+      "Edit(/tmp/skill-tests/**)"
+    ],
+    "additionalDirectories": [
+      "/tmp/manuscript-runs",
+      "/tmp/skill-tests"
+    ]
+  }
+}
