@@ -1,0 +1,126 @@
+{
+  "run": {
+    "id": "skills-run-2",
+    "name": "Skills Run 2: Positive Framing",
+    "date": "2026-03-27",
+    "method": "Same alphabet-first method, skill reframed from negative imperatives to positive diagnostics (pen stroke test)",
+    "category": "instruction",
+    "question": "Does reframing from prohibitions to positive diagnostics improve agent calibration?",
+    "changes_from_baseline": "Reframed Cardinal Rule as Pen Stroke Test, Common Errors as Checkpoints, What Not To Do as Process Reminders. Same method, different framing."
+  },
+  "manuscript": {
+    "id": "sedley",
+    "page": "20-21"
+  },
+  "skill_version": "SKILL.md v2 \u2014 positive framing with pen stroke test diagnostic",
+  "agents": [
+    {
+      "agent": 1,
+      "cer": 16.22,
+      "attempted_cer": 10.9,
+      "coverage": 0.9918,
+      "reference_characters": 2072,
+      "hypothesis_characters": 2018,
+      "substitutions": 166,
+      "insertions": 58,
+      "deletions": 112,
+      "gap_count": 3,
+      "uncertain_count": 0,
+      "transcription_text": "A Salve for sundry sores called\nthe Leaden glaister\nXXVII\nTake one pt of oyle oliue of the best Take colour\nlead very well calcinated with dust 12 ounces of\nSpanish sope incorporate all these well together in\nan earthen pot well glased or when the colour is in=\ncorporated that the softe comes aboue melt or put it vpon\na small fire of coales continewinge the said fire an\nhoure or a halfe still stirring it on a bolt of brown\nfastned to a sticke of wood, yt make it fire some\nwhat sugar, till the reddnes be turned into a gray\ncolour but yt must not haue stirringe till the\nmatter be turned into the coulour of oyle somewhatt\ndarker, then drop it on a woaden trencher if it\nneither cleue to yt fingers nor the trencher fauorably\nenough then dippe the clotte in that, the character of\nthereon dipped will last 20 yeares, pt of glory of bones\nthis glaister laid to the stomach Cureths appetites and\ntakes away the paines of the Stomach laid to the\nbelles, tis a remedy for the Collicke laid to the\nraignes of the back it stops the bloody fluxe\nOpenings of the vaines theat of the Kidneys worketh\nof the backe, it heales all swellings, Aches & Bruises, it\nBreakes ffellons, Impostumes, pushes or stiles them in\nbringes applyed to the fundament it heales all diseases\nthereon laid to the head, it is good for the swinnig\nA Third Cordiall for A woman in Childbed\nXXVIII\nTake a quarter of a pint of Caudle water or 2 ounces of\nSyropp of Clovegillyflowers or 2 pennyworth of Cinnamon\nwater or a Spoonefull of Clarett wine & Mounns\nDrame mingle all these togeather and it is a soueraine\ngood cordeall for any especially for one that lyes\nin Childbed\nPills for the Gall\nXXIX\n[.....] for [.....] goutes and [.......]\nAfter A Tetter\nTake one handfull of Salladine & as much bay\nsalt as can take vp betweene yr finger & Thumbe &\nthe iuice of halfe a lemon stamp yt togeather in a\nMortar & straine the iuice out & smalt this plaister and\nyt put some of the hearbs vpon it, vse this gor 3 or 4\ndayes together dressinge it 3 or 4 times in a Day\ntogeather &c\n"
+    },
+    {
+      "agent": 2,
+      "cer": 75.62,
+      "attempted_cer": 62.15,
+      "coverage": 0.9947,
+      "reference_characters": 2072,
+      "hypothesis_characters": 1948,
+      "substitutions": 1120,
+      "insertions": 161,
+      "deletions": 285,
+      "gap_count": 3,
+      "uncertain_count": 3,
+      "transcription_text": "Openings of the veines [bloat?] of the Kidneys or weaknes\nof the back, it heales all swellings, Aches & Bruises, at\nCrankes ffelons, Imposthumes, pushes & stabs them in\nbarings applyed to the iunctures it heales all diseases\nthrough laid to the head, it is good for the ventricle\nA Tried Cordiall for A woman in Childbed\nXXVIII\nTake a quarter of a pint of Couslip water & 2 ounces of\nSyrop of Clovegilliflowers & a pennyworth of Cinnamon\nwater & a Spoonefull of Cassia wine & Manus\nCristi mingle all these together and it is a soue-\nraine cordiall for any, especially for one that lyes\nin Childbed.\nPills for the Gall\nXXIX\n[...]  [...] [y.....] and desire\nafter A Tetter\nTake one Handfull of Sallandine & as much bay\nsalt as can take up & inclose yt finger & Thumbe &\nthe iuice of halfe a Lemon stamp yt together in a\nMortar & straine the iuice out & smalt the places and\n& put some of the hearbs vpon it, vse this 3 or 4\ndayes together dressing it 3 or 4 times in a Day\ntogether &c\n29\nA Salve for sundry Sores called\nthe Leaden glaister\nXXVII\nTake one pt of oyle oliue of the best & of white\nleade very well calcinated with dust 12 ounces of\nSpanish sope incorporate all these well together in\nan earthen pot well glased & when the colour is in-\nporated that the sope seemes apowder & put it vpon\na small face of coales continuinge the said fire an\nhoures & a halfe still stirring it on a bolt of linnen\nfastned to a sticke of wood, yt make yt fire some-\nwhat bigger till the reddnes be turned into a grey\ncolour but yt must not leaue stirrings till the\nmatter be turned into the coulour of oyle somewhat\ndarker, then drop it on a wooden trencher & if it\nneither cleaue to yt fingers nor the trenchar fauourably\nenough then [dippt?] thicken in that, the thicknes of\nthereson dipped will last 20 yeares, pt of glory of [l....s?]\nthis plaster laid to the Stomach Cureth appetites and\ntakes away the paines of the Stomach laid to the\nraines of the back it stops the bloody fluxe\n"
+    },
+    {
+      "agent": 3,
+      "cer": 15.02,
+      "attempted_cer": 10.67,
+      "coverage": 1.0,
+      "reference_characters": 2072,
+      "hypothesis_characters": 2015,
+      "substitutions": 188,
+      "insertions": 33,
+      "deletions": 90,
+      "gap_count": 0,
+      "uncertain_count": 5,
+      "transcription_text": "29\nA Salve for sundry sores called\nthe Leaden plaister\nXXVII\n\nTake one pt of oyle oliue of the best & of white\nlead very well calcinated with dust 12 ounces of\nSpanish sope incorporate all these well together in\nan earthen pot not glazed & when they be well incor=\nporated that the sope comes abouesayd & put it vpon\na small fire of coales continueing yor said fire an\nhoures & a halfe still stirring it on a bolt of boxe=\nfastned to a stich of wood, yt make yt fire som=\nwhat eager, till the reddnes be turned into a gray\ncolour but yt must not leaue stirrings till the\nmatter be turned into the coulour of oyle somwhat\ndarker, then drop it on a wooden trencher & yt it\nneither cleue to yr fingers nor the trencher favourably\nenough, then dippe ye plaister in that, the harder or\nthinner dipped will last 20 yeares, p ye glory yt heres\nthis plaister laid to the stomack Curath appetite and\ntakes away the paine of the stomack laid to the\nsides, tis a remedy for the Collicke laid to the\nreines of the back it stops the bloody fluxe,\nopenings of the veines heat of the Kidneys [workeths?]\nof the back, it heales all swellings, Aches & Bruises &\nCankers ffellons, Impostumes, pushes & Stabs them in=\nlings applyed to the fundament it heales all diseases\nthereon laid to the head, it is good for the wormes\n\nA Third Cordiall for A woman in Childbed\nXXVIII\n\nTake a quarter of a pint of Cowslip water & 2 ounces of\nSyrupp of Cloue=gilliflowers & a pennyworth of Cinnamon\nwater & a Spoonefull of Cassia fines & Mominus\n[Seami?] mingle all these together and it is a soueran\ngood cordiall for any especially for one that lyes\nin Childbed\n\nPills for the Gall\nXXIX\n\nTake two [neupeny?] [grostes?] [....deries?]\nAfter A Vomit\n\nTake one Handfull of Sallandine & as much bay\nsalt as can take vp & enclose yr finger & Thumbe &\nthe iuice of halfe a Lemon stamp yt together in a\nMortar & straine the iuice out & smalt the place and\nyt put some of the hearbs vpon it, vse this 3 or 4\ndayes together dressing it 3 or 4 times in a Day\ntogether &c\n"
+    },
+    {
+      "agent": 4,
+      "cer": 16.66,
+      "attempted_cer": 9.85,
+      "coverage": 1.0,
+      "reference_characters": 2072,
+      "hypothesis_characters": 1969,
+      "substitutions": 166,
+      "insertions": 38,
+      "deletions": 141,
+      "gap_count": 0,
+      "uncertain_count": 4,
+      "transcription_text": "A Salve for sundry sores called\nthe Leaden plaister\nXXVII\n\nTake one pt of oyle olive of the best Take of colum\nlead very well calcinated with dust 12 ounces of\nSpanish sope incorporate all these well together in\nan earthen pott well glazed & when the oyntment is\npanned that the softe comes appermost & putt it vpon\na small fire of coales continuewing the said fire an\nhoures & a halfe still stirring it on a bolt of boxe\nfastned to a sticke of wood, yt make yt fire some\nwhat eager, till the reddish be turned into a gray\ncolour but yt must not leave stirrings till the\nmatter be turned into the coulour of oyle: toward\ndarker, then drop it on a wooden trencher & if it\nneither cleave to yt fingers nor the trencher fashionably\nenough, then dipps thicker in that, the character of\nthereon dipped will last 20 yeares, yt glory of boxe\nthis plaister laid to the stomach cureth appetite and\ntakes away the paines of the Stomach laid to the\nreines of the back it stops the bloody fluxe\n\nopenings of the reines heat of the Kidneys worketh\nof the back, it heales all swellings, Aches & bruises, it\nfrankes ffellons, Impostumes, pushes & stiles them in\nboylings applyed to the [joinctures?] it heales all diseases\nthrowne laid to the head, it is good for the [vennies?]\n\nA Food Cordiall for A woman in Childbed\nXXVIII\n\nTake a quarter of a pint of Cowslip water & 2 ounces of\nSyrup of Clovegillyflowers & a pennyworth of Cinnamon\nwater & a Spoonfulls of Claret wine & a Nutmegs\nGrated mingle all these together and it is a souerain\ngood cordiall for any especially for one that lyes\nin Childbed\n\nPills for the Gall\nXXIX\n\n[Two words?] of graines and [drams?]\nafter a Tetter\n\nTake one Handfull of Sallandine & as much bay\nsalt as can take vp between yr finger & Thumbe &\nthe iuice of halfe a Lemon stamp yt together in a\nMortar & strains the iuice out & smalt the place &\nit putt some of the hearbs vpon it, vse this goe 3 or 4\ndayes together dressing it 3 or 4 times in a Day\ntogeather &c\n"
+    },
+    {
+      "agent": 5,
+      "cer": 16.32,
+      "attempted_cer": 9.99,
+      "coverage": 1.0,
+      "reference_characters": 2072,
+      "hypothesis_characters": 1986,
+      "substitutions": 162,
+      "insertions": 45,
+      "deletions": 131,
+      "gap_count": 0,
+      "uncertain_count": 3,
+      "transcription_text": "29\nA Salue for sundry sores called\nthe Leaden plaister\nXXVII\n\nTake one pt of oyle oliue of the best & of collen\nlead very well calcinated with dust 12 ounces of\nSpanish sope incorporate all these well together in\nan earthen pot well placed & when they be well incor=\nporated that the softe comes abouemost & put it vpon\na small fire of coales continewing yor said fire an\nhoures & a halfe still stirring it w:th a sticke of boxe=\nfastned to a sticke of wood, yor make yor fire some\nwhat eager, till the reddnes be turned into a grey\ncolour but yor must not leaue stirringe till the\nmatter be turned into the coulour of oyle some=\nwhat darker, then drop it on a wooden trencher & if\nit neither cleaue to yor fingers nor the trencher it is suffi=\nciently enough then dippe plaisters in that, the plaist=\ners dipped will last 20 yeares, p:d of glory & [hase?]\nthis plaister laid to the Stomack Expells appetite and\ntakes away the pains of the Stomack laid to the\nloines, tis a remedy for the Collicke laid to the\nreines of the back it stops the bloody fluxe\n\nOpenings of the veines blood of the Kidneyes worketh\nof the back, it heales all swellings, Aches & Bruises, it\nBrakes ffellons, Impostumes, pushes & [Stiles?] them=\nselues applied to the foreheads it heales all diseases\nthrowne laid to the head, it is good for the runninge\n\nA Blood Cordiall for A woman in Childbed\nXXVIII\n\nTake a quarter of a pint of Cowslip water & 2 ounces of\nSyrup of ClovesGilleflowers & a pennyworth of Cinnamon\nwater & a Spoonefull of Clarett wine & [Mounne?]=\ndrams mingle all these together and it is a Souer=\naigne cordiall for any especially for one that lyes\nin Childbed\n\nPills for the Gall\nXXIX\n\nTake one handfull of Sallandine & as much bay\nsalt as can take vp betwene yor finger & Thumbe &\nthe Iuice of halfe a Lemon stamp yor together in a\nMortar & strains the iuice out & make the pills and\n& put some of the hearbs vpon it, vse this & or 4\ndayes together desisting it 3 or 4 times in a day =\ntogether &c\n"
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 27.97,
+      "median": 16.32,
+      "std_dev": 26.65,
+      "ci_95_lower": -5.12,
+      "ci_95_upper": 61.05,
+      "min": 15.02,
+      "max": 75.62,
+      "iqr_lower": 16.22,
+      "iqr_upper": 16.66,
+      "spread_pp": 60.6
+    },
+    "attempted_cer": {
+      "mean": 20.71,
+      "median": 10.67,
+      "std_dev": 23.17,
+      "ci_95_lower": -8.06,
+      "ci_95_upper": 49.48,
+      "min": 9.85,
+      "max": 62.15,
+      "iqr_lower": 9.99,
+      "iqr_upper": 10.9,
+      "spread_pp": 52.3
+    },
+    "coverage": {
+      "mean": 0.9973,
+      "min": 0.9918,
+      "max": 1.0
+    }
+  },
+  "baseline_comparison": {
+    "previous_best_cer": 13.65,
+    "previous_best_run": 10,
+    "improved": false
+  },
+  "reference_text": "20\n\nA Salve for sundry vses called\nthe Leaden plaister\nXXVII\n\nTake one pound of oyle olive of the best 1 pound of white\nLead very well calcinated into dust, 12 ounces of\nSpanish sope incorporate all these well together in\nan earthen pott well glazed & when they be well incor=\nporated that the sope comes upermost & put it upon\na small fire of coales, continueinge the said fire an\nhoure & a halfe still stirring it with a bolt of Iron\nfastned to a Stick of wood, then make your fire some\nwhat bigger, till the redness be turned into a grey\ncollour but you must not leave stirringe till the\nmatter be turned into the colour of oyle somewhat\ndarker, then drop it on a wooden trenchar & if it\nneither cleave to your fingers nor the trenchar t'is boyled\nenough, then dipp your cloathes in that, the Searclothes\ntherein dipped will last 20 yeares, & the older the better\nthis plaister laid to the stomach provokes appetite and\ntakes away the paine of the Stomach layd to the\nbelly, t'is a remedy for the Collicke laid to the\nreines of the back it stops the bloudy flux\n\n\n\n21\n\nRuninge of the reines heat of the kidney & weakness\nof the back, it heales all swellings, Aches & bruises, it\nbreakes the ffellons, Impostumes, pushes & h^eales them\nbeing applyed to the fundaments it heales all diseases\ntherein laid to the head, it is good for the vnnilla.\n\nA Good Cordiall For A woman in Childbed\nXXVIII\n\nTake a quarter of a pint of Cowslip water & 2 ounces of\nSyrrup of Clovegillyflowers & 2 pennyworth of Cinamon\nwater & 2 Spoonefulls of Clarett wine & Alcemus one\ndramme mingle all these together and it is a soverai=\ngne cordiall for any especially for one that lyes\nin Childbed\n\nPills for the head\nXXIX\n\nTake one handfull of Alloes one dramme\n\nffor A Tetter\n\nTake one handfull of Sallandine & as much bay\nsalt as can take up betweene your finger & Thumbe &\nthe juice of halfe a Lemon stamp them together in a\nMortar & straine the juice out & wash the place and\nthen put some of the hearbs upon it, vse this 3 or 4\ndayes together dressinge it 3 or 4 times in a day\ntogether &c"
+}

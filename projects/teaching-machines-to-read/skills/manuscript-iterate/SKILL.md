@@ -21,7 +21,7 @@ Your job is to orchestrate the cycle: **test → review → hypothesize → edit
   ┌─────────────────────────────────────────────────────┐
   │                                                     │
   │   1. RUN TEST                                       │
-  │      Launch /manuscript-test-run with 20 agents     │
+  │      Launch /manuscript-test-run with 5 agents      │
   │      (via subagent — fresh context, no leakage)     │
   │                                                     │
   │   2. REVIEW RESULTS                                 │
@@ -44,17 +44,32 @@ Your job is to orchestrate the cycle: **test → review → hypothesize → edit
   └─────────────────────────────────────────────────────┘
 ```
 
+## Standard Test Set
+
+The project has five manuscripts used for blind evaluation. Pre-skills testing used Runs 1–13 (single-agent, ad-hoc instructions). The skills system uses separate numbering: **Skills Run 1, Skills Run 2, etc.** with 5 agents per manuscript for spread data. Results are saved to `public/data/runs/skills-run-N-manuscript-results.json`.
+
+| Manuscript | Image | Reference | Pre-Skills Best | Skills Baseline (Run 1, mean) |
+|---|---|---|---|---|
+| Henslow MS688 | `henslow-ms688/test-page.jpg` | `henslow-ms688/test-page-reference.txt` | 3.80% (Run 6) | 5.26% (att. 3.30%) |
+| Sedley MS534 | `sedley-ms534/test-page.jpg` | `sedley-ms534/test-page-reference.txt` | 13.65% (Run 10) | 16.87% (att. 11.47%) |
+| Bulkeley MS169 | `bulkeley-ms169/test-page.jpg` | `bulkeley-ms169/test-page-reference.txt` | 16.21% (Run 6) | 15.65% (att. 12.69%) |
+| Brumwich MS160 | `brumwich-ms160/test-page.jpg` | `brumwich-ms160/test-page-reference.txt` | 9.30% (Run 4) | 71.11% (att. 19.75%) |
+| Jane Jackson MS373 | `jane-jackson-ms-373/page-20.jpg` | `jane-jackson-ms-373/page-20-reference.txt` | 46.85% (Run 5) | 74.10% (att. 18.61%) |
+
+Shared resources (also in the project directory):
+- **Paleography guide:** `ingest/references/paleography-guide.md`
+- **Vocabulary reference:** `extracted/derived/vocab/vocab-reference.txt`
+
 ## Before Starting
 
 Check what already exists:
 
-1. **Previous run results** — look in `public/data/runs/` for existing `run-N-results.json` files. Summarize the best results so far for the manuscript being tested.
+1. **Previous run results** — look in `public/data/runs/` for existing `skills-run-N-manuscript-results.json` files. Summarize the best results so far for the manuscript being tested.
 2. **Current skill version** — read `skills/manuscript-transcription/SKILL.md` so you know what the agents will be working with.
 3. **Dependencies** — confirm `jiwer`, `numpy`, `scipy` are installed: `python3 -c "import jiwer, numpy, scipy; print('OK')"`
 
 Ask the researcher:
-- Which manuscript are we testing?
-- Where is the manuscript image and reference transcription?
+- **Are we using the standard five manuscripts** (see table above), or testing something different? If standard, which one(s) from the set?
 - Is this the first run (establishing a baseline) or a subsequent iteration?
 
 ## Step 1: Run the Test

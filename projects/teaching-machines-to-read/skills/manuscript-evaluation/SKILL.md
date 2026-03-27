@@ -66,13 +66,19 @@ The script handles all normalization deterministically:
 5. Computes Levenshtein edit distance at the character level
 
 It outputs JSON with:
-- `cer` / `cer_percent` — the Character Error Rate
+- `cer` / `cer_percent` — the Character Error Rate (overall, including gap-caused deletions)
+- `attempted_cer` / `attempted_cer_percent` — CER on confident text only (excludes deletions from `[...]` gaps). This measures: "when the agent says it can read something, how often is it right?"
 - `coverage` — what fraction of the reference the agent actually attempted (vs. marking `[...]`)
 - `substitutions`, `insertions`, `deletions` — the edit operations
 - `reference_characters`, `hypothesis_characters` — character counts
 - `gap_count`, `uncertain_count` — how many `[...]` and `[word?]` markers
 
-**Both CER and coverage matter.** A transcription that's 99% accurate but only covers 40% of the page isn't useful. Report both numbers prominently.
+**Three metrics matter together:**
+1. **Coverage** — how much did the agent attempt? (lower = more honest about limits)
+2. **Attempted CER** — of what it attempted, how accurate was it? (the confidence-calibration measure)
+3. **Overall CER** — the combined picture including gaps
+
+An agent with 80% coverage and 3% attempted CER is more useful than one with 100% coverage and 17% overall CER — the first gives you reliable text with clearly marked gaps a human can fill in.
 
 **Benchmarks for context:**
 - < 1% CER = very good
@@ -130,7 +136,8 @@ Structure:
 - Reference characters: N
 - Hypothesis characters: N
 - Substitutions: N | Insertions: N | Deletions: N
-- **CER: X.XX%**
+- **CER: X.XX%** (overall)
+- **Attempted CER: X.XX%** (confident text only — excludes gap-caused deletions)
 - **Coverage: XX.X%** (fraction of reference text the agent attempted)
 - Gaps ([...]): N | Uncertain ([word?]): N
 

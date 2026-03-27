@@ -1,0 +1,126 @@
+{
+  "run": {
+    "id": "skills-run-1",
+    "name": "Skills Run 1: Baseline",
+    "date": "2026-03-27",
+    "method": "Alphabet-first method with vocabulary verification, formalized as SKILL.md",
+    "category": "baseline",
+    "question": "Does the formalized transcription skill produce comparable results to the ad-hoc instructions used in Runs 1-13?",
+    "changes_from_baseline": "None \u2014 control run establishing skills-era baseline"
+  },
+  "manuscript": {
+    "id": "jane-jackson",
+    "page": 20
+  },
+  "skill_version": "Initial SKILL.md \u2014 alphabet-first method with vocab verification, negative-framing imperatives",
+  "agents": [
+    {
+      "agent": 1,
+      "cer": 70.27,
+      "attempted_cer": 25.74,
+      "coverage": 0.8977,
+      "reference_characters": 4007,
+      "hypothesis_characters": 2147,
+      "substitutions": 899,
+      "insertions": 27,
+      "deletions": 1889,
+      "gap_count": 138,
+      "uncertain_count": 14,
+      "transcription_text": "ffor the tooth ach lay it to the tooth or els as you can endure\nit. The oth halfe is yours owne mouth is a good medicine for a\nsore mouth\nffor the Cancker in the mouth\nTake the iuice of honny suckle and wash the mouth and it will\nheale it wash it euening and morning also take honny and alom and\nmixt it together and drye the alom and beate it to powder and\nsoe vse it evry day or two and that will cure the worst cancker\nthat euer was I haue cured it in many and many a body and I\nknow the vertue of it very well\n          ffor a Cough\nTake iiij or v figgs sliced and steepe them in white wine a good\nquantetie of Lycorish sliced and put into it a night and a\nmorning drink a quantity of it\n    ffor Chilblaines\nTake Turnip rootes and cut a peice of euery turnip and [...]\nlay it a little about and rub it with a white [...] after\nit will [...] and a little oyle was the [...] is a\n[...] once in the day by the [fier?] or [fire?] and [...] a\nseuer a [...] and it is [...] or [....]\nffor a surfeit\nTake a quantity of Leauen and a quantity of sheepe Tallow\nand [...] a quarter of an ounce of the grese or more than [....]\n[...] make it in a plaister and lay the grese to the nauell and\nit so wide that [...] the [...] of ye\n[...] the [...] with [...] and [...] it to the stomacke\n[...] halfe a pinte [...] ale on [...] out ale [...] to the stomacke\n[...] with [...] one [...] this [...] a [...] it is [...] stronge\nin this way [...] and [...] and it will [...] and [...] vp\nthe [...] [...] [...] [...] [...] [...]\n[...] [...] [...] the [...] boyle [...] hott and [...]\n            [...] [...] [...]\n[Passage illegible \u2014 approximately 5 lines, heavy water damage]\nA receipt for an ague\nThe patient must be let blood in order to take it, then a\n[...] ter, and not [eat?] any [...] or meates of any kinde, but to drink\nonely with some [...] syrrup or some drincking [...]\n              A receipt for a cold\nTake the [pith?] of the [back?] or the [fell?] to make a plaster and\nlay it [ground?] or sprinkle with the dripping of this [...] and a\n[...] [...] very [...] only salt, new [...] of [...] and he must\n[...] a plaister [...] and [...] them [...] next his skinne, let him\n[...] and in the [...] of [...] with\n                  ffor a cold and cough\nThe white [part?] and the yong [...] of [...] a good [...]\nor [...] [...] [...] [...] this [...] [...]\nand it will [...] be a good [...] and [...] in [...] of [...] there\nbe [...] and [...] the leaues [grow?] [...] of [...] where [...] [...]\nand [...] the leaues grow [...] of the [...] the [...] the [flower?]\nthe [...] make [...] as [...] with the [...] the [...] about\nthe [...] [...] [...] the [...] [...]\n\nTo make [...] the [...] mumme once [...] of the same [...] of [...]\n[...] and [...] and [...] those together put [syrup?] [...] [flower?]\nat [...] and [...] and [...] if it be [...] the smallest\n\n[...] cold is [...] an [...] every [...] after [...] let the [...] keepe\n[...] with [...] there where [...] and [...] and [boone?]\nor [...] [...] and [...] and [...] of [ground?] [...]\n[...] [...] some oyle [...] [...] and together\n[...] [...] [...] [...] [...] [...]\n[Passage illegible \u2014 approximately 4 lines, heavy water/stain damage]\n"
+    },
+    {
+      "agent": 2,
+      "cer": 80.4,
+      "attempted_cer": 7.05,
+      "coverage": 0.9304,
+      "reference_characters": 4007,
+      "hypothesis_characters": 1051,
+      "substitutions": 262,
+      "insertions": 1,
+      "deletions": 2958,
+      "gap_count": 52,
+      "uncertain_count": 48,
+      "transcription_text": "A drinke for one that\nis [troubled?] with a cold or hath taken in a cold any time or a\nsurfett, to rid and make [cleane?] the stomacke & helpe [digest?]\nand [......] some [..........]\n\nA medicine for a pinn or a webbe\nin the eye\n\nTake the [gall?] of a hare or the [gall?] of a [henne?]\n[drop?] a good quantitye into the droppinge of the eie and it\n[...] [.......] [........] [.......] [.....] all [thinges?] well, the same\nis a [soueraigne?] good and [...] [...] shall [...] [.......] the same\nonce a day and [it?] will heale [you?] in a short time, but you\nmust be [content?] [...] [...] [...] of [.......] & [.......] with\n[............] all [............]\n\nFor an ache in the bodie\n\nTake white [pitch?] and very [fresh?] butter of each a quarter of\na [pounde?] and boile them together vpon a [soft?] fire till it\nbe [......] thick and so [spread?] it vpon a [cloth?] [...] a\n[plaster?] and [it?] is a [soueraigne?] salue of a [...] when either\n[...] [....] the brest great paines or stitches of the brest and also\n[............] against ye ague with the [addition?] [the?] therof\nthe said [plaster?] [........]\n\n[For?] the [.......] of [blood?]\n\n[...] [make?] the [flour?] or [.......] [meale?] of [...] [beanes?] or [french?]\n[barley?] and [boile?] them together [put?] [yolks?] [of?] [...] [Egges?]\n[...........] [hard?] & [...] the [...] [...] in the [..........]\n\n[........] [...] [...] is a [clearing?] [......] [after?] the [first?] [...]\n\n[...] [mingle?] them [alltogether?] [......] and [boile?]\nand [lay?] [it?] [.......] and [Take?] [a?] [.......] [..........]\n[Passage illegible \u2014 approximately 4 lines, heavy water damage]\n\n[...] Take [...] [...] [...] good [..........]\n[Passage illegible \u2014 approximately 3 lines, heavy water damage and staining]\n"
+    },
+    {
+      "agent": 3,
+      "cer": 72.47,
+      "attempted_cer": 23.5,
+      "coverage": 0.9324,
+      "reference_characters": 4007,
+      "hypothesis_characters": 2008,
+      "substitutions": 854,
+      "insertions": 24,
+      "deletions": 2025,
+      "gap_count": 92,
+      "uncertain_count": 96,
+      "transcription_text": "ffor the cold and dry it is also good to drinke as you can drinke it\nor Take the oyle of a goose a young goose & of a Ducke of each a\nlike quantity & mingle them together & so anoynt the place [grieved?]\nffor [hardenesse?] of the Stomack & [to?] make it to breake winde &\nhelpe digestion take a [q...tity?] of woorte and new made oyle of\nalmonds verye well [made?] & let them [mingle?] also take oyle\nof [spike?] & [oyle?] of [mace?] also yt [is?] verye [good?]\nto anoynt the stomacke [w...?] yt [also?] with [some?] [warme?] [cloth?]\nthe next day [after?] the anoynting of the stomacke & to [swaddle?]\nyt vp warme & yt will do the cure if yt be not a cold [stomacke?]\n\nfor Scabbes\n\nTake [brimstone?] and beate it into powder and take a good\nquantity of [Capons?] greace and mixe them togeather and\n[...] for to [anoynte?]\n\nfor an Eyesore\n\nTake halfe an ounce and a halfe of camphire [and?]\n[...]iij or [4?] spoonefulls and the yolke of an Egge [and?]\nmake it into a plaster and laye the same to your [eyes?]\n& so vse it. But [yf?] yt be a [hott?] [rhume?] take\nRoase water and white [of?] an Egg and a good [peece?]\nof Alome and beate the same togeather [and?] [so?] [laye?]\nyt into a [clothe?] and laye yt vpon [your?] [eyes?]\n& when you goe to bedde laye of your whites and\nthe [Alome?] togeather ouer your eyes and yt\nwill doe the cure [...]\n[...] this is a tryed [...] and [...]\n[...] [...] [...]\n[Passage illegible \u2014 approximately 4 lines, heavy water and mold damage]\nA receipt for an ague\nThe [vertues?] of the [water?] [called?] Doctor [Stevens?] water it is\ngood for [...] and [...]ing [every?] morning [...] [spoone?] [...] [shall?]\n[...] with [...] water [...]\n\nA [cordiall?] [water?] [very?] [good?]\n\nTake the [flowers?] of [Rosemary?] [and?] [put?] [them?] into a [Alembick?] [and?]\n[... ...] a good [quantity?] of [...] the [dropps?] [of?] the [same?] [...]\n[...] [morning?] [and?] [e...] ij [still?] new [... ...ing?] yt [is?] [...] the [...] the [best?]\n[...] a [distilled?] [water?] [...] of [...] [of?] [...] [...] [...]\n[...] [and?] [...] [...]\n\n[for?] an [...] [on?] the [....]\n\nThe white [yolke?] of an Egg and [...] [hony?] [...] of [...] [good?]\n[...] an [...] [...] [...] [...] [...]\n[& ...] [...] it is a [cleane?] [...] or [whi...?] [...] [...] [...]\n[...] [&?] [...] and the [honey?] [and?] order of [...] [... ...?] [...]\n[...] the [pouder?] [...] to [...] with the [...] [... ...] the [...nt?]\nthe [...] [...] [...] [...]\n\n[... ...] for the [...] [...]\n\n[...] Take the [...] [common?] [...] of [...] [double?] [...] [...]\n[flower?] and [...] then together [...] [...] [...] [...] [...]\n[...] [...stilled?] [water?] [...] [...] [...] [...] to the [...ble?]\n\n[...] and [...] it is a [... ...ing?] [... ...] after [...] [... ...apps?]\n\n[...] [mingle?] them togeather therein [...] [melt?] [...]\nand of [...] [...] and [butter?] of [... ...s?] [...] [...ed?]\n[...] [...] [...]\n[Passage illegible \u2014 approximately 5 lines, severe water and mold damage on both pages]\n"
+    },
+    {
+      "agent": 4,
+      "cer": 76.56,
+      "attempted_cer": 12.04,
+      "coverage": 0.9933,
+      "reference_characters": 4007,
+      "hypothesis_characters": 1424,
+      "substitutions": 475,
+      "insertions": 4,
+      "deletions": 2588,
+      "gap_count": 10,
+      "uncertain_count": 0,
+      "transcription_text": "A receipe for an ague\nThe patient must drinke no beere in winter nor in sum-\nmer, but eate and drinke only warme milke & also apply a sheeps skinne\nfresh kild warme to the stomacke\nA medicine against griping in the gutts\nTake the paring of the top of a loafe lett it be stale & then a clean\nlinnen bagge & putt these parings into the bagge & let the patient\nholde it to his side vntill the griping be ouer & it will ease\nthe paines, and this cloth or bagge shall serue to turne againe, the same\nbeing a litle warmed & and laid to the bodye of the patient & will\ncure the griping of the gutts if god please\nFor an ague and to helpe\nThe white yolke of an egge well beate with a good quart of ale\nor stronge beere the quantity of a spoonefull or two of vineger put\ntogither, & it is a drinke att any time to bee taken warme, the sick per\nson must drinke it & lett the honny & ioyce of [...] some other\npleasant thinges; together & giue with the medicine, the which\nthe sicke person [...] drinke of\nA medicine for burning or scalding\nTake of the whitest partes of sheeps dunge halfe a handfull\nor more and boyle them together put thereto [...] butter\nor hogs grease & stir it & this is to be laid to the [...] tender\nA medicine to helpe the swelling after the Rickets\nTo remedie those swollen thicke vnknottned hands & feete\nand by the blessing and Fauor of god to [...] recover\n[...] the ioynts, Take the white lilly roots, and [...] together\n[...] the boyling [...] adding there\n[Passage illegible \u2014 approximately 4 lines, heavy water damage and staining]\n"
+    },
+    {
+      "agent": 5,
+      "cer": 70.82,
+      "attempted_cer": 24.71,
+      "coverage": 0.9189,
+      "reference_characters": 4007,
+      "hypothesis_characters": 2110,
+      "substitutions": 881,
+      "insertions": 29,
+      "deletions": 1927,
+      "gap_count": 107,
+      "uncertain_count": 37,
+      "transcription_text": "ffor the tooth ach boy a litle sacke & dip as you can in wort\nin The oyle of Saffron a drop or two putt 2 or 3 drops [thereof?] in\nto the Contrary eare & it [helpeth?]\nffor the tooth ach take a litle of the rinde of ye roote of henbaine\n& make it thinner and cutt it into round peeces match or\nhalfe an ounce will make 3 or 4 peeces and then take and putt\na peece of it into the mouth betweene the vpper gumme & the cheeke\non the same syde & the ach and it will cure it & is proued\nit is a present remedy\nffor a burning or a scalding\nTake hemlocke and stampe them or bruise and\n[mixe?] them together\nffor a Canker\nTake a good Sallet oyle or olde oyle [made?] from a grease\nor fatt & rub it vppon it\nffor a sore throate\nTake [Elecampane?] with rose honey & a gallon of strong [wapp...?] and\ntake a spoonfull of Allom and the whyte of a walnutt shell\nfull of the oyle of vitriall and putt in the Iuice of Sage and\n[...] once in the day by the [space?] of 5 dayes and put a\n[...] it a [...] in the [...] or so\n[...]\n[...]\nTake a nutmegg or two and a quantity of [dried?] Turmor or\n[...] gall [...] together and lay the [pow...?] in musterd then\n[...] & wash [thy?] hand with the same mustering [...]\n[...] is much [hott?] about the [...] of [....]\n[...] halfe a time, two [pills?] use it as much as it is [at?] the [stom...]\nor then [using?] the [other?] or else make the [...] lay it ouer all\n[...] once [...] your face [freshly?] or [...] and put\nthe same in the [...] once or the last [...] when the\n[...] of your scurge and lay on it an ounce of [....]\n[...] or [...] wheate Dye a [...] of [...]\n[...]\n[...]\n\nA sirrope to ease\nThe cold or the [cough?] in [...] in water [...] then [...]\n[...] too and [...] syrupe [...] and any [long?] syrupe [....]\n[...] and [...] the same\n\nA [medecine?] for [...] or [....]\nTake the [flores?] of the [best?] [go..?] for [...] a cloute\n[...] grounde nutmegg [...] the [...] of one [...] & a [...]\n[...] morning, [...] at night [...] now & [then?] [...] the same\n[...] a [blankett?] warme [and?] [...] [...] warme [...] the [...]\n[...] the stomacke & [...] of [Peppermint?] [....]\nffor a cold and an ache\n\nTo make forth [speede?] and [...] handes of [...] and\n[...] or stampe[d?] [...] is as [...] also [...] [...] for [...]\n[...] and [...] the [...] give order of a [...] after\n[...] [then?] quarter [...] vppon with the [...] the cheese\nthe [milk?] [...] [....]\n[...] the sirrop of [Maidenhaire?]\n\n[...] ffor the [...] manner [...] of the making of [...]\n[...] and boyle them together and [...] your [...] [flower?]\n[...] and [...] Take it [...] the [...] let it be [...] well [settled?]\n[...]\n\n[...] and [...] an [...] stirring [...] after [...] for [...]a [....]\n\n[...] [...] [those?] either [winte?] and hony and [brewed?]\n[...] up [withall?] and Take a quarter [...] [...]\n[...] [...] ffor [...] a [...] good [...]\n[Passage illegible \u2014 approximately 5-6 lines, heavy water/mold damage at bottom of both pages]\n"
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 74.1,
+      "median": 72.47,
+      "std_dev": 4.3,
+      "ci_95_lower": 68.77,
+      "ci_95_upper": 79.44,
+      "min": 70.27,
+      "max": 80.4,
+      "iqr_lower": 70.82,
+      "iqr_upper": 76.56,
+      "spread_pp": 10.13
+    },
+    "attempted_cer": {
+      "mean": 18.61,
+      "median": 23.5,
+      "std_dev": 8.5,
+      "ci_95_lower": 8.06,
+      "ci_95_upper": 29.16,
+      "min": 7.05,
+      "max": 25.74,
+      "iqr_lower": 12.04,
+      "iqr_upper": 24.71,
+      "spread_pp": 18.69
+    },
+    "coverage": {
+      "mean": 0.9345,
+      "min": 0.8977,
+      "max": 0.9933
+    }
+  },
+  "baseline_comparison": {
+    "previous_best_cer": 46.85,
+    "previous_best_run": 5,
+    "improved": false
+  },
+  "reference_text": "the harth and lay it to the navell as hot as you can indure it This use shifting it once in xxiiij howers 3 or 4 dayes together\n\nFor the pilling of the face\n\nTake Turpendine of venice and wash it with red rose water till you haue taken away the smell of the turpentine then take the marrow of a stagg or for want thereof deere suitt and melt them altogether but lett them not seeth put into it vergins wax more then the qantity of the suett and so stirr it still till it be could\n\nFor freckles on the face\n\nTake the leaues of white poppy and distill them and with the water thereof wash your face\n\nFor a Timpany\n\nTake flouer delice and seeth them in white wine from a quart to a pinte and drinke that next your heart ix mornings together\n\nA Fume for the same\n\nTake a Pottle of white wine and a gallon of runing water and the dung of a ston'd horse and lett it seeth a while then sitt ouer it on a close stoole alwayes as hott as you can suffer it of[.....] times in the day by the space of ix dayes half an hower at a time or an hower if you can\n\nFor the same\n\nTake a quantitie of vrine and a quantity of sheepes Tallow well clarified and boyled together till half the vrine bee wasted Then take as much black wooll of the sheeps flank as will couer all your stomack down to your nauell from the one side of your ribbs to the other, when you haue taken the vrine from the fyer put the woole into it till it bee through wett, then wring the Liquor out of the woole and lay it ouer all aforesaid and euer as the swelling doth descend follow it with the medicine vntill it come into your leggs Ankles and feete refresse the woole in the Liquor twice a day at the least and when the swelling is come downe cleane out of the body lett a Surgeon make an Issue in each of your insteps and lett it so runne out till the swelling be cleane dissolued Then lay a healing plaster to it and dry it vp, butt in any wise lay not the woole vnto your legg after the issue made\n\nAnother of the same\n\nTake radish rootes slice them and seeth them in white wine from a quarte to a pint and drinke euery two mornings a pint vsing it thus it will breake your Tympany.\n\nA restoratiue for a Consumption\n\nTake the cleane yelks of xxx egge new layd lay them in cleane water halfe an hower and take away the straynes of them and putt to them a quart of cow milke as it cometh from the cow a pinte of rosewater the crumes of a penny white loafe beate them all together and put them into a stillitory distill it all together with a soft fyer, It will bee neere hand a quarte of water drinke of it oftentimes ix euery day.\n\nFor an euill sore in the head\n\nTake neats foote oyle and doues dunge, beate them together till they come to bee a salue then annoynt the head with it twice a day morning and evening, when it is almost whole put a little hony to the medicine and that will make the haire grow when it is Cleane whole within on weeke or two peraduenture it will breake out againe in little white pimples, But then annoint it againe with the medicine and it will bee whole for euer\n\nFor the Migrim in the head\n\nTake housleeke and garden wormes more of the housleek then of wormes and stamp them together putt thereto fine flower make it plasterwise spread it on a fine cloth and lay to the forehead temples and all\n\nFor a stich or ach in the side or any other place and for the gout\n\nTake Camomile flowers meliote flowers and wormwood leaues of each mj well dryed and beaten to powder semgreke linseed of each \u0292ij anyseed, Cumminseede of each \u2125j mustick \u2125jd breake all these into smale powlder and medle them well together make of all them one powlder then take a pottle of strong vinegar and a quarte of runing water boyle them well together and put thereto a handfull of your powlder and let it boyle a little while Then take it from the fyer as fast as you can and make ready two cloaths of frize as broad as your too hands a peece wett them [w[...]] that Liquor and lay on the place where the greife is as [...] as you may suffer it And when {the}"
+}

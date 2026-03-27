@@ -351,6 +351,23 @@ def compute_cer(reference_text, hypothesis_text):
 
     cer_percent = f"{cer * 100:.2f}%"
 
+    # Compute attempted CER (confidence-weighted)
+    # This measures accuracy only on text the agent committed to transcribing,
+    # excluding deletions attributable to [...] gaps. It answers: "when the
+    # agent says it can read something, how often is it right?"
+    #
+    # attempted_cer = (Substitutions + Insertions) / attempted_reference_chars
+    #
+    # where attempted_reference_chars = reference_chars - illegible_chars
+    attempted_ref = ref_len - illegible_chars
+    if attempted_ref > 0 and ref_len > 0:
+        attempted_errors = substitutions + insertions
+        attempted_cer = attempted_errors / attempted_ref
+    else:
+        attempted_cer = cer  # fallback to overall CER if no gaps
+
+    attempted_cer_percent = f"{attempted_cer * 100:.2f}%"
+
     return {
         'reference_characters': ref_len,
         'hypothesis_characters': hyp_len,
@@ -359,6 +376,8 @@ def compute_cer(reference_text, hypothesis_text):
         'deletions': deletions,
         'cer': round(cer, 6),
         'cer_percent': cer_percent,
+        'attempted_cer': round(attempted_cer, 6),
+        'attempted_cer_percent': attempted_cer_percent,
         'coverage': round(coverage, 4),
         'gap_count': hyp_result['gap_count'],
         'uncertain_count': hyp_result['uncertain_count'],
@@ -447,6 +466,7 @@ def main():
         print(f"Insertions:            {result['insertions']}", file=sys.stderr)
         print(f"Deletions:             {result['deletions']}", file=sys.stderr)
         print(f"CER:                   {result['cer_percent']}", file=sys.stderr)
+        print(f"Attempted CER:         {result['attempted_cer_percent']} (confident text only)", file=sys.stderr)
         print(f"Coverage:              {result['coverage'] * 100:.1f}%", file=sys.stderr)
         print(f"Gap markers:           {result['gap_count']}", file=sys.stderr)
         print(f"Uncertain markers:     {result['uncertain_count']}", file=sys.stderr)
