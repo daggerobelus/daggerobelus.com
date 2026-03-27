@@ -1,0 +1,81 @@
+Run 12: Error Analysis Transfer — Reverse Direction
+=====================================================
+
+Date: 2026-03-26
+Question: Does error analysis transfer from Sedley → Henslow (reverse of Run 10)?
+Test manuscript: Henslow MS688, page 12
+Reference: 950 characters (body text only, metadata stripped)
+
+DESIGN
+------
+Phase 1: 5 agents transcribe Sedley (blind, with self-taught guide + paleography guide)
+Phase 2: Error analysis of all 5 Sedley transcriptions
+Phase 3: Build error protocol from Sedley errors
+Phase 4: 5 agents transcribe Henslow using Sedley-derived error protocol
+Phase 5: CER evaluation
+
+PHASE 4 RESULTS: Henslow with Sedley-derived error protocol
+------------------------------------------------------------
+Agent 1: CER = 7.16% (68 edits)
+Agent 2: CER = 5.79% (55 edits)
+Agent 3: CER = 5.68% (54 edits)
+Agent 4: CER = 17.05% (162 edits)
+Agent 5: CER = 16.11% (153 edits)
+
+Best:   5.68%
+Median: 7.16%
+Worst:  17.05%
+Spread: 11.37
+
+BASELINE COMPARISON
+-------------------
+                                    Best     Median   Worst    Spread
+Run 9 (5-page self-taught, no      5.17%    6.43%    7.17%    2.00
+  error protocol) → Henslow
+Run 12 (Sedley error protocol)     5.68%    7.16%    17.05%   11.37
+  → Henslow
+Run 10 (Henslow error protocol)    13.65%   13.89%   14.70%   1.05
+  → Sedley
+
+ANALYSIS
+--------
+The Sedley-derived error protocol does NOT meaningfully improve Henslow
+transcription. The best CER (5.68%) is slightly worse than the baseline
+best (5.17%), and the median is comparable (7.16% vs 6.43%).
+
+More concerning: the spread is much wider (11.37 vs 2.00). Two agents
+(4 and 5) performed dramatically worse than any baseline agent. Agent 4
+hallucinated decorative separators (". . . . . .") around recipe titles
+and misread "Deafnes" as "Dimnes." The error protocol may have induced
+overthinking in some agents.
+
+This contrasts with Run 10, where the Henslow-derived error protocol
+improved Sedley results AND produced tight consistency (1.05 spread).
+
+INTERPRETATION
+--------------
+Transfer appears asymmetric:
+- Henslow errors → Sedley protocol: HELPED (13.65%, tight spread)
+- Sedley errors → Henslow protocol: DID NOT HELP (worse spread, no CER gain)
+
+This is consistent with Stanovich's compensatory model (1980): error
+protocols compensate for poor decoding. On a more legible manuscript
+(Henslow), there's less to compensate for — the agents can already read
+it fairly well. The extra warnings may even introduce noise.
+
+The error patterns ARE general (both protocols address normalization bias,
+vocabulary gaps, letterform confusion). But the benefit of having those
+patterns called out depends on how much the agent struggles without them.
+On an easy manuscript, the protocol is redundant. On a hard one, it's
+transformative.
+
+NOTES ON SPREAD
+---------------
+The 11.37 spread is driven by agents 4 and 5 (16-17% CER). Agent 4
+hallucinated decorative dot separators around recipe titles and misread
+"Deafnes" as "Dimnes." Agent 5 had similar formatting hallucinations.
+The error protocol did not cause these failures, but it didn't prevent
+them either — it doesn't address hallucinated formatting elements.
+The baseline Run 9 had no such outliers (2.00 spread), suggesting the
+additional protocol text may have increased cognitive load without
+proportional benefit on this easier manuscript.

@@ -1,0 +1,68 @@
+Run 11: Generation Effect — Convergence Test Results
+=====================================================
+
+Date: 2026-03-26
+Manuscript: Sedley MS534, page 13
+Reference: 2,458 characters
+
+SAME-AGENT (wrote own guide, then transcribed with it)
+------------------------------------------------------
+Learning Agent 1: CER = 28.93% (711 edits)
+Learning Agent 2: CER = 29.33% (721 edits)
+Learning Agent 3: CER = 28.36% (697 edits)
+Learning Agent 4: CER = 29.13% (716 edits)
+Learning Agent 5: CER = 44.63% (1097 edits)  ** outlier
+
+Same-agent summary (excluding outlier):
+  Best:   28.36%
+  Median: 29.03%
+  Worst:  29.33%
+  Spread: 0.97
+
+Same-agent summary (all 5):
+  Best:   28.36%
+  Median: 29.13%
+  Worst:  44.63%
+  Spread: 16.27
+
+DIFFERENT-AGENT (used someone else's guide)
+--------------------------------------------
+Guide 1 (written by Learning Agent 1):
+  Agent 1: 46.95%  Agent 2: 30.43%  Agent 3: 30.72%  Agent 4: 65.46%  Agent 5: 30.11%
+
+Guide 2 (written by Learning Agent 2):
+  Agent 1: 40.81%  Agent 2: 42.07%  Agent 3: 35.88%  Agent 4: 28.80%  Agent 5: 31.69%
+
+Guide 3 (written by Learning Agent 3):
+  Agent 1: 29.21%  Agent 2: 31.29%  Agent 3: 29.74%  Agent 4: 31.90%  Agent 5: 29.58%
+
+Guide 4 (written by Learning Agent 4):
+  Agent 1: 29.21%  Agent 2: 31.08%  Agent 3: 30.15%  Agent 4: 29.70%  Agent 5: 28.84%
+
+Guide 5 (written by Learning Agent 5):
+  Agent 1: 28.76%  Agent 2: 29.54%  Agent 3: 47.07%  Agent 4: 51.46%  Agent 5: 29.82%
+
+Different-agent summary (all 25):
+  Best:   28.76%
+  Median: 30.72%
+  Worst:  65.46%
+  Spread: 36.70
+
+COMPARISON
+----------
+                    Best     Median   Worst    Spread
+Same-agent (5):     28.36%   29.13%   44.63%   16.27
+Different-agent:    28.76%   30.72%   65.46%   36.70
+
+Baseline: Run 10 Sedley best = 13.65% (with error protocol + vocab + paleography guide)
+
+NOTES
+-----
+- All agents in this run had NO external paleography guide, NO vocabulary list,
+  and NO error protocol. They learned entirely from studying 5 Henslow pages.
+- The ~28-29% floor is consistent across both groups, suggesting a ceiling
+  on what can be learned from examples alone without additional tools.
+- The generation effect shows up primarily in CONSISTENCY, not accuracy:
+  same-agent spread (excluding outlier) = 0.97 vs different-agent spread = 36.70.
+- Several different-agent transcriptions produced outliers (40-65% CER),
+  while same-agent results clustered tightly (4 of 5 within 1 percentage point).

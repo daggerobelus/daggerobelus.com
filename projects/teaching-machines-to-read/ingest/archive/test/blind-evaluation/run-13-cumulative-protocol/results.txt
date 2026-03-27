@@ -1,0 +1,93 @@
+Run 13: Error Analysis Transfer — Cumulative Protocol
+=====================================================
+
+Date: 2026-03-26
+Question: Does paleographic knowledge accumulate across manuscripts?
+Test manuscript: Brumwich MS160, page 10
+Reference: 3,604 characters (body text only)
+
+DESIGN
+------
+Phase 1: Build cumulative protocol from Henslow error analysis (Run 10)
+         + Sedley error analysis (Run 12)
+Phase 2: 5 agents transcribe Brumwich using cumulative protocol
+         + self-taught guide + paleography guide
+Phase 3: CER evaluation
+
+RESULTS
+-------
+Agent 1: CER = 70.84% (2553 edits, hypothesis 1775 chars)
+Agent 2: CER = 72.34% (2607 edits, hypothesis 1542 chars)
+Agent 3: CER = 70.31% (2534 edits, hypothesis 1986 chars)
+Agent 4: CER = 64.57% (2327 edits, hypothesis 2516 chars)
+Agent 5: CER = 74.45% (2683 edits, hypothesis 1441 chars)
+
+Best:   64.57%
+Median: 70.84%
+Worst:  74.45%
+Spread: 9.88
+
+BASELINE COMPARISON
+-------------------
+Run 4 (alphabet-first, no protocol) → Brumwich: 9.30% CER
+
+ANALYSIS
+--------
+The cumulative protocol dramatically WORSENED performance on Brumwich,
+producing 64-74% CER vs the 9.30% baseline. The primary cause is clear
+from the hypothesis lengths: agents produced 1,400-2,500 characters
+against a 3,604-character reference. They marked roughly half the text
+as [...] gaps rather than attempting to read it.
+
+The protocol's emphasis on "don't guess, mark gaps honestly" — which
+is good advice in general — became counterproductive on a harder
+manuscript. Agents were so cautious about fabricating text that they
+barely transcribed at all.
+
+KEY INSIGHT
+-----------
+Error protocols and alphabet-first methods solve DIFFERENT problems:
+
+- Error protocols address BEHAVIORAL errors (normalization bias,
+  vocabulary gaps, over-correction). They help when agents CAN read
+  the letters but make systematic mistakes in interpreting them.
+
+- Alphabet-first methods address DECODING problems (can't tell what
+  the letters are). They help when the fundamental challenge is
+  recognizing letterforms in an unfamiliar hand.
+
+On Brumwich (small, cramped hand, moderate-high difficulty), the
+bottleneck is decoding, not interpretation. The error protocol gives
+agents a long list of things to worry about but doesn't give them the
+tool they need: a hand-specific alphabet. The result is paralysis —
+agents know all the ways they could go wrong but can't read well
+enough to go right.
+
+This mirrors a pedagogical reality: teaching students what mistakes
+to avoid doesn't help if they can't read the letters in the first
+place. You need to teach reading FIRST, then error awareness.
+
+COMPARISON ACROSS ALL ERROR TRANSFER RUNS
+------------------------------------------
+                                          Best CER  Baseline  Change
+Run 10: Henslow errors → Sedley          13.65%    ~17%      BETTER
+Run 12: Sedley errors → Henslow           5.68%    5.17%     SAME
+Run 13: Cumulative → Brumwich            64.57%    9.30%     MUCH WORSE
+
+The pattern: error protocols help on manuscripts where agents can
+already read the hand but make interpretive mistakes (Sedley). They
+don't help — or actively hurt — on manuscripts where the fundamental
+challenge is decoding the hand (Henslow already easy; Brumwich too hard).
+
+NOTES
+-----
+The Brumwich image resolution is also a factor. The agents noted the
+small, cramped hand was very difficult at the available resolution.
+The Run 4 baseline (9.30%) used the alphabet-first method, which
+builds a hand-specific reference before transcribing — a fundamentally
+different approach that addresses the decoding problem directly.
+
+A fairer comparison would test the cumulative protocol ON TOP OF
+the alphabet-first method — error protocol + alphabet, not error
+protocol alone. That would test whether cumulative knowledge adds
+value when the decoding problem is already solved.
