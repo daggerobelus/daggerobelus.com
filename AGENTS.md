@@ -72,7 +72,7 @@ Projects may incorporate:
 ## General Guidelines
 
 - Each project in `/projects/` is self-contained with its own data and analysis
-- See `/ai/context/project-structure.md` for project folder conventions and site integration
+- **MUST read `/ai/context/project-structure.md` before creating any new files in `/projects/` or `/site/`.** All project assets (data, images, visualizations) belong in the project's own `public/` folder, not directly in `site/`. The site accesses project files through symlinks.
 
 ## Content Policy
 
