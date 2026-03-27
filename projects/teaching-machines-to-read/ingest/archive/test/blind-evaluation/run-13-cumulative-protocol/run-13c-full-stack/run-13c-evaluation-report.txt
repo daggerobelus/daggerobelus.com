@@ -1,0 +1,146 @@
+================================================================================
+BLIND TRANSCRIPTION EVALUATION REPORT — RUN 13c
+Generation Effect + Cumulative Error Protocol + Alphabet-First → Brumwich MS160
+Date: 2026-03-27
+================================================================================
+
+METHOD
+--------------------------------------------------------------------------------
+Each of 5 independent agents:
+  1. Studied 5 Henslow MS688 training pairs (image + transcription)
+  2. Wrote their own self-taught guide (generation effect)
+  3. Read the cumulative error protocol (Henslow + Sedley errors)
+  4. Transcribed Brumwich MS160 page 10 (unseen manuscript)
+
+This combines the generation effect (Run 11) with the cumulative
+error protocol (Run 13), plus the alphabet-first method (Run 4). Compare to Run 4 baseline (9.30% CER,
+alphabet-first only, no generation effect or error protocol).
+
+CER = (Substitutions + Insertions + Deletions) / Total Reference Characters
+
+================================================================================
+INDIVIDUAL AGENT RESULTS — Brumwich MS160
+================================================================================
+
+--- Agent 1 ---
+  Reference length:  3575 characters
+  Blind length:      3481 characters
+  Edit distance:     2579
+    Substitutions:   1763
+    Insertions:      455
+    Deletions:       361
+  CER:               72.14%
+
+  Blind text (first 200 chars):
+    A water of Endiffe succorie borage of eache or leaves lyke qt of ripe pilles when they are dryed by iiij Dishes or litle more ffor Drieing of ffreckles in face or very smalle pockes or anoyntinge the 
+  Reference text (first 200 chars):
+    A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way Take 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in pu
+
+--- Agent 2 ---
+  Reference length:  3575 characters
+  Blind length:      3921 characters
+  Edit distance:     2771
+    Substitutions:   1911
+    Insertions:      257
+    Deletions:       603
+  CER:               77.51%
+
+  Blind text (first 200 chars):
+    Both pages are transcribed below, separated by a page marker. A water of violett leaves sallet oyle of sweete or Butter lyke of of rose peter they are boyled, by goe Blisters or vlsers over ffor Drysi
+  Reference text (first 200 chars):
+    A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way Take 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in pu
+
+--- Agent 3 ---
+  Reference length:  3575 characters
+  Blind length:      2971 characters
+  Edit distance:     2314
+    Substitutions:   1354
+    Insertions:      782
+    Deletions:       178
+  CER:               64.73%
+
+  Blind text (first 200 chars):
+    hand and the image quality. Uncertain readings are marked . A water of excellent vertue made of speede or Issupes lyght of ye eyes paine thaye are dropped by yor ffingers or withe a clowt The Drynke o
+  Reference text (first 200 chars):
+    A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way Take 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in pu
+
+--- Agent 4 ---
+  Reference length:  3575 characters
+  Blind length:      3920 characters
+  Edit distance:     2573
+    Substitutions:   1732
+    Insertions:      248
+    Deletions:       593
+  CER:               71.97%
+
+  Blind text (first 200 chars):
+    A water of violetts exceedinge coole, of sweete or Damaske rose of of rose water whaye are distilled by yor Birders or stilled ouer Take Diuorse of violetts in powder very smale putt itt in a glasse a
+  Reference text (first 200 chars):
+    A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way Take 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in pu
+
+--- Agent 5 ---
+  Reference length:  3575 characters
+  Blind length:      3185 characters
+  Edit distance:     2287
+    Substitutions:   1467
+    Insertions:      605
+    Deletions:       215
+  CER:               63.97%
+
+  Blind text (first 200 chars):
+    Left page is numbered 6, right page is numbered 7. A water of vertues miraculous to hele all maner of Names lyte or of eyes paine when they are dusked by eny Rednes or other wise Take Drinty of Rosish
+  Reference text (first 200 chars):
+    A water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way Take 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in pu
+
+================================================================================
+SUMMARY
+================================================================================
+
+  Agent           CER
+  ---------- --------
+  Agent 1      72.14%
+  Agent 2      77.51%
+  Agent 3      64.73%
+  Agent 4      71.97%
+  Agent 5      63.97% <-- best
+
+  Average CER:   70.06%
+  Best CER:      63.97% (Agent 5)
+  Worst CER:     77.51%
+  Spread:        13.54 percentage points
+
+================================================================================
+COMPARISON — Brumwich MS160 across runs
+================================================================================
+
+  Run                                           CER
+  ---------------------------------------- --------
+  Run 1 (basic blind)                        96.10%
+  Run 2 (updated guide)                      93.00%
+  Run 4 (alphabet-first)                      9.30%
+  Run 5 (stronger instructions)              50.62%
+  Run 6 (alphabet + vocab)                   69.29%
+  Run 7 (visual reference)                   62.49%
+  Run 13c avg (generation + protocol)        70.06% ***
+  Run 13c best (Agent 5)                     63.97% ***
+
+  Previous best: 9.30% (Run 4, alphabet-first)
+  Run 13c avg vs previous best: +60.76pp
+  Run 13c best vs previous best: +54.67pp
+
+================================================================================
+BENCHMARK
+================================================================================
+  < 1% CER  = Very good
+  < 5% CER  = Usable for most research purposes
+  ~3% CER   = Transkribus Egerton model (best for English secretary hand)
+  < 10% CER = Moderate (needs review)
+  <20% CER  = Poor (heavy editing needed)
+  20%+ CER  = Not usable
+
+  Agent 1: 72.14% — NOT USABLE
+  Agent 2: 77.51% — NOT USABLE
+  Agent 3: 64.73% — NOT USABLE
+  Agent 4: 71.97% — NOT USABLE
+  Agent 5: 63.97% — NOT USABLE
+  Average: 70.06%
