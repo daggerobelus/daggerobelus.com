@@ -1,0 +1,6 @@
+# Dependencies for manuscript evaluation scripts
+# Install: pip install -r requirements.txt
+
+jiwer>=3.0          # Standard CER/WER computation (used in HTR/OCR benchmarks)
+numpy>=1.24         # Numerical computing
+scipy>=1.10         # Statistical functions (confidence intervals, IQR)
