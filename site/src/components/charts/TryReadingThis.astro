@@ -2,7 +2,8 @@
 /**
  * Interactive "try reading this yourself" exercise.
  * Shows a cropped manuscript image and lets readers attempt to read it
- * before revealing the answer.
+ * before revealing the answer. Readers can type their own transcription
+ * and get a CER score to compare against the AI.
  */
 interface Props {
   caption?: string;
@@ -20,15 +21,40 @@ const { caption } = Astro.props;
 </figure>
 
 <script>
+  // Simple Levenshtein distance for CER calculation
+  function levenshtein(a, b) {
+    const m = a.length, n = b.length;
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        dp[i][j] = a[i - 1] === b[j - 1]
+          ? dp[i - 1][j - 1]
+          : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+      }
+    }
+    return dp[m][n];
+  }
+
+  function computeCER(reference, hypothesis) {
+    const refChars = reference.length;
+    if (refChars === 0) return 0;
+    const dist = levenshtein(reference, hypothesis);
+    return (dist / refChars) * 100;
+  }
+
   const exercises = [
     {
       id: 'henslow',
       title: 'Henslow MS688',
       difficulty: 'Approachable',
       difficultyColor: '#2d8a4e',
-      image: '/images/manuscripts/henslow-crop-pyles.jpg',
-      fullImage: '/images/manuscripts/henslow-ms688-p12.jpg',
+      image: '/projects/teaching-machines-to-read/images/manuscripts/henslow-crop-pyles.jpg',
+      fullImage: '/projects/teaching-machines-to-read/images/manuscripts/henslow-ms688-p12.jpg',
       prompt: 'This is from a 1620s recipe book written in English secretary hand — the standard handwriting of early modern England. Can you read it?',
+      tryPrompt: 'Try transcribing the first two lines after the title (starting with "Take"):',
+      targetLines: 'Take one handefull of mollet leaues, and wrappe them in a Colewort\nleafe, and rake them in the Imbers vntill they bee well rosted',
       answer: [
         '· · · · For the pyles · · · ·',
         '',
@@ -42,15 +68,18 @@ const { caption } = Astro.props;
         { label: 'Imbers', explanation: '"Imbers" means embers — you\'re wrapping mallow leaves in a cabbage leaf and roasting them in the coals. This is a recipe for treating hemorrhoids.' },
       ],
       aiResult: 'The AI read this at 3.80% CER in its best run — nearly as accurate as the leading commercial tool (Transkribus, ~3%).',
+      aiCER: 3.80,
     },
     {
       id: 'jane-jackson',
       title: 'Jane Jackson MS373',
       difficulty: 'Very hard',
       difficultyColor: '#c44040',
-      image: '/images/manuscripts/jane-jackson-crop-top.jpg',
-      fullImage: '/images/manuscripts/jane-jackson-ms373-p20.jpg',
+      image: '/projects/teaching-machines-to-read/images/manuscripts/jane-jackson-crop-top.jpg',
+      fullImage: '/projects/teaching-machines-to-read/images/manuscripts/jane-jackson-ms373-p20.jpg',
       prompt: 'This is from a different recipe book, written in a more compact hand. Even this relatively clean section is challenging. Can you make out any words?',
+      tryPrompt: 'Try transcribing the first line (starting with "the"):',
+      targetLines: 'the harth and lay it to the navell as hot as you can indure',
       answer: [
         'the harth and lay it to the navell as hot as you can indure',
         'it This use shifting it once in xxiiij howers 3 or 4 dayes together',
@@ -69,6 +98,7 @@ const { caption } = Astro.props;
         { label: 'Water damage', explanation: 'Scroll down in the full image to see why the AI scored 46.85% CER — the bottom third is consumed by water stains, making the text physically impossible to read.' },
       ],
       aiResult: 'The AI scored 46.85% CER at best on this page. In its first attempt, it hallucinated entirely different recipes — inventing wound treatments and cough cures that don\'t appear anywhere in the manuscript.',
+      aiCER: 46.85,
     },
   ];
 
@@ -116,6 +146,42 @@ const { caption } = Astro.props;
       img.loading = 'lazy';
       imgWrap.appendChild(img);
 
+      // "Try it yourself" section
+      const trySection = document.createElement('div');
+      trySection.style.cssText = 'margin-bottom: 16px;';
+
+      const tryLabel = document.createElement('label');
+      tryLabel.style.cssText = `
+        font-family: Georgia, serif; font-size: 14px; color: #121212;
+        display: block; margin-bottom: 8px;
+      `;
+      tryLabel.textContent = ex.tryPrompt;
+
+      const textarea = document.createElement('textarea');
+      textarea.style.cssText = `
+        width: 100%; box-sizing: border-box;
+        font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+        line-height: 1.8; padding: 12px 16px;
+        border: 1px solid rgba(18,18,18,0.2); border-radius: 4px;
+        background: #fff; color: #121212; resize: vertical;
+        min-height: 70px;
+      `;
+      textarea.placeholder = 'Type what you can read...';
+      textarea.setAttribute('rows', '3');
+
+      // Restore from session storage
+      const storageKey = `try-reading-${ex.id}`;
+      const saved = sessionStorage.getItem(storageKey);
+      if (saved) textarea.value = saved;
+
+      // Save on input
+      textarea.addEventListener('input', () => {
+        sessionStorage.setItem(storageKey, textarea.value);
+      });
+
+      trySection.appendChild(tryLabel);
+      trySection.appendChild(textarea);
+
       // Reveal button
       const revealBtn = document.createElement('button');
       revealBtn.style.cssText = `
@@ -138,6 +204,10 @@ const { caption } = Astro.props;
       const answerPanel = document.createElement('div');
       answerPanel.style.cssText = 'display: none;';
 
+      // Score panel (shows reader's CER if they typed something)
+      const scorePanel = document.createElement('div');
+      scorePanel.style.cssText = 'display: none; margin-bottom: 16px;';
+
       // Transcription text
       const textBlock = document.createElement('div');
       textBlock.style.cssText = `
@@ -147,7 +217,7 @@ const { caption } = Astro.props;
         border-left: 3px solid ${ex.difficultyColor};
         border-radius: 0 4px 4px 0;
         white-space: pre-wrap; color: #121212;
-        margin-bottom: 16px;
+        margin-bottom: 16px; cursor: pointer;
       `;
       textBlock.textContent = ex.answer.join('\n');
 
@@ -186,6 +256,7 @@ const { caption } = Astro.props;
       `;
       aiNote.textContent = ex.aiResult;
 
+      answerPanel.appendChild(scorePanel);
       answerPanel.appendChild(textBlock);
       answerPanel.appendChild(hintsWrap);
       answerPanel.appendChild(aiNote);
@@ -194,11 +265,64 @@ const { caption } = Astro.props;
       revealBtn.addEventListener('click', () => {
         answerPanel.style.display = 'block';
         revealBtn.style.display = 'none';
+        trySection.style.display = 'none';
+
+        // Calculate and show score if they typed something
+        const attempt = textarea.value.trim();
+        if (attempt.length > 0) {
+          const cer = computeCER(ex.targetLines, attempt);
+          const cerRounded = Math.round(cer * 100) / 100;
+
+          let comparison = '';
+          if (cerRounded < ex.aiCER) {
+            comparison = `You beat the AI (${ex.aiCER}% CER).`;
+          } else if (cerRounded === ex.aiCER) {
+            comparison = `You tied with the AI (${ex.aiCER}% CER).`;
+          } else {
+            comparison = `The AI scored ${ex.aiCER}% CER on this passage.`;
+          }
+
+          let grade = '';
+          let gradeColor = '';
+          if (cerRounded < 5) { grade = 'Excellent'; gradeColor = '#2d8a4e'; }
+          else if (cerRounded < 15) { grade = 'Good'; gradeColor = '#2878b5'; }
+          else if (cerRounded < 30) { grade = 'Decent'; gradeColor = '#d4712a'; }
+          else if (cerRounded < 60) { grade = 'Tough going'; gradeColor = '#c44040'; }
+          else { grade = 'This is hard!'; gradeColor = '#c44040'; }
+
+          scorePanel.style.display = 'block';
+          scorePanel.style.cssText = `
+            margin-bottom: 16px; padding: 14px 18px;
+            background: ${gradeColor}08; border: 1px solid ${gradeColor}30;
+            border-radius: 6px;
+          `;
+          scorePanel.innerHTML = `
+            <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px;">
+              <span style="font-family: 'SF Mono', Monaco, monospace; font-size: 22px; font-weight: 700; color: ${gradeColor};">${cerRounded}% CER</span>
+              <span style="font-family: Georgia, serif; font-size: 14px; color: ${gradeColor};">${grade}</span>
+            </div>
+            <div style="font-family: Georgia, serif; font-size: 13px; color: #555; line-height: 1.5;">
+              ${comparison}
+              CER (Character Error Rate) measures the percentage of characters that differ from the reference transcription.
+            </div>
+            <div style="margin-top: 10px; font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: #888;">
+              Your attempt: <span style="color: #555;">${attempt.length > 80 ? attempt.slice(0, 80) + '...' : attempt}</span>
+            </div>
+          `;
+        }
+      });
+
+      // Click transcription to hide and restore
+      textBlock.addEventListener('click', () => {
+        answerPanel.style.display = 'none';
+        revealBtn.style.display = 'block';
+        trySection.style.display = 'block';
       });
 
       section.appendChild(header);
       section.appendChild(prompt);
       section.appendChild(imgWrap);
+      section.appendChild(trySection);
       section.appendChild(revealBtn);
       section.appendChild(answerPanel);
       container.appendChild(section);
@@ -215,5 +339,9 @@ const { caption } = Astro.props;
   .try-reading details[open] summary {
     border-bottom: 1px solid rgba(18,18,18,0.06);
     margin-bottom: 4px;
+  }
+  .try-reading textarea:focus {
+    outline: none;
+    border-color: #121212;
   }
 </style>

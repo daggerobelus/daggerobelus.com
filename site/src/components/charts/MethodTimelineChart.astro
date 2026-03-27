@@ -85,6 +85,7 @@ const { caption = 'Only structural process changes improved accuracy — better 
     container.innerHTML = '';
 
     const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
     const rowHeight = 80;
     const margin = { top: 10, right: 20, bottom: 10, left: 20 };
     const width = containerWidth - margin.left - margin.right;

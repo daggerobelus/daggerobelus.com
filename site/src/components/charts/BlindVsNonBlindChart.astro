@@ -46,6 +46,7 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
     container.innerHTML = '';
 
     const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
     const isMobile = containerWidth < 500;
 
     const margin = { top: 30, right: 30, bottom: 40, left: isMobile ? 50 : 60 };
