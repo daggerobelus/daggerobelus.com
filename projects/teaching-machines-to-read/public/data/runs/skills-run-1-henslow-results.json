@@ -1,0 +1,126 @@
+{
+  "run": {
+    "id": "skills-run-1",
+    "name": "Skills Run 1: Baseline",
+    "date": "2026-03-27",
+    "method": "Alphabet-first method with vocabulary verification, formalized as SKILL.md",
+    "category": "baseline",
+    "question": "Does the formalized transcription skill produce comparable results to the ad-hoc instructions used in Runs 1-13?",
+    "changes_from_baseline": "None \u2014 control run establishing skills-era baseline"
+  },
+  "manuscript": {
+    "id": "henslow",
+    "page": 12
+  },
+  "skill_version": "Initial SKILL.md \u2014 alphabet-first method with vocab verification, negative-framing imperatives",
+  "agents": [
+    {
+      "agent": 1,
+      "cer": 4.74,
+      "attempted_cer": 2.94,
+      "coverage": 1.0,
+      "reference_characters": 951,
+      "hypothesis_characters": 943,
+      "substitutions": 18,
+      "insertions": 10,
+      "deletions": 17,
+      "gap_count": 0,
+      "uncertain_count": 0,
+      "transcription_text": "My lorde of Caunterberries\nBrothe for a Consumptione\nTake like as before sauinge putt thereto a handefull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knitt\ntogeather of euerie one a like quantitye.\n\nffor the pyles\nTake one handefull of mollett leaues, and wrappe them in a Colewort\nleafe, and rake them in the Imbers vntill they bee well rosted\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a mortar, and putt to yt oyle of roses, and grinde them togeather\nthen take it and laye itt to the pyles withe a truster, and vse this\nmorninge and euenynge.\n\nffor the flixe\nTake horsedounge new made and frie itt withe sweete butter\nand putt it in a clothe and laye itt to the fundament as hott\nas you maye suffer ytt, and soe vppen vntill you haue ease.\n\nffor Defnes\nTake blacke woole whiche growes vppon the flanke\nof a sheepe and Farre, and mingell them togeather\nand putt them into the eare."
+    },
+    {
+      "agent": 2,
+      "cer": 5.26,
+      "attempted_cer": 3.58,
+      "coverage": 1.0,
+      "reference_characters": 951,
+      "hypothesis_characters": 945,
+      "substitutions": 23,
+      "insertions": 11,
+      "deletions": 16,
+      "gap_count": 0,
+      "uncertain_count": 0,
+      "transcription_text": "My lorde of Caunterberries\nBrothe for a Consumptione\nTake like as before sauinge putt thereto a handfull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knitt\ntogeather of euerie one a like quantitye.\n\nffor the pyles\nTake one handefull of mollett leaues, and wrappe them in a Colewort\nleafe, and rake them in the Embers vntill they bee well rosted\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a mortar, and putt to itt oyle of roses, and grinde them togeather\nthen take it and laye itt to the pyles withe a trusser, and vse this\nmorninge and euenynge.\n\nffor the fflixe\nTake horsedounge new made and frie itt withe sweete butter\nand putt it in a clothe and laye itt to the fundament as hott\nas you maye suffer itt, and lye vppon vntill you haste ease.\n\nffor Dessues\nTake blacke woole whiche growes vppon the flanke\nof a sheepe and tarre, and mingell them togeather\nand putt them into the eare"
+    },
+    {
+      "agent": 3,
+      "cer": 5.68,
+      "attempted_cer": 3.68,
+      "coverage": 1.0,
+      "reference_characters": 951,
+      "hypothesis_characters": 943,
+      "substitutions": 24,
+      "insertions": 11,
+      "deletions": 19,
+      "gap_count": 0,
+      "uncertain_count": 1,
+      "transcription_text": "My lorde of Caunterberries\nBrothe for a Consumptione\nTake like as before savinge putt thereto a handsfull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knitt\ntogeather of euerie one a like quantitye.\n\nffor the pyles\nTake one handsfull of mollett leaues, and wrappe them in a Colewort\nleafe, and rake them in the Embers vntill they bee well rosted\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a morter, and putt to yt oyle of roses, and grinde them togeather\nthen take it and laye itt to the pyles withe a trosser, and vse this\nmorninge and euenynge.\n\nffor the fflixe\nTake horsedonge new made and frie itt withe sweete butter\nand putt it in a clothe and laye itt to the ffundament as hott\nas you maye suffer ytt, and sitt vppen vntill you haue ease\n\nffor Deafues\nTake blacke woole whiche growes vpon the flanke\nof a sheepe and [burne?] and mingell them togeather\nand putt them into the eare\n"
+    },
+    {
+      "agent": 4,
+      "cer": 6.0,
+      "attempted_cer": 3.58,
+      "coverage": 1.0,
+      "reference_characters": 951,
+      "hypothesis_characters": 938,
+      "substitutions": 24,
+      "insertions": 10,
+      "deletions": 23,
+      "gap_count": 0,
+      "uncertain_count": 1,
+      "transcription_text": "My lorde of Caunterberries\nBrothe for a Consumptione\nTake like as before savinge putt thereto a handfull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knitt\ntogether of euerie one a like quantitye.\n\nffor the pyles\nTake one handefull of mollett leaues, and wrappe them in a Colewort\nleafe, and rake them in the Embers vntill they bee well rosted\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a morter, and putt to ytt oyle of roses, and grinde them together\nthen take it and laye itt to the pyles withe a trosser, and vse this\nmorninge and euenynge.\n\nffor the flixe\nTake horsedounge new made and frie itt withe sweete butter\nand putt it in a clothe and laye itt to the fundament as hott\nas you maye suffer ytt, and lye vppen vntill you haste ease.\n\nffor Issues\nTake blacke woole whiche growes vpon the flanke\nof a sheepe and [tare?] and mingell them together\nand putt them into the eare\n"
+    },
+    {
+      "agent": 5,
+      "cer": 4.63,
+      "attempted_cer": 2.73,
+      "coverage": 1.0,
+      "reference_characters": 951,
+      "hypothesis_characters": 939,
+      "substitutions": 19,
+      "insertions": 7,
+      "deletions": 18,
+      "gap_count": 0,
+      "uncertain_count": 1,
+      "transcription_text": "My lorde of Caunterberries\nBrothe for a Consumptione\nTake like as before sauinge putt thereto a handefull of violett leaues\nlangdebeefe leaues Borrage leaues and Strawberrie leaues, knitt\ntogeather of euerie one alike quantitye.\nffor the pyles\nTake one handefull of mollett leaues, and wrappe them in a Coleworte\nleafe, and rake them in the imbers vntill they bee well rosted\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a morter, and putt to yt oyle of roses, and grinde them togeather\nthen take it and laye itt to the pyles withe a trusser, and vse this\nmorninge and euenynge.\nffor the flixe\nTake horsedounge new made and frie itt withe sweete butter\nand putt it in a clothe and laye itt to the fundamente as hott\nas you maye suffer ytt, and lye vppen vntill you haue ease.\nffor Deafnes\nTake blacke woole whiche growes vpon the flanke\nof a sheepe and [hare?] and mingell them togeather\nand putt them into the eare."
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 5.26,
+      "median": 5.26,
+      "std_dev": 0.59,
+      "ci_95_lower": 4.53,
+      "ci_95_upper": 5.99,
+      "min": 4.63,
+      "max": 6.0,
+      "iqr_lower": 4.74,
+      "iqr_upper": 5.68,
+      "spread_pp": 1.37
+    },
+    "attempted_cer": {
+      "mean": 3.3,
+      "median": 3.58,
+      "std_dev": 0.43,
+      "ci_95_lower": 2.76,
+      "ci_95_upper": 3.84,
+      "min": 2.73,
+      "max": 3.68,
+      "iqr_lower": 2.94,
+      "iqr_upper": 3.58,
+      "spread_pp": 0.95
+    },
+    "coverage": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  },
+  "baseline_comparison": {
+    "previous_best_cer": 3.8,
+    "previous_best_run": 6,
+    "improved": false
+  },
+  "reference_text": "My Lorde of Cannterberries\nBrothe for a Consumptione\nTake like as before sauinge putt thereto a handfull of voilett leaues\nlangdebeeffe leaues Buorrage leaues and strawberrie leaues, knitt\ntogeather of euerie one alike quantitye.\nFor the pyles\nTakeone handefull of mollett leaues, and wrappe them in a Colewort\nleafe, and rake them in the Imbers vntill they bee well rosted.\nthen take them, and putt awaye the Coleworte leafe, and grinde\nthem in a morter, and putt to ytt oyle of roses, and grinde them togeather\nthen take itt and laye itt to the pyles withe a trusser, and use this\nmoreninge and euenynde.\nFor the Flixe\nTake horsedounge new made and frie itt withe sweete butter.\nand putt itt in a clothe and laye itt to the fundamente. as hott\nas yow maye suffer ytt, and sitte uppon untill yow haue ease.\nFor Deffnes\nTake blacke woole, whiche growes vppon the flanke\nof a sheepe and tarre, and mingell them togeath[er]\nand putt them into the eare."
+}

@@ -28,17 +28,36 @@ This skill orchestrates a blind transcription experiment. It creates isolated en
 
 The purpose is to test how well a set of transcription instructions works — and how consistent the results are across multiple agents. A single CER number doesn't tell you much; you need spread data to know if a method is reliable or if one good result was a fluke.
 
+## Standard Test Set
+
+The project has five manuscripts used for blind evaluation. Pre-skills testing used Runs 1–13 (single-agent, ad-hoc instructions). The skills system uses a separate numbering: **Skills Run 1, Skills Run 2, etc.** Each skills run tests 5 agents per manuscript for spread data.
+
+All test files live under `ingest/archive/test/` in the project directory (`projects/teaching-machines-to-read/`). Results are saved to `public/data/runs/skills-run-N-manuscript-results.json`.
+
+| Manuscript | Image | Reference | Pre-Skills Best | Skills Baseline (Run 1, mean) |
+|---|---|---|---|---|
+| Henslow MS688 | `henslow-ms688/test-page.jpg` | `henslow-ms688/test-page-reference.txt` | 3.80% (Run 6) | 5.26% (att. 3.30%) |
+| Sedley MS534 | `sedley-ms534/test-page.jpg` | `sedley-ms534/test-page-reference.txt` | 13.65% (Run 10) | 16.87% (att. 11.47%) |
+| Bulkeley MS169 | `bulkeley-ms169/test-page.jpg` | `bulkeley-ms169/test-page-reference.txt` | 16.21% (Run 6) | 15.65% (att. 12.69%) |
+| Brumwich MS160 | `brumwich-ms160/test-page.jpg` | `brumwich-ms160/test-page-reference.txt` | 9.30% (Run 4) | 71.11% (att. 19.75%) |
+| Jane Jackson MS373 | `jane-jackson-ms-373/page-20.jpg` | `jane-jackson-ms-373/page-20-reference.txt` | 46.85% (Run 5) | 74.10% (att. 18.61%) |
+
+Shared resources (also in the project directory):
+- **Paleography guide:** `ingest/references/paleography-guide.md`
+- **Vocabulary reference:** `extracted/derived/vocab/vocab-reference.txt`
+
+When the researcher says "use the standard five" or "run on Henslow," use these paths. If they provide a different manuscript, ask for the image and reference paths.
+
 ## Before You Start
 
 **Permissions required:** This skill creates folders, copies files, runs Python scripts, and launches subagents — all via Bash, Read, Write, and Edit. If permissions aren't pre-approved for `/tmp/manuscript-runs/` and the project's `skills/` directory, you'll be blocked immediately. Ask the user to check their Claude settings before starting.
 
 You need:
 
-1. **A manuscript image** to transcribe (the test page)
-2. **A reference transcription** for that page (ground truth from FromThePage or similar)
-3. **The number of agents** to run (default: 20 — large batches give high confidence in spread data)
-4. **The transcription skill** to test (default: `skills/manuscript-transcription/SKILL.md` in this repo)
-5. **The run number** — check existing runs in `public/data/runs/` to determine the next number
+1. **Which manuscript(s)** — from the standard test set above, or custom paths if testing something new
+2. **The number of agents** to run (default: 20 — large batches give high confidence in spread data)
+3. **The transcription skill** to test (default: `skills/manuscript-transcription/SKILL.md` in this repo)
+4. **The run number** — check existing runs in `public/data/runs/` to determine the next number
 
 Confirm these with the user before setting anything up.
 
@@ -328,6 +347,7 @@ Write a new file to the project's data directory. **Never modify existing files.
     {
       "agent": 1,
       "cer": 9.12,
+      "attempted_cer": 7.45,
       "coverage": 0.97,
       "reference_characters": 1847,
       "hypothesis_characters": 1823,
@@ -384,6 +404,18 @@ Write a new file to the project's data directory. **Never modify existing files.
       "iqr_upper": 11.02,
       "spread_pp": 2.89
     },
+    "attempted_cer": {
+      "mean": 7.45,
+      "median": 7.30,
+      "std_dev": 0.98,
+      "ci_95_lower": 6.80,
+      "ci_95_upper": 8.10,
+      "min": 6.22,
+      "max": 9.01,
+      "iqr_lower": 6.85,
+      "iqr_upper": 8.02,
+      "spread_pp": 2.79
+    },
     "coverage": {
       "mean": 0.96,
       "min": 0.89,
@@ -412,6 +444,7 @@ Write a new file to the project's data directory. **Never modify existing files.
 - `run.changes_from_baseline` — what specifically changed in the instructions or setup. This is the independent variable.
 - `manuscript.id` — use the same IDs as `cer-results.json`: "henslow", "sedley", "bulkeley", "brumwich", "jane-jackson"
 - `agents[].errors` — use the same category keys as `error-categories.json`: letterformMisreading, doubleLetter, hallucination, punctuation, capitalization, uvConvention, terminalE, wordSegmentation, lineation, modernizationBias, missingWord, otherSpelling, other
+- `agents[].attempted_cer` — CER on confident text only, excluding deletions attributable to `[...]` gaps. Measures: "when the agent says it can read something, how often is it right?" Computed as (Substitutions + Insertions) / (reference_chars - illegible_chars). This is the confidence-calibration metric — compare it against overall CER to see how much of the error is wrong text vs. missing text.
 - `agents[].coverage` — fraction of reference characters the agent actually attempted (vs. marking `[...]`). Computed by the CER script. A transcription that's 99% accurate but only covers 40% of the page isn't useful — both numbers matter.
 - `agents[].error_details` — every individual error with its line number, the reference text, the agent's text, the category, and a note. This powers future word-diff views and lets you trace exactly where on the page errors cluster.
 - `agents[].gap_count` / `uncertain_count` — how many `[...]` gaps and `[word?]` flags the agent used. Honest gaps are a sign of good calibration, not failure.
@@ -419,6 +452,7 @@ Write a new file to the project's data directory. **Never modify existing files.
 - `agents[].alphabet_observations` — what the agent noticed about the hand during Step 1. Lets you later investigate whether alphabet quality predicts transcription accuracy.
 - `agents[].audit` — integrity audit for this agent. `duration_ms` and `total_tokens` from the subagent completion notification. `files_accessed` is every file the agent read. `violations` lists any unauthorized file access (reads outside the agent's folder). `flags` lists soft warnings (fast completion, no alphabet, zero gaps, low CER). `clean` is true only if there are zero violations. **If `clean` is false, this agent's CER should be excluded from aggregate statistics.**
 - `summary.cer` — full statistical summary: mean, median, standard deviation, 95% confidence interval (mean ± 1.96 × std_dev / √N), min/max, interquartile range (25th to 75th percentile), and spread. This is what makes the results publishable — "mean CER = 9.82% (95% CI: 8.94–10.70%)" is what a reviewer expects, not just "spread was 3pp."
+- `summary.attempted_cer` — same statistical summary but for attempted CER (confident text only). The attempted CER spread measures consistency of the text agents actually commit to — a tighter attempted spread than overall spread means the variance comes from how much text agents skip, not from how well they read.
 - `summary.coverage` — mean, min, and max coverage across agents. If any agent has low coverage, it flags that the manuscript may have legitimately illegible sections.
 - `error_consensus` — which words ALL agents got wrong (systematic), which only some got wrong (partial), and which only one missed (noise). The most actionable data for improving instructions: if every agent misreads the same word, the skill needs to address that.
 - `reference_text` — the full reference transcription. Included so the JSON file is self-contained — you can generate any comparison view from this file alone without needing to look up the reference elsewhere.

@@ -1,0 +1,126 @@
+{
+  "run": {
+    "id": "skills-run-1",
+    "name": "Skills Run 1: Baseline",
+    "date": "2026-03-27",
+    "method": "Alphabet-first method with vocabulary verification, formalized as SKILL.md",
+    "category": "baseline",
+    "question": "Does the formalized transcription skill produce comparable results to the ad-hoc instructions used in Runs 1-13?",
+    "changes_from_baseline": "None \u2014 control run establishing skills-era baseline"
+  },
+  "manuscript": {
+    "id": "brumwich",
+    "page": "6-7"
+  },
+  "skill_version": "Initial SKILL.md \u2014 alphabet-first method with vocab verification, negative-framing imperatives",
+  "agents": [
+    {
+      "agent": 1,
+      "cer": 67.65,
+      "attempted_cer": 29.06,
+      "coverage": 0.8952,
+      "reference_characters": 3606,
+      "hypothesis_characters": 2159,
+      "substitutions": 884,
+      "insertions": 54,
+      "deletions": 1500,
+      "gap_count": 126,
+      "uncertain_count": 14,
+      "transcription_text": "A water of Violets exceeding helpfull & meete\nfor diuers Ills of of great price they\nare in regard by all Bishopps\nor other men\n\nffirst Distill of Violets in feeder very smalle\nthe flowers & putt vnto the water & meaning\n[...] flowers another the water & meaning\nthree pints [being?] made good therof a most\nnoble & rare water of enough to make writeing\nin as late as enough. dissolue making\n[...] the [...] present of the compound that it\nbe as pure as it was before\n\nTo he as pure as it can before\nthe\nTo the [want?] borage of [buskes?] grasse, good pile\nof waters whilst comeing [ground?] [...] [...] making\nthereof a healthfull and [...] of [...] waters\nbruised [thorowly?] in a morter by [...] means\nput them in a distiller like a good cup wheare\nthe water cometh thereof most pure & good &\nof great vse, as a healing one in many rare\ncases for [...] this being a good and a\nremedie of [...] state [...] Take a pinte and put it into\na still ffarder a coale of [...] in the running wett\nthereof it will haue much & such exceeding\nmaketh good\n\nA Garden for yr guts\n\nThe running of a Garden comoned to your\ngoodlie is not a nombre of mens hands & you\nbrought me [...] from your [...] you\nhaue [...] and the other [...] table safe &\nsecured of in your hands & often vsinge\n\nTo lay a blew house to property\nTake of the oile of [...] whilst\nhis [...] on [...] from this &c &\nlet [...] Dissolue it be [...] in [...] let\n& [...] dried haue some of the [...] your\n[...] Take a ffarther smalle to the\nthe galle wine of & for [...] the trubles thereof\nthe [...] in [...]\nThe [...] [...] the water his making\n[...] [...] [...] to & rest of this\n[...] making in of [...] of the best\n[...]\n[...] To Dye Cloth for [...] [...]\n\nThe [...] Take a good [...] of [...] [coppie?] litle [...] proportions of\n[...] a proportion of [...] & [...] [pretended?] of\n[...] [...] [...] the [...] much [...] of [...] the\n[...]\n\nA [...] oyntment to your need [...]:\n\nThe making of two [...] oile pinte newe, one of [...] & [...] your good put\nand [...] A\n\nA receipt for your [...] comfort [...] & [...] [...] [...]on\n\nTake of the water of Sage three [...] halfe a [...] of [...] when\n& a [...] of [...] [...] vpon a [...] of [...] [...]\n& [...] of [...] the [...] you [...] it [...] so [...] [...] the\n[...] [...] of such [...] as more [...] [...] [...] so [...] from\nit [through?] a thicke peice of linnen [...] a [...] of [...] pinte, [...] of\n[...] of [...] & [...] [...] [...] first time of this [mak-\ning?] [...] [...] would thinges to [...] it in [...] [...] you\n[...] it is to [...] & [...] his [...] of [...] hee [...] [good?] [...] what the\ngood [...]\n\nA very good [receipt?] for one [...] examined by [...] Mr [...] [Bentley?]\n\nTake a very good [handfull?] of [...] [...] a [...] of [...] of\nthe And halfe a peece of there [sweet?] [...] [...] of [...]\n[...] that is [...] in so much as that hee shold neuer thus\nmust [...] & [...] your [...] hinting [...] to [...] you\n"
+    },
+    {
+      "agent": 2,
+      "cer": 70.03,
+      "attempted_cer": 20.5,
+      "coverage": 0.8278,
+      "reference_characters": 3606,
+      "hypothesis_characters": 1718,
+      "substitutions": 587,
+      "insertions": 25,
+      "deletions": 1912,
+      "gap_count": 207,
+      "uncertain_count": 12,
+      "transcription_text": "A water of Endive succory Sorrell, of each\nof thease lyke quantety of eche plantaine stalkes they\nare in season, by gods helpe &\nor elses more\n\nTake a Dosing of Treakle as muche any smale\n[...] of [...] a greater quantety [...] of [...] meaning\n[...] is moche a greater [...] in [...] of [...] meaning\n[...] is a water of maryg[...] together morning\nand euening [...] this water [...] of [...]\nof this [...] of good [...] drink it of the [...] let\n[...] to be [...] as it can before\n\nTo [...] of [...] [...] Torches, [...] [...] [...] [...]\n[...] [...] whill [...] [...] stalkes green [...] pille\n[...] peces [...] white [...] stalke [lettish?] [...]\n[...] a [bushelhod?] and [...] of [...] in [...]\n[...] them in a [stilling?] pott a good [...] of wine\nor [...] [...] and [...] them in a [...]ing and\n[...] as [...] [...] stillid in [...] a [...] of [...] [...] [...]\n[...] a [...] [...] This [...] to [...] put it into\n[...] a bottell [...] a [...] of [...] in the morning [...]\n[handfull?] of sage\n\nA Garden for yo r use 1593\n\nThe ordering of a garden compound of your\n[ground?] is [...] a quantetie of mens [...] and [youths?]\nbrought out [...] [part?] [...] and [...]\nof [...] and [...] of other [...] [...] after\n[amount?] of it [...] times of after Sugar\n\nTo lay a blind house to [purpose?]\nTake of the [...] as smalle [...] with\n[...] one [...] them thick &c./\nbut [...] you should [...] be [...] it [...] let\n[...] [...] hard [...] to the [...] your\ngood for [...] Take a feather [...] to like\n[...] the [...] unto it of [...] the [...] thorow\nthe [...] [...] of the [...] this may [keep?]\n[...] the [...] of [...] the same [...] [...]\n[...] for [...] [...] in [...] of the [...] of [...] this\ndries [...] [...]\n\n[Page 7]\n\n[...] To [...] [...] for [...] [...]\n[...] [...] [...]\n\nTake [...] best [...] of [...] [...] three [...] [...] proportions of\na proportion of [...] 3 [...] proportions of\n[...] you [...] will the further [...] 1/3 of those\n\n[...] as you will [...].\n\nThe water of [...] only [...] plagu [...] one of [...] [...] [...] put\nand [...].\n\nA receipe for one [...] [...] that [...] of [...] [...] [Comption?]\n\nTake of water of [...] three pintes [...] halfe a [...] of wine or more of\na [...] of whole [...] upon the [...] and [...]\n[...] of [...] [...] it [...] [...] of the [...] [...] [...]\n[...] of each halfe an ounce for [...] to be [...] from\n[...] thereof, a third [...] of burnt [...] a [...] of [...] gum [...] [...]\n[...] of [...] & [...] of the [...] first [...] of this [...] the\n[...] of [...] [...] would [...] to [...] of it [...] is [...] the [...] you\n[...] it is [...] if [...] [...] for [...] of this [...] green cloth that\nyou [...] [...]\n\nA very good receite for [...] eyes [...] by [...] [Bartley?]\n\nTake a [...] good handfull of [...] still a good [...] of [...]\n[...] And [...] a [...] of theis [...] [...] [...] put\nthem into a [...] [...] and the [...] halfe more they\nmust all [...] [...] their [...] [...] pleasure to drink or [...] eate\n"
+    },
+    {
+      "agent": 3,
+      "cer": 64.51,
+      "attempted_cer": 28.08,
+      "coverage": 0.8869,
+      "reference_characters": 3606,
+      "hypothesis_characters": 2235,
+      "substitutions": 841,
+      "insertions": 57,
+      "deletions": 1427,
+      "gap_count": 133,
+      "uncertain_count": 40,
+      "transcription_text": "A water of Violett sixe or seuen [handefull?] of violet\nor Iesmin leafe of of eych print mixt they\nare steepd by 400 Bishops\nor elder rose\n\nTake Diosuy of Veatch in ponder very smalle\n& [......] a pinch certaine for colds & renamies\n[...] musle & resin for cold & standing\n[...] throe pinte [liqu?] wash fresh drincke it w[i]th\nthree pinte liqu water fresh drincke & fresh it\n[...] one a moneth or [...] of [...] mirging\nof the [...] of [...] prescrued one [...] fresh\noyl in ye yt pressed of the iuyce [then?] cold [...]\nin [...] mirred [...]\nto be as pure as it can before\n\nA drinke for [......] of stomack\nTake of sweet butter of a frish Grosse golde [...]\n[...] simmer whilst crueing [season?] & coddle [infusion?]\n[...] [...] a handefull [...] order of ech [marr?]\nbristles a handefullthe [...] dose of the [...] to [...]\nlay them in steping in liqu a pinte yt of [...] of\nthe [...] oyle of [...] certaine fresh\nof [...] one [...] a [...] in a morning take\na [...] a common [stil?] [...] [...]\ncold & settled [...] then yt when put in cold\nof stilled french a doale of litle in this morning\n& att night drinke a draft of [......] and do this\nmorninge & night\n\nA powder for ye [...]\n\nThe [...] of a [powder?] annointed in youre\n[handfull?] of in a measure of meats & honich your\n[bought?] out [...] from youre [...] giue\na water of [...] dose [...] the faire [...]\nannointed of in [...] time of often sugar\n\nTo [...] a blind boule to [supperate?]\nTake of the oile or anoyinted whole\n[...] one one [...] them thise &kc &\n[...] [...] spreade [...] the gum it is use let\n& man [hand?] hard swell to the [...] your\n[...] salt [...] [...] a plaster [soddes?] & [...]\nthe oyle both in [it?] for true in a plaster thereof\nthe [...] is [...] of the [...] his [...] [...]\n[...] the [...] [...] certaine [...] for [...]\n[...] a [...] of oyre ye fresh of oyl this\ndios [...] [finished?]\nffor a [...] for [...] yt [...] prouision of\n[...] a fruite [...] of Cardinge & [...] a [...] of\n[...] in [...] of the [...] euerie [...] of [these?]\n[...] giue in with [...] further med [...] of these\n\nA [...] to [...] the [...] of yt\n\nthe water of true honick in plaite sugar one of [scale?] [...] of [...] sugar put into\nand [...] [...]\n\nA Receipt for one [...] [manner?] [...] [Surgeon?]\n\nTake of water of frog spawne [put?] it in a [layd?] of [...] & sett [...]\n& a [shure?] of cold [well?] one [...] together\n[...] in [...] the [...] of the [...] [...] [Recipes?] they [bee?]\n[prescrued?] of each [...] [...] one [...] & [...] one & [...] there\n[...] a third [pinte?] of bone pepper & [...] of [true?] [...] of\n[mixture?] of [...] & [prescrued?] [...] & the powder [...] of this [cake?]\nin [...] & [...] of [...] would [...] [to?] it [...] [...] [...] giue\nhim it to [...] [it?] rather let giue of [...] [being?] giuen [order?] [...] this\n[...] [...]\n\nA very good Receipt for one [...] [consumption?] by Mr [Barlow?]\n\nTake a very good handfull of violett [...] a pound of raisons of the\nsun dried [...] a pound of [three?] [...] [...] put [...]\n[...] that a [...] to [...] & that he [...] [large?] [...] this\nmust in [...] true fine [...] Nothinge [pleasure?] to [...] [...]\n"
+    },
+    {
+      "agent": 4,
+      "cer": 76.39,
+      "attempted_cer": 10.69,
+      "coverage": 0.975,
+      "reference_characters": 3606,
+      "hypothesis_characters": 1240,
+      "substitutions": 364,
+      "insertions": 12,
+      "deletions": 2377,
+      "gap_count": 30,
+      "uncertain_count": 6,
+      "transcription_text": "A very good drinke for the Consumption\nof the lungs or any inward disease\nThe water that is here set downe is good for any consumption of\nthe lungs, or a purification of the blood, a griefe or impostume of\nthe lungs, or for them that are short winded, or haue an old\ncough or cold, or for the Tisicke, and it\nis good against all manner of feuers and [...] of the\nplague.\nA receipt to make good brothe.\nThe brothe of two hens, one pinte, one of a calfe [...] your putt\ninto it a.\nA receipt for one that is troubled with a [...] Consumption\nTake of water of frog spawne, garden snailes half a pinte of each when as\nit is a tyme of colde weather, after the spawne is gathered [...]\na pinte of [newe?] milke, & for the [separate?] Receipts they may\n[...] of each half an ounce the [...] to be at [least?] from\n[...] a third pinte of beare pepper & a [...] of [...] of [...]\n[...] of a gallon of [...] [...]\n[...] & the [...] first boile of this [...] take\nit vp [...] & let it [...] would [need?] to goe in to [...] [...] your [...] you\n[...] to it & [...] rather be good if you haue giuen ouer [...] the\nputt into [...]\nA very good receipt for one that was consumed by Mr Rowley\nTake a very good handfull of [violetts?] with a pound of raisens of the\nsun stond half a pound of blew currants half a pound of\nprunes that is washed & stoned, & then [...] half an [...] more this\nmust all [...] one [...] bag, boileing [pleasures?] to [...] now\n"
+    },
+    {
+      "agent": 5,
+      "cer": 76.97,
+      "attempted_cer": 10.44,
+      "coverage": 0.7438,
+      "reference_characters": 3606,
+      "hypothesis_characters": 1117,
+      "substitutions": 274,
+      "insertions": 6,
+      "deletions": 2494,
+      "gap_count": 308,
+      "uncertain_count": 12,
+      "transcription_text": "A water of Endive succory borage of each\na handes [lytle?] of of each [pinte?] [they?]\nare boyled by the [Dishes?]\nor stilled ouer\n\nTake [Drinke?] of Treacle in winter very smalle\n[...] [...] a [...] [quantitie?] [...] the [...] of reasons\n[...] [...] morter [...] [...] [...] the [...] [...]\n[...] [...] [...] [...] make good [...] of [...] a [...]\nin [...] [...] of [...] [...] [...] [...]\n[...] [Boyle?] 4 or 5 poundes [...] of the [...]\n[...] [...] [...] [...] the [...] [...] [...]\n[...] [...] [...] [...] [...] [...]\n[...] [...] [...] [...] [...]\n\n[...] be [...] as it was before\n\n[...] of the [...] [...] of [...]\nof [...] [garden?] [...] of [...] green gold [...]\n[...] [white?] [...] [course?] [...] [...] [...]\n[...] a handfull [...] [...] of [...] [...] [...]\n[...] them in a stillatory like a good [...] of [...] and\n[...] of it [...] and [...] to [...] [...]\nof [...] [...] [...]\n[...] a common still [...] [...] [...] [...]\n[...] [...] in a [...] [...] [...] [...]\n[...] [Thinke?] [...] [...] put it [...] into\n[...] of [...] franke a [...] of [...] in the morning\n[...] of [...]\n\nA Cordiall water of [...] [...]\n\nThe [...] of [...] counter [...] [...] of your\ngarden [...] a [...] of [...] a [...] of your\nbought [...] rosemary [...] [...] [...]\n[...] of [...] other [...] the [...] [...] [...]\n[amount?] of [...] of these [...] of [...] sugar\n\nTo [...] a [...] house to [...]\n[...] of the [...] a [...] [...] [...]\n[...] [...] one [...] them [...] this & [...] of\n[...] [...] fyre should [...] be [...] [...] [...] let\n[...] [...] [...] [...] [...] [...] to the [...] your\n[...] [...] Take a feather [...] to [...]\n[...] the yolke [...] a [...] [...] [...] Treakle through\nthe [...] [...]\n[...] [...] [...] [...] of the [...] [...] this [...]\n[...] [...] [...] of [...] [...] [...] to [...] of [...] this\n[...] [...] [...]\n\n[...] [...] [...] for [...] [...] [...]\n\nTake [...] and [...] of some [...] [...] [...] quantitie of\n[...] a [...] of [...] a [...] of\n[...] [...] [...] in [...] and [...] of these\n[...] [...] [...] [...] a [...] [...]\n[...] [...] to [...] [...] [...] of [...] [...]\n\nA [...] [...] or [...] [...] of [...]\n\nA recipe for [...] [...] [...] [...] Confiture\n\nTake of water of frogge [...] [...] a [...] of [...] where of on\na [...] of [...] [...] [...] a [...] [...]\n[...] [...] the [...] [...] Keeper [...] they [...]\n[...] of each [...] [...] each [...] a [...] [...] to [...] [...]\n[...] a [...] [...] of [...] [...] a [...] of [...] [...] of [...]\n[...] of [...] a [...] [...] [...] the [...] of this [...] with\n[...] [...] [...] would [...] to [...] [...] to [...] [...] your\n[...] [...] to [...] [...] [...] [...] [...] [...] that [...]\n[...] [...]\n\na very good receipt for [...] [...] [...] [...] Mr [...]\n\nTake a very good handfull of [...] [...] a pound of [...] of\n[...] [...] halfe a pound of [...] [...] [...] [...] [...]\n[...] [...] a [...] [...] so [...] [...] that [...] [...] them they\nmust [...] a [...] [...] [...] [...] please to [...] [...]\n"
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 71.11,
+      "median": 70.03,
+      "std_dev": 5.45,
+      "ci_95_lower": 64.34,
+      "ci_95_upper": 77.88,
+      "min": 64.51,
+      "max": 76.97,
+      "iqr_lower": 67.65,
+      "iqr_upper": 76.39,
+      "spread_pp": 12.46
+    },
+    "attempted_cer": {
+      "mean": 19.75,
+      "median": 20.5,
+      "std_dev": 9.02,
+      "ci_95_lower": 8.56,
+      "ci_95_upper": 30.95,
+      "min": 10.44,
+      "max": 29.06,
+      "iqr_lower": 10.69,
+      "iqr_upper": 28.08,
+      "spread_pp": 18.62
+    },
+    "coverage": {
+      "mean": 0.8657,
+      "min": 0.7438,
+      "max": 0.975
+    }
+  },
+  "baseline_comparison": {
+    "previous_best_cer": 9.3,
+    "previous_best_run": 4,
+    "improved": false
+  },
+  "reference_text": "{6}\n\nA water of Exelent uirtue to helpe the weake or dimme sight of the eyes when they are decayed by age sicknes or other way\n\nTake 3 drames of tueiah in puder uery smalle & as much of aloes epyricum in puder 2 drames of fine sugar 6 ounces of red rose water 6 ounces of good white wine mix all thes together & put it into a Cleane glase being well Closed & stoped & set it in the sune a mounth together mixing & stiring together all the sayd things at least ons a day to the intent you in corproate this being done take of the same water & put one drope in each eye morning & euening contineue soe a Cartin space it will cause the sight to come again & be as pure as it was before\n\nA water to Stringthen the sight\n\nTake of wood bettony of 3 leaued grase with the white spote ockley Cristy yarow sinckfold sallendine red fenill of each a good handfull of eye bright 2 great handfulls a handfull of white rosses or the water of them a quarter of a pinte shread all this together & lay them in steepe in halfe a pinte of white wine & 2 or 3 sponfulls of honey in an earthen pot close stoped one whole night in the morning still it in a common still adding to it halfe a pint of the urine of a man Child when you put it into the stille drinck a litell of this in the morning festing 2 howers after it & with a litell rage wash the eyes\n\nA powder for the eyes\n\nTake of the seeds of Corander prepared & swet fenill of each a drame of mase 2 scruples of eye bright one ounce of fine sugar beaten & [seised] 3 ounces make a powder of them take halfe a sponfull of it after diner & after supper\n\nTo Cuer a blind horse or Cristane\n\nTake of the best & newest wheat & lay it Corne by Corne one a Clean Cleauer then take a red hot fyre shouell & lay upon it & soe let a man tread hard upon it & ther will come forth an oyle then take a feather quikley & like up the oyle with it & soe draw the feather through the eye\n\nA water for sore eyes whose lides are all swelled\n\nTake a pritey quantety of red rosewater & as much Alowes beaten to fine powder as with turne it yeallow drope a drope into the eyes morning & euening & wash the eye lides with a feather\n\n{7}\n\nA Medicine for sore eyes\n\nTake three Cloues beat them fine and searse them three Spoonefulls of fennill water 3 Spoonefulls of mamsey 3 penny worth of Tutty pared and beaten fine mix all these in a little glasse and dresse the eye with a feather once a day or as you shall see occasion\n\nFor a pinne or pin & web in the Eye\n\nThe white of hens doung, and grated ginger, more of the white than of the ginger put some into the eye\n\nA water for sore eyes commeded by Sir James Langham\n\nTake of watter of frogs spawn perdelicum half a pinte infuse into it a dram of uolus metelorum after wait decant it of through a peice of lawne paper after put into it of Salprunla & sugar candy finly powdred of each half an ounce after it has stood so 24 howers strein it through a thick peice of brown paper & keep it for your use it is for cooling the eyes & preseruing & stringthing them & to take of specks in the eyes put in more sugar & salprunlla put some of this water into a prety wide mouth vioyll so open as to receiue the eye open into it & so let the water lye upon the eye being opened some while this you may doe in a morning\n\nA uery good receipt for sore eyes commended by Mrs Worsley\n\nTake a uery good handfull of scabeious half a pound of raisons of the sun stoned half a pound of blue corans brused put thes into a galond of midling bear & drinke no other drinke & this has helpt many they must at the same tyme lay blistering plaisters behind the ears"
+}

@@ -14,7 +14,7 @@ description: >
 
 This transcription is part of a digital humanities research project investigating how AI agents learn to read early modern handwriting. The results will be presented to scholars in English literature, digital humanities, and paleography. Every transcription you produce may be compared against Transkribus benchmarks and evaluated using field-standard CER metrics (computed by `jiwer`, the same library used in ICDAR HTR competitions).
 
-This means: **do not cut corners.** Do not hand-roll approximations when the skill gives you a method. Do not skip steps to save time. Do not use general knowledge of English to fill in what you can't read. The people reviewing this work are experts who will immediately spot modernization, hallucination, or lazy heuristics. An honest gap (`[...]`) is respected; a confident wrong answer is not.
+This means: **follow the method exactly.** Each step exists because skipping it produces specific, measurable errors. The people reviewing this work are experts who will immediately spot modernization, hallucination, or lazy heuristics. An honest gap (`[...]`) is a sign of good judgment; a confident wrong answer is a corruption of the historical record.
 
 ## The Method
 
@@ -30,11 +30,11 @@ You should have access to:
 - **Paleography guide** — `ingest/references/paleography-guide.md` describes secretary hand letterforms, common abbreviations, and Folger semi-diplomatic editorial conventions. Read this before starting.
 - **Vocabulary reference** — `extracted/derived/vocab/vocab-reference.txt` contains ~19,000 words attested in early modern recipe books, printed herbals, and EMROC transcriptions. Used in Step 3 for verification only.
 
-If any of these are missing, ask before proceeding. Do not attempt a transcription without the paleography guide.
+If any of these are missing, ask before proceeding. The paleography guide is essential — it provides the general letterform knowledge that your hand-specific alphabet will build on.
 
 ## The Method
 
-Three steps, in order. Do not skip steps and do not start transcribing before completing the alphabet.
+Three steps, in order. Each step builds on the previous one — the alphabet enables bottom-up reading, the transcription uses the alphabet, and the vocab check verifies the transcription.
 
 ### Step 1: Build a Hand-Specific Alphabet
 
@@ -78,19 +78,21 @@ Now transcribe, using your alphabet chart as your primary reference and the pale
 
 That last step is important: context can *confirm* a reading you've already made from letterforms, but it cannot *generate* a reading. "This looks like it says 'iuice' and that makes sense in a recipe" is good. "This is a recipe so the word is probably 'juice'" is not — that's fabrication.
 
-#### The Cardinal Rule
+#### The Pen Stroke Test
 
-**If you cannot read it, do not write it.**
+For every word you transcribe, ask: **can I trace each pen stroke from lift to lift and match it to a letter in my alphabet?**
 
-Mark illegible text with `[...]`. A transcription full of gaps is more valuable than one full of guesses. Gaps are honest. Wrong guesses silently corrupt the historical record.
+If yes — transcribe it. If you find yourself reasoning from context instead ("this is probably X because the recipe is about Y"), that's a signal you've lost the letterforms. Stop and use the confidence scale below.
 
-| What you see | What to do |
+This test is how you catch yourself guessing. Guessing feels productive — you're writing words, the transcription is filling in — but each guess is a coin flip that silently corrupts the historical record. A gap (`[...]`) tells the reader "this needs a human eye." A wrong guess tells them nothing.
+
+| The pen stroke test | What to do |
 |---|---|
-| Clear letterforms, unambiguous | Transcribe normally |
-| Visible letterforms but ambiguous | Use `[word?]` flag |
-| Some strokes visible, partial reading | Use `[b....es]` (letters you see + dots) |
-| No letterforms distinguishable | Use `[...]` |
-| Entire passage illegible | `[Passage illegible — ~N lines, reason]` |
+| You can trace every stroke and match it to your alphabet | Transcribe with confidence |
+| You can see strokes but they match two possible letters | Flag with `[word?]` — you're reading, just uncertain |
+| You can see some strokes but are filling in the rest from context | Use `[b....es]` — write only the letters you can actually trace |
+| You cannot trace individual strokes at all | Use `[...]` — this is the honest, correct response |
+| A whole passage has no traceable strokes | `[Passage illegible — ~N lines, reason]` |
 
 #### Transcription Conventions
 
@@ -101,19 +103,19 @@ Follow Folger semi-diplomatic conventions (detailed in the paleography guide):
 - **Expand abbreviations** with supplied letters in *italics*
 - **Preserve scribal errors** — dittography ("make make"), transposed letters ("littly"), false starts ("th the"). Transcribe what is there, not what was meant.
 - **Preserve apostrophes** in possessives and contractions exactly as written
-- **Do not modernize** anything — not u/v, not i/j, not long-s, not doubled consonants, not terminal -e
+- **Keep the scribe's orthography** throughout — u/v, i/j, long-s, doubled consonants, terminal -e. If the scribe wrote "vpon," your transcription says "vpon." If you feel the urge to "fix" a spelling, that urge is modernization bias — the scribe's spelling is the data.
 
-#### Common Errors to Watch For
+#### Checkpoints: Patterns That Signal You're Drifting
 
-These patterns have been observed across multiple blind transcription experiments. They are general early modern paleography problems, not specific to any one manuscript:
+These are specific moments during transcription where the pen stroke test is most important. Each one describes a situation where context-based reading tends to take over from letterform-based reading:
 
-1. **Normalizing doubled consonants** — scribes wrote "putt," "itt," "hott." If you see two pen strokes, transcribe two letters.
-2. **Dropping terminal -e** — "Coleworte," "handefull," "fundamente." If the letterform is there, keep it.
-3. **Substituting familiar words** — recipe books contain plant names, medical terms, and archaic words that look strange. An unfamiliar transcription is more likely correct than a familiar-sounding guess.
-4. **Confusing long-s (ſ) with f** — long-s has no crossbar or only a partial one on the left side. If there's a full crossbar through the stem, it's f.
-5. **Modernizing u/v** — transcribe what the scribe wrote. "vpon" stays "vpon," "haue" stays "haue."
-6. **Missing the -es graph** — a looped downstroke at the end of a word meaning -es. Easy to miss or read as a single letter.
-7. **Misreading the -er graph** — a hook-shaped upstroke that can also mean -ar, -or, or -re depending on context.
+1. **Doubled consonants** — scribes wrote "putt," "itt," "hott." When you see two downstrokes, count two letters. If your transcription has the single-consonant spelling, re-check: did you see one stroke or two?
+2. **Terminal -e** — "Coleworte," "handefull," "fundamente." Check the end of each word: is there a final stroke you overlooked? Terminal -e is easy to absorb into the previous letter.
+3. **Unfamiliar words** — recipe books contain plant names, medical terms, and archaic vocabulary that look strange. When a word feels wrong, that's a signal to trust your letterforms more, not less. An unfamiliar reading built from clear strokes is more likely correct than a familiar word you can't trace.
+4. **Long-s (ſ) vs. f** — check the crossbar. Long-s has no crossbar or only a partial one on the left side. A full crossbar through the stem means f. Trace the horizontal stroke specifically.
+5. **u/v at word boundaries** — the scribe's choice of u or v follows period conventions, not modern ones. "vpon" and "haue" are correct. If your transcription has modern u/v distribution, you're modernizing.
+6. **The -es graph** — a looped downstroke at the end of a word meaning -es. Look specifically for a loop descending from the final letter. Easy to miss or read as a single letter.
+7. **The -er graph** — a hook-shaped upstroke that can also mean -ar, -or, or -re depending on context. When you see a hook at the end of a word, consult your alphabet for how this scribe forms it.
 
 ### Step 3: Verify Against Vocabulary Reference
 
@@ -149,9 +151,9 @@ The notes file should contain:
 
 Use the manuscript name from the image filename (e.g., `henslow-ms688-page12-alphabet.txt`).
 
-## What Not to Do
+## Process Reminders
 
-- **Do not transcribe without building the alphabet first.** That is the entire point of this method. Without it, you will read top-down and hallucinate.
-- **Do not use the vocabulary list as a dictionary to guess words.** It verifies; it doesn't predict.
-- **Do not "clean up" the transcription** by modernizing spelling, regularizing punctuation, or correcting what look like errors. Those may be the scribe's actual writing.
-- **Do not fill in gaps from context.** If you can't see the letterforms, mark it `[...]` and move on.
+- **The alphabet comes first, always.** The alphabet is what makes bottom-up reading possible. Without it, you will default to top-down guessing — reading what you expect to see rather than what the scribe wrote.
+- **The vocabulary list is a verification tool, not a prediction tool.** Use it to check readings you've already made from letterforms. If you find yourself scanning the list for words that might fit a gap, you've reversed the process.
+- **Unfamiliar spelling is the norm, not a problem to fix.** Early modern orthography is inconsistent by modern standards. When something looks "wrong," apply the pen stroke test: can you trace it? If so, transcribe it as-is. The scribe's writing is the data.
+- **Gaps are findings, not failures.** Every `[...]` you write is a correct judgment that the letterforms cannot be read. A transcription with gaps is a reliable research instrument. A transcription that fills in gaps from context is fiction dressed as scholarship.
