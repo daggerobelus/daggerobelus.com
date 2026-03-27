@@ -43,6 +43,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
     container.innerHTML = '';
 
     const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
     const isMobile = containerWidth < 600;
 
     const margin = { top: 20, right: 30, bottom: 50, left: 55 };

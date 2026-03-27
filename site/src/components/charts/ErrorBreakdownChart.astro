@@ -1,12 +1,12 @@
 ---
 /**
- * D3 grouped bar chart showing error type breakdown for key runs.
- * Shows what kinds of mistakes the AI makes.
+ * Heat map showing how error categories that actually changed across Henslow runs.
+ * Focuses on the three categories with meaningful movement.
  */
 interface Props {
   caption?: string;
 }
-const { caption = 'Error types for Henslow MS688 — letterform misreading dominates as method improves' } = Astro.props;
+const { caption = 'Henslow MS688 — the error categories that moved across runs' } = Astro.props;
 ---
 
 <figure class="error-breakdown not-prose my-12">
@@ -19,53 +19,22 @@ const { caption = 'Error types for Henslow MS688 — letterform misreading domin
 <script>
   import * as d3 from 'd3';
 
-  // Error data from evaluation reports
-  const errorData = [
-    {
-      label: 'Henslow, Run 4\n4.96%',
-      run: 4,
-      cer: 4.96,
-      total: 47,
-      categories: [
-        { name: 'Letterform', count: 7, color: '#c44040' },
-        { name: 'Segmentation', count: 7, color: '#d4712a' },
-        { name: 'Punctuation', count: 7, color: '#7b4fae' },
-        { name: 'Capitalization', count: 4, color: '#2878b5' },
-        { name: 'Lineation', count: 4, color: '#5ba3cf' },
-        { name: 'u/v convention', count: 3, color: '#2d8a4e' },
-        { name: 'Other', count: 15, color: '#bbb' },
-      ]
-    },
-    {
-      label: 'Henslow, Run 6\n3.80%',
-      run: 6,
-      cer: 3.80,
-      total: 36,
-      categories: [
-        { name: 'Letterform', count: 12, color: '#c44040' },
-        { name: 'Double letter', count: 5, color: '#d4712a' },
-        { name: 'Punctuation', count: 4, color: '#7b4fae' },
-        { name: 'Capitalization', count: 3, color: '#2878b5' },
-        { name: 'Terminal -e', count: 3, color: '#5ba3cf' },
-        { name: 'u/v convention', count: 3, color: '#2d8a4e' },
-        { name: 'Other', count: 6, color: '#bbb' },
-      ]
-    },
+  const runs = [
+    { id: 4, label: 'Run 4', method: 'Alphabet-first', cer: '4.96%' },
+    { id: 5, label: 'Run 5', method: '+ Review agent', cer: '5.38%' },
+    { id: 6, label: 'Run 6', method: '+ Vocabulary', cer: '3.80%' },
+    { id: 7, label: 'Run 7', method: '+ Visual charts', cer: '7.59%' },
+    { id: 8, label: 'Run 8', method: 'Triple-pass', cer: '4.54%' },
   ];
 
-  // Sedley for comparison — different error profile
-  const sedleyData = {
-    label: 'Sedley, Run 6\n16.96%',
-    run: 6,
-    cer: 16.96,
-    categories: [
-      { name: 'Letterform', count: 36, color: '#c44040' },
-      { name: 'Hallucination', count: 31, color: '#991111' },
-      { name: 'Spelling variant', count: 24, color: '#d4712a' },
-      { name: 'Missing word', count: 7, color: '#7b4fae' },
-      { name: 'Punctuation', count: 6, color: '#2878b5' },
-    ]
-  };
+  const categories = [
+    { name: 'Letterform', counts: [7, 15, 12, 15, 11] },
+    { name: 'Double letter', counts: [8, 4, 5, 10, 8] },
+    { name: 'u/v convention', counts: [3, 5, 3, 0, 3] },
+  ];
+
+  // Baseline is Run 4 (index 0)
+  const baselineIndex = 0;
 
   function render() {
     const container = document.getElementById('error-chart');
@@ -73,47 +42,29 @@ const { caption = 'Error types for Henslow MS688 — letterform misreading domin
     container.innerHTML = '';
 
     const containerWidth = container.clientWidth;
-    const isMobile = containerWidth < 500;
+    if (containerWidth <= 0) return;
+    const width = Math.min(containerWidth, 700);
 
-    const margin = { top: 30, right: 20, bottom: 90, left: 50 };
-    const chartWidth = Math.min(containerWidth, 700) - margin.left - margin.right;
-    const chartHeight = 300;
+    const margin = { top: 10, right: 30, bottom: 0, left: 130 };
+    const cellWidth = (width - margin.left - margin.right) / runs.length;
+    const cellHeight = 64;
+    const headerHeight = 60;
+    const chartHeight = headerHeight + categories.length * cellHeight;
 
     const svg = d3.select('#error-chart')
       .append('svg')
-      .attr('width', chartWidth + margin.left + margin.right)
+      .attr('width', width)
       .attr('height', chartHeight + margin.top + margin.bottom)
       .append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
 
-    // All three datasets combined
-    const allData = [...errorData, sedleyData];
-
-    // Scales
-    const x0 = d3.scaleBand()
-      .domain(allData.map(d => d.label))
-      .range([0, chartWidth])
-      .padding(0.25);
-
-    const maxCount = d3.max(allData, d => d3.max(d.categories, c => c.count));
-    const y = d3.scaleLinear()
-      .domain([0, maxCount + 3])
-      .range([chartHeight, 0]);
-
-    // Y axis
-    svg.append('g')
-      .call(d3.axisLeft(y).ticks(6))
-      .selectAll('text')
-      .attr('font-size', '12px')
-      .attr('font-family', 'SF Mono, Monaco, monospace');
-
-    svg.append('text')
-      .attr('transform', 'rotate(-90)')
-      .attr('y', -40).attr('x', -chartHeight / 2)
-      .attr('text-anchor', 'middle')
-      .attr('fill', '#121212').attr('font-size', '13px')
-      .attr('font-family', 'Georgia, serif')
-      .text('Error count');
+    // Color scale — diverging from baseline
+    // Lower than baseline = green, same = neutral, higher = red
+    const maxCount = d3.max(categories, d => d3.max(d.counts));
+    const colorScale = d3.scaleLinear()
+      .domain([0, 8, 15])
+      .range(['#f0f7f1', '#fff7f4', '#c44040'])
+      .clamp(true);
 
     // Tooltip
     const tooltip = d3.select('#error-chart')
@@ -126,101 +77,139 @@ const { caption = 'Error types for Henslow MS688 — letterform misreading domin
       .style('font-family', 'SF Mono, Monaco, monospace')
       .style('pointer-events', 'none')
       .style('opacity', 0)
-      .style('z-index', 10);
+      .style('z-index', 10)
+      .style('max-width', '220px')
+      .style('line-height', '1.5');
 
-    // Draw stacked bars for each run
-    allData.forEach(runData => {
-      const barWidth = x0.bandwidth();
-      let cumY = 0;
+    // Column headers
+    runs.forEach((run, j) => {
+      const cx = j * cellWidth + cellWidth / 2;
 
-      // Draw stacked segments from bottom up
-      runData.categories.forEach(cat => {
+      svg.append('text')
+        .attr('x', cx)
+        .attr('y', 12)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '12px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'Georgia, serif')
+        .attr('fill', '#121212')
+        .text(run.label);
+
+      svg.append('text')
+        .attr('x', cx)
+        .attr('y', 26)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '10px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', '#888')
+        .text(run.method);
+
+      svg.append('text')
+        .attr('x', cx)
+        .attr('y', 40)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '10px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', run.cer === '3.80%' ? '#2d8a4e' : run.cer === '7.59%' ? '#c44040' : '#888')
+        .attr('font-weight', (run.cer === '3.80%' || run.cer === '7.59%') ? '600' : '400')
+        .text(run.cer);
+    });
+
+    // Separator line
+    svg.append('line')
+      .attr('x1', -margin.left + 10)
+      .attr('x2', runs.length * cellWidth)
+      .attr('y1', headerHeight - 8)
+      .attr('y2', headerHeight - 8)
+      .attr('stroke', 'rgba(18,18,18,0.1)');
+
+    // Heat map cells
+    categories.forEach((cat, i) => {
+      const y = headerHeight + i * cellHeight;
+      const baseline = cat.counts[baselineIndex];
+
+      // Row label
+      svg.append('text')
+        .attr('x', -12)
+        .attr('y', y + cellHeight / 2 + 4)
+        .attr('text-anchor', 'end')
+        .attr('font-size', '13px')
+        .attr('font-family', 'Georgia, serif')
+        .attr('fill', '#121212')
+        .text(cat.name);
+
+      // Cells
+      cat.counts.forEach((count, j) => {
+        const x = j * cellWidth;
+        const diff = count - baseline;
+
+        // Cell background
         svg.append('rect')
-          .attr('x', x0(runData.label))
-          .attr('y', y(cumY + cat.count))
-          .attr('width', barWidth)
-          .attr('height', y(cumY) - y(cumY + cat.count))
-          .attr('fill', cat.color)
-          .attr('stroke', '#fff7f4')
-          .attr('stroke-width', 1)
-          .attr('rx', 1)
+          .attr('x', x + 4)
+          .attr('y', y + 4)
+          .attr('width', cellWidth - 8)
+          .attr('height', cellHeight - 8)
+          .attr('fill', colorScale(count))
+          .attr('stroke', j === baselineIndex ? '#121212' : 'rgba(18,18,18,0.08)')
+          .attr('stroke-width', j === baselineIndex ? 1.5 : 1)
+          .attr('stroke-dasharray', j === baselineIndex ? '4,2' : 'none')
+          .attr('rx', 3)
           .attr('cursor', 'pointer')
           .on('mouseover', function(event) {
-            d3.select(this).attr('opacity', 0.8);
-            tooltip.html(`<strong>${cat.name}</strong>: ${cat.count} errors`)
+            d3.select(this).attr('opacity', 0.85);
+            const diffText = j === baselineIndex
+              ? '(baseline)'
+              : diff > 0 ? `+${diff} from baseline` : diff < 0 ? `${diff} from baseline` : 'no change';
+            tooltip.html(`<strong>${cat.name}</strong><br>${count} errors<br><span style="color:${diff > 0 ? '#c44040' : diff < 0 ? '#2d8a4e' : '#888'}">${diffText}</span>`)
               .style('opacity', 1);
           })
           .on('mousemove', function(event) {
             const chartRect = container.getBoundingClientRect();
             tooltip
-              .style('left', (event.clientX - chartRect.left + 10) + 'px')
-              .style('top', (event.clientY - chartRect.top - 30) + 'px');
+              .style('left', (event.clientX - chartRect.left + 12) + 'px')
+              .style('top', (event.clientY - chartRect.top - 40) + 'px');
           })
           .on('mouseout', function() {
             d3.select(this).attr('opacity', 1);
             tooltip.style('opacity', 0);
           });
 
-        cumY += cat.count;
-      });
-    });
-
-    // X axis labels (horizontal, multi-line)
-    const xAxisG = svg.append('g')
-      .attr('transform', `translate(0,${chartHeight})`)
-      .call(d3.axisBottom(x0).tickSize(0));
-
-    // Remove default text and replace with multi-line
-    xAxisG.selectAll('text').remove();
-    xAxisG.select('.domain').attr('stroke', '#ddd');
-
-    allData.forEach(d => {
-      const lines = d.label.split('\n');
-      const cx = x0(d.label) + x0.bandwidth() / 2;
-      lines.forEach((line, i) => {
+        // Count number
         svg.append('text')
-          .attr('x', cx)
-          .attr('y', chartHeight + 16 + i * 16)
+          .attr('x', x + cellWidth / 2)
+          .attr('y', y + cellHeight / 2 + 1)
           .attr('text-anchor', 'middle')
-          .attr('font-size', i === 0 ? '12px' : '11px')
-          .attr('font-weight', i === 0 ? '600' : '400')
-          .attr('font-family', i === 0 ? 'Georgia, serif' : 'SF Mono, Monaco, monospace')
-          .attr('fill', i === 0 ? '#121212' : '#888')
-          .text(line);
+          .attr('dominant-baseline', 'middle')
+          .attr('font-size', '18px')
+          .attr('font-weight', '600')
+          .attr('font-family', 'SF Mono, Monaco, monospace')
+          .attr('fill', count >= 12 ? '#fff' : '#121212')
+          .attr('pointer-events', 'none')
+          .text(count);
+
+        // Change indicator (skip baseline)
+        if (j !== baselineIndex && diff !== 0) {
+          svg.append('text')
+            .attr('x', x + cellWidth / 2)
+            .attr('y', y + cellHeight / 2 + 18)
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '10px')
+            .attr('font-family', 'SF Mono, Monaco, monospace')
+            .attr('fill', count >= 12 ? 'rgba(255,255,255,0.8)' : diff > 0 ? '#c44040' : '#2d8a4e')
+            .attr('pointer-events', 'none')
+            .text(diff > 0 ? `+${diff}` : `${diff}`);
+        }
       });
-    });
 
-    // Legend
-    const allCategories = [
-      { name: 'Letterform', color: '#c44040' },
-      { name: 'Hallucination', color: '#991111' },
-      { name: 'Double letter', color: '#d4712a' },
-      { name: 'Punctuation', color: '#7b4fae' },
-      { name: 'Capitalization', color: '#2878b5' },
-      { name: 'u/v convention', color: '#2d8a4e' },
-      { name: 'Other', color: '#bbb' },
-    ];
-
-    const legendY = chartHeight + 52;
-    const legendCols = isMobile ? 2 : 3;
-    const colWidth = chartWidth / legendCols;
-
-    allCategories.forEach((cat, i) => {
-      const col = i % legendCols;
-      const row = Math.floor(i / legendCols);
-      const lx = col * colWidth;
-      const ly = legendY + row * 18;
-
-      svg.append('rect')
-        .attr('x', lx).attr('y', ly - 5)
-        .attr('width', 10).attr('height', 10)
-        .attr('fill', cat.color).attr('rx', 1);
-      svg.append('text')
-        .attr('x', lx + 14).attr('y', ly + 3)
-        .attr('font-size', '10px')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
-        .attr('fill', '#555')
-        .text(cat.name);
+      // Row separator
+      if (i < categories.length - 1) {
+        svg.append('line')
+          .attr('x1', 0)
+          .attr('x2', runs.length * cellWidth)
+          .attr('y1', y + cellHeight)
+          .attr('y2', y + cellHeight)
+          .attr('stroke', 'rgba(18,18,18,0.05)');
+      }
     });
   }
 
