@@ -1,0 +1,148 @@
+{
+  "run": {
+    "id": "skills-run-4",
+    "name": "Skills Run 4: Adaptive Method with Triage",
+    "date": "2026-03-29",
+    "method": "Adaptive: agents assess page difficulty (0-24 score), route to Standard Path (0-7) or Scaffolded Path (8+)",
+    "category": "structural",
+    "question": "Does routing agents to different methods based on page difficulty improve results for both easy and hard manuscripts?",
+    "changes_from_baseline": "Added triage step with weighted rubric (scan quality and hand density x2). Standard Path = alphabet + single-pass transcribe. Scaffolded Path = three-pass method from v3."
+  },
+  "manuscript": {
+    "id": "sedley-page5"
+  },
+  "skill_version": "SKILL.md v4 \u2014 Adaptive Method with Triage (Standard 0-7 / Scaffolded 8+)",
+  "triage_summary": {
+    "scores": [
+      11,
+      8,
+      8,
+      8,
+      9
+    ],
+    "paths": [
+      "Scaffolded",
+      "Scaffolded",
+      "Scaffolded",
+      "Scaffolded",
+      "Scaffolded"
+    ],
+    "consensus_path": "Scaffolded",
+    "agreement": 5
+  },
+  "agents": [
+    {
+      "agent": 1,
+      "triage_score": 11,
+      "triage_path": "Scaffolded",
+      "cer": 101.89,
+      "attempted_cer": 104.18,
+      "coverage": 0.9203,
+      "reference_characters": 1480,
+      "hypothesis_characters": 2611,
+      "substitutions": 200,
+      "insertions": 1219,
+      "deletions": 88,
+      "gap_count": 28,
+      "uncertain_count": 19,
+      "transcription_text": "4) With a soft fire in water, for it drop on slugger candy\nor fine slugger put into ye glass if yt gla[..] if yt [....] with yt [....s]\na still cimber [dragg?] [......] tee vp into thin flask[..]\nyt may drain out of this quantity two quarts keep one\nquart when first comes ofe yt sofs mingle it either bring\nor leaue it ye [.....] may mix[...] or rather [.....]\n[...] No Rosett, yt may mix Milan yt [....se]\nthe [vi...t?] time is halfe an hour before dinner & supper\n& dosige yt goe to old one spoonfull or two at one time\nit is [excelent?] for Lungs the stomach, helps the en=\nstoppings of the vaines, helps the Palsey.\n\n(5)\n\nPalsey Water\n\nTake of Borage flowers, Buglosse flowers, the flowers\nof Lillies Convalliu*m* Cowslippes of each one handfull,\nof Sage flowers of Rosemary, of Endiue flowers\nof each halfe an handfull, let all thes be gathered in theire\n[seuerall?] seasons for they are to be had not all at one\ntime but some in the first months [...] the last not\n[...] in May you [first?] of [.....] distilled from at\n[......] in two glasses till all may be [.....], then let them\nstand some days after the last is in, but alwayes very close\nstopped, After mixin Lavender comb[..] the sirrip of the hearbs\nboile the quantity of [...] put them into a large gat[...]\npals, yt pour on them as much spirit of wine as a [......s]\nput bark them well stoppd & lett them stand 14 days\n\nIn the Sun, or some other warme place, make also\nother glasses, which some take [gilliflowers?] with the [iuice?]\n[...i...d] out with a [.....ll] or a [....ke?] then take this\n[spirrit?] together in a limbeck & put therewith thes\nthes followeinge, of Balme, Motherwort, Bay\nleaues, Spikenard, the leaues & flowers & of Orange\n[roots?] as they may be had, of each one ounce [Crett?]\nor [fa...d] [for...ably?] the yellow pills of Citron [ringes?] or\nof of [Smith?] [......], of Piony seeds halfe of each [Garden...]\n& Cinamon, Nutmeggs, Cardamum, Cubebs of yellow\nsaunders of each halfe an ounce being all made in=\nto powder and of Ligor Aloes one dram in powder and of\nJuneberr very the good the [stones?] taken out put [.......s] into\na pound, let which borage well mingled together in the\nLimbeck let it bee carefully distilled, with a moderate\nent fire, if yt will keep yt may make two sorts, stronge\n& weaker, which yt may doe by preservinge the first yt\ncomes ofe yt of yt self, also you vse them as [cordiall?]\nflowers, Then after it is distilled put them into a [......]\nmouth glass yt too stopp it clse, then take of the [......d]\neach [fourpence?] of each one scruple of cimber\nGreece, Muske, & saffron of each halfe a scruple, of Red\n[...le] corall, with yt red & yellow saunders, [small?] yt them\n[.....] of each one ounce, put all thes into a [farnach?]\nbagg & hang in the winter for weeks together and\ncome in close with a double bladder that none of the"
+    },
+    {
+      "agent": 2,
+      "triage_score": 8,
+      "triage_path": "Scaffolded",
+      "cer": 98.51,
+      "attempted_cer": 98.43,
+      "coverage": 0.9453,
+      "reference_characters": 1480,
+      "hypothesis_characters": 2585,
+      "substitutions": 192,
+      "insertions": 1185,
+      "deletions": 80,
+      "gap_count": 18,
+      "uncertain_count": 40,
+      "transcription_text": "4) With a soft fire in water, for it drop on slugger candy\nor fine slugger put into ye glass if ye ale with ye hope\na sift cinder [dregges?] fasten tee up into ye flashe\nye may draw out of this quantity two quarts keep one\nquart when [just?] comes by it selfe mingle it either bring\nor hand as ye please you may make rather either\nale. When ye keepe, ye may mix [mine?] ye horse\nThe usual time is halfe an houre before dinner & supper\n& [daysye?] ye to old one spoonfull or two at ontime\nit is excellent to [Limber?] the stomach, helps the [on?]\nstoppings of the reines, helps the Palsey.\n\n(5)\n\nPalsey Water\n\nThis of [Piddockes?] flowers, Buglosse flowers, the flowers\nof [Eliza?] Cowslippes & Cowslippes of each one handfull,\nof Sage of Rosemary, of [Endung?] flowers,\nof each halfe an handfull, let all this be [publed?] in three\n[.......] [......] for they be [th..] [red?] not\n[...] in any [yo..?] favour of some distilled [liquor?], at\nwhipping in two glasses till all may be [fine?], then let them\nstand some dayes after the last is in, but alwayes very close\nstopped. After mixen Lavender [comith?] stoope of the [stoopes?]\n[boute?] the quantity of [i..] put them into a large glasse\npott, & put them on them as much spirit of wine as a [bott..]\nput [.....] them well stopped & left them stand 14 dayes\n\nIn the Sun or some other warme place, with ye                  15\nother glasses which some take [sp........] with the first\n[p.....d] out with a small still it [doth?] [.....] that\n[........] a soft fire [take?] this\nspirits together in a limbeck & put therewith these\nfollowing [fell......ges?] of Balme, Motherwoorte, Bay\nleaves, Spikenard, the leaves & flowers & of Oranges\n[trots?] or they may be had, of each one ounce [Grett?]\nor [faded?] forsurely the yellow pills of [Cittron?] [oyers?] or\nells of [Lemitt?] [rooles?], of Piony seeds halfe of each [....ens]\n& Cinnamon, Nutmeggs, Cardamom, Cubebs, of yellow\n[s...ders] of each halfe an ounce, being all made in\npowder and of Ligor Aloes one drame in powder and of\n[In......] nere ye good the [foun...take?] out ye just halfe\na pound, in which [l...ges?] well mingled together in the\nLimbeck let it be carefully distilled, with a small\n[extent?] fire, if ye [wish?] [ke..p] ye may make two sorts, [strong..?]\n& weaker, which ye may doe by preservinge the first ye\ncomes off by it selfe, else you use them as [occasioned?]\nserves, Then after it is distilled put them into a [voive?]\nmouth glass & [foo?] stopp it close, then take of the [sho....]\nseed [b...rages?] of each one scruple of cimber\nGreece, Muske, saffron of each halfe a scruple, of Red\n[roler?] corall and of [....] yellow [saunders?] [send?] ye them\n[t.....] of each one ounce, put all these into a [farnelous?]\nbagg & hang in the water for weeks together and\ncover it close with a double bladder that none of the"
+    },
+    {
+      "agent": 3,
+      "triage_score": 8,
+      "triage_path": "Scaffolded",
+      "cer": 110.95,
+      "attempted_cer": 106.08,
+      "coverage": 0.9899,
+      "reference_characters": 1480,
+      "hypothesis_characters": 2759,
+      "substitutions": 188,
+      "insertions": 1366,
+      "deletions": 87,
+      "gap_count": 3,
+      "uncertain_count": 2,
+      "transcription_text": "4) With a soft fire in water, low it drop on sluggar candy\nor fine sluggar put into yr glass if yr glass wth yr [.......]\na gilt Cimber streake fasten tee up into yor Closett\nyr may draine out of this quantity two quarts keep one\nquart when just comes up it selfe mingle it either bring\nor leaue it as you please you may make either syrupp\nor water, you may take melon yr horse\nthe usual time is halfe an houre before dinner & supper\n& goinge yr go to old one spoonfull or two at on time\nit is exceeding for lumps the stomach, helps the en\nstoppings of the reines, helps the Palsey.\n\n(5)\n\nPalsy Water\n\nTake of Pellitory flowers, Buglosse flowers, the flowers\nof Cloue Carnation & Cowslipps of each one handfull,\nof Sage of Rosemary of Lauender flowers of Endiue flowers\nof each halfe a handfull. let all these be gathered in theire\nseuerall Seasons and dryed one by one & lay them vp in\npaper baggs, then when the last of them be gathered\n& dried in very dry weather distill them all\n& whipping in two glasses still all may be fine, then let them\nstand some dayes after the last is in, but alwayes very well\nstopped. After millon Lauender cometh the streept of the foresaid\nbeares the quantity of [...] & put them into a large glasse\nbottle yr put them on as much spirit of wine as a lotion\npor Gods them well stoped & let them stand 14 dayes\n\nIn the Sun or some other warme place, make also the\nother glasses which some take [Cardamoms?] with the first\nposset ale with a small quantitye of pills of both these\nbe well corkt & put it on shelfe, take all the former flores\nspirrit together in a limbeck & put therewith these\nfollowing gelenings, of Balme, Motherwort, Bay\nleaues, Spikenard, the leaues & flowers of & Oarange\ntrees if they may be had, of each one ounce Cutt\nor bruised seuerally the yellow pills of Citron oringes or\nof Lemonds, of Peony seeds halfe of [.....] seeds each\n& Cinament, Nutmeggs, Cardamum, Cubebs of yellow\nsaunders of each halfe an ounce, being all made in\npowder and of Sugar Alloes one dram in powder and of\nJuniper berrey & the Juice taken out put these\nin a pound, of which things well mingeld together in the\nLimbeck be very carefully distilled, with a softe or\ngentle fire, if yr stop yr may make two sorts, stronge\n& weaker, which yr may doe by preseruing the first yt\ncomes off by it selfe, else you vse them as occasion\nserues, Then after it is distilled put them into a voice\nmouth glass yr foo stopp it close, then take of the aforesaid\namber powders of each one scruple of Ambergreece\nMuske, Saffron of each halfe a scruple, of Red\nrose Corall red, & of great yellow saunders, grind yr them\nof each one scruple, put all these into a [formest?]\nbagg & hang in the water for weekes together and\ncouer it close with a double bladder that none of the"
+    },
+    {
+      "agent": 4,
+      "triage_score": 8,
+      "triage_path": "Scaffolded",
+      "cer": 104.73,
+      "attempted_cer": 102.16,
+      "coverage": 0.9703,
+      "reference_characters": 1480,
+      "hypothesis_characters": 2665,
+      "substitutions": 200,
+      "insertions": 1267,
+      "deletions": 82,
+      "gap_count": 8,
+      "uncertain_count": 44,
+      "transcription_text": "[LEFT PAGE]\n\n4) With a soft fire in water, for it'lrop on sluggar candy\nor fine sluggar put into yr glass if yr oile with yr [hose?]\na still cinder [breake?] fasten tee vp into [them?] [flash?]\nyr may draw out of this quantity two quarts keep one\nquart when first comes by it selfe mingle it either [bring?]\nor [leaud?] as you please, you may make another [.......]\nor [.....]      yo Rost. ym may mix mion yr [horse?]\nthe worst time is halfe an houre before dinner & supper\n[&supp?] yr go to old one spoonfull or two at on time\nit is excellent for Lungs the stomach, helps the ob=\nstoppings of the reines, helps the Palsey.\n\n(5)\n\nPalsey Water\n\nTake of Pidderage flowers, Bugles flowers, the flowers\nof Clove Carnation & Cowslipps of each one handfull,\nof Sage flowers of Rosemary, of Endung flowers\nof each halfe an handfull, let all thies be gathered neither\nbruised [farther?] for they are to be had and not\ndistilled in any sort but [........] [.] for [......] at\nin an ovens gust of some distill'd [water?] at\nwhipping in two glasses still all may be fine, then let them\nstand some dayes after the last is in, but alwayes very close\nstopped. After Milan Lavender counter Strength of the former\nboats the quantity of [.] & put them into a [large?] galli=\npots yr put them on them as mush, [spirit?] of roses as a [lotion?]\npot [bo...] them well stopped & lett them stand 14 dayes\n\n                                                           15\n\nIn the Sun or some other warme place, make also\nother glasses which some take [quantities?] with the first\n[could?] all with a [simple?] [.] of [...]\n[..........] & it [sifts?] [take?] this\n[spirits?] together in a [limbeck?] & put therewith these\nwarme [gelicerings?] of Balme, Motherwort, Bay\nleaves, Spikenard, the leaves & flowers & of Oranges\nroots or they may behalf, of each one ounce [Gett?]\nor [fasted?] [forewards?] the yellow pills of Citron ringes or\nof [Lemon?] [rindes?] of Peony seeds halfe of each [Garda=?]\n& Cinnament, Nutmeggs, Cardamom, Cubebs of yellow\n[saunders?] of each halfe an ounce being all made in\npowder and of Ligor Allen one drame in powder and of\n[Junketts?] very good the [powers?] taken out put [them?] [..]\na pound, the which liquor well mingled together in the\nLimbeck for & carefully distilled, roth with a [mode=?]\nrent fire, if yr wish [then?] yr may make two sorts, stronge\n& weaker, which yr may doe by preservinge the first yt\ncomes of by it selfe, else you use them as cordiall\nflowers, Then after it is distilled put them into a voite\nmouth glass yr too stopp it close, then take of the [Cord=?]\n[sorts?] [borradges?] of each one scruple of cinnaber\n[Greate?] Muske & saffron of each halfe a scruple, of Red\n[rose?] [dried?] [reed?] & or & yellow saunders [send?] & [them?]\n[made?] of each one [ounce?] put all these into a farnance\nbagg & hang in the water for weeks together and\ncover it close with a double bladder that none of the"
+    },
+    {
+      "agent": 5,
+      "triage_score": 9,
+      "triage_path": "Scaffolded",
+      "cer": 24.0,
+      "attempted_cer": 16.66,
+      "coverage": 0.9818,
+      "reference_characters": 1480,
+      "hypothesis_characters": 1401,
+      "substitutions": 208,
+      "insertions": 34,
+      "deletions": 113,
+      "gap_count": 5,
+      "uncertain_count": 12,
+      "transcription_text": "In the Sun or some other warming place make and\nother glasses which some take [....ness?] with the first\n[.....] it with a [......] & it [....] take the\nformer flower [......] & pick from that the former flower\nspirits together in a pipkin & put therewith these\nthings followeing, of Balme, Motherwort, Bay\nleaues, Spikenard, the leaues & flowers & of Oranges\nroots if they may be had, of each one ounce [Crett?]\nor [faded?] forsaking the yellow pills of Citron ringes or\nof [sinnell?] rootes, of Piony seeds halfe of each [Galingale?]\n& Cinnament, Nutmeggs, Cardamom, Cubebes of yellow\nsaunders of each halfe an ounce being all made in\npowder and of Liger Allon one drame in powder and of\nJuniper [berry?] very good the [......] taken out put [seeds?]\na pound, let which things well mingled together in the\nLimbeck let it be carefully distilled, with a very mode=\nrent fire, & if you [keep?] you may make two sorts, strong\n& weaker, which you may doe by preseruing the first ye\ncomes off by it selfe, also you vse them as cordiall\nwaters, Then after it is distilled put them into a [voice?]\nmonth glase & you stopp it close, also take of the foresaid\nwater lauender of each one scruple of cimber\nGreeke, Muske & saffron of each halfe a scruple, of Red\n[rose?] [corall?] roote & one graine yellow saunders [small?] & them\nthere, of each one ounce, put all these into a furnace\nbagg & hang in the winter for weekes together and\ncome in time with a double bladder that none of the"
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 88.02,
+      "median": 101.89,
+      "std_dev": 36.08,
+      "ci_95_lower": 43.22,
+      "ci_95_upper": 132.81,
+      "min": 24.0,
+      "max": 110.95,
+      "iqr_lower": 98.51,
+      "iqr_upper": 104.73,
+      "spread_pp": 86.95
+    },
+    "attempted_cer": {
+      "mean": 85.5,
+      "median": 102.16,
+      "std_dev": 38.59,
+      "ci_95_lower": 37.59,
+      "ci_95_upper": 133.42,
+      "min": 16.66,
+      "max": 106.08,
+      "iqr_lower": 98.43,
+      "iqr_upper": 104.18,
+      "spread_pp": 89.42
+    },
+    "coverage": {
+      "mean": 0.9615,
+      "min": 0.9203,
+      "max": 0.9899
+    }
+  },
+  "reference_text": "Source: https://fromthepage.com/iiif/1783100/list/transcription\nManuscript: Royal College of Physicians: The Lady Sedley, her Receipt book, 1686 (MS534)\nPage: Page 5 (single page scan)\nIIIF Image URL: https://fromthepage.com/image-service/1783100/full/full/0/default.jpg\n---\nIn the Sunn or Some other warme place with the\nother glasses, which done take the Lavender with the Spirit\n& distill it with a Limbeck by it Selfe, then take the\nwater you extract & put it with all the former flowers\n& Spiritt together in a Limbeck & put therewith these\nthings followeinge, of Balme, Motherworth, Bay=\nleaves, Spickneard, the leaves & flowers of of Orange\ntrees if they may be had, of each one ounce Cutt\nor Shredd Severally the yellow pills of Citron dryed or\nelse of Lemon peeles, of Piany seeds hulld of each six dramms\nOf Cinament, Nutmeggs, Cardimum, Cubebees of yellow\nsaunders of each halfe an ounce, being all made in\npowder and of Ligme Alloes one dramme in powder and of\nJubebees new & good the stones taken out & cut Small halfe\na pound, All which beinge well mingled together in the\nLimbeck lett them be carefully distilled, with an indife=\nrent fire, if you please you may make two sorts, a stronger\n& weaker, which you may doe by preservinge the first that\ncomes off by it selfe, And soe use them as occasion\nserves, Then after it is distilled put them into a wide\nmouth glass & Soe Stopp it close, And take of .. prepared\npearle & Smaragdes of each each one Scruple of Amber\nGrease, Musk, & Saffron of each halfe a Scruple, of Red\nRoses dryed well, & red & yellow Saunders, small & thinn\nsliced, of each one ounce, put all these into a Sarsnett\nbagg & hang in the water Six weekes together and\ncover it close with a double Bladder that none of the"
+}

@@ -1,0 +1,148 @@
+{
+  "run": {
+    "id": "skills-run-4",
+    "name": "Skills Run 4: Adaptive Method with Triage",
+    "date": "2026-03-29",
+    "method": "Adaptive: agents assess page difficulty (0-24 score), route to Standard Path (0-7) or Scaffolded Path (8+)",
+    "category": "structural",
+    "question": "Does routing agents to different methods based on page difficulty improve results for both easy and hard manuscripts?",
+    "changes_from_baseline": "Added triage step with weighted rubric (scan quality and hand density x2). Standard Path = alphabet + single-pass transcribe. Scaffolded Path = three-pass method from v3."
+  },
+  "manuscript": {
+    "id": "bulkeley"
+  },
+  "skill_version": "SKILL.md v4 \u2014 Adaptive Method with Triage (Standard 0-7 / Scaffolded 8+)",
+  "triage_summary": {
+    "scores": [
+      5,
+      2,
+      2,
+      2,
+      8
+    ],
+    "paths": [
+      "Standard",
+      "Standard",
+      "Standard",
+      "Standard",
+      "Scaffolded"
+    ],
+    "consensus_path": "Standard",
+    "agreement": 4
+  },
+  "agents": [
+    {
+      "agent": 1,
+      "triage_score": 5,
+      "triage_path": "Standard",
+      "cer": 18.25,
+      "attempted_cer": 14.68,
+      "coverage": 1.0,
+      "reference_characters": 1403,
+      "hypothesis_characters": 1408,
+      "substitutions": 152,
+      "insertions": 54,
+      "deletions": 50,
+      "gap_count": 0,
+      "uncertain_count": 8,
+      "transcription_text": "Of Lavander, the temperature,                                    7\nLavander is hott & drye, & that in the third degree,\n& is of a thinne substance, [profitinge?] of many and\nspirituall [griefes?] to bene forted, it is said to be giuen\na lone nor against the diseases of the head, &\nespecially those which cause their originall or\nbeginning, not of a abundance of humours, but\ncheefest of a qualitie only.\n        The vertues\nThe distilled water of Lavander smelt vnto,\nor the temples and forehead bathed therwith,\nis a refreshinge to them that haue the catalepsie\na light migram, & to them that haue the fallinge\nsicknes, & that vse to swoone much. But it must\nherein be abundance of humours, especially mixt\nwith bloud, it is not then to be so safely [vsed?], neither\nis the composition to be taken, nor the much of\ndistilled water: in which sure kinds of herbes,\nflowers, or seedes, & certayne fruites are nipt\nor [bruised?], though most men doe rashly & all\naduenture giue them without mashinge and dis-\nflouringe at all, for by so doinge sure yet [those?]\nthat fill & stuffe the head doe the [bypast?] it\nmade weaker & the fitts also grow most on\nLavander, especially to openinge of bloud, or\nputtinge fumes not done before. I put much\nby way of admonition, because euen verie\ndiuers rash & ouerload & [peltigreast?], & open\nfor its women, so be & giue sure prescriptions,\n& [dispers?] of the like kinde, not only to those\nthat haue the Apoplexie, but also to those\n                                                        that"
+    },
+    {
+      "agent": 2,
+      "triage_score": 2,
+      "triage_path": "Standard",
+      "cer": 16.25,
+      "attempted_cer": 13.54,
+      "coverage": 1.0,
+      "reference_characters": 1403,
+      "hypothesis_characters": 1417,
+      "substitutions": 139,
+      "insertions": 51,
+      "deletions": 38,
+      "gap_count": 0,
+      "uncertain_count": 21,
+      "transcription_text": "of Lavander spike, the temperature,                          7\nLavander is hot & drye, & that in the third degree.\n& is of a thinne substance, consisting of many airie\n& spirituall partes. It is good for the it is [good?] to bee giuen\na [in?] vain against the diseases of the head,\n& especially those which haue their originall or\nbegynninge not of a abundance of humours, but\nrather of a qualitie onely.\n    The vertues\nThe distilled water of Lavander smelt vnto,\nor the temples and forehead bathed therewith,\nis a refreshinge to them that haue the [catalepsie?]\na light migram, & to them that haue the fallinge\nsicknes, & that vse to swoune much. But it must\nherein be a abundance of humors, especially mixed\nwith blood, it is not then to bee vsed safely, [nor?]\nis the composition to bee taken, nor the made of\ndistilled water: in which sure kindes of hearbes\nflowers, or seedes, Certayne hearbes are nipped\nor [stamped?], though most men [rashely?] & all\naduenture giue them without [m..hinge?] and dis-\nfauoring at all for by [sp..nges?] sure yet [some?]\nthat fill & stuffe the head doe the because it\nmade greater & the [s..ke?] also [br..ght?] one\nLavander, especially to open [l..inge?] of blood, or\n[p..tinge?] [s..d?] not done before. I [p..t?] [m..st?]\nby way of admonition, because diuers [o..er?]\n[l..uers?] [rash?] & ouerbold apothecaries, & open\nfor [the?] woemen, do be & giue sure consumptions,\n& [odors?] of the like kinde, not onely to those\nthat haue the apoplexie; but also to those\n                                            that"
+    },
+    {
+      "agent": 3,
+      "triage_score": 2,
+      "triage_path": "Standard",
+      "cer": 19.32,
+      "attempted_cer": 14.23,
+      "coverage": 0.9865,
+      "reference_characters": 1403,
+      "hypothesis_characters": 1365,
+      "substitutions": 162,
+      "insertions": 35,
+      "deletions": 74,
+      "gap_count": 6,
+      "uncertain_count": 13,
+      "transcription_text": "of Lavander spike, the temperature,                              7\n\nLavander is hot & drye, & that in the third degree.\n& is of a thin substance, puffsinges of manie arise\n& spirituall which is good for it is [good?] to be giuen\na [...]  againste the disease of the head, &\nespecially those w[...]h cause the[...] originall or\nbeginning not of a abundance of humors, but\ntherfore of a qualitie onely.\n      The vertues\nThe distilled water of Lavander smelt vnto,\nor the temples and foreheade bathed therwith\nis a refreshinge to them that haue the catalepsie\na light migram, & to them that cause the fallinge\nsicknes, & that vse to [soone?] much. But where\nthere is abundance of humors, especially mixed\nwith bloud, it is not then to be so safely, nor is\nit the composition to be taken, nether must of\ndistilled water; in which sure kindes of herbes\nflowers, or seeds, & certayne fruicte are nipt\nor [pressed?] though most men & [rashly?] &all\nadventure giue them without mashinge and dis-\nflowring at all for by [springs?] sure yet [...]\nthat fill & stuffe the head the [by cause?] it\nmaketh greater & the [fate?] also [bringst?] one\nLavander, especially to opening of bloud, or\nputtinge sande not [gone?] before. I put more\nby way of admonition, because [e...en] [....]\n[...ere..s] lesse & ouerload & [..l.eraried?], & open\nfor the women, to be & the sure consumptions\n& [divers?] of [ye said?] kinde, not onely to those\nthat [cause?] the Apoplexie; but also to those\n                                                           that"
+    },
+    {
+      "agent": 4,
+      "triage_score": 2,
+      "triage_path": "Standard",
+      "cer": 15.82,
+      "attempted_cer": 12.76,
+      "coverage": 1.0,
+      "reference_characters": 1403,
+      "hypothesis_characters": 1396,
+      "substitutions": 144,
+      "insertions": 35,
+      "deletions": 43,
+      "gap_count": 0,
+      "uncertain_count": 20,
+      "transcription_text": "of Lavander spike, the temperature,                     7\n\nLavander is hot & drye, & that in the third degree.\n& is of a thin substance, consisting of many airie\n& spirituall partes. It is profitable it is said to be vsed\na any way against the diseases of the head, &\nespecially those which haue their originall or\nbeginning not of a aboundance of humours, but\ncheefly of a qualitie only.\n     The vertues\nThe distilled water of Lavander smelt vnto,\nor the temples and forehead bathed therewith\nis a refreshinge to them that haue the catalefsie\na light migram, & to them that haue the fallings\nsicknes, & that vse to swoune much. But when\nthere is aboundance of humours, especially mixed\nwith bloud, it is not then to be vsed so safely, neither\nis the composition to be taken, or the made of\ndistilled water in which sure kindes of herbes,\nflowers, or seedes, Certayne herbes are nipt\nor [pressed?] though most men [rashely?] & all\naduenture giue them without [m..hinge?] and dis-\n[ordering?] at all for by [springs?] sure yet simple\nthat fill & stuffe the head doe the [b..afe?] it\n[made?] weaker & the [f..te?] also [brought?] on the\nlavnder, especially [open lading?] of bloud, or\nputtinge fumes not [bone?] before. I put more\nby way of admonition, because [euen?] [ouer?]\n[liuers?] [rash?] & ouerload [a welfarist?], & open\nfor [his?] women, do be & [y..e?] sure [consumptions?]\n& [o..pers?] of ye like kinde, not onely to those\nthat haue the apoplexie, but also to those\n                                                    that"
+    },
+    {
+      "agent": 5,
+      "triage_score": 8,
+      "triage_path": "Scaffolded",
+      "cer": 17.39,
+      "attempted_cer": 15.18,
+      "coverage": 1.0,
+      "reference_characters": 1403,
+      "hypothesis_characters": 1427,
+      "substitutions": 159,
+      "insertions": 54,
+      "deletions": 31,
+      "gap_count": 0,
+      "uncertain_count": 15,
+      "transcription_text": "of Lavander spike, the temperature,                    7\n\nLavander is hot & drye, & that in the third degree.\n& is of a thinne substance, consisting of many airie\n& spirituall parts, & therefore it is vsed to be given\na any way against the diseases of the head, &\nespecially those which haue their originall or\nbeginning not of a abundance of humours, but\ntherefore of a qualitie onely.\n     The vertues\nThe distilled water of Lavander smelt vnto\nor the temples and forehead bathed therewith,\nis a refreshinge to [resist?] that [cause?] the catalepsie\na light migram, & to them that [cause?] the fallings\nsicknes, & that [vse?] to swoone much. But it must\nherein be a abundance of humors, especially mixt of\ncolde blood, it is not then to be so freely taken, neyther\nis the composition to be taken, nor the most of\ndistilled water in which sure kinds of herbes\nflowers, or seedes, & certayne fruicts are nipt\nor pressed, though most men doe rashly & all\nadventure vpon them without mashinge and dis-\n[flouering?] at all for by [risings?] sure yet [found?]\nthat fill & stuffe the head doe the [bylaste?] it\nmade weaker & the fitte also brought on by\nLavander, especially to opening of blood, or\nputtinge [paine?] not [done?] before. I put more\nby way of admonition, because euery weake\nliuered [rash?] & ouerload a [pothecaries?], & open\nfor its woemen, so be & be quite sure [consumption?],\n& [dis...ers?] of the like kinde, not onely to those\nthat [cause?] the apoplexie; but also to those\n                                                     that"
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 17.41,
+      "median": 17.39,
+      "std_dev": 1.43,
+      "ci_95_lower": 15.63,
+      "ci_95_upper": 19.19,
+      "min": 15.82,
+      "max": 19.32,
+      "iqr_lower": 16.25,
+      "iqr_upper": 18.25,
+      "spread_pp": 3.5
+    },
+    "attempted_cer": {
+      "mean": 14.08,
+      "median": 14.23,
+      "std_dev": 0.95,
+      "ci_95_lower": 12.9,
+      "ci_95_upper": 15.26,
+      "min": 12.76,
+      "max": 15.18,
+      "iqr_lower": 13.54,
+      "iqr_upper": 14.68,
+      "spread_pp": 2.42
+    },
+    "coverage": {
+      "mean": 0.9973,
+      "min": 0.9865,
+      "max": 1.0
+    }
+  },
+  "reference_text": "Source: https://fromthepage.com/folger/early-modern-recipe-books/bulkeley-elizabeth/display/32696411\nManuscript: Wellcome Collection: Bulkeley, Elizabeth (MS.169)\nPage: 17 of 85\nIIIF Image URL: https://iiif.wellcomecollection.org/image/b18900008_MS169_0017.JP2/full/max/0/default.jpg\nIIIF Info: https://iiif.wellcomecollection.org/image/b18900008_MS169_0017.JP2/info.json\n---\n7\nOf Lauander spike, the temperature.\n\nLauander is hot & drye, & that in the third degree,\n& is of a thinn substance, consistinge of many airie\n& spirituall partes. Therefore it is good to be giuen\nany way against the diseases of the head, &\nespetially those which haue theire originall or\nbeginninge not of a bundance of humors, but\ncheifely of a qualitie onely.\n\nThe Vertues.\n\nThe distilled water of Lauander smelt vnto,\nor the temples and forehead bathed therwith,\nis a refreshinge to them that haue the Catalepsie,\na light Migram, & to them that haue the fallinge\nsicknes, & that vse to soone much. But when\nthere is a bundance of humors, espetiallly mixed\nwith blood, it is not then to be vsed safely, neither\nis the composition to be taken, which made of\ndistilled Wine: in which such kinde of herbes,\nflowers, or seedes, & certayne spices are infused\nor steeped, though most men do rashly & att\nadventure giue them without makinge any dif-\nference at all for by vsinge such hot thinges\nthat fill & stuffe the head, both the disease is\nmade greater & the sicke also brought into\ndanger, espetially when letting of blood, or\npurging haue not gone before. This much\nby way of admonition, because euery where\ndivers rash & ouerbould Apothecaries, & other\nfoolish weomen, do by & by giue such compositions,\n& others of the like kinde, not onely to those\nthat haue the Apoplexie; but also to those\nthat"
+}

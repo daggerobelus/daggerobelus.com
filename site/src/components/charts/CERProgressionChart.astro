@@ -6,11 +6,11 @@
 interface Props {
   caption?: string;
 }
-const { caption = 'Henslow MS688 — Character Error Rate across eight blind evaluation runs' } = Astro.props;
+const { caption = 'Henslow MS688 — Character Error Rate across eight blind evaluation runs. For comparison, Transkribus achieves ~5–8% CER with its general model (no training) and ~3% with a hand-trained model (2,500 pages of ground truth).' } = Astro.props;
 ---
 
 <figure class="cer-progression not-prose my-12">
-  <div id="cer-chart" class="w-full"></div>
+  <div id="cer-chart" style="min-width: min(900px, 90vw);"></div>
   <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
     {caption}
   </figcaption>
@@ -46,9 +46,9 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
     if (containerWidth <= 0) return;
     const isMobile = containerWidth < 600;
 
-    const margin = { top: 20, right: 30, bottom: 50, left: 55 };
+    const margin = { top: 30, right: 40, bottom: 60, left: 60 };
     const width = containerWidth - margin.left - margin.right;
-    const height = isMobile ? 300 : 380;
+    const height = isMobile ? 300 : Math.round(width * 0.45);
 
     const svg = d3.select('#cer-chart')
       .append('svg')
@@ -75,23 +75,12 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
       .attr('stroke-width', 1).attr('opacity', 0.5);
 
     svg.append('text')
-      .attr('x', 6).attr('y', y(5) + 16)
-      .attr('fill', '#2d8a4e').attr('opacity', 0.6)
-      .attr('font-size', '11px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('x', 6).attr('y', y(5) + 14)
+      .attr('fill', '#2d8a4e').attr('opacity', 0.5)
+      .attr('font-size', '10px').attr('font-family', 'SF Mono, Monaco, monospace')
       .text('< 5% usable for research');
 
-    // Transkribus benchmark
-    svg.append('line')
-      .attr('x1', 0).attr('x2', width)
-      .attr('y1', y(3)).attr('y2', y(3))
-      .attr('stroke', '#888').attr('stroke-dasharray', '3,3')
-      .attr('stroke-width', 1).attr('opacity', 0.4);
-
-    svg.append('text')
-      .attr('x', 6).attr('y', y(3) - 6)
-      .attr('fill', '#888').attr('opacity', 0.5)
-      .attr('font-size', '11px').attr('font-family', 'SF Mono, Monaco, monospace')
-      .text('~3% Transkribus (best commercial tool)');
+    // Transkribus benchmarks removed from chart — noted in caption instead
 
     // Grid lines
     y.ticks(7).forEach(tick => {
@@ -198,12 +187,17 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
           tooltip.style('opacity', 0);
         });
 
-      // CER label next to each dot
-      const labelOffset = run.cer > 6 ? -12 : (run.id === 5 ? 16 : -12);
+      // CER label next to each dot — position to avoid collisions
+      let labelY = -14;
+      let labelAnchor = 'middle';
+      let labelDx = 0;
+      if (run.id === 1) { labelY = -14; labelAnchor = 'start'; labelDx = 10; }
+      if (run.id === 5) { labelY = 18; }
+      if (run.id === 8) { labelY = 18; labelAnchor = 'end'; labelDx = -10; }
       svg.append('text')
-        .attr('x', x(run.id))
-        .attr('y', y(run.cer) + labelOffset)
-        .attr('text-anchor', 'middle')
+        .attr('x', x(run.id) + labelDx)
+        .attr('y', y(run.cer) + labelY)
+        .attr('text-anchor', labelAnchor)
         .attr('fill', color)
         .attr('font-size', '12px')
         .attr('font-weight', '600')
@@ -220,10 +214,10 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
     let legendX = 0;
     legendItems.forEach(item => {
       svg.append('circle')
-        .attr('cx', legendX + 5).attr('cy', height + 42)
+        .attr('cx', legendX + 5).attr('cy', height + 50)
         .attr('r', 4).attr('fill', item.color);
       svg.append('text')
-        .attr('x', legendX + 14).attr('y', height + 42)
+        .attr('x', legendX + 14).attr('y', height + 50)
         .attr('dy', '0.35em')
         .attr('font-size', '11px')
         .attr('font-family', 'SF Mono, Monaco, monospace')

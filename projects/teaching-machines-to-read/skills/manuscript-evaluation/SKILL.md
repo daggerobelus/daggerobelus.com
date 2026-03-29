@@ -83,8 +83,11 @@ An agent with 80% coverage and 3% attempted CER is more useful than one with 100
 **Benchmarks for context:**
 - < 1% CER = very good
 - < 5% CER = usable for most research purposes
-- ~3% CER = Transkribus Egerton model (best existing for English secretary hand)
+- ~3% CER = Transkribus Egerton model (trained on 2,500+ pages of one specific hand)
+- ~5–8% CER = Transkribus Titan general model (no hand-specific training)
 - > 10% CER = significant errors, needs investigation
+
+**Note on Transkribus comparison:** The ~3% Egerton benchmark required thousands of pages of hand-labeled ground truth in one specific hand. This project's approach uses zero training data — a fundamentally different method. Results near or below the Titan general model (~5–8%) with zero training data are strong; results near the Egerton model (~3%) with zero training data are exceptional.
 
 **If CER is below 3%, flag for review.** The best honest blind result in this project is 3.80%. A result substantially below that is not impossible, but requires the integrity audit (in the test-run skill) to confirm clean conditions before it can be reported as a genuine improvement.
 

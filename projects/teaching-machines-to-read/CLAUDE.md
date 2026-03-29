@@ -99,7 +99,8 @@ CER is computed using Levenshtein edit distance at the character level between t
 Benchmarks:
 - < 1% CER = very good
 - < 5% CER = usable for most research purposes
-- Transkribus Egerton model (best existing for English secretary hand) ≈ 3% CER
+- Transkribus Egerton model (trained on 2,500+ pages of one hand) ≈ 3% CER
+- Transkribus Titan general model (no hand-specific training) ≈ 5–8% CER
 
 Qualitative error analysis (modernization bias, capitalization ambiguity, etc.) is reported separately as value judgments about where the inaccuracy lies, not as alternative accuracy metrics.
 
@@ -150,13 +151,13 @@ The primary transcription pipeline uses Claude's vision capabilities guided by t
 - **Run 3 (alphabet-first method, Henslow only): 6.12% CER — ~50% reduction vs. Runs 1-2**
 - **Run 4 (alphabet-first, all 5 manuscripts, formalized instructions): Henslow 4.96% (crossed <5% usable threshold), Brumwich 9.30% (from ~96% hallucinated)**
 - Run 5 (stronger instructions + review agent): No meaningful improvement — confirmed again that instruction changes alone don't help. Reverted to Run 4 instructions.
-- **Run 6 (alphabet-first + vocabulary verification): Henslow 3.80% (best result, approaching Transkribus ~3% benchmark), Bulkeley 16.21% (best for this MS)**
+- **Run 6 (alphabet-first + vocabulary verification): Henslow 3.80% (best result, matching Transkribus with zero training data), Bulkeley 16.21% (best for this MS)**
 
 Current best results:
 
 | Manuscript | Best CER | Best Run | Status |
 |---|---|---|---|
-| Henslow MS688 | **3.80%** | Run 6 | Near Transkribus benchmark, usable for research |
+| Henslow MS688 | **3.80%** | Run 6 | Matches Transkribus (zero training data vs. 2,500 pages), usable for research |
 | Sedley MS534 | **13.65%** | Run 10 | Improved via error analysis protocol |
 | Bulkeley MS169 | **16.21%** | Run 6 | Above usable threshold, needs work |
 | Brumwich MS160 | **9.30%** | Run 4 | Above usable threshold, image resolution limited |

@@ -67,7 +67,7 @@ const { caption } = Astro.props;
         { label: 'Secretary d', explanation: 'The letter that loops back to the left is a secretary d — it looks nothing like a modern d. See "handefull" and "and".' },
         { label: 'Imbers', explanation: '"Imbers" means embers — you\'re wrapping mallow leaves in a cabbage leaf and roasting them in the coals. This is a recipe for treating hemorrhoids.' },
       ],
-      aiResult: 'The AI read this at 3.80% CER in its best run — nearly as accurate as the leading commercial tool (Transkribus, ~3%).',
+      aiResult: 'The AI read this at 3.80% CER in its best run — with zero training data. Transkribus achieves ~3% but requires 2,500+ pages of hand-labeled ground truth.',
       aiCER: 3.80,
     },
     {
@@ -142,6 +142,8 @@ const { caption } = Astro.props;
       const img = document.createElement('img');
       img.src = ex.image;
       img.alt = `${ex.title} manuscript section`;
+      img.dataset.zoomSrc = ex.fullImage;
+      img.dataset.zoomCaption = `${ex.title} — full manuscript page`;
       img.style.cssText = 'width: 100%; height: auto; display: block;';
       img.loading = 'lazy';
       imgWrap.appendChild(img);

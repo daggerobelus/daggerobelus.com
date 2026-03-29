@@ -8,152 +8,176 @@ description: >
   someone mentions paleography, secretary hand, or letterforms.
 ---
 
-# Manuscript Transcription — Alphabet-First Method
+# Manuscript Transcription — Adaptive Method
 
-## Research Context
+You are transcribing an early modern English manuscript page written in secretary hand (roughly 1500–1700). This is a research transcription — the results will be evaluated against field-standard CER metrics and reviewed by paleography scholars.
 
-This transcription is part of a digital humanities research project investigating how AI agents learn to read early modern handwriting. The results will be presented to scholars in English literature, digital humanities, and paleography. Every transcription you produce may be compared against Transkribus benchmarks and evaluated using field-standard CER metrics (computed by `jiwer`, the same library used in ICDAR HTR competitions).
-
-This means: **follow the method exactly.** Each step exists because skipping it produces specific, measurable errors. The people reviewing this work are experts who will immediately spot modernization, hallucination, or lazy heuristics. An honest gap (`[...]`) is a sign of good judgment; a confident wrong answer is a corruption of the historical record.
-
-## The Method
-
-You are transcribing an early modern English manuscript page written in secretary hand (roughly 1500–1700). This method forces you to read **bottom-up** — identifying individual pen strokes and letterforms before assembling words — rather than top-down guessing from context.
-
-Top-down reading is the single biggest source of error. When you guess what a word "should be" based on context, you silently replace the historical record with modern English. The alphabet-first method prevents this.
+This skill has two paths: **Standard** (for legible manuscripts) and **Scaffolded** (for degraded or difficult manuscripts). You choose which path to follow based on a triage assessment of the page.
 
 ## Your Materials
 
-You should have access to:
-
 - **Manuscript image(s)** — the page(s) to transcribe
-- **Paleography guide** — `ingest/references/paleography-guide.md` describes secretary hand letterforms, common abbreviations, and Folger semi-diplomatic editorial conventions. Read this before starting.
-- **Vocabulary reference** — `extracted/derived/vocab/vocab-reference.txt` contains ~19,000 words attested in early modern recipe books, printed herbals, and EMROC transcriptions. Used in Step 3 for verification only.
+- **Paleography guide** — `ingest/references/paleography-guide.md` — secretary hand letterforms, abbreviations, and Folger semi-diplomatic conventions. Read this before starting.
+- **Vocabulary reference** — `extracted/derived/vocab/vocab-reference.txt` — ~19,000 words attested in early modern recipe books. Used for verification.
 
-If any of these are missing, ask before proceeding. The paleography guide is essential — it provides the general letterform knowledge that your hand-specific alphabet will build on.
+If any of these are missing, ask before proceeding.
 
-## The Method
+## Step 0: Triage
 
-Three steps, in order. Each step builds on the previous one — the alphabet enables bottom-up reading, the transcription uses the alphabet, and the vocab check verifies the transcription.
+**Before transcribing anything, assess the page.** Scan the whole image and score each factor. Factors marked with **(×2)** are weighted double because they have the strongest effect on transcription accuracy.
 
-### Step 1: Build a Hand-Specific Alphabet
+| Factor | None (0) | Minor (1) | Moderate (2) | Severe (3) |
+|---|---|---|---|---|
+| **Physical damage** — water, mold, tears, foxing | None | Small areas affected | Significant areas obscured | Large areas destroyed or illegible |
+| **Scan quality (×2)** — resolution, pages per image, lighting | Single page, high resolution, clear | Single page with slight blur or uneven lighting | 2-page spread OR moderate resolution loss | 2-page spread AND low resolution or poor lighting |
+| **Hand density (×2)** — spacing between words and lines | Open, generous white space | Mostly open, a few tight areas | Tight in many areas, some lines overlap | Compressed throughout, little white space |
+| **Multiple hands** — different scribes on the page | Single consistent hand | Minor shifts in style or size | Two distinguishable hands | Three or more hands, or dramatic shifts |
+| **Ink quality** — fading, blotting, show-through | Dark, even, crisp | Slight fading or minor blotting | Noticeable fading in sections, some show-through | Heavy fading, blotting, or show-through throughout |
+| **Hand quality** — how well-formed the letterforms are | Clear, careful, consistent forms | Mostly clear, occasional irregular forms | Frequently hasty or irregular, many ambiguous letters | Rough throughout, hard to distinguish individual letters |
 
-Before reading a single word, study the manuscript image and build a **letter-by-letter reference chart** for this particular scribe's hand. Every scribe forms letters differently — the general paleography guide tells you what secretary hand looks like in theory; this alphabet tells you what *this person's writing* looks like in practice.
+**Scoring:** Add the scores. For factors marked (×2), multiply by 2 before adding.
 
-For each letter of the alphabet (a–z), document:
+**Maximum possible: 24** (6 factors, 2 weighted double, max 3 each = 4×3 + 2×6 = 24)
 
-- **Letterform**: How does this scribe form this letter? Describe the pen strokes — which direction, which are thick (downstrokes) and thin (upstrokes), where the lifts are.
-- **Examples**: 2–4 words on the page where this letter appears clearly, with line references.
-- **Confusion risks**: Which other letters could this be mistaken for in this specific hand?
-- **Variants**: Does the scribe use more than one form (e.g., long-s vs. round-s, two styles of r)?
+- **0–7 → Standard Path** (single pass with alphabet)
+- **8+ → Scaffolded Path** (three-pass method)
 
-If a letter doesn't appear on the page, note that.
+Write down your assessment and total before proceeding. This is your first output — save it to `[manuscript]-triage.txt`.
 
-Also document:
-- **Ligatures and combinations** — th, sh, ch, ff, the -es graph, the -er graph, etc.
-- **Distinctive features** — decorative capitals, spacing habits, ink quality, anything that characterizes this hand.
+---
 
-#### Confusion Risk Ranking
+## Standard Path (Score 0–7)
 
-At the end of the alphabet, rank the confusion risks from highest to lowest for this hand. For each one, explain:
-- Which letters are being confused
-- Why they look similar in this hand specifically
-- What distinguishing feature (if any) can tell them apart
+For legible manuscripts where the hand is clear enough to read on the first pass. The main job here is accuracy.
 
-This ranking is your map of where errors are most likely. You'll consult it constantly during transcription.
+### Step 1: Build an Alphabet
+
+Scan the whole page. Identify page numbers, headings, recipe boundaries, and the clearest text. Then build a hand-specific alphabet from the most legible words.
+
+For each letter (a–z), document:
+- How this scribe forms it (pen stroke direction, thick/thin, lifts)
+- 2–4 clear example words
+- Confusion risks (which letters look similar in this hand)
+- Variants (e.g., long-s vs. round-s)
+
+Also note ligatures (th, ff, -es graph, -er graph) and this scribe's specific habits.
+
+**Calibrate the alphabet:** Pick 5 clear words from different parts of the page. Transcribe each one letter by letter using your alphabet. Check each against the vocab reference. If 3+ don't match any attested word, your alphabet has errors — revise before continuing.
+
+**Note this scribe's orthographic habits:**
+- u or v at word beginnings? ("vpon" or "upon"?)
+- Doubled final consonants? ("itt" or "it"?)
+- Terminal -e? ("fundamente" or "fundament"?)
+- i or j? ("iuice" or "juice"?)
+
+Every scribe is different. Do not carry habits from any previous manuscript.
 
 **Save as:** `[manuscript]-alphabet.txt`
 
-### Step 2: Transcribe the Page
+### Step 2: Transcribe
 
-Now transcribe, using your alphabet chart as your primary reference and the paleography guide as general background.
+Work through the page using your alphabet. For each word:
 
-**How to read each word:**
+1. Look at the pen strokes on the page
+2. Match each stroke to a letterform in your alphabet
+3. Assemble the letters into a word
+4. If a word is unclear, check it against the vocab reference
 
-1. Look at the pen strokes — what individual marks are on the page?
-2. Match each stroke to a letterform in your alphabet chart
-3. When you hit a high-risk confusion pair from your ranking, slow down and compare against the example words in the alphabet
-4. Assemble the letters into a word
-5. Only after you have a letterform-based reading, consider whether it makes sense in context
+**Confidence scale:**
 
-That last step is important: context can *confirm* a reading you've already made from letterforms, but it cannot *generate* a reading. "This looks like it says 'iuice' and that makes sense in a recipe" is good. "This is a recipe so the word is probably 'juice'" is not — that's fabrication.
-
-#### The Pen Stroke Test
-
-For every word you transcribe, ask: **can I trace each pen stroke from lift to lift and match it to a letter in my alphabet?**
-
-If yes — transcribe it. If you find yourself reasoning from context instead ("this is probably X because the recipe is about Y"), that's a signal you've lost the letterforms. Stop and use the confidence scale below.
-
-This test is how you catch yourself guessing. Guessing feels productive — you're writing words, the transcription is filling in — but each guess is a coin flip that silently corrupts the historical record. A gap (`[...]`) tells the reader "this needs a human eye." A wrong guess tells them nothing.
-
-| The pen stroke test | What to do |
+| What you can see | What to write |
 |---|---|
-| You can trace every stroke and match it to your alphabet | Transcribe with confidence |
-| You can see strokes but they match two possible letters | Flag with `[word?]` — you're reading, just uncertain |
-| You can see some strokes but are filling in the rest from context | Use `[b....es]` — write only the letters you can actually trace |
-| You cannot trace individual strokes at all | Use `[...]` — this is the honest, correct response |
-| A whole passage has no traceable strokes | `[Passage illegible — ~N lines, reason]` |
+| Clear strokes, unambiguous reading | The word |
+| Strokes visible but ambiguous (two possible readings) | `[word?]` |
+| Some strokes visible, rest unclear | `[b....es]` (letters you can trace + dots) |
+| No traceable strokes | `[...]` |
 
-#### Transcription Conventions
+**The vocab list confirms readings — it does not generate them.** If you find yourself scanning the list for words that might fit, stop. Read the letterforms first, then check.
+
+After completing the transcription, do one final check: read through and verify that the orthography is consistent with this scribe's habits.
+
+→ **Skip to Output** below.
+
+---
+
+## Scaffolded Path (Score 8+)
+
+For degraded or difficult manuscripts where the agent needs to separate "what I can see" from "what I think should be there." The main job here is calibration — knowing when to stop trying.
+
+### Pass 1: Survey and Alphabet
+
+**Task: learn this scribe's hand before reading the page.**
+
+Same as Standard Path Step 1 — scan the page, build an alphabet, calibrate against vocab, note orthographic habits.
+
+**Save as:** `[manuscript]-alphabet.txt`
+
+### Pass 2: Skeleton
+
+**Task: transcribe only what you can read from letterforms. Nothing else.**
+
+Work through the page using your alphabet. For each word:
+
+1. Look at the pen strokes on the page
+2. Match each stroke to a letterform in your alphabet
+3. Assemble the letters into a word
+
+If you can trace every stroke → transcribe the word.
+If you cannot trace the strokes → write `[...]` and move on.
+
+**Do not reason from context in this pass.** Do not think about what word "makes sense." Do not fill in gaps based on what the recipe is about. This pass produces a gapped skeleton — headings, clear words, and honest gaps. That is exactly what it should look like.
+
+**Confidence scale:**
+
+| What you can see | What to write |
+|---|---|
+| Clear strokes, unambiguous reading | The word |
+| Strokes visible but ambiguous (two possible readings) | `[word?]` |
+| Some strokes visible, rest unclear | `[b....es]` (letters you can trace + dots) |
+| No traceable strokes | `[...]` |
+| Whole passage illegible | `[Passage illegible — ~N lines, reason]` |
+
+### Pass 3: Fill and Verify
+
+**Task: revisit the gaps. Use your alphabet and vocab reference together to attempt harder readings.**
+
+Go back through every `[...]` gap and `[word?]` flag:
+
+1. Look at the gap again. Can you see any partial strokes you missed?
+2. Match visible strokes against your alphabet — do any letters become clear on a second look?
+3. If you can propose a reading, check it against the vocab reference:
+   - **On the list** → your confidence increases. Use `[word?]` if somewhat certain, or transcribe if now confident.
+   - **Not on the list** → is there a plausible alternative (1–2 letters different) that IS on the list and that the strokes support? If so, consider it. If not, keep the gap.
+4. If you still cannot read it, leave `[...]`. The gap is the correct transcription.
+
+**The vocab list confirms readings — it does not generate them.** If you find yourself scanning the list for words that might fit, you have reversed the process.
+
+After filling gaps, do one final check of the full transcription: read through and verify that the orthography is consistent with this scribe's habits.
+
+→ **Continue to Output** below.
+
+---
+
+## Transcription Conventions
 
 Follow Folger semi-diplomatic conventions (detailed in the paleography guide):
 
-- **Preserve original spelling exactly** — "physicke" not "physic", "chirurgery" not "surgery"
-- **Preserve original punctuation, capitalization, and line breaks**
-- **Expand abbreviations** with supplied letters in *italics*
-- **Preserve scribal errors** — dittography ("make make"), transposed letters ("littly"), false starts ("th the"). Transcribe what is there, not what was meant.
-- **Preserve apostrophes** in possessives and contractions exactly as written
-- **Keep the scribe's orthography** throughout — u/v, i/j, long-s, doubled consonants, terminal -e. If the scribe wrote "vpon," your transcription says "vpon." If you feel the urge to "fix" a spelling, that urge is modernization bias — the scribe's spelling is the data.
+- Preserve original spelling exactly — "physicke" not "physic"
+- Preserve original punctuation, capitalization, and line breaks
+- Expand abbreviations with supplied letters in *italics*
+- Preserve scribal errors — dittography, transpositions, false starts
+- Keep the scribe's orthography — u/v, i/j, long-s, doubled consonants, terminal -e
+- If the scribe wrote "vpon," transcribe "vpon." The scribe's spelling is the data.
 
-#### Checkpoints: Patterns That Signal You're Drifting
+## Output
 
-These are specific moments during transcription where the pen stroke test is most important. Each one describes a situation where context-based reading tends to take over from letterform-based reading:
-
-1. **Doubled consonants** — scribes wrote "putt," "itt," "hott." When you see two downstrokes, count two letters. If your transcription has the single-consonant spelling, re-check: did you see one stroke or two?
-2. **Terminal -e** — "Coleworte," "handefull," "fundamente." Check the end of each word: is there a final stroke you overlooked? Terminal -e is easy to absorb into the previous letter.
-3. **Unfamiliar words** — recipe books contain plant names, medical terms, and archaic vocabulary that look strange. When a word feels wrong, that's a signal to trust your letterforms more, not less. An unfamiliar reading built from clear strokes is more likely correct than a familiar word you can't trace.
-4. **Long-s (ſ) vs. f** — check the crossbar. Long-s has no crossbar or only a partial one on the left side. A full crossbar through the stem means f. Trace the horizontal stroke specifically.
-5. **u/v at word boundaries** — the scribe's choice of u or v follows period conventions, not modern ones. "vpon" and "haue" are correct. If your transcription has modern u/v distribution, you're modernizing.
-6. **The -es graph** — a looped downstroke at the end of a word meaning -es. Look specifically for a loop descending from the final letter. Easy to miss or read as a single letter.
-7. **The -er graph** — a hook-shaped upstroke that can also mean -ar, -or, or -re depending on context. When you see a hook at the end of a word, consult your alphabet for how this scribe forms it.
-
-### Step 3: Verify Against Vocabulary Reference
-
-After completing the transcription, go back through it and check each unfamiliar or uncertain word against the vocabulary reference (`extracted/derived/vocab/vocab-reference.txt`).
-
-**The rules for using the vocab list:**
-
-1. **Read first, verify second.** Always complete your letterform-based reading before checking. The list confirms readings; it does not generate them.
-
-2. **Word on the list** → your confidence increases. The word is attested in other early modern manuscripts.
-
-3. **Word NOT on the list** → re-examine the letterforms. Is there a plausible alternative where one or two letters differ? If that alternative IS on the list and the letterforms genuinely support it, it may be correct. But if they don't, keep your original reading. The list doesn't contain every word.
-
-4. **Never let the list override clear letterforms.** If you can clearly see the pen strokes and they spell a word not on the list, transcribe what you see. The list is evidence, not authority.
-
-5. **Note verifications** in your confidence notes: "Read 'calcinated' — confirmed in vocab reference (attested in 6+ manuscripts)."
-
-## Output Format
-
-For each page, produce three files:
+Produce these files per page:
 
 | File | Contents |
 |------|----------|
-| `[manuscript]-alphabet.txt` | Hand-specific letter chart with confusion risk ranking |
+| `[manuscript]-triage.txt` | Triage assessment: factor scores, total, path chosen |
+| `[manuscript]-alphabet.txt` | Hand-specific alphabet with confusion risks and scribe's orthographic habits |
 | `[manuscript]-transcription.txt` | **Plain transcription text only** — no headers, no metadata, no section markers |
-| `[manuscript]-notes.txt` | Confidence notes listing flagged readings and why they are uncertain |
+| `[manuscript]-notes.txt` | Flagged readings: line number, your reading, why uncertain, vocab verification |
 
-**The transcription file must contain ONLY the transcription itself** — the raw text preserving original spelling, punctuation, capitalization, and lineation. No `===` section markers, no manuscript name header, no date, no method description. Just the transcription starting from the first line of manuscript text. This is because the CER evaluation script (`compute_cer.py`) compares it character-by-character against the reference — any extra text inflates the error rate.
-
-The notes file should contain:
-- Manuscript name and page number
-- Each flagged reading with the line number, what you read, why it's uncertain, and whether the vocab reference confirmed it
-
-Use the manuscript name from the image filename (e.g., `henslow-ms688-page12-alphabet.txt`).
-
-## Process Reminders
-
-- **The alphabet comes first, always.** The alphabet is what makes bottom-up reading possible. Without it, you will default to top-down guessing — reading what you expect to see rather than what the scribe wrote.
-- **The vocabulary list is a verification tool, not a prediction tool.** Use it to check readings you've already made from letterforms. If you find yourself scanning the list for words that might fit a gap, you've reversed the process.
-- **Unfamiliar spelling is the norm, not a problem to fix.** Early modern orthography is inconsistent by modern standards. When something looks "wrong," apply the pen stroke test: can you trace it? If so, transcribe it as-is. The scribe's writing is the data.
-- **Gaps are findings, not failures.** Every `[...]` you write is a correct judgment that the letterforms cannot be read. A transcription with gaps is a reliable research instrument. A transcription that fills in gaps from context is fiction dressed as scholarship.
+**The transcription file must contain ONLY the transcription.** No manuscript name, no date, no method notes. Just the text starting from the first line. The CER evaluation script compares character-by-character — any extra text inflates the error rate.

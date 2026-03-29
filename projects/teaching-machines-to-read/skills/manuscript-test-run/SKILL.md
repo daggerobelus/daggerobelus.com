@@ -247,7 +247,7 @@ Check each agent for these red flags:
 2. **Suspiciously fast completion** — if an agent took less than half the time of the median agent, it may have shortcut the alphabet step
 3. **No alphabet file** — if `output/` has a transcription but no alphabet, the agent skipped Step 1 (the entire point of the method)
 4. **Zero gaps on a hard manuscript** — a transcription with no `[...]` markers on a manuscript rated "hard" or "very hard" suggests the agent fabricated readings instead of marking illegible text
-5. **CER below 3%** — the best honest blind result is 3.80%. Below 3% requires explanation.
+5. **CER below 3%** — the best honest blind result is 3.80% (matching Transkribus Egerton, which was trained on 2,500+ pages). Below 3% with zero training data requires explanation.
 
 ### 7d: Audit Result
 
@@ -460,6 +460,82 @@ Write a new file to the project's data directory. **Never modify existing files.
 
 **Create the `runs/` directory if it doesn't exist:** `projects/teaching-machines-to-read/public/data/runs/`
 
+## Step 9: Preserve Notable Runs
+
+After compiling results in Step 8, check whether any agents produced notable outlier results — unusually good or unusually bad. Notable runs are preserved as research case studies so the researcher can study what went right (or wrong) and compare working materials across agents.
+
+### 9a: Identify Outliers
+
+An agent is "notable" if ANY of these are true:
+
+| Condition | Why it matters |
+|---|---|
+| CER is > 1 standard deviation below the run mean | Unusually accurate — what did this agent do differently? |
+| CER beats the previous best for this manuscript (see baseline table in Step 0) | New record — the working materials are primary evidence |
+| CER is > 1 standard deviation above the run mean | Unusually poor — what went wrong? |
+| Zero `[...]` gaps when the run median gap count is > 3 | Possible fabrication — agent may have guessed rather than marked illegible text |
+
+If no agents meet any condition, skip to the Integrity Summary. Not every run produces outliers.
+
+### 9b: Copy Artifacts
+
+For each notable agent, copy its complete working files to the project:
+
+```
+ingest/archive/test/notable-runs/
+└── run-[N]-agent-[A]-[manuscript]/
+    ├── alphabet.txt              # The agent's hand-specific alphabet
+    ├── transcription.txt         # The agent's transcription
+    ├── notes.txt                 # The agent's uncertainty notes
+    ├── evaluation.txt            # The evaluation report for this agent
+    └── notable-run-summary.txt   # Why this run was flagged (see below)
+```
+
+Copy the files from the agent's `/tmp/` folder and the evaluation results. Use the actual filenames the agent produced (they may include the manuscript name as a prefix).
+
+### 9c: Write the Summary
+
+Create `notable-run-summary.txt` in the agent's notable-runs folder:
+
+```
+# Notable Run: Run [N], Agent [A]
+Manuscript: [name]
+Date: [YYYY-MM-DD]
+CER: [X.XX%]
+Attempted CER: [X.XX%]
+Coverage: [XX.X%]
+Run mean CER: [X.XX%]
+Run std dev: [X.XX]
+
+## Why Notable
+[Which condition(s) triggered this: new record, statistical outlier, zero gaps, etc.]
+
+## Skill Version
+[Which version of SKILL.md was used — note any changes from baseline]
+
+## Quick Comparison
+- Previous best for this manuscript: [X.XX%] (Run [N])
+- This run's mean: [X.XX%]
+- This agent vs. run mean: [+/- X.XX pp]
+```
+
+### 9d: Report to Researcher
+
+After preserving notable runs, include a brief section in your results presentation:
+
+```
+## Notable Runs Preserved
+
+[N] agent(s) flagged as outliers and saved to ingest/archive/test/notable-runs/:
+
+- Agent [A]: [X.XX%] CER — [reason, e.g., "new Henslow record" or "2.1 SD above mean"]
+  → Saved to notable-runs/run-[N]-agent-[A]-[manuscript]/
+
+[If none]: No outliers detected in this run.
+```
+
+This is informational — the researcher decides what to do with the preserved materials. The point is that the evidence exists for later study rather than disappearing when `/tmp/` is cleaned up.
+
 ## Boundary: What This Skill Does NOT Do
 
 **This skill does not update the website charts, components, or any existing data files.**
@@ -474,7 +550,7 @@ Do not:
 - Modify any file in `site/src/components/charts/`
 - Modify any `.astro` or `.mdx` file
 
-The only file this skill creates in the project directory is the new `run-N-results.json`.
+The only files this skill creates in the project directory are the new `run-N-results.json` and any notable-run folders in `ingest/archive/test/notable-runs/`.
 
 ## Integrity Summary
 
