@@ -1,0 +1,148 @@
+{
+  "run": {
+    "id": "skills-run-4",
+    "name": "Skills Run 4: Adaptive Method with Triage",
+    "date": "2026-03-29",
+    "method": "Adaptive: agents assess page difficulty (0-24 score), route to Standard Path (0-7) or Scaffolded Path (8+)",
+    "category": "structural",
+    "question": "Does routing agents to different methods based on page difficulty improve results for both easy and hard manuscripts?",
+    "changes_from_baseline": "Added triage step with weighted rubric (scan quality and hand density x2). Standard Path = alphabet + single-pass transcribe. Scaffolded Path = three-pass method from v3."
+  },
+  "manuscript": {
+    "id": "jane-jackson"
+  },
+  "skill_version": "SKILL.md v4 \u2014 Adaptive Method with Triage (Standard 0-7 / Scaffolded 8+)",
+  "triage_summary": {
+    "scores": [
+      4,
+      12,
+      4,
+      1,
+      2
+    ],
+    "paths": [
+      "Scaffolded",
+      "Scaffolded",
+      "Scaffolded",
+      "Scaffolded",
+      "Scaffolded"
+    ],
+    "consensus_path": "Scaffolded",
+    "agreement": 5
+  },
+  "agents": [
+    {
+      "agent": 1,
+      "triage_score": 4,
+      "triage_path": "Scaffolded",
+      "cer": 87.89,
+      "attempted_cer": 7.09,
+      "coverage": 0.4362,
+      "reference_characters": 4007,
+      "hypothesis_characters": 612,
+      "substitutions": 124,
+      "insertions": 0,
+      "deletions": 3397,
+      "gap_count": 358,
+      "uncertain_count": 22,
+      "transcription_text": "[LEFT PAGE \u2014 verso]\n\nffor [starch?] and [hoy?] to be [a...] [paste?] as [fair?] as you can [m.........]\n[.] The [oil?] [of?] [......] is [more?] [......] [......] [......] a [faire?] [......] [......] to [...]\n[..........] [..........]\n[The?] [........] [......] [.......] of [.......] and [......] [......] [.......] of [........]\n[.......] [......] [.....] with and [......] [......] the [.......] [.......] [......] [......] [....]\n[.......] [of?] [.....] to the [.......] [.......] and the [.......] [......] [......] [........]\n[.......] of [.......] to the [.......] [......] [.......] [.......] and [.......] [..........]\n[.......] the [.......] [.....] [.....] the [.....] [.....] of [.....] all [.....] [..........]\n[.......] [.....] [.....] [.....] [.....] [.....] [......] [.....] [.....] [..........]\n\n[.......] to [..........]\nffor [.........] [.........]\n\n[Take?] [.....] [.....] and [.....] [.....] [.....] [.....] water [.....] a [great?]\n[........] [...........]\n\nffor [..............]\n\n[A?] [Letter?] [.....] of [.....] and a [gallon?] of [strong?] [......] [..........]\n[.......] a [.......] [.......] and [.....] a [.......] a [.....] [........]\n[...........] [.....] in the [.....] be [the?] [.....] if [.....] [.....] [..........]\n[.......] a [.....] [.....] in [.......] [......] [.......]\n\n[...........] [.....] [..........]\n\n[...] a [......] of [.......] and a [......] of [......] [......] [.........]\n[.......] [......] [.....] a [.......] [.....] [.....] the [.....] [.......] [........]\n[.......] to [.....] [.....] [.....] the [.....] [.......] [.......] of [........]\n[......] [.....] [.....] [.....] [.....] [.....] [.....] the [.....] [........]\n[...........] a [.....] [.....] [.....] [.....] [.....] [.......]\n[......] [.......] [.....] [.....] [.....] and [.....] [.......] [........]\n[..........] the [.....] [.....] of the [.....] the [.......] [.......] [........]\n[......] [.....] [.....] [.....] [.....] [.....] [.....] [.........]\n[...........] of [.....] [.......] and [.....] [.....] [.....] and [.....] [..........]\n[......] [.....] [.......] [.....] [.....] [.....] [.....] [........] [..........]\n[..........]\n\n[Passage illegible \u2014 approximately 4-5 lines, heavy water/mold damage]\n\n[RIGHT PAGE \u2014 recto, page 9]\n\nA [.......] [.....] [..........]\n\nThe [......] [.....] [.....] and [.......] [.....] in [order?] [one?] [from?] a\n[.......] [.....] and [.....] [.......] [.....] [.......] a [.....] [.....] a [......] [........]\n[with?] [.....] [.......]\n\nA [.......] [.......] [.....] [.......]\n\n[.......] the [.......] of the [.....] [.....] the [.....] [in?] a [.......] a [.......]\n[......] a [.......] [.......] [.......] the [.......] of [.....] [.....] a [.....] [.....] [.......]\nthe [.......] [.....] [.....] [.....] [.....] the [.....] [.....] of [.....] the [........]\n[.......] a [.......] [.....] and [.....] [.....] [.....] [.....] [.....] [.....] [...........]\n[...........] [.....] [.....] [.....] [.......] and [.....] [.....] of [.......] [...........]\n[...........] a [.....] [.....] the [.......] [.....] and [.....] [...........]\n\n[......] and [.....] [.....] [.....] [........]\n\nThe [.....] [.....] [.......] and [.......] [.......] of [.....] [.......] of [........]\n[...........] [.....] [.....] a [.....] [.....] [.....] [.....] [.....] [.....] [...........]\n[.......] [.....] [.....] and [.....] [.....] [.....] [.....] [.....] [...........]\n[...........] [.....] [.....] the [.......] and [.....] the [.....] [.....] [...........]\n[.......] [.....] the [.....] [.....] [.....] of [.....] [.....] the [.......] of [.......] [........]\nthe [.....] [.....] [.....] [.....] [.....] [.....] a [.....] [...........]\n[...........] of [.......] and [.....] [.....] [.....] and [.....] [...........]\n\n[......] [.....] [.....] [.....] [........]\n\n[...........] and [.....] a [.....] [.......] [.......] [.....] the [.......] [...........]\n[...........] [.....] and [.....] [.....] [.....] [.....] a [.....] [...........]\n[...........] [.......] [.....] [.....] the [.....] [.....] [.....] [...........]\n\n[Passage illegible \u2014 approximately 5-6 lines, heavy water/mold damage at bottom]"
+    },
+    {
+      "agent": 2,
+      "triage_score": 12,
+      "triage_path": "Scaffolded",
+      "cer": 77.83,
+      "attempted_cer": 17.75,
+      "coverage": 0.6157,
+      "reference_characters": 4007,
+      "hypothesis_characters": 1357,
+      "substitutions": 408,
+      "insertions": 30,
+      "deletions": 2680,
+      "gap_count": 219,
+      "uncertain_count": 21,
+      "transcription_text": "[Left page \u2014 verso]\n\n[four?]teenth and lay it to the [sore?] [p.....] as hot as you can endure\nit. This is [...] a very good remedy for a [.....] [......] or a\n[..............] [.................]\nThen take also a handfull of [.....] & and one handfull of\n[.........] made vpon it and [......] and [.....] made [...] the [.........]\n[here?] when you [...] & the same order when you [.......] the\n[....] of a thing in the manner followes which [......] and [......]\n[....] the [......] of [.....] [...] the dore of [this?] till it is [......]\n\n[.........] to be [........]\nfor [.......] in the [........]\n\nthe [h......] [...] and [.....] them [......] and\n[........] [........]\n\n                    ffor a [C........]\n\nTake [.......] and some an [......] made from a [great?]\nof [.....] or [..............?]\n\n                    ffor [..............?]\n\nTo [L.......] with [you?] and a gallon of strong water [........]\n[....] a [......] distill and [...] a [white?] a cold [....]\n[.....] to a [.....] [......] [...] and [.......] [.....] [..........]\n[......] once in the day by the [.......] of [......] and a\n[......] & a [.......] in [........] of the\n\n[...] a [......] of [......] and a quantity of [.......] [.....] or\n[.....] [......] a [.........] and the year to [......] [.........]\n[......] & much but [.....] the [.......] of [.......] [...........]\n[...........] [......] [...........] [......] [..............] [...............]\n[...] help it the time you [.....] [.....] the [......] as it is at the [..........]\nin this [........] for [........] she would [tell?] [.....] it was not\n[...........] a [.....] this your [......] [......] & [........] and all\nthe [.....] in the [.......] [......] of the [.....] the whole when\n[...........] [...........]\n[.....] of your [........] and [......] or an [...........]\n[Passage illegible \u2014 approximately 3 lines, heavy water/mold damage]\n\n\n[Right page \u2014 recto, page 4]\n\n                    A [......] for [........]\n\nThe [.........] [.....] and [.......] them in order one by a\n[......] [...] and [...] very [.....] or [.......] a [.....] a [...] [.......?]\n[with?] [.....] [.............]\n\n                    A [..........] for [.......] [..........]\n\nAnd the [......] of the [.....] [.....] the [.....] to [.....] a [.........]\n[.......] a [........] [.........] the [.....] of the [.....] or [...........?]\nthe [........] you [......] soft [.....] [......] of [........] the [......]\n[......] a [.........] [........] and [.....] the [.....] of [......] and [.......?]\n[.........] [.........] and [.....] in the [.........]\n\n                    ffor [.....] and [.....] to [..........]\n\nThe [white?] [.....] [.......] and any [.....] [........] of [.....] of [..........]\nfor [...........?]\nTake [.......] [.....] and [.....] and [.....] it [.......] and cut the [.........]\n[......] [.....] to a [.........] [.....] or [........] [.....] the [......] of a [.......] when [........]\n[......] and [.....] the [......] [.....] order of a [......] [...........]\n[.....] then [........] a [........] with the [.........] the [............]\nthe [......] for [..........] [..............]\n\n[.........] the [.....] [.........] [........] one of the [.........] a [.......?]\n[........] and [........] then [........] [........] [........] your [..........] [...........]\n[............] [........] & to the [.........] and in the [..............?]\n\n[.........] and [.....] and [.......] the [........] other after the [..........?]\n[........] [........] then [..........] [..........] and [.........] and [............]\n[.......] up [............] and [.........] a [........] of [.........] [...........?]\n\n[..........] for the [..........] [.......] a [.........] [..........] together\n[Passage illegible \u2014 approximately 3-4 lines, heavy water/mold damage]\n[........] and [...........?]"
+    },
+    {
+      "agent": 3,
+      "triage_score": 4,
+      "triage_path": "Scaffolded",
+      "cer": 87.99,
+      "attempted_cer": 3.29,
+      "coverage": 0.9419,
+      "reference_characters": 4007,
+      "hypothesis_characters": 612,
+      "substitutions": 124,
+      "insertions": 0,
+      "deletions": 3401,
+      "gap_count": 46,
+      "uncertain_count": 7,
+      "transcription_text": "[Left page]\n\nffor thrush take hay & be elder barke & dry as you can & [.........]\nit The oile of roses & hony mingle it & [.......] [...] it is a\n[Passage illegible \u2014 approximately 2 lines, faded ink]\nffor hoarsenes & the shortnes of wind & one [......] of the\nsame take [Isop?] of each a like quantitie & seeth them in faire\nwater then straine it & drinke therof with [hony?] [...] the only\n[recipe?] & thing in the world & [.......] it [........]\n[Passage illegible \u2014 approximately 2 lines, faded and obscured]\n& the [........] [...] the cure of the same [..........]\n\n       ffor the stomacke\n\n[Passage illegible \u2014 approximately 3 lines, text too faded to read letterforms]\n\n       ffor [.......]\n\n[Passage illegible \u2014 approximately 3 lines]\n\n       ffor the dropsie\n\nTo [Distill?] [.......] & a gallon of strong water [..........]\n[Passage illegible \u2014 approximately 2 lines]\n[........] once in the day be the [......] if it [stayes?] [......] a\n[......] it is a [........] in the [......] as [.........]\n\nffor [........] of [........] and a quantitie of [........] Treacle\n[Passage illegible \u2014 approximately 8 lines, ink faded and text unclear]\n\n[Passage illegible \u2014 approximately 5 lines, heavy water/mold damage at bottom of page]\n\n[Right page]\n                                                              9\n\nA [receipt?] for [........] [........]\n\n[Passage illegible \u2014 approximately 3 lines, text faded]\n\n       A [receipt?] for [........]\n\n[Passage illegible \u2014 approximately 5 lines, text faded and difficult to trace letterforms]\n\n       [........] and [........] in the [........]\n\n[Passage illegible \u2014 approximately 3 lines]\n\n       A [........]\n\n[Passage illegible \u2014 approximately 5 lines, text too faded to read individual letterforms]\n\n       [........] for [........]\n\n[Passage illegible \u2014 approximately 3 lines, faded]\n\n[Passage illegible \u2014 approximately 3 lines]\n\n[Passage illegible \u2014 approximately 4 lines, heavy water/mold damage at bottom of page]"
+    },
+    {
+      "agent": 4,
+      "triage_score": 1,
+      "triage_path": "Scaffolded",
+      "cer": 73.59,
+      "attempted_cer": 23.21,
+      "coverage": 0.7794,
+      "reference_characters": 4007,
+      "hypothesis_characters": 1795,
+      "substitutions": 715,
+      "insertions": 10,
+      "deletions": 2223,
+      "gap_count": 119,
+      "uncertain_count": 66,
+      "transcription_text": "[Verso \u2014 left page]\n\nffor the stone and boy it to be a [drinke?] as hot as you can endure it\n& This is [proued?] a very many times & a [true?] [cure?] for it\n\nffor a consumption or a [violent?] cough\nTake horehound & hysop & coltsfoote & maiden\nhaire of each one handfull & boyle all these in a quart of\nrunning water vntill it come to a pinte & then straine it out &\nput as much sugar as will make it [swete?] then [sett?] it on the\nfire againe & let it boyle softly vntill it be [......] like a\nthin sirrupe & soe take a spoonfull or two [........] in the\nmorning & at night & it will [helpe?] you\n\n      ffor a consumption\n\nTake a quart of running water and boyle therein a good\nhandfull of hysop & when it is boyled straine it & [......] it\n      ffor the collicke\n\nffor [.......] take two [ounces?] of a [gallon?] of strong water [.......]\n& a [.....] [sliced?] and put it in a [stille?] & stille it [........]\n[...........] ouer a [...] fire & [.......] it & take a good [........]\n[halfe a?] pinte in the day by the [space?] of [.....] dayes and [......]\ndrinke it as hot as [.......] you can\n\nTake a handfull of time and a quantitie of [sliced?] [figgs?] and\n[........] & 3 [spoone?]fulls of honey [&?] the [yolke?] [of?] [an?] [......] [Mixe?]\n[......] so much [hott?] [drinke?] the [.....] be [......] [Straine?]\n[........] & sett this [........] the fire [........] of [........]\n[..........] helpe [it?] time [........] sitt [.........] it to be [stronge?]\n[.................] [........] the [........] will [........] it\n[......] cleanse [........] the [........] [........] [........]\n[Passage illegible \u2014 approximately 4 lines, heavy water damage]\n\n[Recto \u2014 right page, numbered 4]\n\n      A [receipt?] for [......] an [ague?]\n\nTake [elderberry?] [......] & [........] them in water one [houre?] &\n[........] & and [........] very [........] [warme?] & [drinke?] it [......] [before?]\n[.....] your [........]\n\n      A [remedie?] for a [......] [cough?]\n\n[......] the [iuice?] of [.....] an [.....] to this a [dram?]\n[...........] & sugar [........] the [.......] of one [...........] in a\n[............] morning [......] in the [.....] [last?] at [.......] the [same?]\n[........] a [halfe?] [........] all at [...........] the [....]\nwas a [phisicke?] [........] & it [......] [...........] as [........]\n                [ffor?] [........] and [........] [the?] [..........]\n\nTake the [iuice?] of [.....] and very [.......] of [.......] [together?]\n[...........] [........] [...........] [........] [........] [........]\n[............] it is a [good?] salue [......] the [.......] of [.......] [either?]\n[........] & [......] the [......] [......] salue of [.......] [........] [after?]\n[......] then [against?] it [againe?] with the [.........] the [.......] [about?]\nthe [wound?] [......] [........]\n\n      [ffor?] [........] or [........] [wheales?]\n\n[........] take the [........] and [........] of [halfe?] a [.....] of [fresh?]\n[butter?] and [Mixe?] them together [.....] [yelke?] [your?] [Tur......]\n[.................] and it [......] it [doth?] it [......] the [............]\n\n[Passage illegible \u2014 approximately 3 lines, heavy water damage]\n\n[........] & it is a [marveilous?] [......] either for [...........] [page?]\n[Passage illegible \u2014 approximately 2 lines, heavy water damage]\n\n[...........] & [........] them [either?] [........] and [.......] [butter?]\n[......] vp [............] and [........] & [........] of [.......] &\n[Passage illegible \u2014 approximately 3 lines, heavy water damage at bottom of page]"
+    },
+    {
+      "agent": 5,
+      "triage_score": 2,
+      "triage_path": "Scaffolded",
+      "cer": 80.08,
+      "attempted_cer": 72.72,
+      "coverage": 0.7657,
+      "reference_characters": 4007,
+      "hypothesis_characters": 3119,
+      "substitutions": 2142,
+      "insertions": 89,
+      "deletions": 977,
+      "gap_count": 133,
+      "uncertain_count": 34,
+      "transcription_text": "page-20.jpg \u2014 Two-page opening (verso left, recto right, folio 4)\nSemi-diplomatic transcription following Folger conventions.\n\n[LEFT PAGE \u2014 verso]\n\nffor drinck cold [bay?] & be cold sweat & doe as you can to [.........]\n& The [......] & giue it warme morne & [....] & [last?] [......] on it\n[..............................................................................]\n\nTo heale an old sore or wound & new making of it\nTake Turpentyne wash it in 9 or 10 waters make it so white\nthat it looke very nere like wth & then take new waxe & oyle oliue\nmix them together & [m....] it on the sore adder cleane & [take?] vnto [it?]\n[on?]seth a [plaister?] on the wound [altered?] with [...] some salt after\nthe [s....] & vpp and the dores & all will [.....d?]\n\nffor to heale a wound\nTake bawme [&?] distill [it?] then in Iunne and [.....d] and\n[..........................................................................]\n\nffor [.........]\nTake [............] & oyle and [water?] melt them a [......t]\n[.................]\nTo [..] for [......es]\n[.................]\n\nffor [......] with one cold a potion of strong water & [dr....d]\n& [......] a [sippitt?] sliced and the [...t?] a cold [....d]\n[..............] boyld to a [.....nt] [.................]\n[...d...] once in the day by the [quan....] of [.....] [.....d] [........]\n[....] & [.....t] on ye [.....es] [......?]\n\n[...........................................................................\n.............................................................................\n.............................................................................\n.............................................................................]\n\nTo make [......] [......] & a quantity of [......d?] [Table?] and\n[.....th?] & [.....] together and the [y....] [n......d?] then\nto a [......] big about the [.........] of the\n[......d?] sake [...] the [....s] [......d?] & [......] the [......es]\nin the [.....] put [...es?] on the cold and & it of the [......th?]\n& [..] [......s?] [.........] the [.......d] day [.....] all in\n[.................]\n[..] & cold [......] [......] [......] of the [.....] the other also\n[.........................................................................\n.........................................................................\n.........................................................................]\n\n[Bottom portion \u2014 passage illegible, heavy water/mold damage \u2014 approximately 5 lines]\n\n\n[RIGHT PAGE \u2014 recto, folio 4]\n\nA [......gy] [...] [......]\nThe [....d...] [........] and [d.....] in order on [...] a\n[.......] & [...] and [......] very [...] [.......s] & [....ng?] & [.....] [......d]\n[........] with [........]\n\nA [.......d] for a [p.....] [..........]\n\n[...] the [.....es] of the [.....] & the [...t?] in a [cl....] &\nboyle it [q.....d?] together till the [d......ng] of the [...] & [.........]\nthe [.......d] [.....ng] & the [.....] [......] then of [.....ing] all the [......]\none a [......d] [.....d] & all [.....d] [.....] of [P.....ns?] [.....s]\n[...............................................................................\n................................................................................]\n\nffor an old sore in the [.....d]\n\nThe [......] [y....] [......d?] and [......] [butter?] of [.....d?] [.....] of\nan [............................................................................\n..............................................................................]\n[........] & [.....d] and the [l.....] [.....] other of a [D....] where\n[......] [.......d] & [......] with the [......ns] the [.....d]\nthe cold [for?] [.....] [......d]\n\nffor [.....] [.....] to the [.......d]\n\nThe [.....th?] the [......ns] ware of the [......ds?] to [......d]\n[........] and [.....s] then together put [y....s] you [.....d?]\n[............] & [.....] & in a [.....s] and in the [........d]\n\n[.............................................................................\n..............................................................................]\n\nTo [.....d] & [.....] & in a [.....ng] colour after the [.....d] [......g]\n\n[.....] [.....d] them [......] [......] and [........d] and [.....d]\n[.....d] of the [......d] and [......] of [.......d] to [m....d]\n[................................................................................\n................................................................................]\n\n[Bottom portion \u2014 passage illegible, heavy water/mold damage \u2014 approximately 4 lines]"
+    }
+  ],
+  "summary": {
+    "num_agents": 5,
+    "cer": {
+      "mean": 81.48,
+      "median": 80.08,
+      "std_dev": 6.34,
+      "ci_95_lower": 73.6,
+      "ci_95_upper": 89.35,
+      "min": 73.59,
+      "max": 87.99,
+      "iqr_lower": 77.83,
+      "iqr_upper": 87.89,
+      "spread_pp": 14.4
+    },
+    "attempted_cer": {
+      "mean": 24.81,
+      "median": 17.75,
+      "std_dev": 27.95,
+      "ci_95_lower": -9.89,
+      "ci_95_upper": 59.52,
+      "min": 3.29,
+      "max": 72.72,
+      "iqr_lower": 7.09,
+      "iqr_upper": 23.21,
+      "spread_pp": 69.43
+    },
+    "coverage": {
+      "mean": 0.7078,
+      "min": 0.4362,
+      "max": 0.9419
+    }
+  },
+  "reference_text": "Source: FromThePage (https://fromthepage.com/folger/early-modern-recipe-books/jackson-jane/display/34496525)\nManuscript: Jane Jackson, MS V.a.373, Wellcome Collection / Folger Shakespeare Library\nPage: 20\nIIIF Image: https://iiif.wellcomecollection.org/image/b19335891_MS373_0020.JP2/info.json\n---\n\nthe harth and lay it to the navell as hot as you can indure it This use shifting it once in xxiiij howers 3 or 4 dayes together\n\nFor the pilling of the face\n\nTake Turpendine of venice and wash it with red rose water till you haue taken away the smell of the turpentine then take the marrow of a stagg or for want thereof deere suitt and melt them altogether but lett them not seeth put into it vergins wax more then the qantity of the suett and so stirr it still till it be could\n\nFor freckles on the face\n\nTake the leaues of white poppy and distill them and with the water thereof wash your face\n\nFor a Timpany\n\nTake flouer delice and seeth them in white wine from a quart to a pinte and drinke that next your heart ix mornings together\n\nA Fume for the same\n\nTake a Pottle of white wine and a gallon of runing water and the dung of a ston'd horse and lett it seeth a while then sitt ouer it on a close stoole alwayes as hott as you can suffer it of[.....] times in the day by the space of ix dayes half an hower at a time or an hower if you can\n\nFor the same\n\nTake a quantitie of vrine and a quantity of sheepes Tallow well clarified and boyled together till half the vrine bee wasted Then take as much black wooll of the sheeps flank as will couer all your stomack down to your nauell from the one side of your ribbs to the other, when you haue taken the vrine from the fyer put the woole into it till it bee through wett, then wring the Liquor out of the woole and lay it ouer all aforesaid and euer as the swelling doth descend follow it with the medicine vntill it come into your leggs Ankles and feete refresse the woole in the Liquor twice a day at the least and when the swelling is come downe cleane out of the body lett a Surgeon make an Issue in each of your insteps and lett it so runne out till the swelling be cleane dissolued Then lay a healing plaster to it and dry it vp, butt in any wise lay not the woole vnto your legg after the issue made\n\nAnother of the same\n\nTake radish rootes slice them and seeth them in white wine from a quarte to a pint and drinke euery two mornings a pint vsing it thus it will breake your Tympany.\n\nA restoratiue for a Consumption\n\nTake the cleane yelks of xxx egge new layd lay them in cleane water halfe an hower and take away the straynes of them and putt to them a quart of cow milke as it cometh from the cow a pinte of rosewater the crumes of a penny white loafe beate them all together and put them into a stillitory distill it all together with a soft fyer, It will bee neere hand a quarte of water drinke of it oftentimes ix euery day.\n\nFor an euill sore in the head\n\nTake neats foote oyle and doues dunge, beate them together till they come to bee a salue then annoynt the head with it twice a day morning and evening, when it is almost whole put a little hony to the medicine and that will make the haire grow when it is Cleane whole within on weeke or two peraduenture it will breake out againe in little white pimples, But then annoint it againe with the medicine and it will bee whole for euer\n\nFor the Migrim in the head\n\nTake housleeke and garden wormes more of the housleek then of wormes and stamp them together putt thereto fine flower make it plasterwise spread it on a fine cloth and lay to the forehead temples and all\n\nFor a stich or ach in the side or any other place and for the gout\n\nTake Camomile flowers meliote flowers and wormwood leaues of each mj well dryed and beaten to powder semgreke linseed of each \u0292ij anyseed, Cumminseede of each \u2125j mustick \u2125jd breake all these into smale powlder and medle them well together make of all them one powlder then take a pottle of strong vinegar and a quarte of runing water boyle them well together and put thereto a handfull of your powlder and let it boyle a little while Then take it from the fyer as fast as you can and make ready two cloaths of frize as broad as your too hands a peece wett them [w[...]] that Liquor and lay on the place where the greife is as [...] as you may suffer it And when {the}"
+}

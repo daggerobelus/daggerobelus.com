@@ -1,0 +1,146 @@
+{
+  "run": {
+    "id": "skills-run-3-pilot",
+    "name": "Skills Run 3: Progressive Learning Pilot",
+    "date": "2026-03-27",
+    "method": "One agent transcribes all 5 manuscripts sequentially (easy→hard), receiving full evaluation + reference transcription after each. Agent maintains a living learning notebook that it rewrites between manuscripts. Alphabet-first method optional after MS1.",
+    "category": "structural",
+    "question": "Does progressive learning with feedback between manuscripts improve transcription accuracy?",
+    "changes_from_baseline": "Single agent doing all 5 manuscripts sequentially with evaluation feedback and reflection between each, rather than 5 independent agents per manuscript. Agent can freely revise its learning notebook.",
+    "num_agents": 1,
+    "note": "Pilot run — single agent, not the standard 5-agent design. Results are not directly comparable to Runs 1-2 confidence intervals but can be compared to individual agent scores."
+  },
+  "skill_version": "SKILL.md v2 — positive framing with pen stroke test diagnostic (same as Run 2)",
+  "manuscripts": [
+    {
+      "manuscript": "henslow",
+      "order": 1,
+      "cer": 5.58,
+      "attempted_cer": 3.47,
+      "coverage": 1.0,
+      "reference_characters": 951,
+      "hypothesis_characters": 942,
+      "substitutions": 22,
+      "insertions": 11,
+      "deletions": 20,
+      "gap_count": 0,
+      "uncertain_count": 0,
+      "alphabet_built": true,
+      "alphabet_lines": 61,
+      "baseline_comparison": {
+        "run1_mean": 5.26,
+        "run2_mean": 5.41,
+        "pre_skills_best": 3.80
+      }
+    },
+    {
+      "manuscript": "sedley",
+      "order": 2,
+      "cer": 16.71,
+      "attempted_cer": 12.60,
+      "coverage": 1.0,
+      "reference_characters": 2072,
+      "hypothesis_characters": 2054,
+      "substitutions": 194,
+      "insertions": 67,
+      "deletions": 85,
+      "gap_count": 0,
+      "uncertain_count": 3,
+      "alphabet_built": true,
+      "alphabet_lines": 70,
+      "baseline_comparison": {
+        "run1_mean": 16.87,
+        "run2_mean": 27.97,
+        "pre_skills_best": 13.65
+      }
+    },
+    {
+      "manuscript": "bulkeley",
+      "order": 3,
+      "cer": 19.17,
+      "attempted_cer": 14.83,
+      "coverage": 0.995,
+      "reference_characters": 1403,
+      "hypothesis_characters": 1390,
+      "substitutions": 159,
+      "insertions": 48,
+      "deletions": 62,
+      "gap_count": 2,
+      "uncertain_count": 7,
+      "alphabet_built": true,
+      "alphabet_lines": 48,
+      "baseline_comparison": {
+        "run1_mean": 15.74,
+        "run2_mean": 16.00,
+        "pre_skills_best": 16.21
+      }
+    },
+    {
+      "manuscript": "brumwich",
+      "order": 4,
+      "cer": 77.14,
+      "attempted_cer": 19.08,
+      "coverage": 0.403,
+      "reference_characters": 3606,
+      "hypothesis_characters": 1115,
+      "substitutions": 264,
+      "insertions": 13,
+      "deletions": 2503,
+      "gap_count": 294,
+      "uncertain_count": 11,
+      "alphabet_built": true,
+      "alphabet_lines": 25,
+      "baseline_comparison": {
+        "run1_mean": 71.11,
+        "run2_mean": 70.09,
+        "pre_skills_best": 9.30
+      }
+    },
+    {
+      "manuscript": "jane-jackson",
+      "order": 5,
+      "cer": 78.33,
+      "attempted_cer": 15.63,
+      "coverage": 0.639,
+      "reference_characters": 4007,
+      "hypothesis_characters": 1281,
+      "substitutions": 392,
+      "insertions": 8,
+      "deletions": 2738,
+      "gap_count": 288,
+      "uncertain_count": 56,
+      "alphabet_built": true,
+      "alphabet_lines": 38,
+      "baseline_comparison": {
+        "run1_mean": 74.10,
+        "run2_mean": 71.35,
+        "pre_skills_best": 46.85
+      }
+    }
+  ],
+  "learning_trajectory": {
+    "description": "How the agent's behavior changed across 5 manuscripts",
+    "uncertainty_flags": [0, 3, 7, 11, 56],
+    "gap_markers": [0, 0, 2, 294, 288],
+    "coverage": [1.0, 1.0, 0.995, 0.403, 0.639],
+    "observation": "Agent progressively increased use of uncertainty markers and gaps. Major shift at Brumwich (MS4) — possible over-correction toward gap-heavy strategy after receiving error feedback on 3 manuscripts."
+  },
+  "agent_final_reflection": {
+    "top_suggestions": [
+      "Confirmed sample alphabet from each scribe's hand (verify letter identifications)",
+      "Explicit two-pass approach (skeleton first, fill second)",
+      "More gradual difficulty progression (gap between MS3 and MS4 too large)",
+      "Stronger emphasis on vocab reference from the start",
+      "Word-level confidence scoring beyond binary confident/illegible"
+    ],
+    "what_helped_most": [
+      "Building alphabets from clear words before harder text",
+      "The 'transcribe letterforms not meaning' principle",
+      "Learning to use [...] instead of guessing",
+      "Evaluation feedback between manuscripts",
+      "Progressive difficulty sequence"
+    ],
+    "persistent_problem": "Could not tell the difference between reading letterforms and unconsciously reconstructing from context. Self-awareness gap was biggest persistent issue.",
+    "alphabet_decision": "Built alphabet for all 5 manuscripts (only required for MS1). Adapted depth: 61-70 lines for legible, 25-38 for hard manuscripts. Never skipped the step."
+  }
+}

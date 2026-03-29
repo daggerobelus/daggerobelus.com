@@ -198,7 +198,8 @@ const { caption } = Astro.props;
 
       const thumbLink = document.createElement('a');
       thumbLink.href = example.imageFull;
-      thumbLink.target = '_blank';
+      thumbLink.dataset.lightbox = '';
+      thumbLink.dataset.lightboxCaption = `${example.manuscript}, p. ${example.page}`;
       const thumb = document.createElement('img');
       thumb.src = example.image;
       thumb.alt = example.manuscript;

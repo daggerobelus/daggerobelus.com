@@ -1,0 +1,241 @@
+---
+/**
+ * Multi-line D3 chart showing CER progression for ALL manuscripts across runs.
+ * Each manuscript is a separate colored line. Shows the full picture.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Character Error Rate across all five manuscripts and eight blind evaluation runs' } = Astro.props;
+---
+
+<figure class="all-manuscripts-cer not-prose my-12">
+  <div id="all-ms-chart" style="min-width: min(900px, 90vw);"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  const manuscripts = [
+    {
+      id: 'henslow', name: 'Henslow MS688', difficulty: 'Easy',
+      color: '#2d8a4e',
+      scores: [11.3, 12.0, 6.12, 4.96, 5.38, 3.80, 7.59, 4.54]
+    },
+    {
+      id: 'sedley', name: 'Sedley MS534', difficulty: 'Moderate',
+      color: '#2878b5',
+      scores: [15.8, 21.0, null, 15.13, 16.55, 16.96, 16.42, 15.94]
+    },
+    {
+      id: 'bulkeley', name: 'Bulkeley MS169', difficulty: 'Moderate',
+      color: '#7b4fae',
+      scores: [22.8, 18.0, null, 18.70, 20.90, 16.21, 18.29, 18.29]
+    },
+    {
+      id: 'brumwich', name: 'Brumwich MS160', difficulty: 'Hard',
+      color: '#d4712a',
+      scores: [96.1, 93.0, null, 9.30, 50.62, 69.29, 62.49, 79.80]
+    },
+    {
+      id: 'jane-jackson', name: 'Jane Jackson MS373', difficulty: 'Very hard',
+      color: '#c44040',
+      scores: [95.6, 95.0, null, 77.41, 46.85, 80.62, 67.22, 89.27]
+    },
+  ];
+
+  const runIds = [1, 2, 3, 4, 5, 6, 7, 8];
+
+  function render() {
+    const container = document.getElementById('all-ms-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
+    const isMobile = containerWidth < 600;
+
+    const margin = { top: 30, right: isMobile ? 20 : 140, bottom: 60, left: 60 };
+    const width = containerWidth - margin.left - margin.right;
+    const height = Math.round(width * 0.45);
+
+    const svg = d3.select('#all-ms-chart')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const x = d3.scaleLinear().domain([1, 8]).range([0, width]);
+    const y = d3.scaleLinear().domain([0, 100]).range([height, 0]);
+
+    // Usable threshold
+    svg.append('rect')
+      .attr('x', 0).attr('y', y(5))
+      .attr('width', width).attr('height', height - y(5))
+      .attr('fill', '#2d8a4e').attr('opacity', 0.04);
+
+    svg.append('line')
+      .attr('x1', 0).attr('x2', width)
+      .attr('y1', y(5)).attr('y2', y(5))
+      .attr('stroke', '#2d8a4e').attr('stroke-dasharray', '6,4')
+      .attr('stroke-width', 1).attr('opacity', 0.4);
+
+    svg.append('text')
+      .attr('x', 6).attr('y', y(5) + 14)
+      .attr('fill', '#2d8a4e').attr('opacity', 0.5)
+      .attr('font-size', '10px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .text('< 5% usable for research');
+
+    // Grid lines
+    [10, 20, 30, 40, 50, 60, 70, 80, 90].forEach(tick => {
+      svg.append('line')
+        .attr('x1', 0).attr('x2', width)
+        .attr('y1', y(tick)).attr('y2', y(tick))
+        .attr('stroke', '#ddd').attr('stroke-width', 0.5);
+    });
+
+    // Axes
+    svg.append('g')
+      .attr('transform', `translate(0,${height})`)
+      .call(d3.axisBottom(x).ticks(8).tickFormat(d => `${d}`))
+      .selectAll('text')
+      .attr('font-size', '13px')
+      .attr('font-family', 'SF Mono, Monaco, monospace');
+
+    svg.append('text')
+      .attr('x', width / 2).attr('y', height + 40)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#666').attr('font-size', '13px')
+      .attr('font-family', 'Georgia, serif')
+      .text('Run');
+
+    svg.append('g')
+      .call(d3.axisLeft(y).ticks(10).tickFormat(d => `${d}%`))
+      .selectAll('text')
+      .attr('font-size', '12px')
+      .attr('font-family', 'SF Mono, Monaco, monospace');
+
+    svg.append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('y', -45).attr('x', -height / 2)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#121212').attr('font-size', '13px')
+      .attr('font-family', 'Georgia, serif')
+      .text('Character Error Rate');
+
+    // Tooltip
+    const tooltip = d3.select('#all-ms-chart')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#fff7f4')
+      .style('border', '1px solid #121212')
+      .style('padding', '10px 14px')
+      .style('font-size', '13px')
+      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('pointer-events', 'none')
+      .style('opacity', 0)
+      .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
+      .style('z-index', 10)
+      .style('max-width', '280px')
+      .style('line-height', '1.5');
+
+    // Draw each manuscript line
+    manuscripts.forEach(ms => {
+      const lineData = ms.scores
+        .map((cer, i) => cer !== null ? { run: runIds[i], cer } : null)
+        .filter(d => d !== null);
+
+      const line = d3.line()
+        .x(d => x(d.run))
+        .y(d => y(d.cer))
+        .curve(d3.curveMonotoneX);
+
+      svg.append('path')
+        .datum(lineData)
+        .attr('fill', 'none')
+        .attr('stroke', ms.color)
+        .attr('stroke-width', 2)
+        .attr('stroke-opacity', 0.7)
+        .attr('d', line);
+
+      // Dots
+      lineData.forEach(d => {
+        svg.append('circle')
+          .attr('cx', x(d.run))
+          .attr('cy', y(d.cer))
+          .attr('r', 4)
+          .attr('fill', ms.color)
+          .attr('stroke', '#fff7f4')
+          .attr('stroke-width', 2)
+          .attr('cursor', 'pointer')
+          .on('mouseover', function(event) {
+            d3.select(this).attr('r', 6);
+            tooltip.html(`
+              <strong style="color:${ms.color}">${ms.name}</strong><br>
+              Run ${d.run}: <strong>${d.cer}%</strong> CER
+            `)
+            .style('opacity', 1);
+          })
+          .on('mousemove', function(event) {
+            const chartRect = container.getBoundingClientRect();
+            tooltip
+              .style('left', (event.clientX - chartRect.left + 15) + 'px')
+              .style('top', (event.clientY - chartRect.top - 10) + 'px');
+          })
+          .on('mouseout', function() {
+            d3.select(this).attr('r', 4);
+            tooltip.style('opacity', 0);
+          });
+      });
+
+      // End label (right side, inline with the last data point)
+      if (!isMobile) {
+        const last = lineData[lineData.length - 1];
+        svg.append('text')
+          .attr('x', x(last.run) + 10)
+          .attr('y', y(last.cer))
+          .attr('dy', '0.35em')
+          .attr('fill', ms.color)
+          .attr('font-size', '12px')
+          .attr('font-family', 'Georgia, serif')
+          .attr('font-weight', '600')
+          .text(`${ms.name.split(' ')[0]} ${last.cer}%`);
+      }
+    });
+
+    // Mobile legend
+    if (isMobile) {
+      let legendY = height + 45;
+      manuscripts.forEach((ms, i) => {
+        const lx = (i % 2) * (width / 2);
+        const ly = legendY + Math.floor(i / 2) * 18;
+        svg.append('circle')
+          .attr('cx', lx + 5).attr('cy', ly)
+          .attr('r', 4).attr('fill', ms.color);
+        svg.append('text')
+          .attr('x', lx + 14).attr('y', ly)
+          .attr('dy', '0.35em')
+          .attr('font-size', '10px')
+          .attr('font-family', 'SF Mono, Monaco, monospace')
+          .attr('fill', '#666')
+          .text(ms.name);
+      });
+    }
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .all-manuscripts-cer {
+    position: relative;
+  }
+  .all-manuscripts-cer svg {
+    overflow: visible;
+  }
+</style>

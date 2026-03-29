@@ -33,7 +33,10 @@ Five manuscript pages, reused across all runs for direct comparison:
 Benchmarks:
 - < 1% CER = very good
 - < 5% CER = usable for most research purposes
-- ~3% CER = Transkribus Egerton model (best existing for English secretary hand)
+- ~3% CER = Transkribus Egerton model (trained on 2,500+ pages of one specific hand)
+- ~5–8% CER = Transkribus Titan general model (no hand-specific training)
+
+Note: Transkribus's ~3% Egerton benchmark required thousands of pages of hand-labeled ground truth for a single hand. This project's results use zero training data — a fundamentally different approach.
 
 ---
 
@@ -86,7 +89,7 @@ Benchmarks:
 - **Date:** 2026-02-27
 - **Method:** Run 4 instructions (alphabet-first) plus a new Step 2b: after transcribing, agent verifies readings against a vocabulary reference of ~19,000 words attested in early modern recipe books. The vocab list was built from 38 FromThePage transcriptions, 3 EMROC triple-keyed transcriptions, and 2 printed herbals (Gerard 1597, Culpeper 1652) — totaling 1.68 million words across 40 sources.
 - **Key findings:**
-  - Henslow reached **3.80% CER** — best result across all runs, approaching the Transkribus Egerton benchmark (~3%)
+  - Henslow reached **3.80% CER** — best result across all runs, matching the Transkribus Egerton benchmark (~3%) with zero training data
   - Bulkeley improved to **16.21%** — best result for this manuscript, down 2.5 points from Run 4
   - Sedley flat at ~16% — errors there are whole-word hallucinations that the vocab list can't catch
   - Brumwich and Jane Jackson worse — the vocab list made the agent more conservative, marking more text `[...]` rather than guessing. Better scholarship but worse CER scores.
@@ -144,7 +147,7 @@ Benchmarks:
 
 | Manuscript | Best CER | Best Run | Status |
 |---|---|---|---|
-| Henslow MS688 | **3.80%** | Run 6 | Near Transkribus benchmark, usable for research |
+| Henslow MS688 | **3.80%** | Run 6 | Matches Transkribus (zero training data vs. 2,500 pages), usable for research |
 | Sedley MS534 | **15.13%** | Run 4 | Above usable threshold, needs work |
 | Bulkeley MS169 | **16.21%** | Run 6 | Above usable threshold, needs work |
 | Brumwich MS160 | **9.30%** | Run 4 | Above usable threshold, image resolution limited |

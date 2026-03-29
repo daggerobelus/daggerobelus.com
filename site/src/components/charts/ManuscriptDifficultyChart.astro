@@ -110,7 +110,8 @@ const { caption = 'The five test manuscripts, ranked by difficulty — readers c
       // Thumbnail
       const imgWrap = document.createElement('a');
       imgWrap.href = ms.full;
-      imgWrap.target = '_blank';
+      imgWrap.dataset.lightbox = '';
+      imgWrap.dataset.lightboxCaption = `${ms.name}, ${ms.page}`;
       imgWrap.style.cssText = 'display: block; border-radius: 4px; overflow: hidden; border: 1px solid rgba(18,18,18,0.15);';
 
       const img = document.createElement('img');
