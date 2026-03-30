@@ -21,9 +21,9 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
 
   const runs = [
     { id: 4, label: 'Run 4', method: 'Alphabet-first', cer: '4.96%' },
-    { id: 5, label: 'Run 5', method: '+ Review agent', cer: '5.38%' },
-    { id: 6, label: 'Run 6', method: '+ Vocabulary', cer: '3.80%' },
-    { id: 7, label: 'Run 7', method: '+ Visual charts', cer: '7.59%' },
+    { id: 5, label: 'Run 5', method: 'Review agent', cer: '5.38%' },
+    { id: 6, label: 'Run 6', method: 'Vocabulary', cer: '3.80%' },
+    { id: 7, label: 'Run 7', method: 'Visual charts', cer: '7.59%' },
     { id: 8, label: 'Run 8', method: 'Triple-pass', cer: '4.54%' },
   ];
 
@@ -43,7 +43,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
 
     const containerWidth = container.clientWidth;
     if (containerWidth <= 0) return;
-    const width = Math.min(containerWidth, 700);
+    const width = Math.min(containerWidth, 850);
 
     const margin = { top: 10, right: 30, bottom: 0, left: 130 };
     const cellWidth = (width - margin.left - margin.right) / runs.length;
@@ -99,8 +99,8 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
         .attr('x', cx)
         .attr('y', 26)
         .attr('text-anchor', 'middle')
-        .attr('font-size', '10px')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-size', '11px')
+        .attr('font-family', 'Georgia, serif')
         .attr('fill', '#888')
         .text(run.method);
 
