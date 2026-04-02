@@ -1,0 +1,295 @@
+---
+/**
+ * Stacking failure visualization: Run 13 variants (13a–d) vs Run 4 baseline.
+ * All variants stacked multiple interventions and scored ~63–65% CER,
+ * dramatically worse than the 9.30% baseline. Brumwich MS160 page 10.
+ *
+ * Design: Grouped horizontal bars — baseline in blue, variants in red.
+ * The gap between 9% and 63% tells the story instantly.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every combination of interventions performed dramatically worse than the simple alphabet-first baseline' } = Astro.props;
+---
+
+<figure class="stacking-failure not-prose my-12">
+  <div id="stacking-failure-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  const baseline = {
+    label: 'Run 4 baseline',
+    sublabel: 'alphabet-first only',
+    cer: 9.30,
+    color: '#2878b5',
+    detail: 'Single intervention — just study the hand first, then transcribe',
+    scores: [
+      { agent: 'Single agent', cer: 9.30 },
+    ],
+  };
+
+  // Sorted best → worst CER (ascending) to show escalating harm
+  const variants = [
+    {
+      label: 'Run 13b',
+      sublabel: '+ generation effect',
+      cer: 62.55,
+      detail: 'Error protocol + generation effect guides',
+      color: '#d4712a',
+      scores: [
+        { agent: 'Agent 1', cer: 68.50 },
+        { agent: 'Agent 2', cer: 62.55 },
+        { agent: 'Agent 3', cer: 64.08 },
+        { agent: 'Agent 4', cer: 67.41 },
+        { agent: 'Agent 5', cer: 65.01 },
+      ],
+    },
+    {
+      label: 'Run 13d',
+      sublabel: '+ split alphabet',
+      cer: 62.94,
+      detail: 'Error protocol + generation effect + split alphabet',
+      color: '#c44040',
+      scores: [
+        { agent: 'Agent 1', cer: 68.95 },
+        { agent: 'Agent 2', cer: 62.94 },
+        { agent: 'Agent 3', cer: 63.19 },
+        { agent: 'Agent 4', cer: 67.94 },
+        { agent: 'Agent 5', cer: 66.97 },
+      ],
+    },
+    {
+      label: 'Run 13c',
+      sublabel: '+ alphabet-first',
+      cer: 63.97,
+      detail: 'Error protocol + generation effect + alphabet-first',
+      color: '#a63535',
+      scores: [
+        { agent: 'Agent 1', cer: 72.14 },
+        { agent: 'Agent 2', cer: 77.51 },
+        { agent: 'Agent 3', cer: 64.73 },
+        { agent: 'Agent 4', cer: 71.97 },
+        { agent: 'Agent 5', cer: 63.97 },
+      ],
+    },
+    {
+      label: 'Run 13a',
+      sublabel: 'error protocol only',
+      cer: 64.57,
+      detail: 'Cumulative error protocol only — no other interventions',
+      color: '#7a2020',
+      scores: [
+        { agent: 'Agent 1', cer: 70.84 },
+        { agent: 'Agent 2', cer: 72.34 },
+        { agent: 'Agent 3', cer: 70.31 },
+        { agent: 'Agent 4', cer: 64.57 },
+        { agent: 'Agent 5', cer: 74.45 },
+      ],
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('stacking-failure-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
+    const isMobile = containerWidth < 500;
+
+    const maxWidth = Math.min(containerWidth, 700);
+    const labelColWidth = isMobile ? 90 : 180;
+    const barAreaWidth = maxWidth - labelColWidth - 90;
+    const rowHeight = 44;
+    const rowGap = 12;
+    const sectionGap = 36;
+    const topPad = 20;
+
+    const totalRows = 1 + variants.length;
+    const totalHeight = topPad + rowHeight * totalRows + rowGap * (variants.length - 1) + sectionGap + 30;
+
+    const svg = d3.select('#stacking-failure-chart')
+      .append('svg')
+      .attr('width', maxWidth)
+      .attr('height', totalHeight);
+
+    const barScale = d3.scaleLinear()
+      .domain([0, 80])
+      .range([0, barAreaWidth]);
+
+    const barX = labelColWidth;
+    const barH = 32;
+
+    // Tooltip
+    const tooltip = d3.select('#stacking-failure-chart')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#fff7f4')
+      .style('border', '1px solid #121212')
+      .style('padding', '10px 14px')
+      .style('font-size', '12px')
+      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('pointer-events', 'none')
+      .style('opacity', 0)
+      .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
+      .style('z-index', 10)
+      .style('max-width', '300px')
+      .style('line-height', '1.6');
+
+    // Helper: create interactive bar with tooltip
+    function addBar(barX, barY, barW, barH, color, tooltipData) {
+      const barFill = svg.append('rect')
+        .attr('x', barX).attr('y', barY)
+        .attr('width', barW).attr('height', barH)
+        .attr('fill', color).attr('opacity', 0.2).attr('rx', 4);
+
+      const barStroke = svg.append('rect')
+        .attr('x', barX).attr('y', barY)
+        .attr('width', barW).attr('height', barH)
+        .attr('fill', 'none').attr('stroke', color)
+        .attr('stroke-width', 2).attr('opacity', 0.5).attr('rx', 4);
+
+      const scoreLines = tooltipData.scores
+        .map(s => `${s.agent}: ${s.cer}%`)
+        .join('<br>');
+
+      svg.append('rect')
+        .attr('x', barX).attr('y', barY - 4)
+        .attr('width', Math.max(barW + 100, 200))
+        .attr('height', barH + 8)
+        .attr('fill', 'transparent')
+        .attr('cursor', 'pointer')
+        .on('mouseover', function() {
+          barFill.attr('opacity', 0.35);
+          barStroke.attr('opacity', 0.8);
+          tooltip.html(`
+            <strong style="color:${color}">${tooltipData.label}</strong><br>
+            <span style="color:#666;font-size:11px">${tooltipData.detail}</span><br>
+            <hr style="border:none;border-top:1px solid #ddd;margin:4px 0">
+            ${scoreLines}
+          `)
+          .style('opacity', 1);
+        })
+        .on('mousemove', function(event) {
+          const chartRect = container.getBoundingClientRect();
+          tooltip
+            .style('left', (event.clientX - chartRect.left + 15) + 'px')
+            .style('top', (event.clientY - chartRect.top - 10) + 'px');
+        })
+        .on('mouseout', function() {
+          barFill.attr('opacity', 0.2);
+          barStroke.attr('opacity', 0.5);
+          tooltip.style('opacity', 0);
+        });
+    }
+
+    // --- Gap zone: light red background behind variant area ---
+    const gapZoneY = topPad + rowHeight + sectionGap / 2;
+    const gapZoneH = totalHeight - gapZoneY - 10;
+    svg.append('rect')
+      .attr('x', 0).attr('y', gapZoneY)
+      .attr('width', maxWidth).attr('height', gapZoneH)
+      .attr('fill', '#c44040').attr('opacity', 0.03)
+      .attr('rx', 6);
+
+    // --- Baseline row ---
+    const baseY = topPad;
+    const baseBarY = baseY + (rowHeight - barH) / 2;
+
+    svg.append('text')
+      .attr('x', isMobile ? 8 : barX - 16)
+      .attr('y', baseBarY + 12)
+      .attr('text-anchor', isMobile ? 'start' : 'end')
+      .attr('font-size', '14px')
+      .attr('font-family', 'Georgia, serif')
+      .attr('fill', baseline.color)
+      .attr('font-weight', '600')
+      .text(baseline.label);
+
+    if (!isMobile) {
+      svg.append('text')
+        .attr('x', barX - 16)
+        .attr('y', baseBarY + 28)
+        .attr('text-anchor', 'end')
+        .attr('font-size', '11px')
+        .attr('font-family', 'Georgia, serif')
+        .attr('fill', baseline.color)
+        .attr('opacity', 0.6)
+        .text(baseline.sublabel);
+    }
+
+    // Baseline bar
+    const baseBarW = Math.max(barScale(baseline.cer), 4);
+    addBar(barX, baseBarY, baseBarW, barH, baseline.color, baseline);
+
+    // Baseline number
+    svg.append('text')
+      .attr('x', barX + baseBarW + 12)
+      .attr('y', baseBarY + barH / 2 + 1)
+      .attr('dominant-baseline', 'middle')
+      .attr('font-size', '22px')
+      .attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('fill', baseline.color)
+      .attr('font-weight', '700')
+      .text(`${baseline.cer}%`);
+
+    // --- Variant rows ---
+    variants.forEach((d, i) => {
+      const rowY = topPad + rowHeight + sectionGap + i * (rowHeight + rowGap);
+      const barY = rowY + (rowHeight - barH) / 2;
+
+      // Label
+      svg.append('text')
+        .attr('x', isMobile ? 8 : barX - 16)
+        .attr('y', barY + 12)
+        .attr('text-anchor', isMobile ? 'start' : 'end')
+        .attr('font-size', '14px')
+        .attr('font-family', 'Georgia, serif')
+        .attr('fill', d.color)
+        .attr('font-weight', '600')
+        .text(d.label);
+
+      if (!isMobile) {
+        svg.append('text')
+          .attr('x', barX - 16)
+          .attr('y', barY + 28)
+          .attr('text-anchor', 'end')
+          .attr('font-size', '11px')
+          .attr('font-family', 'Georgia, serif')
+          .attr('fill', d.color)
+          .attr('opacity', 0.6)
+          .text(d.sublabel);
+      }
+
+      // Bar
+      const barW = Math.max(barScale(d.cer), 4);
+      addBar(barX, barY, barW, barH, d.color, d);
+
+      // CER number
+      svg.append('text')
+        .attr('x', barX + barW + 12)
+        .attr('y', barY + barH / 2 + 1)
+        .attr('dominant-baseline', 'middle')
+        .attr('font-size', '22px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', d.color)
+        .attr('font-weight', '700')
+        .text(`${d.cer}%`);
+    });
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .stacking-failure {
+    position: relative;
+  }
+</style>

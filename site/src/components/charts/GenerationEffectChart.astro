@@ -1,0 +1,264 @@
+---
+/**
+ * Generation effect visualization: compares consistency (spread) between
+ * same-agent and different-agent conditions. Run 11 data — Sedley MS534 page 13.
+ *
+ * Design: Two simple bars comparing spread. The 38x difference is the story.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 blind — using a guide they wrote themselves vs. one written by a different agent' } = Astro.props;
+---
+
+<figure class="generation-effect not-prose my-12">
+  <div id="generation-effect-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  import * as d3 from 'd3';
+
+  const data = [
+    {
+      label: 'Same agent',
+      sublabel: 'wrote & used own guide',
+      count: '5 agents',
+      spread: 0.97,
+      range: '28.36\u201329.33%',
+      mean: '29.0%',
+      color: '#2878b5',
+      scores: [
+        { agent: 'Agent 1', cer: 28.93 },
+        { agent: 'Agent 2', cer: 29.33 },
+        { agent: 'Agent 3', cer: 28.36 },
+        { agent: 'Agent 4', cer: 29.13 },
+        { agent: 'Agent 5', cer: 44.63, outlier: true },
+      ],
+      allScores: [28.93, 29.33, 28.36, 29.13, 44.63],
+    },
+    {
+      label: 'Different agent',
+      sublabel: 'used someone else\u2019s guide',
+      count: '25 combinations',
+      spread: 36.70,
+      range: '28.76\u201365.46%',
+      mean: '34.4%',
+      color: '#c44040',
+      scores: [
+        { agent: 'Best', cer: 28.76 },
+        { agent: 'Median', cer: 30.43 },
+        { agent: 'Worst', cer: 65.46 },
+      ],
+      allScores: [
+        46.95, 30.43, 30.72, 65.46, 30.11,
+        40.81, 42.07, 35.88, 28.80, 31.69,
+        29.21, 31.29, 29.74, 31.90, 29.58,
+        29.21, 31.08, 30.15, 29.70, 28.84,
+        28.76, 29.54, 47.07, 51.46, 29.82,
+      ],
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('generation-effect-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
+    const isMobile = containerWidth < 500;
+
+    const maxWidth = Math.min(containerWidth, 650);
+
+    // Layout constants
+    const labelColWidth = isMobile ? 100 : 200;
+    const barAreaWidth = maxWidth - labelColWidth - 80;
+    const rowHeight = 90;
+    const rowGap = 50;
+    const topPad = 40;
+    const totalHeight = topPad + rowHeight * 2 + rowGap + 40;
+
+    const svg = d3.select('#generation-effect-chart')
+      .append('svg')
+      .attr('width', maxWidth)
+      .attr('height', totalHeight);
+
+    // Scale: spread → bar width
+    const barScale = d3.scaleLinear()
+      .domain([0, 40])
+      .range([0, barAreaWidth]);
+
+    // Scale: CER % → x position (for score dots)
+    const cerScale = d3.scaleLinear()
+      .domain([25, 70])
+      .range([0, barAreaWidth]);
+
+    const barX = labelColWidth;
+
+    // Tooltip
+    const tooltip = d3.select('#generation-effect-chart')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#fff7f4')
+      .style('border', '1px solid #121212')
+      .style('padding', '10px 14px')
+      .style('font-size', '12px')
+      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('pointer-events', 'none')
+      .style('opacity', 0)
+      .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
+      .style('z-index', 10)
+      .style('max-width', '280px')
+      .style('line-height', '1.6');
+
+    data.forEach((d, i) => {
+      const rowY = topPad + i * (rowHeight + rowGap);
+      const barW = Math.max(barScale(d.spread), 4);
+      const barH = 40;
+      const barY = rowY + (rowHeight - barH) / 2;
+
+      // --- Label column ---
+      svg.append('text')
+        .attr('x', isMobile ? 8 : barX - 16)
+        .attr('y', barY + 14)
+        .attr('text-anchor', isMobile ? 'start' : 'end')
+        .attr('font-size', '14px')
+        .attr('font-family', 'Georgia, serif')
+        .attr('fill', d.color)
+        .attr('font-weight', '600')
+        .text(d.label);
+
+      if (!isMobile) {
+        svg.append('text')
+          .attr('x', barX - 16)
+          .attr('y', barY + 32)
+          .attr('text-anchor', 'end')
+          .attr('font-size', '11px')
+          .attr('font-family', 'Georgia, serif')
+          .attr('fill', d.color)
+          .attr('opacity', 0.6)
+          .text(d.sublabel);
+      }
+
+      // --- Bar (interactive) ---
+      const barFill = svg.append('rect')
+        .attr('x', barX)
+        .attr('y', barY)
+        .attr('width', barW)
+        .attr('height', barH)
+        .attr('fill', d.color)
+        .attr('opacity', 0.2)
+        .attr('rx', 4);
+
+      const barStroke = svg.append('rect')
+        .attr('x', barX)
+        .attr('y', barY)
+        .attr('width', barW)
+        .attr('height', barH)
+        .attr('fill', 'none')
+        .attr('stroke', d.color)
+        .attr('stroke-width', 2)
+        .attr('opacity', 0.5)
+        .attr('rx', 4);
+
+      // Invisible hit area covering the full row for easier hover
+      const scoreLines = d.scores.map(s => {
+        const suffix = s.outlier ? ' (outlier)' : '';
+        return `${s.agent}: ${s.cer}%${suffix}`;
+      }).join('<br>');
+
+      svg.append('rect')
+        .attr('x', barX)
+        .attr('y', barY - 4)
+        .attr('width', Math.max(barW + 100, 200))
+        .attr('height', barH + 8)
+        .attr('fill', 'transparent')
+        .attr('cursor', 'pointer')
+        .on('mouseover', function() {
+          barFill.attr('opacity', 0.35);
+          barStroke.attr('opacity', 0.8);
+          tooltip.html(`
+            <strong style="color:${d.color}">${d.label}</strong><br>
+            <span style="color:#666;font-size:11px">${d.count} · spread ${d.spread} pp</span><br>
+            <hr style="border:none;border-top:1px solid #ddd;margin:4px 0">
+            ${scoreLines}
+          `)
+          .style('opacity', 1);
+        })
+        .on('mousemove', function(event) {
+          const chartRect = container.getBoundingClientRect();
+          tooltip
+            .style('left', (event.clientX - chartRect.left + 15) + 'px')
+            .style('top', (event.clientY - chartRect.top - 10) + 'px');
+        })
+        .on('mouseout', function() {
+          barFill.attr('opacity', 0.2);
+          barStroke.attr('opacity', 0.5);
+          tooltip.style('opacity', 0);
+        });
+
+      // --- Spread number (right of bar) ---
+      const numX = barX + barW + 12;
+
+      svg.append('text')
+        .attr('x', numX)
+        .attr('y', barY + barH / 2 - 2)
+        .attr('dominant-baseline', 'middle')
+        .attr('font-size', '22px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', d.color)
+        .attr('font-weight', '700')
+        .text(`${d.spread} pp`);
+
+      // CER range detail
+      svg.append('text')
+        .attr('x', numX)
+        .attr('y', barY + barH / 2 + 16)
+        .attr('font-size', '11px')
+        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('fill', d.color)
+        .attr('opacity', 0.5)
+        .text(`CER ${d.range}`);
+
+      // --- Score dot strip below bar ---
+      if (d.allScores) {
+        const dotY = barY + barH + 14;
+        const dotR = 4;
+
+        // Light axis line
+        svg.append('line')
+          .attr('x1', barX + cerScale(25))
+          .attr('x2', barX + cerScale(70))
+          .attr('y1', dotY)
+          .attr('y2', dotY)
+          .attr('stroke', d.color)
+          .attr('stroke-width', 0.5)
+          .attr('opacity', 0.15);
+
+        d.allScores.forEach(cer => {
+          svg.append('circle')
+            .attr('cx', barX + cerScale(cer))
+            .attr('cy', dotY)
+            .attr('r', dotR)
+            .attr('fill', d.color)
+            .attr('opacity', 0.45)
+            .attr('stroke', d.color)
+            .attr('stroke-width', 1)
+            .attr('stroke-opacity', 0.3);
+        });
+      }
+    });
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .generation-effect {
+    position: relative;
+  }
+</style>
