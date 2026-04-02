@@ -147,7 +147,7 @@
   let fitScale = 1; // scale that fits image to viewport
 
   function applyTransform() {
-    img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    // img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
     overlay.classList.toggle('zoomed', scale > fitScale + 0.01);
   }
 
