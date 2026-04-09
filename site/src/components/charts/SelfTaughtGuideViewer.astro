@@ -1,0 +1,435 @@
+---
+/**
+ * Interactive explorer for the self-taught paleography guides from Run 9.
+ * Shows how agents' understanding deepens with more training material.
+ * Four conditions: 1-page, 3-page, 5-page, 10-page training.
+ *
+ * Reads guide files at build time, parses into sections, renders as
+ * tabbed accordion. New sections at each level are badged.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  caption?: string;
+}
+const { caption = 'Paleography guides written by agents after studying 1, 3, 5, or 10 manuscript pages — with no external references' } = Astro.props;
+
+const guideDir = path.resolve('..', 'projects', 'teaching-machines-to-read', 'ingest', 'archive', 'test', 'blind-evaluation', 'run-9-self-taught');
+
+interface Section {
+  title: string;
+  content: string;
+  wordCount: number;
+}
+
+interface Guide {
+  pages: number;
+  label: string;
+  sources: string;
+  totalWords: number;
+  sections: Section[];
+}
+
+function toTitleCase(str: string): string {
+  const small = new Set(['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'in', 'on', 'at', 'to', 'by', 'of', 'vs']);
+  return str
+    .toLowerCase()
+    .replace(/\b\w+/g, (word, index) => {
+      if (index === 0 || !small.has(word)) {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      }
+      return word;
+    })
+    // Fix dashes: "Step-by-step" → "Step-by-Step"
+    .replace(/—\s*(\w)/g, (_, c) => '— ' + c.toUpperCase());
+}
+
+function parseGuide(filename: string, pages: number, label: string, sources: string): Guide {
+  const raw = fs.readFileSync(path.join(guideDir, filename), 'utf-8');
+  const lines = raw.split('\n');
+
+  const sections: Section[] = [];
+  let currentTitle = '';
+  let currentLines: string[] = [];
+  let inPreamble = true;
+
+  for (const line of lines) {
+    // Detect section headers like "PART 1: THE ALPHABET..."
+    const partMatch = line.match(/^PART \d+:\s*(.+)/);
+    if (partMatch) {
+      // Save previous section
+      if (currentTitle) {
+        const content = currentLines.join('\n').trim();
+        sections.push({
+          title: currentTitle,
+          content,
+          wordCount: content.split(/\s+/).filter(w => w.length > 0).length,
+        });
+      }
+      currentTitle = toTitleCase(partMatch[1].trim());
+      currentLines = [];
+      inPreamble = false;
+      continue;
+    }
+
+    // Skip separator lines
+    if (line.match(/^={10,}/) || line.match(/^-{10,}/)) continue;
+
+    if (!inPreamble && currentTitle) {
+      currentLines.push(line);
+    }
+  }
+
+  // Save last section
+  if (currentTitle) {
+    const content = currentLines.join('\n').trim();
+    sections.push({
+      title: currentTitle,
+      content,
+      wordCount: content.split(/\s+/).filter(w => w.length > 0).length,
+    });
+  }
+
+  const totalWords = sections.reduce((sum, s) => sum + s.wordCount, 0);
+
+  return { pages, label, sources, totalWords, sections };
+}
+
+const guides: Guide[] = [
+  parseGuide('self-taught-guide-1page.txt', 1, '1 page', 'Sedley MS534'),
+  parseGuide('self-taught-guide-3page.txt', 3, '3 pages', 'Brumwich, Bulkeley, Sedley'),
+  parseGuide('self-taught-guide-5page.txt', 5, '5 pages', '+ Ayscough, RCP-502'),
+  parseGuide('self-taught-guide-10page.txt', 10, '10 pages', '+ RCP-504, Fanshawe, St. John, Gibson'),
+];
+
+// Build a set of normalized section topics per level to detect "new" sections.
+// We normalize by extracting key words since titles vary across guides.
+function normalizeTitle(title: string): string {
+  return title.toLowerCase()
+    .replace(/[—–\-]/g, ' ')
+    .replace(/[^a-z\s]/g, '')
+    .trim();
+}
+
+// For each guide, track which section topics appeared in any previous guide
+const previousTopics: Set<string>[] = [];
+const newFlags: boolean[][] = [];
+
+// Simple heuristic: a section is "new" if no previous guide had a section
+// with >50% keyword overlap
+function topicKeywords(title: string): Set<string> {
+  const stop = new Set(['the', 'and', 'in', 'of', 'a', 'an', 'to', 'for', 'most']);
+  return new Set(
+    normalizeTitle(title).split(/\s+/).filter(w => w.length > 2 && !stop.has(w))
+  );
+}
+
+function hasOverlap(a: Set<string>, b: Set<string>): boolean {
+  let shared = 0;
+  for (const w of a) if (b.has(w)) shared++;
+  return shared >= Math.min(a.size, b.size) * 0.4;
+}
+
+let allPrevKeywords: Set<string>[] = [];
+for (let gi = 0; gi < guides.length; gi++) {
+  const flags: boolean[] = [];
+  for (const section of guides[gi].sections) {
+    const kw = topicKeywords(section.title);
+    const isNew = gi > 0 && !allPrevKeywords.some(prev => hasOverlap(kw, prev));
+    flags.push(isNew);
+  }
+  newFlags.push(flags);
+  // Add this guide's keywords to the pool
+  for (const section of guides[gi].sections) {
+    allPrevKeywords.push(topicKeywords(section.title));
+  }
+}
+
+// Serialize for client
+const guidesJson = JSON.stringify(guides.map((g, gi) => ({
+  ...g,
+  sections: g.sections.map((s, si) => ({
+    ...s,
+    isNew: newFlags[gi][si],
+  })),
+})));
+---
+
+<figure class="guide-viewer not-prose my-12">
+  <div id="guide-viewer-widget" class="max-w-3xl mx-auto"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script define:vars={{ guidesJson }}>
+  const guides = JSON.parse(guidesJson);
+  let activeGuide = 0;
+  let openSection = -1;
+
+  function render() {
+    const container = document.getElementById('guide-viewer-widget');
+    if (!container) return;
+
+    const guide = guides[activeGuide];
+
+    container.innerHTML = `
+      <div class="gv-tabs"></div>
+      <div class="gv-meta"></div>
+      <div class="gv-sections"></div>
+    `;
+
+    // --- Tabs ---
+    const tabsEl = container.querySelector('.gv-tabs');
+    guides.forEach((g, i) => {
+      const tab = document.createElement('button');
+      tab.className = 'gv-tab' + (i === activeGuide ? ' gv-tab-active' : '');
+      tab.innerHTML = `<span class="gv-tab-pages">${g.pages}</span><span class="gv-tab-label">${g.pages === 1 ? 'page' : 'pages'}</span>`;
+      tab.addEventListener('click', () => {
+        activeGuide = i;
+        openSection = -1;
+        render();
+      });
+      tabsEl.appendChild(tab);
+    });
+
+    // --- Meta ---
+    const metaEl = container.querySelector('.gv-meta');
+    metaEl.innerHTML = `
+      <div class="gv-meta-row">
+        <span class="gv-meta-label">Training sources</span>
+        <span class="gv-meta-value">${guide.sources}</span>
+      </div>
+      <div class="gv-meta-row">
+        <span class="gv-meta-label">Guide length</span>
+        <span class="gv-meta-value">${guide.totalWords.toLocaleString()} words across ${guide.sections.length} sections</span>
+      </div>
+    `;
+
+    // --- Sections ---
+    const sectionsEl = container.querySelector('.gv-sections');
+    guide.sections.forEach((section, si) => {
+      const isOpen = si === openSection;
+      const item = document.createElement('div');
+      item.className = 'gv-section' + (isOpen ? ' gv-section-open' : '');
+
+      const header = document.createElement('button');
+      header.className = 'gv-section-header';
+      header.innerHTML = `
+        <span class="gv-section-title">
+          ${section.title}
+          ${section.isNew ? '<span class="gv-badge-new">new</span>' : ''}
+        </span>
+        <span class="gv-section-wc">${section.wordCount.toLocaleString()} words</span>
+        <span class="gv-chevron">${isOpen ? '▾' : '▸'}</span>
+      `;
+      header.addEventListener('click', () => {
+        openSection = isOpen ? -1 : si;
+        render();
+      });
+
+      item.appendChild(header);
+
+      if (isOpen) {
+        const body = document.createElement('div');
+        body.className = 'gv-section-body';
+        // Format the content: preserve paragraphs, handle indentation
+        const formatted = section.content
+          .split('\n\n')
+          .map(para => `<p>${para.replace(/\n/g, '<br>').replace(/  /g, '&nbsp;&nbsp;')}</p>`)
+          .join('');
+        body.innerHTML = formatted;
+        item.appendChild(body);
+      }
+
+      sectionsEl.appendChild(item);
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .guide-viewer {
+    position: relative;
+  }
+
+  /* Tabs */
+  :global(.gv-tabs) {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid rgba(18, 18, 18, 0.1);
+    margin-bottom: 1.25rem;
+  }
+
+  :global(.gv-tab) {
+    flex: 1;
+    padding: 0.75rem 0.5rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.15s ease;
+    margin-bottom: -2px;
+  }
+
+  :global(.gv-tab:hover) {
+    background: rgba(18, 18, 18, 0.03);
+  }
+
+  :global(.gv-tab-active) {
+    border-bottom-color: #2878b5;
+  }
+
+  :global(.gv-tab-pages) {
+    display: block;
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(18, 18, 18, 0.35);
+    line-height: 1.2;
+  }
+
+  :global(.gv-tab-active .gv-tab-pages) {
+    color: #2878b5;
+  }
+
+  :global(.gv-tab-label) {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 0.75rem;
+    color: rgba(18, 18, 18, 0.4);
+    margin-top: 0.15rem;
+  }
+
+  :global(.gv-tab-active .gv-tab-label) {
+    color: #2878b5;
+  }
+
+  /* Meta */
+  :global(.gv-meta) {
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 1rem;
+    background: rgba(18, 18, 18, 0.02);
+    border-radius: 6px;
+  }
+
+  :global(.gv-meta-row) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.25rem 0;
+  }
+
+  :global(.gv-meta-label) {
+    font-family: Georgia, serif;
+    font-size: 0.8rem;
+    color: rgba(18, 18, 18, 0.5);
+  }
+
+  :global(.gv-meta-value) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.8rem;
+    color: rgba(18, 18, 18, 0.7);
+  }
+
+  /* Sections */
+  :global(.gv-sections) {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  :global(.gv-section) {
+    border-top: 1px solid rgba(18, 18, 18, 0.06);
+  }
+
+  :global(.gv-section:last-child) {
+    border-bottom: 1px solid rgba(18, 18, 18, 0.06);
+  }
+
+  :global(.gv-section-header) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    gap: 0.75rem;
+    transition: background 0.1s ease;
+  }
+
+  :global(.gv-section-header:hover) {
+    background: rgba(18, 18, 18, 0.02);
+  }
+
+  :global(.gv-section-title) {
+    flex: 1;
+    font-family: Georgia, serif;
+    font-size: 0.9rem;
+    color: #121212;
+    font-weight: 600;
+  }
+
+  :global(.gv-badge-new) {
+    display: inline-block;
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #2878b5;
+    background: rgba(40, 120, 181, 0.1);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  :global(.gv-section-wc) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.7rem;
+    color: rgba(18, 18, 18, 0.35);
+    white-space: nowrap;
+  }
+
+  :global(.gv-chevron) {
+    font-size: 0.8rem;
+    color: rgba(18, 18, 18, 0.3);
+    width: 1rem;
+    text-align: center;
+  }
+
+  /* Section body */
+  :global(.gv-section-body) {
+    padding: 0 0.5rem 1.25rem 1.5rem;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  :global(.gv-section-body p) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    color: rgba(18, 18, 18, 0.7);
+    margin-bottom: 0.75rem;
+    white-space: pre-wrap;
+  }
+
+  :global(.gv-section-body p:last-child) {
+    margin-bottom: 0;
+  }
+
+  /* Open state */
+  :global(.gv-section-open) {
+    background: rgba(18, 18, 18, 0.015);
+  }
+
+  :global(.gv-section-open .gv-section-title) {
+    color: #2878b5;
+  }
+</style>

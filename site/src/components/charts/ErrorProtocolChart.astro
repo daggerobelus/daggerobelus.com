@@ -1,0 +1,323 @@
+---
+/**
+ * The error protocol paradox: the strongest intervention is also the most
+ * dangerous. Shows its effect across two manuscripts — one where agents
+ * could already read (Sedley, helped) and one where they couldn't
+ * (Brumwich, catastrophic).
+ *
+ * Data from Run 10 (Sedley) and Run 13 (Brumwich).
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'The error protocol improved Sedley from 14.18% to 13.65% CER but destroyed Brumwich — from 9.30% to 64.57%. It only works when agents can already read the letters.' } = Astro.props;
+---
+
+<figure class="error-protocol not-prose my-12">
+  <div id="error-protocol-chart" class="max-w-3xl mx-auto"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  const manuscripts = [
+    {
+      name: 'Sedley MS534',
+      subtitle: 'Moderate difficulty — agents can read most letters',
+      baseline: { label: 'Baseline', cer: 14.18, run: 'Run 9', color: '#888' },
+      protocol: { label: 'With error protocol', cer: 13.65, run: 'Run 10', color: '#2878b5' },
+      direction: 'improved',
+      delta: '−0.53 pp',
+      insight: 'Agents could already decode the letterforms. The protocol helped them stop normalizing spellings and preserve what they saw.',
+    },
+    {
+      name: 'Brumwich MS160',
+      subtitle: 'Hard — small, dense hand with image resolution limits',
+      baseline: { label: 'Baseline', cer: 9.30, run: 'Run 4', color: '#888' },
+      protocol: { label: 'With error protocol', cer: 64.57, run: 'Run 13', color: '#c44040' },
+      direction: 'worse',
+      delta: '+55.27 pp',
+      insight: 'Agents couldn\'t read the letterforms. The protocol gave them a list of ways to fail without the ability to succeed — they second-guessed everything.',
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('error-protocol-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const maxCER = 70;
+
+    // Protocol description
+    const intro = document.createElement('div');
+    intro.className = 'ep-intro';
+    intro.innerHTML = `
+      <div class="ep-intro-text">
+        An analysis agent studied 5 independent transcriptions of Henslow MS688, identified 25 systematic error patterns, and wrote a set of rules and warnings. New agents then used this protocol to transcribe a different manuscript.
+      </div>
+      <details class="ep-details">
+        <summary class="ep-details-summary">The four rules</summary>
+        <div class="ep-details-body">
+          <ol class="ep-rules">
+            <li><strong>Preserve, do not normalize.</strong> Write exactly what the scribe wrote, even when it looks wrong. Don't reduce "putt" to "put."</li>
+            <li><strong>The manuscript is the authority, not the rule.</strong> If the scribe wrote "use" with a u, don't change it to "vse" because the guide says v goes at word starts.</li>
+            <li><strong>Preserve word boundaries as written.</strong> If words run together in the manuscript, keep them run together.</li>
+            <li><strong>Write what you see, not what you expect.</strong> Your expectation of what word "should" be there is the enemy of accurate transcription.</li>
+          </ol>
+        </div>
+      </details>
+      <details class="ep-details">
+        <summary class="ep-details-summary">The verification checklist</summary>
+        <div class="ep-details-body">
+          <ol class="ep-checklist">
+            <li>Did I preserve all doubled consonants as written?</li>
+            <li>Did I change any u's to v's based on the "rule" rather than what's written?</li>
+            <li>For every word starting with "l," verify it's not a long-s.</li>
+            <li>Did I add or remove spaces the manuscript doesn't have?</li>
+            <li>Did I change any unfamiliar words into familiar ones?</li>
+            <li>Verify each word-final d/g, e/no-e, and s/r against the manuscript.</li>
+            <li>Check each capital letter against the manuscript.</li>
+            <li>Did I preserve commas, periods, and other marks as they appear?</li>
+            <li>Verify each ingredient name letter by letter — do not normalize.</li>
+            <li>Read your transcription aloud. Does anything sound like a misreading?</li>
+          </ol>
+        </div>
+      </details>
+    `;
+    container.appendChild(intro);
+
+    manuscripts.forEach((ms) => {
+      const card = document.createElement('div');
+      card.className = 'ep-card';
+
+      // Header
+      card.innerHTML = `
+        <div class="ep-header">
+          <div class="ep-ms-name">${ms.name}</div>
+          <div class="ep-ms-subtitle">${ms.subtitle}</div>
+        </div>
+      `;
+
+      // Bars
+      const barsEl = document.createElement('div');
+      barsEl.className = 'ep-bars';
+
+      [ms.baseline, ms.protocol].forEach((d) => {
+        const row = document.createElement('div');
+        row.className = 'ep-bar-row';
+
+        const pct = Math.max((d.cer / maxCER) * 100, 1);
+        const isProtocol = d === ms.protocol;
+
+        row.innerHTML = `
+          <div class="ep-bar-label">
+            <span class="ep-bar-name">${d.label}</span>
+            <span class="ep-bar-run">${d.run}</span>
+          </div>
+          <div class="ep-bar-track">
+            <div class="ep-bar-fill" style="width: ${pct}%; background: ${d.color}; opacity: ${isProtocol ? 1 : 0.35}"></div>
+          </div>
+          <div class="ep-bar-value" style="color: ${d.color}">${d.cer}%</div>
+        `;
+        barsEl.appendChild(row);
+      });
+
+      card.appendChild(barsEl);
+
+      // Delta + insight
+      const deltaColor = ms.direction === 'improved' ? '#2878b5' : '#c44040';
+      const footer = document.createElement('div');
+      footer.className = 'ep-footer';
+      footer.innerHTML = `
+        <span class="ep-delta" style="color: ${deltaColor}">${ms.delta}</span>
+        <span class="ep-insight">${ms.insight}</span>
+      `;
+      card.appendChild(footer);
+
+      container.appendChild(card);
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .error-protocol {
+    position: relative;
+  }
+
+  /* Intro */
+  :global(.ep-intro) {
+    margin-bottom: 1.5rem;
+  }
+
+  :global(.ep-intro-text) {
+    font-family: Georgia, serif;
+    font-size: 0.85rem;
+    color: rgba(18, 18, 18, 0.6);
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+
+  :global(.ep-details) {
+    margin-bottom: 0.35rem;
+  }
+
+  :global(.ep-details-summary) {
+    font-family: Georgia, serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #2878b5;
+    cursor: pointer;
+    padding: 0.3rem 0;
+    list-style: none;
+  }
+
+  :global(.ep-details-summary::-webkit-details-marker) {
+    display: none;
+  }
+
+  :global(.ep-details-summary::before) {
+    content: '▸ ';
+    font-size: 0.7rem;
+    color: rgba(18, 18, 18, 0.3);
+  }
+
+  :global(.ep-details[open] > .ep-details-summary::before) {
+    content: '▾ ';
+  }
+
+  :global(.ep-details-body) {
+    padding: 0.5rem 0 0.5rem 1rem;
+  }
+
+  :global(.ep-rules),
+  :global(.ep-checklist) {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  :global(.ep-rules li),
+  :global(.ep-checklist li) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.72rem;
+    color: rgba(18, 18, 18, 0.6);
+    line-height: 1.6;
+    margin-bottom: 0.3rem;
+  }
+
+  :global(.ep-rules li strong) {
+    color: #121212;
+  }
+
+  :global(.ep-card) {
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(18, 18, 18, 0.08);
+  }
+
+  :global(.ep-card:last-child) {
+    border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+  }
+
+  :global(.ep-header) {
+    margin-bottom: 0.75rem;
+  }
+
+  :global(.ep-ms-name) {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #121212;
+  }
+
+  :global(.ep-ms-subtitle) {
+    font-family: Georgia, serif;
+    font-size: 0.78rem;
+    color: rgba(18, 18, 18, 0.45);
+    margin-top: 0.1rem;
+  }
+
+  /* Bar rows */
+  :global(.ep-bars) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  :global(.ep-bar-row) {
+    display: grid;
+    grid-template-columns: 140px 1fr 65px;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  :global(.ep-bar-label) {
+    text-align: right;
+  }
+
+  :global(.ep-bar-name) {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(18, 18, 18, 0.7);
+    line-height: 1.2;
+  }
+
+  :global(.ep-bar-run) {
+    display: block;
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.6rem;
+    color: rgba(18, 18, 18, 0.3);
+  }
+
+  :global(.ep-bar-track) {
+    height: 26px;
+    background: rgba(18, 18, 18, 0.03);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  :global(.ep-bar-fill) {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+
+  :global(.ep-bar-value) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  /* Footer */
+  :global(.ep-footer) {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+
+  :global(.ep-delta) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  :global(.ep-insight) {
+    font-family: Georgia, serif;
+    font-size: 0.78rem;
+    color: rgba(18, 18, 18, 0.5);
+    line-height: 1.4;
+  }
+
+  @media (max-width: 500px) {
+    :global(.ep-bar-row) {
+      grid-template-columns: 100px 1fr 55px;
+      gap: 0.5rem;
+    }
+  }
+</style>

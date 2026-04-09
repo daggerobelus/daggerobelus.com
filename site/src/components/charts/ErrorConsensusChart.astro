@@ -1,0 +1,236 @@
+---
+/**
+ * "Five Agents, One Word" — shows how 5 agents independently misread the same
+ * words, revealing two distinct failure modes:
+ * - Consensus errors: all agents make the SAME wrong substitution (systematic bias)
+ * - Divergent errors: agents each get it wrong DIFFERENTLY (genuine illegibility)
+ *
+ * Data from Run 9 error analysis (Henslow MS688, 5-page self-taught condition).
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Five agents read the same word — when they all get it wrong the same way, that\'s bias; when they each get it wrong differently, that\'s genuine difficulty' } = Astro.props;
+---
+
+<figure class="error-consensus not-prose my-12">
+  <div id="error-consensus-chart" class="max-w-3xl mx-auto"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  const examples = [
+    {
+      type: 'consensus',
+      typeLabel: 'Consensus errors — systematic bias',
+      typeDescription: 'All agents make the same substitution. The word is legible, but agents "correct" it to something more familiar.',
+      words: [
+        {
+          reference: 'putt',
+          label: 'Doubled consonant reduced',
+          cause: 'Normalization bias — agents drop the second t because "put" is more familiar',
+          agents: ['put', 'put', 'put', 'put', 'put'],
+        },
+        {
+          reference: 'voilett',
+          label: 'Vowel order normalized',
+          cause: 'Agents rearrange "oi" to "io" because "violet" is the known spelling',
+          agents: ['violett', 'violett', 'violett', 'violett', 'violett'],
+        },
+      ],
+    },
+    {
+      type: 'divergent',
+      typeLabel: 'Divergent errors — genuine difficulty',
+      typeDescription: 'Each agent reads the word differently. The letterforms themselves are ambiguous or the word is unknown.',
+      words: [
+        {
+          reference: 'langdebeeffe',
+          label: 'Unknown vocabulary',
+          cause: 'No agent knows this herb (bugloss) — without the word, letterforms can\'t be anchored',
+          agents: ['and a greate', 'Langdebeefe', 'land a goose', 'and a greete', 'land a goose'],
+        },
+        {
+          reference: 'Deffnes',
+          label: 'Medial double-f unrecognized',
+          cause: 'Agents know "ff" as capital F at word starts, but not in the middle of words',
+          agents: ['Deafnes', 'Diues', 'Difues', 'Difues', 'Dflues'],
+        },
+      ],
+    },
+  ];
+
+  function render() {
+    const container = document.getElementById('error-consensus-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    examples.forEach((group) => {
+      const section = document.createElement('div');
+      section.className = 'ec-section';
+
+      // Section header
+      const header = document.createElement('div');
+      header.className = 'ec-section-header';
+      const color = group.type === 'consensus' ? '#c44040' : '#2878b5';
+      header.innerHTML = `
+        <div class="ec-section-title" style="color: ${color}">${group.typeLabel}</div>
+        <div class="ec-section-desc">${group.typeDescription}</div>
+      `;
+      section.appendChild(header);
+
+      // Words
+      group.words.forEach((word) => {
+        const row = document.createElement('div');
+        row.className = 'ec-word';
+
+        // Reference word
+        const refEl = document.createElement('div');
+        refEl.className = 'ec-reference';
+        refEl.innerHTML = `
+          <span class="ec-ref-label">Manuscript</span>
+          <span class="ec-ref-word">${word.reference}</span>
+        `;
+        row.appendChild(refEl);
+
+        // Agent readings
+        const agentsEl = document.createElement('div');
+        agentsEl.className = 'ec-agents';
+        word.agents.forEach((reading, i) => {
+          const isCorrect = reading.toLowerCase() === word.reference.toLowerCase();
+          const agentEl = document.createElement('span');
+          agentEl.className = 'ec-agent-reading' + (isCorrect ? ' ec-correct' : '');
+          agentEl.textContent = reading;
+          agentsEl.appendChild(agentEl);
+        });
+        row.appendChild(agentsEl);
+
+        // Cause
+        const causeEl = document.createElement('div');
+        causeEl.className = 'ec-cause';
+        causeEl.innerHTML = `<span class="ec-cause-label">${word.label}</span> — ${word.cause}`;
+        row.appendChild(causeEl);
+
+        section.appendChild(row);
+      });
+
+      container.appendChild(section);
+    });
+  }
+
+  render();
+</script>
+
+<style>
+  .error-consensus {
+    position: relative;
+  }
+
+  :global(.ec-section) {
+    margin-bottom: 2rem;
+  }
+
+  :global(.ec-section:last-child) {
+    margin-bottom: 0;
+  }
+
+  :global(.ec-section-header) {
+    margin-bottom: 1rem;
+  }
+
+  :global(.ec-section-title) {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+  }
+
+  :global(.ec-section-desc) {
+    font-family: Georgia, serif;
+    font-size: 0.8rem;
+    color: rgba(18, 18, 18, 0.5);
+    line-height: 1.4;
+  }
+
+  /* Individual word rows */
+  :global(.ec-word) {
+    padding: 0.75rem 0;
+    border-top: 1px solid rgba(18, 18, 18, 0.06);
+  }
+
+  :global(.ec-word:last-child) {
+    border-bottom: 1px solid rgba(18, 18, 18, 0.06);
+  }
+
+  /* Reference word */
+  :global(.ec-reference) {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.4rem;
+  }
+
+  :global(.ec-ref-label) {
+    font-family: Georgia, serif;
+    font-size: 0.7rem;
+    color: rgba(18, 18, 18, 0.35);
+    flex-shrink: 0;
+    min-width: 70px;
+  }
+
+  :global(.ec-ref-word) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #121212;
+  }
+
+  /* Agent readings row */
+  :global(.ec-agents) {
+    display: flex;
+    gap: 0.35rem;
+    margin-left: calc(70px + 0.75rem);
+    margin-bottom: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  :global(.ec-agent-reading) {
+    font-family: 'SF Mono', Monaco, monospace;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    background: rgba(196, 64, 64, 0.08);
+    color: #943030;
+  }
+
+  :global(.ec-agent-reading.ec-correct) {
+    background: rgba(45, 138, 78, 0.08);
+    color: #2d8a4e;
+  }
+
+  /* Cause explanation */
+  :global(.ec-cause) {
+    margin-left: calc(70px + 0.75rem);
+    font-family: Georgia, serif;
+    font-size: 0.75rem;
+    color: rgba(18, 18, 18, 0.45);
+    line-height: 1.4;
+  }
+
+  :global(.ec-cause-label) {
+    font-weight: 600;
+    color: rgba(18, 18, 18, 0.6);
+  }
+
+  /* Mobile */
+  @media (max-width: 500px) {
+    :global(.ec-agents) {
+      margin-left: 0;
+    }
+    :global(.ec-cause) {
+      margin-left: 0;
+    }
+  }
+</style>
