@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
+import HomepageChallenge from '../components/HomepageChallenge.astro';
 
 const allProjects = await getCollection('projects', ({ data }) => {
   return data.status !== 'draft';
@@ -36,12 +37,10 @@ const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slu
       </div>
     </div>
 
-    {featuredProject && (
-      <div class="border-t border-ink/10 pt-12 mb-16" data-project-card data-tags={JSON.stringify(featuredProject.data.tags || [])}>
-        <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">Featured</span>
-        <ProjectCard project={featuredProject} featured />
-      </div>
-    )}
+    <div class="border-t border-ink/10 pt-12 mb-16" data-project-card data-tags={JSON.stringify(featuredProject?.data.tags || [])}>
+      <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">Featured</span>
+      <HomepageChallenge />
+    </div>
 
     {otherProjects.length > 0 && (
       <div class="border-t border-ink/10 pt-12">

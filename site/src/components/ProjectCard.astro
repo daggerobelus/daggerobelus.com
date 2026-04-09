@@ -23,7 +23,7 @@ const formatDate = (date: Date) => {
 
 <article class:list={[
   'group',
-  featured ? 'md:grid md:grid-cols-2 md:gap-10 items-start' : ''
+  featured ? 'md:grid md:grid-cols-2 md:gap-10 items-start' : image ? 'md:grid md:grid-cols-[280px_1fr] md:gap-8 items-start' : ''
 ]}>
   {image && (
     <a href={`/projects/${project.slug}/`} class="block overflow-hidden mb-6 md:mb-0">
@@ -32,7 +32,7 @@ const formatDate = (date: Date) => {
         alt={imageAlt || title}
         class:list={[
           'w-full transition-transform duration-500 group-hover:scale-[1.02]',
-          featured ? 'object-contain' : 'object-cover aspect-[16/9]'
+          featured ? 'object-contain' : 'object-cover aspect-[4/3] rounded'
         ]}
       />
     </a>

@@ -1,0 +1,191 @@
+---
+/**
+ * Homepage "Try Reading This" interactive challenge.
+ * A streamlined version of TryReadingThis for the homepage,
+ * with project context and a link to the full project page.
+ */
+---
+
+<section class="homepage-challenge max-w-3xl">
+  <!-- Project context -->
+  <div class="mb-8">
+    <div class="flex items-baseline gap-3 mb-2">
+      <a href="/projects/teaching-machines-to-read/" class="no-underline text-ink hover:opacity-70 transition-opacity">
+        <h2 class="text-3xl md:text-4xl font-serif leading-tight">Teaching Machines to Read</h2>
+      </a>
+      <span class="text-xs font-mono uppercase tracking-wider text-ink/50 whitespace-nowrap">In Progress</span>
+    </div>
+    <p class="text-ink/70 leading-relaxed text-lg">
+      What AI agents' learning processes reveal about the cognitive demands of reading early modern handwriting.
+    </p>
+  </div>
+
+  <!-- Challenge prompt -->
+  <p class="text-ink/60 font-mono text-sm mb-4">
+    This is from a 1620s recipe book written in English secretary hand — the standard handwriting of early modern England. Can you read it?
+  </p>
+
+  <!-- Manuscript image -->
+  <div class="border border-ink/15 rounded-md overflow-hidden mb-6">
+    <img
+      src="/projects/teaching-machines-to-read/images/manuscripts/henslow-crop-pyles.jpg"
+      alt="Henslow MS688 manuscript section — a recipe titled 'For the pyles'"
+      class="w-full h-auto block"
+    />
+  </div>
+
+  <!-- Try it yourself -->
+  <div id="challenge-try">
+    <label class="font-serif text-sm text-ink block mb-2">
+      Try transcribing the first two lines after the title (starting with "Take"):
+    </label>
+    <textarea
+      id="challenge-input"
+      class="w-full font-mono text-sm leading-relaxed p-3 border border-ink/20 rounded bg-white text-ink resize-vertical min-h-[70px] focus:outline-none focus:border-ink"
+      placeholder="Type what you can read..."
+      rows="3"
+    ></textarea>
+  </div>
+
+  <!-- Reveal button -->
+  <button
+    id="challenge-reveal"
+    class="font-mono text-sm py-2.5 px-6 border-2 border-ink bg-transparent text-ink cursor-pointer rounded transition-all duration-200 block mx-auto my-6 hover:bg-ink hover:text-cream"
+  >
+    Reveal transcription
+  </button>
+
+  <!-- Answer panel (hidden) -->
+  <div id="challenge-answer" class="hidden">
+    <!-- Score (populated by JS if they typed something) -->
+    <div id="challenge-score" class="hidden mb-4"></div>
+
+    <!-- Transcription -->
+    <div id="challenge-text" class="font-mono text-sm leading-relaxed py-4 px-5 bg-ink/[0.03] border-l-3 border-l-[#2d8a4e] rounded-r cursor-pointer whitespace-pre-wrap text-ink mb-4">· · · · For the pyles · · · ·
+
+Take one handefull of mollet leaues, and wrappe them in a Colewort
+leafe, and rake them in the Imbers vntill they bee well rosted
+then take them, and put awaye the Coleworte leafe, and grinde</div>
+
+    <!-- Hints -->
+    <div class="mb-4">
+      <details class="mb-2 border border-ink/8 rounded overflow-hidden">
+        <summary class="font-mono text-[13px] py-2 px-3.5 cursor-pointer text-[#2d8a4e] font-semibold select-none">Long s</summary>
+        <div class="font-serif text-sm text-ink/60 px-3.5 pb-2.5 leading-relaxed border-t border-ink/[0.06] mt-1 pt-2">
+          The tall letter that looks like an "f" without the crossbar is actually a long s. "pyles" = piles, "leaues" = leaves.
+        </div>
+      </details>
+      <details class="mb-2 border border-ink/8 rounded overflow-hidden">
+        <summary class="font-mono text-[13px] py-2 px-3.5 cursor-pointer text-[#2d8a4e] font-semibold select-none">Secretary d</summary>
+        <div class="font-serif text-sm text-ink/60 px-3.5 pb-2.5 leading-relaxed border-t border-ink/[0.06] mt-1 pt-2">
+          The letter that loops back to the left is a secretary d — it looks nothing like a modern d. See "handefull" and "and".
+        </div>
+      </details>
+      <details class="mb-2 border border-ink/8 rounded overflow-hidden">
+        <summary class="font-mono text-[13px] py-2 px-3.5 cursor-pointer text-[#2d8a4e] font-semibold select-none">Imbers</summary>
+        <div class="font-serif text-sm text-ink/60 px-3.5 pb-2.5 leading-relaxed border-t border-ink/[0.06] mt-1 pt-2">
+          "Imbers" means embers — you're wrapping mallow leaves in a cabbage leaf and roasting them in the coals. This is a recipe for treating hemorrhoids.
+        </div>
+      </details>
+    </div>
+
+    <!-- AI comparison -->
+    <p class="font-mono text-xs text-ink/50 leading-relaxed py-2.5 px-3.5 bg-ink/[0.02] rounded mb-6">
+      The AI read this at 3.80% CER in its best run — with zero training data. Transkribus achieves ~3% but requires 2,500+ pages of hand-labeled ground truth.
+    </p>
+
+    <!-- Project link -->
+    <a
+      href="/projects/teaching-machines-to-read/"
+      class="block border border-ink/10 rounded-md p-5 no-underline transition-colors duration-200 hover:border-ink/25 hover:bg-ink/[0.02] group"
+    >
+      <span class="font-mono text-xs uppercase tracking-wider text-ink/40 block mb-1.5">From the project</span>
+      <span class="font-serif text-lg text-ink block mb-1 group-hover:opacity-80 transition-opacity">Teaching Machines to Read</span>
+      <span class="font-serif text-sm text-ink/60 block mb-3">An ongoing experiment in AI paleography — can Claude learn to read 400-year-old handwriting the way a student would?</span>
+      <span class="inline-flex items-center gap-2 text-sm font-medium text-ink group-hover:opacity-70 transition-opacity">
+        Read more
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+<script>
+  function levenshtein(a: string, b: string): number {
+    const m = a.length, n = b.length;
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        dp[i][j] = a[i - 1] === b[j - 1]
+          ? dp[i - 1][j - 1]
+          : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+      }
+    }
+    return dp[m][n];
+  }
+
+  const TARGET = 'Take one handefull of mollet leaues, and wrappe them in a Colewort\nleafe, and rake them in the Imbers vntill they bee well rosted';
+  const AI_CER = 3.80;
+
+  const input = document.getElementById('challenge-input') as HTMLTextAreaElement;
+  const trySection = document.getElementById('challenge-try')!;
+  const revealBtn = document.getElementById('challenge-reveal')!;
+  const answerPanel = document.getElementById('challenge-answer')!;
+  const scorePanel = document.getElementById('challenge-score')!;
+  const textBlock = document.getElementById('challenge-text')!;
+
+  // Restore from session storage
+  const saved = sessionStorage.getItem('homepage-challenge');
+  if (saved && input) input.value = saved;
+  input?.addEventListener('input', () => {
+    sessionStorage.setItem('homepage-challenge', input.value);
+  });
+
+  revealBtn.addEventListener('click', () => {
+    answerPanel.classList.remove('hidden');
+    revealBtn.classList.add('hidden');
+    trySection.classList.add('hidden');
+
+    const attempt = input?.value.trim() || '';
+    if (attempt.length > 0) {
+      const dist = levenshtein(TARGET, attempt);
+      const cer = Math.round((dist / TARGET.length) * 10000) / 100;
+
+      let comparison = cer < AI_CER
+        ? `You beat the AI (${AI_CER}% CER).`
+        : cer === AI_CER
+          ? `You tied with the AI (${AI_CER}% CER).`
+          : `The AI scored ${AI_CER}% CER on this passage.`;
+
+      let grade = '', color = '';
+      if (cer < 5) { grade = 'Excellent'; color = '#2d8a4e'; }
+      else if (cer < 15) { grade = 'Good'; color = '#2878b5'; }
+      else if (cer < 30) { grade = 'Decent'; color = '#d4712a'; }
+      else if (cer < 60) { grade = 'Tough going'; color = '#c44040'; }
+      else { grade = 'This is hard!'; color = '#c44040'; }
+
+      scorePanel.classList.remove('hidden');
+      scorePanel.style.cssText = `padding: 14px 18px; background: ${color}08; border: 1px solid ${color}30; border-radius: 6px;`;
+      scorePanel.innerHTML = `
+        <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px;">
+          <span style="font-family: var(--font-mono); font-size: 22px; font-weight: 700; color: ${color};">${cer}% CER</span>
+          <span style="font-family: var(--font-serif); font-size: 14px; color: ${color};">${grade}</span>
+        </div>
+        <div style="font-family: var(--font-serif); font-size: 13px; color: #555; line-height: 1.5;">
+          ${comparison} CER (Character Error Rate) measures the percentage of characters that differ from the reference transcription.
+        </div>
+      `;
+    }
+  });
+
+  // Click transcription text to reset
+  textBlock.addEventListener('click', () => {
+    answerPanel.classList.add('hidden');
+    revealBtn.classList.remove('hidden');
+    trySection.classList.remove('hidden');
+  });
+</script>
