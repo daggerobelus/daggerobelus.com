@@ -12,6 +12,11 @@ import AlphabetViewer from '../components/charts/AlphabetViewer.astro';
 import WordDiffViewer from '../components/charts/WordDiffViewer.astro';
 import GenerationEffectChart from '../components/charts/GenerationEffectChart.astro';
 import StackingFailureChart from '../components/charts/StackingFailureChart.astro';
+import SelfTaughtGuideViewer from '../components/charts/SelfTaughtGuideViewer.astro';
+import InterventionMatrixChart from '../components/charts/InterventionMatrixChart.astro';
+import ErrorConsensusChart from '../components/charts/ErrorConsensusChart.astro';
+import ErrorProtocolChart from '../components/charts/ErrorProtocolChart.astro';
+
 ---
 
 <BaseLayout title="Chart Preview" description="Preview of blog post visualizations">
@@ -102,6 +107,30 @@ import StackingFailureChart from '../components/charts/StackingFailureChart.astr
       <h3 class="text-2xl font-serif mb-2">2.2 Stacking Failure</h3>
       <p class="text-ink/70 mb-6">What happens when you combine every intervention at once.</p>
       <StackingFailureChart />
+    </section>
+
+    <section class="mb-20">
+      <h3 class="text-2xl font-serif mb-2">2.3 Self-Taught Guide Viewer</h3>
+      <p class="text-ink/70 mb-6">The paleography guides agents wrote for themselves after studying manuscript examples.</p>
+      <SelfTaughtGuideViewer />
+    </section>
+
+    <section class="mb-20">
+      <h3 class="text-2xl font-serif mb-2">2.4 Error Type × Intervention Matrix</h3>
+      <p class="text-ink/70 mb-6">Different problems need different solutions.</p>
+      <InterventionMatrixChart />
+    </section>
+
+    <section class="mb-20">
+      <h3 class="text-2xl font-serif mb-2">2.5 Five Agents, One Word</h3>
+      <p class="text-ink/70 mb-6">How agents fail reveals what kind of problem they're facing.</p>
+      <ErrorConsensusChart />
+    </section>
+
+    <section class="mb-20">
+      <h3 class="text-2xl font-serif mb-2">2.6 The Error Protocol Paradox</h3>
+      <p class="text-ink/70 mb-6">The strongest intervention is also the most dangerous.</p>
+      <ErrorProtocolChart />
     </section>
 
   </article>

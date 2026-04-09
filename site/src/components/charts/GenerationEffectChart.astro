@@ -3,7 +3,7 @@
  * Generation effect visualization: compares consistency (spread) between
  * same-agent and different-agent conditions. Run 11 data — Sedley MS534 page 13.
  *
- * Design: Two simple bars comparing spread. The 38x difference is the story.
+ * Design: Two tightly paired bars comparing spread. The 38x difference is the story.
  */
 interface Props {
   caption?: string;
@@ -27,8 +27,8 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
       sublabel: 'wrote & used own guide',
       count: '5 agents',
       spread: 0.97,
+      unit: 'percentage points',
       range: '28.36\u201329.33%',
-      mean: '29.0%',
       color: '#2878b5',
       scores: [
         { agent: 'Agent 1', cer: 28.93 },
@@ -37,27 +37,19 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
         { agent: 'Agent 4', cer: 29.13 },
         { agent: 'Agent 5', cer: 44.63, outlier: true },
       ],
-      allScores: [28.93, 29.33, 28.36, 29.13, 44.63],
     },
     {
       label: 'Different agent',
       sublabel: 'used someone else\u2019s guide',
       count: '25 combinations',
       spread: 36.70,
+      unit: 'pp',
       range: '28.76\u201365.46%',
-      mean: '34.4%',
       color: '#c44040',
       scores: [
-        { agent: 'Best', cer: 28.76 },
-        { agent: 'Median', cer: 30.43 },
-        { agent: 'Worst', cer: 65.46 },
-      ],
-      allScores: [
-        46.95, 30.43, 30.72, 65.46, 30.11,
-        40.81, 42.07, 35.88, 28.80, 31.69,
-        29.21, 31.29, 29.74, 31.90, 29.58,
-        29.21, 31.08, 30.15, 29.70, 28.84,
-        28.76, 29.54, 47.07, 51.46, 29.82,
+        { agent: 'Best pair', cer: 28.76 },
+        { agent: 'Median pair', cer: 30.43 },
+        { agent: 'Worst pair', cer: 65.46 },
       ],
     },
   ];
@@ -71,15 +63,15 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
     if (containerWidth <= 0) return;
     const isMobile = containerWidth < 500;
 
-    const maxWidth = Math.min(containerWidth, 650);
+    const maxWidth = Math.min(containerWidth, 720);
 
-    // Layout constants
+    // Layout constants — tight pairing between the two bars
     const labelColWidth = isMobile ? 100 : 200;
     const barAreaWidth = maxWidth - labelColWidth - 80;
-    const rowHeight = 90;
-    const rowGap = 50;
-    const topPad = 40;
-    const totalHeight = topPad + rowHeight * 2 + rowGap + 40;
+    const rowHeight = 60;
+    const rowGap = 16;
+    const topPad = 20;
+    const totalHeight = topPad + rowHeight * 2 + rowGap + 20;
 
     const svg = d3.select('#generation-effect-chart')
       .append('svg')
@@ -91,12 +83,8 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
       .domain([0, 40])
       .range([0, barAreaWidth]);
 
-    // Scale: CER % → x position (for score dots)
-    const cerScale = d3.scaleLinear()
-      .domain([25, 70])
-      .range([0, barAreaWidth]);
-
     const barX = labelColWidth;
+    const barH = 34;
 
     // Tooltip
     const tooltip = d3.select('#generation-effect-chart')
@@ -117,13 +105,12 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
     data.forEach((d, i) => {
       const rowY = topPad + i * (rowHeight + rowGap);
       const barW = Math.max(barScale(d.spread), 4);
-      const barH = 40;
       const barY = rowY + (rowHeight - barH) / 2;
 
       // --- Label column ---
       svg.append('text')
         .attr('x', isMobile ? 8 : barX - 16)
-        .attr('y', barY + 14)
+        .attr('y', barY + 12)
         .attr('text-anchor', isMobile ? 'start' : 'end')
         .attr('font-size', '14px')
         .attr('font-family', 'Georgia, serif')
@@ -134,7 +121,7 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
       if (!isMobile) {
         svg.append('text')
           .attr('x', barX - 16)
-          .attr('y', barY + 32)
+          .attr('y', barY + 28)
           .attr('text-anchor', 'end')
           .attr('font-size', '11px')
           .attr('font-family', 'Georgia, serif')
@@ -164,7 +151,7 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
         .attr('opacity', 0.5)
         .attr('rx', 4);
 
-      // Invisible hit area covering the full row for easier hover
+      // Tooltip interaction
       const scoreLines = d.scores.map(s => {
         const suffix = s.outlier ? ' (outlier)' : '';
         return `${s.agent}: ${s.cer}%${suffix}`;
@@ -182,7 +169,7 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
           barStroke.attr('opacity', 0.8);
           tooltip.html(`
             <strong style="color:${d.color}">${d.label}</strong><br>
-            <span style="color:#666;font-size:11px">${d.count} · spread ${d.spread} pp</span><br>
+            <span style="color:#666;font-size:11px">${d.count} · CER range ${d.range}</span><br>
             <hr style="border:none;border-top:1px solid #ddd;margin:4px 0">
             ${scoreLines}
           `)
@@ -205,51 +192,23 @@ const { caption = 'Spread in CER scores when agents transcribed Sedley MS534 bli
 
       svg.append('text')
         .attr('x', numX)
-        .attr('y', barY + barH / 2 - 2)
+        .attr('y', barY + barH / 2 - 4)
         .attr('dominant-baseline', 'middle')
         .attr('font-size', '22px')
         .attr('font-family', 'SF Mono, Monaco, monospace')
         .attr('fill', d.color)
         .attr('font-weight', '700')
-        .text(`${d.spread} pp`);
+        .text(`${d.spread} ${d.unit}`);
 
-      // CER range detail
+      // CER range — more prominent than before
       svg.append('text')
         .attr('x', numX)
-        .attr('y', barY + barH / 2 + 16)
-        .attr('font-size', '11px')
+        .attr('y', barY + barH / 2 + 14)
+        .attr('font-size', '12px')
         .attr('font-family', 'SF Mono, Monaco, monospace')
         .attr('fill', d.color)
-        .attr('opacity', 0.5)
+        .attr('opacity', 0.7)
         .text(`CER ${d.range}`);
-
-      // --- Score dot strip below bar ---
-      if (d.allScores) {
-        const dotY = barY + barH + 14;
-        const dotR = 4;
-
-        // Light axis line
-        svg.append('line')
-          .attr('x1', barX + cerScale(25))
-          .attr('x2', barX + cerScale(70))
-          .attr('y1', dotY)
-          .attr('y2', dotY)
-          .attr('stroke', d.color)
-          .attr('stroke-width', 0.5)
-          .attr('opacity', 0.15);
-
-        d.allScores.forEach(cer => {
-          svg.append('circle')
-            .attr('cx', barX + cerScale(cer))
-            .attr('cy', dotY)
-            .attr('r', dotR)
-            .attr('fill', d.color)
-            .attr('opacity', 0.45)
-            .attr('stroke', d.color)
-            .attr('stroke-width', 1)
-            .attr('stroke-opacity', 0.3);
-        });
-      }
     });
   }
 
