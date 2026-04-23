@@ -1,20 +1,48 @@
 ---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+
 const year = new Date().getFullYear();
+
+const navItems = [
+  { href: '/contact/', label: 'Contact' },
+  { href: '/about/', label: 'About' },
+  { href: '/method/', label: 'Methodology' },
+];
 ---
 
-<footer class="border-t border-ink/10 mt-20">
-  <div class="max-w-content mx-auto px-6 md:px-10 py-10">
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-      <div class="flex items-center gap-3">
-        <img src="/logo-alpha.png" alt="" class="h-6 w-auto opacity-60" />
-        <span class="text-sm text-ink/60">&copy; {year}</span>
+<footer class="border-t border-ink/10 mt-16">
+  <div class:list={[
+    'mx-auto px-6 md:px-10 py-10',
+    compact ? 'max-w-none' : 'max-w-content',
+  ]}>
+    <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+
+      <a href="/" class="flex items-center justify-center md:justify-start hover:opacity-80 transition-opacity" aria-label="Dagger Obelus — home">
+        <img src="/brand/mark.png" alt="" class="h-10 w-10" />
+      </a>
+
+      <nav class="flex items-center justify-center gap-6 md:gap-8">
+        {navItems.map(({ href, label }) => (
+          <a href={href} class="font-ui text-ink/55 hover:text-ink transition-colors no-underline">
+            {label}
+          </a>
+        ))}
+      </nav>
+
+      <div class="flex items-center justify-center md:justify-end">
+        <span class="font-ui text-ink/40">&copy; {year}</span>
       </div>
 
-      <nav class="flex items-center gap-6 text-sm text-ink/60">
-        <a href="/" class="hover:text-ink transition-colors">Projects</a>
-        <a href="/about/" class="hover:text-ink transition-colors">About</a>
-        <a href="/contact/" class="hover:text-ink transition-colors">Contact</a>
-      </nav>
     </div>
   </div>
 </footer>
+
+<style>
+  footer a {
+    text-decoration: none !important;
+  }
+</style>

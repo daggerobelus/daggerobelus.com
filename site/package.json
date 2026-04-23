@@ -8,6 +8,9 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^3.1.9",
+    "@fontsource-variable/commissioner": "^5.2.10",
+    "@fontsource-variable/eb-garamond": "^5.2.7",
+    "@fontsource/cormorant-garamond": "^5.2.11",
     "@semantic-ui/astro-lit": "^5.1.1",
     "@semantic-ui/component": "^0.17.0",
     "@semantic-ui/tailwind": "^0.17.0",
@@ -15,5 +18,8 @@
     "astro": "^4.16.0",
     "d3": "^7.9.0",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "fontaine": "^0.8.0"
   }
 }
