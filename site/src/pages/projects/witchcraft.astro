@@ -5,22 +5,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <BaseLayout
   title="The Healer's Trap"
   description="How folk medicine became a path to the stake in the Lorraine witch trials"
+  compact={true}
 >
   <iframe
     src="/witchcraft/healer_dashboard.html"
     title="The Healer's Trap Dashboard"
-    class="dashboard-frame"
+    class="block w-full border-0"
+    style="height: calc(100dvh - 90px); min-height: 500px;"
     loading="eager"
   ></iframe>
 </BaseLayout>
-
-<style>
-  .dashboard-frame {
-    display: block;
-    width: 100%;
-    border: 0;
-    /* Fill viewport minus header/footer; dvh handles mobile chrome resize */
-    height: calc(100dvh - 210px);
-    min-height: 600px;
-  }
-</style>

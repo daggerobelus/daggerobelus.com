@@ -8,12 +8,14 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  compact?: boolean;
 }
 
 const {
   title = 'daggerobelus',
   description = 'An Early Modern Archival Digital Humanities Project',
-  image = '/brand/mark.png'
+  image = '/brand/mark.png',
+  compact = false,
 } = Astro.props;
 
 const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
@@ -32,7 +34,7 @@ const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
     <title>{fullTitle}</title>
   </head>
   <body class="bg-ivory text-ink min-h-screen flex flex-col font-serif antialiased">
-    <Header />
+    <Header compact={compact} />
     <main class="flex-1" id="page">
       <slot />
     </main>
