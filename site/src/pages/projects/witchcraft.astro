@@ -1,20 +1,26 @@
 ---
-// Serve the dashboard as a full page (no layout wrapper)
-// This overrides the dynamic [slug].astro route
+import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Healer's Trap | daggerobelus</title>
-  <style>
-    * { margin: 0; padding: 0; }
-    html, body { height: 100%; overflow: hidden; }
-    iframe { width: 100%; height: 100%; border: none; }
-  </style>
-</head>
-<body>
-  <iframe src="/witchcraft/healer_dashboard.html" title="The Healer's Trap Dashboard"></iframe>
-</body>
-</html>
+<BaseLayout
+  title="The Healer's Trap"
+  description="How folk medicine became a path to the stake in the Lorraine witch trials"
+>
+  <iframe
+    src="/witchcraft/healer_dashboard.html"
+    title="The Healer's Trap Dashboard"
+    class="dashboard-frame"
+    loading="eager"
+  ></iframe>
+</BaseLayout>
+
+<style>
+  .dashboard-frame {
+    display: block;
+    width: 100%;
+    border: 0;
+    /* Fill viewport minus header/footer; dvh handles mobile chrome resize */
+    height: calc(100dvh - 210px);
+    min-height: 600px;
+  }
+</style>
