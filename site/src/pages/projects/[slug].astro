@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Divider from '../../components/Divider.astro';
 
 export async function getStaticPaths() {
   const projects = await getCollection('projects');
@@ -22,8 +23,17 @@ const { project, chapters } = Astro.props;
 const { title, description, publishDate, updatedDate, image, imageAlt, status, tags } = project.data;
 const { Content } = await project.render();
 
+// Consider the prose body empty when only MDX/HTML/JSX comments and whitespace remain
+const hasProseContent = project.body
+  ? project.body
+      .replace(/\{\/\*[\s\S]*?\*\/\}/g, '')  // JSX/MDX comments
+      .replace(/<!--[\s\S]*?-->/g, '')        // HTML comments
+      .trim().length > 0
+  : false;
+
 const displayDate = updatedDate || publishDate;
 const dateLabel = updatedDate ? 'Updated' : 'Published';
+const eyebrow = status === 'in-progress' ? 'In Progress' : 'Featured';
 
 const formatDate = (date: Date) => {
   return date.toLocaleDateString('en-US', {
@@ -34,115 +44,164 @@ const formatDate = (date: Date) => {
 };
 ---
 
-<BaseLayout title={title} description={description} image={image}>
-  <article class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
-    <header class="max-w-3xl mb-12">
-      <div class="flex items-center gap-4 mb-6">
-        {status === 'in-progress' && (
-          <span class="text-xs font-mono uppercase tracking-wider text-ink/50 px-2 py-1 border border-ink/20 rounded">
-            In Progress
-          </span>
-        )}
-        {tags && tags.length > 0 && (
-          <div class="flex gap-2 flex-wrap">
-            {tags.map(tag => (
-              <a href={`/?tag=${tag}`} class="text-xs font-mono text-ink/50 hover:text-ink transition-colors">{tag}</a>
-            ))}
-          </div>
-        )}
-      </div>
+<BaseLayout title={title} description={description} image={image} compact={true}>
+  <article class="max-w-content mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-20">
 
-      <h1 class="text-4xl md:text-5xl font-serif leading-tight mb-6">
+    <header class="max-w-3xl">
+      <div class="font-ui text-gold mb-6">{eyebrow}</div>
+
+      <h1 class="display text-4xl md:text-5xl text-ink">
         {title}
       </h1>
 
-      <p class="text-xl text-ink/70 leading-relaxed mb-6">
+      <p class="prose-editorial mt-5 text-ink/75">
         {description}
       </p>
 
-      <div class="text-sm text-ink/50 font-mono">
-        <span>{dateLabel} {formatDate(displayDate)}</span>
+      <div class="mt-6 flex items-baseline gap-3 flex-wrap">
+        <span class="font-ui text-ink/55">
+          {dateLabel} {formatDate(displayDate)}
+        </span>
+        {tags && tags.length > 0 && (
+          <>
+            <span class="glyph not-italic text-[0.8rem] leading-none" aria-hidden="true">†</span>
+            <div class="flex items-baseline gap-3 flex-wrap">
+              {tags.slice(0, 2).map((tag, i) => (
+                <>
+                  {i > 0 && <span class="font-ui text-gold/40" aria-hidden="true">·</span>}
+                  <span class="font-ui text-gold">{tag}</span>
+                </>
+              ))}
+            </div>
+          </>
+        )}
       </div>
     </header>
 
-    {image && (
-      <figure class="mb-12 -mx-6 md:mx-0">
-        <img
-          src={image}
-          alt={imageAlt || title}
-          class="w-full object-cover max-h-[500px]"
-        />
-      </figure>
-    )}
-
-    <div class="prose prose-lg max-w-3xl prose-headings:font-serif prose-headings:font-normal prose-a:underline prose-a:decoration-ink/30 hover:prose-a:decoration-ink">
-      <Content />
-    </div>
-
     {chapters.length > 0 && (
-      <nav class="max-w-3xl mt-16 pt-12 border-t border-ink/10">
-        <h2 class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8">Chapters</h2>
-        <ol class="space-y-6">
-          {chapters.map((chapter, i) => (
-            <li>
-              <a
-                href={`/projects/${project.slug}/${chapter.slug}/`}
-                class="group block"
-              >
-                <div class="flex items-baseline gap-4">
-                  <span class="text-sm font-mono text-ink/30 w-6">{(i + 1).toString().padStart(2, '0')}</span>
-                  <div>
-                    <span class="text-lg font-serif group-hover:opacity-70 transition-opacity">
+      <>
+        <Divider size="sm" />
+
+        <section class="max-w-3xl">
+          <h2 class="display text-2xl md:text-3xl text-ink mb-10">
+            Chapters
+          </h2>
+
+          <ol class="flex flex-col gap-8 md:gap-10">
+            {chapters.map((chapter, i) => (
+              <li class="chapter-row">
+                <a href={`/projects/${project.slug}/${chapter.slug}/`} class="chapter-link">
+                  <span class="chapter-number">
+                    {(i + 1).toString().padStart(2, '0')}
+                  </span>
+                  <div class="chapter-body">
+                    <h3 class="chapter-title display text-xl md:text-2xl text-ink">
                       {chapter.data.title}
-                    </span>
-                    <p class="text-sm text-ink/50 mt-1 leading-relaxed">
+                      <span class="annotated-mark" aria-hidden="true">†</span>
+                    </h3>
+                    <p class="chapter-desc mt-2 text-ink/70" style="font-family: var(--font-serif);">
                       {chapter.data.description}
                     </p>
                   </div>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ol>
-      </nav>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      </>
     )}
+
+    {/* Long-form overview/prose, if the project provides it */}
+    {hasProseContent && (
+      <>
+        <Divider size="sm" />
+
+        <section
+          class="max-w-3xl prose prose-lg"
+          style="font-family: var(--font-serif);"
+        >
+          <Content />
+        </section>
+      </>
+    )}
+
   </article>
 </BaseLayout>
 
 <style is:global>
+  #page a.chapter-link {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 1.5rem;
+    align-items: baseline;
+    text-decoration: none;
+    color: inherit;
+  }
+  .chapter-number {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: var(--color-gold);
+    font-feature-settings: "onum";
+    text-align: right;
+    letter-spacing: -0.02em;
+    transition: opacity 200ms ease;
+    opacity: 0.85;
+  }
+  #page a.chapter-link:hover .chapter-number {
+    opacity: 1;
+  }
+  .chapter-title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.12em;
+    transition: text-decoration-color 200ms ease;
+  }
+  #page a.chapter-link:hover .chapter-title {
+    text-decoration-color: color-mix(in srgb, var(--color-gold) 55%, transparent);
+  }
+  .chapter-title .annotated-mark {
+    margin-left: 0.18em;
+    color: var(--color-gold);
+    font-style: italic;
+    font-size: 0.72em;
+    vertical-align: 0.1em;
+    opacity: 0.55;
+    transition: opacity 200ms ease;
+  }
+  #page a.chapter-link:hover .chapter-title .annotated-mark {
+    opacity: 1;
+  }
+
+  /* Prose body (when a project has actual written content) */
   .prose {
     --tw-prose-body: var(--color-ink);
     --tw-prose-headings: var(--color-ink);
-    --tw-prose-links: var(--color-ink);
+    --tw-prose-links: var(--color-gold);
     color: var(--tw-prose-body);
+    font-size: 1.0625rem;
+    line-height: 1.7;
   }
-
   .prose h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.75rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    font-size: 1.75rem;
   }
-
   .prose h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.25rem;
     margin-top: 2rem;
     margin-bottom: 0.75rem;
-    font-size: 1.25rem;
   }
-
   .prose p {
     margin-bottom: 1.25rem;
-    line-height: 1.75;
   }
-
-  .prose ul, .prose ol {
-    margin-bottom: 1.25rem;
-    padding-left: 1.5rem;
-  }
-
-  .prose li {
-    margin-bottom: 0.5rem;
-  }
-
   .prose strong {
     font-weight: 600;
   }

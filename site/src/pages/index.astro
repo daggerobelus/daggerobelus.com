@@ -25,10 +25,8 @@ const formatDate = (date: Date) =>
     {featuredProject && (
       <div class="grid md:grid-cols-[1.05fr_1fr] gap-10 md:gap-20 items-center">
         <div class="flex flex-col">
-          <div class="font-ui text-ink/55 mb-7 flex items-center gap-2">
-            <a href="/" class="no-underline text-ink/55 hover:text-ink transition-colors">All</a>
-            <span class="glyph not-italic text-ink/30" aria-hidden="true">/</span>
-            <span>Projects</span>
+          <div class="font-ui text-gold mb-7 flex items-center gap-2">
+            <span>{featuredProject.data.status === 'in-progress' ? 'In Progress' : 'Featured'}</span>
           </div>
 
           <a href={`/projects/${featuredProject.slug}/`} class="rise rise-2 title-link self-start">

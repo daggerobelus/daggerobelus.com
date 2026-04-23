@@ -42,13 +42,33 @@ without further direction.
 |-----------------|-----------|------------------------------------------------|
 | Ivory Paper     | `#F6F2EC` | Background, paper ground                       |
 | Ink Black       | `#1E1A17` | Primary linework, period handwriting           |
-| Obelus Gold     | `#B19557` | Single accent only — seals, manicules, rules   |
 | Archive Gray    | `#BFB7AB` | Washes, secondary forms                        |
 | Slate Gray      | `#6E685F` | Shadow washes, recessive detail                |
+| Obelus Gold     | `#B19557` | Accent — *the craft of the archive*            |
+| Research Blue   | `#5EA3D6` | Accent — *the scholar's pen marking the archive* |
 
-No other colors. No saturated blues, reds, greens, purples. Research Blue
-(`#5EA3D6`) from the brand palette is **not** used in hero illustrations — it
-belongs to data visualizations inside project content.
+No other colors. No saturated reds, greens, purples, oranges, teals.
+
+### How the two accents split work
+
+Gold and Research Blue are both valid hero accents, used sparingly — **one
+or two accent moments per image, never a wash**. They carry different
+semantic roles and should feel motivated by what's being shown:
+
+- **Gold** is the material register: wax seals, gilt initial capitals,
+  illuminated letters, brass instrument highlights, gilt tooling on book
+  covers, ornamental borders in old manuscripts. It lives *on* the
+  historical object.
+- **Research Blue** is the analytical register: annotation marks made by
+  a scholar reading the source — dashed connecting lines, circled place
+  names on a map, a researcher's ink underlining a passage, diagrammatic
+  arrows, cartographic detail the mapmaker added by hand, marginal
+  pointing lines. It lives *over* the object, made by someone studying it.
+
+A hero can use *one* accent or *both* — but if both, they must be doing
+different jobs (e.g. gold wax seal on the artifact, blue annotation
+circle around a village). Never substitute one for the other's role.
+Blue is not "colder gold" and gold is not "warmer blue."
 
 ## Composition rules
 
@@ -108,17 +128,24 @@ paper. Layered collage composition — archival documents, marginalia,
 botanical and cartographic fragments arranged as if on a scholar's
 desk. Restrained palette on an ivory paper background (#F6F2EC): deep
 ink-black (#1E1A17) for primary linework, muted archive-gray (#6E685F
-and #BFB7AB) for secondary forms, warm muted gold (#B19557) used
-sparingly as the only accent color — gilt initial capitals, wax seal,
-compass rose, marginal pointing-hand glyph. Absolutely no saturated
-modern colors, no neon, no purple, no teal. Even, diffused archival
-lighting — no dramatic shadows, no lens flare. Subtle paper texture,
-foxing, and faded ink bleed at edges. Visual references: NYRB Classics
-covers, Armando Veve's editorial illustrations for the New Yorker and
-LRB, Folio Society frontispieces, Hans Holbein woodcut detail, Warburg
-Institute archival photographs, Codex Seraphinianus layout logic. 4:3
-aspect ratio, 1600×1200, main subject right-of-center, upper-left
-quadrant held open as calm negative space.
+and #BFB7AB) for secondary forms. Two accent colors used sparingly,
+with distinct roles: warm muted gold (#B19557) for the material
+register of the archive itself — wax seals, gilt initial capitals,
+illuminated letters, brass instrument highlights, ornamental borders;
+cool muted research blue (#5EA3D6) for the analytical register of a
+scholar reading the source — dashed annotation lines, a circled place
+name, a researcher's ink underline, diagrammatic arrows, marginal
+pointing lines drawn by hand. Aim for at least one gold moment AND
+one blue moment per image so the palette doesn't read monochromatic.
+Absolutely no saturated reds, greens, purples, oranges, teals, and no
+neon. Even, diffused archival lighting — no dramatic shadows, no lens
+flare. Subtle paper texture, foxing, and faded ink bleed at edges.
+Visual references: NYRB Classics covers, Armando Veve's editorial
+illustrations for the New Yorker and LRB, Folio Society frontispieces,
+Hans Holbein woodcut detail, Warburg Institute archival photographs,
+Codex Seraphinianus layout logic. 4:3 aspect ratio, 1600×1200, main
+subject right-of-center, upper-left quadrant held open as calm
+negative space.
 ```
 
 ## Integrating real source material
@@ -146,7 +173,12 @@ Before accepting a generated hero, confirm:
 
 - [ ] Palette obeys the table above (no other colors visible)
 - [ ] Upper-left quadrant clear for title overlay
-- [ ] Gold used sparingly — one or two accent moments, not throughout
+- [ ] At least one gold *and* one blue accent moment, doing distinct
+  jobs (material vs. analytical). Neither dominates — accents only.
+- [ ] If only one accent appears, the image has a clear reason (e.g.
+  the subject is purely a physical object with no scholarly annotation,
+  or purely a page of notes with no gilt material). Err on the side of
+  including both.
 - [ ] No AI-generated fake handwriting or invented period typography
   (either source-derived or not shown legibly)
 - [ ] No modern objects, no figures in crowd scenes, no dramatic violence
@@ -160,27 +192,32 @@ Before accepting a generated hero, confirm:
 `/projects/teaching-machines-to-read/public/images/hero.png`
 
 Subject: an open early-modern recipe manuscript at center-right (use a real
-scan — e.g. Henslowe or a period recipe book), with a single faint dashed
-line connecting one handwritten word on the page to a small gold-inked
-transcription glyph in the right margin. Beneath: fragments of a letterform
+scan — e.g. Henslowe or a period recipe book). **Blue accent** (analytical):
+a thin Research Blue (#5EA3D6) dashed line connecting a handwritten word on
+the page to a small transcription glyph in the right margin, as if a scholar
+is tracing decipherment with their pen. Beneath: fragments of a letterform
 variant chart (pencil sketch), a partial alphabet in faded brown ink, a
 branching-tree diagram of handwriting strokes drawn in scholar's-notebook
-style. A small brass magnifying lens at lower-left. A gold pointing-hand
-manicule (☞) in the extreme right margin. No modern devices.
+style — one or two diagrammatic arrows on the tree rendered in the same
+Research Blue. **Gold accent** (material): a small brass magnifying lens at
+lower-left with a warm gilt highlight on its rim. No modern devices.
 
 ### The Healer's Trap
 `/projects/witchcraft/public/images/hero.png`
 
 Subject: a torn partial cartographic fragment of the Duchy of Lorraine at
 center-right (use a real period map scan) showing river networks, named
-prévôtés in period lettering, and faint coordinate grid. One small village
-circled in gold ink with a marginal cross beside it. Below and overlapping:
-a single herbalist's specimen (yarrow or vervain) rendered in muted
-archive-gray with botanical-plate precision, Latin binomial in thin italic
-serif. Small stone mortar and pestle at lower-right catching a soft
-highlight. A gold wax seal silhouette (cross-impressed) tucked into the
-upper-right margin. No figures, no stake, no fire — violence implied by
-the circled village and cross, craft shown by the pressed plant.
+prévôtés in period lettering, and faint coordinate grid. **Blue accent**
+(analytical): one small village circled in Research Blue (#5EA3D6) ink with
+a marginal cross beside it, as if a researcher has marked it — the color of
+the scholar's pen, not the mapmaker's. Below and overlapping: a single
+herbalist's specimen (yarrow or vervain) rendered in muted archive-gray
+with botanical-plate precision, Latin binomial in thin italic serif. Small
+stone mortar and pestle at lower-right catching a soft highlight. **Gold
+accent** (material): a wax seal silhouette (cross-impressed) in warm gilt,
+tucked into the upper-right margin. No figures, no stake, no fire —
+violence implied by the circled village and cross, craft shown by the
+pressed plant.
 
 ## Revising this guide
 
