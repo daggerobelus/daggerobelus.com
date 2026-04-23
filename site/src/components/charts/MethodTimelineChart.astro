@@ -87,7 +87,7 @@ const { caption = 'Only structural process changes improved accuracy — better 
     const containerWidth = container.clientWidth;
     if (containerWidth <= 0) return;
     const rowHeight = 80;
-    const margin = { top: 10, right: 20, bottom: 10, left: 20 };
+    const margin = { top: 10, right: 20, bottom: 10, left: 0 };
     const width = containerWidth - margin.left - margin.right;
     const height = runs.length * rowHeight;
 
@@ -104,8 +104,8 @@ const { caption = 'Only structural process changes improved accuracy — better 
       neutral: '#888',
     };
 
-    // Central line
-    const lineX = 40;
+    // Central line — radius of circle (14) keeps the dot flush to the left edge
+    const lineX = 14;
     svg.append('line')
       .attr('x1', lineX).attr('x2', lineX)
       .attr('y1', 0).attr('y2', height)

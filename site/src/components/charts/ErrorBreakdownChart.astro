@@ -43,9 +43,9 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
 
     const containerWidth = container.clientWidth;
     if (containerWidth <= 0) return;
-    const width = Math.min(containerWidth, 850);
+    const width = containerWidth;
 
-    const margin = { top: 10, right: 30, bottom: 0, left: 130 };
+    const margin = { top: 10, right: 20, bottom: 0, left: 110 };
     const cellWidth = (width - margin.left - margin.right) / runs.length;
     const cellHeight = 64;
     const headerHeight = 60;
