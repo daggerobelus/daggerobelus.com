@@ -107,7 +107,10 @@ const formatDate = (date: Date) => {
      ═══════════════════════════════════════════════ */
 
   .chapter-article {
-    --prose-width: 75ch;
+    /* 42rem ≈ 672px, gives ~72–75ch at the paragraph's 18px serif.
+       Using rem (not ch) decouples from the context-inheritance trap
+       where ch is evaluated against the parent's font-size. */
+    --prose-width: 42rem;
 
     display: grid;
     grid-template-columns:
@@ -136,26 +139,99 @@ const formatDate = (date: Date) => {
     min-width: 0;
   }
 
-  /* Charts break out to full width — they size themselves */
+  /* Figure plates — one consistent width tier beyond prose.
+     Auto-numbered FIG. N label signals "this is a figure, not misaligned prose." */
+  .chapter-body {
+    counter-reset: fig;
+  }
+
   .chapter-article .chart-wide,
   .chapter-body .chart-wide {
     grid-column: full;
     justify-self: center;
-    width: fit-content;
-    max-width: 100%;
+    width: 100%;
+    max-width: min(60rem, 100% - 2rem);
     min-width: 0;
     overflow: visible;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    counter-increment: fig;
+    position: relative;
+    margin-top: 4.5rem;
+    margin-bottom: 4rem;
+    padding: 2.5rem 0 1.5rem;
+    /* Top hairline matches homepage Divider (.rule at gold/65%). */
+    border-top: 1px solid color-mix(in srgb, var(--color-gold) 65%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-gold) 40%, transparent);
   }
 
-  /* Tables need full width, not fit-content */
+  /* Asterism-in-circle ornament sits on the top hairline, echoing the
+     homepage Divider (mark-with-flanking-lines) — same circle diameter
+     (h-9 ≈ 36px) and same gold hairline treatment. */
+  .chapter-article .chart-wide::before,
+  .chapter-body .chart-wide::before {
+    content: "⁂";
+    position: absolute;
+    top: -1.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, var(--color-gold) 65%, transparent);
+    background: var(--color-ivory);
+    color: var(--color-gold);
+    font-family: var(--font-display);
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0;
+    padding-bottom: 0.12em;
+  }
+
+  /* Figure captions — italic serif, "Fig. N —" prefix in small-caps gold */
+  .chart-wide figcaption {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: color-mix(in srgb, var(--color-ink) 72%, var(--color-ivory));
+    text-align: left;
+    max-width: 100%;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    letter-spacing: normal;
+    font-weight: 400;
+    text-transform: none;
+  }
+  .chart-wide figcaption::before {
+    content: "Fig. " counter(fig, decimal-leading-zero) " — ";
+    font-family: var(--font-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.78em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+    margin-right: 0.15em;
+  }
+
+  /* Tables inside figures still get the full plate width */
   .chart-wide:has(table) {
-    width: 100%;
-    max-width: 65rem;
-    overflow-x: visible;
+    max-width: min(60rem, 100% - 2rem);
+  }
+
+  /* Avoid double gold hairlines when a header (or another figure) sits
+     immediately after a figure plate — drop the second line. */
+  .chapter-body .chart-wide + h2 {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 2.5rem;
+  }
+  .chapter-body .chart-wide + .chart-wide {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 1rem;
   }
 
   /* ─── Header ─── */
@@ -165,38 +241,44 @@ const formatDate = (date: Date) => {
 
   .chapter-back {
     display: inline-block;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--color-ink);
-    opacity: 0.35;
+    opacity: 0.55;
     text-decoration: none;
     margin-bottom: 2rem;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, color 0.2s;
   }
 
   .chapter-back:hover {
-    opacity: 0.7;
+    opacity: 1;
+    color: var(--color-gold);
   }
 
   .chapter-meta {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
     color: var(--color-ink);
-    opacity: 0.4;
+    opacity: 0.55;
     margin-bottom: 1.5rem;
     display: flex;
     gap: 0.5rem;
   }
 
   .chapter-title {
-    font-family: var(--font-serif);
+    font-family: var(--font-display);
     font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 1.15;
+    font-weight: 600;
+    line-height: 1.05;
     letter-spacing: -0.01em;
     margin-bottom: 1.25rem;
+    text-wrap: balance;
   }
 
   @media (min-width: 768px) {
@@ -209,16 +291,14 @@ const formatDate = (date: Date) => {
     font-family: var(--font-serif);
     font-size: 1.2rem;
     line-height: 1.6;
-    color: var(--color-ink);
-    opacity: 0.6;
+    color: color-mix(in srgb, var(--color-ink) 75%, var(--color-ivory));
     margin-bottom: 2.5rem;
   }
 
   .chapter-rule {
     width: 3rem;
     height: 1px;
-    background: var(--color-ink);
-    opacity: 0.2;
+    background: color-mix(in srgb, var(--color-gold) 60%, transparent);
   }
 
   /* ─── Body / Prose ─── */
@@ -247,32 +327,45 @@ const formatDate = (date: Date) => {
 
   /* Drop cap on first paragraph */
   .chapter-body > p:first-child::first-letter {
-    font-family: var(--font-serif);
-    float: left;
-    font-size: 4rem;
-    line-height: 0.75;
-    padding-right: 0.5rem;
-    padding-top: 0.35rem;
-    font-weight: 400;
+    font-family: var(--font-display);
+    font-weight: 500;
     color: var(--color-ink);
+    float: left;
+    font-size: 3.6em;
+    line-height: 0.82;
+    margin: 0.04em 0.52em 0 -0.02em;
+    padding-right: 0.04em;
+  }
+  @supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
+    .chapter-body > p:first-child::first-letter {
+      float: none;
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0 0.54em 0 0;
+      padding: 0;
+      -webkit-initial-letter: 3;
+      initial-letter: 3;
+    }
   }
 
   /* ─── Headings ─── */
   .chapter-body h2 {
-    font-family: var(--font-serif);
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.3;
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.005em;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(18, 18, 18, 0.1);
+    border-top: 1px solid color-mix(in srgb, var(--color-gold) 35%, transparent);
+    text-wrap: balance;
   }
 
   .chapter-body h3 {
-    font-family: var(--font-serif);
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 500;
     font-style: italic;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
@@ -282,13 +375,15 @@ const formatDate = (date: Date) => {
   .chapter-body a {
     color: var(--color-ink);
     text-decoration: underline;
-    text-decoration-color: rgba(18, 18, 18, 0.3);
-    text-underline-offset: 0.15em;
-    transition: text-decoration-color 0.2s;
+    text-decoration-thickness: 1px;
+    text-decoration-color: color-mix(in srgb, var(--color-gold) 55%, transparent);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 0.2s, color 0.2s;
   }
 
   .chapter-body a:hover {
-    text-decoration-color: var(--color-ink);
+    color: color-mix(in srgb, var(--color-gold) 70%, var(--color-ink));
+    text-decoration-color: var(--color-gold);
   }
 
   /* ─── Lists ─── */
@@ -329,10 +424,11 @@ const formatDate = (date: Date) => {
   .chapter-nav {
     margin-top: 5rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(18, 18, 18, 0.1);
+    border-top: 1px solid color-mix(in srgb, var(--color-gold) 35%, transparent);
     display: flex;
     justify-content: space-between;
     align-items: start;
+    gap: 2rem;
   }
 
   .chapter-nav-link {
@@ -341,22 +437,26 @@ const formatDate = (date: Date) => {
   }
 
   .chapter-nav-link:hover .chapter-nav-title {
-    opacity: 0.6;
+    color: color-mix(in srgb, var(--color-gold) 70%, var(--color-ink));
   }
 
   .chapter-nav-label {
     display: block;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 0.72rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    opacity: 0.4;
-    margin-bottom: 0.35rem;
+    letter-spacing: 0.16em;
+    color: var(--color-gold);
+    opacity: 0.85;
+    margin-bottom: 0.5rem;
   }
 
   .chapter-nav-title {
-    font-family: var(--font-serif);
-    font-size: 1rem;
-    transition: opacity 0.2s;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    transition: color 0.2s;
   }
 </style>

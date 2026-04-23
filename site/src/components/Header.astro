@@ -18,10 +18,10 @@ const isActive = (href: string) =>
   href === '/' ? pathname === '/' : pathname.startsWith(href);
 ---
 
-<header class:list={['border-b border-ink/10', compact && 'is-compact']}>
+<header class:list={['border-b border-ink/10', compact && 'is-compact']} style="background-color: #F2EDE0;">
   <div class:list={[
-    'max-w-content mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center md:justify-between gap-4 md:gap-8',
-    compact ? 'py-3 md:py-4' : 'py-5 md:py-6',
+    'mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center md:justify-between gap-4 md:gap-8',
+    compact ? 'max-w-none py-3 md:py-4' : 'max-w-content py-5 md:py-6',
   ]}>
     <a href="/" class="shrink-0 flex flex-col items-center gap-[3px] hover:opacity-80 transition-opacity" aria-label="Dagger Obelus — Early Modern Studies home">
       <img

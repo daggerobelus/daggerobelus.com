@@ -184,23 +184,10 @@ const { caption } = Astro.props;
       trySection.appendChild(tryLabel);
       trySection.appendChild(textarea);
 
-      // Reveal button
+      // Reveal button — editorial small-caps with gold hairline border
       const revealBtn = document.createElement('button');
-      revealBtn.style.cssText = `
-        font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
-        padding: 10px 24px; border: 2px solid #121212; background: none;
-        color: #121212; cursor: pointer; border-radius: 4px;
-        transition: all 0.2s; display: block; margin: 0 auto 16px auto;
-      `;
+      revealBtn.className = 'reveal-btn';
       revealBtn.textContent = 'Reveal transcription';
-      revealBtn.addEventListener('mouseover', () => {
-        revealBtn.style.background = '#121212';
-        revealBtn.style.color = '#fff7f4';
-      });
-      revealBtn.addEventListener('mouseout', () => {
-        revealBtn.style.background = 'none';
-        revealBtn.style.color = '#121212';
-      });
 
       // Answer panel (hidden initially)
       const answerPanel = document.createElement('div');
@@ -229,18 +216,14 @@ const { caption } = Astro.props;
 
       ex.hints.forEach(hint => {
         const hintEl = document.createElement('details');
-        hintEl.style.cssText = 'margin-bottom: 8px; border: 1px solid rgba(18,18,18,0.08); border-radius: 4px; overflow: hidden;';
+        hintEl.className = 'hint-row';
 
         const summary = document.createElement('summary');
-        summary.style.cssText = `
-          font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
-          padding: 8px 14px; cursor: pointer; color: ${ex.difficultyColor};
-          font-weight: 600; user-select: none;
-        `;
+        summary.className = 'hint-summary';
         summary.textContent = hint.label;
 
         const detail = document.createElement('div');
-        detail.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; padding: 0 14px 10px 14px; line-height: 1.6;';
+        detail.className = 'hint-detail';
         detail.textContent = hint.explanation;
 
         hintEl.appendChild(summary);
@@ -334,7 +317,7 @@ const { caption } = Astro.props;
   render();
 </script>
 
-<style>
+<style is:global>
   .try-reading details summary::-webkit-details-marker {
     color: #888;
   }
@@ -345,5 +328,65 @@ const { caption } = Astro.props;
   .try-reading textarea:focus {
     outline: none;
     border-color: #121212;
+  }
+
+  /* Hint accordion rows — small-caps gold header, quiet hairline border */
+  .try-reading .hint-row {
+    margin-bottom: 0.5rem;
+    border: 1px solid color-mix(in srgb, var(--color-gold) 30%, transparent);
+    border-radius: 0;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--color-gold) 4%, transparent);
+  }
+  .try-reading .hint-summary {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+    padding: 0.55rem 0.9rem;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+  }
+  .try-reading .hint-summary::-webkit-details-marker {
+    display: none;
+  }
+  .try-reading details[open] .hint-summary {
+    border-bottom: 1px solid color-mix(in srgb, var(--color-gold) 25%, transparent);
+  }
+  .try-reading .hint-detail {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: color-mix(in srgb, var(--color-ink) 72%, var(--color-ivory));
+    padding: 0.75rem 0.9rem 0.9rem;
+  }
+
+  /* Editorial button — small-caps on gold hairline, fills quietly on hover */
+  .try-reading .reveal-btn {
+    display: block;
+    margin: 0 auto 1rem;
+    padding: 0.7rem 1.6rem;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+    background: transparent;
+    border: 1px solid color-mix(in srgb, var(--color-gold) 55%, transparent);
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+  }
+  .try-reading .reveal-btn:hover,
+  .try-reading .reveal-btn:focus-visible {
+    background: color-mix(in srgb, var(--color-gold) 12%, transparent);
+    color: color-mix(in srgb, var(--color-gold) 80%, var(--color-ink));
+    border-color: var(--color-gold);
+    outline: none;
   }
 </style>
