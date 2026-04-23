@@ -25,7 +25,10 @@ const formatDate = (date: Date) =>
     {featuredProject && (
       <div class="grid md:grid-cols-[1.05fr_1fr] gap-10 md:gap-20 items-center">
         <div class="flex flex-col">
-          <div class="font-ui text-gold mb-7 flex items-center gap-2">
+          <div class:list={[
+            'font-ui mb-7 flex items-center gap-2',
+            featuredProject.data.status === 'in-progress' ? 'text-research' : 'text-gold'
+          ]}>
             <span>{featuredProject.data.status === 'in-progress' ? 'In Progress' : 'Featured'}</span>
           </div>
 

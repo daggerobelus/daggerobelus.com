@@ -32,17 +32,20 @@ const isActive = (href: string) =>
       <span class="logo-tagline">Early Modern Studies</span>
     </a>
 
-    <nav class="w-full md:w-auto flex items-center justify-center flex-wrap gap-x-3 gap-y-2 md:gap-x-8">
-      {navItems.map(({ href, label }) => (
-        <a
-          href={href}
-          class:list={[
-            'font-ui nav-item no-underline transition-colors',
-            isActive(href) ? 'text-ink' : 'text-ink/55 hover:text-ink'
-          ]}
-        >
-          {label}
-        </a>
+    <nav class="w-full md:w-auto flex items-center justify-center flex-wrap gap-x-3 gap-y-2 md:gap-x-6">
+      {navItems.map(({ href, label }, i) => (
+        <>
+          {i > 0 && <span class="nav-sep" aria-hidden="true">•</span>}
+          <a
+            href={href}
+            class:list={[
+              'font-ui nav-item no-underline transition-colors',
+              isActive(href) ? 'text-ink' : 'text-ink/55 hover:text-ink'
+            ]}
+          >
+            {label}
+          </a>
+        </>
       ))}
     </nav>
   </div>
@@ -51,6 +54,18 @@ const isActive = (href: string) =>
 <style>
   header a {
     text-decoration: none !important;
+  }
+  /* Dark gold dot separator between nav items */
+  .nav-sep {
+    color: color-mix(in srgb, var(--color-gold) 85%, var(--color-ink));
+    font-size: 0.5rem;
+    line-height: 1;
+    user-select: none;
+    transform: translateY(-0.05em);
+  }
+  /* Nav text sits ~1.5px above the base font-ui size for slightly more weight */
+  .nav-item {
+    font-size: 0.8rem;
   }
   /* Compact tagline shrinks proportionally with the wordmark */
   header.is-compact :global(.logo-tagline) {
