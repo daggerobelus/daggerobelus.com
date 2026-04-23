@@ -14,11 +14,13 @@ interface Props {
 const {
   title = 'daggerobelus',
   description = 'An Early Modern Archival Digital Humanities Project',
-  image = '/brand/mark.png',
+  image = '/brand/og-default.jpg',
   compact = false,
 } = Astro.props;
 
 const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
+const absoluteImage = new URL(image, Astro.site).toString();
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
 ---
 
 <!doctype html>
@@ -27,9 +29,25 @@ const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+
+    {/* Open Graph — Facebook, LinkedIn, iMessage, Slack, most others */}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="daggerobelus" />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
+    <meta property="og:image" content={absoluteImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={description} />
+
+    {/* Twitter / X — uses its own card namespace */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={absoluteImage} />
+
+    <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/png" href="/brand/mark.png" />
     <title>{fullTitle}</title>
   </head>
