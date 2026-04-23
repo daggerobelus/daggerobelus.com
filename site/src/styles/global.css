@@ -1,15 +1,237 @@
 @import "tailwindcss";
 
-@theme {
-  --color-cream: #fff7f4;
-  --color-ink: #121212;
+/* Self-hosted fonts — metrics overrides injected by fontaine */
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/cormorant-garamond/700.css";
+@import "@fontsource/cormorant-garamond/400-italic.css";
+@import "@fontsource/cormorant-garamond/500-italic.css";
+@import "@fontsource-variable/eb-garamond/wght.css";
+@import "@fontsource-variable/eb-garamond/wght-italic.css";
+@import "@fontsource-variable/commissioner/wght.css";
 
-  --font-serif: Georgia, "Times New Roman", serif;
+@theme {
+  --color-ink: #1E1A17;
+  --color-ivory: #F6F2EC;
+  --color-gold: #B19557;
+  --color-gold-soft: #CDB785;
+  --color-archive: #BFB7AB;
+  --color-slate: #6E685F;
+  --color-research: #5EA3D6;
+
+  --color-cream: #F6F2EC;
+
+  --font-display: "Cormorant Garamond", "Cormorant Garamond fallback", "EB Garamond Variable", Georgia, serif;
+  --font-serif: "EB Garamond Variable", "EB Garamond Variable fallback", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "Commissioner Variable", "Commissioner Variable fallback", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "SF Mono", Monaco, monospace;
 
-  --max-w-content: 72rem;
+  --container-content: 90rem;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: clip;
+}
+
+/* Logo tagline — real text layer beneath the cropped wordmark */
+.logo-tagline {
+  font-family: var(--font-display);
+  font-size: 0.56rem;
+  letter-spacing: 0.36em;
+  text-indent: 0.36em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  opacity: 0.85;
+  user-select: none;
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  .logo-tagline {
+    font-size: 0.62rem;
+  }
+}
+
+body {
+  font-family: var(--font-serif);
+  font-feature-settings: "liga", "kern", "onum";
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  text-rendering: optimizeLegibility;
+  text-wrap: pretty;
+}
+
+/* Prevent widows on headings (balance last line across column) */
+h1, h2, h3, h4, .display {
+  text-wrap: balance;
+}
+
+/* Headline utility — high-contrast display serif */
+.display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  font-feature-settings: "liga", "dlig", "kern";
+}
+
+.display-italic {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Body editorial */
+.prose-editorial {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--color-ink) 80%, var(--color-ivory));
+}
+
+/* UI small-caps tracking */
+.font-ui {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+
+/* Tighter tracking for header nav on narrow viewports so all items fit */
+.nav-item {
+  letter-spacing: 0.1em;
+}
+@media (min-width: 768px) {
+  .nav-item {
+    letter-spacing: 0.16em;
+  }
+}
+
+/* Section label with a gold hairline extending to the right */
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: color-mix(in srgb, var(--color-ink) 65%, transparent);
+}
+.section-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: color-mix(in srgb, var(--color-gold) 50%, transparent);
+}
+
+/* Drop cap for editorial leads — native initial-letter where supported,
+   manual float fallback otherwise. */
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--color-ink);
+  float: left;
+  font-size: 2.6em;
+  line-height: 0.85;
+  margin: 0.04em 0.34em 0 -0.02em;
+  padding-right: 0.04em;
+}
+@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+  .drop-cap::first-letter {
+    float: none;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0 0.36em 0 0;
+    padding: 0;
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+  }
+}
+
+/* Dagger/obelus ornamental glyphs */
+.glyph {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-gold);
+  display: inline-block;
+}
+
+/* Title link — wraps a heading without looking linked at rest; subtle gold
+   underline fades in on hover. */
+#page a.title-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+#page a.title-link h1,
+#page a.title-link h2,
+#page a.title-link h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.12em;
+  transition: text-decoration-color 200ms ease;
+}
+#page a.title-link:hover h1,
+#page a.title-link:hover h2,
+#page a.title-link:hover h3 {
+  text-decoration-color: color-mix(in srgb, var(--color-gold) 55%, transparent);
+}
+
+/* Annotated link — italic display-serif "Read more" with a tight dagger mark.
+   Underline sits on the text only; the mark stays locked to the text. */
+#page a.annotated-link {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-gold);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
+}
+#page a.annotated-link .annotated-text {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--color-gold) 45%, transparent);
+  text-underline-offset: 0.22em;
+  transition: text-decoration-color 160ms ease, color 160ms ease;
+}
+#page a.annotated-link:hover .annotated-text {
+  text-decoration-color: var(--color-gold);
+  color: color-mix(in srgb, var(--color-gold) 75%, var(--color-ink));
+}
+#page a.annotated-link .annotated-mark {
+  margin-left: 0.18em;
+  color: var(--color-gold);
+  text-decoration: none;
+  font-style: italic;
+  display: inline-block;
+}
+
+/* Initial reveal — staggered fade+translate */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.rise {
+  animation: rise 650ms cubic-bezier(0.2, 0.6, 0.2, 1) both;
+}
+.rise-1 { animation-delay: 0ms; }
+.rise-2 { animation-delay: 90ms; }
+.rise-3 { animation-delay: 180ms; }
+.rise-4 { animation-delay: 270ms; }
+.rise-5 { animation-delay: 360ms; }
+.rise-6 { animation-delay: 450ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+}
 
 #page {
 
@@ -19,16 +241,23 @@
   li {
     list-style: disc;
     margin-left: 1rem;
-  }
-
-  a { 
-    text-decoration: underline;
-    color: #009FDA;
-
-    &:hover {
-      filter: brightness(1.1);
+    &::marker {
+      color: var(--color-gold);
     }
   }
 
+  a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    text-decoration-color: color-mix(in srgb, var(--color-gold) 45%, transparent);
+    color: var(--color-gold);
+    transition: color 160ms ease, text-decoration-color 160ms ease;
+
+    &:hover {
+      color: color-mix(in srgb, var(--color-gold) 70%, var(--color-ink));
+      text-decoration-color: var(--color-gold);
+    }
+  }
 
 }

@@ -1,0 +1,39 @@
+---
+interface Props {
+  size?: 'sm' | 'md' | 'lg';
+  class?: string;
+}
+
+const { size = 'md', class: className = '' } = Astro.props;
+
+const markSize = {
+  sm: 'h-6 w-6',
+  md: 'h-9 w-9',
+  lg: 'h-12 w-12',
+}[size];
+---
+
+<div class:list={['divider', className]} role="separator" aria-hidden="true">
+  <span class="rule"></span>
+  <img src="/brand/mark.png" alt="" class={markSize} />
+  <span class="rule"></span>
+</div>
+
+<style>
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    width: 100%;
+    margin: 3rem 0;
+  }
+  .rule {
+    flex: 1;
+    height: 1px;
+    background: color-mix(in srgb, var(--color-gold) 65%, transparent);
+  }
+  .divider img {
+    flex-shrink: 0;
+    opacity: 0.9;
+  }
+</style>

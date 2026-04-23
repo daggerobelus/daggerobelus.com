@@ -2,57 +2,117 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
-import HomepageChallenge from '../components/HomepageChallenge.astro';
+import Divider from '../components/Divider.astro';
 
 const allProjects = await getCollection('projects', ({ data }) => {
   return data.status !== 'draft';
 });
 
-// Sort by publishDate descending
 const sortedProjects = allProjects.sort((a, b) =>
   b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
 
-// Collect all unique tags
-const allTags = [...new Set(sortedProjects.flatMap(p => p.data.tags || []))].sort();
-
-// Featured project (first featured one, or first project)
 const featuredProject = sortedProjects.find(p => p.data.featured) || sortedProjects[0];
 const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slug);
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <BaseLayout>
-  <section class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
-    <div class="max-w-3xl mb-16">
-      <h1 class="text-4xl md:text-5xl font-serif leading-tight mb-6">
-        An Early Modern Archival Digital Humanities Project
-      </h1>
-    </div>
+  <section class="max-w-content mx-auto px-6 md:px-10 pt-14 md:pt-20 pb-12">
 
-    <div id="tag-filter" class="hidden border-t border-ink/10 pt-8 mb-8">
-      <div class="flex items-center gap-3">
-        <span class="text-xs font-mono text-ink/40">Filtered by</span>
-        <span id="active-tag" class="text-xs font-mono text-ink/80 px-2 py-1 border border-ink/20 rounded"></span>
-        <a href="/" class="text-xs font-mono text-ink/40 hover:text-ink transition-colors">clear</a>
+    {featuredProject && (
+      <div class="grid md:grid-cols-[1.05fr_1fr] gap-10 md:gap-20 items-center">
+        <div class="flex flex-col">
+          <div class="font-ui text-ink/55 mb-7 flex items-center gap-2">
+            <a href="/" class="no-underline text-ink/55 hover:text-ink transition-colors">All</a>
+            <span class="glyph not-italic text-ink/30" aria-hidden="true">/</span>
+            <span>Projects</span>
+          </div>
+
+          <a href={`/projects/${featuredProject.slug}/`} class="rise rise-2 title-link self-start">
+            <h1 class="display text-5xl md:text-7xl text-ink">
+              {featuredProject.data.title}
+            </h1>
+          </a>
+
+          <p class="rise rise-3 drop-cap prose-editorial mt-8 max-w-xl">
+            {featuredProject.data.description}
+          </p>
+
+          <div class="rise rise-4 mt-9 flex items-baseline gap-3 flex-wrap">
+            <time
+              datetime={featuredProject.data.publishDate.toISOString()}
+              class="font-ui text-ink/55"
+            >
+              {formatDate(featuredProject.data.publishDate)}
+            </time>
+            {featuredProject.data.tags && featuredProject.data.tags.length > 0 && (
+              <>
+                <span class="glyph not-italic text-[0.8rem] leading-none" aria-hidden="true">†</span>
+                <div class="flex items-baseline gap-3 flex-wrap">
+                  {featuredProject.data.tags.slice(0, 2).map((tag, i) => (
+                    <>
+                      {i > 0 && <span class="font-ui text-gold/40" aria-hidden="true">·</span>}
+                      <span class="font-ui text-gold">{tag}</span>
+                    </>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+
+          <a
+            href={`/projects/${featuredProject.slug}/`}
+            class="rise rise-5 mt-7 annotated-link self-start"
+            style="font-size: 1.1rem;"
+          >
+            <span class="annotated-text">Read more</span><span class="annotated-mark" aria-hidden="true">†</span>
+          </a>
+        </div>
+
+        {featuredProject.data.image && (
+          <a href={`/projects/${featuredProject.slug}/`} class="rise rise-3 block no-underline self-start">
+            <figure class="hero-figure">
+              <img
+                src={featuredProject.data.image}
+                alt={featuredProject.data.imageAlt || featuredProject.data.title}
+                class="w-full h-auto object-contain"
+                loading="eager"
+                decoding="async"
+              />
+            </figure>
+          </a>
+        )}
       </div>
-    </div>
-
-    <div class="border-t border-ink/10 pt-12 mb-16" data-project-card data-tags={JSON.stringify(featuredProject?.data.tags || [])}>
-      <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">Featured</span>
-      <HomepageChallenge />
-    </div>
+    )}
 
     {otherProjects.length > 0 && (
-      <div class="border-t border-ink/10 pt-12">
-        <span class="text-xs font-mono uppercase tracking-wider text-ink/50 mb-8 block">All Projects</span>
-        <div class="grid gap-12 md:gap-16">
-          {otherProjects.map(project => (
-            <div data-project-card data-tags={JSON.stringify(project.data.tags || [])}>
+      <>
+        <Divider size="md" />
+
+        <div class="mt-4">
+          <div class="flex items-baseline justify-between gap-6 mb-12">
+            <h2 class="display text-3xl md:text-4xl text-ink">
+              Recent Projects
+            </h2>
+            <a
+              href="/"
+              class="shrink-0 annotated-link"
+              style="font-size: 1rem;"
+            >
+              <span class="annotated-text">View all projects</span><span class="annotated-mark" aria-hidden="true">†</span>
+            </a>
+          </div>
+
+          <div class="grid gap-16 md:gap-20">
+            {otherProjects.map(project => (
               <ProjectCard project={project} />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </>
     )}
 
     {sortedProjects.length === 0 && (
@@ -63,26 +123,29 @@ const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slu
   </section>
 </BaseLayout>
 
-<script>
-  function filterByTag() {
-    const params = new URLSearchParams(window.location.search);
-    const tag = params.get('tag');
-    const filterEl = document.getElementById('tag-filter');
-    const activeTagEl = document.getElementById('active-tag');
-    const cards = document.querySelectorAll('[data-project-card]');
-
-    if (!tag || !filterEl || !activeTagEl) return;
-
-    filterEl.classList.remove('hidden');
-    activeTagEl.textContent = tag;
-
-    cards.forEach(card => {
-      const tags = JSON.parse(card.getAttribute('data-tags') || '[]');
-      if (!tags.includes(tag)) {
-        (card as HTMLElement).style.display = 'none';
-      }
-    });
+<style>
+  .hero-figure {
+    position: relative;
+    padding: 1.25rem;
   }
+  .hero-figure::before,
+  .hero-figure::after {
+    content: "";
+    position: absolute;
+    background: color-mix(in srgb, var(--color-gold) 55%, transparent);
+  }
+  .hero-figure::before {
+    top: 0; left: 0; width: 28px; height: 1px;
+    box-shadow: 0 27px 0 color-mix(in srgb, var(--color-gold) 55%, transparent);
+  }
+  .hero-figure::after {
+    top: 0; left: 0; width: 1px; height: 28px;
+    box-shadow: 27px 0 0 color-mix(in srgb, var(--color-gold) 55%, transparent);
+  }
+  /* Mirror corners on the far side */
+  .hero-figure {
+    box-shadow:
+      inset -1px 0 0 0 transparent;
+  }
+</style>
 
-  filterByTag();
-</script>

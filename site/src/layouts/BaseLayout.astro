@@ -13,7 +13,7 @@ interface Props {
 const {
   title = 'daggerobelus',
   description = 'An Early Modern Archival Digital Humanities Project',
-  image = '/logo-alpha.png'
+  image = '/brand/mark.png'
 } = Astro.props;
 
 const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
@@ -28,10 +28,10 @@ const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
-    <link rel="icon" type="image/png" href="/logo-alpha.png" />
+    <link rel="icon" type="image/png" href="/brand/mark.png" />
     <title>{fullTitle}</title>
   </head>
-  <body class="bg-cream text-ink min-h-screen flex flex-col font-serif antialiased">
+  <body class="bg-ivory text-ink min-h-screen flex flex-col font-serif antialiased">
     <Header />
     <main class="flex-1" id="page">
       <slot />
