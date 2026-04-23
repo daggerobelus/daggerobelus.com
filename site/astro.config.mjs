@@ -5,7 +5,7 @@ import mdx from '@astrojs/mdx';
 import { FontaineTransform } from 'fontaine';
 
 export default defineConfig({
-  site: 'https://daggerobelus.com',
+  site: 'https://www.daggerobelus.com',
   trailingSlash: 'always',
   server: {
     host: true,
