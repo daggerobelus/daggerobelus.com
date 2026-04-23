@@ -23,8 +23,8 @@ const formatDate = (date: Date) =>
   <section class="max-w-content mx-auto px-6 md:px-10 pt-14 md:pt-20 pb-12">
 
     {featuredProject && (
-      <div class="grid md:grid-cols-[1.05fr_1fr] gap-10 md:gap-20 items-center">
-        <div class="flex flex-col">
+      <div class="grid md:grid-cols-[1.05fr_1fr] gap-8 md:gap-20 items-center">
+        <div class="flex flex-col order-last md:order-first">
           <div class:list={[
             'font-ui mb-7 flex items-center gap-2',
             featuredProject.data.status === 'in-progress' ? 'text-research' : 'text-gold'
@@ -74,7 +74,7 @@ const formatDate = (date: Date) =>
         </div>
 
         {featuredProject.data.image && (
-          <a href={`/projects/${featuredProject.slug}/`} class="rise rise-3 block no-underline self-start">
+          <a href={`/projects/${featuredProject.slug}/`} class="rise rise-3 block no-underline self-start order-first md:order-last">
             <figure class="hero-figure">
               <img
                 src={featuredProject.data.image}
@@ -134,6 +134,20 @@ const formatDate = (date: Date) =>
   .hero-figure img {
     border-radius: 2px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  /* Mobile: cap hero image height so the editorial title clears the fold
+     on iPhone 12+ class devices (~844px tall, minus browser chrome). */
+  @media (max-width: 767px) {
+    .hero-figure {
+      padding: 0.5rem;
+    }
+    .hero-figure img {
+      max-height: 40vh;
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
   }
   .hero-figure::before,
   .hero-figure::after {
