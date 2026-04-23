@@ -11,8 +11,25 @@ without further direction.
 - Every project needs exactly one hero image (landscape, 4:3, 1600×1200+)
 - Hero sits beside the title in the homepage featured block and at the top of
   the project detail page
-- The goal is a set of images that look like chapters of the same journal, not
-  a portfolio of unrelated illustrations
+- The goal is a set of images that look like chapters of the same
+  illuminated journal, not a portfolio of unrelated illustrations
+
+## The voice behind the image
+
+This is a scholarly project written by humanists, not a policy magazine or
+a tech publication. The illustrations should feel like the margin drawings
+in a researcher's own notebook — attentive, curious, slightly dreamy,
+deeply literate. Warm, inviting, personal. Not austere, not clinical, not
+self-consciously austere-rigorous. The voice of someone who loves what
+they study and wants you to love it too.
+
+This means:
+
+- Watercolor softness, not engraver's precision
+- Hand-drawn warmth, not architectural cleanliness
+- Wonder as a real visual register — a scattering of lavender stars is
+  welcome and on-brand
+- The artifact and the reader's imagination held together in one frame
 
 ## Core principles
 
@@ -23,84 +40,120 @@ without further direction.
    typography reads as fake at any zoom and undermines scholarly credibility.
    If we don't have a scan, change the subject or commission one — don't let
    the model hallucinate paleography.
-2. **Restraint and implication, not spectacle.** Violence, drama, and
-   atmospheric horror belong in the prose, not the hero image. A single
-   circled village and a cross-seal communicate the weight of a witch trial
-   more than a crowd scene.
-3. **Consistency is the brand.** Every image obeys the same palette, the same
-   compositional grammar, and the same rendering technique. If a prompt calls
-   for a colour or medium that isn't in the preamble below, either adjust the
-   subject or reject the prompt.
-4. **Upper-left negative space is reserved.** The title column lands there on
-   desktop. Never compose a focal element in the upper-left quadrant.
-5. **No modern elements.** Screens, phones, contemporary typography, neon,
-   Helvetica, Times New Roman, anything post-1800 in the subject frame.
+2. **Personal over spectacular.** A single pressed herb, a magnifying glass,
+   a circled village on a map — small personal moments of attention. Not
+   crowds, not atmospheric weather, not cinematic drama. Imagine someone's
+   desk on a quiet afternoon, not a film still.
+3. **Wonder is allowed.** Lavender stars scattered across the negative
+   space is not a mistake — it's the researcher's interior world registering
+   on the page. Embrace the dreamy edge.
+4. **Consistency is the brand.** Every image obeys the same palette, the
+   same compositional grammar, and the same rendering technique.
+5. **Upper-left negative space is reserved.** The title column lands there
+   on desktop. Never compose a focal element in the upper-left quadrant.
+6. **No modern elements.** Screens, phones, contemporary typography,
+   Helvetica, Times New Roman — anything post-1800 in the subject frame.
+   Exception: a wooden/articulated mannequin hand as a discreet "machine"
+   stand-in is permitted (see Teaching Machines to Read). Robots, chrome,
+   circuit boards are not.
 
-## Palette (strict)
+## Palette
 
-| Role            | Hex       | Usage                                          |
-|-----------------|-----------|------------------------------------------------|
-| Ivory Paper     | `#F6F2EC` | Background, paper ground                       |
-| Ink Black       | `#1E1A17` | Primary linework, period handwriting           |
-| Archive Gray    | `#BFB7AB` | Washes, secondary forms                        |
-| Slate Gray      | `#6E685F` | Shadow washes, recessive detail                |
-| Obelus Gold     | `#B19557` | Accent — *the craft of the archive*            |
-| Research Blue   | `#5EA3D6` | Accent — *the scholar's pen marking the archive* |
+The palette has three roles — ground, linework, and accent — and one
+atmospheric layer.
 
-No other colors. No saturated reds, greens, purples, oranges, teals.
+| Role             | Hex       | Usage                                              |
+|------------------|-----------|----------------------------------------------------|
+| **Ground**       |           |                                                    |
+| Ivory Paper      | `#F6F2EC` | Default paper ground                               |
+| Warm Parchment   | `#F3E8D8` | Optional warmer ground for pieces centered on the  |
+|                  |           | primary artifact (old pages, manuscripts)          |
+| **Linework**     |           |                                                    |
+| Ink Black        | `#1E1A17` | Primary linework, period handwriting               |
+| Archive Gray     | `#BFB7AB` | Secondary forms, washes                            |
+| Slate Gray       | `#6E685F` | Shadow washes, recessive detail                    |
+| **Accents** (sparing, one or two moments per image) |           |                                                    |
+| Obelus Gold      | `#B19557` | Material register — wax seals, gilt capitals, brass |
+|                  |           | highlights, ornamental period detail               |
+| Research Blue    | `#5EA3D6` | Analytical register — the scholar's pen marking    |
+|                  |           | the archive: dashed lines, circled names, stamps   |
+| **Atmospheric layer** |           |                                                    |
+| Lavender         | `#C8B8D8` | Scattered stars, small sparkles, constellation     |
+|                  |           | dots in the negative space (background, never      |
+|                  |           | a focal accent)                                    |
+
+No other colors. No saturated reds, greens, oranges, teals, or neons. The
+palette is warm-leaning, with blue and lavender as the only cool notes.
 
 ### How the two accents split work
 
-Gold and Research Blue are both valid hero accents, used sparingly — **one
-or two accent moments per image, never a wash**. They carry different
-semantic roles and should feel motivated by what's being shown:
+Gold and Research Blue are the two narrative accents, used sparingly — one
+or two moments per image, never a wash. They carry different semantic
+roles and should feel motivated by what's being shown:
 
 - **Gold** is the material register: wax seals, gilt initial capitals,
   illuminated letters, brass instrument highlights, gilt tooling on book
-  covers, ornamental borders in old manuscripts. It lives *on* the
-  historical object.
-- **Research Blue** is the analytical register: annotation marks made by
-  a scholar reading the source — dashed connecting lines, circled place
-  names on a map, a researcher's ink underlining a passage, diagrammatic
-  arrows, cartographic detail the mapmaker added by hand, marginal
-  pointing lines. It lives *over* the object, made by someone studying it.
+  covers, ornamental borders. It lives *on* the historical object.
+- **Research Blue** is the analytical register: marks made by a scholar
+  reading the source — dashed connecting lines, circled place names on a
+  map, a researcher's ink underline, diagrammatic arrows, stamped wax
+  seals, marginal pointing lines. It lives *over* the object, made by
+  someone studying it.
 
-A hero can use *one* accent or *both* — but if both, they must be doing
-different jobs (e.g. gold wax seal on the artifact, blue annotation
-circle around a village). Never substitute one for the other's role.
-Blue is not "colder gold" and gold is not "warmer blue."
+A hero should use *at least one of each*. If you find yourself building
+an image with only gold or only blue, reconsider — the palette needs to
+breathe. Never substitute one for the other's role: blue is not a "cooler
+gold" and gold is not a "warmer blue."
+
+### Lavender stars
+
+Scattered small lavender stars, snowflakes, or four-pointed sparkles in
+the upper empty regions of the image (especially the upper-left quadrant
+where the title sits, and anywhere else that feels empty). They are
+**never** a focal element. They're an atmospheric wash — a hint of
+wonder, the researcher's dreaming-over-sources register. Aim for
+~8-20 tiny stars, varied in size, drawn as simple outlined four-pointed
+or six-pointed marks. Think of them as visible silence.
 
 ## Composition rules
 
 - Aspect ratio 4:3, rendered at 1600×1200 or larger
 - Main subject sits right-of-center
-- Upper-left quadrant held open as calm ivory space (foxing and faint
-  marginalia okay, no focal elements)
+- Upper-left quadrant held open as calm space (lavender stars welcome,
+  no focal elements)
 - Layered-collage logic: a primary artifact (manuscript, map, plate) with
   secondary elements overlapping at the edges — a specimen, a seal, a
-  marginal note, a pointing-hand glyph (☞)
-- Even archival-photography lighting. No dramatic chiaroscuro, no lens flare,
-  no raking light
-- Subtle paper texture, foxing, faded ink bleed at edges
+  marginal note, a magnifying glass, the edge of another page
+- Even, diffused daylight. No dramatic chiaroscuro, no lens flare, no
+  raking side-light
+- Subtle paper texture, foxing, torn edges, aged warmth
 
 ## Technique / medium
 
-Detailed engraved linework combined with loose aquatint-style ink washes and
-watercolor staining on aged laid paper. Think: the composite frontispieces in
-Folio Society editions, the layered-archive approach in Armando Veve's
-editorial illustration, the compositional clarity of NYRB Classics covers,
-the observational precision of early-modern natural history plates (Redouté,
-Ehret).
+**Watercolor washes and fine pencil linework on aged laid paper**, with
+occasional ink pen detail for the primary artifact. Think: traditional
+book-of-hours marginalia rendered by a contemporary illustrator who works
+in watercolor and graphite. Soft edges, occasional pigment pooling at
+the paper's edge, faint graphite underdrawing showing through washes.
 
-## Visual references (cite in prompts)
+Not engraving. Not aquatint. Not digital-vector. Not photorealism.
 
-- NYRB Classics covers (David Pearson, Katy Homans)
-- Armando Veve — editorial illustrations for *The New Yorker* and *LRB*
-- Folio Society frontispieces
-- Hans Holbein woodcut detail
-- Warburg Institute archival photography
-- Codex Seraphinianus layout logic (not content)
+## Visual references
+
+- Lisbeth Zwerger — watercolor-and-ink illustrated classics
+- Errol Le Cain — illuminated-manuscript style in children's books
+- Medieval book-of-hours marginalia (Très Riches Heures, Hours of Catherine
+  of Cleves) — especially the flower-dotted borders and small ornamental
+  stars
+- Beatrix Potter's natural history watercolors — botanical precision in a
+  gentle hand
 - Early-modern natural history plates: Redouté, Ehret, Maria Sibylla Merian
+- Edmund Dulac, Arthur Rackham — watercolor illustrated folio tradition
+- Jackie Morris — folkloric watercolor with dreamy atmosphere
+- Folio Society illustrated classics editions
+
+Not: NYRB Classics covers (too austere), engraved frontispieces (too rigid),
+Codex Seraphinianus (too cool/systematic for this voice).
 
 ## Prompt structure
 
@@ -110,42 +163,44 @@ Every hero prompt is two blocks, in this order:
 [SHARED STYLE PREAMBLE — paste verbatim]
 
 Subject: [one paragraph describing the specific artifacts, their
-arrangement, and the one accent detail that carries the story]
+arrangement, the gold moment, the blue moment, and where the lavender
+stars scatter]
 ```
 
-Do not edit the preamble per-prompt. If you're tempted to, adjust the subject
-block instead or raise it as a guide revision.
+Do not edit the preamble per-prompt. If you're tempted to, adjust the
+subject block instead or raise it as a guide revision.
 
 ## Shared style preamble
 
 Paste this verbatim at the top of every hero prompt:
 
 ```
-Editorial illustration in the style of a contemporary early-modern
-scholarly archive. Technique: detailed engraved linework combined with
-loose aquatint-style ink washes and watercolor staining on aged laid
-paper. Layered collage composition — archival documents, marginalia,
-botanical and cartographic fragments arranged as if on a scholar's
-desk. Restrained palette on an ivory paper background (#F6F2EC): deep
-ink-black (#1E1A17) for primary linework, muted archive-gray (#6E685F
-and #BFB7AB) for secondary forms. Two accent colors used sparingly,
-with distinct roles: warm muted gold (#B19557) for the material
-register of the archive itself — wax seals, gilt initial capitals,
-illuminated letters, brass instrument highlights, ornamental borders;
-cool muted research blue (#5EA3D6) for the analytical register of a
-scholar reading the source — dashed annotation lines, a circled place
-name, a researcher's ink underline, diagrammatic arrows, marginal
-pointing lines drawn by hand. Aim for at least one gold moment AND
-one blue moment per image so the palette doesn't read monochromatic.
-Absolutely no saturated reds, greens, purples, oranges, teals, and no
-neon. Even, diffused archival lighting — no dramatic shadows, no lens
-flare. Subtle paper texture, foxing, and faded ink bleed at edges.
-Visual references: NYRB Classics covers, Armando Veve's editorial
-illustrations for the New Yorker and LRB, Folio Society frontispieces,
-Hans Holbein woodcut detail, Warburg Institute archival photographs,
-Codex Seraphinianus layout logic. 4:3 aspect ratio, 1600×1200, main
-subject right-of-center, upper-left quadrant held open as calm
-negative space.
+Illuminated humanist illustration, rendered in watercolor washes and
+fine pencil linework with ink pen detail on aged laid paper. Warm,
+personal, scholarly — the register of a researcher's attentive marginalia,
+not an engraved frontispiece. Layered collage composition: archival
+documents, marginalia, botanical and cartographic fragments arranged as
+if on a humanist's desk on a quiet afternoon. Palette: ivory paper ground
+(#F6F2EC) with occasional warmer parchment passages (#F3E8D8) where the
+primary artifact lives; deep ink-black (#1E1A17) linework; muted archive
+grays (#6E685F, #BFB7AB) for secondary forms. Two accent colors used
+sparingly with distinct roles: warm muted gold (#B19557) for the material
+register (wax seals, gilt initial capitals, brass highlights); cool muted
+research blue (#5EA3D6) for the analytical register (a scholar's pen
+marks — dashed lines, circled place names, stamped seals, underlines).
+At least one gold moment AND one blue moment per image. Scattered small
+lavender (#C8B8D8) four- or six-pointed stars, snowflakes, and tiny
+sparkles in the negative space — especially the upper-left quadrant and
+other empty regions — 8 to 20 total, varied in size, as a dreamy
+atmospheric wash. Lavender is never a focal accent, only atmosphere.
+Absolutely no saturated reds, greens, oranges, teals, neons. Even,
+diffused daylight — no dramatic shadows, no lens flare. Subtle paper
+texture, foxing, torn edges, aged warmth. Visual references: Lisbeth
+Zwerger, Errol Le Cain, medieval book-of-hours marginalia, Beatrix
+Potter's natural history watercolors, Redouté and Maria Sibylla Merian
+botanical plates, Edmund Dulac, Folio Society illustrated classics.
+4:3 aspect ratio, 1600×1200, main subject right-of-center, upper-left
+quadrant held open as calm negative space.
 ```
 
 ## Integrating real source material
@@ -171,20 +226,22 @@ source-faithfulness instructions.
 
 Before accepting a generated hero, confirm:
 
-- [ ] Palette obeys the table above (no other colors visible)
+- [ ] Paper ground is ivory (optionally parchment-warm under the artifact);
+  no pastel shifts into pink, tan, or butter-yellow
 - [ ] Upper-left quadrant clear for title overlay
-- [ ] At least one gold *and* one blue accent moment, doing distinct
-  jobs (material vs. analytical). Neither dominates — accents only.
-- [ ] If only one accent appears, the image has a clear reason (e.g.
-  the subject is purely a physical object with no scholarly annotation,
-  or purely a page of notes with no gilt material). Err on the side of
-  including both.
+- [ ] At least one gold moment AND one blue moment, doing distinct jobs
+  (material vs. analytical). Neither dominates.
+- [ ] Lavender stars present in negative space as atmospheric wash —
+  visible but never focal
 - [ ] No AI-generated fake handwriting or invented period typography
   (either source-derived or not shown legibly)
-- [ ] No modern objects, no figures in crowd scenes, no dramatic violence
-- [ ] Even lighting; no cinematic shadow play
-- [ ] Reads as a chapter of the same journal as the other existing heroes —
-  if placed beside them on the homepage, no image looks out of register
+- [ ] No modern objects (except permitted wooden/articulated mannequin hand
+  as a discreet machine stand-in), no figures in crowd scenes, no
+  dramatic violence
+- [ ] Even, diffused daylight; no cinematic shadow play
+- [ ] Reads as a chapter of the same illuminated journal as the other
+  existing heroes — if placed beside them on the homepage, no image looks
+  out of register
 
 ## Existing heroes (worked examples)
 
@@ -192,37 +249,40 @@ Before accepting a generated hero, confirm:
 `/projects/teaching-machines-to-read/public/images/hero.png`
 
 Subject: an open early-modern recipe manuscript at center-right (use a real
-scan — e.g. Henslowe or a period recipe book). **Blue accent** (analytical):
-a thin Research Blue (#5EA3D6) dashed line connecting a handwritten word on
-the page to a small transcription glyph in the right margin, as if a scholar
-is tracing decipherment with their pen. Beneath: fragments of a letterform
-variant chart (pencil sketch), a partial alphabet in faded brown ink, a
-branching-tree diagram of handwriting strokes drawn in scholar's-notebook
-style — one or two diagrammatic arrows on the tree rendered in the same
-Research Blue. **Gold accent** (material): a small brass magnifying lens at
-lower-left with a warm gilt highlight on its rim. No modern devices.
+scan). A wooden/articulated mannequin hand emerges from the left edge,
+fingertips reaching toward the manuscript page — the "machines" of the
+title, rendered as a scholar's anatomical study rather than a robot.
+Beneath and behind: fragments of a letterform-variant chart, a partial
+alphabet, a branching tree of handwriting strokes, a small CER result
+chart, checklists with ✓ ✓ ✗ marks. **Gold accent** (material): a brass
+magnifying glass at lower-left with warm gilt on its rim; the edge of the
+manuscript binding catches a gilt highlight. **Blue accent** (analytical):
+a thin Research Blue dashed line connecting a handwritten word on the
+manuscript to a small transcription glyph in the right margin.
+**Lavender stars** scatter through the upper-left quadrant and along the
+top of the image, small four-pointed sparkles in the empty air.
 
 ### The Healer's Trap
 `/projects/witchcraft/public/images/hero.png`
 
-Subject: a torn partial cartographic fragment of the Duchy of Lorraine at
-center-right (use a real period map scan) showing river networks, named
-prévôtés in period lettering, and faint coordinate grid. **Blue accent**
-(analytical): one small village circled in Research Blue (#5EA3D6) ink with
-a marginal cross beside it, as if a researcher has marked it — the color of
-the scholar's pen, not the mapmaker's. Below and overlapping: a single
-herbalist's specimen (yarrow or vervain) rendered in muted archive-gray
-with botanical-plate precision, Latin binomial in thin italic serif. Small
-stone mortar and pestle at lower-right catching a soft highlight. **Gold
-accent** (material): a wax seal silhouette (cross-impressed) in warm gilt,
-tucked into the upper-right margin. No figures, no stake, no fire —
-violence implied by the circled village and cross, craft shown by the
-pressed plant.
+Subject: a torn cartographic fragment of the Duchy of Lorraine at center-
+right (use a real period map scan) showing river networks and named
+prévôtés. Below and overlapping: a single herbalist's specimen (yarrow
+or vervain) rendered in muted archive-gray with botanical-plate
+precision, Latin binomial in thin italic serif. A small stone mortar
+and pestle sits at lower-right. **Gold accent** (material): a small
+gilded cross beside the village of Saint-Mihiel, as a period map detail.
+**Blue accent** (analytical): a Research Blue wax seal silhouette
+(cross-impressed) in the upper-right margin — the researcher's mark
+stamped onto the artifact. **Lavender stars** scatter across the
+upper-left and left-side negative space, a quiet atmospheric wash.
+No figures, no crowds, no stake, no fire — violence implied by the
+circled village and the cross, craft shown by the pressed plant.
 
 ## Revising this guide
 
-If a new project genuinely needs something this guide forbids (e.g. a color
-outside the palette, a composition breaking the upper-left rule), raise it
-explicitly rather than silently bending the rules. A single exception ages
-into "we don't really have a style anymore" across five projects. Prefer
-adjusting the subject to fit the guide.
+The direction has already shifted once (from engraved-archival to
+illuminated-humanist). If it shifts again, rewrite the whole guide rather
+than bolting on exceptions — a single "also this is allowed now" note
+ages into "we don't really have a style anymore" within three hero
+images. Always prefer adjusting a new subject to fit the existing guide.

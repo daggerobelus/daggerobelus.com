@@ -25,7 +25,10 @@ const formatDate = (date: Date) => {
   featured ? 'md:grid md:grid-cols-2 md:gap-12 items-start' : image ? 'md:grid md:grid-cols-[240px_1fr] md:gap-8 items-start' : ''
 ]}>
   {image && (
-    <a href={`/projects/${project.slug}/`} class="block overflow-hidden mb-6 md:mb-0 bg-ivory">
+    <a
+      href={`/projects/${project.slug}/`}
+      class="card-image block overflow-hidden mb-6 md:mb-0 bg-ivory"
+    >
       <img
         src={image}
         alt={imageAlt || title}
@@ -92,5 +95,9 @@ const formatDate = (date: Date) => {
 <style>
   article :global(a) {
     text-decoration: none !important;
+  }
+  .card-image {
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
 </style>
