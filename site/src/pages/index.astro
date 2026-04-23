@@ -25,7 +25,10 @@ const formatDate = (date: Date) =>
     {featuredProject && (
       <div class="grid md:grid-cols-[1.05fr_1fr] gap-10 md:gap-20 items-center">
         <div class="flex flex-col">
-          <div class="font-ui text-gold mb-7 flex items-center gap-2">
+          <div class:list={[
+            'font-ui mb-7 flex items-center gap-2',
+            featuredProject.data.status === 'in-progress' ? 'text-research' : 'text-gold'
+          ]}>
             <span>{featuredProject.data.status === 'in-progress' ? 'In Progress' : 'Featured'}</span>
           </div>
 
@@ -95,13 +98,15 @@ const formatDate = (date: Date) =>
             <h2 class="display text-3xl md:text-4xl text-ink">
               Recent Projects
             </h2>
-            <a
-              href="/"
-              class="shrink-0 annotated-link"
-              style="font-size: 1rem;"
-            >
-              <span class="annotated-text">View all projects</span><span class="annotated-mark" aria-hidden="true">†</span>
-            </a>
+            {sortedProjects.length > 4 && (
+              <a
+                href="/"
+                class="shrink-0 annotated-link"
+                style="font-size: 1rem;"
+              >
+                <span class="annotated-text">View all projects</span><span class="annotated-mark" aria-hidden="true">†</span>
+              </a>
+            )}
           </div>
 
           <div class="grid gap-16 md:gap-20">
@@ -126,6 +131,10 @@ const formatDate = (date: Date) =>
     position: relative;
     padding: 1.25rem;
   }
+  .hero-figure img {
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
   .hero-figure::before,
   .hero-figure::after {
     content: "";
@@ -139,11 +148,6 @@ const formatDate = (date: Date) =>
   .hero-figure::after {
     top: 0; left: 0; width: 1px; height: 28px;
     box-shadow: 27px 0 0 color-mix(in srgb, var(--color-gold) 55%, transparent);
-  }
-  /* Mirror corners on the far side */
-  .hero-figure {
-    box-shadow:
-      inset -1px 0 0 0 transparent;
   }
 </style>
 

@@ -6,9 +6,9 @@ import { Content, frontmatter } from '../data/contact.md';
 <BaseLayout title={frontmatter.title} description={frontmatter.description}>
   <section class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
     <div class="max-w-2xl">
-      <h1 class="text-4xl md:text-5xl font-serif leading-tight mb-8">{frontmatter.title}</h1>
+      <h1 class="display text-4xl md:text-5xl mb-8">{frontmatter.title}</h1>
 
-      <div class="prose prose-lg text-ink/80 leading-relaxed space-y-6">
+      <div class="prose prose-lg text-ink/80 space-y-6" style="font-size: 1.125rem; line-height: 1.7;">
         <Content />
       </div>
     </div>
