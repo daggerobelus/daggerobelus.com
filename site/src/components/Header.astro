@@ -1,4 +1,10 @@
 ---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+
 const pathname = Astro.url.pathname;
 
 const navItems = [
@@ -7,21 +13,32 @@ const navItems = [
   { href: '/method/', label: 'Methodology' },
   { href: '/contact/', label: 'Contact' },
 ];
+
+const isActive = (href: string) =>
+  href === '/' ? pathname === '/' : pathname.startsWith(href);
 ---
 
-<header class="border-b border-ink/10">
-  <div class="max-w-content mx-auto px-6 md:px-10 py-6 flex items-center justify-between">
-    <a href="/" class="flex items-center gap-3 hover:opacity-70 transition-opacity">
-      <img src="/logo-alpha.png" alt="" class="h-8 w-auto" />
+<header class:list={['border-b border-ink/10', compact && 'is-compact']}>
+  <div class:list={[
+    'mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center md:justify-between gap-4 md:gap-8',
+    compact ? 'max-w-none py-3 md:py-4' : 'max-w-content py-5 md:py-6',
+  ]}>
+    <a href="/" class="shrink-0 flex flex-col items-center gap-[3px] hover:opacity-80 transition-opacity" aria-label="Dagger Obelus — Early Modern Studies home">
+      <img
+        src="/brand/logo.png"
+        alt=""
+        class:list={['w-auto', compact ? 'h-7 md:h-8' : 'h-10 md:h-11']}
+      />
+      <span class="logo-tagline">Early Modern Studies</span>
     </a>
 
-    <nav class="flex items-center gap-8">
+    <nav class="w-full md:w-auto flex items-center justify-center flex-wrap gap-x-3 gap-y-2 md:gap-x-8">
       {navItems.map(({ href, label }) => (
         <a
           href={href}
           class:list={[
-            'text-sm tracking-wide uppercase transition-opacity hover:opacity-70',
-            pathname === href ? 'opacity-100' : 'opacity-60'
+            'font-ui nav-item no-underline transition-colors',
+            isActive(href) ? 'text-ink' : 'text-ink/55 hover:text-ink'
           ]}
         >
           {label}
@@ -30,3 +47,18 @@ const navItems = [
     </nav>
   </div>
 </header>
+
+<style>
+  header a {
+    text-decoration: none !important;
+  }
+  /* Compact tagline shrinks proportionally with the wordmark */
+  header.is-compact :global(.logo-tagline) {
+    font-size: 0.48rem;
+  }
+  @media (min-width: 768px) {
+    header.is-compact :global(.logo-tagline) {
+      font-size: 0.52rem;
+    }
+  }
+</style>
