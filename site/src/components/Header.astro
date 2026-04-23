@@ -18,7 +18,7 @@ const isActive = (href: string) =>
   href === '/' ? pathname === '/' : pathname.startsWith(href);
 ---
 
-<header class:list={['border-b border-ink/10', compact && 'is-compact']} style="background-color: #F2EDE0;">
+<header class:list={['border-b border-ink/10', compact && 'is-compact']}>
   <div class:list={[
     'mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center md:justify-between gap-4 md:gap-8',
     compact ? 'max-w-none py-3 md:py-4' : 'max-w-content py-5 md:py-6',
