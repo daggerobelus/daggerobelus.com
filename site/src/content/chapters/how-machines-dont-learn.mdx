@@ -1,0 +1,60 @@
+---
+title: "How Machines (Don't) Learn"
+description: "Accumulation harms learning. Generation helps it. A chapter on what machines reveal when we stop asking them to be correct and start asking them to notice."
+project: "teaching-machines-to-read"
+order: 2
+publishDate: 2026-04-24
+status: draft
+---
+
+import GenerationEffectChart from '../../components/charts/GenerationEffectChart.astro';
+import SelfTaughtGuideViewer from '../../components/charts/SelfTaughtGuideViewer.astro';
+import InterventionMatrixChart from '../../components/charts/InterventionMatrixChart.astro';
+import ErrorConsensusChart from '../../components/charts/ErrorConsensusChart.astro';
+import ErrorProtocolChart from '../../components/charts/ErrorProtocolChart.astro';
+
+"Never modernize the spelling." "Don't guess. A blank or uncertain answer is better than an incorrect one." "Try harder." These rules are tempting to give to an agent when teaching them to transcribe. They feel like easy rules. After all, how hard is it to simply transcribe the letterforms and ignore the spelling? Is it really that challenging to admit uncertainty? But, after the first round of test experiments, a trend immediately emerged: simply giving an agent more and more and more instructions does not help them learn how to transcribe early modern handwriting. Instead, making infrastructure or structural changes to the directions—like giving an agent directions to read from the ground-up, starting first with building the alphabet hand—moved the needle. However, structural implementations have their limitations. Simply giving an agent more and more and more infrastructure fails to help them learn, and we end up in the space of non-learning as simply giving the agent more directions. In other words, accumulation harms the pedagogical outcome of teaching a machine to transcribe accurately and confidently.
+
+## Accumulation Failures
+
+During the second phase, I designed a series of infrastructure changes that aimed to lower the Character Error Rate (CER) in a similar manner to how the alphabet-first method improved the CER during the first phase. I gave agents the alphabet-first protocol. Then, they received a vocabulary list to help them verify their non-standard or non-modern spellings. Then, they started to really change their method through focusing on metacognition. Agents were tasked with creating their own set of rules, guidelines, and protocols after studying paired manuscripts and transcriptions. An agent also tried to create an error protocol that other agents would follow. Agents were asked to reflect on what they learned before transcribing again.
+
+<div class="chart-wide">
+<InterventionMatrixChart />
+</div>
+
+Let's focus on the Error Protocol. This intervention is striking, in part because it improved nearly every type of paleographic error, including hallucination, normalization bias, vocabulary gaps, double letter errors, and punctuation and formatting. However, the Error Protocol was also the only intervention that worsened letterform misreadings. But the obvious solution—stacking different protocols to account for the gap with the letterform misreadings—failed. In fact, stacking made the CER significantly worse. For Brumwich MS160, the CER increased from 9.3% to 62.55–64.57% across four different stacked protocols.
+
+Moreover, the Error Protocol's success also varied greatly depending on the difficulty of the manuscript. The Error Protocol helped them with Sedley MS534. Agents can already read the majority of letters, so the protocol helped prevent common errors that inflate the CER, including normalizing spellings. But, the Error Protocol destroyed the established CER for Brumwich MS160, since the Brumwich hand is so compressed and hard to read. Instead of helping, the Error Protocol made agents less confident and gave them ways to fail.
+
+<div class="chart-wide">
+<ErrorProtocolChart />
+</div>
+
+This paradox adds a new challenge to the mix: where the quality of the manuscript itself (including the resolution of the scan, any potential water damage, etc.) poses a barrier to successful transcription. Different manuscripts likely require different interventions.
+
+## How Machines Actually Learn: Generation Rather than Accumulation
+
+Agents do not learn with more instructions, nor do they learn with more infrastructure. But instead of accumulation, agents do learn when they are generating and then using their own materials, which is the practice at the heart of the successful alphabet-first method. Yes, the Error Protocol was someone else's work, meaning it was built by an agent who did not transcribe the manuscript. However, the Error Protocol did not replace reading strategies: the guide was built to help agents check their own work. Agents can use guides written by others with success, but only when the guides do not replace pedagogical reading strategies.
+
+<div class="chart-wide">
+<GenerationEffectChart />
+</div>
+
+When agents use their own guides, they are also more consistent. For instance, when agents transcribed Sedley MS534 with their own guide, the CER spread was 0.97pp as opposed to the 36.7 pp when they used someone else's guide. Although agents produce their own guides, these guides nonetheless help eliminate variation between agents, which can help us identify systematic bias versus genuine difficulty.
+
+<div class="chart-wide">
+<ErrorConsensusChart />
+</div>
+
+For instance, when agents made the same mistake transcribing "putt" and "voilett" by reducing the double consonants and normalizing the vowel order, respectively, the errors were a result of an issue with the infrastructure. But when agents made divergent errors for words such as "langdebeeffe," these errors suggested an actual difficulty where they could not read the letterforms.
+
+## What Learning Means
+
+The success and failure of agents learning to work as a paleographer live and die with the CER. But, even when a transcription fails (the CER goes up), I am hesitant to say that the agents have not learned. Just take a look at the guides the agents wrote about how to transcribe early modern handwriting.
+
+<div class="chart-wide">
+<SelfTaughtGuideViewer />
+</div>
+
+These self-generated guides are fascinating: they showcase what agents notice, what agents think will be challenging for them, and what agents think are necessary to succeed. And the agents notice and think a lot. And when they receive more pages to build the guide, their guides get more and more detailed with notes that would help even a human learning paleography. If we can say that learning is happening, then the question also becomes less about how to achieve the lowest CER possible. Instead, we can begin to imagine what an evaluation of learning would look like outside of CER.
