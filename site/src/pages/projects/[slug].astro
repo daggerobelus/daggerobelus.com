@@ -31,8 +31,17 @@ const hasProseContent = project.body
       .trim().length > 0
   : false;
 
-const displayDate = updatedDate || publishDate;
-const dateLabel = updatedDate ? 'Updated' : 'Published';
+// Latest activity = max of project's own updatedDate and each chapter's
+// updatedDate || publishDate — so the project page reflects chapter updates
+const candidateDates = [
+  updatedDate,
+  ...chapters.map(ch => ch.data.updatedDate ?? ch.data.publishDate),
+].filter((d): d is Date => d instanceof Date);
+const latestActivity = candidateDates.length
+  ? new Date(Math.max(...candidateDates.map(d => d.valueOf())))
+  : publishDate;
+const displayDate = latestActivity > publishDate ? latestActivity : publishDate;
+const dateLabel = displayDate > publishDate ? 'Updated' : 'Published';
 const eyebrow = status === 'in-progress' ? 'In Progress' : 'Featured';
 
 const formatDate = (date: Date) => {
