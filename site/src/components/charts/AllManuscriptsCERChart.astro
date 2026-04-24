@@ -87,7 +87,7 @@ const { caption = 'Character Error Rate across all five manuscripts and eight bl
     svg.append('text')
       .attr('x', 6).attr('y', y(5) + 14)
       .attr('fill', '#2d8a4e').attr('opacity', 0.5)
-      .attr('font-size', '10px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('font-size', '10px').attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .text('< 5% usable for research');
 
     // Grid lines
@@ -104,27 +104,27 @@ const { caption = 'Character Error Rate across all five manuscripts and eight bl
       .call(d3.axisBottom(x).ticks(8).tickFormat(d => `${d}`))
       .selectAll('text')
       .attr('font-size', '13px')
-      .attr('font-family', 'SF Mono, Monaco, monospace');
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif');
 
     svg.append('text')
       .attr('x', width / 2).attr('y', height + 40)
       .attr('text-anchor', 'middle')
       .attr('fill', '#666').attr('font-size', '13px')
-      .attr('font-family', 'Georgia, serif')
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif')
       .text('Run');
 
     svg.append('g')
       .call(d3.axisLeft(y).ticks(10).tickFormat(d => `${d}%`))
       .selectAll('text')
       .attr('font-size', '12px')
-      .attr('font-family', 'SF Mono, Monaco, monospace');
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif');
 
     svg.append('text')
       .attr('transform', 'rotate(-90)')
       .attr('y', -45).attr('x', -height / 2)
       .attr('text-anchor', 'middle')
       .attr('fill', '#121212').attr('font-size', '13px')
-      .attr('font-family', 'Georgia, serif')
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif')
       .text('Character Error Rate');
 
     // Tooltip
@@ -135,7 +135,7 @@ const { caption = 'Character Error Rate across all five manuscripts and eight bl
       .style('border', '1px solid #121212')
       .style('padding', '10px 14px')
       .style('font-size', '13px')
-      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .style('pointer-events', 'none')
       .style('opacity', 0)
       .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
@@ -201,7 +201,7 @@ const { caption = 'Character Error Rate across all five manuscripts and eight bl
           .attr('dy', '0.35em')
           .attr('fill', ms.color)
           .attr('font-size', '12px')
-          .attr('font-family', 'Georgia, serif')
+          .attr('font-family', '"EB Garamond Variable", Georgia, serif')
           .attr('font-weight', '600')
           .text(`${ms.name.split(' ')[0]} ${last.cer}%`);
       }
@@ -220,7 +220,7 @@ const { caption = 'Character Error Rate across all five manuscripts and eight bl
           .attr('x', lx + 14).attr('y', ly)
           .attr('dy', '0.35em')
           .attr('font-size', '10px')
-          .attr('font-family', 'SF Mono, Monaco, monospace')
+          .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
           .attr('fill', '#666')
           .text(ms.name);
       });

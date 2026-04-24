@@ -32,7 +32,7 @@ Both for humans and machines, but the evaluation metrics are different. Humans a
 As its discipline, paleographers also need to make decisions about how to transcribe: there isn't a ground truth for what counts as a "correct" transcription, especially when you take into account the challenges of working in an early modern archive. For instance, diplomatic transcription is the most literal type of transcription, where your goal is to write exactly what you see on the page. Every word, mark, and abbreviation stays exactly the same. On the other hand, semi-diplomatic transcription is less strict to a degree. The goal remains to faithfully preserve the original text — spelling, punctuation, capitalization, line breaks while allowing for a small number of standardized editorial interventions, including expanded abbreviations, lowered superscript letters, and replaced thorns. This project uses semi-diplomatic transcription practices to preserve the integrity of the original manuscript page while ensuring legibility for contemporary readers.
 
 <div class="chart-wide">
-<TryReadingThis />
+<TryReadingThis caption="Examples of challenges in paleography" />
 </div>
 
 ## Measuring Claude's success
@@ -46,7 +46,7 @@ Character Error Rate (CER) is the standard metric for measuring the accuracy of 
 These initial results are encouraging but with a few massive caveats. The Henslow manuscript is an easy hand, and only one agent managed to reach this CER just one time over the course of eight runs. When agents struggled to transcribe the manuscript, they often hallucinated their results rather than admit when they were unsure.
 
 <div class="chart-wide">
-<HallucinationExplorer />
+<HallucinationExplorer caption="Hallucinated attempts vs. honest gaps" />
 </div>
 
 These hallucination results, however, yielded an important methodology discovery: simply telling agents to "never make up text when they are unsure" does not work. What does work is providing pedagogical materials to help agents through challenging manuscripts.
@@ -61,11 +61,11 @@ The most promising methodological change was when we told agents to first study 
 
 The other most promising methodological change was when we gave agents access to a vocabulary verification list as a way for agents to check and verify their readings. The vocabulary reference is ~19,000 words from 40 early modern sources relevant to recipe books, including 38 FromThePage community transcriptions, three EMROC triple-keyed transcriptions, and two printed herbals (Gerard's 1597 and Culpeper's 1652). Importantly, the vocabulary list works as a verification rather than a prediction one. For example, in Run 6 of the Sedley MS534, the agent initially misread a word as Sallanders (it's a real word, a horse skin condition) but when it checked against the vocabulary list, it found celandine (an herb) with the unexpected spellings of Sallandine / Sallendine across 15 different manuscript sources. Since this manuscript is a medical recipe, celandine makes more sense in the context. The vocabulary list does not override what the agent sees but offers a plausible alternative from the same genre that the agent can verify against the letterforms.
 
-## Key lessons learned
-
 <div class="chart-wide">
 <CERResultsTable />
 </div>
+
+## Key lessons learned
 
 - **Blind experiments** (All Runs). Agents will cheat when given the opportunity and inflate the CER. The lesson: ensuring blind set-up — where the transcribing agent does not have any way to reference the answer key — is essential.
 

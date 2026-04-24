@@ -157,17 +157,55 @@ const formatDate = (date: Date) => {
     position: relative;
     margin-top: 4.5rem;
     margin-bottom: 4rem;
-    padding: 2.5rem 0 1.5rem;
-    /* Top hairline matches homepage Divider (.rule at gold/65%). */
+    padding: 2.5rem 2rem 1.75rem;
+    /* Tighter horizontal padding on mobile so small-viewport content
+       doesn't get squeezed. */
+    @media (max-width: 767px) {
+      padding: 2rem 1rem 1.5rem;
+    }
+    /* Very subtle vertical gold wash top and bottom + inset top shadow —
+       ties the two hairlines into a defined surface without reading as
+       a heavy fill. */
+    background: linear-gradient(
+      to bottom,
+      #d3a44e0f,
+      transparent 50px,
+      transparent calc(100% - 50px),
+      #d3a44e0f
+    );
+    box-shadow: 0 7px 5px -5px rgba(0, 0, 0, 0.04) inset;
     border-top: 1px solid color-mix(in srgb, var(--color-gold) 65%, transparent);
     border-bottom: 1px solid color-mix(in srgb, var(--color-gold) 40%, transparent);
   }
 
+  /* Reorder the figure so the caption (with FIG N prefix) sits above the
+     graphic — reader sees "FIG 05 — what this is" before the visual. */
+  .chart-wide figure {
+    display: flex;
+    flex-direction: column;
+  }
+  .chart-wide figcaption {
+    order: -1;
+  }
+
+  /* Fallback: when a chart component renders no figcaption, still label
+     the plate so every interjection is identified. */
+  .chart-wide:not(:has(figcaption))::before {
+    content: "Fig. " counter(fig, decimal-leading-zero);
+    display: block;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+    margin-bottom: 1.5rem;
+  }
+
   /* Asterism-in-circle ornament sits on the top hairline, echoing the
-     homepage Divider (mark-with-flanking-lines) — same circle diameter
-     (h-9 ≈ 36px) and same gold hairline treatment. */
-  .chapter-article .chart-wide::before,
-  .chapter-body .chart-wide::before {
+     homepage Divider (mark-with-flanking-lines). */
+  .chapter-article .chart-wide::after,
+  .chapter-body .chart-wide::after {
     content: "⁂";
     position: absolute;
     top: -1.125rem;
@@ -189,7 +227,8 @@ const formatDate = (date: Date) => {
     padding-bottom: 0.12em;
   }
 
-  /* Figure captions — italic serif, "Fig. N —" prefix in small-caps gold */
+  /* Figure captions — italic serif with "FIG. N —" small-caps prefix,
+     sitting at the top of the plate above the graphic */
   .chart-wide figcaption {
     font-family: var(--font-serif);
     font-style: italic;
@@ -198,7 +237,7 @@ const formatDate = (date: Date) => {
     color: color-mix(in srgb, var(--color-ink) 72%, var(--color-ivory));
     text-align: left;
     max-width: 100%;
-    margin: 1.5rem 0 0;
+    margin: 0 0 1.5rem;
     padding: 0;
     letter-spacing: normal;
     font-weight: 400;

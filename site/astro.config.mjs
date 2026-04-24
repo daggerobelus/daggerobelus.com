@@ -7,6 +7,10 @@ import { FontaineTransform } from 'fontaine';
 export default defineConfig({
   site: 'https://www.daggerobelus.com',
   trailingSlash: 'always',
+  redirects: {
+    '/contact': '/about/#the-author',
+    '/contact/': '/about/#the-author',
+  },
   server: {
     host: true,
   },

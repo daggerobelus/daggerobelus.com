@@ -1,0 +1,385 @@
+---
+/**
+ * Error Type × Intervention Matrix: synthesis visualization showing which
+ * interventions address which kinds of difficulty. The key argument is that
+ * different problems need different solutions — you can't stack everything.
+ *
+ * Data derived from Runs 1-13 blind evaluation results.
+ */
+interface Props {
+  caption?: string;
+}
+const { caption = 'Which interventions help which kinds of errors — derived from 13 experimental runs across 5 manuscripts. "Strong" means the intervention directly targets that error type, not that it dramatically lowers overall CER. Letterform misreading dominates the error count, so interventions that fix other categories may barely move the headline number.' } = Astro.props;
+---
+
+<figure class="intervention-matrix not-prose my-12">
+  <div id="intervention-matrix-chart" class="w-full"></div>
+  <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
+    {caption}
+  </figcaption>
+</figure>
+
+<script>
+  // Error types (rows) — ordered by impact
+  const errorTypes = [
+    {
+      key: 'letterform',
+      label: 'Letterform misreading',
+      description: 'Agent reads one letter as another (minim confusion, long-s/f, secretary d)',
+    },
+    {
+      key: 'hallucination',
+      label: 'Hallucination',
+      description: 'Agent invents plausible words or entire passages that aren\'t on the page',
+    },
+    {
+      key: 'normalization',
+      label: 'Normalization bias',
+      description: 'Agent silently modernizes archaic spellings (putt→put, oyle→oil)',
+    },
+    {
+      key: 'vocabulary',
+      label: 'Vocabulary gaps',
+      description: 'Agent can\'t decode specialized herbal, medical, or archaic terms',
+    },
+    {
+      key: 'doubleLetter',
+      label: 'Double-letter errors',
+      description: 'Agent drops doubled consonants (itt→it, ffellons→felons)',
+    },
+    {
+      key: 'formatting',
+      label: 'Punctuation & formatting',
+      description: 'Capitalization, word boundaries, lineation errors',
+    },
+  ];
+
+  // Interventions (columns)
+  const interventions = [
+    { key: 'alphabet', label: 'Alphabet-first', short: 'Alphabet', runs: '3–6',
+      description: 'Agent studies the manuscript image and builds a letter-by-letter reference chart for this specific scribe\'s hand before attempting to transcribe. Forces bottom-up reading.' },
+    { key: 'vocab', label: 'Vocabulary list', short: 'Vocab', runs: '6',
+      description: 'After transcribing, agent checks each uncertain word against a curated list of ~19,000 words attested in early modern recipe books. Confirms readings but doesn\'t generate them.' },
+    { key: 'errorProtocol', label: 'Error protocol', short: 'Error\nprotocol', runs: '10, 12',
+      description: 'An analysis agent studies a previous transcription\'s mistakes, categorizes the error patterns, and writes explicit warnings and rules. A new agent then transcribes using those rules. The protocol includes a 10-item verification checklist.' },
+    { key: 'selfTaught', label: 'Self-taught guide', short: 'Self-\ntaught', runs: '9',
+      description: 'Agent studies paired manuscript images + correct transcriptions (no external guide) and writes its own paleography reference. A different agent then uses that guide to transcribe a new page.' },
+    { key: 'reflection', label: 'Reflection', short: 'Reflect', runs: '9',
+      description: 'Before transcribing, agent writes a planning reflection using the self-taught guide + paleography guide + vocab list. The act of planning improves consistency (tightest spread: 0.84 pp) but not best-case accuracy.' },
+    { key: 'instructions', label: 'Stronger instructions', short: 'Instruct.', runs: '2, 5',
+      description: 'Updated the written instructions with rules like "Never fabricate text" and "Read letters, not words." Added a review agent to re-examine flagged passages. No measurable improvement — confirmed twice.' },
+  ];
+
+  // Effect ratings: 2 = strong positive, 1 = modest positive, 0 = no effect, -1 = negative
+  // Each maps [errorType][intervention] → effect
+  const effects = {
+    letterform: {
+      alphabet: 2,      // 11% → 5% (Henslow), 96% → 9% (Brumwich)
+      vocab: 1,          // 5% → 3.8% (Henslow), modest help
+      errorProtocol: -1, // 9% → 64% on Brumwich (catastrophic without alphabet)
+      selfTaught: 1,     // 6.4% median, discovers rules independently
+      reflection: 1,     // Tightest spread (0.84), better worst-case
+      instructions: 0,   // No improvement (confirmed twice)
+    },
+    hallucination: {
+      alphabet: 2,       // Eliminated on easy/moderate MSS, honest gaps on hard
+      vocab: 0,          // Doesn't prevent hallucination during reading
+      errorProtocol: 1,  // Warns against semantic substitution
+      selfTaught: 1,     // Bottom-up reading from examples helps
+      reflection: 0,     // No specific hallucination impact
+      instructions: 0,   // "Never fabricate" had no effect (Run 2)
+    },
+    normalization: {
+      alphabet: 1,       // Helps modestly via letterform focus
+      vocab: 0,          // Doesn't prevent normalization during reading
+      errorProtocol: 2,  // "PRESERVE, DO NOT NORMALIZE" — directly targeted
+      selfTaught: 0,     // Agents still normalize
+      reflection: 0,     // No specific help
+      instructions: 0,   // No improvement
+    },
+    vocabulary: {
+      alphabet: 0,       // Doesn't help with unknown terms
+      vocab: 2,          // Strong — catches specialized terms
+      errorProtocol: 2,  // Teaches herbal/medical vocabulary explicitly
+      selfTaught: 1,     // Discovers vocabulary from examples
+      reflection: 1,     // Access to vocab list improves readings
+      instructions: 0,   // No improvement
+    },
+    doubleLetter: {
+      alphabet: 1,       // Modest via careful letterform attention
+      vocab: 1,          // Modest — confirms doubled spellings are attested
+      errorProtocol: 2,  // "Preserve doubled letters" rule directly targets this
+      selfTaught: 0,     // Agents still reduce doubles
+      reflection: 0,     // No specific help
+      instructions: 0,   // No improvement
+    },
+    formatting: {
+      alphabet: 1,       // Focused reading helps with word boundaries
+      vocab: 0,          // No impact
+      errorProtocol: 1,  // Checklist items for capitalization, punctuation
+      selfTaught: 0,     // No specific help
+      reflection: 0,     // No specific help
+      instructions: 0,   // No improvement
+    },
+  };
+
+  // Color scale
+  const colors = {
+    2:  { bg: '#2878b5', text: '#fff', label: 'Strong help' },
+    1:  { bg: 'rgba(40, 120, 181, 0.35)', text: '#1a5a8a', label: 'Some help' },
+    0:  { bg: 'rgba(18, 18, 18, 0.05)', text: 'rgba(18, 18, 18, 0.35)', label: 'No effect' },
+    '-1': { bg: '#c44040', text: '#fff', label: 'Made worse' },
+  };
+
+  const effectLabels = {
+    2: 'Strong',
+    1: 'Some',
+    0: '—',
+    '-1': 'Worse',
+  };
+
+  function render() {
+    const container = document.getElementById('intervention-matrix-chart');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const containerWidth = container.clientWidth;
+    if (containerWidth <= 0) return;
+    const isMobile = containerWidth < 600;
+
+    // Build HTML table for better text wrapping than SVG
+    const wrapper = document.createElement('div');
+    wrapper.className = 'im-wrapper';
+
+    // Tooltip div for column header descriptions
+    const tooltip = document.createElement('div');
+    tooltip.className = 'im-tooltip';
+    wrapper.appendChild(tooltip);
+
+    // Table
+    const table = document.createElement('table');
+    table.className = 'im-table';
+
+    // Header row
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    headerRow.innerHTML = '<th class="im-corner"></th>';
+    interventions.forEach(int => {
+      const th = document.createElement('th');
+      th.className = 'im-col-header';
+      th.innerHTML = `<span class="im-col-label">${isMobile ? int.short.replace('\n', '<br>') : int.label}</span>
+        <span class="im-col-runs">Runs ${int.runs}</span>`;
+      th.addEventListener('mouseenter', (e) => {
+        tooltip.innerHTML = `<strong>${int.label}</strong> <span class="im-tooltip-runs">(Runs ${int.runs})</span><br>${int.description}`;
+        tooltip.style.opacity = '1';
+        const rect = th.getBoundingClientRect();
+        const containerRect = container.getBoundingClientRect();
+        tooltip.style.left = Math.min(
+          rect.left - containerRect.left,
+          containerRect.width - 320
+        ) + 'px';
+        tooltip.style.top = (rect.bottom - containerRect.top + 6) + 'px';
+      });
+      th.addEventListener('mouseleave', () => {
+        tooltip.style.opacity = '0';
+      });
+      headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // Body rows
+    const tbody = document.createElement('tbody');
+    errorTypes.forEach(err => {
+      const row = document.createElement('tr');
+
+      // Row label
+      const labelCell = document.createElement('td');
+      labelCell.className = 'im-row-label';
+      labelCell.innerHTML = `<span class="im-row-name">${err.label}</span>`;
+      row.appendChild(labelCell);
+
+      // Effect cells
+      interventions.forEach(int => {
+        const effect = effects[err.key][int.key];
+        const color = colors[effect.toString()];
+        const cell = document.createElement('td');
+        cell.className = 'im-cell';
+        cell.style.background = color.bg;
+        cell.style.color = color.text;
+        cell.innerHTML = `<span class="im-cell-label">${effectLabels[effect]}</span>`;
+        row.appendChild(cell);
+      });
+
+      tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+    wrapper.appendChild(table);
+
+    // Legend — below the table
+    const legend = document.createElement('div');
+    legend.className = 'im-legend';
+    legend.innerHTML = Object.entries(colors).map(([val, c]) =>
+      `<span class="im-legend-item">
+        <span class="im-legend-swatch" style="background:${c.bg}"></span>
+        <span class="im-legend-label">${c.label}</span>
+      </span>`
+    ).join('');
+    wrapper.appendChild(legend);
+
+    container.appendChild(wrapper);
+  }
+
+  render();
+  window.addEventListener('resize', render);
+</script>
+
+<style>
+  .intervention-matrix {
+    position: relative;
+  }
+
+  :global(.im-wrapper) {
+    overflow-x: auto;
+  }
+
+  /* Tooltip */
+  :global(.im-tooltip) {
+    position: absolute;
+    background: #fff7f4;
+    border: 1px solid #121212;
+    padding: 10px 14px;
+    font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
+    font-size: 0.72rem;
+    line-height: 1.6;
+    max-width: 320px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
+    z-index: 10;
+    transition: opacity 0.1s ease;
+    color: rgba(18, 18, 18, 0.7);
+  }
+
+  :global(.im-tooltip strong) {
+    color: #121212;
+  }
+
+  :global(.im-tooltip-runs) {
+    color: rgba(18, 18, 18, 0.4);
+    font-size: 0.65rem;
+  }
+
+  /* Legend */
+  :global(.im-legend) {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  :global(.im-legend-item) {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  :global(.im-legend-swatch) {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  :global(.im-legend-label) {
+    font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
+    font-size: 0.7rem;
+    color: rgba(18, 18, 18, 0.55);
+  }
+
+  /* Table */
+  :global(.im-table) {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    table-layout: fixed;
+  }
+
+  :global(.im-corner) {
+    width: 18%;
+  }
+
+  :global(.im-col-header) {
+    padding: 0.5rem 0.25rem;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+  :global(.im-col-label) {
+    font-family: "EB Garamond Variable", Georgia, serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: rgba(18, 18, 18, 0.6);
+    line-height: 1.3;
+  }
+
+  :global(.im-col-runs) {
+    display: block;
+    font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
+    font-size: 0.6rem;
+    color: rgba(18, 18, 18, 0.3);
+    font-weight: 400;
+    margin-top: 0.1rem;
+  }
+
+  :global(.im-col-header) {
+    cursor: help;
+  }
+
+  :global(.im-row-label) {
+    padding: 0.4rem 0.5rem;
+    vertical-align: middle;
+  }
+
+  :global(.im-row-name) {
+    font-family: "EB Garamond Variable", Georgia, serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #121212;
+    line-height: 1.3;
+  }
+
+  :global(.im-cell) {
+    text-align: center;
+    padding: 0.4rem 0.25rem;
+    border-radius: 4px;
+    vertical-align: middle;
+    cursor: default;
+    transition: opacity 0.1s ease;
+  }
+
+  :global(.im-cell:hover) {
+    opacity: 0.85;
+  }
+
+  :global(.im-cell-label) {
+    font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  /* Responsive */
+  @media (max-width: 500px) {
+    :global(.im-corner) {
+      width: 22%;
+    }
+    :global(.im-row-name) {
+      font-size: 0.7rem;
+    }
+    :global(.im-col-label) {
+      font-size: 0.65rem;
+    }
+  }
+</style>

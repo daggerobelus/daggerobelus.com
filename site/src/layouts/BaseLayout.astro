@@ -9,6 +9,7 @@ interface Props {
   description?: string;
   image?: string;
   compact?: boolean;
+  textured?: boolean;
 }
 
 const {
@@ -16,6 +17,7 @@ const {
   description = 'An Early Modern Archival Digital Humanities Project',
   image = '/brand/og-default.jpg',
   compact = false,
+  textured = true,
 } = Astro.props;
 
 const fullTitle = title === 'daggerobelus' ? title : `${title} | daggerobelus`;
@@ -51,7 +53,10 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
     <link rel="icon" type="image/png" href="/brand/mark.png" />
     <title>{fullTitle}</title>
   </head>
-  <body class="bg-ivory text-ink min-h-screen flex flex-col font-serif antialiased">
+  <body class:list={[
+    'bg-ivory text-ink min-h-screen flex flex-col font-serif antialiased',
+    textured && 'warm-cream',
+  ]}>
     <Header compact={compact} />
 
     <main class="flex-1" id="page">
