@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import mark from '../assets/brand/mark.png';
+
 interface Props {
   size?: 'sm' | 'md' | 'lg';
   class?: string;
@@ -6,6 +9,7 @@ interface Props {
 
 const { size = 'md', class: className = '' } = Astro.props;
 
+const markPx = { sm: 24, md: 36, lg: 48 }[size];
 const markSize = {
   sm: 'h-6 w-6',
   md: 'h-9 w-9',
@@ -15,7 +19,7 @@ const markSize = {
 
 <div class:list={['divider', className]} role="separator" aria-hidden="true">
   <span class="rule"></span>
-  <img src="/brand/mark.png" alt="" class={markSize} />
+  <Image src={mark} alt="" width={markPx} densities={[2]} loading="eager" class={markSize} />
   <span class="rule"></span>
 </div>
 

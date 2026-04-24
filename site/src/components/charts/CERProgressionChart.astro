@@ -77,7 +77,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
     svg.append('text')
       .attr('x', 6).attr('y', y(5) + 14)
       .attr('fill', '#2d8a4e').attr('opacity', 0.5)
-      .attr('font-size', '10px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('font-size', '10px').attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .text('< 5% usable for research');
 
     // Transkribus benchmarks removed from chart — noted in caption instead
@@ -99,14 +99,14 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
       .call(xAxis)
       .selectAll('text')
       .attr('font-size', '13px')
-      .attr('font-family', 'SF Mono, Monaco, monospace');
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif');
 
     // X axis label
     svg.append('text')
       .attr('x', width / 2).attr('y', height + 35)
       .attr('text-anchor', 'middle')
       .attr('fill', '#666').attr('font-size', '13px')
-      .attr('font-family', 'Georgia, serif')
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif')
       .text('Run');
 
     const yAxis = d3.axisLeft(y)
@@ -115,7 +115,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
       .call(yAxis)
       .selectAll('text')
       .attr('font-size', '12px')
-      .attr('font-family', 'SF Mono, Monaco, monospace');
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif');
 
     // Y axis label
     svg.append('text')
@@ -123,7 +123,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
       .attr('y', -42).attr('x', -height / 2)
       .attr('text-anchor', 'middle')
       .attr('fill', '#121212').attr('font-size', '13px')
-      .attr('font-family', 'Georgia, serif')
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif')
       .text('Character Error Rate');
 
     // Line
@@ -147,7 +147,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
       .style('border', '1px solid #121212')
       .style('padding', '10px 14px')
       .style('font-size', '13px')
-      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .style('pointer-events', 'none')
       .style('opacity', 0)
       .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
@@ -201,7 +201,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
         .attr('fill', color)
         .attr('font-size', '12px')
         .attr('font-weight', '600')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .text(`${run.cer}%`);
     });
 
@@ -220,7 +220,7 @@ const { caption = 'Henslow MS688 — Character Error Rate across eight blind eva
         .attr('x', legendX + 14).attr('y', height + 50)
         .attr('dy', '0.35em')
         .attr('font-size', '11px')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .attr('fill', '#666')
         .text(item.label);
       legendX += item.label.length * 7 + 28;

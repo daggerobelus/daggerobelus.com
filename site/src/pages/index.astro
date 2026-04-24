@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
@@ -76,12 +77,13 @@ const formatDate = (date: Date) =>
         {featuredProject.data.image && (
           <a href={`/projects/${featuredProject.slug}/`} class="rise rise-3 block no-underline self-start order-first md:order-last">
             <figure class="hero-figure">
-              <img
+              <Image
                 src={featuredProject.data.image}
                 alt={featuredProject.data.imageAlt || featuredProject.data.title}
-                class="w-full h-auto object-contain"
+                widths={[500, 1000, 1500]}
+                sizes="(min-width: 768px) 45vw, 90vw"
                 loading="eager"
-                decoding="async"
+                class="w-full h-auto object-contain"
               />
             </figure>
           </a>

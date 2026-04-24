@@ -100,7 +100,7 @@ const manuscripts = [
       border: 1px solid #121212;
       padding: 8px 12px;
       font-size: 12px;
-      font-family: 'SF Mono', Monaco, monospace;
+      font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
       pointer-events: none;
       box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
       max-width: 240px;
@@ -171,5 +171,9 @@ const manuscripts = [
   }
   .run-header:hover {
     color: #121212 !important;
+  }
+  /* Last row leads into the plate hairline — override the inline border */
+  .cer-table tbody tr:last-child {
+    border-bottom: 0 !important;
   }
 </style>

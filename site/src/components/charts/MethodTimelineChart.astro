@@ -132,7 +132,7 @@ const { caption = 'Only structural process changes improved accuracy — better 
         .attr('fill', '#fff7f4')
         .attr('font-size', '12px')
         .attr('font-weight', '700')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .text(run.id);
 
       // Content
@@ -145,7 +145,7 @@ const { caption = 'Only structural process changes improved accuracy — better 
         .attr('fill', '#121212')
         .attr('font-size', '15px')
         .attr('font-weight', '600')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .text(run.name);
 
       // What was tried
@@ -153,7 +153,7 @@ const { caption = 'Only structural process changes improved accuracy — better 
         .attr('x', textX).attr('y', y)
         .attr('fill', '#555')
         .attr('font-size', '13px')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .text(run.what.length > maxTextWidth / 7 ? run.what.slice(0, Math.floor(maxTextWidth / 7)) + '…' : run.what);
 
       // Highlight/result
@@ -162,7 +162,7 @@ const { caption = 'Only structural process changes improved accuracy — better 
         .attr('fill', color)
         .attr('font-size', '13px')
         .attr('font-weight', '600')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .attr('font-style', 'italic')
         .text(run.highlight);
     });

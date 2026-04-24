@@ -10,7 +10,7 @@ const { caption } = Astro.props;
 ---
 
 <figure class="hallucination-explorer not-prose my-12">
-  <div id="hallucination-widget" class="max-w-4xl mx-auto"></div>
+  <div id="hallucination-widget" class="w-full"></div>
   {caption && (
     <figcaption class="text-sm text-ink/60 font-mono mt-4 text-center max-w-2xl mx-auto">
       {caption}
@@ -209,13 +209,13 @@ const { caption } = Astro.props;
 
       const headerText = document.createElement('div');
       const title = document.createElement('h3');
-      title.style.cssText = 'font-family: Georgia, serif; font-size: 20px; margin: 0 0 4px 0; color: #121212;';
+      title.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 20px; margin: 0 0 4px 0; color: #121212;';
       title.textContent = `${example.manuscript}, p. ${example.page}`;
       const subtitle = document.createElement('div');
-      subtitle.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 12px; color: #888; margin-bottom: 6px;";
+      subtitle.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 12px; color: #888; margin-bottom: 6px;`;
       subtitle.textContent = example.difficulty;
       const summaryEl = document.createElement('p');
-      summaryEl.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0; line-height: 1.5;';
+      summaryEl.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #555; margin: 0; line-height: 1.5;';
       summaryEl.textContent = example.summary;
 
       headerText.appendChild(title);
@@ -234,7 +234,8 @@ const { caption } = Astro.props;
         // Tab button
         const tab = document.createElement('button');
         tab.style.cssText = `
-          font-family: 'SF Mono', Monaco, monospace;
+          flex: 1 1 0;
+          font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
           font-size: 13px;
           padding: 10px 16px;
           border: none;
@@ -244,7 +245,7 @@ const { caption } = Astro.props;
           border-bottom: 2px solid ${vIdx === 0 ? version.color : 'transparent'};
           margin-bottom: -2px;
           transition: all 0.2s;
-          white-space: nowrap;
+          min-width: 0;
         `;
         tab.innerHTML = `<strong>${version.label}</strong><br><span style="font-size:11px">${version.sublabel}</span>`;
 
@@ -256,12 +257,12 @@ const { caption } = Astro.props;
         `;
 
         const desc = document.createElement('p');
-        desc.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0 0 12px 0; line-height: 1.5; font-style: italic;';
+        desc.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #555; margin: 0 0 12px 0; line-height: 1.5; font-style: italic;';
         desc.textContent = version.description;
 
         const textBlock = document.createElement('div');
         textBlock.style.cssText = `
-          font-family: 'SF Mono', Monaco, monospace;
+          font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
           font-size: 13px;
           line-height: 1.7;
           padding: 16px 20px;
@@ -269,8 +270,9 @@ const { caption } = Astro.props;
           border-left: 3px solid ${version.color};
           border-radius: 0 4px 4px 0;
           white-space: pre-wrap;
+          overflow-wrap: break-word;
           color: #121212;
-          overflow-x: auto;
+          min-width: 0;
         `;
 
         // Highlight [...] markers and [word?] markers

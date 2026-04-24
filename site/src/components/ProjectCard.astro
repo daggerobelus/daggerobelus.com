@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -29,9 +30,12 @@ const formatDate = (date: Date) => {
       href={`/projects/${project.slug}/`}
       class="card-image block overflow-hidden mb-6 md:mb-0 bg-ivory"
     >
-      <img
+      <Image
         src={image}
         alt={imageAlt || title}
+        widths={[320, 640, 960]}
+        sizes="(min-width: 768px) 320px, 90vw"
+        loading="eager"
         class:list={[
           'w-full transition-transform duration-500 group-hover:scale-[1.02]',
           featured ? 'object-contain' : 'object-cover aspect-[4/3]'
