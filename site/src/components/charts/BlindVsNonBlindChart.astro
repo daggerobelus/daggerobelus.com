@@ -86,7 +86,7 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
       .attr('x', width).attr('y', y(5) - 6)
       .attr('text-anchor', 'end')
       .attr('fill', '#2d8a4e').attr('opacity', 0.6)
-      .attr('font-size', '11px').attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('font-size', '11px').attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .text('< 5% usable');
 
     // Axes
@@ -95,13 +95,13 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
       .call(d3.axisBottom(x0).tickSize(0))
       .selectAll('text')
       .attr('font-size', '13px')
-      .attr('font-family', 'Georgia, serif');
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif');
 
     svg.append('g')
       .call(d3.axisLeft(y).tickFormat(d => `${d}%`))
       .selectAll('text')
       .attr('font-size', '12px')
-      .attr('font-family', 'SF Mono, Monaco, monospace');
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif');
 
     const barColors = {
       nonBlind: '#c44040',
@@ -129,7 +129,7 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
         .attr('text-anchor', 'middle')
         .attr('font-size', '14px')
         .attr('font-weight', '600')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .attr('fill', barColors.nonBlind)
         .text(`${d.nonBlind}%`);
 
@@ -149,7 +149,7 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
         .attr('text-anchor', 'middle')
         .attr('font-size', '14px')
         .attr('font-weight', '600')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .attr('fill', barColors.blind)
         .text(`${d.blind}%`);
 
@@ -163,7 +163,7 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
           .attr('y', y(d.blind) - 28)
           .attr('text-anchor', 'middle')
           .attr('font-size', '12px')
-          .attr('font-family', 'Georgia, serif')
+          .attr('font-family', '"EB Garamond Variable", Georgia, serif')
           .attr('font-style', 'italic')
           .attr('fill', '#666')
           .text('33x inflation');
@@ -175,10 +175,10 @@ const { caption = 'Non-blind testing produced dramatically inflated results' } =
       .attr('transform', `translate(0, -10)`);
 
     legend.append('rect').attr('x', 0).attr('y', 0).attr('width', 14).attr('height', 14).attr('fill', barColors.nonBlind).attr('rx', 2);
-    legend.append('text').attr('x', 20).attr('y', 11).attr('font-size', '12px').attr('font-family', 'SF Mono, Monaco, monospace').attr('fill', '#444').text('Non-blind (agent sees reference)');
+    legend.append('text').attr('x', 20).attr('y', 11).attr('font-size', '12px').attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif').attr('fill', '#444').text('Non-blind (agent sees reference)');
 
     legend.append('rect').attr('x', isMobile ? 0 : 280).attr('y', isMobile ? 22 : 0).attr('width', 14).attr('height', 14).attr('fill', barColors.blind).attr('rx', 2);
-    legend.append('text').attr('x', isMobile ? 20 : 300).attr('y', isMobile ? 33 : 11).attr('font-size', '12px').attr('font-family', 'SF Mono, Monaco, monospace').attr('fill', '#444').text('Blind (honest evaluation)');
+    legend.append('text').attr('x', isMobile ? 20 : 300).attr('y', isMobile ? 33 : 11).attr('font-size', '12px').attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif').attr('fill', '#444').text('Blind (honest evaluation)');
   }
 
   render();

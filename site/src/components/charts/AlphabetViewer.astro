@@ -122,7 +122,7 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
     const intro = document.createElement('div');
     intro.style.cssText = 'margin-bottom: 24px; padding: 16px 20px; background: rgba(18,18,18,0.03); border-radius: 6px;';
     intro.innerHTML = `
-      <p style="font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0; line-height: 1.6;">
+      <p style='font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #555; margin: 0; line-height: 1.6;'>
         Before transcribing, the AI studied the manuscript and built this letter-by-letter reference chart.
         This is the key insight of the project: <strong style="color:#121212">studying the hand first</strong> — identifying each
         letterform before trying to read words — cut the error rate in half. It's how human paleographers
@@ -143,13 +143,14 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
       const catHeader = document.createElement('div');
       catHeader.style.cssText = 'margin: 28px 0 8px 0;';
       catHeader.innerHTML = `
-        <h4 style="font-family: Georgia, serif; font-size: 18px; color: #121212; margin: 0 0 4px 0;">${category.category}</h4>
-        <p style="font-family: 'SF Mono', Monaco, monospace; font-size: 12px; color: #888; margin: 0;">${category.description}</p>
+        <h4 style='font-family: "EB Garamond Variable", Georgia, serif; font-size: 18px; color: #121212; margin: 0 0 4px 0;'>${category.category}</h4>
+        <p style='font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 12px; color: #888; margin: 0;'>${category.description}</p>
       `;
       container.appendChild(catHeader);
 
       category.letters.forEach(lf => {
         const card = document.createElement('div');
+        card.className = 'av-card';
         card.style.cssText = `
           display: grid;
           grid-template-columns: 60px 1fr;
@@ -162,7 +163,7 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
         // Letter display
         const letterEl = document.createElement('div');
         letterEl.style.cssText = `
-          font-family: Georgia, serif;
+          font-family: "EB Garamond Variable", Georgia, serif;
           font-size: ${lf.letter.length > 3 ? '18px' : '32px'};
           color: #121212;
           text-align: center;
@@ -179,14 +180,14 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
         nameRow.style.cssText = 'display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;';
 
         const nameEl = document.createElement('strong');
-        nameEl.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 13px; color: #121212;";
+        nameEl.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 13px; color: #121212;`;
         nameEl.textContent = lf.name;
         nameRow.appendChild(nameEl);
 
         if (lf.risk !== 'none') {
           const riskBadge = document.createElement('span');
           riskBadge.style.cssText = `
-            font-family: 'SF Mono', Monaco, monospace; font-size: 10px;
+            font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 10px;
             padding: 1px 6px; border-radius: 8px;
             background: ${riskColors[lf.risk]}15; color: ${riskColors[lf.risk]};
             font-weight: 600;
@@ -196,7 +197,7 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
         }
 
         const descEl = document.createElement('p');
-        descEl.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0 0 4px 0; line-height: 1.5;';
+        descEl.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #555; margin: 0 0 4px 0; line-height: 1.5;';
         descEl.textContent = lf.description;
 
         info.appendChild(nameRow);
@@ -204,14 +205,14 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
 
         if (lf.examples) {
           const exEl = document.createElement('div');
-          exEl.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: #888;";
+          exEl.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 11px; color: #888;`;
           exEl.textContent = lf.examples;
           info.appendChild(exEl);
         }
 
         if (lf.riskNote && lf.risk !== 'none') {
           const noteEl = document.createElement('div');
-          noteEl.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: ${riskColors[lf.risk]}; margin-top: 2px;`;
+          noteEl.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 11px; color: ${riskColors[lf.risk]}; margin-top: 2px;`;
           noteEl.textContent = lf.riskNote;
           info.appendChild(noteEl);
         }
@@ -226,8 +227,12 @@ const { caption = 'The alphabet chart the AI built by studying Henslow MS688 —
   render();
 </script>
 
-<style>
+<style is:global>
   .alphabet-viewer {
     position: relative;
+  }
+  /* Last letter row leads into the plate hairline — no extra border */
+  .av-card:last-child {
+    border-bottom: 0 !important;
   }
 </style>

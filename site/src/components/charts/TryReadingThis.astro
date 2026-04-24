@@ -116,12 +116,12 @@ const { caption } = Astro.props;
       header.style.cssText = 'display: flex; align-items: baseline; gap: 12px; margin-bottom: 8px;';
 
       const title = document.createElement('h3');
-      title.style.cssText = 'font-family: Georgia, serif; font-size: 20px; margin: 0; color: #121212;';
+      title.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 20px; margin: 0; color: #121212;';
       title.textContent = ex.title;
 
       const badge = document.createElement('span');
       badge.style.cssText = `
-        font-family: 'SF Mono', Monaco, monospace; font-size: 11px;
+        font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 11px;
         padding: 2px 8px; border-radius: 10px;
         background: ${ex.difficultyColor}18; color: ${ex.difficultyColor}; font-weight: 600;
       `;
@@ -132,7 +132,7 @@ const { caption } = Astro.props;
 
       // Prompt
       const prompt = document.createElement('p');
-      prompt.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin: 0 0 16px 0; line-height: 1.6;';
+      prompt.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #555; margin: 0 0 16px 0; line-height: 1.6;';
       prompt.textContent = ex.prompt;
 
       // Image
@@ -154,7 +154,7 @@ const { caption } = Astro.props;
 
       const tryLabel = document.createElement('label');
       tryLabel.style.cssText = `
-        font-family: Georgia, serif; font-size: 14px; color: #121212;
+        font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #121212;
         display: block; margin-bottom: 8px;
       `;
       tryLabel.textContent = ex.tryPrompt;
@@ -162,7 +162,7 @@ const { caption } = Astro.props;
       const textarea = document.createElement('textarea');
       textarea.style.cssText = `
         width: 100%; box-sizing: border-box;
-        font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+        font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 13px;
         line-height: 1.8; padding: 12px 16px;
         border: 1px solid rgba(18,18,18,0.2); border-radius: 4px;
         background: #fff; color: #121212; resize: vertical;
@@ -200,7 +200,7 @@ const { caption } = Astro.props;
       // Transcription text
       const textBlock = document.createElement('div');
       textBlock.style.cssText = `
-        font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+        font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 13px;
         line-height: 1.8; padding: 16px 20px;
         background: rgba(18,18,18,0.03);
         border-left: 3px solid ${ex.difficultyColor};
@@ -234,7 +234,7 @@ const { caption } = Astro.props;
       // AI result note
       const aiNote = document.createElement('p');
       aiNote.style.cssText = `
-        font-family: 'SF Mono', Monaco, monospace; font-size: 12px;
+        font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 12px;
         color: #888; margin: 12px 0 0 0; line-height: 1.5;
         padding: 10px 14px; background: rgba(18,18,18,0.02);
         border-radius: 4px;
@@ -283,14 +283,14 @@ const { caption } = Astro.props;
           `;
           scorePanel.innerHTML = `
             <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px;">
-              <span style="font-family: 'SF Mono', Monaco, monospace; font-size: 22px; font-weight: 700; color: ${gradeColor};">${cerRounded}% CER</span>
-              <span style="font-family: Georgia, serif; font-size: 14px; color: ${gradeColor};">${grade}</span>
+              <span style='font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 22px; font-weight: 700; color: ${gradeColor};'>${cerRounded}% CER</span>
+              <span style='font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: ${gradeColor};'>${grade}</span>
             </div>
-            <div style="font-family: Georgia, serif; font-size: 13px; color: #555; line-height: 1.5;">
+            <div style='font-family: "EB Garamond Variable", Georgia, serif; font-size: 13px; color: #555; line-height: 1.5;'>
               ${comparison}
               CER (Character Error Rate) measures the percentage of characters that differ from the reference transcription.
             </div>
-            <div style="margin-top: 10px; font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: #888;">
+            <div style='margin-top: 10px; font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 11px; color: #888;'>
               Your attempt: <span style="color: #555;">${attempt.length > 80 ? attempt.slice(0, 80) + '...' : attempt}</span>
             </div>
           `;

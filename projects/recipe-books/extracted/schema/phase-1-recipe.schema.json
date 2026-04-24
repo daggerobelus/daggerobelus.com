@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase 1 Recipe Book",
+  "description": "Minimal per-book schema produced by the deterministic parser. Per design doc § 3.",
+  "type": "object",
+  "required": ["ms_id", "book", "recipes"],
+  "properties": {
+    "ms_id": {
+      "type": "string",
+      "description": "Stable identifier, matches the input filename stem"
+    },
+    "book": {
+      "type": "object",
+      "required": ["title_raw", "recipe_count"],
+      "properties": {
+        "title_raw": { "type": ["string", "null"] },
+        "date_inscribed": { "type": ["string", "null"] },
+        "attributed_compiler": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "recipe_count": { "type": "integer" },
+        "format_detected": {
+          "type": "string",
+          "enum": ["paren_numbered", "bare_number", "unnumbered", "unknown"]
+        },
+        "parse_warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["position", "raw_body"],
+        "properties": {
+          "recipe_number": { "type": ["integer", "null"] },
+          "position": { "type": "integer" },
+          "raw_title": { "type": ["string", "null"] },
+          "raw_body": { "type": "string" },
+          "page_ref": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

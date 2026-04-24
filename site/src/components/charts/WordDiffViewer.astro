@@ -220,7 +220,7 @@ const { caption = 'Henslow MS688, Run 6 (3.80% CER) — the AI\'s best transcrip
 
     Object.entries(errorColors).forEach(([key, val]) => {
       const item = document.createElement('span');
-      item.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 11px; display: flex; align-items: center; gap: 4px;`;
+      item.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 11px; display: flex; align-items: center; gap: 4px;`;
       item.innerHTML = `<span style="width:10px;height:10px;border-radius:2px;background:${val.border};display:inline-block;"></span> ${val.label}`;
       legend.appendChild(item);
     });
@@ -234,11 +234,11 @@ const { caption = 'Henslow MS688, Run 6 (3.80% CER) — the AI\'s best transcrip
 
     const btnBlind = document.createElement('button');
     btnBlind.textContent = 'AI transcription';
-    btnBlind.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 12px; padding: 6px 14px; border: none; cursor: pointer; background: #121212; color: #fff7f4;`;
+    btnBlind.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 12px; padding: 6px 14px; border: none; cursor: pointer; background: #121212; color: #fff7f4;`;
 
     const btnSide = document.createElement('button');
     btnSide.textContent = 'Side by side';
-    btnSide.style.cssText = `font-family: 'SF Mono', Monaco, monospace; font-size: 12px; padding: 6px 14px; border: none; cursor: pointer; background: none; color: #666;`;
+    btnSide.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 12px; padding: 6px 14px; border: none; cursor: pointer; background: none; color: #666;`;
 
     toggleWrap.appendChild(btnBlind);
     toggleWrap.appendChild(btnSide);
@@ -253,7 +253,7 @@ const { caption = 'Henslow MS688, Run 6 (3.80% CER) — the AI\'s best transcrip
     const tooltip = document.createElement('div');
     tooltip.style.cssText = `
       position: fixed; background: #fff7f4; border: 1px solid #121212;
-      padding: 8px 12px; font-size: 12px; font-family: 'SF Mono', Monaco, monospace;
+      padding: 8px 12px; font-size: 12px; font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
       pointer-events: none; opacity: 0; z-index: 100; max-width: 300px;
       box-shadow: 2px 2px 0 rgba(0,0,0,0.08); line-height: 1.5;
       transition: opacity 0.15s;

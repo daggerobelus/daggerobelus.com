@@ -129,12 +129,12 @@ const { caption = 'The five test manuscripts, ranked by difficulty — readers c
       header.style.cssText = 'display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px;';
 
       const name = document.createElement('strong');
-      name.style.cssText = `font-family: Georgia, serif; font-size: 16px; color: ${ms.color};`;
+      name.style.cssText = `font-family: "EB Garamond Variable", Georgia, serif; font-size: 16px; color: ${ms.color};`;
       name.textContent = `${ms.name}, ${ms.page}`;
 
       const badge = document.createElement('span');
       badge.style.cssText = `
-        font-family: 'SF Mono', Monaco, monospace;
+        font-family: "Commissioner Variable", ui-sans-serif, sans-serif;
         font-size: 11px;
         padding: 2px 8px;
         border-radius: 10px;
@@ -149,7 +149,7 @@ const { caption = 'The five test manuscripts, ranked by difficulty — readers c
 
       // Description
       const desc = document.createElement('div');
-      desc.style.cssText = 'font-family: Georgia, serif; font-size: 14px; color: #555; margin-bottom: 8px;';
+      desc.style.cssText = 'font-family: "EB Garamond Variable", Georgia, serif; font-size: 14px; color: #555; margin-bottom: 8px;';
       desc.textContent = `${ms.description} — ${ms.source}`;
 
       // CER bar
@@ -157,7 +157,7 @@ const { caption = 'The five test manuscripts, ranked by difficulty — readers c
       barWrap.style.cssText = 'display: flex; align-items: center; gap: 10px;';
 
       const barLabel = document.createElement('span');
-      barLabel.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 13px; color: #121212; font-weight: 600; min-width: 55px;";
+      barLabel.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 13px; color: #121212; font-weight: 600; min-width: 55px;`;
       barLabel.textContent = `${ms.bestCER}%`;
 
       const barOuter = document.createElement('div');
@@ -174,7 +174,7 @@ const { caption = 'The five test manuscripts, ranked by difficulty — readers c
       barOuter.appendChild(barInner);
 
       const runLabel = document.createElement('span');
-      runLabel.style.cssText = "font-family: 'SF Mono', Monaco, monospace; font-size: 11px; color: #888;";
+      runLabel.style.cssText = `font-family: "Commissioner Variable", ui-sans-serif, sans-serif; font-size: 11px; color: #888;`;
       runLabel.textContent = `Run ${ms.bestRun}`;
 
       barWrap.appendChild(barLabel);

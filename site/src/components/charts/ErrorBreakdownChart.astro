@@ -74,7 +74,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
       .style('border', '1px solid #121212')
       .style('padding', '8px 12px')
       .style('font-size', '12px')
-      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .style('pointer-events', 'none')
       .style('opacity', 0)
       .style('z-index', 10)
@@ -91,7 +91,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
         .attr('text-anchor', 'middle')
         .attr('font-size', '12px')
         .attr('font-weight', '600')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .attr('fill', '#121212')
         .text(run.label);
 
@@ -100,7 +100,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
         .attr('y', 26)
         .attr('text-anchor', 'middle')
         .attr('font-size', '11px')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .attr('fill', '#888')
         .text(run.method);
 
@@ -109,7 +109,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
         .attr('y', 40)
         .attr('text-anchor', 'middle')
         .attr('font-size', '10px')
-        .attr('font-family', 'SF Mono, Monaco, monospace')
+        .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
         .attr('fill', run.cer === '3.80%' ? '#2d8a4e' : run.cer === '7.59%' ? '#c44040' : '#888')
         .attr('font-weight', (run.cer === '3.80%' || run.cer === '7.59%') ? '600' : '400')
         .text(run.cer);
@@ -134,7 +134,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
         .attr('y', y + cellHeight / 2 + 4)
         .attr('text-anchor', 'end')
         .attr('font-size', '13px')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .attr('fill', '#121212')
         .text(cat.name);
 
@@ -182,7 +182,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
           .attr('dominant-baseline', 'middle')
           .attr('font-size', '18px')
           .attr('font-weight', '600')
-          .attr('font-family', 'SF Mono, Monaco, monospace')
+          .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
           .attr('fill', count >= 12 ? '#fff' : '#121212')
           .attr('pointer-events', 'none')
           .text(count);
@@ -194,7 +194,7 @@ const { caption = 'Henslow MS688 — the error categories that moved across runs
             .attr('y', y + cellHeight / 2 + 18)
             .attr('text-anchor', 'middle')
             .attr('font-size', '10px')
-            .attr('font-family', 'SF Mono, Monaco, monospace')
+            .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
             .attr('fill', count >= 12 ? 'rgba(255,255,255,0.8)' : diff > 0 ? '#c44040' : '#2d8a4e')
             .attr('pointer-events', 'none')
             .text(diff > 0 ? `+${diff}` : `${diff}`);
