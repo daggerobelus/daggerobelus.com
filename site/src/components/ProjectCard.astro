@@ -5,12 +5,13 @@ import type { CollectionEntry } from 'astro:content';
 interface Props {
   project: CollectionEntry<'projects'>;
   featured?: boolean;
+  displayDate?: Date;
 }
 
-const { project, featured = false } = Astro.props;
+const { project, featured = false, displayDate: displayDateProp } = Astro.props;
 const { title, description, publishDate, updatedDate, image, imageAlt, status, tags } = project.data;
 
-const displayDate = updatedDate || publishDate;
+const displayDate = displayDateProp ?? updatedDate ?? publishDate;
 
 const formatDate = (date: Date) => {
   return date.toLocaleDateString('en-US', {

@@ -8,13 +8,32 @@ import Divider from '../components/Divider.astro';
 const allProjects = await getCollection('projects', ({ data }) => {
   return data.status !== 'draft';
 });
+const allChapters = await getCollection('chapters', ({ data }) => {
+  return data.status !== 'draft';
+});
+
+// Latest activity per project = max(project.updatedDate, each chapter's updatedDate || publishDate)
+const latestActivity = new Map<string, Date>();
+for (const p of allProjects) {
+  const chapters = allChapters.filter(ch => ch.data.project === p.slug);
+  const dates = [
+    p.data.updatedDate,
+    ...chapters.map(ch => ch.data.updatedDate ?? ch.data.publishDate),
+  ].filter((d): d is Date => d instanceof Date);
+  const latest = dates.length
+    ? new Date(Math.max(...dates.map(d => d.valueOf())))
+    : p.data.publishDate;
+  latestActivity.set(p.slug, latest > p.data.publishDate ? latest : p.data.publishDate);
+}
 
 const sortedProjects = allProjects.sort((a, b) =>
-  b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+  (latestActivity.get(b.slug)?.valueOf() ?? 0) - (latestActivity.get(a.slug)?.valueOf() ?? 0)
 );
 
 const featuredProject = sortedProjects.find(p => p.data.featured) || sortedProjects[0];
 const otherProjects = sortedProjects.filter(p => p.slug !== featuredProject?.slug);
+
+const featuredDisplayDate = featuredProject ? latestActivity.get(featuredProject.slug)! : null;
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -45,10 +64,10 @@ const formatDate = (date: Date) =>
 
           <div class="rise rise-4 mt-9 flex items-baseline gap-3 flex-wrap">
             <time
-              datetime={featuredProject.data.publishDate.toISOString()}
+              datetime={featuredDisplayDate!.toISOString()}
               class="font-ui text-ink/55"
             >
-              {formatDate(featuredProject.data.publishDate)}
+              {formatDate(featuredDisplayDate!)}
             </time>
             {featuredProject.data.tags && featuredProject.data.tags.length > 0 && (
               <>
@@ -113,7 +132,7 @@ const formatDate = (date: Date) =>
 
           <div class="grid gap-16 md:gap-20">
             {otherProjects.map(project => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} displayDate={latestActivity.get(project.slug)} />
             ))}
           </div>
         </div>
