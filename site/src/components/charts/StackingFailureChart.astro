@@ -87,7 +87,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
       .style('border', '1px solid #121212')
       .style('padding', '10px 14px')
       .style('font-size', '12px')
-      .style('font-family', 'SF Mono, Monaco, monospace')
+      .style('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .style('pointer-events', 'none')
       .style('opacity', 0)
       .style('box-shadow', '2px 2px 0 rgba(0,0,0,0.08)')
@@ -141,7 +141,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
       .attr('y', baseBarY + 12)
       .attr('text-anchor', isMobile ? 'start' : 'end')
       .attr('font-size', '14px')
-      .attr('font-family', 'Georgia, serif')
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif')
       .attr('fill', baseline.color)
       .attr('font-weight', '600')
       .text(baseline.label);
@@ -152,7 +152,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
         .attr('y', baseBarY + 28)
         .attr('text-anchor', 'end')
         .attr('font-size', '11px')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .attr('fill', baseline.color)
         .attr('opacity', 0.6)
         .text(baseline.sublabel);
@@ -176,7 +176,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
       .attr('y', baseBarY + barH / 2 + 1)
       .attr('dominant-baseline', 'middle')
       .attr('font-size', '22px')
-      .attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .attr('fill', baseline.color)
       .attr('font-weight', '700')
       .text(`${baseline.cer}%`);
@@ -190,7 +190,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
       .attr('y', combBarY + 12)
       .attr('text-anchor', isMobile ? 'start' : 'end')
       .attr('font-size', '14px')
-      .attr('font-family', 'Georgia, serif')
+      .attr('font-family', '"EB Garamond Variable", Georgia, serif')
       .attr('fill', combined.color)
       .attr('font-weight', '600')
       .text(combined.label);
@@ -201,7 +201,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
         .attr('y', combBarY + 28)
         .attr('text-anchor', 'end')
         .attr('font-size', '11px')
-        .attr('font-family', 'Georgia, serif')
+        .attr('font-family', '"EB Garamond Variable", Georgia, serif')
         .attr('fill', combined.color)
         .attr('opacity', 0.6)
         .text(combined.sublabel);
@@ -234,7 +234,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
       .attr('y', combBarY + barH / 2 - 4)
       .attr('dominant-baseline', 'middle')
       .attr('font-size', '22px')
-      .attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .attr('fill', combined.color)
       .attr('font-weight', '700')
       .text(`${combined.cerDisplay}%`);
@@ -244,7 +244,7 @@ const { caption = 'Best CER from each Run 13 variant on Brumwich MS160 — every
       .attr('x', barX + combBarW + 12)
       .attr('y', combBarY + barH / 2 + 14)
       .attr('font-size', '12px')
-      .attr('font-family', 'SF Mono, Monaco, monospace')
+      .attr('font-family', '"Commissioner Variable", ui-sans-serif, sans-serif')
       .attr('fill', combined.color)
       .attr('opacity', 0.7)
       .text('across all 4 variants');

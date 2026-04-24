@@ -1,6 +1,8 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Content, frontmatter } from '../data/about.md';
+import portrait from '../assets/about/sarah.png';
 ---
 
 <BaseLayout title={frontmatter.title} description={frontmatter.description}>
@@ -10,18 +12,19 @@ import { Content, frontmatter } from '../data/about.md';
       <div class="max-w-2xl">
         <h1 class="display text-4xl md:text-5xl mb-8">{frontmatter.title}</h1>
 
-        <div class="prose prose-lg text-ink/80 space-y-6" style="font-size: 1.125rem; line-height: 1.7;">
+        <div class="about-prose prose prose-lg text-ink/80 space-y-6" style="font-size: 1.125rem; line-height: 1.7;">
           <Content />
         </div>
       </div>
 
       <figure class="about-portrait order-first md:order-last mx-auto md:mx-0 md:sticky md:top-24">
-        <img
-          src="/about/sarah.png"
+        <Image
+          src={portrait}
           alt="Portrait of Sarah Bonanno at her writing desk"
-          class="w-full h-auto"
+          widths={[460, 920]}
+          sizes="(min-width: 768px) 460px, 90vw"
           loading="eager"
-          decoding="async"
+          class="w-full h-auto"
         />
       </figure>
 
@@ -35,5 +38,32 @@ import { Content, frontmatter } from '../data/about.md';
   }
   .about-portrait img {
     border-radius: 2px;
+  }
+
+  /* Markdown section headers render as display-serif with clear spacing
+     and an anchor-friendly scroll offset for the footer contact jump. */
+  .about-prose :global(h2) {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: var(--color-ink);
+    margin-top: 2.75rem;
+    margin-bottom: 1.25rem;
+    scroll-margin-top: 6rem;
+  }
+  .about-prose :global(h2:first-child) {
+    margin-top: 0;
+  }
+  .about-prose :global(a) {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: color-mix(in srgb, var(--color-gold) 55%, transparent);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 200ms ease;
+  }
+  .about-prose :global(a:hover) {
+    text-decoration-color: var(--color-gold);
   }
 </style>

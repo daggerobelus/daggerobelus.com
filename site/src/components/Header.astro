@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/logo.png';
+
 interface Props {
   compact?: boolean;
 }
@@ -7,41 +10,56 @@ const { compact = false } = Astro.props;
 
 const pathname = Astro.url.pathname;
 
-const navItems = [
-  { href: '/', label: 'Projects' },
+interface NavItem {
+  href: string;
+  label: string;
+  activePrefixes?: string[];
+}
+
+const navItems: NavItem[] = [
+  { href: '/', label: 'Projects', activePrefixes: ['/projects'] },
   { href: '/about/', label: 'About' },
   { href: '/method/', label: 'Methodology' },
-  { href: '/contact/', label: 'Contact' },
 ];
 
-const isActive = (href: string) =>
-  href === '/' ? pathname === '/' : pathname.startsWith(href);
+const isActive = (item: NavItem) => {
+  const prefixes = item.activePrefixes ?? [item.href];
+  return prefixes.some(p =>
+    p === '/' ? pathname === '/' : pathname.startsWith(p)
+  );
+};
 ---
 
-<header class:list={['border-b border-ink/10', compact && 'is-compact']}>
+<header
+  class:list={['border-b', compact && 'is-compact']}
+  style="border-bottom-color: color-mix(in srgb, var(--color-gold) 30%, transparent);"
+>
   <div class:list={[
     'mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center md:justify-between gap-4 md:gap-8',
     compact ? 'max-w-none py-3 md:py-4' : 'max-w-content py-5 md:py-6',
   ]}>
     <a href="/" class="shrink-0 flex flex-col items-center gap-[3px] hover:opacity-80 transition-opacity" aria-label="Dagger Obelus — Early Modern Studies home">
-      <img
-        src="/brand/logo.png"
+      <Image
+        src={logo}
         alt=""
+        widths={[300, 600]}
+        sizes="300px"
+        loading="eager"
         class:list={['w-auto', compact ? 'h-7 md:h-8' : 'h-10 md:h-11']}
       />
       <span class="logo-tagline">Early Modern Studies</span>
     </a>
 
     <nav class="w-full md:w-auto flex items-center justify-center flex-wrap gap-x-3 gap-y-2 md:gap-x-8">
-      {navItems.map(({ href, label }) => (
+      {navItems.map(item => (
         <a
-          href={href}
+          href={item.href}
           class:list={[
             'font-ui nav-item no-underline transition-colors',
-            isActive(href) ? 'text-ink' : 'text-ink/55 hover:text-ink'
+            isActive(item) ? 'is-active text-ink' : 'text-ink/55 hover:text-ink'
           ]}
         >
-          {label}
+          {item.label}
         </a>
       ))}
     </nav>
@@ -51,6 +69,15 @@ const isActive = (href: string) =>
 <style>
   header a {
     text-decoration: none !important;
+  }
+  /* Active nav item — subtle gold underline */
+  header .nav-item {
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid transparent;
+    transition: color 200ms ease, border-bottom-color 200ms ease;
+  }
+  header .nav-item.is-active {
+    border-bottom-color: var(--color-gold);
   }
   /* Compact tagline shrinks proportionally with the wordmark */
   header.is-compact :global(.logo-tagline) {
