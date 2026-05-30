@@ -17,6 +17,6 @@ Sarah Bonanno is an English PhD student studying early modern drama at the CUNY 
 
 Sarah graduated cum laude from Bowdoin College in 2018 where she received a BA in English with honors. She also holds an MA degree from the University of Chicago with a concentration in Theater and Performance Studies.
 
-Sarah can be reached at [sbonanno@gradcenter.cuny.edu](mailto:sbonanno@gradcenter.cuny.edu).
+Sarah can be reached at [sarah.bonanno65@cuny.edu](mailto:sarah.bonanno65@cuny.edu).
 
 Jack Lukic provides essential support on all things software related.
