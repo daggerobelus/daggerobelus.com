@@ -484,14 +484,24 @@ For each notable agent, copy its complete working files to the project:
 ```
 ingest/archive/test/notable-runs/
 └── run-[N]-agent-[A]-[manuscript]/
-    ├── alphabet.txt              # The agent's hand-specific alphabet
-    ├── transcription.txt         # The agent's transcription
-    ├── notes.txt                 # The agent's uncertainty notes
-    ├── evaluation.txt            # The evaluation report for this agent
-    └── notable-run-summary.txt   # Why this run was flagged (see below)
+    ├── triage.txt               # The agent's triage assessment (path chosen)
+    ├── alphabet.txt             # The agent's hand-specific alphabet
+    ├── transcription.txt        # The agent's transcription
+    ├── notes.txt                # The agent's uncertainty notes
+    ├── evaluation.txt           # The evaluation report for this agent
+    ├── agent-[A]-full-transcript.jsonl  # The agent's COMPLETE session log (see below)
+    └── notable-run-summary.txt  # Why this run was flagged (see below)
 ```
 
 Copy the files from the agent's `/tmp/` folder and the evaluation results. Use the actual filenames the agent produced (they may include the manuscript name as a prefix).
+
+**Always preserve the full agent transcript.** The single most valuable artifact for understanding *why* an agent did unusually well or badly is its complete session log — every tool call it made (image crops, vocab lookups, re-reads) and its reasoning/thinking as it worked. When you launch a subagent, the harness writes this as a JSONL file and reports its path (the `output_file` field in the launch result / completion notification, typically `…/tasks/<agentId>.output`). For each notable agent, `cp` that file into the notable-runs folder as `agent-[A]-full-transcript.jsonl`.
+
+Two rules for handling the transcript:
+- **Copy it, do not read it.** These logs are large (often several MB). Use `cp` only — never `Read`/`cat`/`tail` the file into your own context, or it will overflow. You can safely confirm it with `wc -c` / `wc -l` (counts only).
+- **Capture it promptly.** The transcripts live in `/tmp`, which is cleared on reboot. If you don't copy a notable agent's transcript into the project during the run, it is gone. This is the same ephemerality rule as the rest of the run folder.
+
+If a transcript path is genuinely unavailable (e.g., a resumed run where the original log was already cleaned), note that in the summary rather than silently omitting it.
 
 ### 9c: Write the Summary
 
