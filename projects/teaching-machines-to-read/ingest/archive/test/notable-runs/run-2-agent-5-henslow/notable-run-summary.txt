@@ -1,0 +1,22 @@
+# Notable Run: Skills Run 2 (Opus 4.8), Agent 5
+Manuscript: Henslow MS688, page 12
+Date: 2026-06-04
+Model: Claude Opus 4.8
+CER: 9.68%   Attempted CER: 6.73%   Coverage: 100%   Gaps: 0
+S/I/D: 38/26/28
+Run mean CER: 5.79%   Run std dev: 3.16   Spread: 7.15pp
+
+## Why Notable
+Worst agent: 9.68% (>1 SD above mean). Unusually poor for a legible page.
+
+## Skill Version
+manuscript-transcription SKILL.md (adaptive: triage -> Standard/Scaffolded), unchanged from baseline.
+
+## Files Preserved
+- triage.txt, alphabet.txt, transcription.txt, notes.txt  (the agent's own outputs)
+- agent-5-full-transcript.jsonl  (complete subagent transcript: tool calls + reasoning/thinking)
+
+## Comparison
+- Previous best for Henslow: 3.80% (pre-skills Run 6)
+- Skills Run 1 mean: 5.26%
+- This run mean: 5.79%
