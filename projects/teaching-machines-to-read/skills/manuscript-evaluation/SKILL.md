@@ -49,13 +49,32 @@ Before running any computation, quickly confirm that both input files contain wh
 
 If either file looks wrong (e.g., the hypothesis contains `=== TRANSCRIPTION ===` section markers or appended notes), stop and report the problem rather than running the script on bad input.
 
-## Step 2: Compute CER with the Script
+## Step 2: Clean transcription-extraneous markup (reference AND hypothesis)
 
-**Do not compute CER yourself.** Use the deterministic Python script. This ensures every evaluation produces exactly the same number for the same inputs — a requirement for reproducibility.
+Reference transcriptions carry markup that a paleographic transcription deliberately omits — and if it is left in, every bit of it counts as a CER "error" the transcriber never actually made. This was a real, uncaught source of **~2.5–3 points of inflation** in this project's earlier evaluations. Strip it from BOTH files before measuring, so CER reflects *reading accuracy* (did the agent get the words right), not formatting or lineation fidelity.
+
+**First, run the deterministic cleaner on both files** — it handles the known artifacts reproducibly:
+
+```bash
+python skills/manuscript-evaluation/scripts/clean_reference.py <reference-file>  <reference-file>.clean
+python skills/manuscript-evaluation/scripts/clean_reference.py <hypothesis-file> <hypothesis-file>.clean
+```
+
+It strips: FromThePage recipe-segment counters `(1)`, brace annotations `{page break}`, standalone page/recipe numbers and roman-numeral lines, end-of-line hyphenation (`Worm-\nwood` → `Wormwood`), and it flattens all whitespace to single spaces (so double-spacing and line-break differences do not count — we are not measuring lineation).
+
+**Then use judgment for what the script can't anticipate.** Different sources leave different residue — EMROC, Folger DOCX, and other references carry markup the regexes don't know about (editorial sigla, folio/shelfmark stamps, catalog numbers, `[note: …]` annotations, marginal-reference markers). Read both cleaned files; remove only what is *unambiguously not part of the manuscript text*.
+
+**Cardinal rule of this step: when in doubt, keep it.** Over-cleaning — deleting real text, the scribe's punctuation, or a genuine orthographic feature — corrupts the measurement far worse than a stray marker left in. You strip *markup*, never *text*. Never touch spelling, words, capitalization, or the scribe's own punctuation.
+
+**Log every removal you make beyond the script** (the exact strings and why), so a reviewer can confirm nothing substantive was touched. This log goes in the report. All CER in the next step runs on the `.clean` files.
+
+## Step 3: Compute CER with the Script (on the cleaned files)
+
+**Do not compute CER yourself.** Use the deterministic Python script on the cleaned files from Step 2. This ensures every evaluation produces exactly the same number for the same inputs — a requirement for reproducibility.
 
 ```bash
 python skills/manuscript-evaluation/scripts/compute_cer.py \
-  <reference-file> <hypothesis-file> --verbose
+  <reference-file>.clean <hypothesis-file>.clean --verbose
 ```
 
 The script handles all normalization deterministically:
@@ -91,7 +110,9 @@ An agent with 80% coverage and 3% attempted CER is more useful than one with 100
 
 **If CER is below 3%, flag for review.** The best honest blind result in this project is 3.80%. A result substantially below that is not impossible, but requires the integrity audit (in the test-run skill) to confirm clean conditions before it can be reported as a genuine improvement.
 
-## Step 3: Categorize Errors
+**Treat historical figures as not directly comparable.** Cleaning measurably lowered CER on this project's Sedley material (~2.5–3 points), so a cleaned CER is not on the same scale as an uncleaned one. The older project figures (3.80%, the Transkribus comparisons, etc.) predate this pipeline and their exact computation/normalization is uncertain — they may not have been produced through this skill at all — so do not rank a cleaned CER against them. To compare against any historical result, re-run that result through this pipeline (Step 2 + Step 3) so both numbers are computed the same way. Always note in the report that the CER is post-cleaning.
+
+## Step 4: Categorize Errors
 
 This is where your judgment matters. The script tells you *how many* errors there are; you figure out *what kind* and *why*.
 
@@ -126,7 +147,7 @@ After listing individual errors, provide counts per category and note:
 - Whether errors cluster in a particular section of the manuscript (beginning, middle, end)
 - Any patterns that suggest a systematic problem (e.g., the agent consistently misreads one letter)
 
-## Step 4: Write the Evaluation Report
+## Step 5: Write the Evaluation Report
 
 Produce a single file: `[manuscript]-evaluation.txt`
 
@@ -135,7 +156,13 @@ Structure:
 ```
 # Evaluation: [manuscript name and page]
 
-## CER Summary (from compute_cer.py)
+## Cleaning Log (Step 2)
+- Deterministic cleaner: applied to reference and hypothesis (clean_reference.py)
+- Additional removals by judgment: [exact strings removed and why — or "none"]
+- Confirmation: no spelling, words, capitalization, or scribal punctuation altered
+- CER below is POST-cleaning (not comparable to pre-cleaning historical figures)
+
+## CER Summary (from compute_cer.py, on cleaned files)
 - Reference characters: N
 - Hypothesis characters: N
 - Substitutions: N | Insertions: N | Deletions: N
@@ -163,4 +190,5 @@ what a revised transcription approach might focus on]
 - **Do not look at the manuscript image.** Your job is text-against-text comparison. If you see the image, your evaluation is compromised.
 - **Do not penalize honest gaps.** An agent that writes `[...]` for an illegible passage made the right call. The script handles this — gaps are stripped before CER and tracked as coverage.
 - **Do not "fix" either transcription.** Compare them as-is. Your job is measurement, not correction.
+- **Do not over-clean.** In Step 2 you strip *markup*, never *text*. When unsure whether something is a stray artifact or part of the manuscript, keep it and log the uncertainty — deleting real text corrupts the measurement worse than a leftover marker.
 - **Do not guess at error causes based on the manuscript content.** You can't see the manuscript. Categorize based on the textual evidence: if "vpon" became "upon," that's modernization regardless of what the letterforms look like.
