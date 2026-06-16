@@ -1,0 +1,54 @@
+{
+  "run": "whl-sedley-test-01",
+  "learner": "learner-2",
+  "manuscript": "Lady Sedley MS534",
+  "evaluation": "blind text-vs-text CER (jiwer via compute_cer.py)",
+  "pages_evaluated": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+  "page_002_excluded": "flyleaf matter in a different/modern hand, not the recipe hand",
+  "note_on_references": "Reference files contain no '---' separator, so structural artifacts (page numbers like '1.', recipe markers like '(1)', '{page break}', and line-break hyphens) remain in the reference and are counted by the script. These are constant across all pages and learners, so per-set and per-round comparisons remain internally valid.",
+
+  "per_set_forward_cer": {
+    "description": "CER of each page's FORWARD transcription vs reference; tests whether the agent reads NEW pages better as its alphabet matures.",
+    "set_1_pages_003_006": {
+      "per_page": {"003": 0.065817, "004": 0.084570, "005": 0.131018, "006": 0.099698},
+      "mean": 0.0952757
+    },
+    "set_2_pages_007_011": {
+      "per_page": {"007": 0.156352, "008": 0.103039, "009": 0.093653, "010": 0.085470, "011": 0.086721},
+      "mean": 0.1050470
+    },
+    "set_3_pages_012_016": {
+      "per_page": {"012": 0.091816, "013": 0.089623, "014": 0.083521, "015": 0.077195, "016": 0.089474},
+      "mean": 0.0863258
+    },
+    "set_means_summary": {"set_1": 0.0952757, "set_2": 0.1050470, "set_3": 0.0863258},
+    "trend": "No monotonic improvement. Set 2 is worst (inflated by page 007, a hard swallow-oil/jelly recipe at 15.6%). Set 3 is best (8.63%), a modest gain over set 1 (9.53%). Alphabet maturation yielded only a slight net improvement on new pages, not a steady curve."
+  },
+
+  "post_revision_cer_per_round": {
+    "description": "After each set's revision round, CER of the CURRENT version (latest revision else forward) of every page processed so far, vs references. Cumulative.",
+    "round_1_pages_003_006": {"mean": 0.0956415, "n_pages": 4},
+    "round_2_pages_003_011": {"mean": 0.1008668, "n_pages": 9},
+    "round_3_pages_003_016": {"mean": 0.0957670, "n_pages": 14},
+    "trend": "Revisions had negligible effect on cumulative CER. Each revision round edited only 1-2 tokens per page; round 1 cumulative CER (9.564%) is essentially identical to the set-1 forward mean (9.528%) and a couple of revisions slightly raised page CER (pages 005, 006) even though they corrected the reading, because the corrected spelling diverged from the reference. Revisiting old flags with a maturer alphabet did not measurably lower CER."
+  },
+
+  "overall_final_cer": {
+    "description": "All 14 pages, current (latest) versions.",
+    "per_page": {"003": 0.065817, "004": 0.084570, "005": 0.132050, "006": 0.100129, "007": 0.156352, "008": 0.103039, "009": 0.093653, "010": 0.085470, "011": 0.086721, "012": 0.091816, "013": 0.089623, "014": 0.084424, "015": 0.077195, "016": 0.089879},
+    "mean": 0.0957670,
+    "mean_percent": "9.58%"
+  },
+
+  "error_categorization": {
+    "dominant_categories": ["word substitution / letterform confusion", "modernization", "structural-marker omission (reference artifact)"],
+    "notes": {
+      "word_substitution_letterform": "Largest source of genuine error. On hard tokens the agent guessed a plausible word rather than tracking strokes: ref 'gutts'->hyp 'quills', 'redsage'->'sedauge', 'Cotton'->'Cotten', 'wild thyme'->'rose thyme', 'hearthorne'->'hartshorde', 'whilst'->'make it', 'red rose water'->'see roes water', 'clearest'->garbled. Idiosyncratic herb/drug names ('chissvedes','Cloworthes','Iabenese') left as honest literal flags.",
+      "modernization": "Recurrent: ref 'you'/'yu' regularized, 'vses'->'uses', 'therto'->'thereto', 'til'->'till', 'Cinament'->'Cynament', 'Cammomile'->'Camemill'. Modern spellings substituted for scribal forms in several places.",
+      "minim_errors": "Present but minor: nn/u/m confusions inside unfamiliar words (e.g. 'fasrnell' for 'flannell' before revision; 'boorle' for 'boyle').",
+      "long_s_l_confusion": "A few cases, e.g. initial long-s misread (the 'whore'/'sore' flag on page 014 was a long-s+ho false 'wh', corrected in revision).",
+      "punctuation_structural": "A large share of raw CER is non-semantic: the agent omits reference page numbers ('1.','8','9'), bracketed recipe-count markers ('(1)','(6)'), '{page break}' lines, and end-of-line hyphens that the reference retains. These inflate every page's CER uniformly and are not reading errors.",
+      "revision_behavior": "Revisions were honest and conservative: corrected genuine misreadings (flannell, seed pearle, bruses & inwardly, seven, sore, poyson) and refused to overwrite ambiguous strokes with contextually-expected words (sack/each, hoards/hearbs, Masthar moniack). Net CER impact ~0."
+    }
+  }
+}

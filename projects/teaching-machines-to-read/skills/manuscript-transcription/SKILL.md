@@ -1,133 +1,55 @@
 ---
 name: manuscript-transcription
 description: >
-  Transcribe early modern English manuscript pages written in secretary hand.
-  Use this skill whenever you are asked to transcribe a manuscript image, read
-  handwriting from the 1500s-1700s, produce a semi-diplomatic transcription, or
-  work with recipe books, letters, or other early modern documents. Also use when
-  someone mentions paleography, secretary hand, or letterforms.
+  Transcribe early modern English manuscript pages written in secretary hand
+  (roughly 1500–1700). Use this skill whenever you are asked to transcribe a
+  manuscript image, read early modern handwriting, produce a semi-diplomatic
+  transcription, or work with recipe books, letters, or other early modern
+  documents — also when someone mentions paleography, secretary hand, or
+  letterforms. When given multiple ordered pages of a single hand, it works
+  through them in sets, building and reusing its own growing alphabet and
+  revisiting earlier uncertain readings as its knowledge of the hand matures;
+  for a single page it is the same method with one set.
 ---
 
-# Manuscript Transcription — Adaptive Method
+# Manuscript Transcription — Learning a Hand by Reading It
 
-You are transcribing an early modern English manuscript page written in secretary hand (roughly 1500–1700). This is a research transcription — the results will be evaluated against field-standard CER metrics and reviewed by paleography scholars.
+You are transcribing an early modern English manuscript written in **a single scribe's hand** (secretary hand, roughly 1500–1700). The method is the same whether you have one page or a whole manuscript: read the hand bottom-up, build your own reference for how this scribe writes, and stay honest about what you cannot read.
 
-This skill has two paths: **Standard** (for legible manuscripts) and **Scaffolded** (for degraded or difficult manuscripts). You choose which path to follow based on a triage assessment of the page.
+When you have **multiple ordered pages of one hand**, you work through them **in sets, in order**, and you are expected to **get better at this hand as you go** — because the alphabet you build on early pages makes later pages readable. A single page (or a few pages) is just the degenerate case: one set, same method, and the revision step still helps you recover first-pass uncertainties.
 
-## Your Materials
+This is a research transcription evaluated against field-standard CER and reviewed by paleography scholars. The *process* — how your reading of the hand develops — is itself of interest, so the materials you produce along the way matter as much as the final text.
 
-- **Manuscript image(s)** — the page(s) to transcribe
-- **Paleography guide** — `ingest/references/paleography-guide.md` — secretary hand letterforms, abbreviations, and Folger semi-diplomatic conventions. Read this before starting.
-- **Vocabulary reference** — `extracted/derived/vocab/vocab-reference.txt` — ~19,000 words attested in early modern recipe books. Used for verification.
+## Your materials
 
-If any of these are missing, ask before proceeding.
+- **Page image(s)** for one hand — when there are several, `images/pageNNN.jpg`, processed in numeric order.
+- **Paleography guide** — `ingest/references/paleography-guide.md` (secretary letterforms, abbreviations, Folger semi-diplomatic conventions). Read it before starting.
+- **Vocabulary reference** — `extracted/derived/vocab/vocab-reference.txt` (~19,000 words attested in early modern recipe books). A verification tool, not a prediction tool.
+- **A working folder** — where every file you produce is saved (see *Output*).
 
-## Step 0: Triage
+If the exact locations differ from the above, use the paths you are given. If any material is missing, ask before proceeding.
 
-**Before transcribing anything, assess the page.** Scan the whole image and score each factor. Factors marked with **(×2)** are weighted double because they have the strongest effect on transcription accuracy.
+## What makes this work (read before starting)
 
-| Factor | None (0) | Minor (1) | Moderate (2) | Severe (3) |
-|---|---|---|---|---|
-| **Physical damage** — water, mold, tears, foxing | None | Small areas affected | Significant areas obscured | Large areas destroyed or illegible |
-| **Scan quality (×2)** — resolution, pages per image, lighting | Single page, high resolution, clear | Single page with slight blur or uneven lighting | 2-page spread OR moderate resolution loss | 2-page spread AND low resolution or poor lighting |
-| **Hand density (×2)** — spacing between words and lines | Open, generous white space | Mostly open, a few tight areas | Tight in many areas, some lines overlap | Compressed throughout, little white space |
-| **Multiple hands** — different scribes on the page | Single consistent hand | Minor shifts in style or size | Two distinguishable hands | Three or more hands, or dramatic shifts |
-| **Ink quality** — fading, blotting, show-through | Dark, even, crisp | Slight fading or minor blotting | Noticeable fading in sections, some show-through | Heavy fading, blotting, or show-through throughout |
-| **Hand quality** — how well-formed the letterforms are | Clear, careful, consistent forms | Mostly clear, occasional irregular forms | Frequently hasty or irregular, many ambiguous letters | Rough throughout, hard to distinguish individual letters |
+These are the commitments behind every step. They matter more than any rule, so understand the reasoning:
 
-**Scoring:** Add the scores. For factors marked (×2), multiply by 2 before adding.
+- **Read bottom-up, not top-down.** Match the pen strokes on the page to letterforms, assemble letters into words. Do not guess what word "should" be there from context — top-down reading is what produces hallucination and silent modernization. The alphabet you build is what keeps you bottom-up.
+- **The alphabet is *yours*, and it grows.** You build your own reference for this scribe and extend it as you see more of the hand. A reader coming to know a hand is the heart of the method. Never transcribe from a reference someone else wrote; never copy habits from a different manuscript.
+- **You will revise later, so flag freely now.** Across a hand, every set ends knowing more than it began. So when a word is unclear on first contact, *flagging it is the correct move, not a failure* — you are deferring the reading until you know the hand better, and there is a dedicated revision pass for exactly that. Do not force a reading you cannot see.
+- **The vocab list confirms, it does not generate.** Read the letterforms first, *then* optionally check the word against the list. If you find yourself scanning the list for words that might fit a gap, stop — you have reversed the process.
+- **Preserve everything.** Write every state to a file as you go — forward transcriptions, notes, every alphabet snapshot, every revision. Never overwrite a snapshot. The full record of how you worked is data, not scratch.
 
-**Maximum possible: 24** (6 factors, 2 weighted double, max 3 each = 4×3 + 2×6 = 24)
+## The cycle
 
-- **0–7 → Standard Path** (single pass with alphabet)
-- **8+ → Scaffolded Path** (three-pass method)
+Process the pages **set by set, in order** (sets of ~5 pages; a short job may be a single set). For each set N:
 
-Write down your assessment and total before proceeding. This is your first output — save it to `[manuscript]-triage.txt`.
+### Step A — Forward pass (transcribe the set)
 
----
+For each page in the set, working with your **current** alphabet (for set 1 you build it first — see Step B):
 
-## Standard Path (Score 0–7)
-
-For legible manuscripts where the hand is clear enough to read on the first pass. The main job here is accuracy.
-
-### Step 1: Build an Alphabet
-
-Scan the whole page. Identify page numbers, headings, recipe boundaries, and the clearest text. Then build a hand-specific alphabet from the most legible words.
-
-For each letter (a–z), document:
-- How this scribe forms it (pen stroke direction, thick/thin, lifts)
-- 2–4 clear example words
-- Confusion risks (which letters look similar in this hand)
-- Variants (e.g., long-s vs. round-s)
-
-Also note ligatures (th, ff, -es graph, -er graph) and this scribe's specific habits.
-
-**Calibrate the alphabet:** Pick 5 clear words from different parts of the page. Transcribe each one letter by letter using your alphabet. Check each against the vocab reference. If 3+ don't match any attested word, your alphabet has errors — revise before continuing.
-
-**Note this scribe's orthographic habits:**
-- u or v at word beginnings? ("vpon" or "upon"?)
-- Doubled final consonants? ("itt" or "it"?)
-- Terminal -e? ("fundamente" or "fundament"?)
-- i or j? ("iuice" or "juice"?)
-
-Every scribe is different. Do not carry habits from any previous manuscript.
-
-**Save as:** `[manuscript]-alphabet.txt`
-
-### Step 2: Transcribe
-
-Work through the page using your alphabet. For each word:
-
-1. Look at the pen strokes on the page
-2. Match each stroke to a letterform in your alphabet
-3. Assemble the letters into a word
-4. If a word is unclear, check it against the vocab reference
-
-**Confidence scale:**
-
-| What you can see | What to write |
-|---|---|
-| Clear strokes, unambiguous reading | The word |
-| Strokes visible but ambiguous (two possible readings) | `[word?]` |
-| Some strokes visible, rest unclear | `[b....es]` (letters you can trace + dots) |
-| No traceable strokes | `[...]` |
-
-**The vocab list confirms readings — it does not generate them.** If you find yourself scanning the list for words that might fit, stop. Read the letterforms first, then check.
-
-After completing the transcription, do one final check: read through and verify that the orthography is consistent with this scribe's habits.
-
-→ **Skip to Output** below.
-
----
-
-## Scaffolded Path (Score 8+)
-
-For degraded or difficult manuscripts where the agent needs to separate "what I can see" from "what I think should be there." The main job here is calibration — knowing when to stop trying.
-
-### Pass 1: Survey and Alphabet
-
-**Task: learn this scribe's hand before reading the page.**
-
-Same as Standard Path Step 1 — scan the page, build an alphabet, calibrate against vocab, note orthographic habits.
-
-**Save as:** `[manuscript]-alphabet.txt`
-
-### Pass 2: Skeleton
-
-**Task: transcribe only what you can read from letterforms. Nothing else.**
-
-Work through the page using your alphabet. For each word:
-
-1. Look at the pen strokes on the page
-2. Match each stroke to a letterform in your alphabet
-3. Assemble the letters into a word
-
-If you can trace every stroke → transcribe the word.
-If you cannot trace the strokes → write `[...]` and move on.
-
-**Do not reason from context in this pass.** Do not think about what word "makes sense." Do not fill in gaps based on what the recipe is about. This pass produces a gapped skeleton — headings, clear words, and honest gaps. That is exactly what it should look like.
-
-**Confidence scale:**
+1. Look at the pen strokes. Match each to a letterform in your alphabet. Assemble letters into words.
+2. If a word is unclear, you *may* check a candidate reading against the vocab reference — to confirm, never to generate.
+3. Use the confidence scale below. When you cannot read something, leave the gap; you will return to it.
 
 | What you can see | What to write |
 |---|---|
@@ -137,47 +59,70 @@ If you cannot trace the strokes → write `[...]` and move on.
 | No traceable strokes | `[...]` |
 | Whole passage illegible | `[Passage illegible — ~N lines, reason]` |
 
-### Pass 3: Fill and Verify
+Save each page's transcription as `set-NN/pageNNN-forward.txt` (plain transcription text only — no headers or metadata). Record every flagged reading in `set-NN/pageNNN-notes.txt` (line, your reading, why uncertain, any vocab check).
 
-**Task: revisit the gaps. Use your alphabet and vocab reference together to attempt harder readings.**
+### Step B — Consolidate (update and snapshot your alphabet)
 
-Go back through every `[...]` gap and `[word?]` flag:
+Update what you know about the hand from this set.
 
-1. Look at the gap again. Can you see any partial strokes you missed?
-2. Match visible strokes against your alphabet — do any letters become clear on a second look?
-3. If you can propose a reading, check it against the vocab reference:
-   - **On the list** → your confidence increases. Use `[word?]` if somewhat certain, or transcribe if now confident.
-   - **Not on the list** → is there a plausible alternative (1–2 letters different) that IS on the list and that the strokes support? If so, consider it. If not, keep the gap.
-4. If you still cannot read it, leave `[...]`. The gap is the correct transcription.
+**For set 1**, build the alphabet from scratch first, *before* transcribing — scan the whole first set, find the clearest words, and for each letter a–z document:
+- how this scribe forms it (stroke direction, thick/thin, lifts),
+- 2–4 clear example words,
+- confusion risks (which letters look alike in this hand),
+- variants (e.g. long-s vs round-s), plus ligatures (th, ff, the -es and -er graphs).
+Also note orthographic habits: u or v word-initially? doubled final consonants (itt/it)? terminal -e? i or j? **Calibrate:** transcribe 5 clear words letter-by-letter with your alphabet and check them against the vocab reference; if 3+ match no attested word, your alphabet has errors — fix it before transcribing the set.
 
-**The vocab list confirms readings — it does not generate them.** If you find yourself scanning the list for words that might fit, you have reversed the process.
+**For every later set**, revise and extend the alphabet with what this set taught you: new letterforms, resolved confusions, corrected habits, newly-seen abbreviations.
 
-After filling gaps, do one final check of the full transcription: read through and verify that the orthography is consistent with this scribe's habits.
+Then **write a new numbered snapshot**: `alphabet-after-set-NN.txt`. **Never overwrite a previous snapshot** — the sequence `alphabet-after-set-01.txt`, `-02.txt`, … is the record of how your reading of the hand developed, and it must remain readable (diffable) afterward.
 
-→ **Continue to Output** below.
+### Step C — Rolling revision (revisit earlier uncertainties)
 
----
+With your freshly updated alphabet, go back to **every still-open flag** (`[word?]`, `[...]`, partial `[b..es]`) from **all sets so far**, earliest first. For each:
 
-## Transcription Conventions
+1. Look at the gap again on the page. Can you now trace strokes you missed?
+2. Match them against your *current* alphabet — do letters resolve that didn't before?
+3. If you can propose a reading, optionally confirm it against the vocab reference. If you still cannot read it, **leave the gap** — an honest `[...]` is the correct transcription, not a failure.
+
+This is **not** a free re-edit of the whole text. Touch only the spans you previously flagged. You are testing whether knowing the hand better lets you read what you couldn't before — not second-guessing readings you were confident about.
+
+For each span you revisit, append an entry to `revisions/revision-log.md`:
+
+```
+## set NN revision round — pageNNN, line L
+flag: [original marker]
+before: <what you had>
+after:  <new reading, or still [...]>
+why:    <what in the hand let you read it now — or why it stays a gap>
+```
+
+When a page's text changes, save the new version as `revisions/pageNNN-after-setNN.txt` (versioned — do not overwrite the forward file or earlier revisions). The "current" reading of any page is its latest version.
+
+→ Then move to the next set and repeat A → B → C.
+
+**After the final set**, do one optional final revision pass over any still-open flags with the fully matured alphabet, then assemble the latest version of every page into `final/pageNNN.txt`.
+
+## Transcription conventions
 
 Follow Folger semi-diplomatic conventions (detailed in the paleography guide):
 
-- Preserve original spelling exactly — "physicke" not "physic"
-- Preserve original punctuation, capitalization, and line breaks
-- Expand abbreviations with supplied letters in *italics*
-- Preserve scribal errors — dittography, transpositions, false starts
-- Keep the scribe's orthography — u/v, i/j, long-s, doubled consonants, terminal -e
-- If the scribe wrote "vpon," transcribe "vpon." The scribe's spelling is the data.
+- Preserve original spelling exactly — "physicke" not "physic".
+- Preserve original punctuation, capitalization, and line breaks.
+- Expand abbreviations with supplied letters in *italics*.
+- Preserve scribal errors — dittography, transpositions, false starts.
+- Keep the scribe's orthography — u/v, i/j, long-s, doubled consonants, terminal -e. If the scribe wrote "vpon," transcribe "vpon." The scribe's spelling is the data.
 
-## Output
+## Output (preserve everything)
 
-Produce these files per page:
+Produce these in your working folder. Transcription files contain **only** transcription text — no manuscript name, date, or method notes — because CER compares character-by-character and any extra text inflates the error rate.
 
-| File | Contents |
-|------|----------|
-| `[manuscript]-triage.txt` | Triage assessment: factor scores, total, path chosen |
-| `[manuscript]-alphabet.txt` | Hand-specific alphabet with confusion risks and scribe's orthographic habits |
-| `[manuscript]-transcription.txt` | **Plain transcription text only** — no headers, no metadata, no section markers |
-| `[manuscript]-notes.txt` | Flagged readings: line number, your reading, why uncertain, vocab verification |
+| Path | Contents |
+|---|---|
+| `set-NN/pageNNN-forward.txt` | Forward-pass transcription of each page (immutable once written) |
+| `set-NN/pageNNN-notes.txt` | Flagged readings for that page |
+| `alphabet-after-set-NN.txt` | Numbered alphabet snapshot — one per set, **never overwritten** |
+| `revisions/revision-log.md` | Every revisit: set, page, line, before → after, why |
+| `revisions/pageNNN-after-setNN.txt` | Revised page version (only when a page changed; versioned) |
+| `final/pageNNN.txt` | Latest/best version of each page, assembled at the end |
 
-**The transcription file must contain ONLY the transcription.** No manuscript name, no date, no method notes. Just the text starting from the first line. The CER evaluation script compares character-by-character — any extra text inflates the error rate.
+Do not evaluate your own work against any reference — you never see one. A separate evaluator computes CER. Your job is an honest, bottom-up reading of the hand that gets better as you learn it.

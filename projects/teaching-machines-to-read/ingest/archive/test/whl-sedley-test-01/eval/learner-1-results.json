@@ -1,0 +1,162 @@
+{
+  "per_set_forward": {
+    "set1": {
+      "per_page": {
+        "003": 0.073248,
+        "004": 0.08319,
+        "005": 0.109697,
+        "006": 0.09495
+      },
+      "mean": 0.09027125
+    },
+    "set2": {
+      "per_page": {
+        "007": 0.163518,
+        "008": 0.09785,
+        "009": 0.101198,
+        "010": 0.088034,
+        "011": 0.089973
+      },
+      "mean": 0.10811459999999999
+    },
+    "set3": {
+      "per_page": {
+        "012": 0.081836,
+        "013": 0.092453,
+        "014": 0.090293,
+        "015": 0.078077,
+        "016": 0.075709
+      },
+      "mean": 0.08367359999999999
+    }
+  },
+  "per_round_post_revision": {
+    "round1": {
+      "page_range": "003-006",
+      "per_page": {
+        "003": {
+          "cer": 0.07431,
+          "source": "page003-after-set01.txt"
+        },
+        "004": {
+          "cer": 0.084225,
+          "source": "page004-after-set01.txt"
+        },
+        "005": {
+          "cer": 0.109354,
+          "source": "page005-after-set01.txt"
+        },
+        "006": {
+          "cer": 0.09495,
+          "source": "page006-after-set01.txt"
+        }
+      },
+      "cumulative_mean": 0.09070975
+    },
+    "round2": {
+      "page_range": "003-011",
+      "per_page": {
+        "003": {
+          "cer": 0.07431,
+          "source": "page003-after-set01.txt"
+        },
+        "004": {
+          "cer": 0.084225,
+          "source": "page004-after-set01.txt"
+        },
+        "005": {
+          "cer": 0.109354,
+          "source": "page005-after-set01.txt"
+        },
+        "006": {
+          "cer": 0.09495,
+          "source": "page006-after-set01.txt"
+        },
+        "007": {
+          "cer": 0.164169,
+          "source": "page007-after-set02.txt"
+        },
+        "008": {
+          "cer": 0.09785,
+          "source": "page008-forward.txt"
+        },
+        "009": {
+          "cer": 0.101198,
+          "source": "page009-after-set02.txt"
+        },
+        "010": {
+          "cer": 0.088034,
+          "source": "page010-forward.txt"
+        },
+        "011": {
+          "cer": 0.089431,
+          "source": "page011-after-set02.txt"
+        }
+      },
+      "cumulative_mean": 0.10039122222222223
+    },
+    "round3": {
+      "page_range": "003-016",
+      "per_page": {
+        "003": {
+          "cer": 0.07431,
+          "source": "page003-after-set01.txt"
+        },
+        "004": {
+          "cer": 0.084225,
+          "source": "page004-after-set01.txt"
+        },
+        "005": {
+          "cer": 0.109354,
+          "source": "page005-after-set01.txt"
+        },
+        "006": {
+          "cer": 0.09495,
+          "source": "page006-after-set01.txt"
+        },
+        "007": {
+          "cer": 0.164169,
+          "source": "page007-after-set02.txt"
+        },
+        "008": {
+          "cer": 0.09785,
+          "source": "page008-forward.txt"
+        },
+        "009": {
+          "cer": 0.101198,
+          "source": "page009-after-set02.txt"
+        },
+        "010": {
+          "cer": 0.088034,
+          "source": "page010-forward.txt"
+        },
+        "011": {
+          "cer": 0.089431,
+          "source": "page011-after-set02.txt"
+        },
+        "012": {
+          "cer": 0.082335,
+          "source": "page012-after-set03.txt"
+        },
+        "013": {
+          "cer": 0.092453,
+          "source": "page013-forward.txt"
+        },
+        "014": {
+          "cer": 0.090293,
+          "source": "page014-after-set03.txt"
+        },
+        "015": {
+          "cer": 0.077636,
+          "source": "page015-after-set03.txt"
+        },
+        "016": {
+          "cer": 0.074899,
+          "source": "page016-after-set03.txt"
+        }
+      },
+      "cumulative_mean": 0.09436692857142857
+    }
+  },
+  "overall_final_cer": 0.09436692857142857
+}
