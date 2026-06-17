@@ -77,6 +77,25 @@ python skills/manuscript-evaluation/scripts/compute_cer.py \
   <reference-file>.clean <hypothesis-file>.clean --verbose
 ```
 
+### Also compute the READING (modernization-tolerant) CER
+
+Report **two** CERs, because they answer two different questions:
+
+- **Diplomatic CER** (above): did the agent preserve *the scribe's exact orthography*? Here `vse`→`use` is an error — for paleography the spelling is the evidence. This is the primary scholarly number.
+- **Reading CER**: did the agent identify *the right word*? Modernization that preserves the word (`vse`/`use`, `vppon`/`uppon`) is forgiven. This isolates *decoding/reading skill* from spelling-modernization behavior.
+
+Produce the reading CER by cleaning both files with the `--reading` flag (which adds modernization normalization on top of the structural cleaning), then running the same CER script:
+
+```bash
+python skills/manuscript-evaluation/scripts/clean_reference.py --reading <reference-file>  <reference-file>.read
+python skills/manuscript-evaluation/scripts/clean_reference.py --reading <hypothesis-file> <hypothesis-file>.read
+python skills/manuscript-evaluation/scripts/compute_cer.py <reference-file>.read <hypothesis-file>.read --raw
+```
+
+`--reading` is a **conservative** collapse (lowercase, u/v and i/j interchange, long-s, `-inge`→`-ing`, apostrophes) — only transforms that never change word identity. It is therefore a *lower bound* on the modernization effect; a fuller set (terminal -e, doubled consonants) would forgive more but risks collapsing distinct words.
+
+**The gap (diplomatic − reading) is itself a finding:** it is the cost of modernization. A large gap means the agent reads well but normalizes spelling heavily; a small gap means most residual error is genuine misreading, not modernization. Report both numbers and the gap.
+
 The script handles all normalization deterministically:
 1. Strips confidence markers (`[word?]` → `word`)
 2. Strips and counts illegibility markers (`[...]`)
@@ -166,7 +185,9 @@ Structure:
 - Reference characters: N
 - Hypothesis characters: N
 - Substitutions: N | Insertions: N | Deletions: N
-- **CER: X.XX%** (overall)
+- **Diplomatic CER: X.XX%** (cleaned; the scribe's orthography counts — primary scholarly number)
+- **Reading CER: X.XX%** (modernization-tolerant; word identity only)
+- **Modernization cost: X.XX pp** (diplomatic − reading)
 - **Attempted CER: X.XX%** (confident text only — excludes gap-caused deletions)
 - **Coverage: XX.X%** (fraction of reference text the agent attempted)
 - Gaps ([...]): N | Uncertain ([word?]): N

@@ -55,14 +55,51 @@ def clean(text):
     return text
 
 
+def reading_normalize(text):
+    """
+    Modernization-tolerant ("reading") normalization, applied AFTER clean().
+
+    Collapses early-modern orthographic *variants* to a canonical form on BOTH
+    sides, so spelling-modernization that preserves the word ("vse"/"use") stops
+    counting as an error. This measures READING accuracy (did the agent identify
+    the right word) as distinct from DIPLOMATIC fidelity (did it preserve the
+    scribe's exact orthography). Report BOTH; the gap between them is the cost of
+    modernization, and is itself a finding.
+
+    Conservative set — only transformations that do not change word identity:
+      - lowercase (capitalization is not a reading error)
+      - long-s -> s
+      - u/v interchange and i/j interchange (positional graphic variants;
+        canonicalized to u and i). Catches vses/uses, vppon/uppon, vntill/untill.
+      - terminal -inge -> -ing (morninge -> morning)
+      - drop apostrophes (approv'd / approved; the scribe's variable possessive)
+
+    Deliberately NOT included (risk collapsing distinct words): general doubled-
+    consonant reduction, terminal -e stripping, -ie/-y. Add these only with care.
+    """
+    text = text.lower()
+    text = text.replace('ſ', 's')               # long-s ſ
+    text = text.replace('v', 'u').replace('j', 'i')   # u/v, i/j
+    text = re.sub(r'inge\b', 'ing', text)             # -inge -> -ing
+    text = text.replace("'", '').replace('’', '')  # apostrophes
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("usage: clean_reference.py INPUT.txt [OUTPUT.txt]", file=sys.stderr)
+    args = [a for a in sys.argv[1:] if a != "--reading"]
+    reading = "--reading" in sys.argv
+    if not args:
+        print("usage: clean_reference.py [--reading] INPUT.txt [OUTPUT.txt]", file=sys.stderr)
+        print("  default: structural cleaning (DIPLOMATIC CER)", file=sys.stderr)
+        print("  --reading: also collapse modernization variants (READING CER)", file=sys.stderr)
         sys.exit(1)
-    with open(sys.argv[1], errors="replace") as f:
+    with open(args[0], errors="replace") as f:
         out = clean(f.read())
-    if len(sys.argv) >= 3:
-        with open(sys.argv[2], "w") as f:
+    if reading:
+        out = reading_normalize(out)
+    if len(args) >= 2:
+        with open(args[1], "w") as f:
             f.write(out)
     else:
         sys.stdout.write(out)
