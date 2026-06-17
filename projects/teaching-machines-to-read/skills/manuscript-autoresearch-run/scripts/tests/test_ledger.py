@@ -31,6 +31,34 @@ def test_best_so_far_none_when_empty(tmp_path):
     assert ledger.best_so_far(str(run)) is None
 
 
+def test_snapshot_path_whitespace_sanitized(tmp_path):
+    run = tmp_path / "run-1"
+    run.mkdir()
+    dirty_path = "iterations/iter-01/method.md\twith\ttabs\nand newlines"
+    ledger.append_result(str(run), 1, "desc", 0.10, 0.09, True, dirty_path)
+    rows = ledger.read_results(str(run))
+    assert len(rows) == 1
+    assert "\t" not in rows[0]["snapshot_path"]
+    assert "\n" not in rows[0]["snapshot_path"]
+    assert rows[0]["snapshot_path"] == "iterations/iter-01/method.md with tabs and newlines"
+
+
+def test_best_method_path_returns_lowest_cer_kept(tmp_path):
+    run = tmp_path / "run-1"
+    run.mkdir()
+    ledger.append_result(str(run), 1, "a", 0.21, 0.19, True, "path/iter-01")
+    ledger.append_result(str(run), 2, "b", 0.10, 0.09, False, "path/iter-02")  # reverted, not kept
+    ledger.append_result(str(run), 3, "c", 0.18, 0.16, True, "path/iter-03")
+    # iter-02 has lower CER but is reverted; should return iter-03 (lowest KEPT)
+    assert ledger.best_method_path(str(run)) == "path/iter-03"
+
+
+def test_best_method_path_none_when_empty(tmp_path):
+    run = tmp_path / "run-1"
+    run.mkdir()
+    assert ledger.best_method_path(str(run)) is None
+
+
 def test_snapshot_method_copies_file(tmp_path):
     run = tmp_path / "run-1"
     run.mkdir()

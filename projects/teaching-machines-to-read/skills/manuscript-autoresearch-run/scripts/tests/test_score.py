@@ -86,6 +86,29 @@ def test_score_split_runs_and_stays_blind(tmp_path):
         assert word not in blob
 
 
+def test_score_split_raises_on_missing_splits_json(tmp_path):
+    import pytest
+    nonexistent = tmp_path / "no_such_root"
+    with pytest.raises(ValueError, match="splits.json"):
+        score.score_split(str(nonexistent), "val", str(tmp_path / "hyp"))
+
+
+def test_score_split_raises_on_unknown_split(tmp_path):
+    import pytest
+    root = _seed_split(tmp_path)
+    with pytest.raises(ValueError, match="not a key"):
+        score.score_split(str(root), "unknown_split", str(tmp_path / "hyp"))
+
+
+def test_score_split_raises_on_missing_refs_dir(tmp_path):
+    import pytest
+    root = _seed_split(tmp_path)
+    import shutil
+    shutil.rmtree(root / "corpus" / "val" / "refs")
+    with pytest.raises(ValueError, match="refs"):
+        score.score_split(str(root), "val", str(tmp_path / "hyp"))
+
+
 def test_missing_hypothesis_counts_as_deletions(tmp_path):
     root = _seed_split(tmp_path)
     hyp = tmp_path / "hyp"

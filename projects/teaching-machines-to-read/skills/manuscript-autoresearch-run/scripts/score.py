@@ -115,9 +115,18 @@ def score_pages(pairs) -> dict:
 
 def score_split(splits_root: str, split: str, hyp_dir: str) -> dict:
     root = Path(splits_root)
-    manifest = json.loads((root / "splits.json").read_text())
+    splits_json = root / "splits.json"
+    if not splits_json.exists():
+        raise ValueError(f"splits.json not found at {splits_json}")
+    manifest = json.loads(splits_json.read_text())
+    if split not in manifest["splits"]:
+        raise ValueError(f"'{split}' is not a key in manifest splits (checked {splits_json})")
     pages = manifest["splits"][split]
     refs_dir = root / "corpus" / split / "refs"
+    if not refs_dir.is_dir():
+        raise ValueError(f"refs dir not found: {refs_dir}")
+    if not pages:
+        raise ValueError(f"split '{split}' has an empty page list (checked {splits_json})")
     hyp = Path(hyp_dir)
 
     pairs = []

@@ -34,6 +34,7 @@ def test_build_copies_isolated_layout(tmp_path):
     assert val_imgs == [f"page-{n}.jpg" for n in build_splits.SPLITS["val"]]
     assert val_refs == [f"page-{n}.txt" for n in build_splits.SPLITS["val"]]
     assert not list((out / "corpus/val/images").glob("*.txt"))
+    assert not list((out / "corpus/test/images").glob("*.txt"))
 
     # dev keeps image + ref together (study pool)
     assert (out / "corpus/dev/page-003.jpg").exists()

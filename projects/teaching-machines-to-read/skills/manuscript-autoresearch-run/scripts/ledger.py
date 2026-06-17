@@ -22,8 +22,9 @@ def append_result(run_dir, iter_n, change_description, dipl_cer, read_cer, kept,
     new = not path.exists()
     # tabs/newlines would corrupt the TSV; collapse them in free text.
     desc = " ".join(str(change_description).split())
+    snap = " ".join(str(snapshot_path).split())
     row = [str(iter_n), desc, f"{dipl_cer:.6f}", f"{read_cer:.6f}",
-           "1" if kept else "0", snapshot_path]
+           "1" if kept else "0", snap]
     with path.open("a", encoding="utf-8") as f:
         if new:
             f.write("\t".join(RESULTS_HEADER) + "\n")
@@ -57,6 +58,14 @@ def best_so_far(run_dir):
         return None
     best = min(kept, key=lambda r: r["val_diplomatic_cer"])
     return (best["val_diplomatic_cer"], best["iter"])
+
+
+def best_method_path(run_dir):
+    kept = [r for r in read_results(run_dir) if r["kept"]]
+    if not kept:
+        return None
+    best = min(kept, key=lambda r: r["val_diplomatic_cer"])
+    return best["snapshot_path"]
 
 
 def snapshot_method(run_dir, iter_n, method_path) -> str:
