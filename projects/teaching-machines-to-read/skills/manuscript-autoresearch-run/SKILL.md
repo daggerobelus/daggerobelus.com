@@ -115,8 +115,6 @@ Assemble the `args` object:
   run_dir:      '<run_dir>',
   max_iters:    <N>,
   patience:     <P>,
-  materials_dir: '<run_dir>/materials',
-  hyp_dir:      '<run_dir>/hyp',
   prompts: {
     propose:          <filled propose.md — val>,
     transcribe:       <filled transcribe.md — val>,
