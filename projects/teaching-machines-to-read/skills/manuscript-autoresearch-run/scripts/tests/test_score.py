@@ -46,3 +46,53 @@ def test_profile_lists_capped_at_25():
     hyp = "".join(chr(ord('A') + i) for i in range(30))   # ABC...
     out = score.score_pages([(ref, hyp)])
     assert len(out["error_profile"]["top_substitutions"]) == 25
+
+
+import json
+from pathlib import Path
+
+import build_splits
+
+
+def _seed_split(tmp_path):
+    src = tmp_path / "src"
+    root = tmp_path / "root"
+    src.mkdir()
+    # minimal real-shaped corpus for the val split only
+    for n in build_splits.SPLITS["val"]:
+        (src / f"sedley-ms534-page{n}.jpg").write_bytes(b"J")
+        (src / f"sedley-ms534-page{n}-transcription.txt").write_text("the quick broun fox")
+    for n in build_splits.SPLITS["dev"] + build_splits.SPLITS["test"]:
+        (src / f"sedley-ms534-page{n}.jpg").write_bytes(b"J")
+        (src / f"sedley-ms534-page{n}-transcription.txt").write_text("x")
+    build_splits.build(str(src), str(root))
+    return root
+
+
+def test_score_split_runs_and_stays_blind(tmp_path):
+    root = _seed_split(tmp_path)
+    hyp = tmp_path / "hyp"
+    hyp.mkdir()
+    for n in build_splits.SPLITS["val"]:
+        (hyp / f"page-{n}.txt").write_text("the quick brown fox")  # broun->brown modernization-ish
+
+    out = score.score_split(str(root), "val", str(hyp))
+    assert out["split"] == "val" and out["n_pages"] == 13
+    assert out["missing_hypotheses"] == []
+
+    # BLINDNESS: no reference word appears anywhere in the serialized output
+    blob = json.dumps(out)
+    for word in ["quick", "broun", "brown", "fox"]:
+        assert word not in blob
+
+
+def test_missing_hypothesis_counts_as_deletions(tmp_path):
+    root = _seed_split(tmp_path)
+    hyp = tmp_path / "hyp"
+    hyp.mkdir()
+    # provide only one page; the other 12 are missing
+    n0 = build_splits.SPLITS["val"][0]
+    (hyp / f"page-{n0}.txt").write_text("the quick broun fox")
+    out = score.score_split(str(root), "val", str(hyp))
+    assert len(out["missing_hypotheses"]) == 12
+    assert out["diplomatic_cer"] > 0  # missing pages are all-deletions

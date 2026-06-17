@@ -111,3 +111,42 @@ def score_pages(pairs) -> dict:
         "error_profile": _profile(sub_pairs, ins_chars, del_chars),
     }
     return result
+
+
+def score_split(splits_root: str, split: str, hyp_dir: str) -> dict:
+    root = Path(splits_root)
+    manifest = json.loads((root / "splits.json").read_text())
+    pages = manifest["splits"][split]
+    refs_dir = root / "corpus" / split / "refs"
+    hyp = Path(hyp_dir)
+
+    pairs = []
+    missing = []
+    for n in pages:
+        ref_text = (refs_dir / f"page-{n}.txt").read_text(errors="replace")
+        hyp_path = hyp / f"page-{n}.txt"
+        if hyp_path.exists():
+            hyp_text = hyp_path.read_text(errors="replace")
+        else:
+            hyp_text = ""          # missing = empty hypothesis = all deletions
+            missing.append(n)
+        pairs.append((ref_text, hyp_text))
+
+    result = score_pages(pairs)
+    result["split"] = split
+    result["missing_hypotheses"] = missing
+    return result
+
+
+def main():
+    import argparse
+    p = argparse.ArgumentParser(description="Sealed blind scorer (numbers + single-char profile only).")
+    p.add_argument("--splits-root", required=True)
+    p.add_argument("--split", required=True, choices=["val", "test"])
+    p.add_argument("--hyp-dir", required=True)
+    args = p.parse_args()
+    print(json.dumps(score_split(args.splits_root, args.split, args.hyp_dir), indent=2))
+
+
+if __name__ == "__main__":
+    main()
