@@ -333,7 +333,7 @@ You may NOT look at any reference/answer transcription. You work only from:
 - The current method: {{METHOD_PATH}}
 - The results log so far (iteration, change, val CER, kept/reverted): {{RESULTS_PATH}}
 - The most recent blind error profile (single-character substitution/insertion/deletion
-  tallies — e.g. "v→u: 14" — NO words): {{PROFILE_JSON}}
+  tallies in the abstract form "X→Y: count" — NO words): {{PROFILE_JSON}}
 
 Propose and apply EXACTLY ONE change to the method that you believe will lower the
 diplomatic CER. The error profile is your ONLY feedback signal — the tallies are unlabeled
