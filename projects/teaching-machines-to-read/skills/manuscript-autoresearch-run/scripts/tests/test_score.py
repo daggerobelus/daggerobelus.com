@@ -24,3 +24,25 @@ def test_reading_cer_forgives_u_v_modernization():
     assert out["diplomatic_cer"] > 0
     assert out["reading_cer"] == 0.0
     assert out["normalization_gap"] == out["diplomatic_cer"] - out["reading_cer"]
+
+
+def test_error_profile_is_single_chars_only():
+    out = score.score_pages([("vse vpon", "use upon")])
+    prof = out["error_profile"]
+    # private aggregation keys must not leak
+    assert "_sub_pairs" not in out
+    # every reported token is exactly one display character (no words leak)
+    for r, h, _c in prof["top_substitutions"]:
+        assert len(r) == 1 and len(h) == 1
+    for ch, _c in prof["top_deletions"] + prof["top_insertions"]:
+        assert len(ch) == 1
+    # v->u substitution is the dominant diplomatic error here
+    assert ["v", "u", 2] in prof["top_substitutions"]
+
+
+def test_profile_lists_capped_at_25():
+    # 30 distinct substitutions; profile keeps the top 25
+    ref = "".join(chr(ord('a') + i) for i in range(30))   # abc...
+    hyp = "".join(chr(ord('A') + i) for i in range(30))   # ABC...
+    out = score.score_pages([(ref, hyp)])
+    assert len(out["error_profile"]["top_substitutions"]) == 25

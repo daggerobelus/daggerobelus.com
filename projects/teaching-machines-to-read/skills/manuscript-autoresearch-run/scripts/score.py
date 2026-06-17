@@ -84,18 +84,30 @@ def _aggregate(pairs, reading: bool):
     return cer, per_page, sub_pairs, ins_chars, del_chars
 
 
+def _disp(c: str) -> str:
+    """Render a single character for the profile; spaces become a visible glyph."""
+    return "␣" if c == " " else ("⏎" if c == "\n" else c)
+
+
+def _profile(sub_pairs, ins_chars, del_chars, top: int = 25) -> dict:
+    return {
+        "top_substitutions": [[_disp(r), _disp(h), n]
+                              for (r, h), n in sub_pairs.most_common(top)],
+        "top_deletions": [[_disp(c), n] for c, n in del_chars.most_common(top)],
+        "top_insertions": [[_disp(c), n] for c, n in ins_chars.most_common(top)],
+    }
+
+
 def score_pages(pairs) -> dict:
     dipl_cer, dipl_pp, sub_pairs, ins_chars, del_chars = _aggregate(pairs, reading=False)
     read_cer, read_pp, _, _, _ = _aggregate(pairs, reading=True)
-    return {
+    result = {
         "n_pages": len(pairs),
         "diplomatic_cer": round(dipl_cer, 6),
         "reading_cer": round(read_cer, 6),
         "normalization_gap": round(dipl_cer - read_cer, 6),
         "per_page_diplomatic": dipl_pp,
         "per_page_reading": read_pp,
-        # error profile attached in Task 3 via _profile(...)
-        "_sub_pairs": sub_pairs,
-        "_ins_chars": ins_chars,
-        "_del_chars": del_chars,
+        "error_profile": _profile(sub_pairs, ins_chars, del_chars),
     }
+    return result
