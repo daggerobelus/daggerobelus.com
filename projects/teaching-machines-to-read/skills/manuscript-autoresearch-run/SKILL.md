@@ -76,26 +76,33 @@ The propose/transcribe prompts must never mention references.
 If the blindness invariant is violated, STOP — the run is contaminated and results cannot
 be reported.
 
-### 5. Build the `args` object for the Workflow
+### 5. Build the filled prompt files and the `args` object for the Workflow
 Read the four template files in `prompts/` (`propose.md`, `transcribe.md`, `score.md`,
-`record.md`) and substitute the static placeholders listed below. Leave the per-iteration
-placeholders (e.g. `{{RESULTS_PATH}}`, `{{PROFILE_JSON}}`, `{{ITER}}`, `{{DECISION}}`,
-`{{CHANGE_DESCRIPTION}}`, `{{DIPL_CER}}`, `{{READ_CER}}`) intact — the Workflow fills those
-at runtime.
+`record.md`) and substitute the static placeholders listed below. Leave the **per-iteration**
+placeholders intact — the Workflow injects those at runtime: `{{PROFILE_JSON}}` (in propose)
+and `{{ITER}}`, `{{DECISION}}`, `{{CHANGE_DESCRIPTION}}`, `{{DIPL_CER}}`, `{{READ_CER}}` (in
+record).
+
+**Write each filled prompt to a file** under `<run_dir>/prompts/` (e.g.
+`<run_dir>/prompts/propose.md`, `…/transcribe.md`, `…/score.md`, `…/record.md`,
+`…/transcribe_test.md`, `…/score_test.md`). The Workflow is passed the prompt **file paths**,
+not the prompt text — this keeps `args` tiny regardless of prompt size, and each agent reads
+its instructions from the file.
 
 **Static placeholder substitutions for the val-facing prompts:**
 
 | Placeholder | Value |
 |---|---|
 | `{{METHOD_PATH}}` | `<run_dir>/method.md` |
+| `{{RESULTS_PATH}}` | `<run_dir>/results.tsv` |
 | `{{MATERIALS_DIR}}` | `<run_dir>/materials` |
 | `{{HYP_DIR}}` | `<run_dir>/hyp` |
-| `{{SCORE_PY}}` | `scripts/score.py` |
+| `{{SCORE_PY}}` | `scripts/score.py` (absolute path) |
 | `{{SPLITS_ROOT}}` | `<splits_root>` |
 | `{{SPLIT}}` | `val` |
 | `{{RUN_DIR}}` | `<run_dir>` |
-| `{{LEDGER_PY}}` | `scripts/ledger.py` |
-| `{{SCRIPTS_DIR}}` | `scripts` |
+| `{{LEDGER_PY}}` | `scripts/ledger.py` (absolute path) |
+| `{{SCRIPTS_DIR}}` | `scripts` (absolute path) |
 
 **Also build the two test-split prompts** by filling `transcribe.md` and `score.md` with
 the TEST-specific values:
@@ -109,19 +116,19 @@ the TEST-specific values:
 | `{{SPLITS_ROOT}}` | `<splits_root>` |
 | `{{SPLIT}}` | `test` |
 
-Assemble the `args` object:
+Assemble the `args` object (prompt values are FILE PATHS to the filled files written above):
 ```js
 {
   run_dir:      '<run_dir>',
   max_iters:    <N>,
   patience:     <P>,
   prompts: {
-    propose:          <filled propose.md — val>,
-    transcribe:       <filled transcribe.md — val>,
-    score:            <filled score.md — val>,
-    record:           <filled record.md>,
-    transcribe_test:  <filled transcribe.md — test>,
-    score_test:       <filled score.md — test>,
+    propose:          '<run_dir>/prompts/propose.md',          // val, RESULTS_PATH filled, {{PROFILE_JSON}} left
+    transcribe:       '<run_dir>/prompts/transcribe.md',       // val
+    score:            '<run_dir>/prompts/score.md',            // val
+    record:           '<run_dir>/prompts/record.md',           // {{ITER}}/{{DECISION}}/… left
+    transcribe_test:  '<run_dir>/prompts/transcribe_test.md',  // test materials + final-test-eval
+    score_test:       '<run_dir>/prompts/score_test.md',       // SPLIT=test
   }
 }
 ```
@@ -132,7 +139,8 @@ iterations. **Only launch when the user has explicitly opted in** to running a f
 optimization experiment.
 
 Invoke the `autoresearch-run` Workflow (`workflow/autoresearch.workflow.js`) with the
-`args` object built above.
+`args` object built above. **Pass `args` as an actual JSON object, not a stringified one**
+(the workflow defensively `JSON.parse`s a string, but passing an object is correct).
 
 > **Note on method state before the final test eval:** The ratchet loop relies on
 > `method.md` being at the best-kept state at all times — the record agent restores best on

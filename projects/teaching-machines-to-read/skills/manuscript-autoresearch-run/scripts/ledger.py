@@ -19,6 +19,10 @@ def _results_path(run_dir: str) -> Path:
 
 def append_result(run_dir, iter_n, change_description, dipl_cer, read_cer, kept, snapshot_path) -> None:
     path = _results_path(run_dir)
+    # Idempotency guard: exactly one row per iteration. A retried record agent
+    # must not double-write the same iteration's outcome.
+    if path.exists() and any(r["iter"] == int(iter_n) for r in read_results(run_dir)):
+        return
     new = not path.exists()
     # tabs/newlines would corrupt the TSV; collapse them in free text.
     desc = " ".join(str(change_description).split())

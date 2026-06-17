@@ -16,6 +16,17 @@ def test_append_and_read_roundtrip(tmp_path):
     assert rows[1]["kept"] is False
 
 
+def test_append_is_idempotent_per_iter(tmp_path):
+    # A retried record agent must not double-write the same iteration.
+    run = tmp_path / "run-1"
+    run.mkdir()
+    ledger.append_result(str(run), 1, "first", 0.21, 0.19, True, "p1")
+    ledger.append_result(str(run), 1, "retry with different text", 0.21, 0.19, True, "p1")
+    rows = ledger.read_results(str(run))
+    assert len(rows) == 1
+    assert rows[0]["change_description"] == "first"  # first write wins
+
+
 def test_best_so_far_ignores_reverted(tmp_path):
     run = tmp_path / "run-1"
     run.mkdir()

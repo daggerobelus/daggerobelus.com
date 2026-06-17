@@ -4,14 +4,13 @@ export const meta = {
   phases: [{ title: 'Optimize' }, { title: 'Final test eval' }],
 }
 
-// Fill the per-iteration placeholders the runner left in the prompt text.
-function fill(t, map) {
-  let out = t
-  for (const k of Object.keys(map)) out = out.split('{{' + k + '}}').join(String(map[k]))
-  return out
-}
+// Prompts are passed as FILE PATHS (args stays tiny regardless of prompt size).
+// Each agent reads and follows its instruction file; the workflow injects only the
+// small per-iteration values, leaving the static placeholders pre-filled by the runner.
+const A = typeof args === 'string' ? JSON.parse(args) : args
+const followFile = (p) =>
+  `Read the instructions in the file at ${p} and follow them exactly. Do only what that file says.`
 
-const A = args
 let best = Infinity
 let bestIter = 0
 let noImprove = 0
@@ -22,17 +21,18 @@ let iter = 0
 for (iter = 1; iter <= A.max_iters; iter++) {
   // 1. PROPOSE — fresh blind agent edits method.md (one call per iteration)
   const proposed = await agent(
-    fill(A.prompts.propose, { RESULTS_PATH: A.run_dir + '/results.tsv', PROFILE_JSON: lastProfile }),
+    followFile(A.prompts.propose) +
+    ` Where that file shows the token {{PROFILE_JSON}}, use this blind error profile JSON instead: ${lastProfile}`,
     { label: `propose:${iter}`, phase: 'Optimize', schema: {
       type: 'object', required: ['change_description'],
       properties: { change_description: { type: 'string' } } } }) || { change_description: '(no change)' }
 
   // 2. TRANSCRIBE — fresh agent, val materials (refs present only in faithful arm)
-  await agent(A.prompts.transcribe, { label: `transcribe:${iter}`, phase: 'Optimize',
+  await agent(followFile(A.prompts.transcribe), { label: `transcribe:${iter}`, phase: 'Optimize',
     schema: { type: 'object', properties: { pages_done: { type: 'number' } } } })
 
   // 3. SCORE — fresh blind scorer; returns score.py JSON only
-  const score = await agent(A.prompts.score, { label: `score:${iter}`, phase: 'Optimize',
+  const score = await agent(followFile(A.prompts.score), { label: `score:${iter}`, phase: 'Optimize',
     schema: { type: 'object', required: ['diplomatic_cer', 'reading_cer'],
       properties: { diplomatic_cer: { type: 'number' }, reading_cer: { type: 'number' },
         error_profile: { type: 'object' } } } })
@@ -45,22 +45,24 @@ for (iter = 1; iter <= A.max_iters; iter++) {
   if (improved) { best = score.diplomatic_cer; bestIter = iter; noImprove = 0 }
   else { noImprove++ }
 
-  await agent(fill(A.prompts.record, {
-    ITER: iter, DECISION: decision, CHANGE_DESCRIPTION: proposed.change_description,
-    DIPL_CER: score.diplomatic_cer, READ_CER: score.reading_cer,
-  }), { label: `record:${iter}`, phase: 'Optimize', schema: {
-    type: 'object', properties: { recorded: { type: 'boolean' }, kept: { type: 'boolean' } } } })
+  await agent(
+    followFile(A.prompts.record) +
+    ` Substitute in that file: {{ITER}}=${iter}, {{DECISION}}=${decision},` +
+    ` {{CHANGE_DESCRIPTION}}=${JSON.stringify(proposed.change_description)},` +
+    ` {{DIPL_CER}}=${score.diplomatic_cer}, {{READ_CER}}=${score.reading_cer}.`,
+    { label: `record:${iter}`, phase: 'Optimize', schema: {
+      type: 'object', properties: { recorded: { type: 'boolean' }, kept: { type: 'boolean' } } } })
 
   log(`iter ${iter}: dipl ${score.diplomatic_cer.toFixed(4)} (best ${best.toFixed(4)} @ ${bestIter}), ${decision}, noImprove ${noImprove}`)
   if (noImprove >= A.patience) { log(`stopping: ${A.patience} non-improving iterations`); break }
 }
 
-// FINAL — restore best method, transcribe+score the locked TEST split once
-// (prompts.transcribe_test and prompts.score_test are pre-filled by the runner for the test split)
+// FINAL — transcribe+score the locked TEST split once.
+// prompts.transcribe_test / prompts.score_test are pre-filled by the runner for the test split.
 phase('Final test eval')
-await agent(A.prompts.transcribe_test, { label: 'transcribe:test', phase: 'Final test eval',
+await agent(followFile(A.prompts.transcribe_test), { label: 'transcribe:test', phase: 'Final test eval',
   schema: { type: 'object', properties: { pages_done: { type: 'number' } } } })
-const testRes = await agent(A.prompts.score_test, { label: 'score:test', phase: 'Final test eval',
+const testRes = await agent(followFile(A.prompts.score_test), { label: 'score:test', phase: 'Final test eval',
   schema: { type: 'object', required: ['diplomatic_cer', 'reading_cer'],
     properties: { diplomatic_cer: { type: 'number' }, reading_cer: { type: 'number' } } } }) || {}
 
