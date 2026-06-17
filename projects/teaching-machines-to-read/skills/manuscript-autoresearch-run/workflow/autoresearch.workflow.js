@@ -56,16 +56,11 @@ for (iter = 1; iter <= A.max_iters; iter++) {
 }
 
 // FINAL — restore best method, transcribe+score the locked TEST split once
+// (prompts.transcribe_test and prompts.score_test are pre-filled by the runner for the test split)
 phase('Final test eval')
-const testHyp = A.run_dir + '/final-test-eval'
-const testTranscribe = A.prompts.transcribe
-  .split(A.materials_dir).join(A.run_dir + '/test-materials')
-  .split(A.hyp_dir).join(testHyp)
-const testScore = A.prompts.score.split('--split ' + 'val').join('--split ' + 'test').split(A.hyp_dir).join(testHyp)
-
-await agent(testTranscribe, { label: 'transcribe:test', phase: 'Final test eval',
+await agent(A.prompts.transcribe_test, { label: 'transcribe:test', phase: 'Final test eval',
   schema: { type: 'object', properties: { pages_done: { type: 'number' } } } })
-const testRes = await agent(testScore, { label: 'score:test', phase: 'Final test eval',
+const testRes = await agent(A.prompts.score_test, { label: 'score:test', phase: 'Final test eval',
   schema: { type: 'object', required: ['diplomatic_cer', 'reading_cer'],
     properties: { diplomatic_cer: { type: 'number' }, reading_cer: { type: 'number' } } } }) || {}
 
