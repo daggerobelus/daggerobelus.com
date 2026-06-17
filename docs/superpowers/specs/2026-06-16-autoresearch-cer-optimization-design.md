@@ -172,23 +172,41 @@ the runner, not generated inside any workflow script.
 
 ## 5. The loop, per iteration
 
-### Arm B (blind — treatment)
-1. Optimizer reads `results.tsv`, current `method.md`, last blind error profile.
-2. Optimizer writes a new `method.md` (one change, with a one-line description).
-3. Optimizer calls the sealed evaluator on **val**. The evaluator spawns a **fresh, isolated
-   transcriber subagent** given only: `method.md`, the val **images**, and whatever resources the
-   method itself names (paleography guide, vocab, dev examples). The subagent has **no access** to
-   val references or to the optimizer's context. It writes transcriptions to a temp folder.
-4. The scorer compares that folder to the val references (which live where only the scorer can read
-   them) → returns the two CER numbers + blind error profile.
-5. Optimizer sees only those. If diplomatic CER < best-so-far → keep + snapshot; else revert.
-6. Repeat until the stopping rule fires.
-7. **Final:** run the sealed evaluator once on **test** with the best `method.md` → honest test CER.
+Realized as a **resumable Workflow** that orchestrates short-lived agents around deterministic
+scoring and the ratchet (survives the long-single-context drops documented in test-01). Each
+iteration decomposes into separate, fresh agent steps so no single agent has to hold the whole run:
 
-### Arm A (faithful — control)
-Identical, except steps 3–4 collapse into the **optimizer's own context**: the single agent
-transcribes the val pages itself, with the run folder (including references) reachable. No isolated
-subagent. This is the deliberate opportunity to overfit/cheat that the control exists to measure.
+1. **Propose** (fresh, blind agent): reads `results.tsv`, the current `method.md`, and the last
+   blind error profile; writes a new `method.md` (one change, one-line description). Never sees
+   references.
+2. **Transcribe** (fresh agent): given `method.md` + the val **images** (+ whatever the method
+   names — guide, vocab, dev examples), writes transcriptions to a hyp folder.
+3. **Score** (fresh agent): runs the sealed scorer (`score.py`) over the hyp folder against the val
+   references and returns **only** the blind output — two CER numbers + single-character error
+   profile. (The scorer reads references internally but returns no reference text; the propose agent
+   never sees this agent's context.)
+4. **Ratchet** (deterministic, in the workflow): if diplomatic CER < best-so-far → keep + append to
+   `results.tsv` + snapshot `method.md`; else restore the best method (`ledger.best_method_path`).
+5. Repeat until the stopping rule fires.
+6. **Final:** run transcribe+score once on **test** with the best `method.md` → honest test CER.
+
+### The single variable between the arms — reference-access at the transcribe step
+
+Both arms run the **identical** pipeline above. The **only** difference is the materials handed to
+the **Transcribe** agent (step 2):
+
+- **Arm B (blind — treatment):** the transcriber's folder holds val **images only**. It cannot see
+  the answers, so it can lower CER only by genuinely reading better.
+- **Arm A (faithful — control):** the transcriber's folder *also* holds the val **references**
+  (`page-NNN.txt`) beside the images, with the same "transcribe these pages" instruction. The
+  answers are now within reach. Whether it takes that opportunity is the open question the control
+  exists to measure.
+
+This **isolates reference-access during transcription as the single variable** — propose agent,
+scorer, ratchet, and stopping rule are byte-for-byte identical across arms. It refines the original
+control design (which let Arm A's optimizer both see references *and* transcribe in-context — two
+coupled differences that the spec's own §10 flagged as a confound); folding the difference into the
+transcriber's materials removes the confound.
 
 ---
 
@@ -266,9 +284,10 @@ loop, snapshotting, scoring, stopping) may be realized as a Workflow script whos
   unable to reach val/test references or the optimizer's context. Verify the isolated folder
   contains *only* what the subagent is authorized to see before each launch (the project's hard-won
   isolation rule). A leak here silently invalidates the treatment arm.
-- **Confound note for the control:** Arm A differs from Arm B in two coupled ways — references are
-  reachable *and* the optimizer transcribes in-context. Both collapse to one axis ("the optimizer
-  can see what it's optimizing on"); framed as such, not as two independent variables.
+- **Confound note for the control — RESOLVED (see §5).** The original design let Arm A's optimizer
+  both see references and transcribe in-context (two coupled differences). The Workflow realization
+  folds the difference into the Transcribe agent's materials alone, so **reference-access during
+  transcription is the single isolated variable**. No remaining confound.
 - **Seed identification (Runs 3–4):** confirm the exact `manuscript-transcription/SKILL.md` content
   to seed `method.md` with at build time (it is the cumulative method; the runner/eval skills are
   fixed harness, not seeded into the mutable method).
