@@ -1,0 +1,71 @@
+# ratchet-loop-forum (FORUM arm) — Sedley CER optimization, head-to-head vs plain
+# Pinned Phase-0 setup contract. IDENTICAL to plain/config.yaml EXCEPT the two
+# blocks marked >>> DELTA <<< below. That delta — an argumentative layer
+# (experimenters justify+predict, argumentative credit, an independent challenger
+# contests every promotion) — is the single variable this head-to-head measures.
+
+objective:
+  protocol: "python3 skills/manuscript-autoresearch-run/scripts/score.py --splits-root ingest/archive/test/ratchet-headtohead-01 --split val --hyp-dir <CANDIDATE>/hyp"
+  replicates: 2
+  metrics:
+    - { name: diplomatic_cer, direction: minimize, weight: 1.0, role: primary }
+    - { name: reading_cer,    direction: minimize, role: floor, floor_tolerance: 0.03 }
+  composite: primary_metric
+  normalize: none
+
+mode: specialist
+
+gates:
+  - { name: all_pages_present,   check: "13/13 val hyp files non-empty" }
+  - { name: reading_cer_floor,   check: "reading_cer must not regress past baseline + 0.03" }
+  - { name: no_memorized_refs,   check: "method.md contains no verbatim reference lines (specialist degeneracy guard)" }
+
+surfaces:
+  mutable: ["<arm>/rounds/**/method.md"]
+  frozen:  [
+    "skills/manuscript-autoresearch-run/scripts/score.py",
+    "skills/manuscript-evaluation/**",
+    "ingest/archive/test/ratchet-headtohead-01/corpus/**",
+    "ingest/archive/test/ratchet-headtohead-01/splits.json",
+    "ingest/archive/test/ratchet-headtohead-01/**/config.yaml",
+    "ingest/archive/test/ratchet-headtohead-01/**/ledger.jsonl"
+  ]
+
+evaluation:
+  dev_set: "val"
+  holdout_set: "test"
+  holdout_sampling: same_distribution
+  confirm_on_holdout: every_promotion
+
+topology: single_lineage
+
+strategy:
+  active_set_size: 6
+  universe: [refine, tune, restructure, subtract, generative, first_principles, cross_pollinate, wildcard]
+  growable: true
+  # >>> DELTA <<< credit by which REASONS tracked truth, not a win counter.
+  credit: argumentative
+  initial_mix: { refine: 2, tune: 1, subtract: 1, first_principles: 1, cross_pollinate: 1 }
+
+# >>> DELTA <<< an independent challenger contests every promotion; no human (autonomous).
+review:
+  mode: autonomous
+  challenger: always       # independent agent argues the other side before each promotion
+
+goal:
+  season_target: { diplomatic_cer: 0.10 }
+  season_round_budget: 10
+
+budgets:
+  fanout: 6
+  max_rounds: 10
+  candidate_timeout_s: 900
+
+exit_criteria:
+  target: { diplomatic_cer: 0.08 }
+  plateau_patience: 3
+  epsilon: 0.005
+
+baseline:
+  start_mode: naive
+  naive_method: "Transcribe this manuscript page. Produce a semi-diplomatic transcription."

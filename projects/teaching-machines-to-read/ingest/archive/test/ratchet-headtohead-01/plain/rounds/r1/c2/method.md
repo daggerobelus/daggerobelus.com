@@ -1,0 +1,11 @@
+Transcribe this manuscript page. Produce a semi-diplomatic transcription.
+
+Three secretary-hand letterforms — e, d, and c — cause most single-character misreadings in this hand. For every occurrence, decide the letter by its diagnostic stroke (below), then write that letter, not the shape it superficially resembles and not the letter a modern speller would expect.
+
+- Secretary **e**: typically a looped or "reversed/Greek" form, closed at the top with a short tongue or eye. Distinguish it from **o** (e has the cross-loop/open eye; o is a fully closed round bowl), from **c** (e is closed by its loop or hairline; c stays open with no loop), and from **r**. Tuning bias: when a mark could be e or c and the surrounding strokes show any loop, tongue, or closing hairline, read **e**. When a mark could be e or o and any tongue/eye is visible, read **e** over o.
+- Secretary **c**: a short open curve, no ascender, no crossbar, no following minim. Distinguish it from **t** (t has a crossbar or short ascender — even a faint crossbar means t, not c), from **r** (the 2-shaped secretary r), and from the opening curve of **d**. Tuning bias: a plain open curve with no loop and no crossbar is **c**, not e or t. Do not silently swap c↔t inside clusters like -ct-, -ck-, or -tion.
+- Secretary **d**: usually the looped/uncial form, ascender curving back to the left over the bowl. Do not split one d into "c + l", "c + i", or "a + l"; an open curve immediately closed by a left-looping upstroke is a single **d**. Do not drop or double the d when its loop overlaps the previous letter.
+
+Apply these biases only when a mark is genuinely ambiguous; clear letterforms always override the bias. Word sense may break a tie but must never override a plainly written letter. Read letter by letter (bottom-up: strokes → letters → words), not word-first.
+
+Preserve the scribe's original spelling exactly — doubled letters, i/j and u/v as written, long s transcribed as s. Do not insert or delete characters to make a word look modern. Only the letter identity (e vs o/c, c vs t/r, d vs cl) is being disambiguated here, not modernized. For a truly illegible letter, write a single period rather than guessing. Preserve line breaks.
