@@ -145,13 +145,19 @@ The primary transcription pipeline uses Claude's vision capabilities guided by t
 - Average word accuracy ~98.7% — NOTE: non-blind test, likely inflated
 - Results: `ingest/archive/test/test-results-summary.md`
 
-**Blind evaluation (5 manuscripts, 6 runs):**
+**Blind evaluation (5 manuscripts, Runs 1–13** — per-run folders under `ingest/archive/test/blind-evaluation/`; narrative log for Runs 1–8 in `blind-test-summary.md`**):**
 - Run 1 (basic blind): CER ranged from ~11% (Henslow) to ~96% (Jane Jackson — hallucinated)
 - Run 2 (updated guide with anti-hallucination rules): No significant improvement — instruction changes alone don't move the needle
 - **Run 3 (alphabet-first method, Henslow only): 6.12% CER — ~50% reduction vs. Runs 1-2**
 - **Run 4 (alphabet-first, all 5 manuscripts, formalized instructions): Henslow 4.96% (crossed <5% usable threshold), Brumwich 9.30% (from ~96% hallucinated)**
 - Run 5 (stronger instructions + review agent): No meaningful improvement — confirmed again that instruction changes alone don't help. Reverted to Run 4 instructions.
 - **Run 6 (alphabet-first + vocabulary verification): Henslow 3.80% (best result, matching Transkribus with zero training data), Bulkeley 16.21% (best for this MS)**
+- Run 7 (Folger visual alphabet charts): no improvement on any manuscript — more reference material doesn't automatically help.
+- Run 8 (triple-pass consensus, EMROC-style): no improvement — multi-pass consensus can't fix an image-legibility bottleneck (catastrophic on the illegible hands).
+- Run 9 (self-taught guide) & Run 10 (error-analysis protocol): Sedley reached **13.65%** via a Henslow-derived error protocol; post-hoc revision confirmed useless again (Run 9).
+- Runs 11–13: the four follow-up experiments (generation effect, error-transfer, cumulative protocol) — see "Follow-Up Experiments" below.
+
+*(All CERs above are pre-cleaning — see the correction note under "Current best results.")*
 
 Current best results:
 
@@ -262,14 +268,21 @@ The project has moved past the Runs 1–10 blind-testing phase into **within-han
 
 1. **Within-hand longitudinal** (`within-hand-longitudinal-design.md`, run `ingest/archive/test/whl-sedley-test-01/`) — a single continuous agent learns one hand over sets of pages with rolling revision. First test on Sedley: ~6.8–7% cleaned diplomatic CER, very tight cross-learner spread, but *no clean learning curve* (Sedley is low-headroom — decoding solves early, residual is vocabulary). Learning-curve hypothesis needs a HARD single-hand manuscript. Driven by the `manuscript-longitudinal-run` skill.
 2. **Autoresearch CER optimization** (branch `autoresearch`; spec `docs/superpowers/specs/2026-06-16-autoresearch-cer-optimization-design.md`; skill `skills/manuscript-autoresearch-run/`; corpus `ingest/archive/test/autoresearch-sedley-01/`) — a Karpathy-style ratchet loop where a **blind optimizer** rewrites the transcription method to lower CER, discovering changes from raw error tallies alone (no interpretation handed to it). 2×2 design: start {naive, seed-from-best} × isolation {blind, faithful-control}; single variable = whether the transcriber can see the references. **run-2-naive-blind (partial, 2026-06-17): reached 4.60% val diplomatic CER in 9 iterations from a one-line naive seed** before a session limit halted it; the optimizer independently rediscovered anti-modernization, S/s, u/v, a/e/o, and t/y distinctions. Test CER + the other three cells pending. Full record in that run's `README.md`.
-3. **Ratchet head-to-head** (`ratchet-headtohead-01/`) — a parallel comparison of two generalized ratchet-loop skill designs on Sedley CER (separate session). Paused on the same 2026-07-02 credit limit.
+3. **Ratchet head-to-head** (`ingest/archive/test/ratchet-headtohead-01/`, skills `skills/ratchet-loop{,-forum}/`) — a head-to-head of two generalized ratchet-loop optimization skills on Sedley CER: `ratchet-loop` (plain) vs `ratchet-loop-forum`, the latter adding an argumentative **challenger** that can veto a promotion the number alone would pass. Autonomous (no human); the challenger is the single isolated variable. Reuses the frozen `autoresearch-sedley-01` splits by symlink. Infrastructure + a `Workflow` runner built; dry-run showed the naive one-line baseline already transcribes Sedley at ~7% cleaned diplomatic CER (modest headroom) and that occasional page-truncation is the main noise source (since hardened). Paused 2026-07-02 on the credit limit before a clean full run; see its `STATUS.md`.
 
 **Blog post** (below) and the **follow-up experiments** (below) remain planned but are secondary to finishing the optimization runs above.
 
 ### Blog Post
 Write up the project story so far — what the project set out to do, what it discovered, and where it's going. This frames the research direction before the final experiments.
 
-### Follow-Up Experiments (4 runs, 2 questions) — backlog
+### Follow-Up Experiments (4 runs, 2 questions) — EXECUTED as Runs 11–13
+
+These were run (early 2026) as blind-evaluation Runs 11–13 (`ingest/archive/test/blind-evaluation/run-1{1,2,3}-*/`). Outcomes so far:
+- **Generation effect (Run 11):** confirmed — same-agent guide-writing produces tighter consistency (0.84 vs 2.11 spread); the finding is now in "Research Direction" above.
+- **Reverse transfer (Run 12):** a Sedley-derived error protocol did **not** help on the easier Henslow — consistent with Stanovich's compensatory model (less to compensate for on a legible hand).
+- **Cumulative protocol (Run 13):** combined Henslow+Sedley protocol tested on unseen Brumwich, with variants 13b/13c/13d; see `run-13-cumulative-protocol/results.txt`.
+
+The original experiment designs (kept for reference):
 
 **Generation Effect — what makes self-generated notes work?**
 
