@@ -6,49 +6,67 @@
     <title>The Healer's Trap: Folk Medicine and Witch Accusations</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Commissioner:wght@300..700&display=swap" rel="stylesheet">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        /* Theme Variables */
+        /* Theme Variables — daggerobelus.com design system */
         :root {
             /* Typography */
-            --font-heading: 'Libre Baskerville', Georgia, serif;
-            --font-body: 'Libre Franklin', system-ui, sans-serif;
-            --font-ui: 'Libre Franklin', system-ui, sans-serif;
+            --font-heading: 'Cormorant Garamond', Georgia, serif;
+            --font-body: 'EB Garamond', Georgia, 'Times New Roman', serif;
+            --font-ui: 'Commissioner', system-ui, sans-serif;
 
             /* Site theme colors */
-            --color-cream: #fff7f4;
-            --color-ink: #121212;
-            --color-link: #009FDA;
-            --color-accent: #009FDA;
+            --color-cream: #faf6ec;
+            --color-ivory: #F6F2EC;
+            --color-ink: #1E1A17;
+            --color-gold: #B19557;        /* hairlines, rules, ornament */
+            --color-gold-soft: #CDB785;
+            --color-archive: #BFB7AB;
+            --color-slate: #6E685F;
+            --color-link: #8A6D22;        /* deep gold — passes 4.5:1 for text */
+            --color-accent: #8A6D22;
 
             /* Derived colors for UI */
             --color-bg: var(--color-cream);
-            --color-bg-subtle: #f5efe9;
-            --color-bg-card: #ffffff;
-            --color-border: rgba(18, 18, 18, 0.1);
-            --color-border-strong: rgba(18, 18, 18, 0.2);
+            --color-bg-subtle: #F1EADA;
+            --color-bg-card: #FDFBF5;
+            --color-border: rgba(30, 26, 23, 0.12);
+            --color-border-strong: rgba(30, 26, 23, 0.24);
+            --color-gold-hairline: rgba(177, 149, 87, 0.5);
             --color-text: var(--color-ink);
-            --color-text-muted: rgba(18, 18, 18, 0.6);
-            --color-text-subtle: rgba(18, 18, 18, 0.4);
+            --color-text-muted: rgba(30, 26, 23, 0.62);
+            --color-text-subtle: rgba(30, 26, 23, 0.45);
             --color-text-light: rgba(255, 255, 255, 0.95);
             --color-text-light-muted: rgba(255, 255, 255, 0.7);
 
-            /* Data visualization colors */
-            --color-death: #c0392b;
-            --color-released: #27ae60;
-            --color-banished: #d4a017;
-            --color-fled: #2980b9;
-            --color-unknown: #7f8c8d;
+            /* Data visualization — validated archival palette */
+            --viz-madder: #8A3626;      /* oxblood red */
+            --viz-verdigris: #0F8A6E;   /* teal green */
+            --viz-sienna: #A85F30;      /* burnt sienna */
+            --viz-steel: #4680B5;       /* steel blue */
+            --viz-ochre: #B08D2E;       /* gold ochre */
+            --viz-plum: #83446E;        /* mulberry */
+            --viz-indigo: #4A4B9B;      /* ink indigo */
+            --viz-gray: #6E685F;        /* slate — unknown / no data */
+            --viz-gray-light: #9C9384;  /* warm gray — unspecified */
+            --viz-bar: #97772E;         /* deep gold — generic single-series bars */
+
+            /* Outcome colors */
+            --color-death: var(--viz-madder);
+            --color-released: var(--viz-verdigris);
+            --color-banished: var(--viz-ochre);
+            --color-fled: var(--viz-steel);
+            --color-unknown: var(--viz-gray);
 
             /* Demographics colors */
-            --color-econ-comfortable: #27ae60;
-            --color-econ-middling: #f1c40f;
-            --color-econ-poor: #e67e22;
-            --color-econ-destitute: #c0392b;
-            --color-econ-unknown: #7f8c8d;
-            --color-gender-female: #8e44ad;
-            --color-gender-male: #2980b9;
+            --color-econ-comfortable: #C2A768;
+            --color-econ-middling: #A18641;
+            --color-econ-poor: #7F6624;
+            --color-econ-destitute: #5E4A1D;
+            --color-econ-unknown: var(--viz-gray);
+            --color-gender-female: var(--viz-plum);
+            --color-gender-male: var(--viz-steel);
         }
 
         * {
@@ -59,13 +77,19 @@
 
         body {
             font-family: var(--font-body);
-            background: var(--color-bg);
+            font-feature-settings: "liga", "kern", "onum";
+            font-size: 1.0625rem;
+            background-color: var(--color-bg);
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><defs><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45 0 0 0 0 0.35 0 0 0 0 0.2 0 0 0 0.08 0'/></filter><filter id='w'><feTurbulence type='fractalNoise' baseFrequency='0.04' numOctaves='3' seed='12' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.2 0 0 0 0 0.1 0 0 0 0.05 0'/></filter><filter id='s'><feTurbulence type='fractalNoise' baseFrequency='0.015' numOctaves='2' seed='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.42 0 0 0 0 0.22 0 0 0 0.04 0'/></filter></defs><rect width='400' height='400' fill='%23faf6ec'/><rect width='400' height='400' filter='url(%23s)'/><rect width='400' height='400' filter='url(%23w)'/><rect width='400' height='400' filter='url(%23f)'/></svg>");
             color: var(--color-text);
-            line-height: 1.6;
+            line-height: 1.55;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-heading);
+            text-wrap: balance;
         }
 
         .dashboard {
@@ -75,24 +99,29 @@
             min-height: 100vh;
         }
 
-        /* Header */
+        /* Header — editorial masthead on the paper ground */
         header {
             grid-column: 1 / -1;
-            background: var(--color-bg-card);
-            padding: 25px 30px;
-            border-bottom: 1px solid var(--color-border);
+            background: transparent;
+            padding: 30px 30px 22px;
+            border-bottom: 1px solid var(--color-gold-hairline);
         }
 
         header h1 {
-            font-size: 1.8em;
+            font-size: 2.2em;
             font-weight: 600;
+            letter-spacing: -0.01em;
+            line-height: 1.05;
             color: var(--color-text);
-            margin-bottom: 5px;
+            margin-bottom: 6px;
         }
 
         header .subtitle {
+            font-family: var(--font-heading);
+            font-style: italic;
+            font-weight: 500;
             color: var(--color-text-muted);
-            font-size: 1em;
+            font-size: 1.1em;
         }
 
         /* Header Navigation */
@@ -141,7 +170,7 @@
 
         /* Table of Contents */
         .toc {
-            background: var(--color-bg);
+            background: transparent;
             padding: 20px;
             border-left: 1px solid var(--color-border);
             position: sticky;
@@ -153,7 +182,8 @@
         .toc h4 {
             font-size: 0.7em;
             text-transform: uppercase;
-            letter-spacing: 1.5px;
+            letter-spacing: 0.18em;
+            font-weight: 500;
             color: var(--color-text-muted);
             margin-bottom: 12px;
             font-family: var(--font-ui);
@@ -168,7 +198,7 @@
         .filter-summary h5 {
             font-size: 0.7em;
             text-transform: uppercase;
-            letter-spacing: 1.5px;
+            letter-spacing: 0.18em;
             color: var(--color-text-muted);
             margin-bottom: 8px;
             font-family: var(--font-ui);
@@ -233,7 +263,7 @@
 
         /* Sidebar */
         .sidebar {
-            background: var(--color-bg-subtle);
+            background: transparent;
             padding: 20px;
             border-right: 1px solid var(--color-border);
             position: sticky;
@@ -247,9 +277,10 @@
         }
 
         .filter-section h3 {
-            font-size: 0.75em;
+            font-size: 0.72em;
             text-transform: uppercase;
-            letter-spacing: 1.5px;
+            letter-spacing: 0.18em;
+            font-weight: 500;
             color: var(--color-text-muted);
             margin-bottom: 6px;
             font-family: var(--font-ui);
@@ -319,7 +350,8 @@
         }
 
         .stat-card-mini .value {
-            font-size: 1.4em;
+            font-family: var(--font-heading);
+            font-size: 1.6em;
             font-weight: 600;
             color: var(--color-text);
         }
@@ -329,7 +361,7 @@
             padding: 25px 2em;
             padding-bottom: 5rem;
             overflow-y: auto;
-            background: var(--color-bg);
+            background: transparent;
         }
 
         /* Stat Cards Row */
@@ -347,17 +379,19 @@
         }
 
         .stat-card .label {
-            font-size: 0.8em;
+            font-size: 0.78em;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.16em;
             color: var(--color-text-muted);
             margin-bottom: 8px;
             font-family: var(--font-ui);
         }
 
         .stat-card .value {
-            font-size: 2.2em;
-            font-weight: 700;
+            font-family: var(--font-heading);
+            font-size: 2.5em;
+            font-weight: 600;
+            line-height: 1.1;
             color: var(--color-text);
         }
 
@@ -403,27 +437,27 @@
 
         .type-card {
             background: var(--color-bg-card);
-            border-radius: 10px;
+            border-radius: 5px;
             padding: 22px 22px 22px 26px;
             border: 1px solid var(--color-border);
             border-left: 4px solid var(--color-border);
             cursor: pointer;
             transition: all 0.2s;
             position: relative;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            box-shadow: 0 1px 2px rgba(30, 26, 23, 0.04);
             display: flex;
             flex-direction: column;
         }
 
         .type-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 14px rgba(30, 26, 23, 0.09);
             z-index: 50;
         }
 
         .type-card.selected {
             border-color: var(--color-accent);
-            box-shadow: 0 0 0 2px var(--color-accent), 0 4px 15px rgba(0, 159, 218, 0.2);
+            box-shadow: 0 0 0 2px var(--color-gold), 0 4px 15px rgba(177, 149, 87, 0.25);
         }
 
         .type-card-header {
@@ -492,10 +526,10 @@
 
         /* Featured Quote Banner */
         .featured-quote {
-            background: var(--color-bg-subtle);
+            background: var(--color-bg-card);
             border: 1px solid var(--color-border);
-            border-left: 4px solid var(--color-accent);
-            border-radius: 8px;
+            border-left: 4px solid var(--color-gold);
+            border-radius: 4px;
             padding: 24px 28px;
             margin-bottom: 24px;
             position: relative;
@@ -503,21 +537,24 @@
         }
 
         .featured-quote-text {
-            font-size: 1.1em;
+            font-family: var(--font-heading);
+            font-size: 1.25em;
             font-style: italic;
+            font-weight: 500;
             color: var(--color-text);
-            line-height: 1.7;
+            line-height: 1.6;
             margin-bottom: 12px;
         }
 
         .featured-quote-text::before {
             content: '"';
+            font-family: var(--font-heading);
             font-size: 2em;
-            color: var(--color-accent);
+            color: var(--color-gold);
             position: absolute;
             left: 15px;
             top: 10px;
-            opacity: 0.5;
+            opacity: 0.6;
         }
 
         .featured-quote-attribution {
@@ -583,13 +620,15 @@
             color: var(--color-text);
         }
 
-        /* Section Headers */
+        /* Section Headers — display serif over a gold hairline */
         .section-header {
-            font-size: 1.1em;
+            font-size: 1.6em;
             font-weight: 600;
+            letter-spacing: -0.01em;
             color: var(--color-text);
-            margin: 40px 0 20px 0;
-            border-bottom: 1px solid var(--color-border);
+            margin: 48px 0 20px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--color-gold-hairline);
         }
 
         .section-header:has(input) {
@@ -724,15 +763,16 @@
             position: relative;
         }
 
-        .outcome-bar.death { background: linear-gradient(180deg, #e74c3c, #c0392b); }
-        .outcome-bar.released { background: linear-gradient(180deg, #2ecc71, #27ae60); }
-        .outcome-bar.banished { background: linear-gradient(180deg, #f1c40f, #d4a017); }
-        .outcome-bar.fled { background: linear-gradient(180deg, #3498db, #2980b9); }
-        .outcome-bar.unknown { background: linear-gradient(180deg, #95a5a6, #7f8c8d); }
+        .outcome-bar.death { background: var(--color-death); }
+        .outcome-bar.released { background: var(--color-released); }
+        .outcome-bar.banished { background: var(--color-banished); }
+        .outcome-bar.fled { background: var(--color-fled); }
+        .outcome-bar.unknown { background: var(--color-unknown); }
 
         .outcome-value {
-            font-size: 1.4em;
-            font-weight: 700;
+            font-family: var(--font-heading);
+            font-size: 1.6em;
+            font-weight: 600;
             color: var(--color-text);
             margin-bottom: 4px;
         }
@@ -765,7 +805,7 @@
             transform: translateX(-50%);
             background: var(--color-bg-card);
             border: 1px solid var(--color-border-strong);
-            border-radius: 8px;
+            border-radius: 4px;
             padding: 15px;
             width: 280px;
             z-index: 9999;
@@ -894,7 +934,7 @@
             left: 0;
             background: var(--color-bg-card);
             border: 1px solid var(--color-border-strong);
-            border-radius: 8px;
+            border-radius: 4px;
             padding: 15px;
             width: 300px;
             z-index: 9999;
@@ -964,7 +1004,7 @@
         }
 
         .chart-card h3 {
-            font-size: 1em;
+            font-size: 1.25em;
             font-weight: 600;
             margin-bottom: 15px;
             color: var(--color-text);
@@ -1085,31 +1125,33 @@
 
         .chart-bar .bar-value {
             position: absolute;
-            right: 8px;
+            right: 4px;
             top: 50%;
             transform: translateY(-50%);
             font-size: 0.8em;
             font-weight: 600;
+            font-feature-settings: "lnum" 1, "onum" 0;
             color: var(--color-ink);
-        }
-
-        .chart-bar .bar-fill.bar-death-100 ~ .bar-value {
-            color: var(--color-text-light);
+            background: rgba(250, 246, 236, 0.92);
+            padding: 1px 6px;
+            border-radius: 2px;
+            line-height: 1.3;
         }
 
         .chart-bar .bar-count {
             width: 50px;
             text-align: right;
             font-size: 0.8em;
-            color: var(--color-text-subtle);
+            font-feature-settings: "lnum" 1, "onum" 0;
+            color: var(--color-text-muted);
             margin-left: 10px;
         }
 
         /* Color scales for bars */
-        .bar-death-100 { background: linear-gradient(90deg, #c0392b, #e74c3c); }
-        .bar-death-high { background: linear-gradient(90deg, #d35400, #e67e22); }
-        .bar-death-mid { background: linear-gradient(90deg, #f39c12, #f1c40f); }
-        .bar-death-low { background: linear-gradient(90deg, #27ae60, #2ecc71); }
+        .bar-death-100 { background: var(--viz-madder); }
+        .bar-death-high { background: var(--viz-sienna); }
+        .bar-death-mid { background: var(--viz-ochre); }
+        .bar-death-low { background: var(--viz-verdigris); }
 
         /* Baseline comparison indicator */
         .baseline-marker {
@@ -1168,20 +1210,21 @@
             padding: 15px 10px;
             text-align: center;
             background: var(--color-bg-card);
-            border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
         }
 
         .trial-stat .stat-value {
-            font-size: 1.8em;
-            font-weight: 700;
+            font-family: var(--font-heading);
+            font-size: 2em;
+            font-weight: 600;
             color: var(--color-text);
         }
 
         .trial-stat .stat-label {
-            font-size: 0.75em;
+            font-size: 0.72em;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.14em;
             color: var(--color-text-muted);
             margin-top: 4px;
             font-family: var(--font-ui);
@@ -1215,11 +1258,11 @@
             border-left: 4px solid;
         }
 
-        .accusation-bar.harm-death { border-left-color: #e74c3c; }
-        .accusation-bar.harm-illness { border-left-color: #e67e22; }
-        .accusation-bar.harm-animal { border-left-color: #8e44ad; }
-        .accusation-bar.harm-property { border-left-color: #3498db; }
-        .accusation-bar.harm-other { border-left-color: #95a5a6; }
+        .accusation-bar.harm-death { border-left-color: var(--viz-madder); }
+        .accusation-bar.harm-illness { border-left-color: var(--viz-sienna); }
+        .accusation-bar.harm-animal { border-left-color: var(--viz-plum); }
+        .accusation-bar.harm-property { border-left-color: var(--viz-steel); }
+        .accusation-bar.harm-other { border-left-color: var(--viz-gray); }
 
         .accusation-bar .accusation-label {
             flex: 1;
@@ -1293,7 +1336,7 @@
 
         .confession-item .confession-icon.active {
             background: var(--color-banished);
-            color: #000;
+            color: #fff;
         }
 
         .confession-item .confession-icon.inactive {
@@ -1379,9 +1422,9 @@
         th {
             padding: 12px 15px;
             text-align: left;
-            font-size: 0.75em;
+            font-size: 0.72em;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.12em;
             color: var(--color-text-muted);
             border-bottom: 1px solid var(--color-border);
             border-left: 1px solid var(--color-border);
@@ -1433,13 +1476,13 @@
             white-space: nowrap;
         }
 
-        .badge-death { background: #c0392b; color: #fff; }
-        .badge-released { background: #27ae60; color: #fff; }
-        .badge-banished { background: #d4a017; color: #fff; }
-        .badge-other { background: #7f8c8d; color: #fff; }
+        .badge-death { background: var(--color-death); color: #fff; }
+        .badge-released { background: var(--color-released); color: #fff; }
+        .badge-banished { background: var(--color-banished); color: #fff; }
+        .badge-other { background: var(--color-unknown); color: #fff; }
 
-        .badge-female { background: #9b59b6; color: #fff; }
-        .badge-male { background: #3498db; color: #fff; }
+        .badge-female { background: var(--color-gender-female); color: #fff; }
+        .badge-male { background: var(--color-gender-male); color: #fff; }
 
         .badge-paradox {
             background: var(--color-accent);
@@ -1454,10 +1497,10 @@
             margin-right: 6px;
         }
 
-        .econ-comfortable { background: #27ae60; }
-        .econ-middling { background: #3498db; }
-        .econ-poor { background: #e67e22; }
-        .econ-destitute { background: #c0392b; }
+        .econ-comfortable { background: var(--color-econ-comfortable); }
+        .econ-middling { background: var(--color-econ-middling); }
+        .econ-poor { background: var(--color-econ-poor); }
+        .econ-destitute { background: var(--color-econ-destitute); }
 
         /* Detail Panel */
         .detail-panel {
@@ -2520,7 +2563,7 @@
         // Store type info globally for reuse
         const typeInfo = {
             'midwifery': {
-                color: '#e74c3c',
+                color: '#8A3626',
                 displayName: 'Midwives',
                 desc: 'Women who assisted with childbirth and infant care. When births went wrong, midwives were often blamed.',
                 quote: '"Herbs that could make ill or heal as she chose."',
@@ -2528,7 +2571,7 @@
                 exampleHealer: 'Barbe la grosse gorge'
             },
             'herbal_remedies': {
-                color: '#27ae60',
+                color: '#0F8A6E',
                 displayName: 'Herbalists',
                 desc: 'Healers using plants, herbs, and natural preparations to treat illness. The line between medicine and magic was thin.',
                 quote: '"You would have to bring the great devil to fix it."',
@@ -2536,7 +2579,7 @@
                 exampleHealer: 'Didelon l\'Huillier'
             },
             'veterinary': {
-                color: '#8e44ad',
+                color: '#83446E',
                 displayName: 'Veterinary Healers',
                 desc: 'Those who treated sick livestock. Animal deaths were economically devastating and often attributed to witchcraft.',
                 quote: '"May God not let them live long enough to do such things."',
@@ -2544,7 +2587,7 @@
                 exampleHealer: 'Jean Colas Claude Martin'
             },
             'touch_healing': {
-                color: '#f39c12',
+                color: '#A85F30',
                 displayName: 'Touch Healers',
                 desc: 'Healing through laying on of hands, massage, or physical manipulation. Often associated with supernatural power.',
                 quote: '"He threatened that he would repent."',
@@ -2552,7 +2595,7 @@
                 exampleHealer: 'Jean Anthoine dit Jean de Socourt'
             },
             'charms_amulets': {
-                color: '#3498db',
+                color: '#4680B5',
                 displayName: 'Charm Makers',
                 desc: 'Using spoken words, prayers, written charms, or blessed objects for healing. Blurred the boundary with religious practice.',
                 quote: '"She remembered anger for seven years without showing it."',
@@ -2560,7 +2603,7 @@
                 exampleHealer: 'Mengeotte Lausson'
             },
             'other': {
-                color: '#95a5a6',
+                color: '#6E685F',
                 displayName: 'Other Healers',
                 desc: 'Various folk healing practices not fitting other categories.',
                 quote: '"She was a witch or there were none in the world."',
@@ -2568,7 +2611,7 @@
                 exampleHealer: 'Barbelline femme Didier Antoine'
             },
             'unspecified': {
-                color: '#bdc3c7',
+                color: '#9C9384',
                 displayName: 'Unspecified',
                 desc: 'Healing practice mentioned but specific type not recorded in trial documents.',
                 quote: '"Defamed by common rumor of people who communicate among themselves."',
@@ -2576,7 +2619,7 @@
                 exampleHealer: 'Margueritte femme Didier Perisc'
             },
             'divination': {
-                color: '#1abc9c',
+                color: '#4A4B9B',
                 displayName: 'Diviners',
                 desc: 'Practices involving prediction or finding lost objects, sometimes used alongside healing.',
                 quote: '"Familiar spirits the size of flies, growing and shrinking."',
@@ -2584,7 +2627,7 @@
                 exampleHealer: 'Anthoine Grevillon'
             },
             'bone_setting': {
-                color: '#7f8c8d',
+                color: '#B08D2E',
                 displayName: 'Bone Setters',
                 desc: 'Setting broken bones and treating injuries, a valued skill in rural communities.',
                 quote: '"When I have healed your child you will say I am a witch and have me burned."',
@@ -2833,8 +2876,8 @@
             const total = filteredData.length;
 
             const rows = [
-                { label: 'Female', count: femaleCount, color: 'linear-gradient(90deg, #7d3c98, #a569bd)' },
-                { label: 'Male', count: maleCount, color: 'linear-gradient(90deg, #2471a3, #5dade2)' }
+                { label: 'Female', count: femaleCount, color: '#83446E' },
+                { label: 'Male', count: maleCount, color: '#4680B5' }
             ];
 
             container.innerHTML = rows.map(r => `
@@ -2860,11 +2903,11 @@
             const order = ['comfortable', 'middling', 'poor', 'destitute', 'unknown'];
             const labels = { comfortable: 'Comfortable', middling: 'Middling', poor: 'Poor', destitute: 'Destitute', unknown: 'Unknown' };
             const colors = {
-                comfortable: 'linear-gradient(90deg, #1e8449, #2ecc71)',
-                middling: 'linear-gradient(90deg, #d4ac0d, #f4d03f)',
-                poor: 'linear-gradient(90deg, #ca6f1e, #f0b27a)',
-                destitute: 'linear-gradient(90deg, #a93226, #e74c3c)',
-                unknown: 'linear-gradient(90deg, #707b7c, #aab7b8)'
+                comfortable: '#C2A768',
+                middling: '#A18641',
+                poor: '#7F6624',
+                destitute: '#5E4A1D',
+                unknown: '#6E685F'
             };
             const rows = order.filter(s => statusCounts[s]).map(s => ({
                 label: labels[s] || s,
@@ -2912,7 +2955,7 @@
                 <div class="chart-bar">
                     <span class="bar-label">${r.label}</span>
                     <div class="bar-track">
-                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: var(--viz-bar);"></div>
                         <span class="bar-value">${(r.count / ageTotal * 100).toFixed(0)}%</span>
                     </div>
                     <span class="bar-count">${r.count}</span>
@@ -2942,7 +2985,7 @@
                 <div class="chart-bar">
                     <span class="bar-label">${r.label}</span>
                     <div class="bar-track">
-                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: var(--viz-bar);"></div>
                         <span class="bar-value">${total > 0 ? (r.count / total * 100).toFixed(0) : 0}%</span>
                     </div>
                     <span class="bar-count">${r.count}</span>
@@ -2970,7 +3013,7 @@
                 <div class="chart-bar">
                     <span class="bar-label">${r.label}</span>
                     <div class="bar-track">
-                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: var(--viz-bar);"></div>
                         <span class="bar-value">${total > 0 ? (r.count / total * 100).toFixed(0) : 0}%</span>
                     </div>
                     <span class="bar-count">${r.count}</span>
@@ -3026,7 +3069,7 @@
                 <div class="chart-bar">
                     <span class="bar-label">${r.label}</span>
                     <div class="bar-track">
-                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: linear-gradient(90deg, #0080b3, #33bbff);"></div>
+                        <div class="bar-fill" style="width: ${(r.count / maxCount * 100).toFixed(1)}%; background: var(--viz-bar);"></div>
                         <span class="bar-value">${(r.count / withKnownOcc * 100).toFixed(0)}%</span>
                     </div>
                     <span class="bar-count">${r.count}</span>
@@ -3221,17 +3264,17 @@
 
             // Map harm types to categories and labels
             const harmCategories = {
-                'death': { label: 'Caused Death', color: '#e74c3c', class: 'harm-death' },
-                'human_death': { label: 'Caused Human Death', color: '#e74c3c', class: 'harm-death' },
-                'illness': { label: 'Caused Illness', color: '#e67e22', class: 'harm-illness' },
-                'human_illness': { label: 'Caused Human Illness', color: '#e67e22', class: 'harm-illness' },
-                'injury': { label: 'Caused Injury', color: '#e67e22', class: 'harm-illness' },
-                'human_injury': { label: 'Caused Human Injury', color: '#e67e22', class: 'harm-illness' },
-                'animal_death': { label: 'Animal Death', color: '#8e44ad', class: 'harm-animal' },
-                'animal_illness': { label: 'Animal Illness', color: '#8e44ad', class: 'harm-animal' },
-                'crop_damage': { label: 'Crop Damage', color: '#3498db', class: 'harm-property' },
-                'property_damage': { label: 'Property Damage', color: '#3498db', class: 'harm-property' },
-                'other': { label: 'Other Harm', color: '#95a5a6', class: 'harm-other' }
+                'death': { label: 'Caused Death', color: '#8A3626', class: 'harm-death' },
+                'human_death': { label: 'Caused Human Death', color: '#8A3626', class: 'harm-death' },
+                'illness': { label: 'Caused Illness', color: '#A85F30', class: 'harm-illness' },
+                'human_illness': { label: 'Caused Human Illness', color: '#A85F30', class: 'harm-illness' },
+                'injury': { label: 'Caused Injury', color: '#A85F30', class: 'harm-illness' },
+                'human_injury': { label: 'Caused Human Injury', color: '#A85F30', class: 'harm-illness' },
+                'animal_death': { label: 'Animal Death', color: '#83446E', class: 'harm-animal' },
+                'animal_illness': { label: 'Animal Illness', color: '#83446E', class: 'harm-animal' },
+                'crop_damage': { label: 'Crop Damage', color: '#4680B5', class: 'harm-property' },
+                'property_damage': { label: 'Property Damage', color: '#4680B5', class: 'harm-property' },
+                'other': { label: 'Other Harm', color: '#6E685F', class: 'harm-other' }
             };
 
             // Sort by count descending
@@ -3255,7 +3298,7 @@
                 `;
             }).join('');
 
-            document.getElementById('chart-accusations').innerHTML = html || '<p style="color: #666; font-size: 0.9em;">No accusation data available</p>';
+            document.getElementById('chart-accusations').innerHTML = html || '<p style="color: var(--color-text-muted); font-size: 0.9em;">No accusation data available</p>';
         }
 
         function updateCaseBuildingChart() {
@@ -3577,7 +3620,7 @@
                             <div class="outcome-tooltip" data-healer="${healerName}">
                                 <h4>${info.label}</h4>
                                 ${dynamicQuote ? `<div class="tooltip-quote">"${dynamicQuote}"</div>` : ''}
-                                ${dynamicNarrative ? `<div class="tooltip-narrative">${dynamicNarrative}</div>` : `<p style="font-size: 0.85em; color: #888; margin-bottom: 10px;">${info.desc}</p>`}
+                                ${dynamicNarrative ? `<div class="tooltip-narrative">${dynamicNarrative}</div>` : `<p style="font-size: 0.85em; color: var(--color-text-muted); margin-bottom: 10px;">${info.desc}</p>`}
                                 ${healerName ? `<div class="tooltip-citation" onclick="event.stopPropagation(); jumpToHealer('${escapedName}')">View trial record for ${healerName} →</div>` : ''}
                             </div>
                             <div class="outcome-bar-container">
@@ -3965,7 +4008,7 @@
                     <div class="detail-grid">
                         <div class="detail-item">
                             <div class="label">Outcome</div>
-                            <div class="value" style="color: ${healer.outcome === 'death' ? '#e74c3c' : healer.outcome === 'released' ? '#27ae60' : '#f39c12'}">${formatLabel(healer.outcome || 'unknown')}</div>
+                            <div class="value" style="color: ${healer.outcome === 'death' ? '#8A3626' : healer.outcome === 'released' ? '#0F8A6E' : '#A85F30'}">${formatLabel(healer.outcome || 'unknown')}</div>
                         </div>
                         <div class="detail-item">
                             <div class="label">Witnesses</div>
@@ -3987,7 +4030,7 @@
                 html += `
                     <div class="detail-section">
                         <h4>Paradox Cases</h4>
-                        <p style="color: #f1c40f; margin-bottom: 15px; font-size: 0.9em;">
+                        <p style="color: var(--color-accent); margin-bottom: 15px; font-size: 0.9em;">
                             This healer was accused of harming someone they had previously healed.
                         </p>
                 `;
@@ -4023,7 +4066,7 @@
                     `;
                 });
                 if (healer.victims.length > 5) {
-                    html += `<p style="color: #888; font-size: 0.9em;">+ ${healer.victims.length - 5} more victims</p>`;
+                    html += `<p style="color: var(--color-text-muted); font-size: 0.9em;">+ ${healer.victims.length - 5} more victims</p>`;
                 }
                 html += `</div>`;
             }
