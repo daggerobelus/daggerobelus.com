@@ -155,7 +155,13 @@ The primary transcription pipeline uses Claude's vision capabilities guided by t
 
 Current best results:
 
-| Manuscript | Best CER | Best Run | Status |
+> **⚠️ Status (updated 2026-07): the table below is the HISTORICAL blind-testing record (Runs 1–10, through early 2026); its absolute numbers are superseded. Two corrections apply:**
+> 1. **Reference-cleaning correction (2026-06):** every pre-2026-06-16 CER is inflated ~2.5–3 pp by un-cleaned reference markup (standalone page/recipe numbers, FromThePage `(n)` counters, `{page break}` braces, end-of-line hyphenation). Cleaning is now baked into the `manuscript-evaluation` skill (Step 2). Relative findings hold; absolute numbers were always *better* than reported. **A cleaned CER is not on the same scale as these — re-run any historical result through the current pipeline before comparing.** The skill also now reports two metrics: **diplomatic CER** (orthography-strict, primary) and **reading CER** (modernization-tolerant).
+> 2. **Newer methods post-date this table** (see "Current Work" under Next Steps). On *cleaned* Sedley, the within-hand longitudinal protocol reaches ~6.8–7% diplomatic; the autoresearch blind optimizer reached **4.60% val diplomatic CER** from a one-line naive seed (run-2, partial — honest test CER still pending).
+
+**Historical record (Runs 1–10, pre-cleaning — do NOT rank cleaned numbers against these):**
+
+| Manuscript | Best CER (pre-cleaning) | Best Run | Status |
 |---|---|---|---|
 | Henslow MS688 | **3.80%** | Run 6 | Matches Transkribus (zero training data vs. 2,500 pages), usable for research |
 | Sedley MS534 | **13.65%** | Run 10 | Improved via error analysis protocol |
@@ -250,10 +256,20 @@ Data feeds into visualization pipeline
 
 ## Next Steps
 
+### Current Work (2026-06 / 2026-07) — the active phase
+
+The project has moved past the Runs 1–10 blind-testing phase into **within-hand learning and automated method-optimization** experiments, all on *cleaned* CER. Three active threads:
+
+1. **Within-hand longitudinal** (`within-hand-longitudinal-design.md`, run `ingest/archive/test/whl-sedley-test-01/`) — a single continuous agent learns one hand over sets of pages with rolling revision. First test on Sedley: ~6.8–7% cleaned diplomatic CER, very tight cross-learner spread, but *no clean learning curve* (Sedley is low-headroom — decoding solves early, residual is vocabulary). Learning-curve hypothesis needs a HARD single-hand manuscript. Driven by the `manuscript-longitudinal-run` skill.
+2. **Autoresearch CER optimization** (branch `autoresearch`; spec `docs/superpowers/specs/2026-06-16-autoresearch-cer-optimization-design.md`; skill `skills/manuscript-autoresearch-run/`; corpus `ingest/archive/test/autoresearch-sedley-01/`) — a Karpathy-style ratchet loop where a **blind optimizer** rewrites the transcription method to lower CER, discovering changes from raw error tallies alone (no interpretation handed to it). 2×2 design: start {naive, seed-from-best} × isolation {blind, faithful-control}; single variable = whether the transcriber can see the references. **run-2-naive-blind (partial, 2026-06-17): reached 4.60% val diplomatic CER in 9 iterations from a one-line naive seed** before a session limit halted it; the optimizer independently rediscovered anti-modernization, S/s, u/v, a/e/o, and t/y distinctions. Test CER + the other three cells pending. Full record in that run's `README.md`.
+3. **Ratchet head-to-head** (`ratchet-headtohead-01/`) — a parallel comparison of two generalized ratchet-loop skill designs on Sedley CER (separate session). Paused on the same 2026-07-02 credit limit.
+
+**Blog post** (below) and the **follow-up experiments** (below) remain planned but are secondary to finishing the optimization runs above.
+
 ### Blog Post
 Write up the project story so far — what the project set out to do, what it discovered, and where it's going. This frames the research direction before the final experiments.
 
-### Follow-Up Experiments (4 runs, 2 questions)
+### Follow-Up Experiments (4 runs, 2 questions) — backlog
 
 **Generation Effect — what makes self-generated notes work?**
 
