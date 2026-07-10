@@ -63,7 +63,8 @@ A comprehensive guide to funding opportunities relevant to this project, organiz
 
 ### Provost's Digital Innovation Grants (PDIGs)
 - **Amount**: Up to $2,000 (equipment/services) + $300 (travel)
-- **Deadline**: Watch GCDI website
+- **Deadline**: Cycle opens in February (as of 7/2026) — watch GCDI website
+- **Status note (7/2026)**: Best fit for Claude API costs, but not available until the February cycle. Measured API-equivalent costs (Fable 5, incl. prompt caching): full-protocol agent ~$15/page, naive agent ~$1/page; a five-manuscript N=5 protocol experiment ~$375; a five-manuscript naive sweep ~$5. Data: /tmp archived to project outputs (cost-analysis-fable.json).
 - **What it can fund**: Cloud GPU time, equipment, digital services, technical support. NOT personal income.
 - **Favors**: Open-source tools and publicly accessible work — strong fit for this project.
 - **Link**: https://gcdi.commons.gc.cuny.edu/category/provosts-digital-innovation-grants/
@@ -71,6 +72,7 @@ A comprehensive guide to funding opportunities relevant to this project, organiz
 ### Doctoral Student Research Grant (DSRG)
 - **Amount**: Up to $1,500
 - **Eligibility**: Students in years 2-6
+- **Status note (7/2026)**: Sarah currently holds a DSRG — cannot apply in the next cycle
 - **What it can fund**: Research expenses (could include cloud computing costs, Folger travel).
 - **Link**: https://www.gc.cuny.edu/fellowships-and-financial-aid/doctoral-student-funding/early-research-initiative/internal-funding-sources
 
@@ -85,7 +87,9 @@ A comprehensive guide to funding opportunities relevant to this project, organiz
 
 ### Cloud Credits (Application Required)
 - **Google Cloud Research Credits**: $1,000/year. Rolling applications. https://edu.google.com/intl/ALL_us/programs/credits/research/
+  - Claude models (incl. Opus) are served on Google Vertex AI, so these credits can directly pay for Claude API usage.
 - **AWS Cloud Credit for Research**: Up to $5,000. Needs research proposal. https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/
+  - Claude models (incl. Opus) are served on Amazon Bedrock, so these credits can directly pay for Claude API usage. Strongest near-term option for API funding (7/2026).
 - **Microsoft Azure for Students**: $100 credits. https://azure.microsoft.com/en-us/free/students
 
 ### NSF ACCESS (Explore Tier)
@@ -107,10 +111,9 @@ A comprehensive guide to funding opportunities relevant to this project, organiz
 
 ## Larger External Grants (Would Need Faculty PI or Post-PhD)
 
-### NEH Digital Humanities Advancement Grants
-- **Amount**: Up to $350,000 (Level I: $75K, Level II: $150K, Level III: $350K)
-- **Note**: Institutional application — requires a faculty member as PI. Budget CAN include grad student salary. Has previously funded OCR/HTR projects.
-- **Link**: https://www.neh.gov/grants/odh/digital-humanities-advancement-grants
+### NEH Digital Humanities Advancement Grants — CROSSED OFF (7/2026)
+- Program page no longer live as of July 2026 (likely eliminated in federal cuts), and the project has no faculty PI. Not a viable path.
+- (Former details: up to $350,000; institutional application requiring faculty PI; had previously funded OCR/HTR projects.)
 
 ### NEH Individual Fellowships
 - **Amount**: Up to $60,000 ($5K/month)
