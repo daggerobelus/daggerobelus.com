@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const tools = (await getCollection('tools'))
+  .filter(t => t.data.status !== 'draft')
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+---
+
+<BaseLayout title="Tools">
+  <section class="max-w-content mx-auto px-6 md:px-10 py-16 md:py-24">
+    <div class="max-w-2xl">
+      <h1 class="display text-4xl md:text-5xl mb-8">Tools</h1>
+      {/* Intro copy slot — Sarah-authored only; leave empty until she writes it. */}
+      <ul class="list-none p-0">
+        {tools.map(tool => (
+          <li class="mt-8">
+            <a href={`/tools/${tool.slug}/`} class="no-underline">
+              <h2>{tool.data.title}</h2>
+            </a>
+            {tool.data.description && <p>{tool.data.description}</p>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
