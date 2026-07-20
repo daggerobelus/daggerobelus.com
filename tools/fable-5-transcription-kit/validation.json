@@ -1,0 +1,121 @@
+{
+ "kit": "fable-5-transcription-kit",
+ "kit_version": "1.0",
+ "model": "claude-fable-5",
+ "method": "rung-1-editorial-contract",
+ "source_run": {
+  "id": "3-ladder",
+  "name": "Fable 5 scaffolding ladder (final)",
+  "dates": "2026-07-02 to 2026-07-12"
+ },
+ "scoring": "Strict CER = compute_cer.py (jiwer). Lenient CER = presentation-invariant variant (lenient_cer.py), an upper bound on reading error.",
+ "n_agents_per_manuscript": 3,
+ "mean_cost_per_page_usd_cached": 7.96,
+ "results": {
+  "henslow": {
+   "agents": [
+    {
+     "agent": 1,
+     "strict": 2.21,
+     "lenient": 1.69
+    },
+    {
+     "agent": 2,
+     "strict": 2.11,
+     "lenient": 1.58
+    },
+    {
+     "agent": 3,
+     "strict": 2.21,
+     "lenient": 1.69
+    }
+   ],
+   "strict_mean": 2.18,
+   "lenient_mean": 1.65
+  },
+  "sedley": {
+   "agents": [
+    {
+     "agent": 1,
+     "strict": 2.03,
+     "lenient": 1.65
+    },
+    {
+     "agent": 2,
+     "strict": 3.33,
+     "lenient": 3.16
+    },
+    {
+     "agent": 3,
+     "strict": 2.8,
+     "lenient": 2.58
+    }
+   ],
+   "strict_mean": 2.72,
+   "lenient_mean": 2.46
+  },
+  "bulkeley": {
+   "agents": [
+    {
+     "agent": 1,
+     "strict": 3.42,
+     "lenient": 3.21
+    },
+    {
+     "agent": 2,
+     "strict": 3.78,
+     "lenient": 3.57
+    },
+    {
+     "agent": 3,
+     "strict": 2.35,
+     "lenient": 2.21
+    }
+   ],
+   "strict_mean": 3.18,
+   "lenient_mean": 3.0
+  },
+  "brumwich": {
+   "agents": [
+    {
+     "agent": 1,
+     "strict": 3.63,
+     "lenient": 1.93
+    },
+    {
+     "agent": 2,
+     "strict": 4.3,
+     "lenient": 2.62
+    },
+    {
+     "agent": 3,
+     "strict": 4.27,
+     "lenient": 2.6
+    }
+   ],
+   "strict_mean": 4.07,
+   "lenient_mean": 2.38
+  },
+  "jane-jackson": {
+   "agents": [
+    {
+     "agent": 1,
+     "strict": 3.79,
+     "lenient": 2.71
+    },
+    {
+     "agent": 2,
+     "strict": 3.59,
+     "lenient": 2.56
+    },
+    {
+     "agent": 3,
+     "strict": 3.52,
+     "lenient": 2.48
+    }
+   ],
+   "strict_mean": 3.63,
+   "lenient_mean": 2.58
+  }
+ }
+}
