@@ -1,0 +1,140 @@
+---
+import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/prose.css';
+
+export async function getStaticPaths() {
+  const tools = await getCollection('tools');
+  return tools.map(tool => ({ params: { slug: tool.slug }, props: { tool } }));
+}
+
+const { tool } = Astro.props;
+const { title, description, download, promptFile } = tool.data;
+const { Content } = await tool.render();
+
+// Consider the prose body empty when only MDX/HTML/JSX comments and whitespace remain
+// (matches the guard in projects/[slug].astro — the kit entry currently has no body)
+const hasProseContent = tool.body
+  ? tool.body
+      .replace(/\{\/\*[\s\S]*?\*\/\}/g, '')  // JSX/MDX comments
+      .replace(/<!--[\s\S]*?-->/g, '')        // HTML comments
+      .trim().length > 0
+  : false;
+
+// Render the copy-paste prompt block only when the built artifact exists.
+let promptText: string | null = null;
+if (promptFile) {
+  const promptPath = path.resolve('public/tools', tool.slug, promptFile);
+  if (fs.existsSync(promptPath)) {
+    promptText = fs.readFileSync(promptPath, 'utf-8');
+  }
+}
+
+const zipPath = download ? path.resolve('public/tools', tool.slug, download) : null;
+const downloadHref =
+  zipPath && fs.existsSync(zipPath) ? `/tools/${tool.slug}/${download}` : null;
+---
+
+<BaseLayout title={title} description={description ?? title} compact={true}>
+  <article class="max-w-content mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-20">
+    <header class="max-w-3xl">
+      <h1 class="display text-4xl md:text-5xl text-ink">{title}</h1>
+    </header>
+
+    {hasProseContent && (
+      <section
+        class="max-w-3xl prose prose-lg mt-10"
+        style="font-family: var(--font-serif);"
+      >
+        <Content />
+      </section>
+    )}
+
+    {promptText && (
+      <section class="max-w-3xl mt-10">
+        <pre class="tool-prompt overflow-x-auto whitespace-pre-wrap"><code>{promptText}</code></pre>
+      </section>
+    )}
+
+    {downloadHref && (
+      <p class="max-w-3xl mt-8">
+        <a class="tool-download font-ui" href={downloadHref} download>Download</a>
+      </p>
+    )}
+  </article>
+</BaseLayout>
+
+<script>
+  // Group the first two h3 sections of the kit body (heading through its
+  // ordered list) into side-by-side columns. Section order is authored in
+  // the kit README; without JS the sections render stacked, which is fine.
+  const prose = document.querySelector('.prose');
+  const heads = prose ? [...prose.querySelectorAll('h3')].slice(0, 2) : [];
+  if (heads.length === 2) {
+    const grid = document.createElement('div');
+    grid.className = 'tool-directions-grid';
+    heads[0].before(grid);
+    for (const h of heads) {
+      const col = document.createElement('div');
+      col.className = 'tool-directions-col';
+      const nodes = [h];
+      let cur = h.nextElementSibling;
+      while (cur && cur.tagName !== 'H3') {
+        nodes.push(cur);
+        if (cur.tagName === 'OL') break;
+        cur = cur.nextElementSibling;
+      }
+      grid.append(col);
+      for (const n of nodes) col.append(n);
+    }
+  }
+</script>
+
+<style is:global>
+  .tool-directions-grid {
+    display: grid;
+    gap: 1.25rem;
+    margin: 2rem 0;
+  }
+  @media (min-width: 768px) {
+    .tool-directions-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .tool-directions-col {
+    border: 1px solid color-mix(in srgb, var(--color-gold) 35%, transparent);
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    background: color-mix(in srgb, var(--color-gold) 5%, var(--color-ivory));
+  }
+  .prose .tool-directions-col h3 {
+    margin-top: 0;
+    color: var(--color-gold);
+  }
+  .prose .tool-directions-col ol {
+    margin-bottom: 0;
+  }
+  .tool-prompt {
+    border: 1px solid color-mix(in srgb, var(--color-gold) 35%, transparent);
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    background: color-mix(in srgb, var(--color-archive) 12%, var(--color-ivory));
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--color-ink);
+  }
+  .tool-download {
+    display: inline-block;
+    padding: 0.6rem 1.4rem;
+    border: 1px solid var(--color-gold);
+    border-radius: 6px;
+    color: var(--color-ink);
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+  .tool-download:hover {
+    background: color-mix(in srgb, var(--color-gold) 18%, transparent);
+  }
+</style>
