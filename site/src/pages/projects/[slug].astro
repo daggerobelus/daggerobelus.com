@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Divider from '../../components/Divider.astro';
+import '../../styles/prose.css';
 
 export async function getStaticPaths() {
   const projects = await getCollection('projects');
@@ -183,35 +184,5 @@ const formatDate = (date: Date) => {
   }
   #page a.chapter-link:hover .chapter-title .annotated-mark {
     opacity: 1;
-  }
-
-  /* Prose body (when a project has actual written content) */
-  .prose {
-    --tw-prose-body: var(--color-ink);
-    --tw-prose-headings: var(--color-ink);
-    --tw-prose-links: var(--color-gold);
-    color: var(--tw-prose-body);
-    font-size: 1.0625rem;
-    line-height: 1.7;
-  }
-  .prose h2 {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  .prose h3 {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 1.25rem;
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
-  }
-  .prose p {
-    margin-bottom: 1.25rem;
-  }
-  .prose strong {
-    font-weight: 600;
   }
 </style>

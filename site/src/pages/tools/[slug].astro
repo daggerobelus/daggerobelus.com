@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/prose.css';
 
 export async function getStaticPaths() {
   const tools = await getCollection('tools');
