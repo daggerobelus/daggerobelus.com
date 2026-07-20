@@ -69,27 +69,33 @@ Changes are presented to Sarah as a diff against the original for approval.
 
 ## Structure
 
+The kit lives OUTSIDE `projects/` in a new top-level `tools/` area with its
+own site menu ("Tools"). The tools area mirrors the established
+projects↔site conventions (per-item `public/` folder symlinked into
+`site/public/`, content file symlinked into a site content collection).
+
 ```
-projects/teaching-machines-to-read/
-├── kit/                          # source of truth (not served)
-│   ├── fable-5/
-│   │   ├── README.md             # Sarah's prose; single source for zip README
-│   │   │                         #   AND the site kit text
-│   │   ├── transcription-prompt.txt
-│   │   └── validation.json       # generated from run-3 ladder results
-│   └── build-kit.sh              # packages a named kit → public/kit/
-└── public/
-    └── kit/                      # served via existing symlink convention at
-        │                         #   daggerobelus.com/projects/teaching-machines-to-read/kit/
-        ├── tmtr-fable-5-kit.zip  # README + prompt + validation.json
-        ├── fable-5-transcription-prompt.txt   # standalone copy-paste version
-        └── fable-5-validation.json            # for the page to render numbers
+tools/
+├── fable-5-transcription-kit/
+│   ├── README.md                 # Sarah's prose + content frontmatter; single
+│   │                             #   source for the site tool page AND the zip
+│   │                             #   README (frontmatter stripped in the zip)
+│   ├── transcription-prompt.txt
+│   ├── validation.json           # generated from run-3 ladder results
+│   └── public/                   # served; symlinked to site/public/tools/…
+│       ├── fable-5-transcription-kit.zip      # README + prompt + validation.json
+│       ├── fable-5-transcription-prompt.txt   # standalone copy-paste version
+│       └── fable-5-validation.json            # for the page to render numbers
+└── build-kit.sh                  # packages a named kit folder → its public/
 ```
 
-`build-kit.sh` takes the kit folder name (`fable-5`) so future kits reuse it;
-it is the only shared machinery across kits. Rerunning it re-syncs zip and
-standalone files from source. It should fail loudly if README.md is missing
-or empty rather than shipping a kit without instructions.
+Served at `daggerobelus.com/tools/fable-5-transcription-kit/…`. Future kits
+for other models are sibling folders under `tools/`.
+
+`build-kit.sh` takes the kit folder name so future kits reuse it; it is the
+only shared machinery across kits. Rerunning it re-syncs zip and standalone
+files from source. It should fail loudly if README.md is missing or empty
+rather than shipping a kit without instructions.
 
 ## validation.json (generated)
 
@@ -102,16 +108,20 @@ labels.
 
 ## Site integration
 
-- Kit section on the project page (`site/src/content/projects/teaching-machines-to-read.mdx`),
-  presenting kits as a list of one: "Transcription kit for Claude Fable 5."
-- The section renders Sarah's `kit/fable-5/README.md` (single source). MDX can
-  import/include it; exact mechanism (import vs. symlink vs. build-script
-  copy into `public/kit/`) decided at implementation based on the Astro
-  setup — whatever preserves single-source editing.
+- New "Tools" menu/section on the site, separate from Projects. Requires a
+  `tools` content collection (`site/src/content/config.ts`) and a nav entry.
+  Listing shows a list of one: "Transcription kit for Claude Fable 5."
+- The tool page renders Sarah's `README.md` (single source): the README
+  carries the content-collection frontmatter and is symlinked into
+  `site/src/content/tools/` like project content files; the build script
+  strips frontmatter when copying it into the zip. If the Astro setup makes
+  the symlink approach awkward, fall back to whatever preserves
+  single-source editing.
 - Copy-paste prompt block + zip download link + optionally rendered
   validation numbers.
 - Component/visual treatment is Jack's layer (Semantic UI web components);
-  keep the MDX clean and structural.
+  keep the content clean and structural, and coordinate with Jack on the
+  nav/menu addition.
 
 ## Facts Sarah's README should have available (her call how/whether to use)
 
@@ -138,8 +148,11 @@ labels.
 
 ## Success criteria
 
-- A scholar can go from the kit page to a transcription in one claude.ai
+- A scholar can go from the tool page to a transcription in one claude.ai
   session with no tooling.
 - Everything human-read on the page and in the zip is Sarah's writing.
-- `build-kit.sh fable-5` reproduces the served artifacts from source exactly.
+- `build-kit.sh fable-5-transcription-kit` reproduces the served artifacts
+  from source exactly.
 - Nothing Folger-derived ships.
+- The kit is reachable from the site's Tools menu, not buried in the
+  project page.
