@@ -1,0 +1,31 @@
+/* Prose body (when a project or tool page has actual written content).
+   Shared between projects/[slug].astro and tools/[slug].astro so the
+   .prose classes applied to <Content /> are actually styled on both. */
+.prose {
+  --tw-prose-body: var(--color-ink);
+  --tw-prose-headings: var(--color-ink);
+  --tw-prose-links: var(--color-gold);
+  color: var(--tw-prose-body);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+.prose h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prose h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose p {
+  margin-bottom: 1.25rem;
+}
+.prose strong {
+  font-weight: 600;
+}
