@@ -59,6 +59,7 @@ Then follow the user-specific instructions below.
 
 - `/ai/` - AI context and documentation
 - `/projects/` - Individual projects (research, data, analysis pipelines)
+- `/tools/` - Downloadable public tool kits (model-specific; spec: docs/superpowers/specs/2026-07-20-fable-5-transcription-kit-design.md)
 - `/site/` - daggerobelus.com (built with Semantic UI web components)
 
 ### Technical Approach
