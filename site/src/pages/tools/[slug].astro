@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const tools = await getCollection('tools');
+  return tools.map(tool => ({ params: { slug: tool.slug }, props: { tool } }));
+}
+
+const { tool } = Astro.props;
+const { title, description, download, promptFile } = tool.data;
+const { Content } = await tool.render();
+
+// Consider the prose body empty when only MDX/HTML/JSX comments and whitespace remain
+// (matches the guard in projects/[slug].astro — the kit entry currently has no body)
+const hasProseContent = tool.body
+  ? tool.body
+      .replace(/\{\/\*[\s\S]*?\*\/\}/g, '')  // JSX/MDX comments
+      .replace(/<!--[\s\S]*?-->/g, '')        // HTML comments
+      .trim().length > 0
+  : false;
+
+// Render the copy-paste prompt block only when the built artifact exists.
+let promptText: string | null = null;
+if (promptFile) {
+  const promptPath = path.resolve('public/tools', tool.slug, promptFile);
+  if (fs.existsSync(promptPath)) {
+    promptText = fs.readFileSync(promptPath, 'utf-8');
+  }
+}
+
+const zipPath = download ? path.resolve('public/tools', tool.slug, download) : null;
+const downloadHref =
+  zipPath && fs.existsSync(zipPath) ? `/tools/${tool.slug}/${download}` : null;
+---
+
+<BaseLayout title={title} description={description ?? title} compact={true}>
+  <article class="max-w-content mx-auto px-6 md:px-10 pt-10 md:pt-14 pb-20">
+    <header class="max-w-3xl">
+      <h1 class="display text-4xl md:text-5xl text-ink">{title}</h1>
+    </header>
+
+    {hasProseContent && (
+      <section
+        class="max-w-3xl prose prose-lg mt-10"
+        style="font-family: var(--font-serif);"
+      >
+        <Content />
+      </section>
+    )}
+
+    {promptText && (
+      <section class="max-w-3xl mt-10">
+        <pre class="overflow-x-auto whitespace-pre-wrap"><code>{promptText}</code></pre>
+      </section>
+    )}
+
+    {downloadHref && (
+      <p class="max-w-3xl mt-6">
+        <a href={downloadHref} download>Download</a>
+      </p>
+    )}
+  </article>
+</BaseLayout>
