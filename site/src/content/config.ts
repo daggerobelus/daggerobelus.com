@@ -28,4 +28,17 @@ const chapters = defineCollection({
   }),
 });
 
-export const collections = { projects, chapters };
+const tools = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    publishDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    status: z.enum(['draft', 'published']).default('published'),
+    download: z.string().optional(),
+    promptFile: z.string().optional(),
+  }),
+});
+
+export const collections = { projects, chapters, tools };
